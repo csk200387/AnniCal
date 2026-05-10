@@ -102,7 +102,7 @@ function handleShare(anv: Anniversary) {
               class="flex flex-col gap-0.5 overflow-hidden"
             >
               <span
-                v-for="(anv, i) in cell.anniversaries.slice(0, 2)"
+                v-for="anv in cell.anniversaries.slice(0, 2)"
                 :key="anv.id"
                 class="truncate rounded px-1 text-[10px] font-medium leading-tight"
                 :class="cell.isCurrentMonth ? 'bg-brand-50 text-brand-700' : 'bg-neutral-100 text-neutral-400'"
