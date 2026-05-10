@@ -1,0 +1,44 @@
+[
+  {
+    "id": "general",
+    "label": "일반",
+    "description": "전 세계가 함께 챙기는 보편 기념일",
+    "emoji": "📅",
+    "colorToken": "neutral"
+  },
+  {
+    "id": "romance",
+    "label": "연애",
+    "description": "연인·기념일·로맨틱한 날들",
+    "emoji": "💌",
+    "colorToken": "rose"
+  },
+  {
+    "id": "holiday",
+    "label": "공휴일",
+    "description": "법정 공휴일과 국경일",
+    "emoji": "🇰🇷",
+    "colorToken": "red"
+  },
+  {
+    "id": "motorsport",
+    "label": "모터스포츠",
+    "description": "F1·WRC 등 글로벌 레이싱 일정",
+    "emoji": "🏁",
+    "colorToken": "amber"
+  },
+  {
+    "id": "extreme",
+    "label": "익스트림",
+    "description": "클라이밍·아이스 스위밍 등 극한 액티비티",
+    "emoji": "🧗",
+    "colorToken": "sky"
+  },
+  {
+    "id": "brand",
+    "label": "브랜드 데이",
+    "description": "맥도날드 데이, 스타벅스 데이 등",
+    "emoji": "🍔",
+    "colorToken": "yellow"
+  }
+]
