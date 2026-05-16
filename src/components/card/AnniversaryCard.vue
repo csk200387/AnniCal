@@ -1,6 +1,8 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import type { Anniversary } from '@/types/anniversary'
 import { formatKoreanMonthDay } from '@/utils/dateUtils'
+import { colorsForTag, primaryColorForTags } from '@/utils/tagPalette'
 import CategoryBadge from '@/components/common/CategoryBadge.vue'
 
 const props = defineProps<{
@@ -12,6 +14,11 @@ const props = defineProps<{
 defineEmits<{ (e: 'share', anniversary: Anniversary): void }>()
 
 const dateLabel = formatKoreanMonthDay(props.anniversary)
+
+const titleColor = computed(() => primaryColorForTags(props.anniversary.tags).text)
+const tagChips = computed(() =>
+  props.anniversary.tags.map((tag) => ({ tag, color: colorsForTag(tag) })),
+)
 </script>
 
 <template>
@@ -32,9 +39,20 @@ const dateLabel = formatKoreanMonthDay(props.anniversary)
     </header>
 
     <div class="px-5 pb-5 pt-3">
-      <h2 class="text-xl font-bold tracking-tight text-neutral-900">
+      <h2 class="text-xl font-bold tracking-tight" :class="titleColor">
         {{ anniversary.name }}
       </h2>
+
+      <ul v-if="tagChips.length" class="mt-3 flex flex-wrap gap-1.5">
+        <li
+          v-for="{ tag, color } in tagChips"
+          :key="tag"
+          class="rounded-full border px-2 py-0.5 text-[11px] font-medium"
+          :class="[color.text, color.bg, color.border]"
+        >
+          #{{ tag }}
+        </li>
+      </ul>
 
       <section class="mt-4 space-y-3 text-sm leading-relaxed text-neutral-700">
         <p>

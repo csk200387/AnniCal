@@ -50,6 +50,31 @@
     "sourceUrl": "https://www.worldlupusday.org/"
   },
   {
+    "id": "anv-nth-05-2-sun-us-mothers-day",
+    "date": "05-2-SUN",
+    "dateType": "annual-nth-weekday",
+    "name": "미국 어머니의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "가정",
+      "어머니의날",
+      "카네이션"
+    ],
+    "storytelling": {
+      "origin": "1914년 미국 의회와 우드로 윌슨 대통령이 '5월 둘째 주 일요일'을 어머니의 날로 공식 지정. 안나 자비스(Anna Jarvis)가 돌아가신 어머니를 추모하며 시작한 운동에서 비롯됐다.",
+      "anecdote": "정작 창시자 안나 자비스는 훗날 이 날이 카드·꽃·캔디 회사들의 상업적 축제로 변질됐다며 분노, 평생을 '어머니의 날 폐지 운동'에 바쳤다. 본인이 만든 기념일과 끝까지 싸운 셈."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "전화 한 통이 카네이션보다 낫다."
+      }
+    ],
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mother%27s_Day_(United_States)"
+  },
+  {
     "id": "anv-fixed-05-15-teachers-day-kr",
     "date": "05-15",
     "dateType": "annual-fixed",
@@ -879,5 +904,1882 @@
       }
     ],
     "sourceUrl": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84_%ED%95%B4%EC%A0%81%EC%B2%98%EB%9F%BC_%EB%A7%90%ED%95%98%EA%B8%B0%EC%9D%98_%EB%82%A0"
+  },
+  {
+    "id": "anv-fixed-01-01-new-year-kr",
+    "date": "01-01",
+    "dateType": "annual-fixed",
+    "name": "신정",
+    "category": "holiday",
+    "tags": [
+      "대한민국",
+      "법정공휴일",
+      "새해",
+      "양력"
+    ],
+    "storytelling": {
+      "origin": "양력(태양력)을 기준으로 한 해가 시작되는 첫날. 대한민국에서는 '새로운 설'이라는 의미의 신정(新正)으로 부르며, 법정공휴일로 지정되어 있다.",
+      "anecdote": "과거 정부는 이중과세(二重過歲)를 막기 위해 음력설(구정) 대신 양력설(신정)을 적극 장려했다. 한때 신정에 3일 연속으로 쉬기도 했으나, 1989년 음력설이 3일 연휴의 '설날'로 공식 인정되면서 신정 연휴는 점차 축소되어 현재는 1월 1일 하루만 공휴일로 쉰다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "올해 계획: 작년에 세웠던 재작년 계획 실천하기."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/%EC%83%88%ED%95%B4_%EC%B2%AB%EB%82%A0"
+  },
+  {
+    "id": "anv-fixed-01-14-diary-day-kr",
+    "date": "01-14",
+    "dateType": "annual-fixed",
+    "name": "다이어리 데이",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "다이어리",
+      "새해계획",
+      "헬로데이",
+      "포틴데이"
+    ],
+    "storytelling": {
+      "origin": "새해를 맞아 1월에 알찬 한 해를 시작하라는 뜻으로 생겨난 기념일. 소중한 사람에게 다이어리를 선물하거나, 새로 받은 다이어리에 1년의 계획을 적어놓는 날이다.",
+      "anecdote": "연인들 사이에서는 자신의 1년 치 데이트 계획을 미리 적어 교환하는 문화가 있다. 한편, 중고등학생들 사이에서는 좋아하는 사람에게 이날 가장 먼저 인사를 하면 사랑이 이루어진다는 '헬로데이(Hello day)'로 불리기도 한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "올해도 다이어리는 1월까지만 빼곡할 예정."
+      }
+    ],
+    "sourceUrl": "https://www.joongang.co.kr/article/16933312"
+  },
+  {
+    "id": "anv-fixed-01-16-hot-spicy-food-day-global",
+    "date": "01-16",
+    "dateType": "annual-fixed",
+    "name": "국제 뜨겁고 매운 음식의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "매운맛",
+      "음식"
+    ],
+    "storytelling": {
+      "origin": "매년 1월 16일, 전 세계의 맵고 뜨거운 요리를 기념하고 매운 음식을 사랑하는 사람들을 위해 만들어진 비공식 기념일이다.",
+      "anecdote": "캡사이신이 들어간 매운 음식을 먹으면 엔돌핀이 분비되어 스트레스 해소에 도움을 준다고 알려져 있다. 이 날 매운맛 마니아들은 스코빌 지수(SHU)가 높은 극한의 고추에 도전하거나 불닭볶음면, 마라탕, 똠얌꿍 등 각국의 매운 요리를 먹으며 '맵부심'을 뽐낸다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "맵찔이 출입 금지, 오늘만큼은 위장 파괴 맵부심 폭발!"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/celebrations/international-hot-and-spicy-food-day-january-16"
+  },
+  {
+    "id": "gov-1",
+    "date": "02-28",
+    "dateType": "annual-fixed",
+    "name": "2ㆍ28민주운동 기념일",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 국가보훈부. 2ㆍ28민주운동의 역사적 의미와 숭고한 정신을 길이 계승ㆍ발전시키는 행사를 한다. [cite: 2]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-2",
+    "date": "03-03",
+    "dateType": "annual-fixed",
+    "name": "납세자의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 재정경제부. 국민의 성실 납세에 감사(感謝)하고, 세금의 중요성을 알리는 행사를 한다. [cite: 3]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-3",
+    "date": "03-08",
+    "dateType": "annual-fixed",
+    "name": "3ㆍ8민주의거 기념일",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 국가보훈부. 3ㆍ8민주의거 의 역사적 의미와 숭고한 정신을 길 이 계승ㆍ발전시키는 행사를 한다. [cite: 4]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-4",
+    "date": "03-15",
+    "dateType": "annual-fixed",
+    "name": "3ㆍ15의거 기념일",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 국가보훈부. 3ㆍ15의거를 기념하는 행사를 한다. [cite: 5]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-5",
+    "date": "03-W3-3",
+    "dateType": "annual-floating",
+    "name": "상공의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 산업통상부. 3월 셋째 수요일. 상공업의 진흥을 촉진하는 행사를 한다. [cite: 6]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-6",
+    "date": "03-W4-5",
+    "dateType": "annual-floating",
+    "name": "서해수호의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 국가보훈부. 3월 넷째 금요일. 서해수호를 위한 희생을 기리고, 국민의 안보의식을 북돋우며, 국토 수호 결의를 다지는 행사를 한다. [cite: 7]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-7",
+    "date": "04-03",
+    "dateType": "annual-fixed",
+    "name": "4ㆍ3희생자 추념일",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 행정안전부. 제주4ㆍ3사건 희생자를 위령하는 추념 행사를 한다. (희생자란 「제주4·3사건 진상규명 및 희생자 명예회복에 관한 특별법」에 따른 희생자를 말함) [cite: 8, 59]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-8",
+    "date": "04-W1-5",
+    "dateType": "annual-floating",
+    "name": "예비군의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 국방부. 4월 첫째 금요일. 모든 예비군이 참가하여 국가방위의 임무를 새롭게 다짐하는 행사를 한다. [cite: 9]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-9",
+    "date": "04-05",
+    "dateType": "annual-fixed",
+    "name": "식목일",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 농림축산 식품부. 나무 심기를 통해 국민의 나무 사랑 정신을 북돋우고, 산지(山地)의 자원화를 위한 행사를 한다. [cite: 10]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-10",
+    "date": "04-07",
+    "dateType": "annual-fixed",
+    "name": "보건의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 보건복지부. 국민보건 향상을 위한 관련 분야의 각종 행사를 한다. [cite: 11]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-11",
+    "date": "04-11",
+    "dateType": "annual-fixed",
+    "name": "대한민국 임시정부 수립 기념일",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 국가보훈부. 3ㆍ1운동으로 건립된 대한민국 임시정부의 법통(法統)과 역사적 의의를 기리는 행사를 한다. [cite: 12]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-12",
+    "date": "04-19",
+    "dateType": "annual-fixed",
+    "name": "4ㆍ19혁명 기념일",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 국가보훈부. 4ㆍ19혁명을 기념하는 행사를 한다. [cite: 13]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-13",
+    "date": "04-20",
+    "dateType": "annual-fixed",
+    "name": "장애인의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 보건복지부. 장애인에 대한 국민의 이해를 깊게 하고, 장애인의 재활 의욕을 높이는 행사를 한다. [cite: 14]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-14",
+    "date": "04-21",
+    "dateType": "annual-fixed",
+    "name": "과학의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 과학기술 정보통신부. 과학기술의 중요성을 높이고, 모든 국민생활의 과학화 추진과 관련된 행사를 한다. [cite: 15]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-15",
+    "date": "04-22",
+    "dateType": "annual-fixed",
+    "name": "정보통신의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 과학기술 정보통신부, 방송미디어통신위원회. 정보통신의 중요성과 의의를 높이고, 정보통신사업의 발전을 다짐하며, 관계 종사원들의 노고를 위로하는 행사를 한다. [cite: 16]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-16",
+    "date": "04-25",
+    "dateType": "annual-fixed",
+    "name": "법의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 법무부. 국민의 준법정신을 함양하고, 법의 존엄성과 관련된 행사를 한다. [cite: 17]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-17",
+    "date": "04-28",
+    "dateType": "annual-fixed",
+    "name": "충무공 이순신 탄신일",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 문화체육 관광부. 충무공 이순신의 숭고한 충의를 길이 빛내는 행사를 한다. [cite: 18]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-18",
+    "date": "04-W4-5",
+    "dateType": "annual-floating",
+    "name": "순직의무군경의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 국가보훈부. 4월 넷째 금요일. 국방의무 수행 중 사망한 순직의무군경의 희생과 호국정신을 기리는 행사를 한다. [cite: 19]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-19",
+    "date": "05-01",
+    "dateType": "annual-fixed",
+    "name": "근로자의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 고용노동부. 근로자의 노고를 위로하고, 근로의욕을 더욱 높이는 행사를 한다. [cite: 20]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-20",
+    "date": "05-05",
+    "dateType": "annual-fixed",
+    "name": "어린이 날",
+    "category": "holiday",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 보건복지부. 어린이들이 올바르고 슬기롭고 씩씩하게 자라도록 하는 행사를 한다. [cite: 21]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-21",
+    "date": "05-08",
+    "dateType": "annual-fixed",
+    "name": "어버이 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 보건복지부. 조상과 어버이에 대한 은혜를 헤아리고, 어른과 노인 보호와 관련된 행사를 한다. [cite: 22]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-22",
+    "date": "05-11",
+    "dateType": "annual-fixed",
+    "name": "동학농민혁명 기념일",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 문화체육 관광부. 동학농민혁명의 역사적 가치와 의미를 재조명하고 애국애족정신을 높이는 행사를 한다. [cite: 23]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-23",
+    "date": "05-15",
+    "dateType": "annual-fixed",
+    "name": "스승의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 교육부. 교권 존중의 사회적 분위기 조성과 스승 공경과 관련된 행사를 한다. [cite: 24]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-24",
+    "date": "05-15",
+    "dateType": "annual-fixed",
+    "name": "세종대왕 나신 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 문화체육관광부, 국가유산청. 세종대왕의 위대한 업적을 기리고, 창조정신과 애민사상을 계승ㆍ발전시키는 행사를 한다. [cite: 25]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-25",
+    "date": "05-18",
+    "dateType": "annual-fixed",
+    "name": "5ㆍ18민주화운동 기념일",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 국가보훈부. 5ㆍ18민주화운동을 기념하는 행사를 한다. [cite: 26]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-26",
+    "date": "05-21",
+    "dateType": "annual-fixed",
+    "name": "부부의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 성평등가족부. 건전한 가족문화의 정착과 가족 해체 예방을 위한 행사를 한다. [cite: 27]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-27",
+    "date": "05-W3-1",
+    "dateType": "annual-floating",
+    "name": "성년의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 성평등가족부. 5월 셋째 월요일. 국가와 민족의 장래를 짊어질 성인으로서의 자부심과 책임감을 갖게 하는 행사를 한다. [cite: 28]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-28",
+    "date": "05-27",
+    "dateType": "annual-fixed",
+    "name": "우주항공의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 우주항공청. 우주경제 시대의 중요성을 알리고, 우주항공 산업의 진흥을 촉진하는 행사를 한다. [cite: 29]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-29",
+    "date": "05-31",
+    "dateType": "annual-fixed",
+    "name": "바다의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 해양수산부. 바다 관련 산업의 중요성과 의의를 높이고, 국민의 해양에 대한 인식을 북돋우며, 관계 종사원들의 노고를 위로하는 행사를 한다. [cite: 30]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-30",
+    "date": "06-01",
+    "dateType": "annual-fixed",
+    "name": "의병의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 행정안전부. 의병의 희생정신을 기리고, 국민의 나라사랑 정신을 북돋우는 행사를 한다. [cite: 31]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-31",
+    "date": "06-05",
+    "dateType": "annual-fixed",
+    "name": "환경의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 기후에너지환경부. 국민의 환경보전의식 함양과 실천의 생활화를 위한 행사를 한다. [cite: 32]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-32",
+    "date": "06-06",
+    "dateType": "annual-fixed",
+    "name": "현충일",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 국가보훈부. 호국영령의 명복을 빌고, 순국선열 및 전몰장병(戰歿將兵)의 숭고한 호국정신과 위훈(偉勳)을 기리는 행사를 한다. [cite: 33]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-33",
+    "date": "06-10",
+    "dateType": "annual-fixed",
+    "name": "6ㆍ10민주항쟁 기념일",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 행정안전부. 6ㆍ10민주항쟁을 기념하는 행사를 한다. [cite: 34]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-34",
+    "date": "06-10",
+    "dateType": "annual-fixed",
+    "name": "6ㆍ10만세운동 기념일",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 국가보훈부. 일제의 강제병합과 식민지배에 항거한 순국선열의 숭고한 독립정신과 희생정신을 계승하기 위한 행사를 한다. [cite: 35]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-35",
+    "date": "06-25",
+    "dateType": "annual-fixed",
+    "name": "6ㆍ25전쟁일",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 국가보훈부. 6ㆍ25전쟁을 상기하여 국민의 안보의식을 북돋우는 행사를 한다. [cite: 36]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-36",
+    "date": "06-28",
+    "dateType": "annual-fixed",
+    "name": "철도의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 국토교통부. 기간(基幹) 교통수단인 철도의 의의를 높이고, 종사원들의 노고를 위로하는 행사를 한다. [cite: 37]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-37",
+    "date": "07-W2-3",
+    "dateType": "annual-floating",
+    "name": "정보보호의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 과학기술정보통신부, 행정안전부, 국가정보원. 7월 둘째 수요일. 국가 차원의 정보보호 역량을 결집하고, 국민의 정보보호 생활화를 촉진하는 행사를 한다. [cite: 38]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-38",
+    "date": "07-14",
+    "dateType": "annual-fixed",
+    "name": "북한이탈주민의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 통일부. 북한이탈주민을 포용하고, 북한이탈주민의 권익을 향상시키며, 남북주민 간 통합문화를 형성하고, 통일인식을 제고하기 위한 행사를 한다. [cite: 39]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-39",
+    "date": "09-07",
+    "dateType": "annual-fixed",
+    "name": "푸른 하늘의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 외교부, 기후에너지환경부. 유엔 기념일인 푸른 하늘을 위한 국제 맑은 공기의 날을 맞이하여 대기질 개선에 대한 국민의 이해와 관심을 제고하고 대기오염 저감활동에 범국가적인 참여를 촉진하는 행사를 한다. [cite: 40]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-40",
+    "date": "10-01",
+    "dateType": "annual-fixed",
+    "name": "국군의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 국방부. 국군의 위용 및 전투력을 국내외에 과시하고, 국군장병의 사기를 높이는 행사를 한다. [cite: 41]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-41",
+    "date": "10-02",
+    "dateType": "annual-fixed",
+    "name": "노인의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 보건복지부. 경로효친의 미풍양속을 확산하는 행사를 한다. [cite: 42]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-42",
+    "date": "10-05",
+    "dateType": "annual-fixed",
+    "name": "세계 한인의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 재외동포청. 세계 각지에 거주하는 재외동포의 민족적 의의를 되새기는 행사를 한다. [cite: 43]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-43",
+    "date": "10-08",
+    "dateType": "annual-fixed",
+    "name": "재향군인의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 국가보훈부. 재향군인 상호 간의 친목을 도모하고, 국가발전과 관련된 행사를 한다. [cite: 44]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-44",
+    "date": "10-15",
+    "dateType": "annual-fixed",
+    "name": "스포츠의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 문화체육 관광부. 국민의 건강과 행복한 삶을 위한 각종 스포츠 행사 및 대회 개최와 더불어 올림픽의 이상(理想)을 구현하는 행사를 한다. [cite: 45]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-45",
+    "date": "10-16",
+    "dateType": "annual-fixed",
+    "name": "부마민주항쟁 기념일",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 행정안전부. 부마민주항쟁을 기념하는 행사를 한다. [cite: 46]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-46",
+    "date": "10-W3-6",
+    "dateType": "annual-floating",
+    "name": "문화의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 문화체육 관광부. 10월 셋째 토요일. 방송ㆍ잡지ㆍ영화 등 대중매체의 사회적 가치를 새롭게 하고, 문화예술 진흥과 관련된 행사를 한다. [cite: 47]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-47",
+    "date": "10-21",
+    "dateType": "annual-fixed",
+    "name": "경찰의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 행정안전부. 모든 경찰공무원 및 관계관이 참석하여 민주경찰의 사명감 고취와 관련된 행사를 한다. [cite: 48]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-48",
+    "date": "10-24",
+    "dateType": "annual-fixed",
+    "name": "국제연합일",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 외교부. 국제연합 창립과 6ㆍ25전쟁 중 국제연합군이 참전한 뜻을 기념하는 행사를 한다. [cite: 49]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-49",
+    "date": "10-28",
+    "dateType": "annual-fixed",
+    "name": "교정의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 법무부. 교정(矯正) 관련 종사자들의 사기를 높이 고, 수용자의 건전한 사회복귀 의지를 북돋우는 행사를 한다. [cite: 50]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-50",
+    "date": "10-29",
+    "dateType": "annual-fixed",
+    "name": "지방자치 및 균형발전의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 행정안전부, 산업통상부. 지방자치 및 균형발전에 관한 국민의 관심을 높이고, 그 성과를 공유하는 행사를 한다. [cite: 51]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-51",
+    "date": "10-L-2",
+    "dateType": "annual-floating",
+    "name": "금융의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 금융위원회. 10월 마지막 화요일. 금융에 대한 국민의 이해를 높이고, 금융의 역할과 책임을 되새기며, 금융권 종사자들의 노고를 격려하는 행사를 한다. [cite: 52]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-52",
+    "date": "11-03",
+    "dateType": "annual-fixed",
+    "name": "학생독립운동 기념일",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 교육부, 국가보훈부. 학생독립운동의 정신을 계승ㆍ발전시켜 학생들에게 자율역량과 애국심을 함양시키는 행사를 한다. [cite: 53]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-53",
+    "date": "11-11",
+    "dateType": "annual-fixed",
+    "name": "농업인의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 농림축산 식품부. 농업이 국민경제의 근간임을 국민들에게 인식시키고, 농업인의 긍지와 자부심을 북돋우며, 노고를 위로하는 행사를 한다. [cite: 54]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-54",
+    "date": "11-17",
+    "dateType": "annual-fixed",
+    "name": "순국선열의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 국가보훈부. 국권 회복을 위해 헌신하신 순국선열의 독립정신과 희생정신을 후세에 길이 전하고, 선열의 위훈을 기리는 행사를 한다. [cite: 55]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-55",
+    "date": "12-03",
+    "dateType": "annual-fixed",
+    "name": "소비자의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 공정거래 위원회. 소비자의 권리의식을 신장하고, 소비자보호에 관한 인식을 높이는 행사를 한다. [cite: 56]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-56",
+    "date": "12-05",
+    "dateType": "annual-fixed",
+    "name": "무역의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 산업통상부. 무역의 균형적 발전과 무역입국(貿易立國) 의 의지를 다짐하는 행사를 한다. [cite: 57]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-57",
+    "date": "12-27",
+    "dateType": "annual-fixed",
+    "name": "원자력 안전 및 진흥의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 과학기술정보통신부, 기후에너지환경부, 원자력안전위원회. 원자력 안전의 중요성을 널리 알리고, 원자력 산업의 진흥을 촉진하는 행사를 한다. '원자력의 날'로 줄여서 사용할 수 있다. [cite: 58, 60]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-01-01-new-years-day-global",
+    "date": "01-01",
+    "dateType": "annual-fixed",
+    "name": "새해 첫날 (신정)",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "공휴일",
+      "새해",
+      "기념일"
+    ],
+    "storytelling": {
+      "origin": "그레고리력 기준 새해가 시작되는 날로, 1582년 교황 그레고리오 13세가 율리우스력을 개정해 도입한 이후 전 세계 대부분의 국가가 공식적인 새해 첫날로 사용하고 있다.",
+      "anecdote": "한국에서는 '신정'이라 부르며 음력 설(구정)과 구분한다. 자정이 되는 순간 보신각 종이 33번 울리는 타종 행사가 열리고, 정동진·호미곶 등 동해안 일출 명소에는 새해 첫 해를 보려는 인파가 몰린다. 새해 다짐(New Year's Resolution)을 적는 풍습은 4천 년 전 바빌로니아에서 시작되었다고 전해진다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "올해는 진짜 운동한다... 작년에도 그랬지만"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/new-years-day-january-1/"
+  },
+  {
+    "id": "anv-fixed-01-02-science-fiction-day-global",
+    "date": "01-02",
+    "dateType": "annual-fixed",
+    "name": "세계 SF의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "문학",
+      "공상과학"
+    ],
+    "storytelling": {
+      "origin": "전설적인 SF 작가 아이작 아시모프(Isaac Asimov)의 생일(1920년 1월 2일)을 기념하기 위해 제정된 비공식 기념일이다. 아시모프는 '로봇 3원칙'을 만든 인물로 유명하다.",
+      "anecdote": "이 날은 SF 팬들이 좋아하는 책을 다시 읽거나, 「스타워즈」·「스타트렉」·「블레이드 러너」 같은 고전 SF 영화를 정주행하는 날로 자리잡았다. 한국에서도 김초엽, 천선란 등 SF 작가들의 활약으로 SF 장르가 큰 인기를 끌고 있어 의미가 깊다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "오늘 하루는 일론 머스크보다 아시모프"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-science-fiction-day-january-2/"
+  },
+  {
+    "id": "anv-fixed-01-03-drinking-straw-day-global",
+    "date": "01-03",
+    "dateType": "annual-fixed",
+    "name": "빨대의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "발명품",
+      "일상"
+    ],
+    "storytelling": {
+      "origin": "1888년 1월 3일, 미국의 마빈 스톤(Marvin C. Stone)이 종이 빨대 특허를 취득한 날을 기념해 제정되었다. 그는 호밀짚 빨대가 음료에 풀려나오는 것이 싫어서 종이를 둘둘 말아 파라핀으로 코팅한 빨대를 발명했다.",
+      "anecdote": "이후 플라스틱 빨대가 등장하며 전성기를 누렸지만, 바다거북 콧속에 박힌 빨대 영상이 화제가 된 뒤로 종이 빨대·실리콘 빨대·스테인리스 빨대 등 친환경 빨대가 각광받고 있다. 한국에서도 2022년부터 카페에서 플라스틱 빨대 사용이 단계적으로 제한되었다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "종이빨대로 버블티 마시기 = 1분 안에 흐물흐물 흐느적"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-drinking-straw-day-january-3/"
+  },
+  {
+    "id": "anv-fixed-01-04-spaghetti-day-global",
+    "date": "01-04",
+    "dateType": "annual-fixed",
+    "name": "스파게티의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "음식",
+      "이탈리아",
+      "파스타"
+    ],
+    "storytelling": {
+      "origin": "매년 1월 4일, 이탈리아의 대표 파스타인 스파게티를 기념하는 날. 'spaghetti'는 이탈리아어로 '작은 줄'을 뜻하는 'spago'에서 유래했다.",
+      "anecdote": "한국에서 스파게티는 '면 요리계의 외교관'으로 통한다. 까르보나라·알리오 올리오·봉골레·미트소스까지 호불호 없이 사랑받는 메뉴이기 때문. 다만 한국식 변형인 '로제 스파게티'와 '명란 스파게티'는 이탈리아 본토 셰프들이 보면 깜짝 놀랄 한국만의 창작품이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "이탈리아인이 보면 기절할 한국식 스파게티 TOP 3: 케첩파스타, 떡볶이 로제, 부대찌개 파스타"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-spaghetti-day-january-4/"
+  },
+  {
+    "id": "anv-fixed-01-05-bird-day-global",
+    "date": "01-05",
+    "dateType": "annual-fixed",
+    "name": "조류의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "환경",
+      "동물",
+      "자연보호"
+    ],
+    "storytelling": {
+      "origin": "1894년 미국 펜실베이니아주 오일시티의 교육감 찰스 알만조 밥콕(Charles Almanzo Babcock)이 처음 제안한 날로, 새의 소중함을 알리고 멸종위기 조류를 보호하자는 취지로 만들어졌다.",
+      "anecdote": "한국에서도 까치·참새·비둘기 같은 친숙한 새부터 두루미·따오기 같은 천연기념물까지 다양한 조류가 서식한다. 특히 충남 서산 천수만, 강원 철원 평야는 겨울철 가창오리·재두루미 군무로 유명한 탐조(birdwatching) 명소다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "비둘기야 미안한데 너는 오늘도 그냥 비둘기야"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-bird-day-january-5/"
+  },
+  {
+    "id": "anv-fixed-01-06-shortbread-day-global",
+    "date": "01-06",
+    "dateType": "annual-fixed",
+    "name": "쇼트브레드의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "스코틀랜드"
+    ],
+    "storytelling": {
+      "origin": "버터·설탕·밀가루로만 만든 스코틀랜드 전통 쿠키 '쇼트브레드'를 기념하는 날. 12세기경부터 만들어졌으며, 스코틀랜드 메리 여왕(Mary Queen of Scots)이 16세기에 캐러웨이 씨를 넣은 형태로 발전시킨 것으로 알려져 있다.",
+      "anecdote": "한국에서는 '워커스(Walkers) 쇼트브레드'가 빨간 격자무늬 패키지로 유명하다. 버터 향이 진하고 입에서 바스러지는 식감이 특징이라 홍차·커피와 환상의 궁합을 자랑한다. 영국 왕실의 크리스마스 간식으로도 사랑받는 쿠키다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "다이어트 중 쇼트브레드 한 조각 = 버터 1/4컵 흡입"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-shortbread-day-january-6/"
+  },
+  {
+    "id": "anv-fixed-01-07-tempura-day-global",
+    "date": "01-07",
+    "dateType": "annual-fixed",
+    "name": "튀김(텐푸라)의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "음식",
+      "일본",
+      "튀김요리"
+    ],
+    "storytelling": {
+      "origin": "일본을 대표하는 튀김 요리 '텐푸라(天ぷら)'를 기념하는 날. 의외로 텐푸라는 일본 고유 음식이 아니라 16세기 포르투갈 선교사들이 사순절(Lent) 기간 생선·채소를 튀겨 먹던 'Tempora' 문화에서 유래했다.",
+      "anecdote": "한국인이 일본 여행에서 꼭 먹는 메뉴 중 하나가 바로 텐푸라 정식이다. 새우·고구마·꽈리고추·연근 등을 얇은 반죽으로 튀겨 텐쯔유 소스에 찍어 먹는 것이 정석. 한국식 튀김(시장 튀김)과는 반죽 두께와 기름 사용법이 달라 식감 차이가 크다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "튀김은 '죄'가 아니다, '의식'이다 - 텐푸라 장인 (가상)"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-tempura-day-january-7/"
+  },
+  {
+    "id": "anv-fixed-01-08-bubble-bath-day-global",
+    "date": "01-08",
+    "dateType": "annual-fixed",
+    "name": "거품 목욕의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "휴식",
+      "라이프스타일"
+    ],
+    "storytelling": {
+      "origin": "추운 1월, 따뜻한 욕조에 몸을 담그고 거품 목욕을 즐기며 휴식을 취하자는 취지로 만들어진 비공식 기념일이다.",
+      "anecdote": "한국에서는 욕조 문화가 보편적이지 않아 '러쉬(LUSH)' 같은 브랜드의 배쓰밤(Bath Bomb)을 사두고도 못 쓰는 경우가 많다. 이 날은 호텔 욕조나 집 욕조에 배쓰밤을 풍덩 던져 넣고, 향초·와인·책을 곁들이는 '셀프 케어 데이'로 활용하기 좋다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "배쓰밤 = 욕조에 던지는 순간 5초만에 사라지는 1만원짜리 화약"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-bubble-bath-day-january-8/"
+  },
+  {
+    "id": "anv-fixed-01-09-apricot-day-global",
+    "date": "01-09",
+    "dateType": "annual-fixed",
+    "name": "살구의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "음식",
+      "과일",
+      "건강"
+    ],
+    "storytelling": {
+      "origin": "비타민 A와 식이섬유가 풍부한 과일 살구(Apricot)를 기념하는 날. 살구는 약 4천 년 전 중국 북부에서 처음 재배되었고, 실크로드를 통해 페르시아·유럽으로 전파되었다.",
+      "anecdote": "1월은 살구 제철이 아니지만 말린 살구(드라이 애프리콧)·살구 잼·살구씨 오일은 연중 즐길 수 있다. 한국에서 살구는 '개살구'라는 표현 때문에 다소 저평가받지만, 동의보감에서는 기침·천식에 좋은 약재로 기록되어 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "빛 좋은 개살구라더니, 진짜 살구는 의외로 맛있다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-apricot-day-january-9/"
+  },
+  {
+    "id": "anv-fixed-01-10-save-the-eagles-day-global",
+    "date": "01-10",
+    "dateType": "annual-fixed",
+    "name": "독수리 보호의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "환경",
+      "동물보호",
+      "멸종위기종"
+    ],
+    "storytelling": {
+      "origin": "2015년 미국 독수리재단(American Eagle Foundation)이 제정한 날로, 미국의 국조인 흰머리수리(Bald Eagle)와 전 세계 독수리류의 보호를 알리기 위해 만들어졌다.",
+      "anecdote": "한때 살충제 DDT로 인해 미국 흰머리수리는 멸종위기 직전까지 갔으나, 1972년 DDT 사용 금지 이후 개체 수가 회복되어 2007년 멸종위기종에서 해제되었다. 한국에서는 천연기념물 제243호로 지정된 독수리·검독수리·참수리·흰꼬리수리가 겨울 철새로 찾아온다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "독수리: 멸종위기 → 자연보호 → 다시 하늘의 왕"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-save-the-eagles-day-january-10/"
+  },
+  {
+    "id": "anv-fixed-01-11-milk-day-global",
+    "date": "01-11",
+    "dateType": "annual-fixed",
+    "name": "우유의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "음식",
+      "음료",
+      "건강"
+    ],
+    "storytelling": {
+      "origin": "1878년 1월 11일, 미국에서 처음으로 우유가 유리병에 담겨 배달된 날을 기념해 만들어졌다. 그 이전까지 우유는 큰 통에서 떠 가는 방식이라 위생 문제가 심각했다.",
+      "anecdote": "한국에서 우유는 '국민 음료'다. 흰 우유, 초코 우유, 딸기 우유 삼대장을 비롯해 바나나 우유(빙그레)는 한국 여행 필수 아이템으로 외국인에게도 인기다. 1974년 출시된 빙그레 바나나우유의 단지 모양 용기는 50년 넘게 사랑받고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한국 목욕탕에 가서 바나나우유 안 마시면 비매너"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-milk-day-january-11/"
+  },
+  {
+    "id": "anv-fixed-01-12-pharmacist-day-global",
+    "date": "01-12",
+    "dateType": "annual-fixed",
+    "name": "약사의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "직업",
+      "의료",
+      "감사"
+    ],
+    "storytelling": {
+      "origin": "약사들의 노고를 기리는 날. 미국에서는 약사이자 코카콜라의 원형 시럽을 만든 존 펨버튼(John Pemberton)과의 연결고리로 1월 12일을 약사의 날로 기념한다.",
+      "anecdote": "한국에서는 별도로 11월 18일을 '약사의 날'(대한약사회 지정)로 기념한다. 하지만 1월 12일을 기점으로 동네 단골 약국 약사님께 감사 인사를 전해보는 것도 좋다. 약사는 단순히 약만 파는 것이 아니라 복약 지도, 약물 상호작용 체크 등 1차 의료의 핵심 역할을 한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "병원 안 가도 되는 증상의 90%는 약사님 덕분"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-pharmacist-day-january-12/"
+  },
+  {
+    "id": "anv-fixed-01-13-rubber-ducky-day-global",
+    "date": "01-13",
+    "dateType": "annual-fixed",
+    "name": "러버덕(고무 오리)의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "캐릭터",
+      "추억"
+    ],
+    "storytelling": {
+      "origin": "1970년대 미국 어린이 프로그램 「세서미 스트리트(Sesame Street)」의 캐릭터 어니(Ernie)가 1973년 1월 13일 자신의 고무 오리 인형 'Rubber Duckie'에게 보내는 노래를 처음 부른 날에서 유래했다.",
+      "anecdote": "한국에서 러버덕은 2014년 네덜란드 작가 플로렌타인 호프만(Florentijn Hofman)의 거대 노란 오리 작품이 서울 석촌호수에 떠 있던 모습으로 큰 화제가 되었다. 이후 2022년 다시 한 번 석촌호수에 등장해 '귀여움 한 방으로 도시를 평정'했다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "석촌호수 러버덕: 등장만으로 SNS 점령"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-rubber-ducky-day-january-13/"
+  },
+  {
+    "id": "anv-fixed-01-14-dress-up-your-pet-day-global",
+    "date": "01-14",
+    "dateType": "annual-fixed",
+    "name": "반려동물 꾸미기의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "반려동물",
+      "패션"
+    ],
+    "storytelling": {
+      "origin": "2009년 펫 라이프스타일 전문가 콜린 페이지(Colleen Paige)가 제정한 날로, 반려동물에게 옷을 입히고 사진을 찍으며 함께하는 즐거움을 나누자는 취지로 만들어졌다.",
+      "anecdote": "한국은 반려동물 패션 시장이 폭발적으로 성장하고 있는 나라 중 하나다. 강아지 한복, 고양이 망토, 강아지 산타 옷 등 시즌 아이템이 매년 새롭게 출시된다. 단, 동물에게 스트레스가 되지 않는 통기성 좋은 옷을 짧은 시간만 입히는 것이 좋다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "강아지 옷 사는 비용 > 내 옷 사는 비용 (실화)"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-dress-up-your-pet-day-january-14/"
+  },
+  {
+    "id": "anv-fixed-01-15-hat-day-global",
+    "date": "01-15",
+    "dateType": "annual-fixed",
+    "name": "모자의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "패션",
+      "스타일"
+    ],
+    "storytelling": {
+      "origin": "추운 한겨울에 모자를 쓰고 외출하며, 다양한 모자 스타일과 그 역사를 기념하자는 취지로 만들어진 비공식 기념일이다.",
+      "anecdote": "조선시대 한국은 '모자의 나라'로 불렸을 정도로 다양한 갓·관·갓끈 문화가 발달했다. 외국인 화가들이 그린 19세기 한양 풍경에는 다양한 갓을 쓴 사람들이 가득하다. 현대에는 비니·캡·페도라·버킷햇이 사계절 패션 필수템으로 자리잡았다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "머리 안 감은 날의 구원자: 모자"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-hat-day-january-15/"
+  },
+  {
+    "id": "anv-fixed-01-16-nothing-day-global",
+    "date": "01-16",
+    "dateType": "annual-fixed",
+    "name": "아무것도 안 하는 날 (Nothing Day)",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "휴식",
+      "유머"
+    ],
+    "storytelling": {
+      "origin": "1973년 미국 신문 칼럼니스트 해럴드 풀먼 코핀(Harold Pullman Coffin)이 'National Nothing Foundation'을 설립하며 만든 날. '아무것도 기념하지 않을 권리'를 위한 기념일이라는 역설적인 컨셉이다.",
+      "anecdote": "기념일이 너무 많은 시대에 등장한 'Anti-기념일'. 이 날은 약속도, 일도, 계획도 잡지 않고 정말 아무것도 하지 않는 것이 핵심이다. 누워서 천장 보기, 멍 때리기, 폰도 안 보기 등 '본격적인 무위(無爲)의 미학'을 즐겨보자. 한국에서는 매년 5월 멍때리기 대회가 열리니 연습 삼아 보내기에도 좋다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "오늘 일정: 아무것도 안 함 (이것이 일정임)"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-nothing-day-january-16/"
+  },
+  {
+    "id": "anv-fixed-01-17-hot-buttered-rum-day-global",
+    "date": "01-17",
+    "dateType": "annual-fixed",
+    "name": "핫 버터드 럼의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "음료",
+      "칵테일",
+      "겨울"
+    ],
+    "storytelling": {
+      "origin": "추운 겨울철 몸을 데우는 따뜻한 칵테일 '핫 버터드 럼(Hot Buttered Rum)'을 기념하는 날. 럼, 버터, 흑설탕, 시나몬, 정향 등을 뜨거운 물에 섞어 만드는 미국 식민지 시대의 전통 음료다.",
+      "anecdote": "1700년대 미국 동부 식민지에서는 럼 무역이 활발해 일반 가정에서도 흔히 마시던 음료였다. 한국에서는 다소 생소하지만 '겨울철 글뤼바인의 럼 버전'이라고 생각하면 이해가 쉽다. 차가운 1월 밤, 모직 담요와 함께 즐기는 '겨울 어른 음료'."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "추운 날에 럼+버터+설탕 = 마법의 핫팩 음료"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-hot-buttered-rum-day-january-17/"
+  },
+  {
+    "id": "anv-fixed-01-18-winnie-the-pooh-day-global",
+    "date": "01-18",
+    "dateType": "annual-fixed",
+    "name": "곰돌이 푸의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "캐릭터",
+      "문학",
+      "어린이"
+    ],
+    "storytelling": {
+      "origin": "「곰돌이 푸(Winnie-the-Pooh)」를 만든 영국 작가 A.A. 밀른(A.A. Milne)의 생일(1882년 1월 18일)을 기념하는 날이다. 푸는 1926년 동화책으로 처음 세상에 나왔다.",
+      "anecdote": "한국에서 곰돌이 푸는 '꿀에 진심인 곰' 캐릭터로 전 연령층의 사랑을 받는다. 2018년 영화 「곰돌이 푸 다시 만나 행복해」가 개봉했을 때 '어른들을 위한 힐링 영화'로 큰 호응을 얻었다. \"오늘은 가장 좋아하는 날이야\" 같은 푸의 명대사는 SNS의 단골 인용구."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "푸: 인생의 본질은 꿀단지 하나로 충분해"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-winnie-the-pooh-day-january-18/"
+  },
+  {
+    "id": "anv-fixed-01-19-popcorn-day-global",
+    "date": "01-19",
+    "dateType": "annual-fixed",
+    "name": "팝콘의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "음식",
+      "간식",
+      "영화"
+    ],
+    "storytelling": {
+      "origin": "옥수수가 펑펑 터지는 매력의 간식 팝콘(Popcorn)을 기념하는 날. 팝콘은 약 5천 년 전 중남미 원주민들이 처음 먹기 시작했고, 1885년 시카고에서 찰스 크레터스(Charles Cretors)가 증기식 팝콘 기계를 발명하며 대중화되었다.",
+      "anecdote": "한국에서 팝콘은 '영화관 세트'의 핵심. 짭짤한 카라멜·치즈·갈릭·어니언 등 영화관마다 다른 시그니처 맛 경쟁이 치열하다. 특히 CGV의 '갈릭 어니언'과 메가박스의 '치즈팝콘'은 마니아층이 두텁다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "영화관 팝콘 한 통 = 영화관 표 한 장 가격 (대체 왜?)"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-popcorn-day-january-19/"
+  },
+  {
+    "id": "anv-fixed-01-20-cheese-lovers-day-global",
+    "date": "01-20",
+    "dateType": "annual-fixed",
+    "name": "치즈 러버의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "음식",
+      "유제품",
+      "치즈"
+    ],
+    "storytelling": {
+      "origin": "전 세계 1,800종이 넘는 다양한 치즈를 사랑하는 '치즈 러버'를 위한 날. 인류는 약 8천 년 전부터 치즈를 만들어 먹기 시작했다.",
+      "anecdote": "한국에서 치즈 사랑은 점점 깊어지고 있다. 치즈 등갈비, 치즈 떡볶이, 치즈 닭갈비처럼 '늘어나는 모차렐라'를 활용한 요리가 트렌드로 자리잡았다. 와인 안주로 즐기는 카망베르·고르곤졸라·페타·할루미 등 고급 치즈 시장도 빠르게 성장 중이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "치즈 늘어남 = 식욕 늘어남 = 체중 늘어남 (3단 연쇄)"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-cheese-lovers-day-january-20/"
+  },
+  {
+    "id": "anv-fixed-01-21-hugging-day-global",
+    "date": "01-21",
+    "dateType": "annual-fixed",
+    "name": "포옹의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "관계",
+      "감정표현"
+    ],
+    "storytelling": {
+      "origin": "1986년 미국의 케빈 자보니(Kevin Zaborney) 목사가 제정한 날. 1월 중순은 연말 분위기가 끝나고 우울감이 찾아오는 시기라, 포옹으로 따뜻한 감정 교류를 하자는 취지로 만들어졌다.",
+      "anecdote": "과학적으로 20초 이상의 포옹은 '사랑의 호르몬' 옥시토신을 분비시켜 스트레스와 혈압을 낮추는 효과가 있다고 한다. 한국은 신체 접촉에 비교적 보수적인 문화지만, 가족·연인·친한 친구에게 안아주는 인사를 건네보는 건 어떨까."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "20초 포옹 = 무료 항우울제"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-hugging-day-january-21/"
+  },
+  {
+    "id": "anv-fixed-01-22-celebration-of-life-day-global",
+    "date": "01-22",
+    "dateType": "annual-fixed",
+    "name": "생명 축하의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "가족",
+      "생명"
+    ],
+    "storytelling": {
+      "origin": "삶 자체를 축하하고, 우리에게 가장 소중한 사람들 — 특히 아이들과 손주들 — 의 존재에 감사하는 날로 만들어졌다.",
+      "anecdote": "이 날은 가족과 함께 식사하거나, 오랫동안 연락 못 한 친구에게 안부를 묻거나, 자신이 살아있다는 사실 자체에 감사하는 시간을 갖기 좋다. '메멘토 모리(죽음을 기억하라)'의 반대 개념인 '카르페 디엠(오늘을 즐겨라)'을 실천하는 날."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "오늘 살아있음 = 그것 자체로 이미 성공"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/celebration-of-life-day-january-22/"
+  },
+  {
+    "id": "anv-fixed-01-23-handwriting-day-global",
+    "date": "01-23",
+    "dateType": "annual-fixed",
+    "name": "손글씨의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "아날로그",
+      "문화"
+    ],
+    "storytelling": {
+      "origin": "1977년 미국 필기구 제조업체 협회(WIMA)가 미국 독립선언서에 가장 먼저, 가장 크게 서명한 존 핸콕(John Hancock)의 생일(1737년 1월 23일)을 기념해 제정한 날이다.",
+      "anecdote": "디지털 시대에 손글씨는 점점 희귀해졌지만, 그만큼 따뜻한 매력을 갖게 됐다. 한국에서는 김영하·이슬아 작가의 친필 사인본이 SNS에서 화제가 되고, 캘리그라피(손글씨 디자인)와 다이어리 꾸미기(다꾸) 문화도 큰 인기를 얻고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "내 글씨체 = 의사도 부러워하는 암호 수준"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-handwriting-day-january-23/"
+  },
+  {
+    "id": "anv-fixed-01-24-compliment-day-global",
+    "date": "01-24",
+    "dateType": "annual-fixed",
+    "name": "칭찬의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "관계",
+      "긍정"
+    ],
+    "storytelling": {
+      "origin": "1998년 미국의 캐시 챔벌린(Kathy Chamberlin)과 데비 호프먼(Debby Hoffman)이 만든 날. 사람들이 서로에게 진심 어린 칭찬을 건네 긍정적인 분위기를 퍼뜨리자는 취지로 제정되었다.",
+      "anecdote": "한국 속담에 '칭찬은 고래도 춤추게 한다'는 말이 있다. 동명의 책이 2003년 베스트셀러에 오르며 한국에서 큰 화제가 되었다. 진심 어린 칭찬은 받는 사람뿐 아니라 하는 사람에게도 행복감을 준다는 연구 결과도 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "오늘만큼은 직장 상사도 칭찬해보자... 가능할까?"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-compliment-day-january-24/"
+  },
+  {
+    "id": "anv-fixed-01-25-opposite-day-global",
+    "date": "01-25",
+    "dateType": "annual-fixed",
+    "name": "반대로 하는 날 (Opposite Day)",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "유머",
+      "어린이"
+    ],
+    "storytelling": {
+      "origin": "모든 말과 행동을 평소와 반대로 해보는 장난스러운 비공식 기념일. 어린이들 사이에서 \"오늘은 Opposite Day니까 '싫다'가 '좋다'야!\" 식으로 농담을 주고받던 문화에서 유래했다.",
+      "anecdote": "'예'를 '아니오'로, '맛있다'를 '맛없다'로 바꿔 말하는 식이라 친구·가족 간 가벼운 농담의 소재가 된다. 단, 진지한 약속이나 업무에 적용했다간 진짜 큰일이 날 수 있으니 주의. \"오늘 야근 안 해도 돼!\"라는 상사의 말을 '반대의 날 농담'으로 받아들였다가는…"
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "엄마: 공부해 → 오늘은 반대의 날이니까 게임해야지! (안 통함)"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-opposite-day-january-25/"
+  },
+  {
+    "id": "anv-fixed-01-26-spouses-day-global",
+    "date": "01-26",
+    "dateType": "annual-fixed",
+    "name": "배우자의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "가족",
+      "결혼",
+      "감사"
+    ],
+    "storytelling": {
+      "origin": "오랜 시간 함께해 온 배우자에게 감사를 표현하는 날. 발렌타인데이는 연인의 날이라면, 이 날은 결혼 생활의 동반자를 위한 날로 자리잡았다.",
+      "anecdote": "한국에서는 결혼기념일을 비롯해 '부부의 날'(5월 21일)이 따로 있다. 둘이 만나 하나가 된다는 의미로 5월 둘째 셋째에 부부의 날을 둔 것. 1월 26일은 부부의 날 전에 미리 작은 선물이나 편지로 사랑을 표현하기 좋은 날이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "배우자 = 가장 친한 친구이자 가장 큰 잔소리꾼"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-spouses-day-january-26/"
+  },
+  {
+    "id": "anv-fixed-01-27-chocolate-cake-day-global",
+    "date": "01-27",
+    "dateType": "annual-fixed",
+    "name": "초콜릿 케이크의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "초콜릿"
+    ],
+    "storytelling": {
+      "origin": "달콤 쌉싸름한 초콜릿 케이크를 기념하는 날. 18세기 후반 코코아 가공 기술이 발전하면서 케이크에 초콜릿이 본격적으로 사용되기 시작했고, 1879년 콘칭(Conching) 기법이 개발되며 부드러운 초콜릿 케이크 시대가 열렸다.",
+      "anecdote": "한국에서 초콜릿 케이크는 생일·기념일의 베스트셀러다. 특히 '뚜레쥬르 가나슈 케이크'와 '파리바게뜨 쇼콜라 케이크'는 오랫동안 사랑받는 스테디셀러. 최근에는 '브라우니식 진한 가나슈 케이크' 트렌드가 카페계를 휩쓸고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "초콜릿 케이크 = 인생의 모든 고민이 잠시 멈추는 음식"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-chocolate-cake-day-january-27/"
+  },
+  {
+    "id": "anv-fixed-01-28-blueberry-pancake-day-global",
+    "date": "01-28",
+    "dateType": "annual-fixed",
+    "name": "블루베리 팬케이크의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "음식",
+      "아침식사",
+      "디저트"
+    ],
+    "storytelling": {
+      "origin": "겨울철 부드럽고 따끈한 팬케이크에 새콤달콤한 블루베리를 곁들여 먹는 즐거움을 기념하는 날. 블루베리는 북미 원주민들이 수천 년 전부터 식용·약용으로 사용해 온 슈퍼푸드다.",
+      "anecdote": "한국에서 블루베리 팬케이크는 '브런치 카페 단골 메뉴'다. 부드러운 리코타 팬케이크 위에 신선한 블루베리와 메이플 시럽을 듬뿍 뿌린 비주얼은 인스타그램에 빠지지 않는 인증샷 메뉴. 항산화 성분 안토시아닌이 풍부해 눈 건강에도 좋다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "주말 브런치 = 블루베리 팬케이크 + 라떼 + 1만 5천 원"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-blueberry-pancake-day-january-28/"
+  },
+  {
+    "id": "anv-fixed-01-29-puzzle-day-global",
+    "date": "01-29",
+    "dateType": "annual-fixed",
+    "name": "퍼즐의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "취미",
+      "두뇌"
+    ],
+    "storytelling": {
+      "origin": "2002년 미국의 작가이자 퍼즐 디자이너인 조디 질(Jodi Jill)이 제정한 날. 직소 퍼즐, 크로스워드, 스도쿠 등 모든 종류의 퍼즐을 기념하는 날이다.",
+      "anecdote": "한국에서는 코로나19 팬데믹 시기 직소 퍼즐이 '집콕 취미'로 폭발적인 인기를 끌었다. 1000~3000피스 대형 퍼즐을 가족과 함께 맞추는 문화가 자리잡았고, 인기 K-드라마·웹툰·게임 IP의 한정판 퍼즐도 출시되고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "1000피스 퍼즐 = 시작은 호기롭게, 끝은 책장 위 인테리어"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-puzzle-day-january-29/"
+  },
+  {
+    "id": "anv-fixed-01-30-croissant-day-global",
+    "date": "01-30",
+    "dateType": "annual-fixed",
+    "name": "크루아상의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "음식",
+      "빵",
+      "프랑스"
+    ],
+    "storytelling": {
+      "origin": "프랑스를 대표하는 초승달 모양 페이스트리 크루아상(Croissant)을 기념하는 날. 의외로 원조는 오스트리아 빈으로, 1683년 오스만 제국군을 격퇴한 것을 기념해 오스만 깃발의 초승달을 본떠 만든 빵 '킵펠(Kipfel)'에서 유래했다.",
+      "anecdote": "한국에서 크루아상은 단순 빵을 넘어 '크룽지(크루아상+누룽지)', '크로플(크루아상+와플)' 같은 창의적 변형으로 유명해졌다. 특히 크로플은 2020년경 K-카페 메뉴의 대세로 자리잡으며 해외 K-브랜드 진출 메뉴로도 활용되고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "크루아상 한 입 = 버터 100g 흡입과 같다 (대신 행복함)"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-croissant-day-january-30/"
+  },
+  {
+    "id": "anv-fixed-01-31-inspire-your-heart-with-art-day-global",
+    "date": "01-31",
+    "dateType": "annual-fixed",
+    "name": "예술로 마음을 채우는 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "예술",
+      "감성"
+    ],
+    "storytelling": {
+      "origin": "1월의 마지막 날, 회화·조각·음악·문학·공연 등 다양한 예술 작품을 감상하며 마음에 영감을 불어넣자는 취지로 만들어진 비공식 기념일이다.",
+      "anecdote": "추운 1월의 끝자락은 미술관·전시 관람하기에 더없이 좋은 시기다. 한국에서는 국립현대미술관(MMCA), 리움미술관, 아모레퍼시픽 미술관 등에서 매년 1~2월 굵직한 기획전을 연다. 작품 앞에 30초 이상 머물러 보는 것만으로도 '예술적 명상'이 된다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "미술관에서 1시간 = SNS 안 보는 1시간 = 마음의 디톡스"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/inspire-your-heart-with-art-day-january-31/"
   }
 ]
