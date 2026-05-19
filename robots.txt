@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://csk200387.github.io/sitemap.xml
