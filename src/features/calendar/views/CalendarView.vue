@@ -141,7 +141,7 @@ function handleShare(anv: Anniversary) {
           v-else
           class="rounded-2xl border border-dashed border-neutral-300 bg-white p-6 text-center text-sm text-neutral-500"
         >
-          이 날엔 등록된 엉뚱한 기념일이 없어요.
+          이 날엔 등록된 기념일이 없어요.
         </div>
       </section>
     </template>

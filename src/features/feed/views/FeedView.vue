@@ -16,7 +16,7 @@ function handleShare(anv: Anniversary) {
     <section>
       <header class="mb-3 flex items-baseline justify-between">
         <h1 class="text-2xl font-extrabold tracking-tight text-neutral-900">
-          오늘의 엉뚱한 날
+          오늘의 기념일
         </h1>
       </header>
 
@@ -37,14 +37,14 @@ function handleShare(anv: Anniversary) {
           class="rounded-2xl border border-dashed border-neutral-300 bg-white p-8 text-center"
         >
           <p class="text-sm text-neutral-500">
-            오늘은 등록된 기념일이 없어요.<br />다가오는 엉뚱한 날을 둘러보세요.
+            오늘은 등록된 기념일이 없어요.<br />다가오는 기념일을 둘러보세요.
           </p>
         </div>
       </template>
     </section>
 
     <section v-if="upcoming.length">
-      <h2 class="mb-3 text-lg font-bold text-neutral-900">다가오는 엉뚱한 날</h2>
+      <h2 class="mb-3 text-lg font-bold text-neutral-900">다가오는 기념일</h2>
       <div class="space-y-4">
         <AnniversaryCard
           v-for="{ anniversary, dDay } in upcoming"

@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "description": "엉뚱한 달력 - 기념일 큐레이션 웹앱",
+  "description": "기념일 만물상 - 기념일 큐레이션 웹앱",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",

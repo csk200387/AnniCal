@@ -7,7 +7,7 @@ const router = createRouter({
       path: '/',
       name: 'feed',
       component: () => import('@/features/feed/views/FeedView.vue'),
-      meta: { title: '오늘의 엉뚱한 날' },
+      meta: { title: '오늘의 기념일' },
     },
     {
       path: '/calendar',

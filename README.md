@@ -1,4 +1,4 @@
-# [엉뚱한 달력 (Anniversary)](https://csk200387.github.io/AnniCal/)
+# [기념일 만물상 (Anniversary)](https://csk200387.github.io/AnniCal/)
 
 세상의 다양하고 흥미로운 기념일을 매일 큐레이션 해주는 웹앱.
 
@@ -39,15 +39,18 @@ src/
 │   ├── common/              #   원자 단위 (Badge 등)
 │   ├── layout/              #   AppShell, Header, Footer
 │   └── card/                #   AnniversaryCard
-├── features/                # 도메인 기능 단위 (기획서 4대 핵심 기능과 1:1)
-│   ├── feed/                #   1. 큐레이션 피드
-│   ├── calendar-export/     #   2. .ics Export
-│   ├── share/               #   3. 소셜 공유 (TODO)
-│   └── discovery/           #   4. 다가오는 엉뚱한 날 (TODO)
+├── features/                # 도메인 기능 단위
+│   ├── feed/                #   오늘의 기념일 큐레이션 피드
+│   │   ├── composables/
+│   │   └── views/
+│   ├── calendar/            #   월간 달력 뷰
+│   │   ├── composables/
+│   │   └── views/
+│   └── calendar-export/     #   .ics Export
+│       └── views/
 ├── data/                    # 정적 JSON DB
 ├── services/                # 데이터/외부시스템 추상화 (Repository)
 ├── stores/                  # Pinia 전역 상태
-├── composables/             # 도메인 무관 범용 훅
 ├── router/
 ├── types/                   # TS 타입 정의
 └── utils/                   # 순수 유틸 (날짜 계산 등)
@@ -70,15 +73,9 @@ features/<domain>/views/*.vue       ← 화면
 이 구조 덕분에 추후 정적 JSON → 원격 DB 전환 시
 `services/anniversaryRepository.ts` 한 곳만 갈아끼우면 된다.
 
-## 데이터 추가하기
+## 데이터 작성 규칙
 
-기념일을 한 건씩 대화형으로 추가하려면:
-
-```bash
-npm run data:add
-```
-
-`scripts/add-anniversary.mjs` 가 실행되며 날짜 유형 · 카테고리 · 태그 · 스토리텔링 · 밈 · 출처 URL 을 순서대로 물어보고, `src/data/anniversaries.json` 에 항목을 추가한다. `id` 는 슬러그를 받아 자동 생성되며 중복은 차단된다.
+기념일 데이터는 `src/data/anniversaries.json` 에 저장된다. 편집은 [`tools/inspector/`](./tools/inspector/README.md) 의 Gradio UI 를 권장.
 
 ### `date` 필드 작성법
 
@@ -106,12 +103,9 @@ npm run data:add
 | 미국 추수감사절 | 11월 **넷째** 목요일 | `"11-4-THU"` |
 | 미국 메모리얼 데이 | 5월 **마지막** 월요일 | `"05-L-MON"` |
 
-> 현재 `npm run data:add` 스크립트는 `annual-fixed` / `annual-floating` / `one-time` 세 유형만 대화형으로 지원한다. `annual-nth-weekday` 항목은 위 포맷에 맞춰 `src/data/anniversaries.json` 을 직접 편집해 추가한다.
-
 ## 다음 작업 (TODO)
 
 - [ ] `features/share` — html-to-image + Web Share API 로 카드 이미지 공유
 - [ ] `features/calendar-export` — 카테고리 선택 → .ics 생성/다운로드
-- [ ] `features/discovery` — 다가오는 엉뚱한 날 배너/푸시 알림
+- [ ] `features/discovery` — 다가오는 기념일 배너/푸시 알림
 - [ ] 더미데이터 추가 수집 (월별 최소 5개 이상 목표)
-```
