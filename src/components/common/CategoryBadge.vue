@@ -14,9 +14,9 @@ const category = computed(() =>
 <template>
   <span
     v-if="category"
-    class="inline-flex items-center gap-1 rounded-full bg-neutral-100 px-2.5 py-0.5 text-xs font-medium text-neutral-700"
+    class="inline-flex items-center gap-1.5 text-[0.68rem] font-medium uppercase tracking-[0.22em] text-ink-500"
   >
-    <span aria-hidden="true">{{ category.emoji }}</span>
-    {{ category.label }}
+    <span aria-hidden="true" class="text-ink-700 normal-case tracking-normal">{{ category.emoji }}</span>
+    <span>{{ category.label }}</span>
   </span>
 </template>

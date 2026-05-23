@@ -1,7 +1,12 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import { useMonthCalendar } from '../composables/useMonthCalendar'
 import AnniversaryCard from '@/components/card/AnniversaryCard.vue'
 import type { Anniversary } from '@/types/anniversary'
+import { useShareStore } from '@/stores/share'
+import { daysUntil } from '@/utils/dateUtils'
+
+const shareStore = useShareStore()
 
 const {
   monthLabel,
@@ -16,58 +21,76 @@ const {
   selectDate,
 } = useMonthCalendar()
 
-const weekdayLabels = ['일', '월', '화', '수', '목', '금', '토']
+const weekdayLabels = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT']
+
+const selectedHumanDate = computed(() => {
+  const d = selectedDate.value
+  const wd = ['일', '월', '화', '수', '목', '금', '토'][d.day()]
+  return `${d.month() + 1}월 ${d.date()}일 · ${wd}요일`
+})
 
 function handleShare(anv: Anniversary) {
-  // TODO: features/share 모듈에 위임 예정
-  console.log('share', anv.id)
+  // 오늘이거나 이미 지난 일이면 D-day 표기는 생략.
+  const d = daysUntil(anv)
+  shareStore.open(anv, d > 0 ? d : undefined)
 }
 </script>
 
 <template>
-  <div class="space-y-6">
-    <header class="flex items-center justify-between">
-      <h1 class="text-2xl font-extrabold tracking-tight text-neutral-900">
-        {{ monthLabel }}
-      </h1>
-      <div class="flex items-center gap-1">
-        <button
-          type="button"
-          class="rounded-full px-3 py-1.5 text-sm text-neutral-600 hover:bg-neutral-100"
-          @click="goPrevMonth"
-        >
-          ‹
-        </button>
-        <button
-          type="button"
-          class="rounded-full bg-neutral-100 px-3 py-1.5 text-xs font-semibold text-neutral-700 hover:bg-neutral-200"
-          @click="goToday"
-        >
-          오늘
-        </button>
-        <button
-          type="button"
-          class="rounded-full px-3 py-1.5 text-sm text-neutral-600 hover:bg-neutral-100"
-          @click="goNextMonth"
-        >
-          ›
-        </button>
+  <div class="space-y-12">
+    <!-- Section header -->
+    <header>
+      <div class="flex items-center gap-3">
+        <span class="h-px w-10 bg-ink-700" />
+        <span class="eyebrow">Calendar</span>
+      </div>
+      <div class="mt-5 flex items-end justify-between gap-4 border-b hairline pb-5">
+        <h1 class="font-display text-[2.6rem] font-medium leading-none tracking-[-0.02em] text-ink-900 sm:text-[3rem]">
+          {{ monthLabel }}
+        </h1>
+        <div class="flex items-center gap-1.5">
+          <button
+            type="button"
+            class="grid h-9 w-9 place-items-center border border-rule font-display text-base text-ink-500 transition hover:border-ink-800 hover:text-ink-900"
+            aria-label="이전 달"
+            @click="goPrevMonth"
+          >
+            ‹
+          </button>
+          <button
+            type="button"
+            class="border border-ink-800 bg-ink-800 px-3.5 py-2 text-[0.68rem] font-medium uppercase tracking-[0.2em] text-paper-50 transition hover:bg-ink-900"
+            @click="goToday"
+          >
+            Today
+          </button>
+          <button
+            type="button"
+            class="grid h-9 w-9 place-items-center border border-rule font-display text-base text-ink-500 transition hover:border-ink-800 hover:text-ink-900"
+            aria-label="다음 달"
+            @click="goNextMonth"
+          >
+            ›
+          </button>
+        </div>
       </div>
     </header>
 
-    <p v-if="isLoading" class="text-sm text-neutral-500">불러오는 중…</p>
-    <p v-else-if="error" class="text-sm text-red-600">{{ error }}</p>
+    <p v-if="isLoading" class="eyebrow">Loading…</p>
+    <p v-else-if="error" class="text-sm text-accent-600">{{ error }}</p>
 
     <template v-else>
-      <div class="overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-sm">
-        <div class="grid grid-cols-7 border-b border-neutral-200 bg-neutral-50 text-center text-xs font-semibold text-neutral-500">
+      <!-- Calendar grid -->
+      <div class="overflow-hidden border hairline bg-paper-50">
+        <div class="grid grid-cols-7 border-b hairline bg-paper-100/70 text-center">
           <div
             v-for="(label, i) in weekdayLabels"
             :key="label"
-            class="py-2"
+            class="py-3 text-[0.62rem] font-medium uppercase tracking-[0.22em]"
             :class="{
-              'text-rose-500': i === 0,
-              'text-sky-500': i === 6,
+              'text-accent-600': i === 0,
+              'text-ink-400': i !== 0 && i !== 6,
+              'text-ink-700': i === 6,
             }"
           >
             {{ label }}
@@ -79,19 +102,20 @@ function handleShare(anv: Anniversary) {
             v-for="cell in weeks.flat()"
             :key="cell.date.format('YYYY-MM-DD')"
             type="button"
-            class="relative flex min-h-[72px] flex-col items-stretch gap-1 border-b border-r border-neutral-100 p-1.5 text-left transition hover:bg-neutral-50 sm:min-h-[88px]"
+            class="group relative flex min-h-[88px] flex-col items-stretch gap-1.5 border-b border-r border-rule p-2 text-left transition-colors hover:bg-paper-200/40 sm:min-h-[108px]"
             :class="{
-              'bg-neutral-50/60 text-neutral-300': !cell.isCurrentMonth,
-              'ring-2 ring-inset ring-brand-500':
+              'bg-paper-100/40 text-ink-300': !cell.isCurrentMonth,
+              'bg-ink-900 hover:bg-ink-900 text-paper-50':
                 selectedDate.isSame(cell.date, 'day'),
             }"
             @click="selectDate(cell.date)"
           >
             <span
-              class="inline-flex h-6 w-6 items-center justify-center text-xs font-medium"
+              class="font-display text-sm leading-none"
               :class="{
-                'rounded-full bg-brand-500 text-white': cell.isToday,
-                'text-neutral-900': cell.isCurrentMonth && !cell.isToday,
+                'text-paper-50': selectedDate.isSame(cell.date, 'day'),
+                'text-accent-600 font-medium': cell.isToday && !selectedDate.isSame(cell.date, 'day'),
+                'text-ink-700': cell.isCurrentMonth && !cell.isToday && !selectedDate.isSame(cell.date, 'day'),
               }"
             >
               {{ cell.date.date() }}
@@ -104,32 +128,45 @@ function handleShare(anv: Anniversary) {
               <span
                 v-for="anv in cell.anniversaries.slice(0, 2)"
                 :key="anv.id"
-                class="truncate rounded px-1 text-[10px] font-medium leading-tight"
-                :class="cell.isCurrentMonth ? 'bg-brand-50 text-brand-700' : 'bg-neutral-100 text-neutral-400'"
+                class="truncate text-[10.5px] leading-tight"
+                :class="{
+                  'text-paper-200': selectedDate.isSame(cell.date, 'day'),
+                  'text-ink-600': cell.isCurrentMonth && !selectedDate.isSame(cell.date, 'day'),
+                  'text-ink-300': !cell.isCurrentMonth,
+                }"
                 :title="anv.name"
               >
-                {{ anv.name }}
+                <span class="mr-1">·</span>{{ anv.name }}
               </span>
               <span
                 v-if="cell.anniversaries.length > 2"
-                class="px-1 text-[10px] text-neutral-400"
+                class="text-[10px]"
+                :class="selectedDate.isSame(cell.date, 'day') ? 'text-paper-300' : 'text-ink-400'"
               >
-                +{{ cell.anniversaries.length - 2 }}
+                +{{ cell.anniversaries.length - 2 }} more
               </span>
             </div>
           </button>
         </div>
       </div>
 
+      <!-- Selected day section -->
       <section>
-        <h2 class="mb-3 text-sm font-bold text-neutral-700">
-          {{ selectedDate.format('M월 D일') }} 의 기념일
-          <span class="font-normal text-neutral-400">
-            ({{ selectedAnniversaries.length }}건)
-          </span>
-        </h2>
+        <div class="mb-6 flex items-center gap-5">
+          <span class="h-px flex-1 bg-rule" />
+          <div class="flex flex-col items-center">
+            <span class="eyebrow">Selected</span>
+            <span class="mt-1 font-display text-lg tracking-tight text-ink-800">
+              {{ selectedHumanDate }}
+              <span class="ml-2 font-sans text-xs tracking-normal text-ink-400">
+                ({{ selectedAnniversaries.length }}건)
+              </span>
+            </span>
+          </div>
+          <span class="h-px flex-1 bg-rule" />
+        </div>
 
-        <div v-if="selectedAnniversaries.length" class="space-y-4">
+        <div v-if="selectedAnniversaries.length" class="space-y-10">
           <AnniversaryCard
             v-for="a in selectedAnniversaries"
             :key="a.id"
@@ -139,9 +176,12 @@ function handleShare(anv: Anniversary) {
         </div>
         <div
           v-else
-          class="rounded-2xl border border-dashed border-neutral-300 bg-white p-6 text-center text-sm text-neutral-500"
+          class="border-y hairline bg-paper-50 px-6 py-12 text-center"
         >
-          이 날엔 등록된 기념일이 없어요.
+          <p class="eyebrow">No entries</p>
+          <p class="mt-2 font-display text-base italic text-ink-500">
+            이 날엔 등록된 기념일이 없어요.
+          </p>
         </div>
       </section>
     </template>

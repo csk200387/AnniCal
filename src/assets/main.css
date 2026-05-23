@@ -1,24 +1,101 @@
 @import "tailwindcss";
 
+/* ───────────────────────────────────────────────────────────────
+   Editorial palette · inspired by NYT, The Atlantic, Aesop
+   - Ink: 거의 검정에 가까운 따뜻한 잉크색 (본문/제목)
+   - Paper: 종이질감의 크림/오프화이트 (배경)
+   - Accent: 절제된 버건디 (D-day, CTA)
+   - Rule: 가는 디바이더용 그레이
+─────────────────────────────────────────────────────────────── */
 @theme {
-  --color-brand-50: #fff7ed;
-  --color-brand-100: #ffedd5;
-  --color-brand-300: #fdba74;
-  --color-brand-500: #f97316;
-  --color-brand-600: #ea580c;
-  --color-brand-700: #c2410c;
+  --color-ink-50: #f5f3ee;
+  --color-ink-100: #ebe7df;
+  --color-ink-200: #d6cfc2;
+  --color-ink-300: #ada595;
+  --color-ink-400: #756e62;
+  --color-ink-500: #4a4540;
+  --color-ink-600: #2f2c28;
+  --color-ink-700: #1f1d1a;
+  --color-ink-800: #141311;
+  --color-ink-900: #0a0908;
 
-  --font-display: "Pretendard", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-paper-50: #fdfcf9;
+  --color-paper-100: #faf7f0;
+  --color-paper-200: #f3ede0;
+  --color-paper-300: #e8dfca;
+
+  --color-accent-500: #8b2c2c;
+  --color-accent-600: #6f2222;
+  --color-accent-700: #5a1c1c;
+
+  --color-rule: #e3ddd1;
+  --color-rule-strong: #c9c0ad;
+
+  --font-display: "Fraunces", "Cormorant Garamond", "Source Serif 4",
+    "Noto Serif KR", "Nanum Myeongjo", ui-serif, Georgia, serif;
+  --font-sans: "Inter", "Pretendard", "Noto Sans KR", ui-sans-serif,
+    system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "IBM Plex Mono", ui-monospace, monospace;
 }
 
-html,
-body,
-#app {
-  height: 100%;
+/* ─── Editorial typography helpers (utility-friendly) ─── */
+@layer base {
+  html,
+  body,
+  #app {
+    height: 100%;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: var(--color-ink-700);
+    background-color: var(--color-paper-100);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "ss01", "ss02", "kern";
+  }
+
+  /* Subtle paper grain — adds the magazine 'tactile' feel without an image. */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.45;
+    background-image:
+      radial-gradient(circle at 1px 1px, rgba(31, 29, 26, 0.045) 1px, transparent 0);
+    background-size: 3px 3px;
+    mix-blend-mode: multiply;
+  }
+
+  #app {
+    position: relative;
+    z-index: 1;
+  }
+
+  ::selection {
+    background-color: var(--color-ink-700);
+    color: var(--color-paper-100);
+  }
 }
 
-body {
-  font-family: var(--font-display);
-  -webkit-font-smoothing: antialiased;
-  background-color: #fafafa;
+@layer components {
+  /* 매거진 마스트헤드 자간 — wordmark용 */
+  .font-display {
+    font-family: var(--font-display);
+    font-feature-settings: "ss01", "lnum", "kern";
+  }
+
+  .eyebrow {
+    font-family: var(--font-sans);
+    font-size: 0.6875rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--color-ink-500);
+  }
+
+  .hairline {
+    border-color: var(--color-rule);
+  }
 }
