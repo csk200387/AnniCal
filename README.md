@@ -1,4 +1,4 @@
-# [기념일 만물상 (Anniversary)](https://csk200387.github.io/AnniCal/)
+# [기념일 만물상 (Anniversary)](https://annical.vercel.app/)
 
 세상의 다양하고 흥미로운 기념일을 매일 큐레이션 해주는 웹앱.
 
