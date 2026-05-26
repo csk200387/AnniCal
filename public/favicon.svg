@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Paper background -->
+  <rect width="32" height="32" fill="#faf7f0" rx="5"/>
+  <!-- Burgundy circle -->
+  <circle cx="16" cy="16" r="12.5" fill="#8b2c2c"/>
+  <!-- Subtle inner shadow ring -->
+  <circle cx="16" cy="16" r="12.5" fill="none" stroke="#6f2222" stroke-width="0.8" opacity="0.5"/>
+  <!-- "A" serif monogram -->
+  <text
+    x="16"
+    y="21"
+    font-size="15"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-weight="400"
+    fill="#faf7f0"
+    text-anchor="middle"
+    letter-spacing="-0.3"
+  >A</text>
+</svg>
