@@ -64,12 +64,16 @@ const dDayCaption = computed(() => {
     >
       <defs>
         <radialGradient id="sc-grad-1" cx="85%" cy="105%" r="75%">
-          <stop offset="0%" stop-color="#8b2c2c" stop-opacity="0.13" />
-          <stop offset="60%" stop-color="#8b2c2c" stop-opacity="0.04" />
+          <stop offset="0%" stop-color="#8b2c2c" stop-opacity="0.18" />
+          <stop offset="60%" stop-color="#8b2c2c" stop-opacity="0.06" />
           <stop offset="100%" stop-color="#8b2c2c" stop-opacity="0" />
         </radialGradient>
         <radialGradient id="sc-grad-2" cx="0%" cy="0%" r="80%">
-          <stop offset="0%" stop-color="#2f2c28" stop-opacity="0.08" />
+          <stop offset="0%" stop-color="#2f2c28" stop-opacity="0.12" />
+          <stop offset="100%" stop-color="#2f2c28" stop-opacity="0" />
+        </radialGradient>
+        <radialGradient id="sc-grad-3" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#2f2c28" stop-opacity="0.05" />
           <stop offset="100%" stop-color="#2f2c28" stop-opacity="0" />
         </radialGradient>
       </defs>
@@ -78,32 +82,99 @@ const dDayCaption = computed(() => {
       <rect x="0" y="0" width="540" height="540" fill="url(#sc-grad-2)" />
       <!-- 우하단 액센트 글로우 -->
       <circle cx="540" cy="540" r="340" fill="url(#sc-grad-1)" />
+      <!-- 중앙 미세 빛 -->
+      <circle cx="270" cy="270" r="220" fill="url(#sc-grad-3)" />
 
       <!-- 좌상단 동심원 (가는 선) -->
-      <g stroke="#2f2c28" fill="none" stroke-opacity="0.12">
-        <circle cx="36" cy="40" r="120" stroke-width="0.6" />
-        <circle cx="36" cy="40" r="190" stroke-width="0.5" stroke-opacity="0.08" />
-        <circle cx="36" cy="40" r="260" stroke-width="0.5" stroke-opacity="0.05" />
+      <g stroke="#2f2c28" fill="none">
+        <circle cx="36" cy="40" r="120" stroke-width="0.7" stroke-opacity="0.18" />
+        <circle cx="36" cy="40" r="190" stroke-width="0.6" stroke-opacity="0.12" />
+        <circle cx="36" cy="40" r="260" stroke-width="0.5" stroke-opacity="0.08" />
+        <circle cx="36" cy="40" r="330" stroke-width="0.5" stroke-opacity="0.05" />
       </g>
 
-      <!-- 우상단 작은 도트 클러스터 -->
-      <g fill="#8b2c2c" fill-opacity="0.55">
-        <circle cx="486" cy="84" r="3" />
-        <circle cx="500" cy="98" r="1.4" fill-opacity="0.35" />
-        <circle cx="472" cy="100" r="1.4" fill-opacity="0.35" />
+      <!-- 우하단 동심원 (반대편) -->
+      <g stroke="#8b2c2c" fill="none">
+        <circle cx="510" cy="510" r="80" stroke-width="0.7" stroke-opacity="0.18" />
+        <circle cx="510" cy="510" r="140" stroke-width="0.6" stroke-opacity="0.1" />
       </g>
 
-      <!-- 중앙을 가로지르는 가는 수평선 -->
+      <!-- 중앙 큰 outlined 원 -->
+      <circle
+        cx="380" cy="200" r="78"
+        fill="none" stroke="#2f2c28"
+        stroke-width="0.5" stroke-opacity="0.1"
+      />
+      <!-- 그 안쪽 작은 원 -->
+      <circle
+        cx="380" cy="200" r="42"
+        fill="none" stroke="#2f2c28"
+        stroke-width="0.5" stroke-opacity="0.07"
+      />
+
+      <!-- 우상단 도트 클러스터 -->
+      <g fill="#8b2c2c">
+        <circle cx="486" cy="84" r="3.2" fill-opacity="0.7" />
+        <circle cx="500" cy="100" r="1.6" fill-opacity="0.5" />
+        <circle cx="470" cy="102" r="1.6" fill-opacity="0.5" />
+        <circle cx="492" cy="116" r="1.2" fill-opacity="0.35" />
+      </g>
+
+      <!-- 좌하단 도트 클러스터 -->
+      <g fill="#2f2c28">
+        <circle cx="62" cy="446" r="2.2" fill-opacity="0.32" />
+        <circle cx="78" cy="460" r="1.4" fill-opacity="0.22" />
+        <circle cx="50" cy="462" r="1.4" fill-opacity="0.22" />
+        <circle cx="90" cy="444" r="1.2" fill-opacity="0.18" />
+      </g>
+
+      <!-- 매거진 풍 + 마커 -->
+      <g stroke="#2f2c28" stroke-width="0.7" stroke-opacity="0.22" stroke-linecap="round">
+        <!-- top-right plus -->
+        <line x1="446" y1="160" x2="454" y2="160" />
+        <line x1="450" y1="156" x2="450" y2="164" />
+        <!-- mid-left plus -->
+        <line x1="100" y1="288" x2="108" y2="288" />
+        <line x1="104" y1="284" x2="104" y2="292" />
+        <!-- bottom-mid plus -->
+        <line x1="248" y1="468" x2="256" y2="468" />
+        <line x1="252" y1="464" x2="252" y2="472" />
+      </g>
+
+      <!-- 짧은 대각 hash 라인들 -->
+      <g stroke="#2f2c28" stroke-width="0.6" stroke-opacity="0.14" stroke-linecap="round">
+        <line x1="180" y1="74" x2="194" y2="60" />
+        <line x1="186" y1="80" x2="200" y2="66" />
+        <line x1="430" y1="382" x2="444" y2="368" />
+        <line x1="436" y1="388" x2="450" y2="374" />
+      </g>
+
+      <!-- 중앙을 가로지르는 가는 수평선 (두 줄) -->
       <line
         x1="60" y1="312" x2="480" y2="312"
+        stroke="#2f2c28" stroke-opacity="0.08" stroke-width="0.5"
+      />
+      <line
+        x1="180" y1="320" x2="360" y2="320"
         stroke="#2f2c28" stroke-opacity="0.05" stroke-width="0.5"
       />
 
       <!-- 우측 길게 늘어진 가는 곡선 -->
       <path
         d="M 540 180 Q 380 240 400 380 Q 420 500 540 480"
+        fill="none" stroke="#2f2c28" stroke-opacity="0.1" stroke-width="0.7"
+      />
+      <!-- 좌측에서 흐르는 보조 곡선 -->
+      <path
+        d="M 0 360 Q 120 320 160 380 Q 200 440 140 500"
         fill="none" stroke="#2f2c28" stroke-opacity="0.07" stroke-width="0.6"
       />
+
+      <!-- 미니 사각형 outlines (매거진 픽토그램 풍) -->
+      <g stroke="#2f2c28" fill="none" stroke-width="0.6" stroke-opacity="0.16">
+        <rect x="408" y="58" width="14" height="14" />
+        <rect x="160" y="410" width="10" height="10" transform="rotate(45 165 415)" />
+      </g>
     </svg>
 
     <!-- 콘텐츠 ───────────────────────────────── -->

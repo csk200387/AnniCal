@@ -2710,5 +2710,729 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/inspire-your-heart-with-art-day-january-31/"
+  },
+  {
+    "id": "anv-fixed-02-01-national-freedom-day-us",
+    "date": "02-01",
+    "dateType": "annual-fixed",
+    "name": "전미 자유의 날 (National Freedom Day)",
+    "category": "commemorative",
+    "tags": [
+      "미국",
+      "기념일",
+      "인권",
+      "역사"
+    ],
+    "storytelling": {
+      "origin": "1865년 2월 1일 에이브러햄 링컨 대통령이 노예제 폐지를 명시한 수정헌법 제13조에 서명한 것을 기념하는 날로, 1948년 미국에서 공식 기념일로 제정되었다.",
+      "anecdote": "노예 출신 사업가이자 인권운동가였던 리처드 R. 라이트(Richard R. Wright Sr.)가 '자유를 기념하는 날'을 만들자고 제안해 탄생했다. 이듬해 시작되는 미국 흑인 역사의 달(Black History Month)의 문을 여는 날이기도 하다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "자유는 공짜가 아니라 누군가의 서명 한 줄에서 시작됐다"
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-02-groundhog-day-us",
+    "date": "02-02",
+    "dateType": "annual-fixed",
+    "name": "성촉절 (Groundhog Day)",
+    "category": "international",
+    "tags": [
+      "미국",
+      "전통",
+      "동물",
+      "날씨"
+    ],
+    "storytelling": {
+      "origin": "미국과 캐나다의 전통 기념일로, 동면에서 깬 마멋(우드척)이 자기 그림자를 보면 겨울이 6주 더 이어지고, 못 보면 봄이 일찍 온다는 민간 예측에서 유래했다. 펜실베이니아 펑쑤토니의 마멋 '필(Phil)'이 가장 유명하다.",
+      "anecdote": "한국에는 빌 머레이 주연의 영화 「사랑의 블랙홀」(원제 Groundhog Day, 1993)로 널리 알려졌다. 같은 하루가 무한 반복되는 '타임 루프' 장르의 대명사가 되었을 정도로 문화적 영향력이 크다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "오늘이 어제 같고 어제가 오늘 같다면, 당신은 이미 성촉절 안에 있다"
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-03-carrot-cake-day-us",
+    "date": "02-03",
+    "dateType": "annual-fixed",
+    "name": "당근케이크의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "음식",
+      "디저트",
+      "케이크"
+    ],
+    "storytelling": {
+      "origin": "촉촉한 당근케이크를 기념하는 날. 설탕이 귀하던 중세 유럽에서 단맛이 나는 당근을 케이크에 넣은 것이 기원으로, 제2차 세계대전 당시 설탕 배급 시기에 다시 큰 인기를 얻었다.",
+      "anecdote": "당근이 들어갔다는 이유로 '건강한 케이크'라는 오해를 받지만, 위에 올라가는 크림치즈 프로스팅 덕분에 칼로리는 만만치 않다. 한국 카페에서도 크림치즈 듬뿍 올린 당근케이크는 꾸준한 스테디셀러다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "당근 들어갔으니까 야채지? (아니요, 크림치즈 케이크입니다)"
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-04-homemade-soup-day-us",
+    "date": "02-04",
+    "dateType": "annual-fixed",
+    "name": "수제 수프의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "음식",
+      "겨울",
+      "요리"
+    ],
+    "storytelling": {
+      "origin": "한겨울 추위를 녹여주는 집에서 끓인 따끈한 수프를 기념하는 날. 수프는 인류가 토기를 만들기 시작한 약 2만 년 전부터 먹어온 가장 오래된 조리 음식 중 하나다.",
+      "anecdote": "서양의 수프 문화는 한국의 '국물 요리'와 통하는 면이 많다. 추운 2월, 미국 가정에서는 치킨 누들 수프나 클램 차우더를, 한국 가정에서는 김치찌개와 된장국을 끓이며 비슷한 위안을 얻는다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "감기엔 약보다 엄마표 국물 한 그릇"
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-05-weatherpersons-day-us",
+    "date": "02-05",
+    "dateType": "annual-fixed",
+    "name": "기상인의 날 (Weatherperson's Day)",
+    "category": "anniversary",
+    "tags": [
+      "미국",
+      "직업",
+      "기상",
+      "과학"
+    ],
+    "storytelling": {
+      "origin": "미국 최초의 기상 관측자로 알려진 존 제프리스(John Jeffries) 박사의 생일(1744년 2월 5일)을 기려 제정된 날로, 날씨를 예보하는 모든 기상 종사자의 노고를 기념한다.",
+      "anecdote": "기상 예보는 '맞히면 본전, 틀리면 욕먹는' 가장 가혹한 직업 중 하나다. 한국 기상청도 '오보청'이라는 별명으로 놀림받곤 하지만, 대기는 나비효과가 작동하는 카오스 시스템이라 100% 예측은 과학적으로 불가능하다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "기상청 도시락 싸들고 소풍 갔다가 비 맞은 사연 (전설의 밈)"
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-06-frozen-yogurt-day-us",
+    "date": "02-06",
+    "dateType": "annual-fixed",
+    "name": "프로즌 요거트의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "음식",
+      "디저트",
+      "요거트"
+    ],
+    "storytelling": {
+      "origin": "아이스크림보다 산뜻한 디저트 프로즌 요거트(프로요)를 기념하는 날. 1970년대 미국 뉴잉글랜드에서 '건강한 아이스크림 대안'으로 처음 상업화되었다.",
+      "anecdote": "한국에서는 '레드망고'와 '요거프레소'가 프로즌 요거트 열풍을 이끌었다. 새콤한 요거트 위에 과일·시리얼·초코를 토핑으로 골라 담는 셀프 토핑 방식이 큰 인기를 끌었다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "토핑 욕심내다 보면 결국 요거트보다 비싼 토핑값"
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-07-send-a-card-to-a-friend-day-us",
+    "date": "02-07",
+    "dateType": "annual-fixed",
+    "name": "친구에게 카드 보내는 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "우정",
+      "아날로그",
+      "편지"
+    ],
+    "storytelling": {
+      "origin": "디지털 메시지가 넘쳐나는 시대에, 손으로 쓴 카드 한 장을 친구에게 보내며 마음을 전하자는 취지로 만들어진 날이다. 일주일 뒤 밸런타인데이를 앞둔 시기라는 점도 의미가 있다.",
+      "anecdote": "한국에서도 카카오톡 대신 손편지·엽서를 주고받는 '아날로그 감성'이 다시 주목받고 있다. 우체국 느린우체통, 손글씨 다이어리(다꾸) 문화가 그 연장선에 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "카톡 100개보다 손글씨 카드 한 장이 이기는 순간"
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-08-kite-flying-day-global",
+    "date": "02-08",
+    "dateType": "annual-fixed",
+    "name": "연날리기의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "전통놀이",
+      "야외활동",
+      "겨울"
+    ],
+    "storytelling": {
+      "origin": "겨울 하늘에 연을 띄우며 즐기는 야외 활동을 기념하는 날. 연의 역사는 약 2,300년 전 중국에서 시작되어 아시아 전역으로 퍼졌다.",
+      "anecdote": "한국에서 연날리기는 설날 대표 민속놀이다. 방패연·가오리연을 날리다가 '액(厄)'을 멀리 보낸다는 의미로 연줄을 끊어 날려 보내는 '액연 띄우기' 풍습도 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "연 날리러 갔다가 나무에 헌납하고 오는 게 국룰"
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-09-pizza-day-global",
+    "date": "02-09",
+    "dateType": "annual-fixed",
+    "name": "피자의 날",
+    "category": "general",
+    "tags": [
+      "이탈리아",
+      "음식",
+      "피자",
+      "패스트푸드"
+    ],
+    "storytelling": {
+      "origin": "전 세계인의 소울푸드 피자를 기념하는 날. 현대적인 피자는 18~19세기 이탈리아 나폴리에서 탄생했고, 1889년 마르게리타 여왕을 위해 만든 '마르게리타 피자'가 유명하다.",
+      "anecdote": "한국식 피자는 고구마 무스, 불고기, 콘 토핑 등 독자 노선으로 진화했다. 이탈리아인들이 보면 충격받지만, 한국에서는 '피자에 고구마 무스 없으면 섭섭하다'는 사람이 많다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "파인애플 피자 논쟁: 인류 최후의 영원한 떡밥"
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-10-umbrella-day-global",
+    "date": "02-10",
+    "dateType": "annual-fixed",
+    "name": "우산의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "일상",
+      "발명품"
+    ],
+    "storytelling": {
+      "origin": "비와 햇빛으로부터 우리를 지켜주는 우산을 기념하는 날. 우산은 약 4천 년 전 이집트·중국에서 처음 사용되었고, 초기에는 햇빛을 가리는 양산 용도가 더 컸다.",
+      "anecdote": "한국에서 우산은 '편의점 일회용품계의 끝판왕'이다. 갑자기 비가 오면 사고, 맑아지면 어딘가에 두고 오는 무한 반복. 분실률 1위 생활용품이라는 슬픈 통계도 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "내가 산 우산은 다 어디로 갔을까 (우산 블랙홀 미스터리)"
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-11-make-a-friend-day-global",
+    "date": "02-11",
+    "dateType": "annual-fixed",
+    "name": "친구 사귀는 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "우정",
+      "관계",
+      "사교"
+    ],
+    "storytelling": {
+      "origin": "새로운 사람에게 먼저 말을 걸고 친구를 사귀어 보자는 취지로 만들어진 비공식 기념일이다. 인간관계가 정신 건강과 수명에 큰 영향을 준다는 연구들이 이 날의 의미를 뒷받침한다.",
+      "anecdote": "성인이 되면 새 친구 사귀기가 어려워진다는 말이 있다. 하버드대의 80년 장기 추적 연구는 '좋은 인간관계가 행복과 건강의 가장 강력한 예측 변수'라는 결론을 내놓기도 했다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "어른의 친구 사귀기 난이도: 게임 최종 보스급"
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-12-abraham-lincoln-birthday-us",
+    "date": "02-12",
+    "dateType": "annual-fixed",
+    "name": "에이브러햄 링컨 탄생일",
+    "category": "commemorative",
+    "tags": [
+      "미국",
+      "역사",
+      "인물",
+      "대통령"
+    ],
+    "storytelling": {
+      "origin": "미국 제16대 대통령 에이브러햄 링컨의 생일(1809년 2월 12일)을 기념하는 날. 그는 남북전쟁을 통해 연방을 지키고 노예 해방을 이끈 인물로 평가받는다.",
+      "anecdote": "'국민의, 국민에 의한, 국민을 위한 정부'라는 게티즈버그 연설은 단 272단어, 약 2분 분량의 짧은 연설이었지만 역사상 가장 위대한 연설로 꼽힌다. 통나무집에서 태어나 독학으로 변호사·대통령에 오른 입지전적 인물이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "역사상 가장 강력한 연설이 단 2분이었다는 사실"
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/에이브러햄_링컨"
+  },
+  {
+    "id": "anv-fixed-02-13-tortellini-day-it",
+    "date": "02-13",
+    "dateType": "annual-fixed",
+    "name": "토르텔리니의 날",
+    "category": "general",
+    "tags": [
+      "이탈리아",
+      "음식",
+      "파스타"
+    ],
+    "storytelling": {
+      "origin": "고기나 치즈로 속을 채운 반지 모양의 이탈리아 만두 파스타 '토르텔리니'를 기념하는 날. 이탈리아 볼로냐·모데나 지방의 명물이다.",
+      "anecdote": "토르텔리니의 모양은 '비너스의 배꼽을 본떠 만들었다'는 낭만적인 전설이 전해진다. 한국의 만두와 비슷해 친숙하며, 맑은 닭 육수에 끓여 먹는 '토르텔리니 인 브로도'가 대표 요리다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "결국 만두는 전 세계 어디에나 있다는 진리"
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-14-valentines-day-global",
+    "date": "02-14",
+    "dateType": "annual-fixed",
+    "name": "밸런타인데이",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "사랑",
+      "연인",
+      "초콜릿"
+    ],
+    "storytelling": {
+      "origin": "3세기 로마, 황제의 결혼 금지령을 어기고 연인들의 혼인을 몰래 주관하다 순교한 성 발렌티노(St. Valentine) 사제를 기리는 데서 유래한, 연인들의 사랑을 기념하는 날이다.",
+      "anecdote": "한국·일본에서는 여성이 남성에게 초콜릿을 주는 날로 정착했는데, 이는 1950년대 일본 제과업계 마케팅의 영향이 크다. 한 달 뒤인 3월 14일 화이트데이, 4월 14일 블랙데이로 이어지는 한국 특유의 '데이 문화'를 만들어냈다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "초콜릿 회사들이 만든 가장 성공한 마케팅 (2위는 화이트데이)"
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/밸런타인데이"
+  },
+  {
+    "id": "anv-fixed-02-15-singles-awareness-day-global",
+    "date": "02-15",
+    "dateType": "annual-fixed",
+    "name": "솔로 인식의 날 (Singles Awareness Day)",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "유머",
+      "싱글"
+    ],
+    "storytelling": {
+      "origin": "밸런타인데이 바로 다음 날, 연애를 하지 않는 싱글들도 스스로를 축하하자는 취지로 만들어진 유머러스한 날이다. 영문 약자가 공교롭게도 'SAD'가 되는 것이 이 날의 묘미.",
+      "anecdote": "이 날은 '자기 자신을 사랑하는 날'로도 의미가 확장되고 있다. 친구들끼리 모여 파티를 하거나, 혼자만의 시간을 만끽하며 자신에게 선물을 주는 것이 권장된다. 한국의 4월 14일 '블랙데이'(짜장면 먹는 날)와 통하는 정서다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "어제는 SAD(슬픔), 오늘은 SAD(솔로 인식의 날). 결국 둘 다 나잖아"
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-16-almond-day-us",
+    "date": "02-16",
+    "dateType": "annual-fixed",
+    "name": "아몬드의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "음식",
+      "견과류",
+      "건강"
+    ],
+    "storytelling": {
+      "origin": "비타민 E와 건강한 지방이 풍부한 견과류 아몬드를 기념하는 날. 아몬드는 약 4천 년 전 중동에서 재배되기 시작했고, 오늘날 전 세계 생산량의 약 80%가 미국 캘리포니아에서 나온다.",
+      "anecdote": "엄밀히 말하면 아몬드는 견과류가 아니라 복숭아·자두와 같은 '핵과(核果)'의 씨앗이다. 한국에서는 '하루 한 줌 견과' 건강 습관의 대표 주자이자, 허니버터아몬드 열풍으로 한때 품절 대란을 일으키기도 했다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "허니버터아몬드 한 봉지 = 하루 한 줌의 함정 (계속 손이 감)"
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-17-random-acts-of-kindness-day-global",
+    "date": "02-17",
+    "dateType": "annual-fixed",
+    "name": "무작위 친절의 날 (Random Acts of Kindness Day)",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "친절",
+      "선행",
+      "긍정"
+    ],
+    "storytelling": {
+      "origin": "낯선 사람에게 베푸는 작고 예상치 못한 친절로 세상을 따뜻하게 만들자는 취지로 시작된 날이다. 미국의 비영리단체 'Random Acts of Kindness Foundation'이 확산을 이끌었다.",
+      "anecdote": "뒷사람을 위해 문 잡아주기, 모르는 사람 커피값 대신 내주기 같은 작은 친절이 권장된다. 친절은 '전염'되는 성질이 있어, 한 번의 선행이 연쇄적으로 퍼져나가는 '페이 잇 포워드(Pay It Forward)' 효과를 낳는다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "오늘 베푼 친절이 누군가의 인생 최악의 날을 구할 수도 있다"
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-18-drink-wine-day-global",
+    "date": "02-18",
+    "dateType": "annual-fixed",
+    "name": "와인 마시는 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음료",
+      "와인",
+      "주류"
+    ],
+    "storytelling": {
+      "origin": "한 잔의 와인을 음미하며 그 역사와 문화를 기념하는 날. 와인 양조의 역사는 약 8천 년 전 조지아(코카서스 지방)까지 거슬러 올라간다.",
+      "anecdote": "한국의 와인 소비량은 코로나19 시기 '홈술' 문화와 함께 폭발적으로 늘었다. 편의점에서 1만 원대 가성비 와인을 고르는 '편의점 와인족'이 등장했고, 마트 와인 코너도 크게 확장되었다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "와인 입문 = '이거 무슨 맛이지?' → 3개월 후 '바디감이 묵직하네'"
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-19-chocolate-mint-day-global",
+    "date": "02-19",
+    "dateType": "annual-fixed",
+    "name": "초콜릿 민트의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "민트초코"
+    ],
+    "storytelling": {
+      "origin": "초콜릿과 민트의 조합을 기념하는 날. 상쾌한 민트와 달콤한 초콜릿의 만남은 아이스크림, 쿠키, 음료 등 다양한 디저트로 변주된다.",
+      "anecdote": "한국에서 '민트초코(민초)'는 단순한 맛을 넘어 사회적 정체성이 되었다. '민초단 vs 반민초단'의 호불호 논쟁은 온라인 단골 떡밥이며, '치약 맛'이라는 안티팬과 '청량함의 극치'라는 팬이 끝없이 대립한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "민초단 vs 반민초단: 탕수육 부먹/찍먹보다 깊은 골"
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-20-love-your-pet-day-global",
+    "date": "02-20",
+    "dateType": "annual-fixed",
+    "name": "반려동물 사랑의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "반려동물",
+      "사랑",
+      "동물"
+    ],
+    "storytelling": {
+      "origin": "반려동물에게 평소보다 더 많은 관심과 사랑을 쏟으며, 함께하는 행복에 감사하자는 취지로 만들어진 날이다.",
+      "anecdote": "한국은 반려인구 1,500만 시대로, '반려동물'이라는 표현 자체가 가족의 일원으로 본다는 인식 변화를 담고 있다. 이 날은 산책을 더 길게 하거나, 특별 간식을 주거나, 함께 사진을 찍으며 보내기 좋다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "집사: 내가 키우는 줄 알았는데 사실 내가 키워지는 중"
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-21-sticky-bun-day-us",
+    "date": "02-21",
+    "dateType": "annual-fixed",
+    "name": "스티키 번의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "음식",
+      "디저트",
+      "베이커리"
+    ],
+    "storytelling": {
+      "origin": "꿀이나 시럽, 견과류를 듬뿍 올려 끈적하게 구운 빵 '스티키 번(Sticky Bun)'을 기념하는 날. 독일계 이민자들이 미국 펜실베이니아로 가져온 '슈네켄(Schnecken)'이 그 원형이다.",
+      "anecdote": "시나몬 롤과 비슷하지만, 굽기 전 팬 바닥에 시럽과 피칸을 깔아 뒤집어 내는 점이 다르다. 한국의 견과류 시럽 호두파이나 끈적한 약과를 떠올리면 그 매력을 이해하기 쉽다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "손가락 끈적해질 각오 없이는 먹지 마라"
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-22-cook-a-sweet-potato-day-global",
+    "date": "02-22",
+    "dateType": "annual-fixed",
+    "name": "고구마 요리의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "채소",
+      "건강"
+    ],
+    "storytelling": {
+      "origin": "영양이 풍부한 고구마를 다양한 방식으로 요리해 즐기자는 취지의 날. 고구마는 약 5천 년 전 중남미에서 처음 재배되어 전 세계로 퍼졌다.",
+      "anecdote": "한국에서 겨울 하면 떠오르는 간식이 바로 '군고구마'다. 추운 거리의 군고구마 드럼통, 호일에 싼 고구마, 그리고 '고구마 먹다 목 막힐 때 동치미'는 한국인의 겨울 클리셰다. 답답한 상황을 '고구마 같다'고 표현하는 신조어도 생겼다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "전개가 답답하면 고구마, 시원하게 풀리면 사이다 (K-드라마 평론 용어)"
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-23-banana-bread-day-us",
+    "date": "02-23",
+    "dateType": "annual-fixed",
+    "name": "바나나 브레드의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "음식",
+      "베이킹",
+      "디저트"
+    ],
+    "storytelling": {
+      "origin": "잘 익어 무른 바나나를 활용해 만드는 촉촉한 빵 '바나나 브레드'를 기념하는 날. 1930년대 베이킹파우더 보급과 대공황기 '음식 낭비를 줄이자'는 분위기 속에서 미국 가정 요리로 자리잡았다.",
+      "anecdote": "검게 변한 바나나를 버리지 않고 디저트로 재탄생시키는 '못난이 구제 레시피'의 대표주자다. 코로나19 자가격리 기간, 전 세계적으로 집에서 바나나 브레드 굽기 열풍이 불기도 했다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "갈변한 바나나는 실패가 아니라 바나나 브레드의 시작"
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-24-tortilla-chip-day-us",
+    "date": "02-24",
+    "dateType": "annual-fixed",
+    "name": "토르티야 칩의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "음식",
+      "멕시코",
+      "스낵"
+    ],
+    "storytelling": {
+      "origin": "옥수수 토르티야를 삼각형으로 잘라 튀긴 스낵 '토르티야 칩'을 기념하는 날. 1940년대 미국 로스앤젤레스의 한 토르티야 공장에서 자투리를 버리지 않고 튀겨 판 것이 시작이라고 전해진다.",
+      "anecdote": "살사·과카몰리·치즈 소스에 찍어 먹는 '나초'의 핵심 재료다. 한국에서는 '도리토스'가 토르티야 칩 시장을 대표하며, 맥주 안주이자 영화 관람 간식으로 사랑받는다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "나초 = 토르티야 칩이 치즈를 만나 인생 역전한 케이스"
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-25-clam-chowder-day-us",
+    "date": "02-25",
+    "dateType": "annual-fixed",
+    "name": "클램 차우더의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "음식",
+      "수프",
+      "해산물"
+    ],
+    "storytelling": {
+      "origin": "조개와 감자를 넣어 걸쭉하게 끓인 미국 동부의 명물 수프 '클램 차우더'를 기념하는 날. 18세기 뉴잉글랜드 어촌에서 어부들이 잡은 조개로 끓여 먹던 음식에서 유래했다.",
+      "anecdote": "크림을 넣은 흰색 '뉴잉글랜드식'과 토마토를 넣은 붉은 '맨해튼식'이 오랜 라이벌이다. 샌프란시스코에서는 둥근 사워도우 빵 속을 파내 그릇처럼 사용하는 '브레드 보울'에 담아 주는 것이 명물이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "빵을 그릇으로 쓰는 순간, 설거지도 먹어 치우는 마법"
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-26-pistachio-day-global",
+    "date": "02-26",
+    "dateType": "annual-fixed",
+    "name": "피스타치오의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "견과류",
+      "건강"
+    ],
+    "storytelling": {
+      "origin": "특유의 연둣빛과 고소한 맛으로 사랑받는 견과류 피스타치오를 기념하는 날. 중동이 원산지로, 약 9천 년 전부터 식용된 인류 역사상 가장 오래된 견과류 중 하나다.",
+      "anecdote": "껍질이 자연스럽게 벌어진 모양 때문에 페르시아에서는 '웃는 견과(smiling nut)'라고 불렸다. 한국에서는 아이스크림·마카롱·라떼 등 디저트에 들어가는 '고급 견과'로 인기가 높다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "안 벌어진 피스타치오 까려다 손톱 잃은 사람 손?"
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-27-international-polar-bear-day-global",
+    "date": "02-27",
+    "dateType": "annual-fixed",
+    "name": "국제 북극곰의 날",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "환경",
+      "동물보호",
+      "기후변화"
+    ],
+    "storytelling": {
+      "origin": "북극곰 보호단체 'Polar Bears International'이 제정한 날로, 기후변화로 서식지인 해빙(海氷)이 녹아 위협받는 북극곰을 보호하자는 메시지를 담고 있다.",
+      "anecdote": "북극곰은 사실 검은 피부에 투명한 털을 가지고 있으며, 빛의 산란으로 인해 하얗게 보인다. 기후변화로 사냥 발판인 얼음이 줄면서 개체 수 감소가 우려되는 대표적 '기후위기 상징 동물'이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "북극곰의 발밑 얼음이 녹는 속도 = 우리가 외면하는 속도"
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-28-tooth-fairy-day-global",
+    "date": "02-28",
+    "dateType": "annual-fixed",
+    "name": "이의 요정의 날 (Tooth Fairy Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "어린이",
+      "전통"
+    ],
+    "storytelling": {
+      "origin": "아이가 빠진 젖니를 베개 밑에 두고 자면, 밤사이 '이의 요정(Tooth Fairy)'이 와서 이를 가져가고 동전이나 선물을 두고 간다는 서양의 동심 어린 전통을 기념하는 날이다.",
+      "anecdote": "한국에는 빠진 이를 지붕 위로 던지며 '까치야 까치야, 헌 이 줄게 새 이 다오'라고 외치는 풍습이 있다. 튼튼한 새 이가 나기를 바라는 마음은 동서양이 똑같다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "서양엔 이의 요정, 한국엔 지붕 위 까치 (담당 부서가 다를 뿐)"
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-floating-02-29-rare-disease-day-global",
+    "date": "02-29",
+    "dateType": "annual-floating",
+    "name": "세계 희귀질환의 날 (Rare Disease Day)",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "의료",
+      "희귀질환",
+      "인식개선"
+    ],
+    "storytelling": {
+      "origin": "2008년 유럽 희귀질환기구(EURORDIS)가 제정한 날로, 희귀질환 환자와 가족이 겪는 어려움을 알리고 진단·치료·연구 지원을 촉구하기 위해 만들어졌다. 매년 2월의 마지막 날에 열린다.",
+      "anecdote": "'4년에 한 번만 돌아오는 가장 드문 날'인 2월 29일을 상징적으로 택했고, 윤년이 아닌 해에는 2월 28일에 기념한다. 전 세계에 약 7천 종 이상의 희귀질환이 알려져 있으며, 치료제가 없는 경우가 많아 인식 개선과 연구 지원이 중요하다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "드물다는 건 혼자라는 뜻이 아니다 — 같은 날, 함께 손을 든다"
+      }
+    ],
+    "sourceUrl": null
   }
 ]
