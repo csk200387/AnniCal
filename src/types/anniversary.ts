@@ -5,12 +5,14 @@ import type { CategoryId } from './category'
  * - annual-fixed: 매년 같은 (월, 일) — 예: 3월 14일 파이의 날
  * - annual-floating: 매년 반복되지만 날짜가 바뀜, 연도별 별도 엔트리 — 예: F1 모나코 GP 결승일
  * - annual-nth-weekday: 매년 'N번째 X요일' 규칙 — 예: 5월 둘째 주 일요일 (어머니의 날)
+ * - annual-relative-to-holiday: 다른 기념일(id) 기준 +N/-N일 — 예: 추수감사절 다음날 블랙프라이데이
  * - one-time: 특정 연도 1회성 — 예: 핼리혜성 회귀
  */
 export type DateType =
   | 'annual-fixed'
   | 'annual-floating'
   | 'annual-nth-weekday'
+  | 'annual-relative-to-holiday'
   | 'one-time'
 
 export type MemeType = 'image' | 'text'
@@ -39,6 +41,9 @@ export interface Anniversary {
    * - annual-nth-weekday:  "MM-N-DOW"        예) "05-2-SUN" / "11-4-THU" / "05-L-MON"
    *     · N: 1~5 또는 'L'(마지막)
    *     · DOW: SUN | MON | TUE | WED | THU | FRI | SAT
+   * - annual-relative-to-holiday: "{anchorId}:{offsetDays}"  예) "anv-nth-11-4-thu-thanksgiving-day-us:1"
+   *     · anchorId: 기준이 되는 다른 Anniversary 의 id (데이터셋에 존재해야 함)
+   *     · offsetDays: 기준일로부터 며칠 뒤(+)/전(-)인지. 정수 문자열.
    * - one-time:            "YYYY-MM-DD"
    */
   date: string

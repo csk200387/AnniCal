@@ -1,7 +1,7 @@
 import { computed, onMounted, ref } from 'vue'
 import dayjs, { Dayjs } from 'dayjs'
 import { useAnniversariesStore } from '@/stores/anniversaries'
-import { occursOn } from '@/utils/dateUtils'
+import { occursOn, resolveOccurrence } from '@/utils/dateUtils'
 import type { Anniversary } from '@/types/anniversary'
 
 export interface CalendarCell {
@@ -56,6 +56,20 @@ export function useMonthCalendar() {
     return store.items.filter((a) => occursOn(a, y, m, day))
   })
 
+  // 검색: 이름 또는 태그에 질의어가 포함되는 기념일.
+  const searchQuery = ref('')
+  const searchResults = computed<Anniversary[]>(() => {
+    const q = searchQuery.value.trim().toLowerCase()
+    if (!q) return []
+    return store.items
+      .filter(
+        (a) =>
+          a.name.toLowerCase().includes(q) ||
+          a.tags.some((t) => t.toLowerCase().includes(q)),
+      )
+      .slice(0, 30)
+  })
+
   function goPrevMonth() {
     cursor.value = cursor.value.subtract(1, 'month').startOf('month')
   }
@@ -72,6 +86,11 @@ export function useMonthCalendar() {
       cursor.value = d.startOf('month')
     }
   }
+  /** 검색 결과 클릭 → 현재 커서 연도 기준 발생일로 이동·선택. */
+  function selectAnniversary(anv: Anniversary) {
+    const occ = dayjs(resolveOccurrence(anv, cursor.value.year()))
+    selectDate(occ)
+  }
 
   return {
     cursor,
@@ -80,11 +99,14 @@ export function useMonthCalendar() {
     today,
     selectedDate,
     selectedAnniversaries,
+    searchQuery,
+    searchResults,
     isLoading: computed(() => store.isLoading),
     error: computed(() => store.error),
     goPrevMonth,
     goNextMonth,
     goToday,
     selectDate,
+    selectAnniversary,
   }
 }

@@ -28,12 +28,56 @@ python app.py
 
 - **목록 (좌측)** — 날짜순으로 전체 항목 표시. 이름·태그·id·카테고리·날짜로 검색.
 - **편집 폼 (우측)** — 행을 클릭하면 폼에 로드. 같은 id 로 저장하면 수정, 새 id 면 추가.
+- **📰 네이버 뉴스 검색** — 편집 폼 안의 아코디언. 기념일 관련 뉴스를 수집해 `sourceUrl`·`anecdote` 채우기를 돕는다 (아래 참고).
 - **🗑️ 삭제 / ➕ 새로 작성 / 🔄 재로드**.
 - **상단 검수 패널**:
   - 중복 id
   - `categories.json` 에 없는 카테고리
   - 필수 필드(`id`, `name`, `date`, `dateType`, `category`, `storytelling.origin/anecdote`, `tags`) 누락/빈 값
-  - 날짜 포맷 오류 — `annual-fixed` ↔ `MM-DD`, `annual-floating`/`one-time` ↔ `YYYY-MM-DD`
+  - 날짜 포맷 오류 — `annual-fixed` ↔ `MM-DD`, `annual-nth-weekday` ↔ `MM-N-DOW`(예: `05-2-SUN`, `10-L-TUE`), `annual-floating`/`one-time` ↔ `YYYY-MM-DD`
+
+## 네이버 뉴스 검색 (선택)
+
+기념일 데이터의 `storytelling`/`sourceUrl` 을 채울 때 [네이버 검색 API](https://developers.naver.com/docs/serviceapi/search/news/news.md) 로 관련 뉴스를 가져온다.
+
+### 1. 자격증명 발급
+
+[developers.naver.com/apps](https://developers.naver.com/apps/) 에서 애플리케이션 등록 → "검색" API 추가 → Client ID / Secret 발급.
+
+### 2. 설정
+
+`.env.example` 을 `.env` 로 복사하고 값을 채운다 (`.env` 는 git 에 커밋되지 않음):
+
+```bash
+cp .env.example .env
+# .env 편집: NAVER_CLIENT_ID / NAVER_CLIENT_SECRET
+```
+
+환경변수로 직접 줘도 된다 (환경변수가 `.env` 보다 우선):
+
+```bash
+export NAVER_CLIENT_ID=...
+export NAVER_CLIENT_SECRET=...
+```
+
+### 3. UI 사용
+
+편집 폼의 **📰 네이버 뉴스 검색** 아코디언을 열고:
+- 검색어 입력 (비우면 위 `name` 필드 값을 사용) → **🔎 검색**.
+- 결과 행을 클릭 → 미리보기 표시.
+- **→ sourceUrl 채우기**: 선택 뉴스 링크를 `sourceUrl` 에 넣음.
+- **→ anecdote 에 추가**: 선택 뉴스 요약을 `anecdote` 끝에 덧붙임.
+
+### CLI 단독 사용
+
+`naver_news.py` 는 import 없이 단독 실행도 된다:
+
+```bash
+python naver_news.py "한글날 유래"
+python naver_news.py "스승의 날" --display 5 --sort date --json
+```
+
+> 자격증명이 없으면 뉴스 검색만 비활성화되고, 검수기의 나머지 기능은 정상 동작한다.
 
 ## 데이터 형식
 

@@ -21,12 +21,25 @@ from typing import Any
 
 import gradio as gr
 
+import naver_news
+
 ROOT = Path(__file__).resolve().parents[2]
 DATA_PATH = ROOT / "src" / "data" / "anniversaries.json"
 CATEGORIES_PATH = ROOT / "src" / "data" / "categories.json"
 
-DATE_TYPES = ["annual-fixed", "annual-floating", "one-time"]
+DATE_TYPES = [
+    "annual-fixed",
+    "annual-floating",
+    "annual-nth-weekday",
+    "annual-relative-to-holiday",
+    "one-time",
+]
+# annual-nth-weekday: "MM-N-DOW" (N=1~5 또는 L, DOW=SUN..SAT)
+NTH_WEEKDAY_RE = r"\d{2}-(?:[1-5]|L)-(?:SUN|MON|TUE|WED|THU|FRI|SAT)"
+# annual-relative-to-holiday: "{anchorId}:{offsetDays}" (offsetDays 는 +/- 정수)
+RELATIVE_TO_HOLIDAY_RE = r"[a-zA-Z0-9_\-]+:-?\d+"
 COLS = ["날짜", "유형", "이름", "카테고리", "id"]
+NEWS_COLS = ["제목", "날짜", "링크"]
 
 
 # ---------- IO ----------
@@ -95,6 +108,7 @@ def filter_rows(items: list[dict[str, Any]], query: str | None) -> list[list[str
 
 def validate(items: list[dict[str, Any]], categories: list[dict[str, Any]]) -> dict[str, list[str]]:
     valid_cat_ids = {c["id"] for c in categories}
+    valid_anv_ids = {a.get("id") for a in items}
 
     counts: dict[str, int] = {}
     for a in items:
@@ -132,6 +146,18 @@ def validate(items: list[dict[str, Any]], categories: list[dict[str, Any]]) -> d
         if dt == "annual-fixed":
             if not re.fullmatch(r"\d{2}-\d{2}", d):
                 bad_dates.append(f"{aid}: '{d}' (annual-fixed → MM-DD)")
+        elif dt == "annual-nth-weekday":
+            if not re.fullmatch(NTH_WEEKDAY_RE, d):
+                bad_dates.append(f"{aid}: '{d}' (annual-nth-weekday → MM-N-DOW)")
+        elif dt == "annual-relative-to-holiday":
+            if not re.fullmatch(RELATIVE_TO_HOLIDAY_RE, d):
+                bad_dates.append(
+                    f"{aid}: '{d}' (annual-relative-to-holiday → anchorId:offsetDays)"
+                )
+            else:
+                anchor_id = d.rsplit(":", 1)[0]
+                if anchor_id not in valid_anv_ids:
+                    bad_dates.append(f"{aid}: anchor id '{anchor_id}' 를 찾을 수 없음")
         elif dt in ("annual-floating", "one-time"):
             if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", d):
                 bad_dates.append(f"{aid}: '{d}' ({dt} → YYYY-MM-DD)")
@@ -273,6 +299,18 @@ def save_entry(
     elif date_type == "annual-fixed":
         if not re.fullmatch(r"\d{2}-\d{2}", date or ""):
             errors.append("annual-fixed 는 MM-DD 형식이어야 합니다.")
+    elif date_type == "annual-nth-weekday":
+        if not re.fullmatch(NTH_WEEKDAY_RE, date or ""):
+            errors.append("annual-nth-weekday 는 MM-N-DOW 형식이어야 합니다 (예: 05-2-SUN, 10-L-TUE).")
+    elif date_type == "annual-relative-to-holiday":
+        if not re.fullmatch(RELATIVE_TO_HOLIDAY_RE, date or ""):
+            errors.append(
+                "annual-relative-to-holiday 는 anchorId:offsetDays 형식이어야 합니다 (예: anv-nth-11-4-thu-thanksgiving-day-us:1)."
+            )
+        else:
+            anchor_id = (date or "").rsplit(":", 1)[0]
+            if not any(x.get("id") == anchor_id for x in items):
+                errors.append(f"anchor id '{anchor_id}' 를 찾을 수 없습니다.")
     else:
         if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", date or ""):
             errors.append(f"{date_type} 는 YYYY-MM-DD 형식이어야 합니다.")
@@ -363,6 +401,59 @@ def reload_all(query: str):
         format_issues_md(validate(items, cats)),
         f"🔄 재로드 완료 — 항목 {len(items)}개 / 카테고리 {len(cats)}개",
     )
+
+
+# ---------- 네이버 뉴스 ----------
+
+def search_news_handler(query: str, sort: str, name_fallback: str):
+    """검색어(없으면 name)로 네이버 뉴스 검색 → State + 표 + 상태."""
+    q = (query or "").strip() or (name_fallback or "").strip()
+    if not q:
+        return [], [], "❌ 검색어가 비어 있습니다 (이름을 입력하거나 좌측 항목 선택)."
+    try:
+        results = naver_news.search_news_dicts(q, display=10, sort=sort or "sim")
+    except naver_news.NaverAuthError as e:
+        return [], [], f"🔑 {e}"
+    except naver_news.NaverApiError as e:
+        return [], [], f"⚠️ {e}"
+    if not results:
+        return [], [], f"검색 결과 없음: '{q}'"
+    rows = [
+        [r["title"], r["pub_date"], (r["link"] or r["originallink"])]
+        for r in results
+    ]
+    return results, rows, f"🔎 '{q}' — {len(results)}건"
+
+
+def on_news_select(news_items: list[dict[str, Any]], evt: gr.SelectData):
+    """뉴스 표 행 선택 → 선택 인덱스 + 미리보기."""
+    if not news_items:
+        return None, ""
+    idx = evt.index[0] if isinstance(evt.index, (list, tuple)) else evt.index
+    if idx is None or idx < 0 or idx >= len(news_items):
+        return None, ""
+    n = news_items[idx]
+    link = n.get("link") or n.get("originallink") or ""
+    preview = f"**{n.get('title', '')}**\n\n{n.get('description', '')}\n\n🔗 {link}"
+    return idx, preview
+
+
+def news_to_source(news_items: list[dict[str, Any]], sel_idx):
+    """선택 뉴스 링크 → sourceUrl 필드."""
+    if news_items and sel_idx is not None and 0 <= sel_idx < len(news_items):
+        n = news_items[sel_idx]
+        return n.get("link") or n.get("originallink") or ""
+    return gr.update()
+
+
+def news_to_anecdote(news_items: list[dict[str, Any]], sel_idx, current_anecdote: str):
+    """선택 뉴스 요약을 anecdote 끝에 덧붙임."""
+    if not (news_items and sel_idx is not None and 0 <= sel_idx < len(news_items)):
+        return gr.update()
+    n = news_items[sel_idx]
+    snippet = n.get("description") or n.get("title") or ""
+    base = (current_anecdote or "").strip()
+    return (base + ("\n" if base else "") + snippet).strip()
 
 
 # ---------- UI ----------
@@ -517,6 +608,30 @@ def build_ui() -> gr.Blocks:
 
                 f_source = gr.Textbox(label="sourceUrl", placeholder="https://...")
 
+                # --- 네이버 뉴스 검색 (storytelling / sourceUrl 수집 보조) ---
+                with gr.Accordion("📰 네이버 뉴스 검색", open=False):
+                    news_state = gr.State([])
+                    news_sel = gr.State(None)
+                    with gr.Row():
+                        f_news_query = gr.Textbox(
+                            placeholder="검색어 (비우면 위 name 사용)",
+                            show_label=False, scale=3,
+                        )
+                        f_news_sort = gr.Dropdown(
+                            choices=["sim", "date"], value="sim",
+                            label="정렬", scale=1, min_width=110,
+                        )
+                        news_search_btn = gr.Button("🔎 검색", scale=0, min_width=80)
+                    news_status = gr.Markdown("")
+                    news_df = gr.Dataframe(
+                        headers=NEWS_COLS, type="array", interactive=False,
+                        wrap=True, row_count=(5, "dynamic"), col_count=(3, "fixed"),
+                    )
+                    news_preview = gr.Markdown("")
+                    with gr.Row():
+                        news_to_source_btn = gr.Button("→ sourceUrl 채우기", size="sm")
+                        news_to_anecdote_btn = gr.Button("→ anecdote 에 추가", size="sm")
+
                 with gr.Row():
                     save_btn = gr.Button("💾 저장 (추가/수정)", variant="primary")
                     delete_btn = gr.Button("🗑️ 이 id 삭제", variant="stop")
@@ -563,6 +678,28 @@ def build_ui() -> gr.Blocks:
             fn=reload_all,
             inputs=[search],
             outputs=[items_state, cats_state, rows_df, issues_md, status],
+        )
+
+        # --- 뉴스 검색 wiring ---
+        news_search_btn.click(
+            fn=search_news_handler,
+            inputs=[f_news_query, f_news_sort, f_name],
+            outputs=[news_state, news_df, news_status],
+        )
+        news_df.select(
+            fn=on_news_select,
+            inputs=[news_state],
+            outputs=[news_sel, news_preview],
+        )
+        news_to_source_btn.click(
+            fn=news_to_source,
+            inputs=[news_state, news_sel],
+            outputs=f_source,
+        )
+        news_to_anecdote_btn.click(
+            fn=news_to_anecdote,
+            inputs=[news_state, news_sel, f_anecdote],
+            outputs=f_anecdote,
         )
 
     return demo

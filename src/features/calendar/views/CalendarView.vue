@@ -1,25 +1,63 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, nextTick, onBeforeUnmount, onMounted, ref } from 'vue'
 import { useMonthCalendar } from '../composables/useMonthCalendar'
 import AnniversaryCard from '@/components/card/AnniversaryCard.vue'
 import type { Anniversary } from '@/types/anniversary'
 import { useShareStore } from '@/stores/share'
-import { daysUntil } from '@/utils/dateUtils'
+import { daysUntil, formatKoreanMonthDay } from '@/utils/dateUtils'
 
 const shareStore = useShareStore()
 
 const {
+  cursor,
   monthLabel,
   weeks,
   selectedDate,
   selectedAnniversaries,
+  searchQuery,
+  searchResults,
   isLoading,
   error,
   goPrevMonth,
   goNextMonth,
   goToday,
   selectDate,
+  selectAnniversary,
 } = useMonthCalendar()
+
+// 검색 UI: 아이콘 클릭으로 입력창을 펼치고, 결과 클릭 시 해당 날짜로 이동.
+const isSearchOpen = ref(false)
+const searchInputEl = ref<HTMLInputElement | null>(null)
+const searchRootEl = ref<HTMLElement | null>(null)
+
+function openSearch() {
+  isSearchOpen.value = true
+  nextTick(() => searchInputEl.value?.focus())
+}
+function closeSearch() {
+  isSearchOpen.value = false
+  searchQuery.value = ''
+}
+function toggleSearch() {
+  if (isSearchOpen.value) closeSearch()
+  else openSearch()
+}
+function goToAnniversary(anv: Anniversary) {
+  selectAnniversary(anv)
+  closeSearch()
+}
+function resultDate(anv: Anniversary): string {
+  return formatKoreanMonthDay(anv, cursor.value.year())
+}
+
+function onDocPointerDown(e: PointerEvent) {
+  if (!isSearchOpen.value) return
+  if (searchRootEl.value && !searchRootEl.value.contains(e.target as Node)) {
+    closeSearch()
+  }
+}
+onMounted(() => document.addEventListener('pointerdown', onDocPointerDown))
+onBeforeUnmount(() => document.removeEventListener('pointerdown', onDocPointerDown))
 
 const weekdayLabels = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT']
 
@@ -37,7 +75,7 @@ function handleShare(anv: Anniversary) {
 </script>
 
 <template>
-  <div class="space-y-12">
+  <div class="space-y-[1.2rem]">
     <!-- Section header -->
     <header>
       <div class="flex items-center gap-3">
@@ -80,6 +118,98 @@ function handleShare(anv: Anniversary) {
     <p v-else-if="error" class="text-sm text-accent-600">{{ error }}</p>
 
     <template v-else>
+      <!-- Search -->
+      <div ref="searchRootEl" class="relative">
+        <div class="flex items-center justify-end gap-2">
+          <div
+            class="overflow-hidden transition-all duration-300 ease-out"
+            :class="
+              isSearchOpen
+                ? 'w-full max-w-xs opacity-100'
+                : 'pointer-events-none w-0 opacity-0'
+            "
+          >
+            <input
+              ref="searchInputEl"
+              v-model="searchQuery"
+              type="text"
+              placeholder="기념일 이름·태그 검색…"
+              class="w-full border-b hairline bg-transparent px-1 py-1.5 font-display text-base text-ink-900 placeholder:text-ink-300 focus:border-ink-800 focus:outline-none"
+              @keydown.escape="closeSearch"
+            />
+          </div>
+          <button
+            type="button"
+            class="grid h-9 w-9 shrink-0 place-items-center border border-rule text-ink-500 transition hover:border-ink-800 hover:text-ink-900"
+            :class="{ 'border-ink-800 text-ink-900': isSearchOpen }"
+            :aria-label="isSearchOpen ? '검색 닫기' : '기념일 검색'"
+            :aria-expanded="isSearchOpen"
+            @click="toggleSearch"
+          >
+            <svg
+              v-if="!isSearchOpen"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="11" cy="11" r="7" />
+              <line x1="21" y1="21" x2="16.65" y2="16.65" />
+            </svg>
+            <svg
+              v-else
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="18" y1="6" x2="6" y2="18" />
+              <line x1="6" y1="6" x2="18" y2="18" />
+            </svg>
+          </button>
+        </div>
+
+        <!-- Search results -->
+        <div
+          v-if="isSearchOpen && searchQuery.trim()"
+          class="absolute right-0 top-full z-30 mt-2 w-full max-w-md border hairline bg-paper-50 shadow-xl"
+        >
+          <ul
+            v-if="searchResults.length"
+            class="max-h-80 divide-y divide-rule overflow-y-auto"
+          >
+            <li v-for="anv in searchResults" :key="anv.id">
+              <button
+                type="button"
+                class="flex w-full items-center justify-between gap-3 px-4 py-3 text-left transition hover:bg-paper-200/50"
+                @click="goToAnniversary(anv)"
+              >
+                <span class="truncate font-display text-sm text-ink-800">
+                  {{ anv.name }}
+                </span>
+                <span class="shrink-0 font-sans text-xs tabular-nums text-ink-400">
+                  {{ resultDate(anv) }}
+                </span>
+              </button>
+            </li>
+          </ul>
+          <p
+            v-else
+            class="px-4 py-6 text-center font-display text-sm italic text-ink-500"
+          >
+            검색 결과가 없어요.
+          </p>
+        </div>
+      </div>
+
       <!-- Calendar grid -->
       <div class="overflow-hidden border hairline bg-paper-50">
         <div class="grid grid-cols-7 border-b hairline bg-paper-100/70 text-center">

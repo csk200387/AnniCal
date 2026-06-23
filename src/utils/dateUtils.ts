@@ -1,8 +1,27 @@
 import dayjs from 'dayjs'
 import type { Anniversary } from '@/types/anniversary'
+import anniversariesJson from '@/data/anniversaries.json'
 
 const DOW_MAP: Record<string, number> = {
   SUN: 0, MON: 1, TUE: 2, WED: 3, THU: 4, FRI: 5, SAT: 6,
+}
+
+let anchorById: Map<string, Anniversary> | null = null
+
+/** "{anchorId}:{offsetDays}" 를 기준 Anniversary 와 오프셋(일)으로 분해. */
+function resolveAnchor(dateStr: string): { anchor: Anniversary; offsetDays: number } {
+  const sepIdx = dateStr.lastIndexOf(':')
+  const anchorId = dateStr.slice(0, sepIdx)
+  const offsetDays = Number(dateStr.slice(sepIdx + 1))
+
+  if (!anchorById) {
+    anchorById = new Map((anniversariesJson as Anniversary[]).map((a) => [a.id, a]))
+  }
+  const anchor = anchorById.get(anchorId)
+  if (!anchor) {
+    throw new Error(`annual-relative-to-holiday: 알 수 없는 anchor id "${anchorId}"`)
+  }
+  return { anchor, offsetDays }
 }
 
 /**
@@ -30,9 +49,10 @@ function resolveNthWeekday(year: number, dateStr: string): Date {
 
 /**
  * Anniversary 가 "특정 연도" 에 떨어지는 Date 를 계산.
- * - annual-fixed("MM-DD")           → 같은 연도의 그 월/일
- * - annual-nth-weekday("MM-N-DOW")  → 같은 연도의 N째 요일
- * - annual-floating / one-time      → 저장된 YYYY-MM-DD 그대로
+ * - annual-fixed("MM-DD")                       → 같은 연도의 그 월/일
+ * - annual-nth-weekday("MM-N-DOW")               → 같은 연도의 N째 요일
+ * - annual-relative-to-holiday("anchorId:N일")   → anchor 의 같은 연도 occurrence + N일
+ * - annual-floating / one-time                  → 저장된 YYYY-MM-DD 그대로
  */
 export function resolveOccurrence(anv: Anniversary, year: number): Date {
   if (anv.dateType === 'annual-fixed') {
@@ -41,6 +61,10 @@ export function resolveOccurrence(anv: Anniversary, year: number): Date {
   }
   if (anv.dateType === 'annual-nth-weekday') {
     return resolveNthWeekday(year, anv.date)
+  }
+  if (anv.dateType === 'annual-relative-to-holiday') {
+    const { anchor, offsetDays } = resolveAnchor(anv.date)
+    return dayjs(resolveOccurrence(anchor, year)).add(offsetDays, 'day').toDate()
   }
   return dayjs(anv.date).toDate()
 }
@@ -63,7 +87,9 @@ export function daysUntil(anv: Anniversary, from: Date = new Date()): number {
 
   // 매년 반복되는 타입은 올해 일정이 지났으면 내년으로 롤오버.
   const isRecurring =
-    anv.dateType === 'annual-fixed' || anv.dateType === 'annual-nth-weekday'
+    anv.dateType === 'annual-fixed' ||
+    anv.dateType === 'annual-nth-weekday' ||
+    anv.dateType === 'annual-relative-to-holiday'
   if (isRecurring && target.isBefore(todayStart)) {
     target = dayjs(resolveOccurrence(anv, thisYear + 1)).startOf('day')
   }
@@ -82,8 +108,9 @@ export function formatKoreanMonthDay(
 
 /**
  * 특정 (year, month, day) 에 발생하는 기념일인지.
- * - annual-fixed:        월/일만 비교
- * - annual-nth-weekday:  해당 연도의 규칙 해석 결과와 비교
+ * - annual-fixed:               월/일만 비교
+ * - annual-nth-weekday:         해당 연도의 규칙 해석 결과와 비교
+ * - annual-relative-to-holiday: 해당 연도의 anchor 기준 occurrence 와 비교
  * - annual-floating / one-time: 연/월/일 모두 비교
  * month 는 1~12.
  */
@@ -100,6 +127,14 @@ export function occursOn(
   if (anv.dateType === 'annual-nth-weekday') {
     const occ = resolveNthWeekday(year, anv.date)
     return (
+      occ.getMonth() + 1 === month &&
+      occ.getDate() === day
+    )
+  }
+  if (anv.dateType === 'annual-relative-to-holiday') {
+    const occ = resolveOccurrence(anv, year)
+    return (
+      occ.getFullYear() === year &&
       occ.getMonth() + 1 === month &&
       occ.getDate() === day
     )

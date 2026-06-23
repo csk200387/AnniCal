@@ -28,4 +28,6 @@ coverage
 
 # Python (tools/inspector)
 tools/inspector/.venv
+tools/inspector/.env
+tools/inspector/__pycache__
 .vercel
