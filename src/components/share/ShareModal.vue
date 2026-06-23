@@ -10,6 +10,8 @@ const { isOpen, anniversary, dDay } = storeToRefs(shareStore)
 
 // ShareCard root element 참조 — 캡처 대상.
 const cardRootRef = ref<HTMLElement | null>(null)
+// 미리보기 폭 측정용 풀폭 래퍼 — 스케일 계산 기준.
+const previewWrapRef = ref<HTMLElement | null>(null)
 const dialogRef = useTemplateRef<HTMLDivElement>('dialogRef')
 
 const isGenerating = ref(false)
@@ -22,33 +24,48 @@ const filename = computed(() => {
   return `anniversarium-${safe}.png`
 })
 
-// 미리보기 스케일 — 모바일 화면 폭에 카드(540px)가 들어가도록 동적 조정.
+// 미리보기 스케일 — 실제 사용 가능한 컨테이너 폭(래퍼 clientWidth)에 카드(540px)가
+// 들어가도록 동적 조정. window 폭 추정 대신 실측해 패딩/max-width 변화를 정확히 반영한다.
 const previewScale = ref(1)
 function recomputeScale() {
-  if (typeof window === 'undefined') return
-  // 패딩/그라데이션 영역 빼고 사용 가능한 폭 ~= window.innerWidth - 80
-  const available = Math.min(window.innerWidth - 64, 540)
-  previewScale.value = Math.min(1, available / 540)
+  const available = previewWrapRef.value?.clientWidth ?? 0
+  if (available > 0) {
+    previewScale.value = Math.min(1, available / 540)
+  }
+}
+
+// 래퍼 크기 변화(뷰포트·회전·패딩 변화 포함)를 ResizeObserver 로 추적.
+let resizeObserver: ResizeObserver | null = null
+function observePreview() {
+  if (typeof ResizeObserver === 'undefined' || !previewWrapRef.value) return
+  resizeObserver?.disconnect()
+  resizeObserver = new ResizeObserver(recomputeScale)
+  resizeObserver.observe(previewWrapRef.value)
+}
+function unobservePreview() {
+  resizeObserver?.disconnect()
+  resizeObserver = null
 }
 
 watch(isOpen, (open) => {
   if (open) {
     document.body.style.overflow = 'hidden'
-    recomputeScale()
-    window.addEventListener('resize', recomputeScale)
-    nextTick(() => dialogRef.value?.focus())
+    // 모달 DOM 이 그려진 뒤에 측정/관찰해야 clientWidth 가 유효하다.
+    nextTick(() => {
+      dialogRef.value?.focus()
+      recomputeScale()
+      observePreview()
+    })
   } else {
     document.body.style.overflow = ''
-    window.removeEventListener('resize', recomputeScale)
+    unobservePreview()
     errorMsg.value = null
   }
 })
 
 onBeforeUnmount(() => {
   document.body.style.overflow = ''
-  if (typeof window !== 'undefined') {
-    window.removeEventListener('resize', recomputeScale)
-  }
+  unobservePreview()
 })
 
 function close() {
@@ -68,14 +85,22 @@ async function generatePng(): Promise<string | null> {
   isGenerating.value = true
   errorMsg.value = null
   try {
-    // pixelRatio 2 → 1080x1080
-    const dataUrl = await toPng(cardRootRef.value, {
-      pixelRatio: 2,
+    // 미리보기와 동일한 서체로 캡처되도록 웹폰트 로딩을 먼저 보장한다.
+    // (Fraunces·Inter·Noto Serif KR 는 Google Fonts 에서 비동기 로드됨)
+    if (typeof document !== 'undefined' && document.fonts?.ready) {
+      await document.fonts.ready
+    }
+    const options = {
+      pixelRatio: 2, // 540 → 1080x1080
       cacheBust: true,
       backgroundColor: '#faf7f0',
       width: 540,
       height: 540,
-    })
+    }
+    // html-to-image 는 첫 렌더에서 폰트 임베딩이 끝나기 전에 반환되는 경우가 있어
+    // 미리보기와 결과가 어긋난다. 한 번 워밍업한 뒤 두 번째 결과를 사용해 일관성 확보.
+    await toPng(cardRootRef.value, options)
+    const dataUrl = await toPng(cardRootRef.value, options)
     return dataUrl
   } catch (e) {
     errorMsg.value =
@@ -180,26 +205,28 @@ async function handleNativeShare() {
           </header>
 
           <!-- 미리보기 -->
-          <div
-            class="mx-auto overflow-hidden border hairline shadow-[0_18px_45px_-25px_rgba(10,9,8,0.35)]"
-            :style="{
-              width: `${540 * previewScale}px`,
-              height: `${540 * previewScale}px`,
-            }"
-          >
+          <div ref="previewWrapRef" class="w-full">
             <div
+              class="mx-auto overflow-hidden border hairline shadow-[0_18px_45px_-25px_rgba(10,9,8,0.35)]"
               :style="{
-                width: '540px',
-                height: '540px',
-                transform: `scale(${previewScale})`,
-                transformOrigin: 'top left',
+                width: `${540 * previewScale}px`,
+                height: `${540 * previewScale}px`,
               }"
             >
-              <div ref="cardRootRef">
-                <ShareCard
-                  :anniversary="anniversary"
-                  :d-day="dDay"
-                />
+              <div
+                :style="{
+                  width: '540px',
+                  height: '540px',
+                  transform: `scale(${previewScale})`,
+                  transformOrigin: 'top left',
+                }"
+              >
+                <div ref="cardRootRef">
+                  <ShareCard
+                    :anniversary="anniversary"
+                    :d-day="dDay"
+                  />
+                </div>
               </div>
             </div>
           </div>
