@@ -9,8 +9,8 @@ const OG_IMAGE = `${SITE_URL}/og-cover.png`
 
 // 라우트에 메타가 없을 때 쓰는 홈 기준 기본값.
 const DEFAULT_DESCRIPTION =
-  '오늘은 무슨 날? 전 세계 1,200여 개의 기념일을 매일 큐레이션. ' +
-  '세계 ~의 날, 음식·역사·이색 기념일과 D-day, 기념일 캘린더·검색을 한곳에서.'
+  '오늘은 무슨 날? 세계 곳곳의 특이한 기념일과 이색 기념일을 ' +
+  '월별로 모아 매일 큐레이션해요.'
 
 // name= 또는 property= 기준으로 <meta> 를 찾아 없으면 만들고 content 를 갱신.
 function upsertMeta(
