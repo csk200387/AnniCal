@@ -6,6 +6,7 @@ import {
   anniversaryRepository,
   categoryRepository,
 } from '@/services/anniversaryRepository'
+import { registerAnchors } from '@/utils/dateUtils'
 
 export const useAnniversariesStore = defineStore('anniversaries', () => {
   const items = ref<Anniversary[]>([])
@@ -23,6 +24,8 @@ export const useAnniversariesStore = defineStore('anniversaries', () => {
         anniversaryRepository.findAll(),
         categoryRepository.findAll(),
       ])
+      // anchor 조회 맵을 먼저 등록해야 annual-relative-to-holiday 해석이 안전.
+      registerAnchors(anvs)
       items.value = anvs
       categories.value = cats
       isLoaded.value = true

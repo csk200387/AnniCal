@@ -1,12 +1,19 @@
 import dayjs from 'dayjs'
 import type { Anniversary } from '@/types/anniversary'
-import anniversariesJson from '@/data/anniversaries.json'
 
 const DOW_MAP: Record<string, number> = {
   SUN: 0, MON: 1, TUE: 2, WED: 3, THU: 4, FRI: 5, SAT: 6,
 }
 
+// annual-relative-to-holiday 의 anchor 조회용 맵.
+// 데이터가 동적 로드로 바뀌어 더 이상 여기서 정적 import 하지 않으므로,
+// 스토어가 로드 직후 registerAnchors() 로 주입한다.
 let anchorById: Map<string, Anniversary> | null = null
+
+/** 전체 기념일 리스트로 anchor 조회 맵을 등록. (anniversaries 스토어 load 시 호출) */
+export function registerAnchors(items: Anniversary[]): void {
+  anchorById = new Map(items.map((a) => [a.id, a]))
+}
 
 /** "{anchorId}:{offsetDays}" 를 기준 Anniversary 와 오프셋(일)으로 분해. */
 function resolveAnchor(dateStr: string): { anchor: Anniversary; offsetDays: number } {
@@ -15,7 +22,9 @@ function resolveAnchor(dateStr: string): { anchor: Anniversary; offsetDays: numb
   const offsetDays = Number(dateStr.slice(sepIdx + 1))
 
   if (!anchorById) {
-    anchorById = new Map((anniversariesJson as Anniversary[]).map((a) => [a.id, a]))
+    throw new Error(
+      'annual-relative-to-holiday: anchor 맵이 아직 등록되지 않았습니다. registerAnchors() 가 선행되어야 합니다.',
+    )
   }
   const anchor = anchorById.get(anchorId)
   if (!anchor) {

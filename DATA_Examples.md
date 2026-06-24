@@ -1,9 +1,10 @@
 # 기념일 데이터 추가 규칙 (Authoring Guide)
 
-`src/data/anniversaries.json` 에 새 기념일을 추가할 때 따라야 하는 규칙을 정의한다.
+`src/data/anniversaries/` (월별 `01.json … 12.json`) 에 새 기념일을 추가할 때 따라야 하는 규칙을 정의한다.
 이 문서가 데이터 작성의 단일 기준이며, `README.md` "데이터 작성 규칙"의 상세 확장판이다.
+직접 편집보다 [`tools/inspector/`](./tools/inspector/README.md) Gradio UI 사용을 권장한다 — 전체를 한 리스트로 다루고 저장 시 월별 파일로 자동 분배한다.
 
-- **데이터 파일**: `src/data/anniversaries.json`, `src/data/categories.json`
+- **데이터 파일**: `src/data/anniversaries/01.json … 12.json` (월별 분할), `src/data/categories.json`
 - **타입 정의**: `src/types/anniversary.ts`, `src/types/category.ts`
 - **날짜 파서**: `src/utils/dateUtils.ts` (`resolveOccurrence` / `resolveNthWeekday`)
 - **편집 도구**: [`tools/inspector/`](./tools/inspector/README.md) 의 Gradio UI 권장

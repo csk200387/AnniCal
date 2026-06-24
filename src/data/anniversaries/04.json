@@ -1,0 +1,3615 @@
+[
+  {
+    "id": "anv-fixed-04-01-april-fools-day-global",
+    "date": "04-01",
+    "dateType": "annual-fixed",
+    "name": "만우절",
+    "category": "international",
+    "tags": [
+      "글로벌",
+      "장난",
+      "거짓말",
+      "문화"
+    ],
+    "storytelling": {
+      "origin": "가벼운 장난이나 그럴듯한 거짓말로 남을 속이는 날이다. 프랑스에서 새해의 시작을 1월 1일로 변경했을 때, 이를 모르는 사람들을 놀린 데서 유래했다는 설이 유력하다.",
+      "anecdote": "학교에서는 학생들이 교실을 바꾸거나 옛날 교복을 입고 등교하는 등 귀여운 장난을 치며, 전 세계의 주요 기업이나 언론사들도 재치 있는 가짜 뉴스를 발표해 사람들을 즐겁게 한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "나 사실 재벌 3세야. (만우절 핑계로 진심 말해보기)"
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/%EB%A7%8C%EC%9A%B0%EC%A0%88"
+  },
+  {
+    "id": "anv-fixed-04-01-sourdough-bread-day-us",
+    "date": "04-01",
+    "dateType": "annual-fixed",
+    "name": "사워도우 빵의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "빵",
+      "베이킹"
+    ],
+    "storytelling": {
+      "origin": "천연 발효종으로 부풀린 사워도우 빵의 깊은 풍미와 전통적인 제빵법을 기리는 날이다.",
+      "anecdote": "코로나19 팬데믹 시기, 전 세계적으로 홈베이킹 열풍이 불며 사워도우 만들기가 유행했다. 발효종을 '키우는' 재미에 빠진 사람이 한둘이 아니었다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "내 발효종은 반려동물보다 손이 많이 간다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-sourdough-bread-day-april-1/"
+  },
+  {
+    "id": "anv-fixed-04-01-one-cent-day-us",
+    "date": "04-01",
+    "dateType": "annual-fixed",
+    "name": "원 센트의 날 (National One Cent Day)",
+    "category": "quirky",
+    "tags": [
+      "미국",
+      "이색기념일",
+      "동전",
+      "유머"
+    ],
+    "storytelling": {
+      "origin": "미국 최초의 동전인 1센트(페니)가 1787년 4월 1일 발행 승인을 받은 것을 기념하는 날이다.",
+      "anecdote": "작은 동전 하나도 누군가에겐 의미 있는 첫걸음이다. 한국의 '십원의 기적'처럼, 작은 단위의 돈에도 저마다의 사연이 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "바닥에 떨어진 동전, 줍느냐 마느냐 그것이 문제로다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-one-cent-day-april-1/"
+  },
+  {
+    "id": "anv-fixed-04-02-autism-awareness-day-global",
+    "date": "04-02",
+    "dateType": "annual-fixed",
+    "name": "세계 자폭증 인식의 날 (World Autism Awareness Day)",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "건강",
+      "인식개선",
+      "UN"
+    ],
+    "storytelling": {
+      "origin": "2007년 UN이 지정한 국제 기념일로, 자폐 스펙트럼에 대한 이해를 높이고 포용적인 사회를 만들기 위해 제정되었다.",
+      "anecdote": "전 세계적으로 이날 랜드마크에 파란 불을 켜는 'Light It Up Blue' 캠페인이 진행된다. 한국에서도 자폐인 인식 개선을 위한 다양한 행사가 함께 열린다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "다름은 틀림이 아니라 또 다른 색깔"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-autism-awareness-day-april-2/"
+  },
+  {
+    "id": "anv-fixed-04-02-love-our-children-day-us",
+    "date": "04-02",
+    "dateType": "annual-fixed",
+    "name": "우리 아이들을 사랑하는 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "가족",
+      "아동",
+      "캠페인"
+    ],
+    "storytelling": {
+      "origin": "아동 학대와 방임을 예방하고 아이들에 대한 사랑과 보호를 강조하기 위해 제정된 날이다.",
+      "anecdote": "아이는 사회 전체가 함께 키운다는 말처럼, 가정뿐 아니라 공동체의 관심이 아동의 건강한 성장을 만든다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "아이를 키우려면 마을 전체가 필요하다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-love-our-children-day-april-2/"
+  },
+  {
+    "id": "anv-fixed-04-02-ferret-day-us",
+    "date": "04-02",
+    "dateType": "annual-fixed",
+    "name": "페럿의 날 (National Ferret Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "동물",
+      "반려동물"
+    ],
+    "storytelling": {
+      "origin": "장난기 넘치는 반려동물 페럿의 매력을 알리고 입양을 독려하기 위한 날이다.",
+      "anecdote": "고양이, 강아지에 이어 페럿을 키우는 '페덕(페럿+덕후)'들도 점점 늘고 있다. 좁은 틈새도 잘 비집고 들어가는 호기심 많은 친구다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "페럿: 세상 모든 틈새를 정복하는 액체 동물"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-ferret-day-april-2/"
+  },
+  {
+    "id": "anv-fixed-04-02-peanut-butter-jelly-day-us",
+    "date": "04-02",
+    "dateType": "annual-fixed",
+    "name": "피넛버터 앤 젤리의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "음식",
+      "간식",
+      "샌드위치"
+    ],
+    "storytelling": {
+      "origin": "미국인의 국민 간식인 땅콩버터-잼 샌드위치(PB&J)를 기념하는 날이다.",
+      "anecdote": "한국엔 잼바른 식빵이 있다면 미국엔 PB&J가 있다. 간단하지만 세대를 거쳐 사랑받는 '국민 조합'은 어느 나라에나 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "땅콩버터와 잼, 환상의 짝꿍 of 도시락"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-peanut-butter-jelly-day-april-2/"
+  },
+  {
+    "id": "anv-fixed-04-02-reconciliation-day-us",
+    "date": "04-02",
+    "dateType": "annual-fixed",
+    "name": "화해의 날 (National Reconciliation Day)",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "화해",
+      "관계"
+    ],
+    "storytelling": {
+      "origin": "갈등을 겪은 사람들 사이의 화해와 용서를 독려하기 위해 제정된 날이다.",
+      "anecdote": "묵은 감정을 풀고 다시 손을 맞잡는 일은 쉽지 않지만, 그만큼 값지다. 오늘 하루, 소원해진 누군가에게 먼저 연락해보는 것은 어떨까."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "먼저 연락하는 사람이 결국 이긴 사람"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-reconciliation-day-april-2/"
+  },
+  {
+    "id": "gov-7",
+    "date": "04-03",
+    "dateType": "annual-fixed",
+    "name": "4ㆍ3희생자 추념일",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 행정안전부. 제주4ㆍ3사건 희생자를 위령하는 추념 행사를 한다. (희생자란 「제주4·3사건 진상규명 및 희생자 명예회복에 관한 특별법」에 따른 희생자를 말함) [cite: 8, 59]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-04-03-find-a-rainbow-day-us",
+    "date": "04-03",
+    "dateType": "annual-fixed",
+    "name": "무지개를 찾는 날",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "자연",
+      "희망"
+    ],
+    "storytelling": {
+      "origin": "비 온 뒤 하늘에 뜨는 무지개를 찾아보며 자연의 아름다움과 희망을 되새기는 날이다.",
+      "anecdote": "무지개는 예부터 희망과 약속의 상징이었다. 봄비가 잦은 4월, 하늘을 올려다보는 여유를 가져보자는 날."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "무지개 끝에 금화 항아리 찾으러 가는 사람 손"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-find-a-rainbow-day-april-3/"
+  },
+  {
+    "id": "anv-fixed-04-03-chocolate-mousse-day-us",
+    "date": "04-03",
+    "dateType": "annual-fixed",
+    "name": "초콜릿 무스의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "초콜릿"
+    ],
+    "storytelling": {
+      "origin": "부드럽고 풍성한 거품 디저트인 초콜릿 무스를 기념하는 날이다.",
+      "anecdote": "프랑스어로 '거품'을 뜻하는 무스는 입에 넣는 순간 사라지는 듯한 가벼운 식감이 매력이다. 카페 디저트 메뉴의 단골손님."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한입에 사라지는 행복, 그것이 무스"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-chocolate-mousse-day-april-3/"
+  },
+  {
+    "id": "anv-fixed-04-03-tweed-day-us",
+    "date": "04-03",
+    "dateType": "annual-fixed",
+    "name": "트위드의 날 (National Tweed Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "패션",
+      "의류"
+    ],
+    "storytelling": {
+      "origin": "두껍고 거친 질감의 모직물 트위드의 멋과 전통을 기리는 날이다.",
+      "anecdote": "트위드 재킷은 영국 신사복의 클래식으로 자리 잡았다. 가을·겨울 시즌엔 한국에서도 트위드 코트가 꾸준히 사랑받는다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "더운 날 트위드 입은 사람은 진짜 패션의 순교자"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-tweed-day-april-3/"
+  },
+  {
+    "id": "anv-fixed-04-04-walk-around-things-day-us",
+    "date": "04-04",
+    "dateType": "annual-fixed",
+    "name": "돌아서 걷는 날",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "유머"
+    ],
+    "storytelling": {
+      "origin": "장애물을 만났을 때 무리하게 넘지 않고 돌아가는 지혜(?)를 기념하는 다소 우스운 날이다.",
+      "anecdote": "가끔은 정면 돌파보다 돌아가는 길이 더 빠르고 안전하다. 인생의 작은 교훈을 주는 유쾌한 기념일."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "굳이 넘을 필요 없잖아? 돌아가면 그만인데"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-walk-around-things-day-april-4/"
+  },
+  {
+    "id": "anv-fixed-04-04-hug-a-newsperson-day-us",
+    "date": "04-04",
+    "dateType": "annual-fixed",
+    "name": "언론인을 안아주는 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "언론",
+      "감사"
+    ],
+    "storytelling": {
+      "origin": "현장을 발로 뛰며 진실을 전하는 언론인들의 노고에 감사를 전하는 날이다.",
+      "anecdote": "정보의 홍수 속에서 사실을 검증하고 전달하는 일은 생각보다 고되다. 오늘만큼은 기자, 앵커, PD들의 노력에 박수를 보내자."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "마감 직전 기자의 표정은 세상 모든 스트레스의 집합체"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-hug-a-newsperson-day-april-4/"
+  },
+  {
+    "id": "anv-fixed-04-04-chicken-cordon-bleu-day-us",
+    "date": "04-04",
+    "dateType": "annual-fixed",
+    "name": "치킨 코르동 블루의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "요리"
+    ],
+    "storytelling": {
+      "origin": "치즈와 햄을 닭가슴살로 감싸 튀기거나 구운 요리, 치킨 코르동 블루를 기념하는 날이다.",
+      "anecdote": "이름은 프랑스어지만 실제로는 스위스에서 유래했다는 설이 유력하다. 한국 양식 레스토랑에서도 꾸준히 인기 있는 메뉴."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "겉바속촉의 정석, 치즈 폭발 주의"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-chicken-cordon-bleu-day-april-4/"
+  },
+  {
+    "id": "anv-fixed-04-04-school-librarian-day-us",
+    "date": "04-04",
+    "dateType": "annual-fixed",
+    "name": "학교 사서의 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "교육",
+      "사서",
+      "감사"
+    ],
+    "storytelling": {
+      "origin": "학생들의 독서와 정보 활용 능력을 키워주는 학교 사서들의 헌신을 기리는 날이다.",
+      "anecdote": "조용히 책을 정리하고 추천해주던 학교 도서관 사서 선생님을 떠올려보자. 책과의 첫 만남을 만들어준 숨은 조력자였다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "야자 시간 도서관 사서 선생님은 제2의 부모"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-school-librarian-day-april-4/"
+  },
+  {
+    "id": "anv-fixed-04-05-raisin-spice-bar-day-us",
+    "date": "04-05",
+    "dateType": "annual-fixed",
+    "name": "건포도 스파이스 바의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "음식",
+      "디저트",
+      "베이킹"
+    ],
+    "storytelling": {
+      "origin": "건포도와 향신료를 넣어 만든 미국 전통 디저트 바를 기념하는 날이다.",
+      "anecdote": "시나몬, 너트메그 같은 향신료와 건포도의 조합은 가정식 베이킹의 클래식이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "할머니 부엌에서 나던 그 향, 시나몬과 건포도"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-raisin-spice-bar-day-april-5/"
+  },
+  {
+    "id": "anv-fixed-04-05-deep-dish-pizza-day-us",
+    "date": "04-05",
+    "dateType": "annual-fixed",
+    "name": "딥디시 피자의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "음식",
+      "피자"
+    ],
+    "storytelling": {
+      "origin": "두꺼운 도우와 풍성한 토핑이 특징인 시카고식 딥디시 피자를 기념하는 날이다.",
+      "anecdote": "포크와 나이프로 잘라 먹어야 할 만큼 두꺼운 피자는 시카고의 자존심이다. 한 조각만 먹어도 든든하다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "피자인데 칼질 필요한 비주얼, 그게 딥디시"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-deep-dish-pizza-day-april-5/"
+  },
+  {
+    "id": "gov-9",
+    "date": "04-05",
+    "dateType": "annual-fixed",
+    "name": "식목일",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 농림축산 식품부. 나무 심기를 통해 국민의 나무 사랑 정신을 북돋우고, 산지(山地)의 자원화를 위한 행사를 한다.",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-04-05-go-for-broke-day-us",
+    "date": "04-05",
+    "dateType": "annual-fixed",
+    "name": "올인의 날 (National Go For Broke Day)",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "도전"
+    ],
+    "storytelling": {
+      "origin": "위험을 감수하고 모든 것을 걸어보는 도전 정신을 기리는 날. 제2차 세계대전 일본계 미국인 부대의 모토 'Go For Broke'에서 유래했다.",
+      "anecdote": "때로는 어중간한 노력보다 모든 걸 쏟아붓는 도전이 더 큰 결과를 만든다. 오늘 미뤄둔 일에 '올인'해보는 건 어떨까."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "인생은 한방, 가끔은 올인도 전략이다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-go-for-broke-day-april-5/"
+  },
+  {
+    "id": "anv-fixed-04-05-read-a-road-map-day-us",
+    "date": "04-05",
+    "dateType": "annual-fixed",
+    "name": "지도를 읽는 날",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "여행"
+    ],
+    "storytelling": {
+      "origin": "내비게이션이 흔해지기 전, 종이 지도를 직접 펼쳐 읽던 시절의 기술을 기리는 날이다.",
+      "anecdote": "스마트폰 내비 없이 지도만 보고 길을 찾던 추억이 있는 사람이라면 공감할 기념일. 가끔은 길을 잃는 것도 여행의 일부였다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "내비 없이 지도만 보던 시절, 다 길치였다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-read-a-road-map-day-april-5/"
+  },
+  {
+    "id": "anv-fixed-04-05-caramel-day-us",
+    "date": "04-05",
+    "dateType": "annual-fixed",
+    "name": "캐러멜의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "캐러멜"
+    ],
+    "storytelling": {
+      "origin": "설탕을 녹여 만든 달콤하고 쫀득한 캐러멜을 기념하는 날이다.",
+      "anecdote": "캐러멜 마키아토부터 캐러멜 팝콘까지, 은은한 단맛은 커피와 디저트 어디에나 잘 어울린다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "캐러멜 색깔만 봐도 침 고이는 본능"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-caramel-day-april-5/"
+  },
+  {
+    "id": "anv-fixed-04-06-sorry-charlie-day-us",
+    "date": "04-06",
+    "dateType": "annual-fixed",
+    "name": "'미안해, 찰리' 날",
+    "category": "quirky",
+    "tags": [
+      "미국",
+      "이색기념일",
+      "유머"
+    ],
+    "storytelling": {
+      "origin": "거절당하거나 실패했을 때를 가볍게 위로하는 유머성 기념일. 참치캔 마스코트 '찰리 더 튜나'의 광고 카피에서 유래했다는 설이 있다.",
+      "anecdote": "광고에서 찰리는 늘 캔에 뽑히지 못하고 거절당하는 캐릭터였다. 실패해도 다시 도전하는 유쾌한 마음가짐을 기념하는 날."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "오늘도 거절당했다면, 찰리에게 동지애를 느껴보자"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-sorry-charlie-day-april-6/"
+  },
+  {
+    "id": "anv-fixed-04-06-walking-day-us",
+    "date": "04-06",
+    "dateType": "annual-fixed",
+    "name": "걷기의 날 (National Walking Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "건강",
+      "운동"
+    ],
+    "storytelling": {
+      "origin": "매일 걷기를 통해 심장 건강과 전반적인 웰빙을 증진하자는 취지로 미국심장협회가 제정한 날이다.",
+      "anecdote": "하루 30분 걷기는 가장 쉽고 효과적인 운동이다. 엘리베이터 대신 계단, 차 대신 도보로 작은 변화를 시작해보자."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "만보기 채우려고 거실 뱅뱅 도는 그 마음"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-walking-day-april-6/"
+  },
+  {
+    "id": "anv-fixed-04-06-caramel-popcorn-day-us",
+    "date": "04-06",
+    "dateType": "annual-fixed",
+    "name": "캐러멜 팝콘의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "간식",
+      "팝콘"
+    ],
+    "storytelling": {
+      "origin": "달콤하고 바삭한 캐러멜 팝콘을 기념하는 날이다.",
+      "anecdote": "영화관 팝콘의 단짝, 캐러멜 팝콘은 한 번 손대면 멈추기 힘든 국민 간식이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한 봉지 다 먹고 나서야 정신이 드는 그 맛"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-caramel-popcorn-day-april-6/"
+  },
+  {
+    "id": "anv-fixed-04-06-tartan-day-us",
+    "date": "04-06",
+    "dateType": "annual-fixed",
+    "name": "타탄의 날 (National Tartan Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "패션",
+      "문화",
+      "스코틀랜드"
+    ],
+    "storytelling": {
+      "origin": "스코틀랜드 전통 격자무늬 직물 타탄과 스코틀랜드 문화유산을 기리는 날이다.",
+      "anecdote": "타탄 체크 패턴은 교복부터 하이패션까지 폭넓게 쓰인다. 본래는 스코틀랜드 각 가문(클랜)을 상징하는 문양이었다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "체크무늬만 입으면 다 스코틀랜드 귀족 느낌"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-tartan-day-april-6/"
+  },
+  {
+    "id": "anv-fixed-04-06-teflon-day-us",
+    "date": "04-06",
+    "dateType": "annual-fixed",
+    "name": "테플론의 날 (National Teflon Day)",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "과학",
+      "발명"
+    ],
+    "storytelling": {
+      "origin": "1938년 4월 6일, 듀폰의 화학자 로이 플런켓이 우연히 테플론(불소수지)을 발견한 것을 기념하는 날이다.",
+      "anecdote": "눌어붙지 않는 프라이팬의 핵심 기술인 테플론은 사실 우연한 실험 실수에서 탄생했다. 위대한 발명 중엔 '뜻밖의 발견'이 많다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "설거지가 편해진 건 다 이 우연한 실수 덕분"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-teflon-day-april-6/"
+  },
+  {
+    "id": "anv-fixed-04-06-student-athlete-day-us",
+    "date": "04-06",
+    "dateType": "annual-fixed",
+    "name": "학생 운동선수의 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "교육",
+      "스포츠",
+      "청소년"
+    ],
+    "storytelling": {
+      "origin": "공부와 운동을 병행하는 학생 선수들의 노력과 균형 잡힌 삶을 응원하는 날이다.",
+      "anecdote": "운동부 학생들은 훈련과 학업을 동시에 소화해야 한다. 한국의 '공부하는 운동선수' 정책 논의와도 맞닿아 있는 주제다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "새벽 훈련 후 등교하는 학생 선수들에게 박수를"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-student-athlete-day-april-6/"
+  },
+  {
+    "id": "anv-fixed-04-06-day-of-hope-us",
+    "date": "04-06",
+    "dateType": "annual-fixed",
+    "name": "희망의 날 (Childhelp National Day of Hope)",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "아동",
+      "캠페인",
+      "희망"
+    ],
+    "storytelling": {
+      "origin": "아동학대 예방 단체 Childhelp가 제정한 날로, 학대 피해 아동에게 희망과 치유를 전하는 데 초점을 둔다.",
+      "anecdote": "한 아이의 상처가 아물기까지는 사회 전체의 관심과 지지가 필요하다. 작은 도움이라도 누군가에게는 큰 희망이 된다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한 사람의 관심이 한 아이의 인생을 바꾼다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-day-of-hope-april-6/"
+  },
+  {
+    "id": "anv-fixed-04-07-beer-day-us",
+    "date": "04-07",
+    "dateType": "annual-fixed",
+    "name": "맥주의 날 (National Beer Day)",
+    "category": "general",
+    "tags": [
+      "미국",
+      "음식",
+      "맥주",
+      "음료"
+    ],
+    "storytelling": {
+      "origin": "1933년 4월 7일, 미국에서 금주법이 일부 완화되며 다시 합법적으로 맥주를 마실 수 있게 된 것을 기념하는 날이다.",
+      "anecdote": "금주법 시대가 끝나갈 무렵, 시민들이 합법적으로 맥주잔을 부딪힌 첫날이었다. 치킨과 맥주의 나라 한국에서도 충분히 공감 가는 기념일."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "치맥의 역사적 동지, 맥주의 합법화를 기념하며"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-beer-day-april-7/"
+  },
+  {
+    "id": "gov-10",
+    "date": "04-07",
+    "dateType": "annual-fixed",
+    "name": "보건의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 보건복지부. 국민보건 향상을 위한 관련 분야의 각종 행사를 한다.",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-04-07-alcohol-screening-day-us",
+    "date": "04-07",
+    "dateType": "annual-fixed",
+    "name": "알코올 검사의 날",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "건강",
+      "인식개선"
+    ],
+    "storytelling": {
+      "origin": "세계보건기구(WHO) 세계 건강의 날에 맞춰, 음주 습관을 점검하고 건강한 음주 문화를 독려하기 위해 제정된 날이다.",
+      "anecdote": "적당한 음주와 과음의 경계는 생각보다 모호하다. 스스로의 음주 습관을 돌아보는 계기로 삼아보자."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "건강검진 때 음주량 솔직하게 적는 사람 손"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-alcohol-screening-day-april-7/"
+  },
+  {
+    "id": "anv-fixed-04-07-no-housework-day-us",
+    "date": "04-07",
+    "dateType": "annual-fixed",
+    "name": "집안일 안 하는 날",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "휴식"
+    ],
+    "storytelling": {
+      "origin": "하루만큼은 청소, 빨래 등 집안일을 내려놓고 쉬어보자는 취지의 유쾌한 기념일이다.",
+      "anecdote": "끝이 없는 집안일에서 잠시 벗어나 자신을 위한 시간을 가져보자는 메시지를 담고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "오늘 설거지는 내일의 나에게 맡긴다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-no-housework-day-april-7/"
+  },
+  {
+    "id": "anv-fixed-04-07-coffee-cake-day-us",
+    "date": "04-07",
+    "dateType": "annual-fixed",
+    "name": "커피 케이크의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "커피"
+    ],
+    "storytelling": {
+      "origin": "계피향 토핑을 얹은 부드러운 커피 케이크를 기념하는 날이다. 커피와 함께 먹는 디저트로 사랑받는다.",
+      "anecdote": "이름과 달리 커피가 들어가지 않는 경우가 많지만, 커피와 함께 먹기 좋아 붙은 이름이다. 브런치 카페의 단골 메뉴."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "이름은 커피케이크인데 커피는 안 들어있다는 반전"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-coffee-cake-day-april-7/"
+  },
+  {
+    "id": "anv-fixed-04-08-all-is-ours-day-us",
+    "date": "04-08",
+    "dateType": "annual-fixed",
+    "name": "'모든 것이 우리 것' 의 날",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "긍정"
+    ],
+    "storytelling": {
+      "origin": "긍정적인 마음가짐으로 가진 것에 감사하고 풍요로움을 느끼자는 취지의 기념일이다.",
+      "anecdote": "거창한 소유보다 지금 가진 것에 대한 감사가 행복의 시작이라는 메시지를 담고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "내 통장은 텅텅, 마음은 풍족 — 정신승리의 날"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-all-is-ours-day-april-8/"
+  },
+  {
+    "id": "anv-fixed-04-08-zoo-lovers-day-us",
+    "date": "04-08",
+    "dateType": "annual-fixed",
+    "name": "동물원 애호가의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "동물",
+      "나들이"
+    ],
+    "storytelling": {
+      "origin": "동물원을 사랑하고 그곳에서 보호받는 다양한 동물들을 기념하는 날이다.",
+      "anecdote": "어린 시절 가족과 함께한 동물원 나들이는 누구에게나 추억의 한 페이지다. 동물 복지에 대한 관심도 함께 높아지고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "동물원 가면 결국 기념품샵에서 지갑 터는 코스"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-zoo-lovers-day-april-8/"
+  },
+  {
+    "id": "anv-fixed-04-08-empanada-day-us",
+    "date": "04-08",
+    "dateType": "annual-fixed",
+    "name": "엠파나다의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "라틴아메리카"
+    ],
+    "storytelling": {
+      "origin": "고기나 채소를 채워 반달 모양으로 빚어 굽거나 튀긴 라틴아메리카의 대표 길거리 음식 엠파나다를 기념하는 날이다.",
+      "anecdote": "한국의 만두와 비슷한 포만감을 주는 엠파나다는 라틴 문화권에서 간식이자 한 끼 식사로 사랑받는다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "만두의 라틴 버전, 엠파나다 한입에 든 든든함"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-empanada-day-april-8/"
+  },
+  {
+    "id": "anv-fixed-04-09-cherish-an-antique-day-us",
+    "date": "04-09",
+    "dateType": "annual-fixed",
+    "name": "골동품을 아끼는 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "문화"
+    ],
+    "storytelling": {
+      "origin": "오래된 물건이 가진 역사와 이야기를 소중히 여기자는 취지로 제정된 날이다.",
+      "anecdote": "할머니 댁 다락방의 오래된 가구나 시계에는 그 시절의 이야기가 담겨 있다. 빈티지의 가치를 되새기는 날."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "오래된 게 다 쓰레기는 아니다, 골동품일 수도"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-cherish-an-antique-day-april-9/"
+  },
+  {
+    "id": "anv-fixed-04-09-name-yourself-day-us",
+    "date": "04-09",
+    "dateType": "annual-fixed",
+    "name": "스스로 이름 짓는 날",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "유머"
+    ],
+    "storytelling": {
+      "origin": "재미로 자신만의 별명이나 새 이름을 지어보자는 가벼운 기념일이다.",
+      "anecdote": "어릴 적 닮고 싶은 캐릭터의 이름을 따서 별명을 짓던 추억을 떠올려보는 날."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "오늘부터 내 이름은 '캡틴 어쩌고'로 한다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-name-yourself-day-april-9/"
+  },
+  {
+    "id": "anv-fixed-04-09-churchill-day-us",
+    "date": "04-09",
+    "dateType": "annual-fixed",
+    "name": "윈스턴 처칠의 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "역사",
+      "인물"
+    ],
+    "storytelling": {
+      "origin": "제2차 세계대전을 이끈 영국 총리 윈스턴 처칠의 리더십과 유산을 기리는 날이다.",
+      "anecdote": "\"성공은 끝이 아니고, 실패는 치명적이지 않다. 중요한 것은 계속하려는 용기다\"라는 그의 명언은 지금도 자주 인용된다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "명언 모음집에 처칠 없으면 그건 가짜 명언집"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-churchill-day-april-9/"
+  },
+  {
+    "id": "anv-fixed-04-09-former-pow-recognition-day-us",
+    "date": "04-09",
+    "dateType": "annual-fixed",
+    "name": "전직 전쟁포로 추모의 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "역사",
+      "추모",
+      "군인"
+    ],
+    "storytelling": {
+      "origin": "전쟁 중 포로로 잡혔던 군인들의 희생과 인내를 기리기 위해 제정된 추모일이다.",
+      "anecdote": "포로 생활의 고난을 견뎌낸 이들의 이야기는 전쟁의 또 다른 얼굴을 보여준다. 한국전쟁 국군 포로 문제와도 맞닿아 있는 의미 있는 날."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "돌아오지 못한 이들과 돌아온 이들, 모두를 기억하며"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-former-prisoner-of-war-recognition-day-april-9/"
+  },
+  {
+    "id": "anv-fixed-04-09-chinese-almond-cookie-day-us",
+    "date": "04-09",
+    "dateType": "annual-fixed",
+    "name": "중국식 아몬드 쿠키의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트"
+    ],
+    "storytelling": {
+      "origin": "위에 아몬드 한 알을 올려 굽는 중국식 아몬드 쿠키를 기념하는 날이다.",
+      "anecdote": "바삭하면서도 고소한 풍미로 차와 함께 즐기기 좋은 디저트다. 명절 선물로도 흔히 쓰인다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한 알의 아몬드가 쿠키의 클라스를 결정한다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-chinese-almond-cookie-day-april-9/"
+  },
+  {
+    "id": "anv-fixed-04-10-farm-animals-day-us",
+    "date": "04-10",
+    "dateType": "annual-fixed",
+    "name": "농장 동물의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "동물",
+      "농업"
+    ],
+    "storytelling": {
+      "origin": "소, 돼지, 닭 등 농장에서 자라는 동물들의 복지와 가치를 알리기 위해 제정된 날이다.",
+      "anecdote": "체험농장에서 만난 동물들과의 추억은 도시 아이들에게 특별한 기억이 된다. 동물 복지 농법에 대한 관심도 함께 커지고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "체험농장 가면 결국 젖소한테 정 주고 오는 사람들"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-farm-animals-day-april-10/"
+  },
+  {
+    "id": "anv-fixed-04-10-cinnamon-crescent-day-us",
+    "date": "04-10",
+    "dateType": "annual-fixed",
+    "name": "시나몬 크루아상의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "베이킹",
+      "디저트"
+    ],
+    "storytelling": {
+      "origin": "계피향 가득한 크루아상 모양의 빵을 기념하는 날이다.",
+      "anecdote": "버터향과 계피향이 어우러진 페이스트리는 브런치 카페의 인기 메뉴다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한입 베어물면 버터향이 사방으로 퍼지는 그 순간"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-cinnamon-crescent-day-april-10/"
+  },
+  {
+    "id": "anv-fixed-04-10-encourage-young-writer-day-us",
+    "date": "04-10",
+    "dateType": "annual-fixed",
+    "name": "어린 작가를 응원하는 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "교육",
+      "글쓰기",
+      "청소년"
+    ],
+    "storytelling": {
+      "origin": "어린이와 청소년의 창작 글쓰기를 격려하고 응원하기 위해 제정된 날이다.",
+      "anecdote": "어릴 적 쓴 일기나 동시 한 편이 작가로의 첫걸음이 될 수 있다. 아이들의 상상력을 응원하는 의미 있는 날."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "초등학생 일기장에도 미래의 베스트셀러가 숨어있다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-encourage-a-young-writer-day-april-10/"
+  },
+  {
+    "id": "anv-fixed-04-10-siblings-day-global",
+    "date": "04-10",
+    "dateType": "annual-fixed",
+    "name": "형제자매의 날 (National Siblings Day)",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "가족",
+      "형제자매"
+    ],
+    "storytelling": {
+      "origin": "함께 자라며 다투고 화해한 형제자매와의 특별한 유대를 기념하는 날이다.",
+      "anecdote": "장난감 하나로 싸우다가도 결국 가장 든든한 편이 되어주는 게 형제자매다. SNS에서도 해시태그로 인기 있는 글로벌 기념일."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "어릴 땐 원수, 다 커서는 인생 최고의 동지"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-siblings-day-april-10/"
+  },
+  {
+    "id": "anv-fixed-04-11-eight-track-tape-day-us",
+    "date": "04-11",
+    "dateType": "annual-fixed",
+    "name": "8트랙 테이프의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음악",
+      "레트로"
+    ],
+    "storytelling": {
+      "origin": "1960~70년대 인기를 끌었던 음악 저장 매체, 8트랙 테이프를 추억하는 날이다.",
+      "anecdote": "카세트테이프보다도 앞선 세대의 음악 매체로, 자동차 오디오에 많이 쓰였다. 지금은 레트로 수집가들의 사랑을 받는다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "테이프가 늘어져서 목소리 처지던 그 시절 추억"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-eight-track-tape-day-april-11/"
+  },
+  {
+    "id": "gov-11",
+    "date": "04-11",
+    "dateType": "annual-fixed",
+    "name": "대한민국 임시정부 수립 기념일",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 국가보훈부. 3ㆍ1운동으로 건립된 대한민국 임시정부의 법통(法統)과 역사적 의의를 기리는 행사를 한다.",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-04-11-barber-shop-quartet-day-us",
+    "date": "04-11",
+    "dateType": "annual-fixed",
+    "name": "바버숍 콰르텟의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음악",
+      "문화"
+    ],
+    "storytelling": {
+      "origin": "반주 없이 4명이 화음을 맞춰 노래하는 미국 전통 합창 양식, 바버숍 콰르텟을 기념하는 날이다.",
+      "anecdote": "이발소에서 손님을 기다리며 흥얼거리던 노래에서 유래했다는 설이 있다. 어쿠스틱한 화성의 매력이 특징."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "이발하다 노래방 된 사연, 그것이 바버숍"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-barber-shop-quartet-day-april-11/"
+  },
+  {
+    "id": "anv-fixed-04-11-teach-children-to-save-day-us",
+    "date": "04-11",
+    "dateType": "annual-fixed",
+    "name": "아이에게 저축을 가르치는 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "교육",
+      "경제",
+      "아동"
+    ],
+    "storytelling": {
+      "origin": "어린 시절부터 올바른 저축 습관과 금융 지식을 길러주자는 취지로 제정된 날이다.",
+      "anecdote": "돼지저금통에 동전을 모으던 어린 시절의 습관이 평생의 경제관념을 만든다. 용돈 관리 교육의 중요성을 일깨운다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "돼지저금통 배 가르는 그 순간의 짜릿함"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-teach-children-to-save-day-april-11/"
+  },
+  {
+    "id": "anv-fixed-04-11-pet-day-global",
+    "date": "04-11",
+    "dateType": "annual-fixed",
+    "name": "애완동물의 날 (National Pet Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "동물",
+      "반려동물"
+    ],
+    "storytelling": {
+      "origin": "반려동물이 우리 삶에 주는 사랑과 위로에 감사하고, 유기동물 입양을 독려하기 위해 제정된 날이다.",
+      "anecdote": "퇴근 후 현관에서 꼬리 흔들며 반겨주는 존재가 있다는 것만으로도 하루가 달라진다. 한국에서도 반려동물 인구가 1500만을 넘어섰다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "퇴근하고 집 갔을 때 제일 반겨주는 가족 구성원"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-pet-day-april-11/"
+  },
+  {
+    "id": "anv-fixed-04-11-submarine-day-us",
+    "date": "04-11",
+    "dateType": "annual-fixed",
+    "name": "잠수함의 날 (National Submarine Day)",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "역사",
+      "해군"
+    ],
+    "storytelling": {
+      "origin": "1900년 4월 11일, 미국 해군이 최초의 잠수함을 취역시킨 것을 기념하는 날이다.",
+      "anecdote": "물 속에서 은밀하게 움직이는 잠수함은 해군력의 핵심 전력이다. 한국 해군도 독자 설계 잠수함 기술을 꾸준히 발전시키고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "보이지 않는 곳에서 지키는 게 진짜 강한 것"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-submarine-day-april-11/"
+  },
+  {
+    "id": "anv-fixed-04-11-cheese-fondue-day-us",
+    "date": "04-11",
+    "dateType": "annual-fixed",
+    "name": "치즈 퐁뒤의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "치즈"
+    ],
+    "storytelling": {
+      "origin": "녹인 치즈에 빵이나 채소를 찍어 먹는 스위스 전통 요리, 치즈 퐁뒤를 기념하는 날이다.",
+      "anecdote": "여럿이 둘러앉아 냄비 하나를 함께 즐기는 퐁뒤는 그 자체로 사교적인 음식 문화다. 겨울철 모임 메뉴로 인기."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "포크에서 치즈 끊기면 벌칙 받는 그 게임"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-cheese-fondue-day-april-11/"
+  },
+  {
+    "id": "anv-fixed-04-12-grilled-cheese-sandwich-day-us",
+    "date": "04-12",
+    "dateType": "annual-fixed",
+    "name": "그릴드 치즈 샌드위치의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "치즈",
+      "간식"
+    ],
+    "storytelling": {
+      "origin": "버터에 구워 치즈를 녹여 만든 클래식 그릴드 치즈 샌드위치를 기념하는 날이다.",
+      "anecdote": "간단하지만 실패가 없는 위로 음식으로, 비 오는 날이나 우울할 때 찾게 되는 메뉴."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "치즈 늘어지는 비주얼 보려고 만드는 그 음식"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-grilled-cheese-sandwich-day-april-12/"
+  },
+  {
+    "id": "anv-fixed-04-12-library-workers-day-us",
+    "date": "04-12",
+    "dateType": "annual-fixed",
+    "name": "도서관 직원의 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "교육",
+      "사서",
+      "감사"
+    ],
+    "storytelling": {
+      "origin": "지식과 정보의 관문인 도서관을 지키는 사서와 직원들의 노고를 기리는 날이다.",
+      "anecdote": "조용한 공간에서 책을 정리하고 이용자를 돕는 도서관 직원들의 역할은 생각보다 훨씬 다양하고 중요하다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "도서관 직원 아니었으면 책 영원히 못 찾았을 듯"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-library-workers-day-april-12/"
+  },
+  {
+    "id": "anv-fixed-04-12-licorice-day-us",
+    "date": "04-12",
+    "dateType": "annual-fixed",
+    "name": "리코리스의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "간식"
+    ],
+    "storytelling": {
+      "origin": "독특한 향과 맛을 가진 사탕, 리코리스(감초 캔디)를 기념하는 날이다.",
+      "anecdote": "좋아하는 사람과 싫어하는 사람이 극명하게 나뉘는 '마니아 간식'의 대표주자다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "리코리스는 사랑하거나 미워하거나, 중간은 없다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-licorice-day-april-12/"
+  },
+  {
+    "id": "anv-fixed-04-12-big-wind-day-us",
+    "date": "04-12",
+    "dateType": "annual-fixed",
+    "name": "빅 윈드의 날 (National Big Wind Day)",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "역사",
+      "기상"
+    ],
+    "storytelling": {
+      "origin": "1934년 4월 12일, 미국 뉴햄프셔주 워싱턴산에서 지표면 기준 역대 최고 풍속(시속 372km)이 기록된 것을 기념하는 날이다.",
+      "anecdote": "상상하기 힘든 강풍 기록은 자연의 압도적인 힘을 보여준다. 한국에서도 태풍철마다 강풍의 위력을 체감하게 된다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "우산이 뒤집히는 바람이면 이미 빅 윈드급"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-big-wind-day-april-12/"
+  },
+  {
+    "id": "anv-fixed-04-13-scrabble-day-us",
+    "date": "04-13",
+    "dateType": "annual-fixed",
+    "name": "스크래블의 날 (National Scrabble Day)",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "보드게임",
+      "발명가생일"
+    ],
+    "storytelling": {
+      "origin": "보드게임 '스크래블'의 발명가 알프레드 버츠의 생일(1899년 4월 13일)을 기념하는 날이다.",
+      "anecdote": "알파벳 타일로 단어를 만들어 점수를 얻는 이 게임은 전 세계 언어로 번역되어 즐겨진다. 가족 모임의 단골 보드게임."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "Q, Z, X 타일 들고 오는 순간 게임 끝난 거다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-scrabble-day-april-13/"
+  },
+  {
+    "id": "anv-fixed-04-13-bookmobile-day-us",
+    "date": "04-13",
+    "dateType": "annual-fixed",
+    "name": "이동 도서관의 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "교육",
+      "도서관"
+    ],
+    "storytelling": {
+      "origin": "도서관 접근이 어려운 지역에 책을 실어 나르는 이동 도서관(북모빌)의 역할을 기리는 날이다.",
+      "anecdote": "버스나 트럭에 책을 가득 싣고 마을을 돌던 이동 도서관은 외딴 지역 아이들에게 책의 세계를 열어준 통로였다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "버스 타고 오는 도서관, 어릴 적 최고의 이벤트"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-bookmobile-day-april-13/"
+  },
+  {
+    "id": "anv-fixed-04-13-thomas-jefferson-day-us",
+    "date": "04-13",
+    "dateType": "annual-fixed",
+    "name": "토머스 제퍼슨의 날",
+    "category": "commemorative",
+    "tags": [
+      "미국",
+      "역사",
+      "인물"
+    ],
+    "storytelling": {
+      "origin": "미국 독립선언서의 주요 작성자이자 제3대 대통령인 토머스 제퍼슨의 생일(1743년 4월 13일)을 기리는 날이다.",
+      "anecdote": "정치가이자 건축가, 발명가였던 다재다능한 인물로 평가받는다. 미국 역사의 기틀을 세운 인물 중 한 명."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "건국의 아버지들 중에서도 만능형 인재"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-thomas-jefferson-day-april-13/"
+  },
+  {
+    "id": "anv-fixed-04-13-peach-cobbler-day-us",
+    "date": "04-13",
+    "dateType": "annual-fixed",
+    "name": "피치 코블러의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "음식",
+      "디저트",
+      "과일"
+    ],
+    "storytelling": {
+      "origin": "복숭아를 듬뿍 넣고 비스킷 반죽을 얹어 구운 미국 남부 전통 디저트, 피치 코블러를 기념하는 날이다.",
+      "anecdote": "따뜻하게 데워 바닐라 아이스크림과 함께 먹으면 그 자체로 완벽한 디저트가 된다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "뜨거운 코블러 + 차가운 아이스크림 = 인생 디저트"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-peach-cobbler-day-april-13/"
+  },
+  {
+    "id": "anv-fixed-04-14-dolphin-day-us",
+    "date": "04-14",
+    "dateType": "annual-fixed",
+    "name": "돌고래의 날 (National Dolphin Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "동물",
+      "해양생물"
+    ],
+    "storytelling": {
+      "origin": "지능이 높고 사회성이 강한 해양 동물 돌고래를 기념하고 보호 의식을 높이기 위한 날이다.",
+      "anecdote": "돌고래는 인간과 교감하는 듯한 행동을 보여 오래전부터 특별한 동물로 여겨졌다. 수족관 동물복지 논의와도 연결된다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "돌고래가 웃는 것처럼 보이는 건 그냥 얼굴 구조랍니다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-dolphin-day-april-14/"
+  },
+  {
+    "id": "anv-fixed-04-14-equal-pay-day-us",
+    "date": "04-14",
+    "dateType": "annual-fixed",
+    "name": "동등 임금의 날 (Equal Pay Day)",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "사회",
+      "인식개선",
+      "평등"
+    ],
+    "storytelling": {
+      "origin": "성별 임금 격차를 알리기 위해 제정된 날로, 여성이 남성과 같은 임금을 받기까지 추가로 일해야 하는 기간을 상징적으로 나타낸다.",
+      "anecdote": "전 세계적으로 성별 임금 격차는 여전히 존재하는 과제다. 한국 역시 OECD 국가 중 임금 격차가 큰 편으로 꾸준히 논의되는 주제."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "같은 일, 다른 월급 — 아직 끝나지 않은 숙제"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-equal-pay-day-april-14/"
+  },
+  {
+    "id": "anv-fixed-04-14-black-day-kr",
+    "date": "04-14",
+    "dateType": "annual-fixed",
+    "name": "블랙데이",
+    "category": "quirky",
+    "tags": [
+      "대한민국",
+      "비공식기념일",
+      "포틴데이",
+      "솔로",
+      "짜장면"
+    ],
+    "storytelling": {
+      "origin": "발렌타인데이와 화이트데이에 선물을 받지 못한 남녀가 검은색 옷을 입고 짜장면이나 블랙 커피 등 검은색 음식을 먹는 날이다.",
+      "anecdote": "상업적 목적으로 생겨난 날 중 하나이지만, 매년 이맘때쯤 되면 전국의 중국집 매출이 눈에 띄게 상승하며, 마트에서도 짜장라면 할인 행사를 대대적으로 진행한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "짜장면 곱빼기로 주세요... (눈물을 닦으며)"
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/%EB%B8%94%EB%9E%99%EB%8D%B0%EC%9D%B4"
+  },
+  {
+    "id": "anv-fixed-04-14-ex-spouse-day-us",
+    "date": "04-14",
+    "dateType": "annual-fixed",
+    "name": "전 배우자의 날",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "관계",
+      "유머"
+    ],
+    "storytelling": {
+      "origin": "이혼 후에도 원만한 관계를 유지하거나, 지난 관계를 웃어넘기자는 의미를 담은 다소 독특한 기념일이다.",
+      "anecdote": "모든 이별이 적대적으로 끝나지는 않는다. 자녀가 있는 경우 원만한 관계 유지가 무엇보다 중요하다는 메시지도 담겨 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "전 애인 SNS 안 보는 것도 일종의 자기관리"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-ex-spouse-day-april-14/"
+  },
+  {
+    "id": "anv-fixed-04-14-support-teen-literature-day-us",
+    "date": "04-14",
+    "dateType": "annual-fixed",
+    "name": "청소년 문학을 응원하는 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "교육",
+      "독서",
+      "청소년"
+    ],
+    "storytelling": {
+      "origin": "청소년 대상 도서와 작가들을 응원하고 청소년 독서 문화를 활성화하기 위해 제정된 날이다.",
+      "anecdote": "청소년기에 만난 한 권의 책이 인생의 방향을 바꾸기도 한다. YA(영어덜트) 소설 시장의 성장과도 맞닿아 있는 날."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "그 시절 읽은 청소년 소설, 지금 다시 봐도 명작"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-support-teen-literature-day-april-14/"
+  },
+  {
+    "id": "anv-fixed-04-14-reach-as-high-as-you-can-day-us",
+    "date": "04-14",
+    "dateType": "annual-fixed",
+    "name": "최대한 높이 손을 뻗는 날",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "동기부여"
+    ],
+    "storytelling": {
+      "origin": "한계를 두지 않고 목표를 향해 최선을 다해보자는 의미를 담은 동기부여성 기념일이다.",
+      "anecdote": "손을 뻗는 만큼만 닿을 수 있다는 단순한 진리를 일깨워주는 날. 오늘 하루, 평소보다 조금 더 도전해보자."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "스쿼트하다 천장에 손 닿을 것처럼 점프하기"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-reach-as-high-as-you-can-day-april-14/"
+  },
+  {
+    "id": "anv-fixed-04-14-pan-american-day-us",
+    "date": "04-14",
+    "dateType": "annual-fixed",
+    "name": "팬 아메리칸 데이",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "국제",
+      "역사",
+      "외교"
+    ],
+    "storytelling": {
+      "origin": "1890년 미주 국가들의 협력을 다짐하며 제1차 미주 국제회의가 열린 것을 기념하는 날이다.",
+      "anecdote": "여러 나라가 모여 공동의 이익을 논의하는 국제회의의 전통은 오늘날 다양한 국제기구로 이어지고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "다 같이 모이면 결국 회의가 길어진다는 만국 공통의 법칙"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-pan-american-day-april-14/"
+  },
+  {
+    "id": "anv-fixed-04-14-pecan-day-us",
+    "date": "04-14",
+    "dateType": "annual-fixed",
+    "name": "피칸의 날 (National Pecan Day)",
+    "category": "general",
+    "tags": [
+      "미국",
+      "음식",
+      "견과류"
+    ],
+    "storytelling": {
+      "origin": "고소하고 풍부한 맛의 견과류 피칸을 기념하는 날이다. 피칸파이의 주재료로도 유명하다.",
+      "anecdote": "북미가 원산지인 피칸은 추수감사절 디저트 피칸파이로 특히 잘 알려져 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "피칸파이 한 조각의 단짠 밸런스는 진리"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-pecan-day-april-14/"
+  },
+  {
+    "id": "anv-fixed-04-15-rubber-eraser-day-us",
+    "date": "04-15",
+    "dateType": "annual-fixed",
+    "name": "고무지우개의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "문구"
+    ],
+    "storytelling": {
+      "origin": "잘못 쓴 글씨를 깨끗이 지워주는 고무지우개의 발명을 기념하는 날이다.",
+      "anecdote": "1770년경 고무의 마찰력으로 연필 흔적을 지울 수 있다는 사실이 발견되며 지우개가 탄생했다. 그전에는 빵 조각으로 지웠다고 한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "지우개 가루 뭉쳐서 굴리는 거, 다들 한 번씩 해봤잖아"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-rubber-eraser-day-april-15/"
+  },
+  {
+    "id": "anv-fixed-04-15-glazed-spiral-ham-day-us",
+    "date": "04-15",
+    "dateType": "annual-fixed",
+    "name": "글레이즈드 스파이럴 햄의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "음식",
+      "요리"
+    ],
+    "storytelling": {
+      "origin": "나선형으로 썰어 달콤한 소스를 발라 구운 햄 요리를 기념하는 날이다.",
+      "anecdote": "명절이나 가족 모임의 메인 요리로 자주 등장하는 미국식 햄 요리다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "햄 한 조각에 소스 듬뿍, 명절 테이블의 주인공"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-glazed-spiral-ham-day-april-15/"
+  },
+  {
+    "id": "anv-fixed-04-15-wild-guess-day-us",
+    "date": "04-15",
+    "dateType": "annual-fixed",
+    "name": "무작정 찍어보는 날",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "유머"
+    ],
+    "storytelling": {
+      "origin": "정답을 모를 때 과감하게 추측해보자는 의미를 담은 유쾌한 기념일이다.",
+      "anecdote": "시험에서 4번 찍기, 가위바위보로 정하기 등 인생엔 가끔 '찍기'의 순간이 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "객관식 마지막 문제, 결국 3번으로 통일하는 그 심리"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-wild-guess-day-april-15/"
+  },
+  {
+    "id": "anv-fixed-04-15-tax-day-us",
+    "date": "04-15",
+    "dateType": "annual-fixed",
+    "name": "세금의 날 (National Tax Day)",
+    "category": "commemorative",
+    "tags": [
+      "미국",
+      "경제",
+      "역사"
+    ],
+    "storytelling": {
+      "origin": "미국에서 개인 소득세 신고 마감일로 지정된 날이다. 매년 이 날을 앞두고 시민들이 막바지 세금 신고에 분주해진다.",
+      "anecdote": "한국의 5월 종합소득세 신고철 풍경과 비슷하다. \"이 세상에서 확실한 것은 죽음과 세금뿐\"이라는 벤저민 프랭클린의 말이 떠오르는 날."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "마감일 코앞에서야 영수증 뒤지는 그 마음, 만국 공통"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-tax-day-april-15/"
+  },
+  {
+    "id": "anv-fixed-04-15-day-of-silence-us",
+    "date": "04-15",
+    "dateType": "annual-fixed",
+    "name": "침묵의 날 (National Day of Silence)",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "인식개선",
+      "캠페인",
+      "평등"
+    ],
+    "storytelling": {
+      "origin": "성소수자 학생들이 겪는 괴롭힘과 차별, 그로 인한 침묵을 알리기 위해 하루 동안 의도적으로 말을 하지 않는 캠페인 기념일이다.",
+      "anecdote": "말하지 않음으로써 오히려 목소리를 내는 역설적인 방식의 캠페인이다. 차별과 배제 없는 학교를 만들자는 메시지를 담고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "말 안 해도 전해지는 메시지가 더 클 때가 있다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-day-of-silence-april-15/"
+  },
+  {
+    "id": "anv-fixed-04-15-titanic-remembrance-day-us",
+    "date": "04-15",
+    "dateType": "annual-fixed",
+    "name": "타이타닉 추모의 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "역사",
+      "추모"
+    ],
+    "storytelling": {
+      "origin": "1912년 4월 15일 침몰한 타이타닉호의 희생자들을 추모하는 날이다.",
+      "anecdote": "\"불침선\"이라 불리던 거대한 배가 빙산과 충돌해 침몰한 사건은 인간 기술에 대한 과신을 경계하는 교훈으로 남았다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "영화만 보고 운 사람 손, 실제 역사는 더 비극적이었다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-titanic-remembrance-day-april-15/"
+  },
+  {
+    "id": "anv-fixed-04-16-auctioneers-day-us",
+    "date": "04-16",
+    "dateType": "annual-fixed",
+    "name": "경매인의 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "직업",
+      "경제"
+    ],
+    "storytelling": {
+      "origin": "빠른 속도로 가격을 부르며 거래를 성사시키는 경매인들의 전문성을 기리는 날이다.",
+      "anecdote": "경매인의 속사포 같은 가격 호창은 하나의 예술로 평가받기도 한다. 미술품, 가축, 부동산 등 다양한 분야에서 활약한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "경매사 말 속도 따라가려면 청해력 마스터 필수"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-auctioneers-day-april-16/"
+  },
+  {
+    "id": "anv-fixed-04-16-orchid-day-us",
+    "date": "04-16",
+    "dateType": "annual-fixed",
+    "name": "난초의 날 (National Orchid Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "자연",
+      "식물"
+    ],
+    "storytelling": {
+      "origin": "화려하고 다양한 형태를 자랑하는 꽃, 난초의 아름다움을 기리는 날이다.",
+      "anecdote": "개업식이나 행사장에서 흔히 볼 수 있는 호접란처럼, 난초는 한국에서도 축하의 의미로 널리 쓰인다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "개업축하 화분의 8할은 결국 난초"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-orchid-day-april-16/"
+  },
+  {
+    "id": "anv-fixed-04-16-eggs-benedict-day-us",
+    "date": "04-16",
+    "dateType": "annual-fixed",
+    "name": "에그 베네딕트의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "브런치"
+    ],
+    "storytelling": {
+      "origin": "잉글리시 머핀 위에 햄, 수란, 홀란데이즈 소스를 올린 브런치 메뉴 에그 베네딕트를 기념하는 날이다.",
+      "anecdote": "브런치 카페의 대표 메뉴로, 수란을 완벽하게 만드는 것이 이 요리의 핵심 기술이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "수란 터지는 순간 노른자 폭포가 시작된다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-eggs-benedict-day-april-16/"
+  },
+  {
+    "id": "anv-fixed-04-16-healthcare-decisions-day-us",
+    "date": "04-16",
+    "dateType": "annual-fixed",
+    "name": "의료 결정의 날",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "건강",
+      "인식개선"
+    ],
+    "storytelling": {
+      "origin": "사전연명의료의향서 등 자신의 의료 결정을 미리 계획하고 가족과 공유하도록 독려하는 날이다.",
+      "anecdote": "갑작스러운 상황에서 본인의 의사를 존중받기 위해서는 사전 준비가 중요하다. 한국에서도 연명의료결정제도가 시행되고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "미리 정해두면 가족도 나도 마음이 편해지는 일"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-healthcare-decisions-day-april-16/"
+  },
+  {
+    "id": "anv-fixed-04-16-pajamas-to-work-day-us",
+    "date": "04-16",
+    "dateType": "annual-fixed",
+    "name": "잠옷 입고 출근하는 날",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "유머",
+      "직장"
+    ],
+    "storytelling": {
+      "origin": "편안한 잠옷을 입고 출근하며 하루의 여유와 재미를 더해보자는 취지의 날이다.",
+      "anecdote": "재택근무가 늘어난 요즘, 사실상 매일이 잠옷 출근인 사람도 많아졌다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "재택근무자에게는 매일이 이 날이다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-pajamas-to-work-day-april-16/"
+  },
+  {
+    "id": "anv-fixed-04-17-bat-appreciation-day-us",
+    "date": "04-17",
+    "dateType": "annual-fixed",
+    "name": "박쥐 감사의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "동물",
+      "생태"
+    ],
+    "storytelling": {
+      "origin": "해충 방제와 생태계 균형에 중요한 역할을 하는 박쥐에 대한 인식을 높이기 위한 날이다.",
+      "anecdote": "무섭게 여겨지지만 박쥐는 모기 같은 해충을 대량으로 잡아먹는 고마운 동물이다. 생태계의 숨은 일꾼."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "박쥐 무서워하면서 모기 잡아주는 건 고마워하는 모순"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-bat-appreciation-day-april-17/"
+  },
+  {
+    "id": "anv-fixed-04-17-ellis-island-family-history-day-us",
+    "date": "04-17",
+    "dateType": "annual-fixed",
+    "name": "엘리스섬 가족사의 날",
+    "category": "commemorative",
+    "tags": [
+      "미국",
+      "역사",
+      "이민"
+    ],
+    "storytelling": {
+      "origin": "수많은 이민자들이 미국 입국 관문으로 거쳐 간 엘리스섬의 역사와 그 후손들의 뿌리를 기리는 날이다.",
+      "anecdote": "이민자들의 발자취를 기록한 엘리스섬은 '아메리칸 드림'의 상징적 장소로 남아 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "조상님 서류 뒤지다 가계도 덕질 시작하는 그 기분"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-ellis-island-family-history-day-april-17/"
+  },
+  {
+    "id": "anv-fixed-04-17-cheeseball-day-us",
+    "date": "04-17",
+    "dateType": "annual-fixed",
+    "name": "치즈볼의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "간식",
+      "파티"
+    ],
+    "storytelling": {
+      "origin": "크림치즈와 각종 재료를 동그랗게 뭉쳐 만드는 파티 음식, 치즈볼을 기념하는 날이다.",
+      "anecdote": "크래커에 발라 먹는 치즈볼은 미국 가정 파티의 단골 애피타이저다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "파티에서 제일 먼저 사라지는 음식 1위"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-cheeseball-day-april-17/"
+  },
+  {
+    "id": "anv-fixed-04-17-haiku-poetry-day-us",
+    "date": "04-17",
+    "dateType": "annual-fixed",
+    "name": "하이쿠의 날 (National Haiku Poetry Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "문학",
+      "일본문화"
+    ],
+    "storytelling": {
+      "origin": "5-7-5음절의 간결한 형식으로 자연과 순간을 담아내는 일본 전통 시, 하이쿠를 기념하는 날이다.",
+      "anecdote": "짧은 글에 깊은 여운을 담는 하이쿠의 매력은 전 세계 시인들에게 영감을 주었다. 한국의 시조와도 닮은 형식미가 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "짧은 글로 사람 마음 흔드는 거, 그게 바로 고급 기술"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-haiku-poetry-day-april-17/"
+  },
+  {
+    "id": "anv-fixed-04-18-animal-crackers-day-us",
+    "date": "04-18",
+    "dateType": "annual-fixed",
+    "name": "애니멀 크래커의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "간식"
+    ],
+    "storytelling": {
+      "origin": "동물 모양으로 만들어진 어린이용 과자, 애니멀 크래커를 기념하는 날이다.",
+      "anecdote": "어떤 동물 모양이 나올지 기대하며 먹던 어린 시절 간식이다. 한국에도 비슷한 동물 모양 비스킷이 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "사자 모양 먼저 먹을지 기린 모양 먼저 먹을지 고민"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-animal-crackers-day-april-18/"
+  },
+  {
+    "id": "anv-fixed-04-18-lineman-appreciation-day-us",
+    "date": "04-18",
+    "dateType": "annual-fixed",
+    "name": "전기 기술자 감사의 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "직업",
+      "감사"
+    ],
+    "storytelling": {
+      "origin": "비바람 속에서도 전력선을 복구하는 전기 기술자(라인맨)들의 헌신에 감사를 전하는 날이다.",
+      "anecdote": "태풍이나 폭설로 전기가 끊겼을 때, 위험을 무릅쓰고 복구에 나서는 이들이 없다면 일상은 멈춘다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "정전됐을 때 가장 보고 싶은 사람, 전기기사님"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-lineman-appreciation-day-april-18/"
+  },
+  {
+    "id": "anv-fixed-04-18-columnists-day-us",
+    "date": "04-18",
+    "dateType": "annual-fixed",
+    "name": "칼럼니스트의 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "언론",
+      "글쓰기"
+    ],
+    "storytelling": {
+      "origin": "사회 현상에 대한 날카로운 시각과 글솜씨로 독자와 소통하는 칼럼니스트들을 기리는 날이다.",
+      "anecdote": "매주 정해진 마감에 맞춰 시의성 있는 글을 써내는 일은 결코 쉽지 않다. 신문 한 켠의 칼럼이 여론을 움직이기도 한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "마감 코앞인데 소재 안 떠오르는 칼럼니스트의 비애"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-columnists-day-april-18/"
+  },
+  {
+    "id": "gov-12",
+    "date": "04-19",
+    "dateType": "annual-fixed",
+    "name": "4ㆍ19혁명 기념일",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 국가보훈부. 4ㆍ19혁명을 기념하는 행사를 한다.",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-04-19-education-and-sharing-day-us",
+    "date": "04-19",
+    "dateType": "annual-fixed",
+    "name": "교육과 나눔의 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "교육",
+      "나눔"
+    ],
+    "storytelling": {
+      "origin": "교육을 통한 나눔과 선행을 독려하기 위해 제정된 날이다.",
+      "anecdote": "배운 것을 나누는 행위는 가장 오래가는 선물이다. 멘토링이나 재능기부의 가치를 되새기는 날."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "내가 아는 걸 나눠줄 때 비로소 완전히 내 것이 된다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-education-and-sharing-day-april-19/"
+  },
+  {
+    "id": "anv-fixed-04-19-garlic-day-us",
+    "date": "04-19",
+    "dateType": "annual-fixed",
+    "name": "마늘의 날 (National Garlic Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "건강"
+    ],
+    "storytelling": {
+      "origin": "강한 풍미와 다양한 건강 효능을 지닌 마늘을 기념하는 날이다.",
+      "anecdote": "한식에 빠지면 안 되는 재료인 마늘은 면역력 강화 효과로도 유명하다. 한국인의 밥상에서 빼놓을 수 없는 존재."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "마늘 냄새 신경쓰면서도 끊을 수 없는 그 맛"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-garlic-day-april-19/"
+  },
+  {
+    "id": "anv-fixed-04-19-amaretto-day-us",
+    "date": "04-19",
+    "dateType": "annual-fixed",
+    "name": "아마레토의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음료",
+      "이탈리아"
+    ],
+    "storytelling": {
+      "origin": "아몬드 향이 나는 이탈리아 리큐어, 아마레토를 기념하는 날이다.",
+      "anecdote": "달콤하고 고소한 향 덕분에 칵테일이나 디저트에 두루 활용되는 술이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "아몬드향 술이라 디저트인지 술인지 헷갈리는 그 맛"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-amaretto-day-april-19/"
+  },
+  {
+    "id": "anv-fixed-04-19-hanging-out-day-us",
+    "date": "04-19",
+    "dateType": "annual-fixed",
+    "name": "어울려 노는 날",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "친구"
+    ],
+    "storytelling": {
+      "origin": "특별한 계획 없이 친구나 가족과 그냥 함께 시간을 보내는 여유를 기념하는 날이다.",
+      "anecdote": "꼭 거창한 약속이 아니어도, 그냥 같이 있는 시간 자체가 소중하다는 메시지를 담고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "약속 없이 그냥 모여서 노는 게 제일 재밌더라"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-hanging-out-day-april-19/"
+  },
+  {
+    "id": "anv-fixed-04-19-oklahoma-city-bombing-commemoration-day-us",
+    "date": "04-19",
+    "dateType": "annual-fixed",
+    "name": "오클라호마시티 폭탄 테러 추념일",
+    "category": "commemorative",
+    "tags": [
+      "미국",
+      "역사",
+      "추모"
+    ],
+    "storytelling": {
+      "origin": "1995년 4월 19일 오클라호마시티 연방청사에서 발생한 폭탄 테러 희생자들을 추모하는 날이다.",
+      "anecdote": "168명의 목숨을 앗아간 미국 역사상 최악의 국내 테러 사건 중 하나로, 안전과 평화의 가치를 되새기게 한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "평범한 출근길이 비극이 된 그날을 기억하며"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-oklahoma-city-bombing-commemoration-day-april-19/"
+  },
+  {
+    "id": "anv-fixed-04-20-look-alike-day-us",
+    "date": "04-20",
+    "dateType": "annual-fixed",
+    "name": "닮은 사람의 날",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "유머"
+    ],
+    "storytelling": {
+      "origin": "서로 닮은 사람들을 찾아 짝지어보거나, 닮은꼴 친구·연예인을 떠올려보는 유쾌한 기념일이다.",
+      "anecdote": "길에서 우연히 마주친 '도플갱어'와의 만남은 누구에게나 신기한 경험이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "친구가 자꾸 같은 옷 입고 오면 의심해야 할 때"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-look-alike-day-april-20/"
+  },
+  {
+    "id": "anv-fixed-04-20-lima-bean-respect-day-us",
+    "date": "04-20",
+    "dateType": "annual-fixed",
+    "name": "리마빈 존중의 날",
+    "category": "quirky",
+    "tags": [
+      "미국",
+      "음식",
+      "유머"
+    ],
+    "storytelling": {
+      "origin": "유독 인기 없는 채소인 리마빈(이집트콩의 일종)에게 존중을 표하자는 유머러스한 기념일이다.",
+      "anecdote": "어릴 때 가장 남기기 쉬운 채소 중 하나로 꼽히는 리마빈도 나름의 영양가가 있다는 메시지."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "급식에 나오면 가장 먼저 옆자리로 넘기는 채소"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-lima-bean-respect-day-april-20/"
+  },
+  {
+    "id": "gov-13",
+    "date": "04-20",
+    "dateType": "annual-fixed",
+    "name": "장애인의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 보건복지부. 장애인에 대한 국민의 이해를 깊게 하고, 장애인의 재활 의욕을 높이는 행사를 한다.",
+      "anecdote": "만물이 소생하는 4월이 장애인의 재활 의지를 상징한다는 의미에서 4월 20일로 정해졌다. 사회적 장벽(배리어 프리) 철폐를 위한 목소리가 가장 높게 울려 퍼지는 날이다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-04-20-pineapple-upside-down-cake-day-us",
+    "date": "04-20",
+    "dateType": "annual-fixed",
+    "name": "파인애플 업사이드다운 케이크의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "과일"
+    ],
+    "storytelling": {
+      "origin": "파인애플과 체리를 바닥에 깔고 구워 뒤집어 내는 독특한 케이크를 기념하는 날이다.",
+      "anecdote": "케이크를 뒤집는 순간 캐러멜화된 파인애플이 드러나는 비주얼이 매력적인 디저트."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "뒤집는 순간이 제일 떨리는 케이크, 실패하면 대참사"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-pineapple-upside-down-cake-day-april-20/"
+  },
+  {
+    "id": "gov-14",
+    "date": "04-21",
+    "dateType": "annual-fixed",
+    "name": "과학의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 과학기술 정보통신부. 과학기술의 중요성을 높이고, 모든 국민생활의 과학화 추진과 관련된 행사를 한다.",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-04-21-kindergarten-day-us",
+    "date": "04-21",
+    "dateType": "annual-fixed",
+    "name": "유치원의 날 (National Kindergarten Day)",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "교육",
+      "아동"
+    ],
+    "storytelling": {
+      "origin": "유치원 교육의 선구자 프리드리히 프뢰벨의 생일(1782년 4월 21일)을 기념하며 제정된 날이다.",
+      "anecdote": "프뢰벨은 '아이들은 놀이를 통해 배운다'는 철학으로 유치원 교육을 체계화했다. 놀이가 곧 학습이라는 그의 생각은 지금도 유효하다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "유치원 때 친구가 평생 친구 되는 거, 기적이다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-kindergarten-day-april-21/"
+  },
+  {
+    "id": "anv-fixed-04-21-chocolate-covered-cashews-day-us",
+    "date": "04-21",
+    "dateType": "annual-fixed",
+    "name": "초콜릿 코팅 캐슈너트의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "간식",
+      "초콜릿"
+    ],
+    "storytelling": {
+      "origin": "고소한 캐슈너트를 달콤한 초콜릿으로 감싼 간식을 기념하는 날이다.",
+      "anecdote": "견과류의 고소함과 초콜릿의 단맛이 만나는 조합은 실패하기 어려운 간식이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한 알만 먹으려다 결국 한 봉지 다 비우는 패턴"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-chocolate-covered-cashews-day-april-21/"
+  },
+  {
+    "id": "anv-fixed-04-21-high-five-day-us",
+    "date": "04-21",
+    "dateType": "annual-fixed",
+    "name": "하이파이브의 날 (National High Five Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "유머",
+      "스포츠"
+    ],
+    "storytelling": {
+      "origin": "손바닥을 맞부딫혀 기쁨이나 응원을 표현하는 동작, 하이파이브를 기념하는 날이다.",
+      "anecdote": "스포츠 경기에서 골을 넣었을 때, 친구와 좋은 소식을 나눴을 때 가장 자연스럽게 나오는 동작이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "하이파이브 타이밍 놓치면 그날 하루가 좀 민망해진다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-high-five-day-april-21/"
+  },
+  {
+    "id": "anv-fixed-04-22-girl-scout-leaders-day-us",
+    "date": "04-22",
+    "dateType": "annual-fixed",
+    "name": "걸스카우트 리더의 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "교육",
+      "청소년",
+      "감사"
+    ],
+    "storytelling": {
+      "origin": "걸스카우트 단원들을 지도하고 이끄는 리더들의 헌신을 기리는 날이다.",
+      "anecdote": "캠핑, 배지 활동 등을 통해 소녀들의 자립심과 리더십을 길러주는 어른들의 역할은 생각보다 크다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "쿠키 팔던 그 시절, 뒤에서 묵묵히 돕던 리더님들"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-girl-scout-leaders-day-april-22/"
+  },
+  {
+    "id": "gov-15",
+    "date": "04-22",
+    "dateType": "annual-fixed",
+    "name": "정보통신의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 과학기술 정보통신부, 방송미디어통신위원회. 정보통신의 중요성과 의의를 높이고, 정보통신사업의 발전을 다짐하며, 관계 종사원들의 노고를 위로하는 행사를 한다.",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-04-22-jelly-bean-day-us",
+    "date": "04-22",
+    "dateType": "annual-fixed",
+    "name": "젤리빈의 날 (National Jelly Bean Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "간식",
+      "사탕"
+    ],
+    "storytelling": {
+      "origin": "다양한 색과 맛으로 사랑받는 작은 콩 모양 사탕, 젤리빈을 기념하는 날이다.",
+      "anecdote": "부활절 시즌이면 다양한 색의 젤리빈이 바구니를 채운다. 어떤 맛이 나올지 모르는 랜덤 박스 같은 매력도 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "비누맛 젤리빈 걸리면 그날 운세는 망한 거"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-jelly-bean-day-april-22/"
+  },
+  {
+    "id": "anv-fixed-04-22-earth-day-global",
+    "date": "04-22",
+    "dateType": "annual-fixed",
+    "name": "지구의 날 (World Earth Day)",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "환경",
+      "캠페인",
+      "국제기념일"
+    ],
+    "storytelling": {
+      "origin": "1970년 4월 22일, 환경 보호의 중요성을 알리기 위해 미국에서 시작되어 현재는 192개국 이상이 참여하는 세계적인 환경 기념일이다.",
+      "anecdote": "한국에서도 매년 이날 저녁 8시 10분에 10분간 소등하는 '에너지의 날' 캠페인이 진행된다. 작은 실천이 모이면 큰 변화가 된다는 메시지를 담고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "오늘 하루만이라도 텀블러 들고 다니는 모범생 코스프레"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-earth-day-april-22/"
+  },
+  {
+    "id": "anv-fixed-04-23-take-a-chance-day-us",
+    "date": "04-23",
+    "dateType": "annual-fixed",
+    "name": "도전해보는 날 (National Take a Chance Day)",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "도전"
+    ],
+    "storytelling": {
+      "origin": "망설이던 일에 과감하게 도전해보자는 의미를 담은 동기부여성 기념일이다.",
+      "anecdote": "해보지 않으면 후회만 남는다는 말처럼, 오늘만큼은 미뤄둔 도전을 시작해보자."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "'에이 모르겠다' 하고 일단 해보는 추진력"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-take-a-chance-day-april-23/"
+  },
+  {
+    "id": "anv-fixed-04-23-talk-like-shakespeare-day-us",
+    "date": "04-23",
+    "dateType": "annual-fixed",
+    "name": "셰익스피어처럼 말하는 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "문학",
+      "연극"
+    ],
+    "storytelling": {
+      "origin": "영국의 대문호 윌리엄 셰익스피어의 생일(추정)을 기념하며, 그의 독특한 화법을 따라 말해보는 날이다.",
+      "anecdote": "\"To be, or not to be\" 같은 명대사로 대화를 시작해보는 것도 재미있는 시도다. 셰익스피어가 만든 단어와 표현은 지금도 영어에 깊이 남아 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "\"그대여, 오늘 점심은 무엇을 드시겠는가\""
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-talk-like-shakespeare-day-april-23/"
+  },
+  {
+    "id": "anv-fixed-04-23-lost-dogs-awareness-day-us",
+    "date": "04-23",
+    "dateType": "annual-fixed",
+    "name": "실종 반려견 인식의 날",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "동물",
+      "반려동물",
+      "캠페인"
+    ],
+    "storytelling": {
+      "origin": "길을 잃은 반려견들을 찾고, 예방을 위한 인식표나 칩 등록의 중요성을 알리기 위한 날이다.",
+      "anecdote": "반려동물 등록제는 한국에서도 의무화되어 있다. 잃어버린 가족을 찾는 일은 한시가 급한 일이라는 걸 일깨운다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "전봇대마다 붙은 강아지 찾는 전단지, 마음이 아프다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-lost-dogs-awareness-day-april-23/"
+  },
+  {
+    "id": "anv-fixed-04-23-cherry-cheesecake-day-us",
+    "date": "04-23",
+    "dateType": "annual-fixed",
+    "name": "체리 치즈케이크의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트"
+    ],
+    "storytelling": {
+      "origin": "부드러운 크림치즈 위에 새콤달콤한 체리를 올린 체리 치즈케이크를 기념하는 날이다.",
+      "anecdote": "치즈의 진한 맛과 체리의 산미가 균형을 이루는 디저트로 카페 메뉴의 스테디셀러다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "체리 토핑만 먼저 골라 먹는 사람, 다 들켰다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-cherry-cheesecake-day-april-23/"
+  },
+  {
+    "id": "anv-fixed-04-23-picnic-day-us",
+    "date": "04-23",
+    "dateType": "annual-fixed",
+    "name": "피크닉의 날 (National Picnic Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "나들이",
+      "음식"
+    ],
+    "storytelling": {
+      "origin": "따뜻한 봄날, 야외에 돗자리를 펴고 즐기는 소박한 즐거움인 피크닉을 기념하는 날이다.",
+      "anecdote": "한강공원 돗자리 문화처럼, 자연 속에서 음식을 나누는 즐거움은 어디서나 통하는 행복이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "돗자리 펴자마자 비 오는 그 운명의 장난"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-picnic-day-april-23/"
+  },
+  {
+    "id": "anv-fixed-04-24-pet-parents-day-us",
+    "date": "04-24",
+    "dateType": "annual-fixed",
+    "name": "반려동물 부모의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "동물",
+      "반려동물",
+      "가족"
+    ],
+    "storytelling": {
+      "origin": "반려동물을 가족처럼 돌보는 '펫 부모'들의 사랑과 책임감을 기리는 날이다.",
+      "anecdote": "'반려동물 보호자'를 넘어 '펫 부모'라는 표현이 자연스러워질 만큼, 반려동물은 진짜 가족의 일원이 되었다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "강아지 사진첩이 내 사진첩보다 더 많은 그 현실"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-pet-parents-day-april-24/"
+  },
+  {
+    "id": "anv-fixed-04-24-pigs-in-a-blanket-day-us",
+    "date": "04-24",
+    "dateType": "annual-fixed",
+    "name": "피그 인 어 블랭킷의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "간식",
+      "파티"
+    ],
+    "storytelling": {
+      "origin": "소시지를 반죽으로 감싸 구운 간식, 피그 인 어 블랭킷을 기념하는 날이다.",
+      "anecdote": "한입 크기로 먹기 좋아 파티나 모임의 단골 안주로 사랑받는다. 한국의 핫도그와도 비슷한 매력이 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한입에 사라지는 그 크기가 사실은 함정, 끝없이 손이 간다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-pigs-in-a-blanket-day-april-24/"
+  },
+  {
+    "id": "anv-fixed-04-25-dna-day-global",
+    "date": "04-25",
+    "dateType": "annual-fixed",
+    "name": "DNA의 날 (National DNA Day)",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "과학",
+      "교육"
+    ],
+    "storytelling": {
+      "origin": "1953년 DNA의 이중나선 구조 발견 논문 발표와 2003년 인간 게놈 프로젝트 완성을 기념하며 제정된 날이다.",
+      "anecdote": "생명의 청사진인 DNA의 발견은 현대 생명과학과 의학의 토대가 되었다. 유전자 검사가 일상화된 오늘날, 그 의미가 더욱 크다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "유전자 검사 결과 보고 친자 확인하는 막장드라마는 이제 그만"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-dna-day-april-25/"
+  },
+  {
+    "id": "anv-fixed-04-25-east-meets-west-day-us",
+    "date": "04-25",
+    "dateType": "annual-fixed",
+    "name": "동서양이 만나는 날",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "문화",
+      "국제"
+    ],
+    "storytelling": {
+      "origin": "동양과 서양의 문화 교류와 융합을 기념하는 날이다.",
+      "anecdote": "K-팝, K-푸드의 세계적 인기처럼 동서양 문화가 서로 영향을 주고받는 사례는 점점 늘고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "포크로 김치 먹는 외국인 친구, 그게 바로 문화교류"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-east-meets-west-day-april-25/"
+  },
+  {
+    "id": "anv-fixed-04-25-hug-a-plumber-day-us",
+    "date": "04-25",
+    "dateType": "annual-fixed",
+    "name": "배관공을 안아주는 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "직업",
+      "감사"
+    ],
+    "storytelling": {
+      "origin": "막힌 배관과 새는 수도를 고쳐주는 배관공들의 노고에 감사를 전하는 날이다.",
+      "anecdote": "갑자기 변기가 막히거나 수도가 새는 응급상황에서 배관공만큼 반가운 사람이 없다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한밤중 누수 사고 났을 때 출장 와주는 배관공은 영웅"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-hug-a-plumber-day-april-25/"
+  },
+  {
+    "id": "gov-16",
+    "date": "04-25",
+    "dateType": "annual-fixed",
+    "name": "법의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 법무부. 국민의 준법정신을 함양하고, 법의 존엄성과 관련된 행사를 한다.",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-04-25-telephone-day-us",
+    "date": "04-25",
+    "dateType": "annual-fixed",
+    "name": "전화의 날 (National Telephone Day)",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "역사",
+      "발명"
+    ],
+    "storytelling": {
+      "origin": "알렉산더 그레이엄 벨이 전화 특허를 받은 것을 기념하며 전화기의 발명을 기리는 날이다.",
+      "anecdote": "멀리 있는 사람과 목소리로 연결될 수 있다는 것은 당시엔 혁명적인 일이었다. 오늘날 스마트폰의 시작점이라 할 수 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "전화 오면 일단 무음으로 돌리는 현대인의 습관"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-telephone-day-april-25/"
+  },
+  {
+    "id": "anv-fixed-04-25-zucchini-bread-day-us",
+    "date": "04-25",
+    "dateType": "annual-fixed",
+    "name": "주키니 브레드의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "베이킹"
+    ],
+    "storytelling": {
+      "origin": "다진 주키니 호박을 넣어 구운 달콤한 빵, 주키니 브레드를 기념하는 날이다.",
+      "anecdote": "채소를 넣었지만 달콤한 디저트빵에 가까운 맛으로, 여름철 풍부한 주키니를 활용하기 좋은 레시피다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "호박빵인데 다들 채소인 거 까먹고 먹는다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-zucchini-bread-day-april-25/"
+  },
+  {
+    "id": "anv-fixed-04-25-kiss-of-hope-day-us",
+    "date": "04-25",
+    "dateType": "annual-fixed",
+    "name": "희망의 키스 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "희망",
+      "캠페인"
+    ],
+    "storytelling": {
+      "origin": "암 등 질병과 싸우는 이들에게 희망과 사랑을 전하자는 의미를 담은 날이다.",
+      "anecdote": "작은 응원의 표시가 투병 중인 이들에게는 큰 힘이 된다는 메시지를 전한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "응원 한마디가 약보다 효과 좋을 때가 있다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-kiss-of-hope-day-april-25/"
+  },
+  {
+    "id": "anv-fixed-04-26-richter-scale-day-us",
+    "date": "04-26",
+    "dateType": "annual-fixed",
+    "name": "리히터 규모의 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "과학",
+      "발명"
+    ],
+    "storytelling": {
+      "origin": "지진의 강도를 측정하는 리히터 규모를 개발한 지진학자 찰스 리히터의 생일(1900년 4월 26일)을 기념하는 날이다.",
+      "anecdote": "지진 발생 시 뉴스에서 듣는 '리히터 규모 OO'라는 표현은 모두 그의 이름에서 따온 것이다. 지진이 잦은 한국에서도 익숙한 단위다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "리히터 규모 숫자 하나 차이가 실제로는 엄청난 차이"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-richter-scale-day-april-26/"
+  },
+  {
+    "id": "anv-fixed-04-26-help-a-horse-day-us",
+    "date": "04-26",
+    "dateType": "annual-fixed",
+    "name": "말을 돕는 날 (National Help a Horse Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "동물",
+      "구조"
+    ],
+    "storytelling": {
+      "origin": "학대받거나 방치된 말들을 구조하고 보호하는 활동을 알리기 위한 날이다.",
+      "anecdote": "큰 몸집의 동물일수록 구조와 재활에 더 많은 자원과 노력이 필요하다. 동물 보호 단체들의 활동을 응원하는 날."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "말도 사람처럼 트라우마가 있다는 걸 알아주는 마음"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-help-a-horse-day-april-26/"
+  },
+  {
+    "id": "anv-fixed-04-26-kids-and-pets-day-us",
+    "date": "04-26",
+    "dateType": "annual-fixed",
+    "name": "아이와 반려동물의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "동물",
+      "가족",
+      "아동"
+    ],
+    "storytelling": {
+      "origin": "아이들과 반려동물 사이의 특별한 우정과 교감을 기념하는 날이다.",
+      "anecdote": "어릴 적 키운 강아지나 고양이는 평생 잊지 못할 첫 친구가 되어준다. 책임감과 공감 능력을 길러주는 소중한 경험이기도 하다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "강아지랑 아이 같이 낮잠 자는 사진, 심장 녹는 비주얼"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-kids-and-pets-day-april-26/"
+  },
+  {
+    "id": "anv-fixed-04-26-audubon-day-us",
+    "date": "04-26",
+    "dateType": "annual-fixed",
+    "name": "오듀본의 날 (National Audubon Day)",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "역사",
+      "인물",
+      "조류"
+    ],
+    "storytelling": {
+      "origin": "조류학자이자 화가인 존 제임스 오듀본의 생일(1785년 4월 26일)을 기념하는 날이다.",
+      "anecdote": "그는 북미의 새들을 정교하게 그려낸 도감으로 유명하며, 그의 이름을 딴 조류 보호 단체 '오듀본 협회'가 지금도 활동 중이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "새 그림 하나로 이름을 역사에 새긴 사람"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-audubon-day-april-26/"
+  },
+  {
+    "id": "anv-fixed-04-26-pretzel-day-us",
+    "date": "04-26",
+    "dateType": "annual-fixed",
+    "name": "프레첼의 날 (National Pretzel Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "간식"
+    ],
+    "storytelling": {
+      "origin": "꽈배기 모양으로 꼬아 구운 짭짤한 빵, 프레첼을 기념하는 날이다.",
+      "anecdote": "독일에서 유래한 프레첼은 맥주 안주로도, 길거리 간식으로도 두루 사랑받는다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "겨자소스 듬뿍 찍어 먹어야 진짜 프레첼 맛"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-pretzel-day-april-26/"
+  },
+  {
+    "id": "anv-fixed-04-27-babe-ruth-day-us",
+    "date": "04-27",
+    "dateType": "annual-fixed",
+    "name": "베이브 루스의 날",
+    "category": "anniversary",
+    "tags": [
+      "미국",
+      "스포츠",
+      "야구",
+      "인물"
+    ],
+    "storytelling": {
+      "origin": "미국 야구 역사상 가장 위대한 선수로 꼽히는 베이브 루스를 기리기 위해 1947년 양키스타디움에서 처음 열린 행사를 기념하는 날이다.",
+      "anecdote": "홈런왕이라는 수식어를 만들어낸 전설적인 선수로, 그의 등번호 3번은 영구 결번으로 남아 있다. 야구를 좋아하는 한국 팬들에게도 친숙한 이름."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "\"어제의 홈런으로는 오늘의 경기를 이길 수 없다\" - 베이브 루스"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-babe-ruth-day-april-27/"
+  },
+  {
+    "id": "anv-fixed-04-27-tell-a-story-day-us",
+    "date": "04-27",
+    "dateType": "annual-fixed",
+    "name": "이야기를 들려주는 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "문학",
+      "가족"
+    ],
+    "storytelling": {
+      "origin": "구전 이야기와 스토리텔링의 전통을 기리고, 서로에게 이야기를 들려주자는 취지의 날이다.",
+      "anecdote": "할머니, 할아버지가 들려주던 옛이야기는 어떤 책보다 생생한 기억으로 남는다. 이야기는 세대를 잇는 다리가 된다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "\"옛날 옛적에...\" 이 말 한마디면 다들 집중 모드"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-tell-a-story-day-april-27/"
+  },
+  {
+    "id": "anv-fixed-04-27-prime-rib-day-us",
+    "date": "04-27",
+    "dateType": "annual-fixed",
+    "name": "프라임 립의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "고기",
+      "요리"
+    ],
+    "storytelling": {
+      "origin": "두툼한 소갈비살을 통째로 구워내는 고급 요리, 프라임 립을 기념하는 날이다.",
+      "anecdote": "특별한 날 레스토랑에서 즐기는 프라임 립은 묵직한 만족감을 주는 메인 요리다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "프라임 립 한 접시면 그날 모든 스트레스 리셋"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-prime-rib-day-april-27/"
+  },
+  {
+    "id": "anv-fixed-04-27-administrative-professionals-day-us",
+    "date": "04-27",
+    "dateType": "annual-fixed",
+    "name": "행정 전문가의 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "직업",
+      "감사",
+      "직장"
+    ],
+    "storytelling": {
+      "origin": "사무실의 행정 업무를 꼼꼼히 처리하며 조직을 돌아가게 만드는 행정직 종사자들의 노고를 기리는 날이다.",
+      "anecdote": "비서, 사무보조 등으로 불리던 직군이 '행정 전문가'로 재조명되며 그 역할의 중요성이 부각되고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "사무실이 안 돌아가면 결국 다 이분들 손길 덕분인 걸 깨닫는다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-administrative-professionals-day-april-27/"
+  },
+  {
+    "id": "anv-fixed-04-28-bravehearts-day-us",
+    "date": "04-28",
+    "dateType": "annual-fixed",
+    "name": "브레이브하츠의 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "아동",
+      "인식개선"
+    ],
+    "storytelling": {
+      "origin": "아동 학대 생존자들을 지원하는 단체 BraveHearts의 활동과 그들의 용기를 기리는 날이다.",
+      "anecdote": "상처를 딛고 일어선 이들의 용기는 비슷한 아픔을 겪는 다른 이들에게 희망이 된다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "상처를 용기로 바꾸는 사람들, 그게 진짜 강함"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-bravehearts-day-april-28/"
+  },
+  {
+    "id": "anv-fixed-04-28-blueberry-pie-day-us",
+    "date": "04-28",
+    "dateType": "annual-fixed",
+    "name": "블루베리 파이의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "과일"
+    ],
+    "storytelling": {
+      "origin": "달콤하면서도 약간의 산미가 있는 블루베리로 채운 파이를 기념하는 날이다.",
+      "anecdote": "여름철 풍성하게 수확되는 블루베리는 항산화 성분이 풍부해 건강 디저트로도 인기다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "파이 자르는 순간 손가락까지 보라색 되는 그 맛"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-blueberry-pie-day-april-28/"
+  },
+  {
+    "id": "anv-fixed-04-28-workers-memorial-day-global",
+    "date": "04-28",
+    "dateType": "annual-fixed",
+    "name": "세계 산업재해 노동자 추모의 날",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "노동",
+      "추모",
+      "국제기념일"
+    ],
+    "storytelling": {
+      "origin": "국제노동기구(ILO)가 지정한 날로, 산업재해와 직업병으로 목숨을 잃거나 다친 노동자들을 추모하고 안전한 노동환경을 촉구한다.",
+      "anecdote": "일하다 다치거나 목숨을 잃는 일은 결코 당연한 희생이 아니다. 한국에서도 매년 산업재해로 많은 노동자가 희생되는 현실을 되짚는 날."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "오늘 무사히 퇴근하는 것도 결코 당연한 일이 아니다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-workers-memorial-day-april-28/"
+  },
+  {
+    "id": "anv-fixed-04-28-great-poetry-reading-day-us",
+    "date": "04-28",
+    "dateType": "annual-fixed",
+    "name": "위대한 시 낭독의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "문학",
+      "시"
+    ],
+    "storytelling": {
+      "origin": "좋아하는 시를 소리 내어 낭독하며 그 운율과 감성을 느껴보자는 취지의 날이다.",
+      "anecdote": "눈으로만 읽던 시를 소리 내어 읽으면 전혀 다른 울림으로 다가온다. 시는 원래 낭독을 위해 쓰인 글이었다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "시 낭독회 가서 괜히 눈물 핑 도는 그 순간"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-great-poetry-reading-day-april-28/"
+  },
+  {
+    "id": "anv-fixed-04-28-take-our-daughters-sons-to-work-day-us",
+    "date": "04-28",
+    "dateType": "annual-fixed",
+    "name": "자녀와 함께 출근하는 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "가족",
+      "직장",
+      "교육"
+    ],
+    "storytelling": {
+      "origin": "부모가 자녀를 직장에 데려가 일하는 모습을 보여주고 진로에 대한 안목을 키워주는 날이다.",
+      "anecdote": "부모가 어떤 일을 하는지 직접 보는 경험은 아이들에게 막연하던 '일'의 의미를 구체적으로 알려준다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "엄마 회사 따라갔다가 의자 뱅뱅 돌리며 놀던 추억"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-take-our-daughters-and-sons-to-work-day-april-28/"
+  },
+  {
+    "id": "anv-fixed-04-28-poem-in-your-pocket-day-us",
+    "date": "04-28",
+    "dateType": "annual-fixed",
+    "name": "주머니 속 시의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "문학",
+      "시"
+    ],
+    "storytelling": {
+      "origin": "좋아하는 시 한 편을 주머니에 넣고 다니며 사람들과 나누는 캠페인성 기념일이다.",
+      "anecdote": "거창한 행사 없이도 시 한 줄을 나누는 것만으로 누군가의 하루를 환기시킬 수 있다는 소박한 메시지."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "주머니에서 꺼낸 시 한 줄이 그날의 위로가 될 때"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-poem-in-your-pocket-day-april-28/"
+  },
+  {
+    "id": "gov-17",
+    "date": "04-28",
+    "dateType": "annual-fixed",
+    "name": "충무공 이순신 탄신일",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 문화체육 관광부. 충무공 이순신의 숭고한 충의를 길이 빛내는 행사를 한다.",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-04-29-arbor-day-global",
+    "date": "04-29",
+    "dateType": "annual-fixed",
+    "name": "나무 심는 날 (National Arbor Day)",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "환경",
+      "자연",
+      "국제기념일"
+    ],
+    "storytelling": {
+      "origin": "나무를 심고 가꾸는 것의 중요성을 알리기 위해 1872년 미국 네브래스카주에서 시작된 날이다.",
+      "anecdote": "한국에는 4월 5일 식목일이 있지만, 전 세계적으로도 다양한 날짜에 나무 심기 행사가 열린다. 한 그루의 나무가 미래의 숲이 된다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "어릴 때 심은 나무, 지금 가보면 나보다 더 커있다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-arbor-day-april-29/"
+  },
+  {
+    "id": "anv-fixed-04-29-shrimp-scampi-day-us",
+    "date": "04-29",
+    "dateType": "annual-fixed",
+    "name": "쉬림프 스캠피의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "해산물",
+      "요리"
+    ],
+    "storytelling": {
+      "origin": "마늘, 버터, 화이트와인으로 새우를 볶아낸 이탈리아식 요리, 쉬림프 스캠피를 기념하는 날이다.",
+      "anecdote": "마늘버터향이 진하게 풍기는 이 요리는 파스타와 함께 먹어도 그 자체로 먹어도 인기가 많다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "마늘버터 소스에 빵 찍어 먹는 게 진짜 핵심"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-shrimp-scampi-day-april-29/"
+  },
+  {
+    "id": "anv-fixed-04-29-zipper-day-us",
+    "date": "04-29",
+    "dateType": "annual-fixed",
+    "name": "지퍼의 날 (National Zipper Day)",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "역사",
+      "발명"
+    ],
+    "storytelling": {
+      "origin": "1913년 지퍼의 현대적 형태를 발명한 기디언 슌백의 특허 등록을 기념하는 날이다.",
+      "anecdote": "단추보다 빠르고 편리한 지퍼의 발명은 의류 산업에 혁명을 가져왔다. 별것 아닌 듯하지만 일상을 바꾼 발명품."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "지퍼 끼었을 때의 그 절망감, 발명가는 몰랐겠지"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-zipper-day-april-29/"
+  },
+  {
+    "id": "anv-fixed-04-29-peace-rose-day-us",
+    "date": "04-29",
+    "dateType": "annual-fixed",
+    "name": "평화의 장미 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "평화"
+    ],
+    "storytelling": {
+      "origin": "제2차 세계대전 종전과 함께 탄생한 '평화(Peace)'라는 이름의 장미 품종을 기리는 날이다.",
+      "anecdote": "전쟁의 폐허 속에서도 새로운 희망을 상징하는 꽃을 키워낸 이야기는 평화의 가치를 다시 생각하게 한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "꽃 이름까지 평화로 지을 만큼 간절했던 그 시절의 염원"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-peace-rose-day-april-29/"
+  },
+  {
+    "id": "anv-fixed-04-29-hairball-awareness-day-us",
+    "date": "04-29",
+    "dateType": "annual-fixed",
+    "name": "헤어볼 인식의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "동물",
+      "반려동물",
+      "건강"
+    ],
+    "storytelling": {
+      "origin": "고양이가 그루밍 중 삼킨 털이 위장에 뭉쳐 생기는 헤어볼 문제에 대한 인식을 높이기 위한 날이다.",
+      "anecdote": "고양이를 키우는 사람이라면 한 번쯥 헤어볼 토하는 소리에 놀란 경험이 있을 것이다. 정기적인 빗질이 예방의 핵심이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "그 특유의 소리 들리면 바로 청소포 챙겨 뛰어가는 반사신경"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-hairball-awareness-day-april-29/"
+  },
+  {
+    "id": "anv-fixed-04-30-raisin-day-us",
+    "date": "04-30",
+    "dateType": "annual-fixed",
+    "name": "건포도의 날 (National Raisin Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "과일"
+    ],
+    "storytelling": {
+      "origin": "포도를 말려 만든 건포도의 풍미와 영양을 기념하는 날이다.",
+      "anecdote": "시리얼, 쿠키, 빵 등 다양한 음식에 활용되는 건포도는 천연 단맛을 더해주는 재료다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "빵 속 건포도 좋아하거나 싫어하거나, 의견 극명히 갈리는 재료"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-raisin-day-april-30/"
+  },
+  {
+    "id": "anv-fixed-04-30-rebuilding-day-us",
+    "date": "04-30",
+    "dateType": "annual-fixed",
+    "name": "리빌딩 데이",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "봉사",
+      "공동체"
+    ],
+    "storytelling": {
+      "origin": "저소득층이나 노약자의 주택을 자원봉사자들이 무료로 수리해주는 봉사 활동을 기념하는 날이다.",
+      "anecdote": "망치질 한 번이 누군가에겐 안전한 잠자리를 만들어주는 일이 된다. 손으로 전하는 봉사의 가치를 되새기는 날."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "땀 흘려 고친 지붕 아래서 누군가는 편히 잠든다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-rebuilding-day-april-30/"
+  },
+  {
+    "id": "anv-fixed-04-30-bugs-bunny-day-us",
+    "date": "04-30",
+    "dateType": "annual-fixed",
+    "name": "벅스 버니의 날",
+    "category": "anniversary",
+    "tags": [
+      "미국",
+      "캐릭터",
+      "애니메이션"
+    ],
+    "storytelling": {
+      "origin": "1938년 첫 등장한 워너브라더스의 대표 캐릭터 벅스 버니를 기념하는 날이다.",
+      "anecdote": "\"What's up, Doc?\"이라는 대사로 유명한 이 토끼 캐릭터는 수십 년간 전 세계 어린이들에게 사랑받았다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "당근 씹으며 여유 부리는 그 텐션, 평생 부캐의 정석"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-bugs-bunny-day-april-30/"
+  },
+  {
+    "id": "anv-fixed-04-30-sarcoidosis-day-us",
+    "date": "04-30",
+    "dateType": "annual-fixed",
+    "name": "사르코이드증 인식의 날",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "건강",
+      "인식개선",
+      "희귀질환"
+    ],
+    "storytelling": {
+      "origin": "신체 여러 장기에 염증성 세포 덩어리가 생기는 희귀질환 사르코이드증에 대한 인식을 높이기 위한 날이다.",
+      "anecdote": "잘 알려지지 않은 질환일수록 조기 진단과 인식 확산이 환자들에게 큰 도움이 된다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "이름도 낯선 병일수록 알아주는 한마디가 큰 힘이 된다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-sarcoidosis-day-april-30/"
+  },
+  {
+    "id": "anv-fixed-04-30-oatmeal-cookie-day-us",
+    "date": "04-30",
+    "dateType": "annual-fixed",
+    "name": "오트밀 쿠키의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "베이킹"
+    ],
+    "storytelling": {
+      "origin": "건강한 곡물인 오트밀을 넣어 만든 쿠키를 기념하는 날이다.",
+      "anecdote": "초콜릿칩 쿠키보다 약간 건강한 느낌을 주는 오트밀 쿠키는 레이즌이나 견과류와 함께 즐기기 좋다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "건강한 척하면서 결국 설탕 듬뿍 들어간 쿠키"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-oatmeal-cookie-day-april-30/"
+  },
+  {
+    "id": "anv-fixed-04-30-adopt-a-shelter-pet-day-us",
+    "date": "04-30",
+    "dateType": "annual-fixed",
+    "name": "유기동물 입양의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "동물",
+      "반려동물",
+      "캠페인"
+    ],
+    "storytelling": {
+      "origin": "보호소에 있는 유기동물들의 입양을 독려하기 위해 제정된 날이다.",
+      "anecdote": "한 마리를 입양하면 그 자리에 다른 생명을 구할 공간이 생긴다. 한국에서도 유기동물 입양 캠페인이 꾸준히 확산되고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "분양보다 입양, 한 생명을 살리는 선택"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-adopt-a-shelter-pet-day-april-30/"
+  },
+  {
+    "id": "anv-fixed-04-30-honesty-day-us",
+    "date": "04-30",
+    "dateType": "annual-fixed",
+    "name": "정직의 날 (National Honesty Day)",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "유머"
+    ],
+    "storytelling": {
+      "origin": "만우절(4월 1일)의 거짓말 분위기를 마무리하며, 한 달의 끝에 솔직함의 가치를 되새기는 날이다.",
+      "anecdote": "한 달 동안 둘러댄 거짓말들을 청산하고 솔직해지자는 의미로, 만우절과 짝을 이루는 재치 있는 기념일."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "만우절에 한 거짓말, 이날 솔직히 다 털어놓기"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-honesty-day-april-30/"
+  },
+  {
+    "id": "anv-fixed-04-30-hairstylist-appreciation-day-us",
+    "date": "04-30",
+    "dateType": "annual-fixed",
+    "name": "헤어스타일리스트 감사의 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "직업",
+      "감사",
+      "뷰티"
+    ],
+    "storytelling": {
+      "origin": "고객의 스타일을 디자인하고 변신시켜주는 헤어스타일리스트들의 노고에 감사를 전하는 날이다.",
+      "anecdote": "미용실에서 머리를 하고 나면 기분까지 달라지는 경험, 그 변화를 만들어주는 손길에 감사를 표하는 날."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "미용실 다녀온 날은 괜히 어깨에 힘이 들어간다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-hairstylist-appreciation-day-april-30/"
+  },
+  {
+    "id": "anv-fixed-04-30-sense-of-smell-day-us",
+    "date": "04-30",
+    "dateType": "annual-fixed",
+    "name": "후각의 날 (National Sense of Smell Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "건강",
+      "감각"
+    ],
+    "storytelling": {
+      "origin": "냄새를 맡는 후각의 소중함과 그 역할을 일깨우기 위한 날이다.",
+      "anecdote": "코로나19를 겪으며 많은 사람이 후각 상실의 불편함을 체감했다. 후각은 기억과 감정을 가장 직접적으로 자극하는 감각이기도 하다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "엄마 집 현관 냄새 맡으면 바로 그 시절로 타임슬립"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-sense-of-smell-day-april-30/"
+  },
+  {
+    "id": "gov-8",
+    "date": "04-1-FRI",
+    "dateType": "annual-nth-weekday",
+    "name": "예비군의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 국방부. 4월 첫째 금요일. 모든 예비군이 참가하여 국가방위의 임무를 새롭게 다짐하는 행사를 한다.",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-18",
+    "date": "04-4-FRI",
+    "dateType": "annual-nth-weekday",
+    "name": "순직의무군경의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 국가보훈부. 4월 넷째 금요일. 국방의무 수행 중 사망한 순직의무군경의 희생과 호국정신을 기리는 행사를 한다.",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  }
+]

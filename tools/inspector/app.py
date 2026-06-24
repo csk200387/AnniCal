@@ -1,9 +1,9 @@
 """
 기념일 데이터 검수기 (Gradio UI)
 
-- src/data/anniversaries.json 을 좌측 리스트로 보고,
+- src/data/anniversaries/ (월별 01..12.json) 을 한 리스트로 병합해 좌측에 보고,
   우측 폼에서 한 건씩 수정/추가/삭제한다.
-- 저장 시 동일 파일을 그대로 덮어쓴다 (2-space indent, UTF-8, ensure_ascii=False).
+- 저장 시 dateType 기준으로 월별 파일에 다시 분배해 덮어쓴다 (data_io.py).
 - 상단에 검수 결과 (중복 id, 알 수 없는 카테고리, 필수 누락, 날짜 포맷) 요약.
 
 실행:
@@ -14,18 +14,19 @@
 
 from __future__ import annotations
 
-import json
 import re
-from pathlib import Path
 from typing import Any
 
 import gradio as gr
 
 import naver_news
-
-ROOT = Path(__file__).resolve().parents[2]
-DATA_PATH = ROOT / "src" / "data" / "anniversaries.json"
-CATEGORIES_PATH = ROOT / "src" / "data" / "categories.json"
+from data_io import (
+    ROOT,
+    DATA_DIR,
+    load_anniversaries,
+    load_categories,
+    save_anniversaries,
+)
 
 DATE_TYPES = [
     "annual-fixed",
@@ -40,23 +41,6 @@ NTH_WEEKDAY_RE = r"\d{2}-(?:[1-5]|L)-(?:SUN|MON|TUE|WED|THU|FRI|SAT)"
 RELATIVE_TO_HOLIDAY_RE = r"[a-zA-Z0-9_\-]+:-?\d+"
 COLS = ["날짜", "유형", "이름", "카테고리", "id"]
 NEWS_COLS = ["제목", "날짜", "링크"]
-
-
-# ---------- IO ----------
-
-def load_anniversaries() -> list[dict[str, Any]]:
-    return json.loads(DATA_PATH.read_text(encoding="utf-8"))
-
-
-def load_categories() -> list[dict[str, Any]]:
-    return json.loads(CATEGORIES_PATH.read_text(encoding="utf-8"))
-
-
-def save_anniversaries(items: list[dict[str, Any]]) -> None:
-    DATA_PATH.write_text(
-        json.dumps(items, ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
 
 
 # ---------- 표시용 변환 ----------
@@ -470,7 +454,7 @@ def build_ui() -> gr.Blocks:
     with gr.Blocks(title="기념일 데이터 검수기", theme=gr.themes.Soft()) as demo:
         gr.Markdown(
             "# 🗓️ 기념일 데이터 검수기\n"
-            f"편집 대상: `{DATA_PATH.relative_to(ROOT)}` "
+            f"편집 대상: `{DATA_DIR.relative_to(ROOT)}/` (월별 12파일) "
             f"(총 {len(initial_items)}건)"
         )
 

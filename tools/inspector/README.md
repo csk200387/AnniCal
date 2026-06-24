@@ -1,6 +1,6 @@
 # 기념일 데이터 검수기
 
-`src/data/anniversaries.json` 을 검토·편집하기 위한 로컬 Gradio UI.
+`src/data/anniversaries/` (월별 `01.json … 12.json`) 을 검토·편집하기 위한 로컬 Gradio UI. 12개 파일을 하나의 리스트로 병합해 보여주고, 저장 시 `dateType` 기준으로 다시 월별 파일에 분배한다(`data_io.py`).
 
 ## 요구사항
 
@@ -81,7 +81,7 @@ python naver_news.py "스승의 날" --display 5 --sort date --json
 
 ## 데이터 형식
 
-`src/types/anniversary.ts` 의 `Anniversary` 인터페이스를 따른다. 저장 시 동일 파일을 2-space indent, UTF-8 (`ensure_ascii=False`) 로 덮어쓴다.
+`src/types/anniversary.ts` 의 `Anniversary` 인터페이스를 따른다. 저장 시 전체 항목을 월(1~12) 버킷으로 나눠 `src/data/anniversaries/MM.json` 12파일을 2-space indent, UTF-8 (`ensure_ascii=False`) 로 덮어쓴다. `annual-relative-to-holiday` 는 anchor 가 속한 월을 따른다.
 
 `memes` 는 폼 안에 동적으로 표시되는 행 단위로 편집한다. **➕ 밈 추가** 버튼으로 행을 만들고, 행마다 `type` (text/image), `url` (image 일 때만 필수), `caption` 을 입력. 행 우측의 🗑️ 버튼으로 개별 삭제. 저장 시 `text` 타입의 url 은 자동으로 `null` 로 정규화된다.
 

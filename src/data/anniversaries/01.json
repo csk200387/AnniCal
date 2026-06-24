@@ -1,0 +1,1928 @@
+[
+  {
+    "id": "anv-fixed-01-01-new-year-kr",
+    "date": "01-01",
+    "dateType": "annual-fixed",
+    "name": "신정",
+    "category": "holiday",
+    "tags": [
+      "대한민국",
+      "법정공휴일",
+      "새해",
+      "양력"
+    ],
+    "storytelling": {
+      "origin": "양력(태양력)을 기준으로 한 해가 시작되는 첫날. 대한민국에서는 '새로운 설'이라는 의미의 신정(新正)으로 부르며, 법정공휴일로 지정되어 있다.",
+      "anecdote": "과거 정부는 이중과세(二重過歲)를 막기 위해 음력설(구정) 대신 양력설(신정)을 적극 장려했다. 한때 신정에 3일 연속으로 쉬기도 했으나, 1989년 음력설이 3일 연휴의 '설날'로 공식 인정되면서 신정 연휴는 점차 축소되어 현재는 1월 1일 하루만 공휴일로 쉰다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "올해 계획: 작년에 세웠던 재작년 계획 실천하기."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/%EC%83%88%ED%95%B4_%EC%B2%AB%EB%82%A0"
+  },
+  {
+    "id": "anv-fixed-01-02-buffet-day-us",
+    "date": "01-02",
+    "dateType": "annual-fixed",
+    "name": "뷔페의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "음식",
+      "뷔페",
+      "식문화"
+    ],
+    "storytelling": {
+      "origin": "다양한 음식을 한 번에 즐길 수 있는 뷔페 문화를 기념하는 날. 뷔페(buffet)라는 단어는 17세기 프랑스 귀족들의 사이드보드 상차림에서 유래했다.",
+      "anecdote": "한국의 '뷔페'는 결혼식·연말 모임의 단골 메뉴로 자리잡았는데, 정작 원조 격인 스칸디나비아식 '스뫼르고스보르드'와는 또 다른 독자적 문화로 발전했다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "뷔페에 가면 본능적으로 시계방향으로 돈다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-buffet-day-january-2/"
+  },
+  {
+    "id": "anv-fixed-01-02-science-fiction-day-global",
+    "date": "01-02",
+    "dateType": "annual-fixed",
+    "name": "세계 SF의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "문학",
+      "공상과학"
+    ],
+    "storytelling": {
+      "origin": "전설적인 SF 작가 아이작 아시모프(Isaac Asimov)의 생일(1920년 1월 2일)을 기념하기 위해 제정된 비공식 기념일이다. 아시모프는 '로봇 3원칙'을 만든 인물로 유명하다.",
+      "anecdote": "이 날은 SF 팬들이 좋아하는 책을 다시 읽거나, 「스타워즈」·「스타트렉」·「블레이드 러너」 같은 고전 SF 영화를 정주행하는 날로 자리잡았다. 한국에서도 김초엽, 천선란 등 SF 작가들의 활약으로 SF 장르가 큰 인기를 끌고 있어 의미가 깊다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "오늘 하루는 일론 머스크보다 아시모프"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-science-fiction-day-january-2/"
+  },
+  {
+    "id": "anv-fixed-01-02-cream-puff-day-us",
+    "date": "01-02",
+    "dateType": "annual-fixed",
+    "name": "크림퍼프(슈크림)의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "디저트",
+      "제과",
+      "베이커리"
+    ],
+    "storytelling": {
+      "origin": "프랑스식 슈(choux) 페이스트리에 크림을 채운 디저트 크림퍼프를 기념하는 날.",
+      "anecdote": "한국 빵집에선 '슈크림빵'이라는 이름으로 익숙한데, 바삭한 페이스트리와 부드러운 크림의 식감 대비가 인기 비결이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "슈크림빵 한 입 베어물면 크림이 손등까지 타고 내린다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-cream-puff-day-january-2/"
+  },
+  {
+    "id": "anv-fixed-01-02-personal-trainer-awareness-day-us",
+    "date": "01-02",
+    "dateType": "annual-fixed",
+    "name": "퍼스널 트레이너의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "운동",
+      "피트니스",
+      "건강"
+    ],
+    "storytelling": {
+      "origin": "2009년 전미스포츠의학회(NASM)가 개인 맞춤형 운동 지도사들의 역할을 알리기 위해 제정한 날.",
+      "anecdote": "헬스장에 새해 결심 인파가 몰리는 1월 초, '운동 메이트'로서 퍼스널 트레이너의 가치를 되새기자는 취지로 1월 2일에 맞춰졌다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "1월 1일엔 결심, 1월 2일엔 PT 등록"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-personal-trainer-awareness-day-january-2/"
+  },
+  {
+    "id": "anv-fixed-01-03-drinking-straw-day-global",
+    "date": "01-03",
+    "dateType": "annual-fixed",
+    "name": "빨대의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "발명품",
+      "일상"
+    ],
+    "storytelling": {
+      "origin": "1888년 1월 3일, 미국의 마빈 스톤(Marvin C. Stone)이 종이 빨대 특허를 취득한 날을 기념해 제정되었다. 그는 호밀짚 빨대가 음료에 풀려나오는 것이 싫어서 종이를 둘둘 말아 파라핀으로 코팅한 빨대를 발명했다.",
+      "anecdote": "이후 플라스틱 빨대가 등장하며 전성기를 누렸지만, 바다거북 콧속에 박힌 빨대 영상이 화제가 된 뒤로 종이 빨대·실리콘 빨대·스테인리스 빨대 등 친환경 빨대가 각광받고 있다. 한국에서도 2022년부터 카페에서 플라스틱 빨대 사용이 단계적으로 제한되었다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "종이빨대로 버블티 마시기 = 1분 안에 흐물흐물 흐느적"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-drinking-straw-day-january-3/"
+  },
+  {
+    "id": "anv-fixed-01-03-chocolate-covered-cherry-day-us",
+    "date": "01-03",
+    "dateType": "annual-fixed",
+    "name": "초콜릿 커버드 체리의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "초콜릿",
+      "디저트",
+      "체리"
+    ],
+    "storytelling": {
+      "origin": "체리를 초콜릿으로 감싼 클래식 미국식 캔디를 기념하는 날. 19세기 후반부터 박스 초콜릿 세트의 인기 품목으로 자리잡았다.",
+      "anecdote": "안에 체리 시럽이 들어 있어 한입 베어물면 액체가 흘러나오는 독특한 식감이 특징이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "겉바속촉, 아니 겉초속체리"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-chocolate-covered-cherry-day-january-3/"
+  },
+  {
+    "id": "anv-fixed-01-03-fruitcake-toss-day-us",
+    "date": "01-03",
+    "dateType": "annual-fixed",
+    "name": "프루트케이크 던지기의 날",
+    "category": "quirky",
+    "tags": [
+      "미국",
+      "이색기념일",
+      "디저트",
+      "유머"
+    ],
+    "storytelling": {
+      "origin": "연말 선물로 받았지만 다 먹지 못하고 남는 프루트케이크를 눈밭에 던지며 한 해를 정리하자는 농담성 기념일. 콜로라도 매니투 스프링스에서 매년 실제 던지기 대회가 열린다.",
+      "anecdote": "딱딱하고 오래가는 프루트케이크의 특성을 살려 투석기로 멀리 던지는 종목까지 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "프루트케이크: 받기는 싫지만 버리기엔 아까운 그 마음"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-fruitcake-toss-day-january-3/"
+  },
+  {
+    "id": "anv-fixed-01-04-thank-god-its-monday-day-us",
+    "date": "01-04",
+    "dateType": "annual-fixed",
+    "name": "먼데이 감사의 날",
+    "category": "quirky",
+    "tags": [
+      "미국",
+      "직장",
+      "긍정",
+      "유머"
+    ],
+    "storytelling": {
+      "origin": "월요병에 맞서 새로운 한 주를 긍정적으로 시작하자는 취지로 만들어진 날. 'TGIM'이라는 표현으로도 불린다.",
+      "anecdote": "'불타는 금요일(TGIF)'을 비튼 이름으로, 일과 삶의 균형을 강조하는 직장 문화 캠페인에서 자주 인용된다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "TGIF는 알아도 TGIM은 처음 들어보지?"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-thank-god-its-monday-day-january-4/"
+  },
+  {
+    "id": "anv-fixed-01-04-spaghetti-day-global",
+    "date": "01-04",
+    "dateType": "annual-fixed",
+    "name": "스파게티의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "음식",
+      "이탈리아",
+      "파스타"
+    ],
+    "storytelling": {
+      "origin": "매년 1월 4일, 이탈리아의 대표 파스타인 스파게티를 기념하는 날. 'spaghetti'는 이탈리아어로 '작은 줄'을 뜻하는 'spago'에서 유래했다.",
+      "anecdote": "한국에서 스파게티는 '면 요리계의 외교관'으로 통한다. 까르보나라·알리오 올리오·봉골레·미트소스까지 호불호 없이 사랑받는 메뉴이기 때문. 다만 한국식 변형인 '로제 스파게티'와 '명란 스파게티'는 이탈리아 본토 셰프들이 보면 깜짝 놀랄 한국만의 창작품이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "이탈리아인이 보면 기절할 한국식 스파게티 TOP 3: 케첩파스타, 떡볶이 로제, 부대찌개 파스타"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-spaghetti-day-january-4/"
+  },
+  {
+    "id": "anv-fixed-01-04-trivia-day-us",
+    "date": "01-04",
+    "dateType": "annual-fixed",
+    "name": "트리비아(상식퀴즈)의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "퀴즈",
+      "상식",
+      "게임"
+    ],
+    "storytelling": {
+      "origin": "쓸데없지만 흥미로운 잡학 지식, 즉 '트리비아'를 즐기고 나누자는 취지로 만들어진 날.",
+      "anecdote": "한국에서도 퀴즈 예능과 퀴즈 카페가 인기인데, 친구들과 시시콜콜한 상식을 주고받기 딱 좋은 날이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "정작 시험 공부는 안 외워지는데 트리비아는 술술 외워진다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-trivia-day-january-4/"
+  },
+  {
+    "id": "anv-fixed-01-05-bird-day-global",
+    "date": "01-05",
+    "dateType": "annual-fixed",
+    "name": "조류의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "환경",
+      "동물",
+      "자연보호"
+    ],
+    "storytelling": {
+      "origin": "1894년 미국 펜실베이니아주 오일시티의 교육감 찰스 알만조 밥콕(Charles Almanzo Babcock)이 처음 제안한 날로, 새의 소중함을 알리고 멸종위기 조류를 보호하자는 취지로 만들어졌다.",
+      "anecdote": "한국에서도 까치·참새·비둘기 같은 친숙한 새부터 두루미·따오기 같은 천연기념물까지 다양한 조류가 서식한다. 특히 충남 서산 천수만, 강원 철원 평야는 겨울철 가창오리·재두루미 군무로 유명한 탐조(birdwatching) 명소다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "비둘기야 미안한데 너는 오늘도 그냥 비둘기야"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-bird-day-january-5/"
+  },
+  {
+    "id": "anv-fixed-01-05-whipped-cream-day-us",
+    "date": "01-05",
+    "dateType": "annual-fixed",
+    "name": "휘핑크림의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "디저트",
+      "베이킹",
+      "카페"
+    ],
+    "storytelling": {
+      "origin": "케이크·커피·디저트 위를 장식하는 휘핑크림을 기념하는 날. 17세기 유럽 궁정 요리에서 처음 등장했다.",
+      "anecdote": "카페에서 음료에 휘핑크림을 추가하는 옵션이 한국에서도 보편화됐다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "휘핑크림 가득 vs 휘핑크림 빼주세요, 인류의 영원한 대립"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-whipped-cream-day-january-5/"
+  },
+  {
+    "id": "anv-fixed-01-06-shortbread-day-global",
+    "date": "01-06",
+    "dateType": "annual-fixed",
+    "name": "쇼트브레드의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "스코틀랜드"
+    ],
+    "storytelling": {
+      "origin": "버터·설탕·밀가루로만 만든 스코틀랜드 전통 쿠키 '쇼트브레드'를 기념하는 날. 12세기경부터 만들어졌으며, 스코틀랜드 메리 여왕(Mary Queen of Scots)이 16세기에 캐러웨이 씨를 넣은 형태로 발전시킨 것으로 알려져 있다.",
+      "anecdote": "한국에서는 '워커스(Walkers) 쇼트브레드'가 빨간 격자무늬 패키지로 유명하다. 버터 향이 진하고 입에서 바스러지는 식감이 특징이라 홍차·커피와 환상의 궁합을 자랑한다. 영국 왕실의 크리스마스 간식으로도 사랑받는 쿠키다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "다이어트 중 쇼트브레드 한 조각 = 버터 1/4컵 흡입"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-shortbread-day-january-6/"
+  },
+  {
+    "id": "anv-fixed-01-06-bean-day-us",
+    "date": "01-06",
+    "dateType": "annual-fixed",
+    "name": "콩의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "음식",
+      "콩",
+      "건강식"
+    ],
+    "storytelling": {
+      "origin": "단백질과 식이섬유가 풍부한 콩류 작물을 기념하는 날.",
+      "anecdote": "한국은 콩으로 만든 두부·된장·콩나물 등 콩 활용 문화가 특히 발달한 나라 중 하나다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "콩이 싫다던 어린 시절의 나, 지금은 콩국수 없인 못 사는 여름"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-bean-day-january-6/"
+  },
+  {
+    "id": "anv-fixed-01-07-bobblehead-day-us",
+    "date": "01-07",
+    "dateType": "annual-fixed",
+    "name": "보블헤드의 날",
+    "category": "anniversary",
+    "tags": [
+      "미국",
+      "팝컬처",
+      "피규어",
+      "수집"
+    ],
+    "storytelling": {
+      "origin": "고개를 까딱이는 인형 '보블헤드'를 기념하는 날. 스포츠 구단들이 마케팅용 기념품으로 보블헤드를 배포하면서 대중화됐다.",
+      "anecdote": "한국에서도 캐릭터 굿즈로 보블헤드형 피규어가 꾸준히 출시되며 수집 문화를 형성하고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "차 안 대시보드 위에서 영원히 끄덕이는 그 인형"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-bobblehead-day-january-7/"
+  },
+  {
+    "id": "anv-fixed-01-07-tempura-day-global",
+    "date": "01-07",
+    "dateType": "annual-fixed",
+    "name": "튀김(텐푸라)의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "음식",
+      "일본",
+      "튀김요리"
+    ],
+    "storytelling": {
+      "origin": "일본을 대표하는 튀김 요리 '텐푸라(天ぷら)'를 기념하는 날. 의외로 텐푸라는 일본 고유 음식이 아니라 16세기 포르투갈 선교사들이 사순절(Lent) 기간 생선·채소를 튀겨 먹던 'Tempora' 문화에서 유래했다.",
+      "anecdote": "한국인이 일본 여행에서 꼭 먹는 메뉴 중 하나가 바로 텐푸라 정식이다. 새우·고구마·꽈리고추·연근 등을 얇은 반죽으로 튀겨 텐쯔유 소스에 찍어 먹는 것이 정석. 한국식 튀김(시장 튀김)과는 반죽 두께와 기름 사용법이 달라 식감 차이가 크다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "튀김은 '죄'가 아니다, '의식'이다 - 텐푸라 장인 (가상)"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-tempura-day-january-7/"
+  },
+  {
+    "id": "anv-fixed-01-08-bubble-bath-day-global",
+    "date": "01-08",
+    "dateType": "annual-fixed",
+    "name": "거품 목욕의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "휴식",
+      "라이프스타일"
+    ],
+    "storytelling": {
+      "origin": "추운 1월, 따뜻한 욕조에 몸을 담그고 거품 목욕을 즐기며 휴식을 취하자는 취지로 만들어진 비공식 기념일이다.",
+      "anecdote": "한국에서는 욕조 문화가 보편적이지 않아 '러쉬(LUSH)' 같은 브랜드의 배쓰밤(Bath Bomb)을 사두고도 못 쓰는 경우가 많다. 이 날은 호텔 욕조나 집 욕조에 배쓰밤을 풍덩 던져 넣고, 향초·와인·책을 곁들이는 '셀프 케어 데이'로 활용하기 좋다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "배쓰밤 = 욕조에 던지는 순간 5초만에 사라지는 1만원짜리 화약"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-bubble-bath-day-january-8/"
+  },
+  {
+    "id": "anv-fixed-01-08-joygerm-day-us",
+    "date": "01-08",
+    "dateType": "annual-fixed",
+    "name": "기쁨 퍼뜨리는 날 (JoyGerm Day)",
+    "category": "quirky",
+    "tags": [
+      "미국",
+      "긍정",
+      "유머",
+      "캠페인"
+    ],
+    "storytelling": {
+      "origin": "1973년 미국의 글로리아 페리가 만든 캐릭터 '조이저름(JoyGerm)'에서 따온 날로, 감기처럼 기쁨도 전염된다는 의미를 담아 주변에 긍정을 퍼뜨리자는 취지다.",
+      "anecdote": "'germ(병균)'이라는 단어를 거꾸로 활용해 '좋은 것도 옮길 수 있다'는 재치 있는 발상이 특징이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "오늘의 목표: 옆 사람에게 기쁨 바이러스 전파하기"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-joygerm-day-january-8/"
+  },
+  {
+    "id": "anv-fixed-01-08-argyle-day-us",
+    "date": "01-08",
+    "dateType": "annual-fixed",
+    "name": "아가일 패턴의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "패션",
+      "패턴",
+      "스타일"
+    ],
+    "storytelling": {
+      "origin": "다이아몬드 격자무늬 '아가일'을 기념하는 날. 스코틀랜드 아가일 지방의 전통 격자무늬에서 유래했다.",
+      "anecdote": "골프 의류나 카디건에서 흔히 볼 수 있는 패턴으로, 클래식하면서도 레트로한 멋을 낸다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "할아버지 옷장에서 발견한 그 패턴이 다시 유행이라니"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-argyle-day-january-8/"
+  },
+  {
+    "id": "anv-fixed-01-08-english-toffee-day-us",
+    "date": "01-08",
+    "dateType": "annual-fixed",
+    "name": "잉글리시 토피의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "디저트",
+      "캔디",
+      "초콜릿"
+    ],
+    "storytelling": {
+      "origin": "버터와 설탕을 졸여 만든 캔디 '토피'를 기념하는 날.",
+      "anecdote": "초콜릿을 입히고 견과류를 뿌린 형태가 가장 대중적이며, 진득하게 씹는 맛이 특징이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "이가 약한 사람은 인생에서 한 번쯔 토피한테 발목 잡힌다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-english-toffee-day-january-8/"
+  },
+  {
+    "id": "anv-fixed-01-09-vision-board-day-us",
+    "date": "01-09",
+    "dateType": "annual-fixed",
+    "name": "비전보드의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "새해",
+      "목표",
+      "자기계발"
+    ],
+    "storytelling": {
+      "origin": "사진과 문구로 자신의 목표·꿈을 시각화하는 '비전보드'를 만들자는 취지의 날. 새해 목표를 세우는 1월에 자리잡았다.",
+      "anecdote": "다이어리 꾸미기 문화가 발달한 한국에서도 비전보드는 새해 다이어리의 인기 콘텐츠다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "비전보드는 만들었는데 비전은 어디로 갔을까"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-vision-board-day-january-9/"
+  },
+  {
+    "id": "anv-fixed-01-09-apricot-day-global",
+    "date": "01-09",
+    "dateType": "annual-fixed",
+    "name": "살구의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "음식",
+      "과일",
+      "건강"
+    ],
+    "storytelling": {
+      "origin": "비타민 A와 식이섬유가 풍부한 과일 살구(Apricot)를 기념하는 날. 살구는 약 4천 년 전 중국 북부에서 처음 재배되었고, 실크로드를 통해 페르시아·유럽으로 전파되었다.",
+      "anecdote": "1월은 살구 제철이 아니지만 말린 살구(드라이 애프리콧)·살구 잼·살구씨 오일은 연중 즐길 수 있다. 한국에서 살구는 '개살구'라는 표현 때문에 다소 저평가받지만, 동의보감에서는 기침·천식에 좋은 약재로 기록되어 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "빛 좋은 개살구라더니, 진짜 살구는 의외로 맛있다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-apricot-day-january-9/"
+  },
+  {
+    "id": "anv-fixed-01-09-static-electricity-day-us",
+    "date": "01-09",
+    "dateType": "annual-fixed",
+    "name": "정전기의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "겨울",
+      "과학",
+      "일상"
+    ],
+    "storytelling": {
+      "origin": "건조한 겨울철 옷이나 머리카락에서 자주 발생하는 정전기 현상을 기념하는 날.",
+      "anecdote": "한국의 건조한 겨울도 정전기로 악명이 높은데, 문고리만 잡아도 찌릿한 경험은 누구나 한 번쯤 있을 것이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "문고리 잡기 전 0.1초의 망설임, 그게 바로 겨울"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-static-electricity-day-january-9/"
+  },
+  {
+    "id": "anv-fixed-01-10-save-the-eagles-day-global",
+    "date": "01-10",
+    "dateType": "annual-fixed",
+    "name": "독수리 보호의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "환경",
+      "동물보호",
+      "멸종위기종"
+    ],
+    "storytelling": {
+      "origin": "2015년 미국 독수리재단(American Eagle Foundation)이 제정한 날로, 미국의 국조인 흰머리수리(Bald Eagle)와 전 세계 독수리류의 보호를 알리기 위해 만들어졌다.",
+      "anecdote": "한때 살충제 DDT로 인해 미국 흰머리수리는 멸종위기 직전까지 갔으나, 1972년 DDT 사용 금지 이후 개체 수가 회복되어 2007년 멸종위기종에서 해제되었다. 한국에서는 천연기념물 제243호로 지정된 독수리·검독수리·참수리·흰꼬리수리가 겨울 철새로 찾아온다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "독수리: 멸종위기 → 자연보호 → 다시 하늘의 왕"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-save-the-eagles-day-january-10/"
+  },
+  {
+    "id": "anv-fixed-01-10-bittersweet-chocolate-day-us",
+    "date": "01-10",
+    "dateType": "annual-fixed",
+    "name": "비터스윗 초콜릿의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "초콜릿",
+      "디저트",
+      "카카오"
+    ],
+    "storytelling": {
+      "origin": "카카오 함량이 높아 쌉쌀하면서도 단맛이 도는 비터스윗 초콜릿을 기념하는 날.",
+      "anecdote": "달콤함보다 카카오 본연의 풍미를 즐기는 다크초콜릿 애호가들 사이에서 특히 인기가 높다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "인생도 초콜릿처럼 비터스윗"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-bittersweet-chocolate-day-january-10/"
+  },
+  {
+    "id": "anv-fixed-01-10-cut-your-energy-costs-day-us",
+    "date": "01-10",
+    "dateType": "annual-fixed",
+    "name": "에너지 비용 절약의 날",
+    "category": "international",
+    "tags": [
+      "미국",
+      "환경",
+      "에너지절약",
+      "겨울"
+    ],
+    "storytelling": {
+      "origin": "한겨울 난방비가 급증하는 시기, 가정에서 에너지를 절약하는 습관을 점검하자는 취지로 만들어진 날.",
+      "anecdote": "보일러 온도를 1도만 낮춰도 난방비를 크게 줄일 수 있다는 통계도 같은 맥락의 캠페인이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "내복 입고 보일러 온도 1도 낮추기, 그게 진짜 절약"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-cut-your-energy-costs-day-january-10/"
+  },
+  {
+    "id": "anv-fixed-01-11-step-in-a-puddle-day-us",
+    "date": "01-11",
+    "dateType": "annual-fixed",
+    "name": "물웅덩이 밟고 친구에게 물 튀기기의 날",
+    "category": "quirky",
+    "tags": [
+      "미국",
+      "이색기념일",
+      "겨울",
+      "유머"
+    ],
+    "storytelling": {
+      "origin": "비나 눈이 녹아 생긴 물웅덩이를 일부러 밟아 친구에게 장난스럽게 물을 튀기며 동심을 즐기자는 취지의 농담성 기념일.",
+      "anecdote": "어릴 적 장화 신고 물웅덩이마다 골라 밟던 추억을 떠올리게 하는 날이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "오늘만큼은 물웅덩이 피하지 말고 정조준"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-step-in-a-puddle-and-splash-your-friends-day-january-11/"
+  },
+  {
+    "id": "anv-fixed-01-11-milk-day-global",
+    "date": "01-11",
+    "dateType": "annual-fixed",
+    "name": "우유의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "음식",
+      "음료",
+      "건강"
+    ],
+    "storytelling": {
+      "origin": "1878년 1월 11일, 미국에서 처음으로 우유가 유리병에 담겨 배달된 날을 기념해 만들어졌다. 그 이전까지 우유는 큰 통에서 떠 가는 방식이라 위생 문제가 심각했다.",
+      "anecdote": "한국에서 우유는 '국민 음료'다. 흰 우유, 초코 우유, 딸기 우유 삼대장을 비롯해 바나나 우유(빙그레)는 한국 여행 필수 아이템으로 외국인에게도 인기다. 1974년 출시된 빙그레 바나나우유의 단지 모양 용기는 50년 넘게 사랑받고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한국 목욕탕에 가서 바나나우유 안 마시면 비매너"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-milk-day-january-11/"
+  },
+  {
+    "id": "anv-fixed-01-11-human-trafficking-awareness-day-us",
+    "date": "01-11",
+    "dateType": "annual-fixed",
+    "name": "인신매매 인식의 날",
+    "category": "commemorative",
+    "tags": [
+      "미국",
+      "인권",
+      "사회",
+      "캠페인"
+    ],
+    "storytelling": {
+      "origin": "2010년 미국 의회가 1월을 '인신매매 인식의 달'로 지정하면서 그 시작일인 1월 11일을 기념일로 함께 정했다. 전 세계적으로 발생하는 인신매매·강제노동 피해를 알리고 근절을 촉구하는 날이다.",
+      "anecdote": "UN은 매년 7월 30일을 '세계 인신매매 반대의 날'로 별도 지정해, 두 날 모두 인권 보호를 위한 국제적 공조의 일환으로 다뤄진다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "작은 관심이 누군가에겐 구조의 시작이 될 수 있다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-human-trafficking-awareness-day-january-11/"
+  },
+  {
+    "id": "anv-fixed-01-11-clean-off-your-desk-day-us",
+    "date": "01-11",
+    "dateType": "annual-fixed",
+    "name": "책상 정리의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "직장",
+      "생활",
+      "정리정돈"
+    ],
+    "storytelling": {
+      "origin": "새해 첫 업무 주간, 어수선해진 책상을 정리하고 한 해를 깔끔하게 시작하자는 취지로 만들어진 날.",
+      "anecdote": "정리된 책상이 업무 집중도와 심리적 안정감을 높인다는 연구 결과도 있어, 직장인들 사이 '책상 디톡스'로도 불린다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "책상 정리 끝나면 그게 바로 오늘 할 일 끝"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-clean-off-your-desk-day-january-11/"
+  },
+  {
+    "id": "anv-fixed-01-12-marzipan-day-us",
+    "date": "01-12",
+    "dateType": "annual-fixed",
+    "name": "마지팬의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "디저트",
+      "아몬드",
+      "제과"
+    ],
+    "storytelling": {
+      "origin": "아몬드 가루와 설탕을 반죽해 만든 마지팬을 기념하는 날. 중세 유럽에서 귀한 디저트로 시작됐다.",
+      "anecdote": "다양한 모양으로 빚어 장식용 디저트로도 활용되며, 크리스마스·결혼식 케이크 장식에 자주 쓰인다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "마지팬 과일 모형, 먹기 전엔 다들 한 번씩 속는다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-marzipan-day-january-12/"
+  },
+  {
+    "id": "anv-fixed-01-12-pharmacist-day-global",
+    "date": "01-12",
+    "dateType": "annual-fixed",
+    "name": "약사의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "직업",
+      "의료",
+      "감사"
+    ],
+    "storytelling": {
+      "origin": "약사들의 노고를 기리는 날. 미국에서는 약사이자 코카콜라의 원형 시럽을 만든 존 펨버튼(John Pemberton)과의 연결고리로 1월 12일을 약사의 날로 기념한다.",
+      "anecdote": "한국에서는 별도로 11월 18일을 '약사의 날'(대한약사회 지정)로 기념한다. 하지만 1월 12일을 기점으로 동네 단골 약국 약사님께 감사 인사를 전해보는 것도 좋다. 약사는 단순히 약만 파는 것이 아니라 복약 지도, 약물 상호작용 체크 등 1차 의료의 핵심 역할을 한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "병원 안 가도 되는 증상의 90%는 약사님 덕분"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-pharmacist-day-january-12/"
+  },
+  {
+    "id": "anv-fixed-01-12-curried-chicken-day-us",
+    "date": "01-12",
+    "dateType": "annual-fixed",
+    "name": "커리치킨의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "음식",
+      "커리",
+      "치킨"
+    ],
+    "storytelling": {
+      "origin": "향신료 가득한 커리 소스로 조리한 치킨 요리를 기념하는 날.",
+      "anecdote": "영국의 국민 음식으로도 불리는 커리치킨처럼, 한국에서도 카레는 인도보다 더 친숙한 가정식으로 자리잡았다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "엄마가 끓인 카레 냄새는 귀가 본능을 자극한다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-curried-chicken-day-january-12/"
+  },
+  {
+    "id": "anv-fixed-01-13-rubber-ducky-day-global",
+    "date": "01-13",
+    "dateType": "annual-fixed",
+    "name": "러버덕(고무 오리)의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "캐릭터",
+      "추억"
+    ],
+    "storytelling": {
+      "origin": "1970년대 미국 어린이 프로그램 「세서미 스트리트(Sesame Street)」의 캐릭터 어니(Ernie)가 1973년 1월 13일 자신의 고무 오리 인형 'Rubber Duckie'에게 보내는 노래를 처음 부른 날에서 유래했다.",
+      "anecdote": "한국에서 러버덕은 2014년 네덜란드 작가 플로렌타인 호프만(Florentijn Hofman)의 거대 노란 오리 작품이 서울 석촌호수에 떠 있던 모습으로 큰 화제가 되었다. 이후 2022년 다시 한 번 석촌호수에 등장해 '귀여움 한 방으로 도시를 평정'했다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "석촌호수 러버덕: 등장만으로 SNS 점령"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-rubber-ducky-day-january-13/"
+  },
+  {
+    "id": "anv-fixed-01-13-peach-melba-day-us",
+    "date": "01-13",
+    "dateType": "annual-fixed",
+    "name": "피치 멜바의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "디저트",
+      "복숭아",
+      "아이스크림"
+    ],
+    "storytelling": {
+      "origin": "복숭아와 바닐라 아이스크림, 라즈베리 소스를 곁들인 디저트 '피치 멜바'를 기념하는 날. 19세기 프랑스 요리사 에스코피에가 오페라 가수 넬리 멜바를 위해 만들었다.",
+      "anecdote": "유명인의 이름을 딴 디저트 중 가장 오래되고 성공적인 사례로 꼽힌다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "디저트에 내 이름이 붙는다면 인생 성공한 거 아닐까"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-peach-melba-day-january-13/"
+  },
+  {
+    "id": "anv-fixed-01-14-diary-day-kr",
+    "date": "01-14",
+    "dateType": "annual-fixed",
+    "name": "다이어리 데이",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "다이어리",
+      "새해계획",
+      "헬로데이",
+      "포틴데이"
+    ],
+    "storytelling": {
+      "origin": "새해를 맞아 1월에 알찬 한 해를 시작하라는 뜻으로 생겨난 기념일. 소중한 사람에게 다이어리를 선물하거나, 새로 받은 다이어리에 1년의 계획을 적어놓는 날이다.",
+      "anecdote": "연인들 사이에서는 자신의 1년 치 데이트 계획을 미리 적어 교환하는 문화가 있다. 한편, 중고등학생들 사이에서는 좋아하는 사람에게 이날 가장 먼저 인사를 하면 사랑이 이루어진다는 '헬로데이(Hello day)'로 불리기도 한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "올해도 다이어리는 1월까지만 빼곡할 예정."
+      }
+    ],
+    "sourceUrl": "https://www.joongang.co.kr/article/16933312"
+  },
+  {
+    "id": "anv-fixed-01-14-dress-up-your-pet-day-global",
+    "date": "01-14",
+    "dateType": "annual-fixed",
+    "name": "반려동물 꾸미기의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "반려동물",
+      "패션"
+    ],
+    "storytelling": {
+      "origin": "2009년 펫 라이프스타일 전문가 콜린 페이지(Colleen Paige)가 제정한 날로, 반려동물에게 옷을 입히고 사진을 찍으며 함께하는 즐거움을 나누자는 취지로 만들어졌다.",
+      "anecdote": "한국은 반려동물 패션 시장이 폭발적으로 성장하고 있는 나라 중 하나다. 강아지 한복, 고양이 망토, 강아지 산타 옷 등 시즌 아이템이 매년 새롭게 출시된다. 단, 동물에게 스트레스가 되지 않는 통기성 좋은 옷을 짧은 시간만 입히는 것이 좋다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "강아지 옷 사는 비용 > 내 옷 사는 비용 (실화)"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-dress-up-your-pet-day-january-14/"
+  },
+  {
+    "id": "anv-fixed-01-14-hot-pastrami-sandwich-day-us",
+    "date": "01-14",
+    "dateType": "annual-fixed",
+    "name": "핫 파스트라미 샌드위치의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "음식",
+      "샌드위치",
+      "델리"
+    ],
+    "storytelling": {
+      "origin": "훈제 양념한 소고기 파스트라미를 두툼하게 채운 샌드위치를 기념하는 날. 뉴욕 델리 문화를 대표하는 메뉴다.",
+      "anecdote": "동유럽 유대인 이민자들이 미국에 전파한 음식으로, 지금은 뉴욕을 상징하는 길거리·델리 음식이 됐다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "샌드위치 하나에 고기가 한가득, 그게 바로 뉴욕 스타일"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-hot-pastrami-sandwich-day-january-14/"
+  },
+  {
+    "id": "anv-fixed-01-15-hat-day-global",
+    "date": "01-15",
+    "dateType": "annual-fixed",
+    "name": "모자의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "패션",
+      "스타일"
+    ],
+    "storytelling": {
+      "origin": "추운 한겨울에 모자를 쓰고 외출하며, 다양한 모자 스타일과 그 역사를 기념하자는 취지로 만들어진 비공식 기념일이다.",
+      "anecdote": "조선시대 한국은 '모자의 나라'로 불렸을 정도로 다양한 갓·관·갓끈 문화가 발달했다. 외국인 화가들이 그린 19세기 한양 풍경에는 다양한 갓을 쓴 사람들이 가득하다. 현대에는 비니·캡·페도라·버킷햇이 사계절 패션 필수템으로 자리잡았다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "머리 안 감은 날의 구원자: 모자"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-hat-day-january-15/"
+  },
+  {
+    "id": "anv-fixed-01-15-strawberry-ice-cream-day-us",
+    "date": "01-15",
+    "dateType": "annual-fixed",
+    "name": "스트로베리 아이스크림의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "디저트",
+      "아이스크림",
+      "딸기"
+    ],
+    "storytelling": {
+      "origin": "딸기 맛 아이스크림을 기념하는 날. 바닐라·초콜릿과 함께 클래식 아이스크림 3대장으로 꼽힌다.",
+      "anecdote": "한국에서도 딸기 아이스크림은 어린이부터 어른까지 두루 사랑받는 인기 맛으로 꾸준히 상위권을 지킨다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "딸기 아이스크림엔 딸기가 별로 없다는 슬픈 진실"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-strawberry-ice-cream-day-january-15/"
+  },
+  {
+    "id": "anv-fixed-01-16-hot-spicy-food-day-global",
+    "date": "01-16",
+    "dateType": "annual-fixed",
+    "name": "국제 뜨겁고 매운 음식의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "매운맛",
+      "음식"
+    ],
+    "storytelling": {
+      "origin": "매년 1월 16일, 전 세계의 맵고 뜨거운 요리를 기념하고 매운 음식을 사랑하는 사람들을 위해 만들어진 비공식 기념일이다.",
+      "anecdote": "캡사이신이 들어간 매운 음식을 먹으면 엔돌핀이 분비되어 스트레스 해소에 도움을 준다고 알려져 있다. 이 날 매운맛 마니아들은 스코빌 지수(SHU)가 높은 극한의 고추에 도전하거나 불닭볶음면, 마라탕, 똠얌꿍 등 각국의 매운 요리를 먹으며 '맵부심'을 뽐낸다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "맵찔이 출입 금지, 오늘만큼은 위장 파괴 맵부심 폭발!"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/celebrations/international-hot-and-spicy-food-day-january-16"
+  },
+  {
+    "id": "anv-fixed-01-16-nothing-day-global",
+    "date": "01-16",
+    "dateType": "annual-fixed",
+    "name": "아무것도 안 하는 날 (Nothing Day)",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "휴식",
+      "유머"
+    ],
+    "storytelling": {
+      "origin": "1973년 미국 신문 칼럼니스트 해럴드 풀먼 코핀(Harold Pullman Coffin)이 'National Nothing Foundation'을 설립하며 만든 날. '아무것도 기념하지 않을 권리'를 위한 기념일이라는 역설적인 컨셉이다.",
+      "anecdote": "기념일이 너무 많은 시대에 등장한 'Anti-기념일'. 이 날은 약속도, 일도, 계획도 잡지 않고 정말 아무것도 하지 않는 것이 핵심이다. 누워서 천장 보기, 멍 때리기, 폰도 안 보기 등 '본격적인 무위(無爲)의 미학'을 즐겨보자. 한국에서는 매년 5월 멍때리기 대회가 열리니 연습 삼아 보내기에도 좋다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "오늘 일정: 아무것도 안 함 (이것이 일정임)"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-nothing-day-january-16/"
+  },
+  {
+    "id": "anv-fixed-01-16-religious-freedom-day-us",
+    "date": "01-16",
+    "dateType": "annual-fixed",
+    "name": "종교 자유의 날",
+    "category": "commemorative",
+    "tags": [
+      "미국",
+      "인권",
+      "종교",
+      "역사"
+    ],
+    "storytelling": {
+      "origin": "1786년 1월 16일 미국 버지니아주에서 토머스 제퍼슨이 입안한 '버지니아 종교자유법'이 통과된 것을 기념하는 날. 신앙의 자유를 법으로 보장한 세계 최초의 사례 중 하나로 평가받는다.",
+      "anecdote": "이 법은 이후 미국 헌법 수정 제1조의 종교 자유 조항에 영향을 준 것으로 알려져 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "신념은 각자의 것, 존중은 모두의 것"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-religious-freedom-day-january-16/"
+  },
+  {
+    "id": "anv-fixed-01-16-fig-newton-day-us",
+    "date": "01-16",
+    "dateType": "annual-fixed",
+    "name": "피그 뉴턴의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "디저트",
+      "과자",
+      "베이커리"
+    ],
+    "storytelling": {
+      "origin": "무화과 잼을 부드러운 쿠키 반죽으로 감싼 과자 '피그 뉴턴'을 기념하는 날. 1891년 매사추세츠 뉴턴시에서 이름을 따왔다.",
+      "anecdote": "과자인지 케이크인지 모호한 정체성 때문에 미국에서 종종 논쟁의 소재가 되기도 한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "쿠키야 케이크야 논쟁, 130년째 진행 중"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-fig-newton-day-january-16/"
+  },
+  {
+    "id": "anv-fixed-01-17-bootleggers-day-us",
+    "date": "01-17",
+    "dateType": "annual-fixed",
+    "name": "밀주업자의 날",
+    "category": "commemorative",
+    "tags": [
+      "미국",
+      "역사",
+      "금주법",
+      "문화"
+    ],
+    "storytelling": {
+      "origin": "1920~1933년 미국 금주법 시대에 불법으로 술을 제조·유통했던 '밀주업자(bootlegger)'들의 시대를 기념하는 날.",
+      "anecdote": "역설적으로 금주법은 밀주 산업과 함께 칵테일 문화·재즈 클럽 같은 언더그라운드 문화를 폭발적으로 키운 시기로도 평가받는다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "금지하면 더 흥미로워지는 인간의 본성"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-bootleggers-day-january-17/"
+  },
+  {
+    "id": "anv-fixed-01-17-hot-buttered-rum-day-global",
+    "date": "01-17",
+    "dateType": "annual-fixed",
+    "name": "핫 버터드 럼의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "음료",
+      "칵테일",
+      "겨울"
+    ],
+    "storytelling": {
+      "origin": "추운 겨울철 몸을 데우는 따뜻한 칵테일 '핫 버터드 럼(Hot Buttered Rum)'을 기념하는 날. 럼, 버터, 흑설탕, 시나몬, 정향 등을 뜨거운 물에 섞어 만드는 미국 식민지 시대의 전통 음료다.",
+      "anecdote": "1700년대 미국 동부 식민지에서는 럼 무역이 활발해 일반 가정에서도 흔히 마시던 음료였다. 한국에서는 다소 생소하지만 '겨울철 글뤼바인의 럼 버전'이라고 생각하면 이해가 쉽다. 차가운 1월 밤, 모직 담요와 함께 즐기는 '겨울 어른 음료'."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "추운 날에 럼+버터+설탕 = 마법의 핫팩 음료"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-hot-buttered-rum-day-january-17/"
+  },
+  {
+    "id": "anv-fixed-01-18-winnie-the-pooh-day-global",
+    "date": "01-18",
+    "dateType": "annual-fixed",
+    "name": "곰돌이 푸의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "캐릭터",
+      "문학",
+      "어린이"
+    ],
+    "storytelling": {
+      "origin": "「곰돌이 푸(Winnie-the-Pooh)」를 만든 영국 작가 A.A. 밀른(A.A. Milne)의 생일(1882년 1월 18일)을 기념하는 날이다. 푸는 1926년 동화책으로 처음 세상에 나왔다.",
+      "anecdote": "한국에서 곰돌이 푸는 '꿀에 진심인 곰' 캐릭터로 전 연령층의 사랑을 받는다. 2018년 영화 「곰돌이 푸 다시 만나 행복해」가 개봉했을 때 '어른들을 위한 힐링 영화'로 큰 호응을 얻었다. \"오늘은 가장 좋아하는 날이야\" 같은 푸의 명대사는 SNS의 단골 인용구."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "푸: 인생의 본질은 꿀단지 하나로 충분해"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-winnie-the-pooh-day-january-18/"
+  },
+  {
+    "id": "anv-fixed-01-18-peking-duck-day-global",
+    "date": "01-18",
+    "dateType": "annual-fixed",
+    "name": "베이징덕의 날",
+    "category": "general",
+    "tags": [
+      "중국",
+      "음식",
+      "중식",
+      "오리고기"
+    ],
+    "storytelling": {
+      "origin": "바삭한 껍질과 부드러운 살로 유명한 중국 대표 요리 '베이징덕(북경오리)'을 기념하는 날. 명나라 황실 요리에서 시작된 것으로 알려져 있다.",
+      "anecdote": "얇은 전병에 오리고기·파·소스를 싸 먹는 방식이 한국에서도 중식당의 인기 코스 메뉴로 자리잡았다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "전병 한 장에 오리, 파, 욕심까지 다 싸 먹는 맛"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-peking-duck-day-january-18/"
+  },
+  {
+    "id": "anv-fixed-01-19-popcorn-day-global",
+    "date": "01-19",
+    "dateType": "annual-fixed",
+    "name": "팝콘의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "음식",
+      "간식",
+      "영화"
+    ],
+    "storytelling": {
+      "origin": "옥수수가 펑펑 터지는 매력의 간식 팝콘(Popcorn)을 기념하는 날. 팝콘은 약 5천 년 전 중남미 원주민들이 처음 먹기 시작했고, 1885년 시카고에서 찰스 크레터스(Charles Cretors)가 증기식 팝콘 기계를 발명하며 대중화되었다.",
+      "anecdote": "한국에서 팝콘은 '영화관 세트'의 핵심. 짭짤한 카라멜·치즈·갈릭·어니언 등 영화관마다 다른 시그니처 맛 경쟁이 치열하다. 특히 CGV의 '갈릭 어니언'과 메가박스의 '치즈팝콘'은 마니아층이 두텁다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "영화관 팝콘 한 통 = 영화관 표 한 장 가격 (대체 왜?)"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-popcorn-day-january-19/"
+  },
+  {
+    "id": "anv-fixed-01-20-disc-jockey-day-global",
+    "date": "01-20",
+    "dateType": "annual-fixed",
+    "name": "디스크자키(DJ)의 날",
+    "category": "anniversary",
+    "tags": [
+      "미국",
+      "음악",
+      "DJ",
+      "클럽문화"
+    ],
+    "storytelling": {
+      "origin": "라디오·클럽에서 음악을 선곡하고 트는 '디스크자키'를 기념하는 날.",
+      "anecdote": "한국에서도 클럽·페스티벌 EDM 문화와 함께 DJ는 단순 선곡가를 넘어 하나의 아티스트로 인정받는 직업이 됐다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "좋은 DJ는 다음 곡을 예측 못하게 만든다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-disc-jockey-day-january-20/"
+  },
+  {
+    "id": "anv-fixed-01-20-buttercrunch-day-us",
+    "date": "01-20",
+    "dateType": "annual-fixed",
+    "name": "버터크런치의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "디저트",
+      "캔디",
+      "견과류"
+    ],
+    "storytelling": {
+      "origin": "버터를 넣어 바삭하게 만든 캔디 '버터크런치'를 기념하는 날. 견과류를 더해 고소한 풍미를 더한 것이 특징이다.",
+      "anecdote": "딱딱하면서도 바스락 부서지는 식감이 매력으로, 초콜릿을 코팅한 버전이 특히 인기다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한 조각 깨물면 와장창 부서지는 소리부터가 맛있다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-buttercrunch-day-january-20/"
+  },
+  {
+    "id": "anv-fixed-01-20-cheese-lovers-day-global",
+    "date": "01-20",
+    "dateType": "annual-fixed",
+    "name": "치즈 러버의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "음식",
+      "유제품",
+      "치즈"
+    ],
+    "storytelling": {
+      "origin": "전 세계 1,800종이 넘는 다양한 치즈를 사랑하는 '치즈 러버'를 위한 날. 인류는 약 8천 년 전부터 치즈를 만들어 먹기 시작했다.",
+      "anecdote": "한국에서 치즈 사랑은 점점 깊어지고 있다. 치즈 등갈비, 치즈 떡볶이, 치즈 닭갈비처럼 '늘어나는 모차렐라'를 활용한 요리가 트렌드로 자리잡았다. 와인 안주로 즐기는 카망베르·고르곤졸라·페타·할루미 등 고급 치즈 시장도 빠르게 성장 중이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "치즈 늘어남 = 식욕 늘어남 = 체중 늘어남 (3단 연쇄)"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-cheese-lovers-day-january-20/"
+  },
+  {
+    "id": "anv-fixed-01-21-granola-bar-day-us",
+    "date": "01-21",
+    "dateType": "annual-fixed",
+    "name": "그래놀라바의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "건강식",
+      "간식",
+      "곡물"
+    ],
+    "storytelling": {
+      "origin": "곡물·견과류·말린 과일을 압축해 만든 휴대용 간식 그래놀라바를 기념하는 날. 1960~70년대 건강식 열풍과 함께 등산·캠핑 필수품으로 대중화됐다.",
+      "anecdote": "한국에서도 등산객의 단골 간식이자, 바쁜 아침 대용식으로 자리잡았다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "비상식량이지만 맛도 챙기는 그래놀라바"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-granola-bar-day-january-21/"
+  },
+  {
+    "id": "anv-fixed-01-21-squirrel-appreciation-day-global",
+    "date": "01-21",
+    "dateType": "annual-fixed",
+    "name": "다람쥐 감사의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "동물",
+      "자연",
+      "야생동물"
+    ],
+    "storytelling": {
+      "origin": "도토리를 모으며 겨울을 준비하는 다람쥐의 생태적 역할을 기념하고 보호 의식을 높이기 위해 만들어진 날.",
+      "anecdote": "다람쥐가 묻어두고 못 찾은 도토리들이 싹을 틔워 숲을 이루는 데 기여한다는 사실이 알려지며 '숲의 정원사'라는 별명도 얻었다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "도토리 어디 숨겼는지 다람쥐 본인도 까먹는다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/squirrel-appreciation-day-january-21/"
+  },
+  {
+    "id": "anv-fixed-01-21-hugging-day-global",
+    "date": "01-21",
+    "dateType": "annual-fixed",
+    "name": "포옹의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "관계",
+      "감정표현"
+    ],
+    "storytelling": {
+      "origin": "1986년 미국의 케빈 자보니(Kevin Zaborney) 목사가 제정한 날. 1월 중순은 연말 분위기가 끝나고 우울감이 찾아오는 시기라, 포옹으로 따뜻한 감정 교류를 하자는 취지로 만들어졌다.",
+      "anecdote": "과학적으로 20초 이상의 포옹은 '사랑의 호르몬' 옥시토신을 분비시켜 스트레스와 혈압을 낮추는 효과가 있다고 한다. 한국은 신체 접촉에 비교적 보수적인 문화지만, 가족·연인·친한 친구에게 안아주는 인사를 건네보는 건 어떨까."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "20초 포옹 = 무료 항우울제"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-hugging-day-january-21/"
+  },
+  {
+    "id": "anv-fixed-01-22-blonde-brownie-day-us",
+    "date": "01-22",
+    "dateType": "annual-fixed",
+    "name": "블론드 브라우니의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "디저트",
+      "브라우니",
+      "베이킹"
+    ],
+    "storytelling": {
+      "origin": "코코아 대신 브라운슈가와 버터로 맛을 낸 '블론드 브라우니(블론디)'를 기념하는 날.",
+      "anecdote": "초콜릿 브라우니의 사촌 격으로, 캐러멜처럼 진한 단맛과 쫀득한 식감이 특징이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "브라우니의 흑발 친구가 아니라 금발 친구였다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-blonde-brownie-day-january-22/"
+  },
+  {
+    "id": "anv-fixed-01-22-celebration-of-life-day-global",
+    "date": "01-22",
+    "dateType": "annual-fixed",
+    "name": "생명 축하의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "가족",
+      "생명"
+    ],
+    "storytelling": {
+      "origin": "삶 자체를 축하하고, 우리에게 가장 소중한 사람들 — 특히 아이들과 손주들 — 의 존재에 감사하는 날로 만들어졌다.",
+      "anecdote": "이 날은 가족과 함께 식사하거나, 오랫동안 연락 못 한 친구에게 안부를 묻거나, 자신이 살아있다는 사실 자체에 감사하는 시간을 갖기 좋다. '메멘토 모리(죽음을 기억하라)'의 반대 개념인 '카르페 디엠(오늘을 즐겨라)'을 실천하는 날."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "오늘 살아있음 = 그것 자체로 이미 성공"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/celebration-of-life-day-january-22/"
+  },
+  {
+    "id": "anv-fixed-01-23-handwriting-day-global",
+    "date": "01-23",
+    "dateType": "annual-fixed",
+    "name": "손글씨의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "아날로그",
+      "문화"
+    ],
+    "storytelling": {
+      "origin": "1977년 미국 필기구 제조업체 협회(WIMA)가 미국 독립선언서에 가장 먼저, 가장 크게 서명한 존 핸콕(John Hancock)의 생일(1737년 1월 23일)을 기념해 제정한 날이다.",
+      "anecdote": "디지털 시대에 손글씨는 점점 희귀해졌지만, 그만큼 따뜻한 매력을 갖게 됐다. 한국에서는 김영하·이슬아 작가의 친필 사인본이 SNS에서 화제가 되고, 캘리그라피(손글씨 디자인)와 다이어리 꾸미기(다꾸) 문화도 큰 인기를 얻고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "내 글씨체 = 의사도 부러워하는 암호 수준"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-handwriting-day-january-23/"
+  },
+  {
+    "id": "anv-fixed-01-23-pie-day-us",
+    "date": "01-23",
+    "dateType": "annual-fixed",
+    "name": "파이(디저트)의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "디저트",
+      "베이킹",
+      "파이"
+    ],
+    "storytelling": {
+      "origin": "달콤하거나 짭짤한 속을 페이스트리로 감싼 디저트 '파이'를 기념하는 날. 원주율을 기념하는 3월 14일 '파이(π)의 날'과는 별개로, 디저트 파이 자체를 위한 날이다.",
+      "anecdote": "미국에서는 추수감사절의 펌킨파이부터 애플파이까지, '엄마의 손맛'을 상징하는 디저트로 통한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "3.14159 아니고 그냥 먹는 파이입니다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-pie-day-january-23/"
+  },
+  {
+    "id": "anv-fixed-01-24-peanut-butter-day-us",
+    "date": "01-24",
+    "dateType": "annual-fixed",
+    "name": "땅콩버터의 날 (National Peanut Butter Day)",
+    "category": "general",
+    "tags": [
+      "미국",
+      "음식",
+      "땅콩",
+      "스프레드"
+    ],
+    "storytelling": {
+      "origin": "빵에 발라 먹는 스프레드 땅콩버터를 기념하는 날. 19세기 말 건강식으로 처음 개발됐다.",
+      "anecdote": "땅콩버터와 잼을 함께 바른 'PB&J 샌드위치'는 미국 가정의 국민 간식으로 통한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "입천장에 붙은 땅콩버터와의 사투, 매번 진다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-peanut-butter-day-january-24/"
+  },
+  {
+    "id": "anv-fixed-01-24-compliment-day-global",
+    "date": "01-24",
+    "dateType": "annual-fixed",
+    "name": "칭찬의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "관계",
+      "긍정"
+    ],
+    "storytelling": {
+      "origin": "1998년 미국의 캐시 챔벌린(Kathy Chamberlin)과 데비 호프먼(Debby Hoffman)이 만든 날. 사람들이 서로에게 진심 어린 칭찬을 건네 긍정적인 분위기를 퍼뜨리자는 취지로 제정되었다.",
+      "anecdote": "한국 속담에 '칭찬은 고래도 춤추게 한다'는 말이 있다. 동명의 책이 2003년 베스트셀러에 오르며 한국에서 큰 화제가 되었다. 진심 어린 칭찬은 받는 사람뿐 아니라 하는 사람에게도 행복감을 준다는 연구 결과도 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "오늘만큼은 직장 상사도 칭찬해보자... 가능할까?"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-compliment-day-january-24/"
+  },
+  {
+    "id": "anv-fixed-01-25-opposite-day-global",
+    "date": "01-25",
+    "dateType": "annual-fixed",
+    "name": "반대로 하는 날 (Opposite Day)",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "유머",
+      "어린이"
+    ],
+    "storytelling": {
+      "origin": "모든 말과 행동을 평소와 반대로 해보는 장난스러운 비공식 기념일. 어린이들 사이에서 \"오늘은 Opposite Day니까 '싫다'가 '좋다'야!\" 식으로 농담을 주고받던 문화에서 유래했다.",
+      "anecdote": "'예'를 '아니오'로, '맛있다'를 '맛없다'로 바꿔 말하는 식이라 친구·가족 간 가벼운 농담의 소재가 된다. 단, 진지한 약속이나 업무에 적용했다간 진짜 큰일이 날 수 있으니 주의. \"오늘 야근 안 해도 돼!\"라는 상사의 말을 '반대의 날 농담'으로 받아들였다가는…"
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "엄마: 공부해 → 오늘은 반대의 날이니까 게임해야지! (안 통함)"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-opposite-day-january-25/"
+  },
+  {
+    "id": "anv-fixed-01-25-irish-coffee-day-global",
+    "date": "01-25",
+    "dateType": "annual-fixed",
+    "name": "아이리쉬 커피의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "음료",
+      "커피",
+      "칵테일"
+    ],
+    "storytelling": {
+      "origin": "뜨거운 커피에 위스키와 휘핑크림을 더한 '아이리쉬 커피'를 기념하는 날. 1940년대 아일랜드 섀넌 공항 카페에서 추운 승객들을 위해 처음 만들어졌다는 일화가 전해진다.",
+      "anecdote": "커피와 알코올의 조합이라는 발상이 당시엔 파격적이었지만, 지금은 전 세계 바·카페의 시그니처 메뉴가 됐다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "커피인 척하는 술, 술인 척하는 커피"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-irish-coffee-day-january-25/"
+  },
+  {
+    "id": "anv-fixed-01-26-spouses-day-global",
+    "date": "01-26",
+    "dateType": "annual-fixed",
+    "name": "배우자의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "가족",
+      "결혼",
+      "감사"
+    ],
+    "storytelling": {
+      "origin": "오랜 시간 함께해 온 배우자에게 감사를 표현하는 날. 발렌타인데이는 연인의 날이라면, 이 날은 결혼 생활의 동반자를 위한 날로 자리잡았다.",
+      "anecdote": "한국에서는 결혼기념일을 비롯해 '부부의 날'(5월 21일)이 따로 있다. 둘이 만나 하나가 된다는 의미로 5월 둘째 셋째에 부부의 날을 둔 것. 1월 26일은 부부의 날 전에 미리 작은 선물이나 편지로 사랑을 표현하기 좋은 날이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "배우자 = 가장 친한 친구이자 가장 큰 잔소리꾼"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-spouses-day-january-26/"
+  },
+  {
+    "id": "anv-fixed-01-26-ellen-degeneres-day-us",
+    "date": "01-26",
+    "dateType": "annual-fixed",
+    "name": "엘렌 디제너러스의 날",
+    "category": "anniversary",
+    "tags": [
+      "미국",
+      "팝컬처",
+      "방송",
+      "토크쇼"
+    ],
+    "storytelling": {
+      "origin": "미국의 코미디언이자 토크쇼 진행자 엘렌 디제너러스의 생일(1958년 1월 26일)을 기념해 팬들이 만든 날.",
+      "anecdote": "20년 가까이 진행한 토크쇼 '엘렌 디제너러스 쇼'와 함께 애니메이션 '니모를 찾아서'의 도리 목소리로도 한국에서 잘 알려져 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "도리 목소리 주인공한테 생일이 있다는 사실, 새삼 신기함"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-ellen-degeneres-day-january-26/"
+  },
+  {
+    "id": "anv-fixed-01-26-peanut-brittle-day-us",
+    "date": "01-26",
+    "dateType": "annual-fixed",
+    "name": "피넛 브리틀(땅콩강정)의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "디저트",
+      "캔디",
+      "땅콩"
+    ],
+    "storytelling": {
+      "origin": "설탕을 졸여 만든 캐러멜에 땅콩을 섞어 단단하게 굳힌 캔디 '피넛 브리틀'을 기념하는 날.",
+      "anecdote": "한국의 땅콩강정과 조리법이 매우 비슷해, 동서양이 비슷한 방식으로 비슷한 간식을 만들어냈다는 점이 흥미롭다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "땅콩강정의 미국 사촌, 이름만 다르고 맛은 비슷"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-peanut-brittle-day-january-26/"
+  },
+  {
+    "id": "anv-fixed-01-27-chocolate-cake-day-global",
+    "date": "01-27",
+    "dateType": "annual-fixed",
+    "name": "초콜릿 케이크의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "초콜릿"
+    ],
+    "storytelling": {
+      "origin": "달콤 쌉싸름한 초콜릿 케이크를 기념하는 날. 18세기 후반 코코아 가공 기술이 발전하면서 케이크에 초콜릿이 본격적으로 사용되기 시작했고, 1879년 콘칭(Conching) 기법이 개발되며 부드러운 초콜릿 케이크 시대가 열렸다.",
+      "anecdote": "한국에서 초콜릿 케이크는 생일·기념일의 베스트셀러다. 특히 '뚜레쥬르 가나슈 케이크'와 '파리바게뜨 쇼콜라 케이크'는 오랫동안 사랑받는 스테디셀러. 최근에는 '브라우니식 진한 가나슈 케이크' 트렌드가 카페계를 휩쓸고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "초콜릿 케이크 = 인생의 모든 고민이 잠시 멈추는 음식"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-chocolate-cake-day-january-27/"
+  },
+  {
+    "id": "anv-fixed-01-28-blueberry-pancake-day-global",
+    "date": "01-28",
+    "dateType": "annual-fixed",
+    "name": "블루베리 팬케이크의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "음식",
+      "아침식사",
+      "디저트"
+    ],
+    "storytelling": {
+      "origin": "겨울철 부드럽고 따끈한 팬케이크에 새콤달콤한 블루베리를 곁들여 먹는 즐거움을 기념하는 날. 블루베리는 북미 원주민들이 수천 년 전부터 식용·약용으로 사용해 온 슈퍼푸드다.",
+      "anecdote": "한국에서 블루베리 팬케이크는 '브런치 카페 단골 메뉴'다. 부드러운 리코타 팬케이크 위에 신선한 블루베리와 메이플 시럽을 듬뿍 뿌린 비주얼은 인스타그램에 빠지지 않는 인증샷 메뉴. 항산화 성분 안토시아닌이 풍부해 눈 건강에도 좋다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "주말 브런치 = 블루베리 팬케이크 + 라떼 + 1만 5천 원"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-blueberry-pancake-day-january-28/"
+  },
+  {
+    "id": "anv-fixed-01-28-have-fun-at-work-day-us",
+    "date": "01-28",
+    "dateType": "annual-fixed",
+    "name": "일터에서 즐겁게 보내는 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "직장",
+      "웰빙",
+      "긍정"
+    ],
+    "storytelling": {
+      "origin": "딱딱한 업무 환경에서도 즐거움을 찾자는 취지로 만들어진 날. 동료들과 가벼운 게임이나 이벤트를 즐기도록 권장한다.",
+      "anecdote": "직장 만족도와 생산성이 비례한다는 연구가 늘면서, 기업들도 '펀 경영' 문화를 적극 도입하는 추세다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "일은 일이고 재미는 재미, 둘 다 잡으면 베스트"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-have-fun-at-work-day-january-28/"
+  },
+  {
+    "id": "anv-fixed-01-28-kazoo-day-us",
+    "date": "01-28",
+    "dateType": "annual-fixed",
+    "name": "카주의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "악기",
+      "음악",
+      "유머"
+    ],
+    "storytelling": {
+      "origin": "허밍하듯 소리 내면 진동판이 울려 독특한 소리를 내는 간단한 악기 '카주'를 기념하는 날. 19세기 미국에서 발명됐다.",
+      "anecdote": "정식 악기 교육 없이도 누구나 바로 연주할 수 있어 파티·행사의 흥을 돋우는 소품으로 자주 쓰인다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "악기 연주냐 코맹맹이 소리냐, 그 경계의 악기"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-kazoo-day-january-28/"
+  },
+  {
+    "id": "anv-fixed-01-29-corn-chip-day-us",
+    "date": "01-29",
+    "dateType": "annual-fixed",
+    "name": "콘칩의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "스낵",
+      "옥수수",
+      "간식"
+    ],
+    "storytelling": {
+      "origin": "옥수수를 튀기거나 구워 만든 바삭한 스낵 콘칩을 기념하는 날.",
+      "anecdote": "나초·살사 디핑 소스와 함께 먹는 미국식 스낵 문화의 핵심 아이템이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한 봉지 다 먹기 전엔 절대 멈출 수 없는 그 손맛"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-corn-chip-day-january-29/"
+  },
+  {
+    "id": "anv-fixed-01-29-puzzle-day-global",
+    "date": "01-29",
+    "dateType": "annual-fixed",
+    "name": "퍼즐의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "취미",
+      "두뇌"
+    ],
+    "storytelling": {
+      "origin": "2002년 미국의 작가이자 퍼즐 디자이너인 조디 질(Jodi Jill)이 제정한 날. 직소 퍼즐, 크로스워드, 스도쿠 등 모든 종류의 퍼즐을 기념하는 날이다.",
+      "anecdote": "한국에서는 코로나19 팬데믹 시기 직소 퍼즐이 '집콕 취미'로 폭발적인 인기를 끌었다. 1000~3000피스 대형 퍼즐을 가족과 함께 맞추는 문화가 자리잡았고, 인기 K-드라마·웹툰·게임 IP의 한정판 퍼즐도 출시되고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "1000피스 퍼즐 = 시작은 호기롭게, 끝은 책장 위 인테리어"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-puzzle-day-january-29/"
+  },
+  {
+    "id": "anv-fixed-01-30-seed-swap-day-global",
+    "date": "01-30",
+    "dateType": "annual-fixed",
+    "name": "씨앗 교환의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "가드닝",
+      "환경",
+      "식물"
+    ],
+    "storytelling": {
+      "origin": "텃밭·정원을 가꾸는 사람들이 서로의 씨앗을 나누고 교환하며 다양한 품종을 보존하자는 취지로 만들어진 날. 본격적인 봄 파종을 준비하는 시기에 맞춰졌다.",
+      "anecdote": "한국에서도 도시 텃밭·베란다 가드닝 인구가 늘면서 온라인 커뮤니티 중심의 씨앗 나눔 문화가 자리잡고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "씨앗 한 봉지 나눔이 누군가의 정원이 된다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-seed-swap-day-january-30/"
+  },
+  {
+    "id": "anv-fixed-01-30-croissant-day-global",
+    "date": "01-30",
+    "dateType": "annual-fixed",
+    "name": "크루아상의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "음식",
+      "빵",
+      "프랑스"
+    ],
+    "storytelling": {
+      "origin": "프랑스를 대표하는 초승달 모양 페이스트리 크루아상(Croissant)을 기념하는 날. 의외로 원조는 오스트리아 빈으로, 1683년 오스만 제국군을 격퇴한 것을 기념해 오스만 깃발의 초승달을 본떠 만든 빵 '킵펠(Kipfel)'에서 유래했다.",
+      "anecdote": "한국에서 크루아상은 단순 빵을 넘어 '크룽지(크루아상+누룽지)', '크로플(크루아상+와플)' 같은 창의적 변형으로 유명해졌다. 특히 크로플은 2020년경 K-카페 메뉴의 대세로 자리잡으며 해외 K-브랜드 진출 메뉴로도 활용되고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "크루아상 한 입 = 버터 100g 흡입과 같다 (대신 행복함)"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-croissant-day-january-30/"
+  },
+  {
+    "id": "anv-fixed-01-31-backward-day-us",
+    "date": "01-31",
+    "dateType": "annual-fixed",
+    "name": "거꾸로 데이",
+    "category": "quirky",
+    "tags": [
+      "미국",
+      "이색기념일",
+      "유머",
+      "놀이"
+    ],
+    "storytelling": {
+      "origin": "옷을 거꾸로 입거나 말을 거꾸로 하는 등, 일상을 거꾸로 뒤집어보며 즐기는 농담성 기념일.",
+      "anecdote": "같은 달 1월 25일 '반대로 하는 날'과 비슷해 보이지만, 반대로 하는 날은 말과 행동의 '반대'에, 거꾸로 데이는 순서·방향을 '뒤집는' 데 초점을 맞춘다는 차이가 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "양말부터 거꾸로, 오늘 하루는 다 거꾸로"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-backward-day-january-31/"
+  },
+  {
+    "id": "anv-fixed-01-31-inspire-your-heart-with-art-day-global",
+    "date": "01-31",
+    "dateType": "annual-fixed",
+    "name": "예술로 마음을 채우는 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "예술",
+      "감성"
+    ],
+    "storytelling": {
+      "origin": "1월의 마지막 날, 회화·조각·음악·문학·공연 등 다양한 예술 작품을 감상하며 마음에 영감을 불어넣자는 취지로 만들어진 비공식 기념일이다.",
+      "anecdote": "추운 1월의 끝자락은 미술관·전시 관람하기에 더없이 좋은 시기다. 한국에서는 국립현대미술관(MMCA), 리움미술관, 아모레퍼시픽 미술관 등에서 매년 1~2월 굵직한 기획전을 연다. 작품 앞에 30초 이상 머물러 보는 것만으로도 '예술적 명상'이 된다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "미술관에서 1시간 = SNS 안 보는 1시간 = 마음의 디톡스"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/inspire-your-heart-with-art-day-january-31/"
+  }
+]

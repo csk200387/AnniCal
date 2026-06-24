@@ -1,0 +1,2240 @@
+[
+  {
+    "id": "anv-fixed-07-01-us-postage-stamp-day-us",
+    "date": "07-01",
+    "dateType": "annual-fixed",
+    "name": "미국 우표의 날",
+    "category": "commemorative",
+    "tags": [
+      "미국",
+      "역사",
+      "우표"
+    ],
+    "storytelling": {
+      "origin": "1847년 7월 1일, 미국 최초의 공식 우표가 발행된 것을 기념하는 날이다.",
+      "anecdote": "작은 종이 한 장이 편지를 먼 곳까지 전달해주는 시스템을 가능하게 했다는 점에서 의미가 깊다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "우표 수집이 한때 전 세계적인 취미였다는 사실, 요즘 세대는 잘 모른다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-us-postage-stamp-day-july-1/"
+  },
+  {
+    "id": "anv-fixed-07-01-gingersnap-day-us",
+    "date": "07-01",
+    "dateType": "annual-fixed",
+    "name": "생강 쿠키의 날 (National Gingersnap Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "쿠키"
+    ],
+    "storytelling": {
+      "origin": "생강과 향신료의 매콤한 풍미가 느껴지는 바삭한 쿠키, 진저스냅을 기념하는 날이다.",
+      "anecdote": "이름처럼 한 입 베어물면 '바스락' 소리가 나는 바삭한 식감이 특징이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "씹을 때마다 매콤하면서도 달콤한 그 묘한 조화"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-gingersnap-day-july-1/"
+  },
+  {
+    "id": "anv-fixed-07-01-postal-worker-day-us",
+    "date": "07-01",
+    "dateType": "annual-fixed",
+    "name": "우체국 직원의 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "직업",
+      "감사"
+    ],
+    "storytelling": {
+      "origin": "비가 오나 눈이 오나 편지와 소포를 배달하는 우체국 직원들의 노고를 기리는 날이다.",
+      "anecdote": "온라인 쇼핑이 일상화된 요즘, 택배·우편 배달원의 손길은 오히려 더 중요해졌다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "택배 도착 알림 받으면 그날 하루 기분이 달라지는 그 효과"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-postal-worker-day-july-1/"
+  },
+  {
+    "id": "anv-fixed-07-01-creative-ice-cream-flavors-day-us",
+    "date": "07-01",
+    "dateType": "annual-fixed",
+    "name": "창의적인 아이스크림 맛의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "아이스크림"
+    ],
+    "storytelling": {
+      "origin": "전통적인 맛을 벗어난 독창적인 아이스크림 맛을 시도해보자는 취지의 날이다.",
+      "anecdote": "와사비, 김치맛 아이스크림처럼 한국에서도 종종 화제가 되는 독특한 맛의 아이스크림이 등장한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "독특한 맛이라고 해서 시켰는데 의외로 맛있는 그 반전"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-creative-ice-cream-flavors-day-july-1/"
+  },
+  {
+    "id": "anv-fixed-07-02-anisette-day-us",
+    "date": "07-02",
+    "dateType": "annual-fixed",
+    "name": "아니제트의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음료",
+      "주류"
+    ],
+    "storytelling": {
+      "origin": "팔각 향이 나는 아니스 리큐어, 아니제트를 기념하는 날이다.",
+      "anecdote": "지중해 지역에서 식전주나 디저트 술로 즐기는 독특한 향의 음료다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한약 향 같다는 사람도, 묘하게 매력적이라는 사람도 있는 그 향"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-anisette-day-july-2/"
+  },
+  {
+    "id": "anv-fixed-07-03-fried-clam-day-us",
+    "date": "07-03",
+    "dateType": "annual-fixed",
+    "name": "조개튀김의 날 (National Fried Clam Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "해산물"
+    ],
+    "storytelling": {
+      "origin": "바삭하게 튀긴 조개 요리를 기념하는 날이다.",
+      "anecdote": "미국 동부 해안 지역의 명물 요리로, 바닷가 마을의 여름 별미로 꼽힌다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "튀김옷 바삭함 뒤에 숨은 통통한 조갯살, 그 반전이 매력"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-fried-clam-day-july-3/"
+  },
+  {
+    "id": "anv-fixed-07-03-chocolate-wafer-day-us",
+    "date": "07-03",
+    "dateType": "annual-fixed",
+    "name": "초콜릿 웨이퍼의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "초콜릿"
+    ],
+    "storytelling": {
+      "origin": "바삭한 웨이퍼에 초콜릿을 더한 과자를 기념하는 날이다.",
+      "anecdote": "가볍고 바삭한 식감 덕분에 부담 없이 즐기기 좋은 간식으로 사랑받는다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한 장만 먹으려다 결국 한 통 다 비우는 그 가벼움의 함정"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-chocolate-wafer-day-july-3/"
+  },
+  {
+    "id": "anv-fixed-07-03-eat-your-beans-day-us",
+    "date": "07-03",
+    "dateType": "annual-fixed",
+    "name": "콩을 먹는 날 (National Eat Your Beans Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "건강"
+    ],
+    "storytelling": {
+      "origin": "단백질과 식이섬유가 풍부한 콩류 섭취를 독려하는 날이다.",
+      "anecdote": "한식에서도 콩은 된장, 두부 등 다양한 형태로 식탁에 빠지지 않는 식재료다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "콩 싫다는 사람도 두부로 만들면 결국 잘 먹는 그 아이러니"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-eat-your-beans-day-july-3/"
+  },
+  {
+    "id": "anv-fixed-07-04-independence-day-us",
+    "date": "07-04",
+    "dateType": "annual-fixed",
+    "name": "미국 독립기념일 (Independence Day)",
+    "category": "commemorative",
+    "tags": [
+      "미국",
+      "역사",
+      "국경일"
+    ],
+    "storytelling": {
+      "origin": "1776년 7월 4일, 13개 식민지가 영국으로부터 독립을 선언한 것을 기념하는 미국의 대표 국경일이다.",
+      "anecdote": "전국 각지에서 불꽃놀이와 바비큐 파티가 열리는 미국 최대의 여름 축제일로, 영화와 대중문화 속에서도 자주 등장해 전 세계적으로 친숙한 날이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "할리우드 영화에서 외계인도 꼭 이날 침공하는 그 클리셰"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-independence-day-july-4/"
+  },
+  {
+    "id": "anv-fixed-07-04-barbecued-spareribs-day-us",
+    "date": "07-04",
+    "dateType": "annual-fixed",
+    "name": "바비큐 스페어립의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "고기",
+      "바베큐"
+    ],
+    "storytelling": {
+      "origin": "오랜 시간 구워 부드럽게 만드는 바비큐 스페어립을 기념하는 날이다.",
+      "anecdote": "미국 독립기념일 단골 메뉴로, 손에 소스를 묻혀가며 먹는 게 제맛이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "손에 소스 다 묻혀가며 뼈까지 발라먹는 그 진심"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-barbecued-spareribs-day-july-4/"
+  },
+  {
+    "id": "anv-fixed-07-04-caesar-salad-day-us",
+    "date": "07-04",
+    "dateType": "annual-fixed",
+    "name": "시저 샐러드의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "샐러드"
+    ],
+    "storytelling": {
+      "origin": "파마산 치즈와 크루통, 특제 드레싱이 어우러진 시저 샐러드를 기념하는 날이다.",
+      "anecdote": "멕시코 티후아나의 셰프 시저 카르디니가 1924년 즉석으로 만들었다는 탄생 일화가 전해진다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "샐러드인데 칼로리는 메인 요리급이라는 그 반전"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-caesar-salad-day-july-4/"
+  },
+  {
+    "id": "anv-fixed-07-04-country-music-day-us",
+    "date": "07-04",
+    "dateType": "annual-fixed",
+    "name": "컨트리 음악의 날",
+    "category": "general",
+    "tags": [
+      "미국",
+      "음악",
+      "문화"
+    ],
+    "storytelling": {
+      "origin": "미국 남부에서 발전한 음악 장르, 컨트리 뮤직을 기념하는 날이다.",
+      "anecdote": "기타와 진솔한 가사가 특징인 컨트리 음악은 미국적 정서를 가장 잘 담아낸 장르로 평가받는다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "트럭, 맥주, 첫사랑 — 컨트리 노래 가사의 3대 요소"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-country-music-day-july-4/"
+  },
+  {
+    "id": "anv-fixed-07-04-hillbilly-day-us",
+    "date": "07-04",
+    "dateType": "annual-fixed",
+    "name": "힐빌리의 날",
+    "category": "quirky",
+    "tags": [
+      "미국",
+      "문화",
+      "이색기념일"
+    ],
+    "storytelling": {
+      "origin": "미국 애팔래치아 산간 지역의 소박한 시골 문화, '힐빌리'를 유쾌하게 기념하는 날이다.",
+      "anecdote": "한때 비하적으로 쓰이기도 했지만, 최근엔 그 지역만의 독특한 문화와 음악을 자긍심으로 재조명하는 움직임도 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "시골 출신이라고 놀림받다가 결국 그 감성이 힙해지는 역전"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-hillbilly-day-july-4/"
+  },
+  {
+    "id": "anv-fixed-07-05-graham-cracker-day-us",
+    "date": "07-05",
+    "dateType": "annual-fixed",
+    "name": "그래함 크래커의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "간식",
+      "베이킹"
+    ],
+    "storytelling": {
+      "origin": "통밀로 만든 바삭한 크래커, 그래함 크래커를 기념하는 날이다.",
+      "anecdote": "스모어(마시멜로+초콜릿+크래커) 같은 캠핑 디저트의 핵심 재료로 널리 쓰인다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "캠핑파이어 앞에서 스모어 만들 때 빠지면 안 되는 그 크래커"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-graham-cracker-day-july-5/"
+  },
+  {
+    "id": "anv-fixed-07-05-bikini-day-us",
+    "date": "07-05",
+    "dateType": "annual-fixed",
+    "name": "비키니의 날 (National Bikini Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "패션",
+      "역사",
+      "여름"
+    ],
+    "storytelling": {
+      "origin": "1946년 7월 5일, 프랑스 디자이너 루이 레아르가 비키니를 처음 공개한 것을 기념하는 날이다.",
+      "anecdote": "당시엔 너무 과감한 디자인으로 여겨져 모델을 구하기 힘들었다는 일화가 전해진다. 이름은 태평양의 비키니 환초에서 따왔다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "처음 나왔을 땐 충격이었는데 지금은 여름 필수품이 된 그 옷"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-bikini-day-july-5/"
+  },
+  {
+    "id": "anv-fixed-07-05-apple-turnover-day-us",
+    "date": "07-05",
+    "dateType": "annual-fixed",
+    "name": "애플 턴오버의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "과일"
+    ],
+    "storytelling": {
+      "origin": "페이스트리에 사과 필링을 채워 삼각형으로 접어 구운 애플 턴오버를 기념하는 날이다.",
+      "anecdote": "한 손에 들고 먹기 좋은 크기와 형태로, 간단한 디저트나 아침 대용으로도 즐기기 좋다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "겉바속촉의 정석, 사과파이의 휴대용 버전"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-apple-turnover-day-july-5/"
+  },
+  {
+    "id": "anv-fixed-07-06-fried-chicken-day-us",
+    "date": "07-06",
+    "dateType": "annual-fixed",
+    "name": "프라이드치킨의 날 (National Fried Chicken Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "치킨"
+    ],
+    "storytelling": {
+      "origin": "바삭한 튀김옷과 육즙 가득한 닭고기의 조화, 프라이드치킨을 기념하는 날이다.",
+      "anecdote": "한국은 '치맥' 문화로 전 세계에 프라이드치킨의 새로운 매력을 알린 치킨 강국이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "치킨은 살 안 찐다는 그 영원한 자기합리화"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-fried-chicken-day-july-6/"
+  },
+  {
+    "id": "anv-fixed-07-07-strawberry-sundae-day-us",
+    "date": "07-07",
+    "dateType": "annual-fixed",
+    "name": "딸기 선데이의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "아이스크림"
+    ],
+    "storytelling": {
+      "origin": "아이스크림에 딸기 시럽과 토핑을 올린 딸기 선데이를 기념하는 날이다.",
+      "anecdote": "새콤달콤한 딸기 시럽이 부드러운 아이스크림과 만나 환상의 조합을 이룬다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "선데이 맨 위 체리는 늘 가장 마지막 보상으로 남겨두는 그 습관"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-strawberry-sundae-day-july-7/"
+  },
+  {
+    "id": "anv-fixed-07-07-macaroni-day-us",
+    "date": "07-07",
+    "dateType": "annual-fixed",
+    "name": "마카로니의 날 (National Macaroni Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "파스타"
+    ],
+    "storytelling": {
+      "origin": "구부러진 짧은 모양의 파스타, 마카로니를 기념하는 날이다.",
+      "anecdote": "마카로니 앤 치즈처럼 간단하면서도 든든한 한 끼 요리의 핵심 재료로 두루 쓰인다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "치즈만 듬뿍 부으면 실패가 없는 그 만능 조합"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-macaroni-day-july-7/"
+  },
+  {
+    "id": "anv-fixed-07-07-father-daughter-take-a-walk-day-us",
+    "date": "07-07",
+    "dateType": "annual-fixed",
+    "name": "아빠와 딸이 산책하는 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "가족",
+      "이색기념일"
+    ],
+    "storytelling": {
+      "origin": "아버지와 딸이 함께 산책하며 대화를 나누는 시간을 갖자는 취지의 날이다.",
+      "anecdote": "거창한 이벤트보다 함께 걷는 시간 자체가 관계를 돈독하게 만드는 가장 쉬운 방법이라는 메시지를 담고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "말없이 그냥 옆에서 걷는 것만으로도 충분한 그런 사이"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-father-daughter-take-a-walk-day-july-7/"
+  },
+  {
+    "id": "anv-fixed-07-08-chocolate-with-almonds-day-us",
+    "date": "07-08",
+    "dateType": "annual-fixed",
+    "name": "아몬드 초콜릿의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "초콜릿",
+      "견과류"
+    ],
+    "storytelling": {
+      "origin": "고소한 아몬드가 통째로 들어간 초콜릿을 기념하는 날이다.",
+      "anecdote": "부드러운 초콜릿과 바삭한 아몬드의 식감 대비가 매력적인 간식이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "초콜릿 깨물다가 아몬드 식감 느껴지면 괜히 더 만족스러운 그 느낌"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-chocolate-with-almonds-day-july-8/"
+  },
+  {
+    "id": "anv-fixed-07-09-sugar-cookie-day-us",
+    "date": "07-09",
+    "dateType": "annual-fixed",
+    "name": "슈가쿠키의 날 (National Sugar Cookie Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "쿠키"
+    ],
+    "storytelling": {
+      "origin": "단순한 재료로 만들지만 다양하게 장식할 수 있는 슈가쿠키를 기념하는 날이다.",
+      "anecdote": "크리스마스 시즌 모양 쿠키로 익숙하지만, 본래는 1년 내내 즐기는 클래식 쿠키다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "장식하다가 결국 다 먹어버리는 그 쿠키 데코의 함정"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-sugar-cookie-day-july-9/"
+  },
+  {
+    "id": "anv-fixed-07-10-collector-car-appreciation-day-us",
+    "date": "07-10",
+    "dateType": "annual-fixed",
+    "name": "클래식카 애호가의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "자동차",
+      "취미"
+    ],
+    "storytelling": {
+      "origin": "오래된 클래식카를 수집하고 보존하는 애호가들의 열정을 기리는 날이다.",
+      "anecdote": "오래된 차일수록 부품 구하기부터 관리까지 손이 많이 가지만, 그만큼 애착도 커진다는 게 수집가들의 한결같은 이야기다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "기름 냄새만 맡아도 행복해지는 클래식카 애호가들의 그 마음"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-collector-car-appreciation-day-july-10/"
+  },
+  {
+    "id": "anv-fixed-07-10-clerihew-day-us",
+    "date": "07-10",
+    "dateType": "annual-fixed",
+    "name": "클러리휴의 날 (National Clerihew Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "문학",
+      "시",
+      "유머"
+    ],
+    "storytelling": {
+      "origin": "유명인을 주제로 짧고 유머러스하게 쓰는 4행시 '클러리휴'를 기념하는 날이다. 작가 에드먼드 클러리휴 벤틀리의 생일에 맞춰 제정됐다.",
+      "anecdote": "형식은 단순하지만 재치 있는 라임과 농담이 핵심인 영미권 특유의 시 장르다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "라임 맞추려다 결국 억지스러운 문장이 되는 그 시도"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-clerihew-day-july-10/"
+  },
+  {
+    "id": "anv-fixed-07-10-pina-colada-day-us",
+    "date": "07-10",
+    "dateType": "annual-fixed",
+    "name": "피나 콜라다의 날 (National Pina Colada Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "칵테일",
+      "음료",
+      "여름"
+    ],
+    "storytelling": {
+      "origin": "코코넛 크림과 파인애플 주스, 럼을 섞어 만드는 트로피컬 칵테일, 피나 콜라다를 기념하는 날이다.",
+      "anecdote": "휴양지 분위기를 가장 잘 담아내는 칵테일로, 한 잔만 마셔도 여름휴가 기분을 만끽할 수 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한 잔 마시면 바로 휴양지 모드로 전환되는 그 트로피컬함"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-pina-colada-day-july-10/"
+  },
+  {
+    "id": "anv-fixed-07-11-rainier-cherry-day-us",
+    "date": "07-11",
+    "dateType": "annual-fixed",
+    "name": "레이니어 체리의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "과일",
+      "음식"
+    ],
+    "storytelling": {
+      "origin": "달콤하고 과육이 단단한 노란빛 체리 품종, 레이니어 체리를 기념하는 날이다.",
+      "anecdote": "일반 체리보다 단맛이 강하고 껍질이 얇아 고급 과일로 분류된다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "비싸서 마트에서 한참 고민하다 결국 집어드는 그 체리"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-rainier-cherry-day-july-11/"
+  },
+  {
+    "id": "anv-fixed-07-11-mojito-day-us",
+    "date": "07-11",
+    "dateType": "annual-fixed",
+    "name": "모히토의 날 (National Mojito Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "칵테일",
+      "음료",
+      "여름"
+    ],
+    "storytelling": {
+      "origin": "민트와 라임, 럼이 어우러진 시원한 칵테일, 모히토를 기념하는 날이다.",
+      "anecdote": "쿠바에서 유래한 이 칵테일은 더운 여름밤 시원한 청량감으로 인기를 끈다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "\"몰디브 안 가도 모히토 한 잔이면 기분은 휴양지\"라는 그 흔한 드립"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-mojito-day-july-11/"
+  },
+  {
+    "id": "anv-fixed-07-11-blueberry-muffin-day-us",
+    "date": "07-11",
+    "dateType": "annual-fixed",
+    "name": "블루베리 머핀의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "베이킹"
+    ],
+    "storytelling": {
+      "origin": "톡톡 터지는 블루베리가 들어간 머핀을 기념하는 날이다.",
+      "anecdote": "아침 식사 대용이나 간식으로 부담 없이 즐기기 좋은 베이커리 클래식이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "윗부분 바삭한 토핑만 떼어 먹다가 결국 통째로 먹는 그 손길"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-blueberry-muffin-day-july-11/"
+  },
+  {
+    "id": "anv-fixed-07-11-seven-eleven-day-us",
+    "date": "07-11",
+    "dateType": "annual-fixed",
+    "name": "세븐일레븐의 날 (National 7-Eleven Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "편의점",
+      "브랜드"
+    ],
+    "storytelling": {
+      "origin": "1927년 창립한 편의점 체인 세븐일레븐의 창립을 기념하는 날로, 날짜와 상호명(7월 11일)이 절묘하게 일치한다.",
+      "anecdote": "한국에서도 동네 어디서나 만날 수 있는 친숙한 편의점 브랜드로, 24시간 든든하게 자리를 지키고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "편의점 들어가면 항상 계획에 없던 걸 사게 되는 그 마법"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-seven-eleven-day-july-11/"
+  },
+  {
+    "id": "anv-fixed-07-11-cheer-up-the-lonely-day-us",
+    "date": "07-11",
+    "dateType": "annual-fixed",
+    "name": "외로운 이를 위로하는 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "위로"
+    ],
+    "storytelling": {
+      "origin": "혼자 시간을 보내는 이들에게 작은 안부와 위로를 전하자는 취지의 날이다.",
+      "anecdote": "간단한 안부 메시지 한 통이 누군가에겐 그날 하루를 버티게 하는 힘이 되기도 한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "\"잘 지내?\" 한마디가 생각보다 큰 힘이 될 때가 있다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-cheer-up-the-lonely-day-july-11/"
+  },
+  {
+    "id": "anv-fixed-07-12-simplicity-day-us",
+    "date": "07-12",
+    "dateType": "annual-fixed",
+    "name": "단순함의 날 (National Simplicity Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "웰빙",
+      "이색기념일"
+    ],
+    "storytelling": {
+      "origin": "복잡한 일상에서 벗어나 단순하고 소박한 삶의 가치를 되새기는 날이다. 자연주의 작가 헨리 데이비드 소로우의 생일에 맞춰 제정됐다.",
+      "anecdote": "소로우는 「월든」에서 자급자족하는 단순한 삶의 철학을 풀어냈다. 미니멀리즘 트렌드와도 맞닿아 있는 정서다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "물건 줄이려다 결국 정리용품을 또 사는 그 미니멀리즘의 함정"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-simplicity-day-july-12/"
+  },
+  {
+    "id": "anv-fixed-07-12-different-colored-eyes-day-us",
+    "date": "07-12",
+    "dateType": "annual-fixed",
+    "name": "오드아이의 날 (National Different Colored Eyes Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "유전"
+    ],
+    "storytelling": {
+      "origin": "양쪽 눈동자 색이 다른 '오드아이(이색증)'를 가진 사람과 동물을 기념하는 날이다.",
+      "anecdote": "신비로운 매력으로 여겨지는 오드아이는 유전적 요인이나 멜라닌 색소 차이로 나타나는 자연스러운 현상이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "고양이 오드아이 사진 한 장에 다들 입양 욕구가 차오르는 그 매력"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-different-colored-eyes-day-july-12/"
+  },
+  {
+    "id": "anv-fixed-07-12-eat-your-jello-day-us",
+    "date": "07-12",
+    "dateType": "annual-fixed",
+    "name": "젤로(젤라틴 디저트)를 먹는 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트"
+    ],
+    "storytelling": {
+      "origin": "탱글탱글한 젤라틴 디저트, '젤로(Jell-O)'를 기념하는 날이다. 젤로는 본래 미국 식품 브랜드명에서 비롯돼 젤라틴 디저트를 통칭하는 이름으로 자리잡았다.",
+      "anecdote": "다양한 색과 맛으로 만들 수 있어 아이들 생일파티나 디저트 테이블의 단골 메뉴가 됐다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "숟가락으로 누르면 흔들리는 그 탱글함, 보는 것만으로도 재밌다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-eat-your-jello-day-july-12/"
+  },
+  {
+    "id": "anv-fixed-07-12-paper-bag-day-global",
+    "date": "07-12",
+    "dateType": "annual-fixed",
+    "name": "종이가방의 날 (Paper Bag Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "환경",
+      "역사"
+    ],
+    "storytelling": {
+      "origin": "1871년 평평한 바닥의 종이가방이 발명된 것을 기념하는 날이다.",
+      "anecdote": "플라스틱 사용을 줄이려는 움직임 속에서 종이가방은 다시금 친환경 대안으로 주목받고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "장 보고 나서 가방 바닥 뜯어질까 조마조마한 그 순간"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-paper-bag-day-july-12/"
+  },
+  {
+    "id": "anv-fixed-07-12-pecan-pie-day-us",
+    "date": "07-12",
+    "dateType": "annual-fixed",
+    "name": "피칸파이의 날 (National Pecan Pie Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "견과류"
+    ],
+    "storytelling": {
+      "origin": "고소한 피칸을 듬뿍 올린 진한 단맛의 피칸파이를 기념하는 날이다.",
+      "anecdote": "미국 남부의 추수감사절 디저트로 유명하지만, 1년 내내 사랑받는 클래식 디저트다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한 조각만 먹어도 단맛이 며칠 가는 그 농도"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-pecan-pie-day-july-12/"
+  },
+  {
+    "id": "anv-fixed-07-13-french-fry-day-us",
+    "date": "07-13",
+    "dateType": "annual-fixed",
+    "name": "감자튀김의 날 (National French Fry Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "간식"
+    ],
+    "storytelling": {
+      "origin": "어떤 메뉴와도 잘 어울리는 사이드 메뉴, 감자튀김을 기념하는 날이다.",
+      "anecdote": "이름은 '프렌치'지만 실제 기원은 벨기에라는 설이 유력해, 종종 원조 논쟁의 대상이 되기도 한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "케첩 없이도 먹지만 케첩 있으면 더 못 멈추는 그 마성"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-french-fry-day-july-13/"
+  },
+  {
+    "id": "anv-fixed-07-13-beans-n-franks-day-us",
+    "date": "07-13",
+    "dateType": "annual-fixed",
+    "name": "콩과 소시지의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "요리"
+    ],
+    "storytelling": {
+      "origin": "콩과 소시지를 함께 조리하는 미국 가정식, 빈즈 앤 프랭크스를 기념하는 날이다.",
+      "anecdote": "캠핑 요리로도 인기 있는 메뉴로, 간단하게 한 끼를 든든하게 채울 수 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "캠핑장에서 코펠에 끓여 먹으면 유독 더 맛있는 그 메뉴"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-beans-n-franks-day-july-13/"
+  },
+  {
+    "id": "anv-fixed-07-14-grand-marnier-day-us",
+    "date": "07-14",
+    "dateType": "annual-fixed",
+    "name": "그랑 마르니에의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음료",
+      "프랑스",
+      "주류"
+    ],
+    "storytelling": {
+      "origin": "코냑과 오렌지 리큐어를 블렌딩한 프랑스산 술, 그랑 마르니에를 기념하는 날이다.",
+      "anecdote": "칵테일이나 디저트 소스에도 즐겨 쓰이며, 오렌지향과 코냑의 깊은 풍미가 조화를 이룬다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "디저트에 살짝 뿌리기만 해도 고급스러워지는 그 마법의 술"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-grand-marnier-day-july-14/"
+  },
+  {
+    "id": "gov-38",
+    "date": "07-14",
+    "dateType": "annual-fixed",
+    "name": "북한이탈주민의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 통일부. 북한이탈주민을 포용하고, 북한이탈주민의 권익을 향상시키며, 남북주민 간 통합문화를 형성하고, 통일인식을 제고하기 위한 행사를 한다.",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-07-14-nude-day-us",
+    "date": "07-14",
+    "dateType": "annual-fixed",
+    "name": "자연스러운 몸을 사랑하는 날 (National Nude Day)",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "인식개선",
+      "자기긍정"
+    ],
+    "storytelling": {
+      "origin": "있는 그대로의 몸을 긍정하고, 신체에 대한 사회적 편견과 검열에서 벗어나자는 취지로 제정된 날이다.",
+      "anecdote": "신체 이미지에 대한 압박이 큰 현대 사회에서, 자기 몸을 존중하는 '바디 포지티브' 운동과 맞닿아 있는 메시지를 담고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "남의 몸 신경 쓸 시간에 내 몸부터 사랑해주자는 그 메시지"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-nude-day-july-14/"
+  },
+  {
+    "id": "anv-fixed-07-14-tape-measure-day-us",
+    "date": "07-14",
+    "dateType": "annual-fixed",
+    "name": "줄자의 날 (National Tape Measure Day)",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "역사",
+      "발명",
+      "공구"
+    ],
+    "storytelling": {
+      "origin": "정확한 길이를 측정할 수 있게 해준 줄자의 발명을 기념하는 날이다.",
+      "anecdote": "단순한 도구지만 건축, 재봉, 인테리어 등 거의 모든 분야에서 필수적으로 쓰인다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "줄자 끝부분 잡아줄 사람 없을 때의 그 막막함"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-tape-measure-day-july-14/"
+  },
+  {
+    "id": "anv-fixed-07-15-i-love-horses-day-us",
+    "date": "07-15",
+    "dateType": "annual-fixed",
+    "name": "말을 사랑하는 날 (National I Love Horses Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "동물",
+      "승마",
+      "이색기념일"
+    ],
+    "storytelling": {
+      "origin": "인류의 역사와 오랫동안 함께해온 동물, 말에 대한 사랑을 기념하는 날이다.",
+      "anecdote": "교통수단부터 농업, 스포츠까지 다양한 역할을 해온 말은 여전히 많은 사람들에게 특별한 동물로 여겨진다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "승마 한 번 해보면 그 매력에서 못 빠져나오는 사람들"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-i-love-horses-day-july-15/"
+  },
+  {
+    "id": "anv-fixed-07-15-give-something-away-day-us",
+    "date": "07-15",
+    "dateType": "annual-fixed",
+    "name": "무언가를 나눠주는 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "나눔",
+      "이색기념일"
+    ],
+    "storytelling": {
+      "origin": "쓰지 않는 물건이나 작은 친절을 누군가에게 나눠주자는 취지의 날이다.",
+      "anecdote": "거창한 기부가 아니어도, 안 쓰는 물건 하나를 필요한 사람에게 건네는 것만으로 의미 있는 나눔이 된다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "정리하다 나온 물건, 버리기 전에 한 번 더 생각해보는 그 마음"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-give-something-away-day-july-15/"
+  },
+  {
+    "id": "anv-fixed-07-15-pet-fire-safety-day-us",
+    "date": "07-15",
+    "dateType": "annual-fixed",
+    "name": "반려동물 화재 안전의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "동물",
+      "반려동물",
+      "안전"
+    ],
+    "storytelling": {
+      "origin": "화재 발생 시 반려동물을 안전하게 대피시키는 방법을 알리기 위한 날이다.",
+      "anecdote": "반려동물은 스스로 위험을 피하기 어려운 만큼, 보호자의 사전 대비가 무엇보다 중요하다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "비상시 반려동물 먼저 챙기는 게 본능이 된 보호자들"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-pet-fire-safety-day-july-15/"
+  },
+  {
+    "id": "anv-fixed-07-15-tapioca-pudding-day-us",
+    "date": "07-15",
+    "dateType": "annual-fixed",
+    "name": "타피오카 푸딩의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트"
+    ],
+    "storytelling": {
+      "origin": "쫀득한 타피오카 펄이 들어간 부드러운 푸딩을 기념하는 날이다.",
+      "anecdote": "버블티의 펄과 비슷한 식재료로 만들어, 씹는 식감이 독특한 디저트로 사랑받는다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "푸딩 속 펄 씹는 그 재미, 디저트인데 운동 같은 식감"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-tapioca-pudding-day-july-15/"
+  },
+  {
+    "id": "anv-fixed-07-16-corn-fritters-day-us",
+    "date": "07-16",
+    "dateType": "annual-fixed",
+    "name": "콘 프리터의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "채소"
+    ],
+    "storytelling": {
+      "origin": "옥수수 알을 반죽에 섞어 튀기거나 구운 콘 프리터를 기념하는 날이다.",
+      "anecdote": "바삭한 겉면과 톡톡 터지는 옥수수 알의 식감 대비가 매력적인 요리다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한입 베어물면 옥수수 알이 톡톡 터지는 그 식감"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-corn-fritters-day-july-16/"
+  },
+  {
+    "id": "anv-fixed-07-16-personal-chefs-day-us",
+    "date": "07-16",
+    "dateType": "annual-fixed",
+    "name": "퍼스널 셰프의 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "직업",
+      "요리"
+    ],
+    "storytelling": {
+      "origin": "개인이나 가정에 맞춤 요리를 제공하는 퍼스널 셰프들의 노고를 기리는 날이다.",
+      "anecdote": "단순히 요리만 하는 게 아니라 고객의 식습관과 취향까지 고려해야 하는 섬세한 직업이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "냉장고 속 재료만 보고도 완벽한 한 끼를 만들어내는 그 능력"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-personal-chefs-day-july-16/"
+  },
+  {
+    "id": "anv-fixed-07-17-wrong-way-corrigan-day-us",
+    "date": "07-17",
+    "dateType": "annual-fixed",
+    "name": "'잘못된 방향' 코리건의 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "역사",
+      "항공"
+    ],
+    "storytelling": {
+      "origin": "1938년 비행 계획서에는 캘리포니아로 향한다고 적고는 실제로는 대서양을 건너 아일랜드까지 날아간 조종사 더글러스 코리건을 기념하는 날이다.",
+      "anecdote": "당국이 횡단 비행을 허가하지 않자 '실수로' 방향을 잘못 잡았다고 둘러댄 일화는 두고두고 회자되며 'Wrong Way Corrigan'이라는 표현까지 남겼다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "\"길을 잘못 들었어요\"라는 말로 역사에 이름을 남긴 유일한 사람"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-wrong-way-corrigan-day-july-17/"
+  },
+  {
+    "id": "anv-fixed-07-17-peach-ice-cream-day-us",
+    "date": "07-17",
+    "dateType": "annual-fixed",
+    "name": "복숭아 아이스크림의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "과일"
+    ],
+    "storytelling": {
+      "origin": "잘 익은 복숭아의 향과 단맛을 담은 아이스크림을 기념하는 날이다.",
+      "anecdote": "여름철 가장 맛있는 과일인 복숭아를 아이스크림으로 즐기는 것만큼 호화로운 일도 없다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "복숭아 알맹이 씹히는 순간 여름이 제대로 느껴지는 그 맛"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-peach-ice-cream-day-july-17/"
+  },
+  {
+    "id": "anv-fixed-07-17-yellow-pig-day-us",
+    "date": "07-17",
+    "dateType": "annual-fixed",
+    "name": "옐로 피그 데이 (National Yellow Pig Day)",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "수학",
+      "이색기념일",
+      "유머"
+    ],
+    "storytelling": {
+      "origin": "수학자들 사이에서 숫자 17을 기념하기 위해 만든 농담성 기념일이다. 7월 17일(7/17)에 17을 기념한다는 말장난에서 비롯됐다.",
+      "anecdote": "수학 캠프에서 시작된 이 독특한 전통은 '노란 돼지'라는 가상의 캐릭터와 숫자 17의 특별한 성질을 엮어 즐기는 수학 마니아들의 놀이 문화다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "숫자 하나로 이렇게까지 놀 수 있다는 게 수학자들의 매력"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-yellow-pig-day-july-17/"
+  },
+  {
+    "id": "anv-fixed-07-18-strawberry-rhubarb-wine-day-us",
+    "date": "07-18",
+    "dateType": "annual-fixed",
+    "name": "딸기 루바브 와인의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음료",
+      "와인",
+      "과일"
+    ],
+    "storytelling": {
+      "origin": "딸기와 루바브로 만드는 독특한 과일 와인을 기념하는 날이다.",
+      "anecdote": "포도가 아닌 과일로 만든 와인은 그 지역만의 독특한 풍미를 담아내는 경우가 많다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "포도 아닌 와인이라니, 의외로 신선한 그 발상"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-strawberry-rhubarb-wine-day-july-18/"
+  },
+  {
+    "id": "anv-fixed-07-18-woodie-wagon-day-us",
+    "date": "07-18",
+    "dateType": "annual-fixed",
+    "name": "우디 왜건의 날",
+    "category": "commemorative",
+    "tags": [
+      "미국",
+      "자동차",
+      "레트로"
+    ],
+    "storytelling": {
+      "origin": "나무 패널로 차체를 장식한 클래식 자동차, 우디 왜건을 기념하는 날이다.",
+      "anecdote": "1930~50년대 인기를 끌었던 디자인으로, 해변 문화와 서핑 보드를 떠올리게 하는 레트로 아이콘이 됐다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "차에 서핑보드 싣고 다니는 그 시절 감성, 지금 봐도 멋스럽다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-woodie-wagon-day-july-18/"
+  },
+  {
+    "id": "anv-fixed-07-18-caviar-day-us",
+    "date": "07-18",
+    "dateType": "annual-fixed",
+    "name": "캐비어의 날 (National Caviar Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "고급식재료"
+    ],
+    "storytelling": {
+      "origin": "철갑상어의 알로 만드는 최고급 식재료, 캐비어를 기념하는 날이다.",
+      "anecdote": "한 스푼의 가격이 상당할 만큼 희귀하고 고급스러운 식재료로, 특별한 날의 상징으로 여겨진다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한 스푼 가격 보고 놀라면서도 한 번쯤 먹어보고 싶은 그 욕망"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-caviar-day-july-18/"
+  },
+  {
+    "id": "anv-fixed-07-18-toss-away-the-could-haves-and-should-haves-day-us",
+    "date": "07-18",
+    "dateType": "annual-fixed",
+    "name": "후회를 떠나보내는 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "위로"
+    ],
+    "storytelling": {
+      "origin": "\"그때 그랬더라면\"이라는 후회와 미련을 떠나보내고 앞으로 나아가자는 취지의 날이다.",
+      "anecdote": "지나간 선택을 곱씹는 것보다 지금의 선택에 집중하는 게 더 건강한 마음가짐이라는 메시지를 담고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "\"그때 샀어야 했는데\" 그 후회, 오늘만큼은 내려놓기로 한다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-toss-away-the-could-haves-and-should-haves-day-july-18/"
+  },
+  {
+    "id": "anv-fixed-07-19-daiquiri-day-us",
+    "date": "07-19",
+    "dateType": "annual-fixed",
+    "name": "다이키리의 날 (National Daiquiri Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "칵테일",
+      "음료",
+      "여름"
+    ],
+    "storytelling": {
+      "origin": "럼과 라임주스로 만드는 시원한 칵테일, 다이키리를 기념하는 날이다.",
+      "anecdote": "쿠바에서 유래한 이 칵테일은 얼음을 갈아 넣은 프로즌 다이키리로도 즐겨 마신다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "프로즌 다이키리 한 잔이면 더위가 싹 사라지는 그 청량함"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-daiquiri-day-july-19/"
+  },
+  {
+    "id": "anv-fixed-07-20-lollipop-day-us",
+    "date": "07-20",
+    "dateType": "annual-fixed",
+    "name": "롤리팝의 날 (National Lollipop Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "간식",
+      "사탕"
+    ],
+    "storytelling": {
+      "origin": "막대에 꽂은 동그란 사탕, 롤리팝을 기념하는 날이다.",
+      "anecdote": "다양한 색과 맛으로 어린이들에게 특히 사랑받는 간식으로, 영화나 만화에도 자주 등장하는 친숙한 소재다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "다 먹을 때까지 색이 몇 번이나 바뀌는지 구경하는 그 재미"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-lollipop-day-july-20/"
+  },
+  {
+    "id": "anv-fixed-07-20-get-out-of-the-dog-house-day-us",
+    "date": "07-20",
+    "dateType": "annual-fixed",
+    "name": "화해의 날 (National Get Out of the Dog House Day)",
+    "category": "romance",
+    "tags": [
+      "전세계",
+      "연인",
+      "화해",
+      "이색기념일"
+    ],
+    "storytelling": {
+      "origin": "다투고 서먹해진 연인이나 가족과 화해할 기회를 주는 날이다. 'In the doghouse'는 미운털이 박혔다는 뜻의 관용구다.",
+      "anecdote": "자존심 싸움 중이던 관계도 작은 사과 한마디로 풀릴 수 있다는 메시지를 담고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "먼저 미안하다고 말하는 사람이 결국 더 큰 사람"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-get-out-of-the-dog-house-day-july-20/"
+  },
+  {
+    "id": "anv-fixed-07-21-junk-food-day-us",
+    "date": "07-21",
+    "dateType": "annual-fixed",
+    "name": "정크푸드의 날 (National Junk Food Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "간식"
+    ],
+    "storytelling": {
+      "origin": "건강식이 아니지만 끊을 수 없는 매력의 정크푸드를 부담 없이 즐겨보자는 날이다.",
+      "anecdote": "가끔은 칼로리 걱정 내려놓고 좋아하는 음식을 마음껏 먹는 것도 정신 건강에 도움이 된다는 우스갯소리도 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "오늘만큼은 칼로리 계산 안 하기로 다짐하는 그 결심"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-junk-food-day-july-21/"
+  },
+  {
+    "id": "anv-fixed-07-22-rat-catchers-day-us",
+    "date": "07-22",
+    "dateType": "annual-fixed",
+    "name": "쥐잡이의 날 (National Rat Catcher's Day)",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "역사",
+      "민담"
+    ],
+    "storytelling": {
+      "origin": "독일 전설 '피리 부는 사나이' 이야기에서 유래한 날로, 도시의 쥐 문제를 해결하던 직업을 유쾌하게 기념한다.",
+      "anecdote": "오늘날에는 해충 방제업이 그 역할을 대신하고 있지만, 옛이야기 속 신비로운 사나이의 이미지는 여전히 매력적이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "피리 하나로 쥐도, 아이들도 다 따라가게 만든 그 신비한 능력"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-rat-catchers-day-july-22/"
+  },
+  {
+    "id": "anv-fixed-07-22-penuche-fudge-day-us",
+    "date": "07-22",
+    "dateType": "annual-fixed",
+    "name": "페누체 퍼지의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트"
+    ],
+    "storytelling": {
+      "origin": "갈색설탕과 버터로 만드는 캐러멜 풍미의 퍼지, 페누체를 기념하는 날이다.",
+      "anecdote": "초콜릿이 들어가지 않아도 깊고 진한 단맛을 내는 디저트로, 마니아층이 두텁다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "초콜릿 없이도 이렇게 진한 단맛이 가능하다는 그 놀라움"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-penuche-fudge-day-july-22/"
+  },
+  {
+    "id": "anv-fixed-07-22-hammock-day-us",
+    "date": "07-22",
+    "dateType": "annual-fixed",
+    "name": "해먹의 날 (National Hammock Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "휴식",
+      "여름",
+      "레저"
+    ],
+    "storytelling": {
+      "origin": "나무 사이에 매달아 늘어지는 그물침대, 해먹에서 여유를 즐기자는 취지의 날이다.",
+      "anecdote": "흔들거리는 해먹 위에서 보내는 시간은 더위와 스트레스를 동시에 잊게 해주는 작은 휴식이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "눕는 순간 모든 계획이 무산되는 그 압도적인 편안함"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-hammock-day-july-22/"
+  },
+  {
+    "id": "anv-fixed-07-23-refreshment-day-us",
+    "date": "07-23",
+    "dateType": "annual-fixed",
+    "name": "리프레시먼트의 날 (National Refreshment Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음료",
+      "여름",
+      "이색기념일"
+    ],
+    "storytelling": {
+      "origin": "더운 날 시원한 음료로 활력을 되찾자는 취지의 날이다.",
+      "anecdote": "차갑고 시원한 음료 한 잔이 주는 청량감은 그 어떤 보양식보다 즉각적인 효과를 준다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한여름 시원한 음료 한 잔의 행복, 그 단순함이 진리"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-refreshment-day-july-23/"
+  },
+  {
+    "id": "anv-fixed-07-23-vanilla-ice-cream-day-us",
+    "date": "07-23",
+    "dateType": "annual-fixed",
+    "name": "바닐라 아이스크림의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "아이스크림"
+    ],
+    "storytelling": {
+      "origin": "가장 기본이지만 가장 사랑받는 아이스크림 맛, 바닐라를 기념하는 날이다.",
+      "anecdote": "다른 토핑이나 디저트와 가장 잘 어우러지는 '베이스' 맛으로, 의외로 까다로운 향료 작업이 필요한 맛이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "심심한 맛이라고 무시당하다가도 결국 가장 잘 팔리는 그 반전"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-vanilla-ice-cream-day-july-23/"
+  },
+  {
+    "id": "anv-fixed-07-24-drive-thru-day-us",
+    "date": "07-24",
+    "dateType": "annual-fixed",
+    "name": "드라이브스루의 날 (National Drive-Thru Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "편의",
+      "자동차"
+    ],
+    "storytelling": {
+      "origin": "차 안에서 주문하고 음식을 받을 수 있는 드라이브스루 문화를 기념하는 날이다.",
+      "anecdote": "내리지 않고도 한 끼를 해결할 수 있는 편리함 덕분에 패스트푸드 업계의 필수 시스템으로 자리잡았다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "주문 다 했는데 갑자기 생각나서 다시 마이크에 외치는 그 추가 메뉴"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-drive-thru-day-july-24/"
+  },
+  {
+    "id": "anv-fixed-07-24-cousins-day-us",
+    "date": "07-24",
+    "dateType": "annual-fixed",
+    "name": "사촌의 날 (National Cousins Day)",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "가족",
+      "이색기념일"
+    ],
+    "storytelling": {
+      "origin": "어릴 적 명절이나 가족 모임에서 함께 자란 사촌과의 추억을 기념하는 날이다.",
+      "anecdote": "형제처럼 가깝지만 또 다른 매력이 있는 사촌 관계는 어느 문화에서나 특별한 의미를 갖는다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "명절마다 만나는 사촌이랑은 또래라는 이유만으로 바로 친해지는 그 신비함"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-cousins-day-july-24/"
+  },
+  {
+    "id": "anv-fixed-07-24-thermal-engineer-day-us",
+    "date": "07-24",
+    "dateType": "annual-fixed",
+    "name": "열공학자의 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "과학",
+      "공학"
+    ],
+    "storytelling": {
+      "origin": "냉난방, 발전 시스템 등 열에너지를 다루는 열공학자들의 역할을 기리는 날이다.",
+      "anecdote": "에어컨이나 보일러처럼 일상에서 당연하게 누리는 온도 조절 기술 뒤에는 정밀한 열공학이 자리하고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "여름철 에어컨 고마움을 느끼면서도 정작 누가 만든 기술인지는 모르는 그 무심함"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-thermal-engineer-day-july-24/"
+  },
+  {
+    "id": "anv-fixed-07-24-tequila-day-us",
+    "date": "07-24",
+    "dateType": "annual-fixed",
+    "name": "테킬라의 날 (National Tequila Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "주류",
+      "멕시코"
+    ],
+    "storytelling": {
+      "origin": "용설란(아가베)으로 만드는 멕시코 전통 증류주, 테킬라를 기념하는 날이다.",
+      "anecdote": "샷으로 즐기는 강렬한 첫인상부터 마르가리타 같은 칵테일까지 다양하게 활용되는 술이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "소금과 라임 없이는 절대 마실 수 없다는 그 의식 같은 절차"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-tequila-day-july-24/"
+  },
+  {
+    "id": "anv-fixed-07-25-threading-the-needle-day-us",
+    "date": "07-25",
+    "dateType": "annual-fixed",
+    "name": "바늘에 실 꿰는 날",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "집안일",
+      "유머"
+    ],
+    "storytelling": {
+      "origin": "바느질의 첫 단계이자 가장 까다로운 작업, 바늘에 실 꿰기를 유쾌하게 기념하는 날이다.",
+      "anecdote": "눈을 한참 찡그리며 실을 꿰다 보면 작은 성취감마저 느껴지는 의외로 섬세한 작업이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "실 한 번에 안 들어가면 괜히 더 승부욕이 차오르는 그 순간"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-threading-the-needle-day-july-25/"
+  },
+  {
+    "id": "anv-fixed-07-25-culinarians-day-us",
+    "date": "07-25",
+    "dateType": "annual-fixed",
+    "name": "요리사의 날 (National Culinarian's Day)",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "직업",
+      "요리",
+      "감사"
+    ],
+    "storytelling": {
+      "origin": "맛있는 음식을 만드는 요리사들의 창의력과 노고를 기리는 날이다.",
+      "anecdote": "주방의 뜨거운 열기 속에서도 정교한 손맛을 빚어내는 요리사들의 작업은 예술의 영역에 가깝다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "맛있다는 말 한마디가 모든 고생을 보상해주는 요리사들의 그 보람"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-culinarians-day-july-25/"
+  },
+  {
+    "id": "anv-fixed-07-25-day-of-the-cowboy-us",
+    "date": "07-25",
+    "dateType": "annual-fixed",
+    "name": "카우보이의 날 (National Day of the Cowboy)",
+    "category": "commemorative",
+    "tags": [
+      "미국",
+      "역사",
+      "문화"
+    ],
+    "storytelling": {
+      "origin": "미국 서부 개척 시대의 상징적인 인물, 카우보이의 유산과 문화를 기리는 날이다.",
+      "anecdote": "말을 타고 소떼를 모는 카우보이의 이미지는 영화와 음악을 통해 전 세계적으로 친숙한 미국 문화의 아이콘이 됐다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "카우보이모자만 써도 괜히 허리에 손 얹게 되는 그 분위기"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-day-of-the-cowboy-july-25/"
+  },
+  {
+    "id": "anv-fixed-07-25-hot-fudge-sundae-day-us",
+    "date": "07-25",
+    "dateType": "annual-fixed",
+    "name": "핫퍼지 선데이의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "아이스크림"
+    ],
+    "storytelling": {
+      "origin": "따뜻한 초콜릿 퍼지 소스를 아이스크림에 듬뿍 부은 핫퍼지 선데이를 기념하는 날이다.",
+      "anecdote": "차가운 아이스크림과 뜨거운 소스의 온도 대비가 묘한 만족감을 준다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "차가운 것과 뜨거운 것의 만남, 그 온도차가 주는 짜릿함"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-hot-fudge-sundae-day-july-25/"
+  },
+  {
+    "id": "anv-fixed-07-25-merry-go-round-day-us",
+    "date": "07-25",
+    "dateType": "annual-fixed",
+    "name": "회전목마의 날 (National Merry-Go-Round Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "놀이",
+      "추억",
+      "놀이공원"
+    ],
+    "storytelling": {
+      "origin": "놀이공원의 클래식 놀이기구, 회전목마를 기념하는 날이다.",
+      "anecdote": "빠르지 않아도 은은한 음악과 조명만으로 동심을 자극하는 매력적인 놀이기구다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "어른이 돼서 타도 묘하게 설레는 그 회전목마의 마법"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-merry-go-round-day-july-25/"
+  },
+  {
+    "id": "anv-fixed-07-26-aunt-and-uncles-day-us",
+    "date": "07-26",
+    "dateType": "annual-fixed",
+    "name": "고모·삼촌의 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "가족",
+      "감사"
+    ],
+    "storytelling": {
+      "origin": "조카에게 또 하나의 사랑과 지지를 주는 고모·이모·삼촌·외삼촌들에게 감사를 전하는 날이다.",
+      "anecdote": "부모만큼 엄격하지 않으면서도 늘 응원해주는 존재로, 조카들에게는 특별한 의지처가 되어준다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "용돈 잘 주는 그 친척이 명절마다 제일 반가운 이유"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-aunt-and-uncles-day-july-26/"
+  },
+  {
+    "id": "anv-fixed-07-26-bagelfest-day-us",
+    "date": "07-26",
+    "dateType": "annual-fixed",
+    "name": "베이글 축제의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "베이커리"
+    ],
+    "storytelling": {
+      "origin": "다양한 토핑과 스프레드로 즐기는 베이글을 기념하는 날이다.",
+      "anecdote": "크림치즈를 듬뿍 발라 먹는 베이글은 간단하면서도 든든한 아침 식사로 사랑받는다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "베이글 가운데 구멍, 들고 다니기 편하라고 만든 거라는 그 실용성"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-bagelfest-day-july-26/"
+  },
+  {
+    "id": "anv-fixed-07-26-coffee-milkshake-day-us",
+    "date": "07-26",
+    "dateType": "annual-fixed",
+    "name": "커피 밀크셰이크의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음료",
+      "커피",
+      "디저트"
+    ],
+    "storytelling": {
+      "origin": "커피와 아이스크림을 함께 블렌딩한 커피 밀크셰이크를 기념하는 날이다.",
+      "anecdote": "커피의 쌉싸름함과 아이스크림의 부드러움이 만나 디저트와 음료의 경계를 허무는 메뉴다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "커피인지 디저트인지 헷갈리지만 결국 둘 다 만족하는 그 한 잔"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-coffee-milkshake-day-july-26/"
+  },
+  {
+    "id": "anv-fixed-07-27-scotch-day-us",
+    "date": "07-27",
+    "dateType": "annual-fixed",
+    "name": "스카치 위스키의 날 (National Scotch Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "주류",
+      "스코틀랜드"
+    ],
+    "storytelling": {
+      "origin": "스코틀랜드 전통 증류 방식으로 만드는 위스키, 스카치를 기념하는 날이다.",
+      "anecdote": "오크통에서 오랜 시간 숙성되며 만들어지는 깊고 스모키한 풍미가 특징이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한 잔만 마셔도 괜히 신사가 된 것 같은 그 분위기"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-scotch-day-july-27/"
+  },
+  {
+    "id": "anv-fixed-07-27-creme-brulee-day-us",
+    "date": "07-27",
+    "dateType": "annual-fixed",
+    "name": "크렘 브륄레의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "프랑스"
+    ],
+    "storytelling": {
+      "origin": "부드러운 커스터드 위에 캐러멜화된 설탕층을 더한 프랑스 디저트, 크렘 브륄레를 기념하는 날이다.",
+      "anecdote": "숟가락으로 표면을 깨뜨릴 때의 그 '톡' 소리가 이 디저트의 가장 큰 즐거움 중 하나다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "숟가락 톡 깨뜨리는 그 소리만으로도 절반은 만족하는 디저트"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-creme-brulee-day-july-27/"
+  },
+  {
+    "id": "anv-fixed-07-28-milk-chocolate-day-us",
+    "date": "07-28",
+    "dateType": "annual-fixed",
+    "name": "밀크초콜릿의 날 (National Milk Chocolate Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "초콜릿"
+    ],
+    "storytelling": {
+      "origin": "부드럽고 달콤한 밀크초콜릿을 기념하는 날이다.",
+      "anecdote": "다크초콜릿보다 부드럽고 친근한 맛으로, 어린이부터 어른까지 가장 폭넓게 사랑받는 초콜릿 종류다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "다크냐 밀크냐, 그 영원한 초콜릿 취향 논쟁"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-milk-chocolate-day-july-28/"
+  },
+  {
+    "id": "anv-fixed-07-29-lasagna-day-us",
+    "date": "07-29",
+    "dateType": "annual-fixed",
+    "name": "라자냐의 날 (National Lasagna Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "파스타",
+      "이탈리아"
+    ],
+    "storytelling": {
+      "origin": "넓은 면을 층층이 쌓아 치즈와 소스를 더한 이탈리아 요리, 라자냐를 기념하는 날이다.",
+      "anecdote": "오븐에서 구워 만드는 만큼 정성이 많이 들어가는 요리지만, 한 번 만들면 가족 모두가 만족하는 든든한 한 끼가 된다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "윗부분 치즈 그라탕 부분을 서로 가져가려는 그 눈치싸움"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-lasagna-day-july-29/"
+  },
+  {
+    "id": "anv-fixed-07-29-chicken-wing-day-us",
+    "date": "07-29",
+    "dateType": "annual-fixed",
+    "name": "치킨윙의 날 (National Chicken Wing Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "치킨",
+      "간식"
+    ],
+    "storytelling": {
+      "origin": "매콤하거나 짭짤한 소스로 즐기는 치킨윙을 기념하는 날이다.",
+      "anecdote": "스포츠 경기를 보며 즐기는 단골 안주로, 다양한 소스로 변신하며 끊임없는 인기를 누리고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "뼈만 남을 때까지 깨끗하게 발라먹는 그 집중력"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-chicken-wing-day-july-29/"
+  },
+  {
+    "id": "anv-fixed-07-30-father-in-law-day-us",
+    "date": "07-30",
+    "dateType": "annual-fixed",
+    "name": "장인·시아버지의 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "가족",
+      "감사"
+    ],
+    "storytelling": {
+      "origin": "배우자의 아버지, 장인·시아버지와의 관계를 기리는 날이다.",
+      "anecdote": "처음엔 어색하고 긴장되던 사이도 시간이 지나며 든든한 가족이 되어가는 경우가 많다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "처음엔 그렇게 어색했는데 지금은 제일 편한 술친구가 된 그 사이"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-father-in-law-day-july-30/"
+  },
+  {
+    "id": "anv-fixed-07-30-cheesecake-day-us",
+    "date": "07-30",
+    "dateType": "annual-fixed",
+    "name": "치즈케이크의 날 (National Cheesecake Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트"
+    ],
+    "storytelling": {
+      "origin": "부드럽고 진한 크림치즈로 만드는 치즈케이크를 기념하는 날이다.",
+      "anecdote": "뉴욕 스타일부터 바스크 스타일까지, 지역마다 다른 매력을 가진 치즈케이크가 존재한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한 조각만 먹기로 했는데 결국 한 판 다 비우는 그 흔한 다짐"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-cheesecake-day-july-30/"
+  },
+  {
+    "id": "anv-fixed-07-30-chili-dog-day-us",
+    "date": "07-30",
+    "dateType": "annual-fixed",
+    "name": "칠리도그의 날 (National Chili Dog Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "간식"
+    ],
+    "storytelling": {
+      "origin": "핫도그에 칠리 소스를 듬뿍 올린 칠리도그를 기념하는 날이다.",
+      "anecdote": "매콤하고 진한 소스가 핫도그의 풍미를 한층 끌어올려주는 인기 메뉴다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "소스가 흘러내릴 걸 알면서도 한 입 크게 베어무는 그 용기"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-chili-dog-day-july-30/"
+  },
+  {
+    "id": "anv-fixed-07-31-raspberry-cake-day-us",
+    "date": "07-31",
+    "dateType": "annual-fixed",
+    "name": "라즈베리 케이크의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "과일"
+    ],
+    "storytelling": {
+      "origin": "새콤달콤한 라즈베리를 넣어 구운 케이크를 기념하는 날이다.",
+      "anecdote": "라즈베리 특유의 산미가 케이크의 단맛과 균형을 이루며 산뜻한 맛을 낸다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "라즈베리 씨 씹히는 그 식감, 거부감보다는 매력으로 다가오는 맛"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-raspberry-cake-day-july-31/"
+  },
+  {
+    "id": "anv-fixed-07-31-mutt-day-us",
+    "date": "07-31",
+    "dateType": "annual-fixed",
+    "name": "믹스견의 날 (National Mutt Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "동물",
+      "반려동물",
+      "입양"
+    ],
+    "storytelling": {
+      "origin": "혈통이 섞인 믹스견(잡종견)의 매력을 알리고 입양을 독려하기 위해 제정된 날이다.",
+      "anecdote": "순종 못지않게 사랑스럽고, 오히려 더 건강한 경우가 많다는 게 전문가들의 의견이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "어떤 종이 섞였는지 맞춰보는 게 믹스견 키우는 재미 중 하나"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-mutt-day-july-31/"
+  },
+  {
+    "id": "anv-fixed-07-31-talk-in-an-elevator-day-us",
+    "date": "07-31",
+    "dateType": "annual-fixed",
+    "name": "엘리베이터에서 말 거는 날",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "이색기념일",
+      "유머"
+    ],
+    "storytelling": {
+      "origin": "보통은 침묵이 흐르는 엘리베이터 안에서 가볍게 인사나 대화를 나눠보자는 유쾌한 기념일이다.",
+      "anecdote": "낯선 사람과의 어색한 정적을 깨는 작은 시도가 의외의 즐거운 만남으로 이어질 수도 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "층수만 멍하니 쳐다보던 그 침묵, 오늘만큼은 깨볼까 고민되는 순간"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-talk-in-an-elevator-day-july-31/"
+  },
+  {
+    "id": "gov-37",
+    "date": "07-2-WED",
+    "dateType": "annual-nth-weekday",
+    "name": "정보보호의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 과학기술정보통신부, 행정안전부, 국가정보원. 7월 둘째 수요일. 국가 차원의 정보보호 역량을 결집하고, 국민의 정보보호 생활화를 촉진하는 행사를 한다.",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-nth-07-3-sun-ice-cream-day-us",
+    "date": "07-3-SUN",
+    "dateType": "annual-nth-weekday",
+    "name": "아이스크림의 날 (National Ice Cream Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "아이스크림"
+    ],
+    "storytelling": {
+      "origin": "매년 7월 셋째 일요일, 1984년 레이건 대통령이 공식 선포한 미국의 아이스크림 기념일이다.",
+      "anecdote": "한여름 무더위에 가장 즐겨 찾는 디저트인 아이스크림의 인기를 공식적으로 인정한 셈이다. 한국에서도 여름철 빙과류 소비가 절정에 달한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한 입 베어물자마자 머리가 띵해지는 그 순간조차 행복한 디저트"
+      }
+    ],
+    "sourceUrl": "ice-cream-day-us"
+  },
+  {
+    "id": "anv-nth-07-3-wed-hot-dog-day-us",
+    "date": "07-3-WED",
+    "dateType": "annual-nth-weekday",
+    "name": "핫도그의 날 (National Hot Dog Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "간식"
+    ],
+    "storytelling": {
+      "origin": "매년 7월 셋째 수요일, 미국 핫도그·소시지 협회가 지정한 핫도그 기념일이다.",
+      "anecdote": "야구장의 단골 간식으로 잘 알려진 핫도그는 케첩이냐 머스터드냐를 두고 끝나지 않는 논쟁을 만들어내기도 한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "케첩이냐 머스터드냐, 그 논쟁은 영원히 끝나지 않는다"
+      }
+    ],
+    "sourceUrl": "hot-dog-day-us"
+  },
+  {
+    "id": "anv-nth-07-4-sun-parents-day-us",
+    "date": "07-4-SUN",
+    "dateType": "annual-nth-weekday",
+    "name": "미국 부모님의 날 (National Parent's Day)",
+    "category": "commemorative",
+    "tags": [
+      "미국",
+      "가족",
+      "감사"
+    ],
+    "storytelling": {
+      "origin": "매년 7월 넷째 일요일, 부모로서의 책임과 헌신을 기리기 위해 1994년 미국 의회가 지정한 기념일이다.",
+      "anecdote": "어머니의 날, 아버지의 날과는 별도로 부모를 하나로 묶어 기념하는 취지로 만들어졌다. 한국의 어버이날과 비슷한 정서를 담고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "각각 챙기다가 결국 한 번 더 챙기게 되는 부모님, 그래도 기쁘게"
+      }
+    ],
+    "sourceUrl": "parents-day-us"
+  },
+  {
+    "id": "anv-nth-07-l-fri-system-administrator-appreciation-day-global",
+    "date": "07-L-FRI",
+    "dateType": "annual-nth-weekday",
+    "name": "시스템 관리자의 날 (SysAdmin Day)",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "IT",
+      "직업",
+      "감사"
+    ],
+    "storytelling": {
+      "origin": "매년 7월 마지막 금요일, 시스템이 멈추지 않도록 보이지 않는 곳에서 애쓰는 시스템 관리자들에게 감사를 전하기 위해 2000년 제정된 날이다.",
+      "anecdote": "서버가 멀쩡히 돌아갈 때는 존재감이 없지만, 장애가 나는 순간 가장 먼저 찾게 되는 사람들이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "평소엔 잊고 살다가 서버 터지면 제일 먼저 떠오르는 그 이름"
+      }
+    ],
+    "sourceUrl": "system-administrator-appreciation-day"
+  },
+  {
+    "id": "anv-nth-07-l-sat-dance-day-us",
+    "date": "07-L-SAT",
+    "dateType": "annual-nth-weekday",
+    "name": "댄스의 날 (National Dance Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "춤",
+      "문화",
+      "건강"
+    ],
+    "storytelling": {
+      "origin": "매년 7월 마지막 토요일, 춤을 통한 건강하고 즐거운 삶을 독려하기 위해 2010년 미국에서 제정한 날이다.",
+      "anecdote": "댄스는 전신 운동 효과는 물론 스트레스 해소에도 좋다는 점에서 전 세계적으로 추천되는 활동이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "아무도 안 보는 줄 알고 거실에서 춤추다 들킨 그 부끄러움"
+      }
+    ],
+    "sourceUrl": "dance-day"
+  }
+]

@@ -1,0 +1,2618 @@
+[
+  {
+    "id": "anv-fixed-12-01-day-of-giving-us",
+    "date": "12-01",
+    "dateType": "annual-fixed",
+    "name": "나눔의 날 (National Day of Giving)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "나눔",
+      "봉사"
+    ],
+    "storytelling": {
+      "origin": "연말을 맞아 어려운 이웃에게 작은 나눔을 실천해보자는 취지의 날이다.",
+      "anecdote": "한 해를 마무리하는 시기에 베푸는 나눔은 받는 사람뿐 아니라 주는 사람에게도 따뜻한 의미로 남는다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "연말 기부함에 동전 하나 넣을 때 느껴지는 그 작은 뿌듯함"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-day-of-giving-december-1/"
+  },
+  {
+    "id": "anv-fixed-12-01-rosa-parks-day-us",
+    "date": "12-01",
+    "dateType": "annual-fixed",
+    "name": "로자 파크스의 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "역사",
+      "인권"
+    ],
+    "storytelling": {
+      "origin": "1955년 12월 1일, 버스에서 백인에게 자리를 양보하라는 요구를 거부해 몽고메리 버스 보이콧 운동의 불씨가 된 로자 파크스를 기리는 날이다.",
+      "anecdote": "단 한 사람의 작은 거부가 미국 민권운동 전체를 움직이는 계기가 됐다는 점에서, 그녀의 행동은 지금도 전 세계 인권 교육에서 다뤄진다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "버스 좌석 하나에서 시작된 그 작은 거부가 역사를 바꿔놓았다"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-rosa-parks-day-december-1/"
+  },
+  {
+    "id": "anv-fixed-12-01-bifocals-monitor-liberation-day-us",
+    "date": "12-01",
+    "dateType": "annual-fixed",
+    "name": "모니터 앞 다초점 안경 해방의 날",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "건강",
+      "이색기념일",
+      "유머"
+    ],
+    "storytelling": {
+      "origin": "컴퓨터 화면을 오래 보는 사람들의 눈 건강과 적절한 안경 사용을 가볍게 환기하는 날이다.",
+      "anecdote": "화면과 책 사이를 오가며 초점을 자주 바꿔야 하는 다초점 안경 사용자들의 작은 불편함에서 비롯된 유쾌한 기념일이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "안경 너머로 화면 보려고 고개 들었다 내렸다 하는 그 흔한 동작"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-bifocals-monitor-liberation-day-december-1/"
+  },
+  {
+    "id": "anv-fixed-12-01-eat-a-red-apple-day-us",
+    "date": "12-01",
+    "dateType": "annual-fixed",
+    "name": "빨간 사과 먹는 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "과일",
+      "건강"
+    ],
+    "storytelling": {
+      "origin": "새콤달콤한 빨간 사과를 즐겨보자는 취지의 날이다.",
+      "anecdote": "\"하루 한 알 사과면 의사가 필요 없다\"는 속담처럼, 사과는 어디서나 건강식의 대표주자로 통한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "겨울 사과가 유독 더 달다고 느껴지는 그 계절감"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-eat-a-red-apple-day-december-1/"
+  },
+  {
+    "id": "anv-fixed-12-01-world-aids-day-global",
+    "date": "12-01",
+    "dateType": "annual-fixed",
+    "name": "세계 에이즈의 날 (World Aids Day)",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "건강",
+      "인식개선",
+      "UN"
+    ],
+    "storytelling": {
+      "origin": "1988년 WHO가 지정한 국제 기념일로, HIV/AIDS에 대한 인식을 높이고 환자에 대한 편견을 줄이기 위해 매년 기념한다.",
+      "anecdote": "치료제 발전으로 더 이상 불치병이 아니지만, 여전히 편견과 차별이 환자들을 힘들게 한다는 점을 일깨운다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "질병보다 무서운 건 여전히 남아있는 편견이라는 그 사실"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-world-aids-day-december-1/"
+  },
+  {
+    "id": "anv-fixed-12-01-day-without-art-day-global",
+    "date": "12-01",
+    "dateType": "annual-fixed",
+    "name": "예술 없는 날 (Day With(out) Art Day)",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "예술",
+      "인식개선",
+      "캠페인"
+    ],
+    "storytelling": {
+      "origin": "세계 에이즈의 날에 맞춰, 에이즈로 세상을 떠난 예술가들을 추모하고 인식을 높이기 위해 미술계가 시작한 캠페인 기념일이다.",
+      "anecdote": "갤러리와 미술관이 작품을 가리거나 추모 전시를 열며 동참하는 방식으로, 예술계의 연대를 보여주는 상징적인 날이 됐다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "비워진 자리로 오히려 더 크게 전해지는 그 묵직한 메시지"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-day-without-art-day-december-1/"
+  },
+  {
+    "id": "anv-fixed-12-01-pie-day-us",
+    "date": "12-01",
+    "dateType": "annual-fixed",
+    "name": "파이의 날 (National Pie Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트"
+    ],
+    "storytelling": {
+      "origin": "다양한 속재료로 변신하는 파이를 기념하는 날이다. 3월 14일 '세계 파이의 날'과 별개로 미국에서 따로 기념하는 날이다.",
+      "anecdote": "달콤한 디저트 파이부터 짭짤한 미트파이까지, 그 형태와 용도가 무궁무진한 음식이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "1년에 파이의 날이 두 번이라니, 그만큼 사랑받는다는 증거"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-pie-day-december-1/"
+  },
+  {
+    "id": "anv-fixed-12-02-abolition-of-slavery-day-global",
+    "date": "12-02",
+    "dateType": "annual-fixed",
+    "name": "노예제 폐지를 위한 국제 기념일",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "역사",
+      "인권",
+      "UN"
+    ],
+    "storytelling": {
+      "origin": "1949년 UN이 인신매매 금지 협약을 채택한 날을 기려 지정된 국제 기념일로, 현대판 노예제와 인신매매 문제에 대한 경각심을 일깨운다.",
+      "anecdote": "노예제는 과거의 일로만 여겨지기 쉽지만, 강제노동과 인신매매 형태로 여전히 존재한다는 사실을 일깨운다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "사라졌다고 믿었던 문제가 형태만 바꿔 여전히 남아있다는 그 경고"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-abolition-of-slavery-day-december-2/"
+  },
+  {
+    "id": "anv-fixed-12-02-rockefeller-center-tree-lighting-us",
+    "date": "12-02",
+    "dateType": "annual-fixed",
+    "name": "록펠러 센터 트리 점등 행사",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "크리스마스",
+      "축제",
+      "뉴욕"
+    ],
+    "storytelling": {
+      "origin": "뉴욕 록펠러 센터 앞에 거대한 크리스마스트리를 세우고 점등하는 연례 행사로, 1933년부터 이어진 미국의 대표적인 연말 전통이다.",
+      "anecdote": "전 세계로 생중계되며 뉴욕의 연말 분위기를 상징하는 장면으로 자리잡아, 직접 가보지 못해도 영상으로나마 설렘을 느끼는 사람이 많다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "트리 하나 켜는 데 그렇게 많은 사람이 환호하는 이유"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-rockefeller-center-tree-lighting-december-2/"
+  },
+  {
+    "id": "anv-fixed-12-02-special-education-day-global",
+    "date": "12-02",
+    "dateType": "annual-fixed",
+    "name": "특수교육의 날 (Special Education Day)",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "교육",
+      "인식개선"
+    ],
+    "storytelling": {
+      "origin": "모든 학생이 차별 없이 적절한 교육을 받을 권리를 기리는 날이다.",
+      "anecdote": "장애가 있는 학생들도 또래와 함께, 혹은 필요한 지원을 받으며 배울 수 있어야 한다는 인식이 전 세계적으로 확산되고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "배움의 기회는 누구에게나 평등해야 한다는 그 당연한 원칙"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-special-education-day-december-2/"
+  },
+  {
+    "id": "anv-fixed-12-02-fritters-day-us",
+    "date": "12-02",
+    "dateType": "annual-fixed",
+    "name": "프리터(튀김빵)의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "간식"
+    ],
+    "storytelling": {
+      "origin": "과일이나 채소를 반죽에 섞어 튀긴 프리터를 기념하는 날이다.",
+      "anecdote": "겉은 바삭하고 속은 촉촉한 식감이 매력으로, 나라마다 비슷한 튀김 간식이 존재한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "튀김류는 어느 나라에서도 사랑받을 수밖에 없는 그 보편적인 매력"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-fritters-day-december-2/"
+  },
+  {
+    "id": "anv-fixed-12-03-roof-over-your-head-day-us",
+    "date": "12-03",
+    "dateType": "annual-fixed",
+    "name": "머리 위 지붕에 감사하는 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "주거",
+      "감사",
+      "이색기념일"
+    ],
+    "storytelling": {
+      "origin": "추운 계절, 비바람을 막아주는 보금자리가 있다는 사실에 감사해보자는 날이다.",
+      "anecdote": "당연하게 여기던 지붕 하나가 누군가에게는 절실한 소망이라는 사실을 일깨운다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "겨울에 더 크게 다가오는 그 지붕 한 채의 고마움"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-roof-over-your-head-day-december-3/"
+  },
+  {
+    "id": "anv-fixed-12-03-persons-with-disabilities-day-global",
+    "date": "12-03",
+    "dateType": "annual-fixed",
+    "name": "세계 장애인의 날 (International Day of Persons With Disabilities)",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "인권",
+      "인식개선",
+      "UN"
+    ],
+    "storytelling": {
+      "origin": "1992년 UN이 지정한 국제 기념일로, 장애인의 권리와 사회 참여를 증진하기 위해 매년 기념한다.",
+      "anecdote": "장애는 다름일 뿐 결격이 아니라는 인식이 확산되며, 접근성 개선과 포용적인 사회를 향한 움직임이 이어지고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "다름을 장벽이 아닌 다양성으로 바라보는 그 시선의 변화"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-persons-with-disabilities-day-december-3/"
+  },
+  {
+    "id": "gov-55",
+    "date": "12-03",
+    "dateType": "annual-fixed",
+    "name": "소비자의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 공정거래 위원회. 소비자의 권리의식을 신장하고, 소비자보호에 관한 인식을 높이는 행사를 한다.",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-12-04-faux-fur-friday-global",
+    "date": "12-04",
+    "dateType": "annual-fixed",
+    "name": "인조 모피의 날 (Faux Fur Friday)",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "동물보호",
+      "패션",
+      "캠페인"
+    ],
+    "storytelling": {
+      "origin": "동물 학대 없이 만든 인조 모피를 선택하자는 취지로 동물보호 단체들이 시작한 캠페인성 기념일이다.",
+      "anecdote": "기술 발전으로 진짜 모피와 구분이 어려울 만큼 정교한 인조 모피가 많아지면서, 패션과 윤리를 함께 고민하는 흐름을 보여준다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "따뜻함은 그대로, 죄책감은 빼는 그 합리적인 선택"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-faux-fur-friday-december-4/"
+  },
+  {
+    "id": "anv-fixed-12-04-dice-day-us",
+    "date": "12-04",
+    "dateType": "annual-fixed",
+    "name": "주사위의 날 (National Dice Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "게임",
+      "보드게임"
+    ],
+    "storytelling": {
+      "origin": "보드게임과 도박 게임에 빠지지 않는 도구, 주사위를 기념하는 날이다.",
+      "anecdote": "단순한 정육면체 하나가 게임의 우연성과 긴장감을 만들어낸다는 점에서 오랜 세월 사랑받아온 도구다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "굴리기 전 잠깐의 긴장, 그 짧은 순간이 게임의 진짜 재미"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-dice-day-december-4/"
+  },
+  {
+    "id": "anv-fixed-12-04-cookie-day-us",
+    "date": "12-04",
+    "dateType": "annual-fixed",
+    "name": "쿠키의 날 (National Cookie Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "베이킹"
+    ],
+    "storytelling": {
+      "origin": "바삭하거나 쫀득한 다양한 쿠키를 기념하는 날로, 연말 베이킹 시즌과도 잘 어울리는 날이다.",
+      "anecdote": "초콜릿칩, 오트밀, 생강과자까지 종류가 무궁무진해 취향대로 골라 먹는 재미가 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한 봉지 다 먹어도 다음 날 또 손이 가는 그 중독성"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-cookie-day-december-4/"
+  },
+  {
+    "id": "anv-fixed-12-05-volunteer-day-global",
+    "date": "12-05",
+    "dateType": "annual-fixed",
+    "name": "국제 자원봉사자의 날 (International Volunteer Day for Economic and Social Development)",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "봉사",
+      "UN",
+      "나눔"
+    ],
+    "storytelling": {
+      "origin": "1985년 UN이 지정한 국제 기념일로, 사회와 경제 발전을 위해 헌신하는 자원봉사자들의 노고를 기리는 날이다.",
+      "anecdote": "보상 없이도 자발적으로 나서는 손길들이 모여 공동체를 더 단단하게 만든다는 사실을 일깨운다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "대가 없이 내미는 손이 가장 오래 기억에 남는다는 그 진리"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-volunteer-day-december-5/"
+  },
+  {
+    "id": "anv-fixed-12-05-rhubarb-vodka-day-us",
+    "date": "12-05",
+    "dateType": "annual-fixed",
+    "name": "루바브 보드카의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음료",
+      "칵테일"
+    ],
+    "storytelling": {
+      "origin": "새콤한 루바브로 향을 낸 보드카를 즐겨보자는 날이다.",
+      "anecdote": "디저트에 주로 쓰이는 루바브가 칵테일 재료로도 활용된다는 점에서, 의외의 조합이 만들어내는 매력을 보여준다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "디저트인 줄 알았던 재료가 술이 되어 돌아오는 그 반전"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-rhubarb-vodka-day-december-5/"
+  },
+  {
+    "id": "gov-56",
+    "date": "12-05",
+    "dateType": "annual-fixed",
+    "name": "무역의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 산업통상부. 무역의 균형적 발전과 무역입국(貿易立國) 의 의지를 다짐하는 행사를 한다.",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-12-05-ninja-day-global",
+    "date": "12-05",
+    "dateType": "annual-fixed",
+    "name": "세계 닌자의 날 (International Ninja Day)",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "문화",
+      "팝컬처"
+    ],
+    "storytelling": {
+      "origin": "그림자처럼 움직이는 닌자의 문화적 매력을 기념하는 날이다.",
+      "anecdote": "일본의 역사적 존재였던 닌자는 이제 영화와 게임을 통해 전 세계적인 팝컬처 아이콘으로 자리잡았다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "은밀하게 움직인다면서 정작 가장 눈에 띄는 그 존재감"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-ninja-day-december-5/"
+  },
+  {
+    "id": "anv-fixed-12-05-bathtub-party-day-global",
+    "date": "12-05",
+    "dateType": "annual-fixed",
+    "name": "욕조 파티의 날 (Bathtub Party Day)",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "휴식",
+      "유머",
+      "이색기념일"
+    ],
+    "storytelling": {
+      "origin": "거품 가득한 욕조에 몸을 담그고 여유를 즐겨보자는 가벼운 기념일이다.",
+      "anecdote": "추운 겨울, 따뜻한 물에 몸을 담그는 것만큼 간단하면서도 확실한 힐링법도 드물다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "욕조에 들어가는 순간 모든 고민이 잠시 멈추는 그 마법"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-bathtub-party-day-december-5/"
+  },
+  {
+    "id": "anv-fixed-12-05-sacher-torte-day-us",
+    "date": "12-05",
+    "dateType": "annual-fixed",
+    "name": "자허토르테의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "오스트리아"
+    ],
+    "storytelling": {
+      "origin": "오스트리아 빈을 대표하는 초콜릿 케이크, 자허토르테를 기념하는 날이다.",
+      "anecdote": "살구잼을 사이에 넣고 초콜릿으로 코팅한 묵직한 풍미가 특징으로, 빈을 여행하면 꼭 맛봐야 할 디저트로 꼽힌다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한 조각만 먹어도 묵직하게 채워지는 그 진한 초콜릿의 힘"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-sacher-torte-day-december-5/"
+  },
+  {
+    "id": "anv-fixed-12-06-gazpacho-day-us",
+    "date": "12-06",
+    "dateType": "annual-fixed",
+    "name": "가스파초의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "스페인",
+      "수프"
+    ],
+    "storytelling": {
+      "origin": "차갑게 먹는 토마토 수프, 가스파초를 기념하는 날이다.",
+      "anecdote": "스페인 안달루시아 지역에서 더운 여름을 나기 위해 만들어진 음식이지만, 이제는 전 세계적으로 사랑받는 메뉴가 됐다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "수프인데 차갑게 먹어야 제맛이라는 그 신선한 발상"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-gazpacho-day-december-6/"
+  },
+  {
+    "id": "anv-fixed-12-06-st-nicholas-day-global",
+    "date": "12-06",
+    "dateType": "annual-fixed",
+    "name": "성 니콜라스의 날 (St. Nicholas Day)",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "유럽",
+      "전통",
+      "역사"
+    ],
+    "storytelling": {
+      "origin": "어려운 이들을 몰래 도왔던 4세기 주교 성 니콜라스를 기리는 날로, 네덜란드와 독일 등 유럽 여러 나라에서 아이들이 신발이나 양말에 선물을 받는 전통으로 이어진다.",
+      "anecdote": "이 성인의 이야기가 훗날 산타클로스 전설의 원형이 됐다는 점에서, 크리스마스 문화의 뿌리를 엿볼 수 있는 날이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "산타클로스 이야기의 시작점이 여기 있었다는 그 흥미로운 사실"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-st-nicholas-day-december-6/"
+  },
+  {
+    "id": "anv-fixed-12-06-pawnbrokers-day-us",
+    "date": "12-06",
+    "dateType": "annual-fixed",
+    "name": "전당업자의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "역사",
+      "직업"
+    ],
+    "storytelling": {
+      "origin": "오랜 역사를 가진 직업인 전당업자들을 기리는 날이다.",
+      "anecdote": "급전이 필요할 때 물건을 맡기고 돈을 빌려주는 전당업은 은행이 보편화되기 전부터 존재해온 금융의 원형이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "은행보다 먼저 있었던 그 오래된 금융업의 정체"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-pawnbrokers-day-december-6/"
+  },
+  {
+    "id": "anv-fixed-12-06-microwave-oven-day-global",
+    "date": "12-06",
+    "dateType": "annual-fixed",
+    "name": "전자레인지의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "주방",
+      "발명",
+      "역사"
+    ],
+    "storytelling": {
+      "origin": "현대 주방의 필수품, 전자레인지의 발명을 기념하는 날이다.",
+      "anecdote": "1945년 레이더 연구 중 우연히 발견된 마이크로파의 가열 효과가 오늘날 전 세계 주방 풍경을 바꿔놓았다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "3분이면 따뜻한 밥 한 끼가 완성되는 그 놀라운 발명"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-microwave-oven-day-december-6/"
+  },
+  {
+    "id": "anv-fixed-12-07-civil-aviation-day-global",
+    "date": "12-07",
+    "dateType": "annual-fixed",
+    "name": "국제 민간항공의 날 (International Civil Aviation Day)",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "항공",
+      "UN"
+    ],
+    "storytelling": {
+      "origin": "1944년 국제민간항공기구(ICAO) 설립을 기념해 UN이 지정한 국제 기념일이다.",
+      "anecdote": "전 세계를 안전하게 연결하는 항공 산업의 발전과 국제 협력의 중요성을 일깨운다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "하늘길 하나로 지구 반대편이 한나절 거리가 됐다는 그 변화"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-civil-aviation-day-december-7/"
+  },
+  {
+    "id": "anv-fixed-12-07-cotton-candy-day-us",
+    "date": "12-07",
+    "dateType": "annual-fixed",
+    "name": "솜사탕의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "간식",
+      "축제"
+    ],
+    "storytelling": {
+      "origin": "설탕을 실처럼 뽑아 만드는 솜사탕을 기념하는 날이다.",
+      "anecdote": "놀이공원이나 축제에서 빠지지 않는 간식으로, 구름처럼 부풀어 오른 모양 자체가 동심을 자극한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "입에 넣는 순간 사라지는 그 달콤한 마법"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-cotton-candy-day-december-7/"
+  },
+  {
+    "id": "anv-fixed-12-07-pearl-harbor-remembrance-day-us",
+    "date": "12-07",
+    "dateType": "annual-fixed",
+    "name": "진주만 추모의 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "역사",
+      "제2차세계대전",
+      "추모"
+    ],
+    "storytelling": {
+      "origin": "1941년 12월 7일 일본의 진주만 기습으로 희생된 이들을 추모하는 날이다.",
+      "anecdote": "이 사건은 미국이 제2차 세계대전에 본격적으로 참전하는 계기가 됐으며, 세계사의 흐름을 바꾼 분기점으로 평가된다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한 번의 기습이 전 세계 전쟁의 양상을 바꿔놓았다는 그 무게"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-pearl-harbor-remembrance-day-december-7/"
+  },
+  {
+    "id": "anv-fixed-12-08-brownie-day-us",
+    "date": "12-08",
+    "dateType": "annual-fixed",
+    "name": "브라우니의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "초콜릿"
+    ],
+    "storytelling": {
+      "origin": "진한 초콜릿 풍미의 사각 디저트, 브라우니를 기념하는 날이다.",
+      "anecdote": "케이크와 쿠키 사이 어딘가에 있는 독특한 질감 덕분에 전 세계적으로 꾸준히 사랑받는 디저트가 됐다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "겉은 바삭, 속은 촉촉해야 진짜라는 그 까다로운 기준"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-brownie-day-december-8/"
+  },
+  {
+    "id": "anv-fixed-12-08-time-traveler-day-global",
+    "date": "12-08",
+    "dateType": "annual-fixed",
+    "name": "타임트래블러인 척하는 날",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "유머",
+      "SF",
+      "이색기념일"
+    ],
+    "storytelling": {
+      "origin": "마치 시간여행자인 척하며 하루를 보내보자는 장난스러운 기념일이다.",
+      "anecdote": "공공장소에서 \"지금이 몇 년도냐\"고 묻는 등 가벼운 농담으로 즐기는 날로, SF 팬들 사이에서 특히 인기가 많다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "미래에서 왔다고 우겨도 아무도 안 믿어주는 그 현실"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-time-traveler-day-december-8/"
+  },
+  {
+    "id": "anv-fixed-12-09-anti-corruption-day-global",
+    "date": "12-09",
+    "dateType": "annual-fixed",
+    "name": "국제 반부패의 날 (International Anti-Corruption Day)",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "UN",
+      "사회",
+      "인식개선"
+    ],
+    "storytelling": {
+      "origin": "2003년 UN 반부패협약 채택을 기념해 지정된 국제 기념일로, 부패 없는 투명한 사회를 만들기 위한 인식을 높인다.",
+      "anecdote": "부패는 한 나라만의 문제가 아니라 전 세계 신뢰와 공정성을 갉아먹는 공통의 과제라는 점을 일깨운다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "신뢰 하나 무너지면 회복하는 데 훨씬 오래 걸린다는 그 교훈"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-anti-corruption-day-december-9/"
+  },
+  {
+    "id": "anv-fixed-12-09-pastry-day-us",
+    "date": "12-09",
+    "dateType": "annual-fixed",
+    "name": "페이스트리의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "베이킹"
+    ],
+    "storytelling": {
+      "origin": "겹겹이 layer를 쌓아 만드는 페이스트리류 디저트를 기념하는 날이다.",
+      "anecdote": "크루아상부터 에클레르까지, 버터와 밀가루의 조합이 만들어내는 다채로운 변주가 매력이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한 겹 한 겹 부서질 때마다 느껴지는 그 바삭한 만족감"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-pastry-day-december-9/"
+  },
+  {
+    "id": "anv-fixed-12-10-nobel-prize-day-global",
+    "date": "12-10",
+    "dateType": "annual-fixed",
+    "name": "노벨상의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "과학",
+      "문화",
+      "역사"
+    ],
+    "storytelling": {
+      "origin": "알프레드 노벨의 기일에 맞춰 매년 스톡홀름과 오슬로에서 노벨상 시상식이 열리는 날이다.",
+      "anecdote": "다이너마이트 발명으로 부를 쌓았던 노벨이 인류 발전에 기여한 이들을 기리기 위해 유산을 기부하면서 시작된 상으로, 지금도 세계 최고 권위의 상으로 꼽힌다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "발명가의 유언장 한 줄이 만들어낸 세계 최고의 영예"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-nobel-prize-day-december-10/"
+  },
+  {
+    "id": "anv-fixed-12-10-dewey-decimal-system-day-global",
+    "date": "12-10",
+    "dateType": "annual-fixed",
+    "name": "듀이 십진분류법의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "도서관",
+      "역사",
+      "교육"
+    ],
+    "storytelling": {
+      "origin": "전 세계 도서관에서 책을 분류하는 듀이 십진분류법을 고안한 멜빌 듀이의 생일을 기념하는 날이다.",
+      "anecdote": "숫자 하나로 수많은 책 중 원하는 책을 정확히 찾아낼 수 있게 만든 이 체계는, 한국 도서관에서도 널리 쓰이고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "도서관에서 책 한 권 척척 찾아낼 때 새삼 고마운 그 분류번호"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-dewey-decimal-system-day-december-10/"
+  },
+  {
+    "id": "anv-fixed-12-10-human-rights-day-global",
+    "date": "12-10",
+    "dateType": "annual-fixed",
+    "name": "세계 인권의 날 (Human Rights Day)",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "인권",
+      "UN",
+      "역사"
+    ],
+    "storytelling": {
+      "origin": "1948년 UN이 세계인권선언을 채택한 날을 기념해 지정된 국제 기념일로, 모든 인간이 누려야 할 기본적 권리를 되새긴다.",
+      "anecdote": "전쟁의 폐허 속에서 다시는 같은 비극을 반복하지 않겠다는 다짐으로 만들어진 선언문이라는 점에서 더욱 의미가 깊다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "선언문 한 장이 지금까지도 인권의 기준이 되고 있다는 그 무게"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-human-rights-day-december-10/"
+  },
+  {
+    "id": "anv-fixed-12-11-noodle-ring-day-us",
+    "date": "12-11",
+    "dateType": "annual-fixed",
+    "name": "누들 링의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "파스타"
+    ],
+    "storytelling": {
+      "origin": "고리 모양으로 틀에 넣어 굽는 누들 캐서롤 요리를 기념하는 날이다.",
+      "anecdote": "면 요리를 디저트처럼 달게 만들거나, 식사용으로 짭짤하게 만드는 등 다양한 변형이 가능하다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "면을 틀에 넣고 구울 생각을 한 그 의외의 발상"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-noodle-ring-day-december-11/"
+  },
+  {
+    "id": "anv-fixed-12-11-mountain-day-global",
+    "date": "12-11",
+    "dateType": "annual-fixed",
+    "name": "세계 산의 날 (International Mountain Day)",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "자연",
+      "환경",
+      "UN"
+    ],
+    "storytelling": {
+      "origin": "2003년 UN이 지정한 국제 기념일로, 산이 인류와 생태계에 미치는 중요성을 알리기 위해 기념한다.",
+      "anecdote": "산은 식수와 생물 다양성의 보고이자 많은 사람들의 삶의 터전이라는 점에서, 보호의 필요성이 꾸준히 강조된다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "정상에 오를 때마다 새삼 느껴지는 그 거대한 존재감"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-mountain-day-december-11/"
+  },
+  {
+    "id": "anv-fixed-12-11-unicef-birthday-global",
+    "date": "12-11",
+    "dateType": "annual-fixed",
+    "name": "유니세프 창립일",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "아동",
+      "UN",
+      "나눔"
+    ],
+    "storytelling": {
+      "origin": "1946년 제2차 세계대전으로 고통받는 아동을 돕기 위해 설립된 유니세프(UNICEF)의 창립을 기념하는 날이다.",
+      "anecdote": "전쟁 직후 임시 구호기구로 출발했지만, 지금은 전 세계 아동의 생존과 보호를 위해 활동하는 대표적인 UN기구로 자리잡았다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "임시로 만들었던 기구가 80년 가까이 아이들을 지켜온 그 헌신"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-unicef-birthday-december-11/"
+  },
+  {
+    "id": "anv-fixed-12-12-ding-a-ling-day-us",
+    "date": "12-12",
+    "dateType": "annual-fixed",
+    "name": "딩어링의 날",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "유머",
+      "음악",
+      "이색기념일"
+    ],
+    "storytelling": {
+      "origin": "방울 소리처럼 경쾌한 것들을 기념하며 즐겁게 보내자는 가벼운 기념일이다.",
+      "anecdote": "특별한 유래보다는 듣기만 해도 웃음이 나는 이름 덕분에 꾸준히 언급되는 날이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "이름만 들어도 절로 웃음이 나는 그 유쾌함"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-ding-a-ling-day-december-12/"
+  },
+  {
+    "id": "anv-fixed-12-12-wreaths-across-america-day-us",
+    "date": "12-12",
+    "dateType": "annual-fixed",
+    "name": "미국 참전용사 리스 헌화의 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "추모",
+      "역사",
+      "군인"
+    ],
+    "storytelling": {
+      "origin": "연말에 참전용사들의 묘소에 리스를 놓아 그들의 희생을 기리는 추모 행사 기념일이다.",
+      "anecdote": "1992년 한 작은 화환 기부에서 시작된 이 추모 운동은, 이제 전국적인 규모로 확산된 자원봉사 전통이 됐다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "화환 하나에 담긴 마음이 전국적인 추모 문화로 자라난 그 과정"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-wreaths-across-america-day-december-12/"
+  },
+  {
+    "id": "anv-fixed-12-12-gingerbread-house-day-global",
+    "date": "12-12",
+    "dateType": "annual-fixed",
+    "name": "생강과자집의 날 (Gingerbread House Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "크리스마스",
+      "베이킹",
+      "전통"
+    ],
+    "storytelling": {
+      "origin": "생강과자로 집 모양을 만들어 장식하는 크리스마스 전통을 기념하는 날이다.",
+      "anecdote": "독일에서 시작된 이 전통은 헨젤과 그레텔 동화 속 과자집 이미지와 더해져 전 세계로 퍼졌다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "다 먹어버리기엔 너무 예쁘게 만들어버린 그 곤란함"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-gingerbread-house-day-december-12/"
+  },
+  {
+    "id": "anv-fixed-12-12-shareware-day-global",
+    "date": "12-12",
+    "dateType": "annual-fixed",
+    "name": "세계 셰어웨어의 날 (International Shareware Day)",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "IT",
+      "역사",
+      "소프트웨어"
+    ],
+    "storytelling": {
+      "origin": "누구나 자유롭게 써보고 마음에 들면 구매하는 셰어웨어 소프트웨어 문화를 기념하는 날이다.",
+      "anecdote": "초창기 인터넷 시대, 작은 개발자들이 자신의 소프트웨어를 알릴 수 있었던 중요한 유통 방식이었다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "써보고 결제하라는 그 신뢰 기반의 소프트웨어 유통법"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-shareware-day-december-12/"
+  },
+  {
+    "id": "anv-fixed-12-12-ambrosia-day-us",
+    "date": "12-12",
+    "dateType": "annual-fixed",
+    "name": "암브로시아의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "과일"
+    ],
+    "storytelling": {
+      "origin": "과일과 마시멜로, 코코넛 등을 섞어 만드는 디저트 샐러드, 암브로시아를 기념하는 날이다.",
+      "anecdote": "그리스 신화 속 신들의 음식에서 이름을 따온 만큼, 달콤하고 푸짐한 맛이 특징이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "신들의 음식이라는 이름값에 걸맞은 그 푸짐한 단맛"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-ambrosia-day-december-12/"
+  },
+  {
+    "id": "anv-fixed-12-12-poinsettia-day-global",
+    "date": "12-12",
+    "dateType": "annual-fixed",
+    "name": "포인세티아의 날 (Poinsettia Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "크리스마스",
+      "식물",
+      "전통"
+    ],
+    "storytelling": {
+      "origin": "빨갛고 푸른 잎이 크리스마스 분위기를 더해주는 식물, 포인세티아를 기념하는 날이다.",
+      "anecdote": "멕시코가 원산지인 이 식물은 미국 초대 멕시코 대사였던 포인셋의 이름을 따 널리 알려지게 됐다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "꽃처럼 보이는 그 빨간 부분이 사실은 잎이라는 반전"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-poinsettia-day-december-12/"
+  },
+  {
+    "id": "anv-fixed-12-13-day-of-the-horse-us",
+    "date": "12-13",
+    "dateType": "annual-fixed",
+    "name": "말의 날 (National Day Of The Horse)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "동물",
+      "역사",
+      "문화"
+    ],
+    "storytelling": {
+      "origin": "인류 역사와 오랫동안 함께해온 동물, 말을 기리는 날이다.",
+      "anecdote": "이동수단을 넘어 농업, 전쟁, 스포츠까지 다방면에서 인간과 함께해온 말의 기여를 되새긴다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "자동차가 없던 시절, 모든 이동의 기준이었던 그 존재"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-day-of-the-horse-december-13/"
+  },
+  {
+    "id": "anv-fixed-12-13-violin-day-global",
+    "date": "12-13",
+    "dateType": "annual-fixed",
+    "name": "바이올린의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음악",
+      "악기"
+    ],
+    "storytelling": {
+      "origin": "오케스트라의 중심을 이루는 악기, 바이올린을 기념하는 날이다.",
+      "anecdote": "작은 몸체에서 풍부하고 섬세한 음색을 만들어내는 바이올린은 클래식부터 대중음악까지 다양한 장르에서 활약한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "활 하나로 그렇게 많은 감정을 표현할 수 있다는 그 신비"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-violin-day-december-13/"
+  },
+  {
+    "id": "anv-fixed-12-13-pick-a-pathologist-pal-day-us",
+    "date": "12-13",
+    "dateType": "annual-fixed",
+    "name": "병리학자와 친구되는 날",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "의료",
+      "유머",
+      "직업"
+    ],
+    "storytelling": {
+      "origin": "현미경 너머에서 질병의 원인을 밝혀내는 병리학자들의 노고를 기리는 유쾌한 기념일이다.",
+      "anecdote": "환자를 직접 만나는 일은 적지만, 정확한 진단의 핵심을 담당하는 숨은 주역이 바로 병리학자다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "이름은 안 알려져도 진단서 뒤에는 늘 있었던 그 전문가"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-pick-a-pathologist-pal-day-december-13/"
+  },
+  {
+    "id": "anv-fixed-12-13-worldwide-candle-lighting-day-global",
+    "date": "12-13",
+    "dateType": "annual-fixed",
+    "name": "세계 촛불 추모의 날 (Worldwide Candle Lighting Day)",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "추모",
+      "가족"
+    ],
+    "storytelling": {
+      "origin": "먼저 떠난 아이들을 기억하며 전 세계가 같은 시각 촛불을 켜는 추모 행사 기념일이다.",
+      "anecdote": "시차에 따라 차례로 촛불이 켜지면서 24시간 동안 전 세계가 이어지는 빛의 물결을 만들어낸다는 점에서 상징성이 크다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "지구를 한 바퀴 도는 그 빛의 물결에 담긴 위로"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-worldwide-candle-lighting-day-december-13/"
+  },
+  {
+    "id": "anv-fixed-12-13-choral-day-global",
+    "date": "12-13",
+    "dateType": "annual-fixed",
+    "name": "세계 합창의 날 (World Choral Day)",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "음악",
+      "합창"
+    ],
+    "storytelling": {
+      "origin": "여러 목소리가 어우러져 만들어내는 합창의 아름다움을 기념하는 국제 기념일이다.",
+      "anecdote": "개인의 목소리만으로는 낼 수 없는 화음과 울림을 만들어낸다는 점에서, 협력과 조화의 가치를 음악으로 보여준다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "혼자서는 절대 낼 수 없는 그 풍성한 화음"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-choral-day-december-13/"
+  },
+  {
+    "id": "anv-fixed-12-13-cocoa-day-us",
+    "date": "12-13",
+    "dateType": "annual-fixed",
+    "name": "코코아의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "음료",
+      "겨울"
+    ],
+    "storytelling": {
+      "origin": "따뜻한 코코아 한 잔으로 추위를 녹이는 즐거움을 기념하는 날이다.",
+      "anecdote": "겨울철 대표 음료로, 마시멜로를 띄우거나 시나몬을 더하는 등 취향에 따라 다양하게 즐길 수 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한 손에 머그컵, 창밖엔 눈이 내려야 완벽해지는 그 풍경"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-cocoa-day-december-13/"
+  },
+  {
+    "id": "anv-fixed-12-14-bouillabaisse-day-us",
+    "date": "12-14",
+    "dateType": "annual-fixed",
+    "name": "부야베스의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "프랑스",
+      "해산물"
+    ],
+    "storytelling": {
+      "origin": "다양한 해산물을 넣고 끓이는 프랑스식 생선 스튜, 부야베스를 기념하는 날이다.",
+      "anecdote": "프랑스 마르세유 어부들이 팔리지 않은 생선을 활용해 만든 음식에서 시작돼, 지금은 고급 요리로 자리잡았다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "남은 재료로 시작했지만 결국 고급 요리가 된 그 반전"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-bouillabaisse-day-december-14/"
+  },
+  {
+    "id": "anv-fixed-12-14-monkey-day-global",
+    "date": "12-14",
+    "dateType": "annual-fixed",
+    "name": "원숭이의 날 (Monkey Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "동물",
+      "유머",
+      "이색기념일"
+    ],
+    "storytelling": {
+      "origin": "재치 있고 사회적인 동물, 원숭이를 기념하며 즐겁게 보내는 날이다.",
+      "anecdote": "미술학교 학생들의 장난스러운 낙서에서 시작됐다는 일화가 전해지며, 이제는 온라인을 통해 전 세계로 퍼진 기념일이 됐다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "장난으로 시작한 낙서가 정식 기념일이 된 그 유쾌한 전개"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-monkey-day-december-14/"
+  },
+  {
+    "id": "anv-fixed-12-14-hug-day-kr",
+    "date": "12-14",
+    "dateType": "annual-fixed",
+    "name": "허그데이",
+    "category": "quirky",
+    "tags": [
+      "대한민국",
+      "비공식기념일",
+      "포틴데이",
+      "포옹",
+      "겨울"
+    ],
+    "storytelling": {
+      "origin": "추운 겨울인 12월 14일, 연인이나 소중한 사람들과 따뜻하게 포옹(Hug)을 나누며 서로의 마음을 전하는 날이다.",
+      "anecdote": "이 시기가 되면 번화가에서 모르는 사람들에게 포옹을 해주는 '프리 허그(Free Hugs)' 캠페인을 하는 사람들을 심심치 않게 볼 수 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "오늘 춥지? 이리 와, 안아줄게."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/%ED%8F%AC%ED%8B%B4%EB%8D%B0%EC%9D%B4"
+  },
+  {
+    "id": "anv-fixed-12-15-cat-herders-day-global",
+    "date": "12-15",
+    "dateType": "annual-fixed",
+    "name": "고양이 몰이꾼의 날 (Cat Herders Day)",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "유머",
+      "고양이",
+      "이색기념일"
+    ],
+    "storytelling": {
+      "origin": "고양이처럼 제멋대로인 존재나 일을 다루는 어려움을 위로하는 유쾌한 기념일이다.",
+      "anecdote": "\"고양이 몰기\"라는 표현 자체가 통제 불가능한 일을 가리키는 영어 관용구에서 비롯됐다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "고양이도, 사람도, 마음대로 안 되는 건 똑같다는 그 위로"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-cat-herders-day-december-15/"
+  },
+  {
+    "id": "anv-fixed-12-15-bill-of-rights-day-us",
+    "date": "12-15",
+    "dateType": "annual-fixed",
+    "name": "권리장전의 날 (Bill of Rights Day)",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "역사",
+      "인권",
+      "법"
+    ],
+    "storytelling": {
+      "origin": "1791년 미국 헌법에 기본권을 명시한 수정헌법 10개 조항이 비준된 날을 기념하는 날이다.",
+      "anecdote": "표현의 자유, 신체의 자유 같은 권리를 법으로 명문화한 시도는 이후 여러 나라의 헌법에도 영향을 미쳤다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "종이 위 몇 줄이 수많은 사람의 자유를 지켜낸 그 힘"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-bill-of-rights-day-december-15/"
+  },
+  {
+    "id": "anv-fixed-12-15-cupcake-day-us",
+    "date": "12-15",
+    "dateType": "annual-fixed",
+    "name": "컵케이크의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "베이킹"
+    ],
+    "storytelling": {
+      "origin": "한 손에 들고 먹기 좋은 작은 케이크, 컵케이크를 기념하는 날이다.",
+      "anecdote": "크림으로 화려하게 장식할 수 있어 생일이나 파티 디저트로 특히 인기가 많다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한 입 크기인데 만족감은 케이크 한 판 못지않은 그 매력"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-cupcake-day-december-15/"
+  },
+  {
+    "id": "anv-fixed-12-16-chocolate-covered-anything-day-us",
+    "date": "12-16",
+    "dateType": "annual-fixed",
+    "name": "초콜릿 코팅의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "초콜릿"
+    ],
+    "storytelling": {
+      "origin": "딸기든 과자든, 무엇이든 초콜릿으로 입혀 먹어보자는 즐거운 날이다.",
+      "anecdote": "초콜릿 한 겹만 더해져도 평범한 간식이 특별한 디저트로 변신한다는 점에서 의외의 마법 같은 효과를 낸다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "뭘 입혀도 결국 초콜릿이 다 먹어버리는 그 존재감"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-chocolate-covered-anything-day-december-16/"
+  },
+  {
+    "id": "anv-fixed-12-17-wright-brothers-day-global",
+    "date": "12-17",
+    "dateType": "annual-fixed",
+    "name": "라이트 형제의 날 (Wright Brothers Day)",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "역사",
+      "발명",
+      "항공"
+    ],
+    "storytelling": {
+      "origin": "1903년 12월 17일, 라이트 형제가 인류 최초로 동력 비행에 성공한 날을 기념하는 날이다.",
+      "anecdote": "단 12초간의 짧은 비행이었지만, 이후 항공 산업 전체의 출발점이 됐다는 점에서 세계사적으로 중요한 순간이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "12초의 비행이 인류를 하늘로 데려간 그 시작"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-wright-brothers-day-december-17/"
+  },
+  {
+    "id": "anv-fixed-12-17-maple-syrup-day-us",
+    "date": "12-17",
+    "dateType": "annual-fixed",
+    "name": "메이플시럽의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "캐나다",
+      "디저트"
+    ],
+    "storytelling": {
+      "origin": "단풍나무 수액을 끓여 만드는 메이플시럽을 기념하는 날이다.",
+      "anecdote": "팬케이크나 와플에 곁들이는 것을 넘어, 베이킹과 요리에도 다양하게 활용되는 천연 단맛이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "나무에서 시럽이 나온다는 그 신기한 자연의 선물"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-maple-syrup-day-december-17/"
+  },
+  {
+    "id": "anv-fixed-12-17-re-gifting-day-us",
+    "date": "12-17",
+    "dateType": "annual-fixed",
+    "name": "선물 재활용의 날 (National Re-Gifting Day)",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "유머",
+      "선물",
+      "연말"
+    ],
+    "storytelling": {
+      "origin": "받았지만 쓰지 않는 선물을 다른 사람에게 다시 선물해보자는 가벼운 기념일이다.",
+      "anecdote": "연말 선물 시즌, 마음에 안 들어도 버리기엔 아까운 선물들의 행복한 재배치를 응원하는 날이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "누군가에겐 짐이었던 선물이 다른 누군가에겐 보물이 되는 그 순환"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-re-gifting-day-december-17/"
+  },
+  {
+    "id": "anv-fixed-12-18-ugly-christmas-sweater-day-global",
+    "date": "12-18",
+    "dateType": "annual-fixed",
+    "name": "못생긴 크리스마스 스웨터의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "크리스마스",
+      "패션",
+      "유머"
+    ],
+    "storytelling": {
+      "origin": "일부러 화려하고 우스꽝스러운 크리스마스 스웨터를 입고 즐기는 날이다.",
+      "anecdote": "원래는 1980~90년대 유행했던 디자인을 패러디한 것에서 시작됐지만, 이제는 파티 콘셉트로 전 세계에서 즐기는 문화가 됐다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "못생길수록 더 사랑받는 그 역설적인 패션"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-ugly-christmas-sweater-day-december-18/"
+  },
+  {
+    "id": "anv-fixed-12-18-free-shipping-day-global",
+    "date": "12-18",
+    "dateType": "annual-fixed",
+    "name": "무료배송의 날 (Free Shipping Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "쇼핑",
+      "온라인",
+      "연말"
+    ],
+    "storytelling": {
+      "origin": "크리스마스 전 마지막으로 제때 배송받을 수 있도록 온라인 쇼핑몰들이 무료배송을 제공하는 쇼핑 시즌 기념일이다.",
+      "anecdote": "직구가 활발한 요즘은 한국 소비자들에게도 해외 쇼핑몰의 무료배송 소식이 반가운 시즌이 됐다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "배송비 아꼈다고 좋아하다 결국 더 많이 사버리는 그 함정"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-free-shipping-day-december-18/"
+  },
+  {
+    "id": "anv-fixed-12-18-buddy-the-elf-phone-day-us",
+    "date": "12-18",
+    "dateType": "annual-fixed",
+    "name": "버디 더 엘프처럼 전화 받는 날",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "영화",
+      "유머",
+      "크리스마스"
+    ],
+    "storytelling": {
+      "origin": "영화 '엘프'의 주인공처럼 \"Buddy the Elf! What's your favorite color?\"라며 익살스럽게 전화를 받아보자는 날이다.",
+      "anecdote": "크리스마스 시즌이면 다시 보고 싶어지는 인기 영화 속 명장면에서 비롯된 팬덤 기념일이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "전화 받을 때마다 그 대사가 떠오르게 만든 그 영화의 힘"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-buddy-the-elf-phone-day-december-18/"
+  },
+  {
+    "id": "anv-fixed-12-18-roast-suckling-pig-day-us",
+    "date": "12-18",
+    "dateType": "annual-fixed",
+    "name": "새끼 통돼지 구이의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "고기",
+      "축제"
+    ],
+    "storytelling": {
+      "origin": "통째로 구워내는 새끼 돼지 요리를 기념하는 날이다.",
+      "anecdote": "여러 문화권에서 명절이나 큰 잔치 때 즐기는 대표적인 잔치 음식으로 꼽힌다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한 마리를 통째로 올려야 비로소 잔치 분위기가 나는 그 상차림"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-roast-suckling-pig-day-december-18/"
+  },
+  {
+    "id": "anv-fixed-12-18-migrants-day-global",
+    "date": "12-18",
+    "dateType": "annual-fixed",
+    "name": "세계 이주민의 날 (International Migrants Day)",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "인권",
+      "UN",
+      "이주"
+    ],
+    "storytelling": {
+      "origin": "1990년 UN의 이주노동자 권리 협약 채택을 기념해 지정된 국제 기념일로, 이주민의 권리와 기여를 되새긴다.",
+      "anecdote": "더 나은 삶을 위해 고향을 떠난 사람들이 새로운 사회에서 마주하는 어려움과 기여를 함께 조명한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "낯선 땅에서 새로운 삶을 일궈낸 그들의 용기"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-migrants-day-december-18/"
+  },
+  {
+    "id": "anv-fixed-12-18-underdog-day-global",
+    "date": "12-18",
+    "dateType": "annual-fixed",
+    "name": "언더독의 날 (Underdog Day)",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "응원",
+      "스포츠",
+      "이색기념일"
+    ],
+    "storytelling": {
+      "origin": "주목받지 못하지만 끝까지 최선을 다하는 약자, 언더독을 응원하는 날이다.",
+      "anecdote": "예상을 뒤엎는 이변의 주인공은 늘 언더독이었다는 점에서, 많은 이들이 이 날 약자에게 마음을 보낸다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "다들 안 될 거라 했는데 결국 해내는 그 짜릿한 반전"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-underdog-day-december-18/"
+  },
+  {
+    "id": "anv-fixed-12-19-oatmeal-muffin-day-us",
+    "date": "12-19",
+    "dateType": "annual-fixed",
+    "name": "오트밀 머핀의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "베이킹",
+      "아침식사"
+    ],
+    "storytelling": {
+      "origin": "든든한 한 끼 대용으로도 좋은 오트밀 머핀을 기념하는 날이다.",
+      "anecdote": "달지 않고 식이섬유가 풍부해, 디저트보다는 건강한 간식으로 즐기는 사람이 많다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "디저트인 듯 아닌 듯, 묘하게 든든한 그 한 조각"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-oatmeal-muffin-day-december-19/"
+  },
+  {
+    "id": "anv-fixed-12-19-hard-candy-day-us",
+    "date": "12-19",
+    "dateType": "annual-fixed",
+    "name": "하드캔디의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "사탕",
+      "간식"
+    ],
+    "storytelling": {
+      "origin": "딱딱하게 굳혀 만드는 사탕, 하드캔디를 기념하는 날이다.",
+      "anecdote": "오래 녹여 먹는 재미와 다양한 색감 덕분에 세대를 가리지 않고 사랑받는 간식이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한 알 입에 넣으면 한참을 오물거리게 되는 그 은근한 매력"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-hard-candy-day-december-19/"
+  },
+  {
+    "id": "anv-fixed-12-20-human-solidarity-day-global",
+    "date": "12-20",
+    "dateType": "annual-fixed",
+    "name": "국제 인류 연대의 날 (International Human Solidarity Day)",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "UN",
+      "연대",
+      "나눔"
+    ],
+    "storytelling": {
+      "origin": "다양성 속에서도 인류가 하나로 연대할 것을 강조하기 위해 UN이 지정한 국제 기념일이다.",
+      "anecdote": "빈곤과 불평등 같은 전 지구적 문제는 한 나라의 노력만으로 해결되지 않는다는 인식에서 출발한 날이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "혼자서는 못 풀어도 함께라면 가능해지는 그 힘"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-human-solidarity-day-december-20/"
+  },
+  {
+    "id": "anv-fixed-12-20-sangria-day-us",
+    "date": "12-20",
+    "dateType": "annual-fixed",
+    "name": "상그리아의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음료",
+      "스페인",
+      "칵테일"
+    ],
+    "storytelling": {
+      "origin": "와인에 과일을 더해 만드는 스페인의 대표 음료, 상그리아를 기념하는 날이다.",
+      "anecdote": "와인의 풍미와 과일의 신선함이 더해져, 파티나 모임 자리에서 특히 인기가 많은 음료다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한 잔 마시면 과일까지 건져 먹는 그 알찬 즐거움"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-sangria-day-december-20/"
+  },
+  {
+    "id": "anv-fixed-12-21-french-fried-shrimp-day-us",
+    "date": "12-21",
+    "dateType": "annual-fixed",
+    "name": "새우튀김의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "해산물",
+      "튀김"
+    ],
+    "storytelling": {
+      "origin": "바삭하게 튀겨낸 새우튀김을 기념하는 날이다.",
+      "anecdote": "간단한 재료로도 화려한 한 접시를 완성할 수 있어, 파티 음식으로도 자주 등장하는 메뉴다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "꼬리만 남기고 싹 비워내는 그 순삭의 매력"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-french-fried-shrimp-day-december-21/"
+  },
+  {
+    "id": "anv-fixed-12-21-crossword-puzzle-day-global",
+    "date": "12-21",
+    "dateType": "annual-fixed",
+    "name": "크로스워드 퍼즐의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "게임",
+      "퍼즐",
+      "두뇌"
+    ],
+    "storytelling": {
+      "origin": "가로세로 낱말을 채워가는 크로스워드 퍼즐을 기념하는 날이다.",
+      "anecdote": "1913년 신문에 처음 실린 이후 전 세계 신문과 잡지의 단골 코너로 자리잡으며 꾸준히 사랑받고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한 칸만 막혀도 한참을 고민하게 만드는 그 묘한 중독성"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-crossword-puzzle-day-december-21/"
+  },
+  {
+    "id": "anv-fixed-12-21-phileas-fogg-win-a-wager-day-global",
+    "date": "12-21",
+    "dateType": "annual-fixed",
+    "name": "필리어스 포그 내기 성공의 날",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "문학",
+      "여행",
+      "이색기념일"
+    ],
+    "storytelling": {
+      "origin": "쥘 베른의 소설 '80일간의 세계일주' 속 주인공 필리어스 포그가 내기에 성공하며 80일간의 여정을 마친 날을 기념한다.",
+      "anecdote": "비행기도 없던 시절, 80일 안에 세계를 일주한다는 설정 자체가 당시 독자들에게는 놀라운 모험담이었다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "지금이라면 며칠이면 끝날 여정이 한 권의 모험소설이 됐던 그 시절"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-phileas-fogg-win-a-wager-day-december-21/"
+  },
+  {
+    "id": "anv-fixed-12-21-humbug-day-global",
+    "date": "12-21",
+    "dateType": "annual-fixed",
+    "name": "험벅의 날 (Humbug Day)",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "유머",
+      "크리스마스",
+      "이색기념일"
+    ],
+    "storytelling": {
+      "origin": "크리스마스 전, 그동안 쌓인 불만을 \"Humbug!\"라고 외치며 가볍게 털어버리자는 유쾌한 기념일이다.",
+      "anecdote": "찰스 디킨스의 소설 '크리스마스 캐럴'에서 스크루지가 외쳤던 대사에서 따온 이름이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "불만은 오늘까지만, 내일부턴 캐럴 모드로 전환하는 그 스위치"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-humbug-day-december-21/"
+  },
+  {
+    "id": "anv-fixed-12-22-homeless-persons-remembrance-day-us",
+    "date": "12-22",
+    "dateType": "annual-fixed",
+    "name": "노숙인 추모의 날",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "사회",
+      "추모",
+      "인식개선"
+    ],
+    "storytelling": {
+      "origin": "일년 중 밤이 가장 긴 동지에 맞춰, 거리에서 세상을 떠난 노숙인들을 추모하는 날이다.",
+      "anecdote": "가장 추운 계절, 가장 긴 밤을 보내야 했던 이들을 기억하자는 취지로 여러 도시에서 추모 행사가 열린다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "가장 긴 밤에 가장 따뜻한 마음이 필요하다는 그 역설"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-homeless-persons-remembrance-day-december-22/"
+  },
+  {
+    "id": "anv-fixed-12-22-winter-solstice-global",
+    "date": "12-22",
+    "dateType": "annual-fixed",
+    "name": "동지 (Winter Solstice)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "절기",
+      "자연",
+      "겨울"
+    ],
+    "storytelling": {
+      "origin": "북반구에서 밤이 가장 길고 낮이 가장 짧은 날로, 이날을 기점으로 다시 낮이 길어지기 시작한다.",
+      "anecdote": "한국에서는 팥죽을 먹으며 동지를 기념하는 전통이 있을 만큼, 절기를 통해 자연의 순환을 기념하는 문화가 세계 곳곳에 존재한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "가장 어두운 날을 지나야 다시 빛이 길어진다는 그 절묘한 순환"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-winter-solstice-december-22/"
+  },
+  {
+    "id": "anv-fixed-12-22-ice-swim",
+    "date": "12-22",
+    "dateType": "annual-fixed",
+    "name": "동지 아이스 스위밍 챌린지 데이",
+    "category": "extreme",
+    "tags": [
+      "아이스스위밍",
+      "익스트림",
+      "동지",
+      "한겨울챌린지"
+    ],
+    "storytelling": {
+      "origin": "북유럽 핀란드·러시아의 'Avantouinti(얼음수영)' 전통에서 유래. 1년 중 밤이 가장 긴 동지에 영하의 호수에 입수해 한 해의 묵은 기운을 씻어낸다는 의미를 지닌다.",
+      "anecdote": "국제아이스스위밍협회(IISA)는 수온 5℃ 이하에서 1km를 수영하는 경기를 정식 종목으로 인정한다. 입수 시간 3분 이상이면 의학적으로 '냉수 충격(Cold Shock)' 위험 구간이라, 챌린지 인증샷은 대부분 30초 이내다."
+    },
+    "memes": [
+      {
+        "type": "image",
+        "url": "https://example-cdn.com/memes/ice-swim-scream.jpg",
+        "caption": "이게 바로 정신 차리는 법."
+      }
+    ],
+    "sourceUrl": "https://internationaliceswimming.com/"
+  },
+  {
+    "id": "anv-fixed-12-22-flashlight-day-us",
+    "date": "12-22",
+    "dateType": "annual-fixed",
+    "name": "손전등의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "생활용품",
+      "발명"
+    ],
+    "storytelling": {
+      "origin": "어둠을 밝혀주는 필수품, 손전등을 기념하는 날이다.",
+      "anecdote": "겨울철 밤이 길어지는 동지 무렵에 자리한 것도 우연이 아닌 듯, 손전등의 쓸모가 유독 크게 느껴지는 계절이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "정전됐을 때 비로소 그 소중함을 깨닫는 그 작은 불빛"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-flashlight-day-december-22/"
+  },
+  {
+    "id": "anv-fixed-12-23-roots-day-us",
+    "date": "12-23",
+    "dateType": "annual-fixed",
+    "name": "뿌리를 찾는 날 (National Roots Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "가족",
+      "역사",
+      "뿌리"
+    ],
+    "storytelling": {
+      "origin": "연말 가족이 모이는 시기, 자신의 가족사와 뿌리를 찾아보자는 취지의 날이다.",
+      "anecdote": "족보나 옛 사진첩을 들여다보며 조상들의 이야기를 알아가는 것도 색다른 연말 활동이 될 수 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "나를 이루고 있는 그 기나긴 이야기의 시작점"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-roots-day-december-23/"
+  },
+  {
+    "id": "anv-fixed-12-23-festivus-us",
+    "date": "12-23",
+    "dateType": "annual-fixed",
+    "name": "페스티버스 (Festivus)",
+    "category": "anniversary",
+    "tags": [
+      "전세계",
+      "팝컬처",
+      "유머",
+      "크리스마스"
+    ],
+    "storytelling": {
+      "origin": "미국 시트콤 '사인필드'에서 등장한 가상의 명절로, 상업화된 연말 분위기에 대한 풍자에서 비롯됐다.",
+      "anecdote": "장식 없는 철제 기둥을 세우고 서로의 불만을 솔직하게 털어놓는다는 독특한 설정이 큰 인기를 얻으며, 실제로 이날을 챙기는 팬들도 생겨났다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "드라마 속 농담이 진짜 기념일이 돼버린 그 신기한 현상"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-festivus-december-23/"
+  },
+  {
+    "id": "anv-fixed-12-23-pfeffernusse-day-us",
+    "date": "12-23",
+    "dateType": "annual-fixed",
+    "name": "페퍼누스의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "크리스마스"
+    ],
+    "storytelling": {
+      "origin": "후추와 향신료가 들어간 독일식 쿠키, 페퍼누스를 기념하는 날이다.",
+      "anecdote": "겉은 슈가파우더로 하얗게 덮여있지만 속에는 알싸한 향신료 풍미가 숨어있어 의외의 매력을 준다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "달콤한 줄 알고 한입 베어물면 알싸함에 놀라는 그 반전"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-pfeffernusse-day-december-23/"
+  },
+  {
+    "id": "anv-fixed-12-24-eggnog-day-us",
+    "date": "12-24",
+    "dateType": "annual-fixed",
+    "name": "에그노그의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음료",
+      "크리스마스",
+      "전통"
+    ],
+    "storytelling": {
+      "origin": "달콤하고 진한 계란 음료, 에그노그를 기념하는 날이다.",
+      "anecdote": "계란과 우유, 설탕에 시나몬 등 향신료를 더해 만드는 이 음료는 크리스마스 시즌 대표 음료로 자리잡았다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한 잔만 마셔도 묵직하게 든든해지는 그 진한 풍미"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-eggnog-day-december-24/"
+  },
+  {
+    "id": "anv-fixed-12-24-christmas-eve-global",
+    "date": "12-24",
+    "dateType": "annual-fixed",
+    "name": "크리스마스 이브 (Christmas Eve)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "크리스마스",
+      "가족",
+      "축제"
+    ],
+    "storytelling": {
+      "origin": "크리스마스 전날 밤, 가족이나 사랑하는 사람들과 함께 한 해의 마지막 큰 명절을 준비하며 보내는 날이다.",
+      "anecdote": "선물을 미리 풀어보거나 특별한 저녁을 함께하는 등, 나라마다 이브를 보내는 방식이 조금씩 다르다는 점도 흥미롭다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "내일을 위해 설레는 마음으로 잠을 청하는 그 하룻밤"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-christmas-eve-december-24/"
+  },
+  {
+    "id": "anv-fixed-12-25-christmas-global",
+    "date": "12-25",
+    "dateType": "annual-fixed",
+    "name": "크리스마스 (기독교탄신일)",
+    "category": "holiday",
+    "tags": [
+      "글로벌",
+      "대한민국",
+      "법정공휴일",
+      "종교",
+      "예수",
+      "산타클로스"
+    ],
+    "storytelling": {
+      "origin": "기독교에서 예수 그리스도의 탄생을 기념하는 날로, 성탄절이라고도 부른다. 전 세계적으로 기념하는 주요 명절 중 하나다.",
+      "anecdote": "종교적 의미를 넘어 산타클로스, 루돌프, 트리 등 세계적인 축제의 날로 자리 잡았다. 한국에서는 '연인과 데이트하는 날'이라는 인식이 강해 솔로들의 원성을 사기도 한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "크리스마스에는 역시 <나 홀로 집에> 정주행이지."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4"
+  },
+  {
+    "id": "anv-fixed-12-26-thank-you-note-day-global",
+    "date": "12-26",
+    "dateType": "annual-fixed",
+    "name": "감사 카드의 날 (National Thank-you Note Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "감사",
+      "편지",
+      "연말"
+    ],
+    "storytelling": {
+      "origin": "크리스마스에 받은 선물과 마음에 감사 카드로 답례해보자는 취지의 날이다.",
+      "anecdote": "메시지 한 줄로도 충분하지만, 손글씨로 직접 쓴 카드는 받는 사람에게 더 오래 남는 감동을 준다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "선물보다 카드 한 장이 더 오래 기억에 남는다는 그 진실"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-thank-you-note-day-december-26/"
+  },
+  {
+    "id": "anv-fixed-12-26-boxing-day-global",
+    "date": "12-26",
+    "dateType": "annual-fixed",
+    "name": "박싱데이 (Boxing Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "쇼핑",
+      "전통",
+      "영연방"
+    ],
+    "storytelling": {
+      "origin": "영국과 캐나다, 호주 등 영연방 국가에서 크리스마스 다음 날을 기념하는 공휴일로, 대규모 할인 쇼핑 시즌으로도 잘 알려져 있다.",
+      "anecdote": "예전에는 고용주가 직원이나 하인에게 선물 상자를 건네던 풍습에서 이름이 유래됐다는 설이 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "선물 상자에서 시작해 쇼핑 대축제가 된 그 변신"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-boxing-day-december-26/"
+  },
+  {
+    "id": "anv-fixed-12-26-whiners-day-global",
+    "date": "12-26",
+    "dateType": "annual-fixed",
+    "name": "불평쟁이의 날 (National Whiner's Day)",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "유머",
+      "이색기념일"
+    ],
+    "storytelling": {
+      "origin": "하루쯥은 마음껏 투덜거려도 괜찮다는, 위로 섞인 유쾌한 기념일이다.",
+      "anecdote": "크리스마스 다음 날, 선물이 마음에 안 들었거나 연휴가 너무 빨리 끝난 것 같은 아쉬움을 가볍게 풀어내자는 의미를 담고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "투덜거릴 자격까지 인정해주는 의외로 다정한 그 배려"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-whiners-day-december-26/"
+  },
+  {
+    "id": "anv-fixed-12-26-candy-cane-day-us",
+    "date": "12-26",
+    "dateType": "annual-fixed",
+    "name": "캔디케인의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "크리스마스",
+      "사탕",
+      "전통"
+    ],
+    "storytelling": {
+      "origin": "지팡이 모양의 빨갛고 하얀 줄무늬 사탕, 캔디케인을 기념하는 날이다.",
+      "anecdote": "크리스마스트리 장식으로도, 간식으로도 활용되는 이 사탕은 크리스마스를 상징하는 대표적인 아이템이 됐다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "장식인 줄 알았는데 결국 다 까먹어버리는 그 유혹"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-candy-cane-day-december-26/"
+  },
+  {
+    "id": "gov-57",
+    "date": "12-27",
+    "dateType": "annual-fixed",
+    "name": "원자력 안전 및 진흥의 날",
+    "category": "anniversary",
+    "tags": [
+      "대한민국",
+      "법정기념일",
+      "정부"
+    ],
+    "storytelling": {
+      "origin": "주관 부처: 과학기술정보통신부, 기후에너지환경부, 원자력안전위원회. 원자력 안전의 중요성을 널리 알리고, 원자력 산업의 진흥을 촉진하는 행사를 한다. '원자력의 날'로 줄여서 사용할 수 있다. [cite: 58, 60]",
+      "anecdote": null
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-12-27-fruitcake-day-us",
+    "date": "12-27",
+    "dateType": "annual-fixed",
+    "name": "프루트케이크의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "크리스마스"
+    ],
+    "storytelling": {
+      "origin": "건과일과 견과류가 듬뿍 들어간 묵직한 케이크, 프루트케이크를 기념하는 날이다.",
+      "anecdote": "오래 보관할 수 있도록 만들어진 케이크라, 선물로 주고받다가 다시 선물로 돌아온다는 농담이 따라다니는 디저트이기도 하다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "받아도 누가 먼저 먹을지 눈치보게 되는 그 독특한 케이크"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-fruitcake-day-december-27/"
+  },
+  {
+    "id": "anv-fixed-12-28-holy-innocents-day-global",
+    "date": "12-28",
+    "dateType": "annual-fixed",
+    "name": "성 인노첸시오 축일 (Holy Innocents Day)",
+    "category": "commemorative",
+    "tags": [
+      "전세계",
+      "종교",
+      "역사",
+      "유럽"
+    ],
+    "storytelling": {
+      "origin": "예수의 탄생을 두려워한 헤롯왕에 의해 희생된 아이들을 기리는 기독교 전통 축일이다.",
+      "anecdote": "스페인과 라틴아메리카 일부 지역에서는 이날을 만우절과 비슷하게 장난을 치는 날로 바꿔 즐기는 독특한 문화도 생겨났다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "슬픈 기원을 가진 날이 장난스러운 풍습으로 변주된 그 의외의 흐름"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-holy-innocents-day-december-28/"
+  },
+  {
+    "id": "anv-fixed-12-28-chocolate-candy-day-us",
+    "date": "12-28",
+    "dateType": "annual-fixed",
+    "name": "초콜릿 캔디의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "디저트",
+      "초콜릿"
+    ],
+    "storytelling": {
+      "origin": "한입 크기로 즐기는 다양한 초콜릿 캔디를 기념하는 날이다.",
+      "anecdote": "포장을 까는 그 짧은 순간조차 설레게 만드는 것이 초콜릿 캔디의 매력이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한 알만 먹으려다 결국 한 봉지 다 비우는 그 흔한 결말"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-chocolate-candy-day-december-28/"
+  },
+  {
+    "id": "anv-fixed-12-28-card-playing-day-us",
+    "date": "12-28",
+    "dateType": "annual-fixed",
+    "name": "카드놀이의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "게임",
+      "놀이",
+      "가족"
+    ],
+    "storytelling": {
+      "origin": "트럼프 카드로 즐기는 다양한 카드놀이를 기념하는 날이다.",
+      "anecdote": "연말 가족들이 모인 자리에서 카드 한 벌이면 누구나 함께 즐길 수 있는 손쉬운 놀이가 된다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "규칙 하나 가지고 다 같이 우기다가 더 재밌어지는 그 시간"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-card-playing-day-december-28/"
+  },
+  {
+    "id": "anv-fixed-12-29-tick-tock-day-global",
+    "date": "12-29",
+    "dateType": "annual-fixed",
+    "name": "틱톡데이 (Tick Tock Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "연말",
+      "계획",
+      "이색기념일"
+    ],
+    "storytelling": {
+      "origin": "한 해가 끝나가는 시계 소리를 들으며, 미처 끝내지 못한 일들을 마무리해보자는 취지의 날이다.",
+      "anecdote": "새해 결심을 세우기 전에 올해의 할 일 목록을 점검해보는 것도 의미 있는 연말 마무리가 될 수 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "초침 소리가 유독 크게 들리는 그 연말의 며칠"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-tick-tock-day-december-29/"
+  },
+  {
+    "id": "anv-fixed-12-29-pepper-pot-day-us",
+    "date": "12-29",
+    "dateType": "annual-fixed",
+    "name": "페퍼팟의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "수프",
+      "역사"
+    ],
+    "storytelling": {
+      "origin": "매콤한 향신료가 들어간 스튜, 페퍼팟을 기념하는 날이다.",
+      "anecdote": "미국 독립전쟁 당시 병사들의 사기를 북돋아준 음식이라는 일화가 전해지며, 역사적 의미를 함께 지닌 요리로 꼽힌다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "추운 날 한 그릇이면 몸도 마음도 따뜻해지는 그 든든함"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-pepper-pot-day-december-29/"
+  },
+  {
+    "id": "anv-fixed-12-30-bacon-day-global",
+    "date": "12-30",
+    "dateType": "annual-fixed",
+    "name": "베이컨의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음식",
+      "고기",
+      "아침식사"
+    ],
+    "storytelling": {
+      "origin": "바삭하게 구운 베이컨의 풍미를 기념하는 날이다.",
+      "anecdote": "짭짤하고 고소한 풍미 덕분에 아침식사부터 버거, 샐러드까지 어디에든 어울리는 만능 식재료로 통한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "베이컨 굽는 냄새만으로도 아침이 행복해지는 그 마법"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-bacon-day-december-30/"
+  },
+  {
+    "id": "anv-fixed-12-30-bicarbonate-of-soda-day-global",
+    "date": "12-30",
+    "dateType": "annual-fixed",
+    "name": "베이킹소다의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "생활용품",
+      "베이킹",
+      "과학"
+    ],
+    "storytelling": {
+      "origin": "베이킹부터 청소까지 다재다능하게 쓰이는 베이킹소다를 기념하는 날이다.",
+      "anecdote": "빵을 부풀리는 것은 물론 냄새 제거, 얼룩 제거까지 활용 범위가 넓어 집집마다 하나씩은 구비해두는 만능 재료다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한 통으로 주방도, 욕실도 다 해결해버리는 그 만능템"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-bicarbonate-of-soda-day-december-30/"
+  },
+  {
+    "id": "anv-fixed-12-30-falling-needles-family-fest-day-us",
+    "date": "12-30",
+    "dateType": "annual-fixed",
+    "name": "크리스마스트리 잎 떨어지는 날",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "크리스마스",
+      "유머",
+      "이색기념일"
+    ],
+    "storytelling": {
+      "origin": "연말 즈음 메말라가는 크리스마스트리의 잎이 우수수 떨어지는 모습을 가볍게 농담 삼아 기념하는 날이다.",
+      "anecdote": "트리를 정리할 때가 다가왔다는 신호로, 한 해의 마무리를 자연스럽게 일러주는 익살스러운 기념일이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "거실 바닥에 자꾸만 떨어지는 그 초록 잎들의 작별 인사"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-falling-needles-family-fest-day-december-30/"
+  },
+  {
+    "id": "anv-fixed-12-31-make-up-your-mind-day-global",
+    "date": "12-31",
+    "dateType": "annual-fixed",
+    "name": "결정을 내리는 날 (Make Up Your Mind Day)",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "유머",
+      "연말",
+      "결심"
+    ],
+    "storytelling": {
+      "origin": "한 해가 끝나기 전, 미뤄왔던 결정들을 마무리해보자는 가벼운 기념일이다.",
+      "anecdote": "새해가 되기 전에 우유부단함을 떨쳐버리고 명확한 결정을 내려보자는 의미를 담고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "고민만 하다 한 해를 다 보내버린 그 흔한 후회"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-make-up-your-mind-day-december-31/"
+  },
+  {
+    "id": "anv-fixed-12-31-no-interruptions-day-global",
+    "date": "12-31",
+    "dateType": "annual-fixed",
+    "name": "방해받지 않는 날 (No Interruptions Day)",
+    "category": "quirky",
+    "tags": [
+      "전세계",
+      "휴식",
+      "유머",
+      "이색기념일"
+    ],
+    "storytelling": {
+      "origin": "연말 정리에 집중할 수 있도록, 하루쯥은 방해받지 않고 조용히 보내보자는 날이다.",
+      "anecdote": "한 해를 마무리하는 시기, 잠시라도 온전히 자신만의 시간을 가져보자는 의미를 담고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "딱 하루만이라도 방해 없이 조용히 있고 싶은 그 소박한 바람"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-no-interruptions-day-december-31/"
+  },
+  {
+    "id": "anv-fixed-12-31-new-years-eve-global",
+    "date": "12-31",
+    "dateType": "annual-fixed",
+    "name": "새해 전야 (New Years Eve)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "연말",
+      "축제",
+      "새해"
+    ],
+    "storytelling": {
+      "origin": "한 해의 마지막 날 밤, 다가올 새해를 맞이하며 전 세계가 함께 축하하는 날이다.",
+      "anecdote": "자정 카운트다운과 함께 폭죽이 터지는 장면은 나라와 시간대를 넘어 전 세계가 공유하는 연말의 풍경이 됐다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "전 세계가 시차를 두고 차례차례 맞이하는 그 카운트다운의 물결"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-new-years-eve-december-31/"
+  },
+  {
+    "id": "anv-fixed-12-31-champagne-day-us",
+    "date": "12-31",
+    "dateType": "annual-fixed",
+    "name": "샴페인의 날",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "음료",
+      "축하",
+      "연말"
+    ],
+    "storytelling": {
+      "origin": "기쁜 순간을 축하할 때 빠지지 않는 샴페인을 기념하는 날이다.",
+      "anecdote": "한 해의 마지막 날, 자정이 되면 전 세계에서 샴페인 잔을 부딪히는 모습이 연말의 상징적인 장면으로 자리잡았다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "코르크 마개 터지는 소리로 시작되는 그 짜릿한 카운트다운"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-champagne-day-december-31/"
+  },
+  {
+    "id": "anv-fixed-12-31-universal-hour-of-peace-global",
+    "date": "12-31",
+    "dateType": "annual-fixed",
+    "name": "세계 평화의 시간 (Universal Hour of Peace)",
+    "category": "international",
+    "tags": [
+      "전세계",
+      "평화",
+      "연대",
+      "새해"
+    ],
+    "storytelling": {
+      "origin": "한 해의 마지막 시간, 전 세계가 함께 평화를 기원하는 시간을 갖자는 취지의 날이다.",
+      "anecdote": "축제 분위기 속에서도 잠시 평화의 의미를 되새기자는 메시지가 담겨 있어, 연말의 또 다른 결을 보여준다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "축포 소리 잠깐 멈추고 평화를 빌어보는 그 짧은 침묵"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-universal-hour-of-peace-december-31/"
+  },
+  {
+    "id": "anv-fixed-12-31-leap-second-day-global",
+    "date": "12-31",
+    "dateType": "annual-fixed",
+    "name": "윤초 조정의 날 (Leap Second Time Adjustment Day)",
+    "category": "general",
+    "tags": [
+      "전세계",
+      "과학",
+      "시간",
+      "이색기념일"
+    ],
+    "storytelling": {
+      "origin": "지구 자전 속도의 미세한 변화를 보정하기 위해 전 세계 표준시에 1초를 더하거나 빼는 윤초를 기념하는 날이다.",
+      "anecdote": "단 1초의 조정이지만 전 세계 컴퓨터 시스템과 통신망에 영향을 줄 수 있어, 과학자들 사이에서는 꽤 신중하게 다뤄지는 문제다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "1초 때문에 전 세계 시스템이 긴장하는 그 미묘한 순간"
+      }
+    ],
+    "sourceUrl": "https://nationaldaycalendar.com/national-leap-second-day-december-31/"
+  }
+]

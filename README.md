@@ -75,7 +75,7 @@ features/<domain>/views/*.vue       ← 화면
 
 ## 데이터 작성 규칙
 
-기념일 데이터는 `src/data/anniversaries.json` 에 저장된다. 편집은 [`tools/inspector/`](./tools/inspector/README.md) 의 Gradio UI 를 권장.
+기념일 데이터는 `src/data/anniversaries/01.json … 12.json` (월별 12파일) 에 분할 저장된다. 앱은 이 파일들을 동적 import 로 코드 분할해 로드하고, 편집은 [`tools/inspector/`](./tools/inspector/README.md) 의 Gradio UI 를 권장한다(전체를 한 리스트로 다루고 저장 시 자동으로 월별 분할).
 
 ### `date` 필드 작성법
 
