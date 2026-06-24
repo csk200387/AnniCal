@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, onBeforeUnmount, ref, watch } from 'vue'
 import dayjs from 'dayjs'
 import { useTodayFeed } from '../composables/useTodayFeed'
 import AnniversaryCard from '@/components/card/AnniversaryCard.vue'
@@ -8,6 +8,49 @@ import { useShareStore } from '@/stores/share'
 
 const { todays, upcoming, isLoading, error } = useTodayFeed(30)
 const shareStore = useShareStore()
+
+// 오늘의 기념일은 항상 전부 즉시 렌더링한다. "다가오는 기념일"은 자칫 한 번에
+// 수십~백여 장이 그려질 수 있어, (오늘 + 다가오는) 합이 PAGE_SIZE 이상일 때만
+// 처음엔 PAGE_SIZE 개만 보여주고 스크롤로 바닥에 닿을 때마다 더 풀어준다.
+const PAGE_SIZE = 10
+const revealCount = ref(PAGE_SIZE)
+
+const totalCount = computed(() => todays.value.length + upcoming.value.length)
+const needsPaging = computed(() => totalCount.value >= PAGE_SIZE)
+
+const visibleUpcoming = computed(() => {
+  if (!needsPaging.value) return upcoming.value
+  const limit = Math.max(revealCount.value - todays.value.length, 0)
+  return upcoming.value.slice(0, limit)
+})
+
+const hasMore = computed(
+  () => needsPaging.value && visibleUpcoming.value.length < upcoming.value.length,
+)
+
+// 데이터가 늦게 도착해 todays/upcoming 이 바뀌어도 첫 페이지 크기를 유지.
+watch([todays, upcoming], () => {
+  if (revealCount.value < PAGE_SIZE) revealCount.value = PAGE_SIZE
+})
+
+const sentinelRef = ref<HTMLElement | null>(null)
+let observer: IntersectionObserver | null = null
+
+watch(sentinelRef, (el) => {
+  observer?.disconnect()
+  observer = null
+  if (!el) return
+  observer = new IntersectionObserver((entries) => {
+    if (entries[0]?.isIntersecting && hasMore.value) {
+      revealCount.value += PAGE_SIZE
+    }
+  })
+  observer.observe(el)
+})
+
+onBeforeUnmount(() => {
+  observer?.disconnect()
+})
 
 const todayLong = computed(() => {
   const d = dayjs()
@@ -93,12 +136,17 @@ function handleShare(anv: Anniversary, dDay?: number) {
 
       <div class="space-y-10">
         <AnniversaryCard
-          v-for="{ anniversary, dDay } in upcoming"
+          v-for="{ anniversary, dDay } in visibleUpcoming"
           :key="anniversary.id"
           :anniversary="anniversary"
           :d-day="dDay"
           @share="(anv) => handleShare(anv, dDay)"
         />
+      </div>
+
+      <!-- 스크롤 감지용 sentinel — 보이는 순간 다음 PAGE_SIZE 개를 더 풀어준다. -->
+      <div v-if="hasMore" ref="sentinelRef" class="pt-10 text-center">
+        <span class="eyebrow">Loading more…</span>
       </div>
     </section>
   </div>
