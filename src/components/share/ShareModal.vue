@@ -1,9 +1,32 @@
 <script setup lang="ts">
 import { computed, nextTick, onBeforeUnmount, ref, useTemplateRef, watch } from 'vue'
 import { storeToRefs } from 'pinia'
-import { toPng } from 'html-to-image'
+import { toPng, getFontEmbedCSS } from 'html-to-image'
 import { useShareStore } from '@/stores/share'
 import ShareCard from './ShareCard.vue'
+
+// 폰트 임베딩 CSS(웹폰트 base64 인라인)는 카드 내용과 무관하게 항상 동일하므로
+// 세션 동안 한 번만 계산해 재사용한다. 이게 캡처 시간의 대부분(특히 한글
+// Noto Serif KR 임베딩)을 차지하기 때문에, 모달을 열 때 미리 준비(warm-up)해두면
+// 다운로드/공유 클릭 시 거의 즉시 PNG 가 만들어진다.
+let fontEmbedCssCache: string | null = null
+let fontEmbedCssPromise: Promise<string> | null = null
+function ensureFontEmbedCss(node: HTMLElement): Promise<string> {
+  if (fontEmbedCssCache) return Promise.resolve(fontEmbedCssCache)
+  if (!fontEmbedCssPromise) {
+    fontEmbedCssPromise = getFontEmbedCSS(node)
+      .then((css) => {
+        fontEmbedCssCache = css
+        return css
+      })
+      .catch((e) => {
+        // 실패 시 캐시를 비워 다음 시도에서 재계산하도록 한다.
+        fontEmbedCssPromise = null
+        throw e
+      })
+  }
+  return fontEmbedCssPromise
+}
 
 const shareStore = useShareStore()
 const { isOpen, anniversary, dDay } = storeToRefs(shareStore)
@@ -55,6 +78,11 @@ watch(isOpen, (open) => {
       dialogRef.value?.focus()
       recomputeScale()
       observePreview()
+      // 사용자가 미리보기를 보는 동안 폰트 임베딩을 미리 준비해 둔다.
+      // 다운로드/공유 클릭 시점엔 이미 캐시돼 있어 캡처가 거의 즉시 끝난다.
+      if (cardRootRef.value) {
+        ensureFontEmbedCss(cardRootRef.value).catch(() => {})
+      }
     })
   } else {
     document.body.style.overflow = ''
@@ -90,17 +118,17 @@ async function generatePng(): Promise<string | null> {
     if (typeof document !== 'undefined' && document.fonts?.ready) {
       await document.fonts.ready
     }
-    const options = {
+    // 폰트 임베딩 CSS 를 미리(또는 즉석으로) 계산해 toPng 에 직접 넘기면,
+    // html-to-image 가 매 호출마다 폰트를 다시 fetch/인코딩하는 단계를 건너뛴다.
+    // 결과가 항상 동일하므로 미리보기와도 어긋나지 않아 워밍업용 2회 호출이 불필요.
+    const fontEmbedCSS = await ensureFontEmbedCss(cardRootRef.value)
+    const dataUrl = await toPng(cardRootRef.value, {
       pixelRatio: 2, // 540 → 1080x1080
-      cacheBust: true,
       backgroundColor: '#faf7f0',
       width: 540,
       height: 540,
-    }
-    // html-to-image 는 첫 렌더에서 폰트 임베딩이 끝나기 전에 반환되는 경우가 있어
-    // 미리보기와 결과가 어긋난다. 한 번 워밍업한 뒤 두 번째 결과를 사용해 일관성 확보.
-    await toPng(cardRootRef.value, options)
-    const dataUrl = await toPng(cardRootRef.value, options)
+      fontEmbedCSS,
+    })
     return dataUrl
   } catch (e) {
     errorMsg.value =
