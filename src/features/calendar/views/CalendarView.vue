@@ -5,6 +5,7 @@ import AnniversaryCard from '@/components/card/AnniversaryCard.vue'
 import type { Anniversary } from '@/types/anniversary'
 import { useShareStore } from '@/stores/share'
 import { daysUntil, formatKoreanMonthDay } from '@/utils/dateUtils'
+import { primaryColorForTags } from '@/utils/tagPalette'
 
 const shareStore = useShareStore()
 
@@ -251,9 +252,32 @@ function handleShare(anv: Anniversary) {
               {{ cell.date.date() }}
             </span>
 
+            <!-- 모바일: 칸이 좁아 이름 텍스트가 잘려 안 보이므로 태그 색 점으로 대체.
+                 탭하면 아래 "Selected" 섹션에서 전체 목록을 볼 수 있다. -->
             <div
               v-if="cell.anniversaries.length"
-              class="flex flex-col gap-0.5 overflow-hidden"
+              class="flex flex-wrap items-center gap-1 sm:hidden"
+            >
+              <span
+                v-for="anv in cell.anniversaries.slice(0, 4)"
+                :key="anv.id"
+                class="h-1.5 w-1.5 shrink-0 rounded-full"
+                :class="[primaryColorForTags(anv.tags).dot, { 'opacity-40': !cell.isCurrentMonth }]"
+                :title="anv.name"
+              />
+              <span
+                v-if="cell.anniversaries.length > 4"
+                class="text-[9px] leading-none"
+                :class="selectedDate.isSame(cell.date, 'day') ? 'text-paper-300' : 'text-ink-400'"
+              >
+                +{{ cell.anniversaries.length - 4 }}
+              </span>
+            </div>
+
+            <!-- sm 이상: 칸이 넓어져 이름 일부가 보일 만큼 공간이 생기므로 기존 텍스트 목록 유지. -->
+            <div
+              v-if="cell.anniversaries.length"
+              class="hidden flex-col gap-0.5 overflow-hidden sm:flex"
             >
               <span
                 v-for="anv in cell.anniversaries.slice(0, 2)"
