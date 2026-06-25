@@ -9,7 +9,6 @@ const {
   toggle,
   selectAll,
   selectNone,
-  allSelected,
   selectedCount,
   downloadIcs,
   feedWebcalUrl,
