@@ -4,11 +4,9 @@
     "date": "05-01",
     "dateType": "annual-fixed",
     "name": "근로자의 날",
-    "category": "anniversary",
+    "category": "general",
     "tags": [
-      "대한민국",
-      "법정기념일",
-      "정부"
+      "일반"
     ],
     "storytelling": {
       "origin": "주관 부처: 고용노동부. 근로자의 노고를 위로하고, 근로의욕을 더욱 높이는 행사를 한다.",
@@ -22,11 +20,9 @@
     "date": "05-01",
     "dateType": "annual-fixed",
     "name": "난임 극복의 날",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "건강",
-      "인식개선"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "난임으로 어려움을 겪는 이들에게 공감과 지지를 전하고, 관련 정보를 알리기 위해 제정된 날이다.",
@@ -46,12 +42,9 @@
     "date": "05-01",
     "dateType": "annual-fixed",
     "name": "마더 구스의 날",
-    "category": "general",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "문학",
-      "동화",
-      "아동"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "영미권 전통 동요·동시 모음집 '마더 구스'를 기념하는 날이다.",
@@ -71,12 +64,9 @@
     "date": "05-01",
     "dateType": "annual-fixed",
     "name": "초콜릿 파르페의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "초콜릿"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "층층이 쌓아 올린 초콜릿 디저트, 파르페를 기념하는 날이다.",
@@ -96,12 +86,9 @@
     "date": "05-01",
     "dateType": "annual-fixed",
     "name": "충성의 날 (National Loyalty Day)",
-    "category": "commemorative",
+    "category": "history",
     "tags": [
-      "미국",
-      "이색기념일",
-      "역사",
-      "애국"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "미국에 대한 충성과 헌법적 가치를 기리기 위해 1955년 의회가 공식 지정한 날이다.",
@@ -121,11 +108,9 @@
     "date": "05-02",
     "dateType": "annual-fixed",
     "name": "생명보험의 날",
-    "category": "commemorative",
+    "category": "general",
     "tags": [
-      "전세계",
-      "경제",
-      "보험"
+      "일반"
     ],
     "storytelling": {
       "origin": "사랑하는 사람들을 위한 재정적 안전망인 생명보험의 가치를 알리기 위해 제정된 날이다.",
@@ -145,11 +130,9 @@
     "date": "05-02",
     "dateType": "annual-fixed",
     "name": "트러플의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "고급식재료"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "땅속에서 자라는 희귀 식재료, 트러플(송로버섯)을 기념하는 날이다.",
@@ -169,12 +152,9 @@
     "date": "05-03",
     "dateType": "annual-fixed",
     "name": "교사 감사의 날 (National Teacher Appreciation Day)",
-    "category": "commemorative",
+    "category": "career",
     "tags": [
-      "전세계",
-      "교육",
-      "감사",
-      "교사"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "학생들의 성장을 이끄는 교사들의 헌신에 감사를 전하기 위해 제정된 날이다.",
@@ -194,12 +174,9 @@
     "date": "05-03",
     "dateType": "annual-fixed",
     "name": "라즈베리 파퍼버의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "베이킹",
-      "디저트"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "겉은 바삭하고 속은 텅 빈 페이스트리에 라즈베리를 채워 즐기는 디저트, 파퍼버를 기념하는 날이다.",
@@ -221,10 +198,7 @@
     "name": "울퉁불퉁 러그의 날",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "유머",
-      "집안일"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "카펫이나 러그 아래 먼지나 잡동사니를 숨겨두는 습관을 유머스럽게 꼬집는 날이다.",
@@ -244,12 +218,9 @@
     "date": "05-03",
     "dateType": "annual-fixed",
     "name": "장애를 가진 반려동물의 날",
-    "category": "general",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "동물",
-      "반려동물",
-      "포용"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "신체적 장애나 질환이 있는 반려동물에 대한 관심과 입양을 독려하기 위한 날이다.",
@@ -269,12 +240,9 @@
     "date": "05-03",
     "dateType": "annual-fixed",
     "name": "정원 명상의 날",
-    "category": "general",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "웰빙",
-      "자연",
-      "휴식"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "정원이나 식물 곁에서 명상하며 마음의 평화를 찾자는 취지의 날이다.",
@@ -294,12 +262,9 @@
     "date": "05-03",
     "dateType": "annual-fixed",
     "name": "짝짝이 신발의 날",
-    "category": "quirky",
+    "category": "culture",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "유머",
-      "패션"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "일부러 색이 다른 신발 두 짝을 신어보며 가볍게 일상에 재미를 더하는 날이다.",
@@ -321,9 +286,7 @@
     "name": "초자연 현상의 날",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "미스터리"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "유령, 미확인 현상 등 과학적으로 완전히 설명되지 않는 초자연적 사건에 대한 관심을 기념하는 날이다.",
@@ -343,12 +306,9 @@
     "date": "05-03",
     "dateType": "annual-fixed",
     "name": "초콜릿 커스터드의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "초콜릿"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "부드럽고 진한 초콜릿 커스터드 크림을 기념하는 날이다.",
@@ -370,9 +330,7 @@
     "name": "갱신의 날 (National Renewal Day)",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "동기부여"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "낡은 습관이나 관계, 목표를 새롭게 다잡아보자는 의미를 담은 날이다.",
@@ -392,12 +350,9 @@
     "date": "05-04",
     "dateType": "annual-fixed",
     "name": "기상 관측자의 날 (National Weather Observers Day)",
-    "category": "commemorative",
+    "category": "academic",
     "tags": [
-      "전세계",
-      "과학",
-      "기상",
-      "감사"
+      "학술 & 기술"
     ],
     "storytelling": {
       "origin": "매일 기상을 관측하고 기록하는 관측자들의 노력을 기리는 날이다.",
@@ -417,12 +372,9 @@
     "date": "05-04",
     "dateType": "annual-fixed",
     "name": "새의 날 (Bird Day)",
-    "category": "general",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "동물",
-      "자연",
-      "생태"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "다양한 조류의 아름다움과 생태적 가치를 기념하는 날이다. 1894년 미국에서 처음 제정된 이래 여러 나라에서 함께 기념하고 있다.",
@@ -442,13 +394,9 @@
     "date": "05-04",
     "dateType": "annual-fixed",
     "name": "스타워즈 데이",
-    "category": "international",
+    "category": "culture",
     "tags": [
-      "글로벌",
-      "영화",
-      "스타워즈",
-      "서브컬처",
-      "말장난"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "영화 《스타워즈》의 상징적인 명대사 '포스가 당신과 함께하기를(May the Force be with you)'이 '5월 4일(May the Fourth)'과 영어 발음이 비슷한 데서 유래한 전 세계적인 팬 축제일이다.",
@@ -468,12 +416,9 @@
     "date": "05-04",
     "dateType": "annual-fixed",
     "name": "오렌지 껍질 캔디의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "과일"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "버리기 쉬운 오렌지 껍질을 설탕에 졸여 만드는 캔디드 오렌지 필을 기념하는 날이다.",
@@ -493,12 +438,9 @@
     "date": "05-04",
     "dateType": "annual-fixed",
     "name": "오렌지 주스의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "음료",
-      "과일"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "아침 식사의 대표 음료, 오렌지 주스를 기념하는 날이다.",
@@ -518,12 +460,9 @@
     "date": "05-04",
     "dateType": "annual-fixed",
     "name": "자전거 통학의 날 (National Bike To School Day)",
-    "category": "general",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "건강",
-      "환경",
-      "교육"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "학생들이 자전거를 타고 등교하며 건강과 환경 의식을 동시에 기르도록 독려하는 날이다.",
@@ -543,12 +482,9 @@
     "date": "05-05",
     "dateType": "annual-fixed",
     "name": "만화가의 날 (National Cartoonists Day)",
-    "category": "commemorative",
+    "category": "culture",
     "tags": [
-      "전세계",
-      "문화",
-      "만화",
-      "예술"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "유머와 풍자, 이야기를 그림으로 풀어내는 만화가들의 창작 활동을 기리는 날이다.",
@@ -568,12 +504,9 @@
     "date": "05-05",
     "dateType": "annual-fixed",
     "name": "싱코 데 마요 (Cinco de Mayo)",
-    "category": "international",
+    "category": "culture",
     "tags": [
-      "전세계",
-      "멕시코",
-      "축제",
-      "문화"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "1862년 5월 5일, 멕시코군이 침공한 프랑스군을 푸에블라 전투에서 격퇴한 것을 기념하는 날이다. 멕시코보다 오히려 미국에서 더 성대하게 기념되는 독특한 축제로 자리잡았다.",
@@ -595,9 +528,7 @@
     "name": "어린이 날",
     "category": "holiday",
     "tags": [
-      "대한민국",
-      "법정기념일",
-      "정부"
+      "공휴일"
     ],
     "storytelling": {
       "origin": "주관 부처: 보건복지부. 어린이들이 올바르고 슬기롭고 씩씩하게 자라도록 하는 행사를 한다.",
@@ -617,11 +548,9 @@
     "date": "05-05",
     "dateType": "annual-fixed",
     "name": "치폴레의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "매운맛"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "훈제 건조 고추인 치폴레의 스모키하고 매콤한 풍미를 기념하는 날이다.",
@@ -641,11 +570,9 @@
     "date": "05-05",
     "dateType": "annual-fixed",
     "name": "호기 샌드위치의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "샌드위치"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "긴 빵에 고기, 치즈, 채소를 가득 채운 미국식 샌드위치, 호기를 기념하는 날이다.",
@@ -665,12 +592,9 @@
     "date": "05-06",
     "dateType": "annual-fixed",
     "name": "간호사의 날 (National Nurses Day)",
-    "category": "commemorative",
+    "category": "career",
     "tags": [
-      "전세계",
-      "의료",
-      "간호사",
-      "감사"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "환자 곁에서 치료와 돌봄을 책임지는 간호사들의 헌신을 기리는 날이다. 국제간호협의회가 정한 '국제 간호사의 날'(5월 12일)의 시작을 알리는 의미도 있다.",
@@ -690,12 +614,9 @@
     "date": "05-06",
     "dateType": "annual-fixed",
     "name": "군인 배우자 감사의 날",
-    "category": "commemorative",
+    "category": "career",
     "tags": [
-      "전세계",
-      "군인",
-      "가족",
-      "감사"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "군인의 임무 수행을 가정에서 지탱해주는 배우자들의 노고에 감사를 전하는 날이다.",
@@ -715,12 +636,9 @@
     "date": "05-06",
     "dateType": "annual-fixed",
     "name": "돌봄 제공자 감사의 날",
-    "category": "commemorative",
+    "category": "career",
     "tags": [
-      "전세계",
-      "보육",
-      "감사",
-      "돌봄"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "어린이집·보육시설 등에서 아이들을 돌보는 보육 제공자들의 노고를 기리는 날이다.",
@@ -740,12 +658,9 @@
     "date": "05-06",
     "dateType": "annual-fixed",
     "name": "우주의 날 (National Space Day)",
-    "category": "international",
+    "category": "academic",
     "tags": [
-      "전세계",
-      "과학",
-      "우주",
-      "교육"
+      "학술 & 기술"
     ],
     "storytelling": {
       "origin": "우주 탐사와 항공우주 과학에 대한 관심과 교육을 독려하기 위해 제정된 날이다.",
@@ -765,11 +680,9 @@
     "date": "05-06",
     "dateType": "annual-fixed",
     "name": "음료의 날 (National Beverage Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음료",
-      "음식"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "물부터 탄산음료, 주스까지 모든 종류의 음료를 폭넓게 기념하는 날이다.",
@@ -789,12 +702,9 @@
     "date": "05-06",
     "dateType": "annual-fixed",
     "name": "크레프 수제트의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "프랑스"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "오렌지 소스와 리큐어를 곁들여 불을 붙여 내는 프랑스식 디저트, 크레프 수제트를 기념하는 날이다.",
@@ -814,12 +724,9 @@
     "date": "05-07",
     "dateType": "annual-fixed",
     "name": "기차의 날 (National Train Day)",
-    "category": "general",
+    "category": "history",
     "tags": [
-      "전세계",
-      "교통",
-      "역사",
-      "여행"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "철도와 기차 여행의 역사적 의미와 매력을 기념하는 날이다.",
@@ -839,12 +746,9 @@
     "date": "05-07",
     "dateType": "annual-fixed",
     "name": "모나크 나비 관찰의 날",
-    "category": "international",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "자연",
-      "생태",
-      "곤충"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "수천 킬로미터를 이동하는 신비로운 곤충, 모나크 나비의 이동을 관찰하고 보호하기 위한 날이다.",
@@ -864,12 +768,9 @@
     "date": "05-07",
     "dateType": "annual-fixed",
     "name": "베이비시터의 날 (National Babysitter's Day)",
-    "category": "commemorative",
+    "category": "career",
     "tags": [
-      "전세계",
-      "육아",
-      "감사",
-      "돌봄"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "부모를 대신해 아이를 돌봐주는 베이비시터들의 수고에 감사를 전하는 날이다.",
@@ -889,11 +790,9 @@
     "date": "05-07",
     "dateType": "annual-fixed",
     "name": "봄셸의 날 (National Bombshells' Day)",
-    "category": "commemorative",
+    "category": "history",
     "tags": [
-      "전세계",
-      "역사",
-      "여성"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "강인하고 매력적인 여성상을 상징하는 '봄셸(Bombshell)'이라는 표현과 그런 여성들을 기리는 날이다.",
@@ -915,10 +814,7 @@
     "name": "스크랩북의 날 (National Scrapbook Day)",
     "category": "general",
     "tags": [
-      "전세계",
-      "취미",
-      "기록",
-      "추억"
+      "일반"
     ],
     "storytelling": {
       "origin": "사진과 메모, 소품을 모아 추억을 기록하는 스크랩북 취미를 기념하는 날이다.",
@@ -938,12 +834,9 @@
     "date": "05-07",
     "dateType": "annual-fixed",
     "name": "양다리 구이의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "요리",
-      "고기"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "허브와 향신료로 양념해 통째로 구워내는 양다리 요리를 기념하는 날이다.",
@@ -963,12 +856,9 @@
     "date": "05-07",
     "dateType": "annual-fixed",
     "name": "장벽 인식의 날",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "인식개선",
-      "장애",
-      "포용"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "장애인이 일상에서 겪는 물리적·사회적 장벽을 알리고 이를 없애기 위한 인식을 높이는 날이다.",
@@ -988,11 +878,9 @@
     "date": "05-07",
     "dateType": "annual-fixed",
     "name": "출산모의 날 (National Birth Mother's Day)",
-    "category": "commemorative",
+    "category": "general",
     "tags": [
-      "전세계",
-      "가족",
-      "입양"
+      "일반"
     ],
     "storytelling": {
       "origin": "입양을 보낸 생모(출산모)의 사랑과 결정을 존중하고 기리기 위해 1990년 제정된 날이다. 어머니의 날 전날인 토요일에 기념한다.",
@@ -1014,9 +902,7 @@
     "name": "패키지 디자인의 날",
     "category": "general",
     "tags": [
-      "전세계",
-      "디자인",
-      "산업"
+      "일반"
     ],
     "storytelling": {
       "origin": "제품의 첫인상을 결정하는 패키지 디자인의 창의성과 기능성을 기리는 날이다.",
@@ -1038,10 +924,7 @@
     "name": "페이스트업의 날",
     "category": "general",
     "tags": [
-      "전세계",
-      "디자인",
-      "인쇄",
-      "레트로"
+      "일반"
     ],
     "storytelling": {
       "origin": "디지털 편집 전, 종이를 직접 자르고 붙여 인쇄물을 만들던 '페이스트업' 작업 방식을 추억하는 날이다.",
@@ -1061,12 +944,9 @@
     "date": "05-07",
     "dateType": "annual-fixed",
     "name": "홈브루의 날 (National Homebrew Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "맥주",
-      "취미",
-      "음료"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "집에서 직접 맥주를 만드는 홈브루잉 취미와 문화를 기념하는 날이다.",
@@ -1086,11 +966,9 @@
     "date": "05-08",
     "dateType": "annual-fixed",
     "name": "어버이 날",
-    "category": "anniversary",
+    "category": "general",
     "tags": [
-      "대한민국",
-      "법정기념일",
-      "정부"
+      "일반"
     ],
     "storytelling": {
       "origin": "주관 부처: 보건복지부. 조상과 어버이에 대한 은혜를 헤아리고, 어른과 노인 보호와 관련된 행사를 한다.",
@@ -1104,11 +982,9 @@
     "date": "05-08",
     "dateType": "annual-fixed",
     "name": "코카콜라의 날 (National Have A Coke Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음료",
-      "브랜드"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "전 세계적으로 사랑받는 탄산음료 코카콜라를 기념하는 날이다.",
@@ -1128,11 +1004,9 @@
     "date": "05-08",
     "dateType": "annual-fixed",
     "name": "코코넛 크림 파이의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "코코넛 크림을 가득 채운 파이를 기념하는 날이다.",
@@ -1152,11 +1026,9 @@
     "date": "05-09",
     "dateType": "annual-fixed",
     "name": "모스카토의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "와인",
-      "음료"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "달콤하고 향긋한 화이트 와인, 모스카토를 기념하는 날이다.",
@@ -1176,12 +1048,9 @@
     "date": "05-09",
     "dateType": "annual-fixed",
     "name": "버터스카치 브라우니의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "베이킹"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "캐러멜라이즈된 버터와 설탕의 풍미가 가득한 버터스카치 브라우니를 기념하는 날이다.",
@@ -1201,12 +1070,9 @@
     "date": "05-09",
     "dateType": "annual-fixed",
     "name": "여성 건강검진의 날",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "건강",
-      "여성",
-      "인식개선"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "여성들이 정기적인 건강검진을 받도록 독려하기 위해 제정된 날이다.",
@@ -1226,12 +1092,9 @@
     "date": "05-09",
     "dateType": "annual-fixed",
     "name": "잃어버린 양말 추모의 날",
-    "category": "quirky",
+    "category": "history",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "유머",
-      "집안일"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "세탁기 속에서 사라져 짝을 잃은 양말들을 유쾌하게 추모하는 날이다.",
@@ -1251,11 +1114,9 @@
     "date": "05-10",
     "dateType": "annual-fixed",
     "name": "새우의 날 (National Shrimp Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "해산물"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "다양한 요리로 활용되는 인기 해산물, 새우를 기념하는 날이다.",
@@ -1275,12 +1136,9 @@
     "date": "05-10",
     "dateType": "annual-fixed",
     "name": "세계 루퍼스의 날",
-    "category": "general",
+    "category": "campaign",
     "tags": [
-      "보건",
-      "자가면역질환",
-      "캠페인",
-      "보라리본"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "2004년 세계 루퍼스 환자 단체 13개국이 공동으로 제정. 자가면역질환인 전신성 홍반성 루푸스(SLE)에 대한 인식 개선과 치료 연구 확대를 목적으로 한다.",
@@ -1302,10 +1160,7 @@
     "name": "유권자의 날",
     "category": "holiday",
     "tags": [
-      "대한민국",
-      "법정기념일",
-      "선거",
-      "민주주의"
+      "공휴일"
     ],
     "storytelling": {
       "origin": "2012년 제정된 대한민국 법정기념일. 1948년 5월 10일, 한반도 역사상 최초의 보통·평등·직접·비밀 선거인 제헌국회의원 선거가 치러진 날을 기념한다.",
@@ -1325,11 +1180,9 @@
     "date": "05-10",
     "dateType": "annual-fixed",
     "name": "지질(脂質)의 날 (National Lipid Day)",
-    "category": "general",
+    "category": "academic",
     "tags": [
-      "전세계",
-      "건강",
-      "의학"
+      "학술 & 기술"
     ],
     "storytelling": {
       "origin": "콜레스테롤 등 체내 지질 건강과 심혈관 질환 예방의 중요성을 알리기 위해 제정된 날이다.",
@@ -1349,11 +1202,9 @@
     "date": "05-11",
     "dateType": "annual-fixed",
     "name": "동학농민혁명 기념일",
-    "category": "anniversary",
+    "category": "history",
     "tags": [
-      "대한민국",
-      "법정기념일",
-      "정부"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "주관 부처: 문화체육 관광부. 동학농민혁명의 역사적 가치와 의미를 재조명하고 애국애족정신을 높이는 행사를 한다.",
@@ -1367,12 +1218,9 @@
     "date": "05-11",
     "dateType": "annual-fixed",
     "name": "리셉셔니스트의 날",
-    "category": "commemorative",
+    "category": "career",
     "tags": [
-      "전세계",
-      "직업",
-      "감사",
-      "직장"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "회사나 병원의 첫인상을 책임지는 리셉셔니스트(안내 직원)들의 노고를 기리는 날이다.",
@@ -1392,12 +1240,9 @@
     "date": "05-11",
     "dateType": "annual-fixed",
     "name": "야간 근무자의 날",
-    "category": "commemorative",
+    "category": "career",
     "tags": [
-      "전세계",
-      "직장",
-      "감사",
-      "노동"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "모두가 잠든 시간에 일하는 야간(3교대) 근무자들의 노고를 기리는 날이다.",
@@ -1417,11 +1262,9 @@
     "date": "05-11",
     "dateType": "annual-fixed",
     "name": "폼롤러의 날 (National Foam Rolling Day)",
-    "category": "general",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "건강",
-      "운동"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "근육 회복과 유연성 향상에 도움을 주는 폼롤러 사용을 독려하는 날이다.",
@@ -1441,12 +1284,9 @@
     "date": "05-11",
     "dateType": "annual-fixed",
     "name": "학교 보건교사의 날",
-    "category": "commemorative",
+    "category": "career",
     "tags": [
-      "전세계",
-      "교육",
-      "의료",
-      "감사"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "학생들의 건강을 보살피는 학교 보건교사들의 헌신을 기리는 날이다.",
@@ -1466,12 +1306,9 @@
     "date": "05-11",
     "dateType": "annual-fixed",
     "name": "환상특급의 날 (National Twilight Zone Day)",
-    "category": "anniversary",
+    "category": "culture",
     "tags": [
-      "미국",
-      "드라마",
-      "SF",
-      "팝컬처"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "1959년 첫 방영된 SF·미스터리 앤솔로지 드라마 '환상특급(The Twilight Zone)'을 기념하는 날이다.",
@@ -1491,12 +1328,9 @@
     "date": "05-12",
     "dateType": "annual-fixed",
     "name": "너티 퍼지의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "초콜릿"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "견과류를 듬뿍 넣은 진한 퍼지(설탕 디저트)를 기념하는 날이다.",
@@ -1516,12 +1350,9 @@
     "date": "05-12",
     "dateType": "annual-fixed",
     "name": "리머릭의 날 (National Limerick Day)",
-    "category": "general",
+    "category": "culture",
     "tags": [
-      "전세계",
-      "문학",
-      "시",
-      "유머"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "5행으로 이루어진 유머러스한 정형시 '리머릭'을 기념하는 날. 영국 시인 에드워드 리어의 생일에 맞춰 제정됐다.",
@@ -1541,12 +1372,9 @@
     "date": "05-12",
     "dateType": "annual-fixed",
     "name": "섬유근육통 인식의 날",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "건강",
-      "인식개선",
-      "만성질환"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "전신에 만성 통증을 유발하는 섬유근육통에 대한 이해와 인식을 높이기 위한 날이다.",
@@ -1566,12 +1394,9 @@
     "date": "05-12",
     "dateType": "annual-fixed",
     "name": "주행거리계의 날 (National Odometer Day)",
-    "category": "commemorative",
+    "category": "academic",
     "tags": [
-      "전세계",
-      "역사",
-      "발명",
-      "자동차"
+      "학술 & 기술"
     ],
     "storytelling": {
       "origin": "자동차의 누적 주행거리를 측정하는 장치, 오도미터의 발명을 기념하는 날이다.",
@@ -1593,9 +1418,7 @@
     "name": "개구리 뛰기 대회의 날",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "유머"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "마크 트웨인의 단편 소설 「캘러베라스 카운티의 유명한 뛰는 개구리」에서 유래한 개구리 멀리뛰기 대회를 기념하는 날이다.",
@@ -1615,11 +1438,9 @@
     "date": "05-13",
     "dateType": "annual-fixed",
     "name": "과일 칵테일의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "과일"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "여러 과일을 섞어 시럽에 담은 과일 칵테일을 기념하는 날이다.",
@@ -1641,9 +1462,7 @@
     "name": "남 탓하는 날",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "유머"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "13일의 금요일에 즈음해, 잘못된 일을 유쾌하게 남에게 돌려보자는 농담성 기념일이다.",
@@ -1663,12 +1482,9 @@
     "date": "05-13",
     "dateType": "annual-fixed",
     "name": "애플파이의 날 (National Apple Pie Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "과일"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "미국을 대표하는 디저트로 꼽히는 애플파이를 기념하는 날이다.",
@@ -1688,11 +1504,9 @@
     "date": "05-13",
     "dateType": "annual-fixed",
     "name": "크루통의 날 (National Crouton Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "샐러드"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "바삭하게 구운 빵 조각, 크루통을 기념하는 날이다.",
@@ -1714,9 +1528,7 @@
     "name": "닭처럼 춤추는 날",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "유머"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "닭처럼 우스꽝스러운 춤을 추며 하루의 스트레스를 날려보자는 유쾌한 기념일이다.",
@@ -1736,13 +1548,9 @@
     "date": "05-14",
     "dateType": "annual-fixed",
     "name": "로즈데이",
-    "category": "quirky",
+    "category": "romance",
     "tags": [
-      "대한민국",
-      "비공식기념일",
-      "포틴데이",
-      "연인",
-      "장미"
+      "연애 & 기념일"
     ],
     "storytelling": {
       "origin": "매월 14일마다 의미를 부여하는 한국 특유의 '포틴데이(14일 데이)' 문화 중 하나로, 연인들끼리 사랑의 표현으로 장미꽃을 주고받는 날이다.",
@@ -1762,11 +1570,9 @@
     "date": "05-14",
     "dateType": "annual-fixed",
     "name": "미니 골프의 날 (National Miniature Golf Day)",
-    "category": "general",
+    "category": "sports",
     "tags": [
-      "전세계",
-      "스포츠",
-      "레저"
+      "스포츠 & 레저"
     ],
     "storytelling": {
       "origin": "가족이나 친구와 가볍게 즐길 수 있는 미니 골프(파크 골프류)를 기념하는 날이다.",
@@ -1786,11 +1592,9 @@
     "date": "05-14",
     "dateType": "annual-fixed",
     "name": "버터밀크 비스킷의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "베이킹"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "버터밀크로 반죽해 폭신하게 구운 미국 남부식 비스킷을 기념하는 날이다.",
@@ -1810,11 +1614,9 @@
     "date": "05-14",
     "dateType": "annual-fixed",
     "name": "양궁의 날 (National Archery Day)",
-    "category": "general",
+    "category": "sports",
     "tags": [
-      "전세계",
-      "스포츠",
-      "양궁"
+      "스포츠 & 레저"
     ],
     "storytelling": {
       "origin": "정교한 집중력과 기술이 요구되는 스포츠, 양궁을 기념하는 날이다.",
@@ -1834,11 +1636,9 @@
     "date": "05-14",
     "dateType": "annual-fixed",
     "name": "언더그라운드 아메리카의 날",
-    "category": "commemorative",
+    "category": "history",
     "tags": [
-      "미국",
-      "역사",
-      "문화"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "지하 동굴, 지하철, 비밀 통로 등 미국 곳곳의 '지하' 공간이 가진 역사와 이야기를 기념하는 날이다.",
@@ -1858,12 +1658,9 @@
     "date": "05-14",
     "dateType": "annual-fixed",
     "name": "코르넬리아 드 랑게 증후군 인식의 날",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "건강",
-      "인식개선",
-      "희귀질환"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "성장 지연과 다양한 신체적 특징을 동반하는 희귀 유전질환, 코르넬리아 드 랑게 증후군에 대한 인식을 높이기 위한 날이다.",
@@ -1883,12 +1680,9 @@
     "date": "05-15",
     "dateType": "annual-fixed",
     "name": "나일론 스타킹의 날",
-    "category": "commemorative",
+    "category": "academic",
     "tags": [
-      "전세계",
-      "역사",
-      "패션",
-      "발명"
+      "학술 & 기술"
     ],
     "storytelling": {
       "origin": "1940년 5월 15일, 나일론 스타킹이 처음 상점에서 판매를 시작한 것을 기념하는 날이다.",
@@ -1908,11 +1702,9 @@
     "date": "05-15",
     "dateType": "annual-fixed",
     "name": "세종대왕 나신 날",
-    "category": "anniversary",
+    "category": "general",
     "tags": [
-      "대한민국",
-      "법정기념일",
-      "정부"
+      "일반"
     ],
     "storytelling": {
       "origin": "주관 부처: 문화체육관광부, 국가유산청. 세종대왕의 위대한 업적을 기리고, 창조정신과 애민사상을 계승ㆍ발전시키는 행사를 한다.",
@@ -1928,10 +1720,7 @@
     "name": "스승의 날",
     "category": "holiday",
     "tags": [
-      "대한민국",
-      "스승",
-      "세종대왕",
-      "교육"
+      "공휴일"
     ],
     "storytelling": {
       "origin": "1965년 세종대왕 탄신일(5월 15일)에 맞춰 제정. '백성에게 글을 가르치신 가장 큰 스승'이라는 의미에서 이 날로 정해졌다.",
@@ -1951,11 +1740,9 @@
     "date": "05-15",
     "dateType": "annual-fixed",
     "name": "스승의 날",
-    "category": "anniversary",
+    "category": "general",
     "tags": [
-      "대한민국",
-      "법정기념일",
-      "정부"
+      "일반"
     ],
     "storytelling": {
       "origin": "주관 부처: 교육부. 교권 존중의 사회적 분위기 조성과 스승 공경과 관련된 행사를 한다.",
@@ -1969,12 +1756,9 @@
     "date": "05-15",
     "dateType": "annual-fixed",
     "name": "초콜릿칩의 날 (National Chocolate Chip Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "초콜릿"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "초콜릿칩 쿠키를 비롯한 수많은 디저트의 핵심 재료, 초콜릿칩을 기념하는 날이다.",
@@ -1994,11 +1778,9 @@
     "date": "05-16",
     "dateType": "annual-fixed",
     "name": "나무를 사랑하는 날",
-    "category": "general",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "환경",
-      "자연"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "산소를 만들고 그늘을 내어주는 나무의 가치를 되새기고 사랑을 표현하자는 취지의 날이다.",
@@ -2018,11 +1800,9 @@
     "date": "05-16",
     "dateType": "annual-fixed",
     "name": "씨몽키의 날 (National Sea Monkey Day)",
-    "category": "anniversary",
+    "category": "general",
     "tags": [
-      "미국",
-      "장난감",
-      "추억"
+      "일반"
     ],
     "storytelling": {
       "origin": "1957년 처음 판매되기 시작한 인기 장난감, '씨몽키(브라인 새우 알 키트)'를 기념하는 날이다.",
@@ -2042,11 +1822,9 @@
     "date": "05-16",
     "dateType": "annual-fixed",
     "name": "전기 작가의 날",
-    "category": "commemorative",
+    "category": "history",
     "tags": [
-      "전세계",
-      "문학",
-      "역사"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "누군가의 삶을 기록하고 알리는 전기(傳記) 작가들의 작업을 기리는 날이다.",
@@ -2066,12 +1844,9 @@
     "date": "05-16",
     "dateType": "annual-fixed",
     "name": "코키유 생자크의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "해산물",
-      "프랑스"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "가리비와 크림 소스를 조개 모양 그릇에 담아 구워내는 프랑스 요리, 코키유 생자크를 기념하는 날이다.",
@@ -2091,11 +1866,9 @@
     "date": "05-16",
     "dateType": "annual-fixed",
     "name": "피어싱의 날 (National Piercing Day)",
-    "category": "general",
+    "category": "culture",
     "tags": [
-      "전세계",
-      "패션",
-      "뷰티"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "신체의 일부에 장신구를 착용하는 피어싱 문화와 그 역사를 기념하는 날이다.",
@@ -2115,12 +1888,9 @@
     "date": "05-17",
     "dateType": "annual-fixed",
     "name": "체리 코블러의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "과일"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "체리를 듬뿍 넣고 비스킷 반죽을 얹어 구운 디저트, 체리 코블러를 기념하는 날이다.",
@@ -2142,10 +1912,7 @@
     "name": "팩 랫의 날 (National Pack Rat Day)",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "유머",
-      "정리"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "필요 없는 물건을 쉽게 버리지 못하고 쌓아두는 '팩 랫(저장 습성이 있는 사람)' 기질을 유머스럽게 기념하는 날이다.",
@@ -2165,12 +1932,9 @@
     "date": "05-17",
     "dateType": "annual-fixed",
     "name": "호두의 날 (National Walnut Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "견과류",
-      "건강"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "두뇌 모양을 닮아 두뇌 건강에 좋다고 알려진 견과류, 호두를 기념하는 날이다.",
@@ -2190,11 +1954,9 @@
     "date": "05-18",
     "dateType": "annual-fixed",
     "name": "5ㆍ18민주화운동 기념일",
-    "category": "anniversary",
+    "category": "history",
     "tags": [
-      "대한민국",
-      "법정기념일",
-      "정부"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "주관 부처: 국가보훈부. 5ㆍ18민주화운동을 기념하는 행사를 한다.",
@@ -2208,12 +1970,9 @@
     "date": "05-18",
     "dateType": "annual-fixed",
     "name": "HIV 백신 인식의 날",
-    "category": "international",
+    "category": "academic",
     "tags": [
-      "전세계",
-      "건강",
-      "인식개선",
-      "의학"
+      "학술 & 기술"
     ],
     "storytelling": {
       "origin": "HIV 백신 개발 연구의 중요성을 알리고 관련 연구에 참여한 자원자들에게 감사를 전하기 위해 제정된 날이다.",
@@ -2235,9 +1994,7 @@
     "name": "더러운 그릇 없는 날",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "집안일"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "쌓아둔 설거지를 모두 끝내고 깨끗한 부엌에서 하루를 시작해보자는 취지의 날이다.",
@@ -2257,12 +2014,9 @@
     "date": "05-18",
     "dateType": "annual-fixed",
     "name": "치즈 수플레의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "치즈",
-      "프랑스"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "오븐 속에서 부풀어 오르는 폭신한 치즈 요리, 수플레를 기념하는 날이다.",
@@ -2282,11 +2036,9 @@
     "date": "05-18",
     "dateType": "annual-fixed",
     "name": "친척 방문의 날",
-    "category": "general",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "가족",
-      "이색기념일"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "바쁜 일상 속에서 잊고 지내던 친척들을 찾아가 안부를 전하자는 취지의 날이다.",
@@ -2306,12 +2058,9 @@
     "date": "05-19",
     "dateType": "annual-fixed",
     "name": "데블스 푸드 케이크의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "초콜릿"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "에인절 푸드 케이크에 대응해 더 진하고 짙은 초콜릿 풍미를 자랑하는 데블스 푸드 케이크를 기념하는 날이다.",
@@ -2333,9 +2082,7 @@
     "name": "메이 레이의 날",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "유머"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "이름의 말장난(May + Ray)에서 비롯된 가벼운 유머성 기념일로, 5월의 따뜻한 햇살을 즐기자는 의미를 담고 있다.",
@@ -2355,11 +2102,9 @@
     "date": "05-20",
     "dateType": "annual-fixed",
     "name": "국방 수송의 날",
-    "category": "commemorative",
+    "category": "history",
     "tags": [
-      "전세계",
-      "군사",
-      "역사"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "군수물자와 병력을 신속하게 운송하는 국방 수송 체계의 중요성을 기리는 날이다.",
@@ -2379,11 +2124,9 @@
     "date": "05-20",
     "dateType": "annual-fixed",
     "name": "딸기 따는 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "과일",
-      "나들이"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "직접 농장을 찾아 딸기를 수확하는 체험을 즐기자는 취지의 날이다.",
@@ -2403,12 +2146,9 @@
     "date": "05-20",
     "dateType": "annual-fixed",
     "name": "멸종위기종의 날 (National Endangered Species Day)",
-    "category": "international",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "환경",
-      "동물",
-      "보호"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "멸종 위기에 처한 동식물에 대한 인식을 높이고 보호 활동을 독려하기 위해 2006년 미국에서 제정된 날이다.",
@@ -2430,10 +2170,7 @@
     "name": "백만장자가 되는 날",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "경제",
-      "유머"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "꿈에서라도 백만장자가 된 기분을 만끽해보자는 가벼운 유머성 기념일이다.",
@@ -2453,12 +2190,9 @@
     "date": "05-20",
     "dateType": "annual-fixed",
     "name": "세계 기상학의 날 (소스 기재 5월 20일)",
-    "category": "international",
+    "category": "academic",
     "tags": [
-      "전세계",
-      "과학",
-      "기상",
-      "국제기념일"
+      "학술 & 기술"
     ],
     "storytelling": {
       "origin": "기상 관측과 예보 과학의 발전을 기리는 날로, 다만 국제적으로 공인된 '세계 기상의 날'은 3월 23일(세계기상기구 창설일)이며 본 항목은 출처 데이터에 표기된 5월 20일 기준이다.",
@@ -2478,12 +2212,9 @@
     "date": "05-20",
     "dateType": "annual-fixed",
     "name": "세계 꿀벌의 날",
-    "category": "general",
+    "category": "animal",
     "tags": [
-      "UN",
-      "환경",
-      "꿀벌",
-      "생태계"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "2017년 UN이 제정. 슬로베니아의 양봉가 안톤 얀샤(Anton Janša, 1734-1773)의 생일을 기념하며, 꿀벌이 인류 식량의 1/3을 책임지는 수분 매개자임을 알리려는 목적.",
@@ -2503,12 +2234,9 @@
     "date": "05-20",
     "dateType": "annual-fixed",
     "name": "자전거 출근의 날 (National Bike to Work Day)",
-    "category": "general",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "건강",
-      "환경",
-      "교통"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "자동차 대신 자전거로 출근하며 건강과 환경을 함께 챙기자는 캠페인성 기념일이다.",
@@ -2528,11 +2256,9 @@
     "date": "05-20",
     "dateType": "annual-fixed",
     "name": "키슈 로렌의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "프랑스"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "베이컨과 치즈를 넣은 프랑스식 파이 요리, 키슈 로렌을 기념하는 날이다.",
@@ -2552,12 +2278,9 @@
     "date": "05-20",
     "dateType": "annual-fixed",
     "name": "피자 파티의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "피자",
-      "파티"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "여럿이 모여 피자를 나눠 먹는 즐거움을 기념하는 날이다.",
@@ -2577,12 +2300,9 @@
     "date": "05-21",
     "dateType": "annual-fixed",
     "name": "딸기와 크림의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "과일",
-      "디저트"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "딸기에 생크림을 곁들여 먹는 클래식한 조합을 기념하는 날이다.",
@@ -2602,11 +2322,9 @@
     "date": "05-21",
     "dateType": "annual-fixed",
     "name": "메모의 날 (National Memo Day)",
-    "category": "general",
+    "category": "career",
     "tags": [
-      "전세계",
-      "직장",
-      "이색기념일"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "업무 소통의 기본 도구인 메모(공지문)의 중요성을 기념하는 날이다.",
@@ -2626,11 +2344,9 @@
     "date": "05-21",
     "dateType": "annual-fixed",
     "name": "미국 적십자 창립자의 날",
-    "category": "commemorative",
+    "category": "history",
     "tags": [
-      "전세계",
-      "역사",
-      "인도주의"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "1881년 미국 적십자를 창설한 클라라 바튼을 기념하는 날이다.",
@@ -2650,11 +2366,9 @@
     "date": "05-21",
     "dateType": "annual-fixed",
     "name": "부부의 날",
-    "category": "anniversary",
+    "category": "general",
     "tags": [
-      "대한민국",
-      "법정기념일",
-      "정부"
+      "일반"
     ],
     "storytelling": {
       "origin": "주관 부처: 성평등가족부. 건전한 가족문화의 정착과 가족 해체 예방을 위한 행사를 한다.",
@@ -2668,12 +2382,9 @@
     "date": "05-21",
     "dateType": "annual-fixed",
     "name": "서빙 직원의 날",
-    "category": "commemorative",
+    "category": "career",
     "tags": [
-      "전세계",
-      "직업",
-      "감사",
-      "외식"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "식당에서 손님을 응대하고 서빙하는 직원들의 노고를 기리는 날이다.",
@@ -2693,12 +2404,9 @@
     "date": "05-21",
     "dateType": "annual-fixed",
     "name": "수영 배우는 날 (National Learn to Swim Day)",
-    "category": "general",
+    "category": "sports",
     "tags": [
-      "전세계",
-      "건강",
-      "스포츠",
-      "안전"
+      "스포츠 & 레저"
     ],
     "storytelling": {
       "origin": "수영을 배워 물놀이 안전사고를 예방하자는 취지로 제정된 날이다.",
@@ -2718,11 +2426,9 @@
     "date": "05-22",
     "dateType": "annual-fixed",
     "name": "바닐라 푸딩의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "부드럽고 고소한 바닐라 푸딩을 기념하는 날이다.",
@@ -2742,12 +2448,9 @@
     "date": "05-22",
     "dateType": "annual-fixed",
     "name": "세계 고스(Goth)의 날",
-    "category": "general",
+    "category": "culture",
     "tags": [
-      "서브컬처",
-      "음악",
-      "패션",
-      "포스트펑크"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "2009년 영국 BBC 라디오 방송에서 'Goth Day'로 처음 소개되며 시작. 1980년대 영국 포스트펑크에서 파생된 고스 록 문화와 그 미학을 기념한다.",
@@ -2767,11 +2470,9 @@
     "date": "05-22",
     "dateType": "annual-fixed",
     "name": "악기를 사는 날",
-    "category": "general",
+    "category": "culture",
     "tags": [
-      "전세계",
-      "음악",
-      "이색기념일"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "미뤄왔던 악기 구입을 결심하고 새로운 취미에 도전해보자는 취지의 날이다.",
@@ -2791,12 +2492,9 @@
     "date": "05-22",
     "dateType": "annual-fixed",
     "name": "해양의 날 (National Maritime Day)",
-    "category": "international",
+    "category": "history",
     "tags": [
-      "전세계",
-      "역사",
-      "해양",
-      "산업"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "해상 운송과 선원들의 역할, 해양 산업의 중요성을 기리기 위해 제정된 날이다.",
@@ -2816,12 +2514,9 @@
     "date": "05-23",
     "dateType": "annual-fixed",
     "name": "태피의 날 (National Taffy Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "간식",
-      "사탕"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "쫄깃하게 늘려 만드는 캔디, 태피를 기념하는 날이다.",
@@ -2843,9 +2538,7 @@
     "name": "행운의 동전의 날 (National Lucky Penny Day)",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "미신"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "길에서 동전을 발견하면 행운이 따른다는 미신을 기념하는 날이다.",
@@ -2865,11 +2558,9 @@
     "date": "05-24",
     "dateType": "annual-fixed",
     "name": "보물찾기의 날 (National Scavenger Hunt Day)",
-    "category": "general",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "놀이",
-      "이색기념일"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "목록에 적힌 물건이나 단서를 찾아다니는 놀이, 스캐빈저 헌트를 기념하는 날이다.",
@@ -2889,12 +2580,9 @@
     "date": "05-24",
     "dateType": "annual-fixed",
     "name": "에스카르고의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "프랑스",
-      "해산물"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "버터와 마늘로 조리한 프랑스식 달팽이 요리, 에스카르고를 기념하는 날이다.",
@@ -2914,12 +2602,9 @@
     "date": "05-25",
     "dateType": "annual-fixed",
     "name": "노년층 건강·체력의 날",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "건강",
-      "노년",
-      "운동"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "노년층의 신체 활동과 건강한 삶을 독려하기 위해 매년 5월 마지막 주 수요일에 즈음해 제정된 날이다.",
@@ -2939,12 +2624,9 @@
     "date": "05-25",
     "dateType": "annual-fixed",
     "name": "브라운백 점심의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "경제",
-      "직장"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "종이봉투에 도시락을 싸 와서 점심을 해결하는 절약형 식습관을 기념하는 날이다.",
@@ -2964,12 +2646,9 @@
     "date": "05-25",
     "dateType": "annual-fixed",
     "name": "실종 아동의 날 (National Missing Children's Day)",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "아동",
-      "캠페인",
-      "안전"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "실종 아동을 찾기 위한 사회적 관심과 예방 교육을 독려하기 위해 1983년 제정된 날이다.",
@@ -2989,11 +2668,9 @@
     "date": "05-25",
     "dateType": "annual-fixed",
     "name": "와인의 날 (National Wine Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음료",
-      "와인"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "다양한 풍미와 역사를 가진 와인을 기념하는 날이다.",
@@ -3015,10 +2692,7 @@
     "name": "타월의 날 (Towel Day)",
     "category": "general",
     "tags": [
-      "SF",
-      "더글러스애덤스",
-      "은하수를여행하는히치하이커를위한안내서",
-      "팬덤"
+      "일반"
     ],
     "storytelling": {
       "origin": "2001년 5월 25일 사망한 SF 작가 더글러스 애덤스(Douglas Adams)를 추모하기 위해 팬들이 만든 비공식 기념일. 그의 사후 2주 만에 첫 행사가 열렸다.",
@@ -3040,9 +2714,7 @@
     "name": "탭댄스의 날 (National Tap Dance Day)",
     "category": "general",
     "tags": [
-      "전세계",
-      "춤",
-      "공연예술"
+      "일반"
     ],
     "storytelling": {
       "origin": "구두 소리로 리듬을 만들어내는 탭댄스를 기념하는 날이다. 탭댄스의 대중화에 기여한 빌 '보쟁글스' 로빈슨의 생일에 맞춰 제정됐다.",
@@ -3062,12 +2734,9 @@
     "date": "05-26",
     "dateType": "annual-fixed",
     "name": "블루베리 치즈케이크의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "과일"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "진한 크림치즈 베이스 위에 블루베리를 올린 치즈케이크를 기념하는 날이다.",
@@ -3087,11 +2756,9 @@
     "date": "05-27",
     "dateType": "annual-fixed",
     "name": "셀로판테이프의 날",
-    "category": "commemorative",
+    "category": "academic",
     "tags": [
-      "전세계",
-      "역사",
-      "발명"
+      "학술 & 기술"
     ],
     "storytelling": {
       "origin": "1930년 셀로판테이프(스카치테이프)가 처음 출시된 것을 기념하는 날이다.",
@@ -3111,11 +2778,9 @@
     "date": "05-27",
     "dateType": "annual-fixed",
     "name": "우주항공의 날",
-    "category": "anniversary",
+    "category": "academic",
     "tags": [
-      "대한민국",
-      "법정기념일",
-      "정부"
+      "학술 & 기술"
     ],
     "storytelling": {
       "origin": "주관 부처: 우주항공청. 우주경제 시대의 중요성을 알리고, 우주항공 산업의 진흥을 촉진하는 행사를 한다.",
@@ -3129,12 +2794,9 @@
     "date": "05-27",
     "dateType": "annual-fixed",
     "name": "태우지 말자의 날 (National Don't Fry Day)",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "건강",
-      "인식개선",
-      "피부"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "여름 휴가철을 앞두고 자외선으로부터 피부를 보호하자는 메시지를 전하는 날이다. 미국 피부암 재단이 메모리얼 데이 전 금요일에 맞춰 지정했다.",
@@ -3154,12 +2816,9 @@
     "date": "05-27",
     "dateType": "annual-fixed",
     "name": "포도 아이스바의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "간식",
-      "여름"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "더운 날 즐기는 시원한 포도맛 아이스바를 기념하는 날이다.",
@@ -3179,12 +2838,9 @@
     "date": "05-27",
     "dateType": "annual-fixed",
     "name": "폭염 인식의 날",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "건강",
-      "인식개선",
-      "기후"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "여름철 폭염으로 인한 열사병 등 건강 위험을 알리고 예방을 독려하기 위한 날이다.",
@@ -3204,12 +2860,9 @@
     "date": "05-28",
     "dateType": "annual-fixed",
     "name": "브리스킷의 날 (National Brisket Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "고기",
-      "바베큐"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "오랜 시간 저온에서 천천히 훈제하거나 조리하는 소고기 부위, 브리스킷을 기념하는 날이다.",
@@ -3231,11 +2884,7 @@
     "name": "세계 햄버거의 날",
     "category": "brand",
     "tags": [
-      "햄버거",
-      "패스트푸드",
-      "맥도날드",
-      "버거킹",
-      "음식기념일"
+      "브랜드 데이"
     ],
     "storytelling": {
       "origin": "1900년대 초 미국 코네티컷 주 뉴 헤이븐의 'Louis' Lunch'가 최초의 햄버거를 만들었다는 설이 유력하다. 미국 농무부 자료에 따르면 5월 28일이 햄버거의 날로 굳어진 것은 1990년대다.",
@@ -3255,13 +2904,9 @@
     "date": "05-29",
     "dateType": "annual-fixed",
     "name": "에베레스트 첫 등정 기념일",
-    "category": "extreme",
+    "category": "sports",
     "tags": [
-      "에베레스트",
-      "산악",
-      "등반",
-      "익스트림",
-      "히말라야"
+      "스포츠 & 레저"
     ],
     "storytelling": {
       "origin": "1953년 5월 29일 오전 11시 30분, 뉴질랜드의 에드먼드 힐러리(Edmund Hillary)와 셰르파 텐징 노르가이(Tenzing Norgay)가 인류 최초로 해발 8,848m 에베레스트 정상에 올랐다.",
@@ -3281,12 +2926,9 @@
     "date": "05-29",
     "dateType": "annual-fixed",
     "name": "코코뱅의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "프랑스",
-      "요리"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "닭고기를 와인에 졸여 만드는 프랑스 전통 요리, 코코뱅을 기념하는 날이다.",
@@ -3306,12 +2948,9 @@
     "date": "05-29",
     "dateType": "annual-fixed",
     "name": "클립의 날 (National Paperclip Day)",
-    "category": "commemorative",
+    "category": "academic",
     "tags": [
-      "전세계",
-      "역사",
-      "발명",
-      "문구"
+      "학술 & 기술"
     ],
     "storytelling": {
       "origin": "1899년 노르웨이의 발명가 요한 발레르가 종이 클립 디자인의 특허를 받은 것을 기념하는 날이다.",
@@ -3333,10 +2972,7 @@
     "name": "구멍 난 양동이의 날",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "유머",
-      "동요"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "오래된 동요 「Hole in the Bucket」에서 이름을 따온 다소 엉뚱한 기념일이다.",
@@ -3356,12 +2992,9 @@
     "date": "05-30",
     "dateType": "annual-fixed",
     "name": "꽃에 물 주는 날",
-    "category": "general",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "자연",
-      "식물",
-      "이색기념일"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "정원이나 화분의 꽃에 물을 주며 자연을 돌보는 작은 실천을 기념하는 날이다.",
@@ -3381,11 +3014,9 @@
     "date": "05-30",
     "dateType": "annual-fixed",
     "name": "민트 줄렙의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음료",
-      "칵테일"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "버번 위스키에 민트와 설탕을 더한 칵테일, 민트 줄렙을 기념하는 날이다.",
@@ -3405,11 +3036,9 @@
     "date": "05-31",
     "dateType": "annual-fixed",
     "name": "마카롱의 날 (National Macaroon Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "코코넛이나 아몬드 가루로 만드는 쫀득한 과자, 마카롱(코코넛 마카룬)을 기념하는 날이다.",
@@ -3429,11 +3058,9 @@
     "date": "05-31",
     "dateType": "annual-fixed",
     "name": "바다의 날",
-    "category": "anniversary",
+    "category": "general",
     "tags": [
-      "대한민국",
-      "법정기념일",
-      "정부"
+      "일반"
     ],
     "storytelling": {
       "origin": "주관 부처: 해양수산부. 바다 관련 산업의 중요성과 의의를 높이고, 국민의 해양에 대한 인식을 북돋우며, 관계 종사원들의 노고를 위로하는 행사를 한다.",
@@ -3449,10 +3076,7 @@
     "name": "완전한 문장으로 말하는 날",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "언어",
-      "유머"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "줄임말이나 단답형 대신 완전한 문장으로 또박또박 말해보자는 유쾌한 기념일이다.",
@@ -3472,11 +3096,9 @@
     "date": "05-31",
     "dateType": "annual-fixed",
     "name": "청력 보호의 날 (National Save Your Hearing Day)",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "건강",
-      "인식개선"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "큰 소음으로부터 청력을 보호하고 정기적인 청력 검사를 독려하기 위해 제정된 날이다.",
@@ -3496,12 +3118,9 @@
     "date": "05-1-MON",
     "dateType": "annual-nth-weekday",
     "name": "멜라노마 먼데이 (피부암 인식의 날)",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "건강",
-      "인식개선",
-      "피부암"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "매년 5월 첫째 월요일, 미국피부과학회가 흑색종(멜라노마)을 비롯한 피부암에 대한 경각심을 높이기 위해 지정한 날이다.",
@@ -3521,12 +3140,9 @@
     "date": "05-1-THU",
     "dateType": "annual-nth-weekday",
     "name": "국가 기도의 날 (National Day of Prayer)",
-    "category": "commemorative",
+    "category": "history",
     "tags": [
-      "미국",
-      "이색기념일",
-      "종교",
-      "역사"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "매년 5월 첫째 목요일, 미국에서 종교와 신앙을 통해 국가의 화합을 도모하기 위해 법으로 지정한 날이다.",
@@ -3548,9 +3164,7 @@
     "name": "이성(理性)의 날 (National Day of Reason)",
     "category": "quirky",
     "tags": [
-      "미국",
-      "이색기념일",
-      "세속주의"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "'국가 기도의 날'에 대응해 1998년 제정된, 과학과 이성, 비판적 사고를 기리는 날이다.",
@@ -3572,10 +3186,7 @@
     "name": "미국 어머니의 날",
     "category": "general",
     "tags": [
-      "미국",
-      "가정",
-      "어머니의날",
-      "카네이션"
+      "일반"
     ],
     "storytelling": {
       "origin": "1914년 미국 의회와 우드로 윌슨 대통령이 '5월 둘째 주 일요일'을 어머니의 날로 공식 지정. 안나 자비스(Anna Jarvis)가 돌아가신 어머니를 추모하며 시작한 운동에서 비롯됐다.",
@@ -3595,11 +3206,9 @@
     "date": "05-3-MON",
     "dateType": "annual-nth-weekday",
     "name": "성년의 날",
-    "category": "anniversary",
+    "category": "general",
     "tags": [
-      "대한민국",
-      "법정기념일",
-      "정부"
+      "일반"
     ],
     "storytelling": {
       "origin": "주관 부처: 성평등가족부. 5월 셋째 월요일. 국가와 민족의 장래를 짊어질 성인으로서의 자부심과 책임감을 갖게 하는 행사를 한다.",
@@ -3613,12 +3222,9 @@
     "date": "05-3-SAT",
     "dateType": "annual-nth-weekday",
     "name": "군의 날 (National Armed Forces Day)",
-    "category": "commemorative",
+    "category": "career",
     "tags": [
-      "미국",
-      "군인",
-      "역사",
-      "감사"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "매년 5월 셋째 토요일, 육·해·공군 등 모든 군 장병의 헌신을 통합적으로 기리기 위해 1950년 제정된 미국의 기념일이다.",
@@ -3638,12 +3244,9 @@
     "date": "05-L-MON",
     "dateType": "annual-nth-weekday",
     "name": "미국 현충일 (National Memorial Day)",
-    "category": "commemorative",
+    "category": "career",
     "tags": [
-      "미국",
-      "역사",
-      "추모",
-      "군인"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "매년 5월 마지막 월요일, 나라를 위해 목숨을 바친 군인들을 추모하기 위해 지정된 미국의 연방 공휴일이다.",
@@ -3663,13 +3266,9 @@
     "date": "2026-05-24",
     "dateType": "annual-floating",
     "name": "F1 모나코 그랑프리 결승일 (2026)",
-    "category": "motorsport",
+    "category": "sports",
     "tags": [
-      "F1",
-      "모나코",
-      "그랑프리",
-      "모터스포츠",
-      "트리플크라운"
+      "스포츠 & 레저"
     ],
     "storytelling": {
       "origin": "1929년 첫 개최된 모나코 그랑프리는 인디500, 르망24시와 함께 모터스포츠 '트리플 크라운'으로 불리는 최고 권위 레이스. 좁고 굽이친 시가지 코스를 시속 290km로 달린다.",

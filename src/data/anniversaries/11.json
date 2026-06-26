@@ -6,10 +6,7 @@
     "name": "가족 문해력의 날 (National Family Literacy Day)",
     "category": "general",
     "tags": [
-      "전세계",
-      "교육",
-      "가족",
-      "독서"
+      "일반"
     ],
     "storytelling": {
       "origin": "가족이 함께 책을 읽고 문해력을 키워가는 문화를 독려하기 위한 날이다.",
@@ -29,12 +26,9 @@
     "date": "11-01",
     "dateType": "annual-fixed",
     "name": "반려동물을 위해 요리하는 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "동물",
-      "반려동물",
-      "요리"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "사료 대신 직접 만든 건강식을 반려동물에게 대접해보자는 날이다.",
@@ -54,11 +48,9 @@
     "date": "11-01",
     "dateType": "annual-fixed",
     "name": "식초의 날 (National Vinegar Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "조미료"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "요리에 신맛과 풍미를 더해주는 식초를 기념하는 날이다.",
@@ -78,12 +70,9 @@
     "date": "11-01",
     "dateType": "annual-fixed",
     "name": "작가의 날 (National Authors' Day)",
-    "category": "commemorative",
+    "category": "career",
     "tags": [
-      "전세계",
-      "문학",
-      "작가",
-      "감사"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "이야기를 짓는 작가들의 창작 활동을 기리는 날이다.",
@@ -103,11 +92,9 @@
     "date": "11-01",
     "dateType": "annual-fixed",
     "name": "조개튀김의 날 (National Deep Fried Clams Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "해산물"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "바삭하게 튀긴 조개를 기념하는 날이다.",
@@ -127,12 +114,9 @@
     "date": "11-02",
     "dateType": "annual-fixed",
     "name": "교통 안내원의 날 (Traffic Directors Day)",
-    "category": "commemorative",
+    "category": "career",
     "tags": [
-      "전세계",
-      "직업",
-      "감사",
-      "안전"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "복잡한 도로와 공사 현장에서 안전한 교통 흐름을 책임지는 교통 안내원들의 노고를 기리는 날이다.",
@@ -152,11 +136,9 @@
     "date": "11-02",
     "dateType": "annual-fixed",
     "name": "데빌드 에그의 날 (National Deviled Egg Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "간식"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "삶은 달걀 속을 파내 양념한 노른자로 다시 채운 데빌드 에그를 기념하는 날이다.",
@@ -176,11 +158,9 @@
     "date": "11-03",
     "dateType": "annual-fixed",
     "name": "샌드위치의 날 (National Sandwich Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "샌드위치"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "빵 사이에 다양한 재료를 끼워 먹는 샌드위치를 기념하는 날이다. 샌드위치 백작의 이름에서 유래했다는 일화가 전해진다.",
@@ -200,11 +180,9 @@
     "date": "11-03",
     "dateType": "annual-fixed",
     "name": "주부의 날 (National Housewife's Day)",
-    "category": "commemorative",
+    "category": "career",
     "tags": [
-      "전세계",
-      "가족",
-      "감사"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "가정을 꾸려가는 주부들의 노고와 헌신을 기리는 날이다.",
@@ -224,11 +202,9 @@
     "date": "11-03",
     "dateType": "annual-fixed",
     "name": "학생독립운동 기념일",
-    "category": "anniversary",
+    "category": "history",
     "tags": [
-      "대한민국",
-      "법정기념일",
-      "정부"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "주관 부처: 교육부, 국가보훈부. 학생독립운동의 정신을 계승ㆍ발전시켜 학생들에게 자율역량과 애국심을 함양시키는 행사를 한다.",
@@ -242,12 +218,9 @@
     "date": "11-04",
     "dateType": "annual-fixed",
     "name": "치킨 레이디의 날",
-    "category": "quirky",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "동물",
-      "유머"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "닭을 반려동물처럼 정성껏 키우는 '치킨 레이디'들을 유쾌하게 기념하는 날이다.",
@@ -267,12 +240,9 @@
     "date": "11-04",
     "dateType": "annual-fixed",
     "name": "캔디의 날 (National Candy Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "간식",
-      "사탕"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "다채로운 색과 맛으로 즐기는 사탕을 기념하는 날이다.",
@@ -292,12 +262,9 @@
     "date": "11-05",
     "dateType": "annual-fixed",
     "name": "남편이 저녁 차리는 날 (National Men Make Dinner Day)",
-    "category": "quirky",
+    "category": "food",
     "tags": [
-      "전세계",
-      "가족",
-      "요리",
-      "유머"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "평소 요리를 잘 하지 않던 남성들이 직접 저녁 식사를 준비해보자는 유쾌한 기념일이다.",
@@ -317,12 +284,9 @@
     "date": "11-06",
     "dateType": "annual-fixed",
     "name": "나초의 날 (National Nachos Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "멕시코",
-      "간식"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "치즈와 토핑을 듬뿍 올린 토르티야칩 요리, 나초를 기념하는 날이다.",
@@ -342,11 +306,9 @@
     "date": "11-06",
     "dateType": "annual-fixed",
     "name": "색소폰의 날 (Saxophone Day)",
-    "category": "general",
+    "category": "culture",
     "tags": [
-      "전세계",
-      "음악",
-      "악기"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "재즈와 클래식, 팝까지 폭넓게 쓰이는 악기, 색소폰을 기념하는 날이다. 발명가 아돌프 색스의 생일에 맞춰 제정됐다.",
@@ -366,12 +328,9 @@
     "date": "11-07",
     "dateType": "annual-fixed",
     "name": "반려견 림프종 인식의 날",
-    "category": "general",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "동물",
-      "반려동물",
-      "건강"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "반려견에게 흔히 발생하는 암 중 하나인 림프종에 대한 인식을 높이기 위한 날이다.",
@@ -391,12 +350,9 @@
     "date": "11-07",
     "dateType": "annual-fixed",
     "name": "비터스윗 초콜릿 아몬드의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "초콜릿",
-      "견과류"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "씁쌀한 다크초콜릿과 고소한 아몬드의 조합을 기념하는 날이다.",
@@ -416,11 +372,9 @@
     "date": "11-08",
     "dateType": "annual-fixed",
     "name": "부모 교사의 날 (National Parents as Teachers Day)",
-    "category": "general",
+    "category": "career",
     "tags": [
-      "전세계",
-      "교육",
-      "가족"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "아이의 첫 번째 선생님인 부모의 역할을 기리는 날이다.",
@@ -440,11 +394,9 @@
     "date": "11-08",
     "dateType": "annual-fixed",
     "name": "카푸치노의 날 (National Cappuccino Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음료",
-      "커피"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "진한 에스프레소에 부드러운 우유 거품을 올린 카푸치노를 기념하는 날이다.",
@@ -464,11 +416,9 @@
     "date": "11-08",
     "dateType": "annual-fixed",
     "name": "하비 월뱅어의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "칵테일",
-      "음료"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "보드카, 오렌지주스, 갈리아노 리큐어를 섞어 만드는 1970년대 인기 칵테일, 하비 월뱅어를 기념하는 날이다.",
@@ -488,13 +438,9 @@
     "date": "11-09",
     "dateType": "annual-fixed",
     "name": "소방의 날",
-    "category": "commemorative",
+    "category": "general",
     "tags": [
-      "대한민국",
-      "법정기념일",
-      "소방관",
-      "안전",
-      "119"
+      "일반"
     ],
     "storytelling": {
       "origin": "국민들에게 화재에 대한 경각심과 이해를 높이고 화재를 사전에 예방하여 국민의 재산과 생명을 보호하기 위해 제정한 법정기념일이다. 화재신고 번호 119에서 착안해 11월 9일로 지정되었다.",
@@ -514,11 +460,9 @@
     "date": "11-09",
     "dateType": "annual-fixed",
     "name": "스크래플의 날 (National Scrapple Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "미국",
-      "음식",
-      "고기"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "돼지고기 부산물과 옥수수가루를 섞어 굳혀 구워 먹는 미국 펜실베이니아식 요리, 스크래플을 기념하는 날이다.",
@@ -538,12 +482,9 @@
     "date": "11-10",
     "dateType": "annual-fixed",
     "name": "물망초의 날 (National Forget-Me-Not Day)",
-    "category": "general",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "자연",
-      "꽃",
-      "추모"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "작고 푸른 꽃, 물망초의 의미를 기념하는 날이다. 꽃 이름처럼 '나를 잊지 말아요'라는 뜻을 담고 있다.",
@@ -563,11 +504,9 @@
     "date": "11-10",
     "dateType": "annual-fixed",
     "name": "미국 해병대 창설 기념일 (Marine Corps Birthday)",
-    "category": "commemorative",
+    "category": "career",
     "tags": [
-      "미국",
-      "역사",
-      "군인"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "1775년 11월 10일, 미국 해병대가 창설된 것을 기념하는 날이다.",
@@ -587,11 +526,9 @@
     "date": "11-10",
     "dateType": "annual-fixed",
     "name": "바닐라 컵케이크의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "단순하지만 변치 않는 인기를 누리는 바닐라 컵케이크를 기념하는 날이다.",
@@ -611,11 +548,9 @@
     "date": "11-11",
     "dateType": "annual-fixed",
     "name": "농업인의 날",
-    "category": "anniversary",
+    "category": "general",
     "tags": [
-      "대한민국",
-      "법정기념일",
-      "정부"
+      "일반"
     ],
     "storytelling": {
       "origin": "주관 부처: 농림축산 식품부. 농업이 국민경제의 근간임을 국민들에게 인식시키고, 농업인의 긍지와 자부심을 북돋우며, 노고를 위로하는 행사를 한다.",
@@ -629,12 +564,9 @@
     "date": "11-11",
     "dateType": "annual-fixed",
     "name": "미국 재향군인의 날 (Veterans Day)",
-    "category": "commemorative",
+    "category": "career",
     "tags": [
-      "미국",
-      "역사",
-      "군인",
-      "추모"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "1918년 11월 11일 제1차 세계대전 종전을 기념하며 시작된, 모든 참전용사에게 감사를 전하는 미국의 연방 공휴일이다.",
@@ -656,11 +588,7 @@
     "name": "빼빼로데이",
     "category": "quirky",
     "tags": [
-      "대한민국",
-      "비공식기념일",
-      "과자",
-      "마케팅",
-      "농업인의 날"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "1990년대 중반 영남 지역의 여중생들 사이에서 '빼빼로처럼 키 크고 날씬해지자'는 의미로 빼빼로를 주고받던 것에서 유래했다고 알려져 있다.",
@@ -680,12 +608,9 @@
     "date": "11-11",
     "dateType": "annual-fixed",
     "name": "선데이의 날 (National Sundae Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "아이스크림"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "아이스크림에 시럽과 토핑을 올린 클래식 디저트, 선데이를 기념하는 날이다.",
@@ -705,12 +630,9 @@
     "date": "11-12",
     "dateType": "annual-fixed",
     "name": "앤초비 빼고 다 올린 피자의 날",
-    "category": "quirky",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "피자",
-      "유머"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "앤초비만 빼고 모든 토핑을 다 올린 피자를 기념하는, 다소 구체적이고 유쾌한 기념일이다.",
@@ -730,11 +652,9 @@
     "date": "11-12",
     "dateType": "annual-fixed",
     "name": "영혼을 위한 닭고기 수프의 날",
-    "category": "anniversary",
+    "category": "culture",
     "tags": [
-      "전세계",
-      "문학",
-      "위로"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "전 세계적으로 사랑받은 위로와 감동 에세이 시리즈 「영혼을 위한 닭고기 수프」를 기념하는 날이다.",
@@ -754,11 +674,9 @@
     "date": "11-13",
     "dateType": "annual-fixed",
     "name": "인디언 푸딩의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "미국",
-      "음식",
-      "디저트"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "옥수수가루와 향신료로 만드는 미국 전통 디저트, 인디언 푸딩을 기념하는 날이다.",
@@ -778,12 +696,9 @@
     "date": "11-14",
     "dateType": "annual-fixed",
     "name": "스파이시 과카몰리의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "멕시코",
-      "채소"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "아보카도에 매콤한 향신료를 더한 과카몰리를 기념하는 날이다.",
@@ -803,11 +718,9 @@
     "date": "11-14",
     "dateType": "annual-fixed",
     "name": "피클의 날 (National Pickle Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "채소"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "오이를 식초에 절여 만드는 새콤한 피클을 기념하는 날이다.",
@@ -829,9 +742,7 @@
     "name": "나눔의 날 (National Philanthropy Day)",
     "category": "general",
     "tags": [
-      "전세계",
-      "나눔",
-      "봉사"
+      "일반"
     ],
     "storytelling": {
       "origin": "기부와 자선을 통해 사회에 긍정적인 변화를 만드는 이들을 기리는 날이다.",
@@ -851,11 +762,9 @@
     "date": "11-15",
     "dateType": "annual-fixed",
     "name": "냉장고 정리하는 날",
-    "category": "general",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "집안일",
-      "이색기념일"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "냉장고 구석구석을 정리하며 유통기한 지난 음식을 점검해보자는 취지의 날이다.",
@@ -875,11 +784,9 @@
     "date": "11-15",
     "dateType": "annual-fixed",
     "name": "레이즌 브랜 시리얼의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "아침식사"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "건포도와 식이섬유가 풍부한 시리얼, 레이즌 브랜을 기념하는 날이다.",
@@ -899,11 +806,9 @@
     "date": "11-15",
     "dateType": "annual-fixed",
     "name": "번트팬의 날 (National Bundt (Pan) Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "베이킹",
-      "조리도구"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "가운데 구멍이 있는 독특한 모양의 케이크 틀, 번트팬을 기념하는 날이다.",
@@ -923,12 +828,9 @@
     "date": "11-15",
     "dateType": "annual-fixed",
     "name": "스파이시 허밋 쿠키의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "쿠키"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "향신료와 건과일을 듬뿍 넣은 묵직한 쿠키, 허밋 쿠키를 기념하는 날이다.",
@@ -948,11 +850,9 @@
     "date": "11-16",
     "dateType": "annual-fixed",
     "name": "버튼의 날 (National Button Day)",
-    "category": "general",
+    "category": "history",
     "tags": [
-      "전세계",
-      "패션",
-      "역사"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "옷을 여미는 작은 도구, 버튼을 기념하는 날이다.",
@@ -972,11 +872,9 @@
     "date": "11-16",
     "dateType": "annual-fixed",
     "name": "패스트푸드의 날 (National Fast Food Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "간식"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "빠르고 간편하게 즐길 수 있는 패스트푸드를 기념하는 날이다.",
@@ -996,12 +894,9 @@
     "date": "11-17",
     "dateType": "annual-fixed",
     "name": "바클라바의 날 (National Baklava Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "중동"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "얇은 페이스트리 사이에 견과류와 꿀시럽을 채운 중동·지중해 전통 디저트, 바클라바를 기념하는 날이다.",
@@ -1021,11 +916,9 @@
     "date": "11-17",
     "dateType": "annual-fixed",
     "name": "순국선열의 날",
-    "category": "anniversary",
+    "category": "general",
     "tags": [
-      "대한민국",
-      "법정기념일",
-      "정부"
+      "일반"
     ],
     "storytelling": {
       "origin": "주관 부처: 국가보훈부. 국권 회복을 위해 헌신하신 순국선열의 독립정신과 희생정신을 후세에 길이 전하고, 선열의 위훈을 기리는 행사를 한다.",
@@ -1039,12 +932,9 @@
     "date": "11-17",
     "dateType": "annual-fixed",
     "name": "하이킹 가는 날 (National Take A Hike Day)",
-    "category": "general",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "등산",
-      "건강",
-      "자연"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "산이나 트레일을 직접 걸으며 자연을 만끽해보자는 취지의 날이다.",
@@ -1064,12 +954,9 @@
     "date": "11-18",
     "dateType": "annual-fixed",
     "name": "교육지원 전문가의 날",
-    "category": "commemorative",
+    "category": "career",
     "tags": [
-      "전세계",
-      "교육",
-      "직업",
-      "감사"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "교사를 보조하고 학교 운영을 지원하는 교육지원 전문가들의 노고를 기리는 날이다.",
@@ -1089,12 +976,9 @@
     "date": "11-18",
     "dateType": "annual-fixed",
     "name": "미키마우스의 생일",
-    "category": "anniversary",
+    "category": "culture",
     "tags": [
-      "전세계",
-      "캐릭터",
-      "애니메이션",
-      "디즈니"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "1928년 11월 18일 단편 애니메이션 「증기선 윌리」를 통해 첫 등장한 미키마우스의 탄생을 기념하는 날이다.",
@@ -1114,12 +998,9 @@
     "date": "11-18",
     "dateType": "annual-fixed",
     "name": "비시수아즈의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "수프",
-      "프랑스"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "감자와 리크(서양대파)로 만들어 차갑게 식혀 먹는 프랑스식 수프, 비시수아즈를 기념하는 날이다.",
@@ -1139,12 +1020,9 @@
     "date": "11-19",
     "dateType": "annual-fixed",
     "name": "담배 끊는 날 (Great American Smokeout)",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "건강",
-      "인식개선",
-      "캠페인"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "미국암협회가 1976년부터 시작한 금연 독려 캠페인으로, 단 하루만이라도 담배를 끊어보자는 취지를 담고 있다.",
@@ -1164,11 +1042,9 @@
     "date": "11-19",
     "dateType": "annual-fixed",
     "name": "모노폴리 하는 날 (National Play Monopoly Day)",
-    "category": "general",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "보드게임",
-      "이색기념일"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "부동산을 사고팔며 재산을 불려나가는 보드게임, 모노폴리를 기념하는 날이다.",
@@ -1188,11 +1064,9 @@
     "date": "11-19",
     "dateType": "annual-fixed",
     "name": "카페인 탄산음료의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음료",
-      "탄산음료"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "카페인이 함유된 탄산음료를 기념하는 날이다.",
@@ -1214,9 +1088,7 @@
     "name": "부조리의 날 (National Absurdity Day)",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "유머"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "말도 안 되는 일이나 엉뚱한 생각을 마음껏 즐겨보자는 유쾌한 기념일이다.",
@@ -1236,12 +1108,9 @@
     "date": "11-20",
     "dateType": "annual-fixed",
     "name": "피넛버터 퍼지의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "견과류"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "땅콩버터의 고소함을 가득 담은 퍼지를 기념하는 날이다.",
@@ -1261,11 +1130,9 @@
     "date": "11-21",
     "dateType": "annual-fixed",
     "name": "스터핑의 날 (National Stuffing Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "가을"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "빵, 채소, 향신료를 섞어 만든 속재료, 스터핑을 기념하는 날이다.",
@@ -1285,12 +1152,9 @@
     "date": "11-21",
     "dateType": "annual-fixed",
     "name": "입양의 날 (National Adoption Day)",
-    "category": "commemorative",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "가족",
-      "입양",
-      "아동"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "가정이 필요한 아이들과 새로운 가족을 이어주는 입양의 의미를 기리는 날이다.",
@@ -1310,12 +1174,9 @@
     "date": "11-22",
     "dateType": "annual-fixed",
     "name": "크랜베리 렐리시의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "과일",
-      "가을"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "새콤달콤한 크랜베리를 다져 만드는 소스, 크랜베리 렐리시를 기념하는 날이다.",
@@ -1335,11 +1196,9 @@
     "date": "11-23",
     "dateType": "annual-fixed",
     "name": "에스프레소의 날 (National Espresso Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음료",
-      "커피"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "고압으로 빠르게 추출한 진한 커피, 에스프레소를 기념하는 날이다.",
@@ -1359,11 +1218,9 @@
     "date": "11-23",
     "dateType": "annual-fixed",
     "name": "캐슈너트의 날 (National Cashew Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "견과류"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "부드럽고 달콤한 풍미의 견과류, 캐슈너트를 기념하는 날이다.",
@@ -1383,12 +1240,9 @@
     "date": "11-23",
     "dateType": "annual-fixed",
     "name": "크랜베리 먹는 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "과일",
-      "가을"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "새콤한 빨간 열매, 크랜베리를 그대로 즐겨보자는 취지의 날이다.",
@@ -1408,11 +1262,9 @@
     "date": "11-24",
     "dateType": "annual-fixed",
     "name": "정어리의 날 (National Sardines Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "해산물"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "오메가3가 풍부한 작은 생선, 정어리를 기념하는 날이다.",
@@ -1432,12 +1284,9 @@
     "date": "11-25",
     "dateType": "annual-fixed",
     "name": "세계 여성폭력 근절의 날 (International Day For the Elimination of Violence Against Women)",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "인권",
-      "여성",
-      "UN"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "1999년 UN이 지정한 국제 기념일로, 여성을 대상으로 한 모든 형태의 폭력을 근절하기 위한 인식을 높이고자 제정됐다.",
@@ -1457,11 +1306,9 @@
     "date": "11-25",
     "dateType": "annual-fixed",
     "name": "쇼핑 리마인더 데이",
-    "category": "general",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "쇼핑",
-      "이색기념일"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "다가오는 연말 쇼핑 시즌을 준비하며 선물 목록을 점검해보자는 취지의 날이다.",
@@ -1481,12 +1328,9 @@
     "date": "11-25",
     "dateType": "annual-fixed",
     "name": "앞치마 두르는 날 (Tie One On Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "요리",
-      "가족",
-      "가을"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "추수감사절을 앞두고 앞치마를 두르고 파이를 구워 이웃과 나눠 먹자는 취지의 날이다.",
@@ -1508,9 +1352,7 @@
     "name": "쿨한 무관심의 날 (Blase Day)",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "유머"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "모든 일에 \"별일 아니야\"라며 시크하게 반응해보자는 유쾌한 기념일이다.",
@@ -1530,11 +1372,9 @@
     "date": "11-25",
     "dateType": "annual-fixed",
     "name": "파르페의 날 (National Parfait Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "과일, 크림, 그래놀라 등을 층층이 쌓아 만드는 디저트, 파르페를 기념하는 날이다.",
@@ -1554,12 +1394,9 @@
     "date": "11-26",
     "dateType": "annual-fixed",
     "name": "케이크의 날 (National Cake Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "베이킹"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "생일, 기념일마다 빠지지 않는 케이크를 기념하는 날이다.",
@@ -1579,11 +1416,9 @@
     "date": "11-27",
     "dateType": "annual-fixed",
     "name": "바바리안 크림파이의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "부드러운 바바리안 크림을 채운 파이를 기념하는 날이다.",
@@ -1603,12 +1438,9 @@
     "date": "11-27",
     "dateType": "annual-fixed",
     "name": "옥수수의 날 (Maize Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "채소",
-      "가을"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "아메리카 대륙이 기원인 곡물, 옥수수(메이즈)를 기념하는 날이다.",
@@ -1628,11 +1460,9 @@
     "date": "11-28",
     "dateType": "annual-fixed",
     "name": "세계 아우라 인식의 날 (International Aura Awareness Day)",
-    "category": "general",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "웰빙",
-      "이색기념일"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "사람마다 지닌 고유한 에너지, '아우라'에 대한 관심을 환기하는 날이다.",
@@ -1652,11 +1482,9 @@
     "date": "11-28",
     "dateType": "annual-fixed",
     "name": "프렌치토스트의 날 (National French Toast Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "아침식사"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "달걀물에 적신 빵을 구워내는 프렌치토스트를 기념하는 날이다.",
@@ -1676,11 +1504,9 @@
     "date": "11-29",
     "dateType": "annual-fixed",
     "name": "전자 인사카드의 날 (Electronic Greetings Day)",
-    "category": "general",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "디지털",
-      "이색기념일"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "종이 카드 대신 이메일이나 메신저로 안부와 인사를 전해보자는 디지털 시대의 기념일이다.",
@@ -1700,12 +1526,9 @@
     "date": "11-30",
     "dateType": "annual-fixed",
     "name": "건강해서 집에 있는 날",
-    "category": "quirky",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "건강",
-      "이색기념일",
-      "유머"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "아파서가 아니라 오히려 건강하기 때문에 하루쯥 집에서 쉬어보자는 발상의 전환을 담은 유쾌한 기념일이다.",
@@ -1725,12 +1548,9 @@
     "date": "11-30",
     "dateType": "annual-fixed",
     "name": "메스암페타민 인식의 날 (National Meth Awareness Day)",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "건강",
-      "인식개선",
-      "마약예방"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "메스암페타민(필로폰) 중독의 위험성을 알리고 예방과 회복을 지원하기 위해 제정된 보건 인식의 날이다.",
@@ -1750,11 +1570,9 @@
     "date": "11-30",
     "dateType": "annual-fixed",
     "name": "무스의 날 (National Mousse Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "거품처럼 가볍고 부드러운 디저트, 무스를 기념하는 날이다.",
@@ -1774,12 +1592,9 @@
     "date": "11-30",
     "dateType": "annual-fixed",
     "name": "컴퓨터 보안의 날 (Computer Security Day)",
-    "category": "international",
+    "category": "academic",
     "tags": [
-      "전세계",
-      "IT",
-      "보안",
-      "인식개선"
+      "학술 & 기술"
     ],
     "storytelling": {
       "origin": "개인정보와 디지털 자산을 안전하게 지키기 위한 보안 의식을 높이기 위해 1988년 제정된 국제 기념일이다.",
@@ -1799,12 +1614,9 @@
     "date": "11-4-THU",
     "dateType": "annual-nth-weekday",
     "name": "미국 추수감사절 (Thanksgiving Day)",
-    "category": "commemorative",
+    "category": "food",
     "tags": [
-      "미국",
-      "가족",
-      "음식",
-      "역사"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "매년 11월 넷째 목요일, 1621년 청교도들이 첫 수확을 감사하며 원주민과 나눈 식사에서 유래해 1863년 공식 연방 공휴일로 지정된 미국 최대의 명절이다.",
@@ -1824,12 +1636,9 @@
     "date": "11-4-THU",
     "dateType": "annual-nth-weekday",
     "name": "애도의 날 (National Day of Mourning)",
-    "category": "commemorative",
+    "category": "history",
     "tags": [
-      "미국",
-      "역사",
-      "원주민",
-      "추모"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "추수감사절과 같은 날, 아메리카 원주민들이 식민화로 겪은 고난과 상실을 함께 기억하기 위해 1970년부터 매사추세츠 플리머스에서 열리는 추모 행사다.",
@@ -1849,11 +1658,9 @@
     "date": "anv-nth-11-4-thu-thanksgiving-day-us:1",
     "dateType": "annual-relative-to-holiday",
     "name": "경청의 날 (National Day of Listening)",
-    "category": "general",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "가족",
-      "이색기념일"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "쇼핑보다 사람에게 집중하자는 취지로, 추수감사절 다음날 가족이나 어르신의 이야기를 녹음하고 들어보자는 캠페인성 기념일이다.",
@@ -1873,11 +1680,9 @@
     "date": "anv-nth-11-4-thu-thanksgiving-day-us:1",
     "dateType": "annual-relative-to-holiday",
     "name": "블랙프라이데이 (Black Friday)",
-    "category": "general",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "쇼핑",
-      "이색기념일"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "추수감사절 다음날인 금요일, 미국 소매업체들이 대규모 할인을 시작하며 본격적인 연말 쇼핑 시즌의 막을 올리는 날이다.",
@@ -1897,12 +1702,9 @@
     "date": "anv-nth-11-4-thu-thanksgiving-day-us:1",
     "dateType": "annual-relative-to-holiday",
     "name": "아무것도 사지 않는 날 (Buy Nothing Day)",
-    "category": "international",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "환경",
-      "소비",
-      "캠페인"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "블랙프라이데이에 맞서, 과도한 소비주의에 반대하며 하루 동안 아무것도 사지 않아보자는 국제적인 반(反)소비 캠페인 기념일이다.",
@@ -1922,12 +1724,9 @@
     "date": "anv-nth-11-4-thu-thanksgiving-day-us:1",
     "dateType": "annual-relative-to-holiday",
     "name": "원주민 유산의 날 (National Native American Heritage Day)",
-    "category": "commemorative",
+    "category": "history",
     "tags": [
-      "미국",
-      "역사",
-      "원주민",
-      "문화"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "추수감사절 다음날인 금요일, 아메리카 원주민의 문화와 유산, 그들이 미국 사회에 기여한 바를 기리기 위해 2008년 제정된 날이다.",
@@ -1949,10 +1748,7 @@
     "name": "유어 웰컴기빙 데이",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "가족",
-      "유머",
-      "이색기념일"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "명절 음식을 차려준 이에게 \"천만에요\"라는 농담 섞인 감사를 미리 건네보자는, 추수감사절 다음날의 유쾌한 기념일이다.",
@@ -1972,11 +1768,9 @@
     "date": "anv-nth-11-4-thu-thanksgiving-day-us:1",
     "dateType": "annual-relative-to-holiday",
     "name": "플로싱의 날 (Flossing Day)",
-    "category": "quirky",
+    "category": "campaign",
     "tags": [
-      "미국",
-      "건강",
-      "유머"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "블랙프라이데이 쇼핑 인파 못지않게 치실(플로스) 매출이 급증한다는 흥미로운 통계에서 비롯된 유쾌한 기념일이다.",
@@ -1996,12 +1790,9 @@
     "date": "anv-nth-11-4-thu-thanksgiving-day-us:2",
     "dateType": "annual-relative-to-holiday",
     "name": "스몰 비즈니스 새터데이 (Small Business Saturday)",
-    "category": "general",
+    "category": "animal",
     "tags": [
-      "미국",
-      "경제",
-      "쇼핑",
-      "지역사회"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "블랙프라이데이와 사이버먼데이 사이, 대형 유통업체 대신 동네 소상공인 매장에서 쇼핑을 해보자는 취지로 2010년 시작된 캠페인 기념일이다.",
@@ -2021,12 +1812,9 @@
     "date": "anv-nth-11-4-thu-thanksgiving-day-us:4",
     "dateType": "annual-relative-to-holiday",
     "name": "사이버먼데이 (Cyber Monday)",
-    "category": "general",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "쇼핑",
-      "온라인",
-      "이색기념일"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "추수감사절 연휴 마지막 월요일, 온라인 쇼핑몰들이 대규모 할인을 진행하는 미국에서 시작된 쇼핑 이벤트다.",

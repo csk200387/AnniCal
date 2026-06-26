@@ -6,12 +6,7 @@
     "name": "3·1절",
     "category": "holiday",
     "tags": [
-      "대한민국",
-      "법정공휴일",
-      "국경일",
-      "독립운동",
-      "유관순",
-      "역사"
+      "공휴일"
     ],
     "storytelling": {
       "origin": "1919년 3월 1일, 한민족이 일본의 식민통치에 항거하고 독립선언서를 발표하여 한국의 독립 의사를 세계 만방에 알린 날을 기념하는 국경일이다.",
@@ -31,12 +26,9 @@
     "date": "03-01",
     "dateType": "annual-fixed",
     "name": "과일 콩포트의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "과일"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "과일을 설탕물에 졸여 만든 디저트 '콩포트(compote)'를 기념하는 날. 프랑스어로 '혼합물'을 뜻하며 중세 유럽에서 소화를 돕는 음식으로 즐겼다.",
@@ -56,12 +48,9 @@
     "date": "03-01",
     "dateType": "annual-fixed",
     "name": "돼지의 날 (National Pig Day)",
-    "category": "general",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "동물",
-      "이색기념일",
-      "농업"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "1972년 미국의 엘런 스탠리·메리 린 래이브 자매가 돼지의 영리함과 가치를 재조명하기 위해 만든 날이다. 돼지는 개에 버금가는 지능을 가진 동물로 알려져 있다.",
@@ -81,12 +70,9 @@
     "date": "03-01",
     "dateType": "annual-fixed",
     "name": "땅콩버터 러버의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "간식",
-      "디저트"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "땅콩버터를 사랑하는 사람들을 위한 날. 빵에 바르는 것을 넘어 쿠키·아이스크림·소스까지 활용되는 만능 재료다.",
@@ -106,12 +92,9 @@
     "date": "03-01",
     "dateType": "annual-fixed",
     "name": "말 보호의 날",
-    "category": "general",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "동물",
-      "자연보호",
-      "캠페인"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "버려지거나 학대받는 말을 보호하고 입양을 장려하기 위해 제정된 날이다. 한때 인류의 가장 충실한 노동·이동 수단이었던 말에 대한 책임을 일깨운다.",
@@ -131,12 +114,9 @@
     "date": "03-02",
     "dateType": "annual-fixed",
     "name": "미국 책 읽기의 날 (Read Across America Day)",
-    "category": "anniversary",
+    "category": "quirky",
     "tags": [
-      "미국",
-      "이색기념일",
-      "독서",
-      "교육"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "1998년 미국교육협회(NEA)가 어린이들의 독서 습관을 길러주기 위해 제정한 날이다. 미국의 국민 동화작가 닥터 수스(Dr. Seuss)의 생일(3월 2일)에 맞춰 정했다.",
@@ -156,12 +136,9 @@
     "date": "03-02",
     "dateType": "annual-fixed",
     "name": "바나나 크림 파이의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "파이"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "부드러운 커스터드 크림과 바나나를 채운 미국식 파이를 기념하는 날. 20세기 초 미국에서 큰 인기를 끌었고, 군인들이 가장 그리워한 고향의 맛으로 꼽히기도 했다.",
@@ -181,12 +158,9 @@
     "date": "03-02",
     "dateType": "annual-fixed",
     "name": "오래된 물건의 날 (Old Stuff Day)",
-    "category": "general",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "일상",
-      "추억"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "낡고 오래된 물건을 정리하거나, 반대로 그 안에 담긴 추억을 되새기자는 취지의 날이다. 매너리즘에 빠진 일상을 새롭게 바꿔보자는 의미로도 쓰인다.",
@@ -206,12 +180,9 @@
     "date": "03-03",
     "dateType": "annual-fixed",
     "name": "국가(國歌)의 날 (National Anthem Day)",
-    "category": "commemorative",
+    "category": "history",
     "tags": [
-      "미국",
-      "이색기념일",
-      "음악",
-      "역사"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "1931년 3월 3일, 미국이 '성조기여 영원하라(The Star-Spangled Banner)'를 공식 국가로 채택한 것을 기념하는 날이다. 1814년 프랜시스 스콧 키가 쓴 시에 곡을 붙여 만들어졌다.",
@@ -231,11 +202,9 @@
     "date": "03-03",
     "dateType": "annual-fixed",
     "name": "납세자의 날",
-    "category": "anniversary",
+    "category": "general",
     "tags": [
-      "대한민국",
-      "법정기념일",
-      "정부"
+      "일반"
     ],
     "storytelling": {
       "origin": "주관 부처: 재정경제부. 국민의 성실 납세에 감사(感謝)하고, 세금의 중요성을 알리는 행사를 한다. ",
@@ -249,12 +218,9 @@
     "date": "03-03",
     "dateType": "annual-fixed",
     "name": "당신이 행복하길 바라는 날 (I Want You to be Happy Day)",
-    "category": "general",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "행복",
-      "마음"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "타인의 행복을 진심으로 빌어주자는 취지의 비공식 기념일. 나 자신이 아니라 '상대방'의 행복에 집중하는 하루로, 작은 친절과 안부 연락을 권장한다.",
@@ -274,12 +240,9 @@
     "date": "03-03",
     "dateType": "annual-fixed",
     "name": "뱅쇼의 날 (Mulled Wine Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "음료",
-      "겨울"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "와인에 계피·정향·과일을 넣고 따뜻하게 끓인 음료 '뱅쇼(mulled wine)'를 기념하는 날. 추운 겨울 유럽의 크리스마스 마켓을 상징하는 음료다.",
@@ -299,13 +262,9 @@
     "date": "03-03",
     "dateType": "annual-fixed",
     "name": "삼겹살데이",
-    "category": "quirky",
+    "category": "food",
     "tags": [
-      "대한민국",
-      "기념일",
-      "음식",
-      "돼지고기",
-      "마케팅"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "2003년 파주축협이 돼지 구제역 파동 등으로 어려움에 처한 양돈 농가를 돕고 돼지고기 소비를 촉진하기 위해 숫자 3이 두 번 겹치는 3월 3일을 삼겹살 먹는 날로 지정하며 시작되었다.",
@@ -325,12 +284,9 @@
     "date": "03-03",
     "dateType": "annual-fixed",
     "name": "콜드컷의 날 (Cold Cuts Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "간편식",
-      "샌드위치"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "햄·살라미·로스트비프처럼 얇게 썰어 차게 먹는 가공육 '콜드컷'을 기념하는 날이다. 샌드위치와 샤퀴테리 플래터의 핵심 재료다.",
@@ -350,12 +306,9 @@
     "date": "03-03",
     "dateType": "annual-fixed",
     "name": "팬케이크의 날 (National Pancake Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "브런치"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "둥글게 부쳐 시럽을 곁들이는 팬케이크를 기념하는 날. 인류가 곡물 가루를 반죽해 구운 가장 오래된 요리 중 하나로, 고대 그리스·로마 시대 기록에도 등장한다.",
@@ -375,12 +328,9 @@
     "date": "03-04",
     "dateType": "annual-fixed",
     "name": "군인을 안아주는 날 (Hug a G.I. Day)",
-    "category": "commemorative",
+    "category": "career",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "감사",
-      "군인"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "나라를 위해 헌신하는 군인에게 감사의 포옹을 전하자는 취지의 날이다. 'G.I.'는 미군 병사를 부르는 별칭으로, 본래 '관급품(Government Issue)'에서 유래했다.",
@@ -400,12 +350,9 @@
     "date": "03-04",
     "dateType": "annual-fixed",
     "name": "디지털 디톡스의 날 (Day of Unplugging)",
-    "category": "general",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "디지털",
-      "휴식"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "하루 동안 스마트폰·컴퓨터 등 디지털 기기를 끄고 쉬자는 취지의 날이다. 비영리단체 리부트(Reboot)가 시작했으며, 보통 해 질 녘부터 24시간 '접속 끊기'를 권한다.",
@@ -425,12 +372,9 @@
     "date": "03-04",
     "dateType": "annual-fixed",
     "name": "문법의 날 (National Grammar Day)",
-    "category": "general",
+    "category": "quirky",
     "tags": [
-      "미국",
-      "이색기념일",
-      "언어",
-      "글쓰기"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "2008년 미국의 'Society for the Promotion of Good Grammar' 창립자 마사 브록켄브로(Martha Brockenbrough)가 제정했다. 날짜 'March 4'가 '앞으로 행진하라(March Forth)'와 발음이 같다는 언어유희에서 착안했다.",
@@ -450,12 +394,9 @@
     "date": "03-04",
     "dateType": "annual-fixed",
     "name": "영업사원의 날 (Salesperson Day)",
-    "category": "general",
+    "category": "career",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "직업",
-      "직장"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "제품과 고객을 잇는 영업 직군의 노고를 기리는 날이다. 거절을 견디고 신뢰를 쌓는 영업의 가치를 되새긴다.",
@@ -475,12 +416,9 @@
     "date": "03-04",
     "dateType": "annual-fixed",
     "name": "직원 감사의 날 (Employee Appreciation Day)",
-    "category": "general",
+    "category": "career",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "직장",
-      "감사"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "회사가 직원들의 노고에 감사를 전하는 날로, 1995년 미국에서 제정되어 매년 3월 첫째 주에 기린다(고정일로도 3월 4일에 챙긴다).",
@@ -500,12 +438,9 @@
     "date": "03-04",
     "dateType": "annual-fixed",
     "name": "파운드 케이크의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "베이킹"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "밀가루·버터·설탕·달걀을 각각 1파운드씩 넣어 만든다 해서 이름 붙은 '파운드 케이크'를 기념하는 날. 18세기 영국에서 비율을 외우기 쉽게 만든 단순한 레시피가 시초다.",
@@ -527,10 +462,7 @@
     "name": "다중인격의 날 (Multiple Personality Day)",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "유머",
-      "심리"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "내 안의 다양한 모습을 유쾌하게 들여다보자는 취지의 비공식 기념일이다. 의학적 질환을 가볍게 다루기보다, 누구나 가진 여러 자아를 인정하자는 의미로 통용된다.",
@@ -550,12 +482,9 @@
     "date": "03-05",
     "dateType": "annual-fixed",
     "name": "압생트의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "음료",
-      "술"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "향쑥·아니스로 만든 초록빛 독한 술 '압생트'를 기념하는 날. 19세기 유럽 예술가들이 즐겨 마셔 '초록 요정(La Fée Verte)'이라는 별명이 붙었다.",
@@ -575,12 +504,9 @@
     "date": "03-05",
     "dateType": "annual-fixed",
     "name": "치즈 두들의 날 (National Cheese Doodle Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "미국",
-      "음식",
-      "과자",
-      "간식"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "바삭하게 부풀린 옥수수 반죽에 치즈 가루를 입힌 미국식 스낵 '치즈 두들'을 기념하는 날. 1940년대 미국에서 우연히 탄생했으며, 손가락이 노랗게 물드는 것이 트레이드마크다.",
@@ -600,12 +526,9 @@
     "date": "03-06",
     "dateType": "annual-fixed",
     "name": "냉동식품의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "간편식",
-      "발명품"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "냉동 보관 기술로 식탁을 풍성하게 한 냉동식품을 기념하는 날. 1920년대 미국의 클래런스 버즈아이가 '급속 냉동법'을 개발하며 산업화의 길을 열었다.",
@@ -625,12 +548,9 @@
     "date": "03-06",
     "dateType": "annual-fixed",
     "name": "오레오의 날 (National Oreo Cookie Day)",
-    "category": "anniversary",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "과자",
-      "브랜드"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "1912년 3월 6일, 미국 나비스코(Nabisco)사가 뉴저지 공장에서 첫 오레오 쿠키를 출하한 것을 기념하는 날이다. 두 장의 검은 비스킷 사이에 흰 크림을 끼운 이 쿠키는 100년 넘게 세계인의 사랑을 받고 있다.",
@@ -650,12 +570,9 @@
     "date": "03-06",
     "dateType": "annual-fixed",
     "name": "치과의사의 날 (Dentist's Day)",
-    "category": "general",
+    "category": "career",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "직업",
-      "건강"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "구강 건강을 책임지는 치과의사에게 감사를 전하는 날이다. 현대 치의학의 아버지로 불리는 피에르 포샤르를 기리는 의미도 담겨 있다.",
@@ -675,12 +592,9 @@
     "date": "03-06",
     "dateType": "annual-fixed",
     "name": "화이트 초콜릿 치즈케이크의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "케이크"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "부드러운 치즈케이크에 달콤한 화이트 초콜릿을 더한 디저트를 기념하는 날이다. 진하고 묵직한 풍미로 특별한 날의 디저트로 사랑받는다.",
@@ -700,12 +614,9 @@
     "date": "03-07",
     "dateType": "annual-fixed",
     "name": "목소리를 내는 날 (Be Heard Day)",
-    "category": "general",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "소통",
-      "자기표현"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "소규모 사업자와 개인이 자신의 목소리를 세상에 알리도록 격려하는 날이다. 마케팅 전문가가 '작은 목소리도 들릴 자격이 있다'는 취지로 만들었다.",
@@ -725,12 +636,9 @@
     "date": "03-07",
     "dateType": "annual-fixed",
     "name": "시리얼의 날 (National Cereal Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "미국",
-      "음식",
-      "아침식사",
-      "간편식"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "바쁜 아침을 책임지는 시리얼을 기념하는 날. 19세기 말 미국의 켈로그 형제가 요양원 환자식으로 콘플레이크를 개발한 것이 현대 시리얼의 시초로 알려져 있다.",
@@ -750,12 +658,9 @@
     "date": "03-07",
     "dateType": "annual-fixed",
     "name": "크라운 로스트 포크의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "고기요리",
-      "파티"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "갈비를 둥글게 세워 왕관 모양으로 구운 돼지고기 요리 '크라운 로스트'를 기념하는 날이다. 명절·파티 식탁의 화려한 메인 요리로 통한다.",
@@ -775,11 +680,9 @@
     "date": "03-08",
     "dateType": "annual-fixed",
     "name": "3ㆍ8민주의거 기념일",
-    "category": "anniversary",
+    "category": "history",
     "tags": [
-      "대한민국",
-      "법정기념일",
-      "정부"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "주관 부처: 국가보훈부. 3ㆍ8민주의거 의 역사적 의미와 숭고한 정신을 길 이 계승ㆍ발전시키는 행사를 한다. ",
@@ -793,12 +696,9 @@
     "date": "03-08",
     "dateType": "annual-fixed",
     "name": "교정·교열의 날 (National Proofreading Day)",
-    "category": "general",
+    "category": "career",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "글쓰기",
-      "직업"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "오타와 비문을 잡아내는 교정·교열의 가치를 기리는 날. 늘 정확한 문장을 강조했던 한 어머니를 기리며 그 딸이 어머니의 생일인 3월 8일에 맞춰 제정했다고 전해진다.",
@@ -818,12 +718,9 @@
     "date": "03-08",
     "dateType": "annual-fixed",
     "name": "땅콩 클러스터의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "간식",
-      "초콜릿"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "초콜릿에 땅콩을 듬뿍 버무려 굳힌 한입 간식 '피넛 클러스터'를 기념하는 날이다. 만들기 쉬워 가정에서도 즐겨 만드는 클래식 간식이다.",
@@ -843,12 +740,9 @@
     "date": "03-09",
     "dateType": "annual-fixed",
     "name": "게살의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "해산물",
-      "요리"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "달콤하고 부드러운 게살을 기념하는 날. 샐러드·수프·파스타·캘리포니아 롤까지 폭넓게 쓰이는 인기 해산물이다.",
@@ -868,12 +762,9 @@
     "date": "03-09",
     "dateType": "annual-fixed",
     "name": "미트볼의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "고기요리",
-      "파스타"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "다진 고기를 동그랗게 빚어 구운 미트볼을 기념하는 날. 이탈리아·스웨덴·중동 등 거의 모든 문화권에 저마다의 미트볼이 존재한다.",
@@ -893,12 +784,9 @@
     "date": "03-09",
     "dateType": "annual-fixed",
     "name": "바비의 날 (National Barbie Day)",
-    "category": "anniversary",
+    "category": "culture",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "장난감",
-      "팝컬처"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "1959년 3월 9일, 미국 뉴욕 장난감 박람회에서 마텔(Mattel)사의 바비 인형이 처음 공개된 것을 기념하는 날이다. 창업자 루스 핸들러가 딸의 이름 '바버라'에서 따와 만들었다.",
@@ -918,12 +806,9 @@
     "date": "03-09",
     "dateType": "annual-fixed",
     "name": "영양사의 날",
-    "category": "general",
+    "category": "career",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "직업",
-      "건강"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "균형 잡힌 식단으로 사람들의 건강을 돕는 영양사의 전문성을 기리는 날이다. 식이요법과 영양 관리는 질병 예방의 첫걸음이다.",
@@ -943,12 +828,9 @@
     "date": "03-09",
     "dateType": "annual-fixed",
     "name": "훌훌 털어버리는 날 (Get Over It Day)",
-    "category": "general",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "마음",
-      "위로"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "묵은 감정·이별·후회를 떨쳐내고 앞으로 나아가자는 취지의 날이다. 밸런타인데이(2/14)와 만우절(4/1) 사이에 위치해 '지난 일은 잊자'는 의미를 담았다.",
@@ -968,12 +850,9 @@
     "date": "03-10",
     "dateType": "annual-fixed",
     "name": "도시락 싸는 날 (Pack Your Lunch Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "음식",
-      "일상"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "사 먹는 대신 직접 도시락을 싸 보자는 취지의 날이다. 건강과 절약, 두 마리 토끼를 잡을 수 있다는 점을 일깨운다.",
@@ -993,12 +872,9 @@
     "date": "03-10",
     "dateType": "annual-fixed",
     "name": "마리오의 날 (National Mario Day)",
-    "category": "anniversary",
+    "category": "culture",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "게임",
-      "팝컬처"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "닌텐도의 간판 캐릭터 슈퍼 마리오를 기념하는 날. 영어로 'MAR10'이라고 쓰면 'MARIO'처럼 보인다는 데서 착안해 3월 10일로 정해졌다.",
@@ -1018,12 +894,9 @@
     "date": "03-10",
     "dateType": "annual-fixed",
     "name": "블루베리 포포버의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "베이킹"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "겉은 바삭하고 속은 텅 빈 채 부풀어 오르는 빵 '포포버(popover)'에 블루베리를 더한 디저트를 기념하는 날이다. 영국 요크셔 푸딩의 미국식 사촌격이다.",
@@ -1043,12 +916,9 @@
     "date": "03-10",
     "dateType": "annual-fixed",
     "name": "여성·소녀 HIV/AIDS 인식의 날",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "건강",
-      "인식개선",
-      "캠페인"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "여성과 소녀들이 직면한 HIV/AIDS의 위험을 알리고 예방과 검진을 독려하기 위해 제정된 보건 인식의 날이다.",
@@ -1070,10 +940,7 @@
     "name": "공구 예찬의 날 (Worship of Tools Day)",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "유머",
-      "DIY"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "망치·드라이버·렌치 등 우리 삶을 편리하게 해 준 공구에 감사하는 유쾌한 날이다. 도구를 만들고 쓰는 능력이 인류 문명의 시작이었음을 떠올리게 한다.",
@@ -1093,12 +960,9 @@
     "date": "03-11",
     "dateType": "annual-fixed",
     "name": "오트밀 너트 와플의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "브런치"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "오트밀과 견과류를 넣어 더 고소하고 든든하게 구운 와플을 기념하는 날이다. 일반 와플보다 식이섬유가 많아 건강한 아침 식사로 통한다.",
@@ -1118,12 +982,9 @@
     "date": "03-11",
     "dateType": "annual-fixed",
     "name": "조니 애플시드의 날 (Johnny Appleseed Day)",
-    "category": "anniversary",
+    "category": "animal",
     "tags": [
-      "미국",
-      "이색기념일",
-      "자연",
-      "전설"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "미국 개척 시대에 중서부 곳곳에 사과나무를 심고 다녔다는 실존 인물 존 채프먼(별명 조니 애플시드)을 기리는 날이다. 그가 세상을 떠난 3월 11일에 맞춰 제정되었다.",
@@ -1143,12 +1004,9 @@
     "date": "03-12",
     "dateType": "annual-fixed",
     "name": "걸스카우트의 날 (Girl Scout Day)",
-    "category": "commemorative",
+    "category": "history",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "청소년",
-      "역사"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "1912년 3월 12일, 줄리엣 고든 로우가 미국 조지아주에서 첫 걸스카우트 모임을 연 것을 기념하는 날이다. 소녀들의 리더십과 봉사 정신을 길러주는 단체로 성장했다.",
@@ -1168,12 +1026,9 @@
     "date": "03-12",
     "dateType": "annual-fixed",
     "name": "구운 가리비의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "해산물",
-      "요리"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "버터·치즈·빵가루를 올려 오븐에 구운 가리비 요리를 기념하는 날이다. 부드럽고 달큰한 가리비 관자는 고급 해산물의 대명사다.",
@@ -1193,12 +1048,9 @@
     "date": "03-12",
     "dateType": "annual-fixed",
     "name": "꽃 심는 날 (National Plant a Flower Day)",
-    "category": "general",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "원예",
-      "봄"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "봄의 시작을 알리며 꽃씨와 모종을 심자는 취지의 날. 겨우내 움츠렸던 정원과 화단을 가꾸기 시작하기 좋은 시기에 맞춰져 있다.",
@@ -1218,12 +1070,9 @@
     "date": "03-13",
     "dateType": "annual-fixed",
     "name": "군견의 날 (K9 Veterans Day)",
-    "category": "commemorative",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "동물",
-      "군인",
-      "역사"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "1942년 3월 13일, 미군이 군견 훈련 프로그램(K-9 부대)을 공식 창설한 것을 기념하는 날이다. 전장에서 수많은 인명을 구한 군견들의 공로를 기린다.",
@@ -1243,12 +1092,9 @@
     "date": "03-13",
     "dateType": "annual-fixed",
     "name": "귀마개의 날 (Earmuff Day)",
-    "category": "general",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "발명품",
-      "겨울"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "1877년 3월 13일, 미국의 15세 소년 체스터 그린우드가 귀마개 특허를 받은 것을 기념하는 날이다. 추위에 귀가 시려 직접 발명했다는 일화가 유명하다.",
@@ -1268,12 +1114,9 @@
     "date": "03-13",
     "dateType": "annual-fixed",
     "name": "보석의 날 (Jewel Day)",
-    "category": "general",
+    "category": "culture",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "보석",
-      "패션"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "다이아몬드·루비·사파이어 같은 보석의 아름다움을 감상하는 날이다. 보석은 예로부터 부와 권력, 사랑의 약속을 상징해 왔다.",
@@ -1293,12 +1136,9 @@
     "date": "03-13",
     "dateType": "annual-fixed",
     "name": "선한 사마리아인의 날 (Good Samaritan Day)",
-    "category": "general",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "선행",
-      "나눔"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "성경 속 '선한 사마리아인' 비유에서 이름을 딴 날로, 대가를 바라지 않는 친절과 도움을 실천하자는 취지다. 곤경에 처한 이를 외면하지 말자는 메시지를 담는다.",
@@ -1320,10 +1160,7 @@
     "name": "실내에서 우산 펴는 날 (Open an Umbrella Indoors Day)",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "미신",
-      "유머"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "'실내에서 우산을 펴면 불운이 온다'는 서양 미신에 정면으로 도전하는 장난스러운 날이다. 정말 불운이 오는지 다 함께 실내에서 우산을 펴보자는 취지로 만들어졌다.",
@@ -1343,12 +1180,9 @@
     "date": "03-13",
     "dateType": "annual-fixed",
     "name": "코코넛 토르테의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "케이크"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "겹겹이 쌓은 케이크 '토르테'에 코코넛을 더한 디저트를 기념하는 날이다. 진한 코코넛 향과 촉촉한 식감이 특징인 화려한 케이크다.",
@@ -1368,12 +1202,9 @@
     "date": "03-14",
     "dateType": "annual-fixed",
     "name": "감자칩의 날 (Potato Chip Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "과자",
-      "간식"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "얇게 썰어 바삭하게 튀긴 감자칩을 기념하는 날. 1853년 미국의 요리사 조지 크럼이 '감자튀김이 두껍다'는 손님의 불평에 화가 나 종잇장처럼 얇게 튀겨낸 것이 시초라는 일화가 전해진다.",
@@ -1393,12 +1224,9 @@
     "date": "03-14",
     "dateType": "annual-fixed",
     "name": "나비를 배우는 날",
-    "category": "general",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "자연",
-      "곤충"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "아름다운 나비의 생태를 배우고 그 소중함을 알리는 날이다. 알에서 애벌레, 번데기를 거쳐 나비가 되는 '완전변태' 과정은 변화와 성장의 상징으로 자주 인용된다.",
@@ -1418,12 +1246,9 @@
     "date": "03-14",
     "dateType": "annual-fixed",
     "name": "낮잠의 날 (National Napping Day)",
-    "category": "general",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "수면",
-      "휴식"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "서머타임(일광절약시간제) 시행으로 한 시간 잃어버린 잠을 보충하자는 취지로 만들어진 날이다. 미국에서는 보통 서머타임이 시작된 다음 날을 낮잠의 날로 기린다.",
@@ -1443,12 +1268,9 @@
     "date": "03-14",
     "dateType": "annual-fixed",
     "name": "세계 파이(π)의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "과학",
-      "수학",
-      "기념일",
-      "디저트"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "1988년 미국 물리학자 래리 쇼(Larry Shaw)가 샌프란시스코 과학관에서 처음 제안. 날짜 3.14가 원주율 π의 근삿값과 같다는 데서 착안했다.",
@@ -1473,12 +1295,9 @@
     "date": "03-14",
     "dateType": "annual-fixed",
     "name": "어린이 공예의 날",
-    "category": "general",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "어린이",
-      "취미"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "아이들이 손으로 무언가를 만들며 창의력과 소근육을 기르도록 장려하는 날이다. 색종이·점토·풀과 가위만 있어도 훌륭한 놀이가 된다.",
@@ -1500,11 +1319,7 @@
     "name": "화이트데이",
     "category": "romance",
     "tags": [
-      "대한민국",
-      "일본",
-      "비공식기념일",
-      "포틴데이",
-      "사탕"
+      "연애 & 기념일"
     ],
     "storytelling": {
       "origin": "발렌타인데이 한 달 후인 3월 14일에 남성이 여성에게 사탕을 주며 마음을 고백하거나 답례하는 날이다.",
@@ -1524,11 +1339,9 @@
     "date": "03-15",
     "dateType": "annual-fixed",
     "name": "3ㆍ15의거 기념일",
-    "category": "anniversary",
+    "category": "history",
     "tags": [
-      "대한민국",
-      "법정기념일",
-      "정부"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "주관 부처: 국가보훈부. 3ㆍ15의거를 기념하는 행사를 한다.",
@@ -1544,10 +1357,7 @@
     "name": "당신 생각이 다 틀린 날 (Everything You Think is Wrong Day)",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "유머",
-      "반전"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "무엇을 하든 어긋나는 날을 유쾌하게 받아들이자는 장난스러운 비공식 기념일. '오늘은 내 판단이 다 틀린 날'이라 생각하고 마음을 비우자는 취지다.",
@@ -1567,12 +1377,9 @@
     "date": "03-15",
     "dateType": "annual-fixed",
     "name": "신발 기부의 날 (Shoe the World Day)",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "캠페인",
-      "나눔",
-      "기부"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "신발이 없어 맨발로 다니는 세계의 아이들에게 신발을 전하자는 취지의 날이다. 신발 한 켤레가 감염병 예방과 등교를 가능하게 한다는 점을 일깨운다.",
@@ -1592,12 +1399,9 @@
     "date": "03-15",
     "dateType": "annual-fixed",
     "name": "푸아르 벨엘렌의 날 (Pears Helene Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "프랑스"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "서양배를 시럽에 졸여 바닐라 아이스크림과 초콜릿 소스를 곁들인 프랑스 디저트 '푸아르 벨엘렌'을 기념하는 날이다. 전설적 셰프 오귀스트 에스코피에가 오펜바흐의 오페라 「아름다운 엘렌」에서 영감받아 만들었다.",
@@ -1617,12 +1421,9 @@
     "date": "03-16",
     "dateType": "annual-fixed",
     "name": "금연 행동의 날 (Kick Butts Day)",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "건강",
-      "캠페인",
-      "금연"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "청소년에게 담배의 위험을 알리고 금연을 독려하기 위해 만들어진 캠페인의 날이다. 영어 'butt'에는 '담배꽁초'라는 뜻도 있어 중의적인 이름이다.",
@@ -1644,10 +1445,7 @@
     "name": "뭘 해도 옳은 날 (Everything You Do is Right Day)",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "유머",
-      "긍정"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "전날(3/15) '당신 생각이 다 틀린 날'과 짝을 이루는 날로, 오늘만큼은 무엇을 하든 다 옳다고 여기며 자신감을 챙기자는 유쾌한 날이다.",
@@ -1667,12 +1465,9 @@
     "date": "03-16",
     "dateType": "annual-fixed",
     "name": "아티초크의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "채소",
-      "지중해"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "지중해 요리에 빠지지 않는 채소 '아티초크'의 부드러운 속심(하트)을 기념하는 날이다. 꽃봉오리를 먹는 독특한 채소로, 고대 로마 시대부터 귀한 식재료였다.",
@@ -1692,12 +1487,9 @@
     "date": "03-16",
     "dateType": "annual-fixed",
     "name": "정보공개의 날 (Freedom of Information Day)",
-    "category": "commemorative",
+    "category": "quirky",
     "tags": [
-      "미국",
-      "이색기념일",
-      "민주주의",
-      "알권리"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "미국 헌법의 아버지이자 제4대 대통령 제임스 매디슨의 생일(3월 16일)에 맞춰, 국민의 '알 권리'와 정부 정보 공개의 중요성을 기리는 날이다.",
@@ -1717,12 +1509,9 @@
     "date": "03-17",
     "dateType": "annual-fixed",
     "name": "성 패트릭의 날 (St. Patrick's Day)",
-    "category": "international",
+    "category": "culture",
     "tags": [
-      "전세계",
-      "축제",
-      "아일랜드",
-      "문화"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "아일랜드에 기독교를 전파한 수호성인 성 패트릭(St. Patrick)의 선종일을 기리는 날이다. 본래 종교 기념일이었으나 오늘날 전 세계가 즐기는 아일랜드 문화 축제로 자리 잡았다.",
@@ -1742,12 +1531,9 @@
     "date": "03-17",
     "dateType": "annual-fixed",
     "name": "콘비프와 양배추의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "아일랜드",
-      "명절"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "소금에 절인 소고기(콘비프)와 양배추를 함께 삶은 요리를 기념하는 날로, 성 패트릭의 날(3/17) 아일랜드계 미국인의 대표 명절 음식이다.",
@@ -1767,12 +1553,9 @@
     "date": "03-18",
     "dateType": "annual-fixed",
     "name": "농업의 날 (National Ag Day)",
-    "category": "general",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "농업",
-      "식량"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "식량을 생산하는 농업의 가치와 농업인의 노고를 기리는 날이다. 봄 농사철의 시작에 맞춰 농업의 중요성을 되새긴다.",
@@ -1792,12 +1575,9 @@
     "date": "03-18",
     "dateType": "annual-fixed",
     "name": "레이스 오트밀 쿠키의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "쿠키"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "얇게 퍼져 레이스(레이스 천)처럼 구멍이 송송 뚫린 바삭한 오트밀 쿠키를 기념하는 날이다. 버터와 설탕이 녹아 퍼지며 특유의 얇고 바삭한 식감을 낸다.",
@@ -1817,12 +1597,9 @@
     "date": "03-18",
     "dateType": "annual-fixed",
     "name": "바이오디젤의 날 (Biodiesel Day)",
-    "category": "international",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "환경",
-      "에너지",
-      "과학"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "디젤 엔진을 발명한 루돌프 디젤의 생일(3/18)에 맞춰, 식물성 기름으로 만드는 친환경 연료 '바이오디젤'을 기리는 날이다. 디젤은 본래 식물성 기름으로 엔진을 돌리는 것을 구상했다.",
@@ -1842,12 +1619,9 @@
     "date": "03-18",
     "dateType": "annual-fixed",
     "name": "숭고한 희생의 날 (Supreme Sacrifice Day)",
-    "category": "commemorative",
+    "category": "history",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "추모",
-      "희생"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "대의를 위해 목숨을 바친 이들의 숭고한 희생을 기리는 날이다. 군인뿐 아니라 타인을 위해 자신을 내어준 모든 이를 추모한다.",
@@ -1867,12 +1641,9 @@
     "date": "03-18",
     "dateType": "annual-fixed",
     "name": "슬로피 조의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "샌드위치",
-      "간편식"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "다진 고기를 토마토 소스에 볶아 햄버거 번에 듬뿍 끼운 미국식 샌드위치 '슬로피 조'를 기념하는 날이다. 이름처럼 '지저분하게(sloppy)' 흘리며 먹는 게 매력이다.",
@@ -1894,10 +1665,7 @@
     "name": "어색한 순간의 날 (Awkward Moments Day)",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "유머",
-      "일상"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "누구에게나 있는 민망하고 어색한 순간을 솔직하게 인정하고 함께 웃어넘기자는 취지의 비공식 기념일이다.",
@@ -1917,12 +1685,9 @@
     "date": "03-19",
     "dateType": "annual-fixed",
     "name": "가금류의 날 (Poultry Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "고기요리",
-      "농업"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "닭·오리·칠면조 등 식탁에 오르는 가금류와 이를 길러내는 농가를 기리는 날이다. 가금류는 전 세계에서 가장 많이 소비되는 단백질원 중 하나다.",
@@ -1942,12 +1707,9 @@
     "date": "03-19",
     "dateType": "annual-fixed",
     "name": "간호사의 날",
-    "category": "general",
+    "category": "career",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "직업",
-      "건강"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "환자 곁을 가장 가까이서 지키는 간호사의 헌신과 전문성을 기리는 날이다. 끊임없는 교육과 자격 갱신으로 전문성을 유지하는 직군이다.",
@@ -1967,12 +1729,9 @@
     "date": "03-19",
     "dateType": "annual-fixed",
     "name": "웃음의 날 (National Let's Laugh Day)",
-    "category": "general",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "행복",
-      "건강"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "마음껏 웃으며 웃음이 주는 효과를 누리자는 취지의 날. 웃음이 스트레스를 줄이고 면역력을 높인다는 사실은 과학적으로도 입증돼 있다.",
@@ -1992,12 +1751,9 @@
     "date": "03-19",
     "dateType": "annual-fixed",
     "name": "초콜릿 캐러멜의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "초콜릿"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "쫀득한 캐러멜에 초콜릿을 입힌 달콤한 간식을 기념하는 날이다. 부드럽게 늘어나는 캐러멜과 진한 초콜릿의 조합은 디저트의 황금 공식이다.",
@@ -2017,12 +1773,9 @@
     "date": "03-19",
     "dateType": "annual-fixed",
     "name": "퀼트의 날 (Quilting Day)",
-    "category": "general",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "취미",
-      "수공예"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "천 조각을 이어 붙여 이불·소품을 만드는 수공예 '퀼트'를 기념하는 날이다. 자투리 천을 모아 작품을 만드는 알뜰함과 정성이 담긴 전통 공예다.",
@@ -2042,12 +1795,9 @@
     "date": "03-20",
     "dateType": "annual-fixed",
     "name": "라비올리의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "파스타",
-      "이탈리아"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "두 장의 반죽 사이에 치즈·고기·채소 소를 넣어 빚은 이탈리아식 만두 파스타 '라비올리'를 기념하는 날이다. 중세 이탈리아 문헌에도 등장하는 유서 깊은 음식이다.",
@@ -2067,12 +1817,9 @@
     "date": "03-20",
     "dateType": "annual-fixed",
     "name": "원주민 HIV/AIDS 인식의 날",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "건강",
-      "인식개선",
-      "보건형평"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "의료 사각지대에 놓이기 쉬운 원주민 등 소외 공동체의 HIV/AIDS 예방과 검진을 독려하기 위한 보건 인식의 날이다.",
@@ -2092,12 +1839,9 @@
     "date": "03-20",
     "dateType": "annual-fixed",
     "name": "춘분 (Spring Begins)",
-    "category": "general",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "절기",
-      "봄",
-      "자연"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "낮과 밤의 길이가 거의 같아지는 춘분(春分)으로, 천문학적으로 봄이 시작되는 날이다. 이 날을 기점으로 북반구는 낮이 점점 길어진다.",
@@ -2119,10 +1863,7 @@
     "name": "프러포즈의 날 (National Proposal Day)",
     "category": "romance",
     "tags": [
-      "전세계",
-      "연애",
-      "결혼",
-      "로맨틱"
+      "연애 & 기념일"
     ],
     "storytelling": {
       "origin": "봄의 시작인 춘분 무렵, 사랑하는 사람에게 청혼하기 좋은 날로 제정된 비공식 기념일이다. 낮과 밤의 길이가 같아지는 균형의 날에 새로운 출발을 약속하자는 의미가 담겨 있다.",
@@ -2142,12 +1883,9 @@
     "date": "03-21",
     "dateType": "annual-fixed",
     "name": "기본 예의의 날 (Common Courtesy Day)",
-    "category": "general",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "예절",
-      "일상"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "'부탁합니다', '감사합니다', 문 잡아주기 같은 작은 예의를 되새기는 날이다. 거창한 친절이 아니라 일상의 기본 매너가 세상을 부드럽게 만든다는 취지다.",
@@ -2167,12 +1905,9 @@
     "date": "03-21",
     "dateType": "annual-fixed",
     "name": "딸기의 날 (California Strawberry Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "과일",
-      "디저트"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "새콤달콤한 봄의 대표 과일 딸기를 기념하는 날이다. 비타민 C가 풍부하고 향이 좋아 생과일은 물론 케이크·잼·음료까지 두루 쓰인다.",
@@ -2192,12 +1927,9 @@
     "date": "03-21",
     "dateType": "annual-fixed",
     "name": "바게트의 날 (French Bread Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "빵",
-      "프랑스"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "겉은 바삭하고 속은 쫄깃한 프랑스 빵 '바게트'를 기념하는 날이다. 밀가루·물·소금·이스트만으로 만드는 단순함 속에 깊은 풍미가 담겨 있다.",
@@ -2217,12 +1949,9 @@
     "date": "03-21",
     "dateType": "annual-fixed",
     "name": "콘도그의 날 (Corn Dog Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "미국",
-      "음식",
-      "간식",
-      "분식"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "옥수수 반죽 옷을 입혀 막대에 꽂아 튀긴 소시지 '콘도그'를 기념하는 날. 미국의 주(州) 박람회와 놀이공원을 대표하는 길거리 음식이다.",
@@ -2242,12 +1971,9 @@
     "date": "03-21",
     "dateType": "annual-fixed",
     "name": "한부모 가정의 날 (Single Parents Day)",
-    "category": "general",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "가족",
-      "사회"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "혼자서 자녀를 키우는 한부모의 헌신을 기리고 응원하는 날이다. 엄마와 아빠의 역할을 동시에 해내는 그 노고를 사회가 함께 알아주자는 취지다.",
@@ -2267,12 +1993,9 @@
     "date": "03-21",
     "dateType": "annual-fixed",
     "name": "향수의 날 (Fragrance Day)",
-    "category": "general",
+    "category": "culture",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "향수",
-      "패션"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "기분과 인상을 좌우하는 향수를 기념하는 날이다. 고대 이집트에서 시작된 향수는 오늘날 자기표현의 강력한 수단이 됐다.",
@@ -2294,10 +2017,7 @@
     "name": "농땡이의 날 (National Goof-Off Day)",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "휴식",
-      "유머"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "하루쯤은 아무 죄책감 없이 빈둥거리며 쉬자는 취지의 비공식 기념일이다. 늘 바쁘게 사는 현대인에게 '의도적인 게으름'을 허락하는 날이다.",
@@ -2317,12 +2037,9 @@
     "date": "03-22",
     "dateType": "annual-fixed",
     "name": "당뇨병 경고의 날 (Diabetes Alert Day)",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "건강",
-      "캠페인",
-      "질병예방"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "당뇨병의 위험을 알리고 자가 진단을 독려하는 건강 캠페인의 날이다. 증상이 뚜렷하지 않아 '조용한 병'으로 불리는 당뇨병을 조기에 발견하자는 취지다.",
@@ -2342,12 +2059,9 @@
     "date": "03-22",
     "dateType": "annual-fixed",
     "name": "바이에른 크레페의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "독일"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "독일 바이에른 지방 스타일의 얇은 팬케이크 '크레페'를 기념하는 날이다. 과일·크림·잼을 채워 돌돌 말거나 접어 먹는 달콤한 디저트다.",
@@ -2367,12 +2081,9 @@
     "date": "03-23",
     "dateType": "annual-fixed",
     "name": "강아지의 날 (National Puppy Day)",
-    "category": "general",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "동물",
-      "반려동물",
-      "유기견"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "2006년 반려동물 전문가 콜린 페이지(Colleen Paige)가 제정한 날이다. 강아지가 주는 무조건적인 사랑을 기리는 동시에, 유기견 입양과 강아지 공장(번식장) 문제에 관심을 갖자는 취지를 담았다.",
@@ -2392,12 +2103,9 @@
     "date": "03-23",
     "dateType": "annual-fixed",
     "name": "멜바 토스트의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "빵",
-      "간식"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "얇게 썬 빵을 두 번 구워 바삭하게 만든 '멜바 토스트'를 기념하는 날이다. 전설적 셰프 에스코피에가 오페라 가수 넬리 멜바를 위해 만든 데서 이름이 유래했다.",
@@ -2417,12 +2125,9 @@
     "date": "03-23",
     "dateType": "annual-fixed",
     "name": "아차사고의 날 (Near Miss Day)",
-    "category": "general",
+    "category": "academic",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "우주",
-      "과학"
+      "학술 & 기술"
     ],
     "storytelling": {
       "origin": "1989년 3월 23일, 지름 약 300m의 소행성이 지구를 '아슬아슬하게' 비껴간 사건을 기념하는 날이다. 천문학적으로는 가까운 거리를 스쳐 지나가 경각심을 남겼다.",
@@ -2442,12 +2147,9 @@
     "date": "03-23",
     "dateType": "annual-fixed",
     "name": "칩앤딥의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "간식",
-      "파티"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "감자칩·나초를 살사·과카몰리·치즈 소스 등에 찍어 먹는 '칩앤딥' 조합을 기념하는 날이다. 파티와 모임의 분위기를 책임지는 단골 핑거푸드다.",
@@ -2467,12 +2169,9 @@
     "date": "03-24",
     "dateType": "annual-fixed",
     "name": "초콜릿 건포도의 날 (Chocolate Covered Raisin Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "미국",
-      "음식",
-      "디저트",
-      "간식"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "달콤한 건포도에 초콜릿을 입힌 간식을 기념하는 날. 영화관 매점의 단골 간식이자, 미국에서 100년 가까이 사랑받아 온 클래식한 군것질거리다.",
@@ -2492,12 +2191,9 @@
     "date": "03-25",
     "dateType": "annual-fixed",
     "name": "랍스터 뉴버그의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "해산물",
-      "요리"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "랍스터를 크림·버터·셰리주 소스에 버무린 고급 요리 '랍스터 뉴버그'를 기념하는 날이다. 19세기 말 뉴욕의 고급 레스토랑 델모니코스에서 탄생했다.",
@@ -2517,12 +2213,9 @@
     "date": "03-25",
     "dateType": "annual-fixed",
     "name": "명예 훈장의 날 (Medal of Honor Day)",
-    "category": "commemorative",
+    "category": "career",
     "tags": [
-      "미국",
-      "이색기념일",
-      "군인",
-      "역사"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "미국 최고의 무공 훈장인 '명예 훈장(Medal of Honor)'을 받은 군인들을 기리는 날이다. 1863년 3월 25일 첫 수여를 기념해 제정됐다.",
@@ -2542,12 +2235,9 @@
     "date": "03-25",
     "dateType": "annual-fixed",
     "name": "톨킨 읽기의 날 (Tolkien Reading Day)",
-    "category": "anniversary",
+    "category": "culture",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "문학",
-      "판타지"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "「반지의 제왕」 작가 J.R.R. 톨킨의 작품을 함께 읽는 날. 작품 속에서 절대반지가 파괴되고 악의 군주 사우론이 몰락한 날이 3월 25일이라는 데서 따왔다. 2003년 톨킨 협회가 제정했다.",
@@ -2567,12 +2257,9 @@
     "date": "03-26",
     "dateType": "annual-fixed",
     "name": "누가의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "간식"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "설탕·꿀에 견과류를 넣어 굳힌 쫄깃한 과자 '누가'를 기념하는 날이다. 지중해 연안에서 시작돼 유럽 전역으로 퍼진 전통 디저트다.",
@@ -2592,12 +2279,9 @@
     "date": "03-26",
     "dateType": "annual-fixed",
     "name": "시금치의 날 (Spinach Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "채소",
-      "건강"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "철분과 비타민이 풍부한 녹색 채소 시금치를 기념하는 날이다. 만화 「뽀빠이」가 시금치를 먹고 힘을 내는 장면으로 전 세계 아이들에게 '건강 채소'의 상징이 됐다.",
@@ -2617,12 +2301,9 @@
     "date": "03-26",
     "dateType": "annual-fixed",
     "name": "퍼플 데이 (뇌전증 인식의 날)",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "건강",
-      "인식개선",
-      "캠페인"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "2008년 캐나다의 9살 소녀 캐시디 메건(Cassidy Megan)이 시작한 뇌전증(간질) 인식 개선의 날이다. 뇌전증 환자들이 혼자가 아니라는 메시지를 전하기 위해, 외로움을 상징하는 보라색을 입자고 제안했다.",
@@ -2642,12 +2323,9 @@
     "date": "03-27",
     "dateType": "annual-fixed",
     "name": "빠에야의 날 (National Spanish Paella Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "스페인",
-      "음식",
-      "쌀요리",
-      "해산물"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "스페인 발렌시아 지방의 대표 요리 '빠에야(Paella)'를 기념하는 날. 큼지막한 팬에 쌀과 사프란, 해산물·고기·채소를 넣고 끓여낸 스페인의 국민 음식이다.",
@@ -2667,12 +2345,9 @@
     "date": "03-27",
     "dateType": "annual-fixed",
     "name": "커피의 날 (National Joe Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "음료",
-      "커피"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "커피를 부르는 미국 속어 'Cup of Joe'에서 이름을 딴 날로, 커피 한 잔의 여유를 즐기자는 날이다. 어원에는 여러 설이 있지만 평범한 사람들의 일상 음료라는 의미가 담겨 있다.",
@@ -2692,12 +2367,9 @@
     "date": "03-28",
     "dateType": "annual-fixed",
     "name": "막대에 꽂은 음식의 날 (Something on a Stick Day)",
-    "category": "quirky",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "간식",
-      "유머"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "막대(꼬치)에 꽂힌 모든 음식을 기념하는 유쾌한 날이다. 손에 들고 편하게 먹을 수 있는 꼬치 음식의 매력을 즐기자는 취지다.",
@@ -2717,12 +2389,9 @@
     "date": "03-28",
     "dateType": "annual-fixed",
     "name": "블랙 포레스트 케이크의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "독일"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "초콜릿 스펀지에 체리와 생크림을 켜켜이 쌓은 독일의 명물 케이크를 기념하는 날이다. 독일어로 '슈바르츠밸더 키르쉬토르테', 체리주(키르쉬)가 들어가는 것이 특징이다.",
@@ -2742,12 +2411,9 @@
     "date": "03-28",
     "dateType": "annual-fixed",
     "name": "잡초의 날 (Weed Appreciation Day)",
-    "category": "general",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "자연",
-      "식물"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "흔히 천대받는 '잡초'의 생태적 가치를 재조명하는 날이다. 잡초는 토양 침식을 막고, 곤충의 서식처가 되며, 일부는 약초·식용으로 쓰이기도 한다.",
@@ -2767,12 +2433,9 @@
     "date": "03-29",
     "dateType": "annual-fixed",
     "name": "동네 가게의 날 (Mom and Pop Business Owners Day)",
-    "category": "general",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "소상공인",
-      "지역사회"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "대형 프랜차이즈가 아닌, 가족이 운영하는 작은 동네 가게('맘앤팝 스토어')의 가치를 기리는 날이다. 지역 경제를 떠받치는 소상공인에게 감사를 전하자는 취지를 담고 있다.",
@@ -2792,12 +2455,9 @@
     "date": "03-29",
     "dateType": "annual-fixed",
     "name": "레몬 시폰 케이크의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "케이크"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "실크(시폰)처럼 부드럽고 가벼운 식감의 '시폰 케이크'에 상큼한 레몬을 더한 디저트를 기념하는 날이다. 식용유를 사용해 촉촉하면서도 폭신한 것이 특징이다.",
@@ -2817,12 +2477,9 @@
     "date": "03-30",
     "dateType": "annual-fixed",
     "name": "'내가 책임자다' 날 (I Am in Control Day)",
-    "category": "quirky",
+    "category": "history",
     "tags": [
-      "미국",
-      "이색기념일",
-      "유머",
-      "역사"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "1981년 레이건 대통령 피격 사건 당시, 국무장관이던 알렉산더 헤이그가 '지금 백악관은 내가 통제하고 있다(I am in control here)'고 선언한 데서 유래한 다소 엉뚱한 날이다.",
@@ -2842,12 +2499,9 @@
     "date": "03-30",
     "dateType": "annual-fixed",
     "name": "공원 산책의 날 (Take a Walk in the Park Day)",
-    "category": "general",
+    "category": "culture",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "산책",
-      "휴식"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "가까운 공원을 거닐며 자연과 여유를 즐기자는 취지의 날이다. 봄기운이 완연한 시기에 맞춰, 잠시 일상을 멈추고 걷는 즐거움을 일깨운다.",
@@ -2867,12 +2521,9 @@
     "date": "03-30",
     "dateType": "annual-fixed",
     "name": "매너티의 날 (Manatee Appreciation Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "동물",
-      "자연보호",
-      "해양"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "온순한 초식 해양 포유류 '매너티'를 기리고 보호하자는 날이다. 느릿느릿 헤엄치는 모습 때문에 '바다소(sea cow)'라는 별명을 가졌다.",
@@ -2892,12 +2543,9 @@
     "date": "03-30",
     "dateType": "annual-fixed",
     "name": "연필의 날 (National Pencil Day)",
-    "category": "general",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "문구",
-      "발명품"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "1858년 3월 30일, 미국의 하이먼 립먼(Hymen Lipman)이 지우개 달린 연필 특허를 받은 것을 기념하는 날이다. 흑연심과 나무, 그리고 지우개의 조합은 가장 단순하면서도 완벽한 필기도구로 꼽힌다.",
@@ -2917,12 +2565,9 @@
     "date": "03-30",
     "dateType": "annual-fixed",
     "name": "의사의 날 (Doctors Day)",
-    "category": "general",
+    "category": "career",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "직업",
-      "건강"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "환자의 건강과 생명을 돌보는 의사들의 헌신에 감사하는 날이다. 1933년 미국에서 마취제를 처음 수술에 사용한 의사를 기리며 시작됐다고 전해진다.",
@@ -2942,12 +2587,9 @@
     "date": "03-30",
     "dateType": "annual-fixed",
     "name": "터키넥 수프의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "수프",
-      "요리"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "버리기 쉬운 칠면조 목 부위를 푹 고아 깊은 맛을 낸 수프를 기념하는 날이다. 알뜰하게 재료를 활용하는 옛 지혜가 담긴 음식이다.",
@@ -2967,12 +2609,9 @@
     "date": "03-31",
     "dateType": "annual-fixed",
     "name": "감자의 날 (Tater Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "채소",
-      "농업"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "'테이터(tater)'는 감자(potato)를 부르는 애칭으로, 봄철 씨감자를 심는 시기에 맞춰 감자를 기념하는 날이다. 미국에서 가장 오래된 농산물 축제 중 하나에서 유래했다.",
@@ -2992,12 +2631,9 @@
     "date": "03-31",
     "dateType": "annual-fixed",
     "name": "분젠 버너의 날 (Bunsen Burner Day)",
-    "category": "general",
+    "category": "academic",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "과학",
-      "발명품"
+      "학술 & 기술"
     ],
     "storytelling": {
       "origin": "독일 화학자 로베르트 분젠의 생일(3/31)을 기려, 그가 개량한 실험용 가스 버너 '분젠 버너'를 기념하는 날이다. 깔끔한 불꽃으로 과학 실험의 필수 도구가 됐다.",
@@ -3017,12 +2653,9 @@
     "date": "03-31",
     "dateType": "annual-fixed",
     "name": "생조개의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "해산물",
-      "요리"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "껍데기 반쪽에 올린 신선한 생조개를 기념하는 날이다. 레몬을 살짝 짜 그대로 후루룩 먹는 것이 정석으로, 바다의 맛을 가장 날것 그대로 즐기는 방법이다.",
@@ -3042,12 +2675,9 @@
     "date": "03-31",
     "dateType": "annual-fixed",
     "name": "세계 백업의 날 (World Backup Day)",
-    "category": "general",
+    "category": "academic",
     "tags": [
-      "전세계",
-      "IT",
-      "디지털",
-      "데이터"
+      "학술 & 기술"
     ],
     "storytelling": {
       "origin": "2011년 한 온라인 커뮤니티 사용자들이 제안해 시작된 날로, 소중한 디지털 데이터를 정기적으로 백업하자는 캠페인이다. 만우절(4월 1일) 하루 전에 둠으로써 '데이터를 잃고 바보가 되지 말자'는 메시지를 담았다.",
@@ -3067,11 +2697,9 @@
     "date": "03-3-WED",
     "dateType": "annual-nth-weekday",
     "name": "상공의 날",
-    "category": "anniversary",
+    "category": "general",
     "tags": [
-      "대한민국",
-      "법정기념일",
-      "정부"
+      "일반"
     ],
     "storytelling": {
       "origin": "주관 부처: 산업통상부. 3월 셋째 수요일. 상공업의 진흥을 촉진하는 행사를 한다.",
@@ -3085,11 +2713,9 @@
     "date": "03-4-FRI",
     "dateType": "annual-nth-weekday",
     "name": "서해수호의 날",
-    "category": "anniversary",
+    "category": "general",
     "tags": [
-      "대한민국",
-      "법정기념일",
-      "정부"
+      "일반"
     ],
     "storytelling": {
       "origin": "주관 부처: 국가보훈부. 3월 넷째 금요일. 서해수호를 위한 희생을 기리고, 국민의 안보의식을 북돋우며, 국토 수호 결의를 다지는 행사를 한다.",

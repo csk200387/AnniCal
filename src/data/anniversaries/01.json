@@ -6,10 +6,7 @@
     "name": "신정",
     "category": "holiday",
     "tags": [
-      "대한민국",
-      "법정공휴일",
-      "새해",
-      "양력"
+      "공휴일"
     ],
     "storytelling": {
       "origin": "양력(태양력)을 기준으로 한 해가 시작되는 첫날. 대한민국에서는 '새로운 설'이라는 의미의 신정(新正)으로 부르며, 법정공휴일로 지정되어 있다.",
@@ -29,12 +26,9 @@
     "date": "01-02",
     "dateType": "annual-fixed",
     "name": "뷔페의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "미국",
-      "음식",
-      "뷔페",
-      "식문화"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "다양한 음식을 한 번에 즐길 수 있는 뷔페 문화를 기념하는 날. 뷔페(buffet)라는 단어는 17세기 프랑스 귀족들의 사이드보드 상차림에서 유래했다.",
@@ -54,12 +48,9 @@
     "date": "01-02",
     "dateType": "annual-fixed",
     "name": "세계 SF의 날",
-    "category": "anniversary",
+    "category": "culture",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "문학",
-      "공상과학"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "전설적인 SF 작가 아이작 아시모프(Isaac Asimov)의 생일(1920년 1월 2일)을 기념하기 위해 제정된 비공식 기념일이다. 아시모프는 '로봇 3원칙'을 만든 인물로 유명하다.",
@@ -79,12 +70,9 @@
     "date": "01-02",
     "dateType": "annual-fixed",
     "name": "크림퍼프(슈크림)의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "미국",
-      "디저트",
-      "제과",
-      "베이커리"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "프랑스식 슈(choux) 페이스트리에 크림을 채운 디저트 크림퍼프를 기념하는 날.",
@@ -104,12 +92,9 @@
     "date": "01-02",
     "dateType": "annual-fixed",
     "name": "퍼스널 트레이너의 날",
-    "category": "general",
+    "category": "sports",
     "tags": [
-      "미국",
-      "운동",
-      "피트니스",
-      "건강"
+      "스포츠 & 레저"
     ],
     "storytelling": {
       "origin": "2009년 전미스포츠의학회(NASM)가 개인 맞춤형 운동 지도사들의 역할을 알리기 위해 제정한 날.",
@@ -129,12 +114,9 @@
     "date": "01-03",
     "dateType": "annual-fixed",
     "name": "빨대의 날",
-    "category": "anniversary",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "발명품",
-      "일상"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "1888년 1월 3일, 미국의 마빈 스톤(Marvin C. Stone)이 종이 빨대 특허를 취득한 날을 기념해 제정되었다. 그는 호밀짚 빨대가 음료에 풀려나오는 것이 싫어서 종이를 둘둘 말아 파라핀으로 코팅한 빨대를 발명했다.",
@@ -154,12 +136,9 @@
     "date": "01-03",
     "dateType": "annual-fixed",
     "name": "초콜릿 커버드 체리의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "미국",
-      "초콜릿",
-      "디저트",
-      "체리"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "체리를 초콜릿으로 감싼 클래식 미국식 캔디를 기념하는 날. 19세기 후반부터 박스 초콜릿 세트의 인기 품목으로 자리잡았다.",
@@ -179,12 +158,9 @@
     "date": "01-03",
     "dateType": "annual-fixed",
     "name": "프루트케이크 던지기의 날",
-    "category": "quirky",
+    "category": "food",
     "tags": [
-      "미국",
-      "이색기념일",
-      "디저트",
-      "유머"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "연말 선물로 받았지만 다 먹지 못하고 남는 프루트케이크를 눈밭에 던지며 한 해를 정리하자는 농담성 기념일. 콜로라도 매니투 스프링스에서 매년 실제 던지기 대회가 열린다.",
@@ -204,12 +180,9 @@
     "date": "01-04",
     "dateType": "annual-fixed",
     "name": "먼데이 감사의 날",
-    "category": "quirky",
+    "category": "career",
     "tags": [
-      "미국",
-      "직장",
-      "긍정",
-      "유머"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "월요병에 맞서 새로운 한 주를 긍정적으로 시작하자는 취지로 만들어진 날. 'TGIM'이라는 표현으로도 불린다.",
@@ -229,12 +202,9 @@
     "date": "01-04",
     "dateType": "annual-fixed",
     "name": "스파게티의 날",
-    "category": "anniversary",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "이탈리아",
-      "파스타"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "매년 1월 4일, 이탈리아의 대표 파스타인 스파게티를 기념하는 날. 'spaghetti'는 이탈리아어로 '작은 줄'을 뜻하는 'spago'에서 유래했다.",
@@ -256,10 +226,7 @@
     "name": "트리비아(상식퀴즈)의 날",
     "category": "general",
     "tags": [
-      "미국",
-      "퀴즈",
-      "상식",
-      "게임"
+      "일반"
     ],
     "storytelling": {
       "origin": "쓸데없지만 흥미로운 잡학 지식, 즉 '트리비아'를 즐기고 나누자는 취지로 만들어진 날.",
@@ -279,12 +246,9 @@
     "date": "01-05",
     "dateType": "annual-fixed",
     "name": "조류의 날",
-    "category": "anniversary",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "환경",
-      "동물",
-      "자연보호"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "1894년 미국 펜실베이니아주 오일시티의 교육감 찰스 알만조 밥콕(Charles Almanzo Babcock)이 처음 제안한 날로, 새의 소중함을 알리고 멸종위기 조류를 보호하자는 취지로 만들어졌다.",
@@ -304,12 +268,9 @@
     "date": "01-05",
     "dateType": "annual-fixed",
     "name": "휘핑크림의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "미국",
-      "디저트",
-      "베이킹",
-      "카페"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "케이크·커피·디저트 위를 장식하는 휘핑크림을 기념하는 날. 17세기 유럽 궁정 요리에서 처음 등장했다.",
@@ -329,12 +290,9 @@
     "date": "01-06",
     "dateType": "annual-fixed",
     "name": "쇼트브레드의 날",
-    "category": "anniversary",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "스코틀랜드"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "버터·설탕·밀가루로만 만든 스코틀랜드 전통 쿠키 '쇼트브레드'를 기념하는 날. 12세기경부터 만들어졌으며, 스코틀랜드 메리 여왕(Mary Queen of Scots)이 16세기에 캐러웨이 씨를 넣은 형태로 발전시킨 것으로 알려져 있다.",
@@ -354,12 +312,9 @@
     "date": "01-06",
     "dateType": "annual-fixed",
     "name": "콩의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "미국",
-      "음식",
-      "콩",
-      "건강식"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "단백질과 식이섬유가 풍부한 콩류 작물을 기념하는 날.",
@@ -379,12 +334,9 @@
     "date": "01-07",
     "dateType": "annual-fixed",
     "name": "보블헤드의 날",
-    "category": "anniversary",
+    "category": "culture",
     "tags": [
-      "미국",
-      "팝컬처",
-      "피규어",
-      "수집"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "고개를 까딱이는 인형 '보블헤드'를 기념하는 날. 스포츠 구단들이 마케팅용 기념품으로 보블헤드를 배포하면서 대중화됐다.",
@@ -404,12 +356,9 @@
     "date": "01-07",
     "dateType": "annual-fixed",
     "name": "튀김(텐푸라)의 날",
-    "category": "anniversary",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "일본",
-      "튀김요리"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "일본을 대표하는 튀김 요리 '텐푸라(天ぷら)'를 기념하는 날. 의외로 텐푸라는 일본 고유 음식이 아니라 16세기 포르투갈 선교사들이 사순절(Lent) 기간 생선·채소를 튀겨 먹던 'Tempora' 문화에서 유래했다.",
@@ -429,12 +378,9 @@
     "date": "01-08",
     "dateType": "annual-fixed",
     "name": "거품 목욕의 날",
-    "category": "anniversary",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "휴식",
-      "라이프스타일"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "추운 1월, 따뜻한 욕조에 몸을 담그고 거품 목욕을 즐기며 휴식을 취하자는 취지로 만들어진 비공식 기념일이다.",
@@ -454,12 +400,9 @@
     "date": "01-08",
     "dateType": "annual-fixed",
     "name": "기쁨 퍼뜨리는 날 (JoyGerm Day)",
-    "category": "quirky",
+    "category": "campaign",
     "tags": [
-      "미국",
-      "긍정",
-      "유머",
-      "캠페인"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "1973년 미국의 글로리아 페리가 만든 캐릭터 '조이저름(JoyGerm)'에서 따온 날로, 감기처럼 기쁨도 전염된다는 의미를 담아 주변에 긍정을 퍼뜨리자는 취지다.",
@@ -479,12 +422,9 @@
     "date": "01-08",
     "dateType": "annual-fixed",
     "name": "아가일 패턴의 날",
-    "category": "general",
+    "category": "culture",
     "tags": [
-      "미국",
-      "패션",
-      "패턴",
-      "스타일"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "다이아몬드 격자무늬 '아가일'을 기념하는 날. 스코틀랜드 아가일 지방의 전통 격자무늬에서 유래했다.",
@@ -504,12 +444,9 @@
     "date": "01-08",
     "dateType": "annual-fixed",
     "name": "잉글리시 토피의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "미국",
-      "디저트",
-      "캔디",
-      "초콜릿"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "버터와 설탕을 졸여 만든 캔디 '토피'를 기념하는 날.",
@@ -531,10 +468,7 @@
     "name": "비전보드의 날",
     "category": "general",
     "tags": [
-      "미국",
-      "새해",
-      "목표",
-      "자기계발"
+      "일반"
     ],
     "storytelling": {
       "origin": "사진과 문구로 자신의 목표·꿈을 시각화하는 '비전보드'를 만들자는 취지의 날. 새해 목표를 세우는 1월에 자리잡았다.",
@@ -554,12 +488,9 @@
     "date": "01-09",
     "dateType": "annual-fixed",
     "name": "살구의 날",
-    "category": "anniversary",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "과일",
-      "건강"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "비타민 A와 식이섬유가 풍부한 과일 살구(Apricot)를 기념하는 날. 살구는 약 4천 년 전 중국 북부에서 처음 재배되었고, 실크로드를 통해 페르시아·유럽으로 전파되었다.",
@@ -579,12 +510,9 @@
     "date": "01-09",
     "dateType": "annual-fixed",
     "name": "정전기의 날",
-    "category": "general",
+    "category": "academic",
     "tags": [
-      "미국",
-      "겨울",
-      "과학",
-      "일상"
+      "학술 & 기술"
     ],
     "storytelling": {
       "origin": "건조한 겨울철 옷이나 머리카락에서 자주 발생하는 정전기 현상을 기념하는 날.",
@@ -604,12 +532,9 @@
     "date": "01-10",
     "dateType": "annual-fixed",
     "name": "독수리 보호의 날",
-    "category": "anniversary",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "환경",
-      "동물보호",
-      "멸종위기종"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "2015년 미국 독수리재단(American Eagle Foundation)이 제정한 날로, 미국의 국조인 흰머리수리(Bald Eagle)와 전 세계 독수리류의 보호를 알리기 위해 만들어졌다.",
@@ -629,12 +554,9 @@
     "date": "01-10",
     "dateType": "annual-fixed",
     "name": "비터스윗 초콜릿의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "미국",
-      "초콜릿",
-      "디저트",
-      "카카오"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "카카오 함량이 높아 쌉쌀하면서도 단맛이 도는 비터스윗 초콜릿을 기념하는 날.",
@@ -654,12 +576,9 @@
     "date": "01-10",
     "dateType": "annual-fixed",
     "name": "에너지 비용 절약의 날",
-    "category": "international",
+    "category": "animal",
     "tags": [
-      "미국",
-      "환경",
-      "에너지절약",
-      "겨울"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "한겨울 난방비가 급증하는 시기, 가정에서 에너지를 절약하는 습관을 점검하자는 취지로 만들어진 날.",
@@ -681,10 +600,7 @@
     "name": "물웅덩이 밟고 친구에게 물 튀기기의 날",
     "category": "quirky",
     "tags": [
-      "미국",
-      "이색기념일",
-      "겨울",
-      "유머"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "비나 눈이 녹아 생긴 물웅덩이를 일부러 밟아 친구에게 장난스럽게 물을 튀기며 동심을 즐기자는 취지의 농담성 기념일.",
@@ -704,12 +620,9 @@
     "date": "01-11",
     "dateType": "annual-fixed",
     "name": "우유의 날",
-    "category": "anniversary",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "음료",
-      "건강"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "1878년 1월 11일, 미국에서 처음으로 우유가 유리병에 담겨 배달된 날을 기념해 만들어졌다. 그 이전까지 우유는 큰 통에서 떠 가는 방식이라 위생 문제가 심각했다.",
@@ -729,12 +642,9 @@
     "date": "01-11",
     "dateType": "annual-fixed",
     "name": "인신매매 인식의 날",
-    "category": "commemorative",
+    "category": "campaign",
     "tags": [
-      "미국",
-      "인권",
-      "사회",
-      "캠페인"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "2010년 미국 의회가 1월을 '인신매매 인식의 달'로 지정하면서 그 시작일인 1월 11일을 기념일로 함께 정했다. 전 세계적으로 발생하는 인신매매·강제노동 피해를 알리고 근절을 촉구하는 날이다.",
@@ -754,12 +664,9 @@
     "date": "01-11",
     "dateType": "annual-fixed",
     "name": "책상 정리의 날",
-    "category": "general",
+    "category": "career",
     "tags": [
-      "미국",
-      "직장",
-      "생활",
-      "정리정돈"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "새해 첫 업무 주간, 어수선해진 책상을 정리하고 한 해를 깔끔하게 시작하자는 취지로 만들어진 날.",
@@ -779,12 +686,9 @@
     "date": "01-12",
     "dateType": "annual-fixed",
     "name": "마지팬의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "미국",
-      "디저트",
-      "아몬드",
-      "제과"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "아몬드 가루와 설탕을 반죽해 만든 마지팬을 기념하는 날. 중세 유럽에서 귀한 디저트로 시작됐다.",
@@ -804,12 +708,9 @@
     "date": "01-12",
     "dateType": "annual-fixed",
     "name": "약사의 날",
-    "category": "anniversary",
+    "category": "career",
     "tags": [
-      "전세계",
-      "직업",
-      "의료",
-      "감사"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "약사들의 노고를 기리는 날. 미국에서는 약사이자 코카콜라의 원형 시럽을 만든 존 펨버튼(John Pemberton)과의 연결고리로 1월 12일을 약사의 날로 기념한다.",
@@ -829,12 +730,9 @@
     "date": "01-12",
     "dateType": "annual-fixed",
     "name": "커리치킨의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "미국",
-      "음식",
-      "커리",
-      "치킨"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "향신료 가득한 커리 소스로 조리한 치킨 요리를 기념하는 날.",
@@ -854,12 +752,9 @@
     "date": "01-13",
     "dateType": "annual-fixed",
     "name": "러버덕(고무 오리)의 날",
-    "category": "anniversary",
+    "category": "culture",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "캐릭터",
-      "추억"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "1970년대 미국 어린이 프로그램 「세서미 스트리트(Sesame Street)」의 캐릭터 어니(Ernie)가 1973년 1월 13일 자신의 고무 오리 인형 'Rubber Duckie'에게 보내는 노래를 처음 부른 날에서 유래했다.",
@@ -879,12 +774,9 @@
     "date": "01-13",
     "dateType": "annual-fixed",
     "name": "피치 멜바의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "미국",
-      "디저트",
-      "복숭아",
-      "아이스크림"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "복숭아와 바닐라 아이스크림, 라즈베리 소스를 곁들인 디저트 '피치 멜바'를 기념하는 날. 19세기 프랑스 요리사 에스코피에가 오페라 가수 넬리 멜바를 위해 만들었다.",
@@ -904,13 +796,9 @@
     "date": "01-14",
     "dateType": "annual-fixed",
     "name": "다이어리 데이",
-    "category": "anniversary",
+    "category": "general",
     "tags": [
-      "대한민국",
-      "다이어리",
-      "새해계획",
-      "헬로데이",
-      "포틴데이"
+      "일반"
     ],
     "storytelling": {
       "origin": "새해를 맞아 1월에 알찬 한 해를 시작하라는 뜻으로 생겨난 기념일. 소중한 사람에게 다이어리를 선물하거나, 새로 받은 다이어리에 1년의 계획을 적어놓는 날이다.",
@@ -930,12 +818,9 @@
     "date": "01-14",
     "dateType": "annual-fixed",
     "name": "반려동물 꾸미기의 날",
-    "category": "anniversary",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "반려동물",
-      "패션"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "2009년 펫 라이프스타일 전문가 콜린 페이지(Colleen Paige)가 제정한 날로, 반려동물에게 옷을 입히고 사진을 찍으며 함께하는 즐거움을 나누자는 취지로 만들어졌다.",
@@ -955,12 +840,9 @@
     "date": "01-14",
     "dateType": "annual-fixed",
     "name": "핫 파스트라미 샌드위치의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "미국",
-      "음식",
-      "샌드위치",
-      "델리"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "훈제 양념한 소고기 파스트라미를 두툼하게 채운 샌드위치를 기념하는 날. 뉴욕 델리 문화를 대표하는 메뉴다.",
@@ -980,12 +862,9 @@
     "date": "01-15",
     "dateType": "annual-fixed",
     "name": "모자의 날",
-    "category": "anniversary",
+    "category": "culture",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "패션",
-      "스타일"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "추운 한겨울에 모자를 쓰고 외출하며, 다양한 모자 스타일과 그 역사를 기념하자는 취지로 만들어진 비공식 기념일이다.",
@@ -1005,12 +884,9 @@
     "date": "01-15",
     "dateType": "annual-fixed",
     "name": "스트로베리 아이스크림의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "미국",
-      "디저트",
-      "아이스크림",
-      "딸기"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "딸기 맛 아이스크림을 기념하는 날. 바닐라·초콜릿과 함께 클래식 아이스크림 3대장으로 꼽힌다.",
@@ -1030,12 +906,9 @@
     "date": "01-16",
     "dateType": "annual-fixed",
     "name": "국제 뜨겁고 매운 음식의 날",
-    "category": "anniversary",
+    "category": "food",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "매운맛",
-      "음식"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "매년 1월 16일, 전 세계의 맵고 뜨거운 요리를 기념하고 매운 음식을 사랑하는 사람들을 위해 만들어진 비공식 기념일이다.",
@@ -1055,12 +928,9 @@
     "date": "01-16",
     "dateType": "annual-fixed",
     "name": "아무것도 안 하는 날 (Nothing Day)",
-    "category": "anniversary",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "휴식",
-      "유머"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "1973년 미국 신문 칼럼니스트 해럴드 풀먼 코핀(Harold Pullman Coffin)이 'National Nothing Foundation'을 설립하며 만든 날. '아무것도 기념하지 않을 권리'를 위한 기념일이라는 역설적인 컨셉이다.",
@@ -1080,12 +950,9 @@
     "date": "01-16",
     "dateType": "annual-fixed",
     "name": "종교 자유의 날",
-    "category": "commemorative",
+    "category": "history",
     "tags": [
-      "미국",
-      "인권",
-      "종교",
-      "역사"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "1786년 1월 16일 미국 버지니아주에서 토머스 제퍼슨이 입안한 '버지니아 종교자유법'이 통과된 것을 기념하는 날. 신앙의 자유를 법으로 보장한 세계 최초의 사례 중 하나로 평가받는다.",
@@ -1105,12 +972,9 @@
     "date": "01-16",
     "dateType": "annual-fixed",
     "name": "피그 뉴턴의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "미국",
-      "디저트",
-      "과자",
-      "베이커리"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "무화과 잼을 부드러운 쿠키 반죽으로 감싼 과자 '피그 뉴턴'을 기념하는 날. 1891년 매사추세츠 뉴턴시에서 이름을 따왔다.",
@@ -1130,12 +994,9 @@
     "date": "01-17",
     "dateType": "annual-fixed",
     "name": "밀주업자의 날",
-    "category": "commemorative",
+    "category": "history",
     "tags": [
-      "미국",
-      "역사",
-      "금주법",
-      "문화"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "1920~1933년 미국 금주법 시대에 불법으로 술을 제조·유통했던 '밀주업자(bootlegger)'들의 시대를 기념하는 날.",
@@ -1155,12 +1016,9 @@
     "date": "01-17",
     "dateType": "annual-fixed",
     "name": "핫 버터드 럼의 날",
-    "category": "anniversary",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음료",
-      "칵테일",
-      "겨울"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "추운 겨울철 몸을 데우는 따뜻한 칵테일 '핫 버터드 럼(Hot Buttered Rum)'을 기념하는 날. 럼, 버터, 흑설탕, 시나몬, 정향 등을 뜨거운 물에 섞어 만드는 미국 식민지 시대의 전통 음료다.",
@@ -1180,12 +1038,9 @@
     "date": "01-18",
     "dateType": "annual-fixed",
     "name": "곰돌이 푸의 날",
-    "category": "anniversary",
+    "category": "culture",
     "tags": [
-      "전세계",
-      "캐릭터",
-      "문학",
-      "어린이"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "「곰돌이 푸(Winnie-the-Pooh)」를 만든 영국 작가 A.A. 밀른(A.A. Milne)의 생일(1882년 1월 18일)을 기념하는 날이다. 푸는 1926년 동화책으로 처음 세상에 나왔다.",
@@ -1205,12 +1060,9 @@
     "date": "01-18",
     "dateType": "annual-fixed",
     "name": "베이징덕의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "중국",
-      "음식",
-      "중식",
-      "오리고기"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "바삭한 껍질과 부드러운 살로 유명한 중국 대표 요리 '베이징덕(북경오리)'을 기념하는 날. 명나라 황실 요리에서 시작된 것으로 알려져 있다.",
@@ -1230,12 +1082,9 @@
     "date": "01-19",
     "dateType": "annual-fixed",
     "name": "팝콘의 날",
-    "category": "anniversary",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "간식",
-      "영화"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "옥수수가 펑펑 터지는 매력의 간식 팝콘(Popcorn)을 기념하는 날. 팝콘은 약 5천 년 전 중남미 원주민들이 처음 먹기 시작했고, 1885년 시카고에서 찰스 크레터스(Charles Cretors)가 증기식 팝콘 기계를 발명하며 대중화되었다.",
@@ -1255,12 +1104,9 @@
     "date": "01-20",
     "dateType": "annual-fixed",
     "name": "디스크자키(DJ)의 날",
-    "category": "anniversary",
+    "category": "culture",
     "tags": [
-      "미국",
-      "음악",
-      "DJ",
-      "클럽문화"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "라디오·클럽에서 음악을 선곡하고 트는 '디스크자키'를 기념하는 날.",
@@ -1280,12 +1126,9 @@
     "date": "01-20",
     "dateType": "annual-fixed",
     "name": "버터크런치의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "미국",
-      "디저트",
-      "캔디",
-      "견과류"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "버터를 넣어 바삭하게 만든 캔디 '버터크런치'를 기념하는 날. 견과류를 더해 고소한 풍미를 더한 것이 특징이다.",
@@ -1305,12 +1148,9 @@
     "date": "01-20",
     "dateType": "annual-fixed",
     "name": "치즈 러버의 날",
-    "category": "anniversary",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "유제품",
-      "치즈"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "전 세계 1,800종이 넘는 다양한 치즈를 사랑하는 '치즈 러버'를 위한 날. 인류는 약 8천 년 전부터 치즈를 만들어 먹기 시작했다.",
@@ -1330,12 +1170,9 @@
     "date": "01-21",
     "dateType": "annual-fixed",
     "name": "그래놀라바의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "미국",
-      "건강식",
-      "간식",
-      "곡물"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "곡물·견과류·말린 과일을 압축해 만든 휴대용 간식 그래놀라바를 기념하는 날. 1960~70년대 건강식 열풍과 함께 등산·캠핑 필수품으로 대중화됐다.",
@@ -1355,12 +1192,9 @@
     "date": "01-21",
     "dateType": "annual-fixed",
     "name": "다람쥐 감사의 날",
-    "category": "general",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "동물",
-      "자연",
-      "야생동물"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "도토리를 모으며 겨울을 준비하는 다람쥐의 생태적 역할을 기념하고 보호 의식을 높이기 위해 만들어진 날.",
@@ -1380,12 +1214,9 @@
     "date": "01-21",
     "dateType": "annual-fixed",
     "name": "포옹의 날",
-    "category": "anniversary",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "관계",
-      "감정표현"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "1986년 미국의 케빈 자보니(Kevin Zaborney) 목사가 제정한 날. 1월 중순은 연말 분위기가 끝나고 우울감이 찾아오는 시기라, 포옹으로 따뜻한 감정 교류를 하자는 취지로 만들어졌다.",
@@ -1405,12 +1236,9 @@
     "date": "01-22",
     "dateType": "annual-fixed",
     "name": "블론드 브라우니의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "미국",
-      "디저트",
-      "브라우니",
-      "베이킹"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "코코아 대신 브라운슈가와 버터로 맛을 낸 '블론드 브라우니(블론디)'를 기념하는 날.",
@@ -1430,12 +1258,9 @@
     "date": "01-22",
     "dateType": "annual-fixed",
     "name": "생명 축하의 날",
-    "category": "anniversary",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "가족",
-      "생명"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "삶 자체를 축하하고, 우리에게 가장 소중한 사람들 — 특히 아이들과 손주들 — 의 존재에 감사하는 날로 만들어졌다.",
@@ -1455,12 +1280,9 @@
     "date": "01-23",
     "dateType": "annual-fixed",
     "name": "손글씨의 날",
-    "category": "anniversary",
+    "category": "culture",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "아날로그",
-      "문화"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "1977년 미국 필기구 제조업체 협회(WIMA)가 미국 독립선언서에 가장 먼저, 가장 크게 서명한 존 핸콕(John Hancock)의 생일(1737년 1월 23일)을 기념해 제정한 날이다.",
@@ -1480,12 +1302,9 @@
     "date": "01-23",
     "dateType": "annual-fixed",
     "name": "파이(디저트)의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "미국",
-      "디저트",
-      "베이킹",
-      "파이"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "달콤하거나 짭짤한 속을 페이스트리로 감싼 디저트 '파이'를 기념하는 날. 원주율을 기념하는 3월 14일 '파이(π)의 날'과는 별개로, 디저트 파이 자체를 위한 날이다.",
@@ -1505,12 +1324,9 @@
     "date": "01-24",
     "dateType": "annual-fixed",
     "name": "땅콩버터의 날 (National Peanut Butter Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "미국",
-      "음식",
-      "땅콩",
-      "스프레드"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "빵에 발라 먹는 스프레드 땅콩버터를 기념하는 날. 19세기 말 건강식으로 처음 개발됐다.",
@@ -1530,12 +1346,9 @@
     "date": "01-24",
     "dateType": "annual-fixed",
     "name": "칭찬의 날",
-    "category": "anniversary",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "관계",
-      "긍정"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "1998년 미국의 캐시 챔벌린(Kathy Chamberlin)과 데비 호프먼(Debby Hoffman)이 만든 날. 사람들이 서로에게 진심 어린 칭찬을 건네 긍정적인 분위기를 퍼뜨리자는 취지로 제정되었다.",
@@ -1555,12 +1368,9 @@
     "date": "01-25",
     "dateType": "annual-fixed",
     "name": "반대로 하는 날 (Opposite Day)",
-    "category": "anniversary",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "유머",
-      "어린이"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "모든 말과 행동을 평소와 반대로 해보는 장난스러운 비공식 기념일. 어린이들 사이에서 \"오늘은 Opposite Day니까 '싫다'가 '좋다'야!\" 식으로 농담을 주고받던 문화에서 유래했다.",
@@ -1580,12 +1390,9 @@
     "date": "01-25",
     "dateType": "annual-fixed",
     "name": "아이리쉬 커피의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "미국",
-      "음료",
-      "커피",
-      "칵테일"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "뜨거운 커피에 위스키와 휘핑크림을 더한 '아이리쉬 커피'를 기념하는 날. 1940년대 아일랜드 섀넌 공항 카페에서 추운 승객들을 위해 처음 만들어졌다는 일화가 전해진다.",
@@ -1605,12 +1412,9 @@
     "date": "01-26",
     "dateType": "annual-fixed",
     "name": "배우자의 날",
-    "category": "anniversary",
+    "category": "romance",
     "tags": [
-      "전세계",
-      "가족",
-      "결혼",
-      "감사"
+      "연애 & 기념일"
     ],
     "storytelling": {
       "origin": "오랜 시간 함께해 온 배우자에게 감사를 표현하는 날. 발렌타인데이는 연인의 날이라면, 이 날은 결혼 생활의 동반자를 위한 날로 자리잡았다.",
@@ -1630,12 +1434,9 @@
     "date": "01-26",
     "dateType": "annual-fixed",
     "name": "엘렌 디제너러스의 날",
-    "category": "anniversary",
+    "category": "culture",
     "tags": [
-      "미국",
-      "팝컬처",
-      "방송",
-      "토크쇼"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "미국의 코미디언이자 토크쇼 진행자 엘렌 디제너러스의 생일(1958년 1월 26일)을 기념해 팬들이 만든 날.",
@@ -1655,12 +1456,9 @@
     "date": "01-26",
     "dateType": "annual-fixed",
     "name": "피넛 브리틀(땅콩강정)의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "미국",
-      "디저트",
-      "캔디",
-      "땅콩"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "설탕을 졸여 만든 캐러멜에 땅콩을 섞어 단단하게 굳힌 캔디 '피넛 브리틀'을 기념하는 날.",
@@ -1680,12 +1478,9 @@
     "date": "01-27",
     "dateType": "annual-fixed",
     "name": "초콜릿 케이크의 날",
-    "category": "anniversary",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "초콜릿"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "달콤 쌉싸름한 초콜릿 케이크를 기념하는 날. 18세기 후반 코코아 가공 기술이 발전하면서 케이크에 초콜릿이 본격적으로 사용되기 시작했고, 1879년 콘칭(Conching) 기법이 개발되며 부드러운 초콜릿 케이크 시대가 열렸다.",
@@ -1705,12 +1500,9 @@
     "date": "01-28",
     "dateType": "annual-fixed",
     "name": "블루베리 팬케이크의 날",
-    "category": "anniversary",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "아침식사",
-      "디저트"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "겨울철 부드럽고 따끈한 팬케이크에 새콤달콤한 블루베리를 곁들여 먹는 즐거움을 기념하는 날. 블루베리는 북미 원주민들이 수천 년 전부터 식용·약용으로 사용해 온 슈퍼푸드다.",
@@ -1730,12 +1522,9 @@
     "date": "01-28",
     "dateType": "annual-fixed",
     "name": "일터에서 즐겁게 보내는 날",
-    "category": "general",
+    "category": "career",
     "tags": [
-      "미국",
-      "직장",
-      "웰빙",
-      "긍정"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "딱딱한 업무 환경에서도 즐거움을 찾자는 취지로 만들어진 날. 동료들과 가벼운 게임이나 이벤트를 즐기도록 권장한다.",
@@ -1755,12 +1544,9 @@
     "date": "01-28",
     "dateType": "annual-fixed",
     "name": "카주의 날",
-    "category": "general",
+    "category": "culture",
     "tags": [
-      "미국",
-      "악기",
-      "음악",
-      "유머"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "허밍하듯 소리 내면 진동판이 울려 독특한 소리를 내는 간단한 악기 '카주'를 기념하는 날. 19세기 미국에서 발명됐다.",
@@ -1780,12 +1566,9 @@
     "date": "01-29",
     "dateType": "annual-fixed",
     "name": "콘칩의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "미국",
-      "스낵",
-      "옥수수",
-      "간식"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "옥수수를 튀기거나 구워 만든 바삭한 스낵 콘칩을 기념하는 날.",
@@ -1805,12 +1588,9 @@
     "date": "01-29",
     "dateType": "annual-fixed",
     "name": "퍼즐의 날",
-    "category": "anniversary",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "취미",
-      "두뇌"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "2002년 미국의 작가이자 퍼즐 디자이너인 조디 질(Jodi Jill)이 제정한 날. 직소 퍼즐, 크로스워드, 스도쿠 등 모든 종류의 퍼즐을 기념하는 날이다.",
@@ -1830,12 +1610,9 @@
     "date": "01-30",
     "dateType": "annual-fixed",
     "name": "씨앗 교환의 날",
-    "category": "general",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "가드닝",
-      "환경",
-      "식물"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "텃밭·정원을 가꾸는 사람들이 서로의 씨앗을 나누고 교환하며 다양한 품종을 보존하자는 취지로 만들어진 날. 본격적인 봄 파종을 준비하는 시기에 맞춰졌다.",
@@ -1855,12 +1632,9 @@
     "date": "01-30",
     "dateType": "annual-fixed",
     "name": "크루아상의 날",
-    "category": "anniversary",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "빵",
-      "프랑스"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "프랑스를 대표하는 초승달 모양 페이스트리 크루아상(Croissant)을 기념하는 날. 의외로 원조는 오스트리아 빈으로, 1683년 오스만 제국군을 격퇴한 것을 기념해 오스만 깃발의 초승달을 본떠 만든 빵 '킵펠(Kipfel)'에서 유래했다.",
@@ -1882,10 +1656,7 @@
     "name": "거꾸로 데이",
     "category": "quirky",
     "tags": [
-      "미국",
-      "이색기념일",
-      "유머",
-      "놀이"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "옷을 거꾸로 입거나 말을 거꾸로 하는 등, 일상을 거꾸로 뒤집어보며 즐기는 농담성 기념일.",
@@ -1905,12 +1676,9 @@
     "date": "01-31",
     "dateType": "annual-fixed",
     "name": "예술로 마음을 채우는 날",
-    "category": "anniversary",
+    "category": "culture",
     "tags": [
-      "전세계",
-      "이색기념일",
-      "예술",
-      "감성"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "1월의 마지막 날, 회화·조각·음악·문학·공연 등 다양한 예술 작품을 감상하며 마음에 영감을 불어넣자는 취지로 만들어진 비공식 기념일이다.",

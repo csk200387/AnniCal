@@ -6,9 +6,7 @@
     "name": "나눔의 날 (National Day of Giving)",
     "category": "general",
     "tags": [
-      "전세계",
-      "나눔",
-      "봉사"
+      "일반"
     ],
     "storytelling": {
       "origin": "연말을 맞아 어려운 이웃에게 작은 나눔을 실천해보자는 취지의 날이다.",
@@ -28,11 +26,9 @@
     "date": "12-01",
     "dateType": "annual-fixed",
     "name": "로자 파크스의 날",
-    "category": "commemorative",
+    "category": "history",
     "tags": [
-      "전세계",
-      "역사",
-      "인권"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "1955년 12월 1일, 버스에서 백인에게 자리를 양보하라는 요구를 거부해 몽고메리 버스 보이콧 운동의 불씨가 된 로자 파크스를 기리는 날이다.",
@@ -52,12 +48,9 @@
     "date": "12-01",
     "dateType": "annual-fixed",
     "name": "모니터 앞 다초점 안경 해방의 날",
-    "category": "quirky",
+    "category": "history",
     "tags": [
-      "전세계",
-      "건강",
-      "이색기념일",
-      "유머"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "컴퓨터 화면을 오래 보는 사람들의 눈 건강과 적절한 안경 사용을 가볍게 환기하는 날이다.",
@@ -77,12 +70,9 @@
     "date": "12-01",
     "dateType": "annual-fixed",
     "name": "빨간 사과 먹는 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "과일",
-      "건강"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "새콤달콤한 빨간 사과를 즐겨보자는 취지의 날이다.",
@@ -102,12 +92,9 @@
     "date": "12-01",
     "dateType": "annual-fixed",
     "name": "세계 에이즈의 날 (World Aids Day)",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "건강",
-      "인식개선",
-      "UN"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "1988년 WHO가 지정한 국제 기념일로, HIV/AIDS에 대한 인식을 높이고 환자에 대한 편견을 줄이기 위해 매년 기념한다.",
@@ -127,12 +114,9 @@
     "date": "12-01",
     "dateType": "annual-fixed",
     "name": "예술 없는 날 (Day With(out) Art Day)",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "예술",
-      "인식개선",
-      "캠페인"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "세계 에이즈의 날에 맞춰, 에이즈로 세상을 떠난 예술가들을 추모하고 인식을 높이기 위해 미술계가 시작한 캠페인 기념일이다.",
@@ -152,11 +136,9 @@
     "date": "12-01",
     "dateType": "annual-fixed",
     "name": "파이의 날 (National Pie Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "다양한 속재료로 변신하는 파이를 기념하는 날이다. 3월 14일 '세계 파이의 날'과 별개로 미국에서 따로 기념하는 날이다.",
@@ -176,12 +158,9 @@
     "date": "12-02",
     "dateType": "annual-fixed",
     "name": "노예제 폐지를 위한 국제 기념일",
-    "category": "international",
+    "category": "history",
     "tags": [
-      "전세계",
-      "역사",
-      "인권",
-      "UN"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "1949년 UN이 인신매매 금지 협약을 채택한 날을 기려 지정된 국제 기념일로, 현대판 노예제와 인신매매 문제에 대한 경각심을 일깨운다.",
@@ -201,12 +180,9 @@
     "date": "12-02",
     "dateType": "annual-fixed",
     "name": "록펠러 센터 트리 점등 행사",
-    "category": "anniversary",
+    "category": "general",
     "tags": [
-      "전세계",
-      "크리스마스",
-      "축제",
-      "뉴욕"
+      "일반"
     ],
     "storytelling": {
       "origin": "뉴욕 록펠러 센터 앞에 거대한 크리스마스트리를 세우고 점등하는 연례 행사로, 1933년부터 이어진 미국의 대표적인 연말 전통이다.",
@@ -226,11 +202,9 @@
     "date": "12-02",
     "dateType": "annual-fixed",
     "name": "특수교육의 날 (Special Education Day)",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "교육",
-      "인식개선"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "모든 학생이 차별 없이 적절한 교육을 받을 권리를 기리는 날이다.",
@@ -250,11 +224,9 @@
     "date": "12-02",
     "dateType": "annual-fixed",
     "name": "프리터(튀김빵)의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "간식"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "과일이나 채소를 반죽에 섞어 튀긴 프리터를 기념하는 날이다.",
@@ -274,12 +246,9 @@
     "date": "12-03",
     "dateType": "annual-fixed",
     "name": "머리 위 지붕에 감사하는 날",
-    "category": "general",
+    "category": "career",
     "tags": [
-      "전세계",
-      "주거",
-      "감사",
-      "이색기념일"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "추운 계절, 비바람을 막아주는 보금자리가 있다는 사실에 감사해보자는 날이다.",
@@ -299,12 +268,9 @@
     "date": "12-03",
     "dateType": "annual-fixed",
     "name": "세계 장애인의 날 (International Day of Persons With Disabilities)",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "인권",
-      "인식개선",
-      "UN"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "1992년 UN이 지정한 국제 기념일로, 장애인의 권리와 사회 참여를 증진하기 위해 매년 기념한다.",
@@ -324,11 +290,9 @@
     "date": "12-03",
     "dateType": "annual-fixed",
     "name": "소비자의 날",
-    "category": "anniversary",
+    "category": "general",
     "tags": [
-      "대한민국",
-      "법정기념일",
-      "정부"
+      "일반"
     ],
     "storytelling": {
       "origin": "주관 부처: 공정거래 위원회. 소비자의 권리의식을 신장하고, 소비자보호에 관한 인식을 높이는 행사를 한다.",
@@ -342,12 +306,9 @@
     "date": "12-04",
     "dateType": "annual-fixed",
     "name": "인조 모피의 날 (Faux Fur Friday)",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "동물보호",
-      "패션",
-      "캠페인"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "동물 학대 없이 만든 인조 모피를 선택하자는 취지로 동물보호 단체들이 시작한 캠페인성 기념일이다.",
@@ -369,9 +330,7 @@
     "name": "주사위의 날 (National Dice Day)",
     "category": "general",
     "tags": [
-      "전세계",
-      "게임",
-      "보드게임"
+      "일반"
     ],
     "storytelling": {
       "origin": "보드게임과 도박 게임에 빠지지 않는 도구, 주사위를 기념하는 날이다.",
@@ -391,12 +350,9 @@
     "date": "12-04",
     "dateType": "annual-fixed",
     "name": "쿠키의 날 (National Cookie Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "베이킹"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "바삭하거나 쫀득한 다양한 쿠키를 기념하는 날로, 연말 베이킹 시즌과도 잘 어울리는 날이다.",
@@ -416,12 +372,9 @@
     "date": "12-05",
     "dateType": "annual-fixed",
     "name": "국제 자원봉사자의 날 (International Volunteer Day for Economic and Social Development)",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "봉사",
-      "UN",
-      "나눔"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "1985년 UN이 지정한 국제 기념일로, 사회와 경제 발전을 위해 헌신하는 자원봉사자들의 노고를 기리는 날이다.",
@@ -441,11 +394,9 @@
     "date": "12-05",
     "dateType": "annual-fixed",
     "name": "루바브 보드카의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음료",
-      "칵테일"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "새콤한 루바브로 향을 낸 보드카를 즐겨보자는 날이다.",
@@ -465,11 +416,9 @@
     "date": "12-05",
     "dateType": "annual-fixed",
     "name": "무역의 날",
-    "category": "anniversary",
+    "category": "general",
     "tags": [
-      "대한민국",
-      "법정기념일",
-      "정부"
+      "일반"
     ],
     "storytelling": {
       "origin": "주관 부처: 산업통상부. 무역의 균형적 발전과 무역입국(貿易立國) 의 의지를 다짐하는 행사를 한다.",
@@ -483,11 +432,9 @@
     "date": "12-05",
     "dateType": "annual-fixed",
     "name": "세계 닌자의 날 (International Ninja Day)",
-    "category": "international",
+    "category": "culture",
     "tags": [
-      "전세계",
-      "문화",
-      "팝컬처"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "그림자처럼 움직이는 닌자의 문화적 매력을 기념하는 날이다.",
@@ -507,12 +454,9 @@
     "date": "12-05",
     "dateType": "annual-fixed",
     "name": "욕조 파티의 날 (Bathtub Party Day)",
-    "category": "quirky",
+    "category": "food",
     "tags": [
-      "전세계",
-      "휴식",
-      "유머",
-      "이색기념일"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "거품 가득한 욕조에 몸을 담그고 여유를 즐겨보자는 가벼운 기념일이다.",
@@ -532,12 +476,9 @@
     "date": "12-05",
     "dateType": "annual-fixed",
     "name": "자허토르테의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "오스트리아"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "오스트리아 빈을 대표하는 초콜릿 케이크, 자허토르테를 기념하는 날이다.",
@@ -557,12 +498,9 @@
     "date": "12-06",
     "dateType": "annual-fixed",
     "name": "가스파초의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "스페인",
-      "수프"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "차갑게 먹는 토마토 수프, 가스파초를 기념하는 날이다.",
@@ -582,12 +520,9 @@
     "date": "12-06",
     "dateType": "annual-fixed",
     "name": "성 니콜라스의 날 (St. Nicholas Day)",
-    "category": "commemorative",
+    "category": "history",
     "tags": [
-      "전세계",
-      "유럽",
-      "전통",
-      "역사"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "어려운 이들을 몰래 도왔던 4세기 주교 성 니콜라스를 기리는 날로, 네덜란드와 독일 등 유럽 여러 나라에서 아이들이 신발이나 양말에 선물을 받는 전통으로 이어진다.",
@@ -607,11 +542,9 @@
     "date": "12-06",
     "dateType": "annual-fixed",
     "name": "전당업자의 날",
-    "category": "general",
+    "category": "career",
     "tags": [
-      "전세계",
-      "역사",
-      "직업"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "오랜 역사를 가진 직업인 전당업자들을 기리는 날이다.",
@@ -631,12 +564,9 @@
     "date": "12-06",
     "dateType": "annual-fixed",
     "name": "전자레인지의 날",
-    "category": "general",
+    "category": "academic",
     "tags": [
-      "전세계",
-      "주방",
-      "발명",
-      "역사"
+      "학술 & 기술"
     ],
     "storytelling": {
       "origin": "현대 주방의 필수품, 전자레인지의 발명을 기념하는 날이다.",
@@ -656,11 +586,9 @@
     "date": "12-07",
     "dateType": "annual-fixed",
     "name": "국제 민간항공의 날 (International Civil Aviation Day)",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "항공",
-      "UN"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "1944년 국제민간항공기구(ICAO) 설립을 기념해 UN이 지정한 국제 기념일이다.",
@@ -680,12 +608,9 @@
     "date": "12-07",
     "dateType": "annual-fixed",
     "name": "솜사탕의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "간식",
-      "축제"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "설탕을 실처럼 뽑아 만드는 솜사탕을 기념하는 날이다.",
@@ -705,12 +630,9 @@
     "date": "12-07",
     "dateType": "annual-fixed",
     "name": "진주만 추모의 날",
-    "category": "commemorative",
+    "category": "history",
     "tags": [
-      "전세계",
-      "역사",
-      "제2차세계대전",
-      "추모"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "1941년 12월 7일 일본의 진주만 기습으로 희생된 이들을 추모하는 날이다.",
@@ -730,12 +652,9 @@
     "date": "12-08",
     "dateType": "annual-fixed",
     "name": "브라우니의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "초콜릿"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "진한 초콜릿 풍미의 사각 디저트, 브라우니를 기념하는 날이다.",
@@ -757,10 +676,7 @@
     "name": "타임트래블러인 척하는 날",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "유머",
-      "SF",
-      "이색기념일"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "마치 시간여행자인 척하며 하루를 보내보자는 장난스러운 기념일이다.",
@@ -780,12 +696,9 @@
     "date": "12-09",
     "dateType": "annual-fixed",
     "name": "국제 반부패의 날 (International Anti-Corruption Day)",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "UN",
-      "사회",
-      "인식개선"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "2003년 UN 반부패협약 채택을 기념해 지정된 국제 기념일로, 부패 없는 투명한 사회를 만들기 위한 인식을 높인다.",
@@ -805,12 +718,9 @@
     "date": "12-09",
     "dateType": "annual-fixed",
     "name": "페이스트리의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "베이킹"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "겹겹이 layer를 쌓아 만드는 페이스트리류 디저트를 기념하는 날이다.",
@@ -830,12 +740,9 @@
     "date": "12-10",
     "dateType": "annual-fixed",
     "name": "노벨상의 날",
-    "category": "general",
+    "category": "academic",
     "tags": [
-      "전세계",
-      "과학",
-      "문화",
-      "역사"
+      "학술 & 기술"
     ],
     "storytelling": {
       "origin": "알프레드 노벨의 기일에 맞춰 매년 스톡홀름과 오슬로에서 노벨상 시상식이 열리는 날이다.",
@@ -855,12 +762,9 @@
     "date": "12-10",
     "dateType": "annual-fixed",
     "name": "듀이 십진분류법의 날",
-    "category": "general",
+    "category": "history",
     "tags": [
-      "전세계",
-      "도서관",
-      "역사",
-      "교육"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "전 세계 도서관에서 책을 분류하는 듀이 십진분류법을 고안한 멜빌 듀이의 생일을 기념하는 날이다.",
@@ -880,12 +784,9 @@
     "date": "12-10",
     "dateType": "annual-fixed",
     "name": "세계 인권의 날 (Human Rights Day)",
-    "category": "international",
+    "category": "history",
     "tags": [
-      "전세계",
-      "인권",
-      "UN",
-      "역사"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "1948년 UN이 세계인권선언을 채택한 날을 기념해 지정된 국제 기념일로, 모든 인간이 누려야 할 기본적 권리를 되새긴다.",
@@ -905,11 +806,9 @@
     "date": "12-11",
     "dateType": "annual-fixed",
     "name": "누들 링의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "파스타"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "고리 모양으로 틀에 넣어 굽는 누들 캐서롤 요리를 기념하는 날이다.",
@@ -929,12 +828,9 @@
     "date": "12-11",
     "dateType": "annual-fixed",
     "name": "세계 산의 날 (International Mountain Day)",
-    "category": "international",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "자연",
-      "환경",
-      "UN"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "2003년 UN이 지정한 국제 기념일로, 산이 인류와 생태계에 미치는 중요성을 알리기 위해 기념한다.",
@@ -954,12 +850,9 @@
     "date": "12-11",
     "dateType": "annual-fixed",
     "name": "유니세프 창립일",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "아동",
-      "UN",
-      "나눔"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "1946년 제2차 세계대전으로 고통받는 아동을 돕기 위해 설립된 유니세프(UNICEF)의 창립을 기념하는 날이다.",
@@ -979,12 +872,9 @@
     "date": "12-12",
     "dateType": "annual-fixed",
     "name": "딩어링의 날",
-    "category": "quirky",
+    "category": "culture",
     "tags": [
-      "전세계",
-      "유머",
-      "음악",
-      "이색기념일"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "방울 소리처럼 경쾌한 것들을 기념하며 즐겁게 보내자는 가벼운 기념일이다.",
@@ -1004,12 +894,9 @@
     "date": "12-12",
     "dateType": "annual-fixed",
     "name": "미국 참전용사 리스 헌화의 날",
-    "category": "commemorative",
+    "category": "career",
     "tags": [
-      "전세계",
-      "추모",
-      "역사",
-      "군인"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "연말에 참전용사들의 묘소에 리스를 놓아 그들의 희생을 기리는 추모 행사 기념일이다.",
@@ -1029,12 +916,9 @@
     "date": "12-12",
     "dateType": "annual-fixed",
     "name": "생강과자집의 날 (Gingerbread House Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "크리스마스",
-      "베이킹",
-      "전통"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "생강과자로 집 모양을 만들어 장식하는 크리스마스 전통을 기념하는 날이다.",
@@ -1054,12 +938,9 @@
     "date": "12-12",
     "dateType": "annual-fixed",
     "name": "세계 셰어웨어의 날 (International Shareware Day)",
-    "category": "international",
+    "category": "academic",
     "tags": [
-      "전세계",
-      "IT",
-      "역사",
-      "소프트웨어"
+      "학술 & 기술"
     ],
     "storytelling": {
       "origin": "누구나 자유롭게 써보고 마음에 들면 구매하는 셰어웨어 소프트웨어 문화를 기념하는 날이다.",
@@ -1079,12 +960,9 @@
     "date": "12-12",
     "dateType": "annual-fixed",
     "name": "암브로시아의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "과일"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "과일과 마시멜로, 코코넛 등을 섞어 만드는 디저트 샐러드, 암브로시아를 기념하는 날이다.",
@@ -1104,12 +982,9 @@
     "date": "12-12",
     "dateType": "annual-fixed",
     "name": "포인세티아의 날 (Poinsettia Day)",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "크리스마스",
-      "식물",
-      "전통"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "빨갛고 푸른 잎이 크리스마스 분위기를 더해주는 식물, 포인세티아를 기념하는 날이다.",
@@ -1129,12 +1004,9 @@
     "date": "12-13",
     "dateType": "annual-fixed",
     "name": "말의 날 (National Day Of The Horse)",
-    "category": "general",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "동물",
-      "역사",
-      "문화"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "인류 역사와 오랫동안 함께해온 동물, 말을 기리는 날이다.",
@@ -1154,11 +1026,9 @@
     "date": "12-13",
     "dateType": "annual-fixed",
     "name": "바이올린의 날",
-    "category": "general",
+    "category": "culture",
     "tags": [
-      "전세계",
-      "음악",
-      "악기"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "오케스트라의 중심을 이루는 악기, 바이올린을 기념하는 날이다.",
@@ -1178,12 +1048,9 @@
     "date": "12-13",
     "dateType": "annual-fixed",
     "name": "병리학자와 친구되는 날",
-    "category": "quirky",
+    "category": "career",
     "tags": [
-      "전세계",
-      "의료",
-      "유머",
-      "직업"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "현미경 너머에서 질병의 원인을 밝혀내는 병리학자들의 노고를 기리는 유쾌한 기념일이다.",
@@ -1203,11 +1070,9 @@
     "date": "12-13",
     "dateType": "annual-fixed",
     "name": "세계 촛불 추모의 날 (Worldwide Candle Lighting Day)",
-    "category": "commemorative",
+    "category": "history",
     "tags": [
-      "전세계",
-      "추모",
-      "가족"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "먼저 떠난 아이들을 기억하며 전 세계가 같은 시각 촛불을 켜는 추모 행사 기념일이다.",
@@ -1227,11 +1092,9 @@
     "date": "12-13",
     "dateType": "annual-fixed",
     "name": "세계 합창의 날 (World Choral Day)",
-    "category": "international",
+    "category": "culture",
     "tags": [
-      "전세계",
-      "음악",
-      "합창"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "여러 목소리가 어우러져 만들어내는 합창의 아름다움을 기념하는 국제 기념일이다.",
@@ -1251,12 +1114,9 @@
     "date": "12-13",
     "dateType": "annual-fixed",
     "name": "코코아의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "음료",
-      "겨울"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "따뜻한 코코아 한 잔으로 추위를 녹이는 즐거움을 기념하는 날이다.",
@@ -1276,12 +1136,9 @@
     "date": "12-14",
     "dateType": "annual-fixed",
     "name": "부야베스의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "프랑스",
-      "해산물"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "다양한 해산물을 넣고 끓이는 프랑스식 생선 스튜, 부야베스를 기념하는 날이다.",
@@ -1301,12 +1158,9 @@
     "date": "12-14",
     "dateType": "annual-fixed",
     "name": "원숭이의 날 (Monkey Day)",
-    "category": "general",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "동물",
-      "유머",
-      "이색기념일"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "재치 있고 사회적인 동물, 원숭이를 기념하며 즐겁게 보내는 날이다.",
@@ -1328,11 +1182,7 @@
     "name": "허그데이",
     "category": "quirky",
     "tags": [
-      "대한민국",
-      "비공식기념일",
-      "포틴데이",
-      "포옹",
-      "겨울"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "추운 겨울인 12월 14일, 연인이나 소중한 사람들과 따뜻하게 포옹(Hug)을 나누며 서로의 마음을 전하는 날이다.",
@@ -1352,12 +1202,9 @@
     "date": "12-15",
     "dateType": "annual-fixed",
     "name": "고양이 몰이꾼의 날 (Cat Herders Day)",
-    "category": "quirky",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "유머",
-      "고양이",
-      "이색기념일"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "고양이처럼 제멋대로인 존재나 일을 다루는 어려움을 위로하는 유쾌한 기념일이다.",
@@ -1377,12 +1224,9 @@
     "date": "12-15",
     "dateType": "annual-fixed",
     "name": "권리장전의 날 (Bill of Rights Day)",
-    "category": "commemorative",
+    "category": "history",
     "tags": [
-      "전세계",
-      "역사",
-      "인권",
-      "법"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "1791년 미국 헌법에 기본권을 명시한 수정헌법 10개 조항이 비준된 날을 기념하는 날이다.",
@@ -1402,12 +1246,9 @@
     "date": "12-15",
     "dateType": "annual-fixed",
     "name": "컵케이크의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "베이킹"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "한 손에 들고 먹기 좋은 작은 케이크, 컵케이크를 기념하는 날이다.",
@@ -1427,12 +1268,9 @@
     "date": "12-16",
     "dateType": "annual-fixed",
     "name": "초콜릿 코팅의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "초콜릿"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "딸기든 과자든, 무엇이든 초콜릿으로 입혀 먹어보자는 즐거운 날이다.",
@@ -1452,12 +1290,9 @@
     "date": "12-17",
     "dateType": "annual-fixed",
     "name": "라이트 형제의 날 (Wright Brothers Day)",
-    "category": "commemorative",
+    "category": "academic",
     "tags": [
-      "전세계",
-      "역사",
-      "발명",
-      "항공"
+      "학술 & 기술"
     ],
     "storytelling": {
       "origin": "1903년 12월 17일, 라이트 형제가 인류 최초로 동력 비행에 성공한 날을 기념하는 날이다.",
@@ -1477,12 +1312,9 @@
     "date": "12-17",
     "dateType": "annual-fixed",
     "name": "메이플시럽의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "캐나다",
-      "디저트"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "단풍나무 수액을 끓여 만드는 메이플시럽을 기념하는 날이다.",
@@ -1504,10 +1336,7 @@
     "name": "선물 재활용의 날 (National Re-Gifting Day)",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "유머",
-      "선물",
-      "연말"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "받았지만 쓰지 않는 선물을 다른 사람에게 다시 선물해보자는 가벼운 기념일이다.",
@@ -1527,12 +1356,9 @@
     "date": "12-18",
     "dateType": "annual-fixed",
     "name": "못생긴 크리스마스 스웨터의 날",
-    "category": "general",
+    "category": "culture",
     "tags": [
-      "전세계",
-      "크리스마스",
-      "패션",
-      "유머"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "일부러 화려하고 우스꽝스러운 크리스마스 스웨터를 입고 즐기는 날이다.",
@@ -1554,10 +1380,7 @@
     "name": "무료배송의 날 (Free Shipping Day)",
     "category": "general",
     "tags": [
-      "전세계",
-      "쇼핑",
-      "온라인",
-      "연말"
+      "일반"
     ],
     "storytelling": {
       "origin": "크리스마스 전 마지막으로 제때 배송받을 수 있도록 온라인 쇼핑몰들이 무료배송을 제공하는 쇼핑 시즌 기념일이다.",
@@ -1577,12 +1400,9 @@
     "date": "12-18",
     "dateType": "annual-fixed",
     "name": "버디 더 엘프처럼 전화 받는 날",
-    "category": "quirky",
+    "category": "culture",
     "tags": [
-      "전세계",
-      "영화",
-      "유머",
-      "크리스마스"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "영화 '엘프'의 주인공처럼 \"Buddy the Elf! What's your favorite color?\"라며 익살스럽게 전화를 받아보자는 날이다.",
@@ -1602,12 +1422,9 @@
     "date": "12-18",
     "dateType": "annual-fixed",
     "name": "새끼 통돼지 구이의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "고기",
-      "축제"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "통째로 구워내는 새끼 돼지 요리를 기념하는 날이다.",
@@ -1627,12 +1444,9 @@
     "date": "12-18",
     "dateType": "annual-fixed",
     "name": "세계 이주민의 날 (International Migrants Day)",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "인권",
-      "UN",
-      "이주"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "1990년 UN의 이주노동자 권리 협약 채택을 기념해 지정된 국제 기념일로, 이주민의 권리와 기여를 되새긴다.",
@@ -1652,12 +1466,9 @@
     "date": "12-18",
     "dateType": "annual-fixed",
     "name": "언더독의 날 (Underdog Day)",
-    "category": "quirky",
+    "category": "sports",
     "tags": [
-      "전세계",
-      "응원",
-      "스포츠",
-      "이색기념일"
+      "스포츠 & 레저"
     ],
     "storytelling": {
       "origin": "주목받지 못하지만 끝까지 최선을 다하는 약자, 언더독을 응원하는 날이다.",
@@ -1677,12 +1488,9 @@
     "date": "12-19",
     "dateType": "annual-fixed",
     "name": "오트밀 머핀의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "베이킹",
-      "아침식사"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "든든한 한 끼 대용으로도 좋은 오트밀 머핀을 기념하는 날이다.",
@@ -1702,12 +1510,9 @@
     "date": "12-19",
     "dateType": "annual-fixed",
     "name": "하드캔디의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "사탕",
-      "간식"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "딱딱하게 굳혀 만드는 사탕, 하드캔디를 기념하는 날이다.",
@@ -1727,12 +1532,9 @@
     "date": "12-20",
     "dateType": "annual-fixed",
     "name": "국제 인류 연대의 날 (International Human Solidarity Day)",
-    "category": "international",
+    "category": "campaign",
     "tags": [
-      "전세계",
-      "UN",
-      "연대",
-      "나눔"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "다양성 속에서도 인류가 하나로 연대할 것을 강조하기 위해 UN이 지정한 국제 기념일이다.",
@@ -1752,12 +1554,9 @@
     "date": "12-20",
     "dateType": "annual-fixed",
     "name": "상그리아의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음료",
-      "스페인",
-      "칵테일"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "와인에 과일을 더해 만드는 스페인의 대표 음료, 상그리아를 기념하는 날이다.",
@@ -1777,12 +1576,9 @@
     "date": "12-21",
     "dateType": "annual-fixed",
     "name": "새우튀김의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "해산물",
-      "튀김"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "바삭하게 튀겨낸 새우튀김을 기념하는 날이다.",
@@ -1804,10 +1600,7 @@
     "name": "크로스워드 퍼즐의 날",
     "category": "general",
     "tags": [
-      "전세계",
-      "게임",
-      "퍼즐",
-      "두뇌"
+      "일반"
     ],
     "storytelling": {
       "origin": "가로세로 낱말을 채워가는 크로스워드 퍼즐을 기념하는 날이다.",
@@ -1827,12 +1620,9 @@
     "date": "12-21",
     "dateType": "annual-fixed",
     "name": "필리어스 포그 내기 성공의 날",
-    "category": "anniversary",
+    "category": "culture",
     "tags": [
-      "전세계",
-      "문학",
-      "여행",
-      "이색기념일"
+      "문화 & 예술"
     ],
     "storytelling": {
       "origin": "쥘 베른의 소설 '80일간의 세계일주' 속 주인공 필리어스 포그가 내기에 성공하며 80일간의 여정을 마친 날을 기념한다.",
@@ -1854,10 +1644,7 @@
     "name": "험벅의 날 (Humbug Day)",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "유머",
-      "크리스마스",
-      "이색기념일"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "크리스마스 전, 그동안 쌓인 불만을 \"Humbug!\"라고 외치며 가볍게 털어버리자는 유쾌한 기념일이다.",
@@ -1877,12 +1664,9 @@
     "date": "12-22",
     "dateType": "annual-fixed",
     "name": "노숙인 추모의 날",
-    "category": "commemorative",
+    "category": "history",
     "tags": [
-      "전세계",
-      "사회",
-      "추모",
-      "인식개선"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "일년 중 밤이 가장 긴 동지에 맞춰, 거리에서 세상을 떠난 노숙인들을 추모하는 날이다.",
@@ -1902,12 +1686,9 @@
     "date": "12-22",
     "dateType": "annual-fixed",
     "name": "동지 (Winter Solstice)",
-    "category": "general",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "절기",
-      "자연",
-      "겨울"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "북반구에서 밤이 가장 길고 낮이 가장 짧은 날로, 이날을 기점으로 다시 낮이 길어지기 시작한다.",
@@ -1927,12 +1708,9 @@
     "date": "12-22",
     "dateType": "annual-fixed",
     "name": "동지 아이스 스위밍 챌린지 데이",
-    "category": "extreme",
+    "category": "sports",
     "tags": [
-      "아이스스위밍",
-      "익스트림",
-      "동지",
-      "한겨울챌린지"
+      "스포츠 & 레저"
     ],
     "storytelling": {
       "origin": "북유럽 핀란드·러시아의 'Avantouinti(얼음수영)' 전통에서 유래. 1년 중 밤이 가장 긴 동지에 영하의 호수에 입수해 한 해의 묵은 기운을 씻어낸다는 의미를 지닌다.",
@@ -1952,11 +1730,9 @@
     "date": "12-22",
     "dateType": "annual-fixed",
     "name": "손전등의 날",
-    "category": "general",
+    "category": "academic",
     "tags": [
-      "전세계",
-      "생활용품",
-      "발명"
+      "학술 & 기술"
     ],
     "storytelling": {
       "origin": "어둠을 밝혀주는 필수품, 손전등을 기념하는 날이다.",
@@ -1976,12 +1752,9 @@
     "date": "12-23",
     "dateType": "annual-fixed",
     "name": "뿌리를 찾는 날 (National Roots Day)",
-    "category": "general",
+    "category": "history",
     "tags": [
-      "전세계",
-      "가족",
-      "역사",
-      "뿌리"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "연말 가족이 모이는 시기, 자신의 가족사와 뿌리를 찾아보자는 취지의 날이다.",
@@ -2001,12 +1774,9 @@
     "date": "12-23",
     "dateType": "annual-fixed",
     "name": "페스티버스 (Festivus)",
-    "category": "anniversary",
+    "category": "food",
     "tags": [
-      "전세계",
-      "팝컬처",
-      "유머",
-      "크리스마스"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "미국 시트콤 '사인필드'에서 등장한 가상의 명절로, 상업화된 연말 분위기에 대한 풍자에서 비롯됐다.",
@@ -2026,12 +1796,9 @@
     "date": "12-23",
     "dateType": "annual-fixed",
     "name": "페퍼누스의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "크리스마스"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "후추와 향신료가 들어간 독일식 쿠키, 페퍼누스를 기념하는 날이다.",
@@ -2051,12 +1818,9 @@
     "date": "12-24",
     "dateType": "annual-fixed",
     "name": "에그노그의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음료",
-      "크리스마스",
-      "전통"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "달콤하고 진한 계란 음료, 에그노그를 기념하는 날이다.",
@@ -2078,10 +1842,7 @@
     "name": "크리스마스 이브 (Christmas Eve)",
     "category": "general",
     "tags": [
-      "전세계",
-      "크리스마스",
-      "가족",
-      "축제"
+      "일반"
     ],
     "storytelling": {
       "origin": "크리스마스 전날 밤, 가족이나 사랑하는 사람들과 함께 한 해의 마지막 큰 명절을 준비하며 보내는 날이다.",
@@ -2103,12 +1864,7 @@
     "name": "크리스마스 (기독교탄신일)",
     "category": "holiday",
     "tags": [
-      "글로벌",
-      "대한민국",
-      "법정공휴일",
-      "종교",
-      "예수",
-      "산타클로스"
+      "공휴일"
     ],
     "storytelling": {
       "origin": "기독교에서 예수 그리스도의 탄생을 기념하는 날로, 성탄절이라고도 부른다. 전 세계적으로 기념하는 주요 명절 중 하나다.",
@@ -2128,12 +1884,9 @@
     "date": "12-26",
     "dateType": "annual-fixed",
     "name": "감사 카드의 날 (National Thank-you Note Day)",
-    "category": "general",
+    "category": "career",
     "tags": [
-      "전세계",
-      "감사",
-      "편지",
-      "연말"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "크리스마스에 받은 선물과 마음에 감사 카드로 답례해보자는 취지의 날이다.",
@@ -2155,10 +1908,7 @@
     "name": "박싱데이 (Boxing Day)",
     "category": "general",
     "tags": [
-      "전세계",
-      "쇼핑",
-      "전통",
-      "영연방"
+      "일반"
     ],
     "storytelling": {
       "origin": "영국과 캐나다, 호주 등 영연방 국가에서 크리스마스 다음 날을 기념하는 공휴일로, 대규모 할인 쇼핑 시즌으로도 잘 알려져 있다.",
@@ -2180,9 +1930,7 @@
     "name": "불평쟁이의 날 (National Whiner's Day)",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "유머",
-      "이색기념일"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "하루쯥은 마음껏 투덜거려도 괜찮다는, 위로 섞인 유쾌한 기념일이다.",
@@ -2204,10 +1952,7 @@
     "name": "캔디케인의 날",
     "category": "general",
     "tags": [
-      "전세계",
-      "크리스마스",
-      "사탕",
-      "전통"
+      "일반"
     ],
     "storytelling": {
       "origin": "지팡이 모양의 빨갛고 하얀 줄무늬 사탕, 캔디케인을 기념하는 날이다.",
@@ -2227,11 +1972,9 @@
     "date": "12-27",
     "dateType": "annual-fixed",
     "name": "원자력 안전 및 진흥의 날",
-    "category": "anniversary",
+    "category": "general",
     "tags": [
-      "대한민국",
-      "법정기념일",
-      "정부"
+      "일반"
     ],
     "storytelling": {
       "origin": "주관 부처: 과학기술정보통신부, 기후에너지환경부, 원자력안전위원회. 원자력 안전의 중요성을 널리 알리고, 원자력 산업의 진흥을 촉진하는 행사를 한다. '원자력의 날'로 줄여서 사용할 수 있다. [cite: 58, 60]",
@@ -2245,12 +1988,9 @@
     "date": "12-27",
     "dateType": "annual-fixed",
     "name": "프루트케이크의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "크리스마스"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "건과일과 견과류가 듬뿍 들어간 묵직한 케이크, 프루트케이크를 기념하는 날이다.",
@@ -2270,12 +2010,9 @@
     "date": "12-28",
     "dateType": "annual-fixed",
     "name": "성 인노첸시오 축일 (Holy Innocents Day)",
-    "category": "commemorative",
+    "category": "history",
     "tags": [
-      "전세계",
-      "종교",
-      "역사",
-      "유럽"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "예수의 탄생을 두려워한 헤롯왕에 의해 희생된 아이들을 기리는 기독교 전통 축일이다.",
@@ -2295,12 +2032,9 @@
     "date": "12-28",
     "dateType": "annual-fixed",
     "name": "초콜릿 캔디의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "디저트",
-      "초콜릿"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "한입 크기로 즐기는 다양한 초콜릿 캔디를 기념하는 날이다.",
@@ -2322,10 +2056,7 @@
     "name": "카드놀이의 날",
     "category": "general",
     "tags": [
-      "전세계",
-      "게임",
-      "놀이",
-      "가족"
+      "일반"
     ],
     "storytelling": {
       "origin": "트럼프 카드로 즐기는 다양한 카드놀이를 기념하는 날이다.",
@@ -2345,12 +2076,9 @@
     "date": "12-29",
     "dateType": "annual-fixed",
     "name": "틱톡데이 (Tick Tock Day)",
-    "category": "general",
+    "category": "quirky",
     "tags": [
-      "전세계",
-      "연말",
-      "계획",
-      "이색기념일"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "한 해가 끝나가는 시계 소리를 들으며, 미처 끝내지 못한 일들을 마무리해보자는 취지의 날이다.",
@@ -2370,12 +2098,9 @@
     "date": "12-29",
     "dateType": "annual-fixed",
     "name": "페퍼팟의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "수프",
-      "역사"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "매콤한 향신료가 들어간 스튜, 페퍼팟을 기념하는 날이다.",
@@ -2395,12 +2120,9 @@
     "date": "12-30",
     "dateType": "annual-fixed",
     "name": "베이컨의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음식",
-      "고기",
-      "아침식사"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "바삭하게 구운 베이컨의 풍미를 기념하는 날이다.",
@@ -2420,12 +2142,9 @@
     "date": "12-30",
     "dateType": "annual-fixed",
     "name": "베이킹소다의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "생활용품",
-      "베이킹",
-      "과학"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "베이킹부터 청소까지 다재다능하게 쓰이는 베이킹소다를 기념하는 날이다.",
@@ -2447,10 +2166,7 @@
     "name": "크리스마스트리 잎 떨어지는 날",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "크리스마스",
-      "유머",
-      "이색기념일"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "연말 즈음 메말라가는 크리스마스트리의 잎이 우수수 떨어지는 모습을 가볍게 농담 삼아 기념하는 날이다.",
@@ -2472,10 +2188,7 @@
     "name": "결정을 내리는 날 (Make Up Your Mind Day)",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "유머",
-      "연말",
-      "결심"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "한 해가 끝나기 전, 미뤄왔던 결정들을 마무리해보자는 가벼운 기념일이다.",
@@ -2497,10 +2210,7 @@
     "name": "방해받지 않는 날 (No Interruptions Day)",
     "category": "quirky",
     "tags": [
-      "전세계",
-      "휴식",
-      "유머",
-      "이색기념일"
+      "이색 & 유머"
     ],
     "storytelling": {
       "origin": "연말 정리에 집중할 수 있도록, 하루쯥은 방해받지 않고 조용히 보내보자는 날이다.",
@@ -2520,12 +2230,9 @@
     "date": "12-31",
     "dateType": "annual-fixed",
     "name": "새해 전야 (New Years Eve)",
-    "category": "general",
+    "category": "animal",
     "tags": [
-      "전세계",
-      "연말",
-      "축제",
-      "새해"
+      "동물 & 자연"
     ],
     "storytelling": {
       "origin": "한 해의 마지막 날 밤, 다가올 새해를 맞이하며 전 세계가 함께 축하하는 날이다.",
@@ -2545,12 +2252,9 @@
     "date": "12-31",
     "dateType": "annual-fixed",
     "name": "샴페인의 날",
-    "category": "general",
+    "category": "food",
     "tags": [
-      "전세계",
-      "음료",
-      "축하",
-      "연말"
+      "음식 & 디저트"
     ],
     "storytelling": {
       "origin": "기쁜 순간을 축하할 때 빠지지 않는 샴페인을 기념하는 날이다.",
@@ -2570,12 +2274,9 @@
     "date": "12-31",
     "dateType": "annual-fixed",
     "name": "세계 평화의 시간 (Universal Hour of Peace)",
-    "category": "international",
+    "category": "history",
     "tags": [
-      "전세계",
-      "평화",
-      "연대",
-      "새해"
+      "역사 & 추모"
     ],
     "storytelling": {
       "origin": "한 해의 마지막 시간, 전 세계가 함께 평화를 기원하는 시간을 갖자는 취지의 날이다.",
@@ -2595,12 +2296,9 @@
     "date": "12-31",
     "dateType": "annual-fixed",
     "name": "윤초 조정의 날 (Leap Second Time Adjustment Day)",
-    "category": "general",
+    "category": "academic",
     "tags": [
-      "전세계",
-      "과학",
-      "시간",
-      "이색기념일"
+      "학술 & 기술"
     ],
     "storytelling": {
       "origin": "지구 자전 속도의 미세한 변화를 보정하기 위해 전 세계 표준시에 1초를 더하거나 빼는 윤초를 기념하는 날이다.",
