@@ -3,21 +3,6 @@ import { useAnniversariesStore } from '@/stores/anniversaries'
 import { buildCalendar } from '@/utils/ics'
 import { SITE_URL } from '@/seo/head'
 
-// categories.json 에 없는(레지스트리 누락) 카테고리용 한글 라벨 폴백.
-// 데이터에는 존재하지만 카테고리 정의가 빠진 항목들을 사용자에게 노출하기 위함.
-const FALLBACK_LABELS: Record<string, string> = {
-  general: '일반',
-  romance: '연애',
-  holiday: '공휴일',
-  motorsport: '모터스포츠',
-  extreme: '익스트림',
-  brand: '브랜드 데이',
-  commemorative: '기념·추모',
-  anniversary: '기념일',
-  international: '세계·해외',
-  quirky: '이색·엉뚱',
-}
-
 export interface CategoryOption {
   id: string
   label: string
@@ -29,23 +14,20 @@ export function useCalendarExport() {
   const store = useAnniversariesStore()
   onMounted(() => store.load())
 
-  // 데이터에 실제 존재하는 카테고리만 건수와 함께 노출(건수 내림차순).
+  // categories.json 순서를 유지하면서 실제 데이터가 있는 카테고리만 노출.
   const categoryOptions = computed<CategoryOption[]>(() => {
     const counts = new Map<string, number>()
     for (const a of store.items) {
       counts.set(a.category, (counts.get(a.category) ?? 0) + 1)
     }
-    return [...counts.entries()]
-      .map(([id, count]) => {
-        const fromJson = store.categories.find((c) => c.id === id)
-        return {
-          id,
-          label: fromJson?.label ?? FALLBACK_LABELS[id] ?? id,
-          emoji: fromJson?.emoji ?? '',
-          count,
-        }
-      })
-      .sort((a, b) => b.count - a.count)
+    return store.categories
+      .filter((c) => counts.has(c.id))
+      .map((c) => ({
+        id: c.id,
+        label: c.label,
+        emoji: c.emoji,
+        count: counts.get(c.id) ?? 0,
+      }))
   })
 
   // 선택된 카테고리 id 집합. 첫 로드 시 전체 선택.

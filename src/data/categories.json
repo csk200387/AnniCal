@@ -2,16 +2,9 @@
   {
     "id": "general",
     "label": "일반",
-    "description": "전 세계가 함께 챙기는 보편 기념일",
+    "description": "기타 분류하기 어려운 일상 기념일",
     "emoji": "📅",
     "colorToken": "neutral"
-  },
-  {
-    "id": "romance",
-    "label": "연애",
-    "description": "연인·기념일·로맨틱한 날들",
-    "emoji": "💌",
-    "colorToken": "rose"
   },
   {
     "id": "holiday",
@@ -21,24 +14,80 @@
     "colorToken": "red"
   },
   {
-    "id": "motorsport",
-    "label": "모터스포츠",
-    "description": "F1·WRC 등 글로벌 레이싱 일정",
-    "emoji": "🏁",
-    "colorToken": "amber"
+    "id": "romance",
+    "label": "연애 & 기념일",
+    "description": "연인·기념일·로맨틱한 날들",
+    "emoji": "💌",
+    "colorToken": "rose"
   },
   {
-    "id": "extreme",
-    "label": "익스트림",
-    "description": "클라이밍·아이스 스위밍 등 극한 액티비티",
-    "emoji": "🧗",
-    "colorToken": "sky"
+    "id": "food",
+    "label": "음식 & 디저트",
+    "description": "음식, 디저트, 음료 등 먹거리에 관련된 날",
+    "emoji": "🍕",
+    "colorToken": "orange"
+  },
+  {
+    "id": "animal",
+    "label": "동물 & 자연",
+    "description": "반려동물, 야생동물, 환경, 자연 보호의 날",
+    "emoji": "🐾",
+    "colorToken": "emerald"
+  },
+  {
+    "id": "culture",
+    "label": "문화 & 예술",
+    "description": "문학, 영화, 음악, 미술, 팝컬처 등 문화예술의 날",
+    "emoji": "🎨",
+    "colorToken": "purple"
+  },
+  {
+    "id": "academic",
+    "label": "학술 & 기술",
+    "description": "수학, 과학, IT, 프로그래밍, 발명, 우주와 관련된 날",
+    "emoji": "🔬",
+    "colorToken": "blue"
+  },
+  {
+    "id": "sports",
+    "label": "스포츠 & 레저",
+    "description": "글로벌 스포츠 일정, 모터스포츠, 익스트림 액티비티",
+    "emoji": "🏆",
+    "colorToken": "indigo"
   },
   {
     "id": "brand",
     "label": "브랜드 데이",
-    "description": "맥도날드 데이, 스타벅스 데이 등",
+    "description": "맥도날드 데이, 스타벅스 데이 등 브랜드 관련 이벤트",
     "emoji": "🍔",
     "colorToken": "yellow"
+  },
+  {
+    "id": "career",
+    "label": "직업 & 감사",
+    "description": "특정 직업군에 감사하거나 격려하는 날",
+    "emoji": "💼",
+    "colorToken": "teal"
+  },
+  {
+    "id": "history",
+    "label": "역사 & 추모",
+    "description": "역사적 사건, 인물 추모 등 역사적 의의를 되새기는 날",
+    "emoji": "📜",
+    "colorToken": "stone"
+  },
+  {
+    "id": "campaign",
+    "label": "국제 캠페인 & 보건",
+    "description": "UN 국제 기념일, 보건, 인권, 인식개선 캠페인의 날",
+    "emoji": "🌍",
+    "colorToken": "sky"
+  },
+  {
+    "id": "quirky",
+    "label": "이색 & 유머",
+    "description": "유머, 이색기념일, 재치 있는 드립이나 말장난으로 이루어진 날",
+    "emoji": "🤪",
+    "colorToken": "pink"
   }
 ]

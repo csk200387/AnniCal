@@ -6,9 +6,16 @@ export type CategoryId =
   | 'general'
   | 'romance'
   | 'holiday'
-  | 'motorsport'
-  | 'extreme'
   | 'brand'
+  | 'food'
+  | 'animal'
+  | 'culture'
+  | 'academic'
+  | 'sports'
+  | 'career'
+  | 'history'
+  | 'campaign'
+  | 'quirky'
 
 export interface Category {
   id: CategoryId
