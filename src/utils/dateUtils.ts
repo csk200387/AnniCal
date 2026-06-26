@@ -1,5 +1,6 @@
 import dayjs from 'dayjs'
-import type { Anniversary } from '@/types/anniversary'
+// 서버리스 함수(Node ESM)에서도 컴파일되도록 상대경로 타입 import 사용.
+import type { Anniversary } from '../types/anniversary.js'
 
 const DOW_MAP: Record<string, number> = {
   SUN: 0, MON: 1, TUE: 2, WED: 3, THU: 4, FRI: 5, SAT: 6,

@@ -2,8 +2,9 @@
 // 함께 쓰는 isomorphic 모듈. Vite(@/ alias)와 Vercel 함수(esbuild) 양쪽에서 번들되도록
 // 런타임 import 는 상대경로만 사용하고, 타입은 import type 으로만 들여온다.
 import dayjs from 'dayjs'
-import { resolveOccurrence } from './dateUtils'
-import type { Anniversary } from '@/types/anniversary'
+// Node ESM(서버리스 함수)과 Vite 양쪽에서 동작하도록 상대경로 + .js 확장자 사용.
+import { resolveOccurrence } from './dateUtils.js'
+import type { Anniversary } from '../types/anniversary.js'
 
 const DOW_TO_ICS: Record<string, string> = {
   SUN: 'SU', MON: 'MO', TUE: 'TU', WED: 'WE', THU: 'TH', FRI: 'FR', SAT: 'SA',

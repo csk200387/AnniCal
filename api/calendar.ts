@@ -5,9 +5,11 @@
 // 예) webcal://annical.vercel.app/api/calendar
 //     webcal://annical.vercel.app/api/calendar?categories=general,holiday
 import type { IncomingMessage, ServerResponse } from 'node:http'
-import { allAnniversaries } from '../src/data/anniversaries/all'
-import { registerAnchors } from '../src/utils/dateUtils'
-import { buildCalendar } from '../src/utils/ics'
+// Vercel 은 이 함수를 Node ESM(type:module)으로 실행하므로 상대 import 에
+// 명시적 .js 확장자가 필요하다(없으면 런타임 ERR_MODULE_NOT_FOUND → 500).
+import { allAnniversaries } from '../src/data/anniversaries/all.js'
+import { registerAnchors } from '../src/utils/dateUtils.js'
+import { buildCalendar } from '../src/utils/ics.js'
 
 export default function handler(req: IncomingMessage, res: ServerResponse): void {
   // annual-relative-to-holiday 해석을 위해 전체 목록으로 anchor 맵 등록.
