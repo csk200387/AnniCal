@@ -1,0 +1,5226 @@
+{
+  "anv-2026-05-24-monaco-gp": {
+    "slug": "monaco-grand-prix",
+    "urlDate": "05-24"
+  },
+  "anv-fixed-01-01-new-year-kr": {
+    "slug": "new-year",
+    "urlDate": "01-01"
+  },
+  "anv-fixed-01-02-buffet-day-us": {
+    "slug": "buffet-day",
+    "urlDate": "01-02"
+  },
+  "anv-fixed-01-02-cream-puff-day-us": {
+    "slug": "cream-puff-day",
+    "urlDate": "01-02"
+  },
+  "anv-fixed-01-02-personal-trainer-awareness-day-us": {
+    "slug": "personal-trainer-awareness-day",
+    "urlDate": "01-02"
+  },
+  "anv-fixed-01-02-science-fiction-day-global": {
+    "slug": "science-fiction-day",
+    "urlDate": "01-02"
+  },
+  "anv-fixed-01-03-chocolate-covered-cherry-day-us": {
+    "slug": "chocolate-covered-cherry-day",
+    "urlDate": "01-03"
+  },
+  "anv-fixed-01-03-drinking-straw-day-global": {
+    "slug": "drinking-straw-day",
+    "urlDate": "01-03"
+  },
+  "anv-fixed-01-03-fruitcake-toss-day-us": {
+    "slug": "fruitcake-toss-day",
+    "urlDate": "01-03"
+  },
+  "anv-fixed-01-04-spaghetti-day-global": {
+    "slug": "spaghetti-day",
+    "urlDate": "01-04"
+  },
+  "anv-fixed-01-04-thank-god-its-monday-day-us": {
+    "slug": "thank-god-its-monday-day",
+    "urlDate": "01-04"
+  },
+  "anv-fixed-01-04-trivia-day-us": {
+    "slug": "trivia-day",
+    "urlDate": "01-04"
+  },
+  "anv-fixed-01-05-bird-day-global": {
+    "slug": "bird-day",
+    "urlDate": "01-05"
+  },
+  "anv-fixed-01-05-whipped-cream-day-us": {
+    "slug": "whipped-cream-day",
+    "urlDate": "01-05"
+  },
+  "anv-fixed-01-06-bean-day-us": {
+    "slug": "bean-day",
+    "urlDate": "01-06"
+  },
+  "anv-fixed-01-06-shortbread-day-global": {
+    "slug": "shortbread-day",
+    "urlDate": "01-06"
+  },
+  "anv-fixed-01-07-bobblehead-day-us": {
+    "slug": "bobblehead-day",
+    "urlDate": "01-07"
+  },
+  "anv-fixed-01-07-tempura-day-global": {
+    "slug": "tempura-day",
+    "urlDate": "01-07"
+  },
+  "anv-fixed-01-08-argyle-day-us": {
+    "slug": "argyle-day",
+    "urlDate": "01-08"
+  },
+  "anv-fixed-01-08-bubble-bath-day-global": {
+    "slug": "bubble-bath-day",
+    "urlDate": "01-08"
+  },
+  "anv-fixed-01-08-english-toffee-day-us": {
+    "slug": "english-toffee-day",
+    "urlDate": "01-08"
+  },
+  "anv-fixed-01-08-joygerm-day-us": {
+    "slug": "joygerm-day",
+    "urlDate": "01-08"
+  },
+  "anv-fixed-01-09-apricot-day-global": {
+    "slug": "apricot-day",
+    "urlDate": "01-09"
+  },
+  "anv-fixed-01-09-static-electricity-day-us": {
+    "slug": "static-electricity-day",
+    "urlDate": "01-09"
+  },
+  "anv-fixed-01-09-vision-board-day-us": {
+    "slug": "vision-board-day",
+    "urlDate": "01-09"
+  },
+  "anv-fixed-01-10-bittersweet-chocolate-day-us": {
+    "slug": "bittersweet-chocolate-day",
+    "urlDate": "01-10"
+  },
+  "anv-fixed-01-10-cut-your-energy-costs-day-us": {
+    "slug": "cut-your-energy-costs-day",
+    "urlDate": "01-10"
+  },
+  "anv-fixed-01-10-save-the-eagles-day-global": {
+    "slug": "save-the-eagles-day",
+    "urlDate": "01-10"
+  },
+  "anv-fixed-01-11-clean-off-your-desk-day-us": {
+    "slug": "clean-off-your-desk-day",
+    "urlDate": "01-11"
+  },
+  "anv-fixed-01-11-human-trafficking-awareness-day-us": {
+    "slug": "human-trafficking-awareness-day",
+    "urlDate": "01-11"
+  },
+  "anv-fixed-01-11-milk-day-global": {
+    "slug": "milk-day",
+    "urlDate": "01-11"
+  },
+  "anv-fixed-01-11-step-in-a-puddle-day-us": {
+    "slug": "step-in-a-puddle-day",
+    "urlDate": "01-11"
+  },
+  "anv-fixed-01-12-curried-chicken-day-us": {
+    "slug": "curried-chicken-day",
+    "urlDate": "01-12"
+  },
+  "anv-fixed-01-12-marzipan-day-us": {
+    "slug": "marzipan-day",
+    "urlDate": "01-12"
+  },
+  "anv-fixed-01-12-pharmacist-day-global": {
+    "slug": "pharmacist-day",
+    "urlDate": "01-12"
+  },
+  "anv-fixed-01-13-peach-melba-day-us": {
+    "slug": "peach-melba-day",
+    "urlDate": "01-13"
+  },
+  "anv-fixed-01-13-rubber-ducky-day-global": {
+    "slug": "rubber-ducky-day",
+    "urlDate": "01-13"
+  },
+  "anv-fixed-01-14-diary-day-kr": {
+    "slug": "diary-day",
+    "urlDate": "01-14"
+  },
+  "anv-fixed-01-14-dress-up-your-pet-day-global": {
+    "slug": "dress-up-your-pet-day",
+    "urlDate": "01-14"
+  },
+  "anv-fixed-01-14-hot-pastrami-sandwich-day-us": {
+    "slug": "hot-pastrami-sandwich-day",
+    "urlDate": "01-14"
+  },
+  "anv-fixed-01-15-hat-day-global": {
+    "slug": "hat-day",
+    "urlDate": "01-15"
+  },
+  "anv-fixed-01-15-strawberry-ice-cream-day-us": {
+    "slug": "strawberry-ice-cream-day",
+    "urlDate": "01-15"
+  },
+  "anv-fixed-01-16-fig-newton-day-us": {
+    "slug": "fig-newton-day",
+    "urlDate": "01-16"
+  },
+  "anv-fixed-01-16-hot-spicy-food-day-global": {
+    "slug": "hot-spicy-food-day",
+    "urlDate": "01-16"
+  },
+  "anv-fixed-01-16-nothing-day-global": {
+    "slug": "nothing-day",
+    "urlDate": "01-16"
+  },
+  "anv-fixed-01-16-religious-freedom-day-us": {
+    "slug": "religious-freedom-day",
+    "urlDate": "01-16"
+  },
+  "anv-fixed-01-17-bootleggers-day-us": {
+    "slug": "bootleggers-day",
+    "urlDate": "01-17"
+  },
+  "anv-fixed-01-17-hot-buttered-rum-day-global": {
+    "slug": "hot-buttered-rum-day",
+    "urlDate": "01-17"
+  },
+  "anv-fixed-01-18-peking-duck-day-global": {
+    "slug": "peking-duck-day",
+    "urlDate": "01-18"
+  },
+  "anv-fixed-01-18-winnie-the-pooh-day-global": {
+    "slug": "winnie-the-pooh-day",
+    "urlDate": "01-18"
+  },
+  "anv-fixed-01-19-popcorn-day-global": {
+    "slug": "popcorn-day",
+    "urlDate": "01-19"
+  },
+  "anv-fixed-01-20-buttercrunch-day-us": {
+    "slug": "buttercrunch-day",
+    "urlDate": "01-20"
+  },
+  "anv-fixed-01-20-cheese-lovers-day-global": {
+    "slug": "cheese-lovers-day",
+    "urlDate": "01-20"
+  },
+  "anv-fixed-01-20-disc-jockey-day-global": {
+    "slug": "disc-jockey-day",
+    "urlDate": "01-20"
+  },
+  "anv-fixed-01-21-granola-bar-day-us": {
+    "slug": "granola-bar-day",
+    "urlDate": "01-21"
+  },
+  "anv-fixed-01-21-hugging-day-global": {
+    "slug": "hugging-day",
+    "urlDate": "01-21"
+  },
+  "anv-fixed-01-21-squirrel-appreciation-day-global": {
+    "slug": "squirrel-appreciation-day",
+    "urlDate": "01-21"
+  },
+  "anv-fixed-01-22-blonde-brownie-day-us": {
+    "slug": "blonde-brownie-day",
+    "urlDate": "01-22"
+  },
+  "anv-fixed-01-22-celebration-of-life-day-global": {
+    "slug": "celebration-of-life-day",
+    "urlDate": "01-22"
+  },
+  "anv-fixed-01-23-handwriting-day-global": {
+    "slug": "handwriting-day",
+    "urlDate": "01-23"
+  },
+  "anv-fixed-01-23-pie-day-us": {
+    "slug": "pie-day",
+    "urlDate": "01-23"
+  },
+  "anv-fixed-01-24-compliment-day-global": {
+    "slug": "compliment-day",
+    "urlDate": "01-24"
+  },
+  "anv-fixed-01-24-peanut-butter-day-us": {
+    "slug": "peanut-butter-day",
+    "urlDate": "01-24"
+  },
+  "anv-fixed-01-25-irish-coffee-day-global": {
+    "slug": "irish-coffee-day",
+    "urlDate": "01-25"
+  },
+  "anv-fixed-01-25-opposite-day-global": {
+    "slug": "opposite-day",
+    "urlDate": "01-25"
+  },
+  "anv-fixed-01-26-ellen-degeneres-day-us": {
+    "slug": "ellen-degeneres-day",
+    "urlDate": "01-26"
+  },
+  "anv-fixed-01-26-peanut-brittle-day-us": {
+    "slug": "peanut-brittle-day",
+    "urlDate": "01-26"
+  },
+  "anv-fixed-01-26-spouses-day-global": {
+    "slug": "spouses-day",
+    "urlDate": "01-26"
+  },
+  "anv-fixed-01-27-chocolate-cake-day-global": {
+    "slug": "chocolate-cake-day",
+    "urlDate": "01-27"
+  },
+  "anv-fixed-01-28-blueberry-pancake-day-global": {
+    "slug": "blueberry-pancake-day",
+    "urlDate": "01-28"
+  },
+  "anv-fixed-01-28-have-fun-at-work-day-us": {
+    "slug": "have-fun-at-work-day",
+    "urlDate": "01-28"
+  },
+  "anv-fixed-01-28-kazoo-day-us": {
+    "slug": "kazoo-day",
+    "urlDate": "01-28"
+  },
+  "anv-fixed-01-29-corn-chip-day-us": {
+    "slug": "corn-chip-day",
+    "urlDate": "01-29"
+  },
+  "anv-fixed-01-29-puzzle-day-global": {
+    "slug": "puzzle-day",
+    "urlDate": "01-29"
+  },
+  "anv-fixed-01-30-croissant-day-global": {
+    "slug": "croissant-day",
+    "urlDate": "01-30"
+  },
+  "anv-fixed-01-30-seed-swap-day-global": {
+    "slug": "seed-swap-day",
+    "urlDate": "01-30"
+  },
+  "anv-fixed-01-31-backward-day-us": {
+    "slug": "backward-day",
+    "urlDate": "01-31"
+  },
+  "anv-fixed-01-31-inspire-your-heart-with-art-day-global": {
+    "slug": "inspire-your-heart-with-art-day",
+    "urlDate": "01-31"
+  },
+  "anv-fixed-02-01-baked-alaska-day-us": {
+    "slug": "baked-alaska-day",
+    "urlDate": "02-01"
+  },
+  "anv-fixed-02-01-national-freedom-day-us": {
+    "slug": "national-freedom-day",
+    "urlDate": "02-01"
+  },
+  "anv-fixed-02-01-serpent-day-global": {
+    "slug": "serpent-day",
+    "urlDate": "02-01"
+  },
+  "anv-fixed-02-02-groundhog-day-us": {
+    "slug": "groundhog-day",
+    "urlDate": "02-02"
+  },
+  "anv-fixed-02-02-heavenly-hash-day-us": {
+    "slug": "heavenly-hash-day",
+    "urlDate": "02-02"
+  },
+  "anv-fixed-02-03-carrot-cake-day-us": {
+    "slug": "carrot-cake-day",
+    "urlDate": "02-03"
+  },
+  "anv-fixed-02-03-day-the-music-died-us": {
+    "slug": "day-the-music-died",
+    "urlDate": "02-03"
+  },
+  "anv-fixed-02-04-create-a-vacuum-day-us": {
+    "slug": "create-a-vacuum-day",
+    "urlDate": "02-04"
+  },
+  "anv-fixed-02-04-homemade-soup-day-us": {
+    "slug": "homemade-soup-day",
+    "urlDate": "02-04"
+  },
+  "anv-fixed-02-04-thank-a-mailman-day-us": {
+    "slug": "thank-a-mailman-day",
+    "urlDate": "02-04"
+  },
+  "anv-fixed-02-05-shower-with-a-friend-day-us": {
+    "slug": "shower-with-a-friend-day",
+    "urlDate": "02-05"
+  },
+  "anv-fixed-02-05-weatherpersons-day-us": {
+    "slug": "weatherpersons-day",
+    "urlDate": "02-05"
+  },
+  "anv-fixed-02-06-frozen-yogurt-day-us": {
+    "slug": "frozen-yogurt-day",
+    "urlDate": "02-06"
+  },
+  "anv-fixed-02-06-lame-duck-day-us": {
+    "slug": "lame-duck-day",
+    "urlDate": "02-06"
+  },
+  "anv-fixed-02-07-fettuccine-alfredo-day-global": {
+    "slug": "fettuccine-alfredo-day",
+    "urlDate": "02-07"
+  },
+  "anv-fixed-02-07-send-a-card-to-a-friend-day-us": {
+    "slug": "send-a-card-to-a-friend-day",
+    "urlDate": "02-07"
+  },
+  "anv-fixed-02-08-boy-scouts-day-global": {
+    "slug": "boy-scouts-day",
+    "urlDate": "02-08"
+  },
+  "anv-fixed-02-08-clean-out-your-computer-day-us": {
+    "slug": "clean-out-your-computer-day",
+    "urlDate": "02-08"
+  },
+  "anv-fixed-02-08-kite-flying-day-global": {
+    "slug": "kite-flying-day",
+    "urlDate": "02-08"
+  },
+  "anv-fixed-02-09-bagel-day-us": {
+    "slug": "bagel-day",
+    "urlDate": "02-09"
+  },
+  "anv-fixed-02-09-pizza-day-global": {
+    "slug": "pizza-day",
+    "urlDate": "02-09"
+  },
+  "anv-fixed-02-09-toothache-day-us": {
+    "slug": "toothache-day",
+    "urlDate": "02-09"
+  },
+  "anv-fixed-02-10-cream-cheese-brownie-day-us": {
+    "slug": "cream-cheese-brownie-day",
+    "urlDate": "02-10"
+  },
+  "anv-fixed-02-10-umbrella-day-global": {
+    "slug": "umbrella-day",
+    "urlDate": "02-10"
+  },
+  "anv-fixed-02-11-dont-cry-over-spilled-milk-day-us": {
+    "slug": "dont-cry-over-spilled-milk-day",
+    "urlDate": "02-11"
+  },
+  "anv-fixed-02-11-make-a-friend-day-global": {
+    "slug": "make-a-friend-day",
+    "urlDate": "02-11"
+  },
+  "anv-fixed-02-11-peppermint-patty-day-us": {
+    "slug": "peppermint-patty-day",
+    "urlDate": "02-11"
+  },
+  "anv-fixed-02-11-shut-in-visitation-day-us": {
+    "slug": "shut-in-visitation-day",
+    "urlDate": "02-11"
+  },
+  "anv-fixed-02-11-white-shirt-day-us": {
+    "slug": "white-shirt-day",
+    "urlDate": "02-11"
+  },
+  "anv-fixed-02-12-abraham-lincoln-birthday-us": {
+    "slug": "abraham-lincoln-birthday",
+    "urlDate": "02-12"
+  },
+  "anv-fixed-02-12-plum-pudding-day-us": {
+    "slug": "plum-pudding-day",
+    "urlDate": "02-12"
+  },
+  "anv-fixed-02-13-tortellini-day-it": {
+    "slug": "tortellini-day",
+    "urlDate": "02-13"
+  },
+  "anv-fixed-02-14-cream-filled-chocolates-day-us": {
+    "slug": "cream-filled-chocolates-day",
+    "urlDate": "02-14"
+  },
+  "anv-fixed-02-14-ferris-wheel-day-us": {
+    "slug": "ferris-wheel-day",
+    "urlDate": "02-14"
+  },
+  "anv-fixed-02-14-organ-donor-day-us": {
+    "slug": "organ-donor-day",
+    "urlDate": "02-14"
+  },
+  "anv-fixed-02-14-valentines-day-global": {
+    "slug": "valentines-day",
+    "urlDate": "02-14"
+  },
+  "anv-fixed-02-15-gumdrop-day-us": {
+    "slug": "gumdrop-day",
+    "urlDate": "02-15"
+  },
+  "anv-fixed-02-15-singles-awareness-day-global": {
+    "slug": "singles-awareness-day",
+    "urlDate": "02-15"
+  },
+  "anv-fixed-02-16-almond-day-us": {
+    "slug": "almond-day",
+    "urlDate": "02-16"
+  },
+  "anv-fixed-02-16-do-a-grouch-a-favor-day-us": {
+    "slug": "do-a-grouch-a-favor-day",
+    "urlDate": "02-16"
+  },
+  "anv-fixed-02-17-cabbage-day-us": {
+    "slug": "cabbage-day",
+    "urlDate": "02-17"
+  },
+  "anv-fixed-02-17-random-acts-of-kindness-day-global": {
+    "slug": "random-acts-of-kindness-day",
+    "urlDate": "02-17"
+  },
+  "anv-fixed-02-18-battery-day-global": {
+    "slug": "battery-day",
+    "urlDate": "02-18"
+  },
+  "anv-fixed-02-18-crab-stuffed-flounder-day-us": {
+    "slug": "crab-stuffed-flounder-day",
+    "urlDate": "02-18"
+  },
+  "anv-fixed-02-18-drink-wine-day-global": {
+    "slug": "drink-wine-day",
+    "urlDate": "02-18"
+  },
+  "anv-fixed-02-19-chocolate-mint-day-global": {
+    "slug": "chocolate-mint-day",
+    "urlDate": "02-19"
+  },
+  "anv-fixed-02-20-cherry-pie-day-us": {
+    "slug": "cherry-pie-day",
+    "urlDate": "02-20"
+  },
+  "anv-fixed-02-20-love-your-pet-day-global": {
+    "slug": "love-your-pet-day",
+    "urlDate": "02-20"
+  },
+  "anv-fixed-02-21-sticky-bun-day-us": {
+    "slug": "sticky-bun-day",
+    "urlDate": "02-21"
+  },
+  "anv-fixed-02-22-cook-a-sweet-potato-day-global": {
+    "slug": "cook-a-sweet-potato-day",
+    "urlDate": "02-22"
+  },
+  "anv-fixed-02-22-margarita-day-us": {
+    "slug": "margarita-day",
+    "urlDate": "02-22"
+  },
+  "anv-fixed-02-23-banana-bread-day-us": {
+    "slug": "banana-bread-day",
+    "urlDate": "02-23"
+  },
+  "anv-fixed-02-23-dog-biscuit-day-us": {
+    "slug": "dog-biscuit-day",
+    "urlDate": "02-23"
+  },
+  "anv-fixed-02-24-tortilla-chip-day-us": {
+    "slug": "tortilla-chip-day",
+    "urlDate": "02-24"
+  },
+  "anv-fixed-02-25-chili-day-us": {
+    "slug": "chili-day",
+    "urlDate": "02-25"
+  },
+  "anv-fixed-02-25-chocolate-covered-nut-day-us": {
+    "slug": "chocolate-covered-nut-day",
+    "urlDate": "02-25"
+  },
+  "anv-fixed-02-25-clam-chowder-day-us": {
+    "slug": "clam-chowder-day",
+    "urlDate": "02-25"
+  },
+  "anv-fixed-02-26-pistachio-day-global": {
+    "slug": "pistachio-day",
+    "urlDate": "02-26"
+  },
+  "anv-fixed-02-26-tell-a-fairy-tale-day-global": {
+    "slug": "tell-a-fairy-tale-day",
+    "urlDate": "02-26"
+  },
+  "anv-fixed-02-27-international-polar-bear-day-global": {
+    "slug": "international-polar-bear-day",
+    "urlDate": "02-27"
+  },
+  "anv-fixed-02-27-kahlua-day-us": {
+    "slug": "kahlua-day",
+    "urlDate": "02-27"
+  },
+  "anv-fixed-02-27-strawberry-day-us": {
+    "slug": "strawberry-day",
+    "urlDate": "02-27"
+  },
+  "anv-fixed-02-28-chocolate-souffle-day-us": {
+    "slug": "chocolate-souffle-day",
+    "urlDate": "02-28"
+  },
+  "anv-fixed-02-28-floral-design-day-us": {
+    "slug": "floral-design-day",
+    "urlDate": "02-28"
+  },
+  "anv-fixed-02-28-public-sleeping-day-us": {
+    "slug": "public-sleeping-day",
+    "urlDate": "02-28"
+  },
+  "anv-fixed-02-28-rare-disease-day-global": {
+    "slug": "rare-disease-day",
+    "urlDate": "02-28"
+  },
+  "anv-fixed-02-28-tooth-fairy-day-global": {
+    "slug": "tooth-fairy-day",
+    "urlDate": "02-28"
+  },
+  "anv-fixed-03-01-fruit-compote-day-global": {
+    "slug": "fruit-compote-day",
+    "urlDate": "03-01"
+  },
+  "anv-fixed-03-01-horse-protection-day-global": {
+    "slug": "horse-protection-day",
+    "urlDate": "03-01"
+  },
+  "anv-fixed-03-01-march-1st-movement-day-kr": {
+    "slug": "march-1st-movement-day",
+    "urlDate": "03-01"
+  },
+  "anv-fixed-03-01-peanut-butter-lovers-day-global": {
+    "slug": "peanut-butter-lovers-day",
+    "urlDate": "03-01"
+  },
+  "anv-fixed-03-01-pig-day-global": {
+    "slug": "pig-day",
+    "urlDate": "03-01"
+  },
+  "anv-fixed-03-02-banana-cream-pie-day-global": {
+    "slug": "banana-cream-pie-day",
+    "urlDate": "03-02"
+  },
+  "anv-fixed-03-02-old-stuff-day-global": {
+    "slug": "old-stuff-day",
+    "urlDate": "03-02"
+  },
+  "anv-fixed-03-02-read-across-america-day-us": {
+    "slug": "read-across-america-day",
+    "urlDate": "03-02"
+  },
+  "anv-fixed-03-03-anthem-day-us": {
+    "slug": "anthem-day",
+    "urlDate": "03-03"
+  },
+  "anv-fixed-03-03-cold-cuts-day-global": {
+    "slug": "cold-cuts-day",
+    "urlDate": "03-03"
+  },
+  "anv-fixed-03-03-i-want-you-to-be-happy-day-us": {
+    "slug": "i-want-you-to-be-happy-day",
+    "urlDate": "03-03"
+  },
+  "anv-fixed-03-03-mulled-wine-day-global": {
+    "slug": "mulled-wine-day",
+    "urlDate": "03-03"
+  },
+  "anv-fixed-03-03-pancake-day-global": {
+    "slug": "pancake-day",
+    "urlDate": "03-03"
+  },
+  "anv-fixed-03-03-samgyeopsal-day-kr": {
+    "slug": "samgyeopsal-day",
+    "urlDate": "03-03"
+  },
+  "anv-fixed-03-04-day-of-unplugging-global": {
+    "slug": "day-of-unplugging",
+    "urlDate": "03-04"
+  },
+  "anv-fixed-03-04-employee-appreciation-day-global": {
+    "slug": "employee-appreciation-day",
+    "urlDate": "03-04"
+  },
+  "anv-fixed-03-04-grammar-day-us": {
+    "slug": "grammar-day",
+    "urlDate": "03-04"
+  },
+  "anv-fixed-03-04-hug-a-gi-day-us": {
+    "slug": "hug-a-gi-day",
+    "urlDate": "03-04"
+  },
+  "anv-fixed-03-04-pound-cake-day-global": {
+    "slug": "pound-cake-day",
+    "urlDate": "03-04"
+  },
+  "anv-fixed-03-04-salesperson-day-global": {
+    "slug": "salesperson-day",
+    "urlDate": "03-04"
+  },
+  "anv-fixed-03-05-absinthe-day-global": {
+    "slug": "absinthe-day",
+    "urlDate": "03-05"
+  },
+  "anv-fixed-03-05-cheese-doodle-day-us": {
+    "slug": "cheese-doodle-day",
+    "urlDate": "03-05"
+  },
+  "anv-fixed-03-05-multiple-personality-day-global": {
+    "slug": "multiple-personality-day",
+    "urlDate": "03-05"
+  },
+  "anv-fixed-03-06-dentists-day-global": {
+    "slug": "dentists-day",
+    "urlDate": "03-06"
+  },
+  "anv-fixed-03-06-frozen-food-day-global": {
+    "slug": "frozen-food-day",
+    "urlDate": "03-06"
+  },
+  "anv-fixed-03-06-oreo-cookie-day-us": {
+    "slug": "oreo-cookie-day",
+    "urlDate": "03-06"
+  },
+  "anv-fixed-03-06-white-chocolate-cheesecake-day-global": {
+    "slug": "white-chocolate-cheesecake-day",
+    "urlDate": "03-06"
+  },
+  "anv-fixed-03-07-be-heard-day-global": {
+    "slug": "be-heard-day",
+    "urlDate": "03-07"
+  },
+  "anv-fixed-03-07-cereal-day-us": {
+    "slug": "cereal-day",
+    "urlDate": "03-07"
+  },
+  "anv-fixed-03-07-crown-roast-pork-day-global": {
+    "slug": "crown-roast-pork-day",
+    "urlDate": "03-07"
+  },
+  "anv-fixed-03-08-international-womens-day-global": {
+    "slug": "international-womens-day",
+    "urlDate": "03-08"
+  },
+  "anv-fixed-03-08-peanut-cluster-day-global": {
+    "slug": "peanut-cluster-day",
+    "urlDate": "03-08"
+  },
+  "anv-fixed-03-08-proofreading-day-global": {
+    "slug": "proofreading-day",
+    "urlDate": "03-08"
+  },
+  "anv-fixed-03-09-barbie-day-global": {
+    "slug": "barbie-day",
+    "urlDate": "03-09"
+  },
+  "anv-fixed-03-09-crabmeat-day-global": {
+    "slug": "crabmeat-day",
+    "urlDate": "03-09"
+  },
+  "anv-fixed-03-09-dietitian-nutritionist-day-global": {
+    "slug": "dietitian-nutritionist-day",
+    "urlDate": "03-09"
+  },
+  "anv-fixed-03-09-get-over-it-day-global": {
+    "slug": "get-over-it-day",
+    "urlDate": "03-09"
+  },
+  "anv-fixed-03-09-meatball-day-global": {
+    "slug": "meatball-day",
+    "urlDate": "03-09"
+  },
+  "anv-fixed-03-10-blueberry-popover-day-global": {
+    "slug": "blueberry-popover-day",
+    "urlDate": "03-10"
+  },
+  "anv-fixed-03-10-mario-day-global": {
+    "slug": "mario-day",
+    "urlDate": "03-10"
+  },
+  "anv-fixed-03-10-pack-your-lunch-day-global": {
+    "slug": "pack-your-lunch-day",
+    "urlDate": "03-10"
+  },
+  "anv-fixed-03-10-women-girls-hiv-aids-awareness-day-us": {
+    "slug": "women-girls-hiv-aids-awareness-day",
+    "urlDate": "03-10"
+  },
+  "anv-fixed-03-11-johnny-appleseed-day-us": {
+    "slug": "johnny-appleseed-day",
+    "urlDate": "03-11"
+  },
+  "anv-fixed-03-11-oatmeal-nut-waffles-day-global": {
+    "slug": "oatmeal-nut-waffles-day",
+    "urlDate": "03-11"
+  },
+  "anv-fixed-03-11-worship-of-tools-day-global": {
+    "slug": "worship-of-tools-day",
+    "urlDate": "03-11"
+  },
+  "anv-fixed-03-12-baked-scallops-day-global": {
+    "slug": "baked-scallops-day",
+    "urlDate": "03-12"
+  },
+  "anv-fixed-03-12-girl-scout-day-global": {
+    "slug": "girl-scout-day",
+    "urlDate": "03-12"
+  },
+  "anv-fixed-03-12-plant-a-flower-day-global": {
+    "slug": "plant-a-flower-day",
+    "urlDate": "03-12"
+  },
+  "anv-fixed-03-13-coconut-torte-day-global": {
+    "slug": "coconut-torte-day",
+    "urlDate": "03-13"
+  },
+  "anv-fixed-03-13-earmuff-day-global": {
+    "slug": "earmuff-day",
+    "urlDate": "03-13"
+  },
+  "anv-fixed-03-13-good-samaritan-day-global": {
+    "slug": "good-samaritan-day",
+    "urlDate": "03-13"
+  },
+  "anv-fixed-03-13-jewel-day-global": {
+    "slug": "jewel-day",
+    "urlDate": "03-13"
+  },
+  "anv-fixed-03-13-k9-veterans-day-us": {
+    "slug": "k9-veterans-day",
+    "urlDate": "03-13"
+  },
+  "anv-fixed-03-13-open-an-umbrella-indoors-day-us": {
+    "slug": "open-an-umbrella-indoors-day",
+    "urlDate": "03-13"
+  },
+  "anv-fixed-03-14-childrens-craft-day-global": {
+    "slug": "childrens-craft-day",
+    "urlDate": "03-14"
+  },
+  "anv-fixed-03-14-learn-about-butterflies-day-global": {
+    "slug": "learn-about-butterflies-day",
+    "urlDate": "03-14"
+  },
+  "anv-fixed-03-14-napping-day-global": {
+    "slug": "napping-day",
+    "urlDate": "03-14"
+  },
+  "anv-fixed-03-14-pi-day": {
+    "slug": "pi-day",
+    "urlDate": "03-14"
+  },
+  "anv-fixed-03-14-potato-chip-day-global": {
+    "slug": "potato-chip-day",
+    "urlDate": "03-14"
+  },
+  "anv-fixed-03-14-white-day-kr": {
+    "slug": "white-day",
+    "urlDate": "03-14"
+  },
+  "anv-fixed-03-15-everything-you-think-is-wrong-day-us": {
+    "slug": "everything-you-think-is-wrong-day",
+    "urlDate": "03-15"
+  },
+  "anv-fixed-03-15-pears-helene-day-global": {
+    "slug": "pears-helene-day",
+    "urlDate": "03-15"
+  },
+  "anv-fixed-03-15-shoe-the-world-day-global": {
+    "slug": "shoe-the-world-day",
+    "urlDate": "03-15"
+  },
+  "anv-fixed-03-16-artichoke-hearts-day-global": {
+    "slug": "artichoke-hearts-day",
+    "urlDate": "03-16"
+  },
+  "anv-fixed-03-16-everything-you-do-is-right-day-global": {
+    "slug": "everything-you-do-is-right-day",
+    "urlDate": "03-16"
+  },
+  "anv-fixed-03-16-freedom-of-information-day-us": {
+    "slug": "freedom-of-information-day",
+    "urlDate": "03-16"
+  },
+  "anv-fixed-03-16-kick-butts-day-global": {
+    "slug": "kick-butts-day",
+    "urlDate": "03-16"
+  },
+  "anv-fixed-03-17-corned-beef-and-cabbage-day-global": {
+    "slug": "corned-beef-and-cabbage-day",
+    "urlDate": "03-17"
+  },
+  "anv-fixed-03-17-st-patricks-day-global": {
+    "slug": "st-patricks-day",
+    "urlDate": "03-17"
+  },
+  "anv-fixed-03-18-ag-day-us": {
+    "slug": "ag-day",
+    "urlDate": "03-18"
+  },
+  "anv-fixed-03-18-awkward-moments-day-global": {
+    "slug": "awkward-moments-day",
+    "urlDate": "03-18"
+  },
+  "anv-fixed-03-18-biodiesel-day-global": {
+    "slug": "biodiesel-day",
+    "urlDate": "03-18"
+  },
+  "anv-fixed-03-18-lacy-oatmeal-cookie-day-global": {
+    "slug": "lacy-oatmeal-cookie-day",
+    "urlDate": "03-18"
+  },
+  "anv-fixed-03-18-sloppy-joe-day-global": {
+    "slug": "sloppy-joe-day",
+    "urlDate": "03-18"
+  },
+  "anv-fixed-03-18-supreme-sacrifice-day-us": {
+    "slug": "supreme-sacrifice-day",
+    "urlDate": "03-18"
+  },
+  "anv-fixed-03-19-certified-nurses-day-global": {
+    "slug": "certified-nurses-day",
+    "urlDate": "03-19"
+  },
+  "anv-fixed-03-19-chocolate-caramel-day-global": {
+    "slug": "chocolate-caramel-day",
+    "urlDate": "03-19"
+  },
+  "anv-fixed-03-19-lets-laugh-day-global": {
+    "slug": "lets-laugh-day",
+    "urlDate": "03-19"
+  },
+  "anv-fixed-03-19-poultry-day-global": {
+    "slug": "poultry-day",
+    "urlDate": "03-19"
+  },
+  "anv-fixed-03-19-quilting-day-global": {
+    "slug": "quilting-day",
+    "urlDate": "03-19"
+  },
+  "anv-fixed-03-20-native-hiv-aids-awareness-day-us": {
+    "slug": "native-hiv-aids-awareness-day",
+    "urlDate": "03-20"
+  },
+  "anv-fixed-03-20-proposal-day-global": {
+    "slug": "proposal-day",
+    "urlDate": "03-20"
+  },
+  "anv-fixed-03-20-ravioli-day-global": {
+    "slug": "ravioli-day",
+    "urlDate": "03-20"
+  },
+  "anv-fixed-03-20-spring-begins-global": {
+    "slug": "spring-begins",
+    "urlDate": "03-20"
+  },
+  "anv-fixed-03-21-common-courtesy-day-global": {
+    "slug": "common-courtesy-day",
+    "urlDate": "03-21"
+  },
+  "anv-fixed-03-21-corn-dog-day-us": {
+    "slug": "corn-dog-day",
+    "urlDate": "03-21"
+  },
+  "anv-fixed-03-21-fragrance-day-global": {
+    "slug": "fragrance-day",
+    "urlDate": "03-21"
+  },
+  "anv-fixed-03-21-french-bread-day-global": {
+    "slug": "french-bread-day",
+    "urlDate": "03-21"
+  },
+  "anv-fixed-03-21-single-parents-day-global": {
+    "slug": "single-parents-day",
+    "urlDate": "03-21"
+  },
+  "anv-fixed-03-21-strawberry-day-global": {
+    "slug": "strawberry-day",
+    "urlDate": "03-21"
+  },
+  "anv-fixed-03-21-world-down-syndrome-day-global": {
+    "slug": "world-down-syndrome-day",
+    "urlDate": "03-21"
+  },
+  "anv-fixed-03-22-bavarian-crepes-day-global": {
+    "slug": "bavarian-crepes-day",
+    "urlDate": "03-22"
+  },
+  "anv-fixed-03-22-diabetes-alert-day-global": {
+    "slug": "diabetes-alert-day",
+    "urlDate": "03-22"
+  },
+  "anv-fixed-03-22-goof-off-day-us": {
+    "slug": "goof-off-day",
+    "urlDate": "03-22"
+  },
+  "anv-fixed-03-22-world-water-day-global": {
+    "slug": "world-water-day",
+    "urlDate": "03-22"
+  },
+  "anv-fixed-03-23-chip-and-dip-day-global": {
+    "slug": "chip-and-dip-day",
+    "urlDate": "03-23"
+  },
+  "anv-fixed-03-23-melba-toast-day-global": {
+    "slug": "melba-toast-day",
+    "urlDate": "03-23"
+  },
+  "anv-fixed-03-23-near-miss-day-global": {
+    "slug": "near-miss-day",
+    "urlDate": "03-23"
+  },
+  "anv-fixed-03-23-puppy-day-global": {
+    "slug": "puppy-day",
+    "urlDate": "03-23"
+  },
+  "anv-fixed-03-24-chocolate-covered-raisin-day-us": {
+    "slug": "chocolate-covered-raisin-day",
+    "urlDate": "03-24"
+  },
+  "anv-fixed-03-25-lobster-newburg-day-global": {
+    "slug": "lobster-newburg-day",
+    "urlDate": "03-25"
+  },
+  "anv-fixed-03-25-medal-of-honor-day-us": {
+    "slug": "medal-of-honor-day",
+    "urlDate": "03-25"
+  },
+  "anv-fixed-03-25-tolkien-reading-day-global": {
+    "slug": "tolkien-reading-day",
+    "urlDate": "03-25"
+  },
+  "anv-fixed-03-26-nougat-day-global": {
+    "slug": "nougat-day",
+    "urlDate": "03-26"
+  },
+  "anv-fixed-03-26-purple-day-epilepsy-global": {
+    "slug": "purple-day-epilepsy",
+    "urlDate": "03-26"
+  },
+  "anv-fixed-03-26-spinach-day-global": {
+    "slug": "spinach-day",
+    "urlDate": "03-26"
+  },
+  "anv-fixed-03-27-joe-day-global": {
+    "slug": "joe-day",
+    "urlDate": "03-27"
+  },
+  "anv-fixed-03-27-paella-day-es": {
+    "slug": "paella-day",
+    "urlDate": "03-27"
+  },
+  "anv-fixed-03-28-black-forest-cake-day-global": {
+    "slug": "black-forest-cake-day",
+    "urlDate": "03-28"
+  },
+  "anv-fixed-03-28-something-on-a-stick-day-us": {
+    "slug": "something-on-a-stick-day",
+    "urlDate": "03-28"
+  },
+  "anv-fixed-03-28-weed-appreciation-day-global": {
+    "slug": "weed-appreciation-day",
+    "urlDate": "03-28"
+  },
+  "anv-fixed-03-29-lemon-chiffon-cake-day-global": {
+    "slug": "lemon-chiffon-cake-day",
+    "urlDate": "03-29"
+  },
+  "anv-fixed-03-29-mom-and-pop-business-owners-day-us": {
+    "slug": "mom-and-pop-business-owners-day",
+    "urlDate": "03-29"
+  },
+  "anv-fixed-03-30-doctors-day-global": {
+    "slug": "doctors-day",
+    "urlDate": "03-30"
+  },
+  "anv-fixed-03-30-i-am-in-control-day-us": {
+    "slug": "i-am-in-control-day",
+    "urlDate": "03-30"
+  },
+  "anv-fixed-03-30-manatee-appreciation-day-global": {
+    "slug": "manatee-appreciation-day",
+    "urlDate": "03-30"
+  },
+  "anv-fixed-03-30-pencil-day-global": {
+    "slug": "pencil-day",
+    "urlDate": "03-30"
+  },
+  "anv-fixed-03-30-take-a-walk-in-the-park-day-global": {
+    "slug": "take-a-walk-in-the-park-day",
+    "urlDate": "03-30"
+  },
+  "anv-fixed-03-30-turkey-neck-soup-day-global": {
+    "slug": "turkey-neck-soup-day",
+    "urlDate": "03-30"
+  },
+  "anv-fixed-03-31-bunsen-burner-day-global": {
+    "slug": "bunsen-burner-day",
+    "urlDate": "03-31"
+  },
+  "anv-fixed-03-31-clams-on-the-half-shell-day-global": {
+    "slug": "clams-on-the-half-shell-day",
+    "urlDate": "03-31"
+  },
+  "anv-fixed-03-31-tater-day-global": {
+    "slug": "tater-day",
+    "urlDate": "03-31"
+  },
+  "anv-fixed-03-31-world-backup-day-global": {
+    "slug": "world-backup-day",
+    "urlDate": "03-31"
+  },
+  "anv-fixed-04-01-april-fools-day-global": {
+    "slug": "april-fools-day",
+    "urlDate": "04-01"
+  },
+  "anv-fixed-04-01-one-cent-day-us": {
+    "slug": "one-cent-day",
+    "urlDate": "04-01"
+  },
+  "anv-fixed-04-01-sourdough-bread-day-us": {
+    "slug": "sourdough-bread-day",
+    "urlDate": "04-01"
+  },
+  "anv-fixed-04-02-autism-awareness-day-global": {
+    "slug": "autism-awareness-day",
+    "urlDate": "04-02"
+  },
+  "anv-fixed-04-02-ferret-day-us": {
+    "slug": "ferret-day",
+    "urlDate": "04-02"
+  },
+  "anv-fixed-04-02-love-our-children-day-us": {
+    "slug": "love-our-children-day",
+    "urlDate": "04-02"
+  },
+  "anv-fixed-04-02-peanut-butter-jelly-day-us": {
+    "slug": "peanut-butter-jelly-day",
+    "urlDate": "04-02"
+  },
+  "anv-fixed-04-02-reconciliation-day-us": {
+    "slug": "reconciliation-day",
+    "urlDate": "04-02"
+  },
+  "anv-fixed-04-03-chocolate-mousse-day-us": {
+    "slug": "chocolate-mousse-day",
+    "urlDate": "04-03"
+  },
+  "anv-fixed-04-03-find-a-rainbow-day-us": {
+    "slug": "find-a-rainbow-day",
+    "urlDate": "04-03"
+  },
+  "anv-fixed-04-03-tweed-day-us": {
+    "slug": "tweed-day",
+    "urlDate": "04-03"
+  },
+  "anv-fixed-04-04-chicken-cordon-bleu-day-us": {
+    "slug": "chicken-cordon-bleu-day",
+    "urlDate": "04-04"
+  },
+  "anv-fixed-04-04-hug-a-newsperson-day-us": {
+    "slug": "hug-a-newsperson-day",
+    "urlDate": "04-04"
+  },
+  "anv-fixed-04-04-school-librarian-day-us": {
+    "slug": "school-librarian-day",
+    "urlDate": "04-04"
+  },
+  "anv-fixed-04-04-walk-around-things-day-us": {
+    "slug": "walk-around-things-day",
+    "urlDate": "04-04"
+  },
+  "anv-fixed-04-05-caramel-day-us": {
+    "slug": "caramel-day",
+    "urlDate": "04-05"
+  },
+  "anv-fixed-04-05-deep-dish-pizza-day-us": {
+    "slug": "deep-dish-pizza-day",
+    "urlDate": "04-05"
+  },
+  "anv-fixed-04-05-go-for-broke-day-us": {
+    "slug": "go-for-broke-day",
+    "urlDate": "04-05"
+  },
+  "anv-fixed-04-05-raisin-spice-bar-day-us": {
+    "slug": "raisin-spice-bar-day",
+    "urlDate": "04-05"
+  },
+  "anv-fixed-04-05-read-a-road-map-day-us": {
+    "slug": "read-a-road-map-day",
+    "urlDate": "04-05"
+  },
+  "anv-fixed-04-06-caramel-popcorn-day-us": {
+    "slug": "caramel-popcorn-day",
+    "urlDate": "04-06"
+  },
+  "anv-fixed-04-06-day-of-hope-us": {
+    "slug": "day-of-hope",
+    "urlDate": "04-06"
+  },
+  "anv-fixed-04-06-sorry-charlie-day-us": {
+    "slug": "sorry-charlie-day",
+    "urlDate": "04-06"
+  },
+  "anv-fixed-04-06-student-athlete-day-us": {
+    "slug": "student-athlete-day",
+    "urlDate": "04-06"
+  },
+  "anv-fixed-04-06-tartan-day-us": {
+    "slug": "tartan-day",
+    "urlDate": "04-06"
+  },
+  "anv-fixed-04-06-teflon-day-us": {
+    "slug": "teflon-day",
+    "urlDate": "04-06"
+  },
+  "anv-fixed-04-06-walking-day-us": {
+    "slug": "walking-day",
+    "urlDate": "04-06"
+  },
+  "anv-fixed-04-07-alcohol-screening-day-us": {
+    "slug": "alcohol-screening-day",
+    "urlDate": "04-07"
+  },
+  "anv-fixed-04-07-beer-day-us": {
+    "slug": "beer-day",
+    "urlDate": "04-07"
+  },
+  "anv-fixed-04-07-coffee-cake-day-us": {
+    "slug": "coffee-cake-day",
+    "urlDate": "04-07"
+  },
+  "anv-fixed-04-07-no-housework-day-us": {
+    "slug": "no-housework-day",
+    "urlDate": "04-07"
+  },
+  "anv-fixed-04-08-all-is-ours-day-us": {
+    "slug": "all-is-ours-day",
+    "urlDate": "04-08"
+  },
+  "anv-fixed-04-08-empanada-day-us": {
+    "slug": "empanada-day",
+    "urlDate": "04-08"
+  },
+  "anv-fixed-04-08-zoo-lovers-day-us": {
+    "slug": "zoo-lovers-day",
+    "urlDate": "04-08"
+  },
+  "anv-fixed-04-09-cherish-an-antique-day-us": {
+    "slug": "cherish-an-antique-day",
+    "urlDate": "04-09"
+  },
+  "anv-fixed-04-09-chinese-almond-cookie-day-us": {
+    "slug": "chinese-almond-cookie-day",
+    "urlDate": "04-09"
+  },
+  "anv-fixed-04-09-churchill-day-us": {
+    "slug": "churchill-day",
+    "urlDate": "04-09"
+  },
+  "anv-fixed-04-09-former-pow-recognition-day-us": {
+    "slug": "former-pow-recognition-day",
+    "urlDate": "04-09"
+  },
+  "anv-fixed-04-09-name-yourself-day-us": {
+    "slug": "name-yourself-day",
+    "urlDate": "04-09"
+  },
+  "anv-fixed-04-10-cinnamon-crescent-day-us": {
+    "slug": "cinnamon-crescent-day",
+    "urlDate": "04-10"
+  },
+  "anv-fixed-04-10-encourage-young-writer-day-us": {
+    "slug": "encourage-young-writer-day",
+    "urlDate": "04-10"
+  },
+  "anv-fixed-04-10-farm-animals-day-us": {
+    "slug": "farm-animals-day",
+    "urlDate": "04-10"
+  },
+  "anv-fixed-04-10-siblings-day-global": {
+    "slug": "siblings-day",
+    "urlDate": "04-10"
+  },
+  "anv-fixed-04-11-barber-shop-quartet-day-us": {
+    "slug": "barber-shop-quartet-day",
+    "urlDate": "04-11"
+  },
+  "anv-fixed-04-11-cheese-fondue-day-us": {
+    "slug": "cheese-fondue-day",
+    "urlDate": "04-11"
+  },
+  "anv-fixed-04-11-eight-track-tape-day-us": {
+    "slug": "eight-track-tape-day",
+    "urlDate": "04-11"
+  },
+  "anv-fixed-04-11-pet-day-global": {
+    "slug": "pet-day",
+    "urlDate": "04-11"
+  },
+  "anv-fixed-04-11-submarine-day-us": {
+    "slug": "submarine-day",
+    "urlDate": "04-11"
+  },
+  "anv-fixed-04-11-teach-children-to-save-day-us": {
+    "slug": "teach-children-to-save-day",
+    "urlDate": "04-11"
+  },
+  "anv-fixed-04-12-big-wind-day-us": {
+    "slug": "big-wind-day",
+    "urlDate": "04-12"
+  },
+  "anv-fixed-04-12-grilled-cheese-sandwich-day-us": {
+    "slug": "grilled-cheese-sandwich-day",
+    "urlDate": "04-12"
+  },
+  "anv-fixed-04-12-library-workers-day-us": {
+    "slug": "library-workers-day",
+    "urlDate": "04-12"
+  },
+  "anv-fixed-04-12-licorice-day-us": {
+    "slug": "licorice-day",
+    "urlDate": "04-12"
+  },
+  "anv-fixed-04-13-bookmobile-day-us": {
+    "slug": "bookmobile-day",
+    "urlDate": "04-13"
+  },
+  "anv-fixed-04-13-peach-cobbler-day-us": {
+    "slug": "peach-cobbler-day",
+    "urlDate": "04-13"
+  },
+  "anv-fixed-04-13-scrabble-day-us": {
+    "slug": "scrabble-day",
+    "urlDate": "04-13"
+  },
+  "anv-fixed-04-13-thomas-jefferson-day-us": {
+    "slug": "thomas-jefferson-day",
+    "urlDate": "04-13"
+  },
+  "anv-fixed-04-14-black-day-kr": {
+    "slug": "black-day",
+    "urlDate": "04-14"
+  },
+  "anv-fixed-04-14-dolphin-day-us": {
+    "slug": "dolphin-day",
+    "urlDate": "04-14"
+  },
+  "anv-fixed-04-14-equal-pay-day-us": {
+    "slug": "equal-pay-day",
+    "urlDate": "04-14"
+  },
+  "anv-fixed-04-14-ex-spouse-day-us": {
+    "slug": "ex-spouse-day",
+    "urlDate": "04-14"
+  },
+  "anv-fixed-04-14-pan-american-day-us": {
+    "slug": "pan-american-day",
+    "urlDate": "04-14"
+  },
+  "anv-fixed-04-14-pecan-day-us": {
+    "slug": "pecan-day",
+    "urlDate": "04-14"
+  },
+  "anv-fixed-04-14-reach-as-high-as-you-can-day-us": {
+    "slug": "reach-as-high-as-you-can-day",
+    "urlDate": "04-14"
+  },
+  "anv-fixed-04-14-support-teen-literature-day-us": {
+    "slug": "support-teen-literature-day",
+    "urlDate": "04-14"
+  },
+  "anv-fixed-04-15-day-of-silence-us": {
+    "slug": "day-of-silence",
+    "urlDate": "04-15"
+  },
+  "anv-fixed-04-15-glazed-spiral-ham-day-us": {
+    "slug": "glazed-spiral-ham-day",
+    "urlDate": "04-15"
+  },
+  "anv-fixed-04-15-rubber-eraser-day-us": {
+    "slug": "rubber-eraser-day",
+    "urlDate": "04-15"
+  },
+  "anv-fixed-04-15-tax-day-us": {
+    "slug": "tax-day",
+    "urlDate": "04-15"
+  },
+  "anv-fixed-04-15-titanic-remembrance-day-us": {
+    "slug": "titanic-remembrance-day",
+    "urlDate": "04-15"
+  },
+  "anv-fixed-04-15-wild-guess-day-us": {
+    "slug": "wild-guess-day",
+    "urlDate": "04-15"
+  },
+  "anv-fixed-04-16-auctioneers-day-us": {
+    "slug": "auctioneers-day",
+    "urlDate": "04-16"
+  },
+  "anv-fixed-04-16-eggs-benedict-day-us": {
+    "slug": "eggs-benedict-day",
+    "urlDate": "04-16"
+  },
+  "anv-fixed-04-16-healthcare-decisions-day-us": {
+    "slug": "healthcare-decisions-day",
+    "urlDate": "04-16"
+  },
+  "anv-fixed-04-16-orchid-day-us": {
+    "slug": "orchid-day",
+    "urlDate": "04-16"
+  },
+  "anv-fixed-04-16-pajamas-to-work-day-us": {
+    "slug": "pajamas-to-work-day",
+    "urlDate": "04-16"
+  },
+  "anv-fixed-04-17-bat-appreciation-day-us": {
+    "slug": "bat-appreciation-day",
+    "urlDate": "04-17"
+  },
+  "anv-fixed-04-17-cheeseball-day-us": {
+    "slug": "cheeseball-day",
+    "urlDate": "04-17"
+  },
+  "anv-fixed-04-17-ellis-island-family-history-day-us": {
+    "slug": "ellis-island-family-history-day",
+    "urlDate": "04-17"
+  },
+  "anv-fixed-04-17-haiku-poetry-day-us": {
+    "slug": "haiku-poetry-day",
+    "urlDate": "04-17"
+  },
+  "anv-fixed-04-18-animal-crackers-day-us": {
+    "slug": "animal-crackers-day",
+    "urlDate": "04-18"
+  },
+  "anv-fixed-04-18-columnists-day-us": {
+    "slug": "columnists-day",
+    "urlDate": "04-18"
+  },
+  "anv-fixed-04-18-lineman-appreciation-day-us": {
+    "slug": "lineman-appreciation-day",
+    "urlDate": "04-18"
+  },
+  "anv-fixed-04-19-amaretto-day-us": {
+    "slug": "amaretto-day",
+    "urlDate": "04-19"
+  },
+  "anv-fixed-04-19-education-and-sharing-day-us": {
+    "slug": "education-and-sharing-day",
+    "urlDate": "04-19"
+  },
+  "anv-fixed-04-19-garlic-day-us": {
+    "slug": "garlic-day",
+    "urlDate": "04-19"
+  },
+  "anv-fixed-04-19-hanging-out-day-us": {
+    "slug": "hanging-out-day",
+    "urlDate": "04-19"
+  },
+  "anv-fixed-04-19-oklahoma-city-bombing-commemoration-day-us": {
+    "slug": "oklahoma-city-bombing-commemoration-day",
+    "urlDate": "04-19"
+  },
+  "anv-fixed-04-20-lima-bean-respect-day-us": {
+    "slug": "lima-bean-respect-day",
+    "urlDate": "04-20"
+  },
+  "anv-fixed-04-20-look-alike-day-us": {
+    "slug": "look-alike-day",
+    "urlDate": "04-20"
+  },
+  "anv-fixed-04-20-pineapple-upside-down-cake-day-us": {
+    "slug": "pineapple-upside-down-cake-day",
+    "urlDate": "04-20"
+  },
+  "anv-fixed-04-21-chocolate-covered-cashews-day-us": {
+    "slug": "chocolate-covered-cashews-day",
+    "urlDate": "04-21"
+  },
+  "anv-fixed-04-21-high-five-day-us": {
+    "slug": "high-five-day",
+    "urlDate": "04-21"
+  },
+  "anv-fixed-04-21-kindergarten-day-us": {
+    "slug": "kindergarten-day",
+    "urlDate": "04-21"
+  },
+  "anv-fixed-04-22-earth-day-global": {
+    "slug": "earth-day",
+    "urlDate": "04-22"
+  },
+  "anv-fixed-04-22-girl-scout-leaders-day-us": {
+    "slug": "girl-scout-leaders-day",
+    "urlDate": "04-22"
+  },
+  "anv-fixed-04-22-jelly-bean-day-us": {
+    "slug": "jelly-bean-day",
+    "urlDate": "04-22"
+  },
+  "anv-fixed-04-23-cherry-cheesecake-day-us": {
+    "slug": "cherry-cheesecake-day",
+    "urlDate": "04-23"
+  },
+  "anv-fixed-04-23-lost-dogs-awareness-day-us": {
+    "slug": "lost-dogs-awareness-day",
+    "urlDate": "04-23"
+  },
+  "anv-fixed-04-23-picnic-day-us": {
+    "slug": "picnic-day",
+    "urlDate": "04-23"
+  },
+  "anv-fixed-04-23-take-a-chance-day-us": {
+    "slug": "take-a-chance-day",
+    "urlDate": "04-23"
+  },
+  "anv-fixed-04-23-talk-like-shakespeare-day-us": {
+    "slug": "talk-like-shakespeare-day",
+    "urlDate": "04-23"
+  },
+  "anv-fixed-04-23-world-book-day-global": {
+    "slug": "world-book-day",
+    "urlDate": "04-23"
+  },
+  "anv-fixed-04-24-pet-parents-day-us": {
+    "slug": "pet-parents-day",
+    "urlDate": "04-24"
+  },
+  "anv-fixed-04-24-pigs-in-a-blanket-day-us": {
+    "slug": "pigs-in-a-blanket-day",
+    "urlDate": "04-24"
+  },
+  "anv-fixed-04-25-dna-day-global": {
+    "slug": "dna-day",
+    "urlDate": "04-25"
+  },
+  "anv-fixed-04-25-east-meets-west-day-us": {
+    "slug": "east-meets-west-day",
+    "urlDate": "04-25"
+  },
+  "anv-fixed-04-25-hug-a-plumber-day-us": {
+    "slug": "hug-a-plumber-day",
+    "urlDate": "04-25"
+  },
+  "anv-fixed-04-25-kiss-of-hope-day-us": {
+    "slug": "kiss-of-hope-day",
+    "urlDate": "04-25"
+  },
+  "anv-fixed-04-25-telephone-day-us": {
+    "slug": "telephone-day",
+    "urlDate": "04-25"
+  },
+  "anv-fixed-04-25-zucchini-bread-day-us": {
+    "slug": "zucchini-bread-day",
+    "urlDate": "04-25"
+  },
+  "anv-fixed-04-26-audubon-day-us": {
+    "slug": "audubon-day",
+    "urlDate": "04-26"
+  },
+  "anv-fixed-04-26-help-a-horse-day-us": {
+    "slug": "help-a-horse-day",
+    "urlDate": "04-26"
+  },
+  "anv-fixed-04-26-kids-and-pets-day-us": {
+    "slug": "kids-and-pets-day",
+    "urlDate": "04-26"
+  },
+  "anv-fixed-04-26-pretzel-day-us": {
+    "slug": "pretzel-day",
+    "urlDate": "04-26"
+  },
+  "anv-fixed-04-26-richter-scale-day-us": {
+    "slug": "richter-scale-day",
+    "urlDate": "04-26"
+  },
+  "anv-fixed-04-27-administrative-professionals-day-us": {
+    "slug": "administrative-professionals-day",
+    "urlDate": "04-27"
+  },
+  "anv-fixed-04-27-babe-ruth-day-us": {
+    "slug": "babe-ruth-day",
+    "urlDate": "04-27"
+  },
+  "anv-fixed-04-27-prime-rib-day-us": {
+    "slug": "prime-rib-day",
+    "urlDate": "04-27"
+  },
+  "anv-fixed-04-27-tell-a-story-day-us": {
+    "slug": "tell-a-story-day",
+    "urlDate": "04-27"
+  },
+  "anv-fixed-04-28-blueberry-pie-day-us": {
+    "slug": "blueberry-pie-day",
+    "urlDate": "04-28"
+  },
+  "anv-fixed-04-28-bravehearts-day-us": {
+    "slug": "bravehearts-day",
+    "urlDate": "04-28"
+  },
+  "anv-fixed-04-28-great-poetry-reading-day-us": {
+    "slug": "great-poetry-reading-day",
+    "urlDate": "04-28"
+  },
+  "anv-fixed-04-28-poem-in-your-pocket-day-us": {
+    "slug": "poem-in-your-pocket-day",
+    "urlDate": "04-28"
+  },
+  "anv-fixed-04-28-take-our-daughters-sons-to-work-day-us": {
+    "slug": "take-our-daughters-sons-to-work-day",
+    "urlDate": "04-28"
+  },
+  "anv-fixed-04-28-workers-memorial-day-global": {
+    "slug": "workers-memorial-day",
+    "urlDate": "04-28"
+  },
+  "anv-fixed-04-29-arbor-day-global": {
+    "slug": "arbor-day",
+    "urlDate": "04-29"
+  },
+  "anv-fixed-04-29-hairball-awareness-day-us": {
+    "slug": "hairball-awareness-day",
+    "urlDate": "04-29"
+  },
+  "anv-fixed-04-29-peace-rose-day-us": {
+    "slug": "peace-rose-day",
+    "urlDate": "04-29"
+  },
+  "anv-fixed-04-29-shrimp-scampi-day-us": {
+    "slug": "shrimp-scampi-day",
+    "urlDate": "04-29"
+  },
+  "anv-fixed-04-29-zipper-day-us": {
+    "slug": "zipper-day",
+    "urlDate": "04-29"
+  },
+  "anv-fixed-04-30-adopt-a-shelter-pet-day-us": {
+    "slug": "adopt-a-shelter-pet-day",
+    "urlDate": "04-30"
+  },
+  "anv-fixed-04-30-bugs-bunny-day-us": {
+    "slug": "bugs-bunny-day",
+    "urlDate": "04-30"
+  },
+  "anv-fixed-04-30-hairstylist-appreciation-day-us": {
+    "slug": "hairstylist-appreciation-day",
+    "urlDate": "04-30"
+  },
+  "anv-fixed-04-30-honesty-day-us": {
+    "slug": "honesty-day",
+    "urlDate": "04-30"
+  },
+  "anv-fixed-04-30-oatmeal-cookie-day-us": {
+    "slug": "oatmeal-cookie-day",
+    "urlDate": "04-30"
+  },
+  "anv-fixed-04-30-raisin-day-us": {
+    "slug": "raisin-day",
+    "urlDate": "04-30"
+  },
+  "anv-fixed-04-30-rebuilding-day-us": {
+    "slug": "rebuilding-day",
+    "urlDate": "04-30"
+  },
+  "anv-fixed-04-30-sarcoidosis-day-us": {
+    "slug": "sarcoidosis-day",
+    "urlDate": "04-30"
+  },
+  "anv-fixed-04-30-sense-of-smell-day-us": {
+    "slug": "sense-of-smell-day",
+    "urlDate": "04-30"
+  },
+  "anv-fixed-05-01-chocolate-parfait-day-us": {
+    "slug": "chocolate-parfait-day",
+    "urlDate": "05-01"
+  },
+  "anv-fixed-05-01-infertility-survival-day-us": {
+    "slug": "infertility-survival-day",
+    "urlDate": "05-01"
+  },
+  "anv-fixed-05-01-loyalty-day-us": {
+    "slug": "loyalty-day",
+    "urlDate": "05-01"
+  },
+  "anv-fixed-05-01-mother-goose-day-us": {
+    "slug": "mother-goose-day",
+    "urlDate": "05-01"
+  },
+  "anv-fixed-05-02-life-insurance-day-us": {
+    "slug": "life-insurance-day",
+    "urlDate": "05-02"
+  },
+  "anv-fixed-05-02-truffle-day-us": {
+    "slug": "truffle-day",
+    "urlDate": "05-02"
+  },
+  "anv-fixed-05-03-chocolate-custard-day-us": {
+    "slug": "chocolate-custard-day",
+    "urlDate": "05-03"
+  },
+  "anv-fixed-05-03-garden-meditation-day-us": {
+    "slug": "garden-meditation-day",
+    "urlDate": "05-03"
+  },
+  "anv-fixed-05-03-lumpy-rug-day-us": {
+    "slug": "lumpy-rug-day",
+    "urlDate": "05-03"
+  },
+  "anv-fixed-05-03-paranormal-day-us": {
+    "slug": "paranormal-day",
+    "urlDate": "05-03"
+  },
+  "anv-fixed-05-03-raspberry-popover-day-us": {
+    "slug": "raspberry-popover-day",
+    "urlDate": "05-03"
+  },
+  "anv-fixed-05-03-specially-able-pets-day-us": {
+    "slug": "specially-able-pets-day",
+    "urlDate": "05-03"
+  },
+  "anv-fixed-05-03-teacher-appreciation-day-us": {
+    "slug": "teacher-appreciation-day",
+    "urlDate": "05-03"
+  },
+  "anv-fixed-05-03-two-different-colored-shoes-day-us": {
+    "slug": "two-different-colored-shoes-day",
+    "urlDate": "05-03"
+  },
+  "anv-fixed-05-03-world-press-freedom-day-global": {
+    "slug": "world-press-freedom-day",
+    "urlDate": "05-03"
+  },
+  "anv-fixed-05-04-bike-to-school-day-us": {
+    "slug": "bike-to-school-day",
+    "urlDate": "05-04"
+  },
+  "anv-fixed-05-04-bird-day-global": {
+    "slug": "bird-day",
+    "urlDate": "05-04"
+  },
+  "anv-fixed-05-04-candied-orange-peel-day-us": {
+    "slug": "candied-orange-peel-day",
+    "urlDate": "05-04"
+  },
+  "anv-fixed-05-04-orange-juice-day-us": {
+    "slug": "orange-juice-day",
+    "urlDate": "05-04"
+  },
+  "anv-fixed-05-04-renewal-day-us": {
+    "slug": "renewal-day",
+    "urlDate": "05-04"
+  },
+  "anv-fixed-05-04-star-wars-day-global": {
+    "slug": "star-wars-day",
+    "urlDate": "05-04"
+  },
+  "anv-fixed-05-04-weather-observers-day-us": {
+    "slug": "weather-observers-day",
+    "urlDate": "05-04"
+  },
+  "anv-fixed-05-05-cartoonists-day-us": {
+    "slug": "cartoonists-day",
+    "urlDate": "05-05"
+  },
+  "anv-fixed-05-05-cinco-de-mayo-global": {
+    "slug": "cinco-de-mayo",
+    "urlDate": "05-05"
+  },
+  "anv-fixed-05-05-hoagie-day-us": {
+    "slug": "hoagie-day",
+    "urlDate": "05-05"
+  },
+  "anv-fixed-05-05-totally-chipotle-day-us": {
+    "slug": "totally-chipotle-day",
+    "urlDate": "05-05"
+  },
+  "anv-fixed-05-06-beverage-day-us": {
+    "slug": "beverage-day",
+    "urlDate": "05-06"
+  },
+  "anv-fixed-05-06-crepe-suzette-day-us": {
+    "slug": "crepe-suzette-day",
+    "urlDate": "05-06"
+  },
+  "anv-fixed-05-06-military-spouse-appreciation-day-us": {
+    "slug": "military-spouse-appreciation-day",
+    "urlDate": "05-06"
+  },
+  "anv-fixed-05-06-nurses-day-global": {
+    "slug": "nurses-day",
+    "urlDate": "05-06"
+  },
+  "anv-fixed-05-06-provider-appreciation-day-us": {
+    "slug": "provider-appreciation-day",
+    "urlDate": "05-06"
+  },
+  "anv-fixed-05-06-space-day-us": {
+    "slug": "space-day",
+    "urlDate": "05-06"
+  },
+  "anv-fixed-05-07-babysitters-day-us": {
+    "slug": "babysitters-day",
+    "urlDate": "05-07"
+  },
+  "anv-fixed-05-07-barrier-awareness-day-us": {
+    "slug": "barrier-awareness-day",
+    "urlDate": "05-07"
+  },
+  "anv-fixed-05-07-birth-mothers-day-us": {
+    "slug": "birth-mothers-day",
+    "urlDate": "05-07"
+  },
+  "anv-fixed-05-07-bombshells-day-us": {
+    "slug": "bombshells-day",
+    "urlDate": "05-07"
+  },
+  "anv-fixed-05-07-homebrew-day-us": {
+    "slug": "homebrew-day",
+    "urlDate": "05-07"
+  },
+  "anv-fixed-05-07-packaging-design-day-us": {
+    "slug": "packaging-design-day",
+    "urlDate": "05-07"
+  },
+  "anv-fixed-05-07-paste-up-day-us": {
+    "slug": "paste-up-day",
+    "urlDate": "05-07"
+  },
+  "anv-fixed-05-07-roast-leg-of-lamb-day-us": {
+    "slug": "roast-leg-of-lamb-day",
+    "urlDate": "05-07"
+  },
+  "anv-fixed-05-07-scrapbook-day-us": {
+    "slug": "scrapbook-day",
+    "urlDate": "05-07"
+  },
+  "anv-fixed-05-07-start-seeing-monarchs-day-us": {
+    "slug": "start-seeing-monarchs-day",
+    "urlDate": "05-07"
+  },
+  "anv-fixed-05-07-train-day-us": {
+    "slug": "train-day",
+    "urlDate": "05-07"
+  },
+  "anv-fixed-05-08-coconut-cream-pie-day-us": {
+    "slug": "coconut-cream-pie-day",
+    "urlDate": "05-08"
+  },
+  "anv-fixed-05-08-have-a-coke-day-us": {
+    "slug": "have-a-coke-day",
+    "urlDate": "05-08"
+  },
+  "anv-fixed-05-09-butterscotch-brownie-day-us": {
+    "slug": "butterscotch-brownie-day",
+    "urlDate": "05-09"
+  },
+  "anv-fixed-05-09-lost-sock-memorial-day-us": {
+    "slug": "lost-sock-memorial-day",
+    "urlDate": "05-09"
+  },
+  "anv-fixed-05-09-moscato-day-us": {
+    "slug": "moscato-day",
+    "urlDate": "05-09"
+  },
+  "anv-fixed-05-09-womens-checkup-day-us": {
+    "slug": "womens-checkup-day",
+    "urlDate": "05-09"
+  },
+  "anv-fixed-05-10-lipid-day-us": {
+    "slug": "lipid-day",
+    "urlDate": "05-10"
+  },
+  "anv-fixed-05-10-shrimp-day-us": {
+    "slug": "shrimp-day",
+    "urlDate": "05-10"
+  },
+  "anv-fixed-05-10-voters-day-kr": {
+    "slug": "voters-day",
+    "urlDate": "05-10"
+  },
+  "anv-fixed-05-10-world-lupus-day": {
+    "slug": "world-lupus-day",
+    "urlDate": "05-10"
+  },
+  "anv-fixed-05-11-foam-rolling-day-us": {
+    "slug": "foam-rolling-day",
+    "urlDate": "05-11"
+  },
+  "anv-fixed-05-11-receptionists-day-us": {
+    "slug": "receptionists-day",
+    "urlDate": "05-11"
+  },
+  "anv-fixed-05-11-school-nurse-day-us": {
+    "slug": "school-nurse-day",
+    "urlDate": "05-11"
+  },
+  "anv-fixed-05-11-third-shift-workers-day-us": {
+    "slug": "third-shift-workers-day",
+    "urlDate": "05-11"
+  },
+  "anv-fixed-05-11-twilight-zone-day-us": {
+    "slug": "twilight-zone-day",
+    "urlDate": "05-11"
+  },
+  "anv-fixed-05-12-fibromyalgia-awareness-day-us": {
+    "slug": "fibromyalgia-awareness-day",
+    "urlDate": "05-12"
+  },
+  "anv-fixed-05-12-international-nurses-day-global": {
+    "slug": "international-nurses-day",
+    "urlDate": "05-12"
+  },
+  "anv-fixed-05-12-limerick-day-us": {
+    "slug": "limerick-day",
+    "urlDate": "05-12"
+  },
+  "anv-fixed-05-12-nutty-fudge-day-us": {
+    "slug": "nutty-fudge-day",
+    "urlDate": "05-12"
+  },
+  "anv-fixed-05-12-odometer-day-us": {
+    "slug": "odometer-day",
+    "urlDate": "05-12"
+  },
+  "anv-fixed-05-13-apple-pie-day-us": {
+    "slug": "apple-pie-day",
+    "urlDate": "05-13"
+  },
+  "anv-fixed-05-13-blame-someone-else-day-us": {
+    "slug": "blame-someone-else-day",
+    "urlDate": "05-13"
+  },
+  "anv-fixed-05-13-crouton-day-us": {
+    "slug": "crouton-day",
+    "urlDate": "05-13"
+  },
+  "anv-fixed-05-13-frog-jumping-day-us": {
+    "slug": "frog-jumping-day",
+    "urlDate": "05-13"
+  },
+  "anv-fixed-05-13-fruit-cocktail-day-us": {
+    "slug": "fruit-cocktail-day",
+    "urlDate": "05-13"
+  },
+  "anv-fixed-05-14-archery-day-us": {
+    "slug": "archery-day",
+    "urlDate": "05-14"
+  },
+  "anv-fixed-05-14-buttermilk-biscuit-day-us": {
+    "slug": "buttermilk-biscuit-day",
+    "urlDate": "05-14"
+  },
+  "anv-fixed-05-14-cornelia-de-lange-syndrome-awareness-day-global": {
+    "slug": "cornelia-de-lange-syndrome-awareness-day",
+    "urlDate": "05-14"
+  },
+  "anv-fixed-05-14-dance-like-a-chicken-day-us": {
+    "slug": "dance-like-a-chicken-day",
+    "urlDate": "05-14"
+  },
+  "anv-fixed-05-14-miniature-golf-day-us": {
+    "slug": "miniature-golf-day",
+    "urlDate": "05-14"
+  },
+  "anv-fixed-05-14-rose-day-kr": {
+    "slug": "rose-day",
+    "urlDate": "05-14"
+  },
+  "anv-fixed-05-14-underground-america-day-us": {
+    "slug": "underground-america-day",
+    "urlDate": "05-14"
+  },
+  "anv-fixed-05-15-chocolate-chip-day-us": {
+    "slug": "chocolate-chip-day",
+    "urlDate": "05-15"
+  },
+  "anv-fixed-05-15-nylon-stocking-day-us": {
+    "slug": "nylon-stocking-day",
+    "urlDate": "05-15"
+  },
+  "anv-fixed-05-15-teachers-day-kr": {
+    "slug": "teachers-day",
+    "urlDate": "05-15"
+  },
+  "anv-fixed-05-16-biographers-day-us": {
+    "slug": "biographers-day",
+    "urlDate": "05-16"
+  },
+  "anv-fixed-05-16-coquilles-saint-jacques-day-us": {
+    "slug": "coquilles-saint-jacques-day",
+    "urlDate": "05-16"
+  },
+  "anv-fixed-05-16-love-a-tree-day-us": {
+    "slug": "love-a-tree-day",
+    "urlDate": "05-16"
+  },
+  "anv-fixed-05-16-piercing-day-us": {
+    "slug": "piercing-day",
+    "urlDate": "05-16"
+  },
+  "anv-fixed-05-16-sea-monkey-day-us": {
+    "slug": "sea-monkey-day",
+    "urlDate": "05-16"
+  },
+  "anv-fixed-05-17-cherry-cobbler-day-us": {
+    "slug": "cherry-cobbler-day",
+    "urlDate": "05-17"
+  },
+  "anv-fixed-05-17-pack-rat-day-us": {
+    "slug": "pack-rat-day",
+    "urlDate": "05-17"
+  },
+  "anv-fixed-05-17-walnut-day-us": {
+    "slug": "walnut-day",
+    "urlDate": "05-17"
+  },
+  "anv-fixed-05-18-cheese-souffle-day-us": {
+    "slug": "cheese-souffle-day",
+    "urlDate": "05-18"
+  },
+  "anv-fixed-05-18-hiv-vaccine-awareness-day-global": {
+    "slug": "hiv-vaccine-awareness-day",
+    "urlDate": "05-18"
+  },
+  "anv-fixed-05-18-no-dirty-dishes-day-us": {
+    "slug": "no-dirty-dishes-day",
+    "urlDate": "05-18"
+  },
+  "anv-fixed-05-18-visit-your-relatives-day-us": {
+    "slug": "visit-your-relatives-day",
+    "urlDate": "05-18"
+  },
+  "anv-fixed-05-19-devils-food-cake-day-us": {
+    "slug": "devils-food-cake-day",
+    "urlDate": "05-19"
+  },
+  "anv-fixed-05-19-may-ray-day-us": {
+    "slug": "may-ray-day",
+    "urlDate": "05-19"
+  },
+  "anv-fixed-05-20-be-a-millionaire-day-us": {
+    "slug": "be-a-millionaire-day",
+    "urlDate": "05-20"
+  },
+  "anv-fixed-05-20-bike-to-work-day-us": {
+    "slug": "bike-to-work-day",
+    "urlDate": "05-20"
+  },
+  "anv-fixed-05-20-defense-transportation-day-us": {
+    "slug": "defense-transportation-day",
+    "urlDate": "05-20"
+  },
+  "anv-fixed-05-20-endangered-species-day-global": {
+    "slug": "endangered-species-day",
+    "urlDate": "05-20"
+  },
+  "anv-fixed-05-20-pick-strawberries-day-us": {
+    "slug": "pick-strawberries-day",
+    "urlDate": "05-20"
+  },
+  "anv-fixed-05-20-pizza-party-day-us": {
+    "slug": "pizza-party-day",
+    "urlDate": "05-20"
+  },
+  "anv-fixed-05-20-quiche-lorraine-day-us": {
+    "slug": "quiche-lorraine-day",
+    "urlDate": "05-20"
+  },
+  "anv-fixed-05-20-world-bee-day": {
+    "slug": "world-bee-day",
+    "urlDate": "05-20"
+  },
+  "anv-fixed-05-20-world-meteorology-day-source": {
+    "slug": "world-meteorology-day-source",
+    "urlDate": "05-20"
+  },
+  "anv-fixed-05-21-learn-to-swim-day-us": {
+    "slug": "learn-to-swim-day",
+    "urlDate": "05-21"
+  },
+  "anv-fixed-05-21-memo-day-us": {
+    "slug": "memo-day",
+    "urlDate": "05-21"
+  },
+  "anv-fixed-05-21-red-cross-founders-day-us": {
+    "slug": "red-cross-founders-day",
+    "urlDate": "05-21"
+  },
+  "anv-fixed-05-21-strawberries-and-cream-day-us": {
+    "slug": "strawberries-and-cream-day",
+    "urlDate": "05-21"
+  },
+  "anv-fixed-05-21-waitstaff-day-us": {
+    "slug": "waitstaff-day",
+    "urlDate": "05-21"
+  },
+  "anv-fixed-05-22-buy-a-musical-instrument-day-us": {
+    "slug": "buy-a-musical-instrument-day",
+    "urlDate": "05-22"
+  },
+  "anv-fixed-05-22-maritime-day-us": {
+    "slug": "maritime-day",
+    "urlDate": "05-22"
+  },
+  "anv-fixed-05-22-vanilla-pudding-day-us": {
+    "slug": "vanilla-pudding-day",
+    "urlDate": "05-22"
+  },
+  "anv-fixed-05-22-world-goth-day": {
+    "slug": "world-goth-day",
+    "urlDate": "05-22"
+  },
+  "anv-fixed-05-23-lucky-penny-day-us": {
+    "slug": "lucky-penny-day",
+    "urlDate": "05-23"
+  },
+  "anv-fixed-05-23-taffy-day-us": {
+    "slug": "taffy-day",
+    "urlDate": "05-23"
+  },
+  "anv-fixed-05-24-escargot-day-us": {
+    "slug": "escargot-day",
+    "urlDate": "05-24"
+  },
+  "anv-fixed-05-24-scavenger-hunt-day-us": {
+    "slug": "scavenger-hunt-day",
+    "urlDate": "05-24"
+  },
+  "anv-fixed-05-25-brown-bag-it-day-us": {
+    "slug": "brown-bag-it-day",
+    "urlDate": "05-25"
+  },
+  "anv-fixed-05-25-missing-childrens-day-us": {
+    "slug": "missing-childrens-day",
+    "urlDate": "05-25"
+  },
+  "anv-fixed-05-25-senior-health-fitness-day-us": {
+    "slug": "senior-health-fitness-day",
+    "urlDate": "05-25"
+  },
+  "anv-fixed-05-25-tap-dance-day-us": {
+    "slug": "tap-dance-day",
+    "urlDate": "05-25"
+  },
+  "anv-fixed-05-25-towel-day": {
+    "slug": "towel-day",
+    "urlDate": "05-25"
+  },
+  "anv-fixed-05-25-wine-day-us": {
+    "slug": "wine-day",
+    "urlDate": "05-25"
+  },
+  "anv-fixed-05-26-blueberry-cheesecake-day-us": {
+    "slug": "blueberry-cheesecake-day",
+    "urlDate": "05-26"
+  },
+  "anv-fixed-05-27-cellophane-tape-day-us": {
+    "slug": "cellophane-tape-day",
+    "urlDate": "05-27"
+  },
+  "anv-fixed-05-27-dont-fry-day-us": {
+    "slug": "dont-fry-day",
+    "urlDate": "05-27"
+  },
+  "anv-fixed-05-27-grape-popsicle-day-us": {
+    "slug": "grape-popsicle-day",
+    "urlDate": "05-27"
+  },
+  "anv-fixed-05-27-heat-awareness-day-us": {
+    "slug": "heat-awareness-day",
+    "urlDate": "05-27"
+  },
+  "anv-fixed-05-28-brisket-day-us": {
+    "slug": "brisket-day",
+    "urlDate": "05-28"
+  },
+  "anv-fixed-05-28-world-hamburger-day": {
+    "slug": "world-hamburger-day",
+    "urlDate": "05-28"
+  },
+  "anv-fixed-05-29-coq-au-vin-day-us": {
+    "slug": "coq-au-vin-day",
+    "urlDate": "05-29"
+  },
+  "anv-fixed-05-29-everest-first-summit": {
+    "slug": "everest-first-summit",
+    "urlDate": "05-29"
+  },
+  "anv-fixed-05-29-paperclip-day-us": {
+    "slug": "paperclip-day",
+    "urlDate": "05-29"
+  },
+  "anv-fixed-05-30-hole-in-my-bucket-day-us": {
+    "slug": "hole-in-my-bucket-day",
+    "urlDate": "05-30"
+  },
+  "anv-fixed-05-30-mint-julep-day-us": {
+    "slug": "mint-julep-day",
+    "urlDate": "05-30"
+  },
+  "anv-fixed-05-30-water-a-flower-day-us": {
+    "slug": "water-a-flower-day",
+    "urlDate": "05-30"
+  },
+  "anv-fixed-05-31-macaroon-day-us": {
+    "slug": "macaroon-day",
+    "urlDate": "05-31"
+  },
+  "anv-fixed-05-31-save-your-hearing-day-us": {
+    "slug": "save-your-hearing-day",
+    "urlDate": "05-31"
+  },
+  "anv-fixed-05-31-speak-in-sentences-day-us": {
+    "slug": "speak-in-sentences-day",
+    "urlDate": "05-31"
+  },
+  "anv-fixed-05-31-world-no-tobacco-day-global": {
+    "slug": "world-no-tobacco-day",
+    "urlDate": "05-31"
+  },
+  "anv-fixed-06-01-go-barefoot-day-us": {
+    "slug": "go-barefoot-day",
+    "urlDate": "06-01"
+  },
+  "anv-fixed-06-01-hazelnut-cake-day-us": {
+    "slug": "hazelnut-cake-day",
+    "urlDate": "06-01"
+  },
+  "anv-fixed-06-01-heimlich-maneuver-day-us": {
+    "slug": "heimlich-maneuver-day",
+    "urlDate": "06-01"
+  },
+  "anv-fixed-06-01-olive-day-us": {
+    "slug": "olive-day",
+    "urlDate": "06-01"
+  },
+  "anv-fixed-06-01-penpal-day-us": {
+    "slug": "penpal-day",
+    "urlDate": "06-01"
+  },
+  "anv-fixed-06-01-say-something-nice-day-us": {
+    "slug": "say-something-nice-day",
+    "urlDate": "06-01"
+  },
+  "anv-fixed-06-02-bubba-day-us": {
+    "slug": "bubba-day",
+    "urlDate": "06-02"
+  },
+  "anv-fixed-06-02-leave-the-office-early-day-us": {
+    "slug": "leave-the-office-early-day",
+    "urlDate": "06-02"
+  },
+  "anv-fixed-06-02-rocky-road-day-us": {
+    "slug": "rocky-road-day",
+    "urlDate": "06-02"
+  },
+  "anv-fixed-06-02-rotisserie-chicken-day-us": {
+    "slug": "rotisserie-chicken-day",
+    "urlDate": "06-02"
+  },
+  "anv-fixed-06-03-chocolate-macaroons-day-us": {
+    "slug": "chocolate-macaroons-day",
+    "urlDate": "06-03"
+  },
+  "anv-fixed-06-03-repeat-day-us": {
+    "slug": "repeat-day",
+    "urlDate": "06-03"
+  },
+  "anv-fixed-06-03-running-day-us": {
+    "slug": "running-day",
+    "urlDate": "06-03"
+  },
+  "anv-fixed-06-04-cheese-day-us": {
+    "slug": "cheese-day",
+    "urlDate": "06-04"
+  },
+  "anv-fixed-06-04-cognac-day-us": {
+    "slug": "cognac-day",
+    "urlDate": "06-04"
+  },
+  "anv-fixed-06-04-old-maids-day-us": {
+    "slug": "old-maids-day",
+    "urlDate": "06-04"
+  },
+  "anv-fixed-06-05-doughnut-day-us": {
+    "slug": "doughnut-day",
+    "urlDate": "06-05"
+  },
+  "anv-fixed-06-05-gingerbread-day-us": {
+    "slug": "gingerbread-day",
+    "urlDate": "06-05"
+  },
+  "anv-fixed-06-05-moonshine-day-us": {
+    "slug": "moonshine-day",
+    "urlDate": "06-05"
+  },
+  "anv-fixed-06-05-world-environment-day": {
+    "slug": "world-environment-day",
+    "urlDate": "06-05"
+  },
+  "anv-fixed-06-06-applesauce-cake-day-us": {
+    "slug": "applesauce-cake-day",
+    "urlDate": "06-06"
+  },
+  "anv-fixed-06-06-drive-in-movie-day-us": {
+    "slug": "drive-in-movie-day",
+    "urlDate": "06-06"
+  },
+  "anv-fixed-06-06-gardening-exercise-day-us": {
+    "slug": "gardening-exercise-day",
+    "urlDate": "06-06"
+  },
+  "anv-fixed-06-06-higher-education-day-us": {
+    "slug": "higher-education-day",
+    "urlDate": "06-06"
+  },
+  "anv-fixed-06-06-memorial-day-kr": {
+    "slug": "memorial-day",
+    "urlDate": "06-06"
+  },
+  "anv-fixed-06-06-yo-yo-day-us": {
+    "slug": "yo-yo-day",
+    "urlDate": "06-06"
+  },
+  "anv-fixed-06-07-chocolate-ice-cream-day-us": {
+    "slug": "chocolate-ice-cream-day",
+    "urlDate": "06-07"
+  },
+  "anv-fixed-06-07-vcr-day-us": {
+    "slug": "vcr-day",
+    "urlDate": "06-07"
+  },
+  "anv-fixed-06-08-best-friends-day-us": {
+    "slug": "best-friends-day",
+    "urlDate": "06-08"
+  },
+  "anv-fixed-06-08-name-your-poison-day-us": {
+    "slug": "name-your-poison-day",
+    "urlDate": "06-08"
+  },
+  "anv-fixed-06-08-upsy-daisy-day-us": {
+    "slug": "upsy-daisy-day",
+    "urlDate": "06-08"
+  },
+  "anv-fixed-06-09-donald-duck-day-us": {
+    "slug": "donald-duck-day",
+    "urlDate": "06-09"
+  },
+  "anv-fixed-06-09-strawberry-rhubarb-pie-day-us": {
+    "slug": "strawberry-rhubarb-pie-day",
+    "urlDate": "06-09"
+  },
+  "anv-fixed-06-10-ballpoint-pen-day-us": {
+    "slug": "ballpoint-pen-day",
+    "urlDate": "06-10"
+  },
+  "anv-fixed-06-10-black-cow-day-us": {
+    "slug": "black-cow-day",
+    "urlDate": "06-10"
+  },
+  "anv-fixed-06-10-herbs-and-spices-day-us": {
+    "slug": "herbs-and-spices-day",
+    "urlDate": "06-10"
+  },
+  "anv-fixed-06-10-iced-tea-day-us": {
+    "slug": "iced-tea-day",
+    "urlDate": "06-10"
+  },
+  "anv-fixed-06-11-career-nurse-assistants-day-us": {
+    "slug": "career-nurse-assistants-day",
+    "urlDate": "06-11"
+  },
+  "anv-fixed-06-11-corn-on-the-cob-day-us": {
+    "slug": "corn-on-the-cob-day",
+    "urlDate": "06-11"
+  },
+  "anv-fixed-06-11-german-chocolate-cake-day-us": {
+    "slug": "german-chocolate-cake-day",
+    "urlDate": "06-11"
+  },
+  "anv-fixed-06-11-making-life-beautiful-day-us": {
+    "slug": "making-life-beautiful-day",
+    "urlDate": "06-11"
+  },
+  "anv-fixed-06-12-jerky-day-us": {
+    "slug": "jerky-day",
+    "urlDate": "06-12"
+  },
+  "anv-fixed-06-12-loving-day-global": {
+    "slug": "loving-day",
+    "urlDate": "06-12"
+  },
+  "anv-fixed-06-12-peanut-butter-cookie-day-us": {
+    "slug": "peanut-butter-cookie-day",
+    "urlDate": "06-12"
+  },
+  "anv-fixed-06-12-red-rose-day-us": {
+    "slug": "red-rose-day",
+    "urlDate": "06-12"
+  },
+  "anv-fixed-06-13-kitchen-klutzes-day-us": {
+    "slug": "kitchen-klutzes-day",
+    "urlDate": "06-13"
+  },
+  "anv-fixed-06-13-rose-day-us": {
+    "slug": "rose-day",
+    "urlDate": "06-13"
+  },
+  "anv-fixed-06-13-sewing-machine-day-us": {
+    "slug": "sewing-machine-day",
+    "urlDate": "06-13"
+  },
+  "anv-fixed-06-13-weed-your-garden-day-us": {
+    "slug": "weed-your-garden-day",
+    "urlDate": "06-13"
+  },
+  "anv-fixed-06-14-bourbon-day-us": {
+    "slug": "bourbon-day",
+    "urlDate": "06-14"
+  },
+  "anv-fixed-06-14-flag-day-us": {
+    "slug": "flag-day",
+    "urlDate": "06-14"
+  },
+  "anv-fixed-06-14-kiss-day-kr": {
+    "slug": "kiss-day",
+    "urlDate": "06-14"
+  },
+  "anv-fixed-06-14-pop-goes-the-weasel-day-us": {
+    "slug": "pop-goes-the-weasel-day",
+    "urlDate": "06-14"
+  },
+  "anv-fixed-06-14-strawberry-shortcake-day-us": {
+    "slug": "strawberry-shortcake-day",
+    "urlDate": "06-14"
+  },
+  "anv-fixed-06-14-world-blood-donor-day-global": {
+    "slug": "world-blood-donor-day",
+    "urlDate": "06-14"
+  },
+  "anv-fixed-06-15-lobster-day-us": {
+    "slug": "lobster-day",
+    "urlDate": "06-15"
+  },
+  "anv-fixed-06-15-nature-photography-day-global": {
+    "slug": "nature-photography-day",
+    "urlDate": "06-15"
+  },
+  "anv-fixed-06-15-smile-power-day-us": {
+    "slug": "smile-power-day",
+    "urlDate": "06-15"
+  },
+  "anv-fixed-06-16-fudge-day-us": {
+    "slug": "fudge-day",
+    "urlDate": "06-16"
+  },
+  "anv-fixed-06-17-apple-strudel-day-us": {
+    "slug": "apple-strudel-day",
+    "urlDate": "06-17"
+  },
+  "anv-fixed-06-17-cherry-tart-day-us": {
+    "slug": "cherry-tart-day",
+    "urlDate": "06-17"
+  },
+  "anv-fixed-06-17-eat-your-vegetables-day-us": {
+    "slug": "eat-your-vegetables-day",
+    "urlDate": "06-17"
+  },
+  "anv-fixed-06-17-root-beer-day-us": {
+    "slug": "root-beer-day",
+    "urlDate": "06-17"
+  },
+  "anv-fixed-06-18-dump-the-pump-day-us": {
+    "slug": "dump-the-pump-day",
+    "urlDate": "06-18"
+  },
+  "anv-fixed-06-18-go-fishing-day-us": {
+    "slug": "go-fishing-day",
+    "urlDate": "06-18"
+  },
+  "anv-fixed-06-18-splurge-day-us": {
+    "slug": "splurge-day",
+    "urlDate": "06-18"
+  },
+  "anv-fixed-06-19-flip-flop-day-us": {
+    "slug": "flip-flop-day",
+    "urlDate": "06-19"
+  },
+  "anv-fixed-06-19-martini-day-us": {
+    "slug": "martini-day",
+    "urlDate": "06-19"
+  },
+  "anv-fixed-06-20-ice-cream-soda-day-us": {
+    "slug": "ice-cream-soda-day",
+    "urlDate": "06-20"
+  },
+  "anv-fixed-06-20-international-surfing-day-global": {
+    "slug": "international-surfing-day",
+    "urlDate": "06-20"
+  },
+  "anv-fixed-06-20-kouign-amann-day-us": {
+    "slug": "kouign-amann-day",
+    "urlDate": "06-20"
+  },
+  "anv-fixed-06-20-vanilla-milkshake-day-us": {
+    "slug": "vanilla-milkshake-day",
+    "urlDate": "06-20"
+  },
+  "anv-fixed-06-20-world-refugee-day-global": {
+    "slug": "world-refugee-day",
+    "urlDate": "06-20"
+  },
+  "anv-fixed-06-21-daylight-appreciation-day-us": {
+    "slug": "daylight-appreciation-day",
+    "urlDate": "06-21"
+  },
+  "anv-fixed-06-21-go-skateboarding-day-global": {
+    "slug": "go-skateboarding-day",
+    "urlDate": "06-21"
+  },
+  "anv-fixed-06-21-peaches-n-cream-day-us": {
+    "slug": "peaches-n-cream-day",
+    "urlDate": "06-21"
+  },
+  "anv-fixed-06-21-summer-begins-global": {
+    "slug": "summer-begins",
+    "urlDate": "06-21"
+  },
+  "anv-fixed-06-22-chocolate-eclair-day-us": {
+    "slug": "chocolate-eclair-day",
+    "urlDate": "06-22"
+  },
+  "anv-fixed-06-22-onion-rings-day-us": {
+    "slug": "onion-rings-day",
+    "urlDate": "06-22"
+  },
+  "anv-fixed-06-23-pecan-sandies-day-us": {
+    "slug": "pecan-sandies-day",
+    "urlDate": "06-23"
+  },
+  "anv-fixed-06-23-pink-day-us": {
+    "slug": "pink-day",
+    "urlDate": "06-23"
+  },
+  "anv-fixed-06-24-pralines-day-us": {
+    "slug": "pralines-day",
+    "urlDate": "06-24"
+  },
+  "anv-fixed-06-25-bomb-pop-day-us": {
+    "slug": "bomb-pop-day",
+    "urlDate": "06-25"
+  },
+  "anv-fixed-06-25-catfish-day-us": {
+    "slug": "catfish-day",
+    "urlDate": "06-25"
+  },
+  "anv-fixed-06-25-handshake-day-us": {
+    "slug": "handshake-day",
+    "urlDate": "06-25"
+  },
+  "anv-fixed-06-25-leon-day-us": {
+    "slug": "leon-day",
+    "urlDate": "06-25"
+  },
+  "anv-fixed-06-25-strawberry-parfait-day-us": {
+    "slug": "strawberry-parfait-day",
+    "urlDate": "06-25"
+  },
+  "anv-fixed-06-26-beauticians-day-us": {
+    "slug": "beauticians-day",
+    "urlDate": "06-26"
+  },
+  "anv-fixed-06-26-chocolate-pudding-day-us": {
+    "slug": "chocolate-pudding-day",
+    "urlDate": "06-26"
+  },
+  "anv-fixed-06-26-take-your-dog-to-work-day-us": {
+    "slug": "take-your-dog-to-work-day",
+    "urlDate": "06-26"
+  },
+  "anv-fixed-06-27-orange-blossom-day-us": {
+    "slug": "orange-blossom-day",
+    "urlDate": "06-27"
+  },
+  "anv-fixed-06-27-sunglasses-day-us": {
+    "slug": "sunglasses-day",
+    "urlDate": "06-27"
+  },
+  "anv-fixed-06-28-insurance-awareness-day-us": {
+    "slug": "insurance-awareness-day",
+    "urlDate": "06-28"
+  },
+  "anv-fixed-06-28-paul-bunyan-day-us": {
+    "slug": "paul-bunyan-day",
+    "urlDate": "06-28"
+  },
+  "anv-fixed-06-29-almond-buttercrunch-day-us": {
+    "slug": "almond-buttercrunch-day",
+    "urlDate": "06-29"
+  },
+  "anv-fixed-06-29-camera-day-us": {
+    "slug": "camera-day",
+    "urlDate": "06-29"
+  },
+  "anv-fixed-06-29-waffle-iron-day-us": {
+    "slug": "waffle-iron-day",
+    "urlDate": "06-29"
+  },
+  "anv-fixed-06-30-meteor-watch-day-us": {
+    "slug": "meteor-watch-day",
+    "urlDate": "06-30"
+  },
+  "anv-fixed-06-30-social-media-day-global": {
+    "slug": "social-media-day",
+    "urlDate": "06-30"
+  },
+  "anv-fixed-07-01-creative-ice-cream-flavors-day-us": {
+    "slug": "creative-ice-cream-flavors-day",
+    "urlDate": "07-01"
+  },
+  "anv-fixed-07-01-gingersnap-day-us": {
+    "slug": "gingersnap-day",
+    "urlDate": "07-01"
+  },
+  "anv-fixed-07-01-postal-worker-day-us": {
+    "slug": "postal-worker-day",
+    "urlDate": "07-01"
+  },
+  "anv-fixed-07-01-us-postage-stamp-day-us": {
+    "slug": "us-postage-stamp-day",
+    "urlDate": "07-01"
+  },
+  "anv-fixed-07-02-anisette-day-us": {
+    "slug": "anisette-day",
+    "urlDate": "07-02"
+  },
+  "anv-fixed-07-03-chocolate-wafer-day-us": {
+    "slug": "chocolate-wafer-day",
+    "urlDate": "07-03"
+  },
+  "anv-fixed-07-03-eat-your-beans-day-us": {
+    "slug": "eat-your-beans-day",
+    "urlDate": "07-03"
+  },
+  "anv-fixed-07-03-fried-clam-day-us": {
+    "slug": "fried-clam-day",
+    "urlDate": "07-03"
+  },
+  "anv-fixed-07-04-barbecued-spareribs-day-us": {
+    "slug": "barbecued-spareribs-day",
+    "urlDate": "07-04"
+  },
+  "anv-fixed-07-04-caesar-salad-day-us": {
+    "slug": "caesar-salad-day",
+    "urlDate": "07-04"
+  },
+  "anv-fixed-07-04-country-music-day-us": {
+    "slug": "country-music-day",
+    "urlDate": "07-04"
+  },
+  "anv-fixed-07-04-hillbilly-day-us": {
+    "slug": "hillbilly-day",
+    "urlDate": "07-04"
+  },
+  "anv-fixed-07-04-independence-day-us": {
+    "slug": "independence-day",
+    "urlDate": "07-04"
+  },
+  "anv-fixed-07-05-apple-turnover-day-us": {
+    "slug": "apple-turnover-day",
+    "urlDate": "07-05"
+  },
+  "anv-fixed-07-05-bikini-day-us": {
+    "slug": "bikini-day",
+    "urlDate": "07-05"
+  },
+  "anv-fixed-07-05-graham-cracker-day-us": {
+    "slug": "graham-cracker-day",
+    "urlDate": "07-05"
+  },
+  "anv-fixed-07-06-fried-chicken-day-us": {
+    "slug": "fried-chicken-day",
+    "urlDate": "07-06"
+  },
+  "anv-fixed-07-07-father-daughter-take-a-walk-day-us": {
+    "slug": "father-daughter-take-a-walk-day",
+    "urlDate": "07-07"
+  },
+  "anv-fixed-07-07-macaroni-day-us": {
+    "slug": "macaroni-day",
+    "urlDate": "07-07"
+  },
+  "anv-fixed-07-07-strawberry-sundae-day-us": {
+    "slug": "strawberry-sundae-day",
+    "urlDate": "07-07"
+  },
+  "anv-fixed-07-08-chocolate-with-almonds-day-us": {
+    "slug": "chocolate-with-almonds-day",
+    "urlDate": "07-08"
+  },
+  "anv-fixed-07-09-sugar-cookie-day-us": {
+    "slug": "sugar-cookie-day",
+    "urlDate": "07-09"
+  },
+  "anv-fixed-07-10-clerihew-day-us": {
+    "slug": "clerihew-day",
+    "urlDate": "07-10"
+  },
+  "anv-fixed-07-10-collector-car-appreciation-day-us": {
+    "slug": "collector-car-appreciation-day",
+    "urlDate": "07-10"
+  },
+  "anv-fixed-07-10-pina-colada-day-us": {
+    "slug": "pina-colada-day",
+    "urlDate": "07-10"
+  },
+  "anv-fixed-07-11-blueberry-muffin-day-us": {
+    "slug": "blueberry-muffin-day",
+    "urlDate": "07-11"
+  },
+  "anv-fixed-07-11-cheer-up-the-lonely-day-us": {
+    "slug": "cheer-up-the-lonely-day",
+    "urlDate": "07-11"
+  },
+  "anv-fixed-07-11-mojito-day-us": {
+    "slug": "mojito-day",
+    "urlDate": "07-11"
+  },
+  "anv-fixed-07-11-rainier-cherry-day-us": {
+    "slug": "rainier-cherry-day",
+    "urlDate": "07-11"
+  },
+  "anv-fixed-07-11-seven-eleven-day-us": {
+    "slug": "seven-eleven-day",
+    "urlDate": "07-11"
+  },
+  "anv-fixed-07-11-world-population-day-global": {
+    "slug": "world-population-day",
+    "urlDate": "07-11"
+  },
+  "anv-fixed-07-12-different-colored-eyes-day-us": {
+    "slug": "different-colored-eyes-day",
+    "urlDate": "07-12"
+  },
+  "anv-fixed-07-12-eat-your-jello-day-us": {
+    "slug": "eat-your-jello-day",
+    "urlDate": "07-12"
+  },
+  "anv-fixed-07-12-paper-bag-day-global": {
+    "slug": "paper-bag-day",
+    "urlDate": "07-12"
+  },
+  "anv-fixed-07-12-pecan-pie-day-us": {
+    "slug": "pecan-pie-day",
+    "urlDate": "07-12"
+  },
+  "anv-fixed-07-12-simplicity-day-us": {
+    "slug": "simplicity-day",
+    "urlDate": "07-12"
+  },
+  "anv-fixed-07-13-beans-n-franks-day-us": {
+    "slug": "beans-n-franks-day",
+    "urlDate": "07-13"
+  },
+  "anv-fixed-07-13-french-fry-day-us": {
+    "slug": "french-fry-day",
+    "urlDate": "07-13"
+  },
+  "anv-fixed-07-14-grand-marnier-day-us": {
+    "slug": "grand-marnier-day",
+    "urlDate": "07-14"
+  },
+  "anv-fixed-07-14-nude-day-us": {
+    "slug": "nude-day",
+    "urlDate": "07-14"
+  },
+  "anv-fixed-07-14-tape-measure-day-us": {
+    "slug": "tape-measure-day",
+    "urlDate": "07-14"
+  },
+  "anv-fixed-07-15-give-something-away-day-us": {
+    "slug": "give-something-away-day",
+    "urlDate": "07-15"
+  },
+  "anv-fixed-07-15-i-love-horses-day-us": {
+    "slug": "i-love-horses-day",
+    "urlDate": "07-15"
+  },
+  "anv-fixed-07-15-pet-fire-safety-day-us": {
+    "slug": "pet-fire-safety-day",
+    "urlDate": "07-15"
+  },
+  "anv-fixed-07-15-tapioca-pudding-day-us": {
+    "slug": "tapioca-pudding-day",
+    "urlDate": "07-15"
+  },
+  "anv-fixed-07-16-corn-fritters-day-us": {
+    "slug": "corn-fritters-day",
+    "urlDate": "07-16"
+  },
+  "anv-fixed-07-16-personal-chefs-day-us": {
+    "slug": "personal-chefs-day",
+    "urlDate": "07-16"
+  },
+  "anv-fixed-07-17-peach-ice-cream-day-us": {
+    "slug": "peach-ice-cream-day",
+    "urlDate": "07-17"
+  },
+  "anv-fixed-07-17-wrong-way-corrigan-day-us": {
+    "slug": "wrong-way-corrigan-day",
+    "urlDate": "07-17"
+  },
+  "anv-fixed-07-17-yellow-pig-day-us": {
+    "slug": "yellow-pig-day",
+    "urlDate": "07-17"
+  },
+  "anv-fixed-07-18-caviar-day-us": {
+    "slug": "caviar-day",
+    "urlDate": "07-18"
+  },
+  "anv-fixed-07-18-strawberry-rhubarb-wine-day-us": {
+    "slug": "strawberry-rhubarb-wine-day",
+    "urlDate": "07-18"
+  },
+  "anv-fixed-07-18-toss-away-the-could-haves-and-should-haves-day-us": {
+    "slug": "toss-away-the-could-haves-and-should-haves-day",
+    "urlDate": "07-18"
+  },
+  "anv-fixed-07-18-woodie-wagon-day-us": {
+    "slug": "woodie-wagon-day",
+    "urlDate": "07-18"
+  },
+  "anv-fixed-07-19-daiquiri-day-us": {
+    "slug": "daiquiri-day",
+    "urlDate": "07-19"
+  },
+  "anv-fixed-07-20-get-out-of-the-dog-house-day-us": {
+    "slug": "get-out-of-the-dog-house-day",
+    "urlDate": "07-20"
+  },
+  "anv-fixed-07-20-lollipop-day-us": {
+    "slug": "lollipop-day",
+    "urlDate": "07-20"
+  },
+  "anv-fixed-07-21-junk-food-day-us": {
+    "slug": "junk-food-day",
+    "urlDate": "07-21"
+  },
+  "anv-fixed-07-22-hammock-day-us": {
+    "slug": "hammock-day",
+    "urlDate": "07-22"
+  },
+  "anv-fixed-07-22-penuche-fudge-day-us": {
+    "slug": "penuche-fudge-day",
+    "urlDate": "07-22"
+  },
+  "anv-fixed-07-22-rat-catchers-day-us": {
+    "slug": "rat-catchers-day",
+    "urlDate": "07-22"
+  },
+  "anv-fixed-07-23-refreshment-day-us": {
+    "slug": "refreshment-day",
+    "urlDate": "07-23"
+  },
+  "anv-fixed-07-23-vanilla-ice-cream-day-us": {
+    "slug": "vanilla-ice-cream-day",
+    "urlDate": "07-23"
+  },
+  "anv-fixed-07-24-cousins-day-us": {
+    "slug": "cousins-day",
+    "urlDate": "07-24"
+  },
+  "anv-fixed-07-24-drive-thru-day-us": {
+    "slug": "drive-thru-day",
+    "urlDate": "07-24"
+  },
+  "anv-fixed-07-24-tequila-day-us": {
+    "slug": "tequila-day",
+    "urlDate": "07-24"
+  },
+  "anv-fixed-07-24-thermal-engineer-day-us": {
+    "slug": "thermal-engineer-day",
+    "urlDate": "07-24"
+  },
+  "anv-fixed-07-25-culinarians-day-us": {
+    "slug": "culinarians-day",
+    "urlDate": "07-25"
+  },
+  "anv-fixed-07-25-day-of-the-cowboy-us": {
+    "slug": "day-of-the-cowboy",
+    "urlDate": "07-25"
+  },
+  "anv-fixed-07-25-hot-fudge-sundae-day-us": {
+    "slug": "hot-fudge-sundae-day",
+    "urlDate": "07-25"
+  },
+  "anv-fixed-07-25-merry-go-round-day-us": {
+    "slug": "merry-go-round-day",
+    "urlDate": "07-25"
+  },
+  "anv-fixed-07-25-threading-the-needle-day-us": {
+    "slug": "threading-the-needle-day",
+    "urlDate": "07-25"
+  },
+  "anv-fixed-07-26-aunt-and-uncles-day-us": {
+    "slug": "aunt-and-uncles-day",
+    "urlDate": "07-26"
+  },
+  "anv-fixed-07-26-bagelfest-day-us": {
+    "slug": "bagelfest-day",
+    "urlDate": "07-26"
+  },
+  "anv-fixed-07-26-coffee-milkshake-day-us": {
+    "slug": "coffee-milkshake-day",
+    "urlDate": "07-26"
+  },
+  "anv-fixed-07-27-creme-brulee-day-us": {
+    "slug": "creme-brulee-day",
+    "urlDate": "07-27"
+  },
+  "anv-fixed-07-27-scotch-day-us": {
+    "slug": "scotch-day",
+    "urlDate": "07-27"
+  },
+  "anv-fixed-07-28-milk-chocolate-day-us": {
+    "slug": "milk-chocolate-day",
+    "urlDate": "07-28"
+  },
+  "anv-fixed-07-29-chicken-wing-day-us": {
+    "slug": "chicken-wing-day",
+    "urlDate": "07-29"
+  },
+  "anv-fixed-07-29-lasagna-day-us": {
+    "slug": "lasagna-day",
+    "urlDate": "07-29"
+  },
+  "anv-fixed-07-30-cheesecake-day-us": {
+    "slug": "cheesecake-day",
+    "urlDate": "07-30"
+  },
+  "anv-fixed-07-30-chili-dog-day-us": {
+    "slug": "chili-dog-day",
+    "urlDate": "07-30"
+  },
+  "anv-fixed-07-30-father-in-law-day-us": {
+    "slug": "father-in-law-day",
+    "urlDate": "07-30"
+  },
+  "anv-fixed-07-31-mutt-day-us": {
+    "slug": "mutt-day",
+    "urlDate": "07-31"
+  },
+  "anv-fixed-07-31-raspberry-cake-day-us": {
+    "slug": "raspberry-cake-day",
+    "urlDate": "07-31"
+  },
+  "anv-fixed-07-31-talk-in-an-elevator-day-us": {
+    "slug": "talk-in-an-elevator-day",
+    "urlDate": "07-31"
+  },
+  "anv-fixed-08-01-girlfriends-day-us": {
+    "slug": "girlfriends-day",
+    "urlDate": "08-01"
+  },
+  "anv-fixed-08-01-jamaican-patty-day-us": {
+    "slug": "jamaican-patty-day",
+    "urlDate": "08-01"
+  },
+  "anv-fixed-08-01-mead-day-global": {
+    "slug": "mead-day",
+    "urlDate": "08-01"
+  },
+  "anv-fixed-08-01-minority-donor-awareness-day-us": {
+    "slug": "minority-donor-awareness-day",
+    "urlDate": "08-01"
+  },
+  "anv-fixed-08-01-mustard-day-us": {
+    "slug": "mustard-day",
+    "urlDate": "08-01"
+  },
+  "anv-fixed-08-01-raspberry-cream-pie-day-us": {
+    "slug": "raspberry-cream-pie-day",
+    "urlDate": "08-01"
+  },
+  "anv-fixed-08-01-respect-for-parents-day-global": {
+    "slug": "respect-for-parents-day",
+    "urlDate": "08-01"
+  },
+  "anv-fixed-08-02-coloring-book-day-us": {
+    "slug": "coloring-book-day",
+    "urlDate": "08-02"
+  },
+  "anv-fixed-08-02-friendship-day-us": {
+    "slug": "friendship-day",
+    "urlDate": "08-02"
+  },
+  "anv-fixed-08-02-ice-cream-sandwich-day-us": {
+    "slug": "ice-cream-sandwich-day",
+    "urlDate": "08-02"
+  },
+  "anv-fixed-08-02-kids-day-global": {
+    "slug": "kids-day",
+    "urlDate": "08-02"
+  },
+  "anv-fixed-08-02-sisters-day-us": {
+    "slug": "sisters-day",
+    "urlDate": "08-02"
+  },
+  "anv-fixed-08-03-grab-some-nuts-day-us": {
+    "slug": "grab-some-nuts-day",
+    "urlDate": "08-03"
+  },
+  "anv-fixed-08-03-watermelon-day-us": {
+    "slug": "watermelon-day",
+    "urlDate": "08-03"
+  },
+  "anv-fixed-08-04-coast-guard-day-us": {
+    "slug": "coast-guard-day",
+    "urlDate": "08-04"
+  },
+  "anv-fixed-08-04-night-out-day-us": {
+    "slug": "night-out-day",
+    "urlDate": "08-04"
+  },
+  "anv-fixed-08-05-oyster-day-us": {
+    "slug": "oyster-day",
+    "urlDate": "08-05"
+  },
+  "anv-fixed-08-05-underwear-day-us": {
+    "slug": "underwear-day",
+    "urlDate": "08-05"
+  },
+  "anv-fixed-08-06-fresh-breath-day-us": {
+    "slug": "fresh-breath-day",
+    "urlDate": "08-06"
+  },
+  "anv-fixed-08-06-root-beer-float-day-us": {
+    "slug": "root-beer-float-day",
+    "urlDate": "08-06"
+  },
+  "anv-fixed-08-06-wiggle-your-toes-day-us": {
+    "slug": "wiggle-your-toes-day",
+    "urlDate": "08-06"
+  },
+  "anv-fixed-08-07-lighthouse-day-us": {
+    "slug": "lighthouse-day",
+    "urlDate": "08-07"
+  },
+  "anv-fixed-08-07-raspberries-n-cream-day-us": {
+    "slug": "raspberries-n-cream-day",
+    "urlDate": "08-07"
+  },
+  "anv-fixed-08-08-bowling-day-us": {
+    "slug": "bowling-day",
+    "urlDate": "08-08"
+  },
+  "anv-fixed-08-08-dollar-day-us": {
+    "slug": "dollar-day",
+    "urlDate": "08-08"
+  },
+  "anv-fixed-08-08-frozen-custard-day-us": {
+    "slug": "frozen-custard-day",
+    "urlDate": "08-08"
+  },
+  "anv-fixed-08-08-garage-sale-day-us": {
+    "slug": "garage-sale-day",
+    "urlDate": "08-08"
+  },
+  "anv-fixed-08-08-happiness-happens-day-us": {
+    "slug": "happiness-happens-day",
+    "urlDate": "08-08"
+  },
+  "anv-fixed-08-08-sneak-zucchini-day-us": {
+    "slug": "sneak-zucchini-day",
+    "urlDate": "08-08"
+  },
+  "anv-fixed-08-09-book-lovers-day-us": {
+    "slug": "book-lovers-day",
+    "urlDate": "08-09"
+  },
+  "anv-fixed-08-09-honda-day-global": {
+    "slug": "honda-day",
+    "urlDate": "08-09"
+  },
+  "anv-fixed-08-09-rice-pudding-day-us": {
+    "slug": "rice-pudding-day",
+    "urlDate": "08-09"
+  },
+  "anv-fixed-08-09-veep-day-us": {
+    "slug": "veep-day",
+    "urlDate": "08-09"
+  },
+  "anv-fixed-08-10-lazy-day-us": {
+    "slug": "lazy-day",
+    "urlDate": "08-10"
+  },
+  "anv-fixed-08-10-smores-day-us": {
+    "slug": "smores-day",
+    "urlDate": "08-10"
+  },
+  "anv-fixed-08-11-presidential-joke-day-us": {
+    "slug": "presidential-joke-day",
+    "urlDate": "08-11"
+  },
+  "anv-fixed-08-11-raspberry-bombe-day-us": {
+    "slug": "raspberry-bombe-day",
+    "urlDate": "08-11"
+  },
+  "anv-fixed-08-11-sons-and-daughters-day-us": {
+    "slug": "sons-and-daughters-day",
+    "urlDate": "08-11"
+  },
+  "anv-fixed-08-12-international-youth-day-global": {
+    "slug": "international-youth-day",
+    "urlDate": "08-12"
+  },
+  "anv-fixed-08-12-julienne-fries-day-us": {
+    "slug": "julienne-fries-day",
+    "urlDate": "08-12"
+  },
+  "anv-fixed-08-12-middle-child-day-us": {
+    "slug": "middle-child-day",
+    "urlDate": "08-12"
+  },
+  "anv-fixed-08-12-vinyl-record-day-us": {
+    "slug": "vinyl-record-day",
+    "urlDate": "08-12"
+  },
+  "anv-fixed-08-13-filet-mignon-day-us": {
+    "slug": "filet-mignon-day",
+    "urlDate": "08-13"
+  },
+  "anv-fixed-08-13-international-lefthanders-day-global": {
+    "slug": "international-lefthanders-day",
+    "urlDate": "08-13"
+  },
+  "anv-fixed-08-14-creamsicle-day-us": {
+    "slug": "creamsicle-day",
+    "urlDate": "08-14"
+  },
+  "anv-fixed-08-15-lemon-meringue-pie-day-us": {
+    "slug": "lemon-meringue-pie-day",
+    "urlDate": "08-15"
+  },
+  "anv-fixed-08-15-liberation-day-kr": {
+    "slug": "liberation-day",
+    "urlDate": "08-15"
+  },
+  "anv-fixed-08-15-relaxation-day-us": {
+    "slug": "relaxation-day",
+    "urlDate": "08-15"
+  },
+  "anv-fixed-08-15-vj-day-global": {
+    "slug": "vj-day",
+    "urlDate": "08-15"
+  },
+  "anv-fixed-08-16-airborne-day-us": {
+    "slug": "airborne-day",
+    "urlDate": "08-16"
+  },
+  "anv-fixed-08-16-roller-coaster-day-us": {
+    "slug": "roller-coaster-day",
+    "urlDate": "08-16"
+  },
+  "anv-fixed-08-16-rum-day-us": {
+    "slug": "rum-day",
+    "urlDate": "08-16"
+  },
+  "anv-fixed-08-16-tell-a-joke-day-us": {
+    "slug": "tell-a-joke-day",
+    "urlDate": "08-16"
+  },
+  "anv-fixed-08-17-thrift-shop-day-us": {
+    "slug": "thrift-shop-day",
+    "urlDate": "08-17"
+  },
+  "anv-fixed-08-18-ice-cream-pie-day-us": {
+    "slug": "ice-cream-pie-day",
+    "urlDate": "08-18"
+  },
+  "anv-fixed-08-18-mail-order-catalog-day-us": {
+    "slug": "mail-order-catalog-day",
+    "urlDate": "08-18"
+  },
+  "anv-fixed-08-19-aviation-day-us": {
+    "slug": "aviation-day",
+    "urlDate": "08-19"
+  },
+  "anv-fixed-08-19-soft-ice-cream-day-us": {
+    "slug": "soft-ice-cream-day",
+    "urlDate": "08-19"
+  },
+  "anv-fixed-08-20-chocolate-pecan-pie-day-us": {
+    "slug": "chocolate-pecan-pie-day",
+    "urlDate": "08-20"
+  },
+  "anv-fixed-08-20-lemonade-day-us": {
+    "slug": "lemonade-day",
+    "urlDate": "08-20"
+  },
+  "anv-fixed-08-20-radio-day-us": {
+    "slug": "radio-day",
+    "urlDate": "08-20"
+  },
+  "anv-fixed-08-21-brazilian-blowout-day-us": {
+    "slug": "brazilian-blowout-day",
+    "urlDate": "08-21"
+  },
+  "anv-fixed-08-21-senior-citizens-day-us": {
+    "slug": "senior-citizens-day",
+    "urlDate": "08-21"
+  },
+  "anv-fixed-08-21-spumoni-day-us": {
+    "slug": "spumoni-day",
+    "urlDate": "08-21"
+  },
+  "anv-fixed-08-22-pecan-torte-day-us": {
+    "slug": "pecan-torte-day",
+    "urlDate": "08-22"
+  },
+  "anv-fixed-08-22-tooth-fairy-day-us": {
+    "slug": "tooth-fairy-day",
+    "urlDate": "08-22"
+  },
+  "anv-fixed-08-23-ride-with-the-wind-day-us": {
+    "slug": "ride-with-the-wind-day",
+    "urlDate": "08-23"
+  },
+  "anv-fixed-08-23-sponge-cake-day-us": {
+    "slug": "sponge-cake-day",
+    "urlDate": "08-23"
+  },
+  "anv-fixed-08-24-peach-pie-day-us": {
+    "slug": "peach-pie-day",
+    "urlDate": "08-24"
+  },
+  "anv-fixed-08-24-waffle-day-us": {
+    "slug": "waffle-day",
+    "urlDate": "08-24"
+  },
+  "anv-fixed-08-25-banana-split-day-us": {
+    "slug": "banana-split-day",
+    "urlDate": "08-25"
+  },
+  "anv-fixed-08-25-kiss-and-make-up-day-us": {
+    "slug": "kiss-and-make-up-day",
+    "urlDate": "08-25"
+  },
+  "anv-fixed-08-25-secondhand-wardrobe-day-us": {
+    "slug": "secondhand-wardrobe-day",
+    "urlDate": "08-25"
+  },
+  "anv-fixed-08-25-whiskey-sour-day-us": {
+    "slug": "whiskey-sour-day",
+    "urlDate": "08-25"
+  },
+  "anv-fixed-08-26-cherry-popsicle-day-us": {
+    "slug": "cherry-popsicle-day",
+    "urlDate": "08-26"
+  },
+  "anv-fixed-08-26-dog-day-global": {
+    "slug": "dog-day",
+    "urlDate": "08-26"
+  },
+  "anv-fixed-08-26-womens-equality-day-us": {
+    "slug": "womens-equality-day",
+    "urlDate": "08-26"
+  },
+  "anv-fixed-08-27-just-because-day-us": {
+    "slug": "just-because-day",
+    "urlDate": "08-27"
+  },
+  "anv-fixed-08-27-pots-de-creme-day-us": {
+    "slug": "pots-de-creme-day",
+    "urlDate": "08-27"
+  },
+  "anv-fixed-08-28-cherry-turnovers-day-us": {
+    "slug": "cherry-turnovers-day",
+    "urlDate": "08-28"
+  },
+  "anv-fixed-08-28-college-colors-day-us": {
+    "slug": "college-colors-day",
+    "urlDate": "08-28"
+  },
+  "anv-fixed-08-29-chop-suey-day-us": {
+    "slug": "chop-suey-day",
+    "urlDate": "08-29"
+  },
+  "anv-fixed-08-30-toasted-marshmallow-day-us": {
+    "slug": "toasted-marshmallow-day",
+    "urlDate": "08-30"
+  },
+  "anv-fixed-08-31-trail-mix-day-us": {
+    "slug": "trail-mix-day",
+    "urlDate": "08-31"
+  },
+  "anv-fixed-09-01-chicken-boys-day-us": {
+    "slug": "chicken-boys-day",
+    "urlDate": "09-01"
+  },
+  "anv-fixed-09-01-no-rhyme-nor-reason-day-us": {
+    "slug": "no-rhyme-nor-reason-day",
+    "urlDate": "09-01"
+  },
+  "anv-fixed-09-02-blueberry-popsicle-day-us": {
+    "slug": "blueberry-popsicle-day",
+    "urlDate": "09-02"
+  },
+  "anv-fixed-09-03-welsh-rarebit-day-us": {
+    "slug": "welsh-rarebit-day",
+    "urlDate": "09-03"
+  },
+  "anv-fixed-09-04-hug-your-boss-day-us": {
+    "slug": "hug-your-boss-day",
+    "urlDate": "09-04"
+  },
+  "anv-fixed-09-04-lazy-moms-day-us": {
+    "slug": "lazy-moms-day",
+    "urlDate": "09-04"
+  },
+  "anv-fixed-09-04-macadamia-nut-day-us": {
+    "slug": "macadamia-nut-day",
+    "urlDate": "09-04"
+  },
+  "anv-fixed-09-04-newspaper-carrier-day-us": {
+    "slug": "newspaper-carrier-day",
+    "urlDate": "09-04"
+  },
+  "anv-fixed-09-04-wildlife-day-us": {
+    "slug": "wildlife-day",
+    "urlDate": "09-04"
+  },
+  "anv-fixed-09-05-cheese-pizza-day-us": {
+    "slug": "cheese-pizza-day",
+    "urlDate": "09-05"
+  },
+  "anv-fixed-09-05-international-bacon-day-global": {
+    "slug": "international-bacon-day",
+    "urlDate": "09-05"
+  },
+  "anv-fixed-09-06-coffee-ice-cream-day-us": {
+    "slug": "coffee-ice-cream-day",
+    "urlDate": "09-06"
+  },
+  "anv-fixed-09-06-read-a-book-day-us": {
+    "slug": "read-a-book-day",
+    "urlDate": "09-06"
+  },
+  "anv-fixed-09-07-acorn-squash-day-us": {
+    "slug": "acorn-squash-day",
+    "urlDate": "09-07"
+  },
+  "anv-fixed-09-07-grandma-moses-day-us": {
+    "slug": "grandma-moses-day",
+    "urlDate": "09-07"
+  },
+  "anv-fixed-09-07-neither-snow-nor-rain-day-us": {
+    "slug": "neither-snow-nor-rain-day",
+    "urlDate": "09-07"
+  },
+  "anv-fixed-09-07-salami-day-us": {
+    "slug": "salami-day",
+    "urlDate": "09-07"
+  },
+  "anv-fixed-09-08-another-look-unlimited-day-us": {
+    "slug": "another-look-unlimited-day",
+    "urlDate": "09-08"
+  },
+  "anv-fixed-09-08-ants-on-a-log-day-us": {
+    "slug": "ants-on-a-log-day",
+    "urlDate": "09-08"
+  },
+  "anv-fixed-09-08-pediatric-hem-onc-nurses-day-us": {
+    "slug": "pediatric-hem-onc-nurses-day",
+    "urlDate": "09-08"
+  },
+  "anv-fixed-09-09-teddy-bear-day-us": {
+    "slug": "teddy-bear-day",
+    "urlDate": "09-09"
+  },
+  "anv-fixed-09-10-swap-ideas-day-us": {
+    "slug": "swap-ideas-day",
+    "urlDate": "09-10"
+  },
+  "anv-fixed-09-10-tv-dinner-day-us": {
+    "slug": "tv-dinner-day",
+    "urlDate": "09-10"
+  },
+  "anv-fixed-09-10-world-suicide-prevention-day-global": {
+    "slug": "world-suicide-prevention-day",
+    "urlDate": "09-10"
+  },
+  "anv-fixed-09-11-hot-cross-bun-day-us": {
+    "slug": "hot-cross-bun-day",
+    "urlDate": "09-11"
+  },
+  "anv-fixed-09-11-make-your-bed-day-us": {
+    "slug": "make-your-bed-day",
+    "urlDate": "09-11"
+  },
+  "anv-fixed-09-11-patriot-day-remembrance-us": {
+    "slug": "patriot-day-remembrance",
+    "urlDate": "09-11"
+  },
+  "anv-fixed-09-11-stand-up-to-cancer-day-global": {
+    "slug": "stand-up-to-cancer-day",
+    "urlDate": "09-11"
+  },
+  "anv-fixed-09-12-chocolate-milkshake-day-us": {
+    "slug": "chocolate-milkshake-day",
+    "urlDate": "09-12"
+  },
+  "anv-fixed-09-12-day-of-encouragement-us": {
+    "slug": "day-of-encouragement",
+    "urlDate": "09-12"
+  },
+  "anv-fixed-09-12-video-games-day-us": {
+    "slug": "video-games-day",
+    "urlDate": "09-12"
+  },
+  "anv-fixed-09-13-hug-your-hound-day-us": {
+    "slug": "hug-your-hound-day",
+    "urlDate": "09-13"
+  },
+  "anv-fixed-09-13-kids-take-over-kitchen-day-us": {
+    "slug": "kids-take-over-kitchen-day",
+    "urlDate": "09-13"
+  },
+  "anv-fixed-09-13-peanut-day-us": {
+    "slug": "peanut-day",
+    "urlDate": "09-13"
+  },
+  "anv-fixed-09-13-pet-memorial-day-us": {
+    "slug": "pet-memorial-day",
+    "urlDate": "09-13"
+  },
+  "anv-fixed-09-13-programmers-day-us": {
+    "slug": "programmers-day",
+    "urlDate": "09-13"
+  },
+  "anv-fixed-09-14-boss-employee-exchange-day-us": {
+    "slug": "boss-employee-exchange-day",
+    "urlDate": "09-14"
+  },
+  "anv-fixed-09-14-cream-filled-donut-day-us": {
+    "slug": "cream-filled-donut-day",
+    "urlDate": "09-14"
+  },
+  "anv-fixed-09-14-eat-a-hoagie-day-us": {
+    "slug": "eat-a-hoagie-day",
+    "urlDate": "09-14"
+  },
+  "anv-fixed-09-15-creme-de-menthe-day-us": {
+    "slug": "creme-de-menthe-day",
+    "urlDate": "09-15"
+  },
+  "anv-fixed-09-15-double-cheeseburger-day-us": {
+    "slug": "double-cheeseburger-day",
+    "urlDate": "09-15"
+  },
+  "anv-fixed-09-15-felt-hat-day-us": {
+    "slug": "felt-hat-day",
+    "urlDate": "09-15"
+  },
+  "anv-fixed-09-15-google-day-global": {
+    "slug": "google-day",
+    "urlDate": "09-15"
+  },
+  "anv-fixed-09-15-greenpeace-day-global": {
+    "slug": "greenpeace-day",
+    "urlDate": "09-15"
+  },
+  "anv-fixed-09-15-international-day-of-democracy-global": {
+    "slug": "international-day-of-democracy",
+    "urlDate": "09-15"
+  },
+  "anv-fixed-09-15-international-dot-day-global": {
+    "slug": "international-dot-day",
+    "urlDate": "09-15"
+  },
+  "anv-fixed-09-15-it-professionals-day-us": {
+    "slug": "it-professionals-day",
+    "urlDate": "09-15"
+  },
+  "anv-fixed-09-15-lgbt-center-awareness-day-us": {
+    "slug": "lgbt-center-awareness-day",
+    "urlDate": "09-15"
+  },
+  "anv-fixed-09-15-linguine-day-us": {
+    "slug": "linguine-day",
+    "urlDate": "09-15"
+  },
+  "anv-fixed-09-16-anne-bradstreet-day-us": {
+    "slug": "anne-bradstreet-day",
+    "urlDate": "09-16"
+  },
+  "anv-fixed-09-16-cinnamon-raisin-bread-day-us": {
+    "slug": "cinnamon-raisin-bread-day",
+    "urlDate": "09-16"
+  },
+  "anv-fixed-09-16-mayflower-day-global": {
+    "slug": "mayflower-day",
+    "urlDate": "09-16"
+  },
+  "anv-fixed-09-16-play-doh-day-us": {
+    "slug": "play-doh-day",
+    "urlDate": "09-16"
+  },
+  "anv-fixed-09-16-step-family-day-us": {
+    "slug": "step-family-day",
+    "urlDate": "09-16"
+  },
+  "anv-fixed-09-16-trail-of-tears-commemoration-day-us": {
+    "slug": "trail-of-tears-commemoration-day",
+    "urlDate": "09-16"
+  },
+  "anv-fixed-09-17-apple-dumpling-day-us": {
+    "slug": "apple-dumpling-day",
+    "urlDate": "09-17"
+  },
+  "anv-fixed-09-17-constitution-citizenship-day-us": {
+    "slug": "constitution-citizenship-day",
+    "urlDate": "09-17"
+  },
+  "anv-fixed-09-17-monte-cristo-day-us": {
+    "slug": "monte-cristo-day",
+    "urlDate": "09-17"
+  },
+  "anv-fixed-09-18-cheeseburger-day-us": {
+    "slug": "cheeseburger-day",
+    "urlDate": "09-18"
+  },
+  "anv-fixed-09-18-hiv-aids-aging-awareness-day-us": {
+    "slug": "hiv-aids-aging-awareness-day",
+    "urlDate": "09-18"
+  },
+  "anv-fixed-09-18-pow-mia-recognition-day-us": {
+    "slug": "pow-mia-recognition-day",
+    "urlDate": "09-18"
+  },
+  "anv-fixed-09-18-tradesmen-day-us": {
+    "slug": "tradesmen-day",
+    "urlDate": "09-18"
+  },
+  "anv-fixed-09-19-big-whopper-liar-day-us": {
+    "slug": "big-whopper-liar-day",
+    "urlDate": "09-19"
+  },
+  "anv-fixed-09-19-butterscotch-pudding-day-us": {
+    "slug": "butterscotch-pudding-day",
+    "urlDate": "09-19"
+  },
+  "anv-fixed-09-19-international-coastal-cleanup-day-global": {
+    "slug": "international-coastal-cleanup-day",
+    "urlDate": "09-19"
+  },
+  "anv-fixed-09-19-international-eat-an-apple-day-global": {
+    "slug": "international-eat-an-apple-day",
+    "urlDate": "09-19"
+  },
+  "anv-fixed-09-19-puppy-mill-awareness-day-global": {
+    "slug": "puppy-mill-awareness-day",
+    "urlDate": "09-19"
+  },
+  "anv-fixed-09-19-responsible-dog-ownership-day-global": {
+    "slug": "responsible-dog-ownership-day",
+    "urlDate": "09-19"
+  },
+  "anv-fixed-09-19-talk-like-a-pirate-day-global": {
+    "slug": "talk-like-a-pirate-day",
+    "urlDate": "09-19"
+  },
+  "anv-fixed-09-20-punch-day-us": {
+    "slug": "punch-day",
+    "urlDate": "09-20"
+  },
+  "anv-fixed-09-20-wife-appreciation-day-us": {
+    "slug": "wife-appreciation-day",
+    "urlDate": "09-20"
+  },
+  "anv-fixed-09-21-international-day-of-peace-global": {
+    "slug": "international-day-of-peace",
+    "urlDate": "09-21"
+  },
+  "anv-fixed-09-21-pecan-cookie-day-us": {
+    "slug": "pecan-cookie-day",
+    "urlDate": "09-21"
+  },
+  "anv-fixed-09-21-world-alzheimers-day-global": {
+    "slug": "world-alzheimers-day",
+    "urlDate": "09-21"
+  },
+  "anv-fixed-09-22-autumnal-equinox-global": {
+    "slug": "autumnal-equinox",
+    "urlDate": "09-22"
+  },
+  "anv-fixed-09-22-car-free-day-global": {
+    "slug": "car-free-day",
+    "urlDate": "09-22"
+  },
+  "anv-fixed-09-22-centenarians-day-us": {
+    "slug": "centenarians-day",
+    "urlDate": "09-22"
+  },
+  "anv-fixed-09-22-dear-diary-day-global": {
+    "slug": "dear-diary-day",
+    "urlDate": "09-22"
+  },
+  "anv-fixed-09-22-elephant-appreciation-day-global": {
+    "slug": "elephant-appreciation-day",
+    "urlDate": "09-22"
+  },
+  "anv-fixed-09-22-hobbit-day-global": {
+    "slug": "hobbit-day",
+    "urlDate": "09-22"
+  },
+  "anv-fixed-09-22-ice-cream-cone-day-us": {
+    "slug": "ice-cream-cone-day",
+    "urlDate": "09-22"
+  },
+  "anv-fixed-09-22-international-day-of-radiant-peace-global": {
+    "slug": "international-day-of-radiant-peace",
+    "urlDate": "09-22"
+  },
+  "anv-fixed-09-22-woman-road-warrior-day-us": {
+    "slug": "woman-road-warrior-day",
+    "urlDate": "09-22"
+  },
+  "anv-fixed-09-23-celebrate-bisexuality-day-global": {
+    "slug": "celebrate-bisexuality-day",
+    "urlDate": "09-23"
+  },
+  "anv-fixed-09-23-checkers-dogs-in-politics-day-us": {
+    "slug": "checkers-dogs-in-politics-day",
+    "urlDate": "09-23"
+  },
+  "anv-fixed-09-23-great-american-pot-pie-day-us": {
+    "slug": "great-american-pot-pie-day",
+    "urlDate": "09-23"
+  },
+  "anv-fixed-09-23-innergize-day-us": {
+    "slug": "innergize-day",
+    "urlDate": "09-23"
+  },
+  "anv-fixed-09-23-restless-legs-awareness-day-global": {
+    "slug": "restless-legs-awareness-day",
+    "urlDate": "09-23"
+  },
+  "anv-fixed-09-24-cherries-jubilee-day-us": {
+    "slug": "cherries-jubilee-day",
+    "urlDate": "09-24"
+  },
+  "anv-fixed-09-24-punctuation-day-us": {
+    "slug": "punctuation-day",
+    "urlDate": "09-24"
+  },
+  "anv-fixed-09-25-comic-book-day-us": {
+    "slug": "comic-book-day",
+    "urlDate": "09-25"
+  },
+  "anv-fixed-09-25-math-storytelling-day-global": {
+    "slug": "math-storytelling-day",
+    "urlDate": "09-25"
+  },
+  "anv-fixed-09-25-one-hit-wonder-day-us": {
+    "slug": "one-hit-wonder-day",
+    "urlDate": "09-25"
+  },
+  "anv-fixed-09-25-tune-up-day-us": {
+    "slug": "tune-up-day",
+    "urlDate": "09-25"
+  },
+  "anv-fixed-09-26-dumpling-day-us": {
+    "slug": "dumpling-day",
+    "urlDate": "09-26"
+  },
+  "anv-fixed-09-26-family-health-fitness-day-usa": {
+    "slug": "family-health-fitness-day-usa",
+    "urlDate": "09-26"
+  },
+  "anv-fixed-09-26-hunting-and-fishing-day-us": {
+    "slug": "hunting-and-fishing-day",
+    "urlDate": "09-26"
+  },
+  "anv-fixed-09-26-johnny-appleseed-day-us": {
+    "slug": "johnny-appleseed-day",
+    "urlDate": "09-26"
+  },
+  "anv-fixed-09-26-pancake-day-us": {
+    "slug": "pancake-day",
+    "urlDate": "09-26"
+  },
+  "anv-fixed-09-26-shamu-the-whale-day-us": {
+    "slug": "shamu-the-whale-day",
+    "urlDate": "09-26"
+  },
+  "anv-fixed-09-27-chocolate-milk-day-us": {
+    "slug": "chocolate-milk-day",
+    "urlDate": "09-27"
+  },
+  "anv-fixed-09-27-corned-beef-hash-day-us": {
+    "slug": "corned-beef-hash-day",
+    "urlDate": "09-27"
+  },
+  "anv-fixed-09-27-crush-a-can-day-us": {
+    "slug": "crush-a-can-day",
+    "urlDate": "09-27"
+  },
+  "anv-fixed-09-27-gay-mens-hiv-aids-awareness-day-us": {
+    "slug": "gay-mens-hiv-aids-awareness-day",
+    "urlDate": "09-27"
+  },
+  "anv-fixed-09-27-gold-star-mothers-day-us": {
+    "slug": "gold-star-mothers-day",
+    "urlDate": "09-27"
+  },
+  "anv-fixed-09-27-world-tourism-day-global": {
+    "slug": "world-tourism-day",
+    "urlDate": "09-27"
+  },
+  "anv-fixed-09-28-good-neighbor-day-us": {
+    "slug": "good-neighbor-day",
+    "urlDate": "09-28"
+  },
+  "anv-fixed-09-28-strawberry-cream-pie-day-us": {
+    "slug": "strawberry-cream-pie-day",
+    "urlDate": "09-28"
+  },
+  "anv-fixed-09-29-attend-your-grandchilds-birth-day-us": {
+    "slug": "attend-your-grandchilds-birth-day",
+    "urlDate": "09-29"
+  },
+  "anv-fixed-09-29-coffee-day-us": {
+    "slug": "coffee-day",
+    "urlDate": "09-29"
+  },
+  "anv-fixed-09-30-blasphemy-day-global": {
+    "slug": "blasphemy-day",
+    "urlDate": "09-30"
+  },
+  "anv-fixed-09-30-chewing-gum-day-us": {
+    "slug": "chewing-gum-day",
+    "urlDate": "09-30"
+  },
+  "anv-fixed-09-30-hot-mulled-cider-day-us": {
+    "slug": "hot-mulled-cider-day",
+    "urlDate": "09-30"
+  },
+  "anv-fixed-09-30-mud-pack-day-us": {
+    "slug": "mud-pack-day",
+    "urlDate": "09-30"
+  },
+  "anv-fixed-09-30-womens-health-fitness-day-us": {
+    "slug": "womens-health-fitness-day",
+    "urlDate": "09-30"
+  },
+  "anv-fixed-10-01-fire-pup-day-us": {
+    "slug": "fire-pup-day",
+    "urlDate": "10-01"
+  },
+  "anv-fixed-10-01-homemade-cookies-day-us": {
+    "slug": "homemade-cookies-day",
+    "urlDate": "10-01"
+  },
+  "anv-fixed-10-02-custodial-workers-day-us": {
+    "slug": "custodial-workers-day",
+    "urlDate": "10-02"
+  },
+  "anv-fixed-10-02-fried-scallops-day-us": {
+    "slug": "fried-scallops-day",
+    "urlDate": "10-02"
+  },
+  "anv-fixed-10-02-manufacturing-day-us": {
+    "slug": "manufacturing-day",
+    "urlDate": "10-02"
+  },
+  "anv-fixed-10-02-name-your-car-day-us": {
+    "slug": "name-your-car-day",
+    "urlDate": "10-02"
+  },
+  "anv-fixed-10-02-world-smile-day-global": {
+    "slug": "world-smile-day",
+    "urlDate": "10-02"
+  },
+  "anv-fixed-10-03-national-foundation-day-kr": {
+    "slug": "national-foundation-day",
+    "urlDate": "10-03"
+  },
+  "anv-fixed-10-03-techies-day-us": {
+    "slug": "techies-day",
+    "urlDate": "10-03"
+  },
+  "anv-fixed-10-04-golf-day-us": {
+    "slug": "golf-day",
+    "urlDate": "10-04"
+  },
+  "anv-fixed-10-04-taco-day-us": {
+    "slug": "taco-day",
+    "urlDate": "10-04"
+  },
+  "anv-fixed-10-04-vodka-day-us": {
+    "slug": "vodka-day",
+    "urlDate": "10-04"
+  },
+  "anv-fixed-10-05-apple-betty-day-us": {
+    "slug": "apple-betty-day",
+    "urlDate": "10-05"
+  },
+  "anv-fixed-10-05-child-health-day-us": {
+    "slug": "child-health-day",
+    "urlDate": "10-05"
+  },
+  "anv-fixed-10-05-do-something-nice-day-us": {
+    "slug": "do-something-nice-day",
+    "urlDate": "10-05"
+  },
+  "anv-fixed-10-06-german-american-day-us": {
+    "slug": "german-american-day",
+    "urlDate": "10-06"
+  },
+  "anv-fixed-10-06-mad-hatter-day-us": {
+    "slug": "mad-hatter-day",
+    "urlDate": "10-06"
+  },
+  "anv-fixed-10-06-noodle-day-us": {
+    "slug": "noodle-day",
+    "urlDate": "10-06"
+  },
+  "anv-fixed-10-07-frappe-day-us": {
+    "slug": "frappe-day",
+    "urlDate": "10-07"
+  },
+  "anv-fixed-10-08-fluffernutter-day-us": {
+    "slug": "fluffernutter-day",
+    "urlDate": "10-08"
+  },
+  "anv-fixed-10-08-pierogy-day-us": {
+    "slug": "pierogy-day",
+    "urlDate": "10-08"
+  },
+  "anv-fixed-10-08-poetry-day-us": {
+    "slug": "poetry-day",
+    "urlDate": "10-08"
+  },
+  "anv-fixed-10-09-hangul-day-kr": {
+    "slug": "hangul-day",
+    "urlDate": "10-09"
+  },
+  "anv-fixed-10-09-leif-erikson-day-us": {
+    "slug": "leif-erikson-day",
+    "urlDate": "10-09"
+  },
+  "anv-fixed-10-09-moldy-cheese-day-us": {
+    "slug": "moldy-cheese-day",
+    "urlDate": "10-09"
+  },
+  "anv-fixed-10-10-angel-food-cake-day-us": {
+    "slug": "angel-food-cake-day",
+    "urlDate": "10-10"
+  },
+  "anv-fixed-10-10-chess-day-us": {
+    "slug": "chess-day",
+    "urlDate": "10-10"
+  },
+  "anv-fixed-10-10-costume-swap-day-us": {
+    "slug": "costume-swap-day",
+    "urlDate": "10-10"
+  },
+  "anv-fixed-10-10-world-mental-health-day-global": {
+    "slug": "world-mental-health-day",
+    "urlDate": "10-10"
+  },
+  "anv-fixed-10-11-clergy-appreciation-day-global": {
+    "slug": "clergy-appreciation-day",
+    "urlDate": "10-11"
+  },
+  "anv-fixed-10-11-coming-out-day-global": {
+    "slug": "coming-out-day",
+    "urlDate": "10-11"
+  },
+  "anv-fixed-10-11-sausage-pizza-day-us": {
+    "slug": "sausage-pizza-day",
+    "urlDate": "10-11"
+  },
+  "anv-fixed-10-12-farmers-day-us": {
+    "slug": "farmers-day",
+    "urlDate": "10-12"
+  },
+  "anv-fixed-10-12-free-thought-day-us": {
+    "slug": "free-thought-day",
+    "urlDate": "10-12"
+  },
+  "anv-fixed-10-12-gumbo-day-us": {
+    "slug": "gumbo-day",
+    "urlDate": "10-12"
+  },
+  "anv-fixed-10-12-kick-butt-day-us": {
+    "slug": "kick-butt-day",
+    "urlDate": "10-12"
+  },
+  "anv-fixed-10-13-navy-birthday-us": {
+    "slug": "navy-birthday",
+    "urlDate": "10-13"
+  },
+  "anv-fixed-10-13-train-your-brain-day-us": {
+    "slug": "train-your-brain-day",
+    "urlDate": "10-13"
+  },
+  "anv-fixed-10-13-yorkshire-pudding-day-us": {
+    "slug": "yorkshire-pudding-day",
+    "urlDate": "10-13"
+  },
+  "anv-fixed-10-14-be-bald-and-be-free-day-us": {
+    "slug": "be-bald-and-be-free-day",
+    "urlDate": "10-14"
+  },
+  "anv-fixed-10-14-bring-your-teddy-bear-day-us": {
+    "slug": "bring-your-teddy-bear-day",
+    "urlDate": "10-14"
+  },
+  "anv-fixed-10-14-dessert-day-us": {
+    "slug": "dessert-day",
+    "urlDate": "10-14"
+  },
+  "anv-fixed-10-14-emergency-nurses-day-us": {
+    "slug": "emergency-nurses-day",
+    "urlDate": "10-14"
+  },
+  "anv-fixed-10-14-fossil-day-us": {
+    "slug": "fossil-day",
+    "urlDate": "10-14"
+  },
+  "anv-fixed-10-14-stop-bullying-day-us": {
+    "slug": "stop-bullying-day",
+    "urlDate": "10-14"
+  },
+  "anv-fixed-10-14-take-your-parents-to-lunch-day-us": {
+    "slug": "take-your-parents-to-lunch-day",
+    "urlDate": "10-14"
+  },
+  "anv-fixed-10-15-cake-decorating-day-us": {
+    "slug": "cake-decorating-day",
+    "urlDate": "10-15"
+  },
+  "anv-fixed-10-15-get-smart-about-credit-day-us": {
+    "slug": "get-smart-about-credit-day",
+    "urlDate": "10-15"
+  },
+  "anv-fixed-10-15-get-to-know-your-customers-day-us": {
+    "slug": "get-to-know-your-customers-day",
+    "urlDate": "10-15"
+  },
+  "anv-fixed-10-15-grouch-day-us": {
+    "slug": "grouch-day",
+    "urlDate": "10-15"
+  },
+  "anv-fixed-10-15-i-love-lucy-day-us": {
+    "slug": "i-love-lucy-day",
+    "urlDate": "10-15"
+  },
+  "anv-fixed-10-15-international-day-of-rural-women-global": {
+    "slug": "international-day-of-rural-women",
+    "urlDate": "10-15"
+  },
+  "anv-fixed-10-15-latino-aids-awareness-day-us": {
+    "slug": "latino-aids-awareness-day",
+    "urlDate": "10-15"
+  },
+  "anv-fixed-10-15-pregnancy-infant-loss-awareness-day-us": {
+    "slug": "pregnancy-infant-loss-awareness-day",
+    "urlDate": "10-15"
+  },
+  "anv-fixed-10-15-white-cane-safety-day-us": {
+    "slug": "white-cane-safety-day",
+    "urlDate": "10-15"
+  },
+  "anv-fixed-10-16-bosses-day-us": {
+    "slug": "bosses-day",
+    "urlDate": "10-16"
+  },
+  "anv-fixed-10-16-department-store-day-us": {
+    "slug": "department-store-day",
+    "urlDate": "10-16"
+  },
+  "anv-fixed-10-16-dictionary-day-us": {
+    "slug": "dictionary-day",
+    "urlDate": "10-16"
+  },
+  "anv-fixed-10-16-feral-cat-day-us": {
+    "slug": "feral-cat-day",
+    "urlDate": "10-16"
+  },
+  "anv-fixed-10-16-liqueur-day-us": {
+    "slug": "liqueur-day",
+    "urlDate": "10-16"
+  },
+  "anv-fixed-10-16-mammography-day-us": {
+    "slug": "mammography-day",
+    "urlDate": "10-16"
+  },
+  "anv-fixed-10-16-world-food-day-global": {
+    "slug": "world-food-day",
+    "urlDate": "10-16"
+  },
+  "anv-fixed-10-17-alternative-fuel-day-global": {
+    "slug": "alternative-fuel-day",
+    "urlDate": "10-17"
+  },
+  "anv-fixed-10-17-black-poetry-day-us": {
+    "slug": "black-poetry-day",
+    "urlDate": "10-17"
+  },
+  "anv-fixed-10-17-day-for-eradicating-poverty-global": {
+    "slug": "day-for-eradicating-poverty",
+    "urlDate": "10-17"
+  },
+  "anv-fixed-10-17-edge-day-us": {
+    "slug": "edge-day",
+    "urlDate": "10-17"
+  },
+  "anv-fixed-10-17-mulligan-day-us": {
+    "slug": "mulligan-day",
+    "urlDate": "10-17"
+  },
+  "anv-fixed-10-17-pasta-day-us": {
+    "slug": "pasta-day",
+    "urlDate": "10-17"
+  },
+  "anv-fixed-10-18-chocolate-cupcake-day-us": {
+    "slug": "chocolate-cupcake-day",
+    "urlDate": "10-18"
+  },
+  "anv-fixed-10-19-clean-virtual-desktop-day-us": {
+    "slug": "clean-virtual-desktop-day",
+    "urlDate": "10-19"
+  },
+  "anv-fixed-10-19-seafood-bisque-day-us": {
+    "slug": "seafood-bisque-day",
+    "urlDate": "10-19"
+  },
+  "anv-fixed-10-20-brandied-fruit-day-us": {
+    "slug": "brandied-fruit-day",
+    "urlDate": "10-20"
+  },
+  "anv-fixed-10-20-pharmacy-technician-day-us": {
+    "slug": "pharmacy-technician-day",
+    "urlDate": "10-20"
+  },
+  "anv-fixed-10-21-hagfish-day-global": {
+    "slug": "hagfish-day",
+    "urlDate": "10-21"
+  },
+  "anv-fixed-10-21-medical-assistants-day-global": {
+    "slug": "medical-assistants-day",
+    "urlDate": "10-21"
+  },
+  "anv-fixed-10-21-pumpkin-cheesecake-day-us": {
+    "slug": "pumpkin-cheesecake-day",
+    "urlDate": "10-21"
+  },
+  "anv-fixed-10-21-reptile-awareness-day-global": {
+    "slug": "reptile-awareness-day",
+    "urlDate": "10-21"
+  },
+  "anv-fixed-10-22-color-day-us": {
+    "slug": "color-day",
+    "urlDate": "10-22"
+  },
+  "anv-fixed-10-22-nut-day-us": {
+    "slug": "nut-day",
+    "urlDate": "10-22"
+  },
+  "anv-fixed-10-23-boston-cream-pie-day-us": {
+    "slug": "boston-cream-pie-day",
+    "urlDate": "10-23"
+  },
+  "anv-fixed-10-23-ipod-day-global": {
+    "slug": "ipod-day",
+    "urlDate": "10-23"
+  },
+  "anv-fixed-10-23-mole-day-us": {
+    "slug": "mole-day",
+    "urlDate": "10-23"
+  },
+  "anv-fixed-10-23-tv-talk-show-host-day-us": {
+    "slug": "tv-talk-show-host-day",
+    "urlDate": "10-23"
+  },
+  "anv-fixed-10-24-bologna-day-us": {
+    "slug": "bologna-day",
+    "urlDate": "10-24"
+  },
+  "anv-fixed-10-24-food-day-us": {
+    "slug": "food-day",
+    "urlDate": "10-24"
+  },
+  "anv-fixed-10-24-make-a-difference-day-us": {
+    "slug": "make-a-difference-day",
+    "urlDate": "10-24"
+  },
+  "anv-fixed-10-24-world-development-information-day-global": {
+    "slug": "world-development-information-day",
+    "urlDate": "10-24"
+  },
+  "anv-fixed-10-25-chucky-killer-doll-day-us": {
+    "slug": "chucky-killer-doll-day",
+    "urlDate": "10-25"
+  },
+  "anv-fixed-10-25-dokdo-day-kr": {
+    "slug": "dokdo-day",
+    "urlDate": "10-25"
+  },
+  "anv-fixed-10-25-greasy-food-day-us": {
+    "slug": "greasy-food-day",
+    "urlDate": "10-25"
+  },
+  "anv-fixed-10-25-international-artists-day-global": {
+    "slug": "international-artists-day",
+    "urlDate": "10-25"
+  },
+  "anv-fixed-10-25-international-bandanna-day-global": {
+    "slug": "international-bandanna-day",
+    "urlDate": "10-25"
+  },
+  "anv-fixed-10-25-sourest-day-us": {
+    "slug": "sourest-day",
+    "urlDate": "10-25"
+  },
+  "anv-fixed-10-25-world-pasta-day-global": {
+    "slug": "world-pasta-day",
+    "urlDate": "10-25"
+  },
+  "anv-fixed-10-26-day-of-the-deployed-us": {
+    "slug": "day-of-the-deployed",
+    "urlDate": "10-26"
+  },
+  "anv-fixed-10-26-mincemeat-day-us": {
+    "slug": "mincemeat-day",
+    "urlDate": "10-26"
+  },
+  "anv-fixed-10-26-mule-day-us": {
+    "slug": "mule-day",
+    "urlDate": "10-26"
+  },
+  "anv-fixed-10-26-pumpkin-day-us": {
+    "slug": "pumpkin-day",
+    "urlDate": "10-26"
+  },
+  "anv-fixed-10-27-american-beer-day-us": {
+    "slug": "american-beer-day",
+    "urlDate": "10-27"
+  },
+  "anv-fixed-10-28-chocolate-day-us": {
+    "slug": "chocolate-day",
+    "urlDate": "10-28"
+  },
+  "anv-fixed-10-29-cat-day-us": {
+    "slug": "cat-day",
+    "urlDate": "10-29"
+  },
+  "anv-fixed-10-29-hermit-day-us": {
+    "slug": "hermit-day",
+    "urlDate": "10-29"
+  },
+  "anv-fixed-10-29-oatmeal-day-us": {
+    "slug": "oatmeal-day",
+    "urlDate": "10-29"
+  },
+  "anv-fixed-10-30-breadstix-day-us": {
+    "slug": "breadstix-day",
+    "urlDate": "10-30"
+  },
+  "anv-fixed-10-30-candy-corn-day-us": {
+    "slug": "candy-corn-day",
+    "urlDate": "10-30"
+  },
+  "anv-fixed-10-30-frankenstein-day-us": {
+    "slug": "frankenstein-day",
+    "urlDate": "10-30"
+  },
+  "anv-fixed-10-30-pharmacy-buyer-day-us": {
+    "slug": "pharmacy-buyer-day",
+    "urlDate": "10-30"
+  },
+  "anv-fixed-10-30-speak-up-for-service-day-us": {
+    "slug": "speak-up-for-service-day",
+    "urlDate": "10-30"
+  },
+  "anv-fixed-10-31-caramel-apple-day-us": {
+    "slug": "caramel-apple-day",
+    "urlDate": "10-31"
+  },
+  "anv-fixed-10-31-girl-scout-founders-day-us": {
+    "slug": "girl-scout-founders-day",
+    "urlDate": "10-31"
+  },
+  "anv-fixed-10-31-halloween-global": {
+    "slug": "halloween",
+    "urlDate": "10-31"
+  },
+  "anv-fixed-10-31-knock-knock-jokes-day-us": {
+    "slug": "knock-knock-jokes-day",
+    "urlDate": "10-31"
+  },
+  "anv-fixed-10-31-magic-day-us": {
+    "slug": "magic-day",
+    "urlDate": "10-31"
+  },
+  "anv-fixed-11-01-authors-day-us": {
+    "slug": "authors-day",
+    "urlDate": "11-01"
+  },
+  "anv-fixed-11-01-cook-for-your-pets-day-us": {
+    "slug": "cook-for-your-pets-day",
+    "urlDate": "11-01"
+  },
+  "anv-fixed-11-01-deep-fried-clams-day-us": {
+    "slug": "deep-fried-clams-day",
+    "urlDate": "11-01"
+  },
+  "anv-fixed-11-01-family-literacy-day-us": {
+    "slug": "family-literacy-day",
+    "urlDate": "11-01"
+  },
+  "anv-fixed-11-01-vinegar-day-us": {
+    "slug": "vinegar-day",
+    "urlDate": "11-01"
+  },
+  "anv-fixed-11-02-deviled-egg-day-us": {
+    "slug": "deviled-egg-day",
+    "urlDate": "11-02"
+  },
+  "anv-fixed-11-02-traffic-directors-day-us": {
+    "slug": "traffic-directors-day",
+    "urlDate": "11-02"
+  },
+  "anv-fixed-11-03-housewifes-day-us": {
+    "slug": "housewifes-day",
+    "urlDate": "11-03"
+  },
+  "anv-fixed-11-03-sandwich-day-us": {
+    "slug": "sandwich-day",
+    "urlDate": "11-03"
+  },
+  "anv-fixed-11-04-candy-day-us": {
+    "slug": "candy-day",
+    "urlDate": "11-04"
+  },
+  "anv-fixed-11-04-chicken-lady-day-us": {
+    "slug": "chicken-lady-day",
+    "urlDate": "11-04"
+  },
+  "anv-fixed-11-05-men-make-dinner-day-us": {
+    "slug": "men-make-dinner-day",
+    "urlDate": "11-05"
+  },
+  "anv-fixed-11-06-nachos-day-us": {
+    "slug": "nachos-day",
+    "urlDate": "11-06"
+  },
+  "anv-fixed-11-06-saxophone-day-global": {
+    "slug": "saxophone-day",
+    "urlDate": "11-06"
+  },
+  "anv-fixed-11-07-bittersweet-chocolate-almonds-day-us": {
+    "slug": "bittersweet-chocolate-almonds-day",
+    "urlDate": "11-07"
+  },
+  "anv-fixed-11-07-canine-lymphoma-awareness-day-us": {
+    "slug": "canine-lymphoma-awareness-day",
+    "urlDate": "11-07"
+  },
+  "anv-fixed-11-08-cappuccino-day-us": {
+    "slug": "cappuccino-day",
+    "urlDate": "11-08"
+  },
+  "anv-fixed-11-08-harvey-wallbanger-day-us": {
+    "slug": "harvey-wallbanger-day",
+    "urlDate": "11-08"
+  },
+  "anv-fixed-11-08-parents-as-teachers-day-us": {
+    "slug": "parents-as-teachers-day",
+    "urlDate": "11-08"
+  },
+  "anv-fixed-11-09-firefighting-day-kr": {
+    "slug": "firefighting-day",
+    "urlDate": "11-09"
+  },
+  "anv-fixed-11-09-scrapple-day-us": {
+    "slug": "scrapple-day",
+    "urlDate": "11-09"
+  },
+  "anv-fixed-11-10-forget-me-not-day-us": {
+    "slug": "forget-me-not-day",
+    "urlDate": "11-10"
+  },
+  "anv-fixed-11-10-marine-corps-birthday-us": {
+    "slug": "marine-corps-birthday",
+    "urlDate": "11-10"
+  },
+  "anv-fixed-11-10-vanilla-cupcake-day-us": {
+    "slug": "vanilla-cupcake-day",
+    "urlDate": "11-10"
+  },
+  "anv-fixed-11-11-pepero-day-kr": {
+    "slug": "pepero-day",
+    "urlDate": "11-11"
+  },
+  "anv-fixed-11-11-sundae-day-us": {
+    "slug": "sundae-day",
+    "urlDate": "11-11"
+  },
+  "anv-fixed-11-11-veterans-day-us": {
+    "slug": "veterans-day",
+    "urlDate": "11-11"
+  },
+  "anv-fixed-11-12-chicken-soup-for-the-soul-day-us": {
+    "slug": "chicken-soup-for-the-soul-day",
+    "urlDate": "11-12"
+  },
+  "anv-fixed-11-12-pizza-with-the-works-except-anchovies-day-us": {
+    "slug": "pizza-with-the-works-except-anchovies-day",
+    "urlDate": "11-12"
+  },
+  "anv-fixed-11-13-indian-pudding-day-us": {
+    "slug": "indian-pudding-day",
+    "urlDate": "11-13"
+  },
+  "anv-fixed-11-14-pickle-day-us": {
+    "slug": "pickle-day",
+    "urlDate": "11-14"
+  },
+  "anv-fixed-11-14-spicy-guacamole-day-us": {
+    "slug": "spicy-guacamole-day",
+    "urlDate": "11-14"
+  },
+  "anv-fixed-11-15-bundt-pan-day-us": {
+    "slug": "bundt-pan-day",
+    "urlDate": "11-15"
+  },
+  "anv-fixed-11-15-clean-out-your-refrigerator-day-us": {
+    "slug": "clean-out-your-refrigerator-day",
+    "urlDate": "11-15"
+  },
+  "anv-fixed-11-15-philanthropy-day-us": {
+    "slug": "philanthropy-day",
+    "urlDate": "11-15"
+  },
+  "anv-fixed-11-15-raisin-bran-cereal-day-us": {
+    "slug": "raisin-bran-cereal-day",
+    "urlDate": "11-15"
+  },
+  "anv-fixed-11-15-spicy-hermit-cookie-day-us": {
+    "slug": "spicy-hermit-cookie-day",
+    "urlDate": "11-15"
+  },
+  "anv-fixed-11-16-button-day-us": {
+    "slug": "button-day",
+    "urlDate": "11-16"
+  },
+  "anv-fixed-11-16-fast-food-day-us": {
+    "slug": "fast-food-day",
+    "urlDate": "11-16"
+  },
+  "anv-fixed-11-17-baklava-day-us": {
+    "slug": "baklava-day",
+    "urlDate": "11-17"
+  },
+  "anv-fixed-11-17-take-a-hike-day-us": {
+    "slug": "take-a-hike-day",
+    "urlDate": "11-17"
+  },
+  "anv-fixed-11-18-educational-support-professionals-day-us": {
+    "slug": "educational-support-professionals-day",
+    "urlDate": "11-18"
+  },
+  "anv-fixed-11-18-mickey-mouse-birthday-global": {
+    "slug": "mickey-mouse-birthday",
+    "urlDate": "11-18"
+  },
+  "anv-fixed-11-18-vichyssoise-day-us": {
+    "slug": "vichyssoise-day",
+    "urlDate": "11-18"
+  },
+  "anv-fixed-11-19-caffeinated-soda-day-us": {
+    "slug": "caffeinated-soda-day",
+    "urlDate": "11-19"
+  },
+  "anv-fixed-11-19-great-american-smokeout-us": {
+    "slug": "great-american-smokeout",
+    "urlDate": "11-19"
+  },
+  "anv-fixed-11-19-play-monopoly-day-us": {
+    "slug": "play-monopoly-day",
+    "urlDate": "11-19"
+  },
+  "anv-fixed-11-19-world-toilet-day-global": {
+    "slug": "world-toilet-day",
+    "urlDate": "11-19"
+  },
+  "anv-fixed-11-20-absurdity-day-us": {
+    "slug": "absurdity-day",
+    "urlDate": "11-20"
+  },
+  "anv-fixed-11-20-peanut-butter-fudge-day-us": {
+    "slug": "peanut-butter-fudge-day",
+    "urlDate": "11-20"
+  },
+  "anv-fixed-11-20-world-childrens-day-global": {
+    "slug": "world-childrens-day",
+    "urlDate": "11-20"
+  },
+  "anv-fixed-11-21-adoption-day-us": {
+    "slug": "adoption-day",
+    "urlDate": "11-21"
+  },
+  "anv-fixed-11-21-stuffing-day-us": {
+    "slug": "stuffing-day",
+    "urlDate": "11-21"
+  },
+  "anv-fixed-11-22-cranberry-relish-day-us": {
+    "slug": "cranberry-relish-day",
+    "urlDate": "11-22"
+  },
+  "anv-fixed-11-23-cashew-day-us": {
+    "slug": "cashew-day",
+    "urlDate": "11-23"
+  },
+  "anv-fixed-11-23-eat-a-cranberry-day-us": {
+    "slug": "eat-a-cranberry-day",
+    "urlDate": "11-23"
+  },
+  "anv-fixed-11-23-espresso-day-us": {
+    "slug": "espresso-day",
+    "urlDate": "11-23"
+  },
+  "anv-fixed-11-24-sardines-day-us": {
+    "slug": "sardines-day",
+    "urlDate": "11-24"
+  },
+  "anv-fixed-11-25-blase-day-us": {
+    "slug": "blase-day",
+    "urlDate": "11-25"
+  },
+  "anv-fixed-11-25-elimination-of-violence-against-women-day-global": {
+    "slug": "elimination-of-violence-against-women-day",
+    "urlDate": "11-25"
+  },
+  "anv-fixed-11-25-parfait-day-us": {
+    "slug": "parfait-day",
+    "urlDate": "11-25"
+  },
+  "anv-fixed-11-25-shopping-reminder-day-us": {
+    "slug": "shopping-reminder-day",
+    "urlDate": "11-25"
+  },
+  "anv-fixed-11-25-tie-one-on-day-us": {
+    "slug": "tie-one-on-day",
+    "urlDate": "11-25"
+  },
+  "anv-fixed-11-26-cake-day-us": {
+    "slug": "cake-day",
+    "urlDate": "11-26"
+  },
+  "anv-fixed-11-27-bavarian-cream-pie-day-us": {
+    "slug": "bavarian-cream-pie-day",
+    "urlDate": "11-27"
+  },
+  "anv-fixed-11-27-maize-day-us": {
+    "slug": "maize-day",
+    "urlDate": "11-27"
+  },
+  "anv-fixed-11-28-aura-awareness-day-global": {
+    "slug": "aura-awareness-day",
+    "urlDate": "11-28"
+  },
+  "anv-fixed-11-28-french-toast-day-us": {
+    "slug": "french-toast-day",
+    "urlDate": "11-28"
+  },
+  "anv-fixed-11-29-electronic-greetings-day-us": {
+    "slug": "electronic-greetings-day",
+    "urlDate": "11-29"
+  },
+  "anv-fixed-11-30-computer-security-day-global": {
+    "slug": "computer-security-day",
+    "urlDate": "11-30"
+  },
+  "anv-fixed-11-30-meth-awareness-day-us": {
+    "slug": "meth-awareness-day",
+    "urlDate": "11-30"
+  },
+  "anv-fixed-11-30-mousse-day-us": {
+    "slug": "mousse-day",
+    "urlDate": "11-30"
+  },
+  "anv-fixed-11-30-stay-home-because-youre-well-day-us": {
+    "slug": "stay-home-because-youre-well-day",
+    "urlDate": "11-30"
+  },
+  "anv-fixed-12-01-bifocals-monitor-liberation-day-us": {
+    "slug": "bifocals-monitor-liberation-day",
+    "urlDate": "12-01"
+  },
+  "anv-fixed-12-01-day-of-giving-us": {
+    "slug": "day-of-giving",
+    "urlDate": "12-01"
+  },
+  "anv-fixed-12-01-day-without-art-day-global": {
+    "slug": "day-without-art-day",
+    "urlDate": "12-01"
+  },
+  "anv-fixed-12-01-eat-a-red-apple-day-us": {
+    "slug": "eat-a-red-apple-day",
+    "urlDate": "12-01"
+  },
+  "anv-fixed-12-01-pie-day-us": {
+    "slug": "pie-day",
+    "urlDate": "12-01"
+  },
+  "anv-fixed-12-01-rosa-parks-day-us": {
+    "slug": "rosa-parks-day",
+    "urlDate": "12-01"
+  },
+  "anv-fixed-12-01-world-aids-day-global": {
+    "slug": "world-aids-day",
+    "urlDate": "12-01"
+  },
+  "anv-fixed-12-02-abolition-of-slavery-day-global": {
+    "slug": "abolition-of-slavery-day",
+    "urlDate": "12-02"
+  },
+  "anv-fixed-12-02-fritters-day-us": {
+    "slug": "fritters-day",
+    "urlDate": "12-02"
+  },
+  "anv-fixed-12-02-rockefeller-center-tree-lighting-us": {
+    "slug": "rockefeller-center-tree-lighting",
+    "urlDate": "12-02"
+  },
+  "anv-fixed-12-02-special-education-day-global": {
+    "slug": "special-education-day",
+    "urlDate": "12-02"
+  },
+  "anv-fixed-12-03-persons-with-disabilities-day-global": {
+    "slug": "persons-with-disabilities-day",
+    "urlDate": "12-03"
+  },
+  "anv-fixed-12-03-roof-over-your-head-day-us": {
+    "slug": "roof-over-your-head-day",
+    "urlDate": "12-03"
+  },
+  "anv-fixed-12-04-cookie-day-us": {
+    "slug": "cookie-day",
+    "urlDate": "12-04"
+  },
+  "anv-fixed-12-04-dice-day-us": {
+    "slug": "dice-day",
+    "urlDate": "12-04"
+  },
+  "anv-fixed-12-04-faux-fur-friday-global": {
+    "slug": "faux-fur-friday",
+    "urlDate": "12-04"
+  },
+  "anv-fixed-12-05-bathtub-party-day-global": {
+    "slug": "bathtub-party-day",
+    "urlDate": "12-05"
+  },
+  "anv-fixed-12-05-ninja-day-global": {
+    "slug": "ninja-day",
+    "urlDate": "12-05"
+  },
+  "anv-fixed-12-05-rhubarb-vodka-day-us": {
+    "slug": "rhubarb-vodka-day",
+    "urlDate": "12-05"
+  },
+  "anv-fixed-12-05-sacher-torte-day-us": {
+    "slug": "sacher-torte-day",
+    "urlDate": "12-05"
+  },
+  "anv-fixed-12-05-volunteer-day-global": {
+    "slug": "volunteer-day",
+    "urlDate": "12-05"
+  },
+  "anv-fixed-12-06-gazpacho-day-us": {
+    "slug": "gazpacho-day",
+    "urlDate": "12-06"
+  },
+  "anv-fixed-12-06-microwave-oven-day-global": {
+    "slug": "microwave-oven-day",
+    "urlDate": "12-06"
+  },
+  "anv-fixed-12-06-pawnbrokers-day-us": {
+    "slug": "pawnbrokers-day",
+    "urlDate": "12-06"
+  },
+  "anv-fixed-12-06-st-nicholas-day-global": {
+    "slug": "st-nicholas-day",
+    "urlDate": "12-06"
+  },
+  "anv-fixed-12-07-civil-aviation-day-global": {
+    "slug": "civil-aviation-day",
+    "urlDate": "12-07"
+  },
+  "anv-fixed-12-07-cotton-candy-day-us": {
+    "slug": "cotton-candy-day",
+    "urlDate": "12-07"
+  },
+  "anv-fixed-12-07-pearl-harbor-remembrance-day-us": {
+    "slug": "pearl-harbor-remembrance-day",
+    "urlDate": "12-07"
+  },
+  "anv-fixed-12-08-brownie-day-us": {
+    "slug": "brownie-day",
+    "urlDate": "12-08"
+  },
+  "anv-fixed-12-08-time-traveler-day-global": {
+    "slug": "time-traveler-day",
+    "urlDate": "12-08"
+  },
+  "anv-fixed-12-09-anti-corruption-day-global": {
+    "slug": "anti-corruption-day",
+    "urlDate": "12-09"
+  },
+  "anv-fixed-12-09-pastry-day-us": {
+    "slug": "pastry-day",
+    "urlDate": "12-09"
+  },
+  "anv-fixed-12-10-dewey-decimal-system-day-global": {
+    "slug": "dewey-decimal-system-day",
+    "urlDate": "12-10"
+  },
+  "anv-fixed-12-10-human-rights-day-global": {
+    "slug": "human-rights-day",
+    "urlDate": "12-10"
+  },
+  "anv-fixed-12-10-nobel-prize-day-global": {
+    "slug": "nobel-prize-day",
+    "urlDate": "12-10"
+  },
+  "anv-fixed-12-11-mountain-day-global": {
+    "slug": "mountain-day",
+    "urlDate": "12-11"
+  },
+  "anv-fixed-12-11-noodle-ring-day-us": {
+    "slug": "noodle-ring-day",
+    "urlDate": "12-11"
+  },
+  "anv-fixed-12-11-unicef-birthday-global": {
+    "slug": "unicef-birthday",
+    "urlDate": "12-11"
+  },
+  "anv-fixed-12-12-ambrosia-day-us": {
+    "slug": "ambrosia-day",
+    "urlDate": "12-12"
+  },
+  "anv-fixed-12-12-ding-a-ling-day-us": {
+    "slug": "ding-a-ling-day",
+    "urlDate": "12-12"
+  },
+  "anv-fixed-12-12-gingerbread-house-day-global": {
+    "slug": "gingerbread-house-day",
+    "urlDate": "12-12"
+  },
+  "anv-fixed-12-12-poinsettia-day-global": {
+    "slug": "poinsettia-day",
+    "urlDate": "12-12"
+  },
+  "anv-fixed-12-12-shareware-day-global": {
+    "slug": "shareware-day",
+    "urlDate": "12-12"
+  },
+  "anv-fixed-12-12-wreaths-across-america-day-us": {
+    "slug": "wreaths-across-america-day",
+    "urlDate": "12-12"
+  },
+  "anv-fixed-12-13-choral-day-global": {
+    "slug": "choral-day",
+    "urlDate": "12-13"
+  },
+  "anv-fixed-12-13-cocoa-day-us": {
+    "slug": "cocoa-day",
+    "urlDate": "12-13"
+  },
+  "anv-fixed-12-13-day-of-the-horse-us": {
+    "slug": "day-of-the-horse",
+    "urlDate": "12-13"
+  },
+  "anv-fixed-12-13-pick-a-pathologist-pal-day-us": {
+    "slug": "pick-a-pathologist-pal-day",
+    "urlDate": "12-13"
+  },
+  "anv-fixed-12-13-violin-day-global": {
+    "slug": "violin-day",
+    "urlDate": "12-13"
+  },
+  "anv-fixed-12-13-worldwide-candle-lighting-day-global": {
+    "slug": "worldwide-candle-lighting-day",
+    "urlDate": "12-13"
+  },
+  "anv-fixed-12-14-bouillabaisse-day-us": {
+    "slug": "bouillabaisse-day",
+    "urlDate": "12-14"
+  },
+  "anv-fixed-12-14-hug-day-kr": {
+    "slug": "hug-day",
+    "urlDate": "12-14"
+  },
+  "anv-fixed-12-14-monkey-day-global": {
+    "slug": "monkey-day",
+    "urlDate": "12-14"
+  },
+  "anv-fixed-12-15-bill-of-rights-day-us": {
+    "slug": "bill-of-rights-day",
+    "urlDate": "12-15"
+  },
+  "anv-fixed-12-15-cat-herders-day-global": {
+    "slug": "cat-herders-day",
+    "urlDate": "12-15"
+  },
+  "anv-fixed-12-15-cupcake-day-us": {
+    "slug": "cupcake-day",
+    "urlDate": "12-15"
+  },
+  "anv-fixed-12-16-chocolate-covered-anything-day-us": {
+    "slug": "chocolate-covered-anything-day",
+    "urlDate": "12-16"
+  },
+  "anv-fixed-12-17-maple-syrup-day-us": {
+    "slug": "maple-syrup-day",
+    "urlDate": "12-17"
+  },
+  "anv-fixed-12-17-re-gifting-day-us": {
+    "slug": "re-gifting-day",
+    "urlDate": "12-17"
+  },
+  "anv-fixed-12-17-wright-brothers-day-global": {
+    "slug": "wright-brothers-day",
+    "urlDate": "12-17"
+  },
+  "anv-fixed-12-18-buddy-the-elf-phone-day-us": {
+    "slug": "buddy-the-elf-phone-day",
+    "urlDate": "12-18"
+  },
+  "anv-fixed-12-18-free-shipping-day-global": {
+    "slug": "free-shipping-day",
+    "urlDate": "12-18"
+  },
+  "anv-fixed-12-18-migrants-day-global": {
+    "slug": "migrants-day",
+    "urlDate": "12-18"
+  },
+  "anv-fixed-12-18-roast-suckling-pig-day-us": {
+    "slug": "roast-suckling-pig-day",
+    "urlDate": "12-18"
+  },
+  "anv-fixed-12-18-ugly-christmas-sweater-day-global": {
+    "slug": "ugly-christmas-sweater-day",
+    "urlDate": "12-18"
+  },
+  "anv-fixed-12-18-underdog-day-global": {
+    "slug": "underdog-day",
+    "urlDate": "12-18"
+  },
+  "anv-fixed-12-19-hard-candy-day-us": {
+    "slug": "hard-candy-day",
+    "urlDate": "12-19"
+  },
+  "anv-fixed-12-19-oatmeal-muffin-day-us": {
+    "slug": "oatmeal-muffin-day",
+    "urlDate": "12-19"
+  },
+  "anv-fixed-12-20-human-solidarity-day-global": {
+    "slug": "human-solidarity-day",
+    "urlDate": "12-20"
+  },
+  "anv-fixed-12-20-sangria-day-us": {
+    "slug": "sangria-day",
+    "urlDate": "12-20"
+  },
+  "anv-fixed-12-21-crossword-puzzle-day-global": {
+    "slug": "crossword-puzzle-day",
+    "urlDate": "12-21"
+  },
+  "anv-fixed-12-21-french-fried-shrimp-day-us": {
+    "slug": "french-fried-shrimp-day",
+    "urlDate": "12-21"
+  },
+  "anv-fixed-12-21-humbug-day-global": {
+    "slug": "humbug-day",
+    "urlDate": "12-21"
+  },
+  "anv-fixed-12-21-phileas-fogg-win-a-wager-day-global": {
+    "slug": "phileas-fogg-win-a-wager-day",
+    "urlDate": "12-21"
+  },
+  "anv-fixed-12-22-flashlight-day-us": {
+    "slug": "flashlight-day",
+    "urlDate": "12-22"
+  },
+  "anv-fixed-12-22-homeless-persons-remembrance-day-us": {
+    "slug": "homeless-persons-remembrance-day",
+    "urlDate": "12-22"
+  },
+  "anv-fixed-12-22-ice-swim": {
+    "slug": "ice-swim",
+    "urlDate": "12-22"
+  },
+  "anv-fixed-12-22-winter-solstice-global": {
+    "slug": "winter-solstice",
+    "urlDate": "12-22"
+  },
+  "anv-fixed-12-23-festivus-us": {
+    "slug": "festivus",
+    "urlDate": "12-23"
+  },
+  "anv-fixed-12-23-pfeffernusse-day-us": {
+    "slug": "pfeffernusse-day",
+    "urlDate": "12-23"
+  },
+  "anv-fixed-12-23-roots-day-us": {
+    "slug": "roots-day",
+    "urlDate": "12-23"
+  },
+  "anv-fixed-12-24-christmas-eve-global": {
+    "slug": "christmas-eve",
+    "urlDate": "12-24"
+  },
+  "anv-fixed-12-24-eggnog-day-us": {
+    "slug": "eggnog-day",
+    "urlDate": "12-24"
+  },
+  "anv-fixed-12-25-christmas-global": {
+    "slug": "christmas",
+    "urlDate": "12-25"
+  },
+  "anv-fixed-12-26-boxing-day-global": {
+    "slug": "boxing-day",
+    "urlDate": "12-26"
+  },
+  "anv-fixed-12-26-candy-cane-day-us": {
+    "slug": "candy-cane-day",
+    "urlDate": "12-26"
+  },
+  "anv-fixed-12-26-thank-you-note-day-global": {
+    "slug": "thank-you-note-day",
+    "urlDate": "12-26"
+  },
+  "anv-fixed-12-26-whiners-day-global": {
+    "slug": "whiners-day",
+    "urlDate": "12-26"
+  },
+  "anv-fixed-12-27-fruitcake-day-us": {
+    "slug": "fruitcake-day",
+    "urlDate": "12-27"
+  },
+  "anv-fixed-12-28-card-playing-day-us": {
+    "slug": "card-playing-day",
+    "urlDate": "12-28"
+  },
+  "anv-fixed-12-28-chocolate-candy-day-us": {
+    "slug": "chocolate-candy-day",
+    "urlDate": "12-28"
+  },
+  "anv-fixed-12-28-holy-innocents-day-global": {
+    "slug": "holy-innocents-day",
+    "urlDate": "12-28"
+  },
+  "anv-fixed-12-29-pepper-pot-day-us": {
+    "slug": "pepper-pot-day",
+    "urlDate": "12-29"
+  },
+  "anv-fixed-12-29-tick-tock-day-global": {
+    "slug": "tick-tock-day",
+    "urlDate": "12-29"
+  },
+  "anv-fixed-12-30-bacon-day-global": {
+    "slug": "bacon-day",
+    "urlDate": "12-30"
+  },
+  "anv-fixed-12-30-bicarbonate-of-soda-day-global": {
+    "slug": "bicarbonate-of-soda-day",
+    "urlDate": "12-30"
+  },
+  "anv-fixed-12-30-falling-needles-family-fest-day-us": {
+    "slug": "falling-needles-family-fest-day",
+    "urlDate": "12-30"
+  },
+  "anv-fixed-12-31-champagne-day-us": {
+    "slug": "champagne-day",
+    "urlDate": "12-31"
+  },
+  "anv-fixed-12-31-leap-second-day-global": {
+    "slug": "leap-second-day",
+    "urlDate": "12-31"
+  },
+  "anv-fixed-12-31-make-up-your-mind-day-global": {
+    "slug": "make-up-your-mind-day",
+    "urlDate": "12-31"
+  },
+  "anv-fixed-12-31-new-years-eve-global": {
+    "slug": "new-years-eve",
+    "urlDate": "12-31"
+  },
+  "anv-fixed-12-31-no-interruptions-day-global": {
+    "slug": "no-interruptions-day",
+    "urlDate": "12-31"
+  },
+  "anv-fixed-12-31-universal-hour-of-peace-global": {
+    "slug": "universal-hour-of-peace",
+    "urlDate": "12-31"
+  },
+  "anv-nth-02-1-fri-wear-red-day-us": {
+    "slug": "wear-red-day",
+    "urlDate": "02-06"
+  },
+  "anv-nth-05-1-mon-melanoma-monday-us": {
+    "slug": "melanoma-monday",
+    "urlDate": "05-04"
+  },
+  "anv-nth-05-1-thu-day-of-prayer-us": {
+    "slug": "day-of-prayer",
+    "urlDate": "05-07"
+  },
+  "anv-nth-05-1-thu-day-of-reason-us": {
+    "slug": "day-of-reason",
+    "urlDate": "05-07"
+  },
+  "anv-nth-05-2-sun-us-mothers-day": {
+    "slug": "us-mothers-day",
+    "urlDate": "05-10"
+  },
+  "anv-nth-05-3-sat-armed-forces-day-us": {
+    "slug": "armed-forces-day",
+    "urlDate": "05-16"
+  },
+  "anv-nth-05-l-mon-memorial-day-us": {
+    "slug": "memorial-day",
+    "urlDate": "05-25"
+  },
+  "anv-nth-06-1-sat-trails-day-us": {
+    "slug": "trails-day",
+    "urlDate": "06-06"
+  },
+  "anv-nth-06-1-sun-cancer-survivors-day-global": {
+    "slug": "cancer-survivors-day",
+    "urlDate": "06-07"
+  },
+  "anv-nth-06-3-sun-fathers-day-us": {
+    "slug": "fathers-day",
+    "urlDate": "06-21"
+  },
+  "anv-nth-07-3-sun-ice-cream-day-us": {
+    "slug": "ice-cream-day",
+    "urlDate": "07-19"
+  },
+  "anv-nth-07-3-wed-hot-dog-day-us": {
+    "slug": "hot-dog-day",
+    "urlDate": "07-15"
+  },
+  "anv-nth-07-4-sun-parents-day-us": {
+    "slug": "parents-day",
+    "urlDate": "07-26"
+  },
+  "anv-nth-07-l-fri-system-administrator-appreciation-day-global": {
+    "slug": "system-administrator-appreciation-day",
+    "urlDate": "07-31"
+  },
+  "anv-nth-07-l-sat-dance-day-us": {
+    "slug": "dance-day",
+    "urlDate": "07-25"
+  },
+  "anv-nth-09-1-mon-labor-day-us": {
+    "slug": "labor-day",
+    "urlDate": "09-07"
+  },
+  "anv-nth-09-2-sun-grandparents-day-us": {
+    "slug": "grandparents-day",
+    "urlDate": "09-13"
+  },
+  "anv-nth-09-4-sat-public-lands-day-us": {
+    "slug": "public-lands-day",
+    "urlDate": "09-26"
+  },
+  "anv-nth-09-4-tue-voter-registration-day-us": {
+    "slug": "voter-registration-day",
+    "urlDate": "09-22"
+  },
+  "anv-nth-10-2-mon-columbus-day-us": {
+    "slug": "columbus-day",
+    "urlDate": "10-12"
+  },
+  "anv-nth-10-2-mon-native-american-day-us": {
+    "slug": "native-american-day",
+    "urlDate": "10-12"
+  },
+  "anv-nth-10-3-sat-sweetest-day-us": {
+    "slug": "sweetest-day",
+    "urlDate": "10-17"
+  },
+  "anv-nth-10-4-sun-mother-in-law-day-us": {
+    "slug": "mother-in-law-day",
+    "urlDate": "10-25"
+  },
+  "anv-nth-11-4-thu-day-of-mourning-us": {
+    "slug": "day-of-mourning",
+    "urlDate": "11-26"
+  },
+  "anv-nth-11-4-thu-thanksgiving-day-us": {
+    "slug": "thanksgiving-day",
+    "urlDate": "11-26"
+  },
+  "anv-rel-thanksgiving-1-black-friday-global": {
+    "slug": "black-friday",
+    "urlDate": "11-27"
+  },
+  "anv-rel-thanksgiving-1-buy-nothing-day-global": {
+    "slug": "buy-nothing-day",
+    "urlDate": "11-27"
+  },
+  "anv-rel-thanksgiving-1-day-of-listening-us": {
+    "slug": "day-of-listening",
+    "urlDate": "11-27"
+  },
+  "anv-rel-thanksgiving-1-flossing-day-us": {
+    "slug": "flossing-day",
+    "urlDate": "11-27"
+  },
+  "anv-rel-thanksgiving-1-native-american-heritage-day-us": {
+    "slug": "native-american-heritage-day",
+    "urlDate": "11-27"
+  },
+  "anv-rel-thanksgiving-1-youre-welcomegiving-day-us": {
+    "slug": "youre-welcomegiving-day",
+    "urlDate": "11-27"
+  },
+  "anv-rel-thanksgiving-2-small-business-saturday-us": {
+    "slug": "small-business-saturday",
+    "urlDate": "11-28"
+  },
+  "anv-rel-thanksgiving-4-cyber-monday-global": {
+    "slug": "cyber-monday",
+    "urlDate": "11-30"
+  },
+  "gov-1": {
+    "slug": "february-28-democracy-movement-day",
+    "urlDate": "02-28"
+  },
+  "gov-10": {
+    "slug": "health-day",
+    "urlDate": "04-07"
+  },
+  "gov-11": {
+    "slug": "provisional-government-establishment-day",
+    "urlDate": "04-11"
+  },
+  "gov-12": {
+    "slug": "april-19-revolution-day",
+    "urlDate": "04-19"
+  },
+  "gov-13": {
+    "slug": "day-of-persons-with-disabilities",
+    "urlDate": "04-20"
+  },
+  "gov-14": {
+    "slug": "science-day",
+    "urlDate": "04-21"
+  },
+  "gov-15": {
+    "slug": "information-and-communication-day",
+    "urlDate": "04-22"
+  },
+  "gov-16": {
+    "slug": "law-day",
+    "urlDate": "04-25"
+  },
+  "gov-17": {
+    "slug": "admiral-yi-sun-sin-birthday",
+    "urlDate": "04-28"
+  },
+  "gov-18": {
+    "slug": "fallen-soldiers-and-police-day",
+    "urlDate": "04-24"
+  },
+  "gov-19": {
+    "slug": "workers-day",
+    "urlDate": "05-01"
+  },
+  "gov-2": {
+    "slug": "taxpayers-day",
+    "urlDate": "03-03"
+  },
+  "gov-20": {
+    "slug": "childrens-day",
+    "urlDate": "05-05"
+  },
+  "gov-21": {
+    "slug": "parents-day",
+    "urlDate": "05-08"
+  },
+  "gov-22": {
+    "slug": "donghak-peasant-revolution-day",
+    "urlDate": "05-11"
+  },
+  "gov-24": {
+    "slug": "king-sejong-birthday",
+    "urlDate": "05-15"
+  },
+  "gov-25": {
+    "slug": "may-18-democratic-uprising-day",
+    "urlDate": "05-18"
+  },
+  "gov-26": {
+    "slug": "couples-day",
+    "urlDate": "05-21"
+  },
+  "gov-27": {
+    "slug": "coming-of-age-day",
+    "urlDate": "05-18"
+  },
+  "gov-28": {
+    "slug": "aerospace-day",
+    "urlDate": "05-27"
+  },
+  "gov-29": {
+    "slug": "day-of-the-sea",
+    "urlDate": "05-31"
+  },
+  "gov-3": {
+    "slug": "march-8-democratic-uprising-day",
+    "urlDate": "03-08"
+  },
+  "gov-30": {
+    "slug": "righteous-army-day",
+    "urlDate": "06-01"
+  },
+  "gov-31": {
+    "slug": "environment-day",
+    "urlDate": "06-05"
+  },
+  "gov-33": {
+    "slug": "june-10-democratic-uprising-day",
+    "urlDate": "06-10"
+  },
+  "gov-34": {
+    "slug": "june-10-independence-movement-day",
+    "urlDate": "06-10"
+  },
+  "gov-35": {
+    "slug": "korean-war-memorial-day",
+    "urlDate": "06-25"
+  },
+  "gov-36": {
+    "slug": "railroad-day",
+    "urlDate": "06-28"
+  },
+  "gov-37": {
+    "slug": "information-security-day",
+    "urlDate": "07-08"
+  },
+  "gov-38": {
+    "slug": "north-korean-defectors-day",
+    "urlDate": "07-14"
+  },
+  "gov-39": {
+    "slug": "blue-sky-day",
+    "urlDate": "09-07"
+  },
+  "gov-4": {
+    "slug": "march-15-uprising-day",
+    "urlDate": "03-15"
+  },
+  "gov-40": {
+    "slug": "armed-forces-day",
+    "urlDate": "10-01"
+  },
+  "gov-41": {
+    "slug": "senior-citizens-day",
+    "urlDate": "10-02"
+  },
+  "gov-42": {
+    "slug": "world-korean-day",
+    "urlDate": "10-05"
+  },
+  "gov-43": {
+    "slug": "veterans-day",
+    "urlDate": "10-08"
+  },
+  "gov-44": {
+    "slug": "sports-day",
+    "urlDate": "10-15"
+  },
+  "gov-45": {
+    "slug": "bu-ma-democratic-uprising-day",
+    "urlDate": "10-16"
+  },
+  "gov-46": {
+    "slug": "culture-day",
+    "urlDate": "10-17"
+  },
+  "gov-47": {
+    "slug": "police-day",
+    "urlDate": "10-21"
+  },
+  "gov-48": {
+    "slug": "united-nations-day",
+    "urlDate": "10-24"
+  },
+  "gov-49": {
+    "slug": "correctional-service-day",
+    "urlDate": "10-28"
+  },
+  "gov-5": {
+    "slug": "commerce-and-industry-day",
+    "urlDate": "03-18"
+  },
+  "gov-50": {
+    "slug": "local-autonomy-and-balanced-development-day",
+    "urlDate": "10-29"
+  },
+  "gov-51": {
+    "slug": "finance-day",
+    "urlDate": "10-27"
+  },
+  "gov-52": {
+    "slug": "student-independence-movement-day",
+    "urlDate": "11-03"
+  },
+  "gov-53": {
+    "slug": "farmers-day",
+    "urlDate": "11-11"
+  },
+  "gov-54": {
+    "slug": "patriots-day",
+    "urlDate": "11-17"
+  },
+  "gov-55": {
+    "slug": "consumers-day",
+    "urlDate": "12-03"
+  },
+  "gov-56": {
+    "slug": "trade-day",
+    "urlDate": "12-05"
+  },
+  "gov-57": {
+    "slug": "nuclear-safety-and-promotion-day",
+    "urlDate": "12-27"
+  },
+  "gov-6": {
+    "slug": "west-sea-defense-day",
+    "urlDate": "03-27"
+  },
+  "gov-7": {
+    "slug": "jeju-april-3-memorial-day",
+    "urlDate": "04-03"
+  },
+  "gov-8": {
+    "slug": "reserve-forces-day",
+    "urlDate": "04-03"
+  },
+  "gov-9": {
+    "slug": "arbor-day",
+    "urlDate": "04-05"
+  }
+}
