@@ -324,6 +324,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-chocolate-custard-day-may-3/"
   },
   {
+    "id": "anv-fixed-05-03-world-press-freedom-day-global",
+    "date": "05-03",
+    "dateType": "annual-fixed",
+    "name": "세계 언론자유의 날 (World Press Freedom Day)",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "1991년 아프리카 언론인들이 나미비아 빈트후크에 모여 언론의 자유와 독립을 선언한 '빈트후크 선언'을 기념하는 날이다. 유네스코의 제안을 받아 1993년 UN 총회가 5월 3일을 국제기념일로 선포했다.",
+      "anecdote": "해마다 이날 유네스코는 언론 자유에 기여한 인물에게 '기예르모 카노 상'을 준다. 콜롬비아에서 마약 카르텔의 실체를 파헤치다 1986년 신문사 앞에서 암살당한 언론인 기예르모 카노의 이름을 딴 상이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "질문할 수 없는 사회는 답도 잃는다."
+      }
+    ],
+    "sourceUrl": "https://www.un.org/en/observances/press-freedom-day"
+  },
+  {
     "id": "anv-fixed-05-04-renewal-day-us",
     "date": "05-04",
     "dateType": "annual-fixed",
@@ -1412,6 +1434,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-odometer-day-may-12/"
   },
   {
+    "id": "anv-fixed-05-12-international-nurses-day-global",
+    "date": "05-12",
+    "dateType": "annual-fixed",
+    "name": "국제 간호사의 날 (International Nurses Day)",
+    "category": "career",
+    "tags": [
+      "직업 & 감사"
+    ],
+    "storytelling": {
+      "origin": "근대 간호학의 창시자 플로렌스 나이팅게일의 생일(1820년 5월 12일)을 기려 국제간호협의회(ICN)가 1974년 제정했다. 한국에서도 이날 간호사 대회와 표창이 열린다.",
+      "anecdote": "나이팅게일은 '등불을 든 여인'으로 기억되지만 진짜 무기는 통계였다. 크림전쟁 사망자 대부분이 전투가 아니라 병원의 위생 불량으로 죽는다는 사실을 '장미 도표'라 불리는 원형 그래프로 시각화해, 완고한 군 수뇌부를 설득하고 의료 개혁을 끌어냈다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "3교대의 세계에 요일 개념은 없다."
+      }
+    ],
+    "sourceUrl": "https://www.icn.ch/how-we-do-it/campaigns/international-nurses-day"
+  },
+  {
     "id": "anv-fixed-05-13-frog-jumping-day-us",
     "date": "05-13",
     "dateType": "annual-fixed",
@@ -1723,7 +1767,7 @@
       "공휴일"
     ],
     "storytelling": {
-      "origin": "1965년 세종대왕 탄신일(5월 15일)에 맞춰 제정. '백성에게 글을 가르치신 가장 큰 스승'이라는 의미에서 이 날로 정해졌다.",
+      "origin": "1965년 세종대왕 탄신일(5월 15일)에 맞춰 제정. '백성에게 글을 가르치신 가장 큰 스승'이라는 의미에서 이 날로 정해졌다. 주관 부처는 교육부로, 교권 존중의 사회적 분위기를 조성하고 스승 공경과 관련된 행사를 연다.",
       "anecdote": "현재 학교에서는 김영란법(청탁금지법) 시행으로 카네이션 한 송이도 학부모가 직접 전달하면 안 되고, 오로지 학생회 명의로만 전달 가능하다. 그래서 '셀프 카네이션의 날'이라는 별칭이 생겼다."
     },
     "memes": [
@@ -1734,22 +1778,6 @@
       }
     ],
     "sourceUrl": "https://ko.wikipedia.org/wiki/%EC%8A%A4%EC%8A%B9%EC%9D%98_%EB%82%A0"
-  },
-  {
-    "id": "gov-23",
-    "date": "05-15",
-    "dateType": "annual-fixed",
-    "name": "스승의 날",
-    "category": "general",
-    "tags": [
-      "일반"
-    ],
-    "storytelling": {
-      "origin": "주관 부처: 교육부. 교권 존중의 사회적 분위기 조성과 스승 공경과 관련된 행사를 한다.",
-      "anecdote": null
-    },
-    "memes": [],
-    "sourceUrl": null
   },
   {
     "id": "anv-fixed-05-15-chocolate-chip-day-us",
@@ -3282,5 +3310,27 @@
       }
     ],
     "sourceUrl": "https://www.formula1.com/"
+  },
+  {
+    "id": "anv-fixed-05-31-world-no-tobacco-day-global",
+    "date": "05-31",
+    "dateType": "annual-fixed",
+    "name": "세계 금연의 날 (World No Tobacco Day)",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "세계보건기구(WHO)가 담배로 인한 질병과 사망을 알리기 위해 만든 날이다. 1987년 WHO 총회 결의에 따라 이듬해 4월 7일에 처음 시행됐고, 곧 날짜를 5월 31일로 옮겨 지금까지 이어지고 있다.",
+      "anecdote": "WHO는 매년 주제를 정하는데 '담배와 폐 건강', '전자담배로부터 청소년 보호'처럼 그해 가장 시급한 쟁점을 내건다. 한국에서도 이날에 맞춰 담뱃갑 경고 그림 교체나 금연 구역 확대 같은 정책이 발표되는 일이 잦다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "금연 성공률 100%. 단, 시도 횟수는 세지 않는다."
+      }
+    ],
+    "sourceUrl": "https://www.who.int/campaigns/world-no-tobacco-day"
   }
 ]

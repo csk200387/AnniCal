@@ -680,6 +680,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-costume-swap-day-october-10/"
   },
   {
+    "id": "anv-fixed-10-10-world-mental-health-day-global",
+    "date": "10-10",
+    "dateType": "annual-fixed",
+    "name": "세계 정신건강의 날 (World Mental Health Day)",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "세계정신건강연맹(WFMH)이 1992년 제정했고 세계보건기구(WHO)가 함께 기념한다. 정신질환에 대한 편견을 걷어내고 누구나 제때 치료받을 수 있게 하자는 취지다.",
+      "anecdote": "상징색은 초록색이라 초록 리본을 다는 캠페인이 열린다. 한국도 「정신건강복지법」에 따라 10월 10일을 '정신건강의 날'로 정해 같은 날 기념하고, 이 주간에 정신건강 검진과 상담 행사를 집중적으로 연다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "'괜찮아?' 한마디가 생각보다 멀리 간다."
+      }
+    ],
+    "sourceUrl": "https://www.who.int/campaigns/world-mental-health-day"
+  },
+  {
     "id": "anv-fixed-10-11-clergy-appreciation-day-global",
     "date": "10-11",
     "dateType": "annual-fixed",
@@ -1546,6 +1568,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-black-poetry-day-october-17/"
+  },
+  {
+    "id": "anv-fixed-10-17-day-for-eradicating-poverty-global",
+    "date": "10-17",
+    "dateType": "annual-fixed",
+    "name": "세계 빈곤퇴치의 날 (International Day for the Eradication of Poverty)",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "1987년 10월 17일 프랑스 파리 트로카데로 광장에 10만여 명이 모여 빈곤과 굶주림의 희생자를 추모한 것이 시작이다. 1992년 UN 총회가 이날을 '빈곤 퇴치를 위한 국제의 날'로 공식 지정했다.",
+      "anecdote": "집회를 이끈 사람은 빈민 운동에 평생을 바친 조제프 브레진스키 신부다. 광장에는 \"빈곤이 있는 곳에 인권 침해가 있다. 이를 없애는 것은 신성한 의무다\"라고 새긴 기념비가 세워졌고, 세계 곳곳에 같은 문구의 복제비가 서 있다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.un.org/en/observances/day-for-eradicating-poverty"
   },
   {
     "id": "anv-fixed-10-18-chocolate-cupcake-day-us",

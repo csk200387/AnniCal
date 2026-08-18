@@ -69,7 +69,7 @@
     "id": "anv-fixed-04-02-autism-awareness-day-global",
     "date": "04-02",
     "dateType": "annual-fixed",
-    "name": "세계 자폭증 인식의 날 (World Autism Awareness Day)",
+    "name": "세계 자폐증 인식의 날 (World Autism Awareness Day)",
     "category": "campaign",
     "tags": [
       "국제 캠페인 & 보건"
@@ -2370,6 +2370,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-picnic-day-april-23/"
+  },
+  {
+    "id": "anv-fixed-04-23-world-book-day-global",
+    "date": "04-23",
+    "dateType": "annual-fixed",
+    "name": "세계 책의 날 (World Book and Copyright Day)",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "1995년 유네스코 총회에서 제정한 '세계 책과 저작권의 날'이다. 『돈키호테』를 쓴 세르반테스와 셰익스피어가 모두 1616년 4월 23일에 세상을 떠난 것을 기려 이 날짜로 정했다.",
+      "anecdote": "사실 두 사람이 같은 날 죽은 건 아니다. 당시 스페인은 그레고리력, 영국은 율리우스력을 써서 실제로는 열흘가량 차이가 난다. 날짜의 진짜 뿌리는 카탈루냐의 산 조르디 축제로, 이날 남자는 장미를 여자는 책을 선물하는 풍습이 있어 거리가 책과 장미로 뒤덮인다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "장바구니에 담아둔 책은 읽은 책이 아니다."
+      }
+    ],
+    "sourceUrl": "https://www.unesco.org/en/days/world-book-and-copyright"
   },
   {
     "id": "anv-fixed-04-24-pet-parents-day-us",

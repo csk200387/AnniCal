@@ -591,7 +591,7 @@
       "공휴일"
     ],
     "storytelling": {
-      "origin": "1956년 제정된 대한민국 법정 공휴일. 6월은 1950년 6·25 전쟁이 발발한 달이며, 24절기 중 하나인 망종(芒種, 모내기 시기)이 이 무렵이라 예부터 군졸의 유해를 안장하던 풍습에서 따왔다.",
+      "origin": "1956년 제정된 대한민국 법정 공휴일. 6월은 1950년 6·25 전쟁이 발발한 달이며, 24절기 중 하나인 망종(芒種, 모내기 시기)이 이 무렵이라 예부터 군졸의 유해를 안장하던 풍습에서 따왔다. 주관 부처는 국가보훈부로, 호국영령의 명복을 빌고 순국선열과 전몰장병의 호국정신과 위훈을 기리는 행사를 연다.",
       "anecdote": "오전 10시 정각, 전국에 1분간 묵념 사이렌이 울린다. 운전 중이라면 갓길에 정차하고 묵념하는 것이 권고사항. 태극기는 이 날 만큼은 '조기(弔旗)' 즉 깃봉에서 깃 너비만큼 내려 게양한다."
     },
     "memes": [
@@ -602,22 +602,6 @@
       }
     ],
     "sourceUrl": "https://ko.wikipedia.org/wiki/%ED%98%84%EC%B6%A9%EC%9D%BC"
-  },
-  {
-    "id": "gov-32",
-    "date": "06-06",
-    "dateType": "annual-fixed",
-    "name": "현충일",
-    "category": "general",
-    "tags": [
-      "일반"
-    ],
-    "storytelling": {
-      "origin": "주관 부처: 국가보훈부. 호국영령의 명복을 빌고, 순국선열 및 전몰장병(戰歿將兵)의 숭고한 호국정신과 위훈(偉勳)을 기리는 행사를 한다.",
-      "anecdote": null
-    },
-    "memes": [],
-    "sourceUrl": null
   },
   {
     "id": "anv-fixed-06-07-vcr-day-us",
@@ -1268,6 +1252,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-pop-goes-the-weasel-day-june-14/"
   },
   {
+    "id": "anv-fixed-06-14-world-blood-donor-day-global",
+    "date": "06-14",
+    "dateType": "annual-fixed",
+    "name": "세계 헌혈자의 날 (World Blood Donor Day)",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "ABO 혈액형을 발견해 안전한 수혈의 길을 연 카를 란트슈타이너의 생일(1868년 6월 14일)을 기념한다. 세계보건기구(WHO)와 국제적십자사연맹 등이 2004년 제정했다.",
+      "anecdote": "란트슈타이너는 이 공로로 1930년 노벨생리의학상을 받았다. 그전까지 수혈은 성공하면 살고 실패하면 죽는 도박에 가까웠는데, 혈액형이라는 개념 하나가 수혈을 비로소 의학으로 바꿔놓았다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "헌혈하고 받은 초코과자가 유난히 맛있다."
+      }
+    ],
+    "sourceUrl": "https://www.who.int/campaigns/world-blood-donor-day"
+  },
+  {
     "id": "anv-fixed-06-15-lobster-day-us",
     "date": "06-15",
     "dateType": "annual-fixed",
@@ -1640,6 +1646,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-kouign-amann-day-june-20/"
+  },
+  {
+    "id": "anv-fixed-06-20-world-refugee-day-global",
+    "date": "06-20",
+    "dateType": "annual-fixed",
+    "name": "세계 난민의 날 (World Refugee Day)",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "본래 아프리카통일기구가 지켜온 '아프리카 난민의 날'이었으나, 2000년 UN 총회가 난민협약 체결 50주년을 맞아 6월 20일을 세계 난민의 날로 정하고 2001년부터 전 세계가 함께 기념하고 있다.",
+      "anecdote": "UNHCR 집계로 분쟁과 박해로 집을 잃은 사람은 1억 명을 넘어섰다. 한국은 1992년 난민협약에 가입해 아시아에서 처음으로 독립된 난민법을 만든 나라지만, 정작 난민 인정률은 국제 평균에 크게 못 미쳐 해마다 이날 논쟁이 반복된다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.un.org/en/observances/refugee-day"
   },
   {
     "id": "anv-fixed-06-21-go-skateboarding-day-global",

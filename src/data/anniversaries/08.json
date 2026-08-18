@@ -902,6 +902,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-julienne-fries-day-august-12/"
   },
   {
+    "id": "anv-fixed-08-12-international-youth-day-global",
+    "date": "08-12",
+    "dateType": "annual-fixed",
+    "name": "국제 청소년의 날 (International Youth Day)",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "1998년 리스본에서 열린 세계청소년장관회의의 권고를 받아들여, 1999년 UN 총회가 8월 12일을 국제 청소년의 날로 지정했다. 청소년이 겪는 문제와 그들의 사회 참여에 국제적 관심을 모으자는 취지다.",
+      "anecdote": "UN이 말하는 '청소년(youth)'은 15~24세로, 9~24세를 청소년으로 보는 한국 청소년기본법과 범위가 다르다. 한국에는 별도로 5월 셋째 주 토요일이 '청소년의 날'로 지정돼 있어 일 년에 두 번 청소년을 기념하는 셈이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "어른들의 이야기는 늘 '나 때는'으로 시작한다."
+      }
+    ],
+    "sourceUrl": "https://www.un.org/en/observances/youth-day"
+  },
+  {
     "id": "anv-fixed-08-13-international-lefthanders-day-global",
     "date": "08-13",
     "dateType": "annual-fixed",

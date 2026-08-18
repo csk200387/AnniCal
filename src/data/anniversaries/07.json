@@ -660,6 +660,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-cheer-up-the-lonely-day-july-11/"
   },
   {
+    "id": "anv-fixed-07-11-world-population-day-global",
+    "date": "07-11",
+    "dateType": "annual-fixed",
+    "name": "세계 인구의 날 (World Population Day)",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "1987년 7월 11일 세계 인구가 50억 명을 돌파한 것을 계기로 UN개발계획(UNDP)이 1989년 제정했다. 인구 증가가 환경·개발·보건에 미치는 영향에 관심을 모으자는 취지다.",
+      "anecdote": "'50억 번째 아기'로 상징된 인물은 옛 유고슬라비아에서 태어난 마테이 가스파르다. 세계 인구는 2022년 11월 80억 명을 넘어섰지만, 한국은 반대로 합계출산율 최저 기록을 갱신하며 정반대 방향의 인구 문제를 안고 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "지구에 80억 명이 사는데 내 취향 아는 사람은 0명."
+      }
+    ],
+    "sourceUrl": "https://www.un.org/en/observances/world-population-day"
+  },
+  {
     "id": "anv-fixed-07-12-simplicity-day-us",
     "date": "07-12",
     "dateType": "annual-fixed",

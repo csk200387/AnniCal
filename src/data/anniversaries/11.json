@@ -1082,6 +1082,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-caffeinated-soda-day-november-19/"
   },
   {
+    "id": "anv-fixed-11-19-world-toilet-day-global",
+    "date": "11-19",
+    "dateType": "annual-fixed",
+    "name": "세계 화장실의 날 (World Toilet Day)",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "안전한 화장실을 쓰지 못하는 인구가 수십억 명에 이른다는 위생 문제를 알리기 위한 날이다. 2001년 세계화장실기구가 창립일에 맞춰 기념하기 시작했고, 2013년 UN 총회가 공식 국제기념일로 채택했다.",
+      "anecdote": "UN 결의안을 제안한 나라는 싱가포르였다. 위생을 국가 의제로 끌어올린 자부심이 배경에 있다. 한국도 2007년 수원에서 세계화장실협회 창립총회를 열었는데, 공중화장실을 문화 공간으로 바꾸자는 운동을 주도한 결과였다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "인생 최대의 고민은 늘 화장실에서 풀린다."
+      }
+    ],
+    "sourceUrl": "https://www.un.org/en/observances/toilet-day"
+  },
+  {
     "id": "anv-fixed-11-20-absurdity-day-us",
     "date": "11-20",
     "dateType": "annual-fixed",
@@ -1124,6 +1146,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-peanut-butter-fudge-day-november-20/"
+  },
+  {
+    "id": "anv-fixed-11-20-world-childrens-day-global",
+    "date": "11-20",
+    "dateType": "annual-fixed",
+    "name": "세계 어린이의 날 (World Children's Day)",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "1954년 UN이 어린이의 복지와 권리를 위해 제정했다. 날짜는 1959년 UN이 아동권리선언을, 1989년 아동권리협약을 채택한 11월 20일에서 따왔다.",
+      "anecdote": "한국의 어린이날은 5월 5일로 따로 있는데, 1922년 방정환이 주도해 만든 것이라 UN보다 30년 이상 앞선다. 세계 어린이의 날에는 유니세프가 상징색인 파란색으로 세계 랜드마크를 밝히는 '고 블루(Go Blue)' 캠페인을 연다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "어린이날이 두 번이면 좋겠다는 어린이들의 오랜 숙원."
+      }
+    ],
+    "sourceUrl": "https://www.un.org/en/observances/world-childrens-day"
   },
   {
     "id": "anv-fixed-11-21-stuffing-day-us",

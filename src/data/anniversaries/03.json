@@ -736,6 +736,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-peanut-cluster-day-march-8/"
   },
   {
+    "id": "anv-fixed-03-08-international-womens-day-global",
+    "date": "03-08",
+    "dateType": "annual-fixed",
+    "name": "세계 여성의 날 (International Women's Day)",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "1908년 3월 8일 미국 뉴욕에서 여성 섬유노동자 1만 5천여 명이 노동조건 개선과 참정권을 요구하며 벌인 시위에서 비롯됐다. 1975년 UN이 '세계 여성의 날'로 공식 지정하면서 국제 기념일이 됐고, 한국에서도 2018년부터 법정기념일인 '여성의 날'로 지정돼 있다.",
+      "anecdote": "당시 시위대가 내건 구호는 \"우리에게 빵과 장미를 달라\"였다. 빵은 생존을 위한 임금을, 장미는 참정권과 인간다운 삶을 뜻했다. 그래서 이날 장미를 주고받는 문화가 생겼고, 한국에서도 3월 8일이면 여성 노동자에게 장미를 건네는 행사가 열린다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "빵도 장미도, 아직 충분하지 않다."
+      }
+    ],
+    "sourceUrl": "https://www.un.org/en/observances/womens-day"
+  },
+  {
     "id": "anv-fixed-03-09-crabmeat-day-global",
     "date": "03-09",
     "dateType": "annual-fixed",
@@ -2011,6 +2033,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-fragrance-day-march-21/"
   },
   {
+    "id": "anv-fixed-03-21-world-down-syndrome-day-global",
+    "date": "03-21",
+    "dateType": "annual-fixed",
+    "name": "세계 다운증후군의 날 (World Down Syndrome Day)",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "다운증후군은 21번 염색체가 2개가 아니라 3개인 삼염색체성(trisomy 21)으로 나타난다. 여기서 '3월의 21일'을 따 날짜를 정했다. 2006년부터 민간에서 기념해오다 2011년 UN 총회가 공식 국제기념일로 선포했다.",
+      "anecdote": "상징 캠페인은 '짝짝이 양말 신기(Lots of Socks)'다. 양말을 일부러 서로 다르게 신어, 다르다는 것이 이상한 게 아니라는 메시지를 전한다. 염색체를 그린 핵형 그림이 나란히 걸린 양말과 닮았다는 데서 착안했다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "오늘만큼은 양말을 일부러 짝짝이로."
+      }
+    ],
+    "sourceUrl": "https://www.un.org/en/observances/down-syndrome-day"
+  },
+  {
     "id": "anv-fixed-03-22-goof-off-day-us",
     "date": "03-22",
     "dateType": "annual-fixed",
@@ -2075,6 +2119,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-bavarian-crepes-day-march-22/"
+  },
+  {
+    "id": "anv-fixed-03-22-world-water-day-global",
+    "date": "03-22",
+    "dateType": "annual-fixed",
+    "name": "세계 물의 날 (World Water Day)",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "인구 증가와 산업화로 물 부족과 수질 오염이 심각해지자, 1992년 UN 총회가 결의를 채택해 이듬해인 1993년부터 매년 3월 22일을 '세계 물의 날'로 기념하기 시작했다. 그해 리우 환경회의의 권고를 반영한 결정이었다.",
+      "anecdote": "한국은 원래 7월 1일을 자체 '물의 날'로 지켜오다 1995년부터 UN 기준인 3월 22일로 옮겨 정부 기념식을 연다. 매년 UN이 주제를 정하는데 '물과 기후변화', '지하수', '빙하 보존'처럼 그해 가장 시급한 물 문제를 내건다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "샤워하다 문득: 나 지금 물 너무 쓰나?"
+      }
+    ],
+    "sourceUrl": "https://www.un.org/en/observances/water-day"
   },
   {
     "id": "anv-fixed-03-23-puppy-day-global",

@@ -522,6 +522,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-swap-ideas-day-september-10/"
   },
   {
+    "id": "anv-fixed-09-10-world-suicide-prevention-day-global",
+    "date": "09-10",
+    "dateType": "annual-fixed",
+    "name": "세계 자살예방의 날 (World Suicide Prevention Day)",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "국제자살예방협회(IASP)와 세계보건기구(WHO)가 2003년 공동 제정했다. 자살이 예방 가능한 죽음이라는 인식을 넓히고, 꺼내기 어려운 주제를 공론의 장으로 끌어내자는 취지다.",
+      "anecdote": "상징은 노란 리본과 촛불로, 이날 저녁 창가에 초를 켜 떠난 이들을 기억하고 남은 이들에게 연대를 표하는 캠페인이 세계 곳곳에서 열린다. 한국에서는 2024년부터 자살예방 상담전화가 '109'로 통합돼 24시간 운영된다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.who.int/campaigns/world-suicide-prevention-day"
+  },
+  {
     "id": "anv-fixed-09-11-stand-up-to-cancer-day-global",
     "date": "09-11",
     "dateType": "annual-fixed",
@@ -2302,6 +2318,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-corned-beef-hash-day-september-27/"
+  },
+  {
+    "id": "anv-fixed-09-27-world-tourism-day-global",
+    "date": "09-27",
+    "dateType": "annual-fixed",
+    "name": "세계 관광의 날 (World Tourism Day)",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "세계관광기구(UNWTO)가 1980년 제정했다. 1970년 9월 27일 UNWTO 정관이 채택된 날을 기념한 것으로, 관광이 문화·경제·사회에 미치는 가치를 알리는 데 목적이 있다.",
+      "anecdote": "해마다 개최국을 돌아가며 정해 기념행사를 열고, 주제도 '관광과 일자리', '관광과 녹색 투자'처럼 그해 산업 화두를 반영한다. 국제 관광이 사실상 멈췄던 2020년의 주제는 '관광과 농촌 발전'이었다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "여행 계획 세우는 시간이 여행보다 길다."
+      }
+    ],
+    "sourceUrl": "https://www.unwto.org/world-tourism-day"
   },
   {
     "id": "anv-fixed-09-28-strawberry-cream-pie-day-us",
