@@ -140,6 +140,7 @@ function handleShare(anv: Anniversary, dDay?: number) {
           :key="anniversary.id"
           :anniversary="anniversary"
           :d-day="dDay"
+          variant="upcoming"
           @share="(anv) => handleShare(anv, dDay)"
         />
       </div>

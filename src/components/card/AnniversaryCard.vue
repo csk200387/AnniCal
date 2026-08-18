@@ -5,21 +5,41 @@ import { formatKoreanMonthDay } from '@/utils/dateUtils'
 import { primaryColorForTags } from '@/utils/tagPalette'
 import CategoryBadge from '@/components/common/CategoryBadge.vue'
 
-const props = defineProps<{
-  anniversary: Anniversary
-  /** 다가오는 카드인 경우 D-N 표기를 위한 값. */
-  dDay?: number
-}>()
+const props = withDefaults(
+  defineProps<{
+    anniversary: Anniversary
+    /** 다가오는 카드인 경우 D-N 표기를 위한 값. */
+    dDay?: number
+    /**
+     * 카드 톤. 섹션을 눈으로 구분하기 위한 값이다.
+     * - today: 종이 톤 중 가장 밝게 — 오늘의 기념일(주인공)
+     * - upcoming: 한 톤 낮은 따뜻한 종이색 — 다가오는 기념일
+     */
+    variant?: 'today' | 'upcoming'
+  }>(),
+  { variant: 'today' },
+)
 
 defineEmits<{ (e: 'share', anniversary: Anniversary): void }>()
 
 const dateLabel = formatKoreanMonthDay(props.anniversary)
 const accentDot = computed(() => primaryColorForTags(props.anniversary.tags).dot)
+
+const surfaceClass = computed(() =>
+  props.variant === 'upcoming'
+    ? 'border-rule-strong/60 bg-paper-200/50'
+    : 'border-rule bg-paper-50',
+)
+
+const footerClass = computed(() =>
+  props.variant === 'upcoming' ? 'bg-paper-300/35' : 'bg-paper-100/60',
+)
 </script>
 
 <template>
   <article
-    class="group relative overflow-hidden rounded-[2px] border border-rule bg-paper-50 transition-shadow duration-300 hover:shadow-[0_18px_40px_-24px_rgba(31,29,26,0.25)]"
+    class="group relative overflow-hidden rounded-[2px] border transition-shadow duration-300 hover:shadow-[0_18px_40px_-24px_rgba(31,29,26,0.25)]"
+    :class="surfaceClass"
   >
     <!-- Top meta strip: category eyebrow · date · D-day -->
     <header class="flex items-center justify-between gap-3 border-b hairline px-7 py-3.5">
@@ -99,7 +119,10 @@ const accentDot = computed(() => primaryColorForTags(props.anniversary.tags).dot
     </div>
 
     <!-- Footer -->
-    <footer class="flex items-center justify-between border-t hairline bg-paper-100/60 px-7 py-3.5">
+    <footer
+      class="flex items-center justify-between border-t hairline px-7 py-3.5"
+      :class="footerClass"
+    >
       <a
         v-if="anniversary.sourceUrl"
         :href="anniversary.sourceUrl"
