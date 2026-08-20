@@ -8,12 +8,20 @@ import { isExternalUrl, sourceHost } from '@/utils/sourceUrl'
 import { primaryColorForTags } from '@/utils/tagPalette'
 import CategoryBadge from '@/components/common/CategoryBadge.vue'
 import { applyAnniversaryMeta } from '@/seo/head'
+import { useShareStore } from '@/stores/share'
 
 const route = useRoute()
 const urlDate = computed(() => String(route.params.date ?? ''))
 const slug = computed(() => String(route.params.slug ?? ''))
 
 const { anniversary, sameDay, related, notFound } = useDayDetail(urlDate, slug)
+const shareStore = useShareStore()
+
+// 검색으로 이 페이지에 바로 들어온 사람에게도 공유 수단이 필요하다.
+// 모달은 AppShell 에 상시 떠 있으므로 스토어만 열어 주면 된다.
+function openShare() {
+  if (anniversary.value) shareStore.open(anniversary.value)
+}
 
 const dateLabel = computed(() => formatUrlDate(urlDate.value))
 /** 실제 발생일 — 비고정 기념일은 올해 기준으로 다시 계산해야 정확하다. */
@@ -118,6 +126,18 @@ watch(
           class="underline underline-offset-4 transition-colors hover:text-ink-700"
         >{{ sourceHost(anniversary.sourceUrl) }}</a>
       </p>
+
+      <div class="mt-8 flex justify-start border-t hairline pt-6">
+        <button
+          type="button"
+          class="group/share inline-flex items-center gap-2 border border-ink-800 bg-paper-50 px-5 py-2.5 text-[0.7rem] font-medium uppercase tracking-[0.2em] text-ink-800 transition hover:bg-paper-200"
+          @click="openShare"
+        >
+          <span>Share</span>
+          <span class="font-display normal-case tracking-normal text-[0.85rem]">공유하기</span>
+          <span class="transition-transform group-hover/share:translate-x-0.5" aria-hidden="true">→</span>
+        </button>
+      </div>
     </article>
 
     <!-- 같은 날의 다른 기념일 — 날짜 허브와 상세를 잇는 내부 링크 -->
