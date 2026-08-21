@@ -2763,6 +2763,10 @@
     "slug": "personal-chefs-day",
     "urlDate": "07-16"
   },
+  "anv-fixed-07-17-constitution-day-kr": {
+    "slug": "constitution-day",
+    "urlDate": "07-17"
+  },
   "anv-fixed-07-17-peach-ice-cream-day-us": {
     "slug": "peach-ice-cream-day",
     "urlDate": "07-17"
@@ -4871,13 +4875,41 @@
     "slug": "universal-hour-of-peace",
     "urlDate": "12-31"
   },
+  "anv-lunar-baekjung-kr": {
+    "slug": "baekjung",
+    "urlDate": "08-27"
+  },
+  "anv-lunar-buddhas-birthday-kr": {
+    "slug": "buddhas-birthday",
+    "urlDate": "05-24"
+  },
+  "anv-lunar-chilseok-kr": {
+    "slug": "chilseok",
+    "urlDate": "08-19"
+  },
   "anv-lunar-chuseok-kr": {
     "slug": "chuseok",
     "urlDate": "09-25"
   },
+  "anv-lunar-dano-kr": {
+    "slug": "dano",
+    "urlDate": "06-19"
+  },
+  "anv-lunar-jeongwol-daeboreum-kr": {
+    "slug": "jeongwol-daeboreum",
+    "urlDate": "03-03"
+  },
+  "anv-lunar-jungyangjeol-kr": {
+    "slug": "jungyangjeol",
+    "urlDate": "10-19"
+  },
   "anv-lunar-seollal-kr": {
     "slug": "seollal",
     "urlDate": "02-17"
+  },
+  "anv-lunar-yudu-kr": {
+    "slug": "yudu",
+    "urlDate": "07-28"
   },
   "anv-nth-02-1-fri-wear-red-day-us": {
     "slug": "wear-red-day",
@@ -5023,6 +5055,10 @@
     "slug": "cheoseo",
     "urlDate": "08-23"
   },
+  "anv-term-chobok-kr": {
+    "slug": "chobok",
+    "urlDate": "07-15"
+  },
   "anv-term-chubun-kr": {
     "slug": "chubun",
     "urlDate": "09-23"
@@ -5059,6 +5095,10 @@
     "slug": "hallo",
     "urlDate": "10-08"
   },
+  "anv-term-hansik-kr": {
+    "slug": "hansik",
+    "urlDate": "04-06"
+  },
   "anv-term-ipchu-kr": {
     "slug": "ipchu",
     "urlDate": "08-07"
@@ -5074,6 +5114,14 @@
   "anv-term-ipha-kr": {
     "slug": "ipha",
     "urlDate": "05-05"
+  },
+  "anv-term-jungbok-kr": {
+    "slug": "jungbok",
+    "urlDate": "07-25"
+  },
+  "anv-term-malbok-kr": {
+    "slug": "malbok",
+    "urlDate": "08-14"
   },
   "anv-term-mangjong-kr": {
     "slug": "mangjong",

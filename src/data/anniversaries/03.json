@@ -324,6 +324,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-pancake-day-march-3/"
   },
   {
+    "id": "anv-lunar-jeongwol-daeboreum-kr",
+    "date": "jeongwol-daeboreum",
+    "dateType": "annual-tabulated",
+    "name": "정월대보름",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "음력 1월 15일, 새해 들어 처음 맞는 보름달이 뜨는 날이다. 한 해의 농사와 건강을 기원하며 오곡밥과 나물을 먹고, 부럼을 깨물어 한 해 동안 부스럼이 나지 않기를 빌었다.",
+      "anecdote": "아침에 눈뜨자마자 귀밝이술을 한 잔 마시면 귀가 밝아지고 좋은 소식만 듣는다고 했다. 달집태우기, 쥐불놀이, 줄다리기 같은 마을 단위 놀이가 이날 몰려 있어, 설날보다 더 큰 축제로 여긴 지역도 많았다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "부럼 깨물다 이가 먼저 깨질 뻔."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/정월_대보름"
+  },
+  {
     "id": "anv-fixed-03-04-hug-a-gi-day-us",
     "date": "03-04",
     "dateType": "annual-fixed",

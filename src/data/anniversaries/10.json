@@ -1674,6 +1674,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-seafood-bisque-day-october-19/"
   },
   {
+    "id": "anv-lunar-jungyangjeol-kr",
+    "date": "jungyangjeol",
+    "dateType": "annual-tabulated",
+    "name": "중양절 (重陽節)",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "음력 9월 9일, 양(陽)의 기운을 가진 홀수 9가 겹친다 하여 중양이라 했다. 높은 곳에 올라 국화주를 마시고 시를 짓던 날로, 강남 갔던 제비가 돌아가는 때로도 여겼다.",
+      "anecdote": "국화전을 부쳐 먹는 풍습이 있어 화전놀이의 가을판이라 할 만하다. 추석에 햇곡식이 여물지 않은 해에는 이날 차례를 지내기도 했다. 설날·단오·칠석처럼 홀수가 겹치는 날을 명절로 삼은 동아시아 전통의 하나다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "9가 두 번이면 좋은 날이라는 옛사람들의 셈법."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/중양절"
+  },
+  {
     "id": "anv-fixed-10-20-brandied-fruit-day-us",
     "date": "10-20",
     "dateType": "annual-fixed",

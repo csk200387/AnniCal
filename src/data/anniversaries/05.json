@@ -1202,9 +1202,9 @@
     "date": "05-10",
     "dateType": "annual-fixed",
     "name": "유권자의 날",
-    "category": "holiday",
+    "category": "general",
     "tags": [
-      "공휴일"
+      "일반"
     ],
     "storytelling": {
       "origin": "2012년 제정된 대한민국 법정기념일. 1948년 5월 10일, 한반도 역사상 최초의 보통·평등·직접·비밀 선거인 제헌국회의원 선거가 치러진 날을 기념한다.",
@@ -1784,9 +1784,9 @@
     "date": "05-15",
     "dateType": "annual-fixed",
     "name": "스승의 날",
-    "category": "holiday",
+    "category": "career",
     "tags": [
-      "공휴일"
+      "직업 & 감사"
     ],
     "storytelling": {
       "origin": "1965년 세종대왕 탄신일(5월 15일)에 맞춰 제정. '백성에게 글을 가르치신 가장 큰 스승'이라는 의미에서 이 날로 정해졌다. 주관 부처는 교육부로, 교권 존중의 사회적 분위기를 조성하고 스승 공경과 관련된 행사를 연다.",
@@ -2668,6 +2668,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-escargot-day-may-24/"
+  },
+  {
+    "id": "anv-lunar-buddhas-birthday-kr",
+    "date": "buddhas-birthday",
+    "dateType": "annual-tabulated",
+    "name": "부처님오신날",
+    "category": "holiday",
+    "tags": [
+      "공휴일"
+    ],
+    "storytelling": {
+      "origin": "음력 4월 8일, 석가모니의 탄생을 기리는 법정공휴일이다. '초파일'이라고도 부른다. 절에서는 등을 달아 어둠을 밝힌다는 뜻을 담은 연등을 걸고, 아기 부처상에 물을 붓는 관불의식을 치른다.",
+      "anecdote": "1975년 공휴일이 됐는데, 그전까지 '석가탄신일'이던 공식 명칭은 2018년 지금의 이름으로 바뀌었다. 서울 도심에서 열리는 연등회는 2020년 유네스코 인류무형문화유산에 등재됐다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "연등 아래를 걷는 밤은 확실히 특별하다."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/부처님_오신 날"
   },
   {
     "id": "anv-fixed-05-25-senior-health-fitness-day-us",

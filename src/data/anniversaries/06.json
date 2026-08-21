@@ -438,9 +438,9 @@
     "date": "06-05",
     "dateType": "annual-fixed",
     "name": "세계 환경의 날",
-    "category": "holiday",
+    "category": "campaign",
     "tags": [
-      "공휴일"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "1972년 스웨덴 스톡홀름에서 열린 'UN 인간환경회의' 개막일을 기념해 UN이 제정. 매년 다른 주최국과 테마를 선정한다.",
@@ -1580,6 +1580,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-flip-flop-day-june-19/"
+  },
+  {
+    "id": "anv-lunar-dano-kr",
+    "date": "dano",
+    "dateType": "annual-tabulated",
+    "name": "단오",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "음력 5월 5일, 모내기를 마치고 한숨 돌리며 풍년을 기원하던 명절이다. 여자는 창포 삶은 물에 머리를 감고 그네를 뛰었으며, 남자는 씨름으로 힘을 겨뤘다. 수리취떡을 해 먹는 풍습도 있었다.",
+      "anecdote": "양기가 가장 세다고 여긴 날이라 이날 캔 약초가 효험이 좋다고 믿었다. 강릉단오제는 천 년 가까이 이어져 온 축제로, 2005년 유네스코 인류무형문화유산에 등재됐다. 북한에서도 명절로 지키며, 중국과 일본에도 같은 날짜의 명절이 남아 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "창포물 대신 트리트먼트로 대체합니다."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/단오"
   },
   {
     "id": "anv-fixed-06-20-vanilla-milkshake-day-us",

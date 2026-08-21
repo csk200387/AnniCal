@@ -1012,6 +1012,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-creamsicle-day-august-14/"
   },
   {
+    "id": "anv-term-malbok-kr",
+    "date": "malbok",
+    "dateType": "annual-tabulated",
+    "name": "말복 (末伏)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "삼복의 마지막으로, 입추가 지나고 처음 맞는 경일(庚日)이다. 가을이 시작되는 절기 뒤에 놓여 있어, 이날을 지나면 더위가 한풀 꺾인다고 여겼다.",
+      "anecdote": "\"말복이 지나면 아침저녁으로 선선해진다\"는 말이 있지만 실제로는 8월 말까지 더위가 이어지는 해가 많다. 삼복 가운데 마지막이라 \"이제 이걸로 끝\"이라는 마음으로 한 그릇 더 챙겨 먹는 날이기도 하다. 삼복 날짜는 해마다 달라지는데, 하지와 입추가 기준이라 양력으로 고정할 수 없기 때문이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "복날 시즌 종료. 다만 더위는 계속됩니다."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/복날"
+  },
+  {
     "id": "anv-fixed-08-15-liberation-day-kr",
     "date": "08-15",
     "dateType": "annual-fixed",
@@ -1296,6 +1318,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-aviation-day-august-19/"
+  },
+  {
+    "id": "anv-lunar-chilseok-kr",
+    "date": "chilseok",
+    "dateType": "annual-tabulated",
+    "name": "칠석 (七夕)",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "음력 7월 7일, 은하수를 사이에 두고 떨어져 지내던 견우와 직녀가 까치와 까마귀가 놓아 준 오작교에서 일 년에 한 번 만난다는 날이다. 동아시아 전역에 퍼진 설화로, 한국에서는 삼국시대 기록에도 나온다.",
+      "anecdote": "이날 비가 오면 두 사람이 만나 흘리는 기쁨의 눈물, 이튿날 비가 오면 헤어지며 흘리는 눈물이라고 했다. 여자들은 별을 보며 바느질 솜씨가 늘기를 빌었고, 장마 뒤라 옷과 책을 볕에 내어 말리는 날이기도 했다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "1년에 하루 만나는 커플 앞에서 할 말 없음."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/칠석"
   },
   {
     "id": "anv-fixed-08-20-radio-day-us",
@@ -1780,6 +1824,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-pots-de-creme-day-august-27/"
+  },
+  {
+    "id": "anv-lunar-baekjung-kr",
+    "date": "baekjung",
+    "dateType": "annual-tabulated",
+    "name": "백중 (百中)",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "음력 7월 15일, 여름 농사일이 대충 끝나 머슴과 일꾼들에게 하루를 쉬게 하고 새 옷과 돈을 주던 날이다. '머슴날'이라고도 불렀으며, 장이 서고 씨름판이 벌어졌다.",
+      "anecdote": "이름은 온갖 과일과 곡식이 100가지쯤 나온다는 데서 왔다는 설명이 전해진다. 불교에서는 이날 조상의 넋을 위로하는 우란분재를 지내는데, 지금도 절에서는 백중 법회가 큰 행사로 남아 있다. 농사를 매개로 한 명절이라 산업화 이후 빠르게 사라졌고, 지금은 절과 일부 지역 축제로만 남아 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "조선시대에도 여름휴가는 있었다."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/백중"
   },
   {
     "id": "anv-fixed-08-28-college-colors-day-us",

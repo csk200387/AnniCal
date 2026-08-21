@@ -44,7 +44,26 @@ TERMS = [
 ]
 
 # 음력 명절 (키, 음력 월, 음력 일)
-LUNAR = [("seollal", 1, 1), ("chuseok", 8, 15)]
+LUNAR = [
+    ("seollal", 1, 1),            # 설날
+    ("jeongwol-daeboreum", 1, 15),  # 정월대보름
+    ("buddhas-birthday", 4, 8),   # 부처님오신날 (공휴일)
+    ("dano", 5, 5),               # 단오
+    ("yudu", 6, 15),              # 유두
+    ("chilseok", 7, 7),           # 칠석
+    ("baekjung", 7, 15),          # 백중
+    ("chuseok", 8, 15),           # 추석
+    ("jungyangjeol", 9, 9),       # 중양절
+]
+
+# 한식 — 동지로부터 105일째. 24절기가 아니라 절기에서 파생된 명절이다.
+HANSIK_OFFSET = 105
+
+# 삼복 — 십간(十干)의 경일(庚日)을 기준으로 잡는다.
+#   초복: 하지 후 세 번째 경일 · 중복: 네 번째 경일 · 말복: 입추 후 첫 번째 경일
+# 경일 판정은 율리우스일 기준 (JDN + 9) % 10 == 6 이며,
+# 2023~2025년의 알려진 삼복 날짜와 대조해 확인했다.
+GYEONG_OFFSET = 9
 
 
 def sun_lon(dt: datetime.datetime) -> float:
@@ -75,6 +94,25 @@ def find_term(year: int, target: float) -> datetime.datetime:
     return lo + (hi - lo) / 2
 
 
+def _jdn(d: datetime.date) -> int:
+    return d.toordinal() + 1721425
+
+
+def _is_gyeong(d: datetime.date) -> bool:
+    return (_jdn(d) + GYEONG_OFFSET) % 10 == 6
+
+
+def _nth_gyeong(start: datetime.date, n: int) -> datetime.date:
+    """start 이후(당일 포함) n 번째 경일."""
+    d, count = start, 0
+    while True:
+        if _is_gyeong(d):
+            count += 1
+            if count == n:
+                return d
+        d += datetime.timedelta(days=1)
+
+
 def verify(table: dict[str, dict[str, str]]) -> int:
     """ephem 내장 함수(독립 경로)와 4대 절기를 대조하고 절기 간격을 점검."""
     builtin = {
@@ -89,6 +127,17 @@ def verify(table: dict[str, dict[str, str]]) -> int:
             if table[key].get(str(y)) != ref:
                 print(f"  ! {key} {y}: 표={table[key].get(str(y))} 내장={ref}")
                 bad += 1
+    known_bok = {
+        "2023": ("07-11", "07-21", "08-10"),
+        "2024": ("07-15", "07-25", "08-14"),
+        "2025": ("07-20", "07-30", "08-09"),
+    }
+    for y, expect in known_bok.items():
+        got = tuple(table[k].get(y) for k in ("chobok", "jungbok", "malbok"))
+        if got != expect:
+            print(f"  ! 삼복 {y}: 표={got} 알려진값={expect}")
+            bad += 1
+
     order = [k for k, _, _ in TERMS]
     for y in range(Y0, Y1 + 1):
         days = [datetime.date(y, *map(int, table[k][str(y)].split("-")))
@@ -113,6 +162,21 @@ def main() -> int:
             iso = cal.SolarIsoFormat()
             if iso.startswith(str(y)):
                 out.setdefault(key, {})[str(y)] = iso[5:]
+
+        # 한식 — 전년도 동지에서 105일째
+        prev_dongji = find_term(y - 1, 270).replace(
+            tzinfo=datetime.timezone.utc).astimezone(KST).date()
+        hansik = prev_dongji + datetime.timedelta(days=HANSIK_OFFSET)
+        if hansik.year == y:
+            out.setdefault("hansik", {})[str(y)] = hansik.strftime("%m-%d")
+
+        # 삼복
+        haji = find_term(y, 90).replace(tzinfo=datetime.timezone.utc).astimezone(KST).date()
+        ipchu = find_term(y, 135).replace(tzinfo=datetime.timezone.utc).astimezone(KST).date()
+        for key, day in (("chobok", _nth_gyeong(haji, 3)),
+                         ("jungbok", _nth_gyeong(haji, 4)),
+                         ("malbok", _nth_gyeong(ipchu, 1))):
+            out.setdefault(key, {})[str(y)] = day.strftime("%m-%d")
 
     bad = verify(out)
     print(f"검증: 불일치 {bad}건")

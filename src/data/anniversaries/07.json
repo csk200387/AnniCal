@@ -1028,6 +1028,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-tapioca-pudding-day-july-15/"
   },
   {
+    "id": "anv-term-chobok-kr",
+    "date": "chobok",
+    "dateType": "annual-tabulated",
+    "name": "초복 (初伏)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "삼복 가운데 첫 번째로, 하지가 지나고 세 번째 맞는 경일(庚日)이다. 본격적인 더위가 시작되는 때로, 이날부터 말복까지 약 20~30일이 한 해 중 가장 더운 복날 기간이다.",
+      "anecdote": "삼계탕이나 보신탕처럼 뜨거운 음식으로 더위를 이긴다는 '이열치열'이 복날 상차림의 원리다. 요즘은 삼계탕집 앞에 긴 줄이 서는 풍경이 이날의 상징이 됐고, 치킨과 장어로 대신하는 사람도 많다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "삼계탕집 웨이팅 100분 실화입니다."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/복날"
+  },
+  {
     "id": "anv-fixed-07-16-corn-fritters-day-us",
     "date": "07-16",
     "dateType": "annual-fixed",
@@ -1136,6 +1158,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-yellow-pig-day-july-17/"
+  },
+  {
+    "id": "anv-fixed-07-17-constitution-day-kr",
+    "date": "07-17",
+    "dateType": "annual-fixed",
+    "name": "제헌절",
+    "category": "holiday",
+    "tags": [
+      "공휴일"
+    ],
+    "storytelling": {
+      "origin": "1948년 7월 17일 대한민국 헌법이 공포된 것을 기리는 국경일이다. 날짜를 7월 17일로 잡은 데는 조선 건국일(음력 7월 17일)과 맞추려는 뜻이 있었다고 전해진다.",
+      "anecdote": "5대 국경일 가운데 유일하게 쉬지 않는 날이다. 2008년 주 40시간제가 도입되며 공휴일에서 빠졌는데, 헌법을 기리는 날만 쉬지 않는 것이 맞느냐는 지적이 이어져 재지정 법안이 국회에 여러 차례 올라왔다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "국경일인데 왜 출근하죠?"
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/제헌절"
   },
   {
     "id": "anv-fixed-07-18-strawberry-rhubarb-wine-day-us",
@@ -1644,6 +1688,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-merry-go-round-day-july-25/"
   },
   {
+    "id": "anv-term-jungbok-kr",
+    "date": "jungbok",
+    "dateType": "annual-tabulated",
+    "name": "중복 (中伏)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "삼복의 두 번째로, 하지 후 네 번째 경일(庚日)이다. 초복에서 열흘 뒤에 돌아오며, 장마가 끝나고 더위가 절정으로 치닫는 시기와 맞물린다.",
+      "anecdote": "중복과 말복 사이가 20일로 벌어지는 해가 있는데, 이를 '월복(越伏)'이라 한다. 입추가 늦게 들어 말복이 한 주 밀리기 때문으로, 그런 해는 유난히 더위가 길게 느껴진다고들 한다. 복(伏)이라는 글자에는 사람이 개처럼 엎드린다는 뜻이 담겨 있어, 더위에 굴복한다는 풀이가 따라붙는다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "초복에 먹었는데 또 먹어야 한다는 압박."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/복날"
+  },
+  {
     "id": "anv-fixed-07-26-aunt-and-uncles-day-us",
     "date": "07-26",
     "dateType": "annual-fixed",
@@ -1774,6 +1840,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-milk-chocolate-day-july-28/"
+  },
+  {
+    "id": "anv-lunar-yudu-kr",
+    "date": "yudu",
+    "dateType": "annual-tabulated",
+    "name": "유두 (流頭)",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "음력 6월 15일, 동쪽으로 흐르는 물에 머리를 감아 더위와 나쁜 기운을 씻어내던 날이다. 이름은 '흐르는 물에 머리를 감는다(東流頭沐浴)'는 말을 줄인 것이다.",
+      "anecdote": "한창 더울 때라 계곡을 찾아 발을 담그고 국수와 수단을 먹으며 하루를 보냈다. 밀가루로 구슬 모양 떡을 빚어 오색으로 물들인 '유두면'을 먹으면 더위를 타지 않는다고 여겼다. 지금은 거의 잊힌 명절이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "조상님들의 여름휴가 시즌 개막일."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/유두"
   },
   {
     "id": "anv-fixed-07-29-lasagna-day-us",

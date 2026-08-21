@@ -1,0 +1,267 @@
+{
+  "_note": "2차 — 음력 명절 7건 + 절기 파생 4건(한식·삼복) + 제헌절. add_entries.py 가 읽는다.",
+  "jeongwol-daeboreum": {
+    "id": "anv-lunar-jeongwol-daeboreum-kr",
+    "date": "jeongwol-daeboreum",
+    "dateType": "annual-tabulated",
+    "name": "정월대보름",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "음력 1월 15일, 새해 들어 처음 맞는 보름달이 뜨는 날이다. 한 해의 농사와 건강을 기원하며 오곡밥과 나물을 먹고, 부럼을 깨물어 한 해 동안 부스럼이 나지 않기를 빌었다.",
+      "anecdote": "아침에 눈뜨자마자 귀밝이술을 한 잔 마시면 귀가 밝아지고 좋은 소식만 듣는다고 했다. 달집태우기, 쥐불놀이, 줄다리기 같은 마을 단위 놀이가 이날 몰려 있어, 설날보다 더 큰 축제로 여긴 지역도 많았다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "부럼 깨물다 이가 먼저 깨질 뻔."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/정월_대보름"
+  },
+  "hansik": {
+    "id": "anv-term-hansik-kr",
+    "date": "hansik",
+    "dateType": "annual-tabulated",
+    "name": "한식 (寒食)",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "동지로부터 105일째 되는 날로, 설날·단오·추석과 함께 4대 명절로 꼽혔다. 이름 그대로 불을 쓰지 않고 찬 음식을 먹는 날이며, 조상 산소를 찾아 손보고 성묘하는 날이기도 하다.",
+      "anecdote": "중국 진나라의 충신 개자추가 불에 타 죽은 것을 기려 불을 금했다는 이야기가 전해진다. 실제로는 묵은 불을 끄고 새 불을 받는 옛 풍습에서 비롯됐다는 설명이 유력하다. 대개 식목일과 하루 이틀 차이로 붙어 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "불 쓰지 말라는데 배달앱은 되나요."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/한식_(절기)"
+  },
+  "buddhas-birthday": {
+    "id": "anv-lunar-buddhas-birthday-kr",
+    "date": "buddhas-birthday",
+    "dateType": "annual-tabulated",
+    "name": "부처님오신날",
+    "category": "holiday",
+    "tags": [
+      "공휴일"
+    ],
+    "storytelling": {
+      "origin": "음력 4월 8일, 석가모니의 탄생을 기리는 법정공휴일이다. '초파일'이라고도 부른다. 절에서는 등을 달아 어둠을 밝힌다는 뜻을 담은 연등을 걸고, 아기 부처상에 물을 붓는 관불의식을 치른다.",
+      "anecdote": "1975년 공휴일이 됐는데, 그전까지 '석가탄신일'이던 공식 명칭은 2018년 지금의 이름으로 바뀌었다. 서울 도심에서 열리는 연등회는 2020년 유네스코 인류무형문화유산에 등재됐다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "연등 아래를 걷는 밤은 확실히 특별하다."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/부처님_오신 날"
+  },
+  "dano": {
+    "id": "anv-lunar-dano-kr",
+    "date": "dano",
+    "dateType": "annual-tabulated",
+    "name": "단오",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "음력 5월 5일, 모내기를 마치고 한숨 돌리며 풍년을 기원하던 명절이다. 여자는 창포 삶은 물에 머리를 감고 그네를 뛰었으며, 남자는 씨름으로 힘을 겨뤘다. 수리취떡을 해 먹는 풍습도 있었다.",
+      "anecdote": "양기가 가장 세다고 여긴 날이라 이날 캔 약초가 효험이 좋다고 믿었다. 강릉단오제는 천 년 가까이 이어져 온 축제로, 2005년 유네스코 인류무형문화유산에 등재됐다. 북한에서도 명절로 지키며, 중국과 일본에도 같은 날짜의 명절이 남아 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "창포물 대신 트리트먼트로 대체합니다."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/단오"
+  },
+  "yudu": {
+    "id": "anv-lunar-yudu-kr",
+    "date": "yudu",
+    "dateType": "annual-tabulated",
+    "name": "유두 (流頭)",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "음력 6월 15일, 동쪽으로 흐르는 물에 머리를 감아 더위와 나쁜 기운을 씻어내던 날이다. 이름은 '흐르는 물에 머리를 감는다(東流頭沐浴)'는 말을 줄인 것이다.",
+      "anecdote": "한창 더울 때라 계곡을 찾아 발을 담그고 국수와 수단을 먹으며 하루를 보냈다. 밀가루로 구슬 모양 떡을 빚어 오색으로 물들인 '유두면'을 먹으면 더위를 타지 않는다고 여겼다. 지금은 거의 잊힌 명절이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "조상님들의 여름휴가 시즌 개막일."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/유두"
+  },
+  "chobok": {
+    "id": "anv-term-chobok-kr",
+    "date": "chobok",
+    "dateType": "annual-tabulated",
+    "name": "초복 (初伏)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "삼복 가운데 첫 번째로, 하지가 지나고 세 번째 맞는 경일(庚日)이다. 본격적인 더위가 시작되는 때로, 이날부터 말복까지 약 20~30일이 한 해 중 가장 더운 복날 기간이다.",
+      "anecdote": "삼계탕이나 보신탕처럼 뜨거운 음식으로 더위를 이긴다는 '이열치열'이 복날 상차림의 원리다. 요즘은 삼계탕집 앞에 긴 줄이 서는 풍경이 이날의 상징이 됐고, 치킨과 장어로 대신하는 사람도 많다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "삼계탕집 웨이팅 100분 실화입니다."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/복날"
+  },
+  "jungbok": {
+    "id": "anv-term-jungbok-kr",
+    "date": "jungbok",
+    "dateType": "annual-tabulated",
+    "name": "중복 (中伏)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "삼복의 두 번째로, 하지 후 네 번째 경일(庚日)이다. 초복에서 열흘 뒤에 돌아오며, 장마가 끝나고 더위가 절정으로 치닫는 시기와 맞물린다.",
+      "anecdote": "중복과 말복 사이가 20일로 벌어지는 해가 있는데, 이를 '월복(越伏)'이라 한다. 입추가 늦게 들어 말복이 한 주 밀리기 때문으로, 그런 해는 유난히 더위가 길게 느껴진다고들 한다. 복(伏)이라는 글자에는 사람이 개처럼 엎드린다는 뜻이 담겨 있어, 더위에 굴복한다는 풀이가 따라붙는다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "초복에 먹었는데 또 먹어야 한다는 압박."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/복날"
+  },
+  "malbok": {
+    "id": "anv-term-malbok-kr",
+    "date": "malbok",
+    "dateType": "annual-tabulated",
+    "name": "말복 (末伏)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "삼복의 마지막으로, 입추가 지나고 처음 맞는 경일(庚日)이다. 가을이 시작되는 절기 뒤에 놓여 있어, 이날을 지나면 더위가 한풀 꺾인다고 여겼다.",
+      "anecdote": "\"말복이 지나면 아침저녁으로 선선해진다\"는 말이 있지만 실제로는 8월 말까지 더위가 이어지는 해가 많다. 삼복 가운데 마지막이라 \"이제 이걸로 끝\"이라는 마음으로 한 그릇 더 챙겨 먹는 날이기도 하다. 삼복 날짜는 해마다 달라지는데, 하지와 입추가 기준이라 양력으로 고정할 수 없기 때문이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "복날 시즌 종료. 다만 더위는 계속됩니다."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/복날"
+  },
+  "chilseok": {
+    "id": "anv-lunar-chilseok-kr",
+    "date": "chilseok",
+    "dateType": "annual-tabulated",
+    "name": "칠석 (七夕)",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "음력 7월 7일, 은하수를 사이에 두고 떨어져 지내던 견우와 직녀가 까치와 까마귀가 놓아 준 오작교에서 일 년에 한 번 만난다는 날이다. 동아시아 전역에 퍼진 설화로, 한국에서는 삼국시대 기록에도 나온다.",
+      "anecdote": "이날 비가 오면 두 사람이 만나 흘리는 기쁨의 눈물, 이튿날 비가 오면 헤어지며 흘리는 눈물이라고 했다. 여자들은 별을 보며 바느질 솜씨가 늘기를 빌었고, 장마 뒤라 옷과 책을 볕에 내어 말리는 날이기도 했다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "1년에 하루 만나는 커플 앞에서 할 말 없음."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/칠석"
+  },
+  "baekjung": {
+    "id": "anv-lunar-baekjung-kr",
+    "date": "baekjung",
+    "dateType": "annual-tabulated",
+    "name": "백중 (百中)",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "음력 7월 15일, 여름 농사일이 대충 끝나 머슴과 일꾼들에게 하루를 쉬게 하고 새 옷과 돈을 주던 날이다. '머슴날'이라고도 불렀으며, 장이 서고 씨름판이 벌어졌다.",
+      "anecdote": "이름은 온갖 과일과 곡식이 100가지쯤 나온다는 데서 왔다는 설명이 전해진다. 불교에서는 이날 조상의 넋을 위로하는 우란분재를 지내는데, 지금도 절에서는 백중 법회가 큰 행사로 남아 있다. 농사를 매개로 한 명절이라 산업화 이후 빠르게 사라졌고, 지금은 절과 일부 지역 축제로만 남아 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "조선시대에도 여름휴가는 있었다."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/백중"
+  },
+  "jungyangjeol": {
+    "id": "anv-lunar-jungyangjeol-kr",
+    "date": "jungyangjeol",
+    "dateType": "annual-tabulated",
+    "name": "중양절 (重陽節)",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "음력 9월 9일, 양(陽)의 기운을 가진 홀수 9가 겹친다 하여 중양이라 했다. 높은 곳에 올라 국화주를 마시고 시를 짓던 날로, 강남 갔던 제비가 돌아가는 때로도 여겼다.",
+      "anecdote": "국화전을 부쳐 먹는 풍습이 있어 화전놀이의 가을판이라 할 만하다. 추석에 햇곡식이 여물지 않은 해에는 이날 차례를 지내기도 했다. 설날·단오·칠석처럼 홀수가 겹치는 날을 명절로 삼은 동아시아 전통의 하나다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "9가 두 번이면 좋은 날이라는 옛사람들의 셈법."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/중양절"
+  },
+  "constitution-day": {
+    "id": "anv-fixed-07-17-constitution-day-kr",
+    "date": "07-17",
+    "dateType": "annual-fixed",
+    "name": "제헌절",
+    "category": "holiday",
+    "tags": [
+      "공휴일"
+    ],
+    "storytelling": {
+      "origin": "1948년 7월 17일 대한민국 헌법이 공포된 것을 기리는 국경일이다. 날짜를 7월 17일로 잡은 데는 조선 건국일(음력 7월 17일)과 맞추려는 뜻이 있었다고 전해진다.",
+      "anecdote": "5대 국경일 가운데 유일하게 쉬지 않는 날이다. 2008년 주 40시간제가 도입되며 공휴일에서 빠졌는데, 헌법을 기리는 날만 쉬지 않는 것이 맞느냐는 지적이 이어져 재지정 법안이 국회에 여러 차례 올라왔다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "국경일인데 왜 출근하죠?"
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/제헌절"
+  }
+}

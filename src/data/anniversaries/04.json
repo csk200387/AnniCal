@@ -648,6 +648,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-day-of-hope-april-6/"
   },
   {
+    "id": "anv-term-hansik-kr",
+    "date": "hansik",
+    "dateType": "annual-tabulated",
+    "name": "한식 (寒食)",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "동지로부터 105일째 되는 날로, 설날·단오·추석과 함께 4대 명절로 꼽혔다. 이름 그대로 불을 쓰지 않고 찬 음식을 먹는 날이며, 조상 산소를 찾아 손보고 성묘하는 날이기도 하다.",
+      "anecdote": "중국 진나라의 충신 개자추가 불에 타 죽은 것을 기려 불을 금했다는 이야기가 전해진다. 실제로는 묵은 불을 끄고 새 불을 받는 옛 풍습에서 비롯됐다는 설명이 유력하다. 대개 식목일과 하루 이틀 차이로 붙어 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "불 쓰지 말라는데 배달앱은 되나요."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/한식_(절기)"
+  },
+  {
     "id": "anv-fixed-04-07-beer-day-us",
     "date": "04-07",
     "dateType": "annual-fixed",
