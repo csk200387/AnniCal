@@ -16,7 +16,7 @@
 - [ ] `id` 가 기존 항목과 중복되지 않는다 (전체에서 유일).
 - [ ] `dateType` 과 `date` 포맷이 §2 표대로 짝이 맞는다.
 - [ ] `category` 가 `categories.json` 에 존재하는 값이다 (§4).
-- [ ] `tags` 3~6개 (§5).
+- [ ] `tags` 는 카테고리 레이블 1개 (§5 — 아래 표기가 낡았다. 커밋 `4f304ba` 참고).
 - [ ] `storytelling.origin` 작성, `anecdote` 는 없으면 `null` (§6).
 - [ ] `memes` 의 `text` 타입은 `url: null`, `image` 타입은 `url` 필수 (§7).
 - [ ] 추가 후 `npm run type-check` 통과 (§10).
@@ -29,7 +29,7 @@
 |---|---|---|---|
 | `id` | ✅ | `string` | 전체 유일. 네이밍 컨벤션 §3 |
 | `date` | ✅ | `string` | `dateType` 별 포맷 §2 |
-| `dateType` | ✅ | `DateType` | `annual-fixed` \| `annual-floating` \| `annual-nth-weekday` \| `annual-relative-to-holiday` \| `one-time` |
+| `dateType` | ✅ | `DateType` | `annual-fixed` \| `annual-floating` \| `annual-nth-weekday` \| `annual-relative-to-holiday` \| `annual-tabulated` \| `one-time` |
 | `name` | ✅ | `string` | 한국어 표기 우선. 표기 통일(§3 주의) |
 | `category` | ✅ | `CategoryId` | `categories.json` 에 정의된 값만 §4 |
 | `tags` | ✅ | `string[]` | 3~6개 §5 |
@@ -73,6 +73,7 @@ interface Meme {
 | `annual-floating` | `YYYY-MM-DD` | `"2026-05-24"` | 매년 날짜가 바뀜 → **연도별로 엔트리를 따로 추가** (F1 모나코 GP) |
 | `annual-nth-weekday` | `MM-N-DOW` | `"05-2-SUN"` | 매년 "N번째 X요일" 규칙 (미국 어머니의 날) |
 | `annual-relative-to-holiday` | `anchorId:offsetDays` | `"anv-nth-11-4-thu-thanksgiving-day-us:1"` | 다른 기념일 기준 +N/-N일 (블랙프라이데이 = 추수감사절 +1일) |
+| `annual-tabulated` | `observances.json` 의 키 | `"seollal"` | 계산이 아니라 표에서 조회 (설날·추석·24절기·삼복·한식) → §5-1 |
 | `one-time` | `YYYY-MM-DD` | `"1986-04-26"` | 특정 연도 1회성 (체르노빌 사고일) |
 
 ### `annual-nth-weekday` 상세
@@ -163,10 +164,39 @@ interface Meme {
 
 ## 5. `tags` 규칙
 
-- **3~6개**의 문자열 배열.
+> ⚠️ 아래 규칙은 낡았다. 커밋 `4f304ba` 에서 `tags` 는 **카테고리 레이블 1개**로
+> 통일됐다(`["음식 & 디저트"]` 처럼). 새 항목도 그렇게 넣어야 하며, 도구가
+> 카테고리와 불일치하면 오류를 낸다. 아래는 이전 규칙의 기록이다.
+
+- ~~**3~6개**의 문자열 배열.~~
 - 한국어 키워드 중심. 검색·필터·연관 노출에 쓰인다.
 - 권장 구성: `[지역/주최]`(예: 대한민국, 글로벌, 미국) + `[성격]`(예: 법정공휴일, 비공식기념일, 축제) + `[소재]`(예: 초콜릿, 꿀벌, F1) 조합.
 - 같은 의미의 태그 표기를 통일한다(예: "글로벌"/"전세계" 혼용 지양).
+
+---
+
+## 5-1. `annual-tabulated` — 음력 명절과 24절기
+
+날짜를 계산으로 구할 수 없어 **표에서 찾는** 타입이다. 설날·추석 같은 음력
+명절은 양력과 규칙적 관계가 없고, 24절기는 태양 황경으로 정의돼 천문 계산이
+필요하다. 삼복(초복·중복·말복)과 한식도 절기에서 파생되므로 여기 속한다.
+
+```jsonc
+{
+  "id": "anv-lunar-seollal-kr",
+  "date": "seollal",              // 날짜가 아니라 observances.json 의 키
+  "dateType": "annual-tabulated"
+}
+```
+
+- 연도별 실제 날짜는 `src/data/observances.json` 에 있다 (2020~2050년).
+- 표는 `tools/observances/generate_observances.py` 가 만든다.
+  `pip install ephem korean_lunar_calendar` 후 실행하며, 빌드에 물려 있지 않다.
+  **이미 색인된 페이지의 날짜가 달라지므로 함부로 재생성하지 말 것.**
+- 새 항목 추가는 `tools/observances/add_entries.py <파일.json>` 을 쓴다.
+  `id` 는 `anv-lunar-*`(음력) 또는 `anv-term-*`(절기 파생) 규칙을 따른다.
+- URL 의 `MM-DD` 는 2026년 발생일로 고정된다. 다른 해에는 실제 날짜가 달라지며,
+  상세 화면이 "올해는 N월 N일입니다" 안내를 자동으로 띄운다.
 
 ---
 
@@ -181,6 +211,10 @@ interface Meme {
 
 - `origin` — **항상 작성**. 제정 연도·주체·목적 등 사실 위주.
 - `anecdote` — 재미 요소(통계, 뒷이야기, 밈의 맥락). 없으면 빈 문자열이 아니라 `null`.
+
+> 분량과 문체 기준은 `CLAUDE.md` 를 따른다. 이 두 필드가 상세 페이지 본문
+> **전부**이고, `origin` 의 첫 150자가 검색결과 스니펫에 그대로 나간다.
+> 합쳐 200~300자를 목표로 하며, 첫 150자만 읽어도 무슨 날인지 완결돼야 한다.
 
 ---
 
