@@ -6,37 +6,37 @@
 
 | 구간 | 건수 | 비율 |
 |---|---:|---:|
-| ~100자 | 435 | 31.1% |
+| ~100자 | 395 | 28.2% |
 | 100~200자 | 585 | 41.8% |
-| 200자~ (목표 달성) | 380 | 27.1% |
+| 200자~ (목표 달성) | 420 | 30.0% |
 
 ### 출처 그룹별
 
 | 그룹 | 전체 | ~100자 | 평균 |
 |---|---:|---:|---:|
-| 미국 nationaldaycalendar | 1133 | 435 | 125자 |
+| 미국 nationaldaycalendar | 1133 | 395 | 129자 |
 | 위키백과 | 74 | 0 | 227자 |
 | 일본 zatsuneta | 29 | 0 | 229자 |
 | 기타 공식 출처 | 23 | 0 | 226자 |
 | 출처 없음/비URL | 86 | 0 | 189자 |
 | gov-* 한국 법정·정부 | 55 | 0 | 228자 |
 
-## 유래 단서 상태 (~100자 435건)
+## 유래 단서 상태 (~100자 395건)
 
 | 등급 | 뜻 | 건수 |
 |---|---|---:|
 | A | 연도+주체 있음 — 확장만 | 0 |
 | B | 단서 일부 — 나머지 조사 | 0 |
-| C | 상투구만 — 유래 조사 필요 | 318 |
+| C | 상투구만 — 유래 조사 필요 | 278 |
 | D | 설명만 — 유래 조사 필요 | 117 |
 
 > C·D 는 조사해도 **그 날짜의 유래가 없을 수 있다.** 미국 이색 기념일 상당수는
 > nationaldaycalendar 등록이 유일한 출처다. 그럴 때는 날짜의 유래를 지어내지 말고
 > 대상 자체의 기원(언제 어디서 만들어졌는지)과 한국 맥락으로 채운다.
 
-## C. 상투구만 — 유래 조사 필요 — 318건
+## C. 상투구만 — 유래 조사 필요 — 278건
 
-### 음식 & 디저트 (222건)
+### 음식 & 디저트 (182건)
 
 | 날짜 | 이름 | 자수 | 현재 origin | id |
 |---|---|---:|---|---|
@@ -70,7 +70,6 @@
 | 05-12 | 너티 퍼지의 날 | 75 | 견과류를 듬뿍 넣은 진한 퍼지(설탕 디저트)를 기념하는 날이다. | `anv-fixed-05-12-nutty-fudge-day-us` |
 | 05-22 | 바닐라 푸딩의 날 | 75 | 부드럽고 고소한 바닐라 푸딩을 기념하는 날이다. | `anv-fixed-05-22-vanilla-pudding-day-us` |
 | 05-23 | 태피의 날 (National Taffy Day) | 75 | 쫄깃하게 늘려 만드는 캔디, 태피를 기념하는 날이다. | `anv-fixed-05-23-taffy-day-us` |
-| 09-04 | 마카다미아의 날 (National Macadamia Nut Day) | 75 | 고소하고 부드러운 견과류, 마카다미아를 기념하는 날이다. | `anv-fixed-09-04-macadamia-nut-day-us` |
 | 10-26 | 호박의 날 (National Pumpkin Day) | 75 | 가을과 핼러윈을 대표하는 채소, 호박을 기념하는 날이다. | `anv-fixed-10-26-pumpkin-day-us` |
 | 06-20 | 바닐라 밀크셰이크의 날 | 76 | 부드럽고 진한 바닐라 밀크셰이크를 기념하는 날이다. | `anv-fixed-06-20-vanilla-milkshake-day-us` |
 | 07-16 | 콘 프리터의 날 | 76 | 옥수수 알을 반죽에 섞어 튀기거나 구운 콘 프리터를 기념하는 날이다. | `anv-fixed-07-16-corn-fritters-day-us` |
@@ -92,7 +91,6 @@
 | 10-07 | 프라페의 날 (National Frappe Day) | 77 | 얼음과 함께 갈아 시원하게 즐기는 음료, 프라페를 기념하는 날이다. | `anv-fixed-10-07-frappe-day-us` |
 | 10-18 | 초콜릿 컵케이크의 날 | 77 | 한 손에 쥐기 좋은 크기의 진한 초콜릿 컵케이크를 기념하는 날이다. | `anv-fixed-10-18-chocolate-cupcake-day-us` |
 | 11-24 | 정어리의 날 (National Sardines Day) | 77 | 오메가3가 풍부한 작은 생선, 정어리를 기념하는 날이다. | `anv-fixed-11-24-sardines-day-us` |
-| 04-26 | 프레첼의 날 (National Pretzel Day) | 78 | 꽈배기 모양으로 꼬아 구운 짭짤한 빵, 프레첼을 기념하는 날이다. | `anv-fixed-04-26-pretzel-day-us` |
 | 06-22 | 어니언링의 날 (National Onion Rings Day) | 78 | 바삭하게 튀긴 양파, 어니언링을 기념하는 날이다. | `anv-fixed-06-22-onion-rings-day-us` |
 | 07-07 | 딸기 선데이의 날 | 78 | 아이스크림에 딸기 시럽과 토핑을 올린 딸기 선데이를 기념하는 날이다. | `anv-fixed-07-07-strawberry-sundae-day-us` |
 | 07-15 | 타피오카 푸딩의 날 | 78 | 쫀득한 타피오카 펄이 들어간 부드러운 푸딩을 기념하는 날이다. | `anv-fixed-07-15-tapioca-pudding-day-us` |
@@ -105,8 +103,6 @@
 | 05-05 | 치폴레의 날 | 79 | 훈제 건조 고추인 치폴레의 스모키하고 매콤한 풍미를 기념하는 날이다. | `anv-fixed-05-05-totally-chipotle-day-us` |
 | 05-06 | 음료의 날 (National Beverage Day) | 79 | 물부터 탄산음료, 주스까지 모든 종류의 음료를 폭넓게 기념하는 날이다. | `anv-fixed-05-06-beverage-day-us` |
 | 06-12 | 육포의 날 (National Jerky Day) | 79 | 말려서 오래 보관할 수 있는 고기 간식, 육포를 기념하는 날이다. | `anv-fixed-06-12-jerky-day-us` |
-| 07-11 | 모히토의 날 (National Mojito Day) | 79 | 민트와 라임, 럼이 어우러진 시원한 칵테일, 모히토를 기념하는 날이다. | `anv-fixed-07-11-mojito-day-us` |
-| 11-14 | 피클의 날 (National Pickle Day) | 79 | 오이를 식초에 절여 만드는 새콤한 피클을 기념하는 날이다. | `anv-fixed-11-14-pickle-day-us` |
 | 11-16 | 패스트푸드의 날 (National Fast Food Day) | 79 | 빠르고 간편하게 즐길 수 있는 패스트푸드를 기념하는 날이다. | `anv-fixed-11-16-fast-food-day-us` |
 | 12-02 | 프리터(튀김빵)의 날 | 79 | 과일이나 채소를 반죽에 섞어 튀긴 프리터를 기념하는 날이다. | `anv-fixed-12-02-fritters-day-us` |
 | 05-01 | 초콜릿 파르페의 날 | 80 | 층층이 쌓아 올린 초콜릿 디저트, 파르페를 기념하는 날이다. | `anv-fixed-05-01-chocolate-parfait-day-us` |
@@ -114,10 +110,8 @@
 | 05-13 | 크루통의 날 (National Crouton Day) | 80 | 바삭하게 구운 빵 조각, 크루통을 기념하는 날이다. | `anv-fixed-05-13-crouton-day-us` |
 | 08-11 | 라즈베리 봄베의 날 | 80 | 라즈베리 아이스크림을 돔 모양으로 얼려 만드는 디저트, 봄베를 기념하는 날이다. | `anv-fixed-08-11-raspberry-bombe-day-us` |
 | 08-22 | 피칸 토르테의 날 | 80 | 곱게 다진 피칸을 넣어 만드는 진한 디저트, 피칸 토르테를 기념하는 날이다. | `anv-fixed-08-22-pecan-torte-day-us` |
-| 11-08 | 카푸치노의 날 (National Cappuccino Day) | 80 | 진한 에스프레소에 부드러운 우유 거품을 올린 카푸치노를 기념하는 날이다. | `anv-fixed-11-08-cappuccino-day-us` |
 | 06-25 | 폭탄 모양 아이스바의 날 | 81 | 빨강·파랑·하양 삼색의 로켓 모양 아이스바, 봄팝을 기념하는 날이다. | `anv-fixed-06-25-bomb-pop-day-us` |
 | 07-12 | 피칸파이의 날 (National Pecan Pie Day) | 81 | 고소한 피칸을 듬뿍 올린 진한 단맛의 피칸파이를 기념하는 날이다. | `anv-fixed-07-12-pecan-pie-day-us` |
-| 07-19 | 다이키리의 날 (National Daiquiri Day) | 81 | 럼과 라임주스로 만드는 시원한 칵테일, 다이키리를 기념하는 날이다. | `anv-fixed-07-19-daiquiri-day-us` |
 | 10-16 | 리큐어의 날 (National Liqueur Day) | 81 | 과일, 향신료 등으로 향을 더한 달콤한 술, 리큐어를 기념하는 날이다. | `anv-fixed-10-16-liqueur-day-us` |
 | 10-29 | 오트밀의 날 (National Oatmeal Day) | 81 | 건강한 아침 식사의 대표주자, 오트밀을 기념하는 날이다. | `anv-fixed-10-29-oatmeal-day-us` |
 | 11-15 | 레이즌 브랜 시리얼의 날 | 81 | 건포도와 식이섬유가 풍부한 시리얼, 레이즌 브랜을 기념하는 날이다. | `anv-fixed-11-15-raisin-bran-cereal-day-us` |
@@ -126,32 +120,24 @@
 | 08-18 | 아이스크림 파이의 날 | 82 | 파이 크러스트 안에 아이스크림을 채워 얼리는 아이스크림 파이를 기념하는 날이다. | `anv-fixed-08-18-ice-cream-pie-day-us` |
 | 09-15 | 크렘 드 멍트의 날 | 82 | 민트향이 가득한 리큐어, 크렘 드 멍트를 기념하는 날이다. | `anv-fixed-09-15-creme-de-menthe-day-us` |
 | 11-23 | 캐슈너트의 날 (National Cashew Day) | 82 | 부드럽고 달콤한 풍미의 견과류, 캐슈너트를 기념하는 날이다. | `anv-fixed-11-23-cashew-day-us` |
-| 12-07 | 솜사탕의 날 | 82 | 설탕을 실처럼 뽑아 만드는 솜사탕을 기념하는 날이다. | `anv-fixed-12-07-cotton-candy-day-us` |
-| 12-17 | 메이플시럽의 날 | 82 | 단풍나무 수액을 끓여 만드는 메이플시럽을 기념하는 날이다. | `anv-fixed-12-17-maple-syrup-day-us` |
 | 02-23 | 도그 비스킷의 날 | 83 | 반려견을 위한 간식 도그 비스킷을 기념하는 날. | `anv-fixed-02-23-dog-biscuit-day-us` |
 | 05-29 | 코코뱅의 날 | 83 | 닭고기를 와인에 졸여 만드는 프랑스 전통 요리, 코코뱅을 기념하는 날이다. | `anv-fixed-05-29-coq-au-vin-day-us` |
 | 07-17 | 복숭아 아이스크림의 날 | 83 | 잘 익은 복숭아의 향과 단맛을 담은 아이스크림을 기념하는 날이다. | `anv-fixed-07-17-peach-ice-cream-day-us` |
 | 07-22 | 페누체 퍼지의 날 | 83 | 갈색설탕과 버터로 만드는 캐러멜 풍미의 퍼지, 페누체를 기념하는 날이다. | `anv-fixed-07-22-penuche-fudge-day-us` |
 | 07-25 | 핫퍼지 선데이의 날 | 83 | 따뜻한 초콜릿 퍼지 소스를 아이스크림에 듬뿍 부은 핫퍼지 선데이를 기념하는 날이다. | `anv-fixed-07-25-hot-fudge-sundae-day-us` |
-| 09-30 | 껌의 날 (National Chewing Gum Day) | 83 | 씹을수록 풍미가 퍼지는 간식, 껌을 기념하는 날이다. | `anv-fixed-09-30-chewing-gum-day-us` |
-| 10-08 | 피에로기의 날 (National Pierogy Day) | 83 | 감자나 치즈를 채운 폴란드식 만두, 피에로기를 기념하는 날이다. | `anv-fixed-10-08-pierogy-day-us` |
 | 10-14 | 디저트의 날 (National Dessert Day) | 83 | 식사의 마지막을 달콤하게 마무리해주는 디저트를 기념하는 날이다. | `anv-fixed-10-14-dessert-day-us` |
 | 08-30 | 구운 마시멜로의 날 | 84 | 불에 살짝 구워 겉은 바삭하고 속은 쫀득해진 마시멜로를 기념하는 날이다. | `anv-fixed-08-30-toasted-marshmallow-day-us` |
 | 09-27 | 콘비프 해시의 날 | 84 | 잘게 썬 콘비프와 감자를 함께 구운 콘비프 해시를 기념하는 날이다. | `anv-fixed-09-27-corned-beef-hash-day-us` |
-| 11-06 | 나초의 날 (National Nachos Day) | 84 | 치즈와 토핑을 듬뿍 올린 토르티야칩 요리, 나초를 기념하는 날이다. | `anv-fixed-11-06-nachos-day-us` |
 | 04-27 | 프라임 립의 날 | 85 | 두툼한 소갈비살을 통째로 구워내는 고급 요리, 프라임 립을 기념하는 날이다. | `anv-fixed-04-27-prime-rib-day-us` |
 | 04-28 | 블루베리 파이의 날 | 85 | 달콤하면서도 약간의 산미가 있는 블루베리로 채운 파이를 기념하는 날이다. | `anv-fixed-04-28-blueberry-pie-day-us` |
 | 05-17 | 체리 코블러의 날 | 85 | 체리를 듬뿍 넣고 비스킷 반죽을 얹어 구운 디저트, 체리 코블러를 기념하는 날이다. | `anv-fixed-05-17-cherry-cobbler-day-us` |
-| 05-20 | 키슈 로렌의 날 | 85 | 베이컨과 치즈를 넣은 프랑스식 파이 요리, 키슈 로렌을 기념하는 날이다. | `anv-fixed-05-20-quiche-lorraine-day-us` |
 | 06-15 | 랍스터의 날 (National Lobster Day) | 85 | 고급 해산물로 여겨지는 랍스터(바다가재)를 기념하는 날이다. | `anv-fixed-06-15-lobster-day-us` |
 | 08-01 | 머스터드의 날 (National Mustard Day) | 85 | 핫도그, 샌드위치에 빠지지 않는 소스, 머스터드를 기념하는 날이다. | `anv-fixed-08-01-mustard-day-us` |
 | 09-20 | 펀치의 날 (National Punch Day) | 85 | 여러 과일과 음료를 섞어 만드는 파티 음료, 펀치를 기념하는 날이다. | `anv-fixed-09-20-punch-day-us` |
 | 11-22 | 크랜베리 렐리시의 날 | 85 | 새콤달콤한 크랜베리를 다져 만드는 소스, 크랜베리 렐리시를 기념하는 날이다. | `anv-fixed-11-22-cranberry-relish-day-us` |
 | 05-24 | 에스카르고의 날 | 86 | 버터와 마늘로 조리한 프랑스식 달팽이 요리, 에스카르고를 기념하는 날이다. | `anv-fixed-05-24-escargot-day-us` |
-| 06-04 | 코냑의 날 (National Cognac Day) | 86 | 프랑스 코냑 지방에서 생산되는 고급 브랜디, 코냑을 기념하는 날이다. | `anv-fixed-06-04-cognac-day-us` |
 | 06-25 | 딸기 파르페의 날 | 86 | 딸기와 크림을 층층이 쌓아 만드는 디저트, 딸기 파르페를 기념하는 날이다. | `anv-fixed-06-25-strawberry-parfait-day-us` |
 | 07-13 | 콩과 소시지의 날 | 86 | 콩과 소시지를 함께 조리하는 미국 가정식, 빈즈 앤 프랭크스를 기념하는 날이다. | `anv-fixed-07-13-beans-n-franks-day-us` |
-| 07-20 | 롤리팝의 날 (National Lollipop Day) | 86 | 막대에 꽂은 동그란 사탕, 롤리팝을 기념하는 날이다. | `anv-fixed-07-20-lollipop-day-us` |
 | 07-25 | 요리사의 날 (National Culinarian's Day) | 86 | 맛있는 음식을 만드는 요리사들의 창의력과 노고를 기리는 날이다. | `anv-fixed-07-25-culinarians-day-us` |
 | 11-10 | 바닐라 컵케이크의 날 | 86 | 단순하지만 변치 않는 인기를 누리는 바닐라 컵케이크를 기념하는 날이다. | `anv-fixed-11-10-vanilla-cupcake-day-us` |
 | 05-25 | 브라운백 점심의 날 | 87 | 종이봉투에 도시락을 싸 와서 점심을 해결하는 절약형 식습관을 기념하는 날이다. | `anv-fixed-05-25-brown-bag-it-day-us` |
@@ -168,63 +154,46 @@
 | 04-20 | 파인애플 업사이드다운 케이크의 날 | 88 | 파인애플과 체리를 바닥에 깔고 구워 뒤집어 내는 독특한 케이크를 기념하는 날이다. | `anv-fixed-04-20-pineapple-upside-down-cake-day-us` |
 | 05-14 | 버터밀크 비스킷의 날 | 88 | 버터밀크로 반죽해 폭신하게 구운 미국 남부식 비스킷을 기념하는 날이다. | `anv-fixed-05-14-buttermilk-biscuit-day-us` |
 | 06-02 | 로키 로드의 날 | 88 | 초콜릿, 마시멜로, 견과류가 어우러진 아이스크림 맛, 로키 로드를 기념하는 날이다. | `anv-fixed-06-02-rocky-road-day-us` |
-| 06-20 | 아이스크림 소다의 날 | 88 | 탄산음료에 아이스크림을 띄운 클래식 디저트 음료, 아이스크림 소다를 기념하는 날이다. | `anv-fixed-06-20-ice-cream-soda-day-us` |
 | 06-23 | 피칸 샌디스의 날 | 88 | 버터 풍미가 가득하고 피칸이 들어간 바삭한 쿠키, 피칸 샌디스를 기념하는 날이다. | `anv-fixed-06-23-pecan-sandies-day-us` |
 | 06-25 | 메기의 날 (National Catfish Day) | 88 | 미국 남부 식문화에서 빠질 수 없는 식재료, 메기를 기념하는 날이다. | `anv-fixed-06-25-catfish-day-us` |
-| 07-24 | 테킬라의 날 (National Tequila Day) | 88 | 용설란(아가베)으로 만드는 멕시코 전통 증류주, 테킬라를 기념하는 날이다. | `anv-fixed-07-24-tequila-day-us` |
 | 08-20 | 레모네이드의 날 (National Lemonade Day) | 88 | 새콤달콤한 여름철 음료, 레모네이드를 기념하는 날이다. | `anv-fixed-08-20-lemonade-day-us` |
 | 08-23 | 스펀지케이크의 날 | 88 | 폭신하고 가벼운 식감의 기본 케이크, 스펀지케이크를 기념하는 날이다. | `anv-fixed-08-23-sponge-cake-day-us` |
 | 09-16 | 시나몬 레이즌 브레드의 날 | 88 | 계피향과 건포도가 어우러진 빵, 시나몬 레이즌 브레드를 기념하는 날이다. | `anv-fixed-09-16-cinnamon-raisin-bread-day-us` |
 | 09-30 | 뜨거운 멀드 사이더의 날 | 88 | 사과주스에 향신료를 더해 따뜻하게 데운 음료, 멀드 사이더를 기념하는 날이다. | `anv-fixed-09-30-hot-mulled-cider-day-us` |
 | 11-02 | 데빌드 에그의 날 (National Deviled Egg Day) | 88 | 삶은 달걀 속을 파내 양념한 노른자로 다시 채운 데빌드 에그를 기념하는 날이다. | `anv-fixed-11-02-deviled-egg-day-us` |
 | 11-15 | 번트팬의 날 (National Bundt (Pan) Day) | 88 | 가운데 구멍이 있는 독특한 모양의 케이크 틀, 번트팬을 기념하는 날이다. | `anv-fixed-11-15-bundt-pan-day-us` |
-| 11-18 | 비시수아즈의 날 | 88 | 감자와 리크(서양대파)로 만들어 차갑게 식혀 먹는 프랑스식 수프, 비시수아즈를 기념하는 날이다. | `anv-fixed-11-18-vichyssoise-day-us` |
 | 12-11 | 누들 링의 날 | 88 | 고리 모양으로 틀에 넣어 굽는 누들 캐서롤 요리를 기념하는 날이다. | `anv-fixed-12-11-noodle-ring-day-us` |
 | 12-23 | 페퍼누스의 날 | 88 | 후추와 향신료가 들어간 독일식 쿠키, 페퍼누스를 기념하는 날이다. | `anv-fixed-12-23-pfeffernusse-day-us` |
-| 12-24 | 에그노그의 날 | 88 | 달콤하고 진한 계란 음료, 에그노그를 기념하는 날이다. | `anv-fixed-12-24-eggnog-day-us` |
-| 06-14 | 버번의 날 (National Bourbon Day) | 89 | 옥수수를 주원료로 만드는 미국 고유의 위스키, 버번을 기념하는 날이다. | `anv-fixed-06-14-bourbon-day-us` |
 | 08-09 | 라이스푸딩의 날 | 89 | 쌀과 우유, 설탕으로 만드는 부드러운 디저트, 라이스푸딩을 기념하는 날이다. | `anv-fixed-08-09-rice-pudding-day-us` |
 | 08-28 | 체리 턴오버의 날 | 89 | 페이스트리에 체리 필링을 채워 삼각형으로 접어 구운 체리 턴오버를 기념하는 날이다. | `anv-fixed-08-28-cherry-turnovers-day-us` |
 | 10-06 | 면의 날 (National Noodle Day) | 89 | 전 세계 식문화에서 빠질 수 없는 면 요리를 기념하는 날이다. | `anv-fixed-10-06-noodle-day-us` |
-| 12-08 | 브라우니의 날 | 89 | 진한 초콜릿 풍미의 사각 디저트, 브라우니를 기념하는 날이다. | `anv-fixed-12-08-brownie-day-us` |
 | 01-10 | 비터스윗 초콜릿의 날 | 90 | 카카오 함량이 높아 쌉쌀하면서도 단맛이 도는 비터스윗 초콜릿을 기념하는 날. | `anv-fixed-01-10-bittersweet-chocolate-day-us` |
 | 02-10 | 크림치즈 브라우니의 날 | 90 | 초콜릿 브라우니 반죽에 크림치즈를 섞거나 층을 더한 디저트를 기념하는 날. | `anv-fixed-02-10-cream-cheese-brownie-day-us` |
 | 04-23 | 체리 치즈케이크의 날 | 90 | 부드러운 크림치즈 위에 새콤달콤한 체리를 올린 체리 치즈케이크를 기념하는 날이다. | `anv-fixed-04-23-cherry-cheesecake-day-us` |
-| 05-19 | 데블스 푸드 케이크의 날 | 90 | 에인절 푸드 케이크에 대응해 더 진하고 짙은 초콜릿 풍미를 자랑하는 데블스 푸드 케이크를 기념하는 날이다. | `anv-fixed-05-19-devils-food-cake-day-us` |
 | 06-16 | 퍼지의 날 (National Fudge Day) | 90 | 설탕과 버터, 우유를 끓여 만드는 진한 초콜릿 디저트, 퍼지를 기념하는 날이다. | `anv-fixed-06-16-fudge-day-us` |
 | 07-16 | 퍼스널 셰프의 날 | 90 | 개인이나 가정에 맞춤 요리를 제공하는 퍼스널 셰프들의 노고를 기리는 날이다. | `anv-fixed-07-16-personal-chefs-day-us` |
-| 08-29 | 찹수이의 날 (National Chop Suey Day) | 90 | 다양한 채소와 고기를 볶아 만드는 미국식 중국 요리, 찹수이를 기념하는 날이다. | `anv-fixed-08-29-chop-suey-day-us` |
 | 09-17 | 애플 덤플링의 날 | 90 | 통째로 또는 큼직하게 썬 사과를 반죽으로 감싸 구운 애플 덤플링을 기념하는 날이다. | `anv-fixed-09-17-apple-dumpling-day-us` |
 | 12-13 | 코코아의 날 | 90 | 따뜻한 코코아 한 잔으로 추위를 녹이는 즐거움을 기념하는 날이다. | `anv-fixed-12-13-cocoa-day-us` |
 | 12-20 | 상그리아의 날 | 90 | 와인에 과일을 더해 만드는 스페인의 대표 음료, 상그리아를 기념하는 날이다. | `anv-fixed-12-20-sangria-day-us` |
 | 01-22 | 블론드 브라우니의 날 | 91 | 코코아 대신 브라운슈가와 버터로 맛을 낸 '블론드 브라우니(블론디)'를 기념하는 날. | `anv-fixed-01-22-blonde-brownie-day-us` |
 | 06-13 | 로제의 날 (National Rosé Day) | 91 | 은은한 핑크빛과 가벼운 풍미를 가진 로제 와인을 기념하는 날이다. | `anv-fixed-06-13-rose-day-us` |
 | 06-22 | 초콜릿 에클레어의 날 | 91 | 길쭘한 페이스트리에 크림을 채우고 초콜릿을 입힌 프랑스식 디저트, 에클레어를 기념하는 날이다. | `anv-fixed-06-22-chocolate-eclair-day-us` |
-| 12-12 | 생강과자집의 날 (Gingerbread House Day) | 91 | 생강과자로 집 모양을 만들어 장식하는 크리스마스 전통을 기념하는 날이다. | `anv-fixed-12-12-gingerbread-house-day-global` |
 | 05-04 | 오렌지 껍질 캔디의 날 | 92 | 버리기 쉬운 오렌지 껍질을 설탕에 졸여 만드는 캔디드 오렌지 필을 기념하는 날이다. | `anv-fixed-05-04-candied-orange-peel-day-us` |
-| 05-30 | 민트 줄렙의 날 | 92 | 버번 위스키에 민트와 설탕을 더한 칵테일, 민트 줄렙을 기념하는 날이다. | `anv-fixed-05-30-mint-julep-day-us` |
 | 07-14 | 그랑 마르니에의 날 | 92 | 코냑과 오렌지 리큐어를 블렌딩한 프랑스산 술, 그랑 마르니에를 기념하는 날이다. | `anv-fixed-07-14-grand-marnier-day-us` |
 | 08-05 | 굴의 날 (National Oyster Day) | 92 | 바다의 보석이라 불리는 고급 식재료, 굴을 기념하는 날이다. | `anv-fixed-08-05-oyster-day-us` |
 | 09-27 | 초콜릿 우유의 날 (National Chocolate Milk Day) | 92 | 어린 시절 누구나 좋아했던 음료, 초콜릿 우유를 기념하는 날이다. | `anv-fixed-09-27-chocolate-milk-day-us` |
 | 10-21 | 펌킨 치즈케이크의 날 | 92 | 가을 향 가득한 호박과 부드러운 치즈케이크가 만난 펌킨 치즈케이크를 기념하는 날이다. | `anv-fixed-10-21-pumpkin-cheesecake-day-us` |
-| 11-11 | 선데이의 날 (National Sundae Day) | 92 | 아이스크림에 시럽과 토핑을 올린 클래식 디저트, 선데이를 기념하는 날이다. | `anv-fixed-11-11-sundae-day-us` |
 | 11-25 | 파르페의 날 (National Parfait Day) | 92 | 과일, 크림, 그래놀라 등을 층층이 쌓아 만드는 디저트, 파르페를 기념하는 날이다. | `anv-fixed-11-25-parfait-day-us` |
 | 06-02 | 로티세리 치킨의 날 | 93 | 꼬치에 꽂아 빙글빙글 돌리며 구워내는 로티세리 치킨을 기념하는 날이다. | `anv-fixed-06-02-rotisserie-chicken-day-us` |
-| 06-17 | 루트비어의 날 | 93 | 허브와 향신료로 향을 낸 독특한 풍미의 탄산음료, 루트비어를 기념하는 날이다. | `anv-fixed-06-17-root-beer-day-us` |
 | 08-01 | 자메이카 패티의 날 | 93 | 매콤한 속을 채운 황금빛 페이스트리, 자메이카 패티를 기념하는 날이다. | `anv-fixed-08-01-jamaican-patty-day-us` |
 | 08-02 | 아이스크림 샌드위치의 날 | 93 | 두 장의 쿠키나 웨이퍼 사이에 아이스크림을 끼운 아이스크림 샌드위치를 기념하는 날이다. | `anv-fixed-08-02-ice-cream-sandwich-day-us` |
 | 09-11 | 핫 크로스 번의 날 | 93 | 십자 모양 글레이즈를 올린 향신료 빵, 핫 크로스 번을 기념하는 날이다. | `anv-fixed-09-11-hot-cross-bun-day-us` |
-| 10-23 | 보스턴 크림파이의 날 | 93 | 커스터드 크림을 채우고 초콜릿을 입힌 케이크, 보스턴 크림파이를 기념하는 날이다. | `anv-fixed-10-23-boston-cream-pie-day-us` |
 | 02-11 | 페퍼민트 패티의 날 | 94 | 민트 크림을 초콜릿으로 감싼 캔디 '페퍼민트 패티'를 기념하는 날. | `anv-fixed-02-11-peppermint-patty-day-us` |
-| 07-04 | 시저 샐러드의 날 | 94 | 파마산 치즈와 크루통, 특제 드레싱이 어우러진 시저 샐러드를 기념하는 날이다. | `anv-fixed-07-04-caesar-salad-day-us` |
 | 07-05 | 애플 턴오버의 날 | 94 | 페이스트리에 사과 필링을 채워 삼각형으로 접어 구운 애플 턴오버를 기념하는 날이다. | `anv-fixed-07-05-apple-turnover-day-us` |
-| 08-14 | 크림시클의 날 (National Creamsicle Day) | 94 | 오렌지 셔벗 바깥에 바닐라 아이스크림을 채운 아이스바, 크림시클을 기념하는 날이다. | `anv-fixed-08-14-creamsicle-day-us` |
 | 08-27 | 포 드 크렘의 날 | 94 | 작은 도자기 그릇에 담아 굽는 프랑스식 진한 커스터드 디저트, 포 드 크렘을 기념하는 날이다. | `anv-fixed-08-27-pots-de-creme-day-us` |
 | 10-05 | 애플 베티의 날 | 94 | 사과와 시나몬, 빵가루를 층층이 쌓아 구운 디저트, 애플 베티를 기념하는 날이다. | `anv-fixed-10-05-apple-betty-day-us` |
-| 12-06 | 가스파초의 날 | 94 | 차갑게 먹는 토마토 수프, 가스파초를 기념하는 날이다. | `anv-fixed-12-06-gazpacho-day-us` |
 | 12-29 | 페퍼팟의 날 | 94 | 매콤한 향신료가 들어간 스튜, 페퍼팟을 기념하는 날이다. | `anv-fixed-12-29-pepper-pot-day-us` |
 | 04-19 | 마늘의 날 (National Garlic Day) | 95 | 강한 풍미와 다양한 건강 효능을 지닌 마늘을 기념하는 날이다. | `anv-fixed-04-19-garlic-day-us` |
-| 10-04 | 타코의 날 (National Taco Day) | 95 | 토르티야에 다양한 속재료를 채워 먹는 멕시코 대표 음식, 타코를 기념하는 날이다. | `anv-fixed-10-04-taco-day-us` |
 | 11-15 | 스파이시 허밋 쿠키의 날 | 95 | 향신료와 건과일을 듬뿍 넣은 묵직한 쿠키, 허밋 쿠키를 기념하는 날이다. | `anv-fixed-11-15-spicy-hermit-cookie-day-us` |
 | 12-12 | 암브로시아의 날 | 95 | 과일과 마시멜로, 코코넛 등을 섞어 만드는 디저트 샐러드, 암브로시아를 기념하는 날이다. | `anv-fixed-12-12-ambrosia-day-us` |
 | 02-28 | 초콜릿 수플레의 날 | 96 | 오븐에서 부풀어 오른 부드러운 초콜릿 디저트 '수플레'를 기념하는 날. | `anv-fixed-02-28-chocolate-souffle-day-us` |
@@ -235,33 +204,24 @@
 | 06-10 | 블랙 카우의 날 | 96 | 콜라에 바닐라 아이스크림을 띄운 클래식 음료, 블랙 카우(루트비어 플로트류)를 기념하는 날이다. | `anv-fixed-06-10-black-cow-day-us` |
 | 06-14 | 스트로베리 쇼트케이크의 날 | 96 | 스펀지케이크에 딸기와 생크림을 듬뿍 올린 스트로베리 쇼트케이크를 기념하는 날이다. | `anv-fixed-06-14-strawberry-shortcake-day-us` |
 | 08-06 | 루트비어 플로트의 날 | 96 | 루트비어에 바닐라 아이스크림을 띄운 클래식 디저트 음료, 루트비어 플로트를 기념하는 날이다. | `anv-fixed-08-06-root-beer-float-day-us` |
-| 08-21 | 스푸모니의 날 | 96 | 여러 가지 맛과 색을 층층이 쌓은 이탈리아식 아이스크림, 스푸모니를 기념하는 날이다. | `anv-fixed-08-21-spumoni-day-us` |
 | 09-08 | 앤츠 온 어 로그의 날 | 96 | 셀러리에 땅콩버터를 바르고 건포도를 올린 간단한 간식, 앤츠 온 어 로그를 기념하는 날이다. | `anv-fixed-09-08-ants-on-a-log-day-us` |
 | 09-23 | 아메리칸 팟파이의 날 | 96 | 고기와 채소를 크림소스에 버무려 파이 크러스트로 덮어 구운 팟파이를 기념하는 날이다. | `anv-fixed-09-23-great-american-pot-pie-day-us` |
-| 10-30 | 캔디콘의 날 (National Candy Corn Day) | 96 | 노랑·주황·하양 삼색의 옥수수 모양 사탕, 캔디콘을 기념하는 날이다. | `anv-fixed-10-30-candy-corn-day-us` |
 | 11-13 | 인디언 푸딩의 날 | 96 | 옥수수가루와 향신료로 만드는 미국 전통 디저트, 인디언 푸딩을 기념하는 날이다. | `anv-fixed-11-13-indian-pudding-day-us` |
-| 11-23 | 에스프레소의 날 (National Espresso Day) | 96 | 고압으로 빠르게 추출한 진한 커피, 에스프레소를 기념하는 날이다. | `anv-fixed-11-23-espresso-day-us` |
 | 12-04 | 쿠키의 날 (National Cookie Day) | 96 | 바삭하거나 쫀득한 다양한 쿠키를 기념하는 날로, 연말 베이킹 시즌과도 잘 어울리는 날이다. | `anv-fixed-12-04-cookie-day-us` |
-| 12-31 | 샴페인의 날 | 96 | 기쁜 순간을 축하할 때 빠지지 않는 샴페인을 기념하는 날이다. | `anv-fixed-12-31-champagne-day-us` |
 | 04-18 | 애니멀 크래커의 날 | 97 | 동물 모양으로 만들어진 어린이용 과자, 애니멀 크래커를 기념하는 날이다. | `anv-fixed-04-18-animal-crackers-day-us` |
 | 04-24 | 피그 인 어 블랭킷의 날 | 97 | 소시지를 반죽으로 감싸 구운 간식, 피그 인 어 블랭킷을 기념하는 날이다. | `anv-fixed-04-24-pigs-in-a-blanket-day-us` |
 | 05-07 | 양다리 구이의 날 | 97 | 허브와 향신료로 양념해 통째로 구워내는 양다리 요리를 기념하는 날이다. | `anv-fixed-05-07-roast-leg-of-lamb-day-us` |
 | 05-09 | 버터스카치 브라우니의 날 | 97 | 캐러멜라이즈된 버터와 설탕의 풍미가 가득한 버터스카치 브라우니를 기념하는 날이다. | `anv-fixed-05-09-butterscotch-brownie-day-us` |
 | 06-10 | 아이스티의 날 (National Iced Tea Day) | 97 | 더운 날 시원하게 즐기는 아이스티를 기념하는 날이다. | `anv-fixed-06-10-iced-tea-day-us` |
 | 06-17 | 애플 스트루델의 날 | 97 | 얇은 페이스트리에 사과 필링을 말아 구운 오스트리아·독일식 디저트, 애플 스트루델을 기념하는 날이다. | `anv-fixed-06-17-apple-strudel-day-us` |
-| 08-08 | 프로즌 커스터드의 날 | 97 | 일반 아이스크림보다 더 진하고 부드러운 프로즌 커스터드를 기념하는 날이다. | `anv-fixed-08-08-frozen-custard-day-us` |
 | 09-18 | 치즈버거의 날 (National Cheeseburger Day) | 97 | 패티 위에 치즈 한 장을 올린 클래식 치즈버거를 기념하는 날이다. | `anv-fixed-09-18-cheeseburger-day-us` |
-| 10-10 | 엔젤 푸드 케이크의 날 | 97 | 달걀흰자만으로 부풀려 만드는 가벼운 케이크, 엔젤 푸드 케이크를 기념하는 날이다. | `anv-fixed-10-10-angel-food-cake-day-us` |
-| 04-05 | 딥디시 피자의 날 | 98 | 두꺼운 도우와 풍성한 토핑이 특징인 시카고식 딥디시 피자를 기념하는 날이다. | `anv-fixed-04-05-deep-dish-pizza-day-us` |
 | 05-07 | 홈브루의 날 (National Homebrew Day) | 98 | 집에서 직접 맥주를 만드는 홈브루잉 취미와 문화를 기념하는 날이다. | `anv-fixed-05-07-homebrew-day-us` |
-| 05-13 | 애플파이의 날 (National Apple Pie Day) | 98 | 미국을 대표하는 디저트로 꼽히는 애플파이를 기념하는 날이다. | `anv-fixed-05-13-apple-pie-day-us` |
 | 07-24 | 드라이브스루의 날 (National Drive-Thru Day) | 98 | 차 안에서 주문하고 음식을 받을 수 있는 드라이브스루 문화를 기념하는 날이다. | `anv-fixed-07-24-drive-thru-day-us` |
 | 10-26 | 민스미트의 날 | 98 | 다진 과일과 향신료를 섞어 만드는 파이 속재료, 민스미트를 기념하는 날이다. | `anv-fixed-10-26-mincemeat-day-us` |
 | 10-27 | 아메리칸 비어의 날 (National American Beer Day) | 98 | 미국 양조 산업의 역사와 다양한 스타일의 미국식 맥주를 기념하는 날이다. | `anv-fixed-10-27-american-beer-day-us` |
 | 06-07 | 초콜릿 아이스크림의 날 | 99 | 가장 클래식한 아이스크림 맛 중 하나인 초콜릿 아이스크림을 기념하는 날이다. | `anv-fixed-06-07-chocolate-ice-cream-day-us` |
 | 07-23 | 바닐라 아이스크림의 날 | 99 | 가장 기본이지만 가장 사랑받는 아이스크림 맛, 바닐라를 기념하는 날이다. | `anv-fixed-07-23-vanilla-ice-cream-day-us` |
 | 08-10 | 스모어의 날 (National S'mores Day) | 99 | 마시멜로와 초콜릿을 그래함 크래커 사이에 끼워 먹는 캠핑 디저트, 스모어를 기념하는 날이다. | `anv-fixed-08-10-smores-day-us` |
-| 12-12 | 포인세티아의 날 (Poinsettia Day) | 99 | 빨갛고 푸른 잎이 크리스마스 분위기를 더해주는 식물, 포인세티아를 기념하는 날이다. | `anv-fixed-12-12-poinsettia-day-global` |
 
 ### 직업 & 감사 (23건)
 
