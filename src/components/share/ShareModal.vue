@@ -1,22 +1,32 @@
 <script setup lang="ts">
 import { computed, nextTick, onBeforeUnmount, ref, useTemplateRef, watch } from 'vue'
 import { storeToRefs } from 'pinia'
-import { toPng, getFontEmbedCSS } from 'html-to-image'
 import { useShareStore } from '@/stores/share'
 import { useCopyToClipboard } from '@/composables/useCopyToClipboard'
 import { SITE_URL } from '@/seo/meta'
 import ShareCard from './ShareCard.vue'
 
+// html-to-image 는 이미지를 만들 때만 필요하다. 모달을 열어 링크만 복사하는
+// 사람에게는 받게 하지 않는다 — 한 번 받으면 모듈 캐시에 남아 재요청은 없다.
+type ImageLib = typeof import('html-to-image')
+let imageLibPromise: Promise<ImageLib> | null = null
+function loadImageLib(): Promise<ImageLib> {
+  if (!imageLibPromise) imageLibPromise = import('html-to-image')
+  return imageLibPromise
+}
+
 // 폰트 임베딩 CSS(웹폰트 base64 인라인)는 카드 내용과 무관하게 항상 동일하므로
 // 세션 동안 한 번만 계산해 재사용한다. 이게 캡처 시간의 대부분(특히 한글
-// Noto Serif KR 임베딩)을 차지하기 때문에, 모달을 열 때 미리 준비(warm-up)해두면
-// 다운로드/공유 클릭 시 거의 즉시 PNG 가 만들어진다.
+// Noto Serif KR 임베딩)을 차지한다. 모달을 열자마자가 아니라 이미지 버튼에
+// 손이 닿았을 때(hover/focus) 준비해, 링크만 복사하는 사람은 이 비용을 아예
+// 치르지 않게 한다.
 let fontEmbedCssCache: string | null = null
 let fontEmbedCssPromise: Promise<string> | null = null
 function ensureFontEmbedCss(node: HTMLElement): Promise<string> {
   if (fontEmbedCssCache) return Promise.resolve(fontEmbedCssCache)
   if (!fontEmbedCssPromise) {
-    fontEmbedCssPromise = getFontEmbedCSS(node)
+    fontEmbedCssPromise = loadImageLib()
+      .then(({ getFontEmbedCSS }) => getFontEmbedCSS(node))
       .then((css) => {
         fontEmbedCssCache = css
         return css
@@ -28,6 +38,11 @@ function ensureFontEmbedCss(node: HTMLElement): Promise<string> {
       })
   }
   return fontEmbedCssPromise
+}
+
+/** 이미지 버튼에 hover/focus 하면 라이브러리와 폰트를 미리 준비한다. */
+function warmUpImage(): void {
+  if (cardRootRef.value) ensureFontEmbedCss(cardRootRef.value).catch(() => {})
 }
 
 const shareStore = useShareStore()
@@ -117,11 +132,8 @@ watch(isOpen, (open) => {
       dialogRef.value?.focus()
       recomputeScale()
       observePreview()
-      // 사용자가 미리보기를 보는 동안 폰트 임베딩을 미리 준비해 둔다.
-      // 다운로드/공유 클릭 시점엔 이미 캐시돼 있어 캡처가 거의 즉시 끝난다.
-      if (cardRootRef.value) {
-        ensureFontEmbedCss(cardRootRef.value).catch(() => {})
-      }
+      // 폰트 임베딩 준비는 여기서 하지 않는다 — 이미지 버튼에 손이 닿을 때
+      // warmUpImage() 가 맡는다(위 주석 참고).
     })
   } else {
     document.body.style.overflow = ''
@@ -160,7 +172,10 @@ async function generatePng(): Promise<string | null> {
     // 폰트 임베딩 CSS 를 미리(또는 즉석으로) 계산해 toPng 에 직접 넘기면,
     // html-to-image 가 매 호출마다 폰트를 다시 fetch/인코딩하는 단계를 건너뛴다.
     // 결과가 항상 동일하므로 미리보기와도 어긋나지 않아 워밍업용 2회 호출이 불필요.
-    const fontEmbedCSS = await ensureFontEmbedCss(cardRootRef.value)
+    const [{ toPng }, fontEmbedCSS] = await Promise.all([
+      loadImageLib(),
+      ensureFontEmbedCss(cardRootRef.value),
+    ])
     const dataUrl = await toPng(cardRootRef.value, {
       pixelRatio: 2, // 540 → 1080x1080
       backgroundColor: '#faf7f0',
@@ -357,6 +372,8 @@ async function handleNativeShare() {
               type="button"
               class="flex-1 border border-ink-900 bg-ink-900 px-5 py-3 text-[0.72rem] font-medium uppercase tracking-[0.22em] text-paper-50 transition hover:bg-ink-800 disabled:opacity-60"
               :disabled="isGenerating"
+              @pointerenter="warmUpImage"
+              @focus="warmUpImage"
               @click="handleDownload"
             >
               <span v-if="isGenerating">Generating…</span>
@@ -375,6 +392,8 @@ async function handleNativeShare() {
               type="button"
               class="flex-1 border border-ink-800 bg-paper-50 px-5 py-3 text-[0.72rem] font-medium uppercase tracking-[0.22em] text-ink-800 transition hover:bg-paper-200 disabled:opacity-60"
               :disabled="isGenerating"
+              @pointerenter="warmUpImage"
+              @focus="warmUpImage"
               @click="handleNativeShare"
             >
               Share · 이미지 공유

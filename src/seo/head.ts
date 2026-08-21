@@ -74,6 +74,8 @@ function applyPageMeta(title: string, description: string, path: string): string
   const url = `${SITE_URL}${path === '/' ? '' : path}` || SITE_URL
 
   document.title = fullTitle
+  // 이전 페이지가 404 라 noindex 를 걸어 뒀을 수 있다. 정상 페이지에서는 지운다.
+  document.head.querySelector('meta[name="robots"]')?.remove()
   upsertMeta('name', 'description', description)
   upsertCanonical(url)
   upsertMeta('property', 'og:title', fullTitle)
@@ -101,13 +103,37 @@ export function applyRouteMeta(to: RouteLocationNormalized): void {
   document.getElementById(LD_ID)?.remove()
 }
 
-/** 기념일 상세 페이지 — 데이터에서 메타와 Article/Breadcrumb JSON-LD 를 만든다. */
-export function applyAnniversaryMeta(anv: Anniversary, path: string): void {
+/**
+ * 기념일 상세 페이지 — 데이터에서 메타와 Article/Breadcrumb JSON-LD 를 만든다.
+ *
+ * `displayDate` 는 그 해 실제 발생일의 MM-DD 다. canonical 주소는 path 의 고정
+ * urlDate 를 그대로 쓰고(색인 유지), 사람이 읽는 문구에만 실제 날짜를 쓴다.
+ */
+export function applyAnniversaryMeta(
+  anv: Anniversary,
+  path: string,
+  displayDate?: string,
+): void {
   const urlDate = path.split('/')[2] ?? ''
-  const description = anniversaryDescription(anv, urlDate)
-  const url = applyPageMeta(anniversaryTitle(anv, urlDate), description, path)
+  const shown = displayDate ?? urlDate
+  const description = anniversaryDescription(anv, urlDate, shown)
+  const url = applyPageMeta(anniversaryTitle(anv, urlDate, shown), description, path)
   upsertMeta('property', 'og:type', 'article')
-  upsertJsonLd(anniversaryJsonLd(anv, urlDate, url, description))
+  upsertJsonLd(anniversaryJsonLd(anv, urlDate, url, description, shown))
+}
+
+/**
+ * 유효하지 않은 라우트 — 기본 메타로 되돌리고 색인을 막는다.
+ *
+ * 상세 페이지에서 잘못된 slug 로 SPA 이동하면 본문은 오류인데 이전 페이지의
+ * title·canonical·OG·JSON-LD 가 그대로 남아, 크롤러가 엉뚱한 메타를 가진
+ * 오류 페이지를 보게 된다.
+ */
+export function applyNotFoundMeta(path: string): void {
+  applyPageMeta('페이지를 찾을 수 없어요', DEFAULT_DESCRIPTION, path)
+  upsertMeta('property', 'og:type', 'website')
+  upsertMeta('name', 'robots', 'noindex, follow')
+  document.getElementById(LD_ID)?.remove()
 }
 
 /** 날짜 허브 페이지 — CollectionPage/Breadcrumb JSON-LD. */

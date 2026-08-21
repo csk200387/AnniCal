@@ -12,6 +12,9 @@ import json
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from toolkit import atomic_write_many, dumps  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "src/data/anniversaries"
 SRC_DEFAULT = ROOT / "tools/enrich/content/observances-new.json"
@@ -52,6 +55,7 @@ def main(argv: list[str]) -> int:
             raise AssertionError(f"{key}: 지원하지 않는 dateType {rec['dateType']}")
         placed.setdefault(DATA / f"{md[:2]}.json", []).append((md, rec))
 
+    counts: list[tuple[Path, int, int, int]] = []
     for path, items in sorted(placed.items()):
         arr = files[path]
         before = len(arr)
@@ -59,8 +63,11 @@ def main(argv: list[str]) -> int:
             idx = next((i for i, x in enumerate(arr)
                         if x["dateType"] == "annual-fixed" and x["date"] > md), len(arr))
             arr.insert(idx, rec)
-        path.write_text(json.dumps(arr, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        print(f"  {path.name}: {before} → {len(arr)}건  (+{len(items)})")
+        counts.append((path, before, len(arr), len(items)))
+
+    atomic_write_many({path: dumps(files[path]) for path, *_ in counts})
+    for path, before, after, added in counts:
+        print(f"  {path.name}: {before} → {after}건  (+{added})")
 
     print(f"\n{len(new)}건 삽입 완료")
     return 0

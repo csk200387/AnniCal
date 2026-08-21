@@ -26,10 +26,14 @@ coverage
 
 *.tsbuildinfo
 
-# Python (tools/inspector)
+# Python (tools/)
 tools/inspector/.venv
 tools/inspector/.env
-tools/inspector/__pycache__
+__pycache__/
+*.py[cod]
+
+# 데이터 저장 잠금 파일 (tools/toolkit.py)
+.write.lock
 .vercel
 
 CLAUDE.md

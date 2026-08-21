@@ -2,36 +2,39 @@
 import { computed, watch } from 'vue'
 import { useRoute, RouterLink } from 'vue-router'
 import { useDateHub } from '../composables/useDayPages'
-import { pathForId, isValidUrlDate } from '@/utils/anniversaryRoutes'
+import { pathForId, shiftUrlDate, koreanUrlDate } from '@/utils/anniversaryRoutes'
 import { primaryColorForTags } from '@/utils/tagPalette'
 import CategoryBadge from '@/components/common/CategoryBadge.vue'
-import { applyDateHubMeta } from '@/seo/head'
+import { applyDateHubMeta, applyNotFoundMeta } from '@/seo/head'
 
 const route = useRoute()
 const urlDate = computed(() => String(route.params.date ?? ''))
-const isValid = computed(() => isValidUrlDate(urlDate.value))
 
-const { anniversaries, label } = useDateHub(urlDate)
+const { anniversaries, label, isValid, state, error, retry } = useDateHub(urlDate)
 
-/** 앞뒤 날짜로 이동 — 허브끼리 이어 크롤러가 366개를 모두 타고 다니게 한다. */
+/**
+ * 앞뒤 날짜로 이동 — 허브끼리 이어 크롤러가 366개를 모두 타고 다니게 한다.
+ *
+ * 366일 고리를 그대로 걷는다. 예전에는 비윤년 2026을 기준으로 Date 산술을 해서
+ * /day/02-29 가 내부적으로 03-01 로 normalize 되고, 다음 날이 03-02 가 됐다.
+ */
 const neighbours = computed(() => {
   if (!isValid.value) return null
-  const [mm, dd] = urlDate.value.split('-').map(Number)
-  const base = new Date(2026, mm - 1, dd)
-  const shift = (days: number) => {
-    const d = new Date(base)
-    d.setDate(d.getDate() + days)
-    const m = String(d.getMonth() + 1).padStart(2, '0')
-    const day = String(d.getDate()).padStart(2, '0')
-    return { path: `/day/${m}-${day}`, label: `${d.getMonth() + 1}월 ${d.getDate()}일` }
+  const at = (days: number) => {
+    const p = shiftUrlDate(urlDate.value, days)
+    return p ? { path: `/day/${p}`, label: koreanUrlDate(p) ?? p } : null
   }
-  return { prev: shift(-1), next: shift(1) }
+  const prev = at(-1)
+  const next = at(1)
+  return prev && next ? { prev, next } : null
 })
 
 watch(
-  [urlDate, anniversaries],
+  [urlDate, anniversaries, state],
   () => {
-    if (isValid.value) applyDateHubMeta(urlDate.value, anniversaries.value)
+    // 목록이 확정되기 전에 메타를 쓰면 "기념일 0개" 설명이 잠깐 나갔다 바뀐다.
+    if (state.value === 'ready') applyDateHubMeta(urlDate.value, anniversaries.value)
+    else if (state.value === 'not-found') applyNotFoundMeta(`/day/${urlDate.value}`)
   },
   { immediate: true },
 )
@@ -45,10 +48,23 @@ watch(
       <span class="text-ink-600">{{ label }}</span>
     </nav>
 
-    <p v-if="!isValid" class="py-16 text-center text-ink-500">
+    <p v-if="state === 'not-found'" class="py-16 text-center text-ink-500">
       올바르지 않은 날짜예요.
       <RouterLink to="/calendar" class="underline underline-offset-4">달력으로 가기</RouterLink>
     </p>
+
+    <!-- 불러오기 실패를 "기념일이 없는 날"로 표시하면 안 된다. -->
+    <div v-else-if="state === 'error'" class="py-16 text-center">
+      <p class="text-ink-500">기념일을 불러오지 못했어요.</p>
+      <p v-if="error" class="mt-1 text-[0.8rem] text-ink-400">{{ error }}</p>
+      <button
+        type="button"
+        class="mt-4 border border-ink-800 px-5 py-2 text-[0.7rem] font-medium uppercase tracking-[0.2em] text-ink-800 transition hover:bg-paper-200"
+        @click="retry"
+      >
+        다시 시도
+      </button>
+    </div>
 
     <template v-else>
       <header>
@@ -56,7 +72,8 @@ watch(
           {{ label }}은 무슨 날?
         </h1>
         <p class="mt-3 text-[0.95rem] leading-relaxed text-ink-500">
-          <template v-if="anniversaries.length">
+          <template v-if="state === 'loading'">불러오는 중…</template>
+          <template v-else-if="anniversaries.length">
             {{ label }}에 있는 기념일 {{ anniversaries.length }}개를 모았어요.
           </template>
           <template v-else>{{ label }}에 등록된 기념일이 아직 없어요.</template>

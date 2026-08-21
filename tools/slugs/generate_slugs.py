@@ -28,6 +28,9 @@ from collections import defaultdict
 from pathlib import Path
 from urllib.parse import unquote, urlparse
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from toolkit import atomic_write_text  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[2]
 DATA_DIR = ROOT / "src" / "data" / "anniversaries"
 OVERRIDES = Path(__file__).parent / "overrides.json"
@@ -51,10 +54,32 @@ ID_PREFIX = re.compile(
 ID_SUFFIX = re.compile(r"-(?:global|intl|world|kr|us|uk|jp|cn|fr|de|it|es|ru|in|ca|au)$")
 
 
+# 최종 슬러그가 반드시 만족해야 하는 형태. override 로 손으로 넣은 값도 예외가 아니다.
+# 이 값은 파일 경로(dist/day/MM-DD/<slug>/index.html)와 HTML 속성에 그대로 들어가므로,
+# 여기서 막지 않으면 '../..' 로 outDir 을 벗어나거나 따옴표로 속성을 깨뜨릴 수 있다.
+SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
+SLUG_MAX_LEN = 80
+
+
 def slugify(s: str) -> str:
     s = s.lower().strip()
     s = re.sub(r"[^a-z0-9]+", "-", s)
     return re.sub(r"-{2,}", "-", s).strip("-")
+
+
+def is_valid_slug(s: str) -> bool:
+    return bool(s) and len(s) <= SLUG_MAX_LEN and SLUG_RE.fullmatch(s) is not None
+
+
+def is_valid_url_date(s: str) -> bool:
+    """URL 날짜가 달력에 실제로 있는 MM-DD 인지. 2월 29일은 유효."""
+    if not re.fullmatch(r"\d{2}-\d{2}", s or ""):
+        return False
+    try:
+        date(2024, int(s[:2]), int(s[3:]))  # 2024 = 윤년
+        return True
+    except ValueError:
+        return False
 
 
 def from_id(a: dict) -> str | None:
@@ -185,6 +210,10 @@ def main() -> int:
             url_key[(url_dates[a["id"]], slugs[a["id"]])].append(a["name"])
     collisions = {k: v for k, v in url_key.items() if len(v) > 1}
 
+    # 검증 3: 최종 슬러그·URL 날짜 형태. override 를 포함한 "나가는 값"을 본다.
+    bad_slugs = [(i, s) for i, s in sorted(slugs.items()) if not is_valid_slug(s)]
+    bad_dates = [(i, d) for i, d in sorted(url_dates.items()) if not is_valid_url_date(d)]
+
     print(f"기념일 {len(anns)}건 → 슬러그 {len(slugs)}건")
     for k in ("override", "id", "paren", "sourceUrl"):
         print(f"  {k:>10}: {source_count[k]}")
@@ -195,20 +224,32 @@ def main() -> int:
     print(f"URL 충돌: {len(collisions)}")
     for (d, s), names in collisions.items():
         print(f"    ! /day/{d}/{s}  ←  {' | '.join(names)}")
+    print(f"슬러그 형식 위반: {len(bad_slugs)}")
+    for i, s in bad_slugs:
+        print(f"    ! {i}  →  {s!r}")
+    print(f"URL 날짜 오류: {len(bad_dates)}")
+    for i, d in bad_dates:
+        print(f"    ! {i}  →  {d!r}")
 
     ok = (not unresolved and not collisions and not dup_ids
+          and not bad_slugs and not bad_dates
           and len(url_dates) == len(anns))
     if check_only:
         print("\n검증 " + ("통과" if ok else "실패"))
         return 0 if ok else 1
+
+    # 깨진 값이 routes.json 에 들어가면 빌드가 그걸 그대로 파일 경로와 HTML 로 쓴다.
+    # 여기서 멈추는 편이 dist 밖에 파일이 써진 뒤 알아차리는 것보다 낫다.
+    if bad_slugs or bad_dates:
+        print("\n형식 위반이 있어 routes.json 을 쓰지 않았습니다.")
+        return 1
 
     routes = {
         i: {"slug": slugs[i], "urlDate": url_dates[i]}
         for i in sorted(slugs)
         if i in url_dates
     }
-    OUT.write_text(json.dumps(routes, ensure_ascii=False, indent=2) + "\n",
-                   encoding="utf-8")
+    atomic_write_text(OUT, json.dumps(routes, ensure_ascii=False, indent=2) + "\n")
     print(f"\n기록: {OUT.relative_to(ROOT)}")
     return 0 if ok else 1
 

@@ -4,7 +4,7 @@ import type { Anniversary } from '@/types/anniversary'
 import { formatKoreanMonthDay } from '@/utils/dateUtils'
 import { primaryColorForTags } from '@/utils/tagPalette'
 import CategoryBadge from '@/components/common/CategoryBadge.vue'
-import { isExternalUrl } from '@/utils/sourceUrl'
+import { EXTERNAL_LINK_REL, isExternalUrl } from '@/utils/sourceUrl'
 
 const props = withDefaults(
   defineProps<{
@@ -128,7 +128,7 @@ const footerClass = computed(() =>
         v-if="isExternalUrl(anniversary.sourceUrl)"
         :href="anniversary.sourceUrl!"
         target="_blank"
-        rel="noopener"
+        :rel="EXTERNAL_LINK_REL"
         class="group/link inline-flex items-center gap-1.5 text-[0.7rem] uppercase tracking-[0.18em] text-ink-400 transition-colors hover:text-ink-700"
       >
         <span>출처</span>

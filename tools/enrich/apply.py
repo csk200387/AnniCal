@@ -16,6 +16,9 @@ import statistics
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from toolkit import atomic_write_many, dumps  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "src/data/anniversaries"
 
@@ -56,8 +59,9 @@ def main(argv: list[str]) -> int:
         after.append(len(s["origin"]) + len(s["anecdote"]))
         touched.add(f)
 
+    # 여러 월 파일을 함께 바꾸므로 전부 아니면 전무로 — 중간에 죽어도 반만 적용되지 않는다.
+    atomic_write_many({f: dumps(files[f]) for f in sorted(touched)})
     for f in sorted(touched):
-        f.write_text(json.dumps(files[f], ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(f"  기록: {f.relative_to(ROOT)}")
 
     short = [k for k, v in patch.items() if len(v["origin"]) + len(v["anecdote"]) < 200]

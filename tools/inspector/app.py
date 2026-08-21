@@ -23,22 +23,23 @@ import naver_news
 from data_io import (
     ROOT,
     DATA_DIR,
+    REFERENCE_YEAR,
+    DataIntegrityError,
     load_anniversaries,
     load_categories,
+    load_observances,
     save_anniversaries,
 )
+from validation import (
+    DATE_TYPES,
+    ID_RE,
+    anchor_dependents,
+    check_date_field,
+    check_source_url,
+    check_text,
+    find_anchor_cycles,
+)
 
-DATE_TYPES = [
-    "annual-fixed",
-    "annual-floating",
-    "annual-nth-weekday",
-    "annual-relative-to-holiday",
-    "one-time",
-]
-# annual-nth-weekday: "MM-N-DOW" (N=1~5 또는 L, DOW=SUN..SAT)
-NTH_WEEKDAY_RE = r"\d{2}-(?:[1-5]|L)-(?:SUN|MON|TUE|WED|THU|FRI|SAT)"
-# annual-relative-to-holiday: "{anchorId}:{offsetDays}" (offsetDays 는 +/- 정수)
-RELATIVE_TO_HOLIDAY_RE = r"[a-zA-Z0-9_\-]+:-?\d+"
 COLS = ["날짜", "유형", "이름", "카테고리", "id"]
 NEWS_COLS = ["제목", "날짜", "링크"]
 
@@ -93,6 +94,7 @@ def filter_rows(items: list[dict[str, Any]], query: str | None) -> list[list[str
 def validate(items: list[dict[str, Any]], categories: list[dict[str, Any]]) -> dict[str, list[str]]:
     valid_cat_ids = {c["id"] for c in categories}
     valid_anv_ids = {a.get("id") for a in items}
+    observances = load_observances()
 
     counts: dict[str, int] = {}
     for a in items:
@@ -103,6 +105,7 @@ def validate(items: list[dict[str, Any]], categories: list[dict[str, Any]]) -> d
     unknown_cats: list[str] = []
     missing_fields: list[str] = []
     bad_dates: list[str] = []
+    bad_values: list[str] = []
 
     for a in items:
         aid = a.get("id") or "(no-id)"
@@ -125,34 +128,28 @@ def validate(items: list[dict[str, Any]], categories: list[dict[str, Any]]) -> d
         if missing:
             missing_fields.append(f"{aid}: {', '.join(missing)}")
 
-        dt = a.get("dateType")
-        d = a.get("date", "") or ""
-        if dt == "annual-fixed":
-            if not re.fullmatch(r"\d{2}-\d{2}", d):
-                bad_dates.append(f"{aid}: '{d}' (annual-fixed → MM-DD)")
-        elif dt == "annual-nth-weekday":
-            if not re.fullmatch(NTH_WEEKDAY_RE, d):
-                bad_dates.append(f"{aid}: '{d}' (annual-nth-weekday → MM-N-DOW)")
-        elif dt == "annual-relative-to-holiday":
-            if not re.fullmatch(RELATIVE_TO_HOLIDAY_RE, d):
-                bad_dates.append(
-                    f"{aid}: '{d}' (annual-relative-to-holiday → anchorId:offsetDays)"
-                )
-            else:
-                anchor_id = d.rsplit(":", 1)[0]
-                if anchor_id not in valid_anv_ids:
-                    bad_dates.append(f"{aid}: anchor id '{anchor_id}' 를 찾을 수 없음")
-        elif dt in ("annual-floating", "one-time"):
-            if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", d):
-                bad_dates.append(f"{aid}: '{d}' ({dt} → YYYY-MM-DD)")
-        elif dt:
-            bad_dates.append(f"{aid}: dateType '{dt}' 알 수 없음")
+        for err in check_date_field(a, valid_anv_ids, observances, REFERENCE_YEAR):
+            bad_dates.append(f"{aid}: {err}")
+
+        # ICS·JSON-LD 로 그대로 흘러가는 값들 — 제어문자·개행·</script 차단.
+        for err in check_text(a.get("name"), "name"):
+            bad_values.append(f"{aid}: {err}")
+        for err in check_text(st.get("origin"), "storytelling.origin"):
+            bad_values.append(f"{aid}: {err}")
+        for err in check_text(st.get("anecdote"), "storytelling.anecdote"):
+            bad_values.append(f"{aid}: {err}")
+        for err in check_source_url(a.get("sourceUrl")):
+            bad_values.append(f"{aid}: {err}")
+
+    for cycle in find_anchor_cycles(items):
+        bad_dates.append(f"anchor 순환 참조: {cycle}")
 
     return {
         "duplicate_ids": duplicate_ids,
         "unknown_categories": unknown_cats,
         "missing_fields": missing_fields,
         "bad_dates": bad_dates,
+        "bad_values": bad_values,
     }
 
 
@@ -161,7 +158,8 @@ def format_issues_md(issues: dict[str, list[str]]) -> str:
         ("duplicate_ids", "중복 id"),
         ("unknown_categories", "categories.json 에 없는 카테고리"),
         ("missing_fields", "필수 필드 누락/빈 값"),
-        ("bad_dates", "날짜 포맷 오류"),
+        ("bad_dates", "날짜 오류"),
+        ("bad_values", "값 오류 (제어문자·URL)"),
     ]
     total = sum(len(issues[k]) for k, _ in labels)
     header = "## 검수 결과 " + ("✅ 모두 통과" if total == 0 else f"⚠️ {total}건 발견")
@@ -276,28 +274,10 @@ def save_entry(
 ):
     errors: list[str] = []
     eid = (eid or "").strip()
-    if not re.fullmatch(r"[a-zA-Z0-9_\-]+", eid):
+    if not re.fullmatch(ID_RE, eid):
         errors.append("id 는 영문/숫자/하이픈/언더스코어만 사용 가능합니다.")
     if date_type not in DATE_TYPES:
         errors.append("dateType 이 잘못되었습니다.")
-    elif date_type == "annual-fixed":
-        if not re.fullmatch(r"\d{2}-\d{2}", date or ""):
-            errors.append("annual-fixed 는 MM-DD 형식이어야 합니다.")
-    elif date_type == "annual-nth-weekday":
-        if not re.fullmatch(NTH_WEEKDAY_RE, date or ""):
-            errors.append("annual-nth-weekday 는 MM-N-DOW 형식이어야 합니다 (예: 05-2-SUN, 10-L-TUE).")
-    elif date_type == "annual-relative-to-holiday":
-        if not re.fullmatch(RELATIVE_TO_HOLIDAY_RE, date or ""):
-            errors.append(
-                "annual-relative-to-holiday 는 anchorId:offsetDays 형식이어야 합니다 (예: anv-nth-11-4-thu-thanksgiving-day-us:1)."
-            )
-        else:
-            anchor_id = (date or "").rsplit(":", 1)[0]
-            if not any(x.get("id") == anchor_id for x in items):
-                errors.append(f"anchor id '{anchor_id}' 를 찾을 수 없습니다.")
-    else:
-        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", date or ""):
-            errors.append(f"{date_type} 는 YYYY-MM-DD 형식이어야 합니다.")
     if not (name or "").strip():
         errors.append("name 은 필수입니다.")
     if not (category or "").strip():
@@ -305,6 +285,34 @@ def save_entry(
 
     memes, memes_errs = _normalize_memes(memes_list)
     errors.extend(memes_errs)
+
+    entry = {
+        "id": eid,
+        "date": (date or "").strip(),
+        "dateType": date_type,
+        "name": (name or "").strip(),
+        "category": (category or "").strip(),
+        "tags": [t.strip() for t in (tags_str or "").split(",") if t.strip()],
+        "storytelling": {
+            "origin": (origin or "").strip(),
+            "anecdote": (anecdote or "").strip(),
+        },
+        "memes": memes or [],
+        "sourceUrl": (source_url or "").strip() or None,
+    }
+
+    # 날짜는 형식뿐 아니라 의미까지 본다 — '02-31' 같은 값이 통과하면 안 된다.
+    # anchor 검사에는 편집 결과가 반영된 목록을 넘겨야 자기참조를 잡을 수 있다.
+    valid_ids = {x.get("id") for x in items if x.get("id") != eid} | {eid}
+    errors.extend(check_date_field(entry, valid_ids, load_observances(), REFERENCE_YEAR))
+
+    # ICS·JSON-LD 에 그대로 실리는 값 — 제어문자·개행·</script 차단.
+    errors.extend(check_text(entry["name"], "name"))
+    errors.extend(check_text(entry["storytelling"]["origin"], "storytelling.origin"))
+    errors.extend(check_text(entry["storytelling"]["anecdote"], "storytelling.anecdote"))
+    errors.extend(check_source_url(entry["sourceUrl"]))
+    for i, m in enumerate(entry["memes"]):
+        errors.extend(check_text(m.get("caption"), f"밈 #{i + 1} caption"))
 
     if errors:
         return (
@@ -314,27 +322,45 @@ def save_entry(
             format_issues_md(validate(items, categories)),
         )
 
-    entry = {
-        "id": eid,
-        "date": date,
-        "dateType": date_type,
-        "name": name.strip(),
-        "category": category.strip(),
-        "tags": [t.strip() for t in (tags_str or "").split(",") if t.strip()],
-        "storytelling": {"origin": origin.strip(), "anecdote": anecdote.strip()},
-        "memes": memes or [],
-        "sourceUrl": (source_url or "").strip() or None,
-    }
-
+    before_ids = {x.get("id") for x in items}
     idx = next((i for i, x in enumerate(items) if x.get("id") == eid), -1)
     if idx >= 0:
+        previous = items[idx]
         items[idx] = entry
         msg = f"✅ 수정 저장: `{eid}`"
     else:
+        previous = None
         items.append(entry)
         msg = f"✅ 신규 추가: `{eid}`"
 
-    save_anniversaries(items)
+    # 편집 결과가 anchor 그래프를 순환으로 만들면 런타임이 무한 재귀로 죽는다.
+    cycles = find_anchor_cycles(items)
+    if cycles:
+        if previous is None:
+            items.pop()
+        else:
+            items[idx] = previous
+        return (
+            items,
+            filter_rows(items, query),
+            "❌ anchor 참조가 순환합니다: " + " · ".join(cycles),
+            format_issues_md(validate(items, categories)),
+        )
+
+    try:
+        save_anniversaries(items, expected_ids=before_ids)
+    except DataIntegrityError as e:
+        if previous is None:
+            items.pop()
+        else:
+            items[idx] = previous
+        return (
+            items,
+            filter_rows(items, query),
+            f"❌ 저장 취소 — {e}",
+            format_issues_md(validate(items, categories)),
+        )
+
     return (
         items,
         filter_rows(items, query),
@@ -365,8 +391,34 @@ def delete_entry(
             f"❌ 존재하지 않는 id: `{eid}`",
             format_issues_md(validate(items, categories)),
         )
-    del items[idx]
-    save_anniversaries(items)
+
+    # 이 기념일을 anchor 로 삼는 항목이 있으면 삭제를 막는다. 지우면 그것들이
+    # dangling 이 되어 피드·달력의 computed 전체가 예외로 무너진다.
+    dependents = anchor_dependents(items, eid)
+    if dependents:
+        return (
+            items,
+            filter_rows(items, query),
+            f"❌ `{eid}` 를 anchor 로 쓰는 기념일이 {len(dependents)}건 있어 삭제할 수 없습니다: "
+            + ", ".join(f"`{d}`" for d in dependents[:5])
+            + (" 외" if len(dependents) > 5 else "")
+            + ". 그 항목들을 먼저 고치세요.",
+            format_issues_md(validate(items, categories)),
+        )
+
+    before_ids = {x.get("id") for x in items}
+    removed = items.pop(idx)
+    try:
+        save_anniversaries(items, expected_ids=before_ids)
+    except DataIntegrityError as e:
+        items.insert(idx, removed)
+        return (
+            items,
+            filter_rows(items, query),
+            f"❌ 삭제 취소 — {e}",
+            format_issues_md(validate(items, categories)),
+        )
+
     return (
         items,
         filter_rows(items, query),

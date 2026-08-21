@@ -8,13 +8,17 @@
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview",
-    "type-check": "vue-tsc --noEmit"
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check:slugs": "python3 tools/slugs/generate_slugs.py --check",
+    "type-check": "vue-tsc --noEmit -p tsconfig.app.json && npm run type-check:api",
+    "type-check:api": "tsc -p api/tsconfig.json --noEmit",
+    "verify": "npm run check:slugs && npm run type-check && npm run test"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
     "dayjs": "^1.11.13",
     "html-to-image": "^1.11.13",
-    "ics": "^3.8.1",
     "pinia": "^2.2.6",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
@@ -27,6 +31,7 @@
     "typescript": "~5.7.2",
     "vite": "^6.0.3",
     "vite-plugin-sitemap": "^0.8.2",
+    "vitest": "^3.0.5",
     "vue-tsc": "^2.1.10"
   }
 }

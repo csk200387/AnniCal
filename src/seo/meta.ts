@@ -25,6 +25,29 @@ export function koreanDate(urlDate: string): string {
   return `${mm}월 ${dd}일`
 }
 
+/**
+ * JSON 을 `<script>` 안에 넣어도 안전한 문자열로 직렬화.
+ *
+ * `JSON.stringify` 는 HTML 문맥을 모른다. 데이터에 `</script>` 가 들어 있으면
+ * 그 자리에서 script 요소가 닫히고 뒤따르는 내용이 새 스크립트로 실행된다.
+ * 이 사이트는 외부 뉴스 요약·보강 JSON 을 데이터에 넣는 파이프라인이 있어
+ * "우리가 쓴 값만 들어간다"고 가정할 수 없다.
+ *
+ * U+2028/U+2029 도 함께 escape 한다. JSON 에서는 유효하지만 JavaScript 소스에서는
+ * 줄바꿈으로 취급돼 파싱을 깨뜨린다.
+ *
+ * 브라우저 경로(src/seo/head.ts)는 textContent 를 써서 이미 안전하지만,
+ * 프리렌더는 HTML 문자열을 직접 조립하므로 이 함수가 필요하다.
+ */
+export function safeJsonLd(data: unknown): string {
+  return JSON.stringify(data)
+    .replace(/</g, '\\u003c')
+    .replace(/>/g, '\\u003e')
+    .replace(/&/g, '\\u0026')
+    .replace(/\u2028/g, '\\u2028')
+    .replace(/\u2029/g, '\\u2029')
+}
+
 export function isHttpUrl(v: string | null | undefined): v is string {
   return typeof v === 'string' && /^https?:\/\//i.test(v)
 }
@@ -54,14 +77,28 @@ export function displayName(name: string): string {
     .trim()
 }
 
-export function anniversaryTitle(anv: Anniversary, urlDate: string): string {
-  return `${displayName(anv.name)} (${koreanDate(urlDate)}) 유래와 의미`
+// ── urlDate 와 displayDate 를 구분하는 이유 ────────────────────────────
+// urlDate 는 주소에 못박힌 MM-DD 라서 비고정 기념일은 실제 발생일과 다르다.
+// (어머니의 날 주소는 영원히 05-10, 2027년 실제 날짜는 05-09)
+// 제목·설명처럼 사람이 읽는 문구에는 그 해 실제 날짜(displayDate)를 쓰고,
+// urlDate 는 canonical 주소를 만들 때만 쓴다. 넘기지 않으면 urlDate 로 폴백한다.
+
+export function anniversaryTitle(
+  anv: Anniversary,
+  urlDate: string,
+  displayDate: string = urlDate,
+): string {
+  return `${displayName(anv.name)} (${koreanDate(displayDate)}) 유래와 의미`
 }
 
-export function anniversaryDescription(anv: Anniversary, urlDate: string): string {
+export function anniversaryDescription(
+  anv: Anniversary,
+  urlDate: string,
+  displayDate: string = urlDate,
+): string {
   const body =
     anv.storytelling.origin?.trim() || anv.storytelling.anecdote?.trim() || ''
-  return truncate(body || `${koreanDate(urlDate)}은 ${anv.name}입니다.`)
+  return truncate(body || `${koreanDate(displayDate)}은 ${anv.name}입니다.`)
 }
 
 export function dateHubTitle(urlDate: string): string {
@@ -84,13 +121,14 @@ export function anniversaryJsonLd(
   urlDate: string,
   url: string,
   description: string,
+  displayDate: string = urlDate,
 ): unknown {
   return {
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': 'Article',
-        headline: `${anv.name} — ${koreanDate(urlDate)}`,
+        headline: `${anv.name} — ${koreanDate(displayDate)}`,
         description,
         inLanguage: 'ko',
         mainEntityOfPage: { '@type': 'WebPage', '@id': url },
@@ -106,8 +144,8 @@ export function anniversaryJsonLd(
           {
             '@type': 'ListItem',
             position: 2,
-            name: koreanDate(urlDate),
-            item: `${SITE_URL}/day/${urlDate}`,
+            name: koreanDate(displayDate),
+            item: `${SITE_URL}/day/${displayDate}`,
           },
           { '@type': 'ListItem', position: 3, name: anv.name, item: url },
         ],

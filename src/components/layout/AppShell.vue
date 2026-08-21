@@ -1,8 +1,20 @@
 <script setup lang="ts">
+import { computed, defineAsyncComponent } from 'vue'
+import { storeToRefs } from 'pinia'
 import AppHeader from './AppHeader.vue'
 import AppFooter from './AppFooter.vue'
 import AppBackdrop from './AppBackdrop.vue'
-import ShareModal from '@/components/share/ShareModal.vue'
+import { useShareStore } from '@/stores/share'
+
+// 공유 모달은 html-to-image(웹폰트 base64 인라인 포함)와 ShareCard 를 끌고 온다.
+// 정적 import 하면 공유를 한 번도 안 누르는 사람도 그 코드를 메인 번들로 받는다.
+// 실제로 열릴 때 가져오고, 그전까지는 DOM 에 아예 없다.
+const ShareModal = defineAsyncComponent(() => import('@/components/share/ShareModal.vue'))
+
+const shareStore = useShareStore()
+const { isOpen } = storeToRefs(shareStore)
+// 한 번 열면 계속 붙여 둔다 — 닫을 때마다 청크를 버리고 다시 받을 이유가 없다.
+const everOpened = computed(() => isOpen.value || shareStore.hasOpened)
 </script>
 
 <template>
@@ -15,6 +27,6 @@ import ShareModal from '@/components/share/ShareModal.vue'
       </main>
       <AppFooter />
     </div>
-    <ShareModal />
+    <ShareModal v-if="everOpened" />
   </div>
 </template>

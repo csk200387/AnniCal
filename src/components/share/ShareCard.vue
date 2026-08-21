@@ -30,8 +30,8 @@ const dateEn = computed(() => {
     'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC',
   ]
   // formatKoreanMonthDay 와 동일한 occurrence 사용을 위해 같은 util 활용
-  const text = dateKo.value // "M월 D일"
-  const m = text.match(/(\d+)월\s*(\d+)일/)
+  const text = dateKo.value // "M월 D일" — 날짜를 계산할 수 없으면 null
+  const m = text?.match(/(\d+)월\s*(\d+)일/)
   if (!m) return ''
   return `${months[Number(m[1]) - 1]} ${m[2]}`
 })

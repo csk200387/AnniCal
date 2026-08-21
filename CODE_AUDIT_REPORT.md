@@ -48,6 +48,36 @@
 | F-22 | P3 | 캐시 효율 | 현재 확인 | 요청 시각 DTSTAMP 때문에 동일 데이터도 매번 다른 ICS |
 | F-23 | P3 | 빌드·운영 | 현재 확인 | Python 버전 미고정, 정적 산출 증가, 문서 수치 불일치 |
 
+## 수정 위치 빠른 찾기
+
+라인 번호는 기준 커밋 `34372dd` 기준이다. 한 항목에 여러 파일이 적힌 경우 첫 번째가 주 수정 지점이고, 나머지는 함께 맞춰야 하는 연동 지점이다.
+
+| ID | 수정이 필요한 파일과 줄 | 해당 위치에서 바꿀 내용 |
+|---|---|---|
+| F-01 | `tools/inspector/app.py:31-41`<br>`tools/inspector/app.py:128-149`<br>`tools/inspector/app.py:281-300`<br>`tools/inspector/data_io.py:29-51`<br>`tools/inspector/data_io.py:72-84` | `annual-tabulated`를 허용·검증하고 `observances.json` 기준 월을 계산한다. unknown type의 1월 폴백을 제거하고 전체 저장 전 invariant를 검사한다. |
+| F-02 | `api/calendar.ts:14-36` | GET/HEAD 제한, query allowlist·길이 제한·정규화, `Set` 필터, 405/400 처리, 결과 캐시와 ETag를 추가한다. |
+| F-03 | `src/utils/ics.ts:66-85`<br>`src/utils/ics.ts:87-138`<br>`src/utils/ics.ts:150-177` | 상대 날짜에 `RRULE:FREQ=YEARLY`를 쓰지 말고 연도별 `RDATE`를 생성한다. event 생성 오류를 조용히 누락하지 않도록 바꾼다. |
+| F-04 | `src/services/anniversaryRepository.ts:10-35`<br>`src/stores/anniversaries.ts:18-39`<br>`src/features/feed/composables/useTodayFeed.ts:11-28`<br>`src/features/calendar/composables/useMonthCalendar.ts:18-50`<br>`src/features/day/composables/useDayPages.ts:13-17`<br>`src/main.ts:9-14` | 화면별로 필요한 월/ID만 로드하고 월별 Promise를 캐시한다. 프리렌더 페이지는 hydrate하거나 데이터 준비 전 기존 본문을 보존한다. |
+| F-05 | `src/utils/anniversaryRoutes.ts:1-60`<br>`src/features/day/composables/useDayPages.ts:74-86`<br>`tools/prerender/routes.ts:37-57`<br>`src/seo/meta.ts:55-75`<br>`tools/prerender/plugin.ts:55-58` | 상세 canonical과 날짜 허브 membership을 분리하고, 허브·SEO에는 현재/선택 연도의 실제 occurrence를 사용한다. |
+| F-06 | `tools/inspector/app.py:136-149`<br>`tools/inspector/app.py:289-300`<br>`tools/inspector/app.py:346-375`<br>`src/utils/dateUtils.ts:63-79`<br>`src/utils/dateUtils.ts:112-127` | 저장·삭제 전에 anchor FK와 DAG를 검증하고 역참조 삭제를 차단한다. 런타임 재귀에도 visited/depth guard를 둔다. |
+| F-07 | `src/features/feed/composables/useTodayFeed.ts:18-28`<br>`src/features/feed/views/FeedView.vue:55-65`<br>`src/components/layout/AppHeader.vue:6-10`<br>`src/features/calendar/composables/useMonthCalendar.ts:20-22`<br>`src/features/calendar/composables/useMonthCalendar.ts:73-82`<br>`src/components/share/ShareCard.vue:24-45` | 공용 reactive clock을 만들고 KST 자정·`visibilitychange` 때 갱신한다. 모든 날짜 계산에 같은 `now`/timezone을 주입한다. |
+| F-08 | `package.json:13-30`<br>`package-lock.json:1447-1455`<br>`package-lock.json:1930-1946`<br>`package-lock.json:1996-2022`<br>`package-lock.json:2173-2192` | 미사용 `ics`를 제거하고 Vite, PostCSS, Nanoid, brace-expansion의 안전 버전으로 lockfile을 갱신한다. |
+| F-09 | `tools/prerender/plugin.ts:89-95`<br>`tools/prerender/plugin.ts:136-150`<br>`src/seo/meta.ts:59-114` | JSON-LD를 HTML-safe하게 직렬화해 `<`, `>`, `&`, U+2028/U+2029를 escape한다. |
+| F-10 | `src/utils/ics.ts:13-20`<br>`src/utils/ics.ts:66-85`<br>`src/utils/ics.ts:112-135`<br>`tools/inspector/app.py:277-327` | ID·RRULE·URL을 구조적으로 검증하고 CR/LF를 제거한다. Inspector 저장 전에도 URL과 제어문자를 검증한다. |
+| F-11 | `src/features/calendar-export/composables/useCalendarExport.ts:89-115`<br>`src/features/calendar-export/views/ExportView.vue:130-160`<br>`api/calendar.ts:18-27` | 0개 선택 시 구독 URL과 Copy/Google/Apple 액션을 비활성화하고, 빈 선택을 전체 선택과 구분한다. |
+| F-12 | `tools/inspector/app.py:128-149`<br>`tools/inspector/app.py:281-300`<br>`src/utils/dateUtils.ts:86-127`<br>`src/utils/anniversaryRoutes.ts:57-60`<br>`src/features/day/views/DateHubView.vue:17-28`<br>`tools/prerender/plugin.ts:72-79` | 정규식 외 실제 달력 날짜 round-trip 검증을 추가하고, 366일 ordinal 배열로 URL 검증과 윤일 이웃 계산을 수행한다. |
+| F-13 | `tools/slugs/generate_slugs.py:54-57`<br>`tools/slugs/generate_slugs.py:146-165`<br>`tools/slugs/generate_slugs.py:181-211`<br>`tools/prerender/routes.ts:45-53`<br>`tools/prerender/plugin.ts:35-37`<br>`tools/prerender/plugin.ts:136-154` | override를 포함한 최종 slug를 검증하고 URL을 escape한다. resolve된 출력 파일이 반드시 `outDir` 아래인지 확인한다. |
+| F-14 | `package.json:7-12`<br>`tsconfig.json:1-7`<br>`api/tsconfig.json:1-13`<br>`tools/prerender/routes.ts:37-65` | test·`type-check:api`·slug check 스크립트를 추가하고 API tsconfig를 정상화한다. dataset↔routes ID의 양방향 일치를 빌드 invariant로 만든다. |
+| F-15 | `src/stores/anniversaries.ts:18-36`<br>`src/features/day/composables/useDayPages.ts:60-87`<br>`src/features/day/views/DayDetailView.vue:17-45`<br>`src/features/day/views/DayDetailView.vue:59-64`<br>`src/features/day/views/DateHubView.vue:31-63`<br>`src/router/index.ts:21-86`<br>`vercel.json:1-5` | loading/error/empty/404를 분리하고 retry를 제공한다. invalid route에서 head를 reset·noindex 처리하고 catch-all 404를 추가한다. |
+| F-16 | `tools/inspector/data_io.py:72-84`<br>`tools/inspector/app.py:329-369`<br>`tools/inspector/app.py:445-462`<br>`tools/enrich/apply.py:47-60`<br>`tools/observances/add_entries.py:55-63` | 파일 lock·버전 확인·temp write·atomic replace·rollback을 공통 저장 유틸로 구현한다. |
+| F-17 | `src/components/layout/AppShell.vue:5-18`<br>`src/components/share/ShareModal.vue:4-30`<br>`src/components/share/ShareModal.vue:112-170`<br>`src/utils/ics.ts:27-45`<br>`src/utils/ics.ts:150-177`<br>`src/features/calendar-export/composables/useCalendarExport.ts:73-87` | ShareModal/`html-to-image`를 동적 import하고 폰트 warm-up을 지연한다. ICS folding 할당을 줄이고 브라우저 생성은 Worker/서버로 이동한다. |
+| F-18 | `src/stores/anniversaries.ts:12-13`<br>`src/features/calendar/composables/useMonthCalendar.ts:28-57`<br>`src/features/feed/composables/useTodayFeed.ts:18-27`<br>`src/features/day/composables/useDayPages.ts:39-57`<br>`src/utils/anniversaryRoutes.ts:46-50` | immutable 데이터는 shallow하게 보관하고 `byId`·`byDate`·`byCategory`·연도별 occurrence 색인을 만든다. |
+| F-19 | `src/utils/dateUtils.ts:20-50`<br>`src/utils/dateUtils.ts:124-126`<br>`src/features/calendar/composables/useMonthCalendar.ts:73-78` | 표 범위 밖의 silent clamp를 제거하고 오류/범위 UI를 제공한다. row별 연도 범위 invariant를 검사한다. |
+| F-20 | `src/features/calendar/composables/useMonthCalendar.ts:73-82` | 이전/다음 달 이동 때 `selectedDate`도 새 달의 같은 일 또는 1일로 갱신한다. |
+| F-21 | `vercel.json:1-5`<br>`src/utils/sourceUrl.ts:5-16`<br>`src/components/card/AnniversaryCard.vue:127-132`<br>`src/features/day/views/DayDetailView.vue:120-127`<br>`src/App.vue:3-10`<br>`index.html:70-75` | CSP·frame-ancestors·nosniff·referrer·permissions 정책을 추가한다. 외부 URL 정책과 `noreferrer`를 통일하고 분석/폰트 개인정보 경계를 문서화한다. |
+| F-22 | `src/utils/ics.ts:56-64`<br>`src/utils/ics.ts:112-118`<br>`src/utils/ics.ts:150-177`<br>`api/calendar.ts:29-35` | 요청 시각 대신 데이터/커밋 버전 기반의 결정적 DTSTAMP와 ETag/Last-Modified를 사용한다. |
+| F-23 | `tools/inspector/requirements.txt:1`<br>`README.md:3-4`<br>`vite.config.ts:10-11`<br>`tools/prerender/plugin.ts:105-155`<br>`tools/prerender/routes.ts:129-145`<br>`src/stores/userPreferences.ts:1-40` | Python과 Gradio를 lock하고 문서 건수를 갱신한다. 빌드 데이터 파싱을 memoize하고 사용하지 않는 store는 제거하거나 실제 기능에 연결한다. |
+
 ## 검증 및 측정 결과
 
 | 검사 | 결과 |
@@ -295,7 +325,7 @@ Vue 런타임 경로인 `src/seo/head.ts:60-68`은 `textContent`를 사용해 �
 
 우선순위: **P2 / 빌드 입력 오염 전제**
 
-`tools/slugs/generate_slugs.py:157-165`는 override 값을 `slugify`하지 않는다. `tools/prerender/routes.ts:45-53`은 route 값을 검증하지 않고, `tools/prerender/plugin.ts:152-154`는 이를 `join(outDir, path, 'index.html')`로 쓴다. `../../..`가 들어간 slug는 `dist` 밖으로 정규화되어 저장소 파일을 덮어쓸 수 있다. 따옴표가 든 값은 `plugin.ts:37,68,141,145`의 링크·canonical·OG 속성에도 삽입된다.
+`tools/slugs/generate_slugs.py:157-165`는 override 값을 `slugify`하지 않는다. `tools/prerender/routes.ts:45-53`은 route 값을 검증하지 않고, `tools/prerender/plugin.ts:152-154`는 이를 `join(outDir, path, 'index.html')`로 쓴다. `../../..`가 들어간 slug는 `dist` 밖으로 정규화되어 저장소 파일을 덮어쓸 수 있다. 따옴표가 든 값은 `tools/prerender/plugin.ts:37,68,141,145`의 링크·canonical·OG 속성에도 삽입된다.
 
 현재 `routes.json`은 모두 정상 패턴이지만 방어가 없다.
 
@@ -326,7 +356,7 @@ Vue 런타임 경로인 `src/seo/head.ts:60-68`은 `textContent`를 사용해 �
 
 우선순위: **P2 / 안정성·SEO**
 
-월 청크 하나가 실패하면 store는 error만 설정하고 `isLoaded=false`로 남는다(`src/stores/anniversaries.ts:18-35`). 상세는 `isLoading/error`를 렌더하지 않아 프리렌더 본문을 지운 뒤 빈 화면이 될 수 있다(`useDayPages.ts:60-63`, `DayDetailView.vue:17,59-64`). 허브는 실패를 정상 빈 목록으로 오인해 “등록된 기념일이 아직 없어요”를 표시한다.
+월 청크 하나가 실패하면 store는 error만 설정하고 `isLoaded=false`로 남는다(`src/stores/anniversaries.ts:18-35`). 상세는 `isLoading/error`를 렌더하지 않아 프리렌더 본문을 지운 뒤 빈 화면이 될 수 있다(`src/features/day/composables/useDayPages.ts:60-63`, `src/features/day/views/DayDetailView.vue:17,59-64`). 허브는 실패를 정상 빈 목록으로 오인해 “등록된 기념일이 아직 없어요”를 표시한다.
 
 또한 router의 dynamic head는 무조건 자동 갱신을 건너뛴다(`src/router/index.ts:81-86`). 유효 상세에서 잘못된 slug/date로 SPA 이동하면 body는 오류지만 이전 title·canonical·OG·JSON-LD가 남는다. catch-all route가 없고 Vercel이 SPA로 rewrite해 soft 404 200을 만든다.
 
@@ -354,9 +384,9 @@ Vue 런타임 경로인 `src/seo/head.ts:60-68`은 `textContent`를 사용해 �
 
 우선순위: **P2 / 번들·상호작용**
 
-`src/components/layout/AppShell.vue:5,18`이 `ShareModal`을 정적 import하고, `src/components/share/ShareModal.vue:4,8`이 `html-to-image`와 `ShareCard`를 정적 import한다. 공유하지 않는 사용자도 이 코드가 포함된 main 67.6KB gzip을 받는다. 모달을 열기만 해도 `ShareModal.vue:112-124`에서 웹폰트 embedding을 warm-up한다.
+`src/components/layout/AppShell.vue:5,18`이 `ShareModal`을 정적 import하고, `src/components/share/ShareModal.vue:4,8`이 `html-to-image`와 `ShareCard`를 정적 import한다. 공유하지 않는 사용자도 이 코드가 포함된 main 67.6KB gzip을 받는다. 모달을 열기만 해도 `src/components/share/ShareModal.vue:112-124`에서 웹폰트 embedding을 warm-up한다.
 
-`src/utils/ics.ts:27-45`는 줄마다 `TextEncoder`를 만들고 코드포인트마다 `encode(ch)` 배열을 할당한다. `:150-177`은 큰 lines 배열과 `map(foldLine)`, join으로 여러 문자열 복사본을 만든다. 전체 다운로드 클릭은 `useCalendarExport.ts:73-87`에서 동기 실행되어 로컬에서도 약 0.2초 메인 스레드를 막았다.
+`src/utils/ics.ts:27-45`는 줄마다 `TextEncoder`를 만들고 코드포인트마다 `encode(ch)` 배열을 할당한다. `src/utils/ics.ts:150-177`은 큰 lines 배열과 `map(foldLine)`, join으로 여러 문자열 복사본을 만든다. 전체 다운로드 클릭은 `src/features/calendar-export/composables/useCalendarExport.ts:73-87`에서 동기 실행되어 로컬에서도 약 0.2초 메인 스레드를 막았다.
 
 개선안:
 
@@ -371,7 +401,7 @@ Vue 런타임 경로인 `src/seo/head.ts:60-68`은 `textContent`를 사용해 �
 
 우선순위: **P2 / 데이터 증가 대비**
 
-`src/features/calendar/composables/useMonthCalendar.ts:28-56`은 42개 셀마다 1,343개 전체를 filter해 월당 56,406번 `occursOn`을 호출한다. 선택일도 다시 전수 검사한다. 피드(`useTodayFeed.ts:18-27`), 상세(`useDayPages.ts:39-57`), route 날짜 조회(`anniversaryRoutes.ts:46-50`)도 별도 전수 스캔을 반복한다. 데이터는 immutable에 가깝지만 `src/stores/anniversaries.ts:12-13`의 deep `ref`로 프록시된다.
+`src/features/calendar/composables/useMonthCalendar.ts:28-56`은 42개 셀마다 1,343개 전체를 filter해 월당 56,406번 `occursOn`을 호출한다. 선택일도 다시 전수 검사한다. 피드(`src/features/feed/composables/useTodayFeed.ts:18-27`), 상세(`src/features/day/composables/useDayPages.ts:39-57`), route 날짜 조회(`src/utils/anniversaryRoutes.ts:46-50`)도 별도 전수 스캔을 반복한다. 데이터는 immutable에 가깝지만 `src/stores/anniversaries.ts:12-13`의 deep `ref`로 프록시된다.
 
 현재 데스크톱 중앙값 약 13.7ms라 즉시 치명적이지는 않지만, 저사양 모바일이나 데이터 증가 시 월 전환이 한 프레임을 넘길 수 있다.
 

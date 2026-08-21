@@ -1,7 +1,7 @@
 # [기념일 만물상](https://annical.vercel.app/)
 
 세상의 다양하고 흥미로운 기념일을 매일 큐레이션 해주는 웹앱.
-전 세계 1,291개 기념일을 13개 카테고리로 분류해 피드·달력·캘린더 연동으로 제공한다.
+전 세계 1,400개 기념일을 13개 카테고리로 분류해 피드·달력·캘린더 연동으로 제공한다.
 
 ## 주요 기능
 
@@ -47,7 +47,7 @@ src/
 │   ├── calendar/            #   월간 달력 + 검색
 │   └── calendar-export/     #   .ics 다운로드 + 구독 URL
 ├── data/                    # 정적 JSON DB
-│   ├── anniversaries/       #   01.json … 12.json (월별 분할, 총 1,291건)
+│   ├── anniversaries/       #   01.json … 12.json (월별 분할, 총 1,400건)
 │   └── categories.json      #   13개 카테고리 정의
 ├── services/                # 데이터 추상화 (Repository 패턴)
 ├── stores/                  # Pinia 전역 상태

@@ -71,6 +71,14 @@ const router = createRouter({
       component: () => import('@/features/day/views/DayDetailView.vue'),
       meta: { dynamicHead: true },
     },
+    {
+      // Vercel 이 모든 경로를 index.html 로 rewrite 하므로, 매칭되는 라우트가
+      // 없으면 빈 화면이 됐다. 명시적 404 페이지로 받는다.
+      path: '/:pathMatch(.*)*',
+      name: 'not-found',
+      component: () => import('@/features/notfound/views/NotFoundView.vue'),
+      meta: { dynamicHead: true },
+    },
   ],
   // 상세 → 목록 이동 시 이전 스크롤 위치가 남지 않도록.
   scrollBehavior(_to, _from, saved) {

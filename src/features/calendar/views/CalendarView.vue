@@ -19,6 +19,10 @@ const {
   searchResults,
   isLoading,
   error,
+  retry,
+  canGoPrev,
+  canGoNext,
+  outOfRangeNotice,
   goPrevMonth,
   goNextMonth,
   goToday,
@@ -48,7 +52,8 @@ function goToAnniversary(anv: Anniversary) {
   closeSearch()
 }
 function resultDate(anv: Anniversary): string {
-  return formatKoreanMonthDay(anv, cursor.value.year())
+  // 음력·절기는 표에 없는 연도면 날짜를 알 수 없다. 그럴 땐 비워 둔다.
+  return formatKoreanMonthDay(anv, cursor.value.year()) ?? ''
 }
 
 function onDocPointerDown(e: PointerEvent) {
@@ -69,9 +74,9 @@ const selectedHumanDate = computed(() => {
 })
 
 function handleShare(anv: Anniversary) {
-  // 오늘이거나 이미 지난 일이면 D-day 표기는 생략.
+  // 오늘이거나 이미 지난 일, 계산 불가면 D-day 표기는 생략.
   const d = daysUntil(anv)
-  shareStore.open(anv, d > 0 ? d : undefined)
+  shareStore.open(anv, d !== null && d > 0 ? d : undefined)
 }
 </script>
 
@@ -90,8 +95,9 @@ function handleShare(anv: Anniversary) {
         <div class="flex items-center gap-1.5">
           <button
             type="button"
-            class="grid h-9 w-9 place-items-center border border-rule font-display text-base text-ink-500 transition hover:border-ink-800 hover:text-ink-900"
+            class="grid h-9 w-9 place-items-center border border-rule font-display text-base text-ink-500 transition hover:border-ink-800 hover:text-ink-900 disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:border-rule disabled:hover:text-ink-500"
             aria-label="이전 달"
+            :disabled="!canGoPrev"
             @click="goPrevMonth"
           >
             ‹
@@ -105,14 +111,28 @@ function handleShare(anv: Anniversary) {
           </button>
           <button
             type="button"
-            class="grid h-9 w-9 place-items-center border border-rule font-display text-base text-ink-500 transition hover:border-ink-800 hover:text-ink-900"
+            class="grid h-9 w-9 place-items-center border border-rule font-display text-base text-ink-500 transition hover:border-ink-800 hover:text-ink-900 disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:border-rule disabled:hover:text-ink-500"
             aria-label="다음 달"
+            :disabled="!canGoNext"
             @click="goNextMonth"
           >
             ›
           </button>
         </div>
       </div>
+
+      <!-- 음력·절기는 표에 있는 연도만 답할 수 있다. 그 밖으로 나가면 알린다. -->
+      <p v-if="outOfRangeNotice" class="mt-3 text-[0.8rem] text-ink-400">
+        {{ outOfRangeNotice }}
+      </p>
+
+      <!-- 불러오기 실패를 "기념일 없는 달"로 보이게 두지 않는다. -->
+      <p v-if="error" class="mt-3 text-[0.8rem] text-ink-500">
+        기념일을 불러오지 못했어요.
+        <button type="button" class="underline underline-offset-4 hover:text-ink-800" @click="retry">
+          다시 시도
+        </button>
+      </p>
     </header>
 
     <p v-if="isLoading" class="eyebrow">Loading…</p>

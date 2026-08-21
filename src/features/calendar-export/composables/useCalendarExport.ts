@@ -88,26 +88,38 @@ export function useCalendarExport() {
 
   // ─── 구독 피드 URL (살아있는 URL) ─────────────────────────────
   // 전체 선택이면 깔끔한 기본 URL, 일부만 선택이면 ?categories= 쿼리 부착.
-  const categoryQuery = computed(() => {
-    if (allSelected.value || selected.value.size === 0) return ''
+  //
+  // 0개 선택은 전체 선택과 반드시 구분해야 한다. 예전에는 둘 다 빈 쿼리를 내보냈고,
+  // 파라미터가 없는 요청을 API 가 "전체"로 해석해서 — 카테고리를 모두 해제한
+  // 사용자가 1,400건 전체를 구독하게 됐다. 이제 0개면 URL 자체를 만들지 않는다.
+  const hasSelection = computed(() => selected.value.size > 0)
+
+  const feedHttpUrl = computed<string | null>(() => {
+    if (!hasSelection.value) return null
+    if (allSelected.value) return `${SITE_URL}/api/calendar`
     const ids = categoryOptions.value
       .filter((o) => selected.value.has(o.id))
       .map((o) => o.id)
-    return `?categories=${ids.join(',')}`
+    return `${SITE_URL}/api/calendar?categories=${ids.join(',')}`
   })
-  const feedHttpUrl = computed(() => `${SITE_URL}/api/calendar${categoryQuery.value}`)
-  const feedWebcalUrl = computed(() =>
-    feedHttpUrl.value.replace(/^https?:\/\//, 'webcal://'),
+
+  const feedWebcalUrl = computed<string | null>(() =>
+    feedHttpUrl.value ? feedHttpUrl.value.replace(/^https?:\/\//, 'webcal://') : null,
   )
+
   // 구글 캘린더 "URL로 추가" 진입점.
-  const googleAddUrl = computed(
-    () => `https://calendar.google.com/calendar/r?cid=${encodeURIComponent(feedWebcalUrl.value)}`,
+  const googleAddUrl = computed<string | null>(() =>
+    feedWebcalUrl.value
+      ? `https://calendar.google.com/calendar/r?cid=${encodeURIComponent(feedWebcalUrl.value)}`
+      : null,
   )
 
   const copied = ref(false)
   async function copyFeedUrl(): Promise<void> {
+    const url = feedWebcalUrl.value
+    if (!url) return
     try {
-      await navigator.clipboard.writeText(feedWebcalUrl.value)
+      await navigator.clipboard.writeText(url)
       copied.value = true
       setTimeout(() => (copied.value = false), 2000)
     } catch {
@@ -124,6 +136,7 @@ export function useCalendarExport() {
     selectAll,
     selectNone,
     allSelected,
+    hasSelection,
     selectedCount,
     downloadIcs,
     feedWebcalUrl,

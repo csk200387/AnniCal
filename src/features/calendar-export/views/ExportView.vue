@@ -9,6 +9,7 @@ const {
   toggle,
   selectAll,
   selectNone,
+  hasSelection,
   selectedCount,
   downloadIcs,
   feedWebcalUrl,
@@ -129,37 +130,48 @@ const {
 
           <div class="mt-5 flex items-stretch gap-2">
             <input
-              :value="feedWebcalUrl"
+              :value="feedWebcalUrl ?? ''"
               readonly
-              class="min-w-0 flex-1 border hairline bg-paper-100 px-3 py-2 font-sans text-xs text-ink-600 focus:border-ink-800 focus:outline-none"
+              :placeholder="hasSelection ? '' : '카테고리를 선택하세요'"
+              class="min-w-0 flex-1 border hairline bg-paper-100 px-3 py-2 font-sans text-xs text-ink-600 focus:border-ink-800 focus:outline-none disabled:opacity-40"
               aria-label="구독 URL"
+              :disabled="!hasSelection"
               @focus="(e) => (e.target as HTMLInputElement).select()"
             />
             <button
               type="button"
-              class="shrink-0 border border-ink-800 px-3.5 text-[0.68rem] font-medium uppercase tracking-[0.18em] text-ink-800 transition hover:bg-ink-900 hover:text-paper-50"
+              class="shrink-0 border border-ink-800 px-3.5 text-[0.68rem] font-medium uppercase tracking-[0.18em] text-ink-800 transition hover:bg-ink-900 hover:text-paper-50 disabled:opacity-40 disabled:hover:bg-transparent disabled:hover:text-ink-800"
+              :disabled="!hasSelection"
               @click="copyFeedUrl"
             >
               {{ copied ? '복사됨' : 'Copy' }}
             </button>
           </div>
 
-          <div class="mt-3 flex flex-wrap gap-x-5 gap-y-1.5 text-[0.7rem] uppercase tracking-[0.18em]">
+          <!-- 0개 선택이면 링크를 아예 렌더하지 않는다. 링크가 살아 있으면
+               "아무것도 선택 안 함"이 전체 구독으로 둔갑한다. -->
+          <div
+            v-if="hasSelection"
+            class="mt-3 flex flex-wrap gap-x-5 gap-y-1.5 text-[0.7rem] uppercase tracking-[0.18em]"
+          >
             <a
-              :href="googleAddUrl"
+              :href="googleAddUrl!"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               class="inline-flex items-center gap-1 text-ink-500 transition hover:text-accent-600"
             >
               Google 캘린더 <span aria-hidden="true">→</span>
             </a>
             <a
-              :href="feedWebcalUrl"
+              :href="feedWebcalUrl!"
               class="inline-flex items-center gap-1 text-ink-500 transition hover:text-accent-600"
             >
               Apple · 기타 <span aria-hidden="true">→</span>
             </a>
           </div>
+          <p v-else class="mt-3 text-[0.7rem] text-ink-400">
+            카테고리를 하나 이상 선택하면 구독 링크가 만들어져요.
+          </p>
 
           <p class="mt-4 text-[0.7rem] leading-relaxed text-ink-400">
             ※ 구독 피드는 배포된 사이트에서 동작합니다.
