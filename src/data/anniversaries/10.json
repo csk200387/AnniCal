@@ -60,6 +60,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-homemade-cookies-day-october-1/"
   },
   {
+    "id": "anv-fixed-10-01-glasses-day-jp",
+    "date": "10-01",
+    "dateType": "annual-fixed",
+    "name": "안경의 날 (メガネの日)",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "10월 1일을 네 자리 숫자 1001로 적으면 양 끝의 1이 안경다리, 가운데 00이 렌즈 두 장처럼 보인다. 일본안경관련단체협의회가 1997년 이 모양에서 착안해 정했다.",
+      "anecdote": "어감이 아니라 숫자 생김새에서 온 드문 사례다. 빼빼로데이가 1을 막대로 본 것과 발상이 같다. 일본 안경 산지로는 후쿠이현 사바에가 유명해, 세계 티타늄 안경테의 상당수를 만든다. 사바에가 안경 산지가 된 것은 눈이 많아 농사를 못 짓는 겨울에 할 일을 찾다가 시작된 부업이었다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "1001. 정말 안경처럼 보인다."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/110016.html"
+  },
+  {
     "id": "anv-fixed-10-02-fried-scallops-day-us",
     "date": "10-02",
     "dateType": "annual-fixed",
@@ -184,6 +206,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-manufacturing-day-october-2/"
+  },
+  {
+    "id": "anv-fixed-10-02-tofu-day-jp",
+    "date": "10-02",
+    "dateType": "annual-fixed",
+    "name": "두부의 날 (豆腐の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본어로 10을 '토', 2를 '후'로 읽어 '토후(豆腐)'가 되는 어감에서 왔다. 일본두부협회가 1993년 정했고, 매달 12일도 함께 두부의 날로 지킨다.",
+      "anecdote": "두부는 중국에서 한반도를 거쳐 일본으로 건너갔다. 일본 두부는 물러서 그대로 떠먹는 히야얏코가 흔하고, 한국 두부는 단단해 부치거나 찌개에 넣는 쪽으로 갈렸다. 두부를 만들 때 나오는 비지도 버리지 않고 요리에 쓰는 점은 두 나라가 같다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "같은 콩인데 나라마다 굳기가 다르다."
+      }
+    ],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-10-03-national-foundation-day-kr",
@@ -724,6 +768,28 @@
     "sourceUrl": "https://www.who.int/campaigns/world-mental-health-day"
   },
   {
+    "id": "anv-fixed-10-10-public-bath-day-jp",
+    "date": "10-10",
+    "dateType": "annual-fixed",
+    "name": "센토의 날 (銭湯の日)",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "1010을 '센토(せんとう)'로 읽는 어감에서 왔다. 1964년 도쿄올림픽 개막일이기도 해, 운동한 뒤 목욕한다는 뜻을 겹쳤다. 도쿄 고토구 공중목욕탕 조합이 1991년 정했다.",
+      "anecdote": "센토는 집에 욕실이 없던 시절의 생활 시설이었다가 지금은 문화 공간에 가까워졌다. 벽에 후지산을 그리는 관습이 유명한데, 물이 넓어 보이게 하려는 것이었다. 한국 목욕탕·찜질방과 닮은 자리다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "벽에 후지산이 없으면 센토 같지 않다."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/110104.html"
+  },
+  {
     "id": "anv-fixed-10-11-clergy-appreciation-day-global",
     "date": "10-11",
     "dateType": "annual-fixed",
@@ -942,6 +1008,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-yorkshire-pudding-day-october-13/"
+  },
+  {
+    "id": "anv-fixed-10-13-sweet-potato-day-jp",
+    "date": "10-13",
+    "dateType": "annual-fixed",
+    "name": "고구마의 날 (さつまいもの日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "고구마를 두고 '밤(9리)보다(4리) 맛있다'는 말장난이 있었다. 9와 4를 더한 13에서 '십삼리(十三里)'라는 별명이 생겼고, 사이타마 가와고에의 고구마 모임이 1987년 10월 13일로 정했다.",
+      "anecdote": "에도 니혼바시에서 가와고에까지가 약 13리(51km)라 붙었다는 설도 함께 전해진다. 어느 쪽이든 말장난이 두 겹으로 얽힌 셈이다. 가와고에는 지금도 고구마 과자로 유명한 관광지다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "밤보다 맛있다는 자부심이 이름이 됐다."
+      }
+    ],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-10-14-stop-bullying-day-us",
@@ -1310,6 +1398,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-cake-decorating-day-october-15/"
+  },
+  {
+    "id": "anv-fixed-10-15-mushroom-day-jp",
+    "date": "10-15",
+    "dateType": "annual-fixed",
+    "name": "버섯의 날 (きのこの日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본특용임산진흥회가 1995년 정했다. 10월이 버섯 수요가 가장 높은 달이라, 그 한가운데인 15일로 잡았다. 어감이 아니라 계절에서 온 단순한 이유다.",
+      "anecdote": "마쓰타케 철과 겹쳐 일본에서는 이맘때 송이밥과 버섯 전골이 오른다. 송이는 인공 재배가 아직 안 되는 몇 안 되는 버섯이라 값이 비싸고, 한국 양양·봉화 송이도 같은 이유로 귀하다. 표고는 반대로 재배가 잘돼, 일본에서 개발된 원목 재배법이 한국에도 그대로 들어왔다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "송이는 아직도 사람이 못 키운다."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/110153.html"
   },
   {
     "id": "anv-fixed-10-16-feral-cat-day-us",
@@ -2366,6 +2476,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-american-beer-day-october-27/"
   },
   {
+    "id": "anv-fixed-10-27-reading-day-jp",
+    "date": "10-27",
+    "dateType": "annual-fixed",
+    "name": "독서의 날 (読書の日)",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "1947년 종전 직후 '독서의 힘으로 평화로운 문화국가를 만들자'는 취지로 독서주간이 시작됐다. 이듬해부터 10월 27일~11월 9일 2주간으로 늘었고, 그 첫날이 독서의 날이 됐다.",
+      "anecdote": "패전 2년 만에, 물자도 종이도 부족하던 때에 출판사와 서점과 도서관이 함께 시작했다는 점이 남다르다. 한국은 9월을 독서의 달로 지킨다. 해마다 표어와 포스터를 공모하는데, 이 포스터가 도서관 풍경의 일부가 된 지 오래다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "종이도 없던 시절에 시작한 독서 운동."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/110272.html"
+  },
+  {
     "id": "gov-49",
     "date": "10-28",
     "dateType": "annual-fixed",
@@ -2824,5 +2956,27 @@
     },
     "memes": [],
     "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-10-31-japanese-tea-day-jp",
+    "date": "10-31",
+    "dateType": "annual-fixed",
+    "name": "일본차의 날 (日本茶の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "1191년 10월 31일 임제종을 연 승려 에이사이가 중국에서 차 씨앗을 들여왔다고 전해진다. 이를 기려 전국차상조합연합회가 2005년 정했다.",
+      "anecdote": "에이사이는 차를 약으로 소개한 「끽다양생기」를 썼고, 이것이 일본 차 문화의 출발점이 됐다. 10월 1일에도 같은 이름의 기념일이 따로 있어 일본에서도 헷갈려하는 날이다. 녹차와 홍차는 같은 찻잎으로 만들며, 발효를 시키느냐 마느냐가 둘을 가른다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "차를 약이라고 소개한 게 시작이었다."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/110314.html"
   }
 ]

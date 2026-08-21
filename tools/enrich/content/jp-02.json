@@ -1,0 +1,729 @@
+{
+  "_note": "일본 기념일 2차 (6~12월 33건).",
+  "photo": {
+    "id": "anv-fixed-06-01-photography-day-jp",
+    "date": "06-01",
+    "dateType": "annual-fixed",
+    "name": "사진의 날 (写真の日)",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "일본사진협회가 1951년 정했다. 1841년 6월 1일 나가사키 상인 우에노 슌노조가 네덜란드에서 들어온 사진기로 사쓰마 번주 시마즈 나리아키라를 찍은 것이 일본 최초의 사진이라 여겨졌기 때문이다.",
+      "anecdote": "그런데 이 유래는 나중에 틀린 것으로 밝혀졌다. 실제 촬영은 1857년이었다. 사실이 정정된 뒤에도 날짜는 그대로 남아, 기념일이 한번 정해지면 관성으로 굴러간다는 것을 보여주는 사례가 됐다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "유래가 틀린 게 밝혀졌는데도 안 바뀐 날."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "mugicha": {
+    "id": "anv-fixed-06-01-barley-tea-day-jp",
+    "date": "06-01",
+    "dateType": "annual-fixed",
+    "name": "보리차의 날 (麦茶の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "전국보리차공업협동조합이 1986년 정했다. 6월이 원료인 보리를 거두는 때이자 보리차 계절이 시작되는 달이라 그 첫날로 잡았다.",
+      "anecdote": "보리차는 찻잎이 아니라 볶은 보리를 우린 것이라 카페인이 없다. 그래서 아이도 마실 수 있는 여름 음료로 자리 잡았다. 한국에서도 오랫동안 끓여서 식힌 보리차가 물 대신이었다. 볶는 과정에서 생기는 향 성분이 갈증을 덜어 준다고 알려져, 여름 스포츠 현장에서도 많이 쓰인다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "냉장고에 늘 있던 그 노란 주전자."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/106016.html"
+  },
+  "gum": {
+    "id": "anv-fixed-06-01-chewing-gum-day-jp",
+    "date": "06-01",
+    "dateType": "annual-fixed",
+    "name": "추잉껌의 날 (チューインガムの日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본추잉껌협회가 1994년 정했다. 헤이안 시대에 정월 초하루와 6월 1일에 딱딱한 것을 씹으며 건강과 장수를 빌던 '하가타메(歯固め)' 풍습에서 날짜를 가져왔다.",
+      "anecdote": "천 년 전 풍습을 현대 상품에 갖다 붙인 발상이 재미있다. 껌의 원료였던 치클은 중앙아메리카 사포딜라 나무의 수액으로, 마야인이 이미 씹던 것이었다. 씹는 행위가 집중력과 스트레스에 영향을 준다는 연구가 이어져, 수험생과 운동선수가 즐겨 찾는다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "헤이안 귀족과 현대인의 공통점: 뭔가를 씹는다."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/10601b.html"
+  },
+  "ume": {
+    "id": "anv-fixed-06-06-plum-day-jp",
+    "date": "06-06",
+    "dateType": "annual-fixed",
+    "name": "매화의 날 (梅の日)",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "1545년 6월 6일 교토 가모신사의 아오이마츠리에서 고나라 천황에게 매실이 헌상됐다는 고사에서 왔다. 와카야마의 기슈우메회가 2006년 정했다.",
+      "anecdote": "당시 큰 가뭄이 들자 천황이 신사에서 비를 빌었고 매실을 바쳤더니 비가 내렸다는 이야기가 전해진다. 와카야마현 미나베초는 지금도 일본 최대 매실 산지다. 매실은 날로 먹으면 독성이 있어 반드시 절이거나 담가서 먹어야 한다는 점도 한국과 같다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "매실 바쳤더니 비가 왔다는 전설."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/106066.html"
+  },
+  "koibito": {
+    "id": "anv-fixed-06-12-lovers-day-jp",
+    "date": "06-12",
+    "dateType": "annual-fixed",
+    "name": "애인의 날 (恋人の日)",
+    "category": "romance",
+    "tags": [
+      "연애 & 기념일"
+    ],
+    "storytelling": {
+      "origin": "브라질 상파울루에서 성 안토니오 기일 전날인 6월 12일에 사진액자를 주고받는 풍습을 들여온 날이다. 전국액자조합연합회가 1988년 정했다.",
+      "anecdote": "액자 파는 조합이 만든 기념일이라는 점이 노골적이다. 성 안토니오는 잃어버린 물건과 인연을 찾아 준다는 성인이라, 브라질에서는 연인을 만나게 해 주는 존재로 여겨진다. 브라질에서는 2월 밸런타인데이 대신 6월 12일을 연인의 날로 지켜, 남반구 계절과 성인 축일에 맞춘 셈이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "액자조합의 기획력에 박수를."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/106121.html"
+  },
+  "diary": {
+    "id": "anv-fixed-06-12-diary-day-jp",
+    "date": "06-12",
+    "dateType": "annual-fixed",
+    "name": "일기의 날 (日記の日)",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "1942년 6월 12일 안네 프랑크가 열세 살 생일에 아버지에게 일기장을 선물받아 일기를 쓰기 시작했다. 기록을 남기는 일의 무게를 되새기자는 뜻으로 지켜진다.",
+      "anecdote": "안네는 일기장에 '키티'라는 이름을 붙이고 친구에게 편지 쓰듯 적었다. 은신처에 숨은 지 2년 만에 발각돼 수용소에서 세상을 떠났고, 살아남은 아버지가 그 일기를 책으로 냈다. 이 일기는 70개 넘는 언어로 번역돼 전쟁 기록 가운데 가장 널리 읽힌 개인의 목소리가 됐다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "일기장에 이름을 붙이면 친구가 된다."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "chirashi": {
+    "id": "anv-fixed-06-27-chirashizushi-day-jp",
+    "date": "06-27",
+    "dateType": "annual-fixed",
+    "name": "치라시즈시의 날 (ちらし寿司の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "1654년 비젠(지금의 오카야마)에 큰 홍수가 들자 번주 이케다 미쓰마사가 '국 하나 반찬 하나'만 먹으라는 검약령을 내렸다. 백성들이 밥에 이것저것 섞어 한 그릇처럼 만든 것이 치라시즈시의 원형이다.",
+      "anecdote": "날짜는 미쓰마사의 기일에서 왔다. 식품회사 아지칸이 2004년 정했다. 규제를 피하려던 꾀가 향토음식이 된 셈으로, 오카야마에서는 지금도 이를 '바라즈시'라 부른다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "반찬 하나만 먹으라니까 밥에 다 섞어버린 조상들."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/106273.html"
+  },
+  "hiyashi": {
+    "id": "anv-fixed-07-07-hiyashi-chuka-day-jp",
+    "date": "07-07",
+    "dateType": "annual-fixed",
+    "name": "냉중화면의 날 (冷やし中華の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "7월 7일이 24절기의 소서(小暑)에 드는 해가 많아, 더위가 본격적으로 시작되는 무렵이라는 이유로 정했다. 1995년 애호가 모임이 만든 기념일이다.",
+      "anecdote": "절기에서 날짜를 끌어온 드문 사례로, 우리 삼복과 발상이 같다. 이름에 '중화'가 붙었지만 중국에는 없는 일본 요리다. 여름이면 가게 앞에 '냉중화 시작했습니다' 벽보가 붙는다. 센다이의 한 중화요릿집이 1937년 여름 손님이 끊기자 궁리 끝에 내놓은 것이 시초라는 이야기가 전해진다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "'냉중화 시작했습니다'가 곧 여름 개시 신호."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/107079.html"
+  },
+  "natto": {
+    "id": "anv-fixed-07-10-natto-day-jp",
+    "date": "07-10",
+    "dateType": "annual-fixed",
+    "name": "낫토의 날 (納豆の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본어로 7을 '나', 10을 '토'로 읽어 '낫토(納豆)'가 되는 어감에서 왔다. 간사이낫토공업협동조합이 1992년 전국 기념일로 정했다.",
+      "anecdote": "간사이는 원래 낫토를 잘 먹지 않는 지역이다. 안 먹는 쪽이 소비를 늘리려 먼저 기념일을 만든 셈이다. 한국 청국장과 같은 콩 발효식품이지만, 끓이지 않고 그대로 먹는 점이 다르다. 낫토를 젓는 횟수를 두고 논쟁이 있을 만큼 먹는 방식에 고집이 세, 400번을 저어야 한다는 주장도 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "안 먹는 지역이 만든 기념일이라는 반전."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/107101.html"
+  },
+  "burger": {
+    "id": "anv-fixed-07-20-hamburger-day-jp",
+    "date": "07-20",
+    "dateType": "annual-fixed",
+    "name": "햄버거의 날 (ハンバーガーの日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "1971년 7월 20일 도쿄 긴자 미쓰코시 백화점 1층에 일본 맥도날드 1호점이 문을 열었다. 개점 25주년이던 1996년 일본 맥도날드가 기념일로 정했다.",
+      "anecdote": "백화점 1층이라는 자리를 두고 당시 논란이 있었지만, 첫날 매출이 100만 엔을 넘겨 화제가 됐다. 한국 1호점은 1988년 압구정으로 17년 늦었다. 당시 값은 80엔이었는데, 지금 물가로 환산하면 결코 싸지 않은 외식이었다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "백화점 1층에 햄버거 가게라니, 당시엔 사건이었다."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/107203.html"
+  },
+  "umeboshi": {
+    "id": "anv-fixed-07-30-umeboshi-day-jp",
+    "date": "07-30",
+    "dateType": "annual-fixed",
+    "name": "우메보시의 날 (梅干の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "이 무렵 그해 담근 우메보시가 나온다. '우메보시를 먹으면 재난이 사라진다'는 옛말에서 일본어로 7·3·0을 '난가사루(난이 사라진다)'로 읽는 어감을 만들어 날짜를 잡았다.",
+      "anecdote": "우메보시는 매실을 소금에 절였다가 볕에 말린 것으로, 한국 매실장아찌와는 만드는 법도 맛도 다르다. 신맛과 짠맛이 강해 도시락 밥 한가운데 하나만 박아 넣는 '히노마루 도시락'이 유명하다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "밥 한가운데 빨간 점 하나. 그게 도시락이었다."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/107302.html"
+  },
+  "honey": {
+    "id": "anv-fixed-08-03-honey-day-jp",
+    "date": "08-03",
+    "dateType": "annual-fixed",
+    "name": "벌꿀의 날 (はちみつの日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본어로 8을 '하치', 3을 '미츠'로 읽어 '하치미츠(벌꿀)'가 되는 어감에서 왔다. 전일본벌꿀협동조합과 일본양봉꿀협회가 1985년 정했다.",
+      "anecdote": "숫자를 뒤집은 3월 8일은 '꿀벌의 날'로 따로 있다. 꿀은 수분이 적고 산성이라 상하지 않아, 3천 년 전 이집트 무덤에서 나온 꿀도 먹을 수 있는 상태였다는 이야기가 전해진다. 벌 한 마리가 평생 모으는 꿀은 티스푼 한 술도 되지 않아, 한 병을 채우려면 수만 번의 비행이 필요하다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "유통기한이 사실상 없는 유일한 식품."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "banana": {
+    "id": "anv-fixed-08-07-banana-day-jp",
+    "date": "08-07",
+    "dateType": "annual-fixed",
+    "name": "바나나의 날 (バナナの日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본어로 8을 '바', 7을 '나나'로 읽어 '바나나'가 되는 어감에서 왔다. 일본바나나수입조합이 2001년 정했다. 더운 시기에 간편하게 먹는 과일로 밀자는 취지였다.",
+      "anecdote": "우리가 먹는 바나나는 씨가 없어 접붙이기로만 번식하는 단일 품종이라, 병이 돌면 한꺼번에 무너진다. 실제로 20세기 중반 그로미셸 품종이 곰팡이병으로 사라지고 지금의 캐번디시로 바뀌었다. 일본과 한국 모두 바나나 수입의 대부분을 필리핀에 기대고 있다는 점도 닮았다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "지금 먹는 바나나는 2대째다."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "mosquito": {
+    "id": "anv-fixed-08-20-mosquito-day-global",
+    "date": "08-20",
+    "dateType": "annual-fixed",
+    "name": "세계 모기의 날 (World Mosquito Day)",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "1897년 8월 20일 영국 세균학자 로널드 로스가 학질모기 몸속에서 말라리아 원충을 찾아냈다. 모기가 말라리아를 옮긴다는 사실이 밝혀진 날로, 그는 이 공로로 노벨생리의학상을 받았다.",
+      "anecdote": "모기는 사람을 가장 많이 죽이는 동물로 꼽힌다. 말라리아만으로 해마다 수십만 명이 목숨을 잃는다. 한국에도 삼일열말라리아가 남아 있어 경기 북부와 강원 접경지에서 매년 환자가 나온다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "지구에서 사람을 가장 많이 죽이는 동물."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/108203.html"
+  },
+  "yakiniku": {
+    "id": "anv-fixed-08-29-yakiniku-day-jp",
+    "date": "08-29",
+    "dateType": "annual-fixed",
+    "name": "야키니쿠의 날 (焼き肉の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본어로 8·2·9를 '야키니쿠(焼き肉)'로 읽는 어감에서 왔다. 전국야키니쿠협회가 1993년 정했다. 여름 끝자락의 더위를 고기로 이겨내자는 취지다.",
+      "anecdote": "야키니쿠는 재일한국인이 퍼뜨린 음식이다. 고기를 부위별로 나눠 굽고 양념장에 찍어 먹는 방식이 한국식 불고기·갈비에서 왔고, '호르몬'이라 부르는 내장 구이도 같은 뿌리다. 무연 로스터가 보급되며 옷에 냄새가 배지 않게 된 뒤 야키니쿠집이 크게 늘었다는 이야기도 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "이름은 일본어, 뿌리는 한국."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/108292.html"
+  },
+  "yasai": {
+    "id": "anv-fixed-08-31-vegetable-day-jp",
+    "date": "08-31",
+    "dateType": "annual-fixed",
+    "name": "야채의 날 (野菜の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본어로 8·3·1을 '야사이(野菜)'로 읽는 어감에서 왔다. 전국청과물상업협동조합연합회를 비롯한 9개 단체가 1983년 함께 정했다.",
+      "anecdote": "아홉 단체가 손잡고 만든 드문 사례다. 세계보건기구는 하루 채소·과일 400g 이상을 권하는데, 한국과 일본 모두 젊은 층에서 이 기준에 못 미친다는 조사가 해마다 나온다. 8월 말은 여름 채소가 끝나고 가을 채소로 넘어가는 길목이라, 계절상으로도 채소를 돌아보기 좋은 때다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "샐러드 사놓고 시들려 버린 적 있으면 손."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/108311.html"
+  },
+  "onsen": {
+    "id": "anv-fixed-09-09-hot-spring-day-jp",
+    "date": "09-09",
+    "dateType": "annual-fixed",
+    "name": "온천의 날 (温泉の日)",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "오이타현 고코노에초가 정한 지역 기념일이다. 마을 이름 '고코노에(九重)'와 온천 아홉 곳을 뜻하는 '규토(九湯)'를 9월 9일 숫자에 맞춘 어감에서 왔다.",
+      "anecdote": "전국구가 아니라 한 마을에서 시작한 날이라는 점이 특징이다. 해마다 이날 '고코노에 규토 마츠리'가 열린다. 일본에는 화산 덕에 등록된 온천지만 3천 곳이 넘는다. 일본에서 온천으로 인정받으려면 수온이나 성분이 법으로 정한 기준을 넘어야 한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "마을 이름까지 숫자에 맞춘 집념."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/109097.html"
+  },
+  "glasses": {
+    "id": "anv-fixed-10-01-glasses-day-jp",
+    "date": "10-01",
+    "dateType": "annual-fixed",
+    "name": "안경의 날 (メガネの日)",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "10월 1일을 네 자리 숫자 1001로 적으면 양 끝의 1이 안경다리, 가운데 00이 렌즈 두 장처럼 보인다. 일본안경관련단체협의회가 1997년 이 모양에서 착안해 정했다.",
+      "anecdote": "어감이 아니라 숫자 생김새에서 온 드문 사례다. 빼빼로데이가 1을 막대로 본 것과 발상이 같다. 일본 안경 산지로는 후쿠이현 사바에가 유명해, 세계 티타늄 안경테의 상당수를 만든다. 사바에가 안경 산지가 된 것은 눈이 많아 농사를 못 짓는 겨울에 할 일을 찾다가 시작된 부업이었다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "1001. 정말 안경처럼 보인다."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/110016.html"
+  },
+  "tofu": {
+    "id": "anv-fixed-10-02-tofu-day-jp",
+    "date": "10-02",
+    "dateType": "annual-fixed",
+    "name": "두부의 날 (豆腐の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본어로 10을 '토', 2를 '후'로 읽어 '토후(豆腐)'가 되는 어감에서 왔다. 일본두부협회가 1993년 정했고, 매달 12일도 함께 두부의 날로 지킨다.",
+      "anecdote": "두부는 중국에서 한반도를 거쳐 일본으로 건너갔다. 일본 두부는 물러서 그대로 떠먹는 히야얏코가 흔하고, 한국 두부는 단단해 부치거나 찌개에 넣는 쪽으로 갈렸다. 두부를 만들 때 나오는 비지도 버리지 않고 요리에 쓰는 점은 두 나라가 같다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "같은 콩인데 나라마다 굳기가 다르다."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "sento": {
+    "id": "anv-fixed-10-10-public-bath-day-jp",
+    "date": "10-10",
+    "dateType": "annual-fixed",
+    "name": "센토의 날 (銭湯の日)",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "1010을 '센토(せんとう)'로 읽는 어감에서 왔다. 1964년 도쿄올림픽 개막일이기도 해, 운동한 뒤 목욕한다는 뜻을 겹쳤다. 도쿄 고토구 공중목욕탕 조합이 1991년 정했다.",
+      "anecdote": "센토는 집에 욕실이 없던 시절의 생활 시설이었다가 지금은 문화 공간에 가까워졌다. 벽에 후지산을 그리는 관습이 유명한데, 물이 넓어 보이게 하려는 것이었다. 한국 목욕탕·찜질방과 닮은 자리다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "벽에 후지산이 없으면 센토 같지 않다."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/110104.html"
+  },
+  "satsumaimo": {
+    "id": "anv-fixed-10-13-sweet-potato-day-jp",
+    "date": "10-13",
+    "dateType": "annual-fixed",
+    "name": "고구마의 날 (さつまいもの日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "고구마를 두고 '밤(9리)보다(4리) 맛있다'는 말장난이 있었다. 9와 4를 더한 13에서 '십삼리(十三里)'라는 별명이 생겼고, 사이타마 가와고에의 고구마 모임이 1987년 10월 13일로 정했다.",
+      "anecdote": "에도 니혼바시에서 가와고에까지가 약 13리(51km)라 붙었다는 설도 함께 전해진다. 어느 쪽이든 말장난이 두 겹으로 얽힌 셈이다. 가와고에는 지금도 고구마 과자로 유명한 관광지다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "밤보다 맛있다는 자부심이 이름이 됐다."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "kinoko": {
+    "id": "anv-fixed-10-15-mushroom-day-jp",
+    "date": "10-15",
+    "dateType": "annual-fixed",
+    "name": "버섯의 날 (きのこの日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본특용임산진흥회가 1995년 정했다. 10월이 버섯 수요가 가장 높은 달이라, 그 한가운데인 15일로 잡았다. 어감이 아니라 계절에서 온 단순한 이유다.",
+      "anecdote": "마쓰타케 철과 겹쳐 일본에서는 이맘때 송이밥과 버섯 전골이 오른다. 송이는 인공 재배가 아직 안 되는 몇 안 되는 버섯이라 값이 비싸고, 한국 양양·봉화 송이도 같은 이유로 귀하다. 표고는 반대로 재배가 잘돼, 일본에서 개발된 원목 재배법이 한국에도 그대로 들어왔다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "송이는 아직도 사람이 못 키운다."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/110153.html"
+  },
+  "reading": {
+    "id": "anv-fixed-10-27-reading-day-jp",
+    "date": "10-27",
+    "dateType": "annual-fixed",
+    "name": "독서의 날 (読書の日)",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "1947년 종전 직후 '독서의 힘으로 평화로운 문화국가를 만들자'는 취지로 독서주간이 시작됐다. 이듬해부터 10월 27일~11월 9일 2주간으로 늘었고, 그 첫날이 독서의 날이 됐다.",
+      "anecdote": "패전 2년 만에, 물자도 종이도 부족하던 때에 출판사와 서점과 도서관이 함께 시작했다는 점이 남다르다. 한국은 9월을 독서의 달로 지킨다. 해마다 표어와 포스터를 공모하는데, 이 포스터가 도서관 풍경의 일부가 된 지 오래다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "종이도 없던 시절에 시작한 독서 운동."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/110272.html"
+  },
+  "nihoncha": {
+    "id": "anv-fixed-10-31-japanese-tea-day-jp",
+    "date": "10-31",
+    "dateType": "annual-fixed",
+    "name": "일본차의 날 (日本茶の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "1191년 10월 31일 임제종을 연 승려 에이사이가 중국에서 차 씨앗을 들여왔다고 전해진다. 이를 기려 전국차상조합연합회가 2005년 정했다.",
+      "anecdote": "에이사이는 차를 약으로 소개한 「끽다양생기」를 썼고, 이것이 일본 차 문화의 출발점이 됐다. 10월 1일에도 같은 이름의 기념일이 따로 있어 일본에서도 헷갈려하는 날이다. 녹차와 홍차는 같은 찻잎으로 만들며, 발효를 시키느냐 마느냐가 둘을 가른다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "차를 약이라고 소개한 게 시작이었다."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/110314.html"
+  },
+  "blacktea": {
+    "id": "anv-fixed-11-01-black-tea-day-jp",
+    "date": "11-01",
+    "dateType": "annual-fixed",
+    "name": "홍차의 날 (紅茶の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본홍차협회가 1983년 정했다. 1791년 11월, 표류 끝에 러시아에 닿았던 선장 다이코쿠야 고다유가 예카테리나 2세의 다과회에 초대받아 일본인 최초로 홍차를 마셨다는 일화에서 왔다.",
+      "anecdote": "고다유는 폭풍에 떠밀려 알류샨 열도에 닿은 뒤 10년 만에 귀국했다. 표류민이 여제의 다과회에 앉았다는 이야기 자체가 소설 같아, 일본에서 여러 차례 작품으로 만들어졌다. 그가 남긴 러시아 견문 기록은 당시 일본이 바깥세상을 아는 드문 창구가 됐다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "표류하다 여제의 다과회에 초대받은 남자."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "sushi": {
+    "id": "anv-fixed-11-01-sushi-day-jp",
+    "date": "11-01",
+    "dateType": "annual-fixed",
+    "name": "스시의 날 (寿司の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "전국초밥상생활위생동업조합연합회가 1961년 정했다. 햅쌀이 나오고 산과 바다의 재료가 두루 제철을 맞는 때라 11월 1일로 잡았다.",
+      "anecdote": "스시는 원래 생선을 밥에 눌러 발효시킨 저장식품이었다. 지금처럼 손으로 쥐어 바로 먹는 니기리즈시는 에도 후기에 나온 패스트푸드로, 노점에서 서서 먹던 음식이었다. 그 흔적이 남아 지금도 스시집에서는 한 점씩 손으로 집어 먹는 것이 어색하지 않다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "원래는 길거리에서 서서 먹던 음식."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "kamaboko": {
+    "id": "anv-fixed-11-15-kamaboko-day-jp",
+    "date": "11-15",
+    "dateType": "annual-fixed",
+    "name": "가마보코의 날 (かまぼこの日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "1115년 헤이안 시대 문헌에 가마보코가 처음 등장한다. 그 연호 숫자를 월일로 옮겨 11월 15일로 정했다. 시치고산에 아이들 상에 올리던 음식이라는 점도 겹친다.",
+      "anecdote": "연도를 날짜로 바꿔 읽은 발상이 독특하다. 이름은 원래 대나무에 어육을 발라 구운 모양이 부들(蒲) 이삭을 닮아 '가마노호'라 부른 데서 왔다. 한국 어묵과 뿌리가 같다. 지역마다 색과 모양이 달라, 붉은 테두리를 두른 것부터 판에 올린 것까지 갈래가 여럿이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "1115년이라서 11월 15일. 단순하지만 확실하다."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "kombu": {
+    "id": "anv-fixed-11-15-kombu-day-jp",
+    "date": "11-15",
+    "dateType": "annual-fixed",
+    "name": "다시마의 날 (こんぶの日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본다시마협회가 1982년 정했다. 시치고산을 맞은 아이들이 다시마를 먹고 튼튼하게 자라기를 바란다는 뜻에서 11월 15일로 잡았다.",
+      "anecdote": "다시마 국물의 감칠맛 성분인 글루탐산은 1908년 도쿄대 이케다 기쿠나에가 다시마에서 뽑아내며 '우마미'라는 제5의 맛으로 정리됐다. 조미료 MSG가 여기서 나왔다. 홋카이도가 일본 다시마 생산의 대부분을 차지하는데, 정작 소비는 오사카와 오키나와가 더 많다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "제5의 맛이 태어난 곳이 다시마 국물이었다."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "renkon": {
+    "id": "anv-fixed-11-17-lotus-root-day-jp",
+    "date": "11-17",
+    "dateType": "annual-fixed",
+    "name": "연근의 날 (蓮根の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "1994년 11월 17일 이바라키에서 전국 연근 산지 관계자들이 모인 대회가 열린 것을 계기로 정해졌다고 전해진다. 이바라키는 일본 연근 생산량 1위 지역이다.",
+      "anecdote": "구멍이 뚫려 있어 '앞이 내다보인다'는 뜻으로 여겨, 일본에서는 설 음식에 빠지지 않는다. 한국에서도 연근조림이 명절상에 오르는데, 같은 상징을 공유한다. 진흙 속에서 자라면서도 속이 하얗게 유지되는 점 때문에 예부터 깨끗함의 상징으로도 쓰였다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "구멍으로 앞날이 보인다는 발상."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "kaki": {
+    "id": "anv-fixed-11-23-persimmon-day-jp",
+    "date": "11-23",
+    "dateType": "annual-fixed",
+    "name": "감의 날 (柿の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "1895년 11월 23일 하이쿠 시인 마사오카 시키가 나라에서 '감을 먹으니 종이 울리네 호류지'라는 구절을 읊었다고 전해진다. 전국과수연구연합회 감부회가 2005년 이를 기려 정했다.",
+      "anecdote": "하이쿠 한 수에서 나온 기념일이다. 시키는 결핵으로 서른넷에 세상을 떠났는데 감을 무척 좋아했다고 한다. 일본 공휴일인 근로감사의 날과 같은 날이다. 떫은감을 말려 곶감으로 만들면 단맛이 오르는 원리도 한국과 일본이 같다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "하이쿠 한 줄이 기념일이 됐다."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "movie": {
+    "id": "anv-fixed-12-01-movie-day-jp",
+    "date": "12-01",
+    "dateType": "annual-fixed",
+    "name": "영화의 날 (映画の日)",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "1896년 일본에서 처음으로 영화가 일반에 공개된 것을 기려, 영화산업단체연합회가 1956년 정했다. 정확한 날짜가 남아 있지 않아 그달의 좋은 날로 12월 1일을 잡았다.",
+      "anecdote": "고베에서 상영된 에디슨의 키네토스코프가 그 시작이었다. 상자를 들여다보는 1인용 장치였다. 이날은 전국 영화관이 관람료를 크게 깎아 줘, 일본에서 극장이 가장 붐비는 날 중 하나다. 뤼미에르 형제의 시네마토그래프는 그 이듬해 들어와, 여럿이 함께 보는 지금의 상영 방식으로 바뀌었다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "날짜를 모르니 '적당히 좋은 날'로 정했다."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "kanji": {
+    "id": "anv-fixed-12-12-kanji-day-jp",
+    "date": "12-12",
+    "dateType": "annual-fixed",
+    "name": "한자의 날 (漢字の日)",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "일본한자능력검정협회가 1995년 정했다. 12·12를 '좋은 글자 하나씩(いい字一字)'으로 읽는 어감에서 왔다. 한자에 관심을 갖게 하자는 취지다.",
+      "anecdote": "이날 교토 기요미즈데라에서 주지가 커다란 붓으로 '올해의 한자' 한 글자를 쓴다. 공모로 뽑는데 재난·전쟁·물가 같은 그해 세태가 그대로 드러나, 한국 언론도 매년 이 장면을 전한다. 1995년 첫 글자는 한신대지진과 옴진리교 사건을 담은 '震'이었다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한 글자로 그해를 요약하는 의식."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "vitamin": {
+    "id": "anv-fixed-12-13-vitamin-day-jp",
+    "date": "12-13",
+    "dateType": "annual-fixed",
+    "name": "비타민의 날 (ビタミンの日)",
+    "category": "academic",
+    "tags": [
+      "학술 & 기술"
+    ],
+    "storytelling": {
+      "origin": "1910년 12월 13일 스즈키 우메타로가 쌀겨에서 각기병에 듣는 성분을 뽑아내 '오리자닌'이라는 이름으로 발표했다. 훗날 비타민 B1으로 밝혀진, 세계 최초의 비타민 발견이었다.",
+      "anecdote": "그런데 논문이 일본어로만 나가 국제 학계에 늦게 알려졌다. 이듬해 폴란드의 풍크가 같은 물질을 발표하며 '비타민'이라는 이름을 붙였고, 발견의 공은 그쪽으로 기울었다. 지금도 일본에서는 스즈키의 이름을 딴 상이 수여되며 그 업적을 기린다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "먼저 찾고도 이름을 뺏긴 발견."
+      }
+    ],
+    "sourceUrl": null
+  }
+}

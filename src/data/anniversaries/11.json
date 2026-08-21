@@ -110,6 +110,50 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-deep-fried-clams-day-november-1/"
   },
   {
+    "id": "anv-fixed-11-01-black-tea-day-jp",
+    "date": "11-01",
+    "dateType": "annual-fixed",
+    "name": "홍차의 날 (紅茶の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본홍차협회가 1983년 정했다. 1791년 11월, 표류 끝에 러시아에 닿았던 선장 다이코쿠야 고다유가 예카테리나 2세의 다과회에 초대받아 일본인 최초로 홍차를 마셨다는 일화에서 왔다.",
+      "anecdote": "고다유는 폭풍에 떠밀려 알류샨 열도에 닿은 뒤 10년 만에 귀국했다. 표류민이 여제의 다과회에 앉았다는 이야기 자체가 소설 같아, 일본에서 여러 차례 작품으로 만들어졌다. 그가 남긴 러시아 견문 기록은 당시 일본이 바깥세상을 아는 드문 창구가 됐다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "표류하다 여제의 다과회에 초대받은 남자."
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-11-01-sushi-day-jp",
+    "date": "11-01",
+    "dateType": "annual-fixed",
+    "name": "스시의 날 (寿司の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "전국초밥상생활위생동업조합연합회가 1961년 정했다. 햅쌀이 나오고 산과 바다의 재료가 두루 제철을 맞는 때라 11월 1일로 잡았다.",
+      "anecdote": "스시는 원래 생선을 밥에 눌러 발효시킨 저장식품이었다. 지금처럼 손으로 쥐어 바로 먹는 니기리즈시는 에도 후기에 나온 패스트푸드로, 노점에서 서서 먹던 음식이었다. 그 흔적이 남아 지금도 스시집에서는 한 점씩 손으로 집어 먹는 것이 어색하지 않다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "원래는 길거리에서 서서 먹던 음식."
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-11-02-traffic-directors-day-us",
     "date": "11-02",
     "dateType": "annual-fixed",
@@ -868,6 +912,50 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-spicy-hermit-cookie-day-november-15/"
   },
   {
+    "id": "anv-fixed-11-15-kamaboko-day-jp",
+    "date": "11-15",
+    "dateType": "annual-fixed",
+    "name": "가마보코의 날 (かまぼこの日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "1115년 헤이안 시대 문헌에 가마보코가 처음 등장한다. 그 연호 숫자를 월일로 옮겨 11월 15일로 정했다. 시치고산에 아이들 상에 올리던 음식이라는 점도 겹친다.",
+      "anecdote": "연도를 날짜로 바꿔 읽은 발상이 독특하다. 이름은 원래 대나무에 어육을 발라 구운 모양이 부들(蒲) 이삭을 닮아 '가마노호'라 부른 데서 왔다. 한국 어묵과 뿌리가 같다. 지역마다 색과 모양이 달라, 붉은 테두리를 두른 것부터 판에 올린 것까지 갈래가 여럿이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "1115년이라서 11월 15일. 단순하지만 확실하다."
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-11-15-kombu-day-jp",
+    "date": "11-15",
+    "dateType": "annual-fixed",
+    "name": "다시마의 날 (こんぶの日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본다시마협회가 1982년 정했다. 시치고산을 맞은 아이들이 다시마를 먹고 튼튼하게 자라기를 바란다는 뜻에서 11월 15일로 잡았다.",
+      "anecdote": "다시마 국물의 감칠맛 성분인 글루탐산은 1908년 도쿄대 이케다 기쿠나에가 다시마에서 뽑아내며 '우마미'라는 제5의 맛으로 정리됐다. 조미료 MSG가 여기서 나왔다. 홋카이도가 일본 다시마 생산의 대부분을 차지하는데, 정작 소비는 오사카와 오키나와가 더 많다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "제5의 맛이 태어난 곳이 다시마 국물이었다."
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-11-16-button-day-us",
     "date": "11-16",
     "dateType": "annual-fixed",
@@ -970,6 +1058,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-take-a-hike-day-november-17/"
+  },
+  {
+    "id": "anv-fixed-11-17-lotus-root-day-jp",
+    "date": "11-17",
+    "dateType": "annual-fixed",
+    "name": "연근의 날 (蓮根の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "1994년 11월 17일 이바라키에서 전국 연근 산지 관계자들이 모인 대회가 열린 것을 계기로 정해졌다고 전해진다. 이바라키는 일본 연근 생산량 1위 지역이다.",
+      "anecdote": "구멍이 뚫려 있어 '앞이 내다보인다'는 뜻으로 여겨, 일본에서는 설 음식에 빠지지 않는다. 한국에서도 연근조림이 명절상에 오르는데, 같은 상징을 공유한다. 진흙 속에서 자라면서도 속이 하얗게 유지되는 점 때문에 예부터 깨끗함의 상징으로도 쓰였다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "구멍으로 앞날이 보인다는 발상."
+      }
+    ],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-11-18-educational-support-professionals-day-us",
@@ -1344,6 +1454,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-eat-a-cranberry-day-november-23/"
+  },
+  {
+    "id": "anv-fixed-11-23-persimmon-day-jp",
+    "date": "11-23",
+    "dateType": "annual-fixed",
+    "name": "감의 날 (柿の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "1895년 11월 23일 하이쿠 시인 마사오카 시키가 나라에서 '감을 먹으니 종이 울리네 호류지'라는 구절을 읊었다고 전해진다. 전국과수연구연합회 감부회가 2005년 이를 기려 정했다.",
+      "anecdote": "하이쿠 한 수에서 나온 기념일이다. 시키는 결핵으로 서른넷에 세상을 떠났는데 감을 무척 좋아했다고 한다. 일본 공휴일인 근로감사의 날과 같은 날이다. 떫은감을 말려 곶감으로 만들면 단맛이 오르는 원리도 한국과 일본이 같다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "하이쿠 한 줄이 기념일이 됐다."
+      }
+    ],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-11-24-sardines-day-us",

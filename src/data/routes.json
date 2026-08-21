@@ -107,6 +107,10 @@
     "slug": "cut-your-energy-costs-day",
     "urlDate": "01-10"
   },
+  "anv-fixed-01-10-mentaiko-day-jp": {
+    "slug": "mentaiko-day",
+    "urlDate": "01-10"
+  },
   "anv-fixed-01-10-save-the-eagles-day-global": {
     "slug": "save-the-eagles-day",
     "urlDate": "01-10"
@@ -235,6 +239,10 @@
     "slug": "celebration-of-life-day",
     "urlDate": "01-22"
   },
+  "anv-fixed-01-22-curry-day-jp": {
+    "slug": "curry-day",
+    "urlDate": "01-22"
+  },
   "anv-fixed-01-23-handwriting-day-global": {
     "slug": "handwriting-day",
     "urlDate": "01-23"
@@ -253,6 +261,10 @@
   },
   "anv-fixed-01-25-irish-coffee-day-global": {
     "slug": "irish-coffee-day",
+    "urlDate": "01-25"
+  },
+  "anv-fixed-01-25-lowest-temperature-day-jp": {
+    "slug": "lowest-temperature-day",
     "urlDate": "01-25"
   },
   "anv-fixed-01-25-opposite-day-global": {
@@ -367,6 +379,10 @@
     "slug": "lame-duck-day",
     "urlDate": "02-06"
   },
+  "anv-fixed-02-06-nori-day-jp": {
+    "slug": "nori-day",
+    "urlDate": "02-06"
+  },
   "anv-fixed-02-07-fettuccine-alfredo-day-global": {
     "slug": "fettuccine-alfredo-day",
     "urlDate": "02-07"
@@ -391,6 +407,10 @@
     "slug": "bagel-day",
     "urlDate": "02-09"
   },
+  "anv-fixed-02-09-meat-day-jp": {
+    "slug": "meat-day",
+    "urlDate": "02-09"
+  },
   "anv-fixed-02-09-pizza-day-global": {
     "slug": "pizza-day",
     "urlDate": "02-09"
@@ -401,6 +421,10 @@
   },
   "anv-fixed-02-10-cream-cheese-brownie-day-us": {
     "slug": "cream-cheese-brownie-day",
+    "urlDate": "02-10"
+  },
+  "anv-fixed-02-10-knit-day-jp": {
+    "slug": "knit-day",
     "urlDate": "02-10"
   },
   "anv-fixed-02-10-umbrella-day-global": {
@@ -559,6 +583,10 @@
     "slug": "strawberry-day",
     "urlDate": "02-27"
   },
+  "anv-fixed-02-28-biscuit-day-jp": {
+    "slug": "biscuit-day",
+    "urlDate": "02-28"
+  },
   "anv-fixed-02-28-chocolate-souffle-day-us": {
     "slug": "chocolate-souffle-day",
     "urlDate": "02-28"
@@ -619,6 +647,10 @@
     "slug": "cold-cuts-day",
     "urlDate": "03-03"
   },
+  "anv-fixed-03-03-ear-day-jp": {
+    "slug": "ear-day",
+    "urlDate": "03-03"
+  },
   "anv-fixed-03-03-i-want-you-to-be-happy-day-us": {
     "slug": "i-want-you-to-be-happy-day",
     "urlDate": "03-03"
@@ -629,6 +661,10 @@
   },
   "anv-fixed-03-03-pancake-day-global": {
     "slug": "pancake-day",
+    "urlDate": "03-03"
+  },
+  "anv-fixed-03-03-peach-day-jp": {
+    "slug": "peach-day",
     "urlDate": "03-03"
   },
   "anv-fixed-03-03-samgyeopsal-day-kr": {
@@ -739,8 +775,16 @@
     "slug": "mario-day",
     "urlDate": "03-10"
   },
+  "anv-fixed-03-10-mint-day-jp": {
+    "slug": "mint-day",
+    "urlDate": "03-10"
+  },
   "anv-fixed-03-10-pack-your-lunch-day-global": {
     "slug": "pack-your-lunch-day",
+    "urlDate": "03-10"
+  },
+  "anv-fixed-03-10-sugar-day-jp": {
+    "slug": "sugar-day",
     "urlDate": "03-10"
   },
   "anv-fixed-03-10-women-girls-hiv-aids-awareness-day-us": {
@@ -753,6 +797,10 @@
   },
   "anv-fixed-03-11-oatmeal-nut-waffles-day-global": {
     "slug": "oatmeal-nut-waffles-day",
+    "urlDate": "03-11"
+  },
+  "anv-fixed-03-11-panda-discovery-day-jp": {
+    "slug": "panda-discovery-day",
     "urlDate": "03-11"
   },
   "anv-fixed-03-11-worship-of-tools-day-global": {
@@ -1155,6 +1203,10 @@
     "slug": "caramel-popcorn-day",
     "urlDate": "04-06"
   },
+  "anv-fixed-04-06-corned-beef-day-jp": {
+    "slug": "corned-beef-day",
+    "urlDate": "04-06"
+  },
   "anv-fixed-04-06-day-of-hope-us": {
     "slug": "day-of-hope",
     "urlDate": "04-06"
@@ -1217,6 +1269,10 @@
   },
   "anv-fixed-04-09-churchill-day-us": {
     "slug": "churchill-day",
+    "urlDate": "04-09"
+  },
+  "anv-fixed-04-09-folk-song-day-jp": {
+    "slug": "folk-song-day",
     "urlDate": "04-09"
   },
   "anv-fixed-04-09-former-pow-recognition-day-us": {
@@ -1383,6 +1439,10 @@
     "slug": "cheeseball-day",
     "urlDate": "04-17"
   },
+  "anv-fixed-04-17-dinosaur-day-jp": {
+    "slug": "dinosaur-day",
+    "urlDate": "04-17"
+  },
   "anv-fixed-04-17-ellis-island-family-history-day-us": {
     "slug": "ellis-island-family-history-day",
     "urlDate": "04-17"
@@ -1519,6 +1579,10 @@
     "slug": "audubon-day",
     "urlDate": "04-26"
   },
+  "anv-fixed-04-26-good-bath-day-jp": {
+    "slug": "good-bath-day",
+    "urlDate": "04-26"
+  },
   "anv-fixed-04-26-help-a-horse-day-us": {
     "slug": "help-a-horse-day",
     "urlDate": "04-26"
@@ -1559,6 +1623,10 @@
     "slug": "bravehearts-day",
     "urlDate": "04-28"
   },
+  "anv-fixed-04-28-elephant-day-jp": {
+    "slug": "elephant-day",
+    "urlDate": "04-28"
+  },
   "anv-fixed-04-28-great-poetry-reading-day-us": {
     "slug": "great-poetry-reading-day",
     "urlDate": "04-28"
@@ -1581,6 +1649,10 @@
   },
   "anv-fixed-04-29-hairball-awareness-day-us": {
     "slug": "hairball-awareness-day",
+    "urlDate": "04-29"
+  },
+  "anv-fixed-04-29-lamb-day-jp": {
+    "slug": "lamb-day",
     "urlDate": "04-29"
   },
   "anv-fixed-04-29-peace-rose-day-us": {
@@ -1705,6 +1777,10 @@
   },
   "anv-fixed-05-04-orange-juice-day-us": {
     "slug": "orange-juice-day",
+    "urlDate": "05-04"
+  },
+  "anv-fixed-05-04-ramune-day-jp": {
+    "slug": "ramune-day",
     "urlDate": "05-04"
   },
   "anv-fixed-05-04-renewal-day-us": {
@@ -1927,6 +2003,10 @@
     "slug": "rose-day",
     "urlDate": "05-14"
   },
+  "anv-fixed-05-14-thermometer-day-jp": {
+    "slug": "thermometer-day",
+    "urlDate": "05-14"
+  },
   "anv-fixed-05-14-underground-america-day-us": {
     "slug": "underground-america-day",
     "urlDate": "05-14"
@@ -2071,12 +2151,24 @@
     "slug": "world-goth-day",
     "urlDate": "05-22"
   },
+  "anv-fixed-05-23-kiss-day-jp": {
+    "slug": "kiss-day",
+    "urlDate": "05-23"
+  },
+  "anv-fixed-05-23-love-letter-day-jp": {
+    "slug": "love-letter-day",
+    "urlDate": "05-23"
+  },
   "anv-fixed-05-23-lucky-penny-day-us": {
     "slug": "lucky-penny-day",
     "urlDate": "05-23"
   },
   "anv-fixed-05-23-taffy-day-us": {
     "slug": "taffy-day",
+    "urlDate": "05-23"
+  },
+  "anv-fixed-05-23-world-turtle-day-global": {
+    "slug": "world-turtle-day",
     "urlDate": "05-23"
   },
   "anv-fixed-05-24-escargot-day-us": {
@@ -2147,6 +2239,10 @@
     "slug": "everest-first-summit",
     "urlDate": "05-29"
   },
+  "anv-fixed-05-29-konjac-day-jp": {
+    "slug": "konjac-day",
+    "urlDate": "05-29"
+  },
   "anv-fixed-05-29-paperclip-day-us": {
     "slug": "paperclip-day",
     "urlDate": "05-29"
@@ -2179,6 +2275,14 @@
     "slug": "world-no-tobacco-day",
     "urlDate": "05-31"
   },
+  "anv-fixed-06-01-barley-tea-day-jp": {
+    "slug": "barley-tea-day",
+    "urlDate": "06-01"
+  },
+  "anv-fixed-06-01-chewing-gum-day-jp": {
+    "slug": "chewing-gum-day",
+    "urlDate": "06-01"
+  },
   "anv-fixed-06-01-go-barefoot-day-us": {
     "slug": "go-barefoot-day",
     "urlDate": "06-01"
@@ -2197,6 +2301,10 @@
   },
   "anv-fixed-06-01-penpal-day-us": {
     "slug": "penpal-day",
+    "urlDate": "06-01"
+  },
+  "anv-fixed-06-01-photography-day-jp": {
+    "slug": "photography-day",
     "urlDate": "06-01"
   },
   "anv-fixed-06-01-say-something-nice-day-us": {
@@ -2279,6 +2387,10 @@
     "slug": "memorial-day",
     "urlDate": "06-06"
   },
+  "anv-fixed-06-06-plum-day-jp": {
+    "slug": "plum-day",
+    "urlDate": "06-06"
+  },
   "anv-fixed-06-06-yo-yo-day-us": {
     "slug": "yo-yo-day",
     "urlDate": "06-06"
@@ -2343,8 +2455,16 @@
     "slug": "making-life-beautiful-day",
     "urlDate": "06-11"
   },
+  "anv-fixed-06-12-diary-day-jp": {
+    "slug": "diary-day",
+    "urlDate": "06-12"
+  },
   "anv-fixed-06-12-jerky-day-us": {
     "slug": "jerky-day",
+    "urlDate": "06-12"
+  },
+  "anv-fixed-06-12-lovers-day-jp": {
+    "slug": "lovers-day",
     "urlDate": "06-12"
   },
   "anv-fixed-06-12-loving-day-global": {
@@ -2539,6 +2659,10 @@
     "slug": "take-your-dog-to-work-day",
     "urlDate": "06-26"
   },
+  "anv-fixed-06-27-chirashizushi-day-jp": {
+    "slug": "chirashizushi-day",
+    "urlDate": "06-27"
+  },
   "anv-fixed-06-27-orange-blossom-day-us": {
     "slug": "orange-blossom-day",
     "urlDate": "06-27"
@@ -2647,6 +2771,10 @@
     "slug": "father-daughter-take-a-walk-day",
     "urlDate": "07-07"
   },
+  "anv-fixed-07-07-hiyashi-chuka-day-jp": {
+    "slug": "hiyashi-chuka-day",
+    "urlDate": "07-07"
+  },
   "anv-fixed-07-07-macaroni-day-us": {
     "slug": "macaroni-day",
     "urlDate": "07-07"
@@ -2669,6 +2797,10 @@
   },
   "anv-fixed-07-10-collector-car-appreciation-day-us": {
     "slug": "collector-car-appreciation-day",
+    "urlDate": "07-10"
+  },
+  "anv-fixed-07-10-natto-day-jp": {
+    "slug": "natto-day",
     "urlDate": "07-10"
   },
   "anv-fixed-07-10-pina-colada-day-us": {
@@ -2803,6 +2935,10 @@
     "slug": "get-out-of-the-dog-house-day",
     "urlDate": "07-20"
   },
+  "anv-fixed-07-20-hamburger-day-jp": {
+    "slug": "hamburger-day",
+    "urlDate": "07-20"
+  },
   "anv-fixed-07-20-lollipop-day-us": {
     "slug": "lollipop-day",
     "urlDate": "07-20"
@@ -2911,6 +3047,10 @@
     "slug": "father-in-law-day",
     "urlDate": "07-30"
   },
+  "anv-fixed-07-30-umeboshi-day-jp": {
+    "slug": "umeboshi-day",
+    "urlDate": "07-30"
+  },
   "anv-fixed-07-31-mutt-day-us": {
     "slug": "mutt-day",
     "urlDate": "07-31"
@@ -2975,6 +3115,10 @@
     "slug": "grab-some-nuts-day",
     "urlDate": "08-03"
   },
+  "anv-fixed-08-03-honey-day-jp": {
+    "slug": "honey-day",
+    "urlDate": "08-03"
+  },
   "anv-fixed-08-03-watermelon-day-us": {
     "slug": "watermelon-day",
     "urlDate": "08-03"
@@ -3006,6 +3150,10 @@
   "anv-fixed-08-06-wiggle-your-toes-day-us": {
     "slug": "wiggle-your-toes-day",
     "urlDate": "08-06"
+  },
+  "anv-fixed-08-07-banana-day-jp": {
+    "slug": "banana-day",
+    "urlDate": "08-07"
   },
   "anv-fixed-08-07-lighthouse-day-us": {
     "slug": "lighthouse-day",
@@ -3163,6 +3311,10 @@
     "slug": "lemonade-day",
     "urlDate": "08-20"
   },
+  "anv-fixed-08-20-mosquito-day-global": {
+    "slug": "mosquito-day",
+    "urlDate": "08-20"
+  },
   "anv-fixed-08-20-radio-day-us": {
     "slug": "radio-day",
     "urlDate": "08-20"
@@ -3251,12 +3403,20 @@
     "slug": "chop-suey-day",
     "urlDate": "08-29"
   },
+  "anv-fixed-08-29-yakiniku-day-jp": {
+    "slug": "yakiniku-day",
+    "urlDate": "08-29"
+  },
   "anv-fixed-08-30-toasted-marshmallow-day-us": {
     "slug": "toasted-marshmallow-day",
     "urlDate": "08-30"
   },
   "anv-fixed-08-31-trail-mix-day-us": {
     "slug": "trail-mix-day",
+    "urlDate": "08-31"
+  },
+  "anv-fixed-08-31-vegetable-day-jp": {
+    "slug": "vegetable-day",
     "urlDate": "08-31"
   },
   "anv-fixed-09-01-chicken-boys-day-us": {
@@ -3338,6 +3498,10 @@
   "anv-fixed-09-08-pediatric-hem-onc-nurses-day-us": {
     "slug": "pediatric-hem-onc-nurses-day",
     "urlDate": "09-08"
+  },
+  "anv-fixed-09-09-hot-spring-day-jp": {
+    "slug": "hot-spring-day",
+    "urlDate": "09-09"
   },
   "anv-fixed-09-09-teddy-bear-day-us": {
     "slug": "teddy-bear-day",
@@ -3723,6 +3887,10 @@
     "slug": "fire-pup-day",
     "urlDate": "10-01"
   },
+  "anv-fixed-10-01-glasses-day-jp": {
+    "slug": "glasses-day",
+    "urlDate": "10-01"
+  },
   "anv-fixed-10-01-homemade-cookies-day-us": {
     "slug": "homemade-cookies-day",
     "urlDate": "10-01"
@@ -3741,6 +3909,10 @@
   },
   "anv-fixed-10-02-name-your-car-day-us": {
     "slug": "name-your-car-day",
+    "urlDate": "10-02"
+  },
+  "anv-fixed-10-02-tofu-day-jp": {
+    "slug": "tofu-day",
     "urlDate": "10-02"
   },
   "anv-fixed-10-02-world-smile-day-global": {
@@ -3831,6 +4003,10 @@
     "slug": "costume-swap-day",
     "urlDate": "10-10"
   },
+  "anv-fixed-10-10-public-bath-day-jp": {
+    "slug": "public-bath-day",
+    "urlDate": "10-10"
+  },
   "anv-fixed-10-10-world-mental-health-day-global": {
     "slug": "world-mental-health-day",
     "urlDate": "10-10"
@@ -3865,6 +4041,10 @@
   },
   "anv-fixed-10-13-navy-birthday-us": {
     "slug": "navy-birthday",
+    "urlDate": "10-13"
+  },
+  "anv-fixed-10-13-sweet-potato-day-jp": {
+    "slug": "sweet-potato-day",
     "urlDate": "10-13"
   },
   "anv-fixed-10-13-train-your-brain-day-us": {
@@ -3929,6 +4109,10 @@
   },
   "anv-fixed-10-15-latino-aids-awareness-day-us": {
     "slug": "latino-aids-awareness-day",
+    "urlDate": "10-15"
+  },
+  "anv-fixed-10-15-mushroom-day-jp": {
+    "slug": "mushroom-day",
     "urlDate": "10-15"
   },
   "anv-fixed-10-15-pregnancy-infant-loss-awareness-day-us": {
@@ -4115,6 +4299,10 @@
     "slug": "american-beer-day",
     "urlDate": "10-27"
   },
+  "anv-fixed-10-27-reading-day-jp": {
+    "slug": "reading-day",
+    "urlDate": "10-27"
+  },
   "anv-fixed-10-28-chocolate-day-us": {
     "slug": "chocolate-day",
     "urlDate": "10-28"
@@ -4163,6 +4351,10 @@
     "slug": "halloween",
     "urlDate": "10-31"
   },
+  "anv-fixed-10-31-japanese-tea-day-jp": {
+    "slug": "japanese-tea-day",
+    "urlDate": "10-31"
+  },
   "anv-fixed-10-31-knock-knock-jokes-day-us": {
     "slug": "knock-knock-jokes-day",
     "urlDate": "10-31"
@@ -4175,6 +4367,10 @@
     "slug": "authors-day",
     "urlDate": "11-01"
   },
+  "anv-fixed-11-01-black-tea-day-jp": {
+    "slug": "black-tea-day",
+    "urlDate": "11-01"
+  },
   "anv-fixed-11-01-cook-for-your-pets-day-us": {
     "slug": "cook-for-your-pets-day",
     "urlDate": "11-01"
@@ -4185,6 +4381,10 @@
   },
   "anv-fixed-11-01-family-literacy-day-us": {
     "slug": "family-literacy-day",
+    "urlDate": "11-01"
+  },
+  "anv-fixed-11-01-sushi-day-jp": {
+    "slug": "sushi-day",
     "urlDate": "11-01"
   },
   "anv-fixed-11-01-vinegar-day-us": {
@@ -4307,6 +4507,14 @@
     "slug": "clean-out-your-refrigerator-day",
     "urlDate": "11-15"
   },
+  "anv-fixed-11-15-kamaboko-day-jp": {
+    "slug": "kamaboko-day",
+    "urlDate": "11-15"
+  },
+  "anv-fixed-11-15-kombu-day-jp": {
+    "slug": "kombu-day",
+    "urlDate": "11-15"
+  },
   "anv-fixed-11-15-philanthropy-day-us": {
     "slug": "philanthropy-day",
     "urlDate": "11-15"
@@ -4329,6 +4537,10 @@
   },
   "anv-fixed-11-17-baklava-day-us": {
     "slug": "baklava-day",
+    "urlDate": "11-17"
+  },
+  "anv-fixed-11-17-lotus-root-day-jp": {
+    "slug": "lotus-root-day",
     "urlDate": "11-17"
   },
   "anv-fixed-11-17-take-a-hike-day-us": {
@@ -4397,6 +4609,10 @@
   },
   "anv-fixed-11-23-espresso-day-us": {
     "slug": "espresso-day",
+    "urlDate": "11-23"
+  },
+  "anv-fixed-11-23-persimmon-day-jp": {
+    "slug": "persimmon-day",
     "urlDate": "11-23"
   },
   "anv-fixed-11-24-sardines-day-us": {
@@ -4477,6 +4693,10 @@
   },
   "anv-fixed-12-01-eat-a-red-apple-day-us": {
     "slug": "eat-a-red-apple-day",
+    "urlDate": "12-01"
+  },
+  "anv-fixed-12-01-movie-day-jp": {
+    "slug": "movie-day",
     "urlDate": "12-01"
   },
   "anv-fixed-12-01-pie-day-us": {
@@ -4627,6 +4847,10 @@
     "slug": "gingerbread-house-day",
     "urlDate": "12-12"
   },
+  "anv-fixed-12-12-kanji-day-jp": {
+    "slug": "kanji-day",
+    "urlDate": "12-12"
+  },
   "anv-fixed-12-12-poinsettia-day-global": {
     "slug": "poinsettia-day",
     "urlDate": "12-12"
@@ -4657,6 +4881,10 @@
   },
   "anv-fixed-12-13-violin-day-global": {
     "slug": "violin-day",
+    "urlDate": "12-13"
+  },
+  "anv-fixed-12-13-vitamin-day-jp": {
+    "slug": "vitamin-day",
     "urlDate": "12-13"
   },
   "anv-fixed-12-13-worldwide-candle-lighting-day-global": {

@@ -154,6 +154,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-pie-day-december-1/"
   },
   {
+    "id": "anv-fixed-12-01-movie-day-jp",
+    "date": "12-01",
+    "dateType": "annual-fixed",
+    "name": "영화의 날 (映画の日)",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "1896년 일본에서 처음으로 영화가 일반에 공개된 것을 기려, 영화산업단체연합회가 1956년 정했다. 정확한 날짜가 남아 있지 않아 그달의 좋은 날로 12월 1일을 잡았다.",
+      "anecdote": "고베에서 상영된 에디슨의 키네토스코프가 그 시작이었다. 상자를 들여다보는 1인용 장치였다. 이날은 전국 영화관이 관람료를 크게 깎아 줘, 일본에서 극장이 가장 붐비는 날 중 하나다. 뤼미에르 형제의 시네마토그래프는 그 이듬해 들어와, 여럿이 함께 보는 지금의 상영 방식으로 바뀌었다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "날짜를 모르니 '적당히 좋은 날'로 정했다."
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-12-02-abolition-of-slavery-day-global",
     "date": "12-02",
     "dateType": "annual-fixed",
@@ -1022,6 +1044,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-poinsettia-day-december-12/"
   },
   {
+    "id": "anv-fixed-12-12-kanji-day-jp",
+    "date": "12-12",
+    "dateType": "annual-fixed",
+    "name": "한자의 날 (漢字の日)",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "일본한자능력검정협회가 1995년 정했다. 12·12를 '좋은 글자 하나씩(いい字一字)'으로 읽는 어감에서 왔다. 한자에 관심을 갖게 하자는 취지다.",
+      "anecdote": "이날 교토 기요미즈데라에서 주지가 커다란 붓으로 '올해의 한자' 한 글자를 쓴다. 공모로 뽑는데 재난·전쟁·물가 같은 그해 세태가 그대로 드러나, 한국 언론도 매년 이 장면을 전한다. 1995년 첫 글자는 한신대지진과 옴진리교 사건을 담은 '震'이었다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한 글자로 그해를 요약하는 의식."
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-12-13-day-of-the-horse-us",
     "date": "12-13",
     "dateType": "annual-fixed",
@@ -1152,6 +1196,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-cocoa-day-december-13/"
+  },
+  {
+    "id": "anv-fixed-12-13-vitamin-day-jp",
+    "date": "12-13",
+    "dateType": "annual-fixed",
+    "name": "비타민의 날 (ビタミンの日)",
+    "category": "academic",
+    "tags": [
+      "학술 & 기술"
+    ],
+    "storytelling": {
+      "origin": "1910년 12월 13일 스즈키 우메타로가 쌀겨에서 각기병에 듣는 성분을 뽑아내 '오리자닌'이라는 이름으로 발표했다. 훗날 비타민 B1으로 밝혀진, 세계 최초의 비타민 발견이었다.",
+      "anecdote": "그런데 논문이 일본어로만 나가 국제 학계에 늦게 알려졌다. 이듬해 폴란드의 풍크가 같은 물질을 발표하며 '비타민'이라는 이름을 붙였고, 발견의 공은 그쪽으로 기울었다. 지금도 일본에서는 스즈키의 이름을 딴 상이 수여되며 그 업적을 기린다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "먼저 찾고도 이름을 뺏긴 발견."
+      }
+    ],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-12-14-bouillabaisse-day-us",

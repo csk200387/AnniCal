@@ -500,6 +500,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-bike-to-school-day-may-4/"
   },
   {
+    "id": "anv-fixed-05-04-ramune-day-jp",
+    "date": "05-04",
+    "dateType": "annual-fixed",
+    "name": "라무네의 날 (ラムネの日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "1872년 5월 4일 도쿄의 지바 가쓰고로가 라무네 제조를 배우겠다며 관청에 願書를 냈다. 일본에서 라무네가 상품으로 만들어지기 시작한 출발점으로 여겨 이날을 기린다.",
+      "anecdote": "이름은 레모네이드가 일본식으로 변한 것이다. 유리구슬로 병을 막는 구조는 탄산 압력이 구슬을 밀어 올려 스스로 봉하는 방식인데, 마시려면 그 구슬을 눌러 떨어뜨려야 한다. 여름 축제 노점에서 파는 음료로 자리 잡아, 유카타 차림에 라무네 병을 든 모습이 일본 여름의 상징처럼 쓰인다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "구슬 꺼내겠다고 병을 깨본 사람 손."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/105046.html"
+  },
+  {
     "id": "anv-fixed-05-05-cartoonists-day-us",
     "date": "05-05",
     "dateType": "annual-fixed",
@@ -1742,6 +1764,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-cornelia-de-lange-syndrome-awareness-day-may-14/"
   },
   {
+    "id": "anv-fixed-05-14-thermometer-day-jp",
+    "date": "05-14",
+    "dateType": "annual-fixed",
+    "name": "온도계의 날 (温度計の日)",
+    "category": "academic",
+    "tags": [
+      "학술 & 기술"
+    ],
+    "storytelling": {
+      "origin": "화씨온도를 만든 독일 물리학자 다니엘 파렌하이트의 생일(1686년 5월 14일)을 기린다. 그는 수은을 쓴 온도계를 처음 실용화해 온도를 숫자로 재는 길을 열었다.",
+      "anecdote": "화씨는 그가 만들 수 있었던 가장 낮은 온도를 0도로 잡아 만든 눈금이라 기준이 자의적이다. 미국이 여전히 화씨를 쓰는 탓에 섭씨와 화씨를 오가며 헷갈리는 일이 지금도 흔하다. 그가 정한 화씨 96도는 사람 체온을 기준으로 삼은 것인데, 측정이 정확하지 않아 지금은 98.6도로 바뀌었다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "화씨 100도가 대체 얼마나 더운 건데."
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-05-15-nylon-stocking-day-us",
     "date": "05-15",
     "dateType": "annual-fixed",
@@ -2626,6 +2670,72 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-lucky-penny-day-may-23/"
   },
   {
+    "id": "anv-fixed-05-23-kiss-day-jp",
+    "date": "05-23",
+    "dateType": "annual-fixed",
+    "name": "키스의 날 (キスの日)",
+    "category": "romance",
+    "tags": [
+      "연애 & 기념일"
+    ],
+    "storytelling": {
+      "origin": "1946년 5월 23일 일본 최초로 키스 장면이 들어간 영화 「스무 살의 청춘」이 개봉했다. 패전 이듬해, 연합군 점령기의 검열 완화 분위기 속에서 나온 작품이었다.",
+      "anecdote": "당시로서는 큰 소동이라 신문이 사설로 다룰 정도였고, 배우들은 거즈를 사이에 두고 촬영했다고 전해진다. 한국의 키스데이는 6월 14일로 따로 있는데, 이쪽은 포틴데이의 하나다. 영화 제목은 「스무 살의 청춘」, 감독은 사사키 야스시였고 개봉 당시 관객이 극장 앞에 길게 줄을 섰다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "거즈를 사이에 두고 찍은 최초의 키스신."
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-05-23-love-letter-day-jp",
+    "date": "05-23",
+    "dateType": "annual-fixed",
+    "name": "러브레터의 날 (ラブレターの日)",
+    "category": "romance",
+    "tags": [
+      "연애 & 기념일"
+    ],
+    "storytelling": {
+      "origin": "영화사 쇼치쿠가 아사다 지로 원작 영화 「러브레터」를 알리려 만든 날이다. 1998년 5월 23일 개봉일이자, 일본어로 5·2·3을 '코이부미(戀文, 연애편지)'로 읽는 어감이 겹친다.",
+      "anecdote": "같은 날이 키스의 날이기도 해서 5월 23일은 사랑과 얽힌 날이 둘 겹친다. 둘 다 영화에서 비롯됐다는 공통점도 있다. 우편으로 부치는 연애편지가 사라진 자리를 메시지 앱이 대신했지만, 손편지의 무게는 여전히 다르다고들 한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "손으로 쓴 편지를 마지막으로 받아본 게 언제였더라."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/105231.html"
+  },
+  {
+    "id": "anv-fixed-05-23-world-turtle-day-global",
+    "date": "05-23",
+    "dateType": "annual-fixed",
+    "name": "세계 거북이의 날 (World Turtle Day)",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "미국 거북 보호단체 아메리칸 토터스 레스큐가 2000년 만든 국제 기념일이다. 서식지 파괴와 애완용 밀거래로 줄어드는 거북을 지키자는 취지다.",
+      "anecdote": "거북의 등딱지는 갑옷을 걸친 것이 아니라 갈비뼈와 척추가 변형돼 몸과 붙어 있는 구조다. 그래서 껍데기를 벗을 수 없고, 등딱지가 깨지면 뼈가 부러진 것과 같다. 바다거북은 태어난 해변을 기억했다가 수십 년 뒤 알을 낳으러 그 자리로 돌아온다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "그 등딱지, 사실은 갈비뼈다."
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-05-24-scavenger-hunt-day-us",
     "date": "05-24",
     "dateType": "annual-fixed",
@@ -3058,6 +3168,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-paperclip-day-may-29/"
+  },
+  {
+    "id": "anv-fixed-05-29-konjac-day-jp",
+    "date": "05-29",
+    "dateType": "annual-fixed",
+    "name": "곤약의 날 (こんにゃくの日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본어로 5·2·9를 '콘냐쿠(こんにゃく)'로 읽는 어감에서 왔다. 5월이 곤약 씨감자를 심는 때라는 점도 겹쳐, 전국곤약협동조합연합회 등이 1989년 정했다.",
+      "anecdote": "곤약은 97%가 물이라 열량이 거의 없다. 예부터 '몸속 모래를 쓸어낸다'며 대청소하듯 먹는 음식으로 여겼는데, 실제로 식이섬유가 많아 장운동을 돕는다. 곤약을 만드는 구약나물은 씨감자를 심어 수확까지 서너 해가 걸리는 느린 작물이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "먹어도 살이 안 찌는 대신 배도 안 부르다."
+      }
+    ],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-05-30-hole-in-my-bucket-day-us",

@@ -36,8 +36,9 @@ export function isHttpUrl(v: string | null | undefined): v is string {
  * 많은데, 제목에 날짜 괄호까지 더하면 "블랙프라이데이 (Black Friday) (11월 27일)"
  * 처럼 괄호가 겹쳐 지저분해진다. 그래서 끝에 달린 원어 괄호만 떼어낸다.
  *
- * 떼는 조건은 두 가지 — 한글이 없으면서, (1) 로마자가 3자 이상이거나
- * (2) 한자로만 이뤄진 경우. 절기 이름의 "동지 (冬至)" 가 (2)에 해당한다.
+ * 떼는 조건은 세 가지 — 한글이 없으면서, (1) 로마자가 3자 이상이거나
+ * (2) 한자로만 이뤄졌거나 (3) 일본어 가나가 섞인 경우.
+ * 절기의 "동지 (冬至)" 가 (2), 일본 기념일의 "카레의 날 (カレーの日)" 이 (3)이다.
  * "크리스마스 (기독교탄신일)" 처럼 한글이 든 괄호, "파이(π)의 날" 처럼 이름
  * 중간의 괄호, "F1 모나코 그랑프리 결승일 (2026)" 처럼 연도만 든 괄호는 남긴다.
  */
@@ -47,7 +48,8 @@ export function displayName(name: string): string {
       if (/[가-힣]/.test(inner)) return whole
       const romanized = (inner.match(/[A-Za-z]/g) ?? []).length >= 3
       const hanjaOnly = /^[\u4E00-\u9FFF]+$/.test(inner)
-      return romanized || hanjaOnly ? '' : whole
+      const hasKana = /[\u3040-\u30FF]/.test(inner)
+      return romanized || hanjaOnly || hasKana ? '' : whole
     })
     .trim()
 }

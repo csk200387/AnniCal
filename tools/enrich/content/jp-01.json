@@ -1,0 +1,531 @@
+{
+  "_note": "일본 기념일 1차 (1~5월 24건). 조사본 jp-candidates-detail.md 근거. id 접미사 -jp.",
+  "myeongran": {
+    "id": "anv-fixed-01-10-mentaiko-day-jp",
+    "date": "01-10",
+    "dateType": "annual-fixed",
+    "name": "명란젓의 날 (明太子の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "1949년 1월 10일 후쿠오카의 식품점 후쿠야가 '가라시멘타이코'를 처음 만들어 판 날이다. 창업자 가와하라 도시오가 부산에서 먹던 명란젓 맛을 되살리려 몇 해를 매달린 끝에 내놓은 것이었다.",
+      "anecdote": "일본 자료도 명란젓의 뿌리가 한반도임을 그대로 적는다. 다만 젓갈에 가까운 한국식과 달리 일본에서는 고춧가루 양념에 절이는 방식으로 바뀌었다. 후쿠오카 하카타가 명란 산지로 유명해진 것도 이 가게에서 시작됐다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "부산에서 건너가 하카타 명물이 된 젓갈."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/101104.html"
+  },
+  "curry": {
+    "id": "anv-fixed-01-22-curry-day-jp",
+    "date": "01-22",
+    "dateType": "annual-fixed",
+    "name": "카레의 날 (カレーの日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "1982년 1월 22일 일본 전국의 초·중학교가 같은 날 급식으로 카레를 냈다. 학교급식 30주년을 기린 행사였는데, 이날을 기려 전일본카레공업협동조합이 기념일로 정했다.",
+      "anecdote": "정작 인도에는 '카레'라는 이름의 요리가 없다. 영국이 인도 향신료를 쓰기 편하게 규격화한 카레가루가 일본으로 건너가 걸쭉한 카레라이스가 됐고, 한국에 들어온 것도 이 일본식이다. 급식 카레는 지금도 일본 아이들이 가장 좋아하는 메뉴로 꼽히고, 이날이면 카레 매장이 할인 행사를 연다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "급식 카레 나오는 날은 잔반이 없었다."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/101221.html"
+  },
+  "coldest": {
+    "id": "anv-fixed-01-25-lowest-temperature-day-jp",
+    "date": "01-25",
+    "dateType": "annual-fixed",
+    "name": "일본 최저기온의 날 (日本最低気温の日)",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "1902년 1월 25일 홋카이도 아사히카와에서 영하 41.0도가 관측됐다. 120년이 넘도록 깨지지 않은 일본 공식 최저기온 기록으로, 이날을 기려 기념일이 됐다.",
+      "anecdote": "같은 해 이 한파는 아오모리에서 육군 부대가 눈 속에서 조난해 199명이 목숨을 잃은 핫코다산 사건의 배경이기도 했다. 한국 공식 최저기온은 1981년 양평의 영하 32.6도다. 이날을 전후해 아사히카와에서는 겨울 축제가 열려, 추위 자체를 관광 자원으로 삼는다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "영하 41도. 숫자만 봐도 손이 시리다."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "nori": {
+    "id": "anv-fixed-02-06-nori-day-jp",
+    "date": "02-06",
+    "dateType": "annual-fixed",
+    "name": "김의 날 (海苔の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "701년 제정된 다이호율령이 김을 조세로 거두는 품목에 넣었고, 그 시행일을 양력으로 환산해 2월 6일로 잡았다. 전국김조개류어업협동조합연합회가 1966년 정했다.",
+      "anecdote": "1300년 전 법령에서 날짜를 끌어온 드문 사례다. 정작 지금은 한국이 세계 김 수출의 절반 이상을 차지하는 최대 수출국이고, 일본이 한국 김을 수입해 먹는다. 김을 굽지 않고 그대로 파는 일본과 달리 한국은 기름과 소금을 발라 구운 조미김이 주류다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "세금으로 낼 만큼 귀했던 시절이 있었다."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "niku": {
+    "id": "anv-fixed-02-09-meat-day-jp",
+    "date": "02-09",
+    "dateType": "annual-fixed",
+    "name": "고기의 날 (肉の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본어로 2를 '니', 9를 '쿠'로 읽어 '니쿠(肉)'가 되는 어감에서 왔다. 2월 9일뿐 아니라 매달 29일도 함께 고기의 날로 지켜, 정육점과 고깃집이 할인 행사를 연다.",
+      "anecdote": "한 해 한 번이 아니라 매달 돌아오는 구조가 특징이다. 한국의 삼겹살데이(3월 3일)가 '삼'을 두 번 겹친 것과 발상이 같지만, 이쪽은 열두 번을 더 챙긴다. 소고기를 등급으로 나눠 파는 방식도 일본에서 정착해 한국 축산 등급제에 영향을 줬다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "매달 29일, 지갑이 먼저 반응한다."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/102098.html"
+  },
+  "knit": {
+    "id": "anv-fixed-02-10-knit-day-jp",
+    "date": "02-10",
+    "dateType": "annual-fixed",
+    "name": "니트의 날 (ニットの日)",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "일본어로 2를 '니', 10을 '토'로 읽어 '닛토(ニット)'가 되는 어감에서 왔다. 니트를 가장 많이 입는 한겨울에 놓여 있어 의류업계가 판촉에 쓰기 좋은 날로 자리 잡았다.",
+      "anecdote": "니트는 실을 짜서 만든 옷감 전체를 가리키는 말로, 스웨터만이 아니라 티셔츠 원단도 여기 든다. 천을 잘라 꿰매는 직물과 달리 고리를 엮어 만들어 늘어나는 성질이 있다. 니트가 옷장에서 늘어나는 것도 이 구조 때문이라, 걸어 두지 말고 개어 보관하라는 말이 나온다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "보풀 나기 시작하면 마음도 같이 상한다."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "biscuit": {
+    "id": "anv-fixed-02-28-biscuit-day-jp",
+    "date": "02-28",
+    "dateType": "annual-fixed",
+    "name": "비스킷의 날 (ビスケットの日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "1855년 2월 28일 미토번 의사 시바타 호안이 동료에게 '빵·비스킷 제조법'을 적어 보냈다. 일본에 남은 가장 오래된 비스킷 제조 기록이라 전국비스킷협회가 1980년 이날로 정했다.",
+      "anecdote": "날짜가 두 겹으로 맞아떨어진다. 비스킷의 어원인 라틴어 bis coctus가 '두 번 굽다'라는 뜻인데, 일본어로 2월 28일을 읽으면 '니도야쿠(두 번 굽다)'가 된다. 참고로 일본에서 비스킷과 쿠키를 가르는 기준은 당분과 지방 함량으로, 협회가 수치까지 정해 두었다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "어원까지 날짜에 맞춘 집요함."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/102281.html"
+  },
+  "ear": {
+    "id": "anv-fixed-03-03-ear-day-jp",
+    "date": "03-03",
+    "dateType": "annual-fixed",
+    "name": "귀의 날 (耳の日)",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "일본이비인후과학회가 1956년 제정했다. 일본어로 3을 '미'로 읽어 '미미(耳)'가 되는 어감에, 숫자 3의 생김새가 귀를 닮았다는 점을 겹쳤다. 청각장애에 대한 이해를 넓히는 것이 목적이다.",
+      "anecdote": "벨이 전화 특허를 낸 날(1876년 3월 3일)이자 헬렌 켈러의 스승 설리번이 태어난 날이기도 해, 소리와 얽힌 우연이 여럿 겹쳤다. 세계보건기구도 3월 3일을 세계 청각의 날로 지킨다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "숫자 3을 뒤집으면 정말 귀처럼 보인다."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "peach": {
+    "id": "anv-fixed-03-03-peach-day-jp",
+    "date": "03-03",
+    "dateType": "annual-fixed",
+    "name": "복숭아의 날 (桃の日)",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "3월 3일 히나마츠리를 '모모노셋쿠(복숭아 명절)'라 부르는 데서 온 이름이다. 음력 3월 초순이 복숭아꽃이 피는 때라, 여자아이의 건강을 비는 이 명절에 복숭아 가지를 함께 장식했다.",
+      "anecdote": "복숭아는 동아시아에서 오래도록 나쁜 기운을 물리치는 나무로 여겨졌다. 한국에서도 제사상에 복숭아를 올리지 않는 관습이 있는데, 조상의 혼까지 쫓는다고 믿었기 때문이다. 일본에서도 복숭아를 먹고 젊어졌다는 옛이야기가 전해지고, 모모타로 설화의 이름도 여기서 왔다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "귀신도 쫓고 아이도 지키는 만능 과일."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "sugar": {
+    "id": "anv-fixed-03-10-sugar-day-jp",
+    "date": "03-10",
+    "dateType": "annual-fixed",
+    "name": "설탕의 날 (砂糖の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본어로 3을 '사', 10을 '토'로 읽어 '사토(砂糖)'가 되는 어감에서 왔다. 설탕에 대한 부정적 인식에 맞서 제대로 알리자는 취지로 관련 협의회가 2014년 정했다.",
+      "anecdote": "설탕은 8세기 무렵 중국을 거쳐 일본에 들어왔는데, 처음에는 약으로 쓰였을 만큼 귀했다. 에도 시대까지도 사치품이라 서민이 단맛을 내려면 엿이나 감을 써야 했다. 사탕수수 재배가 자리 잡은 오키나와와 아마미 지역이 지금도 일본 설탕 생산의 중심이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한때는 약국에서 팔던 물질."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/103106.html"
+  },
+  "mint": {
+    "id": "anv-fixed-03-10-mint-day-jp",
+    "date": "03-10",
+    "dateType": "annual-fixed",
+    "name": "민트의 날 (ミントの日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본어로 3을 '미', 10을 '토'로 읽어 '민토(ミント)'가 되는 어감에서 왔다. 제과회사 크라시에푸즈가 2000년 자사 민트 제품을 알리려 정한 전형적인 마케팅 기념일이다.",
+      "anecdote": "민트가 시원하게 느껴지는 것은 온도가 실제로 내려가서가 아니라, 멘톨이 차가움을 감지하는 신경 수용체를 직접 건드리기 때문이다. 뇌가 속는 셈이다. 페퍼민트와 스피어민트는 다른 식물인데, 치약에 주로 쓰이는 쪽은 자극이 덜한 스피어민트다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "민트초코 논쟁은 오늘도 계속된다."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/10310a2.html"
+  },
+  "panda": {
+    "id": "anv-fixed-03-11-panda-discovery-day-jp",
+    "date": "03-11",
+    "dateType": "annual-fixed",
+    "name": "판다 발견의 날 (パンダ発見の日)",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "1869년 3월 11일 프랑스 선교사 아르망 다비드가 중국 쓰촨에서 판다 가죽을 손에 넣어 서양에 처음 알렸다. 그전까지 판다는 바깥 세계에 알려지지 않은 동물이었다.",
+      "anecdote": "판다는 곰과 동물인데도 대나무만 먹는다. 소화기관은 육식동물 그대로라 흡수율이 낮아, 하루 열두 시간 넘게 먹고 30kg 가까이 씹어야 버틴다. 한국에서는 에버랜드의 푸바오가 판다 인지도를 단숨에 끌어올렸다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "육식동물의 몸으로 채식하는 고집."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "cornedbeef": {
+    "id": "anv-fixed-04-06-corned-beef-day-jp",
+    "date": "04-06",
+    "dateType": "annual-fixed",
+    "name": "콘비프의 날 (コンビーフの日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "1875년 4월 6일 사다리꼴 콘비프 통조림이 미국에서 특허를 받았다. 위가 좁고 아래가 넓은 그 모양은 고기를 눌러 담고 빈틈없이 채우기 위한 것이었다.",
+      "anecdote": "이름의 '콘(corn)'은 옥수수가 아니라 소금 알갱이를 뜻한다. 소금에 절인 소고기라는 말이다. 열쇠를 돌려 캔을 여는 방식도 이 통조림에서 널리 퍼졌다. 두 차례 세계대전에서 군용 식량으로 대량 보급되며 서구 가정식으로 자리 잡았다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "그 사다리꼴에는 다 이유가 있었다."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "folksong": {
+    "id": "anv-fixed-04-09-folk-song-day-jp",
+    "date": "04-09",
+    "dateType": "annual-fixed",
+    "name": "포크송의 날 (フォークソングの日)",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "일본어로 4를 '포', 9를 '쿠'로 읽어 '포쿠(フォーク)'가 되는 어감에서 왔다. 여성 듀오 야나와라바가 제안하고 소속 레이블 PANAM이 신청해 2015년 일본기념일협회가 인정했다.",
+      "anecdote": "포크송은 본래 민요를 뜻하는 말이었지만 지금은 통기타 중심의 대중음악 갈래를 가리킨다. 한국에서도 1970년대 통기타 세대가 같은 흐름을 탔고, 그 시절 노래가 여전히 불린다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "통기타 하나면 무대가 완성되던 시절."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/104097.html"
+  },
+  "dinosaur": {
+    "id": "anv-fixed-04-17-dinosaur-day-jp",
+    "date": "04-17",
+    "dateType": "annual-fixed",
+    "name": "공룡의 날 (恐竜の日)",
+    "category": "academic",
+    "tags": [
+      "학술 & 기술"
+    ],
+    "storytelling": {
+      "origin": "1923년 4월 17일 미국 동물학자 로이 채프먼 앤드루스가 고비사막 탐사를 위해 베이징을 떠났다. 이 여정에서 세계 최초로 공룡 알 화석을 찾아내 본격적인 공룡 연구의 문을 열었다.",
+      "anecdote": "권총을 차고 사막을 누빈 그의 모습이 인디아나 존스의 모델로 자주 거론된다. 공룡 알이 발견되기 전까지는 공룡이 알을 낳는지조차 확실히 알려져 있지 않았다. 그가 고비사막에서 찾은 알은 오비랍토르의 것이었는데, 처음에는 알을 훔친 도둑으로 오해받아 '알 도둑'이라는 이름이 붙었다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "공룡이 알을 낳는다는 걸 100년 전에야 알았다."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/104171.html"
+  },
+  "furo": {
+    "id": "anv-fixed-04-26-good-bath-day-jp",
+    "date": "04-26",
+    "dateType": "annual-fixed",
+    "name": "좋은 목욕의 날 (よい風呂の日)",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "일본어로 4를 '요이(좋은)', 26을 '후로(목욕)'로 읽는 어감에서 왔다. 가족이 함께 목욕하며 이야기를 나누자는 취지로 지켜진다.",
+      "anecdote": "일본 가정에서는 욕조 물을 갈지 않고 온 가족이 차례로 쓰는 것이 보통이다. 몸은 욕조 밖에서 씻고 들어가는 것도 그래서다. 물을 데운 채 유지하는 보온 뚜껑이 필수품인 이유이기도 하다. 목욕물을 데우는 데 드는 비용이 만만치 않아, 물을 아껴 쓰는 관습이 자연스레 굳었다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "욕조 물을 물려받는 순서가 곧 서열."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "elephant": {
+    "id": "anv-fixed-04-28-elephant-day-jp",
+    "date": "04-28",
+    "dateType": "annual-fixed",
+    "name": "코끼리의 날 (象の日)",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "1729년 4월 28일 베트남에서 온 코끼리가 교토 궁궐에서 나카미카도 천황을 알현했다. 일본에 코끼리가 들어온 첫 기록으로, 나가사키에 상륙해 두 달 넘게 걸어서 교토까지 갔다.",
+      "anecdote": "천황을 만나려면 관직이 있어야 한다는 법도 때문에, 이 코끼리에게 '광남종4위백상'이라는 벼슬을 내린 뒤에야 알현이 성사됐다. 동물에게 관위를 준 전무후무한 사례다. 임무를 마친 뒤에는 에도로 옮겨져 쇼군에게도 보여졌고, 가는 곳마다 구경 인파가 몰렸다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "벼슬을 받고 나서야 입궐한 코끼리."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "lamb": {
+    "id": "anv-fixed-04-29-lamb-day-jp",
+    "date": "04-29",
+    "dateType": "annual-fixed",
+    "name": "양고기의 날 (羊肉の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본어로 4·2·9를 '요우니쿠(羊肉)'로 읽는 어감에서 왔다. 정체된 양고기 수요를 늘리려 징기스칸식보급확대촉진협의회가 2004년 제정했고 일본기념일협회가 인정했다.",
+      "anecdote": "'징기스칸'은 홋카이도에서 양고기를 둥근 무쇠판에 구워 먹는 요리다. 몽골과는 무관하고, 투구 모양 불판에서 이름이 붙었다는 설이 유력하다. 홋카이도에서는 벚꽃놀이에 이걸 구워 먹는다. 4월 29일이 일본 공휴일인 쇼와의 날과 겹쳐, 연휴 첫날에 양고기를 굽는 그림이 만들어졌다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "이름만 몽골, 실은 홋카이도 향토음식."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/104294.html"
+  },
+  "ramune": {
+    "id": "anv-fixed-05-04-ramune-day-jp",
+    "date": "05-04",
+    "dateType": "annual-fixed",
+    "name": "라무네의 날 (ラムネの日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "1872년 5월 4일 도쿄의 지바 가쓰고로가 라무네 제조를 배우겠다며 관청에 願書를 냈다. 일본에서 라무네가 상품으로 만들어지기 시작한 출발점으로 여겨 이날을 기린다.",
+      "anecdote": "이름은 레모네이드가 일본식으로 변한 것이다. 유리구슬로 병을 막는 구조는 탄산 압력이 구슬을 밀어 올려 스스로 봉하는 방식인데, 마시려면 그 구슬을 눌러 떨어뜨려야 한다. 여름 축제 노점에서 파는 음료로 자리 잡아, 유카타 차림에 라무네 병을 든 모습이 일본 여름의 상징처럼 쓰인다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "구슬 꺼내겠다고 병을 깨본 사람 손."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/105046.html"
+  },
+  "thermometer": {
+    "id": "anv-fixed-05-14-thermometer-day-jp",
+    "date": "05-14",
+    "dateType": "annual-fixed",
+    "name": "온도계의 날 (温度計の日)",
+    "category": "academic",
+    "tags": [
+      "학술 & 기술"
+    ],
+    "storytelling": {
+      "origin": "화씨온도를 만든 독일 물리학자 다니엘 파렌하이트의 생일(1686년 5월 14일)을 기린다. 그는 수은을 쓴 온도계를 처음 실용화해 온도를 숫자로 재는 길을 열었다.",
+      "anecdote": "화씨는 그가 만들 수 있었던 가장 낮은 온도를 0도로 잡아 만든 눈금이라 기준이 자의적이다. 미국이 여전히 화씨를 쓰는 탓에 섭씨와 화씨를 오가며 헷갈리는 일이 지금도 흔하다. 그가 정한 화씨 96도는 사람 체온을 기준으로 삼은 것인데, 측정이 정확하지 않아 지금은 98.6도로 바뀌었다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "화씨 100도가 대체 얼마나 더운 건데."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "kiss": {
+    "id": "anv-fixed-05-23-kiss-day-jp",
+    "date": "05-23",
+    "dateType": "annual-fixed",
+    "name": "키스의 날 (キスの日)",
+    "category": "romance",
+    "tags": [
+      "연애 & 기념일"
+    ],
+    "storytelling": {
+      "origin": "1946년 5월 23일 일본 최초로 키스 장면이 들어간 영화 「스무 살의 청춘」이 개봉했다. 패전 이듬해, 연합군 점령기의 검열 완화 분위기 속에서 나온 작품이었다.",
+      "anecdote": "당시로서는 큰 소동이라 신문이 사설로 다룰 정도였고, 배우들은 거즈를 사이에 두고 촬영했다고 전해진다. 한국의 키스데이는 6월 14일로 따로 있는데, 이쪽은 포틴데이의 하나다. 영화 제목은 「스무 살의 청춘」, 감독은 사사키 야스시였고 개봉 당시 관객이 극장 앞에 길게 줄을 섰다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "거즈를 사이에 두고 찍은 최초의 키스신."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "loveletter": {
+    "id": "anv-fixed-05-23-love-letter-day-jp",
+    "date": "05-23",
+    "dateType": "annual-fixed",
+    "name": "러브레터의 날 (ラブレターの日)",
+    "category": "romance",
+    "tags": [
+      "연애 & 기념일"
+    ],
+    "storytelling": {
+      "origin": "영화사 쇼치쿠가 아사다 지로 원작 영화 「러브레터」를 알리려 만든 날이다. 1998년 5월 23일 개봉일이자, 일본어로 5·2·3을 '코이부미(戀文, 연애편지)'로 읽는 어감이 겹친다.",
+      "anecdote": "같은 날이 키스의 날이기도 해서 5월 23일은 사랑과 얽힌 날이 둘 겹친다. 둘 다 영화에서 비롯됐다는 공통점도 있다. 우편으로 부치는 연애편지가 사라진 자리를 메시지 앱이 대신했지만, 손편지의 무게는 여전히 다르다고들 한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "손으로 쓴 편지를 마지막으로 받아본 게 언제였더라."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/105231.html"
+  },
+  "turtle": {
+    "id": "anv-fixed-05-23-world-turtle-day-global",
+    "date": "05-23",
+    "dateType": "annual-fixed",
+    "name": "세계 거북이의 날 (World Turtle Day)",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "미국 거북 보호단체 아메리칸 토터스 레스큐가 2000년 만든 국제 기념일이다. 서식지 파괴와 애완용 밀거래로 줄어드는 거북을 지키자는 취지다.",
+      "anecdote": "거북의 등딱지는 갑옷을 걸친 것이 아니라 갈비뼈와 척추가 변형돼 몸과 붙어 있는 구조다. 그래서 껍데기를 벗을 수 없고, 등딱지가 깨지면 뼈가 부러진 것과 같다. 바다거북은 태어난 해변을 기억했다가 수십 년 뒤 알을 낳으러 그 자리로 돌아온다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "그 등딱지, 사실은 갈비뼈다."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "konnyaku": {
+    "id": "anv-fixed-05-29-konjac-day-jp",
+    "date": "05-29",
+    "dateType": "annual-fixed",
+    "name": "곤약의 날 (こんにゃくの日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본어로 5·2·9를 '콘냐쿠(こんにゃく)'로 읽는 어감에서 왔다. 5월이 곤약 씨감자를 심는 때라는 점도 겹쳐, 전국곤약협동조합연합회 등이 1989년 정했다.",
+      "anecdote": "곤약은 97%가 물이라 열량이 거의 없다. 예부터 '몸속 모래를 쓸어낸다'며 대청소하듯 먹는 음식으로 여겼는데, 실제로 식이섬유가 많아 장운동을 돕는다. 곤약을 만드는 구약나물은 씨감자를 심어 수확까지 서너 해가 걸리는 느린 작물이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "먹어도 살이 안 찌는 대신 배도 안 부르다."
+      }
+    ],
+    "sourceUrl": null
+  }
+}

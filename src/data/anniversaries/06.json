@@ -148,6 +148,72 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-hazelnut-cake-day-june-1/"
   },
   {
+    "id": "anv-fixed-06-01-photography-day-jp",
+    "date": "06-01",
+    "dateType": "annual-fixed",
+    "name": "사진의 날 (写真の日)",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "일본사진협회가 1951년 정했다. 1841년 6월 1일 나가사키 상인 우에노 슌노조가 네덜란드에서 들어온 사진기로 사쓰마 번주 시마즈 나리아키라를 찍은 것이 일본 최초의 사진이라 여겨졌기 때문이다.",
+      "anecdote": "그런데 이 유래는 나중에 틀린 것으로 밝혀졌다. 실제 촬영은 1857년이었다. 사실이 정정된 뒤에도 날짜는 그대로 남아, 기념일이 한번 정해지면 관성으로 굴러간다는 것을 보여주는 사례가 됐다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "유래가 틀린 게 밝혀졌는데도 안 바뀐 날."
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-06-01-barley-tea-day-jp",
+    "date": "06-01",
+    "dateType": "annual-fixed",
+    "name": "보리차의 날 (麦茶の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "전국보리차공업협동조합이 1986년 정했다. 6월이 원료인 보리를 거두는 때이자 보리차 계절이 시작되는 달이라 그 첫날로 잡았다.",
+      "anecdote": "보리차는 찻잎이 아니라 볶은 보리를 우린 것이라 카페인이 없다. 그래서 아이도 마실 수 있는 여름 음료로 자리 잡았다. 한국에서도 오랫동안 끓여서 식힌 보리차가 물 대신이었다. 볶는 과정에서 생기는 향 성분이 갈증을 덜어 준다고 알려져, 여름 스포츠 현장에서도 많이 쓰인다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "냉장고에 늘 있던 그 노란 주전자."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/106016.html"
+  },
+  {
+    "id": "anv-fixed-06-01-chewing-gum-day-jp",
+    "date": "06-01",
+    "dateType": "annual-fixed",
+    "name": "추잉껌의 날 (チューインガムの日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본추잉껌협회가 1994년 정했다. 헤이안 시대에 정월 초하루와 6월 1일에 딱딱한 것을 씹으며 건강과 장수를 빌던 '하가타메(歯固め)' 풍습에서 날짜를 가져왔다.",
+      "anecdote": "천 년 전 풍습을 현대 상품에 갖다 붙인 발상이 재미있다. 껌의 원료였던 치클은 중앙아메리카 사포딜라 나무의 수액으로, 마야인이 이미 씹던 것이었다. 씹는 행위가 집중력과 스트레스에 영향을 준다는 연구가 이어져, 수험생과 운동선수가 즐겨 찾는다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "헤이안 귀족과 현대인의 공통점: 뭔가를 씹는다."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/10601b.html"
+  },
+  {
     "id": "anv-fixed-06-02-rocky-road-day-us",
     "date": "06-02",
     "dateType": "annual-fixed",
@@ -626,6 +692,28 @@
     "sourceUrl": "https://ko.wikipedia.org/wiki/망종"
   },
   {
+    "id": "anv-fixed-06-06-plum-day-jp",
+    "date": "06-06",
+    "dateType": "annual-fixed",
+    "name": "매화의 날 (梅の日)",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "1545년 6월 6일 교토 가모신사의 아오이마츠리에서 고나라 천황에게 매실이 헌상됐다는 고사에서 왔다. 와카야마의 기슈우메회가 2006년 정했다.",
+      "anecdote": "당시 큰 가뭄이 들자 천황이 신사에서 비를 빌었고 매실을 바쳤더니 비가 내렸다는 이야기가 전해진다. 와카야마현 미나베초는 지금도 일본 최대 매실 산지다. 매실은 날로 먹으면 독성이 있어 반드시 절이거나 담가서 먹어야 한다는 점도 한국과 같다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "매실 바쳤더니 비가 왔다는 전설."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/106066.html"
+  },
+  {
     "id": "anv-fixed-06-07-vcr-day-us",
     "date": "06-07",
     "dateType": "annual-fixed",
@@ -1074,6 +1162,50 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-peanut-butter-cookie-day-june-12/"
+  },
+  {
+    "id": "anv-fixed-06-12-lovers-day-jp",
+    "date": "06-12",
+    "dateType": "annual-fixed",
+    "name": "애인의 날 (恋人の日)",
+    "category": "romance",
+    "tags": [
+      "연애 & 기념일"
+    ],
+    "storytelling": {
+      "origin": "브라질 상파울루에서 성 안토니오 기일 전날인 6월 12일에 사진액자를 주고받는 풍습을 들여온 날이다. 전국액자조합연합회가 1988년 정했다.",
+      "anecdote": "액자 파는 조합이 만든 기념일이라는 점이 노골적이다. 성 안토니오는 잃어버린 물건과 인연을 찾아 준다는 성인이라, 브라질에서는 연인을 만나게 해 주는 존재로 여겨진다. 브라질에서는 2월 밸런타인데이 대신 6월 12일을 연인의 날로 지켜, 남반구 계절과 성인 축일에 맞춘 셈이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "액자조합의 기획력에 박수를."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/106121.html"
+  },
+  {
+    "id": "anv-fixed-06-12-diary-day-jp",
+    "date": "06-12",
+    "dateType": "annual-fixed",
+    "name": "일기의 날 (日記の日)",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "1942년 6월 12일 안네 프랑크가 열세 살 생일에 아버지에게 일기장을 선물받아 일기를 쓰기 시작했다. 기록을 남기는 일의 무게를 되새기자는 뜻으로 지켜진다.",
+      "anecdote": "안네는 일기장에 '키티'라는 이름을 붙이고 친구에게 편지 쓰듯 적었다. 은신처에 숨은 지 2년 만에 발각돼 수용소에서 세상을 떠났고, 살아남은 아버지가 그 일기를 책으로 냈다. 이 일기는 70개 넘는 언어로 번역돼 전쟁 기록 가운데 가장 널리 읽힌 개인의 목소리가 됐다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "일기장에 이름을 붙이면 친구가 된다."
+      }
+    ],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-06-13-rose-day-us",
@@ -2162,6 +2294,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-orange-blossom-day-june-27/"
+  },
+  {
+    "id": "anv-fixed-06-27-chirashizushi-day-jp",
+    "date": "06-27",
+    "dateType": "annual-fixed",
+    "name": "치라시즈시의 날 (ちらし寿司の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "1654년 비젠(지금의 오카야마)에 큰 홍수가 들자 번주 이케다 미쓰마사가 '국 하나 반찬 하나'만 먹으라는 검약령을 내렸다. 백성들이 밥에 이것저것 섞어 한 그릇처럼 만든 것이 치라시즈시의 원형이다.",
+      "anecdote": "날짜는 미쓰마사의 기일에서 왔다. 식품회사 아지칸이 2004년 정했다. 규제를 피하려던 꾀가 향토음식이 된 셈으로, 오카야마에서는 지금도 이를 '바라즈시'라 부른다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "반찬 하나만 먹으라니까 밥에 다 섞어버린 조상들."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/106273.html"
   },
   {
     "id": "anv-fixed-06-28-insurance-awareness-day-us",

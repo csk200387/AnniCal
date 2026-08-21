@@ -346,6 +346,50 @@
     "sourceUrl": "https://ko.wikipedia.org/wiki/정월_대보름"
   },
   {
+    "id": "anv-fixed-03-03-ear-day-jp",
+    "date": "03-03",
+    "dateType": "annual-fixed",
+    "name": "귀의 날 (耳の日)",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "일본이비인후과학회가 1956년 제정했다. 일본어로 3을 '미'로 읽어 '미미(耳)'가 되는 어감에, 숫자 3의 생김새가 귀를 닮았다는 점을 겹쳤다. 청각장애에 대한 이해를 넓히는 것이 목적이다.",
+      "anecdote": "벨이 전화 특허를 낸 날(1876년 3월 3일)이자 헬렌 켈러의 스승 설리번이 태어난 날이기도 해, 소리와 얽힌 우연이 여럿 겹쳤다. 세계보건기구도 3월 3일을 세계 청각의 날로 지킨다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "숫자 3을 뒤집으면 정말 귀처럼 보인다."
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-03-03-peach-day-jp",
+    "date": "03-03",
+    "dateType": "annual-fixed",
+    "name": "복숭아의 날 (桃の日)",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "3월 3일 히나마츠리를 '모모노셋쿠(복숭아 명절)'라 부르는 데서 온 이름이다. 음력 3월 초순이 복숭아꽃이 피는 때라, 여자아이의 건강을 비는 이 명절에 복숭아 가지를 함께 장식했다.",
+      "anecdote": "복숭아는 동아시아에서 오래도록 나쁜 기운을 물리치는 나무로 여겨졌다. 한국에서도 제사상에 복숭아를 올리지 않는 관습이 있는데, 조상의 혼까지 쫓는다고 믿었기 때문이다. 일본에서도 복숭아를 먹고 젊어졌다는 옛이야기가 전해지고, 모모타로 설화의 이름도 여기서 왔다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "귀신도 쫓고 아이도 지키는 만능 과일."
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-03-04-hug-a-gi-day-us",
     "date": "03-04",
     "dateType": "annual-fixed",
@@ -1000,6 +1044,50 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-women-girls-hiv-aids-awareness-day-march-10/"
   },
   {
+    "id": "anv-fixed-03-10-sugar-day-jp",
+    "date": "03-10",
+    "dateType": "annual-fixed",
+    "name": "설탕의 날 (砂糖の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본어로 3을 '사', 10을 '토'로 읽어 '사토(砂糖)'가 되는 어감에서 왔다. 설탕에 대한 부정적 인식에 맞서 제대로 알리자는 취지로 관련 협의회가 2014년 정했다.",
+      "anecdote": "설탕은 8세기 무렵 중국을 거쳐 일본에 들어왔는데, 처음에는 약으로 쓰였을 만큼 귀했다. 에도 시대까지도 사치품이라 서민이 단맛을 내려면 엿이나 감을 써야 했다. 사탕수수 재배가 자리 잡은 오키나와와 아마미 지역이 지금도 일본 설탕 생산의 중심이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한때는 약국에서 팔던 물질."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/103106.html"
+  },
+  {
+    "id": "anv-fixed-03-10-mint-day-jp",
+    "date": "03-10",
+    "dateType": "annual-fixed",
+    "name": "민트의 날 (ミントの日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본어로 3을 '미', 10을 '토'로 읽어 '민토(ミント)'가 되는 어감에서 왔다. 제과회사 크라시에푸즈가 2000년 자사 민트 제품을 알리려 정한 전형적인 마케팅 기념일이다.",
+      "anecdote": "민트가 시원하게 느껴지는 것은 온도가 실제로 내려가서가 아니라, 멘톨이 차가움을 감지하는 신경 수용체를 직접 건드리기 때문이다. 뇌가 속는 셈이다. 페퍼민트와 스피어민트는 다른 식물인데, 치약에 주로 쓰이는 쪽은 자극이 덜한 스피어민트다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "민트초코 논쟁은 오늘도 계속된다."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/10310a2.html"
+  },
+  {
     "id": "anv-fixed-03-11-worship-of-tools-day-global",
     "date": "03-11",
     "dateType": "annual-fixed",
@@ -1064,6 +1152,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-johnny-appleseed-day-march-11/"
+  },
+  {
+    "id": "anv-fixed-03-11-panda-discovery-day-jp",
+    "date": "03-11",
+    "dateType": "annual-fixed",
+    "name": "판다 발견의 날 (パンダ発見の日)",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "1869년 3월 11일 프랑스 선교사 아르망 다비드가 중국 쓰촨에서 판다 가죽을 손에 넣어 서양에 처음 알렸다. 그전까지 판다는 바깥 세계에 알려지지 않은 동물이었다.",
+      "anecdote": "판다는 곰과 동물인데도 대나무만 먹는다. 소화기관은 육식동물 그대로라 흡수율이 낮아, 하루 열두 시간 넘게 먹고 30kg 가까이 씹어야 버틴다. 한국에서는 에버랜드의 푸바오가 판다 인지도를 단숨에 끌어올렸다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "육식동물의 몸으로 채식하는 고집."
+      }
+    ],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-03-12-girl-scout-day-global",

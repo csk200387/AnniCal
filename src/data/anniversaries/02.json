@@ -330,6 +330,28 @@
     "sourceUrl": null
   },
   {
+    "id": "anv-fixed-02-06-nori-day-jp",
+    "date": "02-06",
+    "dateType": "annual-fixed",
+    "name": "김의 날 (海苔の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "701년 제정된 다이호율령이 김을 조세로 거두는 품목에 넣었고, 그 시행일을 양력으로 환산해 2월 6일로 잡았다. 전국김조개류어업협동조합연합회가 1966년 정했다.",
+      "anecdote": "1300년 전 법령에서 날짜를 끌어온 드문 사례다. 정작 지금은 한국이 세계 김 수출의 절반 이상을 차지하는 최대 수출국이고, 일본이 한국 김을 수입해 먹는다. 김을 굽지 않고 그대로 파는 일본과 달리 한국은 기름과 소금을 발라 구운 조미김이 주류다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "세금으로 낼 만큼 귀했던 시절이 있었다."
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-02-07-send-a-card-to-a-friend-day-us",
     "date": "02-07",
     "dateType": "annual-fixed",
@@ -506,6 +528,28 @@
     "sourceUrl": null
   },
   {
+    "id": "anv-fixed-02-09-meat-day-jp",
+    "date": "02-09",
+    "dateType": "annual-fixed",
+    "name": "고기의 날 (肉の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본어로 2를 '니', 9를 '쿠'로 읽어 '니쿠(肉)'가 되는 어감에서 왔다. 2월 9일뿐 아니라 매달 29일도 함께 고기의 날로 지켜, 정육점과 고깃집이 할인 행사를 연다.",
+      "anecdote": "한 해 한 번이 아니라 매달 돌아오는 구조가 특징이다. 한국의 삼겹살데이(3월 3일)가 '삼'을 두 번 겹친 것과 발상이 같지만, 이쪽은 열두 번을 더 챙긴다. 소고기를 등급으로 나눠 파는 방식도 일본에서 정착해 한국 축산 등급제에 영향을 줬다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "매달 29일, 지갑이 먼저 반응한다."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/102098.html"
+  },
+  {
     "id": "anv-fixed-02-10-umbrella-day-global",
     "date": "02-10",
     "dateType": "annual-fixed",
@@ -548,6 +592,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-cream-cheese-brownie-day-february-10/"
+  },
+  {
+    "id": "anv-fixed-02-10-knit-day-jp",
+    "date": "02-10",
+    "dateType": "annual-fixed",
+    "name": "니트의 날 (ニットの日)",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "일본어로 2를 '니', 10을 '토'로 읽어 '닛토(ニット)'가 되는 어감에서 왔다. 니트를 가장 많이 입는 한겨울에 놓여 있어 의류업계가 판촉에 쓰기 좋은 날로 자리 잡았다.",
+      "anecdote": "니트는 실을 짜서 만든 옷감 전체를 가리키는 말로, 스웨터만이 아니라 티셔츠 원단도 여기 든다. 천을 잘라 꿰매는 직물과 달리 고리를 엮어 만들어 늘어나는 성질이 있다. 니트가 옷장에서 늘어나는 것도 이 구조 때문이라, 걸어 두지 말고 개어 보관하라는 말이 나온다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "보풀 나기 시작하면 마음도 같이 상한다."
+      }
+    ],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-02-11-dont-cry-over-spilled-milk-day-us",
@@ -1581,5 +1647,27 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-wear-red-day-first-friday-in-february/"
+  },
+  {
+    "id": "anv-fixed-02-28-biscuit-day-jp",
+    "date": "02-28",
+    "dateType": "annual-fixed",
+    "name": "비스킷의 날 (ビスケットの日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "1855년 2월 28일 미토번 의사 시바타 호안이 동료에게 '빵·비스킷 제조법'을 적어 보냈다. 일본에 남은 가장 오래된 비스킷 제조 기록이라 전국비스킷협회가 1980년 이날로 정했다.",
+      "anecdote": "날짜가 두 겹으로 맞아떨어진다. 비스킷의 어원인 라틴어 bis coctus가 '두 번 굽다'라는 뜻인데, 일본어로 2월 28일을 읽으면 '니도야쿠(두 번 굽다)'가 된다. 참고로 일본에서 비스킷과 쿠키를 가르는 기준은 당분과 지방 함량으로, 협회가 수치까지 정해 두었다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "어원까지 날짜에 맞춘 집요함."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/102281.html"
   }
 ]

@@ -670,6 +670,28 @@
     "sourceUrl": "https://ko.wikipedia.org/wiki/한식_(절기)"
   },
   {
+    "id": "anv-fixed-04-06-corned-beef-day-jp",
+    "date": "04-06",
+    "dateType": "annual-fixed",
+    "name": "콘비프의 날 (コンビーフの日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "1875년 4월 6일 사다리꼴 콘비프 통조림이 미국에서 특허를 받았다. 위가 좁고 아래가 넓은 그 모양은 고기를 눌러 담고 빈틈없이 채우기 위한 것이었다.",
+      "anecdote": "이름의 '콘(corn)'은 옥수수가 아니라 소금 알갱이를 뜻한다. 소금에 절인 소고기라는 말이다. 열쇠를 돌려 캔을 여는 방식도 이 통조림에서 널리 퍼졌다. 두 차례 세계대전에서 군용 식량으로 대량 보급되며 서구 가정식으로 자리 잡았다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "그 사다리꼴에는 다 이유가 있었다."
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-04-07-beer-day-us",
     "date": "04-07",
     "dateType": "annual-fixed",
@@ -948,6 +970,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-chinese-almond-cookie-day-april-9/"
+  },
+  {
+    "id": "anv-fixed-04-09-folk-song-day-jp",
+    "date": "04-09",
+    "dateType": "annual-fixed",
+    "name": "포크송의 날 (フォークソングの日)",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "일본어로 4를 '포', 9를 '쿠'로 읽어 '포쿠(フォーク)'가 되는 어감에서 왔다. 여성 듀오 야나와라바가 제안하고 소속 레이블 PANAM이 신청해 2015년 일본기념일협회가 인정했다.",
+      "anecdote": "포크송은 본래 민요를 뜻하는 말이었지만 지금은 통기타 중심의 대중음악 갈래를 가리킨다. 한국에서도 1970년대 통기타 세대가 같은 흐름을 탔고, 그 시절 노래가 여전히 불린다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "통기타 하나면 무대가 완성되던 시절."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/104097.html"
   },
   {
     "id": "anv-fixed-04-10-farm-animals-day-us",
@@ -1868,6 +1912,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-haiku-poetry-day-april-17/"
   },
   {
+    "id": "anv-fixed-04-17-dinosaur-day-jp",
+    "date": "04-17",
+    "dateType": "annual-fixed",
+    "name": "공룡의 날 (恐竜の日)",
+    "category": "academic",
+    "tags": [
+      "학술 & 기술"
+    ],
+    "storytelling": {
+      "origin": "1923년 4월 17일 미국 동물학자 로이 채프먼 앤드루스가 고비사막 탐사를 위해 베이징을 떠났다. 이 여정에서 세계 최초로 공룡 알 화석을 찾아내 본격적인 공룡 연구의 문을 열었다.",
+      "anecdote": "권총을 차고 사막을 누빈 그의 모습이 인디아나 존스의 모델로 자주 거론된다. 공룡 알이 발견되기 전까지는 공룡이 알을 낳는지조차 확실히 알려져 있지 않았다. 그가 고비사막에서 찾은 알은 오비랍토르의 것이었는데, 처음에는 알을 훔친 도둑으로 오해받아 '알 도둑'이라는 이름이 붙었다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "공룡이 알을 낳는다는 걸 100년 전에야 알았다."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/104171.html"
+  },
+  {
     "id": "anv-fixed-04-18-animal-crackers-day-us",
     "date": "04-18",
     "dateType": "annual-fixed",
@@ -2762,6 +2828,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-pretzel-day-april-26/"
   },
   {
+    "id": "anv-fixed-04-26-good-bath-day-jp",
+    "date": "04-26",
+    "dateType": "annual-fixed",
+    "name": "좋은 목욕의 날 (よい風呂の日)",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "일본어로 4를 '요이(좋은)', 26을 '후로(목욕)'로 읽는 어감에서 왔다. 가족이 함께 목욕하며 이야기를 나누자는 취지로 지켜진다.",
+      "anecdote": "일본 가정에서는 욕조 물을 갈지 않고 온 가족이 차례로 쓰는 것이 보통이다. 몸은 욕조 밖에서 씻고 들어가는 것도 그래서다. 물을 데운 채 유지하는 보온 뚜껑이 필수품인 이유이기도 하다. 목욕물을 데우는 데 드는 비용이 만만치 않아, 물을 아껴 쓰는 관습이 자연스레 굳었다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "욕조 물을 물려받는 순서가 곧 서열."
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-04-27-babe-ruth-day-us",
     "date": "04-27",
     "dateType": "annual-fixed",
@@ -2998,6 +3086,28 @@
     "sourceUrl": "https://ko.wikipedia.org/wiki/이순신"
   },
   {
+    "id": "anv-fixed-04-28-elephant-day-jp",
+    "date": "04-28",
+    "dateType": "annual-fixed",
+    "name": "코끼리의 날 (象の日)",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "1729년 4월 28일 베트남에서 온 코끼리가 교토 궁궐에서 나카미카도 천황을 알현했다. 일본에 코끼리가 들어온 첫 기록으로, 나가사키에 상륙해 두 달 넘게 걸어서 교토까지 갔다.",
+      "anecdote": "천황을 만나려면 관직이 있어야 한다는 법도 때문에, 이 코끼리에게 '광남종4위백상'이라는 벼슬을 내린 뒤에야 알현이 성사됐다. 동물에게 관위를 준 전무후무한 사례다. 임무를 마친 뒤에는 에도로 옮겨져 쇼군에게도 보여졌고, 가는 곳마다 구경 인파가 몰렸다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "벼슬을 받고 나서야 입궐한 코끼리."
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-04-29-arbor-day-global",
     "date": "04-29",
     "dateType": "annual-fixed",
@@ -3106,6 +3216,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-hairball-awareness-day-april-29/"
+  },
+  {
+    "id": "anv-fixed-04-29-lamb-day-jp",
+    "date": "04-29",
+    "dateType": "annual-fixed",
+    "name": "양고기의 날 (羊肉の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본어로 4·2·9를 '요우니쿠(羊肉)'로 읽는 어감에서 왔다. 정체된 양고기 수요를 늘리려 징기스칸식보급확대촉진협의회가 2004년 제정했고 일본기념일협회가 인정했다.",
+      "anecdote": "'징기스칸'은 홋카이도에서 양고기를 둥근 무쇠판에 구워 먹는 요리다. 몽골과는 무관하고, 투구 모양 불판에서 이름이 붙었다는 설이 유력하다. 홋카이도에서는 벚꽃놀이에 이걸 구워 먹는다. 4월 29일이 일본 공휴일인 쇼와의 날과 겹쳐, 연휴 첫날에 양고기를 굽는 그림이 만들어졌다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "이름만 몽골, 실은 홋카이도 향토음식."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/104294.html"
   },
   {
     "id": "anv-fixed-04-30-raisin-day-us",

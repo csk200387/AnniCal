@@ -616,6 +616,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-cut-your-energy-costs-day-january-10/"
   },
   {
+    "id": "anv-fixed-01-10-mentaiko-day-jp",
+    "date": "01-10",
+    "dateType": "annual-fixed",
+    "name": "명란젓의 날 (明太子の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "1949년 1월 10일 후쿠오카의 식품점 후쿠야가 '가라시멘타이코'를 처음 만들어 판 날이다. 창업자 가와하라 도시오가 부산에서 먹던 명란젓 맛을 되살리려 몇 해를 매달린 끝에 내놓은 것이었다.",
+      "anecdote": "일본 자료도 명란젓의 뿌리가 한반도임을 그대로 적는다. 다만 젓갈에 가까운 한국식과 달리 일본에서는 고춧가루 양념에 절이는 방식으로 바뀌었다. 후쿠오카 하카타가 명란 산지로 유명해진 것도 이 가게에서 시작됐다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "부산에서 건너가 하카타 명물이 된 젓갈."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/101104.html"
+  },
+  {
     "id": "anv-fixed-01-11-step-in-a-puddle-day-us",
     "date": "01-11",
     "dateType": "annual-fixed",
@@ -1320,6 +1342,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/celebration-of-life-day-january-22/"
   },
   {
+    "id": "anv-fixed-01-22-curry-day-jp",
+    "date": "01-22",
+    "dateType": "annual-fixed",
+    "name": "카레의 날 (カレーの日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "1982년 1월 22일 일본 전국의 초·중학교가 같은 날 급식으로 카레를 냈다. 학교급식 30주년을 기린 행사였는데, 이날을 기려 전일본카레공업협동조합이 기념일로 정했다.",
+      "anecdote": "정작 인도에는 '카레'라는 이름의 요리가 없다. 영국이 인도 향신료를 쓰기 편하게 규격화한 카레가루가 일본으로 건너가 걸쭉한 카레라이스가 됐고, 한국에 들어온 것도 이 일본식이다. 급식 카레는 지금도 일본 아이들이 가장 좋아하는 메뉴로 꼽히고, 이날이면 카레 매장이 할인 행사를 연다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "급식 카레 나오는 날은 잔반이 없었다."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/101221.html"
+  },
+  {
     "id": "anv-fixed-01-23-handwriting-day-global",
     "date": "01-23",
     "dateType": "annual-fixed",
@@ -1450,6 +1494,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-irish-coffee-day-january-25/"
+  },
+  {
+    "id": "anv-fixed-01-25-lowest-temperature-day-jp",
+    "date": "01-25",
+    "dateType": "annual-fixed",
+    "name": "일본 최저기온의 날 (日本最低気温の日)",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "1902년 1월 25일 홋카이도 아사히카와에서 영하 41.0도가 관측됐다. 120년이 넘도록 깨지지 않은 일본 공식 최저기온 기록으로, 이날을 기려 기념일이 됐다.",
+      "anecdote": "같은 해 이 한파는 아오모리에서 육군 부대가 눈 속에서 조난해 199명이 목숨을 잃은 핫코다산 사건의 배경이기도 했다. 한국 공식 최저기온은 1981년 양평의 영하 32.6도다. 이날을 전후해 아사히카와에서는 겨울 축제가 열려, 추위 자체를 관광 자원으로 삼는다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "영하 41도. 숫자만 봐도 손이 시리다."
+      }
+    ],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-01-26-spouses-day-global",

@@ -308,6 +308,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-watermelon-day-august-3/"
   },
   {
+    "id": "anv-fixed-08-03-honey-day-jp",
+    "date": "08-03",
+    "dateType": "annual-fixed",
+    "name": "벌꿀의 날 (はちみつの日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본어로 8을 '하치', 3을 '미츠'로 읽어 '하치미츠(벌꿀)'가 되는 어감에서 왔다. 전일본벌꿀협동조합과 일본양봉꿀협회가 1985년 정했다.",
+      "anecdote": "숫자를 뒤집은 3월 8일은 '꿀벌의 날'로 따로 있다. 꿀은 수분이 적고 산성이라 상하지 않아, 3천 년 전 이집트 무덤에서 나온 꿀도 먹을 수 있는 상태였다는 이야기가 전해진다. 벌 한 마리가 평생 모으는 꿀은 티스푼 한 술도 되지 않아, 한 병을 채우려면 수만 번의 비행이 필요하다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "유통기한이 사실상 없는 유일한 식품."
+      }
+    ],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-08-04-night-out-day-us",
     "date": "08-04",
     "dateType": "annual-fixed",
@@ -526,6 +548,28 @@
       }
     ],
     "sourceUrl": "https://ko.wikipedia.org/wiki/입추"
+  },
+  {
+    "id": "anv-fixed-08-07-banana-day-jp",
+    "date": "08-07",
+    "dateType": "annual-fixed",
+    "name": "바나나의 날 (バナナの日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본어로 8을 '바', 7을 '나나'로 읽어 '바나나'가 되는 어감에서 왔다. 일본바나나수입조합이 2001년 정했다. 더운 시기에 간편하게 먹는 과일로 밀자는 취지였다.",
+      "anecdote": "우리가 먹는 바나나는 씨가 없어 접붙이기로만 번식하는 단일 품종이라, 병이 돌면 한꺼번에 무너진다. 실제로 20세기 중반 그로미셸 품종이 곰팡이병으로 사라지고 지금의 캐번디시로 바뀌었다. 일본과 한국 모두 바나나 수입의 대부분을 필리핀에 기대고 있다는 점도 닮았다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "지금 먹는 바나나는 2대째다."
+      }
+    ],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-08-08-dollar-day-us",
@@ -1408,6 +1452,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-chocolate-pecan-pie-day-august-20/"
   },
   {
+    "id": "anv-fixed-08-20-mosquito-day-global",
+    "date": "08-20",
+    "dateType": "annual-fixed",
+    "name": "세계 모기의 날 (World Mosquito Day)",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "1897년 8월 20일 영국 세균학자 로널드 로스가 학질모기 몸속에서 말라리아 원충을 찾아냈다. 모기가 말라리아를 옮긴다는 사실이 밝혀진 날로, 그는 이 공로로 노벨생리의학상을 받았다.",
+      "anecdote": "모기는 사람을 가장 많이 죽이는 동물로 꼽힌다. 말라리아만으로 해마다 수십만 명이 목숨을 잃는다. 한국에도 삼일열말라리아가 남아 있어 경기 북부와 강원 접경지에서 매년 환자가 나온다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "지구에서 사람을 가장 많이 죽이는 동물."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/108203.html"
+  },
+  {
     "id": "anv-fixed-08-21-brazilian-blowout-day-us",
     "date": "08-21",
     "dateType": "annual-fixed",
@@ -1914,6 +1980,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-chop-suey-day-august-29/"
   },
   {
+    "id": "anv-fixed-08-29-yakiniku-day-jp",
+    "date": "08-29",
+    "dateType": "annual-fixed",
+    "name": "야키니쿠의 날 (焼き肉の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본어로 8·2·9를 '야키니쿠(焼き肉)'로 읽는 어감에서 왔다. 전국야키니쿠협회가 1993년 정했다. 여름 끝자락의 더위를 고기로 이겨내자는 취지다.",
+      "anecdote": "야키니쿠는 재일한국인이 퍼뜨린 음식이다. 고기를 부위별로 나눠 굽고 양념장에 찍어 먹는 방식이 한국식 불고기·갈비에서 왔고, '호르몬'이라 부르는 내장 구이도 같은 뿌리다. 무연 로스터가 보급되며 옷에 냄새가 배지 않게 된 뒤 야키니쿠집이 크게 늘었다는 이야기도 있다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "이름은 일본어, 뿌리는 한국."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/108292.html"
+  },
+  {
     "id": "anv-fixed-08-30-toasted-marshmallow-day-us",
     "date": "08-30",
     "dateType": "annual-fixed",
@@ -1956,5 +2044,27 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-trail-mix-day-august-31/"
+  },
+  {
+    "id": "anv-fixed-08-31-vegetable-day-jp",
+    "date": "08-31",
+    "dateType": "annual-fixed",
+    "name": "야채의 날 (野菜の日)",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본어로 8·3·1을 '야사이(野菜)'로 읽는 어감에서 왔다. 전국청과물상업협동조합연합회를 비롯한 9개 단체가 1983년 함께 정했다.",
+      "anecdote": "아홉 단체가 손잡고 만든 드문 사례다. 세계보건기구는 하루 채소·과일 400g 이상을 권하는데, 한국과 일본 모두 젊은 층에서 이 기준에 못 미친다는 조사가 해마다 나온다. 8월 말은 여름 채소가 끝나고 가을 채소로 넘어가는 길목이라, 계절상으로도 채소를 돌아보기 좋은 때다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "샐러드 사놓고 시들려 버린 적 있으면 손."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/108311.html"
   }
 ]

@@ -500,6 +500,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-teddy-bear-day-september-9/"
   },
   {
+    "id": "anv-fixed-09-09-hot-spring-day-jp",
+    "date": "09-09",
+    "dateType": "annual-fixed",
+    "name": "온천의 날 (温泉の日)",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "오이타현 고코노에초가 정한 지역 기념일이다. 마을 이름 '고코노에(九重)'와 온천 아홉 곳을 뜻하는 '규토(九湯)'를 9월 9일 숫자에 맞춘 어감에서 왔다.",
+      "anecdote": "전국구가 아니라 한 마을에서 시작한 날이라는 점이 특징이다. 해마다 이날 '고코노에 규토 마츠리'가 열린다. 일본에는 화산 덕에 등록된 온천지만 3천 곳이 넘는다. 일본에서 온천으로 인정받으려면 수온이나 성분이 법으로 정한 기준을 넘어야 한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "마을 이름까지 숫자에 맞춘 집념."
+      }
+    ],
+    "sourceUrl": "https://zatsuneta.com/archives/109097.html"
+  },
+  {
     "id": "anv-fixed-09-10-tv-dinner-day-us",
     "date": "09-10",
     "dateType": "annual-fixed",
