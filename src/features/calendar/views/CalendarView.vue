@@ -22,6 +22,7 @@ const {
   retry,
   canGoPrev,
   canGoNext,
+  isMonthInRange,
   outOfRangeNotice,
   goPrevMonth,
   goNextMonth,
@@ -253,12 +254,13 @@ function handleShare(anv: Anniversary) {
             v-for="cell in weeks.flat()"
             :key="cell.date.format('YYYY-MM-DD')"
             type="button"
-            class="group relative flex min-h-[88px] flex-col items-stretch gap-1.5 border-b border-r border-rule p-2 text-left transition-colors hover:bg-paper-200/40 sm:min-h-[108px]"
+            class="group relative flex min-h-[88px] flex-col items-stretch gap-1.5 border-b border-r border-rule p-2 text-left transition-colors hover:bg-paper-200/40 sm:min-h-[108px] disabled:cursor-default disabled:hover:bg-transparent"
             :class="{
               'bg-paper-100/40 text-ink-300': !cell.isCurrentMonth,
               'bg-ink-900 hover:bg-ink-900 text-paper-50':
                 selectedDate.isSame(cell.date, 'day'),
             }"
+            :disabled="!isMonthInRange(cell.date)"
             @click="selectDate(cell.date)"
           >
             <span

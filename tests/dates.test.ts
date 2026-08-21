@@ -1,5 +1,6 @@
 // 날짜 계산의 경계 조건 — 윤일, 다섯째 요일, 표 범위, 자정, anchor 순환.
 import { describe, expect, it } from 'vitest'
+import dayjs from 'dayjs'
 import type { Anniversary } from '@/types/anniversary'
 import {
   OutOfTableRangeError,
@@ -178,5 +179,32 @@ describe('사이트 기준 시계 (Asia/Seoul)', () => {
       expect(ms, `UTC ${h}시`).toBeGreaterThan(0)
       expect(ms).toBeLessThanOrEqual(24 * 60 * 60 * 1000 + 1000)
     }
+  })
+})
+
+describe('달력 연도 범위 가드', () => {
+  // 표에 없는 연도로 넘어가면 음력 명절·24절기 37건이 조용히 사라진다.
+  // 다음/이전 달 버튼만 막으면 부족하다 — 6×7 격자는 앞뒤 달을 물고 있어서,
+  // 2050년 12월 화면의 끝 셀(2051-01-07)을 클릭하면 커서가 범위 밖으로 나간다.
+  const { min, max } = tabulatedYearRange()
+
+  const isMonthInRange = (d: dayjs.Dayjs) => d.year() >= min && d.year() <= max
+
+  it('12월 격자는 다음 해 날짜를 물고 있다 (전제 확인)', () => {
+    const last = dayjs(`${max}-12-01`).startOf('month').startOf('week').add(41, 'day')
+    expect(last.year()).toBe(max + 1)
+  })
+
+  it('범위 밖 셀은 선택 대상이 아니다', () => {
+    expect(isMonthInRange(dayjs(`${max}-12-31`))).toBe(true)
+    expect(isMonthInRange(dayjs(`${max + 1}-01-01`))).toBe(false)
+    expect(isMonthInRange(dayjs(`${min}-01-01`))).toBe(true)
+    expect(isMonthInRange(dayjs(`${min - 1}-12-31`))).toBe(false)
+  })
+
+  it('범위 밖 연도는 음력 항목을 만들지 못한다 (막아야 하는 이유)', () => {
+    const seollal = { id: 's', date: 'seollal', dateType: 'annual-tabulated' } as Anniversary
+    expect(resolveOccurrenceSafe(seollal, max)).not.toBeNull()
+    expect(resolveOccurrenceSafe(seollal, max + 1)).toBeNull()
   })
 })

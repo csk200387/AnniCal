@@ -47,6 +47,11 @@ export function useMonthCalendar() {
   const canGoNext = computed(
     () => cursor.value.add(1, 'month').year() <= yearRange.max,
   )
+  /** 그 달로 커서를 옮겨도 되는지 — 표에 있는 연도 안인지. */
+  function isMonthInRange(d: Dayjs): boolean {
+    return d.year() >= yearRange.min && d.year() <= yearRange.max
+  }
+
   const outOfRangeNotice = computed(() => {
     const y = cursor.value.year()
     if (y < yearRange.min || y > yearRange.max) {
@@ -125,6 +130,10 @@ export function useMonthCalendar() {
     selectedDate.value = today.value
   }
   function selectDate(d: Dayjs) {
+    // 6×7 격자는 앞뒤 달을 물고 있다. 2050년 12월 화면의 끝 셀은 2051년 1월인데,
+    // 그걸 클릭하면 커서가 표 범위 밖으로 나가 음력·절기가 조용히 사라진다.
+    // 다음 달 버튼을 막아 둔 것과 같은 이유로 여기서도 막는다.
+    if (!isMonthInRange(d)) return
     selectedDate.value = d
     if (!d.isSame(cursor.value, 'month')) {
       cursor.value = d.startOf('month')
@@ -147,6 +156,7 @@ export function useMonthCalendar() {
     searchResults,
     canGoPrev,
     canGoNext,
+    isMonthInRange,
     outOfRangeNotice,
     isLoading: computed(() => store.isLoading),
     error: computed(() => store.error),
