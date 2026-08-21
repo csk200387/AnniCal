@@ -506,6 +506,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-raspberries-n-cream-day-august-7/"
   },
   {
+    "id": "anv-term-ipchu-kr",
+    "date": "ipchu",
+    "dateType": "annual-tabulated",
+    "name": "입추 (立秋)",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "가을이 시작되는 절기다. 실제로는 한여름 폭염이 한창이라 이름과 체감이 가장 크게 어긋나는 절기로 꼽힌다. 그래도 이 무렵부터 아침저녁 공기가 조금씩 달라진다.",
+      "anecdote": "농가에서는 입추 뒤 닷새간 날씨로 그해 수확을 점쳤다. 이때 비가 지나치게 오면 벼가 여물지 않는다고 여겨, 맑기를 비는 기청제를 지내기도 했다. 김장용 무와 배추를 심는 시기이기도 하다. 이 무렵 심은 무와 배추가 자라 늦가을 김장 재료가 된다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "가을 시작이래서 봤더니 체감 35도."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/입추"
+  },
+  {
     "id": "anv-fixed-08-08-dollar-day-us",
     "date": "08-08",
     "dateType": "annual-fixed",
@@ -1494,6 +1516,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-sponge-cake-day-august-23/"
+  },
+  {
+    "id": "anv-term-cheoseo-kr",
+    "date": "cheoseo",
+    "dateType": "annual-tabulated",
+    "name": "처서 (處暑)",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "더위가 물러가 머문다(處)는 뜻으로, 여름 기운이 한풀 꺾이는 절기다. 아침저녁으로 선선해지고 풀이 더 자라지 않아, 이 무렵 산소를 찾아 벌초를 한다.",
+      "anecdote": "\"처서가 지나면 모기 입이 비뚤어진다\"는 속담처럼 이때부터 모기가 눈에 띄게 줄어든다. 최근에는 더위가 길어지며 처서가 지나도 모기가 기승을 부려 이 속담이 옛말이 됐다는 이야기가 해마다 나온다. 논에서는 벼가 익어 가고, 이 시기의 볕과 바람이 그해 쌀맛을 좌우한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "모기 입이 비뚤어진다더니 아직 멀쩡하던데요."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/처서"
   },
   {
     "id": "anv-fixed-08-24-waffle-day-us",

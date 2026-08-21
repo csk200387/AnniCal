@@ -472,6 +472,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-caramel-day-april-5/"
   },
   {
+    "id": "anv-term-cheongmyeong-kr",
+    "date": "cheongmyeong",
+    "dateType": "annual-tabulated",
+    "name": "청명 (淸明)",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "하늘이 맑고 밝아진다는 뜻의 절기로, 본격적인 봄 농사가 시작되는 때다. 조상 산소를 찾아 손보는 성묘의 시기이기도 해서 식목일과 하루 차이로 붙어 있는 경우가 많다.",
+      "anecdote": "\"청명에 죽으나 한식에 죽으나\"라는 속담이 있다. 두 날이 하루 차이라 별 차이가 없다는 뜻으로, 이러나저러나 마찬가지인 상황을 가리킬 때 쓴다. 한식은 불을 쓰지 않고 찬 음식을 먹는 날이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "하늘은 맑은데 미세먼지 농도는 나쁨."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/청명"
+  },
+  {
     "id": "anv-fixed-04-06-sorry-charlie-day-us",
     "date": "04-06",
     "dateType": "annual-fixed",
@@ -2096,6 +2118,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-pineapple-upside-down-cake-day-april-20/"
+  },
+  {
+    "id": "anv-term-gogu-kr",
+    "date": "gogu",
+    "dateType": "annual-tabulated",
+    "name": "곡우 (穀雨)",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "곡식을 자라게 하는 비가 내린다는 뜻의 절기다. 봄 절기의 마지막으로, 이 무렵 내리는 비가 한 해 농사의 밑천이 된다고 여겨 농가에서 특히 반겼다.",
+      "anecdote": "곡우 전에 딴 찻잎으로 만든 차를 '우전(雨前)'이라 하여 가장 귀하게 친다. 어리고 여린 잎이라 향이 부드럽고 떫은맛이 적다. 서해에서는 이때 올라오는 조기를 '곡우사리'라 부르며 최상품으로 쳤다. 이 무렵 비가 부족하면 못자리가 마르기 때문에 농가에서는 하늘만 쳐다봤다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "농부는 반기고 나들이객은 원망하는 비."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/곡우"
   },
   {
     "id": "gov-14",

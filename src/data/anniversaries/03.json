@@ -522,6 +522,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-cheese-doodle-day-march-5/"
   },
   {
+    "id": "anv-term-gyeongchip-kr",
+    "date": "gyeongchip",
+    "dateType": "annual-tabulated",
+    "name": "경칩 (驚蟄)",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "겨울잠을 자던 벌레와 개구리가 놀라 깨어난다는 뜻의 절기다. 한자 그대로 '숨어 있던 것(蟄)이 놀란다(驚)'는 말로, 땅속 생물까지 봄을 알아차리는 때라는 뜻을 담았다.",
+      "anecdote": "이날 개구리 알을 먹으면 몸에 좋다는 속설이 있어 논둑을 뒤지는 풍습이 있었다. 은행나무 열매를 나눠 먹으며 마음을 확인하던 풍습도 전해져, 한국판 밸런타인데이로 소개되기도 한다. 흙을 물에 개어 벽을 바르면 탈이 없다고 해서 이날 집을 손보기도 했다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "개구리도 일어나는데 나만 아직 이불 속."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/경칩"
+  },
+  {
     "id": "anv-fixed-03-06-frozen-food-day-global",
     "date": "03-06",
     "dateType": "annual-fixed",
@@ -1899,6 +1921,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-proposal-day-march-20/"
+  },
+  {
+    "id": "anv-term-chunbun-kr",
+    "date": "chunbun",
+    "dateType": "annual-tabulated",
+    "name": "춘분 (春分)",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "태양이 적도 바로 위를 지나 낮과 밤의 길이가 거의 같아지는 날이다. 이날을 기점으로 낮이 밤보다 길어지기 시작한다. 태양 황경 0도로, 24절기의 기준점이 되는 순간이기도 하다.",
+      "anecdote": "낮과 밤이 정확히 같지는 않고 실제로는 낮이 몇 분 더 길다. 해가 지평선에 걸쳐 있어도 대기가 빛을 굴절시켜 실제보다 일찍 뜨고 늦게 지는 것처럼 보이기 때문이다. 밤이 더 길어지는 추분과 짝을 이룬다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "이제부터 해가 길어진다는 공식 선언."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/춘분"
   },
   {
     "id": "anv-fixed-03-21-common-courtesy-day-global",

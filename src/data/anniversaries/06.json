@@ -604,6 +604,28 @@
     "sourceUrl": "https://ko.wikipedia.org/wiki/현충일"
   },
   {
+    "id": "anv-term-mangjong-kr",
+    "date": "mangjong",
+    "dateType": "annual-tabulated",
+    "name": "망종 (芒種)",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "까끄라기(芒)가 있는 곡식의 씨를 뿌린다는 뜻이다. 보리를 베고 그 자리에 모를 심는 때로, 한 해 농사에서 가장 손이 바쁜 시기다. \"발등에 오줌 싼다\"는 말이 나올 만큼 정신없이 바빴다.",
+      "anecdote": "현충일이 6월 6일인 것도 이 절기와 관계가 있다. 모내기가 끝나는 망종 무렵에 전사한 군졸의 유해를 거둬 제사를 지내던 오랜 풍습에서 날짜를 따왔다. 보리를 베어 밥을 지어 먹으면 한 해 동안 배탈이 나지 않는다는 이야기도 전해진다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "1년 중 농부가 가장 바쁜 날."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/망종"
+  },
+  {
     "id": "anv-fixed-06-07-vcr-day-us",
     "date": "06-07",
     "dateType": "annual-fixed",
@@ -1750,6 +1772,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-summer-begins-june-21/"
+  },
+  {
+    "id": "anv-term-haji-kr",
+    "date": "haji",
+    "dateType": "annual-tabulated",
+    "name": "하지 (夏至)",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "북반구에서 낮이 가장 길고 밤이 가장 짧은 날이다. 서울 기준으로 해가 떠 있는 시간이 열네 시간을 넘는다. 이날을 지나면 낮이 다시 짧아지기 시작한다.",
+      "anecdote": "낮이 가장 길지만 가장 더운 날은 아니다. 땅과 바다가 열을 머금는 데 시간이 걸려 실제 더위는 한 달 남짓 뒤인 대서 무렵에 정점을 찍는다. 하지가 지나도록 비가 오지 않으면 기우제를 지냈다. 이날 이후로 해가 짧아지지만 더위는 이제 시작이라는 점이 늘 억울하게 느껴진다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "퇴근했는데 아직도 대낮인 그날."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/하지_(절기)"
   },
   {
     "id": "anv-fixed-06-22-onion-rings-day-us",

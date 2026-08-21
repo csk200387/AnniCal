@@ -4871,6 +4871,14 @@
     "slug": "universal-hour-of-peace",
     "urlDate": "12-31"
   },
+  "anv-lunar-chuseok-kr": {
+    "slug": "chuseok",
+    "urlDate": "09-25"
+  },
+  "anv-lunar-seollal-kr": {
+    "slug": "seollal",
+    "urlDate": "02-17"
+  },
   "anv-nth-02-1-fri-wear-red-day-us": {
     "slug": "wear-red-day",
     "urlDate": "02-06"
@@ -5002,6 +5010,98 @@
   "anv-rel-thanksgiving-4-cyber-monday-global": {
     "slug": "cyber-monday",
     "urlDate": "11-30"
+  },
+  "anv-term-baengno-kr": {
+    "slug": "baengno",
+    "urlDate": "09-07"
+  },
+  "anv-term-cheongmyeong-kr": {
+    "slug": "cheongmyeong",
+    "urlDate": "04-05"
+  },
+  "anv-term-cheoseo-kr": {
+    "slug": "cheoseo",
+    "urlDate": "08-23"
+  },
+  "anv-term-chubun-kr": {
+    "slug": "chubun",
+    "urlDate": "09-23"
+  },
+  "anv-term-chunbun-kr": {
+    "slug": "chunbun",
+    "urlDate": "03-20"
+  },
+  "anv-term-daehan-kr": {
+    "slug": "daehan",
+    "urlDate": "01-20"
+  },
+  "anv-term-daeseo-kr": {
+    "slug": "daeseo",
+    "urlDate": "07-23"
+  },
+  "anv-term-daeseol-kr": {
+    "slug": "daeseol",
+    "urlDate": "12-07"
+  },
+  "anv-term-gogu-kr": {
+    "slug": "gogu",
+    "urlDate": "04-20"
+  },
+  "anv-term-gyeongchip-kr": {
+    "slug": "gyeongchip",
+    "urlDate": "03-05"
+  },
+  "anv-term-haji-kr": {
+    "slug": "haji",
+    "urlDate": "06-21"
+  },
+  "anv-term-hallo-kr": {
+    "slug": "hallo",
+    "urlDate": "10-08"
+  },
+  "anv-term-ipchu-kr": {
+    "slug": "ipchu",
+    "urlDate": "08-07"
+  },
+  "anv-term-ipchun-kr": {
+    "slug": "ipchun",
+    "urlDate": "02-04"
+  },
+  "anv-term-ipdong-kr": {
+    "slug": "ipdong",
+    "urlDate": "11-07"
+  },
+  "anv-term-ipha-kr": {
+    "slug": "ipha",
+    "urlDate": "05-05"
+  },
+  "anv-term-mangjong-kr": {
+    "slug": "mangjong",
+    "urlDate": "06-06"
+  },
+  "anv-term-sanggang-kr": {
+    "slug": "sanggang",
+    "urlDate": "10-23"
+  },
+  "anv-term-sohan-kr": {
+    "slug": "sohan",
+    "urlDate": "01-05"
+  },
+  "anv-term-soman-kr": {
+    "slug": "soman",
+    "urlDate": "05-21"
+  },
+  "anv-term-soseo-kr": {
+    "slug": "soseo",
+    "urlDate": "07-07"
+  },
+  "anv-term-soseol-kr": {
+    "slug": "soseol",
+    "urlDate": "11-22"
+  },
+  "anv-term-usu-kr": {
+    "slug": "usu",
+    "urlDate": "02-19"
   },
   "gov-1": {
     "slug": "february-28-democracy-movement-day",

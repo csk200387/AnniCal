@@ -368,6 +368,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-bittersweet-chocolate-almonds-day-november-7/"
   },
   {
+    "id": "anv-term-ipdong-kr",
+    "date": "ipdong",
+    "dateType": "annual-tabulated",
+    "name": "입동 (立冬)",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "겨울이 시작되는 절기다. 나뭇잎이 지고 동물이 겨울 채비에 들어가는 때로, 농가에서는 이 무렵을 김장 시기의 기준으로 삼았다.",
+      "anecdote": "\"입동 전에 김장을 해야 제맛\"이라는 말이 있다. 너무 이르면 배추가 무르고 늦으면 얼기 때문인데, 요즘은 기온이 올라 김장 시기가 예전보다 보름 남짓 늦춰졌다. 마을 어른께 음식을 대접하는 '치계미' 풍습도 이날 있었다. 이 무렵 감을 따 곶감을 만들어 매달아 두는 것도 겨울 채비의 하나였다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "김장 단톡방이 열리는 날."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/입동"
+  },
+  {
     "id": "anv-fixed-11-08-parents-as-teachers-day-us",
     "date": "11-08",
     "dateType": "annual-fixed",
@@ -1234,6 +1256,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-cranberry-relish-day-november-22/"
+  },
+  {
+    "id": "anv-term-soseol-kr",
+    "date": "soseol",
+    "dateType": "annual-tabulated",
+    "name": "소설 (小雪)",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "첫눈이 내리기 시작한다는 뜻의 절기다. 아직 눈이 쌓일 만큼은 아니어서 '작은 눈'이라 했다. 초겨울 추위가 시작되지만 볕이 남아 있어 '작은 봄'이라 부르기도 했다.",
+      "anecdote": "이 무렵 부는 강한 바람을 '손돌바람'이라 불렀다. 고려 시대 뱃사공 손돌이 억울하게 죽은 날이라 그 원한으로 바람이 분다는 이야기가 전해진다. 뱃사람들은 이날 배를 띄우지 않았다. 이때부터 시래기를 엮어 처마에 걸고 무를 땅에 묻어 겨울 먹거리를 갈무리했다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "첫눈 온다길래 기다렸는데 진눈깨비."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/소설_(절기)"
   },
   {
     "id": "anv-fixed-11-23-espresso-day-us",

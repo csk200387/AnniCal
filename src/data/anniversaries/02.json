@@ -220,6 +220,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-create-a-vacuum-day-february-4/"
   },
   {
+    "id": "anv-term-ipchun-kr",
+    "date": "ipchun",
+    "dateType": "annual-tabulated",
+    "name": "입춘 (立春)",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "24절기의 첫 번째로 봄이 시작되는 날이다. 아직 한겨울 추위가 남아 있지만, 이날부터 해가 길어지는 것이 몸으로 느껴지기 시작한다. 태양 황경이 315도에 이르는 순간으로 대개 2월 4일 무렵이다.",
+      "anecdote": "대문이나 기둥에 '입춘대길 건양다경(立春大吉 建陽多慶)'이라 써 붙이는 풍습이 있다. 봄이 시작되니 크게 길하고, 밝은 기운이 일어 경사가 많으라는 뜻이다. 묵은 것을 떼지 않고 그 위에 덧붙이는 집도 많았다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "봄이 온다더니 오늘 영하 10도."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/입춘"
+  },
+  {
     "id": "anv-fixed-02-05-weatherpersons-day-us",
     "date": "02-05",
     "dateType": "annual-fixed",
@@ -929,6 +951,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-cabbage-day-february-17/"
   },
   {
+    "id": "anv-lunar-seollal-kr",
+    "date": "seollal",
+    "dateType": "annual-tabulated",
+    "name": "설날",
+    "category": "holiday",
+    "tags": [
+      "공휴일"
+    ],
+    "storytelling": {
+      "origin": "음력 1월 1일, 한 해가 새로 시작되는 날이다. 차례를 지내고 어른께 세배를 올리며 떡국을 먹는다. 떡국을 먹어야 나이를 한 살 더 먹는다는 말이 여기서 나왔다. 앞뒤 하루씩을 더해 사흘이 공휴일이다.",
+      "anecdote": "일제강점기와 산업화 시기에 양력설을 쓰라는 압박으로 오랫동안 '구정'이라 불리며 밀려나 있었다. 1985년 '민속의 날'이라는 이름으로 하루 쉬게 됐고, 1989년에야 설날이라는 본래 이름과 사흘 연휴를 되찾았다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "세뱃돈 받던 시절이 인생의 황금기였다."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/설날"
+  },
+  {
     "id": "anv-fixed-02-18-battery-day-global",
     "date": "02-18",
     "dateType": "annual-fixed",
@@ -1015,6 +1059,28 @@
       }
     ],
     "sourceUrl": null
+  },
+  {
+    "id": "anv-term-usu-kr",
+    "date": "usu",
+    "dateType": "annual-tabulated",
+    "name": "우수 (雨水)",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "눈이 그치고 비가 내리기 시작한다는 뜻의 절기다. 얼었던 땅이 풀리고 강물이 녹아 흐르는 때로, 농가에서는 이 무렵부터 한 해 농사 준비를 시작했다.",
+      "anecdote": "\"우수 경칩에 대동강 물이 풀린다\"는 속담이 여기서 나왔다. 아무리 추운 겨울도 이 두 절기를 지나면 물러난다는 뜻으로, 힘든 시기가 끝나 간다는 비유로도 자주 쓰인다. 우수를 지나면 논밭의 흙을 갈고 거름을 내며 못자리 자리를 살피기 시작했다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "눈 대신 비. 그래도 춥긴 마찬가지."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/우수"
   },
   {
     "id": "anv-fixed-02-20-love-your-pet-day-global",

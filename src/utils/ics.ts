@@ -3,7 +3,7 @@
 // 런타임 import 는 상대경로만 사용하고, 타입은 import type 으로만 들여온다.
 import dayjs from 'dayjs'
 // Node ESM(서버리스 함수)과 Vite 양쪽에서 동작하도록 상대경로 + .js 확장자 사용.
-import { resolveOccurrence } from './dateUtils.js'
+import { resolveOccurrence, tabulatedYearRange } from './dateUtils.js'
 import type { Anniversary } from '../types/anniversary.js'
 
 const DOW_TO_ICS: Record<string, string> = {
@@ -78,7 +78,8 @@ function rruleFor(anv: Anniversary): string | null {
       return `FREQ=YEARLY;BYMONTH=${Number(mm)};BYDAY=${ord}${ics}`
     }
     default:
-      // annual-floating, one-time → 단일 발생
+      // annual-tabulated(음력·절기)는 반복 규칙으로 표현할 수 없어 RDATE 로 날짜를
+      // 나열한다(아래 eventLines 참고). annual-floating, one-time 은 단일 발생.
       return null
   }
 }
@@ -93,11 +94,27 @@ function eventLines(anv: Anniversary, year: number, stamp: string): string[] | n
   }
   if (Number.isNaN(start.getTime())) return null
 
+  // 음력 명절과 24절기는 "매년 N월 N일" 같은 규칙이 없어 RRULE 로 못 적는다.
+  // 대신 표에 있는 이후 연도의 날짜를 RDATE 로 나열한다. 이렇게 하지 않으면
+  // 구독 캘린더에 올해치 하나만 뜨고 내년 설날이 보이지 않는다.
+  const rdates: string[] = []
+  if (anv.dateType === 'annual-tabulated') {
+    const { max } = tabulatedYearRange()
+    for (let y = year + 1; y <= Math.min(year + 10, max); y += 1) {
+      try {
+        rdates.push(fmtDate(resolveOccurrence(anv, y)))
+      } catch {
+        break
+      }
+    }
+  }
+
   const lines: string[] = [
     'BEGIN:VEVENT',
     `UID:${anv.id}@annical.vercel.app`,
     `DTSTAMP:${stamp}`,
     `DTSTART;VALUE=DATE:${fmtDate(start)}`,
+    ...(rdates.length ? [`RDATE;VALUE=DATE:${rdates.join(',')}`] : []),
     `DTEND;VALUE=DATE:${fmtDate(dayjs(start).add(1, 'day').toDate())}`,
   ]
 

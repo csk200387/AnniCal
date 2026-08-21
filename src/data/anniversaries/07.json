@@ -440,6 +440,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-father-daughter-take-a-walk-day-july-7/"
   },
   {
+    "id": "anv-term-soseo-kr",
+    "date": "soseo",
+    "dateType": "annual-tabulated",
+    "name": "소서 (小暑)",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "'작은 더위'라는 뜻으로, 본격적인 무더위가 시작되는 절기다. 한국에서는 이 무렵이 장마와 겹쳐 습하고 후텁지근한 날이 이어진다.",
+      "anecdote": "이때 나는 밀과 보리로 만든 국수와 수제비를 즐겨 먹었다. 갓 거둔 곡식이라 맛이 좋고, 불 앞에 오래 서지 않아도 되는 음식이라는 실용적인 이유도 있었다. 소서를 지나면 대서가 기다린다. 이 무렵 제철을 맞는 민어로 끓인 탕은 예부터 여름 보양식으로 첫손에 꼽혔다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "이게 작은 더위면 큰 더위는 대체."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/소서"
+  },
+  {
     "id": "anv-fixed-07-08-chocolate-with-almonds-day-us",
     "date": "07-08",
     "dateType": "annual-fixed",
@@ -1400,6 +1422,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-vanilla-ice-cream-day-july-23/"
+  },
+  {
+    "id": "anv-term-daeseo-kr",
+    "date": "daeseo",
+    "dateType": "annual-tabulated",
+    "name": "대서 (大暑)",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "'큰 더위'라는 이름대로 한 해 중 가장 더운 시기의 절기다. 대개 중복 무렵과 겹치고, 장마가 끝나면서 찌는 듯한 폭염이 이어진다.",
+      "anecdote": "낮이 가장 긴 하지가 아니라 한 달쯤 뒤인 이때가 가장 더운 것은, 땅과 바다가 받은 열을 천천히 내놓기 때문이다. \"염소 뿔도 녹는다\"는 속담이 이 시기를 두고 나온 말이다. 이때가 참외와 수박이 가장 단 시기이기도 해서, 더위와 맞바꾼 보상처럼 여겨졌다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "에어컨 없이는 생존 불가 구간 진입."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/대서"
   },
   {
     "id": "anv-fixed-07-24-drive-thru-day-us",

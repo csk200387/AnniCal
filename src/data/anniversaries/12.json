@@ -648,6 +648,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-pearl-harbor-remembrance-day-december-7/"
   },
   {
+    "id": "anv-term-daeseol-kr",
+    "date": "daeseol",
+    "dateType": "annual-tabulated",
+    "name": "대설 (大雪)",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "눈이 많이 내린다는 뜻의 절기다. 다만 이름은 중국 화북 지방 기준이라, 한국에서는 대설에 눈이 오지 않는 해가 오히려 흔하다. 절기 이름과 실제 날씨가 어긋나는 대표적인 사례다.",
+      "anecdote": "농가에서는 이때 눈이 많이 오면 이듬해 풍년이 든다고 여겼다. 눈이 이불처럼 땅을 덮어 보리가 얼지 않게 해 주고, 녹으면서 물을 대 주기 때문이다. \"눈은 보리 이불\"이라는 말이 여기서 나왔다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "대설인데 눈 소식이 없는 게 국룰."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/대설"
+  },
+  {
     "id": "anv-fixed-12-08-brownie-day-us",
     "date": "12-08",
     "dateType": "annual-fixed",
@@ -1683,25 +1705,25 @@
   },
   {
     "id": "anv-fixed-12-22-winter-solstice-global",
-    "date": "12-22",
-    "dateType": "annual-fixed",
-    "name": "동지 (Winter Solstice)",
+    "date": "dongji",
+    "dateType": "annual-tabulated",
+    "name": "동지 (冬至)",
     "category": "animal",
     "tags": [
       "동물 & 자연"
     ],
     "storytelling": {
-      "origin": "북반구에서 밤이 가장 길고 낮이 가장 짧은 날로, 이날을 기점으로 다시 낮이 길어지기 시작한다.",
-      "anecdote": "한국에서는 팥죽을 먹으며 동지를 기념하는 전통이 있을 만큼, 절기를 통해 자연의 순환을 기념하는 문화가 세계 곳곳에 존재한다."
+      "origin": "24절기의 스물두 번째로, 북반구에서 밤이 가장 길고 낮이 가장 짧은 날이다. 태양 황경이 270도에 이르는 순간으로, 해에 따라 12월 21일이거나 22일이다. 이날을 지나면 낮이 다시 길어지기 시작해 예부터 한 해의 진짜 시작으로 여겼다.",
+      "anecdote": "'작은설'이라 불리며 팥죽을 쑤어 먹는다. 붉은 팥이 나쁜 기운을 물리친다고 믿어 대문과 장독에 뿌리기도 했다. 나이 수만큼 새알심을 넣어 먹으면 한 살 더 먹는다는 말도 여기서 나왔다. 동지가 음력 11월 초순에 들면 애동지라 하여 팥죽 대신 팥떡을 했다."
     },
     "memes": [
       {
         "type": "text",
         "url": null,
-        "caption": "가장 어두운 날을 지나야 다시 빛이 길어진다는 그 절묘한 순환"
+        "caption": "가장 어두운 날을 지나야 다시 빛이 길어진다."
       }
     ],
-    "sourceUrl": "https://nationaldaycalendar.com/national-winter-solstice-december-22/"
+    "sourceUrl": "https://ko.wikipedia.org/wiki/동지"
   },
   {
     "id": "anv-fixed-12-22-ice-swim",

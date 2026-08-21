@@ -1,9 +1,53 @@
 import dayjs from 'dayjs'
 // 서버리스 함수(Node ESM)에서도 컴파일되도록 상대경로 타입 import 사용.
 import type { Anniversary } from '../types/anniversary.js'
+// Node ESM 런타임에서 JSON import 는 import 속성이 필수 (all.ts 와 같은 규칙).
+import observancesJson from '../data/observances.json' with { type: 'json' }
 
 const DOW_MAP: Record<string, number> = {
   SUN: 0, MON: 1, TUE: 2, WED: 3, THU: 4, FRI: 5, SAT: 6,
+}
+
+/**
+ * annual-tabulated 용 연도별 발생일 표. { 키: { "2026": "02-17", … } }
+ *
+ * 음력 명절(설날·추석)은 양력과 규칙적인 관계가 없고, 24절기는 태양 황경으로
+ * 정의돼 천문 계산이 필요하다. 둘 다 런타임에서 계산하는 대신 미리 뽑아 둔다.
+ * 표는 tools/observances/generate_observances.py 가 만든다.
+ */
+const observances = observancesJson as Record<string, Record<string, string>>
+
+/** 표에 수록된 연도 범위. 벗어나면 가장 가까운 연도로 물러선다. */
+const observanceYears = (() => {
+  const first = Object.values(observances)[0] ?? {}
+  const ys = Object.keys(first).map(Number).sort((a, b) => a - b)
+  return { min: ys[0] ?? 0, max: ys[ys.length - 1] ?? 0 }
+})()
+
+/** annual-tabulated 표가 담고 있는 연도 범위. ics 가 RDATE 를 채울 때 쓴다. */
+export function tabulatedYearRange(): { min: number; max: number } {
+  return observanceYears
+}
+
+/**
+ * 표에서 해당 연도의 MM-DD 를 찾는다.
+ *
+ * 수록 범위를 벗어난 연도는 가장 가까운 연도 값으로 대신한다. 24절기는 해마다
+ * 하루 안팎만 움직여 이 근사가 무해하지만, 음력 명절은 크게 어긋난다.
+ * 범위를 넓히려면 생성기의 연도 범위를 늘려 표를 다시 만들 것.
+ */
+function resolveTabulated(key: string, year: number): Date {
+  const row = observances[key]
+  if (!row) {
+    throw new Error(`annual-tabulated: observances.json 에 없는 키 "${key}"`)
+  }
+  const clamped = Math.min(Math.max(year, observanceYears.min), observanceYears.max)
+  const md = row[String(clamped)]
+  if (!md) {
+    throw new Error(`annual-tabulated: "${key}" 에 ${clamped}년 값이 없습니다`)
+  }
+  const [mm, dd] = md.split('-').map(Number)
+  return new Date(year, mm - 1, dd)
 }
 
 // annual-relative-to-holiday 의 anchor 조회용 맵.
@@ -62,6 +106,7 @@ function resolveNthWeekday(year: number, dateStr: string): Date {
  * - annual-fixed("MM-DD")                       → 같은 연도의 그 월/일
  * - annual-nth-weekday("MM-N-DOW")               → 같은 연도의 N째 요일
  * - annual-relative-to-holiday("anchorId:N일")   → anchor 의 같은 연도 occurrence + N일
+ * - annual-tabulated("키")                       → observances.json 에서 그 연도의 날짜 조회
  * - annual-floating / one-time                  → 저장된 YYYY-MM-DD 그대로
  */
 export function resolveOccurrence(anv: Anniversary, year: number): Date {
@@ -75,6 +120,9 @@ export function resolveOccurrence(anv: Anniversary, year: number): Date {
   if (anv.dateType === 'annual-relative-to-holiday') {
     const { anchor, offsetDays } = resolveAnchor(anv.date)
     return dayjs(resolveOccurrence(anchor, year)).add(offsetDays, 'day').toDate()
+  }
+  if (anv.dateType === 'annual-tabulated') {
+    return resolveTabulated(anv.date, year)
   }
   return dayjs(anv.date).toDate()
 }
@@ -99,7 +147,8 @@ export function daysUntil(anv: Anniversary, from: Date = new Date()): number {
   const isRecurring =
     anv.dateType === 'annual-fixed' ||
     anv.dateType === 'annual-nth-weekday' ||
-    anv.dateType === 'annual-relative-to-holiday'
+    anv.dateType === 'annual-relative-to-holiday' ||
+    anv.dateType === 'annual-tabulated'
   if (isRecurring && target.isBefore(todayStart)) {
     target = dayjs(resolveOccurrence(anv, thisYear + 1)).startOf('day')
   }
@@ -121,6 +170,7 @@ export function formatKoreanMonthDay(
  * - annual-fixed:               월/일만 비교
  * - annual-nth-weekday:         해당 연도의 규칙 해석 결과와 비교
  * - annual-relative-to-holiday: 해당 연도의 anchor 기준 occurrence 와 비교
+ * - annual-tabulated:           observances.json 에서 조회한 날짜와 비교
  * - annual-floating / one-time: 연/월/일 모두 비교
  * month 는 1~12.
  */
@@ -141,7 +191,10 @@ export function occursOn(
       occ.getDate() === day
     )
   }
-  if (anv.dateType === 'annual-relative-to-holiday') {
+  if (
+    anv.dateType === 'annual-relative-to-holiday' ||
+    anv.dateType === 'annual-tabulated'
+  ) {
     const occ = resolveOccurrence(anv, year)
     return (
       occ.getFullYear() === year &&

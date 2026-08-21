@@ -286,6 +286,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-whipped-cream-day-january-5/"
   },
   {
+    "id": "anv-term-sohan-kr",
+    "date": "sohan",
+    "dateType": "annual-tabulated",
+    "name": "소한 (小寒)",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "24절기의 스물세 번째로, 이름은 '작은 추위'라는 뜻이다. 하지만 한국에서는 이름과 달리 대한보다 소한이 더 춥다. 절기 이름이 중국 화북 지방 기후를 기준으로 붙여진 탓이다.",
+      "anecdote": "그래서 \"대한이 소한 집에 놀러 갔다가 얼어 죽었다\"는 속담이 생겼다. 소한 무렵이 한 해 중 가장 추운 시기라는 것을 조상들이 경험으로 알고 남긴 말이다. 절기 이름을 지은 중국 화북에서는 대한이 더 춥지만, 한반도에서는 순서가 뒤집힌 셈이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "이름은 작은 추위, 실력은 대장급."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/소한"
+  },
+  {
     "id": "anv-fixed-01-06-shortbread-day-global",
     "date": "01-06",
     "dateType": "annual-fixed",
@@ -1164,6 +1186,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-cheese-lovers-day-january-20/"
+  },
+  {
+    "id": "anv-term-daehan-kr",
+    "date": "daehan",
+    "dateType": "annual-tabulated",
+    "name": "대한 (大寒)",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "24절기의 마지막이자 '큰 추위'를 뜻한다. 이름대로라면 가장 추워야 하지만 한국에서는 소한이 더 춥고, 대한이 지나면 추위가 누그러지기 시작한다. 이날을 지나면 다시 입춘으로 한 바퀴가 돌아간다.",
+      "anecdote": "제주에서는 대한 후 닷새부터 입춘 전 사흘까지를 '신구간'이라 부르며 이사와 집수리를 몰아서 한다. 이 기간에는 집안을 지키는 신들이 하늘로 올라가 자리를 비운다고 여겼기 때문이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "큰 추위라더니 소한한테 밀렸다."
+      }
+    ],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/대한_(절기)"
   },
   {
     "id": "anv-fixed-01-21-granola-bar-day-us",

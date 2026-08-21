@@ -7,12 +7,18 @@ import type { CategoryId } from './category'
  * - annual-nth-weekday: 매년 'N번째 X요일' 규칙 — 예: 5월 둘째 주 일요일 (어머니의 날)
  * - annual-relative-to-holiday: 다른 기념일(id) 기준 +N/-N일 — 예: 추수감사절 다음날 블랙프라이데이
  * - one-time: 특정 연도 1회성 — 예: 핼리혜성 회귀
+ * - annual-tabulated: 매년 돌아오지만 날짜를 계산이 아니라 표에서 찾는 경우.
+ *     음력 명절(설날·추석)과 24절기가 여기 해당한다. 음력은 양력과 규칙적인
+ *     관계가 없고, 24절기는 태양 황경으로 정의돼 천문 계산이 필요하다.
+ *     둘 다 런타임에서 계산하는 대신 src/data/observances.json 에 연도별
+ *     발생일을 미리 넣어 두고 조회한다. 표는 tools/observances/ 가 만든다.
  */
 export type DateType =
   | 'annual-fixed'
   | 'annual-floating'
   | 'annual-nth-weekday'
   | 'annual-relative-to-holiday'
+  | 'annual-tabulated'
   | 'one-time'
 
 export type MemeType = 'image' | 'text'
@@ -44,6 +50,7 @@ export interface Anniversary {
    * - annual-relative-to-holiday: "{anchorId}:{offsetDays}"  예) "anv-nth-11-4-thu-thanksgiving-day-us:1"
    *     · anchorId: 기준이 되는 다른 Anniversary 의 id (데이터셋에 존재해야 함)
    *     · offsetDays: 기준일로부터 며칠 뒤(+)/전(-)인지. 정수 문자열.
+   * - annual-tabulated:    observances.json 의 키   예) "seollal" / "dongji"
    * - one-time:            "YYYY-MM-DD"
    */
   date: string

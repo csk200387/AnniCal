@@ -31,6 +31,7 @@ from urllib.parse import unquote, urlparse
 ROOT = Path(__file__).resolve().parents[2]
 DATA_DIR = ROOT / "src" / "data" / "anniversaries"
 OVERRIDES = Path(__file__).parent / "overrides.json"
+OBSERVANCES = ROOT / "src" / "data" / "observances.json"
 OUT = ROOT / "src" / "data" / "routes.json"
 
 # URL 의 MM-DD 를 고정하는 기준 연도. 바꾸면 비고정 기념일 URL 이 전부 바뀌므로 건드리지 말 것.
@@ -39,10 +40,12 @@ REFERENCE_YEAR = 2026
 MONTHS = ("january|february|march|april|may|june|july|august|september|"
           "october|november|december")
 # id 접두사: anv-fixed-03-22- / anv-nth-11-4-thu- / anv-rel-... / anv-2026-05-24-
+# annual-tabulated 는 날짜가 아니라 표의 키를 쓰므로 anv-term- / anv-lunar- 형태다.
 ID_PREFIX = re.compile(
     r"^anv-(?:fixed|nth|rel|floating|onetime)?-?"
     r"(?:\d{4}-)?\d{1,2}-(?:\d{1,2}|l)-(?:sun|mon|tue|wed|thu|fri|sat)-|"
-    r"^anv-(?:fixed|rel|floating|onetime)?-?(?:\d{4}-)?\d{2}-\d{2}-"
+    r"^anv-(?:fixed|rel|floating|onetime)?-?(?:\d{4}-)?\d{2}-\d{2}-|"
+    r"^anv-(?:term|lunar)-"
 )
 # 뒤에 붙는 국가/범위 코드
 ID_SUFFIX = re.compile(r"-(?:global|intl|world|kr|us|uk|jp|cn|fr|de|it|es|ru|in|ca|au)$")
@@ -111,6 +114,16 @@ def resolve_url_date(a: dict, by_id: dict[str, dict], depth: int = 0) -> str:
         return raw
     if dt == "annual-nth-weekday":
         return _nth_weekday(REFERENCE_YEAR, raw).strftime("%m-%d")
+    if dt == "annual-tabulated":
+        # 설날·추석·24절기 — 날짜를 계산하지 않고 표에서 찾는다.
+        table = json.loads(OBSERVANCES.read_text(encoding="utf-8"))
+        row = table.get(raw)
+        if row is None:
+            raise ValueError(f"{a['id']}: observances.json 에 없는 키 {raw!r}")
+        md = row.get(str(REFERENCE_YEAR))
+        if md is None:
+            raise ValueError(f"{a['id']}: {raw!r} 에 {REFERENCE_YEAR}년 값이 없습니다")
+        return md
     if dt == "annual-relative-to-holiday":
         anchor_id, _, offset = raw.rpartition(":")
         anchor = by_id.get(anchor_id)
