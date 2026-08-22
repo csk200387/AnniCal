@@ -132,7 +132,7 @@ describe.runIf(existsSync(join(DIST, 'index.html')))('빌드 산출물', () => {
       if (p.includes(':')) return false // 동적 — 아래에서 따로 검사
       return !existsSync(join(DIST, p.slice(1), 'index.html'))
     })
-    expect(uncovered, 'vercel.json rewrites 에 추가하거나 프리렌더하세요').toEqual([])
+    expect(uncovered, 'vercel.json rewrites 에 추가하거나 프리렌더하세요 (dist 가 낡았을 수도 있다 — npm run build 먼저)').toEqual([])
 
     // 동적 경로: routes.json 전건과 허브 366개가 모두 파일로 있어야 한다.
     const routes = JSON.parse(
@@ -141,7 +141,7 @@ describe.runIf(existsSync(join(DIST, 'index.html')))('빌드 산출물', () => {
     const missingDetail = Object.values(routes).filter(
       (r) => !existsSync(join(DIST, 'day', r.urlDate, r.slug, 'index.html')),
     )
-    expect(missingDetail).toEqual([])
+    expect(missingDetail, 'routes.json 에 있는데 dist 에 없다 — npm run build 를 먼저 실행하세요').toEqual([])
   })
 
   it('2월 29일 허브의 이웃 링크가 2/28 과 3/1 이다', () => {

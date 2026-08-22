@@ -44,6 +44,70 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-chicken-boys-day-september-1/"
   },
   {
+    "id": "gov-102",
+    "date": "09-01",
+    "dateType": "annual-fixed",
+    "name": "통계의 날",
+    "category": "academic",
+    "tags": [
+      "학술 & 기술"
+    ],
+    "storytelling": {
+      "origin": "1896년 9월 1일 대한제국이 근대적 호구조사 규칙을 시행한 날을 기린다. 「통계법」에 근거하며 1996년부터 기려 왔다. 국가가 인구를 세는 방식이 이때 근대적 체계로 바뀌었다.",
+      "anecdote": "인구주택총조사는 5년마다 하는데, 2015년부터는 행정자료를 활용하는 등록센서스 방식으로 바뀌어 전수 방문조사를 하지 않는다. 통계청은 1990년 경제기획원 조사통계국에서 독립한 기관으로, 국가통계의 작성과 승인을 함께 맡는다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-103",
+    "date": "09-01",
+    "dateType": "annual-fixed",
+    "name": "여권통문의 날",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "1898년 9월 1일 서울 북촌의 여성들이 '여권통문(女權通文)'을 발표한 날이다. 여성의 교육권·직업권·참정권을 주장한 한국 최초의 여성인권선언으로, 300여 명이 이름을 올렸다. 2019년 양성평등기본법 개정으로 법정기념일이 됐다.",
+      "anecdote": "이 선언은 곧바로 행동으로 이어져 이듬해 한국인이 세운 첫 여학교인 순성여학교가 문을 열었다. 발표자로 남은 이름은 '이소사·김소사'인데, 소사는 이름이 아니라 기혼 여성을 부르던 호칭이다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-110",
+    "date": "09-3-SAT",
+    "dateType": "annual-nth-weekday",
+    "name": "청년의 날",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "2020년 시행된 「청년기본법」이 정한 기념일로 9월 셋째 토요일이다. 이 법은 청년을 19~34세로 규정하고, 청년 정책을 따로 세우고 정책 결정 과정에 청년을 참여시킬 근거를 처음으로 마련했다.",
+      "anecdote": "청년을 별도 법으로 정의한 나라는 많지 않다. 다만 나이로만 묶은 정의라 학생·취업준비생·직장인 등 처지가 크게 다른 집단을 한데 묶는다는 지적이 함께 따라온다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-112",
+    "date": "09-4-FRI",
+    "dateType": "annual-nth-weekday",
+    "name": "군인가족의 날",
+    "category": "career",
+    "tags": [
+      "직업 & 감사"
+    ],
+    "storytelling": {
+      "origin": "「군인복지기본법」에 근거해 9월 넷째 금요일로 정해졌다. 잦은 이사와 오지 근무를 함께 감당하는 군인 가족의 몫을 사회가 알아보자는 취지다. 군인 본인이 아니라 그 가족을 대상으로 삼은 드문 기념일이다.",
+      "anecdote": "직업군인은 평균 2~3년마다 근무지를 옮겨, 배우자의 경력 단절과 자녀의 잦은 전학이 오래된 문제로 지적돼 왔다. 군 관사와 자녀 교육 지원이 이 법의 주요 항목이다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-09-02-blueberry-popsicle-day-us",
     "date": "09-02",
     "dateType": "annual-fixed",
@@ -196,6 +260,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-wildlife-day-september-4/"
+  },
+  {
+    "id": "gov-104",
+    "date": "09-04",
+    "dateType": "annual-fixed",
+    "name": "태권도의 날",
+    "category": "sports",
+    "tags": [
+      "스포츠 & 레저"
+    ],
+    "storytelling": {
+      "origin": "1994년 9월 4일 국제올림픽위원회 총회에서 태권도가 올림픽 정식종목으로 채택된 날이다. 「태권도 진흥 및 태권도공원 조성 등에 관한 법률」에 근거해 법정기념일이 됐다.",
+      "anecdote": "실제 정식종목으로 치러진 것은 2000년 시드니 올림픽부터다. 세계태권도연맹 가맹국은 210개국이 넘어, 회원국 수로는 국제축구연맹보다 많다. 세계태권도연맹 가맹국은 210개국이 넘어, 회원국 수로는 국제축구연맹보다 많다. 전북 무주에 조성된 태권도원은 이 종목만을 위한 세계 유일의 전용 단지다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-09-05-international-bacon-day-global",
@@ -412,6 +492,22 @@
     "sourceUrl": "https://ko.wikipedia.org/wiki/백로_(절기)"
   },
   {
+    "id": "gov-105",
+    "date": "09-07",
+    "dateType": "annual-fixed",
+    "name": "사회복지의 날",
+    "category": "career",
+    "tags": [
+      "직업 & 감사"
+    ],
+    "storytelling": {
+      "origin": "1999년 9월 7일 「국민기초생활보장법」이 제정된 날을 기린다. 이 법으로 빈곤 지원이 시혜가 아니라 국가의 의무이자 국민의 권리가 됐다. 「사회복지사업법」에 근거해 2000년부터 기려 왔다.",
+      "anecdote": "그전 생활보호법은 근로능력이 있으면 지원 대상에서 뺐지만, 기초생활보장제도는 소득 기준만 맞으면 받을 수 있게 바꿨다. 부양의무자 기준은 이후 단계적으로 폐지됐다. 부양의무자 기준은 이후 단계적으로 폐지됐다. 사회복지사 자격은 국가시험으로 주어지며, 등록 인원은 100만 명을 넘어섰다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-09-08-another-look-unlimited-day-us",
     "date": "09-08",
     "dateType": "annual-fixed",
@@ -522,6 +618,22 @@
     "sourceUrl": "https://zatsuneta.com/archives/109097.html"
   },
   {
+    "id": "gov-106",
+    "date": "09-09",
+    "dateType": "annual-fixed",
+    "name": "숙련기술인의 날",
+    "category": "career",
+    "tags": [
+      "직업 & 감사"
+    ],
+    "storytelling": {
+      "origin": "「숙련기술장려법」에 근거해 한 분야에서 오래 기술을 갈고닦은 사람을 기리는 날이다. 9월 9일은 '오래도록(久久)'을 뜻하는 발음에 빗댄 날짜다. 대한민국명장 선정과 기능경기대회가 이 법의 틀 안에 있다.",
+      "anecdote": "한국은 국제기능올림픽에서 통산 우승 횟수가 가장 많은 나라 중 하나다. 다만 산업 현장에서 숙련공의 고령화와 대가 끊기는 문제가 함께 지적된다. 다만 산업 현장에서 숙련공의 고령화와 대가 끊기는 문제가 함께 지적된다. 대한민국명장으로 뽑히면 계속종사장려금과 명장 표장이 주어진다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-09-10-tv-dinner-day-us",
     "date": "09-10",
     "dateType": "annual-fixed",
@@ -580,6 +692,38 @@
     },
     "memes": [],
     "sourceUrl": "https://www.who.int/campaigns/world-suicide-prevention-day"
+  },
+  {
+    "id": "gov-107",
+    "date": "09-10",
+    "dateType": "annual-fixed",
+    "name": "해양경찰의 날",
+    "category": "career",
+    "tags": [
+      "직업 & 감사"
+    ],
+    "storytelling": {
+      "origin": "1953년 12월 23일 창설된 해양경찰이 오랫동안 그날을 기념일로 삼다가, 2018년 「해양경찰법」이 만들어지며 9월 10일로 바뀌었다. 1996년 이날 해양경찰청이 독립 외청으로 승격한 것을 기준으로 삼은 것이다.",
+      "anecdote": "세월호 참사 뒤 2014년 조직이 해체돼 국민안전처로 흡수됐다가 2017년 다시 청으로 부활했다. 영해 경비와 해상 구조, 불법조업 단속을 함께 맡는다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-108",
+    "date": "09-10",
+    "dateType": "annual-fixed",
+    "name": "자살예방의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "국제자살예방협회와 WHO가 2003년 9월 10일을 세계 자살예방의 날로 정한 것을 따랐다. 한국은 2011년 「자살예방법」을 만들며 법정기념일에 넣었다. 자살을 개인의 선택이 아니라 예방 가능한 사회 문제로 보자는 것이 핵심이다.",
+      "anecdote": "한국은 OECD 자살률 1위가 20년 가까이 이어졌다. 번개탄 판매 규제나 다리 난간 설치처럼 수단에 대한 접근을 줄이는 정책이 실제로 효과가 있다는 연구가 축적돼 있다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-09-11-stand-up-to-cancer-day-global",
@@ -844,6 +988,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-programmers-day-september-13/"
+  },
+  {
+    "id": "gov-109",
+    "date": "09-13",
+    "dateType": "annual-fixed",
+    "name": "대한민국 법원의 날",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "1948년 9월 13일 대한민국 사법부가 미군정으로부터 사법권을 넘겨받아 독립적으로 출범한 날이다. 초대 대법원장 가인 김병로가 취임한 날이기도 하다. 2015년 대법원 규칙으로 기념일이 됐다.",
+      "anecdote": "김병로는 일제강점기 독립운동가들의 무료 변론을 맡았던 변호사였다. 이승만 정부와 여러 차례 충돌하면서도 사법부 독립을 지킨 인물로 평가된다. 이승만 정부와 여러 차례 충돌하면서도 사법부 독립을 지킨 인물로 평가된다. 대법원 청사 앞에 그의 흉상이 서 있다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-09-14-boss-employee-exchange-day-us",
@@ -1680,6 +1840,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-pecan-cookie-day-september-21/"
+  },
+  {
+    "id": "gov-111",
+    "date": "09-21",
+    "dateType": "annual-fixed",
+    "name": "치매극복의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "국제알츠하이머협회와 WHO가 1995년 9월 21일을 세계 알츠하이머의 날로 정한 것을 따랐다. 한국은 2011년 「치매관리법」을 만들며 법정기념일로 삼았다. 치매를 개인과 가족의 짐이 아니라 국가가 함께 지는 문제로 옮기자는 취지다.",
+      "anecdote": "65세 이상 열 명 중 한 명꼴로 치매를 겪는 것으로 추정된다. 2017년부터 전국 보건소에 치매안심센터가 설치돼 검진과 돌봄 상담을 맡고 있다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-09-22-dear-diary-day-global",
@@ -2714,5 +2890,21 @@
       }
     ],
     "sourceUrl": "voter-registration-day-us"
+  },
+  {
+    "id": "gov-113",
+    "date": "09-30",
+    "dateType": "annual-fixed",
+    "name": "조달의 날",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "1949년 9월 30일 조달청의 전신인 임시외자총국이 문을 연 날을 기린다. 「조달사업에 관한 법률」에 근거한다. 정부와 공공기관이 물자를 사들이는 일을 한곳에서 맡아 투명성과 규모의 경제를 확보하자는 것이 조달 제도의 취지다.",
+      "anecdote": "공공조달 규모는 연간 200조 원을 넘어 국내총생산의 상당 부분을 차지한다. 그만큼 중소기업 판로나 친환경 제품 확대 같은 정책 수단으로도 쓰인다."
+    },
+    "memes": [],
+    "sourceUrl": null
   }
 ]

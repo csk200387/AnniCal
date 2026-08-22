@@ -704,6 +704,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-happiness-happens-day-august-8/"
   },
   {
+    "id": "gov-100",
+    "date": "08-08",
+    "dateType": "annual-fixed",
+    "name": "섬의 날",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "「도서개발촉진법」에 근거해 2019년 만들어졌다. 8월 8일로 정한 것은 숫자 8이 무한대(∞)를 눕힌 모양이라 섬의 무한한 가능성을 뜻한다는 설명이 붙는다. 섬 주민의 정주 여건을 개선하자는 취지다.",
+      "anecdote": "한국의 섬은 3,300개가 넘고 그중 사람이 사는 곳은 460여 곳이다. 여객선이 하루 한 번 다니거나 날씨에 따라 끊기는 섬에서는 응급의료 접근이 가장 큰 문제로 꼽힌다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-08-09-rice-pudding-day-us",
     "date": "08-09",
     "dateType": "annual-fixed",
@@ -1076,6 +1092,22 @@
       }
     ],
     "sourceUrl": "https://ko.wikipedia.org/wiki/복날"
+  },
+  {
+    "id": "gov-101",
+    "date": "08-14",
+    "dateType": "annual-fixed",
+    "name": "일본군 위안부 피해자 기림의 날",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "1991년 8월 14일 김학순 할머니가 처음으로 피해 사실을 공개 증언한 날이다. 침묵을 깬 그 증언으로 문제가 국제 사회에 알려졌다. 2017년 관련 법 개정으로 법정기념일이 됐다.",
+      "anecdote": "증언 당시 그는 예순일곱이었고, 이후 일본 정부를 상대로 한 소송에 원고로 나섰다. 이날을 계기로 각국에 세워진 소녀상은 기억을 물리적으로 남기려는 시도다. 이날을 계기로 각국에 세워진 소녀상은 기억을 물리적으로 남기려는 시도다. 정부에 등록된 피해자 240명 중 생존자는 이제 손에 꼽는다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-08-15-liberation-day-kr",

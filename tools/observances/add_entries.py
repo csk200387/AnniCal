@@ -45,12 +45,19 @@ def main(argv: list[str]) -> int:
         assert rec["category"] in cats, f"{key}: 알 수 없는 카테고리"
         assert rec["tags"] == [cats[rec["category"]]], f"{key}: tags 가 카테고리 레이블과 불일치"
         if rec["dateType"] == "annual-tabulated":
-            assert rec["date"] == key, f"{key}: date 필드가 키와 다름 ({rec['date']})"
-            assert key in table, f"{key}: observances.json 에 없는 키"
-            md = table[key][REFERENCE_YEAR]
+            # date 는 observances.json 의 키다. JSON 바깥 키(gov-74 처럼 id 를 쓰는 경우)와
+            # 같을 필요는 없으므로 표에 있는지만 본다.
+            assert rec["date"] in table, f"{key}: observances.json 에 없는 키 ({rec['date']})"
+            md = table[rec["date"]][REFERENCE_YEAR]
         elif rec["dateType"] == "annual-fixed":
             md = rec["date"]
             assert len(md) == 5 and md[2] == "-", f"{key}: annual-fixed 날짜 형식 오류 ({md})"
+        elif rec["dateType"] == "annual-nth-weekday":
+            # "MM-N-DOW" — 월은 앞 두 자리로 정해지고, 파일 안 위치는 그 달 1일 기준으로 잡는다.
+            import re as _re
+            assert _re.fullmatch(r"\d{2}-(?:[1-5]|L)-(?:SUN|MON|TUE|WED|THU|FRI|SAT)", rec["date"]), \
+                f"{key}: annual-nth-weekday 형식 오류 ({rec['date']})"
+            md = rec["date"][:2] + "-01"
         else:
             raise AssertionError(f"{key}: 지원하지 않는 dateType {rec['dateType']}")
         placed.setdefault(DATA / f"{md[:2]}.json", []).append((md, rec))

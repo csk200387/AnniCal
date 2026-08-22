@@ -154,6 +154,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-day-the-music-died-february-3/"
   },
   {
+    "id": "gov-59",
+    "date": "02-03",
+    "dateType": "annual-fixed",
+    "name": "한국수어의 날",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "2016년 2월 3일 「한국수화언어법」이 공포된 날을 기린다. 이 법은 한국수어를 국어와 동등한 자격을 가진 고유한 언어로 규정했다. 그전까지 수어는 장애 보조수단으로만 취급됐고, 언어로서의 지위가 법에 없었다.",
+      "anecdote": "수어는 손 모양뿐 아니라 위치·움직임·표정이 함께 의미를 만드는 독립된 문법 체계를 갖는다. 나라마다 달라 한국수어와 미국수어는 서로 통하지 않는다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-02-04-homemade-soup-day-us",
     "date": "02-04",
     "dateType": "annual-fixed",
@@ -613,6 +629,22 @@
         "caption": "보풀 나기 시작하면 마음도 같이 상한다."
       }
     ],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-60",
+    "date": "02-10",
+    "dateType": "annual-fixed",
+    "name": "문화재 방재의 날",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "2008년 2월 10일 숭례문이 방화로 불탄 날을 잊지 않기 위해 정해진 기념일이다. 국보 1호가 다섯 시간 만에 무너지는 장면이 생중계되며 목조 문화재의 화재 취약성이 드러났고, 이듬해 문화재보호법에 근거가 마련됐다.",
+      "anecdote": "숭례문은 5년 3개월의 복구를 거쳐 2013년 다시 문을 열었다. 이후 주요 목조 문화재에 소화 설비와 상시 감시 체계가 갖춰졌다. 이후 주요 목조 문화재에 소화 설비와 상시 감시 체계가 갖춰졌다. 목조 건물은 불이 붙으면 내부까지 순식간에 번져, 초기 진압에 실패하면 손쓸 수가 없다."
+    },
+    "memes": [],
     "sourceUrl": null
   },
   {

@@ -88,6 +88,38 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-creative-ice-cream-flavors-day-july-1/"
   },
   {
+    "id": "gov-94",
+    "date": "07-01",
+    "dateType": "annual-fixed",
+    "name": "사회적기업의 날",
+    "category": "career",
+    "tags": [
+      "직업 & 감사"
+    ],
+    "storytelling": {
+      "origin": "2007년 7월 1일 「사회적기업 육성법」이 시행된 날을 기린다. 이윤을 내되 취약계층 고용이나 사회 서비스 제공을 목적에 함께 두는 기업을 인증하고 지원하는 제도가 이때 시작됐다.",
+      "anecdote": "인증 사회적기업은 3천 곳을 넘어섰다. 정부 인건비 지원이 끝난 뒤 자립하지 못하는 사례가 반복되면서, 지원 방식을 판로 확대 쪽으로 옮겨야 한다는 논의가 이어진다. 정부 인건비 지원이 끝난 뒤 자립하지 못하는 사례가 반복되면서, 지원 방식을 판로 확대 쪽으로 옮겨야 한다는 논의가 이어진다. 공공기관 우선구매 제도가 그 통로 중 하나다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-96",
+    "date": "07-1-SAT",
+    "dateType": "annual-nth-weekday",
+    "name": "협동조합의 날",
+    "category": "career",
+    "tags": [
+      "직업 & 감사"
+    ],
+    "storytelling": {
+      "origin": "국제협동조합연맹(ICA)이 7월 첫째 토요일을 '세계 협동조합의 날'로 기려 온 것을 따랐다. 한국은 2012년 「협동조합기본법」을 만들며 이날을 법정기념일로 삼았다. 이 법으로 5명만 모이면 협동조합을 세울 수 있게 됐다.",
+      "anecdote": "법 시행 뒤 설립된 협동조합이 2만 곳을 넘는다. 다만 실제로 운영되는 비율은 그에 못 미쳐, 설립보다 유지가 어렵다는 점이 반복해서 지적된다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-07-02-anisette-day-us",
     "date": "07-02",
     "dateType": "annual-fixed",
@@ -484,6 +516,22 @@
     "sourceUrl": "https://zatsuneta.com/archives/107079.html"
   },
   {
+    "id": "gov-95",
+    "date": "07-07",
+    "dateType": "annual-fixed",
+    "name": "도농교류의 날",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "도시와 농어촌이 오가며 교류하자는 취지로 「도시와 농어촌 간의 교류촉진에 관한 법률」이 정한 날이다. 7월 7일로 정한 것은 칠석에 견우와 직녀가 만나듯 도시와 농촌이 만난다는 뜻을 담은 것이다.",
+      "anecdote": "농촌체험휴양마을과 주말농장이 이 법의 틀 안에 있다. 도시민이 농촌에 두 지역 살이를 하는 '4도3촌' 같은 방식도 최근 정책 대상으로 들어왔다. 도시민이 농촌에 두 지역 살이를 하는 '4도3촌' 같은 방식도 최근 정책 대상으로 들어왔다. 농촌 인구 감소가 빨라지면서 관계인구라는 개념이 함께 논의된다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-07-08-chocolate-with-almonds-day-us",
     "date": "07-08",
     "dateType": "annual-fixed",
@@ -746,6 +794,22 @@
       }
     ],
     "sourceUrl": "https://www.un.org/en/observances/world-population-day"
+  },
+  {
+    "id": "gov-97",
+    "date": "07-11",
+    "dateType": "annual-fixed",
+    "name": "인구의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "1987년 7월 11일 세계 인구가 50억 명을 넘어선 것을 계기로 UN이 정한 '세계 인구의 날'을 따랐다. 한국은 2011년 「저출산·고령사회기본법」 개정으로 법정기념일에 넣었다.",
+      "anecdote": "세계 인구가 늘어나는 것을 걱정하며 만들어진 날이지만, 한국은 정반대 문제를 안고 있다. 합계출산율이 1명 아래로 내려간 나라는 OECD에서 한국뿐이다. 합계출산율이 1명 아래로 내려간 나라는 OECD에서 한국뿐이다. 세계 인구는 2022년 80억 명을 넘어섰고, 증가분의 대부분은 아프리카와 남아시아에서 나온다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-07-12-simplicity-day-us",
@@ -1312,6 +1376,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-toss-away-the-could-haves-and-should-haves-day-july-18/"
+  },
+  {
+    "id": "gov-98",
+    "date": "07-18",
+    "dateType": "annual-fixed",
+    "name": "연안안전의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "2013년 7월 18일 충남 태안에서 해병대 캠프에 참가한 고등학생 5명이 파도에 휩쓸려 숨진 사고를 잊지 않기 위한 날이다. 이 사고를 계기로 「연안사고 예방에 관한 법률」이 만들어졌고, 그 법이 이날을 기념일로 정했다.",
+      "anecdote": "갯벌·갯바위·해수욕장처럼 관리 주체가 애매하던 구역의 안전 기준이 이 법으로 정리됐다. 여름 성수기 직전에 놓여 물놀이 안전 캠페인이 함께 열린다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-07-19-daiquiri-day-us",
@@ -1884,6 +1964,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-creme-brulee-day-july-27/"
+  },
+  {
+    "id": "gov-99",
+    "date": "07-27",
+    "dateType": "annual-fixed",
+    "name": "유엔군 참전의 날",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "1953년 7월 27일 6·25전쟁 정전협정이 조인된 날이다. 22개국에서 온 유엔군 참전용사를 기리기 위해 2013년 「유엔참전용사의 명예선양 등에 관한 법률」로 법정기념일이 됐다.",
+      "anecdote": "전투병을 보낸 16개국과 의료 지원 6개국을 합쳐 195만 명가량이 참전했고 4만 명 넘게 목숨을 잃었다. 부산 유엔기념공원은 세계에서 유일한 유엔군 묘지다. 부산 유엔기념공원은 세계에서 유일한 유엔군 묘지다. 참전용사가 세상을 떠나면 유해를 이곳에 안장해 달라는 요청이 지금도 이어진다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-07-28-milk-chocolate-day-us",

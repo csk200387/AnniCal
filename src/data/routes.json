@@ -5387,13 +5387,133 @@
     "slug": "health-day",
     "urlDate": "04-07"
   },
+  "gov-100": {
+    "slug": "island-day",
+    "urlDate": "08-08"
+  },
+  "gov-101": {
+    "slug": "comfort-women-memorial-day",
+    "urlDate": "08-14"
+  },
+  "gov-102": {
+    "slug": "statistics-day",
+    "urlDate": "09-01"
+  },
+  "gov-103": {
+    "slug": "yeogwon-tongmun-day",
+    "urlDate": "09-01"
+  },
+  "gov-104": {
+    "slug": "taekwondo-day",
+    "urlDate": "09-04"
+  },
+  "gov-105": {
+    "slug": "social-welfare-day",
+    "urlDate": "09-07"
+  },
+  "gov-106": {
+    "slug": "skilled-technician-day",
+    "urlDate": "09-09"
+  },
+  "gov-107": {
+    "slug": "coast-guard-day",
+    "urlDate": "09-10"
+  },
+  "gov-108": {
+    "slug": "suicide-prevention-day",
+    "urlDate": "09-10"
+  },
+  "gov-109": {
+    "slug": "korean-judiciary-day",
+    "urlDate": "09-13"
+  },
   "gov-11": {
     "slug": "provisional-government-establishment-day",
     "urlDate": "04-11"
   },
+  "gov-110": {
+    "slug": "youth-day",
+    "urlDate": "09-19"
+  },
+  "gov-111": {
+    "slug": "dementia-awareness-day",
+    "urlDate": "09-21"
+  },
+  "gov-112": {
+    "slug": "military-family-day",
+    "urlDate": "09-25"
+  },
+  "gov-113": {
+    "slug": "procurement-day",
+    "urlDate": "09-30"
+  },
+  "gov-114": {
+    "slug": "expectant-mothers-day",
+    "urlDate": "10-10"
+  },
+  "gov-115": {
+    "slug": "mental-health-day",
+    "urlDate": "10-10"
+  },
+  "gov-116": {
+    "slug": "hospice-day",
+    "urlDate": "10-10"
+  },
+  "gov-117": {
+    "slug": "accounting-day",
+    "urlDate": "10-31"
+  },
+  "gov-118": {
+    "slug": "forestry-day",
+    "urlDate": "11-01"
+  },
+  "gov-119": {
+    "slug": "small-business-owners-day",
+    "urlDate": "11-05"
+  },
   "gov-12": {
     "slug": "april-19-revolution-day",
     "urlDate": "04-19"
+  },
+  "gov-120": {
+    "slug": "baduk-day",
+    "urlDate": "11-05"
+  },
+  "gov-121": {
+    "slug": "pedestrians-day",
+    "urlDate": "11-11"
+  },
+  "gov-122": {
+    "slug": "un-veterans-remembrance-day",
+    "urlDate": "11-11"
+  },
+  "gov-123": {
+    "slug": "medicine-day",
+    "urlDate": "11-18"
+  },
+  "gov-124": {
+    "slug": "child-abuse-prevention-day",
+    "urlDate": "11-19"
+  },
+  "gov-125": {
+    "slug": "kimchi-day",
+    "urlDate": "11-22"
+  },
+  "gov-126": {
+    "slug": "civil-complaints-day",
+    "urlDate": "11-24"
+  },
+  "gov-127": {
+    "slug": "volunteers-day",
+    "urlDate": "12-05"
+  },
+  "gov-128": {
+    "slug": "national-heritage-day",
+    "urlDate": "12-09"
+  },
+  "gov-129": {
+    "slug": "mining-industry-day",
+    "urlDate": "12-23"
   },
   "gov-13": {
     "slug": "day-of-persons-with-disabilities",
@@ -5583,20 +5703,180 @@
     "slug": "nuclear-safety-and-promotion-day",
     "urlDate": "12-27"
   },
+  "gov-58": {
+    "slug": "national-balanced-development-day",
+    "urlDate": "01-29"
+  },
+  "gov-59": {
+    "slug": "korean-sign-language-day",
+    "urlDate": "02-03"
+  },
   "gov-6": {
     "slug": "west-sea-defense-day",
     "urlDate": "03-27"
+  },
+  "gov-60": {
+    "slug": "cultural-heritage-disaster-prevention-day",
+    "urlDate": "02-10"
+  },
+  "gov-61": {
+    "slug": "national-park-day",
+    "urlDate": "03-03"
+  },
+  "gov-63": {
+    "slug": "soil-day",
+    "urlDate": "03-11"
+  },
+  "gov-64": {
+    "slug": "volunteer-fire-brigade-day",
+    "urlDate": "03-19"
+  },
+  "gov-65": {
+    "slug": "tuberculosis-prevention-day",
+    "urlDate": "03-24"
+  },
+  "gov-66": {
+    "slug": "fisheries-day",
+    "urlDate": "04-01"
+  },
+  "gov-67": {
+    "slug": "electricity-day",
+    "urlDate": "04-10"
+  },
+  "gov-68": {
+    "slug": "urban-agriculture-day",
+    "urlDate": "04-11"
+  },
+  "gov-69": {
+    "slug": "library-day",
+    "urlDate": "04-12"
   },
   "gov-7": {
     "slug": "jeju-april-3-memorial-day",
     "urlDate": "04-03"
   },
+  "gov-70": {
+    "slug": "public-safety-day",
+    "urlDate": "04-16"
+  },
+  "gov-71": {
+    "slug": "bicycle-day",
+    "urlDate": "04-22"
+  },
+  "gov-72": {
+    "slug": "saemaul-day",
+    "urlDate": "04-22"
+  },
+  "gov-73": {
+    "slug": "injured-workers-day",
+    "urlDate": "04-28"
+  },
+  "gov-74": {
+    "slug": "ssireum-day",
+    "urlDate": "06-19"
+  },
+  "gov-75": {
+    "slug": "adoption-day",
+    "urlDate": "05-11"
+  },
+  "gov-76": {
+    "slug": "single-parent-family-day",
+    "urlDate": "05-11"
+  },
+  "gov-77": {
+    "slug": "food-safety-day",
+    "urlDate": "05-14"
+  },
+  "gov-78": {
+    "slug": "family-day",
+    "urlDate": "05-15"
+  },
+  "gov-79": {
+    "slug": "invention-day",
+    "urlDate": "05-19"
+  },
   "gov-8": {
     "slug": "reserve-forces-day",
     "urlDate": "04-03"
   },
+  "gov-80": {
+    "slug": "world-citizens-day",
+    "urlDate": "05-20"
+  },
+  "gov-81": {
+    "slug": "rare-disease-day",
+    "urlDate": "05-23"
+  },
+  "gov-83": {
+    "slug": "gugak-day",
+    "urlDate": "06-05"
+  },
+  "gov-84": {
+    "slug": "oral-health-day",
+    "urlDate": "06-09"
+  },
+  "gov-85": {
+    "slug": "records-day",
+    "urlDate": "06-09"
+  },
+  "gov-86": {
+    "slug": "blood-donor-day",
+    "urlDate": "06-14"
+  },
+  "gov-87": {
+    "slug": "elder-abuse-awareness-day",
+    "urlDate": "06-15"
+  },
+  "gov-88": {
+    "slug": "seafarers-day",
+    "urlDate": "06-19"
+  },
+  "gov-89": {
+    "slug": "hydrographic-survey-day",
+    "urlDate": "06-21"
+  },
   "gov-9": {
     "slug": "arbor-day",
     "urlDate": "04-05"
+  },
+  "gov-90": {
+    "slug": "disability-abuse-prevention-day",
+    "urlDate": "06-22"
+  },
+  "gov-91": {
+    "slug": "e-government-day",
+    "urlDate": "06-24"
+  },
+  "gov-92": {
+    "slug": "anti-drug-day",
+    "urlDate": "06-26"
+  },
+  "gov-93": {
+    "slug": "miners-day",
+    "urlDate": "06-29"
+  },
+  "gov-94": {
+    "slug": "social-enterprise-day",
+    "urlDate": "07-01"
+  },
+  "gov-95": {
+    "slug": "urban-rural-exchange-day",
+    "urlDate": "07-07"
+  },
+  "gov-96": {
+    "slug": "cooperatives-day",
+    "urlDate": "07-04"
+  },
+  "gov-97": {
+    "slug": "population-day",
+    "urlDate": "07-11"
+  },
+  "gov-98": {
+    "slug": "coastal-safety-day",
+    "urlDate": "07-18"
+  },
+  "gov-99": {
+    "slug": "un-forces-participation-day",
+    "urlDate": "07-27"
   }
 }

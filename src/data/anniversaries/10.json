@@ -82,6 +82,22 @@
     "sourceUrl": "https://zatsuneta.com/archives/110016.html"
   },
   {
+    "id": "gov-116",
+    "date": "10-2-SAT",
+    "dateType": "annual-nth-weekday",
+    "name": "호스피스의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "「호스피스·완화의료 및 임종과정에 있는 환자의 연명의료결정에 관한 법률」이 10월 둘째 토요일로 정한 기념일이다. 치료를 이어 갈 수 없는 환자의 통증과 삶의 질을 돌보는 의료를 알리려는 취지다.",
+      "anecdote": "이 법으로 2018년부터 연명의료 중단 결정 제도가 시행됐다. 사전연명의료의향서를 미리 등록해 둔 사람이 200만 명을 넘어섰다. 사전연명의료의향서를 미리 등록해 둔 사람이 200만 명을 넘어섰다. 호스피스는 치료 포기가 아니라 통증 관리와 남은 시간의 질을 다루는 의료라는 점이 늘 강조된다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-10-02-fried-scallops-day-us",
     "date": "10-02",
     "dateType": "annual-fixed",
@@ -788,6 +804,38 @@
       }
     ],
     "sourceUrl": "https://zatsuneta.com/archives/110104.html"
+  },
+  {
+    "id": "gov-114",
+    "date": "10-10",
+    "dateType": "annual-fixed",
+    "name": "임산부의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "임신 기간 10개월과 10월에 나는 결실을 겹쳐 10월 10일로 정했다. 2005년 「모자보건법」에 근거가 마련됐고, 임산부를 배려하는 사회 분위기를 만들자는 취지다.",
+      "anecdote": "지하철 임산부 배려석은 겉으로 티가 잘 나지 않는 임신 초기가 오히려 더 힘들다는 점에서 나왔다. 초기에 유산 위험과 입덧이 가장 심한데 배가 나오지 않아 양보받기 어렵기 때문이다. 초기에 유산 위험과 입덧이 가장 심한데 배가 나오지 않아 양보받기 어렵기 때문이다. 임산부 배지를 배포하는 것도 같은 이유에서다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-115",
+    "date": "10-10",
+    "dateType": "annual-fixed",
+    "name": "정신건강의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "세계정신건강연맹이 1992년 10월 10일을 세계 정신건강의 날로 정한 것을 따랐다. 한국은 「정신건강복지법」에 근거해 함께 기린다. 정신질환에 대한 편견을 줄이고 치료를 미루지 않게 하자는 것이 핵심이다.",
+      "anecdote": "국내 성인의 정신질환 평생 유병률은 4명 중 1명 수준으로 추정되지만 실제 치료를 받는 비율은 그에 크게 못 미친다. 2017년 법 개정으로 강제입원 요건이 크게 까다로워졌다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-10-11-clergy-appreciation-day-global",
@@ -2978,5 +3026,21 @@
       }
     ],
     "sourceUrl": "https://zatsuneta.com/archives/110314.html"
+  },
+  {
+    "id": "gov-117",
+    "date": "10-31",
+    "dateType": "annual-fixed",
+    "name": "회계의 날",
+    "category": "career",
+    "tags": [
+      "직업 & 감사"
+    ],
+    "storytelling": {
+      "origin": "「주식회사 등의 외부감사에 관한 법률」에 근거한 기념일이다. 1958년 10월 31일 한국 최초의 공인회계사 시험 합격자가 배출된 것을 기준으로 삼았다. 회계 투명성이 자본시장의 토대라는 인식에서 만들어졌다.",
+      "anecdote": "복식부기의 원형인 사개송도치부법이 고려 말 개성 상인들 사이에서 쓰였다는 기록이 있어, 서양의 복식부기보다 앞섰다는 주장이 나온다. 다만 사료가 제한적이라 학계 논쟁이 이어진다."
+    },
+    "memes": [],
+    "sourceUrl": null
   }
 ]

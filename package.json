@@ -13,7 +13,7 @@
     "check:slugs": "python3 tools/slugs/generate_slugs.py --check",
     "type-check": "vue-tsc --noEmit -p tsconfig.app.json && npm run type-check:api",
     "type-check:api": "tsc -p api/tsconfig.json --noEmit",
-    "verify": "npm run check:slugs && npm run type-check && npm run test"
+    "verify": "npm run check:slugs && npm run build && npm run type-check:api && npm run test"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

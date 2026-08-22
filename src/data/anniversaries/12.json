@@ -516,6 +516,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-sacher-torte-day-december-5/"
   },
   {
+    "id": "gov-127",
+    "date": "12-05",
+    "dateType": "annual-fixed",
+    "name": "자원봉사자의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "UN이 1985년 12월 5일을 세계 자원봉사자의 날로 정한 것을 따랐다. 한국은 2005년 「자원봉사활동 기본법」을 만들며 법정기념일로 삼았다.",
+      "anecdote": "2007년 태안 기름 유출 사고 때 123만 명이 모여 바닷가 돌을 하나하나 닦아 낸 일이 한국 자원봉사의 상징으로 남아 있다. 전문가들이 20년 걸린다고 본 복원이 몇 년 만에 이뤄졌다. 전문가들이 20년 걸린다고 본 복원이 몇 년 만에 이뤄졌다. 국내 자원봉사 등록 인원은 1,400만 명을 넘지만 실제 활동률은 그보다 훨씬 낮다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-12-06-gazpacho-day-us",
     "date": "12-06",
     "dateType": "annual-fixed",
@@ -778,6 +794,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-pastry-day-december-9/"
+  },
+  {
+    "id": "gov-128",
+    "date": "12-09",
+    "dateType": "annual-fixed",
+    "name": "국가유산의 날",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "2023년 제정된 「국가유산기본법」에 근거한다. 이 법은 60년 넘게 쓰인 '문화재'라는 말을 '국가유산'으로 바꿨다. 재화를 뜻하는 財 자가 유산을 물건으로 보게 한다는 지적을 반영해, 문화·자연·무형 유산을 아우르는 체계로 재편한 것이다.",
+      "anecdote": "이 개편으로 문화재청도 2024년 국가유산청으로 이름이 바뀌었다. '국보 1호' 같은 지정번호도 서열로 오해된다는 이유로 공식 표기에서 빠졌다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-12-10-nobel-prize-day-global",
@@ -1900,6 +1932,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-pfeffernusse-day-december-23/"
+  },
+  {
+    "id": "gov-129",
+    "date": "12-23",
+    "dateType": "annual-fixed",
+    "name": "광업인의 날",
+    "category": "career",
+    "tags": [
+      "직업 & 감사"
+    ],
+    "storytelling": {
+      "origin": "「광업법」에 근거해 광물 자원을 캐는 일에 종사하는 사람을 기리는 날이다. 부존 자원이 적은 나라에서 광업은 오랫동안 규모가 크지 않았지만, 텅스텐을 캐던 강원 상동광산처럼 한때 세계 시장을 좌우한 곳도 있었다.",
+      "anecdote": "이차전지 수요가 늘면서 리튬·희토류 같은 광물의 확보가 다시 국가 과제가 됐다. 문을 닫았던 상동광산이 40여 년 만에 재개발에 들어간 것도 그 흐름 위에 있다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-12-24-eggnog-day-us",

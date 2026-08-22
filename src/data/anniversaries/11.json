@@ -154,6 +154,22 @@
     "sourceUrl": null
   },
   {
+    "id": "gov-118",
+    "date": "11-01",
+    "dateType": "annual-fixed",
+    "name": "임업인의 날",
+    "category": "career",
+    "tags": [
+      "직업 & 감사"
+    ],
+    "storytelling": {
+      "origin": "「임업 및 산촌 진흥촉진에 관한 법률」에 근거한다. 11월 1일은 나무를 심고 가꾸는 일이 한 해를 마무리하는 시기라는 점과, 숫자 11이 나무 두 그루가 선 모양이라는 뜻을 함께 담은 날짜다.",
+      "anecdote": "한국은 국토의 63%가 산림으로 OECD에서도 손꼽히는 비율이다. 6·25 이후 민둥산이던 국토를 한 세대 만에 되살린 조림 사업은 세계적으로 드문 성공 사례로 인용된다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-11-02-traffic-directors-day-us",
     "date": "11-02",
     "dateType": "annual-fixed",
@@ -322,6 +338,38 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-men-make-dinner-day-november-5/"
+  },
+  {
+    "id": "gov-119",
+    "date": "11-05",
+    "dateType": "annual-fixed",
+    "name": "소상공인의 날",
+    "category": "career",
+    "tags": [
+      "직업 & 감사"
+    ],
+    "storytelling": {
+      "origin": "「소상공인 보호 및 지원에 관한 법률」에 근거해 2018년부터 기린다. 11월 5일로 정한 것은 소상공인이 '오(5)래 가도록' 하자는 뜻과, 11이 나란히 선 가게를 닮았다는 풀이를 함께 담은 것이다.",
+      "anecdote": "국내 사업체의 90% 안팎이 소상공인이고 종사자는 600만 명을 넘는다. 창업 5년 뒤까지 살아남는 비율이 3분의 1에 못 미친다는 통계가 정책 논의에서 반복해 인용된다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-120",
+    "date": "11-05",
+    "dateType": "annual-fixed",
+    "name": "바둑의 날",
+    "category": "sports",
+    "tags": [
+      "스포츠 & 레저"
+    ],
+    "storytelling": {
+      "origin": "「바둑 진흥법」이 정한 기념일로, 바둑판의 가로세로 19줄에서 착안해 1과 1이 나란한 11월, 그리고 오목이 아닌 바둑의 '오(5)'를 합쳐 11월 5일로 정했다는 설명이 붙는다. 2018년 시행됐다.",
+      "anecdote": "2016년 이세돌과 알파고의 대국은 인공지능 역사에서 분기점으로 남았다. 이세돌이 거둔 4국의 1승은 지금까지 인간이 최상위 바둑 AI를 상대로 거둔 마지막 승리로 기록돼 있다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-11-06-nachos-day-us",
@@ -690,6 +738,38 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-sundae-day-november-11/"
+  },
+  {
+    "id": "gov-121",
+    "date": "11-11",
+    "dateType": "annual-fixed",
+    "name": "보행자의 날",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "「지속가능 교통물류 발전법」에 근거한 기념일이다. 11월 11일은 두 다리로 걷는 모습을 숫자 1이 네 번 선 모양에 빗댄 날짜다. 자동차 중심으로 짜인 도로를 사람이 걷기 좋게 바꾸자는 취지에서 2010년 만들어졌다.",
+      "anecdote": "한국의 교통사고 사망자 중 보행자 비율은 30%를 넘어 OECD 평균의 두 배 수준이다. 2021년 도입된 도심 제한속도 50km/h 정책은 이 문제를 겨냥한 것이다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-122",
+    "date": "11-11",
+    "dateType": "annual-fixed",
+    "name": "유엔참전용사 국제추모의 날",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "매년 11월 11일 오전 11시, 세계 각지에서 부산 유엔기념공원을 향해 1분간 묵념하는 '턴 투워드 부산' 행사를 기리는 날이다. 2007년 캐나다 참전용사 빈센트 커트니의 제안에서 시작해 2020년 법정기념일이 됐다.",
+      "anecdote": "11월 11일 11시는 1차 대전 종전 시각으로, 여러 나라가 이미 현충일로 기려 온 시각이다. 그 시각에 맞춰 각자의 자리에서 부산 쪽을 바라보자는 발상이었다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-11-12-pizza-with-the-works-except-anchovies-day-us",
@@ -1148,6 +1228,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-vichyssoise-day-november-18/"
   },
   {
+    "id": "gov-123",
+    "date": "11-18",
+    "dateType": "annual-fixed",
+    "name": "약의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "「약사법」에 근거한 기념일이다. 1953년 11월 18일 대한민국 약사법이 처음 공포된 날을 기준으로 삼았다. 약의 오남용을 줄이고 올바른 복용법을 알리자는 취지다.",
+      "anecdote": "2000년 시행된 의약분업으로 처방과 조제가 나뉘면서 약국의 역할이 크게 바뀌었다. 남은 약을 쓰레기통에 버리면 하천으로 흘러 항생제 내성 문제로 이어져, 약국 수거함에 반납해야 한다. 남은 약을 쓰레기통에 버리면 하천으로 흘러 항생제 내성 문제로 이어져, 약국 수거함에 반납해야 한다. 한국의 항생제 처방률은 OECD 평균을 웃돈다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-11-19-great-american-smokeout-us",
     "date": "11-19",
     "dateType": "annual-fixed",
@@ -1234,6 +1330,22 @@
       }
     ],
     "sourceUrl": "https://www.un.org/en/observances/toilet-day"
+  },
+  {
+    "id": "gov-124",
+    "date": "11-19",
+    "dateType": "annual-fixed",
+    "name": "아동학대예방의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "국제여성아동재단이 2000년 11월 19일을 세계 아동학대 예방의 날로 정한 것을 따랐다. 한국은 2011년 「아동복지법」 개정으로 법정기념일에 넣었다. 이날부터 한 주를 아동학대 예방 주간으로 둔다.",
+      "anecdote": "신고 사례의 8할 이상이 부모에 의한 것이고, 발생 장소도 대부분 집 안이다. 2021년 시행된 이른바 민법 훈육권 조항 삭제는 '자녀를 징계할 수 있다'는 조문을 63년 만에 없앤 것이다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-11-20-absurdity-day-us",
@@ -1390,6 +1502,22 @@
     "sourceUrl": "https://ko.wikipedia.org/wiki/소설_(절기)"
   },
   {
+    "id": "gov-125",
+    "date": "11-22",
+    "dateType": "annual-fixed",
+    "name": "김치의 날",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "김치 재료 하나하나(11)가 모여 22가지 효능을 낸다는 뜻을 담아 11월 22일로 정했다. 2020년 「김치산업 진흥법」 개정으로 만들어졌으며, 특정 음식이 대한민국 법정기념일이 된 첫 사례다. 김장철이 시작되는 시기이기도 하다.",
+      "anecdote": "미국 캘리포니아주가 2021년 같은 날을 김치의 날로 정한 것을 시작으로, 여러 주와 도시가 뒤를 이었다. 김장 문화는 2013년 유네스코 인류무형문화유산에 올랐다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-11-23-espresso-day-us",
     "date": "11-23",
     "dateType": "annual-fixed",
@@ -1498,6 +1626,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-sardines-day-november-24/"
+  },
+  {
+    "id": "gov-126",
+    "date": "11-24",
+    "dateType": "annual-fixed",
+    "name": "민원의 날",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "「민원 처리에 관한 법률」에 근거한 기념일이다. 행정기관을 상대하는 국민의 권리로서 민원을 다루자는 취지에서 만들어졌다. 조선시대 백성이 억울함을 임금에게 직접 알리던 신문고가 그 정신적 뿌리로 자주 언급된다.",
+      "anecdote": "국민신문고에 접수되는 민원은 연간 1천만 건을 넘는다. 악성 민원으로 담당 공무원이 겪는 피해가 잇따르면서, 응대 거부권을 두는 방향의 제도 개선이 논의되고 있다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-11-25-elimination-of-violence-against-women-day-global",

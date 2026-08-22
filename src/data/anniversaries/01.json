@@ -1716,6 +1716,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-puzzle-day-january-29/"
   },
   {
+    "id": "gov-58",
+    "date": "01-29",
+    "dateType": "annual-fixed",
+    "name": "국가균형발전의 날",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "수도권 집중을 완화하고 지역이 고르게 성장하도록 하자는 취지로 「국가균형발전 특별법」에 따라 정해진 기념일이다. 참여정부가 2004년 이 법을 만들며 균형발전을 국가 과제로 처음 명문화했고, 관련 특별회계와 기금도 이때 만들어졌다.",
+      "anecdote": "국토 면적의 12%인 수도권에 인구 절반이 몰려 있다는 통계가 이 기념일의 배경으로 늘 인용된다. 공공기관 지방 이전과 혁신도시 사업이 이 법의 틀 안에서 추진됐다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-01-30-seed-swap-day-global",
     "date": "01-30",
     "dateType": "annual-fixed",

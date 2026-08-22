@@ -390,6 +390,22 @@
     "sourceUrl": null
   },
   {
+    "id": "gov-61",
+    "date": "03-03",
+    "dateType": "annual-fixed",
+    "name": "국립공원의 날",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "1967년 3월 3일 「공원법」이 공포된 날을 기린다. 이 법으로 국립공원 제도가 시작됐고, 같은 해 12월 지리산이 첫 국립공원으로 지정됐다. 2020년 자연공원법 개정으로 법정기념일이 됐다.",
+      "anecdote": "지금은 22곳이 지정돼 국토의 약 7%를 차지한다. 지리산·설악산 같은 산악형뿐 아니라 한려해상·다도해처럼 바다를 품은 해상형, 경주처럼 사적을 품은 사적형이 함께 있다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-03-04-hug-a-gi-day-us",
     "date": "03-04",
     "dateType": "annual-fixed",
@@ -1173,6 +1189,22 @@
         "caption": "육식동물의 몸으로 채식하는 고집."
       }
     ],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-63",
+    "date": "03-11",
+    "dateType": "annual-fixed",
+    "name": "흙의 날",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "「친환경농어업법」에 근거한 기념일로, 3월 11일이라는 날짜에 뜻을 담았다. 3은 하늘·땅·사람의 세 요소를, 11은 흙을 뜻하는 한자 土를 十과 一로 풀어 쓴 것을 가리킨다. 2015년 지정됐다.",
+      "anecdote": "농사에 쓸 만한 흙 1cm가 만들어지는 데 자연 상태에서 수백 년이 걸린다. 화학비료 과다 사용으로 토양이 산성화되는 문제가 이 기념일의 배경에 있다. 화학비료 과다 사용으로 토양이 산성화되는 문제가 이 기념일의 배경에 있다. 흙 한 줌에는 수십억 마리의 미생물이 살며 양분 순환을 맡는다."
+    },
+    "memes": [],
     "sourceUrl": null
   },
   {
@@ -1967,6 +1999,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-quilting-day-march-19/"
   },
   {
+    "id": "gov-64",
+    "date": "03-19",
+    "dateType": "annual-fixed",
+    "name": "의용소방대의 날",
+    "category": "career",
+    "tags": [
+      "직업 & 감사"
+    ],
+    "storytelling": {
+      "origin": "생업을 하면서 화재와 재난 현장에 자원해 나서는 의용소방대원을 기리는 날이다. 「의용소방대 설치 및 운영에 관한 법률」에 근거하며, 조선시대 금화도감까지 거슬러 올라가는 민간 소방 조직의 계보를 잇는다.",
+      "anecdote": "전국에 9만 명 넘는 대원이 등록돼 있고, 소방서가 멀리 떨어진 농어촌에서는 초기 대응을 실질적으로 이들이 맡는다. 보수 없이 활동하는 무보수 명예직이며, 화재 진압뿐 아니라 산불·수해 현장에도 나선다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-03-20-ravioli-day-global",
     "date": "03-20",
     "dateType": "annual-fixed",
@@ -2427,6 +2475,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-chocolate-covered-raisin-day-march-24/"
+  },
+  {
+    "id": "gov-65",
+    "date": "03-24",
+    "dateType": "annual-fixed",
+    "name": "결핵예방의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "1882년 3월 24일 로베르트 코흐가 결핵균을 발견해 발표한 날이다. 원인을 모르던 병의 정체가 밝혀지면서 진단과 치료의 길이 열렸다. 한국은 2011년 결핵예방법 개정으로 이날을 법정기념일로 삼았다.",
+      "anecdote": "한국은 OECD 회원국 가운데 결핵 발생률이 오랫동안 가장 높은 축이었다. 6·25 전후 대유행을 겪은 고령층에 잠복 감염이 남아 있는 것이 큰 이유로 꼽힌다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-03-25-lobster-newburg-day-global",

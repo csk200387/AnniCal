@@ -66,6 +66,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-one-cent-day-april-1/"
   },
   {
+    "id": "gov-66",
+    "date": "04-01",
+    "dateType": "annual-fixed",
+    "name": "수산인의 날",
+    "category": "career",
+    "tags": [
+      "직업 & 감사"
+    ],
+    "storytelling": {
+      "origin": "어업인과 수산업 종사자를 기리는 날로 「수산업·어촌 발전 기본법」에 근거한다. 원래 4월 1일 '어업인의 날'로 출발했다가 2015년 지금의 이름으로 바뀌었고, 한때 5월 31일 바다의 날과 함께 치르다 다시 분리됐다.",
+      "anecdote": "한국의 1인당 수산물 소비량은 세계 최상위권이다. 어촌 고령화와 어족자원 감소가 겹치면서 양식업 비중이 어획량을 앞지른 지 오래다. 어촌 고령화와 어족자원 감소가 겹치면서 양식업 비중이 어획량을 앞지른 지 오래다. 김·굴 양식은 세계 시장에서도 손꼽히는 규모다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-04-02-autism-awareness-day-global",
     "date": "04-02",
     "dateType": "annual-fixed",
@@ -1082,6 +1098,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-siblings-day-april-10/"
   },
   {
+    "id": "gov-67",
+    "date": "04-10",
+    "dateType": "annual-fixed",
+    "name": "전기의 날",
+    "category": "academic",
+    "tags": [
+      "학술 & 기술"
+    ],
+    "storytelling": {
+      "origin": "1900년 4월 10일 서울 종로에 첫 민간용 가로등이 불을 밝힌 날을 기린다. 그전 1887년 경복궁 건청궁에 국내 최초로 전등이 켜졌지만 궁궐 안에 머물렀고, 이날 전기가 일반 시민의 생활로 나왔다.",
+      "anecdote": "경복궁의 첫 전등은 향원정 물을 끌어 발전기를 돌렸는데, 물고기가 떼죽음을 당해 '증어(蒸魚)'라 불렸다는 이야기가 전해진다. 잦은 고장 탓에 '건달불'이라는 별명도 붙었다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-04-11-eight-track-tape-day-us",
     "date": "04-11",
     "dateType": "annual-fixed",
@@ -1230,6 +1262,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-cheese-fondue-day-april-11/"
   },
   {
+    "id": "gov-68",
+    "date": "04-11",
+    "dateType": "annual-fixed",
+    "name": "도시농업의 날",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "도시에서 텃밭을 가꾸는 활동을 북돋우려 「도시농업의 육성 및 지원에 관한 법률」에 따라 정해졌다. 4월 11일은 흙을 뜻하는 土(十+一)를 두 번 겹쳐 '흙에서 두 번 만난다'는 뜻을 담은 날짜다.",
+      "anecdote": "도시농업 참여 인구는 2010년 15만 명에서 2020년대 200만 명 규모로 늘었다. 수확보다 정서적 효과와 이웃 관계에서 의미를 찾는다는 조사 결과가 반복해서 나온다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-04-12-grilled-cheese-sandwich-day-us",
     "date": "04-12",
     "dateType": "annual-fixed",
@@ -1316,6 +1364,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-big-wind-day-april-12/"
+  },
+  {
+    "id": "gov-69",
+    "date": "04-12",
+    "dateType": "annual-fixed",
+    "name": "도서관의 날",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "2021년 개정된 「도서관법」이 정한 기념일로, 4월 12일부터 한 주를 도서관 주간으로 둔다. 도서관을 책을 빌리는 곳을 넘어 지역의 정보·문화 거점으로 보자는 취지에서 만들어졌다.",
+      "anecdote": "한국 최초의 근대 공공도서관은 1906년 평양에 세워진 대동서관으로 알려져 있다. 지금은 공공도서관이 1,200곳을 넘어섰지만 1관당 인구수는 여전히 주요국보다 많다. 지금은 공공도서관이 1,200곳을 넘어섰지만 1관당 인구수는 여전히 주요국보다 많다. 최근에는 열람실보다 프로그램 공간을 늘리는 쪽으로 설계가 바뀌고 있다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-04-13-scrabble-day-us",
@@ -1822,6 +1886,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-pajamas-to-work-day-april-16/"
+  },
+  {
+    "id": "gov-70",
+    "date": "04-16",
+    "dateType": "annual-fixed",
+    "name": "국민안전의 날",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "2014년 4월 16일 세월호 참사가 일어난 날이다. 304명이 목숨을 잃은 이 사고를 계기로 이듬해 「재난 및 안전관리기본법」에 근거가 마련됐고, 안전에 대한 국민 의식을 되새기는 날로 지정됐다.",
+      "anecdote": "이날을 포함한 한 주를 국민안전주간으로 두고 전국에서 재난 대응 훈련을 한다. 참사 이후 국민안전처 신설과 연안여객선 안전 규정 강화가 이어졌다. 참사 이후 국민안전처 신설과 연안여객선 안전 규정 강화가 이어졌다. 이날을 포함한 한 주를 국민안전주간으로 두고 전국에서 재난 대응 훈련을 한다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-04-17-bat-appreciation-day-us",
@@ -2392,6 +2472,38 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-earth-day-april-22/"
+  },
+  {
+    "id": "gov-71",
+    "date": "04-22",
+    "dateType": "annual-fixed",
+    "name": "자전거의 날",
+    "category": "sports",
+    "tags": [
+      "스포츠 & 레저"
+    ],
+    "storytelling": {
+      "origin": "「자전거 이용 활성화에 관한 법률」 시행령에 근거한 기념일이다. 4월 22일은 자전거의 두 바퀴를 숫자 22에 빗대고, 자전거를 타기 좋은 계절이 시작되는 시점을 함께 고른 것이다.",
+      "anecdote": "같은 날이 지구의 날이기도 해, 탄소를 내지 않는 이동수단이라는 점이 함께 부각된다. 서울 따릉이를 비롯한 공공자전거가 2010년대 이후 도시 교통의 한 축이 됐고, 자전거도로 총연장도 꾸준히 늘고 있다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-72",
+    "date": "04-22",
+    "dateType": "annual-fixed",
+    "name": "새마을의 날",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "1970년 4월 22일 박정희 대통령이 지방장관회의에서 농촌 자조 운동을 제안한 날을 기린다. 「새마을운동 조직 육성법」에 근거해 2011년 법정기념일이 됐다. 근면·자조·협동을 내건 이 운동은 농촌 환경 개선에서 출발했다.",
+      "anecdote": "성과와 함께 관 주도 동원이라는 비판도 함께 따라다닌다. 한편으로 개발도상국에 전수하는 협력 사업의 이름으로 지금도 쓰이고 있다. 한편으로 개발도상국에 전수하는 협력 사업의 이름으로 지금도 쓰이고 있다. 초기 사업은 마을마다 시멘트를 똑같이 나눠 주고 쓰임새는 각자 정하게 하는 방식이었다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-04-23-take-a-chance-day-us",
@@ -3105,6 +3217,22 @@
         "caption": "벼슬을 받고 나서야 입궐한 코끼리."
       }
     ],
+    "sourceUrl": null
+  },
+  {
+    "id": "gov-73",
+    "date": "04-28",
+    "dateType": "annual-fixed",
+    "name": "산업재해근로자의 날",
+    "category": "career",
+    "tags": [
+      "직업 & 감사"
+    ],
+    "storytelling": {
+      "origin": "일하다 다치거나 숨진 노동자를 기리는 날이다. 국제노동기구(ILO)가 4월 28일을 '세계 산업안전보건의 날'로 정한 것과 맞췄고, 한국은 2018년 「산업재해보상보험법」 개정으로 법정기념일에 넣었다.",
+      "anecdote": "날짜는 1914년 이날 미국에서 산재보상법이 처음 시행된 데서 유래했다는 설명이 붙는다. 한국의 산재 사망률은 오랫동안 OECD 상위권이었고, 2022년 중대재해처벌법 시행의 배경이 됐다."
+    },
+    "memes": [],
     "sourceUrl": null
   },
   {
