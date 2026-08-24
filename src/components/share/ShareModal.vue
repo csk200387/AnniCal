@@ -167,15 +167,23 @@ function unobservePreview() {
 }
 
 // 기념일이 바뀔 때마다 경로를 다시 해석한다. 모달이 닫혀 있으면 굳이 불러오지 않는다.
-watch([isOpen, anniversary], async ([open, anv]) => {
-  if (!open || !anv) {
-    sharePath.value = null
-    return
-  }
-  const { pathForId } = await loadRoutes()
-  // 로딩 중에 다른 기념일로 바뀌었으면 늦게 도착한 결과는 버린다.
-  if (shareStore.anniversary?.id === anv.id) sharePath.value = pathForId(anv.id)
-})
+watch(
+  [isOpen, anniversary],
+  async ([open, anv]) => {
+    if (!open || !anv) {
+      sharePath.value = null
+      return
+    }
+    const { pathForId } = await loadRoutes()
+    // 로딩 중에 닫거나 다른 기념일로 바뀌었으면 늦게 도착한 결과는 버린다.
+    if (shareStore.isOpen && shareStore.anniversary?.id === anv.id) {
+      sharePath.value = pathForId(anv.id)
+    }
+  },
+  // ShareModal 자체가 첫 공유 클릭 뒤에 비동기로 마운트된다. 그때 store 는 이미
+  // 열린 상태이므로 초기 값을 즉시 처리하지 않으면 첫 모달만 링크가 영원히 비어 있다.
+  { immediate: true },
+)
 
 watch(isOpen, (open) => {
   if (open) {
@@ -403,29 +411,34 @@ async function handleNativeShare() {
           </div>
 
           <!-- 링크 -->
-          <div v-if="shareUrl" class="flex flex-col gap-2">
+          <div class="flex flex-col gap-2" :aria-busy="!shareUrl">
             <p class="eyebrow !text-[0.6rem]">Link</p>
             <div class="flex items-stretch border hairline bg-paper-100/60">
               <input
-                :value="shareUrl"
+                :value="shareUrl ?? ''"
+                :placeholder="shareUrl ? undefined : '공유 링크를 준비하고 있어요…'"
                 readonly
                 aria-label="기념일 페이지 주소"
-                class="min-w-0 flex-1 bg-transparent px-3 py-2.5 font-display text-[0.82rem] text-ink-600 outline-none"
-                @focus="($event.target as HTMLInputElement).select()"
+                class="min-w-0 flex-1 bg-transparent px-3 py-2.5 font-display text-[0.82rem] text-ink-600 outline-none placeholder:italic placeholder:text-ink-400"
+                @focus="shareUrl && ($event.target as HTMLInputElement).select()"
               />
               <button
                 type="button"
-                class="shrink-0 border-l hairline px-4 text-[0.68rem] font-medium uppercase tracking-[0.18em] transition"
-                :class="copied
+                class="shrink-0 border-l hairline px-4 text-[0.68rem] font-medium uppercase tracking-[0.18em] transition disabled:cursor-wait disabled:text-ink-300"
+                :class="shareUrl && copied
                   ? 'bg-ink-900 text-paper-50'
                   : 'text-ink-600 hover:bg-paper-200 hover:text-ink-900'"
+                :disabled="!shareUrl"
                 @click="handleCopyLink"
               >
-                {{ copied ? '복사됨' : '복사' }}
+                {{ shareUrl ? (copied ? '복사됨' : '복사') : '준비 중' }}
               </button>
             </div>
-            <p class="text-[0.7rem] leading-relaxed text-ink-400">
+            <p v-if="shareUrl" class="text-[0.7rem] leading-relaxed text-ink-400">
               {{ shareUrlLabel }} — 받는 사람은 앱을 열지 않아도 이 기념일의 유래를 바로 볼 수 있어요.
+            </p>
+            <p v-else class="text-[0.7rem] leading-relaxed text-ink-400" role="status">
+              이 기념일의 공유 주소를 불러오고 있어요.
             </p>
           </div>
 
@@ -458,9 +471,9 @@ async function handleNativeShare() {
               </span>
             </button>
             <button
-              v-if="shareUrl"
               type="button"
-              class="flex-1 border border-ink-800 bg-paper-50 px-5 py-3 text-[0.72rem] font-medium uppercase tracking-[0.22em] text-ink-800 transition hover:bg-paper-200"
+              class="flex-1 border border-ink-800 bg-paper-50 px-5 py-3 text-[0.72rem] font-medium uppercase tracking-[0.22em] text-ink-800 transition hover:bg-paper-200 disabled:cursor-wait disabled:border-rule-strong disabled:text-ink-300"
+              :disabled="!shareUrl"
               @click="handleShareLink"
             >
               {{ canNativeShare ? 'Share · 링크 공유' : 'Copy · 링크 복사' }}
