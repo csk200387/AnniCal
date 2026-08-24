@@ -185,23 +185,29 @@ watch(
   { immediate: true },
 )
 
-watch(isOpen, (open) => {
-  if (open) {
-    document.body.style.overflow = 'hidden'
-    // 모달 DOM 이 그려진 뒤에 측정/관찰해야 clientWidth 가 유효하다.
-    nextTick(() => {
-      dialogRef.value?.focus()
-      recomputeScale()
-      observePreview()
-      // 폰트 임베딩 준비는 여기서 하지 않는다 — 이미지 버튼에 손이 닿을 때
-      // warmUpImage() 가 맡는다(위 주석 참고).
-    })
-  } else {
-    document.body.style.overflow = ''
-    unobservePreview()
-    errorMsg.value = null
-  }
-})
+watch(
+  isOpen,
+  (open) => {
+    if (open) {
+      document.body.style.overflow = 'hidden'
+      // 모달 DOM 이 그려진 뒤에 측정/관찰해야 clientWidth 가 유효하다.
+      nextTick(() => {
+        dialogRef.value?.focus()
+        recomputeScale()
+        observePreview()
+        // 폰트 임베딩 준비는 여기서 하지 않는다 — 이미지 버튼에 손이 닿을 때
+        // warmUpImage() 가 맡는다(위 주석 참고).
+      })
+    } else {
+      document.body.style.overflow = ''
+      unobservePreview()
+      errorMsg.value = null
+    }
+  },
+  // ShareModal 은 첫 클릭 뒤 마운트되므로 이미 true 인 초기 상태도 처리해야 한다.
+  // 이 옵션이 없으면 첫 모달에서 축척 계산과 ResizeObserver 등록이 모두 빠진다.
+  { immediate: true },
+)
 
 onBeforeUnmount(() => {
   document.body.style.overflow = ''
@@ -384,7 +390,7 @@ async function handleNativeShare() {
           </header>
 
           <!-- 미리보기 -->
-          <div ref="previewWrapRef" class="w-full">
+          <div ref="previewWrapRef" class="w-full min-w-0 overflow-hidden">
             <div
               class="mx-auto overflow-hidden border hairline shadow-[0_18px_45px_-25px_rgba(10,9,8,0.35)]"
               :style="{
