@@ -55,7 +55,60 @@ const previewWrapRef = ref<HTMLElement | null>(null)
 const dialogRef = useTemplateRef<HTMLDivElement>('dialogRef')
 
 const isGenerating = ref(false)
+const generationProgress = ref(0)
 const errorMsg = ref<string | null>(null)
+
+// html-to-image 는 파일 단위 진행률을 제공하지 않는다. 실제 작업 단계를 기준으로
+// 상한을 옮기고, 오래 걸리는 단계 안에서는 그 상한까지만 천천히 전진시킨다.
+// PNG 생성이 끝나기 전에는 절대 100%가 되지 않는다.
+let generationProgressCeiling = 0
+let generationProgressTimer: ReturnType<typeof setInterval> | null = null
+let generationResetTimer: ReturnType<typeof setTimeout> | null = null
+
+function stopGenerationProgressTimer() {
+  if (generationProgressTimer !== null) {
+    clearInterval(generationProgressTimer)
+    generationProgressTimer = null
+  }
+}
+
+function startGenerationProgress() {
+  stopGenerationProgressTimer()
+  if (generationResetTimer !== null) {
+    clearTimeout(generationResetTimer)
+    generationResetTimer = null
+  }
+  generationProgress.value = 3
+  generationProgressCeiling = 14
+  generationProgressTimer = setInterval(() => {
+    const remaining = generationProgressCeiling - generationProgress.value
+    if (remaining <= 0.1) return
+    generationProgress.value = Math.min(
+      generationProgressCeiling,
+      generationProgress.value + Math.max(0.25, remaining * 0.045),
+    )
+  }, 120)
+}
+
+function advanceGenerationProgress(minimum: number, ceiling: number) {
+  generationProgress.value = Math.max(generationProgress.value, minimum)
+  generationProgressCeiling = ceiling
+}
+
+function resetGenerationProgress() {
+  stopGenerationProgressTimer()
+  if (generationResetTimer !== null) clearTimeout(generationResetTimer)
+  generationResetTimer = null
+  generationProgressCeiling = 0
+  generationProgress.value = 0
+  isGenerating.value = false
+}
+
+function completeGenerationProgress() {
+  stopGenerationProgressTimer()
+  generationProgress.value = 100
+  generationResetTimer = setTimeout(resetGenerationProgress, 450)
+}
 
 const filename = computed(() => {
   if (!anniversary.value) return 'anniversarium.png'
@@ -145,6 +198,7 @@ watch(isOpen, (open) => {
 onBeforeUnmount(() => {
   document.body.style.overflow = ''
   unobservePreview()
+  resetGenerationProgress()
 })
 
 function close() {
@@ -162,6 +216,7 @@ function onKeydown(e: KeyboardEvent) {
 async function generatePng(): Promise<string | null> {
   if (!cardRootRef.value) return null
   isGenerating.value = true
+  startGenerationProgress()
   errorMsg.value = null
   try {
     // 미리보기와 동일한 서체로 캡처되도록 웹폰트 로딩을 먼저 보장한다.
@@ -169,13 +224,21 @@ async function generatePng(): Promise<string | null> {
     if (typeof document !== 'undefined' && document.fonts?.ready) {
       await document.fonts.ready
     }
+    advanceGenerationProgress(14, 68)
     // 폰트 임베딩 CSS 를 미리(또는 즉석으로) 계산해 toPng 에 직접 넘기면,
     // html-to-image 가 매 호출마다 폰트를 다시 fetch/인코딩하는 단계를 건너뛴다.
     // 결과가 항상 동일하므로 미리보기와도 어긋나지 않아 워밍업용 2회 호출이 불필요.
     const [{ toPng }, fontEmbedCSS] = await Promise.all([
-      loadImageLib(),
-      ensureFontEmbedCss(cardRootRef.value),
+      loadImageLib().then((imageLib) => {
+        advanceGenerationProgress(22, 68)
+        return imageLib
+      }),
+      ensureFontEmbedCss(cardRootRef.value).then((css) => {
+        advanceGenerationProgress(70, 70)
+        return css
+      }),
     ])
+    advanceGenerationProgress(74, 94)
     const dataUrl = await toPng(cardRootRef.value, {
       pixelRatio: 2, // 540 → 1080x1080
       backgroundColor: '#faf7f0',
@@ -183,13 +246,13 @@ async function generatePng(): Promise<string | null> {
       height: 540,
       fontEmbedCSS,
     })
+    completeGenerationProgress()
     return dataUrl
   } catch (e) {
     errorMsg.value =
       e instanceof Error ? e.message : '이미지 생성에 실패했어요.'
+    resetGenerationProgress()
     return null
-  } finally {
-    isGenerating.value = false
   }
 }
 
@@ -370,14 +433,29 @@ async function handleNativeShare() {
           <div class="flex flex-col gap-2.5 sm:flex-row sm:gap-3">
             <button
               type="button"
-              class="flex-1 border border-ink-900 bg-ink-900 px-5 py-3 text-[0.72rem] font-medium uppercase tracking-[0.22em] text-paper-50 transition hover:bg-ink-800 disabled:opacity-60"
+              class="relative isolate flex-1 overflow-hidden border border-ink-900 px-5 py-3 text-[0.72rem] font-medium uppercase tracking-[0.22em] transition disabled:cursor-wait"
+              :class="isGenerating
+                ? 'bg-paper-50 text-ink-900'
+                : 'bg-ink-900 text-paper-50 hover:bg-ink-800'"
               :disabled="isGenerating"
+              :aria-busy="isGenerating"
               @pointerenter="warmUpImage"
               @focus="warmUpImage"
               @click="handleDownload"
             >
-              <span v-if="isGenerating">Generating…</span>
-              <span v-else>Download · 이미지 저장</span>
+              <span
+                v-if="isGenerating"
+                class="absolute inset-y-0 left-0 bg-ink-900 transition-[width] duration-300 ease-out"
+                :style="{ width: `${generationProgress}%` }"
+                aria-hidden="true"
+              />
+              <span
+                class="relative z-10"
+                :class="isGenerating ? 'text-white mix-blend-difference' : ''"
+              >
+                <template v-if="isGenerating">Generating · {{ Math.round(generationProgress) }}%</template>
+                <template v-else>Download · 이미지 저장</template>
+              </span>
             </button>
             <button
               v-if="shareUrl"
