@@ -37,6 +37,8 @@ tools/namuwiki/cache/
 # 대조 중간 산출물 — match_report.py·finalize.py 로 언제든 다시 만든다
 tools/namuwiki/output/match_result.json
 tools/namuwiki/output/final_result.json
+# 검토용 나무위키 보고서 — 로컬에는 보존하되 저장소에는 포함하지 않는다
+NAMUWIKI_*.md
 
 # 데이터 저장 잠금 파일 (tools/toolkit.py)
 .write.lock
