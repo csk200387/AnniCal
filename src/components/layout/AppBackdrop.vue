@@ -2,7 +2,7 @@
 /**
  * 페이지 뒤에 깔리는 매거진 풍 배경 장식.
  * - fixed inset-0 + pointer-events-none 으로 콘텐츠를 절대 가리지 않음
- * - 콘텐츠 폭(max-w-3xl) 양옆 여백을 채우는 코너 도형 중심
+ * - 콘텐츠 폭(max-w-[1180px]) 양옆 여백을 채우는 코너 도형 중심
  * - opacity 0.04~0.18 사이로 가독성에 영향 없음
  */
 </script>
@@ -90,11 +90,11 @@
     <!-- 좌측 마진 라인 (콘텐츠보다 살짝 바깥) -->
     <div
       class="absolute top-40 bottom-40 hidden w-px lg:block"
-      style="left: calc(50% - 480px); background: linear-gradient(to bottom, transparent, rgba(47,44,40,0.12), transparent);"
+      style="left: calc(50% - 640px); background: linear-gradient(to bottom, transparent, rgba(47,44,40,0.12), transparent);"
     />
     <div
       class="absolute top-40 bottom-40 hidden w-px lg:block"
-      style="right: calc(50% - 480px); background: linear-gradient(to bottom, transparent, rgba(47,44,40,0.12), transparent);"
+      style="right: calc(50% - 640px); background: linear-gradient(to bottom, transparent, rgba(47,44,40,0.12), transparent);"
     />
 
     <!-- 중앙 가로지르는 가는 곡선 -->

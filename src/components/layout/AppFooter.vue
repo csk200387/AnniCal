@@ -4,7 +4,7 @@ const year = new Date().getFullYear()
 
 <template>
   <footer class="mt-16 border-t hairline">
-    <div class="mx-auto flex w-full max-w-3xl flex-col items-center gap-3 px-5 py-10 text-center sm:px-8 lg:px-10">
+    <div class="mx-auto flex w-full max-w-[1180px] flex-col items-center gap-3 px-5 py-10 text-center sm:px-8 lg:px-10">
       <span class="font-display text-base tracking-tight text-ink-700">
         기념일 만물상
       </span>

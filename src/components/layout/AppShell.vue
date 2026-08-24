@@ -22,7 +22,7 @@ const everOpened = computed(() => isOpen.value || shareStore.hasOpened)
     <AppBackdrop />
     <div class="relative z-10 flex min-h-full flex-1 flex-col">
       <AppHeader />
-      <main class="mx-auto w-full max-w-3xl flex-1 px-5 py-10 sm:px-8 sm:py-14 lg:px-10">
+      <main class="mx-auto w-full max-w-[1180px] flex-1 px-5 py-10 sm:px-8 sm:py-14 lg:px-10">
         <slot />
       </main>
       <AppFooter />
