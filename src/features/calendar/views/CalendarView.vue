@@ -192,8 +192,11 @@ function handleShare(anv: Anniversary) {
           </div>
         </section>
 
-        <aside class="overflow-hidden border border-ink-900 bg-paper-50 lg:sticky lg:top-40" aria-labelledby="selected-date-heading">
-          <div class="relative min-h-[170px] overflow-hidden bg-accent-600 p-6 text-paper-50">
+        <aside
+          class="overflow-hidden border border-ink-900 bg-paper-50 lg:sticky lg:top-40 lg:flex lg:h-[678px] lg:flex-col"
+          aria-labelledby="selected-date-heading"
+        >
+          <div class="relative min-h-[170px] shrink-0 overflow-hidden bg-accent-600 p-6 text-paper-50">
             <div class="absolute -bottom-16 -right-10 h-48 w-48 rounded-full border border-paper-50/15 shadow-[0_0_0_25px_rgba(255,255,255,0.035)]" aria-hidden="true" />
             <p class="eyebrow !text-paper-200">Selected Date</p>
             <div class="relative z-10 mt-9 flex items-end gap-3">
@@ -202,12 +205,17 @@ function handleShare(anv: Anniversary) {
             </div>
           </div>
 
-          <div class="p-5">
+          <div class="flex min-h-0 flex-1 flex-col p-5">
             <div class="flex items-center justify-between gap-3 border-b hairline pb-4">
               <h2 id="selected-date-heading" class="font-display text-xl font-normal text-ink-900">{{ selectedHumanDate }}</h2>
               <span class="shrink-0 text-[0.65rem] text-ink-400">{{ selectedAnniversaries.length }} stories</span>
             </div>
-            <ol v-if="selectedAnniversaries.length">
+            <ol
+              v-if="selectedAnniversaries.length"
+              class="lg:min-h-0 lg:flex-1 lg:overflow-y-auto lg:overscroll-contain lg:pr-2 lg:[scrollbar-gutter:stable]"
+              aria-label="선택한 날짜의 기념일 목록"
+              tabindex="0"
+            >
               <li v-for="anv in selectedAnniversaries" :key="anv.id" class="border-b hairline py-5 last:border-b-0">
                 <CategoryBadge :category-id="anv.category" />
                 <RouterLink v-if="pathFor(anv)" :to="pathFor(anv)!" class="mt-2 block font-display text-xl leading-tight text-ink-900 transition hover:text-accent-600">{{ anv.name }}</RouterLink>
