@@ -32,6 +32,12 @@ tools/inspector/.env
 __pycache__/
 *.py[cod]
 
+# 나무위키 원본 HTML 캐시 (76MB, tools/namuwiki/scrape_calendar.py --from-cache 재파싱용)
+tools/namuwiki/cache/
+# 대조 중간 산출물 — match_report.py·finalize.py 로 언제든 다시 만든다
+tools/namuwiki/output/match_result.json
+tools/namuwiki/output/final_result.json
+
 # 데이터 저장 잠금 파일 (tools/toolkit.py)
 .write.lock
 .vercel
