@@ -5,8 +5,11 @@ const {
   isLoading,
   error,
   categoryOptions,
+  groupOptions,
   isSelected,
   toggle,
+  isGroupSelected,
+  toggleGroup,
   selectAll,
   selectNone,
   hasSelection,
@@ -91,6 +94,40 @@ const {
               {{ opt.count }}
             </span>
           </button>
+        </div>
+
+        <!-- 그룹 — 카테고리와 교차하는 묶음. OR 로 합쳐진다. -->
+        <div v-if="groupOptions.length" class="mt-6 border-t hairline pt-5">
+          <p class="mb-3 text-[0.7rem] uppercase tracking-[0.18em] text-ink-400">
+            묶음으로 고르기
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <button
+              v-for="opt in groupOptions"
+              :key="opt.id"
+              type="button"
+              class="inline-flex items-center gap-2 border px-3.5 py-2 text-sm transition"
+              :class="
+                isGroupSelected(opt.id)
+                  ? 'border-ink-900 bg-ink-900 text-paper-50'
+                  : 'border-rule bg-paper-50 text-ink-500 hover:border-ink-800 hover:text-ink-900'
+              "
+              :aria-pressed="isGroupSelected(opt.id)"
+              @click="toggleGroup(opt.id)"
+            >
+              <span v-if="opt.emoji" aria-hidden="true">{{ opt.emoji }}</span>
+              <span class="font-display tracking-tight">{{ opt.label }}</span>
+              <span
+                class="font-sans text-[0.68rem] tabular-nums"
+                :class="isGroupSelected(opt.id) ? 'text-paper-300' : 'text-ink-400'"
+              >
+                {{ opt.count }}
+              </span>
+            </button>
+          </div>
+          <p class="mt-2.5 text-[0.78rem] leading-relaxed text-ink-400">
+            카테고리와 별개로 더해집니다. 소재가 달라도 법령이 정한 기념일이면 함께 담깁니다.
+          </p>
         </div>
       </section>
 

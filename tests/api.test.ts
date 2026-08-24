@@ -1,6 +1,7 @@
 // 공개 구독 API — 인증이 없으므로 입력 검증과 캐시 정규화가 곧 방어선이다.
 import { describe, expect, it } from 'vitest'
 import handler from '../api/calendar'
+import { allAnniversaries } from '../src/data/anniversaries/all'
 
 interface Reply {
   status: number
@@ -129,5 +130,52 @@ describe('필터 동작', () => {
     const holiday = veventCount(call('GET', '/api/calendar?categories=holiday').body)
     const both = veventCount(call('GET', '/api/calendar?categories=food,holiday').body)
     expect(both).toBe(food + holiday)
+  })
+})
+
+// ─── 그룹(법정기념일) 필터 ───────────────────────────────────────
+// 그룹은 category 와 달리 tags 에 레이블로 들어 있고, URL 로는 ASCII id 를 받는다.
+// 카테고리와 OR 로 합쳐지는 것이 핵심이라 그 경계를 못 박아 둔다.
+describe('groups 필터', () => {
+  const statutoryCount = allAnniversaries.filter((a) =>
+    a.tags.includes('법정기념일'),
+  ).length
+
+  it('groups=statutory 는 법정기념일만 담는다', () => {
+    expect(statutoryCount).toBeGreaterThan(0)
+    const r = call('GET', '/api/calendar?groups=statutory')
+    expect(r.status).toBe(200)
+    expect(veventCount(r.body)).toBe(statutoryCount)
+  })
+
+  it('카테고리와 그룹은 OR 로 합쳐진다', () => {
+    const onlyCat = veventCount(call('GET', '/api/calendar?categories=romance').body)
+    const both = veventCount(
+      call('GET', '/api/calendar?categories=romance&groups=statutory').body,
+    )
+    // romance 에는 법정기념일이 없으므로 정확히 합만큼 늘어난다.
+    expect(both).toBe(onlyCat + statutoryCount)
+    expect(both).toBeLessThan(allAnniversaries.length)
+  })
+
+  it('알 수 없는 그룹 id 만 주면 전체 피드로 새지 않는다', () => {
+    const r = call('GET', '/api/calendar?groups=nope')
+    expect(r.status).toBe(400)
+  })
+
+  it('카테고리가 무효여도 그룹이 유효하면 그룹만 내보낸다', () => {
+    const r = call('GET', '/api/calendar?categories=nope&groups=statutory')
+    expect(r.status).toBe(200)
+    expect(veventCount(r.body)).toBe(statutoryCount)
+  })
+
+  it('허용하지 않는 쿼리 키는 여전히 거절한다', () => {
+    expect(call('GET', '/api/calendar?tags=statutory').status).toBe(400)
+  })
+
+  it('순서만 다른 요청은 같은 ETag 를 쓴다', () => {
+    const a = call('GET', '/api/calendar?categories=food,romance&groups=statutory')
+    const b = call('GET', '/api/calendar?groups=statutory&categories=romance,food')
+    expect(a.headers.etag).toBe(b.headers.etag)
   })
 })

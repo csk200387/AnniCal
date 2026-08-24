@@ -1,6 +1,8 @@
 import type { Anniversary } from '@/types/anniversary'
 import type { Category } from '@/types/category'
+import type { Group } from '@/types/group'
 import categoriesJson from '@/data/categories.json'
+import groupsJson from '@/data/groups.json'
 
 /**
  * 월별 분할 데이터(01..12.json)를 동적 import 로 로드.
@@ -78,5 +80,11 @@ export const anniversaryRepository = {
 export const categoryRepository = {
   async findAll(): Promise<Category[]> {
     return categoriesJson as Category[]
+  },
+}
+
+export const groupRepository = {
+  async findAll(): Promise<Group[]> {
+    return groupsJson as Group[]
   },
 }

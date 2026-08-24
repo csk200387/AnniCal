@@ -12,8 +12,8 @@
 // 늘릴 수 있다. 그래서 아래를 강제한다.
 //
 //   - GET/HEAD 만 허용 (그 외 405)
-//   - 쿼리 키는 categories 하나만, 길이·개수 상한 있음
-//   - 값은 categories.json 의 13개 id allowlist 로 걸러 중복 제거·정렬
+//   - 쿼리 키는 categories·groups 둘만, 길이·개수 상한 있음
+//   - 값은 categories.json / groups.json 의 id allowlist 로 걸러 중복 제거·정렬
 //     → 서로 다른 표기가 같은 정규형으로 접혀 캐시 키가 유한해진다
 //   - 정규형별 결과를 모듈 메모리에 캐시 (인스턴스 재사용 시 재계산 없음)
 //   - 결정적 DTSTAMP + ETag 로 조건부 요청에 304 응답
@@ -22,6 +22,7 @@ import type { IncomingMessage, ServerResponse } from 'node:http'
 // 명시적 .js 확장자가 필요하다(없으면 런타임 ERR_MODULE_NOT_FOUND → 500).
 import { allAnniversaries } from '../src/data/anniversaries/all.js'
 import categoriesJson from '../src/data/categories.json' with { type: 'json' }
+import groupsJson from '../src/data/groups.json' with { type: 'json' }
 import { registerAnchors } from '../src/utils/dateUtils.js'
 import { buildCalendar } from '../src/utils/ics.js'
 
@@ -33,9 +34,17 @@ const VALID_CATEGORIES = new Set(
   (categoriesJson as Array<{ id: string }>).map((c) => c.id),
 )
 
+// 그룹은 tags 에 레이블로 들어 있다(src/types/group.ts). URL 에는 ASCII id 를
+// 받고 여기서 레이블로 되돌린다 — 한글을 쿼리로 받으면 인코딩 표기가 갈려
+// 같은 선택이 서로 다른 캐시 키를 만든다.
+const GROUP_LABEL_BY_ID = new Map(
+  (groupsJson as Array<{ id: string; label: string }>).map((g) => [g.id, g.label]),
+)
+
 /** 쿼리 문자열 상한 — 정상 요청은 13개 id 를 합쳐도 120자를 넘지 않는다. */
 const MAX_QUERY_LEN = 256
 const MAX_CATEGORIES = 32
+const MAX_GROUPS = 16
 
 /**
  * 배포마다 고정되는 DTSTAMP.
@@ -53,7 +62,7 @@ const BUILD_TIME = (() => {
 const BUILD_ID =
   process.env.VERCEL_GIT_COMMIT_SHA ?? process.env.VERCEL_DEPLOYMENT_ID ?? 'dev'
 
-/** 정규화된 카테고리 키 → 완성된 ICS 본문. 인스턴스 수명 동안 유지된다. */
+/** 정규화된 (카테고리, 그룹) 키 → 완성된 ICS 본문. 인스턴스 수명 동안 유지된다. */
 const cache = new Map<string, { body: string; etag: string }>()
 
 /**
@@ -62,13 +71,17 @@ const cache = new Map<string, { body: string; etag: string }>()
  * - 중복 제거 + 정렬 → 순서만 바꾼 요청이 같은 캐시 키를 공유한다
  * - null 은 "필터 없음"(전체), 빈 배열은 "아무것도 선택 안 함"으로 구분한다
  */
-function parseCategories(raw: string | null): string[] | null {
+function parseIds(
+  raw: string | null,
+  allow: (id: string) => boolean,
+  max: number,
+): string[] | null {
   if (raw === null) return null
   const picked = raw
     .split(',')
-    .slice(0, MAX_CATEGORIES)
+    .slice(0, max)
     .map((s) => s.trim().toLowerCase())
-    .filter((s) => VALID_CATEGORIES.has(s))
+    .filter(allow)
   return [...new Set(picked)].sort()
 }
 
@@ -94,7 +107,7 @@ export default function handler(req: IncomingMessage, res: ServerResponse): void
   // categories 외의 키는 받지 않는다. 임의의 키를 붙여 캐시 키를 무한히
   // 늘리는 것을 막는 게 목적이다.
   for (const key of url.searchParams.keys()) {
-    if (key !== 'categories') {
+    if (key !== 'categories' && key !== 'groups') {
       res.statusCode = 400
       res.setHeader('Content-Type', 'text/plain; charset=utf-8')
       res.end(`Unsupported query parameter: ${key.slice(0, 40)}`)
@@ -102,24 +115,43 @@ export default function handler(req: IncomingMessage, res: ServerResponse): void
     }
   }
 
-  const cats = parseCategories(url.searchParams.get('categories'))
+  const cats = parseIds(
+    url.searchParams.get('categories'),
+    (id) => VALID_CATEGORIES.has(id),
+    MAX_CATEGORIES,
+  )
+  const groups = parseIds(
+    url.searchParams.get('groups'),
+    (id) => GROUP_LABEL_BY_ID.has(id),
+    MAX_GROUPS,
+  )
 
   // 파라미터를 줬는데 유효한 id 가 하나도 없으면 전체 피드로 넘어가지 않는다.
   // "카테고리를 전부 해제했더니 1,400건이 구독됐다"가 이 지점의 사고였다.
-  if (cats !== null && cats.length === 0) {
+  // 두 파라미터는 OR 로 합쳐지므로, 합집합이 비었을 때만 거절한다.
+  const gave = cats !== null || groups !== null
+  if (gave && (cats?.length ?? 0) === 0 && (groups?.length ?? 0) === 0) {
     res.statusCode = 400
     res.setHeader('Content-Type', 'text/plain; charset=utf-8')
-    res.end('No valid category selected')
+    res.end('No valid category or group selected')
     return
   }
 
-  const cacheKey = cats === null ? '*' : cats.join(',')
+  const cacheKey = !gave ? '*' : `c:${cats?.join(',') ?? ''}|g:${groups?.join(',') ?? ''}`
   let entry = cache.get(cacheKey)
   if (!entry) {
-    const filter = cats === null ? null : new Set(cats)
-    const items = filter
-      ? allAnniversaries.filter((a) => filter.has(a.category))
-      : allAnniversaries
+    const catFilter = cats && cats.length ? new Set(cats) : null
+    const labelFilter =
+      groups && groups.length
+        ? new Set(groups.map((id) => GROUP_LABEL_BY_ID.get(id) as string))
+        : null
+    const items = !gave
+      ? allAnniversaries
+      : allAnniversaries.filter(
+          (a) =>
+            (catFilter?.has(a.category) ?? false) ||
+            (labelFilter ? a.tags.some((t) => labelFilter.has(t)) : false),
+        )
     const body = buildCalendar(items, {
       calName: '기념일 만물상',
       stamp: BUILD_TIME,

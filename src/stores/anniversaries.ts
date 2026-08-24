@@ -2,10 +2,12 @@ import { defineStore } from 'pinia'
 import { computed, shallowRef, triggerRef } from 'vue'
 import type { Anniversary } from '@/types/anniversary'
 import type { Category } from '@/types/category'
+import type { Group } from '@/types/group'
 import {
   ALL_MONTHS,
   anniversaryRepository,
   categoryRepository,
+  groupRepository,
 } from '@/services/anniversaryRepository'
 import { registerAnchors, resolveOccurrenceSafe } from '@/utils/dateUtils'
 
@@ -20,6 +22,7 @@ export const useAnniversariesStore = defineStore('anniversaries', () => {
   // 순회 비용만 늘어난다. shallowRef 로 통째 교체만 반응하게 둔다.
   const items = shallowRef<Anniversary[]>([])
   const categories = shallowRef<Category[]>([])
+  const groups = shallowRef<Group[]>([])
   const isLoading = shallowRef(false)
   const error = shallowRef<string | null>(null)
 
@@ -80,10 +83,18 @@ export const useAnniversariesStore = defineStore('anniversaries', () => {
     })),
   )
 
-  let categoriesPromise: Promise<Category[]> | null = null
+  let categoriesPromise: Promise<[Category[], Group[]]> | null = null
   async function ensureCategories() {
-    if (!categoriesPromise) categoriesPromise = categoryRepository.findAll()
-    categories.value = await categoriesPromise
+    // 카테고리와 그룹은 둘 다 정적 JSON 이라 한 번에 받아 둔다.
+    if (!categoriesPromise) {
+      categoriesPromise = Promise.all([
+        categoryRepository.findAll(),
+        groupRepository.findAll(),
+      ])
+    }
+    const [c, g] = await categoriesPromise
+    categories.value = c
+    groups.value = g
   }
 
   /**
@@ -142,6 +153,7 @@ export const useAnniversariesStore = defineStore('anniversaries', () => {
   return {
     items,
     categories,
+    groups,
     isLoading,
     error,
     loadedMonths,
