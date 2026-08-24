@@ -167,7 +167,39 @@
       "anecdote": "한국은 국토의 63%가 산림으로 OECD에서도 손꼽히는 비율이다. 6·25 이후 민둥산이던 국토를 한 세대 만에 되살린 조림 사업은 세계적으로 드문 성공 사례로 인용된다."
     },
     "memes": [],
-    "sourceUrl": null
+    "sourceUrl": "https://www.law.go.kr/법령/임업및산촌진흥촉진에관한법률"
+  },
+  {
+    "id": "anv-fixed-11-01-injury-prevention-day-kr",
+    "date": "11-01",
+    "dateType": "annual-fixed",
+    "name": "손상예방의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "사고로 인한 손상을 줄이자는 인식을 넓히기 위해 「손상 예방 및 관리에 관한 법률」에 근거해 정한 법정기념일이다. 질병관리청이 주관하며 매년 11월 1일에 지킨다.",
+      "anecdote": "여기서 '손상'은 추락·교통사고·중독·자해처럼 외부 요인으로 몸을 다치는 것을 뜻한다. 질병과 달리 대부분 예방할 수 있는데도 젊은 층 사망 원인에서 큰 비중을 차지해, 우연한 사고가 아니라 관리 대상으로 다루자는 것이 이 기념일의 취지다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.law.go.kr/법령/손상예방및관리에관한법률"
+  },
+  {
+    "id": "anv-fixed-11-01-hanwoo-day-kr",
+    "date": "11-01",
+    "dateType": "annual-fixed",
+    "name": "한우의 날",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "한우산업을 진흥하고 한우문화를 잇기 위해 「탄소중립에 따른 한우산업 전환 및 지원에 관한 법률」에 근거해 정한 법정기념일이다. 농림축산식품부가 주관하며 매년 11월 1일에 지킨다.",
+      "anecdote": "한우는 원래 고기소가 아니라 논밭을 갈던 일소였다. 기계화로 쓰임이 바뀌면서 육질 중심으로 개량됐고, 지금은 개체마다 이력번호가 붙어 도축·유통 과정을 조회할 수 있다. 근거 법률에 '탄소중립'이 들어간 것은 축산 온실가스가 과제로 떠올랐기 때문이다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.law.go.kr/법령/탄소중립에따른한우산업전환및지원에관한법률"
   },
   {
     "id": "anv-fixed-11-02-traffic-directors-day-us",
@@ -212,6 +244,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-deviled-egg-day-november-2/"
+  },
+  {
+    "id": "anv-fixed-11-02-hydrogen-day-kr",
+    "date": "11-02",
+    "dateType": "annual-fixed",
+    "name": "수소의 날",
+    "category": "academic",
+    "tags": [
+      "학술 & 기술"
+    ],
+    "storytelling": {
+      "origin": "수소경제의 중요성에 대한 공감대를 넓히기 위해 「수소경제 육성 및 수소 안전관리에 관한 법률」에 근거해 정한 법정기념일이다. 산업통상자원부가 주관하며 매년 11월 2일에 지킨다.",
+      "anecdote": "날짜는 수소 분자식 H₂에서 따왔다. 원소기호 H가 원소 주기율표의 1번이고 분자가 원자 두 개로 이루어져 11월 2일이 됐다. 한국은 수소법을 세계에서 이른 시기에 만든 나라로 꼽히며, 수소차와 연료전지 발전이 주요 분야다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.law.go.kr/법령/수소경제육성및수소안전관리에관한법률"
   },
   {
     "id": "anv-fixed-11-03-sandwich-day-us",
@@ -318,6 +366,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-candy-day-november-4/"
   },
   {
+    "id": "anv-fixed-11-04-korean-braille-day-kr",
+    "date": "11-04",
+    "dateType": "annual-fixed",
+    "name": "한글 점자의 날",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "1926년 11월 4일 송암 박두성이 한글 점자 '훈맹정음'을 반포한 것을 기려 정한 법정기념일이다. 「점자법」에 근거하며 문화체육관광부가 주관한다. 점자가 한글과 같은 효력을 지닌 우리 문자임을 확인하는 날이다.",
+      "anecdote": "박두성은 조선총독부가 시각장애 학생에게 일본어 점자만 가르치게 하던 시절에 제자들과 몰래 연구해 훈맹정음을 완성했다. 초성·중성·종성을 각각 여섯 점으로 적는 방식이라 한글의 짜임새를 그대로 옮겼고, 지금 쓰는 한글 점자도 이 체계를 잇고 있다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.law.go.kr/법령/점자법"
+  },
+  {
     "id": "anv-fixed-11-05-men-make-dinner-day-us",
     "date": "11-05",
     "dateType": "annual-fixed",
@@ -353,7 +417,7 @@
       "anecdote": "국내 사업체의 90% 안팎이 소상공인이고 종사자는 600만 명을 넘는다. 창업 5년 뒤까지 살아남는 비율이 3분의 1에 못 미친다는 통계가 정책 논의에서 반복해 인용된다."
     },
     "memes": [],
-    "sourceUrl": null
+    "sourceUrl": "https://www.law.go.kr/법령/소상공인보호및지원에관한법률시행령"
   },
   {
     "id": "gov-120",
@@ -369,7 +433,7 @@
       "anecdote": "2016년 이세돌과 알파고의 대국은 인공지능 역사에서 분기점으로 남았다. 이세돌이 거둔 4국의 1승은 지금까지 인간이 최상위 바둑 AI를 상대로 거둔 마지막 승리로 기록돼 있다."
     },
     "memes": [],
-    "sourceUrl": null
+    "sourceUrl": "https://www.law.go.kr/법령/바둑진흥법"
   },
   {
     "id": "anv-fixed-11-06-nachos-day-us",
@@ -753,7 +817,7 @@
       "anecdote": "한국의 교통사고 사망자 중 보행자 비율은 30%를 넘어 OECD 평균의 두 배 수준이다. 2021년 도입된 도심 제한속도 50km/h 정책은 이 문제를 겨냥한 것이다."
     },
     "memes": [],
-    "sourceUrl": null
+    "sourceUrl": "https://www.law.go.kr/법령/지속가능교통물류발전법시행규칙"
   },
   {
     "id": "gov-122",
@@ -769,7 +833,7 @@
       "anecdote": "11월 11일 11시는 1차 대전 종전 시각으로, 여러 나라가 이미 현충일로 기려 온 시각이다. 그 시각에 맞춰 각자의 자리에서 부산 쪽을 바라보자는 발상이었다."
     },
     "memes": [],
-    "sourceUrl": null
+    "sourceUrl": "https://www.law.go.kr/법령/유엔참전용사의명예선양등에관한법률"
   },
   {
     "id": "anv-fixed-11-12-pizza-with-the-works-except-anchovies-day-us",
@@ -1238,10 +1302,10 @@
     ],
     "storytelling": {
       "origin": "「약사법」에 근거한 기념일이다. 1953년 11월 18일 대한민국 약사법이 처음 공포된 날을 기준으로 삼았다. 약의 오남용을 줄이고 올바른 복용법을 알리자는 취지다.",
-      "anecdote": "2000년 시행된 의약분업으로 처방과 조제가 나뉘면서 약국의 역할이 크게 바뀌었다. 남은 약을 쓰레기통에 버리면 하천으로 흘러 항생제 내성 문제로 이어져, 약국 수거함에 반납해야 한다. 남은 약을 쓰레기통에 버리면 하천으로 흘러 항생제 내성 문제로 이어져, 약국 수거함에 반납해야 한다. 한국의 항생제 처방률은 OECD 평균을 웃돈다."
+      "anecdote": "2000년 시행된 의약분업으로 처방과 조제가 나뉘면서 약국의 역할이 크게 바뀌었다. 남은 약을 쓰레기통에 버리면 하천으로 흘러 항생제 내성 문제로 이어져, 약국 수거함에 반납해야 한다. 한국의 항생제 처방률은 OECD 평균을 웃돈다."
     },
     "memes": [],
-    "sourceUrl": null
+    "sourceUrl": "https://www.law.go.kr/법령/약사법"
   },
   {
     "id": "anv-fixed-11-19-great-american-smokeout-us",
@@ -1345,7 +1409,7 @@
       "anecdote": "신고 사례의 8할 이상이 부모에 의한 것이고, 발생 장소도 대부분 집 안이다. 2021년 시행된 이른바 민법 훈육권 조항 삭제는 '자녀를 징계할 수 있다'는 조문을 63년 만에 없앤 것이다."
     },
     "memes": [],
-    "sourceUrl": null
+    "sourceUrl": "https://www.law.go.kr/법령/아동복지법"
   },
   {
     "id": "anv-fixed-11-20-absurdity-day-us",
@@ -1515,7 +1579,7 @@
       "anecdote": "미국 캘리포니아주가 2021년 같은 날을 김치의 날로 정한 것을 시작으로, 여러 주와 도시가 뒤를 이었다. 김장 문화는 2013년 유네스코 인류무형문화유산에 올랐다."
     },
     "memes": [],
-    "sourceUrl": null
+    "sourceUrl": "https://www.law.go.kr/법령/김치산업진흥법"
   },
   {
     "id": "anv-fixed-11-23-espresso-day-us",
@@ -1641,7 +1705,7 @@
       "anecdote": "국민신문고에 접수되는 민원은 연간 1천만 건을 넘는다. 악성 민원으로 담당 공무원이 겪는 피해가 잇따르면서, 응대 거부권을 두는 방향의 제도 개선이 논의되고 있다."
     },
     "memes": [],
-    "sourceUrl": null
+    "sourceUrl": "https://www.law.go.kr/법령/민원처리에관한법률"
   },
   {
     "id": "anv-fixed-11-25-elimination-of-violence-against-women-day-global",
@@ -1752,6 +1816,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-parfait-day-november-25/"
+  },
+  {
+    "id": "anv-fixed-11-25-development-cooperation-day-kr",
+    "date": "11-25",
+    "dateType": "annual-fixed",
+    "name": "국제개발협력의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "국제개발협력에 대한 국민의 이해와 관심을 높이기 위해 「국제개발협력기본법」에 근거해 정한 법정기념일이다. 국무조정실과 외교부가 함께 주관하며 매년 11월 25일에 지킨다.",
+      "anecdote": "2009년 11월 25일 한국이 OECD 개발원조위원회(DAC) 가입을 확정한 날에서 유래했다. 원조를 받던 나라가 주는 나라로 바뀐 첫 사례로 꼽히며, 그 전환을 기념일로 못박아 둔 셈이다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.law.go.kr/법령/국제개발협력기본법"
   },
   {
     "id": "anv-fixed-11-26-cake-day-us",

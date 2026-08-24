@@ -58,7 +58,6 @@
   "gov-56": "trade-day",
   "gov-57": "nuclear-safety-and-promotion-day",
   "anv-2026-05-24-monaco-gp": "monaco-grand-prix",
-  "gov-58": "national-balanced-development-day",
   "gov-59": "korean-sign-language-day",
   "gov-60": "cultural-heritage-disaster-prevention-day",
   "gov-61": "national-park-day",
@@ -127,5 +126,6 @@
   "gov-126": "civil-complaints-day",
   "gov-127": "volunteers-day",
   "gov-128": "national-heritage-day",
-  "gov-129": "mining-industry-day"
+  "gov-129": "mining-industry-day",
+  "anv-rel-chuseok-minus1-separated-families-day-kr": "separated-families-day"
 }

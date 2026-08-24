@@ -1,0 +1,87 @@
+{
+  "_설명": "한국 법정기념일 신규 6건 — 근거 법령을 위키백과 '대한민국의 기념일' 목록에서 확인한 것만 넣는다. tools/enrich/insert_entries.py 로 월별 파일에 삽입한다.",
+
+  "anv-fixed-05-25-disaster-prevention-day-kr": {
+    "date": "05-25",
+    "dateType": "annual-fixed",
+    "name": "방재의 날",
+    "category": "campaign",
+    "tags": ["국제 캠페인 & 보건"],
+    "storytelling": {
+      "origin": "재해를 미리 막고 대비하는 의식을 높이기 위해 정부가 정한 법정기념일로, 「재난 및 안전관리 기본법 시행령」에 근거해 매년 5월 25일에 지킨다. 행정안전부가 주관하며 전국에서 방재 훈련과 안전 점검 행사가 열린다.",
+      "anecdote": "5월 하순은 장마와 태풍철에 들어서기 직전이다. 큰비가 오기 전에 배수로·축대·저수지를 점검하자는 뜻이 날짜에 담겨 있다. 이날을 전후해 중앙정부와 지방자치단체가 합동 재난대응 훈련을 하고, 학교와 사업장에서도 대피 훈련을 함께 진행한다."
+    },
+    "memes": [],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/대한민국의_기념일"
+  },
+
+  "anv-fixed-07-07-road-day-kr": {
+    "date": "07-07",
+    "dateType": "annual-fixed",
+    "name": "도로의 날",
+    "category": "general",
+    "tags": ["일반"],
+    "storytelling": {
+      "origin": "1970년 7월 7일 경부고속도로가 개통한 것을 기려 1992년에 제정된 기념일이다. 국토교통부가 주관하며 도로 건설·관리 유공자 포상과 기념행사가 열린다. 도로가 지닌 가치와 안전을 함께 되새기자는 취지다.",
+      "anecdote": "경부고속도로는 서울과 부산을 428km로 잇는 길이었고, 착공 2년 5개월 만에 완공됐다. 당시로서는 유례없이 짧은 공기를 밀어붙인 대가로 공사 중 77명이 목숨을 잃었으며, 충북 옥천 금강휴게소에는 이들을 기리는 위령탑이 서 있다."
+    },
+    "memes": [],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/경부고속도로"
+  },
+
+  "anv-fixed-09-30-personal-data-protection-day-kr": {
+    "date": "09-30",
+    "dateType": "annual-fixed",
+    "name": "개인정보 보호의 날",
+    "category": "general",
+    "tags": ["일반"],
+    "storytelling": {
+      "origin": "개인정보의 가치와 보호의 중요성을 알리기 위해 정한 법정기념일로, 「개인정보 보호법」에 근거해 매년 9월 30일에 지킨다. 2011년 9월 30일 이 법이 시행된 날에서 날짜를 따왔으며 개인정보보호위원회가 주관한다.",
+      "anecdote": "이 법이 생기기 전에는 공공기관·정보통신·신용정보 분야를 제각기 다른 법이 규율해 어디에도 걸리지 않는 사각지대가 넓었다. 2020년에는 이 법과 정보통신망법·신용정보법을 함께 손질한 이른바 '데이터 3법' 개정으로 가명정보를 활용할 근거가 마련됐다."
+    },
+    "memes": [],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/대한민국의_기념일"
+  },
+
+  "anv-rel-chuseok-minus1-separated-families-day-kr": {
+    "date": "anv-lunar-chuseok-kr:-1",
+    "dateType": "annual-relative-to-holiday",
+    "name": "이산가족의 날",
+    "category": "history",
+    "tags": ["역사 & 추모"],
+    "storytelling": {
+      "origin": "남북 이산가족의 아픔을 위로하고 교류의 필요성을 알리기 위해 정한 법정기념일로, 「남북 이산가족 생사확인 및 교류 촉진에 관한 법률」에 근거한다. 온 가족이 모이는 추석 바로 전날(음력 8월 13일)로 날짜를 잡았고 통일부가 주관한다.",
+      "anecdote": "특정 양력 날짜 대신 명절을 고른 이유는 분명하다. 가족이 모이는 자리에서 빈자리가 가장 크게 느껴지기 때문이다. 통일부에 등록된 상봉 신청자는 13만 명을 넘지만 생존자는 4만 명 안팎으로 줄었고, 그중 상당수가 80대 이상이다."
+    },
+    "memes": [],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/대한민국의_기념일"
+  },
+
+  "anv-fixed-11-04-korean-braille-day-kr": {
+    "date": "11-04",
+    "dateType": "annual-fixed",
+    "name": "한글 점자의 날",
+    "category": "culture",
+    "tags": ["문화 & 예술"],
+    "storytelling": {
+      "origin": "1926년 11월 4일 송암 박두성이 한글 점자 '훈맹정음'을 반포한 것을 기려 정한 법정기념일이다. 「점자법」에 근거하며 문화체육관광부가 주관한다. 점자가 한글과 같은 효력을 지닌 우리 문자임을 확인하는 날이다.",
+      "anecdote": "박두성은 조선총독부가 시각장애 학생에게 일본어 점자만 가르치게 하던 시절에 제자들과 몰래 연구해 훈맹정음을 완성했다. 초성·중성·종성을 각각 여섯 점으로 적는 방식이라 한글의 짜임새를 그대로 옮겼고, 지금 쓰는 한글 점자도 이 체계를 잇고 있다."
+    },
+    "memes": [],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/훈맹정음"
+  },
+
+  "anv-fixed-12-29-korea-aviation-day-kr": {
+    "date": "12-29",
+    "dateType": "annual-fixed",
+    "name": "항공의 날",
+    "category": "academic",
+    "tags": ["학술 & 기술"],
+    "storytelling": {
+      "origin": "항공 산업의 발전과 안전 의식을 되새기기 위해 정한 법정기념일로, 「항공안전법」에 근거해 매년 12월 29일에 지킨다. 국토교통부가 주관하며 항공 분야 유공자 포상과 기념행사가 열린다.",
+      "anecdote": "한국 민간 항공은 1948년 대한국민항공사(KNA)가 국내선을 띄우면서 시작됐다. 지금은 대형 항공사와 저비용 항공사가 함께 경쟁하는 구조로 바뀌었고, 이 기념일이 기리는 대상도 조종사뿐 아니라 정비사·관제사·지상 조업 인력까지 넓어졌다."
+    },
+    "memes": [],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/대한민국의_기념일"
+  }
+}
