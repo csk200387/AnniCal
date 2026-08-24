@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>기념일 만물상 · Today 디자인 시안</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Noto+Sans+KR:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --paper: #f7f2e8;
+      --paper-light: #fffdf8;
+      --paper-deep: #eee5d5;
+      --ink: #171513;
+      --ink-soft: #514b44;
+      --muted: #81776b;
+      --rule: #d7ccba;
+      --accent: #792d2a;
+      --accent-light: #ead5cf;
+      --serif: "Fraunces", "Noto Serif KR", Georgia, serif;
+      --sans: "Noto Sans KR", system-ui, sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at 1px 1px, rgba(23,21,19,.045) 1px, transparent 0) 0 0 / 4px 4px,
+        var(--paper);
+      color: var(--ink);
+      font-family: var(--sans);
+      -webkit-font-smoothing: antialiased;
+    }
+    button, input { font: inherit; }
+    button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+    .eyebrow {
+      margin: 0;
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: .24em;
+      text-transform: uppercase;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      border-top: 3px solid var(--ink);
+      background: color-mix(in srgb, var(--paper) 90%, transparent);
+      backdrop-filter: blur(14px);
+    }
+    .masthead, .nav-inner, .page { width: min(1100px, calc(100% - 40px)); margin-inline: auto; }
+    .masthead {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 86px;
+      border-bottom: 1px solid var(--rule);
+    }
+    .brand {
+      display: inline-block;
+      margin-top: 4px;
+      color: var(--ink);
+      font-family: var(--serif);
+      font-size: clamp(25px, 4vw, 34px);
+      font-weight: 500;
+      letter-spacing: -.04em;
+      text-decoration: none;
+    }
+    .today-meta { text-align: right; }
+    .today-meta strong {
+      display: block;
+      margin-top: 4px;
+      font-family: var(--serif);
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: .08em;
+    }
+    .site-nav { border-bottom: 1px solid var(--rule); }
+    .nav-inner { display: flex; gap: 34px; }
+    .nav-link {
+      position: relative;
+      padding: 13px 0 14px;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: .18em;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    .nav-link span { margin-left: 7px; font-family: var(--serif); font-size: 14px; font-weight: 400; letter-spacing: 0; text-transform: none; }
+    .nav-link.active { color: var(--ink); }
+    .nav-link.active::after {
+      position: absolute;
+      right: 0;
+      bottom: -1px;
+      left: 0;
+      height: 2px;
+      background: var(--accent);
+      content: "";
+    }
+
+    .page { padding: 58px 0 96px; }
+    .cover {
+      display: grid;
+      grid-template-columns: minmax(220px, .68fr) minmax(0, 1.32fr);
+      min-height: 430px;
+      border-bottom: 1px solid var(--ink);
+    }
+    .date-poster {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 430px;
+      padding: 30px;
+      overflow: hidden;
+      background: var(--accent);
+      color: var(--paper-light);
+    }
+    .date-poster::before,
+    .date-poster::after {
+      position: absolute;
+      border: 1px solid rgba(255,255,255,.15);
+      border-radius: 50%;
+      content: "";
+    }
+    .date-poster::before { top: -120px; right: -150px; width: 350px; height: 350px; }
+    .date-poster::after { right: -70px; bottom: -110px; width: 250px; height: 250px; }
+    .date-poster .eyebrow { color: #dbc6bf; }
+    .date-number {
+      position: relative;
+      z-index: 1;
+      margin: auto 0;
+      font-family: var(--serif);
+      font-size: clamp(112px, 16vw, 178px);
+      font-weight: 400;
+      line-height: .76;
+      letter-spacing: -.09em;
+    }
+    .date-bottom { position: relative; z-index: 1; display: flex; align-items: end; justify-content: space-between; gap: 20px; }
+    .date-month { font-family: var(--serif); font-size: 29px; letter-spacing: .03em; }
+    .date-weekday { padding-bottom: 5px; font-size: 9px; letter-spacing: .2em; text-transform: uppercase; }
+
+    .cover-copy {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 8px 0 38px clamp(32px, 6vw, 76px);
+    }
+    .cover-line { display: flex; align-items: center; gap: 12px; }
+    .cover-line::before { width: 40px; height: 1px; background: var(--accent); content: ""; }
+    h1 {
+      max-width: 680px;
+      margin: 28px 0 0;
+      font-family: var(--serif);
+      font-size: clamp(50px, 7vw, 78px);
+      font-weight: 400;
+      line-height: 1;
+      letter-spacing: -.055em;
+    }
+    h1 em { color: var(--accent); font-weight: 400; }
+    .cover-description {
+      max-width: 580px;
+      margin: 25px 0 0;
+      color: var(--ink-soft);
+      font-family: var(--serif);
+      font-size: 18px;
+      line-height: 1.7;
+    }
+    .cover-summary { display: flex; gap: 34px; margin-top: 32px; padding-top: 18px; border-top: 1px solid var(--rule); }
+    .cover-summary strong { display: block; margin-top: 3px; font-family: var(--serif); font-size: 24px; font-weight: 400; }
+
+    .section { margin-top: 64px; }
+    .section-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 24px;
+      margin-bottom: 22px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid var(--ink);
+    }
+    .section-number {
+      display: inline-grid;
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+      place-items: center;
+      border: 1px solid var(--rule);
+      border-radius: 50%;
+      color: var(--accent);
+      font-family: var(--serif);
+      font-size: 12px;
+    }
+    h2 { margin: 7px 0 0; font-family: var(--serif); font-size: clamp(29px, 4vw, 40px); font-weight: 400; letter-spacing: -.04em; }
+    .section-note { max-width: 300px; color: var(--muted); font-family: var(--serif); font-size: 13px; font-style: italic; text-align: right; }
+
+    .stories {
+      display: grid;
+      grid-template-columns: 1.18fr .82fr;
+      gap: 18px;
+      align-items: stretch;
+    }
+    .story-card {
+      position: relative;
+      display: flex;
+      min-height: 440px;
+      flex-direction: column;
+      border: 1px solid var(--rule);
+      background: var(--paper-light);
+    }
+    .story-card.featured { border-color: var(--ink); background: var(--ink); color: var(--paper-light); }
+    .story-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 14px 22px;
+      border-bottom: 1px solid var(--rule);
+      font-size: 10px;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+    }
+    .featured .story-meta { border-color: rgba(255,255,255,.18); color: #c9bfb4; }
+    .category { display: flex; align-items: center; gap: 9px; }
+    .category::before { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); content: ""; }
+    .featured .category::before { background: #d6a89d; }
+    .story-body { flex: 1; padding: clamp(24px, 4vw, 38px); }
+    .story-order { color: var(--muted); font-family: var(--serif); font-size: 13px; }
+    .featured .story-order { color: #9c938b; }
+    .story-card h3 {
+      max-width: 540px;
+      margin: 16px 0 0;
+      font-family: var(--serif);
+      font-size: clamp(31px, 4.5vw, 50px);
+      font-weight: 400;
+      line-height: 1.05;
+      letter-spacing: -.045em;
+    }
+    .story-card:not(.featured) h3 { font-size: clamp(28px, 4vw, 39px); }
+    .story-rule { display: flex; align-items: center; gap: 12px; margin: 24px 0 20px; }
+    .story-rule::before, .story-rule::after { height: 1px; flex: 1; background: var(--rule); content: ""; }
+    .featured .story-rule::before, .featured .story-rule::after { background: rgba(255,255,255,.17); }
+    .story-rule span { color: var(--muted); font-size: 9px; letter-spacing: .2em; text-transform: uppercase; }
+    .story-text { margin: 0; color: var(--ink-soft); font-size: 14px; line-height: 1.82; }
+    .featured .story-text { color: #c3bbb1; }
+    .story-quote { margin: 24px 0 0; padding-left: 16px; border-left: 1px solid var(--accent); color: var(--muted); font-family: var(--serif); font-size: 14px; font-style: italic; line-height: 1.55; }
+    .featured .story-quote { border-color: #d6a89d; color: #aaa198; }
+    .story-footer { display: flex; justify-content: space-between; padding: 15px 22px; border-top: 1px solid var(--rule); }
+    .featured .story-footer { border-color: rgba(255,255,255,.18); }
+    .story-link, .share-button {
+      border: 0;
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      font-size: 10px;
+      letter-spacing: .16em;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    .featured .story-link, .featured .share-button { color: #b8afa6; }
+    .story-link:hover, .share-button:hover { color: var(--accent); }
+
+    .upcoming-layout { display: grid; grid-template-columns: minmax(0, 1fr) 280px; gap: 40px; }
+    .upcoming-list { margin: 0; padding: 0; border-top: 1px solid var(--rule); list-style: none; }
+    .upcoming-item {
+      display: grid;
+      grid-template-columns: 90px 1fr auto;
+      gap: 20px;
+      align-items: center;
+      min-height: 82px;
+      border-bottom: 1px solid var(--rule);
+    }
+    .upcoming-date { color: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+    .upcoming-name { font-family: var(--serif); font-size: 18px; }
+    .upcoming-category { display: block; margin-top: 4px; color: var(--muted); font-family: var(--sans); font-size: 9px; letter-spacing: .14em; text-transform: uppercase; }
+    .dday { color: var(--accent); font-family: var(--serif); font-size: 17px; }
+    .upcoming-aside { padding: 26px; border-top: 4px solid var(--accent); background: var(--paper-deep); }
+    .upcoming-aside strong { display: block; margin-top: 14px; font-family: var(--serif); font-size: 27px; font-weight: 400; line-height: 1.2; }
+    .upcoming-aside p:not(.eyebrow) { margin: 14px 0 0; color: var(--muted); font-family: var(--serif); font-size: 13px; line-height: 1.65; }
+    .calendar-link { display: inline-block; margin-top: 28px; padding-bottom: 5px; border-bottom: 1px solid var(--ink); color: var(--ink); font-size: 10px; letter-spacing: .15em; text-decoration: none; text-transform: uppercase; }
+
+    .page-footer { display: flex; justify-content: space-between; gap: 24px; margin-top: 72px; padding-top: 20px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; }
+    .toast {
+      position: fixed;
+      right: 22px;
+      bottom: 22px;
+      z-index: 30;
+      padding: 12px 16px;
+      background: var(--ink);
+      color: var(--paper-light);
+      font-size: 11px;
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(8px);
+      transition: opacity .2s ease, transform .2s ease;
+    }
+    .toast.show { opacity: 1; transform: translateY(0); }
+
+    @media (max-width: 860px) {
+      .cover { grid-template-columns: 210px 1fr; }
+      .stories { grid-template-columns: 1fr; }
+      .story-card { min-height: 380px; }
+      .upcoming-layout { grid-template-columns: 1fr; }
+      .upcoming-aside { display: flex; align-items: center; justify-content: space-between; gap: 25px; }
+      .calendar-link { flex: 0 0 auto; margin-top: 0; }
+    }
+    @media (max-width: 680px) {
+      .masthead, .nav-inner, .page { width: min(100% - 28px, 1100px); }
+      .today-meta { display: none; }
+      .nav-inner { gap: 20px; overflow-x: auto; }
+      .nav-link { white-space: nowrap; }
+      .page { padding-top: 34px; }
+      .cover { grid-template-columns: 1fr; }
+      .date-poster { min-height: 280px; }
+      .date-number { margin: 34px 0; font-size: 120px; }
+      .cover-copy { padding: 36px 0; }
+      .section { margin-top: 52px; }
+      .section-head { align-items: flex-start; flex-direction: column; }
+      .section-note { text-align: left; }
+      .upcoming-item { grid-template-columns: 74px 1fr auto; gap: 12px; }
+      .upcoming-aside { display: block; }
+      .calendar-link { margin-top: 24px; }
+      .page-footer { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="masthead">
+      <div>
+        <p class="eyebrow">A Daily Curation</p>
+        <a class="brand" href="today-design-sample.html">기념일 만물상</a>
+      </div>
+      <div class="today-meta">
+        <p class="eyebrow">Today</p>
+        <strong>MON · 2026.08.24</strong>
+      </div>
+    </div>
+    <nav class="site-nav" aria-label="주요 메뉴">
+      <div class="nav-inner">
+        <a class="nav-link active" href="today-design-sample.html">Today <span>오늘</span></a>
+        <a class="nav-link" href="calendar-design-sample.html">Calendar <span>달력</span></a>
+        <a class="nav-link" href="calendar-export-design-sample.html">Subscribe <span>캘린더 연동</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="cover">
+      <div class="date-poster">
+        <p class="eyebrow">Vol. 2026 · Issue 236</p>
+        <div class="date-number">24</div>
+        <div class="date-bottom">
+          <span class="date-month">AUG</span>
+          <span class="date-weekday">Monday<br />2026</span>
+        </div>
+      </div>
+      <div class="cover-copy">
+        <div class="cover-line"><p class="eyebrow">The Daily Edition</p></div>
+        <h1>오늘이라는 날짜에<br /><em>이야기를 더합니다.</em></h1>
+        <p class="cover-description">평범해 보이는 하루에도 누군가가 기억해 둔 이야기가 있습니다. 오늘은 바삭한 와플과 여름의 복숭아를 위한 날입니다.</p>
+        <div class="cover-summary">
+          <div><span class="eyebrow">Today</span><strong>2 stories</strong></div>
+          <div><span class="eyebrow">Next 7 days</span><strong>8 days</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="today-stories-title">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow"><span class="section-number">01</span>Today’s Stories</p>
+          <h2 id="today-stories-title">8월 24일의 기념일</h2>
+        </div>
+        <p class="section-note">오늘 등록된 모든 기념일을 한 편의 짧은 기사처럼 읽어보세요.</p>
+      </div>
+
+      <div class="stories">
+        <article class="story-card featured">
+          <header class="story-meta"><span class="category">음식 & 디저트</span><time datetime="2026-08-24">08 · 24</time></header>
+          <div class="story-body">
+            <span class="story-order">Story No. 01</span>
+            <h3>와플의 날<br /><span lang="en">National Waffle Day</span></h3>
+            <div class="story-rule"><span>Origin</span></div>
+            <p class="story-text">격자무늬의 바삭한 빵, 와플을 기념하는 날입니다. 미국 와플 굽기 틀의 첫 특허가 등록된 날에 맞춰 8월 24일로 정해졌습니다.</p>
+            <blockquote class="story-quote">“격자 칸칸이 시럽 고이게 부으려고 진지하게 각도 재는 그 정성.”</blockquote>
+          </div>
+          <footer class="story-footer"><a class="story-link" href="#">Source →</a><button class="share-button" type="button" data-share="와플의 날">Share · 공유 →</button></footer>
+        </article>
+
+        <article class="story-card">
+          <header class="story-meta"><span class="category">음식 & 디저트</span><time datetime="2026-08-24">08 · 24</time></header>
+          <div class="story-body">
+            <span class="story-order">Story No. 02</span>
+            <h3>피치파이의 날</h3>
+            <div class="story-rule"><span>Story</span></div>
+            <p class="story-text">잘 익은 복숭아를 듬뿍 채운 피치파이를 기념하는 날입니다. 여름 한정으로 만날 수 있어 한정판 같은 매력이 더욱 특별하게 느껴집니다.</p>
+            <blockquote class="story-quote">“복숭아 철에만 만날 수 있는 그 한정판 같은 디저트.”</blockquote>
+          </div>
+          <footer class="story-footer"><a class="story-link" href="#">Source →</a><button class="share-button" type="button" data-share="피치파이의 날">Share · 공유 →</button></footer>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="upcoming-title">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow"><span class="section-number">02</span>Upcoming</p>
+          <h2 id="upcoming-title">다가오는 기념일</h2>
+        </div>
+        <p class="section-note">이번 주에 이어질 이야기를 날짜순으로 미리 살펴봅니다.</p>
+      </div>
+      <div class="upcoming-layout">
+        <ol class="upcoming-list">
+          <li class="upcoming-item"><time class="upcoming-date">8월 25일</time><div><span class="upcoming-name">바나나 스플릿의 날</span><span class="upcoming-category">음식 & 디저트</span></div><span class="dday">D−1</span></li>
+          <li class="upcoming-item"><time class="upcoming-date">8월 26일</time><div><span class="upcoming-name">개의 날</span><span class="upcoming-category">동물 & 자연</span></div><span class="dday">D−2</span></li>
+          <li class="upcoming-item"><time class="upcoming-date">8월 26일</time><div><span class="upcoming-name">여성평등의 날</span><span class="upcoming-category">국제 캠페인 & 보건</span></div><span class="dday">D−2</span></li>
+          <li class="upcoming-item"><time class="upcoming-date">8월 27일</time><div><span class="upcoming-name">그냥 그런 날</span><span class="upcoming-category">이색 & 유머</span></div><span class="dday">D−3</span></li>
+          <li class="upcoming-item"><time class="upcoming-date">8월 29일</time><div><span class="upcoming-name">야키니쿠의 날</span><span class="upcoming-category">음식 & 디저트</span></div><span class="dday">D−5</span></li>
+        </ol>
+        <aside class="upcoming-aside">
+          <div>
+            <p class="eyebrow">Browse the month</p>
+            <strong>8월의 모든 날을<br />한눈에 살펴보기</strong>
+            <p>달력에서 날짜를 고르면 그날의 기념일과 이야기를 바로 확인할 수 있습니다.</p>
+          </div>
+          <a class="calendar-link" href="calendar-design-sample.html">Open Calendar →</a>
+        </aside>
+      </div>
+    </section>
+
+    <footer class="page-footer"><span>Anniversarium · Daily Journal</span><span>Interactive Design Sample</span></footer>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite">공유 링크를 복사했습니다.</div>
+  <script>
+    const toast = document.getElementById('toast');
+    let toastTimer;
+    document.querySelectorAll('[data-share]').forEach((button) => {
+      button.addEventListener('click', async () => {
+        const text = `${button.dataset.share} · 기념일 만물상`;
+        try { await navigator.clipboard.writeText(text); } catch { /* 시안에서는 알림만 표시 */ }
+        toast.textContent = `${button.dataset.share} 공유 링크를 복사했습니다.`;
+        toast.classList.add('show');
+        window.clearTimeout(toastTimer);
+        toastTimer = window.setTimeout(() => toast.classList.remove('show'), 1800);
+      });
+    });
+  </script>
+</body>
+</html>

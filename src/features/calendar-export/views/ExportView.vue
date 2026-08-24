@@ -1,5 +1,8 @@
 <script setup lang="ts">
+import { computed, ref, watch } from 'vue'
 import { useCalendarExport } from '../composables/useCalendarExport'
+
+const PREVIEW_INITIAL_COUNT = 12
 
 const {
   isLoading,
@@ -14,12 +17,28 @@ const {
   selectNone,
   hasSelection,
   selectedCount,
+  previewItems,
   downloadIcs,
   feedWebcalUrl,
   googleAddUrl,
   copied,
   copyFeedUrl,
 } = useCalendarExport()
+
+const isPreviewExpanded = ref(false)
+const visiblePreviewItems = computed(() =>
+  isPreviewExpanded.value
+    ? previewItems.value
+    : previewItems.value.slice(0, PREVIEW_INITIAL_COUNT),
+)
+const hiddenPreviewCount = computed(() =>
+  Math.max(0, previewItems.value.length - PREVIEW_INITIAL_COUNT),
+)
+
+// 다른 카테고리를 고르면 다시 간략한 12개 미리보기부터 보여준다.
+watch(previewItems, () => {
+  isPreviewExpanded.value = false
+})
 </script>
 
 <template>
@@ -214,6 +233,59 @@ const {
             ※ 구독 피드는 배포된 사이트에서 동작합니다.
           </p>
         </article>
+      </section>
+
+      <!-- 선택된 기념일 미리보기 -->
+      <section class="border hairline bg-paper-50" aria-labelledby="calendar-preview-title">
+        <div class="flex items-end justify-between gap-4 border-b hairline px-5 py-4 sm:px-7">
+          <div>
+            <span class="eyebrow">Calendar Preview</span>
+            <h2
+              id="calendar-preview-title"
+              class="mt-1 font-display text-xl tracking-tight text-ink-900"
+            >
+              담기는 기념일
+            </h2>
+          </div>
+          <span class="shrink-0 font-sans text-xs tabular-nums text-ink-400">
+            {{ selectedCount }}건
+          </span>
+        </div>
+
+        <div v-if="visiblePreviewItems.length" class="px-5 py-2 sm:px-7">
+          <ul
+            id="calendar-preview-list"
+            class="grid divide-y divide-rule sm:grid-cols-2 sm:gap-x-8 sm:[&>li:nth-child(2)]:border-t-0"
+          >
+            <li
+              v-for="item in visiblePreviewItems"
+              :key="item.id"
+              class="flex min-w-0 items-baseline gap-4 py-3"
+            >
+              <time class="w-16 shrink-0 font-sans text-xs tabular-nums text-ink-400">
+                {{ item.dateLabel }}
+              </time>
+              <span class="min-w-0 font-display text-sm leading-snug text-ink-800">
+                {{ item.name }}
+              </span>
+            </li>
+          </ul>
+        </div>
+        <p v-else class="px-5 py-8 text-center text-sm text-ink-400 sm:px-7">
+          카테고리를 하나 이상 선택하면 포함되는 기념일을 확인할 수 있어요.
+        </p>
+
+        <div v-if="hiddenPreviewCount" class="border-t hairline p-4 text-center">
+          <button
+            type="button"
+            class="text-[0.7rem] font-medium uppercase tracking-[0.18em] text-ink-500 transition hover:text-ink-900"
+            :aria-expanded="isPreviewExpanded"
+            aria-controls="calendar-preview-list"
+            @click="isPreviewExpanded = !isPreviewExpanded"
+          >
+            {{ isPreviewExpanded ? '접기' : `더보기 · ${hiddenPreviewCount}건` }}
+          </button>
+        </div>
       </section>
     </template>
   </div>

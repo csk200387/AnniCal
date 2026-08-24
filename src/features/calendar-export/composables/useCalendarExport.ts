@@ -2,6 +2,8 @@ import { computed, onMounted, ref, watch } from 'vue'
 import { useAnniversariesStore } from '@/stores/anniversaries'
 import { buildCalendar } from '@/utils/ics'
 import { SITE_URL } from '@/seo/head'
+import { resolveOccurrenceSafe } from '@/utils/dateUtils'
+import { useNow } from '@/composables/useNow'
 
 export interface CategoryOption {
   id: string
@@ -17,8 +19,15 @@ export interface CategoryOption {
  */
 export type GroupOption = CategoryOption
 
+export interface CalendarPreviewItem {
+  id: string
+  dateLabel: string
+  name: string
+}
+
 export function useCalendarExport() {
   const store = useAnniversariesStore()
+  const { today } = useNow()
   onMounted(() => store.load())
 
   // categories.json 순서를 유지하면서 실제 데이터가 있는 카테고리만 노출.
@@ -118,6 +127,28 @@ export function useCalendarExport() {
   )
   const selectedCount = computed(() => selectedItems.value.length)
 
+  // 캘린더에 실제로 들어갈 항목을 날짜순으로 보여준다. 계산할 수 없는 날짜가
+  // 있더라도 목록에서 빠뜨리지는 않고 마지막에 "날짜 미정"으로 남긴다.
+  const previewItems = computed<CalendarPreviewItem[]>(() => {
+    const year = today.value.getFullYear()
+    return selectedItems.value
+      .map((anniversary) => {
+        const occurrence = resolveOccurrenceSafe(anniversary, year)
+        return {
+          id: anniversary.id,
+          dateLabel: occurrence
+            ? `${occurrence.getMonth() + 1}월 ${occurrence.getDate()}일`
+            : '날짜 미정',
+          name: anniversary.name,
+          sortKey: occurrence
+            ? (occurrence.getMonth() + 1) * 100 + occurrence.getDate()
+            : Number.POSITIVE_INFINITY,
+        }
+      })
+      .sort((a, b) => a.sortKey - b.sortKey || a.name.localeCompare(b.name, 'ko'))
+      .map(({ id, dateLabel, name }) => ({ id, dateLabel, name }))
+  })
+
   // ─── .ics 다운로드 (클라이언트) ───────────────────────────────
   function downloadIcs(): void {
     if (!selectedItems.value.length) return
@@ -198,6 +229,7 @@ export function useCalendarExport() {
     allSelected,
     hasSelection,
     selectedCount,
+    previewItems,
     downloadIcs,
     feedWebcalUrl,
     googleAddUrl,
