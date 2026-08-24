@@ -150,10 +150,10 @@ function handleShare(anv: Anniversary) {
               v-for="cell in weeks.flat()"
               :key="cell.date.format('YYYY-MM-DD')"
               type="button"
-              class="group relative flex min-h-[72px] flex-col items-stretch gap-2 border-b border-r border-rule p-2 text-left transition-colors hover:bg-paper-200/40 sm:min-h-[106px] sm:p-2.5"
+              class="group relative flex min-h-[72px] flex-col items-stretch gap-2 border-b border-r border-rule p-2 text-left transition-colors duration-200 ease-out hover:bg-paper-200/40 sm:min-h-[106px] sm:p-2.5"
               :class="{
                 'bg-paper-100/50 text-ink-300': !cell.isCurrentMonth,
-                'bg-ink-900 text-paper-50 hover:bg-ink-900': selectedDate.isSame(cell.date, 'day'),
+                'bg-ink-900 text-paper-50 hover:bg-paper-200/40 hover:text-ink-900': selectedDate.isSame(cell.date, 'day'),
               }"
               :disabled="!isMonthInRange(cell.date)"
               @click="selectDate(cell.date)"
@@ -164,9 +164,9 @@ function handleShare(anv: Anniversary) {
                 aria-hidden="true"
               />
               <span
-                class="relative z-10 font-display text-sm leading-none"
+                class="relative z-10 font-display text-sm leading-none transition-colors duration-200 ease-out"
                 :class="{
-                  'text-paper-50': selectedDate.isSame(cell.date, 'day'),
+                  'text-paper-50 group-hover:text-ink-900': selectedDate.isSame(cell.date, 'day'),
                   'text-accent-600': cell.isToday && !selectedDate.isSame(cell.date, 'day'),
                   'text-ink-700': cell.isCurrentMonth && !cell.isToday && !selectedDate.isSame(cell.date, 'day'),
                 }"
@@ -174,19 +174,19 @@ function handleShare(anv: Anniversary) {
 
               <div v-if="cell.anniversaries.length" class="flex flex-wrap items-center gap-1 sm:hidden">
                 <span v-for="anv in cell.anniversaries.slice(0, 4)" :key="anv.id" class="h-1.5 w-1.5 rounded-full" :class="primaryColorForTags(anv.tags).dot" />
-                <span v-if="cell.anniversaries.length > 4" class="text-[9px]" :class="selectedDate.isSame(cell.date, 'day') ? 'text-paper-300' : 'text-ink-400'">+{{ cell.anniversaries.length - 4 }}</span>
+                <span v-if="cell.anniversaries.length > 4" class="text-[9px] transition-colors duration-200 ease-out" :class="selectedDate.isSame(cell.date, 'day') ? 'text-paper-300 group-hover:text-ink-500' : 'text-ink-400'">+{{ cell.anniversaries.length - 4 }}</span>
               </div>
               <div v-if="cell.anniversaries.length" class="hidden min-w-0 flex-col gap-1 overflow-hidden sm:flex">
                 <span
                   v-for="anv in cell.anniversaries.slice(0, 2)"
                   :key="anv.id"
-                  class="flex min-w-0 items-center gap-1.5 text-[9.5px] leading-tight"
-                  :class="selectedDate.isSame(cell.date, 'day') ? 'text-paper-200' : cell.isCurrentMonth ? 'text-ink-600' : 'text-ink-300'"
+                  class="flex min-w-0 items-center gap-1.5 text-[9.5px] leading-tight transition-colors duration-200 ease-out"
+                  :class="selectedDate.isSame(cell.date, 'day') ? 'text-paper-200 group-hover:text-ink-700' : cell.isCurrentMonth ? 'text-ink-600' : 'text-ink-300'"
                 >
                   <span class="h-1 w-1 shrink-0 rounded-full" :class="primaryColorForTags(anv.tags).dot" />
                   <span class="truncate">{{ anv.name }}</span>
                 </span>
-                <span v-if="cell.anniversaries.length > 2" class="text-[9px]" :class="selectedDate.isSame(cell.date, 'day') ? 'text-paper-300' : 'text-ink-400'">+{{ cell.anniversaries.length - 2 }} more</span>
+                <span v-if="cell.anniversaries.length > 2" class="text-[9px] transition-colors duration-200 ease-out" :class="selectedDate.isSame(cell.date, 'day') ? 'text-paper-300 group-hover:text-ink-500' : 'text-ink-400'">+{{ cell.anniversaries.length - 2 }} more</span>
               </div>
             </button>
           </div>
