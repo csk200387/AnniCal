@@ -8,6 +8,7 @@ import { primaryColorForTags } from '@/utils/tagPalette'
 import CategoryBadge from '@/components/common/CategoryBadge.vue'
 import { applyAnniversaryMeta, applyNotFoundMeta } from '@/seo/head'
 import { useShareStore } from '@/stores/share'
+import { useStatsStore } from '@/stores/stats'
 
 const route = useRoute()
 const urlDate = computed(() => String(route.params.date ?? ''))
@@ -25,6 +26,12 @@ const {
   retry,
 } = useDayDetail(urlDate, slug)
 const shareStore = useShareStore()
+const statsStore = useStatsStore()
+const number = new Intl.NumberFormat('ko-KR')
+const detailStats = computed(() => {
+  const id = anniversary.value?.id
+  return id ? statsStore.detailById[id] ?? null : null
+})
 
 // 검색으로 이 페이지에 바로 들어온 사람에게도 공유 수단이 필요하다.
 // 모달은 AppShell 에 상시 떠 있으므로 스토어만 열어 주면 된다.
@@ -116,6 +123,16 @@ watch(
         <p v-if="dateDrifts" class="mt-3 text-[0.85rem] text-ink-500">
           매년 날짜가 바뀌는 기념일이에요. <strong class="text-ink-700">올해는 {{ actualDateLabel }}</strong>입니다.
         </p>
+
+        <div
+          v-if="detailStats"
+          class="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1 text-[0.68rem] uppercase tracking-[0.15em] text-ink-400"
+          aria-label="기념일 관심도 통계"
+        >
+          <span>누적 <strong class="font-medium tabular-nums text-ink-700">{{ number.format(detailStats.views) }}</strong>회 읽음</span>
+          <span v-if="detailStats.rank" class="h-3 w-px bg-rule-strong" aria-hidden="true" />
+          <span v-if="detailStats.rank">관심도 <strong class="font-medium tabular-nums text-accent-600">{{ number.format(detailStats.rank) }}위</strong></span>
+        </div>
       </header>
 
       <div class="mt-6 flex items-center gap-3">

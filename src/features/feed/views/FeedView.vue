@@ -8,6 +8,8 @@ import type { Anniversary } from '@/types/anniversary'
 import { useShareStore } from '@/stores/share'
 import { formatKoreanMonthDay } from '@/utils/dateUtils'
 import { pathFor } from '@/utils/anniversaryRoutes'
+import AudienceStats from '@/features/stats/components/AudienceStats.vue'
+import PopularityRanking from '@/features/stats/components/PopularityRanking.vue'
 
 const { todays, upcoming, today, isLoading, error } = useTodayFeed(30)
 const shareStore = useShareStore()
@@ -103,6 +105,8 @@ function handleShare(anv: Anniversary, dDay?: number) {
       </div>
     </section>
 
+    <AudienceStats />
+
     <p v-if="isLoading" class="mt-14 eyebrow">Loading…</p>
     <p v-else-if="error" class="mt-14 text-sm text-accent-600">{{ error }}</p>
 
@@ -194,5 +198,7 @@ function handleShare(anv: Anniversary, dDay?: number) {
         </div>
       </section>
     </template>
+
+    <PopularityRanking />
   </div>
 </template>

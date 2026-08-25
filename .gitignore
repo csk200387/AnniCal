@@ -45,3 +45,5 @@ NAMUWIKI_*.md
 .vercel
 
 CLAUDE.md
+.env*
+!.env.example

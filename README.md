@@ -9,6 +9,8 @@
 - **월간 달력** — 월별로 기념일을 달력에 표시 (모바일: 색상 점 표시), 이름·태그 검색 지원
 - **캘린더 연동** — 카테고리 선택 후 `.ics` 다운로드 또는 구독 URL로 자동 업데이트
 - **공유** — 기념일 카드를 이미지로 저장·공유
+- **공개 통계** — 오늘·누적 익명 방문자와 전체 페이지뷰 표시
+- **관심도 순위** — 기념일별 상세 조회수와 많이 읽힌 기념일 TOP 5
 
 ## 기술 스택
 
@@ -22,6 +24,7 @@
 - **ics** — `.ics` 캘린더 파일 생성
 - **html-to-image** — 카드 → 이미지 변환
 - **Vercel** — 정적 호스팅 + 서버리스 API (`/api/calendar`)
+- **Upstash Redis** — 익명 방문자·페이지뷰·기념일 관심도 집계
 
 ## 시작하기
 
@@ -56,7 +59,8 @@ src/
 └── utils/                   # 순수 유틸 (날짜 계산, ics 생성 등)
 
 api/
-└── calendar.ts              # Vercel 서버리스 — 캘린더 구독 피드 (/api/calendar)
+├── calendar.ts              # Vercel 서버리스 — 캘린더 구독 피드 (/api/calendar)
+└── stats.ts                 # Vercel 서버리스 — 공개 방문·조회 통계 (/api/stats)
 ```
 
 ## 데이터 레이어 흐름
@@ -101,6 +105,23 @@ GET /api/calendar?categories=food,holiday,quirky
 - 응답 형식: `text/calendar` (`.ics`)
 - 전체 선택 시 쿼리 파라미터 생략 가능
 - CDN 캐시: 12시간 + 24시간 stale-while-revalidate
+
+## 공개 통계 설정
+
+통계는 Upstash Redis가 연결되었을 때만 표시된다. 저장소가 없는 로컬 개발 환경에서는
+본문은 정상 동작하고 통계 UI만 숨겨진다.
+
+1. Vercel Marketplace에서 **Upstash for Redis**를 프로젝트에 연결한다.
+2. `KV_REST_API_URL`, `KV_REST_API_TOKEN`이 프로젝트 환경 변수에 추가되었는지 확인한다.
+3. 환경 변수를 적용하도록 다시 배포한다.
+
+Upstash에서 직접 만든 데이터베이스라면 `UPSTASH_REDIS_REST_URL`,
+`UPSTASH_REDIS_REST_TOKEN`도 사용할 수 있다. 로컬 키 이름은 `.env.example`을 참고한다.
+
+- 방문자는 1년 동안 유지되는 무작위 HttpOnly 쿠키를 기준으로 근사 집계한다.
+- Redis에는 쿠키 원문 목록이나 IP를 저장하지 않으며 HyperLogLog 카운터만 유지한다.
+- `Do Not Track`이 켜진 브라우저는 집계하지 않고 공개 수치만 조회한다.
+- 상세 조회수는 기념일 id별로 누적되며 홈의 관심도 TOP 5에 반영된다.
 
 ## 데이터 작성 규칙
 
