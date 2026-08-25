@@ -303,6 +303,38 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-shower-with-a-friend-day-february-5/"
   },
   {
+    "id": "anv-fixed-02-05-nutella-day-global",
+    "date": "02-05",
+    "dateType": "annual-fixed",
+    "name": "세계 누텔라의 날",
+    "category": "brand",
+    "tags": [
+      "브랜드 데이"
+    ],
+    "storytelling": {
+      "origin": "이탈리아 제과업체 페레로의 헤이즐넛 초코스프레드 누텔라를 기리는 날이다. 2007년 미국의 한 블로거가 처음 제안했고, 페레로가 이를 받아들여 매년 2월 5일로 공식화했다.",
+      "anecdote": "누텔라는 2차대전 직후 카카오가 부족하던 이탈리아에서 헤이즐넛을 섞어 만든 것이 시작이다. 지금은 전 세계에서 초 단위로 팔려나가는 대표적 스프레드가 됐고, 이날에는 SNS에 토스트·팬케이크에 발라 먹는 인증 사진이 몰린다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-05-onigo-day-jp",
+    "date": "02-05",
+    "dateType": "annual-fixed",
+    "name": "오니고의 날",
+    "category": "quirky",
+    "tags": [
+      "이색 & 유머"
+    ],
+    "storytelling": {
+      "origin": "코나미의 리듬게임 '사운드 볼텍스'에 등장하는 캐릭터 오니고와 관련해 일본 팬덤 사이에서 통용되는 기념일이다. 날짜의 유래는 캐릭터 이름의 어감에서 온 말장난으로 알려져 있다.",
+      "anecdote": "리듬게임 캐릭터가 독자적인 '기념일'을 갖는 것은 일본 오락실 문화에서 흔한 일이다. 사운드 볼텍스는 코나미의 대표 리듬게임 시리즈로, 한국에도 마니아층이 있다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-02-06-lame-duck-day-us",
     "date": "02-06",
     "dateType": "annual-fixed",
@@ -919,6 +951,38 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-ferris-wheel-day-february-14/"
   },
   {
+    "id": "anv-fixed-02-14-dried-anchovy-day-jp",
+    "date": "02-14",
+    "dateType": "annual-fixed",
+    "name": "일본 건멸치의 날",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본 건멸치협회가 제정한 업계 기념일이다. 밸런타인데이와 같은 날이라는 것 자체가 화제가 되며, 초콜릿 대신 건멸치를 챙기는 식의 농담 소재로도 쓰인다.",
+      "anecdote": "애니메이션 '내 청춘 러브코메디는 잘못됐다' 12권에서 언급되며 오덕 커뮤니티에도 알려졌다. 마른 멸치는 칼슘과 감칠맛 성분이 풍부해 일본 가정에서 흔한 밑반찬 겸 안주 재료다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-14-fundoshi-day-jp",
+    "date": "02-14",
+    "dateType": "annual-fixed",
+    "name": "일본 훈도시의 날",
+    "category": "quirky",
+    "tags": [
+      "이색 & 유머"
+    ],
+    "storytelling": {
+      "origin": "일본 전통 남성 속옷인 훈도시를 알리기 위해 훈도시 협회가 제정했다. 2(훈)·10(도)·4(시)의 발음을 이어 붙인 말장난에서 날짜가 나왔다는 설이 있으나 실제로는 밸런타인데이인 2월 14일에 맞춰졌다.",
+      "anecdote": "만화 '은수저 Silver Spoon' 11권 권말에서 언급되며 알려졌다. 훈도시는 헤이안 시대부터 이어진 전통 복식으로, 지금은 축제나 이색 이벤트에서 상징적으로 착용되는 경우가 많다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-02-15-gumdrop-day-us",
     "date": "02-15",
     "dateType": "annual-fixed",
@@ -960,6 +1024,22 @@
         "caption": "어제는 SAD(슬픔), 오늘은 SAD(솔로 인식의 날). 결국 둘 다 나잖아"
       }
     ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-15-world-hippo-day-global",
+    "date": "02-15",
+    "dateType": "annual-fixed",
+    "name": "세계 하마의 날",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "하마 보호에 대한 관심을 높이기 위해 야생동물 보호 커뮤니티가 정한 비공식 국제기념일이다.",
+      "anecdote": "하마는 몸집과 달리 육상 동물 중 사람을 가장 많이 해치는 동물로 꼽히지만, 서식지인 아프리카 강과 습지가 줄면서 개체수는 오히려 감소하고 있다. 실제로는 초식동물이지만 영역 다툼이 매우 사나워 아프리카 강가에서 악어보다 사람을 더 많이 해치는 동물로 꼽히는 경우가 많다."
+    },
+    "memes": [],
     "sourceUrl": null
   },
   {
@@ -1291,6 +1371,54 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-margarita-day-february-22/"
+  },
+  {
+    "id": "anv-fixed-02-22-rihanna-day-bb",
+    "date": "02-22",
+    "dateType": "annual-fixed",
+    "name": "리한나의 날(바베이도스)",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "가수 리한나의 고향인 바베이도스 정부가 지정한 기념일이다. 2008년 데이비드 톰슨 총리가 귀향 축하 행사에서 이날을 '리한나의 날'로 선포하고 그를 문화홍보대사로 임명했다.",
+      "anecdote": "리한나는 2021년에는 국가 최고 영예인 '국가영웅' 칭호까지 받아, 대중가수가 살아있는 동안 국가영웅으로 추대된 드문 사례로 꼽힌다. 다만 이 칭호를 기리는 '국가영웅의 날'(4월 28일)은 리한나의 날과는 별개의 공휴일이다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/Rihanna"
+  },
+  {
+    "id": "anv-fixed-02-22-hwangil-day-kr",
+    "date": "02-22",
+    "dateType": "annual-fixed",
+    "name": "황일절(스타크래프트 밈)",
+    "category": "quirky",
+    "tags": [
+      "이색 & 유머"
+    ],
+    "storytelling": {
+      "origin": "2002년 2월 22일 프로게이머 홍진호가 KT배 온게임넷 왕중왕전에서 조정현을 3대0으로 꺾고 우승한 것을 기리는 스타크래프트 팬덤의 밈성 기념일이다. '2월 22일'의 숫자를 비틀어 '황일절'이라 부른다.",
+      "anecdote": "훗날 이 대회가 정규 리그가 아닌 이벤트전으로 재분류되면서, 정작 홍진호는 공식 기록상 우승 없이 '콩라인(만년 2위)'이라는 별명으로 더 유명해지는 아이러니가 생겼다. 같은 날짜를 놓고 월드 오브 워크래프트 팬덤도 '용개절'이라는 자체 기념일을 주장해 두 커뮤니티가 우스개로 다툰다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-22-bald-day-jp",
+    "date": "02-22",
+    "dateType": "annual-fixed",
+    "name": "대머리의 날(일본)",
+    "category": "quirky",
+    "tags": [
+      "이색 & 유머"
+    ],
+    "storytelling": {
+      "origin": "일본의 탈모인 동호회 '츠루타 하게마스회'가 기념하는 날이다. 정관에 적힌 단체 목적은 '대머리를 통해 세상을 밝게 하는 평화 활동을 전개함'이라고 알려져 있다.",
+      "anecdote": "같은 날 일본에서는 222를 '냥냥냥(ニャンニャンニャン)'으로 읽는 고양이의 날도 함께 통용돼, 2월 22일 하루에 서로 다른 말장난 기념일이 겹치는 날로도 꼽힌다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-02-23-dog-biscuit-day-us",

@@ -100,6 +100,22 @@
     "sourceUrl": "https://www.law.go.kr/법령/동물보호법"
   },
   {
+    "id": "anv-fixed-10-08-world-octopus-day-global",
+    "date": "10-08",
+    "dateType": "annual-fixed",
+    "name": "세계 문어의 날",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "지능이 높은 것으로 알려진 문어를 기리는 비공식 국제기념일로, 다큐멘터리 '나의 문어 선생님' 등을 계기로 대중적 관심이 커지며 자리 잡았다.",
+      "anecdote": "문어는 무척추동물 중 손꼽히게 지능이 높아 도구를 쓰고 미로를 푸는 실험 사례가 보고돼 있다. 한국에서는 낙지·주꾸미와 함께 식재료로도 친숙하다. 국내에서도 낙지·문어를 활용한 다양한 요리가 여름 보양식으로 인기를 끌며 계절 마케팅과 자주 연결된다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "gov-116",
     "date": "10-2-SAT",
     "dateType": "annual-nth-weekday",
@@ -877,6 +893,22 @@
     },
     "memes": [],
     "sourceUrl": "https://www.law.go.kr/법령/여성농어업인육성법"
+  },
+  {
+    "id": "anv-fixed-10-10-moe-day-jp",
+    "date": "10-10",
+    "dateType": "annual-fixed",
+    "name": "모에의 날(일본)",
+    "category": "quirky",
+    "tags": [
+      "이색 & 유머"
+    ],
+    "storytelling": {
+      "origin": "'귀엽다·사랑스럽다'는 뜻의 오덕 용어 '모에(萌)'라는 한자를 파자하면 '十月十日(10월10일)'이 된다는 말장난에서 나온 일본 서브컬처 커뮤니티의 기념일이다.",
+      "anecdote": "'모에'는 원래 식물이 싹튼다는 뜻의 한자에서, 캐릭터에 대한 애정이 움트는 감정을 비유하는 말로 의미가 확장돼 일본 애니메이션·게임 팬덤의 핵심 용어가 됐다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-10-11-clergy-appreciation-day-global",
@@ -1683,6 +1715,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-mammography-day-october-16/"
   },
   {
+    "id": "anv-fixed-10-16-world-spine-day-global",
+    "date": "10-16",
+    "dateType": "annual-fixed",
+    "name": "세계 척추의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "척추 건강에 대한 인식을 높이기 위해 세계척추건강연맹(WFC)이 2008년 제정한 국제기념일이다.",
+      "anecdote": "허리·목 통증은 전 세계적으로 업무 능력 저하의 가장 흔한 원인 중 하나로 꼽힌다. 이날에는 바른 자세와 스트레칭법을 알리는 캠페인이 각국에서 열린다. 국내에서도 스마트폰 사용 증가로 거북목·일자목 증후군을 호소하는 젊은 층이 늘면서 척추 건강에 대한 관심이 높아지고 있다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-10-17-alternative-fuel-day-global",
     "date": "10-17",
     "dateType": "annual-fixed",
@@ -2088,6 +2136,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-color-day-october-22/"
+  },
+  {
+    "id": "anv-fixed-10-22-hapkido-day-kr",
+    "date": "10-22",
+    "dateType": "annual-fixed",
+    "name": "합기도의 날",
+    "category": "sports",
+    "tags": [
+      "스포츠 & 레저"
+    ],
+    "storytelling": {
+      "origin": "대한합기도총협회가 대한체육회 정식 가맹 종목으로 인정받은 것을 기념해 지정한 한국 무도 기념일이다.",
+      "anecdote": "합기도는 일본 아이키도의 영향을 받으면서도 관절기·발차기를 결합해 독자적으로 발전한 한국 무술로, 실전 호신술로 국내외에서 널리 보급돼 있다. 합기도는 1990년대 이후 해외에도 널리 보급돼, 지금은 한국보다 해외 수련 인구가 더 많다는 이야기가 나올 정도로 국제화된 무술이 됐다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-10-23-tv-talk-show-host-day-us",
@@ -2821,6 +2885,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-frankenstein-day-october-30/"
+  },
+  {
+    "id": "anv-fixed-10-30-maradonian-church-day-ar",
+    "date": "10-30",
+    "dateType": "annual-fixed",
+    "name": "마라도나교의 성탄절",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "아르헨티나 축구 선수 디에고 마라도나를 신처럼 떠받드는 실존 종교 단체 '이글레시아 마라도니아나'가 1998년 10월 30일 로사리오에서 팬 세 명에 의해 창립됐다. 이 날은 마라도나의 생일이자 이 종교의 '성탄절'이다.",
+      "anecdote": "전 세계 130여 개국에 12만~20만 명의 등록 신자를 두고 있다고 알려져 있으며, 축구공을 십자가처럼 여기고 독자적인 '십계명'까지 갖췄다. 1986년 월드컵 '신의 손' 골이 있었던 6월 22일은 이 종교의 '부활절'로 함께 기념된다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/Iglesia_Maradoniana"
   },
   {
     "id": "anv-fixed-10-31-girl-scout-founders-day-us",

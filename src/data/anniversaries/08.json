@@ -154,6 +154,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-jamaican-patty-day-august-1/"
   },
   {
+    "id": "anv-fixed-08-01-spider-man-day-global",
+    "date": "08-01",
+    "dateType": "annual-fixed",
+    "name": "국제 스파이더맨의 날",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "1962년 마블 코믹스 '어메이징 판타지' 15호 표지에 찍힌 발행일(8월 1일)에서 유래한 스파이더맨 팬덤 기념일이다.",
+      "anecdote": "정작 이 만화는 표지 날짜보다 두 달 앞선 그해 6월 5일에 이미 가판대에 깔렸다는 사실이 뒤늦게 알려지며, '어긋난 생일'로 소개되기도 한다. 공식 주관 단체는 없지만 마블도 이날을 맞아 홍보 콘텐츠를 낸다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-08-02-ice-cream-sandwich-day-us",
     "date": "08-02",
     "dateType": "annual-fixed",
@@ -372,6 +388,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-coast-guard-day-august-4/"
+  },
+  {
+    "id": "anv-fixed-08-04-international-owl-awareness-day-global",
+    "date": "08-04",
+    "dateType": "annual-fixed",
+    "name": "국제 부엉이 인식의 날",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "부엉이·올빼미 보호에 대한 관심을 높이기 위해 야생동물 보호단체들이 정한 비공식 국제기념일이다.",
+      "anecdote": "부엉이는 야행성인 데다 소리 없이 나는 깃털 구조 때문에 실제 개체수 파악이 까다로운 편이다. 서식지 파괴와 로덴티사이드(쥐약) 중독이 주요 위협 요인으로 꼽힌다. 국내에서도 천연기념물로 지정된 수리부엉이 등 맹금류 보호 캠페인과 함께 언급되곤 한다. 부엉이는 목을 최대 270도까지 돌릴 수 있는데, 이는 눈이 안구 형태가 아니라 고정된 관 모양이라 눈동자를 움직일 수 없는 대신 진화한 특징이다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-08-05-oyster-day-us",
@@ -721,6 +753,38 @@
     "sourceUrl": "https://www.law.go.kr/법령/도서개발촉진법"
   },
   {
+    "id": "anv-fixed-08-08-grape-day-kr",
+    "date": "08-08",
+    "dateType": "annual-fixed",
+    "name": "포도데이",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "숫자 8이 두 개 나란히 있는 모양이 포도송이를 닮았다는 데서 착안해 포도가 본격 출하되는 시기에 맞춰 만들어진 소비 촉진 기념일이다.",
+      "anecdote": "8월 8일은 숫자 8이 겹치는 날이라 무궁화의 날, 쌀의 날(오는 8월 18일과 혼동 주의) 등 다른 국내 캠페인성 기념일과도 자주 함께 언급된다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-08-08-slime-tower-day-jp",
+    "date": "08-08",
+    "dateType": "annual-fixed",
+    "name": "슬라임 타워의 날(일본)",
+    "category": "brand",
+    "tags": [
+      "브랜드 데이"
+    ],
+    "storytelling": {
+      "origin": "일본 게임사 스퀘어에닉스가 자사 게임 '드래곤 퀘스트'의 상징인 슬라임 캐릭터를 기념해 지정한 브랜드 이벤트일이다.",
+      "anecdote": "이날 슬라임 모양 굿즈나 한정판 상품이 판매되는 프로모션이 열린다. 슬라임은 1986년 첫 드래곤 퀘스트부터 등장한, 시리즈를 상징하는 마스코트 몬스터다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-08-09-rice-pudding-day-us",
     "date": "08-09",
     "dateType": "annual-fixed",
@@ -851,6 +915,70 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-smores-day-august-10/"
+  },
+  {
+    "id": "anv-fixed-08-10-slowpoke-day-jp",
+    "date": "08-10",
+    "dateType": "annual-fixed",
+    "name": "야돈의 날",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "포켓몬 시리즈의 캐릭터 야돈(슬로우포크)을 기리는 일본 팬덤 기념일이다. 느긋한 성격의 야돈답게 날짜에 특별히 복잡한 유래는 알려져 있지 않다.",
+      "anecdote": "야돈은 1996년 첫 포켓몬스터 적·녹 버전부터 등장한 1세대 포켓몬으로, 진화형인 야도란·야도킹과 함께 오래도록 사랑받아 왔다. 느긋한 성격과 멍한 표정이 오히려 매력 포인트로 꼽히며, 이날에는 관련 일러스트와 굿즈 인증이 팬 커뮤니티에 몰린다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-08-10-beast-senpai-day-jp",
+    "date": "08-10",
+    "dateType": "annual-fixed",
+    "name": "니코동 야수의 날(일본)",
+    "category": "quirky",
+    "tags": [
+      "이색 & 유머"
+    ],
+    "storytelling": {
+      "origin": "일본 동영상 사이트 니코니코동가에서 유행한 '야수 선배' 밈과 관련해 통용되는 날이다. 8(야)10(주)의 발음을 이어 '야쥬'로 읽는 말장난에서 왔다고 알려져 있다.",
+      "anecdote": "밈의 배경이 된 실제 건물(일명 '야수저택')에 팬들이 몰려들면서 소음·통행 문제로 경찰이 개입한 적도 있어, 인터넷 밈이 실제 사회 문제로 번진 사례로도 언급된다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-08-10-bionicle-day-global",
+    "date": "08-10",
+    "dateType": "annual-fixed",
+    "name": "바이오니클 데이(810nicle Day)",
+    "category": "brand",
+    "tags": [
+      "브랜드 데이"
+    ],
+    "storytelling": {
+      "origin": "레고의 완구 라인 '바이오니클(Bionicle)'을 살짝 변형하면 '810nicle'이 된다는 말장난에서 팬들이 만든 날이다.",
+      "anecdote": "바이오니클은 2001년부터 2010년까지 레고가 선보인 로봇형 캐릭터 완구 시리즈로, 단종 이후에도 팬 커뮤니티가 이어져 매년 이날 관련 게시물이 올라온다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-08-10-international-biodiesel-day-global",
+    "date": "08-10",
+    "dateType": "annual-fixed",
+    "name": "국제 바이오디젤의 날",
+    "category": "academic",
+    "tags": [
+      "학술 & 기술"
+    ],
+    "storytelling": {
+      "origin": "1893년 8월 10일 독일 아우크스부르크에서 루돌프 디젤이 땅콩기름으로 구동하는 자신의 엔진 시제품을 처음 선보인 날을 기려 정했다.",
+      "anecdote": "디젤은 애초에 다양한 식물성 기름으로 돌아가는 범용 엔진을 구상했으나, 이후 석유 기반 경유가 시장을 장악했다. 최근 재생에너지 수요와 맞물려 바이오디젤이 다시 주목받고 있다. 당시 시연은 파리 만국박람회를 앞두고 이루어졌으며, 디젤은 훗날 석유회사들의 견제 속에 의문사한 것으로도 유명하다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-08-11-presidential-joke-day-us",
@@ -1418,6 +1546,38 @@
       }
     ],
     "sourceUrl": "https://ko.wikipedia.org/wiki/칠석"
+  },
+  {
+    "id": "anv-fixed-08-19-haikyuu-day-jp",
+    "date": "08-19",
+    "dateType": "annual-fixed",
+    "name": "하이큐의 날(일본)",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "애니메이션 '하이큐!!'의 두 번째 시즌 방영(2015년 10월)을 앞두고 홍보를 위해 만들어졌다. 하(8)이(1)큐(9)의 발음을 이은 고로아와세로, 일본기념일협회에 정식 등록됐다.",
+      "anecdote": "배구를 소재로 한 이 작품은 국내외에서도 큰 인기를 끌며 실제 배구 입문 계기가 됐다는 팬들의 후기가 많다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-08-19-international-orangutan-day-global",
+    "date": "08-19",
+    "dateType": "annual-fixed",
+    "name": "국제 오랑우탄의 날",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "인도네시아 국제동물구조단체(IAR)가 2018년 제정한 날로, 팜유 농장 확대로 서식지를 잃어 가는 오랑우탄을 보호하자는 취지다.",
+      "anecdote": "오랑우탄은 인간과 유전자가 97% 이상 일치하는 영장류로, 서식지인 보르네오·수마트라 열대우림이 팜유 플랜테이션으로 개간되며 야생 개체수가 급격히 줄고 있다. '오랑우탄'이라는 이름 자체가 말레이어로 '숲의 사람'을 뜻할 만큼, 인간과 가까운 유인원으로 오래전부터 여겨져 왔다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-08-20-radio-day-us",

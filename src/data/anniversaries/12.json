@@ -1405,6 +1405,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-cupcake-day-december-15/"
   },
   {
+    "id": "anv-fixed-12-15-zamenhof-day-global",
+    "date": "12-15",
+    "dateType": "annual-fixed",
+    "name": "자멘호프의 날",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "국제 보조어 에스페란토를 고안한 루도비코 라자로 자멘호프의 생일(1859년 12월 15일)을 기려 에스페란토 사용자들이 지키는 날이다.",
+      "anecdote": "이날은 '에스페란토 서적의 날'로도 함께 기념돼, 전 세계 에스페란토 사용자들이 관련 서적을 선물하거나 낭독회를 여는 전통이 있다. 지금도 전 세계 100여 개국에서 에스페란토 사용자 모임이 활동하고 있으며, 위키백과에도 에스페란토판이 따로 운영된다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-12-16-chocolate-covered-anything-day-us",
     "date": "12-16",
     "dateType": "annual-fixed",
@@ -1711,6 +1727,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-sangria-day-december-20/"
+  },
+  {
+    "id": "anv-fixed-12-20-international-human-solidarity-day-global",
+    "date": "12-20",
+    "dateType": "annual-fixed",
+    "name": "국제 인간 연대의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "빈곤 퇴치와 국제 협력의 가치를 되새기기 위해 2005년 UN 총회가 지정한 국제기념일이다.",
+      "anecdote": "새천년개발목표(MDGs) 이행 과정에서 '연대'를 UN 헌장의 핵심 가치 중 하나로 재확인하자는 취지로 만들어졌다. 빈곤 퇴치 기금 마련 캠페인과 함께 진행되는 경우가 많아, 12월 17일 국제 빈곤퇴치의 날과도 시기적으로 이어진다. UN은 이날 회원국들에 빈곤 퇴치를 위한 자발적 기금 마련을 독려하며, 새천년개발목표(MDGs)의 후속인 지속가능발전목표(SDGs) 이행 상황도 함께 점검한다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-12-21-french-fried-shrimp-day-us",
@@ -2143,6 +2175,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-candy-cane-day-december-26/"
   },
   {
+    "id": "anv-fixed-12-26-tvxq-debut-day-kr",
+    "date": "12-26",
+    "dateType": "annual-fixed",
+    "name": "동방신기 첫 무대일",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "2003년 12월 26일 SBS '보아 & 브리트니 스피어스 스페셜'에서 5인조 그룹 동방신기가 처음 무대에 오른 날이다. 공식 데뷔는 이듬해 2월 SBS '인기가요'를 통해 이뤄졌다.",
+      "anecdote": "이후 20년 넘게 활동을 이어오며 한류를 대표하는 그룹 중 하나로 자리 잡았고, 팬들은 이 첫 무대일을 데뷔 기념일과 함께 챙긴다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "gov-57",
     "date": "12-27",
     "dateType": "annual-fixed",
@@ -2307,6 +2355,22 @@
     },
     "memes": [],
     "sourceUrl": "https://www.law.go.kr/법령/항공안전법"
+  },
+  {
+    "id": "anv-fixed-12-29-international-cello-day-global",
+    "date": "12-29",
+    "dateType": "annual-fixed",
+    "name": "국제 첼로의 날",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "20세기를 대표하는 첼리스트 파블로 카잘스의 생일(1876년 12월 29일)을 기려 첼로 연주자들 사이에서 정착된 기념일이다.",
+      "anecdote": "카잘스는 스페인 내전 이후 독재에 항의해 스스로 무대를 떠났다가, 1971년 UN 총회에서 반전 메시지를 담은 '새들의 노래'를 연주해 다시 화제를 모았다. 당시 카잘스는 90대의 고령으로 UN 총회 연단에 올라, 자신의 고향 카탈루냐 민요인 이 곡을 '평화의 노래'라 소개하며 깊은 인상을 남겼다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-12-30-bacon-day-global",

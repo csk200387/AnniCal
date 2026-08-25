@@ -215,6 +215,22 @@
     "sourceUrl": "https://zatsuneta.com/archives/10601b.html"
   },
   {
+    "id": "anv-fixed-06-04-innocent-children-victims-day-global",
+    "date": "06-04",
+    "dateType": "annual-fixed",
+    "name": "국제 무고한 아동 피해자들의 날",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "전쟁·폭력의 희생양이 된 아동들을 기억하기 위해 1982년 UN 총회가 지정한 날이다. 그해 레바논 내전으로 다친 팔레스타인·레바논 아동들이 계기가 됐다.",
+      "anecdote": "이후 무력분쟁 지역의 아동 인권 문제 전반을 다루는 날로 의미가 확장됐다. 유니세프 등 국제기구가 이날을 맞아 분쟁 지역 아동 지원 캠페인을 벌인다. 매년 이날 UN 인권최고대표사무소를 비롯한 여러 기구가 분쟁 지역 아동 피해 통계와 보호 대책을 함께 발표한다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "gov-88",
     "date": "06-3-FRI",
     "dateType": "annual-nth-weekday",
@@ -2090,6 +2106,22 @@
     "sourceUrl": "https://www.law.go.kr/법령/해양조사와해양정보활용에관한법률"
   },
   {
+    "id": "anv-fixed-06-21-world-giraffe-day-global",
+    "date": "06-21",
+    "dateType": "annual-fixed",
+    "name": "세계 기린의 날",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "기린보호재단(GCF)이 2014년 제정했다. 목이 가장 긴 동물을 기리자는 뜻에서 1년 중 낮이 가장 긴 하지(북반구 기준)로 날짜를 정했다.",
+      "anecdote": "기린은 외형과 달리 개체수가 20만 마리 아래로 떨어져 '조용한 멸종'이라는 말이 나올 만큼 위기종으로 분류된다. 동물원·학교가 함께 참여하는 보호 캠페인이 매년 열린다. 국내 동물원들도 이 시기에 맞춰 기린 관련 특별 프로그램을 운영하며 캠페인에 동참한다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-06-22-onion-rings-day-us",
     "date": "06-22",
     "dateType": "annual-fixed",
@@ -2193,6 +2225,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-pink-day-june-23/"
+  },
+  {
+    "id": "anv-fixed-06-23-international-widows-day-global",
+    "date": "06-23",
+    "dateType": "annual-fixed",
+    "name": "세계 미망인의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "배우자를 잃은 여성들이 빈곤·차별에 놓이는 문제를 알리기 위해 UN 총회가 2011년 지정한 국제기념일이다.",
+      "anecdote": "일부 나라에서는 남편을 잃은 여성이 상속권을 박탈당하거나 사회적으로 배제되는 관습이 남아 있어, 이날은 그런 제도적 차별을 없애자는 메시지를 담고 있다. 특히 개발도상국에서는 배우자를 잃은 여성이 재산권을 인정받지 못해 극심한 빈곤에 빠지는 경우가 많아, UN여성기구가 관련 법 제도 개선을 함께 촉구한다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-06-24-pralines-day-us",
@@ -2669,6 +2717,22 @@
     },
     "memes": [],
     "sourceUrl": "https://www.law.go.kr/법령/석탄산업전환지역개발지원에관한특별법"
+  },
+  {
+    "id": "anv-fixed-06-29-international-day-of-the-tropics-global",
+    "date": "06-29",
+    "dateType": "annual-fixed",
+    "name": "국제 열대 지역의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "지구 인구의 상당수가 살고 생물다양성이 가장 풍부한 열대 지역의 기회와 과제를 조명하기 위해 UN 총회가 2016년 지정했다.",
+      "anecdote": "열대 지역은 지구 육지 면적의 40%가량을 차지하지만 기후변화·삼림 파괴에 특히 취약하다는 점이 이 기념일의 배경이다. 브루나이·코스타리카 등 열대 지역 국가들이 주도해 만든 '우리의 열대 국가들(Our Tropics)' 보고서 발간과 맞물려 매년 기념 행사가 열린다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-06-30-social-media-day-global",

@@ -149,6 +149,54 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-truffle-day-may-2/"
   },
   {
+    "id": "anv-fixed-05-02-duck-day-kr",
+    "date": "05-02",
+    "dateType": "annual-fixed",
+    "name": "오리데이",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "농협이 오리고기 소비를 늘리기 위해 지정한 날이다. 오이데이와 같은 날로, 5월 초 농축산물 소비 촉진 캠페인의 하나다.",
+      "anecdote": "닭고기 소비를 늘리려는 '구구데이(9월 9일)'와 짝을 이루는 캠페인 성격의 날로, 오리 사육 농가의 판로 확대가 목적이다. 한국에서는 훈제오리·오리백숙 등으로 소비되며, 오리고기는 지방 성분이 불포화지방산 비중이 높다는 점이 자주 홍보 포인트로 쓰인다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-05-02-cucumber-day-kr",
+    "date": "05-02",
+    "dateType": "annual-fixed",
+    "name": "오이데이",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "5월 2일을 숫자로 적으면 '52'가 되고 이를 '오이'로 읽을 수 있다는 데서 착안해 농촌진흥청이 오이 농가 소득 증대를 위해 지정했다.",
+      "anecdote": "숫자 말장난으로 날짜를 정하는 방식은 한국 농산물 판촉 캠페인에서 자주 쓰인다. 오이는 수분 함량이 높아 여름철 소비가 느는 대표적인 여름 채소다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-05-02-harry-potter-day-global",
+    "date": "05-02",
+    "dateType": "annual-fixed",
+    "name": "해리 포터의 날",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "소설 '해리 포터' 시리즈에서 1998년 5월 2일 벌어진 것으로 설정된 호그와트 전투에서 해리가 볼드모트를 물리친 날을 기려 정한 국제적 팬덤 기념일이다.",
+      "anecdote": "이 전투에서는 프레드 위즐리, 스네이프 교수 등 주요 인물이 다수 목숨을 잃는 것으로 그려져, 시리즈 팬들에게는 승리와 상실이 함께 떠오르는 날이다. 전 세계 팬들이 이날 SNS에서 관련 인용구와 팬아트를 공유한다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-05-03-teacher-appreciation-day-us",
     "date": "05-03",
     "dateType": "annual-fixed",
@@ -654,6 +702,22 @@
       }
     ],
     "sourceUrl": "https://ko.wikipedia.org/wiki/입하"
+  },
+  {
+    "id": "anv-fixed-05-05-sith-day-global",
+    "date": "05-05",
+    "dateType": "annual-fixed",
+    "name": "시스 데이",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "5월 4일 '스타워즈 데이(May the Fourth)' 바로 다음 날을 영화 에피소드3 부제 '시스의 복수(Revenge of the Sith)'에 빗대 'Revenge of the Fifth'로 부르며 생긴 팬덤 기념일이다.",
+      "anecdote": "스타워즈 데이만큼의 인지도는 없지만, 시리즈의 악역 진영인 시스를 기리는 날로 팬 커뮤니티에서 매년 함께 언급된다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-05-06-nurses-day-global",
@@ -1299,6 +1363,22 @@
     },
     "memes": [],
     "sourceUrl": "https://www.law.go.kr/법령/기능성양잠산업육성및지원에관한법률"
+  },
+  {
+    "id": "anv-fixed-05-10-maid-day-jp",
+    "date": "05-10",
+    "dateType": "annual-fixed",
+    "name": "메이드의 날(일본)",
+    "category": "quirky",
+    "tags": [
+      "이색 & 유머"
+    ],
+    "storytelling": {
+      "origin": "5월을 뜻하는 영어 'May(메이)'와 10일의 일본어 발음 '토오'를 이어 '메이도(メイド)'로 읽는 말장난에서 나온 날로, 애니메이션 서브컬처 팬덤이 그림 투고나 코스프레로 기념한다.",
+      "anecdote": "일본 아키하바라 등지의 메이드 카페 문화와 맞물려 퍼진 기념일로, 공식 제정 주체는 명확하지 않은 팬덤 자생 기념일에 가깝다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "gov-22",
@@ -2532,6 +2612,22 @@
     "sourceUrl": "https://www.law.go.kr/법령/재한외국인처우기본법"
   },
   {
+    "id": "anv-fixed-05-20-international-clinical-trials-day-global",
+    "date": "05-20",
+    "dateType": "annual-fixed",
+    "name": "국제 임상시험의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "1747년 5월 20일 스코틀랜드 의사 제임스 린드가 괴혈병 치료법을 찾기 위해 사상 최초의 대조군 임상시험을 진행한 것을 기념하는 날이다.",
+      "anecdote": "린드는 선원들을 여러 조로 나눠 각기 다른 치료법을 시험했고, 감귤류를 먹은 조에서만 증상이 호전되는 것을 확인해 비타민C 결핍이 원인임을 처음 밝혀냈다. 린드의 실험은 표본을 여러 조건으로 나눠 비교하는 현대 임상시험 방법론의 원형으로 평가받는다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-05-21-strawberries-and-cream-day-us",
     "date": "05-21",
     "dateType": "annual-fixed",
@@ -2911,6 +3007,22 @@
     },
     "memes": [],
     "sourceUrl": "https://www.law.go.kr/법령/희귀질환관리법"
+  },
+  {
+    "id": "anv-fixed-05-23-go-nissan-day-jp",
+    "date": "05-23",
+    "dateType": "annual-fixed",
+    "name": "고 닛산 데이(일본)",
+    "category": "brand",
+    "tags": [
+      "브랜드 데이"
+    ],
+    "storytelling": {
+      "origin": "일본 자동차 제조사 닛산이 지정한 자체 마케팅일이다. 523을 일본어로 읽으면 'Go-Ni-San'이 돼 브랜드명 닛산과 발음이 이어진다.",
+      "anecdote": "자동차 회사가 숫자 말장난으로 자사 기념일을 만드는 것은 일본 마케팅에서 흔한 방식으로, 이날 닛산은 SNS 이벤트나 시승 프로모션을 진행한다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-05-24-scavenger-hunt-day-us",

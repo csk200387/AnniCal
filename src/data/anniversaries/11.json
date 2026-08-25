@@ -205,6 +205,22 @@
     "sourceUrl": "https://www.law.go.kr/법령/탄소중립에따른한우산업전환및지원에관한법률"
   },
   {
+    "id": "anv-fixed-11-01-teoltteol-day-kr",
+    "date": "11-01",
+    "dateType": "annual-fixed",
+    "name": "털털데이",
+    "category": "brand",
+    "tags": [
+      "브랜드 데이"
+    ],
+    "storytelling": {
+      "origin": "왁싱 전문 브랜드 젝시왁싱이 선포한 마케팅 기념일이다. 11월이 한 해의 끝자락에 놓인 시기라는 점에 착안해, 지난 한 해의 걱정과 고민을 '털어내자'는 의미를 담았다.",
+      "anecdote": "숫자 1이 곧게 솟은 털 모양을 연상시킨다는 설명도 함께 붙는다. 브랜드가 만든 기념일이지만 연말 셀프케어를 독려하는 메시지로 SNS에서 회자된다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-11-02-traffic-directors-day-us",
     "date": "11-02",
     "dateType": "annual-fixed",
@@ -486,6 +502,38 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-saxophone-day-november-6/"
+  },
+  {
+    "id": "anv-fixed-11-06-environment-in-war-day-global",
+    "date": "11-06",
+    "dateType": "annual-fixed",
+    "name": "세계 전쟁 및 무력분쟁 중의 환경파괴 방지의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "전쟁이 환경에 남기는 장기적 피해를 알리기 위해 2001년 UN 총회가 지정한 국제기념일이다.",
+      "anecdote": "베트남전 고엽제, 걸프전 유전 방화처럼 전쟁이 남긴 환경 피해는 전투가 끝난 뒤에도 수십 년간 이어진다는 점을 일깨운다. 국제법상 전쟁 중 환경 파괴를 별도 전쟁범죄로 다뤄야 한다는 논의가 이 기념일 제정과 함께 본격화됐다. 실제로 유엔환경계획(UNEP)은 분쟁 후 오염 실태를 조사해 복구 비용을 산정하는 별도 부서를 두고 있다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-nth-11-1-fri-fountain-pen-day-global",
+    "date": "11-1-FRI",
+    "dateType": "annual-nth-weekday",
+    "name": "세계 만년필의 날",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "손편지 문화와 만년필의 가치를 되새기기 위해 2012년 시작된 기념일로, 매년 11월 첫째 금요일에 지킨다.",
+      "anecdote": "디지털 필기가 일반화된 지금도 만년필 애호가들은 이날 SNS에 자신의 필기감·잉크색을 공유하는 행사를 벌인다. SNS 해시태그 캠페인으로 시작해 지금은 미국 문구 업계가 공식 후원하는 행사로 자리 잡았다. 만년필 브랜드들도 이날에 맞춰 한정판 잉크나 닙을 출시하는 경우가 많아, 문구 애호가들 사이에서는 연중 손꼽아 기다리는 날로 통한다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-11-07-canine-lymphoma-awareness-day-us",
@@ -847,6 +895,38 @@
     "sourceUrl": "https://www.law.go.kr/법령/유엔참전용사의명예선양등에관한법률"
   },
   {
+    "id": "anv-fixed-11-11-illionaire-day-kr",
+    "date": "11-11",
+    "dateType": "annual-fixed",
+    "name": "일리네어데이",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "2011년 도끼와 더콰이엇이 공동 설립하고 이후 빈지노가 합류한 한국 힙합 레이블 일리네어 레코즈를 기리는 팬덤 기념일이다. 레이블명과 숫자 11이 발음상 겹치는 데서 11월 11일로 자리 잡았다.",
+      "anecdote": "레이블이 있던 동안에는 이날에 맞춰 합동 공연을 열거나 새 합동곡을 공개하는 전통이 있었다. 일리네어 레코즈는 2020년 해체됐지만, 세 사람이 2010년대 한국 힙합 씬에 남긴 영향은 여전히 회자된다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-11-11-choi-dong-won-award-day-kr",
+    "date": "11-11",
+    "dateType": "annual-fixed",
+    "name": "최동원 상 수여일",
+    "category": "sports",
+    "tags": [
+      "스포츠 & 레저"
+    ],
+    "storytelling": {
+      "origin": "1984년 한국시리즈에서 4승을 혼자 책임지며 롯데 자이언츠를 우승으로 이끈 전설적 투수 최동원을 기리는 KBO리그 시상식이다. 그의 영구결번 등번호 11번을 따 매년 11월 11일 부산에서 열린다.",
+      "anecdote": "롯데는 최동원 은퇴 후 그의 등번호 11번을 구단 역사상 최초로 영구결번했다. 상은 그해 최고의 투구를 보인 선수에게 주어지며, '한국판 사이영상'으로도 불린다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-11-12-pizza-with-the-works-except-anchovies-day-us",
     "date": "11-12",
     "dateType": "annual-fixed",
@@ -889,6 +969,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-chicken-soup-for-the-soul-day-november-12/"
+  },
+  {
+    "id": "anv-fixed-11-12-world-pneumonia-day-global",
+    "date": "11-12",
+    "dateType": "annual-fixed",
+    "name": "세계 폐렴의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "소아 사망 원인 1위인 폐렴에 대한 관심을 높이기 위해 2009년 소아폐렴퇴치국제연합(글로벌 코얼리션)이 제정한 국제기념일이다.",
+      "anecdote": "폐렴은 백신과 치료제가 있는데도 개발도상국 영유아 사망의 큰 비중을 차지해, 예방접종 확대가 이날의 핵심 메시지로 꼽힌다. 세계보건기구(WHO) 통계로 5세 미만 아동 사망 원인 가운데 폐렴이 여전히 상위권을 차지해, 백신 접종률을 높이는 것이 핵심 과제로 꼽힌다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-11-13-indian-pudding-day-us",
@@ -1426,6 +1522,22 @@
     "sourceUrl": "https://www.law.go.kr/법령/아동복지법"
   },
   {
+    "id": "anv-fixed-11-19-womens-entrepreneurship-day-global",
+    "date": "11-19",
+    "dateType": "annual-fixed",
+    "name": "여성 창업의 날",
+    "category": "career",
+    "tags": [
+      "직업 & 감사"
+    ],
+    "storytelling": {
+      "origin": "여성 기업가의 성과를 조명하기 위해 2014년 웬디 다이아몬드가 창설한 국제 캠페인일이다. 첫 행사가 뉴욕 UN 본부에서 열렸고 유엔재단이 창립 파트너로 참여했다.",
+      "anecdote": "온두라스에서 저소득 여성 대상 소액대출 활동에 참여한 경험이 창설 계기였다고 알려져 있다. 첫해부터 144개국이 동시에 참여하며 빠르게 퍼졌다. 지금은 미국 뉴욕증권거래소를 비롯해 세계 곳곳의 랜드마크가 이날 여성 기업가를 상징하는 색으로 점등 행사를 연다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-11-20-absurdity-day-us",
     "date": "11-20",
     "dateType": "annual-fixed",
@@ -1490,6 +1602,22 @@
       }
     ],
     "sourceUrl": "https://www.un.org/en/observances/world-childrens-day"
+  },
+  {
+    "id": "anv-fixed-11-20-world-pancreatic-cancer-day-global",
+    "date": "11-20",
+    "dateType": "annual-fixed",
+    "name": "세계 췌장암 인식의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "생존율이 가장 낮은 암 중 하나인 췌장암에 대한 인식을 높이기 위해 세계췌장암연합이 지정한 국제기념일이다.",
+      "anecdote": "췌장암은 초기 증상이 뚜렷하지 않아 진단 시점에 이미 전이된 경우가 많다. 이날은 보라색을 상징색으로 삼아 조기 검진의 중요성을 알린다. 애플 창업자 스티브 잡스도 췌장암으로 세상을 떠나며 이 질환에 대한 대중적 관심이 한층 커졌다. 이 날을 맞아 전 세계 랜드마크 건물이 상징색인 보라색으로 물드는 '라이트 잇 퍼플' 캠페인도 함께 열린다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-11-21-stuffing-day-us",

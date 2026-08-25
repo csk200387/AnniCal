@@ -408,6 +408,54 @@
     "sourceUrl": "https://www.law.go.kr/법령/자연공원법"
   },
   {
+    "id": "anv-fixed-03-03-wife-day-kr",
+    "date": "03-03",
+    "dateType": "annual-fixed",
+    "name": "아내의 날",
+    "category": "romance",
+    "tags": [
+      "연애 & 기념일"
+    ],
+    "storytelling": {
+      "origin": "삼성생명이 아내의 소중함을 되새기자는 취지로 3월 3일을 '아내의 날'로 정하고 한 달간 캠페인을 벌인 데서 비롯된 비공식 기념일이다.",
+      "anecdote": "기업 마케팅에서 출발했지만 이후 '납세자의 날'과 같은 날이라는 우연 때문에 온라인에서 종종 언급되며 퍼졌다. 정부가 지정한 '부부의 날'(5월 21일)과는 별개다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-03-03-rice-triangle-day-kr",
+    "date": "03-03",
+    "dateType": "annual-fixed",
+    "name": "삼각김밥 데이",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "숫자 3이 두 번 겹친다는 이유로 한국편의점산업협회가 국내 쌀 소비를 늘리기 위해 미는 날이다. 이날 삼각김밥을 사면 증정품을 끼워주는 편의점 프로모션이 열린다.",
+      "anecdote": "삼각김밥은 일본 오니기리에서 들여와 1990년대 한국 편의점에 자리 잡았다. 지금은 한 해 수억 개가 팔리는 대표 편의점 식품으로, 쌀 소비 촉진이라는 정책 목표와 결합된 흔치 않은 사례다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-03-03-eoyunsu-day-kr",
+    "date": "03-03",
+    "dateType": "annual-fixed",
+    "name": "어윤수 기념일",
+    "category": "quirky",
+    "tags": [
+      "이색 & 유머"
+    ],
+    "storytelling": {
+      "origin": "2019년 스타크래프트 프로게이머 어윤수를 기리는 뜻에서 e스포츠 팬덤 사이에 지정된 밈성 기념일이다.",
+      "anecdote": "저그 종족을 쓰는 어윤수는 아이디 'soO'로 활동했으며 결승에 여러 번 오르고도 번번이 준우승에 그친 이력으로 유명하다. 정상급 실력에도 우승 문턱에서 아쉽게 밀려나는 모습이 홍진호의 '콩라인'과 겹쳐지며 팬들 사이에 애정 섞인 밈으로 자리 잡았다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-03-04-hug-a-gi-day-us",
     "date": "03-04",
     "dateType": "annual-fixed",
@@ -973,6 +1021,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-get-over-it-day-march-9/"
+  },
+  {
+    "id": "anv-fixed-03-09-miku-day-jp",
+    "date": "03-09",
+    "dateType": "annual-fixed",
+    "name": "하츠네 미쿠의 날",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "가상 가수 하츠네 미쿠의 실제 생일은 8월 31일이지만, 39를 '미쿠'로 읽는 고로아와세(숫자 말장난)에서 착안해 별도로 3월 9일이 미쿠의 날로 통용된다.",
+      "anecdote": "하츠네 미쿠는 야마하의 음성 합성 소프트웨어 '보컬로이드' 캐릭터로 2007년 출시됐다. 실제 가수 없이 팬들이 만든 곡만으로 전 세계 투어를 도는 홀로그램 공연까지 열리는 독특한 팝컬처 아이콘이다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-03-10-pack-your-lunch-day-global",
@@ -1547,6 +1611,22 @@
     "sourceUrl": "https://ko.wikipedia.org/wiki/화이트데이"
   },
   {
+    "id": "anv-fixed-03-14-spacex-founding-day-us",
+    "date": "03-14",
+    "dateType": "annual-fixed",
+    "name": "스페이스X 설립일",
+    "category": "academic",
+    "tags": [
+      "학술 & 기술"
+    ],
+    "storytelling": {
+      "origin": "2002년 3월 14일 일론 머스크가 화성 이주와 우주비행 비용 절감을 목표로 미국 델라웨어주에 스페이스X(Space Exploration Technologies)를 설립한 날이다.",
+      "anecdote": "머스크는 페이팔 매각 대금 중 약 1억 달러를 초기 자본으로 투입했다. 설립 당시에는 무모한 도전으로 여겨졌지만, 이후 재사용 로켓 팰컨 9과 유인 우주선 크루 드래건을 개발하며 민간 우주산업을 대표하는 기업이 됐다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "gov-4",
     "date": "03-15",
     "dateType": "annual-fixed",
@@ -1716,6 +1796,22 @@
       }
     ],
     "sourceUrl": "https://en.wikipedia.org/wiki/Freedom_of_Information_Day"
+  },
+  {
+    "id": "anv-fixed-03-16-wwe-316-day-us",
+    "date": "03-16",
+    "dateType": "annual-fixed",
+    "name": "WWE 3:16 데이",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "1996년 킹 오브 더 링 결승에서 제이크 로버츠를 꺾은 직후 스티브 오스틴이 즉흥적으로 외친 '오스틴 3:16'에서 유래했다. 로버츠의 설교자 캐릭터가 즐겨 인용하던 성경 요한복음 3장 16절을 비튼 애드리브였다.",
+      "anecdote": "이 한마디가 WWE 역대 최다 판매 티셔츠 문구가 됐고, WWE는 이를 기려 3월 16일을 공식 '3:16 데이'로 인정하고 있다. 프로레슬링 역사에서 손꼽히는 애드리브가 날짜 이름으로까지 남은 사례다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.wwe.com/article/official-national-austin-316-day"
   },
   {
     "id": "anv-fixed-03-17-st-patricks-day-global",
@@ -2131,6 +2227,22 @@
     "sourceUrl": "https://ko.wikipedia.org/wiki/춘분"
   },
   {
+    "id": "anv-fixed-03-20-world-sparrow-day-global",
+    "date": "03-20",
+    "dateType": "annual-fixed",
+    "name": "세계 참새의 날",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "도시화로 개체수가 줄어드는 참새를 보호하자는 취지로 인도의 네이처 포에버 소사이어티가 프랑스 에코시스 액션 재단과 함께 2010년 시작했다.",
+      "anecdote": "한때 어디서나 보이던 참새가 도심 소음·전자파·서식지 감소로 유럽·아시아 여러 도시에서 급감한 것이 계기가 됐다. 국내에서도 도심 참새 감소가 종종 뉴스로 다뤄진다. 국내에서도 도심 재개발로 처마·기와지붕 같은 참새 서식 공간이 줄면서 개체수 감소가 관찰되고 있다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-03-21-common-courtesy-day-global",
     "date": "03-21",
     "dateType": "annual-fixed",
@@ -2300,6 +2412,22 @@
     },
     "memes": [],
     "sourceUrl": "https://www.law.go.kr/법령/암관리법"
+  },
+  {
+    "id": "anv-fixed-03-21-world-puppetry-day-global",
+    "date": "03-21",
+    "dateType": "annual-fixed",
+    "name": "세계 인형극의 날",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "1929년 체코 프라하에서 창립된 국제인형극연맹(UNIMA)이 2003년 제정한 날로, 유네스코 산하 국제극예술협회와 연계돼 있다.",
+      "anecdote": "인형극은 문자를 몰라도 즐길 수 있어 전통적으로 서민층의 공연 예술로 발달했다. 국내에서도 전통 꼭두각시놀음이 이 계보의 예술 형태로 꼽힌다. 국내에서도 매년 3월 이 날짜를 전후해 국공립 인형극단이 특별 공연을 여는 경우가 많다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-03-22-goof-off-day-us",

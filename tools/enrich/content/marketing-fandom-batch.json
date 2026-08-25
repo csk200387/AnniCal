@@ -1,0 +1,557 @@
+{
+  "anv-fixed-01-19-hot-day-kr": {
+    "name": "핫데이(찜질방 데이)",
+    "date": "01-19",
+    "dateType": "annual-fixed",
+    "category": "romance",
+    "tags": [
+      "연애 & 기념일"
+    ],
+    "storytelling": {
+      "origin": "1990년대 말~2000년대 초 '데이 마케팅' 유행 속에 생긴 비공식 기념일이다. 숫자 119가 소방서 신고번호이자 불을 연상시킨다는 데서 '핫데이'로, 연인과 함께 몸을 데우러 찜질방에 가는 날이라는 뜻도 붙었다.",
+      "anecdote": "이름과 유래가 하나로 고정돼 있지 않고 지역·세대에 따라 다르게 통했다는 점이 오히려 이 시기 데이 마케팅의 즉흥적인 성격을 보여준다. 빼빼로데이만큼 남지는 못했지만, 매달 14일 데이와 함께 한 시대의 유행으로 기억된다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-02-05-nutella-day-global": {
+    "name": "세계 누텔라의 날",
+    "date": "02-05",
+    "dateType": "annual-fixed",
+    "category": "brand",
+    "tags": [
+      "브랜드 데이"
+    ],
+    "storytelling": {
+      "origin": "이탈리아 제과업체 페레로의 헤이즐넛 초코스프레드 누텔라를 기리는 날이다. 2007년 미국의 한 블로거가 처음 제안했고, 페레로가 이를 받아들여 매년 2월 5일로 공식화했다.",
+      "anecdote": "누텔라는 2차대전 직후 카카오가 부족하던 이탈리아에서 헤이즐넛을 섞어 만든 것이 시작이다. 지금은 전 세계에서 초 단위로 팔려나가는 대표적 스프레드가 됐고, 이날에는 SNS에 토스트·팬케이크에 발라 먹는 인증 사진이 몰린다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-02-05-onigo-day-jp": {
+    "name": "오니고의 날",
+    "date": "02-05",
+    "dateType": "annual-fixed",
+    "category": "quirky",
+    "tags": [
+      "이색 & 유머"
+    ],
+    "storytelling": {
+      "origin": "코나미의 리듬게임 '사운드 볼텍스'에 등장하는 캐릭터 오니고와 관련해 일본 팬덤 사이에서 통용되는 기념일이다. 날짜의 유래는 캐릭터 이름의 어감에서 온 말장난으로 알려져 있다.",
+      "anecdote": "리듬게임 캐릭터가 독자적인 '기념일'을 갖는 것은 일본 오락실 문화에서 흔한 일이다. 사운드 볼텍스는 코나미의 대표 리듬게임 시리즈로, 한국에도 마니아층이 있다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-02-14-dried-anchovy-day-jp": {
+    "name": "일본 건멸치의 날",
+    "date": "02-14",
+    "dateType": "annual-fixed",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "일본 건멸치협회가 제정한 업계 기념일이다. 밸런타인데이와 같은 날이라는 것 자체가 화제가 되며, 초콜릿 대신 건멸치를 챙기는 식의 농담 소재로도 쓰인다.",
+      "anecdote": "애니메이션 '내 청춘 러브코메디는 잘못됐다' 12권에서 언급되며 오덕 커뮤니티에도 알려졌다. 마른 멸치는 칼슘과 감칠맛 성분이 풍부해 일본 가정에서 흔한 밑반찬 겸 안주 재료다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-02-14-fundoshi-day-jp": {
+    "name": "일본 훈도시의 날",
+    "date": "02-14",
+    "dateType": "annual-fixed",
+    "category": "quirky",
+    "tags": [
+      "이색 & 유머"
+    ],
+    "storytelling": {
+      "origin": "일본 전통 남성 속옷인 훈도시를 알리기 위해 훈도시 협회가 제정했다. 2(훈)·10(도)·4(시)의 발음을 이어 붙인 말장난에서 날짜가 나왔다는 설이 있으나 실제로는 밸런타인데이인 2월 14일에 맞춰졌다.",
+      "anecdote": "만화 '은수저 Silver Spoon' 11권 권말에서 언급되며 알려졌다. 훈도시는 헤이안 시대부터 이어진 전통 복식으로, 지금은 축제나 이색 이벤트에서 상징적으로 착용되는 경우가 많다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-02-22-rihanna-day-bb": {
+    "name": "리한나의 날(바베이도스)",
+    "date": "02-22",
+    "dateType": "annual-fixed",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "가수 리한나의 고향인 바베이도스 정부가 지정한 기념일이다. 2008년 데이비드 톰슨 총리가 귀향 축하 행사에서 이날을 '리한나의 날'로 선포하고 그를 문화홍보대사로 임명했다.",
+      "anecdote": "리한나는 2021년에는 국가 최고 영예인 '국가영웅' 칭호까지 받아, 대중가수가 살아있는 동안 국가영웅으로 추대된 드문 사례로 꼽힌다. 다만 이 칭호를 기리는 '국가영웅의 날'(4월 28일)은 리한나의 날과는 별개의 공휴일이다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/Rihanna"
+  },
+  "anv-fixed-02-22-hwangil-day-kr": {
+    "name": "황일절(스타크래프트 밈)",
+    "date": "02-22",
+    "dateType": "annual-fixed",
+    "category": "quirky",
+    "tags": [
+      "이색 & 유머"
+    ],
+    "storytelling": {
+      "origin": "2002년 2월 22일 프로게이머 홍진호가 KT배 온게임넷 왕중왕전에서 조정현을 3대0으로 꺾고 우승한 것을 기리는 스타크래프트 팬덤의 밈성 기념일이다. '2월 22일'의 숫자를 비틀어 '황일절'이라 부른다.",
+      "anecdote": "훗날 이 대회가 정규 리그가 아닌 이벤트전으로 재분류되면서, 정작 홍진호는 공식 기록상 우승 없이 '콩라인(만년 2위)'이라는 별명으로 더 유명해지는 아이러니가 생겼다. 같은 날짜를 놓고 월드 오브 워크래프트 팬덤도 '용개절'이라는 자체 기념일을 주장해 두 커뮤니티가 우스개로 다툰다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-02-22-bald-day-jp": {
+    "name": "대머리의 날(일본)",
+    "date": "02-22",
+    "dateType": "annual-fixed",
+    "category": "quirky",
+    "tags": [
+      "이색 & 유머"
+    ],
+    "storytelling": {
+      "origin": "일본의 탈모인 동호회 '츠루타 하게마스회'가 기념하는 날이다. 정관에 적힌 단체 목적은 '대머리를 통해 세상을 밝게 하는 평화 활동을 전개함'이라고 알려져 있다.",
+      "anecdote": "같은 날 일본에서는 222를 '냥냥냥(ニャンニャンニャン)'으로 읽는 고양이의 날도 함께 통용돼, 2월 22일 하루에 서로 다른 말장난 기념일이 겹치는 날로도 꼽힌다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-03-03-wife-day-kr": {
+    "name": "아내의 날",
+    "date": "03-03",
+    "dateType": "annual-fixed",
+    "category": "romance",
+    "tags": [
+      "연애 & 기념일"
+    ],
+    "storytelling": {
+      "origin": "삼성생명이 아내의 소중함을 되새기자는 취지로 3월 3일을 '아내의 날'로 정하고 한 달간 캠페인을 벌인 데서 비롯된 비공식 기념일이다.",
+      "anecdote": "기업 마케팅에서 출발했지만 이후 '납세자의 날'과 같은 날이라는 우연 때문에 온라인에서 종종 언급되며 퍼졌다. 정부가 지정한 '부부의 날'(5월 21일)과는 별개다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-03-03-rice-triangle-day-kr": {
+    "name": "삼각김밥 데이",
+    "date": "03-03",
+    "dateType": "annual-fixed",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "숫자 3이 두 번 겹친다는 이유로 한국편의점산업협회가 국내 쌀 소비를 늘리기 위해 미는 날이다. 이날 삼각김밥을 사면 증정품을 끼워주는 편의점 프로모션이 열린다.",
+      "anecdote": "삼각김밥은 일본 오니기리에서 들여와 1990년대 한국 편의점에 자리 잡았다. 지금은 한 해 수억 개가 팔리는 대표 편의점 식품으로, 쌀 소비 촉진이라는 정책 목표와 결합된 흔치 않은 사례다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-03-03-eoyunsu-day-kr": {
+    "name": "어윤수 기념일",
+    "date": "03-03",
+    "dateType": "annual-fixed",
+    "category": "quirky",
+    "tags": [
+      "이색 & 유머"
+    ],
+    "storytelling": {
+      "origin": "2019년 스타크래프트 프로게이머 어윤수를 기리는 뜻에서 e스포츠 팬덤 사이에 지정된 밈성 기념일이다.",
+      "anecdote": "저그 종족을 쓰는 어윤수는 아이디 'soO'로 활동했으며 결승에 여러 번 오르고도 번번이 준우승에 그친 이력으로 유명하다. 정상급 실력에도 우승 문턱에서 아쉽게 밀려나는 모습이 홍진호의 '콩라인'과 겹쳐지며 팬들 사이에 애정 섞인 밈으로 자리 잡았다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-03-09-miku-day-jp": {
+    "name": "하츠네 미쿠의 날",
+    "date": "03-09",
+    "dateType": "annual-fixed",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "가상 가수 하츠네 미쿠의 실제 생일은 8월 31일이지만, 39를 '미쿠'로 읽는 고로아와세(숫자 말장난)에서 착안해 별도로 3월 9일이 미쿠의 날로 통용된다.",
+      "anecdote": "하츠네 미쿠는 야마하의 음성 합성 소프트웨어 '보컬로이드' 캐릭터로 2007년 출시됐다. 실제 가수 없이 팬들이 만든 곡만으로 전 세계 투어를 도는 홀로그램 공연까지 열리는 독특한 팝컬처 아이콘이다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-03-14-spacex-founding-day-us": {
+    "name": "스페이스X 설립일",
+    "date": "03-14",
+    "dateType": "annual-fixed",
+    "category": "academic",
+    "tags": [
+      "학술 & 기술"
+    ],
+    "storytelling": {
+      "origin": "2002년 3월 14일 일론 머스크가 화성 이주와 우주비행 비용 절감을 목표로 미국 델라웨어주에 스페이스X(Space Exploration Technologies)를 설립한 날이다.",
+      "anecdote": "머스크는 페이팔 매각 대금 중 약 1억 달러를 초기 자본으로 투입했다. 설립 당시에는 무모한 도전으로 여겨졌지만, 이후 재사용 로켓 팰컨 9과 유인 우주선 크루 드래건을 개발하며 민간 우주산업을 대표하는 기업이 됐다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-03-16-wwe-316-day-us": {
+    "name": "WWE 3:16 데이",
+    "date": "03-16",
+    "dateType": "annual-fixed",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "1996년 킹 오브 더 링 결승에서 제이크 로버츠를 꺾은 직후 스티브 오스틴이 즉흥적으로 외친 '오스틴 3:16'에서 유래했다. 로버츠의 설교자 캐릭터가 즐겨 인용하던 성경 요한복음 3장 16절을 비튼 애드리브였다.",
+      "anecdote": "이 한마디가 WWE 역대 최다 판매 티셔츠 문구가 됐고, WWE는 이를 기려 3월 16일을 공식 '3:16 데이'로 인정하고 있다. 프로레슬링 역사에서 손꼽히는 애드리브가 날짜 이름으로까지 남은 사례다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.wwe.com/article/official-national-austin-316-day"
+  },
+  "anv-fixed-04-18-superman-day-us": {
+    "name": "슈퍼맨 데이",
+    "date": "04-18",
+    "dateType": "annual-fixed",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "1938년 4월 18일 발매된 만화 '액션 코믹스' 1호에서 슈퍼맨이 처음 등장한 것을 기리는 날이다.",
+      "anecdote": "당시 표지가값 10센트였던 이 창간호는 이후 슈퍼히어로 장르 전체의 출발점으로 꼽히며, 경매에서 수백만 달러에 거래되는 희귀본이 됐다. DC코믹스는 매년 이날을 전후해 팬 이벤트를 연다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-04-20-doge-day-global": {
+    "name": "도지데이",
+    "date": "04-20",
+    "dateType": "annual-fixed",
+    "category": "quirky",
+    "tags": [
+      "이색 & 유머"
+    ],
+    "storytelling": {
+      "origin": "암호화폐 도지코인 커뮤니티가 기념하는 날로, 2021년 무렵부터 퍼졌다. 대마초 문화와 연관된 기존의 '4/20(420)'이라는 유쾌하고 반문화적인 날짜 이미지에 편승해 자리 잡았다.",
+      "anecdote": "도지코인은 2013년 빌리 마커스와 잭슨 파머가 시바견 인터넷 밈을 본떠 장난삼아 만든 암호화폐였는데, 일론 머스크가 여러 차례 언급하며 실제 거래되는 자산으로 커졌다. sourceUrl은 커뮤니티 유래라 특정 공식 출처가 없다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-05-02-duck-day-kr": {
+    "name": "오리데이",
+    "date": "05-02",
+    "dateType": "annual-fixed",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "농협이 오리고기 소비를 늘리기 위해 지정한 날이다. 오이데이와 같은 날로, 5월 초 농축산물 소비 촉진 캠페인의 하나다.",
+      "anecdote": "닭고기 소비를 늘리려는 '구구데이(9월 9일)'와 짝을 이루는 캠페인 성격의 날로, 오리 사육 농가의 판로 확대가 목적이다. 한국에서는 훈제오리·오리백숙 등으로 소비되며, 오리고기는 지방 성분이 불포화지방산 비중이 높다는 점이 자주 홍보 포인트로 쓰인다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-05-02-cucumber-day-kr": {
+    "name": "오이데이",
+    "date": "05-02",
+    "dateType": "annual-fixed",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "5월 2일을 숫자로 적으면 '52'가 되고 이를 '오이'로 읽을 수 있다는 데서 착안해 농촌진흥청이 오이 농가 소득 증대를 위해 지정했다.",
+      "anecdote": "숫자 말장난으로 날짜를 정하는 방식은 한국 농산물 판촉 캠페인에서 자주 쓰인다. 오이는 수분 함량이 높아 여름철 소비가 느는 대표적인 여름 채소다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-05-02-harry-potter-day-global": {
+    "name": "해리 포터의 날",
+    "date": "05-02",
+    "dateType": "annual-fixed",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "소설 '해리 포터' 시리즈에서 1998년 5월 2일 벌어진 것으로 설정된 호그와트 전투에서 해리가 볼드모트를 물리친 날을 기려 정한 국제적 팬덤 기념일이다.",
+      "anecdote": "이 전투에서는 프레드 위즐리, 스네이프 교수 등 주요 인물이 다수 목숨을 잃는 것으로 그려져, 시리즈 팬들에게는 승리와 상실이 함께 떠오르는 날이다. 전 세계 팬들이 이날 SNS에서 관련 인용구와 팬아트를 공유한다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-05-05-sith-day-global": {
+    "name": "시스 데이",
+    "date": "05-05",
+    "dateType": "annual-fixed",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "5월 4일 '스타워즈 데이(May the Fourth)' 바로 다음 날을 영화 에피소드3 부제 '시스의 복수(Revenge of the Sith)'에 빗대 'Revenge of the Fifth'로 부르며 생긴 팬덤 기념일이다.",
+      "anecdote": "스타워즈 데이만큼의 인지도는 없지만, 시리즈의 악역 진영인 시스를 기리는 날로 팬 커뮤니티에서 매년 함께 언급된다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-05-10-maid-day-jp": {
+    "name": "메이드의 날(일본)",
+    "date": "05-10",
+    "dateType": "annual-fixed",
+    "category": "quirky",
+    "tags": [
+      "이색 & 유머"
+    ],
+    "storytelling": {
+      "origin": "5월을 뜻하는 영어 'May(메이)'와 10일의 일본어 발음 '토오'를 이어 '메이도(メイド)'로 읽는 말장난에서 나온 날로, 애니메이션 서브컬처 팬덤이 그림 투고나 코스프레로 기념한다.",
+      "anecdote": "일본 아키하바라 등지의 메이드 카페 문화와 맞물려 퍼진 기념일로, 공식 제정 주체는 명확하지 않은 팬덤 자생 기념일에 가깝다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-05-23-go-nissan-day-jp": {
+    "name": "고 닛산 데이(일본)",
+    "date": "05-23",
+    "dateType": "annual-fixed",
+    "category": "brand",
+    "tags": [
+      "브랜드 데이"
+    ],
+    "storytelling": {
+      "origin": "일본 자동차 제조사 닛산이 지정한 자체 마케팅일이다. 523을 일본어로 읽으면 'Go-Ni-San'이 돼 브랜드명 닛산과 발음이 이어진다.",
+      "anecdote": "자동차 회사가 숫자 말장난으로 자사 기념일을 만드는 것은 일본 마케팅에서 흔한 방식으로, 이날 닛산은 SNS 이벤트나 시승 프로모션을 진행한다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-07-07-ponytail-day-jp": {
+    "name": "포니테일의 날(일본)",
+    "date": "07-07",
+    "dateType": "annual-fixed",
+    "category": "quirky",
+    "tags": [
+      "이색 & 유머"
+    ],
+    "storytelling": {
+      "origin": "숫자 7의 모양이 뒤로 묶은 포니테일 머리를 연상시킨다는 데서 일본 오덕 커뮤니티 사이에 퍼진 날이다.",
+      "anecdote": "숫자 7 두 개가 나란히 놓인 모양을 양갈래 머리로 보는 해석도 있어, 포니테일 외에도 다양한 헤어스타일을 연상하는 말장난으로 확장돼 쓰인다. 일본 애니메이션·게임에서 포니테일 캐릭터를 향한 팬심을 표현하는 용도로 인터넷 커뮤니티에서 자생적으로 퍼졌다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-07-07-mazda-rx7-day-jp": {
+    "name": "마쯔다 RX-7 데이(일본)",
+    "date": "07-07",
+    "dateType": "annual-fixed",
+    "category": "quirky",
+    "tags": [
+      "이색 & 유머"
+    ],
+    "storytelling": {
+      "origin": "숫자 7이 겹치는 이날, 마쯔다의 스포츠카 RX-7을 의미한다는 데서 일본 자동차 동호인들이 도쿄 다이코쿠 파킹에어리어에 차를 몰고 모이는 문화가 생겼다.",
+      "anecdote": "다이코쿠 PA는 도쿄만 해상 고속도로에 있는 휴게소로, 심야에 튜닝카 동호인들이 모이는 명소로 알려져 각종 영상·미디어에도 자주 등장한다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-08-01-spider-man-day-global": {
+    "name": "국제 스파이더맨의 날",
+    "date": "08-01",
+    "dateType": "annual-fixed",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "1962년 마블 코믹스 '어메이징 판타지' 15호 표지에 찍힌 발행일(8월 1일)에서 유래한 스파이더맨 팬덤 기념일이다.",
+      "anecdote": "정작 이 만화는 표지 날짜보다 두 달 앞선 그해 6월 5일에 이미 가판대에 깔렸다는 사실이 뒤늦게 알려지며, '어긋난 생일'로 소개되기도 한다. 공식 주관 단체는 없지만 마블도 이날을 맞아 홍보 콘텐츠를 낸다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-08-08-grape-day-kr": {
+    "name": "포도데이",
+    "date": "08-08",
+    "dateType": "annual-fixed",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "숫자 8이 두 개 나란히 있는 모양이 포도송이를 닮았다는 데서 착안해 포도가 본격 출하되는 시기에 맞춰 만들어진 소비 촉진 기념일이다.",
+      "anecdote": "8월 8일은 숫자 8이 겹치는 날이라 무궁화의 날, 쌀의 날(오는 8월 18일과 혼동 주의) 등 다른 국내 캠페인성 기념일과도 자주 함께 언급된다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-08-08-slime-tower-day-jp": {
+    "name": "슬라임 타워의 날(일본)",
+    "date": "08-08",
+    "dateType": "annual-fixed",
+    "category": "brand",
+    "tags": [
+      "브랜드 데이"
+    ],
+    "storytelling": {
+      "origin": "일본 게임사 스퀘어에닉스가 자사 게임 '드래곤 퀘스트'의 상징인 슬라임 캐릭터를 기념해 지정한 브랜드 이벤트일이다.",
+      "anecdote": "이날 슬라임 모양 굿즈나 한정판 상품이 판매되는 프로모션이 열린다. 슬라임은 1986년 첫 드래곤 퀘스트부터 등장한, 시리즈를 상징하는 마스코트 몬스터다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-08-10-slowpoke-day-jp": {
+    "name": "야돈의 날",
+    "date": "08-10",
+    "dateType": "annual-fixed",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "포켓몬 시리즈의 캐릭터 야돈(슬로우포크)을 기리는 일본 팬덤 기념일이다. 느긋한 성격의 야돈답게 날짜에 특별히 복잡한 유래는 알려져 있지 않다.",
+      "anecdote": "야돈은 1996년 첫 포켓몬스터 적·녹 버전부터 등장한 1세대 포켓몬으로, 진화형인 야도란·야도킹과 함께 오래도록 사랑받아 왔다. 느긋한 성격과 멍한 표정이 오히려 매력 포인트로 꼽히며, 이날에는 관련 일러스트와 굿즈 인증이 팬 커뮤니티에 몰린다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-08-10-beast-senpai-day-jp": {
+    "name": "니코동 야수의 날(일본)",
+    "date": "08-10",
+    "dateType": "annual-fixed",
+    "category": "quirky",
+    "tags": [
+      "이색 & 유머"
+    ],
+    "storytelling": {
+      "origin": "일본 동영상 사이트 니코니코동가에서 유행한 '야수 선배' 밈과 관련해 통용되는 날이다. 8(야)10(주)의 발음을 이어 '야쥬'로 읽는 말장난에서 왔다고 알려져 있다.",
+      "anecdote": "밈의 배경이 된 실제 건물(일명 '야수저택')에 팬들이 몰려들면서 소음·통행 문제로 경찰이 개입한 적도 있어, 인터넷 밈이 실제 사회 문제로 번진 사례로도 언급된다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-08-10-bionicle-day-global": {
+    "name": "바이오니클 데이(810nicle Day)",
+    "date": "08-10",
+    "dateType": "annual-fixed",
+    "category": "brand",
+    "tags": [
+      "브랜드 데이"
+    ],
+    "storytelling": {
+      "origin": "레고의 완구 라인 '바이오니클(Bionicle)'을 살짝 변형하면 '810nicle'이 된다는 말장난에서 팬들이 만든 날이다.",
+      "anecdote": "바이오니클은 2001년부터 2010년까지 레고가 선보인 로봇형 캐릭터 완구 시리즈로, 단종 이후에도 팬 커뮤니티가 이어져 매년 이날 관련 게시물이 올라온다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-08-19-haikyuu-day-jp": {
+    "name": "하이큐의 날(일본)",
+    "date": "08-19",
+    "dateType": "annual-fixed",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "애니메이션 '하이큐!!'의 두 번째 시즌 방영(2015년 10월)을 앞두고 홍보를 위해 만들어졌다. 하(8)이(1)큐(9)의 발음을 이은 고로아와세로, 일본기념일협회에 정식 등록됐다.",
+      "anecdote": "배구를 소재로 한 이 작품은 국내외에서도 큰 인기를 끌며 실제 배구 입문 계기가 됐다는 팬들의 후기가 많다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-10-10-moe-day-jp": {
+    "name": "모에의 날(일본)",
+    "date": "10-10",
+    "dateType": "annual-fixed",
+    "category": "quirky",
+    "tags": [
+      "이색 & 유머"
+    ],
+    "storytelling": {
+      "origin": "'귀엽다·사랑스럽다'는 뜻의 오덕 용어 '모에(萌)'라는 한자를 파자하면 '十月十日(10월10일)'이 된다는 말장난에서 나온 일본 서브컬처 커뮤니티의 기념일이다.",
+      "anecdote": "'모에'는 원래 식물이 싹튼다는 뜻의 한자에서, 캐릭터에 대한 애정이 움트는 감정을 비유하는 말로 의미가 확장돼 일본 애니메이션·게임 팬덤의 핵심 용어가 됐다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-10-30-maradonian-church-day-ar": {
+    "name": "마라도나교의 성탄절",
+    "date": "10-30",
+    "dateType": "annual-fixed",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "아르헨티나 축구 선수 디에고 마라도나를 신처럼 떠받드는 실존 종교 단체 '이글레시아 마라도니아나'가 1998년 10월 30일 로사리오에서 팬 세 명에 의해 창립됐다. 이 날은 마라도나의 생일이자 이 종교의 '성탄절'이다.",
+      "anecdote": "전 세계 130여 개국에 12만~20만 명의 등록 신자를 두고 있다고 알려져 있으며, 축구공을 십자가처럼 여기고 독자적인 '십계명'까지 갖췄다. 1986년 월드컵 '신의 손' 골이 있었던 6월 22일은 이 종교의 '부활절'로 함께 기념된다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/Iglesia_Maradoniana"
+  },
+  "anv-fixed-11-01-teoltteol-day-kr": {
+    "name": "털털데이",
+    "date": "11-01",
+    "dateType": "annual-fixed",
+    "category": "brand",
+    "tags": [
+      "브랜드 데이"
+    ],
+    "storytelling": {
+      "origin": "왁싱 전문 브랜드 젝시왁싱이 선포한 마케팅 기념일이다. 11월이 한 해의 끝자락에 놓인 시기라는 점에 착안해, 지난 한 해의 걱정과 고민을 '털어내자'는 의미를 담았다.",
+      "anecdote": "숫자 1이 곧게 솟은 털 모양을 연상시킨다는 설명도 함께 붙는다. 브랜드가 만든 기념일이지만 연말 셀프케어를 독려하는 메시지로 SNS에서 회자된다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-11-11-illionaire-day-kr": {
+    "name": "일리네어데이",
+    "date": "11-11",
+    "dateType": "annual-fixed",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "2011년 도끼와 더콰이엇이 공동 설립하고 이후 빈지노가 합류한 한국 힙합 레이블 일리네어 레코즈를 기리는 팬덤 기념일이다. 레이블명과 숫자 11이 발음상 겹치는 데서 11월 11일로 자리 잡았다.",
+      "anecdote": "레이블이 있던 동안에는 이날에 맞춰 합동 공연을 열거나 새 합동곡을 공개하는 전통이 있었다. 일리네어 레코즈는 2020년 해체됐지만, 세 사람이 2010년대 한국 힙합 씬에 남긴 영향은 여전히 회자된다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-11-11-choi-dong-won-award-day-kr": {
+    "name": "최동원 상 수여일",
+    "date": "11-11",
+    "dateType": "annual-fixed",
+    "category": "sports",
+    "tags": [
+      "스포츠 & 레저"
+    ],
+    "storytelling": {
+      "origin": "1984년 한국시리즈에서 4승을 혼자 책임지며 롯데 자이언츠를 우승으로 이끈 전설적 투수 최동원을 기리는 KBO리그 시상식이다. 그의 영구결번 등번호 11번을 따 매년 11월 11일 부산에서 열린다.",
+      "anecdote": "롯데는 최동원 은퇴 후 그의 등번호 11번을 구단 역사상 최초로 영구결번했다. 상은 그해 최고의 투구를 보인 선수에게 주어지며, '한국판 사이영상'으로도 불린다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  "anv-fixed-12-26-tvxq-debut-day-kr": {
+    "name": "동방신기 첫 무대일",
+    "date": "12-26",
+    "dateType": "annual-fixed",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "2003년 12월 26일 SBS '보아 & 브리트니 스피어스 스페셜'에서 5인조 그룹 동방신기가 처음 무대에 오른 날이다. 공식 데뷔는 이듬해 2월 SBS '인기가요'를 통해 이뤄졌다.",
+      "anecdote": "이후 20년 넘게 활동을 이어오며 한류를 대표하는 그룹 중 하나로 자리 잡았고, 팬들은 이 첫 무대일을 데뷔 기념일과 함께 챙긴다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  }
+}

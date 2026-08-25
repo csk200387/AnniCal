@@ -1144,6 +1144,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-popcorn-day-january-19/"
   },
   {
+    "id": "anv-fixed-01-19-hot-day-kr",
+    "date": "01-19",
+    "dateType": "annual-fixed",
+    "name": "핫데이(찜질방 데이)",
+    "category": "romance",
+    "tags": [
+      "연애 & 기념일"
+    ],
+    "storytelling": {
+      "origin": "1990년대 말~2000년대 초 '데이 마케팅' 유행 속에 생긴 비공식 기념일이다. 숫자 119가 소방서 신고번호이자 불을 연상시킨다는 데서 '핫데이'로, 연인과 함께 몸을 데우러 찜질방에 가는 날이라는 뜻도 붙었다.",
+      "anecdote": "이름과 유래가 하나로 고정돼 있지 않고 지역·세대에 따라 다르게 통했다는 점이 오히려 이 시기 데이 마케팅의 즉흥적인 성격을 보여준다. 빼빼로데이만큼 남지는 못했지만, 매달 14일 데이와 함께 한 시대의 유행으로 기억된다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-01-20-disc-jockey-day-global",
     "date": "01-20",
     "dateType": "annual-fixed",
@@ -1802,5 +1818,21 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/inspire-your-heart-with-art-day-january-31/"
+  },
+  {
+    "id": "anv-fixed-01-31-zebra-day-global",
+    "date": "01-31",
+    "dateType": "annual-fixed",
+    "name": "국제 얼룩말의 날",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "얼룩말 보호와 서식지 문제에 대한 관심을 높이기 위해 야생동물 보호단체들이 지정한 날이다.",
+      "anecdote": "얼룩말은 아프리카 초원 생태계의 핵심종이지만 서식지 축소와 밀렵으로 개체수가 줄고 있다. 줄무늬가 개체마다 지문처럼 달라 개체 식별에 쓰인다는 점도 자주 소개된다. 특히 검은 바탕에 흰 줄무늬인지, 흰 바탕에 검은 줄무늬인지를 두고 오랜 논쟁이 있었는데, 최근 연구에서는 검은 피부에 흰 줄무늬가 나중에 생긴 것이라는 설이 더 유력하게 받아들여진다."
+    },
+    "memes": [],
+    "sourceUrl": null
   }
 ]

@@ -105,6 +105,22 @@
     "sourceUrl": "https://www.law.go.kr/법령/사회적기업육성법"
   },
   {
+    "id": "anv-fixed-07-01-world-lighthouse-day-global",
+    "date": "07-01",
+    "dateType": "annual-fixed",
+    "name": "세계 등대의 날(세계항로표지의 날)",
+    "category": "academic",
+    "tags": [
+      "학술 & 기술"
+    ],
+    "storytelling": {
+      "origin": "국제항로표지협회(IALA)가 제정한 국제기념일로, 등대를 비롯한 항로표지 시설이 해상 안전에 기여해 온 역사를 기린다.",
+      "anecdote": "위성항법장치(GPS)가 보편화된 지금도 등대는 비상시 대체 항법 수단이자 해양 문화유산으로서 가치를 인정받는다. 한국에도 인천 팔미도 등대를 비롯해 100년 넘은 등대가 여럿 남아 있다. 국제항로표지협회는 156개국이 가입한 국제기구로, 등대뿐 아니라 부표·전자항법 시스템까지 아우르는 해상 안전 표준을 정한다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "gov-96",
     "date": "07-1-SAT",
     "dateType": "annual-nth-weekday",
@@ -549,6 +565,38 @@
     },
     "memes": [],
     "sourceUrl": "https://www.kroad.or.kr/kroad_27.html"
+  },
+  {
+    "id": "anv-fixed-07-07-ponytail-day-jp",
+    "date": "07-07",
+    "dateType": "annual-fixed",
+    "name": "포니테일의 날(일본)",
+    "category": "quirky",
+    "tags": [
+      "이색 & 유머"
+    ],
+    "storytelling": {
+      "origin": "숫자 7의 모양이 뒤로 묶은 포니테일 머리를 연상시킨다는 데서 일본 오덕 커뮤니티 사이에 퍼진 날이다.",
+      "anecdote": "숫자 7 두 개가 나란히 놓인 모양을 양갈래 머리로 보는 해석도 있어, 포니테일 외에도 다양한 헤어스타일을 연상하는 말장난으로 확장돼 쓰인다. 일본 애니메이션·게임에서 포니테일 캐릭터를 향한 팬심을 표현하는 용도로 인터넷 커뮤니티에서 자생적으로 퍼졌다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-07-07-mazda-rx7-day-jp",
+    "date": "07-07",
+    "dateType": "annual-fixed",
+    "name": "마쯔다 RX-7 데이(일본)",
+    "category": "quirky",
+    "tags": [
+      "이색 & 유머"
+    ],
+    "storytelling": {
+      "origin": "숫자 7이 겹치는 이날, 마쯔다의 스포츠카 RX-7을 의미한다는 데서 일본 자동차 동호인들이 도쿄 다이코쿠 파킹에어리어에 차를 몰고 모이는 문화가 생겼다.",
+      "anecdote": "다이코쿠 PA는 도쿄만 해상 고속도로에 있는 휴게소로, 심야에 튜닝카 동호인들이 모이는 명소로 알려져 각종 영상·미디어에도 자주 등장한다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-07-08-chocolate-with-almonds-day-us",
@@ -1609,6 +1657,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-hammock-day-july-22/"
   },
   {
+    "id": "anv-fixed-07-22-national-mango-day-global",
+    "date": "07-22",
+    "dateType": "annual-fixed",
+    "name": "망고의 날",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "인도에서 시작된 것으로 알려진 망고 소비 촉진 기념일로, 망고 수확 성수기에 맞춰 정해졌다.",
+      "anecdote": "망고는 '과일의 왕'으로 불릴 만큼 인도·동남아 문화에서 위상이 높다. 국내에서도 여름철 빙수·주스 재료로 인기가 높아 계절 상품 마케팅에 자주 등장한다. 인도는 세계 최대 망고 생산국으로, 500종이 넘는 품종이 재배될 만큼 망고에 대한 문화적 자부심이 크다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-07-23-refreshment-day-us",
     "date": "07-23",
     "dateType": "annual-fixed",
@@ -1959,6 +2023,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-coffee-milkshake-day-july-26/"
+  },
+  {
+    "id": "anv-fixed-07-26-esperanto-day-global",
+    "date": "07-26",
+    "dateType": "annual-fixed",
+    "name": "에스페란토의 날",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "1887년 7월 26일 폴란드 안과의사 루도비코 라자로 자멘호프가 국제 보조어 에스페란토의 문법과 기초 어휘를 담은 첫 책자('우누아 리브로')를 출간한 날이다.",
+      "anecdote": "자멘호프는 여러 민족이 뒤섞여 갈등이 잦았던 고향 비아위스토크에서 자라며, 누구나 배우기 쉬운 중립적 언어가 있으면 반목을 줄일 수 있다는 생각으로 에스페란토를 고안했다. 자멘호프는 이 책을 익명으로 출간했으며, 필명으로 쓴 '희망하는 사람'이라는 뜻의 'Dr. Esperanto'가 훗날 언어 이름 자체가 됐다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-07-27-scotch-day-us",

@@ -78,6 +78,22 @@
     "sourceUrl": "https://www.law.go.kr/법령/양성평등기본법"
   },
   {
+    "id": "anv-fixed-09-02-sealand-founding-day",
+    "date": "09-02",
+    "dateType": "annual-fixed",
+    "name": "시랜드 공국 수립일",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "1967년 9월 2일, 전직 영국군 장교 패디 로이 베이츠가 영국 앞바다의 2차대전 시기 해상 요새 '러프스 타워'를 점거해 독립을 선언하며 세운 자칭 국가다.",
+      "anecdote": "베이츠는 이 날이 아내 조앤의 생일이라는 이유로 그를 '조앤 공비'로 봉했다. 시랜드는 여권·우표·화폐까지 발행했지만 국제사회의 정식 승인을 받지는 못한 세계에서 가장 유명한 '마이크로네이션' 사례로 꼽힌다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/Principality_of_Sealand"
+  },
+  {
     "id": "anv-fixed-09-04-intellectual-property-day-kr",
     "date": "09-04",
     "dateType": "annual-fixed",
@@ -163,6 +179,22 @@
     "sourceUrl": "https://www.law.go.kr/법령/기업부설연구소등의연구개발지원에관한법률"
   },
   {
+    "id": "anv-fixed-09-13-world-sepsis-day-global",
+    "date": "09-13",
+    "dateType": "annual-fixed",
+    "name": "세계 패혈증의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "감염에 대한 신체의 과잉 반응으로 장기 손상까지 이어질 수 있는 패혈증에 대한 인식을 높이기 위해 국제패혈증연합이 2012년 제정했다.",
+      "anecdote": "패혈증은 초기 증상이 감기와 비슷해 발견이 늦어지기 쉽고, 치료가 지연될수록 사망 위험이 급격히 커진다는 점이 이날의 핵심 메시지다. 국내에서도 최근 응급의료 현장에서 패혈증 조기 발견을 위한 '패혈증 번들' 치료 프로토콜 도입이 늘고 있다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-09-14-industrial-complex-day-kr",
     "date": "09-14",
     "dateType": "annual-fixed",
@@ -195,6 +227,22 @@
     },
     "memes": [],
     "sourceUrl": "https://www.law.go.kr/법령/청년기본법"
+  },
+  {
+    "id": "anv-fixed-09-22-world-rhino-day-global",
+    "date": "09-22",
+    "dateType": "annual-fixed",
+    "name": "세계 코뿔소의 날",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "밀렵으로 위기에 처한 코뿔소 다섯 종 모두를 기리기 위해 남아프리카공화국 세계자연기금(WWF)이 2010년 제정했다.",
+      "anecdote": "코뿔소 뿔이 전통 약재나 사치품으로 밀거래되면서 밀렵이 끊이지 않아, 개체수 회복을 위한 서식지 보호와 밀렵 단속이 이날의 핵심 의제로 다뤄진다. 코뿔소 뿔의 주성분은 사람 손톱과 같은 케라틴이라 약효가 없다는 것이 과학적으로 밝혀졌는데도 밀렵 수요가 좀처럼 줄지 않고 있다. 세계자연기금은 매년 이날 다섯 개 코뿔소 종의 서식 현황 보고서를 함께 발표한다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.worldrhinoday.org/"
   },
   {
     "id": "anv-rel-chuseok-minus1-separated-families-day-kr",
