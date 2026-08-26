@@ -456,6 +456,22 @@
     "sourceUrl": null
   },
   {
+    "id": "anv-fixed-03-03-world-wildlife-day-global",
+    "date": "03-03",
+    "dateType": "annual-fixed",
+    "name": "세계 야생 동식물의 날",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "1973년 3월 3일 워싱턴에서 멸종위기 야생동식물의 국제거래를 규제하는 '워싱턴협약'(CITES)이 체결된 것을 기려, 2013년 UN 총회가 이날을 세계 야생 동식물의 날로 정했다.",
+      "anecdote": "CITES는 코끼리 상아, 코뿔소 뿔, 희귀 목재 등 3만 종이 넘는 동식물의 국제 거래를 감시하는 협약으로, 2023년 체결 50주년을 맞았다. 매년 다른 주제를 정해 밀렵·밀거래 문제를 조명한다."
+    },
+    "memes": [],
+    "sourceUrl": "https://cites.org/eng/news/pr/2013/20131223_world-wildlife-day.php"
+  },
+  {
     "id": "anv-fixed-03-04-hug-a-gi-day-us",
     "date": "03-04",
     "dateType": "annual-fixed",
@@ -1474,6 +1490,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-coconut-torte-day-march-13/"
   },
   {
+    "id": "anv-floating-2026-03-13-world-sleep-day-global",
+    "date": "2026-03-13",
+    "dateType": "annual-floating",
+    "name": "세계 수면의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "국제 수면의학 학회들의 전신 단체가 2008년 제정한 기념일로, 매년 북반구 춘분 직전 금요일에 지킨다. 2026년은 3월 13일이다.",
+      "anecdote": "수면 부족이 심혈관 질환·비만·우울증과 이어진다는 연구가 쌓이면서 만들어졌다. 주관 단체는 2016년 세계수면연맹과 국제수면의학회가 통합돼 세계수면학회(World Sleep Society)가 됐고, 지금은 70개국 넘는 나라의 수면 클리닉과 연구기관이 같은 날 강연과 캠페인을 함께 연다."
+    },
+    "memes": [],
+    "sourceUrl": "https://worldsleepday.org/"
+  },
+  {
     "id": "anv-fixed-03-14-potato-chip-day-global",
     "date": "03-14",
     "dateType": "annual-fixed",
@@ -1625,6 +1657,22 @@
     },
     "memes": [],
     "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-03-14-international-day-of-mathematics-global",
+    "date": "03-14",
+    "dateType": "annual-fixed",
+    "name": "국제 수학의 날",
+    "category": "academic",
+    "tags": [
+      "학술 & 기술"
+    ],
+    "storytelling": {
+      "origin": "1988년 미국에서 원주율 3.14에 착안해 파이의 날로 먼저 자리 잡은 3월 14일을, 유네스코가 2019년 제40차 총회에서 국제 수학의 날로 공식 선포했다.",
+      "anecdote": "파이 하나의 상징을 넘어 수학 전체를 기념하자는 취지로 범위를 넓힌 것이다. 첫 국제 기념행사는 2020년 3월 14일 전 세계 학교·연구기관에서 동시에 열렸다. 매년 유네스코와 국제수학연맹(IMU)이 주제를 새로 정해, 첫해 주제는 '수학은 어디에나 있다(Mathematics is Everywhere)'였다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.idm314.org/about"
   },
   {
     "id": "gov-4",
@@ -2243,6 +2291,38 @@
     "sourceUrl": null
   },
   {
+    "id": "anv-fixed-03-20-international-day-of-happiness-global",
+    "date": "03-20",
+    "dateType": "annual-fixed",
+    "name": "세계 행복의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "부탄이 오랫동안 내세워 온 '국민총행복'(GNH) 개념에서 착안해, UN 특별고문 제임 일리언의 제안으로 2012년 6월 UN 총회가 결의안 66/281을 채택하며 만들어졌다.",
+      "anecdote": "2012년 4월 부탄 주최로 열린 '행복과 웰빙' 회의가 UN에서 행복을 의제로 다룬 첫 고위급 회의였다. 이 회의를 계기로 첫 세계 행복의 날이 이듬해인 2013년 지켜졌다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.un.org/en/observances/happiness-day"
+  },
+  {
+    "id": "anv-fixed-03-20-world-oral-health-day-global",
+    "date": "03-20",
+    "dateType": "annual-fixed",
+    "name": "세계 구강보건의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "1900년 파리에서 설립된 세계치과연맹(FDI)이 2007년 제정한 기념일이다. 창립자 샤를 고동의 생일인 9월 12일로 시작했다가, 여름에 열리는 FDI 세계치과총회와 겹치지 않도록 2013년 3월 20일로 옮겼다.",
+      "anecdote": "전 세계 130여 개국 100만 명 넘는 치과의사가 소속된 FDI가 주관하는 가장 큰 규모의 구강보건 캠페인으로 꼽힌다. '당신의 입에 자부심을 가지라(Be Proud of Your Mouth)'는 슬로건 아래 매년 세계 각국 치과 단체가 무료 검진 행사를 연다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.worldoralhealthday.org/about"
+  },
+  {
     "id": "anv-fixed-03-21-common-courtesy-day-global",
     "date": "03-21",
     "dateType": "annual-fixed",
@@ -2428,6 +2508,38 @@
     },
     "memes": [],
     "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-03-21-international-day-of-forests-global",
+    "date": "03-21",
+    "dateType": "annual-fixed",
+    "name": "국제 산림의 날",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "UN 총회가 2012년 12월 결의안 A/RES/67/200을 채택해 매년 3월 21일을 국제 산림의 날로 정했다. 첫 기념일은 이듬해인 2013년 지켜졌다.",
+      "anecdote": "식목 행사를 포함해 산림과 나무의 가치를 알리는 활동을 각국이 자율적으로 열도록 권고하는 것이 결의안의 핵심이다. FAO가 유엔산림포럼과 함께 매년 주제를 정해 주관한다. FAO는 매년 새 주제를 정해 캠페인을 벌이는데, 산림과 식량, 산림과 건강처럼 해마다 초점이 달라진다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.un.org/en/observances/forests-and-trees-day"
+  },
+  {
+    "id": "anv-fixed-03-21-world-poetry-day-global",
+    "date": "03-21",
+    "dateType": "annual-fixed",
+    "name": "세계 시의 날",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "유네스코가 1999년 파리 제30차 총회에서 제정했다. 그리스의 유네스코 대사 바실리스 바실리코스가 제안했고, 그리스 시인 리디아 스테파누가 춘분 다음 날인 3월 21일을 골랐다.",
+      "anecdote": "언어 다양성을 지키고 사라져 가는 소수 언어가 시를 통해 들릴 기회를 늘리자는 취지가 담겼다. 첫 국제 기념행사는 2000년에 열렸으며, 매년 이 날 시 낭독회와 함께 시와 연극·무용·음악 등 다른 예술 장르를 잇는 행사가 세계 곳곳에서 열린다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.unesco.org/en/days/poetry"
   },
   {
     "id": "anv-fixed-03-22-goof-off-day-us",
@@ -2711,6 +2823,54 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Tolkien_Reading_Day"
   },
   {
+    "id": "anv-fixed-03-25-annunciation-of-the-lord-kr",
+    "date": "03-25",
+    "dateType": "annual-fixed",
+    "name": "주님 탄생 예고 대축일(성모 영보)",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "천사 가브리엘이 성모 마리아에게 예수의 잉태를 알렸다는 성경 구절을 기리는 가톨릭 대축일로, 성탄절(12월 25일)에서 정확히 9개월을 거슬러 올라간 날짜에 자리 잡았다.",
+      "anecdote": "'성모 영보'라는 옛 이름으로도 불리며, 예수가 다른 사람과 마찬가지로 잉태부터 열 달을 채워 태어났다는 믿음을 날짜에 그대로 담고 있다. 스웨덴에서는 이 축일의 옛 이름 발음이 '와플의 날'로 와전돼 별개의 식문화 기념일을 낳기도 했다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-03-25-international-waffle-day-global",
+    "date": "03-25",
+    "dateType": "annual-fixed",
+    "name": "국제 와플의 날",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "스웨덴에서 가톨릭 축일 '바르프루다겐'(성모의 날)의 발음이 '보펠다겐'(와플의 날)과 비슷해 벌어진 말장난이 굳어져 생긴 날이다. 원래는 3월 25일 성모 영보 대축일을 가리키는 말이었다.",
+      "anecdote": "수백 년에 걸쳐 종교 행사가 와플 먹는 풍습으로 자연스럽게 바뀌었고, 노르웨이·덴마크를 거쳐 최근에는 미국·영국 등지의 카페까지 이 날 와플을 파는 이벤트를 연다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/Waffle_Day"
+  },
+  {
+    "id": "anv-fixed-03-25-remembrance-victims-slavery-transatlantic-slave-trade-global",
+    "date": "03-25",
+    "dateType": "annual-fixed",
+    "name": "노예제 및 대서양 노예무역 희생자 국제 추모의 날",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "1807년 3월 25일 영국 의회가 노예무역 폐지법을 통과시킨 날짜를 기려, UN 총회가 2007년 12월 결의안 62/122로 지정했다.",
+      "anecdote": "400년 가까이 이어진 대서양 노예무역으로 강제 이주된 아프리카인은 1,200만 명이 넘는 것으로 추산된다. UN은 이 날을 계기로 교육기관과 시민사회가 노예제의 역사와 인종차별의 위험성을 가르치도록 권고한다. 2015년에는 이날을 기려 유엔 본부에 대서양 노예무역을 상징하는 영구 기념물 '귀환의 방주(Ark of Return)'가 세워졌다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.un.org/en/observances/transatlantic-slave-trade"
+  },
+  {
     "id": "anv-fixed-03-26-nougat-day-global",
     "date": "03-26",
     "dateType": "annual-fixed",
@@ -2821,6 +2981,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-joe-day-march-27/"
   },
   {
+    "id": "anv-fixed-03-27-world-theatre-day-global",
+    "date": "03-27",
+    "dateType": "annual-fixed",
+    "name": "세계 연극의 날",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "국제극예술협회(ITI)가 1961년 빈에서 열린 제9차 세계총회에서 핀란드 대표 아르비 키비마의 제안으로 제정했다. 날짜는 이듬해 파리에서 열린 '국제연극제' 개막일(1962년 3월 27일)에서 따왔다.",
+      "anecdote": "매년 세계적인 예술가 한 명이 쓴 '세계 연극의 날 메시지'를 각국 언어로 번역해 낭독하는 전통이 있다. 1962년 첫 메시지는 장 콕토가 썼고, 지금은 90개 넘는 나라의 ITI 지부와 극단·연극 학교가 함께 참여한다."
+    },
+    "memes": [],
+    "sourceUrl": "https://world-theatre-day.org/worldtheatreday.html"
+  },
+  {
     "id": "anv-fixed-03-28-something-on-a-stick-day-us",
     "date": "03-28",
     "dateType": "annual-fixed",
@@ -2929,6 +3105,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-lemon-chiffon-cake-day-march-29/"
+  },
+  {
+    "id": "anv-floating-2026-03-29-world-piano-day-global",
+    "date": "2026-03-29",
+    "dateType": "annual-floating",
+    "name": "세계 피아노의 날",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "독일 피아니스트 닐스 프람이 2015년 만든 기념일로, 피아노 건반이 88개라는 데 착안해 매년 88번째 날(평년 3/29, 윤년 3/28)에 지킨다.",
+      "anecdote": "프람은 '연주자·작곡가·조율사·운반업자, 그리고 무엇보다 청중까지 기념해도 나쁠 것 없다'며 이 날을 제안했다. 지금은 전 세계에서 매년 120건이 넘는 콘서트·라디오 특집·스트리밍 행사가 함께 열린다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.nilsfrahm.com/piano-day/"
   },
   {
     "id": "anv-fixed-03-30-i-am-in-control-day-us",
@@ -3183,5 +3375,21 @@
     },
     "memes": [],
     "sourceUrl": "https://www.law.go.kr/법령/각종기념일등에관한규정"
+  },
+  {
+    "id": "anv-fixed-03-31-international-transgender-day-of-visibility-global",
+    "date": "03-31",
+    "dateType": "annual-fixed",
+    "name": "국제 트랜스젠더 가시화의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "미국 미시간의 트랜스젠더 활동가 레이철 크랜들이 2009년 만들었다. 트랜스젠더 관련 기념일이 추모 성격의 '트랜스젠더 추모의 날'(11월 20일)뿐이라는 데 아쉬움을 느껴 제안했다.",
+      "anecdote": "크랜들은 처음에 페이스북 게시글로 각지에 행사 조직을 독려했고, 자신이 사는 디트로이트 인근에서 작은 패널 토론을 열며 시작했다. 지금은 세계 여러 도시가 이 날 행진과 캠페인을 연다."
+    },
+    "memes": [],
+    "sourceUrl": null
   }
 ]

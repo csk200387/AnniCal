@@ -221,6 +221,22 @@
     "sourceUrl": null
   },
   {
+    "id": "anv-fixed-11-01-world-vegan-day-global",
+    "date": "11-01",
+    "dateType": "annual-fixed",
+    "name": "세계 비건의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "영국 비건소사이어티 회장이었던 루이스 월리스가 1994년, 이 단체가 창립되고 'vegan'이라는 말이 처음 만들어진 지 50주년(1944년 11월 결성)을 기려 제정했다.",
+      "anecdote": "정확한 창립일이 남아 있지 않아 월리스가 직접 11월 1일을 골랐는데, 서양의 할로윈·죽은 자의 날과 겹치는 시기라 축제·기념의 분위기와 맞아떨어진다는 점도 의도한 선택이었다고 훗날 밝혔다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.vegansociety.com/news/news/world-vegan-day-1-november"
+  },
+  {
     "id": "anv-fixed-11-02-traffic-directors-day-us",
     "date": "11-02",
     "dateType": "annual-fixed",
@@ -280,6 +296,38 @@
     },
     "memes": [],
     "sourceUrl": "https://www.law.go.kr/법령/수소경제육성및수소안전관리에관한법률"
+  },
+  {
+    "id": "anv-fixed-11-02-all-souls-day-kr",
+    "date": "11-02",
+    "dateType": "annual-fixed",
+    "name": "위령의 날",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "세상을 떠난 모든 이의 영혼을 위해 기도하는 가톨릭 축일로, 10세기 프랑스 클뤼니 수도원장 오딜로가 자신이 속한 수도원의 위령 기도일로 11월 2일을 정한 것이 표준으로 굳어졌다.",
+      "anecdote": "성인으로 공식 인정된 이들을 기리는 전날의 '모든 성인 대축일'(11월 1일)과 짝을 이루며, 아직 정화 중이라 믿는 연옥의 영혼을 산 사람의 기도로 돕는다는 뜻이 담겨 있다. 구약성경 마카베오기에도 전사자를 위해 기도했다는 기록이 나온다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-11-02-emergency-call-112-day-kr",
+    "date": "11-02",
+    "dateType": "annual-fixed",
+    "name": "112의 날",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "1957년 서울에 처음 설치된 112 비상통화기에서 시작된 신고 체계를 기려, 1990년 노태우 정부의 '범죄와의 전쟁' 선포에 맞춰 경찰이 자체 제정한 한국 기념일이다.",
+      "anecdote": "112라는 번호 자체가 '일일이 알린다'는 말에서 따온 것으로 알려져 있다. 지금은 신고자 위치를 실시간으로 찾아내는 기술까지 갖춰 매년 이 날 홍보 행사가 열린다. 2012년 오원춘 사건을 계기로 신고자 동의 없이도 위치를 자동 추적하는 체계가 도입됐고, 2016년부터는 범죄 112·재난 119·민원상담 110으로 신고 체계가 정리됐다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-11-03-sandwich-day-us",
@@ -778,6 +826,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-vanilla-cupcake-day-november-10/"
   },
   {
+    "id": "anv-fixed-11-10-world-science-day-for-peace-and-development-global",
+    "date": "11-10",
+    "dateType": "annual-fixed",
+    "name": "평화와 발전을 위한 세계 과학의 날",
+    "category": "academic",
+    "tags": [
+      "학술 & 기술"
+    ],
+    "storytelling": {
+      "origin": "1999년 부다페스트에서 열린 유네스코-국제학술연합 '세계 과학 회의'의 약속을 되새기기 위해, 유네스코 총회가 2001년 이 날을 제정했다. 첫 기념일은 2002년 11월 10일 지켜졌다.",
+      "anecdote": "과학이 일상에 미치는 영향을 알리고, 유전자 편집이나 인공지능처럼 새로 떠오르는 과학 이슈를 시민이 함께 논의하도록 자리를 마련하는 것이 목적이다. '평화와 발전'이라는 이름처럼, 과학 연구가 분쟁이 아니라 인류 공동의 문제 해결에 쓰여야 한다는 메시지를 담고 있다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.un.org/en/academic-impact/world-science-day-peace-and-development-10-november"
+  },
+  {
     "id": "gov-53",
     "date": "11-11",
     "dateType": "annual-fixed",
@@ -927,6 +991,70 @@
     "sourceUrl": null
   },
   {
+    "id": "anv-fixed-11-11-korea-advertising-day-kr",
+    "date": "11-11",
+    "dateType": "annual-fixed",
+    "name": "광고의 날",
+    "category": "career",
+    "tags": [
+      "직업 & 감사"
+    ],
+    "storytelling": {
+      "origin": "제일기획이 1973년 '생활에 도움을 드리는 광고'라는 인쇄물을 낸 것을 시작으로, 광고를 과장이나 낭비 촉진으로 여기던 당시 소비자 인식을 바꾸려 광고인들이 자발적으로 만든 한국 기념일이다.",
+      "anecdote": "1999년까지 광고업계의 자발적 캠페인으로 이어지다가 이후 정례화됐다. 광고가 소비자에게 좋은 정보를 주고 경제 발전에 기여한다는 메시지를 알리는 것이 목적이며, 모든 광고 매체와 종사자를 하나로 묶는다는 의미에서 11월 11일로 정했다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-11-11-korea-physical-disability-day-kr",
+    "date": "11-11",
+    "dateType": "annual-fixed",
+    "name": "지체장애인의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "국가가 정한 4월 20일 장애인의 날과 별개로, 사단법인 한국지체장애인협회가 2001년부터 따로 지켜 온 한국 기념일이다.",
+      "anecdote": "곧게 선 숫자 1이 네 번 겹치는 11월 11일에, 신체적 어려움을 이겨내고 다시 일어서는 모습을 담았다. 스스로를 가장 소중히 여기고(1) 힘차게 일어서서(1) 다른 지체장애인들과 하나(1)로 단합하자는 뜻도 함께 있다고 협회는 설명한다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-11-11-korea-navy-founding-day-kr",
+    "date": "11-11",
+    "dateType": "annual-fixed",
+    "name": "대한민국 해군 창설 기념일",
+    "category": "career",
+    "tags": [
+      "직업 & 감사"
+    ],
+    "storytelling": {
+      "origin": "손원일 제독이 광복 직후인 1945년 8월 동지를 모아 해사대를 결성한 뒤, 그해 11월 11일 11시 서울 관훈동 표훈전에서 대원 70명이 해군의 모체인 해방병단 결단식을 치른 날을 창설일로 삼는다.",
+      "anecdote": "十一月十一日을 한자로 풀면 선비 사(士)자가 넷 겹쳐, 손원일은 예의·정직·겸손을 갖춘 '신사'가 되자는 뜻에서 이 날짜를 골랐다고 전해진다. 그래서 이 날을 쌍사절(雙士節)이라 부르기도 한다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-11-11-korail-rail-day-kr",
+    "date": "11-11",
+    "dateType": "annual-fixed",
+    "name": "레일데이",
+    "category": "career",
+    "tags": [
+      "직업 & 감사"
+    ],
+    "storytelling": {
+      "origin": "코레일이 2011년 제정한 한국 기념일로, 숫자 1이 네 번 겹친 '1111'이 나란히 뻗은 두 줄의 철로 모양을 닮았다는 데서 날짜를 정했다.",
+      "anecdote": "철도 이용을 늘리고 철도 종사자의 노고를 알리려는 취지로 만들어졌으며, 같은 날 빼빼로데이·보행자의 날·지체장애인의 날 등 유독 여러 기념일이 몰려 있어 'OO데이 폭주'라는 말이 나올 정도다. 빼빼로데이의 상업적 열기에 가려 상대적으로 존재감이 옅은 편이라, 철도 업계 스스로도 인지도를 높이는 게 과제로 꼽힌다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-11-12-pizza-with-the-works-except-anchovies-day-us",
     "date": "11-12",
     "dateType": "annual-fixed",
@@ -1009,6 +1137,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-indian-pudding-day-november-13/"
   },
   {
+    "id": "anv-fixed-11-13-world-kindness-day-global",
+    "date": "11-13",
+    "dateType": "annual-fixed",
+    "name": "세계 친절의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "호주·태국·미국·영국 등 각국의 친절 운동 단체들이 1997년 도쿄에서 결성한 세계친절운동이, 이듬해 도쿄에서 연 첫 회의 개막일(1998년 11월 13일)을 기려 제정했다.",
+      "anecdote": "이 날짜는 일본의 '작은 친절 운동' 창립 35주년과도 겹치도록 고른 것이다. 지금은 28개국 넘는 나라의 단체가 이 연합체에 속해, 매년 각국에서 친절을 주제로 한 캠페인과 행사를 함께 연다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-11-14-spicy-guacamole-day-us",
     "date": "11-14",
     "dateType": "annual-fixed",
@@ -1051,6 +1195,102 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-pickle-day-november-14/"
+  },
+  {
+    "id": "anv-fixed-11-14-letter-day-kr",
+    "date": "11-14",
+    "dateType": "annual-fixed",
+    "name": "레터데이",
+    "category": "romance",
+    "tags": [
+      "연애 & 기념일"
+    ],
+    "storytelling": {
+      "origin": "매달 14일마다 이름을 붙여 연인끼리 선물을 주고받는 한국의 '데이 문화' 중 하나로, 좋아하는 사람이나 고마운 사람에게 손편지를 직접 써서 전하는 날이다.",
+      "anecdote": "이 날짜가 정확히 언제, 누구에 의해 정해졌는지는 알려져 있지 않다. 같은 날 무비데이·쿠키데이·안개꽃데이·오렌지데이까지 다섯 개 넘는 이름이 겹쳐, 유래가 불분명한 채로 기업 마케팅에 이용된다는 비판도 꾸준히 따라붙는다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-11-14-movie-day-kr",
+    "date": "11-14",
+    "dateType": "annual-fixed",
+    "name": "무비데이",
+    "category": "romance",
+    "tags": [
+      "연애 & 기념일"
+    ],
+    "storytelling": {
+      "origin": "매달 14일 연인끼리 기념하는 한국의 '데이 문화' 중 하나로, 11월 14일은 연인이 함께 영화관을 찾는 날로 통한다.",
+      "anecdote": "정확한 유래는 확인되지 않지만, 3세기 로마제국에서 황제 몰래 젊은 연인들을 혼인시켜 준 죄로 순교했다는 사제 발렌티노의 이름에서 비롯된 매달 14일 기념 풍습이 여러 갈래로 퍼진 것 중 하나로 꼽힌다. 같은 날 겹치는 다른 데이들과 마찬가지로 상업적 목적의 마케팅이라는 지적도 있다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-11-14-cookie-day-kr",
+    "date": "11-14",
+    "dateType": "annual-fixed",
+    "name": "쿠키데이",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "매달 14일마다 이름을 붙여 선물을 주고받는 한국 '데이 문화' 중 하나로, 11월 14일에는 좋아하는 사람에게 쿠키를 건넨다.",
+      "anecdote": "같은 날 무비데이·오렌지데이·안개꽃데이·레터데이까지 겹쳐 있어 '뭘 챙겨야 하냐'는 반응이 해마다 나온다. 누가 언제 처음 정했는지는 알려지지 않았고, 유통업계 마케팅을 타고 자연스럽게 퍼진 것으로 본다. 초콜릿·쿠키류 브랜드들도 이 시기에 맞춰 선물 세트를 내놓는 경우가 많다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-11-14-babys-breath-day-kr",
+    "date": "11-14",
+    "dateType": "annual-fixed",
+    "name": "안개꽃데이",
+    "category": "romance",
+    "tags": [
+      "연애 & 기념일"
+    ],
+    "storytelling": {
+      "origin": "11월 14일, 안개꽃 가지에 '너만을 좋아해'라는 뜻을 담은 쪽지를 매달아 연인에게 건네는 한국의 데이 문화다.",
+      "anecdote": "흰 안개꽃은 간절한 기쁨과 약속을, 분홍 안개꽃은 사랑의 순간을 뜻한다고 알려져 있다. 같은 날 쿠키데이·오렌지데이 등 다른 '데이'가 겹쳐 화훼업계 마케팅 색채가 짙다는 지적도 나온다. 안개꽃의 꽃말인 '맑은 마음'과 '영원한 사랑'이 연인 사이 선물로 자리 잡은 배경으로 흔히 꼽힌다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-11-14-orange-day-kr",
+    "date": "11-14",
+    "dateType": "annual-fixed",
+    "name": "오렌지데이",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "11월 14일 연인이나 좋아하는 사람과 오렌지 또는 오렌지주스를 나눠 마시는 한국의 데이 문화다.",
+      "anecdote": "무비데이·쿠키데이·안개꽃데이·레터데이와 날짜가 겹쳐, 한 해에 이 많은 '데이'를 다 챙길 수 있냐는 우스갯소리가 매년 되풀이된다. 특정 제정 주체 없이 유통·화훼업계 마케팅을 타고 퍼진 것으로 전해진다. 겨울로 접어드는 계절에 비타민이 풍부한 제철 과일을 나누자는 취지가 반영된 것으로 보인다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-11-14-world-diabetes-day-global",
+    "date": "11-14",
+    "dateType": "annual-fixed",
+    "name": "세계 당뇨병의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "1991년 국제당뇨병연맹과 WHO가 제정했다. 날짜는 인슐린 발견의 단초를 마련한 프레더릭 밴팅의 생일에서 따왔다.",
+      "anecdote": "2006년 UN 총회가 결의(A/RES/61/225)로 공식 국제기념일로 승격했다. 이날 세계 각국의 랜드마크가 당뇨병 상징색인 파란색으로 물든다. 국제당뇨병연맹은 전 세계 성인 10명 중 1명이 당뇨병을 앓고 있는 것으로 추산한다. 상징색인 파란 원(블루서클)은 하늘과 UN기의 색에서 따온 것으로, 생명과 건강을 뜻하는 원의 모양에 담았다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/World_Diabetes_Day"
   },
   {
     "id": "anv-fixed-11-15-philanthropy-day-us",
@@ -1251,6 +1491,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-fast-food-day-november-16/"
   },
   {
+    "id": "anv-fixed-11-16-international-day-for-tolerance-global",
+    "date": "11-16",
+    "dateType": "annual-fixed",
+    "name": "국제 관용의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "유네스코가 1995년 '관용에 관한 선언'을 채택하며 제정했고, 이듬해 UN 총회가 11월 16일을 국제 관용의 날로 공식 지정했다.",
+      "anecdote": "차별과 혐오가 낳는 갈등을 줄이자는 취지로, 종교·인종·성별을 이유로 한 배제를 돌아보는 캠페인이 세계 곳곳에서 열린다. 학교 현장에서는 다문화·다종교 이해를 다루는 교육 프로그램을 여는 계기로 자주 활용된다. 유네스코는 이 날에 맞춰 격년으로 '유네스코-마단지트 싱 관용과 비폭력 증진상'을 시상하며, 상금은 10만 달러다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/International_Day_for_Tolerance"
+  },
+  {
     "id": "anv-fixed-11-17-baklava-day-us",
     "date": "11-17",
     "dateType": "annual-fixed",
@@ -1332,6 +1588,22 @@
       }
     ],
     "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-11-17-international-students-day-global",
+    "date": "11-17",
+    "dateType": "annual-fixed",
+    "name": "국제 학생의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "1939년 11월 17일 나치 독일이 프라하 대학교를 습격해 학생 9명을 처형하고 1,200명 넘게 수용소로 보낸 사건에서 유래했다.",
+      "anecdote": "1941년 런던에 모인 체코슬로바키아 망명정부와 학생 대표들이 이날을 국제 학생의 날로 선포했다. 그해 10월 시위 중 총에 맞아 숨진 의대생 얀 오플레탈의 장례 행렬이 반나치 시위로 번진 것이 사건의 발단이었다. 공교롭게도 이날로부터 정확히 50년 뒤인 1989년 11월 17일, 프라하 학생 시위가 체코슬로바키아 공산정권을 무너뜨린 '벨벳 혁명'의 도화선이 됐다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/International_Students%27_Day"
   },
   {
     "id": "anv-fixed-11-18-educational-support-professionals-day-us",
@@ -1538,6 +1810,38 @@
     "sourceUrl": null
   },
   {
+    "id": "anv-fixed-11-19-international-mens-day-global",
+    "date": "11-19",
+    "dateType": "annual-fixed",
+    "name": "세계 남성의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "1999년 트리니다드토바고의 역사학자 제롬 텔루싱이 제정했다. 날짜는 그의 아버지 생일이자, 1989년 트리니다드토바고 축구대표팀이 온 국민을 하나로 묶었던 월드컵 예선전이 열린 날이다.",
+      "anecdote": "아버지 외에 소년·청소년·아버지가 아닌 남성까지 아우르는 날을 만들고 싶었다는 게 제정 취지였다. 3월 8일 세계 여성의 날과 짝을 이루는 기념일로 소개되곤 한다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/International_Men%27s_Day"
+  },
+  {
+    "id": "anv-nth-11-3-thu-world-philosophy-day-global",
+    "date": "11-3-THU",
+    "dateType": "annual-nth-weekday",
+    "name": "세계 철학의 날",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "유네스코가 2002년 총회에서 제정해 그해 11월 21일 처음 지켰다. 비판적이고 독립적인 사고를 기르는 철학 교육의 가치를 알리자는 취지다.",
+      "anecdote": "매년 11월 셋째 목요일로 날짜를 잡아 해마다 실제 날짜가 조금씩 달라진다(2025년 11월 20일, 2026년 11월 19일). 특히 청년층의 철학적 사유를 장려하는 데 방점을 둔다. 프랑스·불가리아 등 일부 국가는 이날을 계기로 자국 철학자를 조명하는 행사를 별도로 연다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/World_Philosophy_Day"
+  },
+  {
     "id": "anv-fixed-11-20-absurdity-day-us",
     "date": "11-20",
     "dateType": "annual-fixed",
@@ -1620,6 +1924,22 @@
     "sourceUrl": null
   },
   {
+    "id": "anv-fixed-11-20-transgender-day-of-remembrance-global",
+    "date": "11-20",
+    "dateType": "annual-fixed",
+    "name": "트랜스젠더 추모의 날",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "1999년 그웬돌린 앤 스미스가 만들었다. 1998년 매사추세츠에서 살해된 트랜스여성 리타 헤스터를 추모하다, 1995년 같은 지역에서 살해된 샤넬 피켓의 사건이 이미 잊혔다는 사실에 충격을 받은 것이 계기였다.",
+      "anecdote": "날짜는 피켓이 살해된 11월 20일로 정해졌다. 첫 행사는 1999년 보스턴과 샌프란시스코에서 열렸고, 이후 혐오로 희생된 트랜스젠더를 기리는 세계적인 추모일로 자리 잡았다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/Transgender_Day_of_Remembrance"
+  },
+  {
     "id": "anv-fixed-11-21-stuffing-day-us",
     "date": "11-21",
     "dateType": "annual-fixed",
@@ -1662,6 +1982,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-adoption-day-november-21/"
+  },
+  {
+    "id": "anv-fixed-11-21-world-television-day-global",
+    "date": "11-21",
+    "dateType": "annual-fixed",
+    "name": "세계 텔레비전의 날",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "1996년 UN 총회가 결의(A/RES/51/205)로 제정했다. 그해 처음 열린 세계 텔레비전 포럼 개최일을 기려 11월 21일로 정했다.",
+      "anecdote": "분쟁과 평화·안보 위협, 경제·사회 문제에 대한 관심을 이끄는 매체로서 텔레비전의 영향력을 인식하자는 취지였다. 표결 당시 독일 등 11개국은 비슷한 기념일이 이미 많다며 기권했다. 지금도 매년 UN이 그해의 주제를 정해 각국 방송사의 참여를 독려한다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/World_Television_Day"
   },
   {
     "id": "anv-fixed-11-22-cranberry-relish-day-us",
@@ -1813,6 +2149,22 @@
     "sourceUrl": null
   },
   {
+    "id": "anv-fixed-11-23-fibonacci-day-global",
+    "date": "11-23",
+    "dateType": "annual-fixed",
+    "name": "피보나치 데이",
+    "category": "academic",
+    "tags": [
+      "학술 & 기술"
+    ],
+    "storytelling": {
+      "origin": "11월 23일을 'MM/DD'로 표기하면 11·23이 되는데, 숫자를 이어 쓰면 1,1,2,3 — 피보나치 수열의 앞 네 항과 정확히 일치해 붙여진 이름이다.",
+      "anecdote": "IEEE의 청소년 공학 교육 캠페인 'TryEngineering'을 비롯해 수학·공학 교육 현장에서 학생들의 흥미를 끄는 소재로 자주 쓰인다. 공식 제정 기구는 없는 자생적 기념일이다. 미국전기전자학회(IEEE)의 청소년 공학교육 프로그램 'TryEngineering'이 이날을 교육 콘텐츠 배포일로 활용하며 인지도를 넓혔다."
+    },
+    "memes": [],
+    "sourceUrl": "https://tryengineering.org/ko/news/11-23-is-fibonacci-sequence-day/"
+  },
+  {
     "id": "anv-fixed-11-24-sardines-day-us",
     "date": "11-24",
     "dateType": "annual-fixed",
@@ -1850,6 +2202,22 @@
     },
     "memes": [],
     "sourceUrl": "https://www.law.go.kr/법령/민원처리에관한법률"
+  },
+  {
+    "id": "anv-fixed-11-24-evolution-day-global",
+    "date": "11-24",
+    "dateType": "annual-fixed",
+    "name": "진화의 날",
+    "category": "academic",
+    "tags": [
+      "학술 & 기술"
+    ],
+    "storytelling": {
+      "origin": "1859년 11월 24일 찰스 다윈의 «종의 기원»이 영국에서 출간된 것을 기리는 비공식 기념일이다. 초판은 출간 당일 매진됐다.",
+      "anecdote": "'진화의 날'이라는 이름 자체는 1990년대에 생긴 것으로 보이지만, 출간을 기념하는 행사는 그보다 오래돼 1909년 케임브리지대학교에서 50주년 행사가, 1959년 시카고대학교에서 100주년 국제 행사가 열렸다. 초판 1,250부 중 서점에 풀린 물량은 출간 당일 전부 동났다고 전해진다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/Evolution_Day"
   },
   {
     "id": "anv-fixed-11-25-elimination-of-violence-against-women-day-global",

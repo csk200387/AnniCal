@@ -215,6 +215,70 @@
     "sourceUrl": "https://zatsuneta.com/archives/10601b.html"
   },
   {
+    "id": "anv-fixed-06-01-won-buddhism-yugildaejae-kr",
+    "date": "06-01",
+    "dateType": "annual-fixed",
+    "name": "원불교 육일대재",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "원불교를 창시한 소태산 박중빈 대종사가 1943년 6월 1일 열반한 것을 추모하는 향례다. 그는 1916년 깨달음을 얻은 뒤 27년간 교화·교육·자선 활동을 이끌었다.",
+      "anecdote": "전국 각 교당이 이날 오전 10시 공동 위패를 모시고 합동 제례를 올리는데, 소태산 한 사람만이 아니라 원불교 유공인과 신도들의 부모·선조까지 함께 추모하는 것이 특징이다. 원불교 4대 경축일 중 하나로 꼽힌다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-06-01-global-day-of-parents-global",
+    "date": "06-01",
+    "dateType": "annual-fixed",
+    "name": "세계 부모의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "UN 총회가 2012년 결의를 채택해 국제 가정의 날(5월 15일) 다음 달인 6월 1일을 세계 부모의 날로 정했다.",
+      "anecdote": "자녀 양육에 대한 부모의 헌신을 기리고 그 노력을 사회가 함께 인정하자는 취지다. 공교롭게도 여러 나라가 이날을 국제 아동절로도 기념하고 있어, 부모와 자녀를 함께 조명하는 날로 소개되는 경우가 많다. UN 총회 결의 A/RES/66/292(2012)로 공식 제정됐다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.un.org/en/observances/parents-day"
+  },
+  {
+    "id": "anv-fixed-06-03-world-bicycle-day-global",
+    "date": "06-03",
+    "dateType": "annual-fixed",
+    "name": "세계 자전거의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "폴란드 출신 사회학자 레셰크 시빌스키가 2015년 자신의 수업에서 시작한 캠페인이 뿌리다. 투르크메니스탄 등 56개국이 공동 발의해 2018년 4월 UN 총회가 만장일치로 결의를 채택했다.",
+      "anecdote": "결의문은 200년 가까이 쓰여 온 자전거가 단순하고 저렴하며 친환경적인 지속가능한 이동 수단이라는 점을 명시하고 있다. 국내에서도 따릉이 같은 공공자전거 이용이 늘면서 자주 언급되는 소재가 됐다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/World_Bicycle_Day"
+  },
+  {
+    "id": "anv-fixed-06-03-korea-deaf-day-kr",
+    "date": "06-03",
+    "dateType": "annual-fixed",
+    "name": "농아인의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "1946년 조선농아협회가 설립된 것을 기려, 협회 후신인 한국농아인협회가 1997년 6월 3일을 기념일로 제정했다.",
+      "anecdote": "숫자 '6'과 귀 모양을 닮은 '3'을 조합했고, 3이라는 숫자 자체에도 농인·수어·농문화라는 세 축의 의미를 담았다고 협회는 설명한다. 농아인의 정체성을 확립하고 사회적 인식을 개선해 사회통합을 이루자는 취지로 제정됐다. UN이 정한 국제 수어의 날(9월 23일)과는 별개로, 한국 농인 사회가 독자적으로 지켜 온 고유 기념일이다."
+    },
+    "memes": [],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/농아인의_날"
+  },
+  {
     "id": "anv-fixed-06-04-innocent-children-victims-day-global",
     "date": "06-04",
     "dateType": "annual-fixed",
@@ -229,6 +293,150 @@
     },
     "memes": [],
     "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-06-07-world-food-safety-day-global",
+    "date": "06-07",
+    "dateType": "annual-fixed",
+    "name": "세계 식품 안전의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "UN 총회가 2018년 12월 결의를 채택해 매년 6월 7일을 세계 식품 안전의 날로 정했다. WHO와 FAO가 공동 주관한다.",
+      "anecdote": "안전하지 않은 식품으로 매년 세계 인구 10명 중 1명꼴로 병에 걸린다는 WHO 추산이 이 기념일의 배경이다. 식중독 예방과 식품 유통·보관 관리의 중요성을 알리는 게 목적이며, 매년 주제를 바꿔 가며 캠페인을 벌인다. 국제식품규격위원회(CODEX)가 공동으로 참여해 각국 식품안전 당국의 협력을 촉구한다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-06-08-world-oceans-day-global",
+    "date": "06-08",
+    "dateType": "annual-fixed",
+    "name": "세계 해양의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "1992년 브라질 리우데자네이루 지구정상회의에서 캐나다 해양연구소가 처음 제안했다. UN 총회가 2008년 결의를 채택해 2009년부터 공식 국제기념일이 됐다.",
+      "anecdote": "바다가 지구 산소의 절반 이상을 만들고 기후를 조절한다는 사실을 알리는 게 목적이다. 국내에서도 해양수산부가 관련 행사를 열며, 매년 다른 주제로 해양 쓰레기·기후변화 대응 캠페인을 함께 진행한다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.un.org/en/observances/oceans-day/background"
+  },
+  {
+    "id": "anv-fixed-06-11-international-day-of-play-global",
+    "date": "06-11",
+    "dateType": "annual-fixed",
+    "name": "국제 놀이의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "레고그룹·마텔·해즈브로·세서미 워크숍 등이 참여한 연합이 UN에 제안해, 2024년 3월 UN 총회가 결의 78/268을 채택하며 만들어진 신설 기념일이다.",
+      "anecdote": "불가리아·엘살바도르·자메이카 등 여러 나라가 함께 발의했으며, 첫 기념일은 2024년 6월 11일에 열렸다. 놀이가 아동의 학습과 발달에 핵심적이라는 인식을 정책·교육 현장에 반영하자는 취지를 담고 있다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.unicef.org/parenting/day-of-play"
+  },
+  {
+    "id": "anv-fixed-06-12-world-day-against-child-labour-global",
+    "date": "06-12",
+    "dateType": "annual-fixed",
+    "name": "세계 아동 노동 반대의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "국제노동기구(ILO)가 2002년 처음 제정했다. 아동 노동 최저연령을 정한 ILO 138호 협약과 가혹한 형태의 아동노동을 금지한 182호 협약 비준 확산이 계기가 됐다.",
+      "anecdote": "제네바 ILO 본부에서 첫 행사가 전날인 6월 11일 열린 뒤, 이튿날부터 매년 전 세계에서 아동 노동의 실태를 알리는 캠페인이 이어지고 있다. 여전히 세계적으로 아동 수천만 명이 노동에 내몰리고 있다는 통계가 근거로 인용된다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.ilo.org/resource/news/ilo-launches-first-world-day-against-child-labour-12-june-2002"
+  },
+  {
+    "id": "anv-fixed-06-13-international-albinism-awareness-day-global",
+    "date": "06-13",
+    "dateType": "annual-fixed",
+    "name": "국제 백색증 인식의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "UN 인권이사회가 2013년 6월 13일 백색증 관련 첫 결의를 채택한 날을 기려, 2014년 UN 총회가 이듬해부터 매년 이날을 국제기념일로 정했다.",
+      "anecdote": "소말리아 출신 UN 대사 유수프 모하메드 이스마일 바리바리가 단체 '언더 더 세임 선'과 함께 결의 통과를 이끌었다. 아프리카 일부 지역에서 백색증 환자를 미신의 대상으로 여겨 폭력을 가하는 사례가 여전한 문제로 지적된다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-06-15-global-wind-day-global",
+    "date": "06-15",
+    "dateType": "annual-fixed",
+    "name": "세계 풍력의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "유럽풍력에너지협회(EWEA)가 2007년 유럽 18개국에서 처음 '윈드 데이'를 열었다. 2009년 세계풍력에너지위원회(GWEC)와 손잡으며 전 세계 행사로 확대됐다.",
+      "anecdote": "첫 행사에는 약 3만 5천 명이 참여한 것으로 집계됐다. 재생에너지 중에서도 풍력의 잠재력과 발전 현황을 알리는 게 목적이며, 국내에서도 해상풍력 발전 논의가 활발해지며 자주 언급되는 소재가 됐다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/Global_Wind_Day"
+  },
+  {
+    "id": "anv-fixed-06-17-world-day-to-combat-desertification-global",
+    "date": "06-17",
+    "dateType": "annual-fixed",
+    "name": "사막화 방지의 날",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "UN 사막화방지협약(UNCCD)이 1994년 6월 17일 채택된 것을 기려, 그해 제49차 UN 총회가 매년 이날을 기념일로 정했다.",
+      "anecdote": "협약은 1996년 12월 발효됐고, UNCCD는 기후변화협약·생물다양성협약과 함께 UN 3대 환경협약으로 꼽힌다. 한국은 1999년 8월 협약에 가입해 아시아·아프리카 사막화 피해국에 대한 복구 지원 활동에 참여하고 있다."
+    },
+    "memes": [],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/유엔_사막화_방지_협약"
+  },
+  {
+    "id": "anv-fixed-06-18-construction-day-kr",
+    "date": "06-18",
+    "dateType": "annual-fixed",
+    "name": "건설의 날",
+    "category": "career",
+    "tags": [
+      "직업 & 감사"
+    ],
+    "storytelling": {
+      "origin": "1980년 대한건설협회가 창립일인 5월 1일을 건설의 날로 처음 제정했으나, 1981년 국토건설청이 건설부로 승격된 1962년 6월 18일에 기념식을 맞추며 날짜가 옮겨졌다.",
+      "anecdote": "이후 '건설인의 날'로 이름을 바꿔 매년 건설 산업 종사자들의 노고를 기리는 행사를 열고 있다. 대한건설협회는 1947년 5월 1일 창립됐으니, 지금의 날짜는 협회 창립일과는 무관한 셈이다."
+    },
+    "memes": [],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/대한민국_건설부"
+  },
+  {
+    "id": "anv-fixed-06-18-autistic-pride-day-global",
+    "date": "06-18",
+    "dateType": "annual-fixed",
+    "name": "자폐인 긍지의 날",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "자폐인 권익 단체 '애스피스 포 프리덤'이 2005년 처음 제정했다. 날짜는 당시 단체에서 가장 어렸던 회원의 생일에서 따왔다.",
+      "anecdote": "성소수자 프라이드 행진을 본떠 만들어, 자폐를 '고쳐야 할 것'이 아니라 있는 그대로 존중받아야 할 정체성으로 보자는 신경다양성 운동의 상징이 됐다. 무지개 색으로 된 무한대 기호가 이때 함께 만들어져 자폐 스펙트럼을 상징하는 로고로 쓰이고 있다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/Autistic_Pride_Day"
   },
   {
     "id": "gov-88",
@@ -2122,6 +2330,38 @@
     "sourceUrl": null
   },
   {
+    "id": "anv-fixed-06-21-international-day-of-yoga-global",
+    "date": "06-21",
+    "dateType": "annual-fixed",
+    "name": "세계 요가의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "2014년 9월 나렌드라 모디 인도 총리가 UN 총회 연설에서 제안했다. 같은 해 12월 UN이 175개국의 지지를 받아 결의 69/131을 채택했다.",
+      "anecdote": "날짜는 북반구 하지로, 낮이 가장 길어 균형과 조화를 상징한다는 이유로 골랐다. 2015년 첫 기념일에는 뉴델리 라지파트 거리에서 모디 총리와 시민 3만 6천 명이 함께 21개 요가 동작을 수행했다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.un.org/en/observances/yoga-day"
+  },
+  {
+    "id": "anv-fixed-06-21-world-music-day-global",
+    "date": "06-21",
+    "dateType": "annual-fixed",
+    "name": "세계 음악의 날",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "1982년 프랑스 문화부 장관 자크 랑과 음악가 모리스 플뢰레의 제안으로 파리에서 첫 '음악 축제(페트 드 라 뮤지크)'가 열렸다.",
+      "anecdote": "아마추어든 전문 연주자든 거리로 나와 누구나 연주할 수 있게 하자는 취지였다. 프랑스인 5명 중 1명이 악기를 다룬다는 조사 결과가 축제 기획의 계기가 됐고, 지금은 100개국 넘는 도시가 하지 무렵인 이날 거리 공연을 연다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/F%C3%AAte_de_la_Musique"
+  },
+  {
     "id": "anv-fixed-06-22-onion-rings-day-us",
     "date": "06-22",
     "dateType": "annual-fixed",
@@ -2843,5 +3083,21 @@
       }
     ],
     "sourceUrl": "fathers-day-us"
+  },
+  {
+    "id": "anv-fixed-06-30-asteroid-day-global",
+    "date": "06-30",
+    "dateType": "annual-fixed",
+    "name": "소행성의 날",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "1908년 6월 30일 시베리아 퉁구스카 상공에서 소행성(또는 혜성 파편)이 폭발해 숲 2,000㎢가 쓰러진 사건을 기려, 2016년 UN 총회가 결의안 A/RES/71/90으로 이날을 국제 소행성의 날로 지정했다.",
+      "anecdote": "퀸의 기타리스트이자 천체물리학자인 브라이언 메이가 소행성 재단 인사들과 함께 2014년 이 날을 처음 제안했고, 2년 뒤 UN이 공식 채택했다. 지구 근접 천체의 충돌 위험을 알리고 국제 공조 대응 체계를 점검하는 것이 목적이다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.un.org/en/observances/asteroid-day"
   }
 ]

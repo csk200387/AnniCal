@@ -197,6 +197,22 @@
     "sourceUrl": null
   },
   {
+    "id": "anv-fixed-05-02-world-tuna-day-global",
+    "date": "05-02",
+    "dateType": "annual-fixed",
+    "name": "세계 참치의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "태평양 군소도서국들을 대표해 팔라우가 제안한 안을 2016년 UN 총회 193개 회원국이 표결 없이 만장일치로 채택하며 만들어졌다. 첫 기념일은 2017년 지켜졌다.",
+      "anecdote": "참치는 전 세계 수산물 교역에서 사회경제적 비중이 큰 어종이지만 남획으로 일부 개체군이 줄어들고 있다. 팬퍼시픽 지역 섬나라들에는 참치 어업이 국가 재정의 핵심 수입원이기도 해, 지속가능한 어업 관리를 알리는 데 초점을 둔다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.un.org/en/observances/tuna-day"
+  },
+  {
     "id": "anv-fixed-05-03-teacher-appreciation-day-us",
     "date": "05-03",
     "dateType": "annual-fixed",
@@ -571,6 +587,22 @@
     "sourceUrl": "https://zatsuneta.com/archives/105046.html"
   },
   {
+    "id": "anv-fixed-05-04-international-firefighters-day-global",
+    "date": "05-04",
+    "dateType": "annual-fixed",
+    "name": "국제 소방관의 날",
+    "category": "career",
+    "tags": [
+      "직업 & 감사"
+    ],
+    "storytelling": {
+      "origin": "1998년 12월 호주 빅토리아주 린턴 산불을 진화하던 질롱웨스트 소방대원 5명이 갑작스러운 풍향 변화로 순직한 사고를 계기로, 동료 소방관 J.J. 에드먼슨이 1999년 이 날을 제안했다.",
+      "anecdote": "날짜는 소방관의 수호성인으로 여겨지는 성 플로리아노의 축일(5월 4일)에서 따왔다. 순직 소방관을 기리는 동시에 현직 소방관의 노고를 위로하는 취지로 자리 잡았고, 2001년 9·11 테러로 숨진 뉴욕 소방관들을 기억하는 날로도 함께 쓰인다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/International_Firefighters%27_Day"
+  },
+  {
     "id": "anv-fixed-05-05-cartoonists-day-us",
     "date": "05-05",
     "dateType": "annual-fixed",
@@ -852,6 +884,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-crepe-suzette-day-may-6/"
   },
   {
+    "id": "anv-fixed-05-06-international-no-diet-day-global",
+    "date": "05-06",
+    "dateType": "annual-fixed",
+    "name": "세계 노(No) 다이어트의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "영국의 반다이어트 단체 '다이어트 브레이커스' 설립자 메리 에번스 영이 1992년 런던 하이드파크에서 소규모 피크닉으로 처음 열었다. 어릴 적 체중으로 놀림받고 거식증을 겪었던 자신의 경험이 계기가 됐다.",
+      "anecdote": "첫 해에는 5월 5일 21세부터 76세까지 여성 스무 명 남짓이 '다이어트를 버리자'는 문구가 적힌 스티커를 붙이고 모였다. 이듬해부터 국제적 관심을 받으며 신코 데 마요(멕시코 기념일)와 겹치지 않도록 날짜를 5월 6일로 옮겼다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/International_No_Diet_Day"
+  },
+  {
     "id": "anv-fixed-05-07-train-day-us",
     "date": "05-07",
     "dateType": "annual-fixed",
@@ -1094,6 +1142,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-homebrew-day-may-7/"
   },
   {
+    "id": "anv-nth-05-1-thu-world-password-day-global",
+    "date": "05-1-THU",
+    "dateType": "annual-nth-weekday",
+    "name": "세계 비밀번호의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "보안 연구자 마크 버넷이 2005년 저서에서 비밀번호를 바꾸는 날을 따로 정하자고 제안한 아이디어를, 인텔 시큐리티가 2013년 매년 5월 첫째 목요일로 공식화했다.",
+      "anecdote": "같은 비밀번호를 여러 사이트에 재사용하는 습관이 유출 사고의 주범으로 꼽히면서 만들어졌다. 최근에는 비밀번호 자체를 없애는 '패스키' 인증 기술 홍보의 장으로도 쓰인다. 버넷은 저서 «완벽한 비밀번호(Perfect Passwords)»에서 이 아이디어를 처음 제안했다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "gov-21",
     "date": "05-08",
     "dateType": "annual-fixed",
@@ -1153,6 +1217,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-coconut-cream-pie-day-may-8/"
+  },
+  {
+    "id": "anv-fixed-05-08-world-red-cross-day-global",
+    "date": "05-08",
+    "dateType": "annual-fixed",
+    "name": "세계 적십자의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "적십자 창설자 앙리 뒤낭의 생일(1828년 5월 8일)을 기려 1948년 국제적십자사연맹이 지정했다. 뒤낭은 1859년 이탈리아 솔페리노 전투 직후 4만 명에 이르는 부상병이 방치된 참상을 목격하고 현지 주민을 조직해 임시 병원을 세웠다.",
+      "anecdote": "그 경험을 바탕으로 1863년 스위스 제네바에서 국제적십자위원회(ICRC)가 창설됐고, 뒤낭은 1901년 제1회 노벨평화상을 받았다. 지금은 적신월사까지 아우르는 '세계 적십자·적신월의 날'로 이름이 확장됐다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/Henry_Dunant"
   },
   {
     "id": "anv-fixed-05-09-moscato-day-us",
@@ -1650,6 +1730,22 @@
       }
     ],
     "sourceUrl": "https://www.icn.ch/how-we-do-it/campaigns/international-nurses-day"
+  },
+  {
+    "id": "anv-fixed-05-12-korea-automobile-day-kr",
+    "date": "05-12",
+    "dateType": "annual-fixed",
+    "name": "자동차의 날",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "1976년 현대자동차 포니 6대를 에콰도르에 처음 수출한 이래, 1999년 5월 12일 누적 수출 1,000만 대를 돌파한 것을 기려 2004년부터 매년 지키는 한국 기념일이다.",
+      "anecdote": "1,000만 대를 넘기까지 23년이 걸렸지만, 그 뒤 첫 수출 50주년인 최근에는 누적 수출이 7,600만 대를 넘어섰다. 자동차산업 유공자 포상식이 매년 이날 함께 열린다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-05-13-frog-jumping-day-us",
@@ -2231,6 +2327,54 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-walnut-day-may-17/"
   },
   {
+    "id": "anv-fixed-05-17-international-day-against-homophobia-transphobia-biphobia-global",
+    "date": "05-17",
+    "dateType": "annual-fixed",
+    "name": "국제 성소수자 혐오 반대의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "세계보건기구(WHO)가 1990년 5월 17일 국제질병분류(ICD-10)를 개정하며 동성애를 정신질환 목록에서 삭제한 날을 기려, 2004년부터 국제 기념일로 자리 잡았다.",
+      "anecdote": "WHO는 1948년부터 40년 넘게 동성애를 질병으로 분류해 왔다. 이 날은 이후 트랜스젠더·바이섹슈얼 혐오 반대까지 의미를 넓혀 지금의 이름(IDAHOBIT)이 됐다. 지금은 전 세계 130여 개국에서 관련 행사가 열리는 것으로 알려져 있다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-05-17-world-hypertension-day-global",
+    "date": "05-17",
+    "dateType": "annual-fixed",
+    "name": "세계 고혈압의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "각국 고혈압 학회·단체의 연합체인 세계고혈압연맹(WHL)이 2005년 제정했다. 첫해인 2005년은 5월 14일이었으나 이듬해부터 매년 5월 17일로 날짜를 고정했다.",
+      "anecdote": "전 세계 고혈압 환자의 절반 이상이 자신이 고혈압인 줄 모른 채 지낸다는 문제의식에서 시작됐다. 첫해 주제는 단순히 '고혈압에 대한 인식'이었고, 지금도 정기적인 혈압 측정을 독려하는 캠페인이 이 날의 핵심이다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.whleague.org/about-us/world-hypertension-day"
+  },
+  {
+    "id": "anv-fixed-05-17-world-telecommunication-information-society-day-global",
+    "date": "05-17",
+    "dateType": "annual-fixed",
+    "name": "세계 정보사회의 날",
+    "category": "academic",
+    "tags": [
+      "학술 & 기술"
+    ],
+    "storytelling": {
+      "origin": "국제전기통신연합(ITU)이 1865년 5월 17일 파리에서 국제전신협약 서명으로 창설된 것을 기려 1969년부터 세계 전기통신의 날로 지켰고, 2006년 정보사회 의제를 더해 지금 이름이 됐다.",
+      "anecdote": "ITU는 UN 산하 기구 중 가장 오래된 조직으로, 국제연합보다도 역사가 길다. 디지털 격차를 해소하고 인터넷 접근성을 넓히자는 것이 지금 이 날의 핵심 주제다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/International_Telecommunication_Union"
+  },
+  {
     "id": "gov-25",
     "date": "05-18",
     "dateType": "annual-fixed",
@@ -2334,6 +2478,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-visit-your-relatives-day-may-18/"
+  },
+  {
+    "id": "anv-fixed-05-18-international-museum-day-global",
+    "date": "05-18",
+    "dateType": "annual-fixed",
+    "name": "국제 박물관의 날",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "국제박물관협의회(ICOM)가 1977년 모스크바 제12차 총회에서 결의안 5호를 채택하며 제정했다. 날짜는 ICOM이 1946년 창설된 날에서 따왔고, 첫 기념일은 1978년 지켜졌다.",
+      "anecdote": "박물관이 문화 교류와 상호 이해, 협력과 평화를 넓히는 수단이라는 메시지를 담아 만들어졌다. 이 날에는 세계 곳곳의 박물관이 무료 개방이나 야간 특별전을 열며, 해마다 새로운 주제로 참여를 독려한다."
+    },
+    "memes": [],
+    "sourceUrl": "https://icom.museum/en/news/icom-past-back-to-the-origins-of-international-museum-day/"
   },
   {
     "id": "anv-fixed-05-19-devils-food-cake-day-us",
@@ -2626,6 +2786,54 @@
     },
     "memes": [],
     "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-05-20-korea-journalists-day-kr",
+    "date": "05-20",
+    "dateType": "annual-fixed",
+    "name": "기자의 날",
+    "category": "career",
+    "tags": [
+      "직업 & 감사"
+    ],
+    "storytelling": {
+      "origin": "1980년 5월 20일 신군부가 계엄사 보도검열을 철폐하지 않으면 신문·방송·통신 모든 언론이 제작을 거부하기로 한국기자협회가 결의한 날을 기려 2006년 제정된 한국 기념일이다.",
+      "anecdote": "이 제작거부 투쟁은 같은 시기 벌어진 5·18 광주민주화운동 기간 더 크게 번졌고, 그 대가로 많은 언론인이 강제 해직됐다. 언론 자유를 지키려 했던 그날의 저항을 기억하자는 취지로 훗날 이 날이 기념일로 남았다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-05-20-korea-quarantine-day-kr",
+    "date": "05-20",
+    "dateType": "annual-fixed",
+    "name": "검역의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "1886년 5월 20일 조선 정부가 '불허온역진항장정'을 제정해 한국 최초의 근대식 검역 규정을 마련한 것을 기려 2013년 지정된 한국 기념일이다.",
+      "anecdote": "1885년 제중원 원장이었던 미국인 의사 알렌이 해관 부속의사로 임명되며 건의해 만들어졌으며, 전염병 환자가 탄 배의 입항을 금지하는 내용이었다. 이미 검역 제도를 시행하던 일본·중국을 참고해, 인천에 먼저 적용한 뒤 부산·원산으로 넓혔다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-05-20-world-metrology-day-global",
+    "date": "05-20",
+    "dateType": "annual-fixed",
+    "name": "세계 측정의 날",
+    "category": "academic",
+    "tags": [
+      "학술 & 기술"
+    ],
+    "storytelling": {
+      "origin": "1875년 5월 20일 파리에서 17개국이 미터협약에 서명해 도량형의 국제 표준을 세운 것을 기려, 국제도량형위원회(CIPM)가 1999년 이 날을 세계 측정의 날로 제정했다.",
+      "anecdote": "미터협약은 지금도 유지되는 정부간 협약 중 두 번째로 오래된 것으로 꼽힌다. 국제도량형국(BIPM)과 국제법정계량기구(OIML)가 공동으로 매년 행사를 주관한다. BIPM 본부는 프랑스 파리 근교 세브르에 있으며, 매년 새 표어를 내걸고 세계 각지에서 기념 세미나가 열린다."
+    },
+    "memes": [],
+    "sourceUrl": "https://worldmetrologyday.org/faq.html"
   },
   {
     "id": "anv-fixed-05-21-strawberries-and-cream-day-us",
@@ -3411,6 +3619,22 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Hamburger"
   },
   {
+    "id": "anv-fixed-05-28-menstrual-hygiene-day-global",
+    "date": "05-28",
+    "dateType": "annual-fixed",
+    "name": "월경의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "독일 비영리단체 워시유나이티드가 2014년 제정했다. 평균 월경 주기 28일과, 5월이 한 해의 다섯 번째 달이라는 점(월경 기간 약 5일)을 함께 담아 5월 28일로 정했다.",
+      "anecdote": "첫해 참여 단체는 155곳이었지만 이후 전 세계로 퍼져 매년 확대되고 있다. 한국은 대한산부인과의사회가 별도로 10월 20일을 초경의 날로 정해 두고 있다. 2014년 처음 캠페인을 시작했을 때 도달한 인원은 2천만 명 수준이었으나, 2025년에는 9억 명을 넘어섰다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.menstrualhygieneday.org/about"
+  },
+  {
     "id": "anv-fixed-05-29-everest-first-summit",
     "date": "05-29",
     "dateType": "annual-fixed",
@@ -3531,6 +3755,38 @@
     },
     "memes": [],
     "sourceUrl": "https://www.law.go.kr/법령/의료기기법"
+  },
+  {
+    "id": "anv-fixed-05-29-blessed-yun-ji-chung-paul-123-companion-martyrs-kr",
+    "date": "05-29",
+    "dateType": "annual-fixed",
+    "name": "복자 윤지충 바오로와 123위 동료 순교자 기념일",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "1791년 신해박해부터 1866년 병인박해까지 순교한 한국 초기 천주교 신자 124위가 2014년 8월 프란치스코 교황의 방한 중 광화문광장에서 시복됐다. 축일은 5월 29일이다.",
+      "anecdote": "이 중 윤지충은 조상 제사를 거부해 처형된 한국 천주교 첫 순교자로 꼽힌다. 정약용의 형 정약종, 조선에 입국한 첫 외국인 사제 주문모 신부도 함께 시복됐다. 프란치스코 교황이 직접 집전한 이 시복식은 교황이 주재한 단일 시복식 중 가장 많은 인원(124위)이 한꺼번에 복자품에 오른 사례로 꼽힌다."
+    },
+    "memes": [],
+    "sourceUrl": "https://namu.wiki/w/%EC%9C%A4%EC%A7%80%EC%B6%A9%20%EB%B0%94%EC%98%A4%EB%A1%9C%EC%99%80%20123%EC%9C%84%20%EB%8F%99%EB%A3%8C%20%EC%88%9C%EA%B5%90%EC%9E%90"
+  },
+  {
+    "id": "anv-fixed-05-29-international-day-of-un-peacekeepers-global",
+    "date": "05-29",
+    "dateType": "annual-fixed",
+    "name": "국제 유엔 평화유지군의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "1948년 5월 29일 이스라엘·아랍권 정전 감시를 위해 창설된 첫 UN 평화유지 임무 '유엔정전감시기구'(UNTSO)의 활동 개시일을 기려, UN 총회가 결의안 57/129로 이 날을 지정했다.",
+      "anecdote": "1948년 이 임무가 시작된 이래 각지의 평화유지 활동에서 순직한 군인·경찰·민간요원은 3,800명이 넘는다. 한국도 소말리아·동티모르·레바논·남수단 등지에 부대를 파병하며 평화유지 활동에 참여해 왔다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.un.org/en/observances/peacekeepers-day/background"
   },
   {
     "id": "anv-fixed-05-30-hole-in-my-bucket-day-us",

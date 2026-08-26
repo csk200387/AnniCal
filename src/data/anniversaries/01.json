@@ -22,6 +22,22 @@
     "sourceUrl": "https://ko.wikipedia.org/wiki/%EC%83%88%ED%95%B4_%EC%B2%AB%EB%82%A0"
   },
   {
+    "id": "anv-fixed-01-01-world-day-of-peace-catholic",
+    "date": "01-01",
+    "dateType": "annual-fixed",
+    "name": "세계 평화의 날(가톨릭)",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "교황 바오로 6세가 1967년 12월 담화를 발표하고 1968년 1월 1일 첫 세계 평화의 날 미사를 봉헌하며 시작됐다. 그는 매년 새해 첫날에 이 행사를 반복하길 바랐다.",
+      "anecdote": "첫해 바오로 6세는 미사 대신 로마의 소아병원 밤비노 제수를 찾아 이날을 기렸다. 이후 역대 교황이 해마다 새로운 주제로 평화 메시지를 발표하는 전통으로 이어지며, 지금은 가톨릭 국가를 넘어 여러 나라 정부와 종교 지도자들도 함께 언급하는 날이 됐다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.vatican.va/content/paul-vi/en/messages/peace/documents/hf_p-vi_mes_19671208_i-world-day-for-peace.html"
+  },
+  {
     "id": "anv-fixed-01-02-buffet-day-us",
     "date": "01-02",
     "dateType": "annual-fixed",
@@ -836,6 +852,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-peach-melba-day-january-13/"
   },
   {
+    "id": "anv-fixed-01-13-korean-american-day-us",
+    "date": "01-13",
+    "dateType": "annual-fixed",
+    "name": "미주 한인의 날(한국계 미국인의 날)",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "1903년 1월 13일 한인 102명이 증기선 갤릭호를 타고 하와이에 도착한 것이 미국 한인 이민의 시작이다. 이민 100주년인 2003년 부시 대통령이 이날을 처음 기념했다.",
+      "anecdote": "2005년 미국 하원이 결의안 487호를 통과시키며 연방 차원의 공식 기념일이 됐다. 사탕수수 농장 노동자로 건너간 이들이 미국 사회에 뿌리내리기까지의 역사를 기리며, 재미 한인 사회의 정체성과 기여를 되새기는 날로 자리 잡았다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.presidency.ucsb.edu/documents/proclamation-7638-the-centennial-korean-immigration-the-united-states"
+  },
+  {
     "id": "anv-fixed-01-14-diary-day-kr",
     "date": "01-14",
     "dateType": "annual-fixed",
@@ -944,6 +976,38 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-strawberry-ice-cream-day-january-15/"
+  },
+  {
+    "id": "anv-fixed-01-15-north-korea-hangul-day-kp",
+    "date": "01-15",
+    "dateType": "annual-fixed",
+    "name": "조선글날(북한)",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "북한은 세종이 훈민정음을 창제한 날을 기려 1월 15일을 '조선글날'로 정한다. 남한이 반포일(10월 9일)을 기준으로 삼는 것과 대비된다.",
+      "anecdote": "훈민정음은 1443년 음력 12월에 창제됐다고만 전해지고 정확한 날짜 기록은 없다. 북한은 그달 중간인 음력 12월 15일을 임의로 창제일로 잡고, 이를 양력으로 환산해 1월 15일로 굳혔다 — 같은 문자를 두고 남북이 반포일과 창제일이라는 서로 다른 기준으로 기념일을 정한 셈이다."
+    },
+    "memes": [],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/한글날"
+  },
+  {
+    "id": "anv-fixed-01-15-year-end-tax-settlement-simplification-kr",
+    "date": "01-15",
+    "dateType": "annual-fixed",
+    "name": "연말정산 간소화 서비스 개시일",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "국세청이 홈택스를 통해 보험료·의료비·교육비 등 소득·세액 공제 증명 자료를 한 번에 내려받게 해 주는 서비스로, 2015년부터 매년 1월 15일에 문을 연다.",
+      "anecdote": "직장인들이 1월이면 가장 많이 검색하는 정보 중 하나다. 국세청은 매년 이날 오전 8시 서비스를 열며, 중도 입·퇴사자는 근무 기간에 맞는 자료만 골라야 하고 잘못 공제하면 가산세를 물 수 있어 해마다 주의보가 뜬다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.nts.go.kr/nts/na/ntt/selectNttInfo.do?mi=2201&bbsId=1028&nttSn=1347979"
   },
   {
     "id": "anv-fixed-01-16-hot-spicy-food-day-global",
@@ -1468,6 +1532,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-compliment-day-january-24/"
   },
   {
+    "id": "anv-fixed-01-24-international-day-of-education-global",
+    "date": "01-24",
+    "dateType": "annual-fixed",
+    "name": "국제 교육의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "2018년 12월 3일 UN 총회가 나이지리아 등 59개국이 공동 발의한 결의 73/25를 채택해 매년 1월 24일을 국제 교육의 날로 정했다.",
+      "anecdote": "평화와 지속가능발전에서 교육이 갖는 역할을 기리자는 취지로, UNESCO가 매년 행사를 주관한다. 2019년 1월 24일 스위스 제네바에서 첫 공식 기념행사가 열렸고, 다른 지속가능발전목표(SDGs) 대부분이 교육을 토대로 삼는다는 점이 결의문의 근거로 명시됐다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.unesco.org/en/articles/un-general-assembly-proclaims-24-january-international-day-education"
+  },
+  {
     "id": "anv-fixed-01-25-opposite-day-global",
     "date": "01-25",
     "dateType": "annual-fixed",
@@ -1600,6 +1680,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-peanut-brittle-day-january-26/"
   },
   {
+    "id": "anv-fixed-01-26-cultural-property-fire-prevention-day-jp",
+    "date": "01-26",
+    "dateType": "annual-fixed",
+    "name": "문화재 방화(防火)의 날(일본)",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "1949년 1월 26일 나라현 호류지 금당벽화가 화재로 소실됐다. 화가들이 벽화를 모사하던 중 전기방석에서 누전이 일어난 게 원인이었다.",
+      "anecdote": "1955년부터 매년 이날 전국 문화재 시설에서 대대적인 소방훈련을 한다. 손상된 벽화 12점은 지금도 호류지 수장고에 보관돼 있고, 현재 전시된 것은 1968년 일본 거장 14명이 다시 그려 봉납한 그림이다. 한국도 2008년 숭례문 방화 사건을 계기로 2월 10일을 '문화재 방재의 날'로 따로 정해 두고 있다."
+    },
+    "memes": [],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/호류지"
+  },
+  {
     "id": "anv-fixed-01-27-chocolate-cake-day-global",
     "date": "01-27",
     "dateType": "annual-fixed",
@@ -1620,6 +1716,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-chocolate-cake-day-january-27/"
+  },
+  {
+    "id": "anv-fixed-01-27-international-holocaust-remembrance-day-global",
+    "date": "01-27",
+    "dateType": "annual-fixed",
+    "name": "국제 홀로코스트 희생자 추모의 날",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "1945년 1월 27일 소련군이 폴란드 아우슈비츠 수용소를 해방한 날이다. UN 총회가 2005년 11월 결의를 채택해 매년 이날을 국제기념일로 정했다.",
+      "anecdote": "홀로코스트로 유대인 약 600만 명이 희생됐다. 이 날은 특정 종교·민족을 넘어 집단학살 부정과 혐오에 맞서자는 취지로, 세계 각국 정부와 UN이 함께 추모 행사를 열고 학교에서도 관련 교육을 진행한다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.un.org/en/observances/holocaust-remembrance-day"
   },
   {
     "id": "anv-fixed-01-28-blueberry-pancake-day-global",
@@ -1686,6 +1798,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-kazoo-day-january-28/"
+  },
+  {
+    "id": "anv-fixed-01-28-data-privacy-day-kr",
+    "date": "01-28",
+    "dateType": "annual-fixed",
+    "name": "데이터 프라이버시데이",
+    "category": "academic",
+    "tags": [
+      "학술 & 기술"
+    ],
+    "storytelling": {
+      "origin": "1981년 1월 28일 유럽평의회가 개인정보보호협약(Convention 108)에 서명한 날에서 유래했다. 유럽평의회가 2007년 이날을 데이터 보호의 날로 처음 제정했다.",
+      "anecdote": "이후 미국 등 유럽 밖 국가에서는 'Data Privacy Day'라는 이름으로 퍼졌다. 개인정보 유출 사고가 잦아지고 인공지능이 개인 데이터를 대량으로 학습하는 시대가 되면서, 국내에서도 매년 이맘때 관련 캠페인과 보도가 늘고 있다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-01-29-corn-chip-day-us",

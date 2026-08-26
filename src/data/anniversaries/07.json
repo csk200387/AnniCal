@@ -121,6 +121,38 @@
     "sourceUrl": null
   },
   {
+    "id": "anv-fixed-07-02-world-ufo-day-global",
+    "date": "07-02",
+    "dateType": "annual-fixed",
+    "name": "세계 UFO의 날",
+    "category": "academic",
+    "tags": [
+      "학술 & 기술"
+    ],
+    "storytelling": {
+      "origin": "1947년 7월 미국 로즈웰에서 비행접시가 추락했다는 소문이 퍼진 로즈웰 사건에서 날짜를 따왔다. 2001년 UFO 연구자 학탄 악도안이 이끄는 단체가 이날을 제정했다.",
+      "anecdote": "같은 소재로 6월 24일을 기념하는 쪽도 있는데, 조종사 케네스 아널드가 처음 '비행접시'를 목격했다고 보도된 날이다. 미 공군은 당시 잔해가 기상관측 기구였다고 발표했지만, 두 날짜가 갈려 있던 것을 하나로 모으자는 취지에서 7월 2일이 대표 날짜로 자리 잡았다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/World_UFO_Day"
+  },
+  {
+    "id": "anv-fixed-07-03-international-plastic-bag-free-day-global",
+    "date": "07-03",
+    "dateType": "annual-fixed",
+    "name": "세계 일회용 비닐봉투 없는 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "2008년 스페인 환경단체 바이아 오브 플라스틱스(가이아)가 제안해 시작된 국제 캠페인이다. 매년 7월 3일 비닐봉투 없이 장을 보자고 독려한다.",
+      "anecdote": "비닐봉투 하나가 자연에서 완전히 분해되는 데 수백 년이 걸린다는 점, 그리고 바다로 흘러든 비닐이 해양 생물에게 치명적이라는 점을 알리는 게 목적이다. 국내에서도 대형마트 비닐봉투 유상 판매 제도와 맞물려 소개되곤 한다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "gov-96",
     "date": "07-1-SAT",
     "dateType": "annual-nth-weekday",
@@ -424,6 +456,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-fried-chicken-day-july-6/"
   },
   {
+    "id": "anv-fixed-07-06-international-kissing-day-global",
+    "date": "07-06",
+    "dateType": "annual-fixed",
+    "name": "국제 키스의 날",
+    "category": "romance",
+    "tags": [
+      "연애 & 기념일"
+    ],
+    "storytelling": {
+      "origin": "1990년대 영국에서 시작된 'National Kissing Day'가 뿌리로 꼽히지만, 정확한 창시자와 제정 연도는 자료마다 엇갈린다. 이후 세계 여러 나라로 퍼지며 7월 6일로 굳어졌다.",
+      "anecdote": "형식적인 인사로서의 입맞춤이 아니라, 키스 그 자체가 주는 즐거움을 새삼 되새기자는 취지로 소개된다. 연인뿐 아니라 가족·친구 사이의 애정 표현으로 의미를 넓혀 다루는 경우도 많다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-07-07-strawberry-sundae-day-us",
     "date": "07-07",
     "dateType": "annual-fixed",
@@ -597,6 +645,22 @@
     },
     "memes": [],
     "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-07-07-world-chocolate-day-global",
+    "date": "07-07",
+    "dateType": "annual-fixed",
+    "name": "세계 초콜릿의 날",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "스페인 정복자 에르난 코르테스가 아스테카 제국에서 카카오 음료를 접하고 유럽으로 들여온 것이 16세기의 일로, 그 시점을 1550년 7월 7일로 어림잡은 데서 날짜가 나왔다.",
+      "anecdote": "아스테카 황제 몬테수마가 쓴맛 나는 카카오 음료를 마시는 것을 본 코르테스가 그 가치를 알아본 것이 전해지는 이야기다. 이 날짜 자체의 역사적 근거는 약하지만, 2009년부터 초콜릿 업계와 소비자 사이에서 널리 쓰이는 기념일로 자리 잡았다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/World_Chocolate_Day"
   },
   {
     "id": "anv-fixed-07-08-chocolate-with-almonds-day-us",
@@ -1134,6 +1198,38 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-tape-measure-day-july-14/"
   },
   {
+    "id": "anv-fixed-07-14-international-nonbinary-peoples-day-global",
+    "date": "07-14",
+    "dateType": "annual-fixed",
+    "name": "국제 논바이너리의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "2012년 활동가 캇여 반 룬이 처음 제안했다. 날짜는 세계 여성의 날(3월 8일)과 세계 남성의 날(11월 19일)의 정확히 중간 지점으로 골랐다.",
+      "anecdote": "남성도 여성도 아닌 정체성이 있다는 것, 그리고 그 정체성이 두 성별 사이 스펙트럼 위에 있다는 상징을 날짜 자체에 담았다. 3월 31일 국제 트랜스젠더 가시화의 날과 함께 성소수자 인권 달력에서 자주 같이 언급된다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/International_Non-Binary_People%27s_Day"
+  },
+  {
+    "id": "anv-fixed-07-14-silver-day-kr",
+    "date": "07-14",
+    "dateType": "annual-fixed",
+    "name": "실버 데이",
+    "category": "romance",
+    "tags": [
+      "연애 & 기념일"
+    ],
+    "storytelling": {
+      "origin": "한국의 매월 14일 데이 문화 중 하나로, 5월 14일 로즈데이에 사랑을 고백해 사귀기 시작한 커플이 6월 14일 키스데이를 거쳐 만난 지 100일 무렵 은반지를 주고받는다는 통념에서 자리 잡았다.",
+      "anecdote": "금반지보다 부담이 적은 은반지를 고른 것은 사귄 지 얼마 안 된 사이라는 설정 때문이라고 설명된다. 공식 제정 주체는 없고 화장품·주얼리 업계의 마케팅과 언론 보도를 통해 매년 관습으로 굳어진 경우다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-07-15-i-love-horses-day-us",
     "date": "07-15",
     "dateType": "annual-fixed",
@@ -1376,6 +1472,22 @@
     "sourceUrl": "https://ko.wikipedia.org/wiki/제헌절"
   },
   {
+    "id": "anv-fixed-07-17-world-emoji-day-global",
+    "date": "07-17",
+    "dateType": "annual-fixed",
+    "name": "세계 이모지의 날",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "이모지 백과사전 사이트 이모지피디아의 창립자 제러미 버지가 2014년 제정했다. 애플 캘린더 이모지 아이콘에 표시되는 날짜가 7월 17일이라는 데서 착안했다.",
+      "anecdote": "이 날짜는 원래 애플이 2002년 iCal 캘린더 프로그램을 처음 선보인 날을 가리킨 것이었는데, 애플이 캘린더 이모지 안에 이스터에그처럼 새겨 넣은 숫자였다. 지금은 다른 플랫폼들도 대부분 캘린더 이모지에 7월 17일을 표시하도록 맞춰 놓았다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/World_Emoji_Day"
+  },
+  {
     "id": "anv-fixed-07-18-strawberry-rhubarb-wine-day-us",
     "date": "07-18",
     "dateType": "annual-fixed",
@@ -1569,6 +1681,22 @@
     "sourceUrl": "https://zatsuneta.com/archives/107203.html"
   },
   {
+    "id": "anv-fixed-07-20-international-moon-day-global",
+    "date": "07-20",
+    "dateType": "annual-fixed",
+    "name": "세계 달의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "1969년 7월 20일 아폴로 11호의 닐 암스트롱과 버즈 올드린이 인류 최초로 달에 발을 디딘 날이다. UN 총회가 2021년 이날을 국제기념일로 정했다.",
+      "anecdote": "아폴로 11호는 나흘 전인 7월 16일 케네디 우주센터에서 발사됐다. 달 착륙 자체의 과학적 성취뿐 아니라, 이후 이어지는 달 탐사 국제 협력과 우주 개발의 평화적 이용을 기리는 취지로 기념일이 정해졌다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/International_Moon_Day"
+  },
+  {
     "id": "anv-fixed-07-21-junk-food-day-us",
     "date": "07-21",
     "dateType": "annual-fixed",
@@ -1671,6 +1799,22 @@
     },
     "memes": [],
     "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-07-22-pi-approximation-day-global",
+    "date": "07-22",
+    "dateType": "annual-fixed",
+    "name": "파이 근사값의 날",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "분수 22/7을 소수로 바꾸면 3.142857로, 원주율(π) 3.14159...에 소수점 둘째 자리까지 근접한다. 날짜를 '22/7'로 표기하는 방식에서 착안한 이름이다.",
+      "anecdote": "계산기가 없던 시절 수학자들이 실제로 원주율 근삿값으로 22/7을 즐겨 썼다. 3월 14일 파이의 날이 '3.14'라는 소수 표기에서 나왔다면, 이날은 분수 표기에서 나온 또 하나의 원주율 기념일인 셈이다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/Approximations_of_%CF%80"
   },
   {
     "id": "anv-fixed-07-23-refreshment-day-us",
@@ -2146,6 +2290,22 @@
     "sourceUrl": "https://ko.wikipedia.org/wiki/유두"
   },
   {
+    "id": "anv-fixed-07-28-world-hepatitis-day-global",
+    "date": "07-28",
+    "dateType": "annual-fixed",
+    "name": "세계 간염의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "B형 간염 바이러스를 1967년 발견해 1976년 노벨생리의학상을 받은 바루크 블럼버그의 생일이다. 세계보건기구가 2010년 세계보건총회에서 기존 5월 19일 대신 이 날짜로 바꿨다.",
+      "anecdote": "블럼버그는 간염 백신 개발에도 참여했다. 세계간염연합이 2008년 5월 19일을 첫 기념일로 정했으나, 그의 업적을 기리기 위해 생일로 옮긴 것이다. 바이러스성 간염이 매년 수십만 명의 목숨을 앗아가는데도 인지도가 낮다는 문제의식에서 만들어졌다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.who.int/europe/campaigns/world-hepatitis-day"
+  },
+  {
     "id": "anv-fixed-07-29-lasagna-day-us",
     "date": "07-29",
     "dateType": "annual-fixed",
@@ -2188,6 +2348,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-chicken-wing-day-july-29/"
+  },
+  {
+    "id": "anv-fixed-07-29-global-tiger-day-global",
+    "date": "07-29",
+    "dateType": "annual-fixed",
+    "name": "국제 호랑이의 날",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "2010년 7월 러시아 상트페테르부르크에서 열린 '호랑이 정상회의'에서 제정됐다. 당시 야생 호랑이 개체 수가 3,200마리까지 줄어든 것이 회의 소집의 배경이었다.",
+      "anecdote": "13개 호랑이 서식국이 모여 2022년까지 야생 호랑이 수를 두 배로 늘리자는 'TX2' 목표를 채택했다. 이 회의는 러시아의 블라디미르 푸틴이 주도한 것으로 알려져 있으며, 호랑이는 한국에서도 민화·설화에 자주 등장하는 상징적 동물이다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/International_Tiger_Day"
   },
   {
     "id": "anv-fixed-07-30-father-in-law-day-us",
@@ -2276,6 +2452,22 @@
       }
     ],
     "sourceUrl": "https://zatsuneta.com/archives/107302.html"
+  },
+  {
+    "id": "anv-fixed-07-30-international-day-of-friendship-global",
+    "date": "07-30",
+    "dateType": "annual-fixed",
+    "name": "국제 우정의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "1958년 파라과이에서 시작된 '우정을 위한 세계 십자군' 운동이 뿌리다. UN 총회가 2011년 4월 결의 65/275를 채택해 국제기념일로 승인했다.",
+      "anecdote": "국가·문화·개인 사이의 우정이 평화를 다지고 공동체를 잇는 힘이 될 수 있다는 취지로, 특히 청년들이 다른 문화를 이해하는 활동에 참여하도록 독려한다. 1997년 UN이 채택한 '평화의 문화 선언'의 정신을 잇는다는 점도 결의문에 명시돼 있다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.un.org/en/observances/friendship-day"
   },
   {
     "id": "anv-fixed-07-31-raspberry-cake-day-us",

@@ -535,6 +535,22 @@
     "sourceUrl": "https://www.law.go.kr/법령/자원봉사활동기본법"
   },
   {
+    "id": "anv-fixed-12-05-world-soil-day-global",
+    "date": "12-05",
+    "dateType": "annual-fixed",
+    "name": "세계 토양의 날",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "태국 국왕 푸미폰 아둔야뎃의 생일(12월 5일)에 맞춰 국제토양학회가 제안했고, UN 총회가 2013년 공식 제정했다.",
+      "anecdote": "식량 생산의 95%가 토양에서 나오는데도 관심이 적다는 문제의식에서 시작됐으며, 토양 침식과 오염 문제를 알리는 캠페인이 매년 열린다. 푸미폰 국왕은 생전 토양 개량 연구에 관심이 깊어 이 날짜가 정해졌다. 매년 다른 주제로 토양 건강과 식량안보의 연관성을 조명한다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-12-06-gazpacho-day-us",
     "date": "12-06",
     "dateType": "annual-fixed",
@@ -1337,6 +1353,22 @@
     },
     "memes": [],
     "sourceUrl": "https://www.law.go.kr/법령/기부금품의모집사용및기부문화활성화에관한법률"
+  },
+  {
+    "id": "anv-fixed-12-14-money-day-kr",
+    "date": "12-14",
+    "dateType": "annual-fixed",
+    "name": "머니데이",
+    "category": "romance",
+    "tags": [
+      "연애 & 기념일"
+    ],
+    "storytelling": {
+      "origin": "매달 14일 데이 문화 중 하나로, 연말 큰 씀씀이를 앞두고 연인끼리 돈 관리나 선물에 대해 이야기 나누자는 취지로 알려져 있다.",
+      "anecdote": "같은 날을 '허그데이'라 부르기도 해 어느 쪽으로 챙길지는 커플마다 다르다. 다른 14일 데이들처럼 정확한 창시자나 제정 연도는 확인되지 않으며, 크리스마스를 앞둔 시기라 선물 예산을 미리 정하는 날로 소개되기도 한다. 연말 소비가 몰리는 시기라 카드사 할인 행사와 겹쳐 홍보되기도 한다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-12-15-cat-herders-day-global",
@@ -2569,5 +2601,21 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-leap-second-day-december-31/"
+  },
+  {
+    "id": "anv-fixed-12-31-bosingak-bell-ringing-kr",
+    "date": "12-31",
+    "dateType": "annual-fixed",
+    "name": "제야의 종 타종",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "1929년 경성방송국이 정초 특집으로 종소리를 생중계한 것이 시초이며, 광복 후인 1953년부터 서울 보신각에서 정식으로 33번 타종하는 행사가 이어지고 있다.",
+      "anecdote": "33번을 치는 것은 불교의 33천(하늘)에 세상 모든 중생의 평안을 전한다는 의미를 딴 것이다. 조선시대 보신각종은 원래 통행금지를 알리던 종이었고, 타종은 매년 서울시장이나 그해를 빛낸 시민 대표가 함께 맡는다."
+    },
+    "memes": [],
+    "sourceUrl": null
   }
 ]

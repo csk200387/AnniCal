@@ -83,6 +83,38 @@
     "sourceUrl": "https://zatsuneta.com/archives/110016.html"
   },
   {
+    "id": "anv-fixed-10-01-world-vegetarian-day-global",
+    "date": "10-01",
+    "dateType": "annual-fixed",
+    "name": "세계 채식인의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "1977년 북미채식인협회(NAVS)가 제정했고, 이듬해 국제채식연맹이 공식 승인했다.",
+      "anecdote": "채식의 윤리적·환경적·건강상 가치를 알리자는 취지로, 11월 1일 세계 비건의 날로 끝나는 '채식 인식의 달'의 시작을 알리는 날이기도 하다. 이후 국제채식연맹은 기후변화 대응 차원에서도 채식 확산을 함께 강조해 왔다. 국내에서도 채식 식당과 대체육 제품이 늘면서 이날을 소개하는 언론 보도가 매년 이어진다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/World_Vegetarian_Day"
+  },
+  {
+    "id": "anv-fixed-10-01-international-coffee-day-global",
+    "date": "10-01",
+    "dateType": "annual-fixed",
+    "name": "세계 커피의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "국제커피기구(ICO)가 2014년 회의에서 결정해, 2015년 밀라노 엑스포 기간에 첫 공식 행사를 열었다.",
+      "anecdote": "커피를 즐기자는 취지 외에 공정무역 커피를 알리고 재배 농가의 어려움에 관심을 모으자는 목적도 있다. 이날 많은 카페·브랜드가 무료·할인 커피를 제공한다. 한국은 성인 1인당 연간 커피 소비량이 세계 평균을 웃도는 나라로 꼽혀, 이날 국내에서도 다양한 카페 이벤트가 함께 열린다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/International_Coffee_Day"
+  },
+  {
     "id": "anv-fixed-10-04-animal-protection-day-kr",
     "date": "10-04",
     "dateType": "annual-fixed",
@@ -911,6 +943,54 @@
     "sourceUrl": null
   },
   {
+    "id": "anv-nth-10-2-sat-world-migratory-bird-day-global",
+    "date": "10-2-SAT",
+    "dateType": "annual-nth-weekday",
+    "name": "세계 철새의 날",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "2006년 UN 산하 기구가 제정한 국제기념일로, 철새의 이동 시기가 계절과 지역마다 달라 한 날짜로는 세계 어디에도 딱 맞지 않는다는 점을 고려해 지역별로 날짜를 나눴다.",
+      "anecdote": "미국·캐나다는 5월 둘째 토요일, 멕시코·중미·카리브해는 10월 둘째 토요일에 기념한다. 지금은 비영리단체 '아메리카를 위한 환경'이 행사를 조율한다. 새를 위협하는 유리창 충돌, 빛 공해, 서식지 감소 문제를 함께 알리는 게 이날의 취지다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/World_Migratory_Bird_Day"
+  },
+  {
+    "id": "anv-fixed-10-10-world-day-against-death-penalty-global",
+    "date": "10-10",
+    "dateType": "annual-fixed",
+    "name": "세계 사형폐지의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "2003년 세계사형제도폐지연합이 처음 열었다. 사형 폐지를 옹호하고 사형수의 처우에 대한 인식을 높이자는 취지다.",
+      "anecdote": "국제사면위원회·유럽연합·UN 등이 뒤이어 지지를 표명하며 매년 규모가 커졌다. 한국은 1997년 이후 사형을 집행하지 않아 국제앰네스티가 분류하는 '실질적 사형폐지국'이다. 국제앰네스티에 따르면 지금은 전 세계 3분의 2가 넘는 나라가 법적으로나 실질적으로 사형을 폐지한 상태다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/World_Day_Against_the_Death_Penalty"
+  },
+  {
+    "id": "anv-fixed-10-10-software-education-day-kr",
+    "date": "10-10",
+    "dateType": "annual-fixed",
+    "name": "소프트웨어 교육의 날",
+    "category": "academic",
+    "tags": [
+      "학술 & 기술"
+    ],
+    "storytelling": {
+      "origin": "과학기술정보통신부와 교육부가 소프트웨어 교육 문화를 넓히자는 취지로 지정한 한국 기념일이다. 이진수의 두 숫자 0과 1로만 이루어진 10월 10일을 골라 소프트웨어의 기본 원리를 상징하게 했다.",
+      "anecdote": "지정된 하루보다는 그 앞뒤로 이어지는 '소프트웨어 교육 체험주간'에 전국 학교와 기관에서 코딩 체험 행사가 열리는 방식으로 자리 잡았다. 2015 개정 교육과정부터 초·중학교에 소프트웨어 교육이 의무화된 흐름과도 맞닿아 있다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-10-11-clergy-appreciation-day-global",
     "date": "10-11",
     "dateType": "annual-fixed",
@@ -975,6 +1055,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-sausage-pizza-day-october-11/"
+  },
+  {
+    "id": "anv-fixed-10-11-international-day-of-the-girl-child-global",
+    "date": "10-11",
+    "dateType": "annual-fixed",
+    "name": "국제 여아의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "2011년 UN 총회가 결의해 이듬해 10월 11일을 첫 국제 여아의 날로 지정했다. 캐나다 정부가 제안을 주도했다.",
+      "anecdote": "국제개발기구 플랜인터내셔널의 '나는 소녀입니다' 캠페인이 계기가 됐다. 전 세계 여아 4명 중 1명이 18세 전에 결혼한다는 문제의식에서, 여아를 개발 정책의 독립된 대상으로 인정하자는 취지를 담았다. 채택 이듬해부터 매년 다른 주제를 정해 여아 인권 캠페인을 이어오고 있다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/International_Day_of_the_Girl_Child"
   },
   {
     "id": "anv-fixed-10-12-gumbo-day-us",
@@ -1153,6 +1249,22 @@
     "sourceUrl": null
   },
   {
+    "id": "anv-fixed-10-13-international-day-for-disaster-risk-reduction-global",
+    "date": "10-13",
+    "dateType": "annual-fixed",
+    "name": "세계 자연재해 감소의 날",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "1989년 UN 총회가 '국제 자연재해 경감 10년' 사업의 하나로 지정했다. 2009년 결의로 명칭과 10월 13일이라는 날짜를 지금 형태로 확정했다.",
+      "anecdote": "재난에 강한 공동체를 만들자는 취지로, 시민과 정부가 예방·대비·완화 활동에 함께 참여하도록 독려한다. 2015년부터는 UN 방재전략사무국이 그해 채택된 '센다이 프레임워크'의 이행 상황을 점검하는 자리로도 활용한다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/International_Day_for_Disaster_Risk_Reduction"
+  },
+  {
     "id": "anv-fixed-10-14-stop-bullying-day-us",
     "date": "10-14",
     "dateType": "annual-fixed",
@@ -1305,6 +1417,38 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-fossil-day-october-14/"
+  },
+  {
+    "id": "anv-fixed-10-14-wine-day-kr",
+    "date": "10-14",
+    "dateType": "annual-fixed",
+    "name": "와인데이",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "매달 14일마다 이름을 붙이는 한국 '데이 문화'의 하나로, 포도 수확철인 가을에 연인과 와인을 나누자는 뜻에서 10월 14일이 와인데이로 자리 잡았다.",
+      "anecdote": "포도주의 신 디오니소스에게 제를 올린 날이 10월 14일이라는 설도 함께 전해지지만 확실한 근거는 없다. 특정 제정 주체 없이 1990년대 이후 유통업계 마케팅을 타고 퍼졌다. 이 시기 백화점·마트에서도 와인 할인 행사를 함께 여는 경우가 많다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-10-14-world-standards-day-global",
+    "date": "10-14",
+    "dateType": "annual-fixed",
+    "name": "세계 표준의 날",
+    "category": "academic",
+    "tags": [
+      "학술 & 기술"
+    ],
+    "storytelling": {
+      "origin": "1970년 처음 기념됐다. 1946년 10월 14일 25개국 대표가 런던에 모여 국제 표준화 기구 설립을 논의한 것을 기린 것으로, 이 모임이 이듬해 국제표준화기구(ISO) 창설로 이어졌다.",
+      "anecdote": "표준을 정하는 기관들의 노고를 기리고 표준화가 세계 경제에 미치는 영향을 알리는 게 취지다. ISO·IEC·ITU 세 국제 표준기구가 공동으로 해마다 주제를 정해 기념한다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/World_Standards_Day"
   },
   {
     "id": "anv-fixed-10-15-get-to-know-your-customers-day-us",
@@ -1542,6 +1686,22 @@
       }
     ],
     "sourceUrl": "https://zatsuneta.com/archives/110153.html"
+  },
+  {
+    "id": "anv-fixed-10-15-global-handwashing-day-global",
+    "date": "10-15",
+    "dateType": "annual-fixed",
+    "name": "세계 손씻기의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "2008년 유니세프·미국 질병통제예방센터·유니레버 등이 참여한 국제 위생 파트너십이 제정했다. 그해가 UN이 선포한 '국제 위생의 해'였다.",
+      "anecdote": "비누로 손을 씻는 습관만으로 호흡기 질환 사망률을 25%, 설사 질환 사망률을 50%까지 줄일 수 있다는 연구가 근거가 됐다. 첫해에만 70개국 1억 2천만 명 넘는 어린이가 참여했다. 지금도 매년 다른 주제를 정해 학교·지역사회 단위의 손씻기 캠페인을 이어가고 있다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/Global_Handwashing_Day"
   },
   {
     "id": "anv-fixed-10-16-feral-cat-day-us",
@@ -1877,6 +2037,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-chocolate-cupcake-day-october-18/"
+  },
+  {
+    "id": "anv-fixed-10-18-mountain-day-kr",
+    "date": "10-18",
+    "dateType": "annual-fixed",
+    "name": "산의 날",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "산림청이 2002년 UN이 정한 '세계 산의 해'를 계기로 제정한 한국 기념일이다. 단풍이 짙어지는 시기이자 '십(十)+팔(八)=나무 목(木)'이 되는 조합에서 10월 18일을 골랐다.",
+      "anecdote": "예로부터 음력 9월 9일 무렵 산에 올라 풍류를 즐기던 '등고' 풍습과 가까운 시기이기도 하다. 법정기념일은 아니지만 매년 산림청 주관으로 기념행사가 열린다. UN이 정한 국제 산의 날(12월 11일)과는 날짜도 취지도 다른, 한국 산림청의 독자 기념일이다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-10-19-clean-virtual-desktop-day-us",
@@ -2611,6 +2787,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-pumpkin-day-october-26/"
   },
   {
+    "id": "anv-fixed-10-26-metrology-day-kr",
+    "date": "10-26",
+    "dateType": "annual-fixed",
+    "name": "계량 측정의 날",
+    "category": "academic",
+    "tags": [
+      "학술 & 기술"
+    ],
+    "storytelling": {
+      "origin": "옛 상공부가 1966년 '계량의 날'로 10월 26일을 지정했으나, 1973년 「각종 기념일 등에 관한 규정」 제정 때 상공의 날로 통합되며 공식 기념일로서는 폐지됐다.",
+      "anecdote": "그런데도 이 날짜는 세종 28년(1446년) 포백척·영조척 같은 도량형 표준을 국가 차원에서 정비한 일을 기리는 취지로 계속 쓰인다. 영조척은 약 31cm로 집이나 담을 지을 때 쓰던 자였다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-10-27-american-beer-day-us",
     "date": "10-27",
     "dateType": "annual-fixed",
@@ -2903,6 +3095,22 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Iglesia_Maradoniana"
   },
   {
+    "id": "anv-fixed-10-30-aviation-day-kr",
+    "date": "10-30",
+    "dateType": "annual-fixed",
+    "name": "항공의 날",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "국토교통부가 1981년 제정한 기념일로, 항공 산업의 발전과 안전 의식을 되새기는 취지다.",
+      "anecdote": "법정기념일은 아니며, 12월 29일 '항공안전의 날'(항공안전법 근거 법정기념일)과는 다른 날이다. 명칭이 비슷해 혼동되곤 한다. 매년 이날 전후로 국내 항공사·공항공사가 안전 캠페인이나 시민 참여 행사를 연다. 한국 민간 항공은 1948년 대한국민항공사가 국내선을 띄우며 첫발을 뗐다."
+    },
+    "memes": [],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/대한민국의_기념일"
+  },
+  {
     "id": "anv-fixed-10-31-girl-scout-founders-day-us",
     "date": "10-31",
     "dateType": "annual-fixed",
@@ -3172,5 +3380,37 @@
     },
     "memes": [],
     "sourceUrl": "https://www.law.go.kr/법령/주식회사등의외부감사에관한법률"
+  },
+  {
+    "id": "anv-fixed-10-31-makgeolli-day-kr",
+    "date": "10-31",
+    "dateType": "annual-fixed",
+    "name": "막걸리의 날",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "농림축산식품부가 국산 농산물 소비 촉진과 막걸리 세계화를 위해 2011년 제정했다. 쌀 수확 시기와 술 빚는 데 걸리는 기간을 고려해 매년 10월 마지막 목요일로 정했다.",
+      "anecdote": "농림축산식품부와 한국농수산식품유통공사(aT)가 운영하는 전통주갤러리·대한민국술박물관이 관련 행사를 주관한다. 행사 기간에는 전국 양조장의 다양한 지역 막걸리를 함께 소개하는 자리도 마련된다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-10-31-reformation-day-global",
+    "date": "10-31",
+    "dateType": "annual-fixed",
+    "name": "종교개혁기념일",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "1517년 10월 31일 마르틴 루터가 면죄부 판매를 비판하는 '95개조 반박문'을 마인츠 대주교에게 보낸 것에서 비롯됐다.",
+      "anecdote": "제자 필리프 멜란히톤은 훗날 루터가 같은 날 비텐베르크 성 교회 문에 반박문을 내걸었다고 기록했지만 당대 증거는 없다. 다만 대학 논쟁을 교회 문에 공고하는 것이 당시 관례였다는 점은 확인된다. 독일 일부 주(작센·튀링겐 등 개신교 전통이 강한 지역)와 슬로베니아에서는 이날을 공휴일로 지킨다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/Reformation_Day"
   }
 ]

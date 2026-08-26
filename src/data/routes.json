@@ -7,6 +7,10 @@
     "slug": "new-year",
     "urlDate": "01-01"
   },
+  "anv-fixed-01-01-world-day-of-peace-catholic": {
+    "slug": "world-day-of-peace-catholic",
+    "urlDate": "01-01"
+  },
   "anv-fixed-01-02-buffet-day-us": {
     "slug": "buffet-day",
     "urlDate": "01-02"
@@ -143,6 +147,10 @@
     "slug": "pharmacist-day",
     "urlDate": "01-12"
   },
+  "anv-fixed-01-13-korean-american-day-us": {
+    "slug": "korean-american-day",
+    "urlDate": "01-13"
+  },
   "anv-fixed-01-13-peach-melba-day-us": {
     "slug": "peach-melba-day",
     "urlDate": "01-13"
@@ -167,8 +175,16 @@
     "slug": "hat-day",
     "urlDate": "01-15"
   },
+  "anv-fixed-01-15-north-korea-hangul-day-kp": {
+    "slug": "north-korea-hangul-day-kp",
+    "urlDate": "01-15"
+  },
   "anv-fixed-01-15-strawberry-ice-cream-day-us": {
     "slug": "strawberry-ice-cream-day",
+    "urlDate": "01-15"
+  },
+  "anv-fixed-01-15-year-end-tax-settlement-simplification-kr": {
+    "slug": "year-end-tax-settlement-simplification",
     "urlDate": "01-15"
   },
   "anv-fixed-01-16-fig-newton-day-us": {
@@ -259,6 +275,10 @@
     "slug": "compliment-day",
     "urlDate": "01-24"
   },
+  "anv-fixed-01-24-international-day-of-education-global": {
+    "slug": "international-day-of-education",
+    "urlDate": "01-24"
+  },
   "anv-fixed-01-24-peanut-butter-day-us": {
     "slug": "peanut-butter-day",
     "urlDate": "01-24"
@@ -274,6 +294,10 @@
   "anv-fixed-01-25-opposite-day-global": {
     "slug": "opposite-day",
     "urlDate": "01-25"
+  },
+  "anv-fixed-01-26-cultural-property-fire-prevention-day-jp": {
+    "slug": "cultural-property-fire-prevention-day",
+    "urlDate": "01-26"
   },
   "anv-fixed-01-26-ellen-degeneres-day-us": {
     "slug": "ellen-degeneres-day",
@@ -291,8 +315,16 @@
     "slug": "chocolate-cake-day",
     "urlDate": "01-27"
   },
+  "anv-fixed-01-27-international-holocaust-remembrance-day-global": {
+    "slug": "international-holocaust-remembrance-day",
+    "urlDate": "01-27"
+  },
   "anv-fixed-01-28-blueberry-pancake-day-global": {
     "slug": "blueberry-pancake-day",
+    "urlDate": "01-28"
+  },
+  "anv-fixed-01-28-data-privacy-day-kr": {
+    "slug": "data-privacy-day",
     "urlDate": "01-28"
   },
   "anv-fixed-01-28-have-fun-at-work-day-us": {
@@ -371,6 +403,10 @@
     "slug": "thank-a-mailman-day",
     "urlDate": "02-04"
   },
+  "anv-fixed-02-04-world-cancer-day-global": {
+    "slug": "world-cancer-day",
+    "urlDate": "02-04"
+  },
   "anv-fixed-02-05-nutella-day-global": {
     "slug": "nutella-day",
     "urlDate": "02-05"
@@ -389,6 +425,10 @@
   },
   "anv-fixed-02-06-frozen-yogurt-day-us": {
     "slug": "frozen-yogurt-day",
+    "urlDate": "02-06"
+  },
+  "anv-fixed-02-06-international-day-of-zero-tolerance-for-fgm-global": {
+    "slug": "international-day-of-zero-tolerance-for-fgm",
     "urlDate": "02-06"
   },
   "anv-fixed-02-06-lame-duck-day-us": {
@@ -447,6 +487,10 @@
     "slug": "umbrella-day",
     "urlDate": "02-10"
   },
+  "anv-fixed-02-10-world-pulses-day-global": {
+    "slug": "world-pulses-day",
+    "urlDate": "02-10"
+  },
   "anv-fixed-02-11-dont-cry-over-spilled-milk-day-us": {
     "slug": "dont-cry-over-spilled-milk-day",
     "urlDate": "02-11"
@@ -467,6 +511,14 @@
     "slug": "white-shirt-day",
     "urlDate": "02-11"
   },
+  "anv-fixed-02-11-women-in-science-day-global": {
+    "slug": "women-in-science-day",
+    "urlDate": "02-11"
+  },
+  "anv-fixed-02-11-world-day-of-the-sick-global": {
+    "slug": "world-day-of-the-sick",
+    "urlDate": "02-11"
+  },
   "anv-fixed-02-12-abraham-lincoln-birthday-us": {
     "slug": "abraham-lincoln-birthday",
     "urlDate": "02-12"
@@ -477,6 +529,10 @@
   },
   "anv-fixed-02-13-tortellini-day-it": {
     "slug": "tortellini-day",
+    "urlDate": "02-13"
+  },
+  "anv-fixed-02-13-world-radio-day-global": {
+    "slug": "world-radio-day",
     "urlDate": "02-13"
   },
   "anv-fixed-02-14-cream-filled-chocolates-day-us": {
@@ -505,6 +561,10 @@
   },
   "anv-fixed-02-15-gumdrop-day-us": {
     "slug": "gumdrop-day",
+    "urlDate": "02-15"
+  },
+  "anv-fixed-02-15-international-childhood-cancer-day-global": {
+    "slug": "international-childhood-cancer-day",
     "urlDate": "02-15"
   },
   "anv-fixed-02-15-singles-awareness-day-global": {
@@ -555,12 +615,20 @@
     "slug": "love-your-pet-day",
     "urlDate": "02-20"
   },
+  "anv-fixed-02-21-international-mother-language-day-global": {
+    "slug": "international-mother-language-day",
+    "urlDate": "02-21"
+  },
   "anv-fixed-02-21-sticky-bun-day-us": {
     "slug": "sticky-bun-day",
     "urlDate": "02-21"
   },
   "anv-fixed-02-22-bald-day-jp": {
     "slug": "bald-day",
+    "urlDate": "02-22"
+  },
+  "anv-fixed-02-22-child-sexual-abuse-eradication-day-kr": {
+    "slug": "child-sexual-abuse-eradication-day",
     "urlDate": "02-22"
   },
   "anv-fixed-02-22-cook-a-sweet-potato-day-global": {
@@ -577,6 +645,10 @@
   },
   "anv-fixed-02-22-rihanna-day-bb": {
     "slug": "rihanna-day-bb",
+    "urlDate": "02-22"
+  },
+  "anv-fixed-02-22-takeshima-day-jp": {
+    "slug": "takeshima-day",
     "urlDate": "02-22"
   },
   "anv-fixed-02-23-banana-bread-day-us": {
@@ -721,6 +793,10 @@
   },
   "anv-fixed-03-03-wife-day-kr": {
     "slug": "wife-day",
+    "urlDate": "03-03"
+  },
+  "anv-fixed-03-03-world-wildlife-day-global": {
+    "slug": "world-wildlife-day",
     "urlDate": "03-03"
   },
   "anv-fixed-03-04-day-of-unplugging-global": {
@@ -903,6 +979,10 @@
     "slug": "childrens-craft-day",
     "urlDate": "03-14"
   },
+  "anv-fixed-03-14-international-day-of-mathematics-global": {
+    "slug": "international-day-of-mathematics",
+    "urlDate": "03-14"
+  },
   "anv-fixed-03-14-learn-about-butterflies-day-global": {
     "slug": "learn-about-butterflies-day",
     "urlDate": "03-14"
@@ -1011,6 +1091,10 @@
     "slug": "quilting-day",
     "urlDate": "03-19"
   },
+  "anv-fixed-03-20-international-day-of-happiness-global": {
+    "slug": "international-day-of-happiness",
+    "urlDate": "03-20"
+  },
   "anv-fixed-03-20-native-hiv-aids-awareness-day-us": {
     "slug": "native-hiv-aids-awareness-day",
     "urlDate": "03-20"
@@ -1025,6 +1109,10 @@
   },
   "anv-fixed-03-20-spring-begins-global": {
     "slug": "spring-begins",
+    "urlDate": "03-20"
+  },
+  "anv-fixed-03-20-world-oral-health-day-global": {
+    "slug": "world-oral-health-day",
     "urlDate": "03-20"
   },
   "anv-fixed-03-20-world-sparrow-day-global": {
@@ -1051,6 +1139,10 @@
     "slug": "french-bread-day",
     "urlDate": "03-21"
   },
+  "anv-fixed-03-21-international-day-of-forests-global": {
+    "slug": "international-day-of-forests",
+    "urlDate": "03-21"
+  },
   "anv-fixed-03-21-single-parents-day-global": {
     "slug": "single-parents-day",
     "urlDate": "03-21"
@@ -1061,6 +1153,10 @@
   },
   "anv-fixed-03-21-world-down-syndrome-day-global": {
     "slug": "world-down-syndrome-day",
+    "urlDate": "03-21"
+  },
+  "anv-fixed-03-21-world-poetry-day-global": {
+    "slug": "world-poetry-day",
     "urlDate": "03-21"
   },
   "anv-fixed-03-21-world-puppetry-day-global": {
@@ -1103,12 +1199,24 @@
     "slug": "chocolate-covered-raisin-day",
     "urlDate": "03-24"
   },
+  "anv-fixed-03-25-annunciation-of-the-lord-kr": {
+    "slug": "annunciation-of-the-lord",
+    "urlDate": "03-25"
+  },
+  "anv-fixed-03-25-international-waffle-day-global": {
+    "slug": "international-waffle-day",
+    "urlDate": "03-25"
+  },
   "anv-fixed-03-25-lobster-newburg-day-global": {
     "slug": "lobster-newburg-day",
     "urlDate": "03-25"
   },
   "anv-fixed-03-25-medal-of-honor-day-us": {
     "slug": "medal-of-honor-day",
+    "urlDate": "03-25"
+  },
+  "anv-fixed-03-25-remembrance-victims-slavery-transatlantic-slave-trade-global": {
+    "slug": "remembrance-victims-slavery-transatlantic-slave-trade",
     "urlDate": "03-25"
   },
   "anv-fixed-03-25-tolkien-reading-day-global": {
@@ -1133,6 +1241,10 @@
   },
   "anv-fixed-03-27-paella-day-es": {
     "slug": "paella-day",
+    "urlDate": "03-27"
+  },
+  "anv-fixed-03-27-world-theatre-day-global": {
+    "slug": "world-theatre-day",
     "urlDate": "03-27"
   },
   "anv-fixed-03-28-black-forest-cake-day-global": {
@@ -1187,6 +1299,10 @@
     "slug": "clams-on-the-half-shell-day",
     "urlDate": "03-31"
   },
+  "anv-fixed-03-31-international-transgender-day-of-visibility-global": {
+    "slug": "international-transgender-day-of-visibility",
+    "urlDate": "03-31"
+  },
   "anv-fixed-03-31-tater-day-global": {
     "slug": "tater-day",
     "urlDate": "03-31"
@@ -1197,6 +1313,10 @@
   },
   "anv-fixed-04-01-april-fools-day-global": {
     "slug": "april-fools-day",
+    "urlDate": "04-01"
+  },
+  "anv-fixed-04-01-fair-trade-day-kr": {
+    "slug": "fair-trade-day",
     "urlDate": "04-01"
   },
   "anv-fixed-04-01-one-cent-day-us": {
@@ -1213,6 +1333,10 @@
   },
   "anv-fixed-04-02-ferret-day-us": {
     "slug": "ferret-day",
+    "urlDate": "04-02"
+  },
+  "anv-fixed-04-02-international-childrens-book-day-global": {
+    "slug": "international-childrens-book-day",
     "urlDate": "04-02"
   },
   "anv-fixed-04-02-love-our-children-day-us": {
@@ -1257,6 +1381,10 @@
   },
   "anv-fixed-04-05-caramel-day-us": {
     "slug": "caramel-day",
+    "urlDate": "04-05"
+  },
+  "anv-fixed-04-05-cheondogyo-founding-day-kr": {
+    "slug": "cheondogyo-founding-day",
     "urlDate": "04-05"
   },
   "anv-fixed-04-05-deep-dish-pizza-day-us": {
@@ -1411,6 +1539,10 @@
     "slug": "teach-children-to-save-day",
     "urlDate": "04-11"
   },
+  "anv-fixed-04-11-world-parkinsons-day-global": {
+    "slug": "world-parkinsons-day",
+    "urlDate": "04-11"
+  },
   "anv-fixed-04-12-big-wind-day-us": {
     "slug": "big-wind-day",
     "urlDate": "04-12"
@@ -1429,6 +1561,10 @@
   },
   "anv-fixed-04-12-world-hamster-day-global": {
     "slug": "world-hamster-day",
+    "urlDate": "04-12"
+  },
+  "anv-fixed-04-12-yuris-night-global": {
+    "slug": "yuris-night",
     "urlDate": "04-12"
   },
   "anv-fixed-04-13-bookmobile-day-us": {
@@ -1507,6 +1643,10 @@
     "slug": "wild-guess-day",
     "urlDate": "04-15"
   },
+  "anv-fixed-04-15-world-art-day-global": {
+    "slug": "world-art-day",
+    "urlDate": "04-15"
+  },
   "anv-fixed-04-16-auctioneers-day-us": {
     "slug": "auctioneers-day",
     "urlDate": "04-16"
@@ -1547,12 +1687,20 @@
     "slug": "haiku-poetry-day",
     "urlDate": "04-17"
   },
+  "anv-fixed-04-17-world-hemophilia-day-global": {
+    "slug": "world-hemophilia-day",
+    "urlDate": "04-17"
+  },
   "anv-fixed-04-18-animal-crackers-day-us": {
     "slug": "animal-crackers-day",
     "urlDate": "04-18"
   },
   "anv-fixed-04-18-columnists-day-us": {
     "slug": "columnists-day",
+    "urlDate": "04-18"
+  },
+  "anv-fixed-04-18-international-day-for-monuments-and-sites-global": {
+    "slug": "international-day-for-monuments-and-sites",
     "urlDate": "04-18"
   },
   "anv-fixed-04-18-lineman-appreciation-day-us": {
@@ -1635,6 +1783,10 @@
     "slug": "picnic-day",
     "urlDate": "04-23"
   },
+  "anv-fixed-04-23-sant-jordi-day-es": {
+    "slug": "sant-jordi-day",
+    "urlDate": "04-23"
+  },
   "anv-fixed-04-23-take-a-chance-day-us": {
     "slug": "take-a-chance-day",
     "urlDate": "04-23"
@@ -1663,6 +1815,10 @@
     "slug": "pigs-in-a-blanket-day",
     "urlDate": "04-24"
   },
+  "anv-fixed-04-24-world-day-for-animals-in-laboratories-global": {
+    "slug": "world-day-for-animals-in-laboratories",
+    "urlDate": "04-24"
+  },
   "anv-fixed-04-25-dna-day-global": {
     "slug": "dna-day",
     "urlDate": "04-25"
@@ -1683,6 +1839,10 @@
     "slug": "telephone-day",
     "urlDate": "04-25"
   },
+  "anv-fixed-04-25-world-penguin-day-global": {
+    "slug": "world-penguin-day",
+    "urlDate": "04-25"
+  },
   "anv-fixed-04-25-zucchini-bread-day-us": {
     "slug": "zucchini-bread-day",
     "urlDate": "04-25"
@@ -1699,8 +1859,16 @@
     "slug": "help-a-horse-day",
     "urlDate": "04-26"
   },
+  "anv-fixed-04-26-international-chernobyl-disaster-remembrance-day-global": {
+    "slug": "international-chernobyl-disaster-remembrance-day",
+    "urlDate": "04-26"
+  },
   "anv-fixed-04-26-kids-and-pets-day-us": {
     "slug": "kids-and-pets-day",
+    "urlDate": "04-26"
+  },
+  "anv-fixed-04-26-lesbian-visibility-day-global": {
+    "slug": "lesbian-visibility-day",
     "urlDate": "04-26"
   },
   "anv-fixed-04-26-pretzel-day-us": {
@@ -1709,6 +1877,10 @@
   },
   "anv-fixed-04-26-richter-scale-day-us": {
     "slug": "richter-scale-day",
+    "urlDate": "04-26"
+  },
+  "anv-fixed-04-26-world-ip-day-global": {
+    "slug": "world-ip-day",
     "urlDate": "04-26"
   },
   "anv-fixed-04-27-administrative-professionals-day-us": {
@@ -1771,6 +1943,10 @@
     "slug": "hairball-awareness-day",
     "urlDate": "04-29"
   },
+  "anv-fixed-04-29-international-dance-day-global": {
+    "slug": "international-dance-day",
+    "urlDate": "04-29"
+  },
   "anv-fixed-04-29-lamb-day-jp": {
     "slug": "lamb-day",
     "urlDate": "04-29"
@@ -1801,6 +1977,10 @@
   },
   "anv-fixed-04-30-honesty-day-us": {
     "slug": "honesty-day",
+    "urlDate": "04-30"
+  },
+  "anv-fixed-04-30-international-jazz-day-global": {
+    "slug": "international-jazz-day",
     "urlDate": "04-30"
   },
   "anv-fixed-04-30-oatmeal-cookie-day-us": {
@@ -1859,6 +2039,10 @@
     "slug": "truffle-day",
     "urlDate": "05-02"
   },
+  "anv-fixed-05-02-world-tuna-day-global": {
+    "slug": "world-tuna-day",
+    "urlDate": "05-02"
+  },
   "anv-fixed-05-03-chocolate-custard-day-us": {
     "slug": "chocolate-custard-day",
     "urlDate": "05-03"
@@ -1907,6 +2091,10 @@
     "slug": "candied-orange-peel-day",
     "urlDate": "05-04"
   },
+  "anv-fixed-05-04-international-firefighters-day-global": {
+    "slug": "international-firefighters-day",
+    "urlDate": "05-04"
+  },
   "anv-fixed-05-04-orange-juice-day-us": {
     "slug": "orange-juice-day",
     "urlDate": "05-04"
@@ -1953,6 +2141,10 @@
   },
   "anv-fixed-05-06-crepe-suzette-day-us": {
     "slug": "crepe-suzette-day",
+    "urlDate": "05-06"
+  },
+  "anv-fixed-05-06-international-no-diet-day-global": {
+    "slug": "international-no-diet-day",
     "urlDate": "05-06"
   },
   "anv-fixed-05-06-military-spouse-appreciation-day-us": {
@@ -2021,6 +2213,10 @@
   },
   "anv-fixed-05-08-have-a-coke-day-us": {
     "slug": "have-a-coke-day",
+    "urlDate": "05-08"
+  },
+  "anv-fixed-05-08-world-red-cross-day-global": {
+    "slug": "world-red-cross-day",
     "urlDate": "05-08"
   },
   "anv-fixed-05-09-butterscotch-brownie-day-us": {
@@ -2093,6 +2289,10 @@
   },
   "anv-fixed-05-12-international-nurses-day-global": {
     "slug": "international-nurses-day",
+    "urlDate": "05-12"
+  },
+  "anv-fixed-05-12-korea-automobile-day-kr": {
+    "slug": "korea-automobile-day",
     "urlDate": "05-12"
   },
   "anv-fixed-05-12-limerick-day-us": {
@@ -2195,6 +2395,10 @@
     "slug": "cherry-cobbler-day",
     "urlDate": "05-17"
   },
+  "anv-fixed-05-17-international-day-against-homophobia-transphobia-biphobia-global": {
+    "slug": "international-day-against-homophobia-transphobia-biphobia",
+    "urlDate": "05-17"
+  },
   "anv-fixed-05-17-pack-rat-day-us": {
     "slug": "pack-rat-day",
     "urlDate": "05-17"
@@ -2203,12 +2407,24 @@
     "slug": "walnut-day",
     "urlDate": "05-17"
   },
+  "anv-fixed-05-17-world-hypertension-day-global": {
+    "slug": "world-hypertension-day",
+    "urlDate": "05-17"
+  },
+  "anv-fixed-05-17-world-telecommunication-information-society-day-global": {
+    "slug": "world-telecommunication-information-society-day",
+    "urlDate": "05-17"
+  },
   "anv-fixed-05-18-cheese-souffle-day-us": {
     "slug": "cheese-souffle-day",
     "urlDate": "05-18"
   },
   "anv-fixed-05-18-hiv-vaccine-awareness-day-global": {
     "slug": "hiv-vaccine-awareness-day",
+    "urlDate": "05-18"
+  },
+  "anv-fixed-05-18-international-museum-day-global": {
+    "slug": "international-museum-day",
     "urlDate": "05-18"
   },
   "anv-fixed-05-18-no-dirty-dishes-day-us": {
@@ -2247,6 +2463,14 @@
     "slug": "international-clinical-trials-day",
     "urlDate": "05-20"
   },
+  "anv-fixed-05-20-korea-journalists-day-kr": {
+    "slug": "korea-journalists-day",
+    "urlDate": "05-20"
+  },
+  "anv-fixed-05-20-korea-quarantine-day-kr": {
+    "slug": "korea-quarantine-day",
+    "urlDate": "05-20"
+  },
   "anv-fixed-05-20-pick-strawberries-day-us": {
     "slug": "pick-strawberries-day",
     "urlDate": "05-20"
@@ -2265,6 +2489,10 @@
   },
   "anv-fixed-05-20-world-meteorology-day-source": {
     "slug": "world-meteorology-day-source",
+    "urlDate": "05-20"
+  },
+  "anv-fixed-05-20-world-metrology-day-global": {
+    "slug": "world-metrology-day",
     "urlDate": "05-20"
   },
   "anv-fixed-05-21-cultural-diversity-day-kr": {
@@ -2391,9 +2619,17 @@
     "slug": "brisket-day",
     "urlDate": "05-28"
   },
+  "anv-fixed-05-28-menstrual-hygiene-day-global": {
+    "slug": "menstrual-hygiene-day",
+    "urlDate": "05-28"
+  },
   "anv-fixed-05-28-world-hamburger-day": {
     "slug": "world-hamburger-day",
     "urlDate": "05-28"
+  },
+  "anv-fixed-05-29-blessed-yun-ji-chung-paul-123-companion-martyrs-kr": {
+    "slug": "blessed-yun-ji-chung-paul-123-companion-martyrs",
+    "urlDate": "05-29"
   },
   "anv-fixed-05-29-coq-au-vin-day-us": {
     "slug": "coq-au-vin-day",
@@ -2401,6 +2637,10 @@
   },
   "anv-fixed-05-29-everest-first-summit": {
     "slug": "everest-first-summit",
+    "urlDate": "05-29"
+  },
+  "anv-fixed-05-29-international-day-of-un-peacekeepers-global": {
+    "slug": "international-day-of-un-peacekeepers",
     "urlDate": "05-29"
   },
   "anv-fixed-05-29-konjac-day-jp": {
@@ -2455,6 +2695,10 @@
     "slug": "chewing-gum-day",
     "urlDate": "06-01"
   },
+  "anv-fixed-06-01-global-day-of-parents-global": {
+    "slug": "global-day-of-parents",
+    "urlDate": "06-01"
+  },
   "anv-fixed-06-01-go-barefoot-day-us": {
     "slug": "go-barefoot-day",
     "urlDate": "06-01"
@@ -2483,6 +2727,10 @@
     "slug": "say-something-nice-day",
     "urlDate": "06-01"
   },
+  "anv-fixed-06-01-won-buddhism-yugildaejae-kr": {
+    "slug": "won-buddhism-yugildaejae",
+    "urlDate": "06-01"
+  },
   "anv-fixed-06-02-bubba-day-us": {
     "slug": "bubba-day",
     "urlDate": "06-02"
@@ -2503,12 +2751,20 @@
     "slug": "chocolate-macaroons-day",
     "urlDate": "06-03"
   },
+  "anv-fixed-06-03-korea-deaf-day-kr": {
+    "slug": "korea-deaf-day",
+    "urlDate": "06-03"
+  },
   "anv-fixed-06-03-repeat-day-us": {
     "slug": "repeat-day",
     "urlDate": "06-03"
   },
   "anv-fixed-06-03-running-day-us": {
     "slug": "running-day",
+    "urlDate": "06-03"
+  },
+  "anv-fixed-06-03-world-bicycle-day-global": {
+    "slug": "world-bicycle-day",
     "urlDate": "06-03"
   },
   "anv-fixed-06-04-cheese-day-us": {
@@ -2579,6 +2835,10 @@
     "slug": "vcr-day",
     "urlDate": "06-07"
   },
+  "anv-fixed-06-07-world-food-safety-day-global": {
+    "slug": "world-food-safety-day",
+    "urlDate": "06-07"
+  },
   "anv-fixed-06-08-best-friends-day-us": {
     "slug": "best-friends-day",
     "urlDate": "06-08"
@@ -2589,6 +2849,10 @@
   },
   "anv-fixed-06-08-upsy-daisy-day-us": {
     "slug": "upsy-daisy-day",
+    "urlDate": "06-08"
+  },
+  "anv-fixed-06-08-world-oceans-day-global": {
+    "slug": "world-oceans-day",
     "urlDate": "06-08"
   },
   "anv-fixed-06-09-donald-duck-day-us": {
@@ -2627,6 +2891,10 @@
     "slug": "german-chocolate-cake-day",
     "urlDate": "06-11"
   },
+  "anv-fixed-06-11-international-day-of-play-global": {
+    "slug": "international-day-of-play",
+    "urlDate": "06-11"
+  },
   "anv-fixed-06-11-making-life-beautiful-day-us": {
     "slug": "making-life-beautiful-day",
     "urlDate": "06-11"
@@ -2654,6 +2922,14 @@
   "anv-fixed-06-12-red-rose-day-us": {
     "slug": "red-rose-day",
     "urlDate": "06-12"
+  },
+  "anv-fixed-06-12-world-day-against-child-labour-global": {
+    "slug": "world-day-against-child-labour",
+    "urlDate": "06-12"
+  },
+  "anv-fixed-06-13-international-albinism-awareness-day-global": {
+    "slug": "international-albinism-awareness-day",
+    "urlDate": "06-13"
   },
   "anv-fixed-06-13-kitchen-klutzes-day-us": {
     "slug": "kitchen-klutzes-day",
@@ -2695,6 +2971,10 @@
     "slug": "world-blood-donor-day",
     "urlDate": "06-14"
   },
+  "anv-fixed-06-15-global-wind-day-global": {
+    "slug": "global-wind-day",
+    "urlDate": "06-15"
+  },
   "anv-fixed-06-15-lobster-day-us": {
     "slug": "lobster-day",
     "urlDate": "06-15"
@@ -2726,6 +3006,18 @@
   "anv-fixed-06-17-root-beer-day-us": {
     "slug": "root-beer-day",
     "urlDate": "06-17"
+  },
+  "anv-fixed-06-17-world-day-to-combat-desertification-global": {
+    "slug": "world-day-to-combat-desertification",
+    "urlDate": "06-17"
+  },
+  "anv-fixed-06-18-autistic-pride-day-global": {
+    "slug": "autistic-pride-day",
+    "urlDate": "06-18"
+  },
+  "anv-fixed-06-18-construction-day-kr": {
+    "slug": "construction-day",
+    "urlDate": "06-18"
   },
   "anv-fixed-06-18-dump-the-pump-day-us": {
     "slug": "dump-the-pump-day",
@@ -2775,6 +3067,10 @@
     "slug": "go-skateboarding-day",
     "urlDate": "06-21"
   },
+  "anv-fixed-06-21-international-day-of-yoga-global": {
+    "slug": "international-day-of-yoga",
+    "urlDate": "06-21"
+  },
   "anv-fixed-06-21-peaches-n-cream-day-us": {
     "slug": "peaches-n-cream-day",
     "urlDate": "06-21"
@@ -2785,6 +3081,10 @@
   },
   "anv-fixed-06-21-world-giraffe-day-global": {
     "slug": "world-giraffe-day",
+    "urlDate": "06-21"
+  },
+  "anv-fixed-06-21-world-music-day-global": {
+    "slug": "world-music-day",
     "urlDate": "06-21"
   },
   "anv-fixed-06-22-chocolate-eclair-day-us": {
@@ -2883,6 +3183,10 @@
     "slug": "waffle-iron-day",
     "urlDate": "06-29"
   },
+  "anv-fixed-06-30-asteroid-day-global": {
+    "slug": "asteroid-day",
+    "urlDate": "06-30"
+  },
   "anv-fixed-06-30-meteor-watch-day-us": {
     "slug": "meteor-watch-day",
     "urlDate": "06-30"
@@ -2915,6 +3219,10 @@
     "slug": "anisette-day",
     "urlDate": "07-02"
   },
+  "anv-fixed-07-02-world-ufo-day-global": {
+    "slug": "world-ufo-day",
+    "urlDate": "07-02"
+  },
   "anv-fixed-07-03-chocolate-wafer-day-us": {
     "slug": "chocolate-wafer-day",
     "urlDate": "07-03"
@@ -2925,6 +3233,10 @@
   },
   "anv-fixed-07-03-fried-clam-day-us": {
     "slug": "fried-clam-day",
+    "urlDate": "07-03"
+  },
+  "anv-fixed-07-03-international-plastic-bag-free-day-global": {
+    "slug": "international-plastic-bag-free-day",
     "urlDate": "07-03"
   },
   "anv-fixed-07-04-barbecued-spareribs-day-us": {
@@ -2963,6 +3275,10 @@
     "slug": "fried-chicken-day",
     "urlDate": "07-06"
   },
+  "anv-fixed-07-06-international-kissing-day-global": {
+    "slug": "international-kissing-day",
+    "urlDate": "07-06"
+  },
   "anv-fixed-07-07-father-daughter-take-a-walk-day-us": {
     "slug": "father-daughter-take-a-walk-day",
     "urlDate": "07-07"
@@ -2989,6 +3305,10 @@
   },
   "anv-fixed-07-07-strawberry-sundae-day-us": {
     "slug": "strawberry-sundae-day",
+    "urlDate": "07-07"
+  },
+  "anv-fixed-07-07-world-chocolate-day-global": {
+    "slug": "world-chocolate-day",
     "urlDate": "07-07"
   },
   "anv-fixed-07-08-chocolate-with-almonds-day-us": {
@@ -3075,8 +3395,16 @@
     "slug": "grand-marnier-day",
     "urlDate": "07-14"
   },
+  "anv-fixed-07-14-international-nonbinary-peoples-day-global": {
+    "slug": "international-nonbinary-peoples-day",
+    "urlDate": "07-14"
+  },
   "anv-fixed-07-14-nude-day-us": {
     "slug": "nude-day",
+    "urlDate": "07-14"
+  },
+  "anv-fixed-07-14-silver-day-kr": {
+    "slug": "silver-day",
     "urlDate": "07-14"
   },
   "anv-fixed-07-14-tape-measure-day-us": {
@@ -3115,6 +3443,10 @@
     "slug": "peach-ice-cream-day",
     "urlDate": "07-17"
   },
+  "anv-fixed-07-17-world-emoji-day-global": {
+    "slug": "world-emoji-day",
+    "urlDate": "07-17"
+  },
   "anv-fixed-07-17-wrong-way-corrigan-day-us": {
     "slug": "wrong-way-corrigan-day",
     "urlDate": "07-17"
@@ -3151,6 +3483,10 @@
     "slug": "hamburger-day",
     "urlDate": "07-20"
   },
+  "anv-fixed-07-20-international-moon-day-global": {
+    "slug": "international-moon-day",
+    "urlDate": "07-20"
+  },
   "anv-fixed-07-20-lollipop-day-us": {
     "slug": "lollipop-day",
     "urlDate": "07-20"
@@ -3169,6 +3505,10 @@
   },
   "anv-fixed-07-22-penuche-fudge-day-us": {
     "slug": "penuche-fudge-day",
+    "urlDate": "07-22"
+  },
+  "anv-fixed-07-22-pi-approximation-day-global": {
+    "slug": "pi-approximation-day",
     "urlDate": "07-22"
   },
   "anv-fixed-07-22-rat-catchers-day-us": {
@@ -3247,8 +3587,16 @@
     "slug": "milk-chocolate-day",
     "urlDate": "07-28"
   },
+  "anv-fixed-07-28-world-hepatitis-day-global": {
+    "slug": "world-hepatitis-day",
+    "urlDate": "07-28"
+  },
   "anv-fixed-07-29-chicken-wing-day-us": {
     "slug": "chicken-wing-day",
+    "urlDate": "07-29"
+  },
+  "anv-fixed-07-29-global-tiger-day-global": {
+    "slug": "global-tiger-day",
     "urlDate": "07-29"
   },
   "anv-fixed-07-29-lasagna-day-us": {
@@ -3265,6 +3613,10 @@
   },
   "anv-fixed-07-30-father-in-law-day-us": {
     "slug": "father-in-law-day",
+    "urlDate": "07-30"
+  },
+  "anv-fixed-07-30-international-day-of-friendship-global": {
+    "slug": "international-day-of-friendship",
     "urlDate": "07-30"
   },
   "anv-fixed-07-30-umeboshi-day-jp": {
@@ -3359,6 +3711,10 @@
     "slug": "night-out-day",
     "urlDate": "08-04"
   },
+  "anv-fixed-08-05-detective-day-kr": {
+    "slug": "detective-day",
+    "urlDate": "08-05"
+  },
   "anv-fixed-08-05-oyster-day-us": {
     "slug": "oyster-day",
     "urlDate": "08-05"
@@ -3415,6 +3771,14 @@
     "slug": "happiness-happens-day",
     "urlDate": "08-08"
   },
+  "anv-fixed-08-08-international-cat-day-global": {
+    "slug": "international-cat-day",
+    "urlDate": "08-08"
+  },
+  "anv-fixed-08-08-mugunghwa-day-kr": {
+    "slug": "mugunghwa-day",
+    "urlDate": "08-08"
+  },
   "anv-fixed-08-08-slime-tower-day-jp": {
     "slug": "slime-tower-day",
     "urlDate": "08-08"
@@ -3429,6 +3793,10 @@
   },
   "anv-fixed-08-09-honda-day-global": {
     "slug": "honda-day",
+    "urlDate": "08-09"
+  },
+  "anv-fixed-08-09-international-day-of-worlds-indigenous-peoples-global": {
+    "slug": "international-day-of-worlds-indigenous-peoples",
     "urlDate": "08-09"
   },
   "anv-fixed-08-09-rice-pudding-day-us": {
@@ -3487,6 +3855,10 @@
     "slug": "middle-child-day",
     "urlDate": "08-12"
   },
+  "anv-fixed-08-12-separated-families-day-private-kr": {
+    "slug": "separated-families-day-private",
+    "urlDate": "08-12"
+  },
   "anv-fixed-08-12-vinyl-record-day-us": {
     "slug": "vinyl-record-day",
     "urlDate": "08-12"
@@ -3502,6 +3874,18 @@
   "anv-fixed-08-14-creamsicle-day-us": {
     "slug": "creamsicle-day",
     "urlDate": "08-14"
+  },
+  "anv-fixed-08-14-green-day-kr": {
+    "slug": "green-day",
+    "urlDate": "08-14"
+  },
+  "anv-fixed-08-14-no-delivery-day-kr": {
+    "slug": "no-delivery-day",
+    "urlDate": "08-14"
+  },
+  "anv-fixed-08-15-assumption-of-mary-global": {
+    "slug": "assumption-of-mary",
+    "urlDate": "08-15"
   },
   "anv-fixed-08-15-lemon-meringue-pie-day-us": {
     "slug": "lemon-meringue-pie-day",
@@ -3547,6 +3931,10 @@
     "slug": "mail-order-catalog-day",
     "urlDate": "08-18"
   },
+  "anv-fixed-08-18-rice-day-kr": {
+    "slug": "rice-day",
+    "urlDate": "08-18"
+  },
   "anv-fixed-08-19-aviation-day-us": {
     "slug": "aviation-day",
     "urlDate": "08-19"
@@ -3561,6 +3949,10 @@
   },
   "anv-fixed-08-19-soft-ice-cream-day-us": {
     "slug": "soft-ice-cream-day",
+    "urlDate": "08-19"
+  },
+  "anv-fixed-08-19-world-humanitarian-day-global": {
+    "slug": "world-humanitarian-day",
     "urlDate": "08-19"
   },
   "anv-fixed-08-20-chocolate-pecan-pie-day-us": {
@@ -3591,6 +3983,14 @@
     "slug": "spumoni-day",
     "urlDate": "08-21"
   },
+  "anv-fixed-08-21-won-buddhism-legal-authentication-day-kr": {
+    "slug": "won-buddhism-legal-authentication-day",
+    "urlDate": "08-21"
+  },
+  "anv-fixed-08-22-energy-day-kr": {
+    "slug": "energy-day",
+    "urlDate": "08-22"
+  },
   "anv-fixed-08-22-pecan-torte-day-us": {
     "slug": "pecan-torte-day",
     "urlDate": "08-22"
@@ -3598,6 +3998,10 @@
   "anv-fixed-08-22-tooth-fairy-day-us": {
     "slug": "tooth-fairy-day",
     "urlDate": "08-22"
+  },
+  "anv-fixed-08-23-baseball-day-kr": {
+    "slug": "baseball-day",
+    "urlDate": "08-23"
   },
   "anv-fixed-08-23-ride-with-the-wind-day-us": {
     "slug": "ride-with-the-wind-day",
@@ -3663,9 +4067,21 @@
     "slug": "chop-suey-day",
     "urlDate": "08-29"
   },
+  "anv-fixed-08-29-international-day-against-nuclear-tests-global": {
+    "slug": "international-day-against-nuclear-tests",
+    "urlDate": "08-29"
+  },
+  "anv-fixed-08-29-national-humiliation-day-kr": {
+    "slug": "national-humiliation-day",
+    "urlDate": "08-29"
+  },
   "anv-fixed-08-29-yakiniku-day-jp": {
     "slug": "yakiniku-day",
     "urlDate": "08-29"
+  },
+  "anv-fixed-08-30-international-day-of-the-victims-of-enforced-disappearances-global": {
+    "slug": "international-day-of-the-victims-of-enforced-disappearances",
+    "urlDate": "08-30"
   },
   "anv-fixed-08-30-toasted-marshmallow-day-us": {
     "slug": "toasted-marshmallow-day",
@@ -3694,6 +4110,10 @@
   "anv-fixed-09-02-sealand-founding-day": {
     "slug": "sealand-founding-day",
     "urlDate": "09-02"
+  },
+  "anv-fixed-09-03-broadcasting-day-kr": {
+    "slug": "broadcasting-day",
+    "urlDate": "09-03"
   },
   "anv-fixed-09-03-welsh-rarebit-day-us": {
     "slug": "welsh-rarebit-day",
@@ -3733,6 +4153,10 @@
   },
   "anv-fixed-09-05-international-bacon-day-global": {
     "slug": "international-bacon-day",
+    "urlDate": "09-05"
+  },
+  "anv-fixed-09-05-international-day-of-charity-global": {
+    "slug": "international-day-of-charity",
     "urlDate": "09-05"
   },
   "anv-fixed-09-06-coffee-ice-cream-day-us": {
@@ -3779,12 +4203,32 @@
     "slug": "ants-on-a-log-day",
     "urlDate": "09-08"
   },
+  "anv-fixed-09-08-international-literacy-day-global": {
+    "slug": "international-literacy-day",
+    "urlDate": "09-08"
+  },
   "anv-fixed-09-08-pediatric-hem-onc-nurses-day-us": {
     "slug": "pediatric-hem-onc-nurses-day",
     "urlDate": "09-08"
   },
+  "anv-fixed-09-09-99-day-kr": {
+    "slug": "99-day",
+    "urlDate": "09-09"
+  },
+  "anv-fixed-09-09-ear-day-kr": {
+    "slug": "ear-day",
+    "urlDate": "09-09"
+  },
   "anv-fixed-09-09-hot-spring-day-jp": {
     "slug": "hot-spring-day",
+    "urlDate": "09-09"
+  },
+  "anv-fixed-09-09-korean-cat-day-kr": {
+    "slug": "korean-cat-day",
+    "urlDate": "09-09"
+  },
+  "anv-fixed-09-09-organ-donation-day-kr": {
+    "slug": "organ-donation-day",
     "urlDate": "09-09"
   },
   "anv-fixed-09-09-teddy-bear-day-us": {
@@ -3871,6 +4315,10 @@
     "slug": "industrial-complex-day",
     "urlDate": "09-14"
   },
+  "anv-fixed-09-14-photo-day-kr": {
+    "slug": "photo-day",
+    "urlDate": "09-14"
+  },
   "anv-fixed-09-15-creme-de-menthe-day-us": {
     "slug": "creme-de-menthe-day",
     "urlDate": "09-15"
@@ -3937,6 +4385,10 @@
   },
   "anv-fixed-09-17-apple-dumpling-day-us": {
     "slug": "apple-dumpling-day",
+    "urlDate": "09-17"
+  },
+  "anv-fixed-09-17-confession-day-kr": {
+    "slug": "confession-day",
     "urlDate": "09-17"
   },
   "anv-fixed-09-17-constitution-citizenship-day-us": {
@@ -4067,6 +4519,10 @@
     "slug": "innergize-day",
     "urlDate": "09-23"
   },
+  "anv-fixed-09-23-international-day-of-sign-languages-global": {
+    "slug": "international-day-of-sign-languages",
+    "urlDate": "09-23"
+  },
   "anv-fixed-09-23-restless-legs-awareness-day-global": {
     "slug": "restless-legs-awareness-day",
     "urlDate": "09-23"
@@ -4119,6 +4575,10 @@
     "slug": "shamu-the-whale-day",
     "urlDate": "09-26"
   },
+  "anv-fixed-09-26-world-contraception-day-global": {
+    "slug": "world-contraception-day",
+    "urlDate": "09-26"
+  },
   "anv-fixed-09-27-chocolate-milk-day-us": {
     "slug": "chocolate-milk-day",
     "urlDate": "09-27"
@@ -4147,6 +4607,10 @@
     "slug": "good-neighbor-day",
     "urlDate": "09-28"
   },
+  "anv-fixed-09-28-international-day-for-universal-access-to-information-global": {
+    "slug": "international-day-for-universal-access-to-information",
+    "urlDate": "09-28"
+  },
   "anv-fixed-09-28-strawberry-cream-pie-day-us": {
     "slug": "strawberry-cream-pie-day",
     "urlDate": "09-28"
@@ -4171,6 +4635,10 @@
     "slug": "hot-mulled-cider-day",
     "urlDate": "09-30"
   },
+  "anv-fixed-09-30-international-translation-day-global": {
+    "slug": "international-translation-day",
+    "urlDate": "09-30"
+  },
   "anv-fixed-09-30-mud-pack-day-us": {
     "slug": "mud-pack-day",
     "urlDate": "09-30"
@@ -4193,6 +4661,14 @@
   },
   "anv-fixed-10-01-homemade-cookies-day-us": {
     "slug": "homemade-cookies-day",
+    "urlDate": "10-01"
+  },
+  "anv-fixed-10-01-international-coffee-day-global": {
+    "slug": "international-coffee-day",
+    "urlDate": "10-01"
+  },
+  "anv-fixed-10-01-world-vegetarian-day-global": {
+    "slug": "world-vegetarian-day",
     "urlDate": "10-01"
   },
   "anv-fixed-10-02-custodial-workers-day-us": {
@@ -4319,8 +4795,16 @@
     "slug": "public-bath-day",
     "urlDate": "10-10"
   },
+  "anv-fixed-10-10-software-education-day-kr": {
+    "slug": "software-education-day",
+    "urlDate": "10-10"
+  },
   "anv-fixed-10-10-women-fishers-day-kr": {
     "slug": "women-fishers-day",
+    "urlDate": "10-10"
+  },
+  "anv-fixed-10-10-world-day-against-death-penalty-global": {
+    "slug": "world-day-against-death-penalty",
     "urlDate": "10-10"
   },
   "anv-fixed-10-10-world-mental-health-day-global": {
@@ -4333,6 +4817,10 @@
   },
   "anv-fixed-10-11-coming-out-day-global": {
     "slug": "coming-out-day",
+    "urlDate": "10-11"
+  },
+  "anv-fixed-10-11-international-day-of-the-girl-child-global": {
+    "slug": "international-day-of-the-girl-child",
     "urlDate": "10-11"
   },
   "anv-fixed-10-11-sausage-pizza-day-us": {
@@ -4354,6 +4842,10 @@
   "anv-fixed-10-12-kick-butt-day-us": {
     "slug": "kick-butt-day",
     "urlDate": "10-12"
+  },
+  "anv-fixed-10-13-international-day-for-disaster-risk-reduction-global": {
+    "slug": "international-day-for-disaster-risk-reduction",
+    "urlDate": "10-13"
   },
   "anv-fixed-10-13-navy-birthday-us": {
     "slug": "navy-birthday",
@@ -4399,6 +4891,14 @@
     "slug": "take-your-parents-to-lunch-day",
     "urlDate": "10-14"
   },
+  "anv-fixed-10-14-wine-day-kr": {
+    "slug": "wine-day",
+    "urlDate": "10-14"
+  },
+  "anv-fixed-10-14-world-standards-day-global": {
+    "slug": "world-standards-day",
+    "urlDate": "10-14"
+  },
   "anv-fixed-10-15-cake-decorating-day-us": {
     "slug": "cake-decorating-day",
     "urlDate": "10-15"
@@ -4409,6 +4909,10 @@
   },
   "anv-fixed-10-15-get-to-know-your-customers-day-us": {
     "slug": "get-to-know-your-customers-day",
+    "urlDate": "10-15"
+  },
+  "anv-fixed-10-15-global-handwashing-day-global": {
+    "slug": "global-handwashing-day",
     "urlDate": "10-15"
   },
   "anv-fixed-10-15-grouch-day-us": {
@@ -4497,6 +5001,10 @@
   },
   "anv-fixed-10-18-chocolate-cupcake-day-us": {
     "slug": "chocolate-cupcake-day",
+    "urlDate": "10-18"
+  },
+  "anv-fixed-10-18-mountain-day-kr": {
+    "slug": "mountain-day",
     "urlDate": "10-18"
   },
   "anv-fixed-10-19-clean-virtual-desktop-day-us": {
@@ -4607,6 +5115,10 @@
     "slug": "day-of-the-deployed",
     "urlDate": "10-26"
   },
+  "anv-fixed-10-26-metrology-day-kr": {
+    "slug": "metrology-day",
+    "urlDate": "10-26"
+  },
   "anv-fixed-10-26-mincemeat-day-us": {
     "slug": "mincemeat-day",
     "urlDate": "10-26"
@@ -4642,6 +5154,10 @@
   "anv-fixed-10-29-oatmeal-day-us": {
     "slug": "oatmeal-day",
     "urlDate": "10-29"
+  },
+  "anv-fixed-10-30-aviation-day-kr": {
+    "slug": "aviation-day",
+    "urlDate": "10-30"
   },
   "anv-fixed-10-30-breadstix-day-us": {
     "slug": "breadstix-day",
@@ -4691,6 +5207,14 @@
     "slug": "magic-day",
     "urlDate": "10-31"
   },
+  "anv-fixed-10-31-makgeolli-day-kr": {
+    "slug": "makgeolli-day",
+    "urlDate": "10-31"
+  },
+  "anv-fixed-10-31-reformation-day-global": {
+    "slug": "reformation-day",
+    "urlDate": "10-31"
+  },
   "anv-fixed-11-01-authors-day-us": {
     "slug": "authors-day",
     "urlDate": "11-01"
@@ -4731,8 +5255,20 @@
     "slug": "vinegar-day",
     "urlDate": "11-01"
   },
+  "anv-fixed-11-01-world-vegan-day-global": {
+    "slug": "world-vegan-day",
+    "urlDate": "11-01"
+  },
+  "anv-fixed-11-02-all-souls-day-kr": {
+    "slug": "all-souls-day",
+    "urlDate": "11-02"
+  },
   "anv-fixed-11-02-deviled-egg-day-us": {
     "slug": "deviled-egg-day",
+    "urlDate": "11-02"
+  },
+  "anv-fixed-11-02-emergency-call-112-day-kr": {
+    "slug": "emergency-call-112-day",
     "urlDate": "11-02"
   },
   "anv-fixed-11-02-hydrogen-day-kr": {
@@ -4819,12 +5355,32 @@
     "slug": "vanilla-cupcake-day",
     "urlDate": "11-10"
   },
+  "anv-fixed-11-10-world-science-day-for-peace-and-development-global": {
+    "slug": "world-science-day-for-peace-and-development",
+    "urlDate": "11-10"
+  },
   "anv-fixed-11-11-choi-dong-won-award-day-kr": {
     "slug": "choi-dong-won-award-day",
     "urlDate": "11-11"
   },
   "anv-fixed-11-11-illionaire-day-kr": {
     "slug": "illionaire-day",
+    "urlDate": "11-11"
+  },
+  "anv-fixed-11-11-korail-rail-day-kr": {
+    "slug": "korail-rail-day",
+    "urlDate": "11-11"
+  },
+  "anv-fixed-11-11-korea-advertising-day-kr": {
+    "slug": "korea-advertising-day",
+    "urlDate": "11-11"
+  },
+  "anv-fixed-11-11-korea-navy-founding-day-kr": {
+    "slug": "korea-navy-founding-day",
+    "urlDate": "11-11"
+  },
+  "anv-fixed-11-11-korea-physical-disability-day-kr": {
+    "slug": "korea-physical-disability-day",
     "urlDate": "11-11"
   },
   "anv-fixed-11-11-pepero-day-kr": {
@@ -4855,12 +5411,40 @@
     "slug": "indian-pudding-day",
     "urlDate": "11-13"
   },
+  "anv-fixed-11-13-world-kindness-day-global": {
+    "slug": "world-kindness-day",
+    "urlDate": "11-13"
+  },
+  "anv-fixed-11-14-babys-breath-day-kr": {
+    "slug": "babys-breath-day",
+    "urlDate": "11-14"
+  },
+  "anv-fixed-11-14-cookie-day-kr": {
+    "slug": "cookie-day",
+    "urlDate": "11-14"
+  },
+  "anv-fixed-11-14-letter-day-kr": {
+    "slug": "letter-day",
+    "urlDate": "11-14"
+  },
+  "anv-fixed-11-14-movie-day-kr": {
+    "slug": "movie-day",
+    "urlDate": "11-14"
+  },
+  "anv-fixed-11-14-orange-day-kr": {
+    "slug": "orange-day",
+    "urlDate": "11-14"
+  },
   "anv-fixed-11-14-pickle-day-us": {
     "slug": "pickle-day",
     "urlDate": "11-14"
   },
   "anv-fixed-11-14-spicy-guacamole-day-us": {
     "slug": "spicy-guacamole-day",
+    "urlDate": "11-14"
+  },
+  "anv-fixed-11-14-world-diabetes-day-global": {
+    "slug": "world-diabetes-day",
     "urlDate": "11-14"
   },
   "anv-fixed-11-15-bundt-pan-day-us": {
@@ -4899,8 +5483,16 @@
     "slug": "fast-food-day",
     "urlDate": "11-16"
   },
+  "anv-fixed-11-16-international-day-for-tolerance-global": {
+    "slug": "international-day-for-tolerance",
+    "urlDate": "11-16"
+  },
   "anv-fixed-11-17-baklava-day-us": {
     "slug": "baklava-day",
+    "urlDate": "11-17"
+  },
+  "anv-fixed-11-17-international-students-day-global": {
+    "slug": "international-students-day",
     "urlDate": "11-17"
   },
   "anv-fixed-11-17-lotus-root-day-jp": {
@@ -4931,6 +5523,10 @@
     "slug": "great-american-smokeout",
     "urlDate": "11-19"
   },
+  "anv-fixed-11-19-international-mens-day-global": {
+    "slug": "international-mens-day",
+    "urlDate": "11-19"
+  },
   "anv-fixed-11-19-play-monopoly-day-us": {
     "slug": "play-monopoly-day",
     "urlDate": "11-19"
@@ -4951,6 +5547,10 @@
     "slug": "peanut-butter-fudge-day",
     "urlDate": "11-20"
   },
+  "anv-fixed-11-20-transgender-day-of-remembrance-global": {
+    "slug": "transgender-day-of-remembrance",
+    "urlDate": "11-20"
+  },
   "anv-fixed-11-20-world-childrens-day-global": {
     "slug": "world-childrens-day",
     "urlDate": "11-20"
@@ -4965,6 +5565,10 @@
   },
   "anv-fixed-11-21-stuffing-day-us": {
     "slug": "stuffing-day",
+    "urlDate": "11-21"
+  },
+  "anv-fixed-11-21-world-television-day-global": {
+    "slug": "world-television-day",
     "urlDate": "11-21"
   },
   "anv-fixed-11-22-cranberry-relish-day-us": {
@@ -4983,9 +5587,17 @@
     "slug": "espresso-day",
     "urlDate": "11-23"
   },
+  "anv-fixed-11-23-fibonacci-day-global": {
+    "slug": "fibonacci-day",
+    "urlDate": "11-23"
+  },
   "anv-fixed-11-23-persimmon-day-jp": {
     "slug": "persimmon-day",
     "urlDate": "11-23"
+  },
+  "anv-fixed-11-24-evolution-day-global": {
+    "slug": "evolution-day",
+    "urlDate": "11-24"
   },
   "anv-fixed-11-24-sardines-day-us": {
     "slug": "sardines-day",
@@ -5143,6 +5755,10 @@
     "slug": "volunteer-day",
     "urlDate": "12-05"
   },
+  "anv-fixed-12-05-world-soil-day-global": {
+    "slug": "world-soil-day",
+    "urlDate": "12-05"
+  },
   "anv-fixed-12-06-gazpacho-day-us": {
     "slug": "gazpacho-day",
     "urlDate": "12-06"
@@ -5273,6 +5889,10 @@
   },
   "anv-fixed-12-14-hug-day-kr": {
     "slug": "hug-day",
+    "urlDate": "12-14"
+  },
+  "anv-fixed-12-14-money-day-kr": {
+    "slug": "money-day",
     "urlDate": "12-14"
   },
   "anv-fixed-12-14-monkey-day-global": {
@@ -5479,6 +6099,10 @@
     "slug": "falling-needles-family-fest-day",
     "urlDate": "12-30"
   },
+  "anv-fixed-12-31-bosingak-bell-ringing-kr": {
+    "slug": "bosingak-bell-ringing",
+    "urlDate": "12-31"
+  },
   "anv-fixed-12-31-champagne-day-us": {
     "slug": "champagne-day",
     "urlDate": "12-31"
@@ -5502,6 +6126,14 @@
   "anv-fixed-12-31-universal-hour-of-peace-global": {
     "slug": "universal-hour-of-peace",
     "urlDate": "12-31"
+  },
+  "anv-floating-2026-03-13-world-sleep-day-global": {
+    "slug": "world-sleep-day",
+    "urlDate": "03-13"
+  },
+  "anv-floating-2026-03-29-world-piano-day-global": {
+    "slug": "world-piano-day",
+    "urlDate": "03-29"
   },
   "anv-lunar-baekjung-kr": {
     "slug": "baekjung",
@@ -5543,6 +6175,10 @@
     "slug": "wear-red-day",
     "urlDate": "02-06"
   },
+  "anv-nth-04-l-sat-world-veterinary-day-global": {
+    "slug": "world-veterinary-day",
+    "urlDate": "04-25"
+  },
   "anv-nth-05-1-mon-melanoma-monday-us": {
     "slug": "melanoma-monday",
     "urlDate": "05-04"
@@ -5553,6 +6189,10 @@
   },
   "anv-nth-05-1-thu-day-of-reason-us": {
     "slug": "day-of-reason",
+    "urlDate": "05-07"
+  },
+  "anv-nth-05-1-thu-world-password-day-global": {
+    "slug": "world-password-day",
     "urlDate": "05-07"
   },
   "anv-nth-05-2-sun-us-mothers-day": {
@@ -5623,6 +6263,10 @@
     "slug": "native-american-day",
     "urlDate": "10-12"
   },
+  "anv-nth-10-2-sat-world-migratory-bird-day-global": {
+    "slug": "world-migratory-bird-day",
+    "urlDate": "10-10"
+  },
   "anv-nth-10-3-sat-sweetest-day-us": {
     "slug": "sweetest-day",
     "urlDate": "10-17"
@@ -5634,6 +6278,10 @@
   "anv-nth-11-1-fri-fountain-pen-day-global": {
     "slug": "fountain-pen-day",
     "urlDate": "11-06"
+  },
+  "anv-nth-11-3-thu-world-philosophy-day-global": {
+    "slug": "world-philosophy-day",
+    "urlDate": "11-19"
   },
   "anv-nth-11-4-thu-day-of-mourning-us": {
     "slug": "day-of-mourning",

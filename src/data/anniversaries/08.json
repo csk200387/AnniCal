@@ -450,6 +450,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-underwear-day-august-5/"
   },
   {
+    "id": "anv-fixed-08-05-detective-day-kr",
+    "date": "08-05",
+    "dateType": "annual-fixed",
+    "name": "탐정의 날",
+    "category": "career",
+    "tags": [
+      "직업 & 감사"
+    ],
+    "storytelling": {
+      "origin": "2020년 2월 신용정보법 개정으로 '탐정' 명칭 사용 금지 조항이 삭제되고, 6개월 유예를 거쳐 8월 5일부터 탐정업이 사실상 합법화된 것을 기려 탐정중앙회가 지정했다.",
+      "anecdote": "다만 탐정업을 따로 규율하는 법은 아직 없어, 업계는 이날 기념식에서 탐정업법 제정과 의뢰인 보호 장치 마련을 매년 요구하고 있다. 명칭만 풀렸을 뿐 자격·업무 범위는 여전히 불명확한 상태다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-08-06-root-beer-float-day-us",
     "date": "08-06",
     "dateType": "annual-fixed",
@@ -785,6 +801,38 @@
     "sourceUrl": null
   },
   {
+    "id": "anv-fixed-08-08-international-cat-day-global",
+    "date": "08-08",
+    "dateType": "annual-fixed",
+    "name": "세계 고양이의 날",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "국제동물복지기금(IFAW)이 2002년 제정한 국제기념일이다.",
+      "anecdote": "일본은 2월 22일, 한국은 9월 9일을 각자 고양이의 날로 따로 정해 놓아, 나라마다 서로 다른 고양이 기념일이 세 개나 존재하는 셈이다. 세 날짜 모두 숫자 말장난에서 비롯됐다는 공통점이 있다. 세 날짜 모두 숫자 말장난에서 비롯됐다는 공통점이 있다. 국내 동물보호단체도 이 무렵 유기묘 입양 캠페인에 나선다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-08-08-mugunghwa-day-kr",
+    "date": "08-08",
+    "dateType": "annual-fixed",
+    "name": "무궁화의 날",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "2007년 8월 민간단체 '나라사랑 무궁나라 어린이기자단'이 국회와 울릉도에서 선포한 날이다. 숫자 8을 눕히면 무한대(∞) 기호가 되는데, '다함이 없다'는 무궁화(無窮花)의 뜻과 통한다고 봐서 정했다.",
+      "anecdote": "마침 무궁화가 만개하는 시기이기도 해 전국 지자체가 이 무렵 무궁화 축제를 함께 연다. 아직 정부가 정한 법정기념일은 아니어서, 매년 시민단체가 법정기념일 지정을 청원하고 있다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-08-09-rice-pudding-day-us",
     "date": "08-09",
     "dateType": "annual-fixed",
@@ -871,6 +919,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-honda-day-august-9/"
+  },
+  {
+    "id": "anv-fixed-08-09-international-day-of-worlds-indigenous-peoples-global",
+    "date": "08-09",
+    "dateType": "annual-fixed",
+    "name": "국제 원주민의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "1994년 UN 총회가 제정했다. 1982년 이날 UN 원주민 실무그룹이 첫 회의를 연 것에서 날짜를 따왔다.",
+      "anecdote": "전 세계 원주민은 90여 개국에 4억 명 이상으로 추산되며, 이들의 언어와 토지권 보호가 매년 주요 의제로 다뤄진다. UN은 2019년을 '세계 원주민 언어의 해'로 정하기도 했다. 한국은 별도 원주민 집단이 없어 국내 인지도는 낮은 편이지만, 인권 교육 자료에서 종종 언급된다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-08-10-lazy-day-us",
@@ -1135,6 +1199,22 @@
     "sourceUrl": "https://www.un.org/en/observances/youth-day"
   },
   {
+    "id": "anv-fixed-08-12-separated-families-day-private-kr",
+    "date": "08-12",
+    "dateType": "annual-fixed",
+    "name": "이산가족의 날(민간)",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "1971년 8월 12일 대한적십자사가 북한에 이산가족 찾기 회담을 처음 제안한 것을 기려, 이북5도민회중앙연합회 등 민간단체가 1982년부터 지켜 온 날이다.",
+      "anecdote": "정부가 2023년 별도로 법정기념일 '이산가족의 날'을 추석 전날로 새로 지정하면서, 지금은 8월 12일(민간 유래)과 추석 전날(정부 법정기념일) 두 날짜가 함께 쓰인다. 두 날 모두 통일부와 대한적십자사가 관련 행사를 지원한다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-08-13-international-lefthanders-day-global",
     "date": "08-13",
     "dateType": "annual-fixed",
@@ -1240,6 +1320,38 @@
     "sourceUrl": "https://www.law.go.kr/법령/일제하일본군위안부피해자에대한보호지원및기념사업등에관한법률"
   },
   {
+    "id": "anv-fixed-08-14-green-day-kr",
+    "date": "08-14",
+    "dateType": "annual-fixed",
+    "name": "그린데이",
+    "category": "romance",
+    "tags": [
+      "연애 & 기념일"
+    ],
+    "storytelling": {
+      "origin": "매달 14일마다 다른 주제를 붙이는 한국 특유의 '데이 문화' 중 하나로, 한여름 더위를 피해 연인과 숲을 찾아 삼림욕을 하자는 취지로 알려져 있다.",
+      "anecdote": "정확한 제정 주체나 연도는 확인되지 않으며, 로즈데이(5월 14일)·키스데이(6월 14일)처럼 유통업계 마케팅을 거쳐 퍼진 것으로 추정된다. 다음 날인 광복절과 붙어 있어 여름휴가와 함께 챙기는 경우가 많다. 유통업계에서는 캠핑·아웃도어 용품 할인 행사를 함께 여는 경우가 많다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-08-14-no-delivery-day-kr",
+    "date": "08-14",
+    "dateType": "annual-fixed",
+    "name": "택배 없는 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "광복절 전날인 8월 14일, 택배 노동자에게 이틀 연속 휴식을 주자는 취지로 2020년 고용노동부와 주요 택배사가 함께 정했다.",
+      "anecdote": "택배기사는 개인사업자(특수형태근로종사자) 신분이라 근로기준법상 휴일이 보장되지 않는데, 이 제도가 업계 전체의 자율 휴무 관행으로 자리 잡는 계기가 됐다. 다만 일부 소형 택배사는 참여하지 않아 해마다 형평성 문제가 제기된다. 이후 매년 8월 14일을 전후해 택배 근로자 처우 개선 논의가 함께 이뤄진다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-08-15-liberation-day-kr",
     "date": "08-15",
     "dateType": "annual-fixed",
@@ -1326,6 +1438,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-relaxation-day-august-15/"
+  },
+  {
+    "id": "anv-fixed-08-15-assumption-of-mary-global",
+    "date": "08-15",
+    "dateType": "annual-fixed",
+    "name": "성모 승천 대축일",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "성모 마리아가 선종 후 하늘로 들어 올려졌다는 교리를 기리는 가톨릭 대축일로, 1950년 교황 비오 12세가 정식 교리로 선포하며 날짜가 8월 15일로 정해졌다.",
+      "anecdote": "한국 천주교에서는 미사 참례 의무가 있는 의무 축일이며, 공교롭게도 광복절과 날짜가 겹쳐 매년 함께 언급된다. 유럽 여러 나라에서는 이날이 공휴일로 지정돼 있다. 성모 마리아 승천을 소재로 한 미술 작품도 이 시기에 자주 조명된다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-08-16-airborne-day-us",
@@ -1482,6 +1610,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-mail-order-catalog-day-august-18/"
   },
   {
+    "id": "anv-fixed-08-18-rice-day-kr",
+    "date": "08-18",
+    "dateType": "annual-fixed",
+    "name": "쌀의 날",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "한자 쌀 미(米)를 파자하면 八十八이 되는데, 쌀 한 톨을 얻기까지 여든여덟 번의 손길이 필요하다는 뜻에서 2015년 농림축산식품부와 농협이 제정했다.",
+      "anecdote": "쌀 소비가 해마다 줄어드는 상황에서, 이날에 맞춰 쌀을 활용한 가공식품과 레시피를 알리는 행사가 열린다. 한국인 1인당 연간 쌀 소비량은 1980년대의 절반 이하로 줄었다. 지방자치단체별로 지역 쌀 브랜드를 알리는 시식 행사도 함께 열린다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-08-19-soft-ice-cream-day-us",
     "date": "08-19",
     "dateType": "annual-fixed",
@@ -1575,6 +1719,22 @@
     "storytelling": {
       "origin": "인도네시아 국제동물구조단체(IAR)가 2018년 제정한 날로, 팜유 농장 확대로 서식지를 잃어 가는 오랑우탄을 보호하자는 취지다.",
       "anecdote": "오랑우탄은 인간과 유전자가 97% 이상 일치하는 영장류로, 서식지인 보르네오·수마트라 열대우림이 팜유 플랜테이션으로 개간되며 야생 개체수가 급격히 줄고 있다. '오랑우탄'이라는 이름 자체가 말레이어로 '숲의 사람'을 뜻할 만큼, 인간과 가까운 유인원으로 오래전부터 여겨져 왔다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-08-19-world-humanitarian-day-global",
+    "date": "08-19",
+    "dateType": "annual-fixed",
+    "name": "세계 인도주의의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "2003년 8월 19일 이라크 바그다드 UN 사무소 폭탄 테러로 UN 인도주의 조정관 세르히우 비에이라 지 멜루 등 22명이 숨진 사건을 기려 UN 총회가 2008년 제정했다.",
+      "anecdote": "분쟁 지역에서 활동하다 목숨을 잃는 구호요원을 기리는 취지로, 매년 그해 희생된 인도주의 활동가 수를 집계해 발표한다. 최근에는 우크라이나·가자지구 구호 활동가 피해가 주로 언급된다."
     },
     "memes": [],
     "sourceUrl": null
@@ -1734,6 +1894,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-senior-citizens-day-august-21/"
   },
   {
+    "id": "anv-fixed-08-21-won-buddhism-legal-authentication-day-kr",
+    "date": "08-21",
+    "dateType": "annual-fixed",
+    "name": "원불교 법인절",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "1919년 원불교를 세운 소태산 대종사와 9인 제자가 100일 기도 끝에 손가락에서 흰 종이에 핏자국이 나타나는 이적을 겪은 날을 기린다.",
+      "anecdote": "원불교 4대 경절 중 하나로, '죽어도 여한이 없다'는 사무여한의 각오로 기도했다는 이 사건은 지금도 원불교 창립정신의 상징으로 이야기된다. 전북 정읍 대죄봉 아래가 이 기도가 이뤄진 자리로 알려져 있다. 원불교 교단은 이날을 전후해 전국 교당에서 특별 법회를 연다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-08-22-tooth-fairy-day-us",
     "date": "08-22",
     "dateType": "annual-fixed",
@@ -1776,6 +1952,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-pecan-torte-day-august-22/"
+  },
+  {
+    "id": "anv-fixed-08-22-energy-day-kr",
+    "date": "08-22",
+    "dateType": "annual-fixed",
+    "name": "에너지의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "2003년 8월 22일 한국 전력 사용량이 사상 최고치(4,738만kW)를 기록한 것을 계기로, 에너지시민연대가 2004년부터 매년 같은 날 절전 캠페인을 벌이고 있다.",
+      "anecdote": "저녁 9시부터 5분간 전국이 동시에 소등하는 '불 끄고 별 보기' 행사가 대표 프로그램으로 자리 잡았다. 서울 남산타워·63빌딩 같은 랜드마크도 매년 이 시간에 조명을 끈다. 정부와 지자체도 매년 8월 이맘때 에너지 절약 홍보를 강화한다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-08-23-ride-with-the-wind-day-us",
@@ -1842,6 +2034,22 @@
       }
     ],
     "sourceUrl": "https://ko.wikipedia.org/wiki/처서"
+  },
+  {
+    "id": "anv-fixed-08-23-baseball-day-kr",
+    "date": "08-23",
+    "dateType": "annual-fixed",
+    "name": "야구의 날",
+    "category": "sports",
+    "tags": [
+      "스포츠 & 레저"
+    ],
+    "storytelling": {
+      "origin": "2008년 8월 23일 베이징 올림픽 야구 결승에서 한국이 쿠바를 3대2로 꺾고 구기 종목 최초로 올림픽 금메달을 딴 것을 기려 KBO가 지정했다.",
+      "anecdote": "이날 야구장에 가면 구단마다 무료입장이나 반값 할인, 기념품 증정 이벤트를 여는 것이 관례로 자리 잡았다. KBO가 공식 지정하기 전에는 프로야구 출범일인 1982년 3월을 비공식 기준으로 삼기도 했다. 아마추어 야구 발전을 위한 기부 행사도 함께 열리는 경우가 많다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-08-24-waffle-day-us",
@@ -2196,6 +2404,38 @@
     "sourceUrl": "https://zatsuneta.com/archives/108292.html"
   },
   {
+    "id": "anv-fixed-08-29-international-day-against-nuclear-tests-global",
+    "date": "08-29",
+    "dateType": "annual-fixed",
+    "name": "국제 핵실험 반대의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "1991년 8월 29일 옛 소련의 세미팔라틴스크 핵실험장이 공식 폐쇄된 것을 기려 UN 총회가 2009년 제정했다.",
+      "anecdote": "이 실험장에서만 40년간 450여 차례 핵실험이 이뤄져 주변 주민들의 방사능 피폭 피해가 지금도 이어지고 있다는 점이 제정 배경으로 꼽힌다. 카자흐스탄은 이날을 계기로 매년 피해자 지원 정책을 점검한다. 매년 8월 29일 UN 총회에서도 관련 결의가 재확인된다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-08-29-national-humiliation-day-kr",
+    "date": "08-29",
+    "dateType": "annual-fixed",
+    "name": "경술국치일",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "1910년 8월 29일 한일병합조약이 공포되며 대한제국의 국권이 일본에 완전히 넘어간 날이다.",
+      "anecdote": "조약 자체는 8월 22일 체결됐지만 발표를 일주일 늦춰 29일에 공포했다. 국권을 잃은 날을 잊지 말자는 뜻에서 흔히 '국치일'이라 부르며, 일부 시민단체는 이날 추모 행사를 연다. 학계에서는 조약 자체의 절차적 정당성을 두고 지금도 논쟁이 이어진다. 매년 이날 광화문 등지에서 규탄 집회가 열리기도 한다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-08-30-toasted-marshmallow-day-us",
     "date": "08-30",
     "dateType": "annual-fixed",
@@ -2216,6 +2456,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-toasted-marshmallow-day-august-30/"
+  },
+  {
+    "id": "anv-fixed-08-30-international-day-of-the-victims-of-enforced-disappearances-global",
+    "date": "08-30",
+    "dateType": "annual-fixed",
+    "name": "세계 실종자의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "국가 권력에 의한 강제실종 피해자를 기리기 위해 UN 총회가 2010년 제정했다.",
+      "anecdote": "실종자 가족들이 생사조차 확인받지 못하는 고통을 알리는 데 초점이 있으며, 라틴아메리카 군사독재 시기의 실종 사건들이 제정 배경으로 자주 언급된다. 흰 스카프는 아르헨티나 '5월 광장 어머니회'를 상징하는 물건으로 함께 쓰인다. 실종자 수색·신원 확인 기술 발전도 최근 논의에서 함께 다뤄진다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-08-31-trail-mix-day-us",

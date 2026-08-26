@@ -259,6 +259,22 @@
     "sourceUrl": "https://ko.wikipedia.org/wiki/입춘"
   },
   {
+    "id": "anv-fixed-02-04-world-cancer-day-global",
+    "date": "02-04",
+    "dateType": "annual-fixed",
+    "name": "세계 암의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "국제암퇴치연맹(UICC)이 2000년 파리에서 열린 세계 암 정상회의를 계기로 제정했다.",
+      "anecdote": "암 조기 발견과 치료 형평성을 알리는 게 목표로, 매년 세계보건기구와 함께 각국의 암 사망률 통계를 발표한다. 국내 병원과 보건소도 2월 초 무료 암 검진 캠페인을 함께 연다. 세계보건기구는 예방 가능한 암이 전체의 3분의 1에 이른다고 본다. 매년 다른 표어를 내세우며 암 환자에 대한 사회적 낙인을 줄이자는 메시지도 함께 전한다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-02-05-weatherpersons-day-us",
     "date": "02-05",
     "dateType": "annual-fixed",
@@ -398,6 +414,22 @@
         "caption": "세금으로 낼 만큼 귀했던 시절이 있었다."
       }
     ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-06-international-day-of-zero-tolerance-for-fgm-global",
+    "date": "02-06",
+    "dateType": "annual-fixed",
+    "name": "국제 여성 할례 철폐의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "여성 생식기 절단(FGM) 관행을 없애기 위해 UN 총회가 2012년 제정했다.",
+      "anecdote": "주로 아프리카 일부 지역에서 이어지는 관습으로, UN은 2030년까지 이 관행을 완전히 근절하는 것을 목표로 내걸고 있다. 유니세프 추산으로 전 세계 2억 명 이상의 여성이 이 시술을 받은 것으로 알려져 있다. 이날은 여성 단체들이 생존자 증언 캠페인을 벌이는 날이기도 하다. 세계보건기구는 이 시술이 건강에 아무 이득이 없다고 명시하고 있다."
+    },
+    "memes": [],
     "sourceUrl": null
   },
   {
@@ -682,6 +714,22 @@
     "sourceUrl": "https://www.law.go.kr/법령/문화유산의보존및활용에관한법률"
   },
   {
+    "id": "anv-fixed-02-10-world-pulses-day-global",
+    "date": "02-10",
+    "dateType": "annual-fixed",
+    "name": "세계 콩류의 날",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "UN 총회가 2018년 제정했다. 콩·렌틸·병아리콩 등 식용 콩과작물의 영양·환경적 가치를 알리자는 취지로 식량농업기구(FAO)가 주도했다.",
+      "anecdote": "콩류는 뿌리혹박테리아로 스스로 질소를 고정해 토양을 비옥하게 만드는 작물이라, 기후위기 시대 지속가능한 농업의 대안으로도 주목받는다. 2016년 'UN 콩류의 해'가 먼저 있었고, 그 반응에 힘입어 상설 기념일로 격상됐다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-02-11-dont-cry-over-spilled-milk-day-us",
     "date": "02-11",
     "dateType": "annual-fixed",
@@ -792,6 +840,38 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-white-shirt-day-february-11/"
   },
   {
+    "id": "anv-fixed-02-11-world-day-of-the-sick-global",
+    "date": "02-11",
+    "dateType": "annual-fixed",
+    "name": "세계 병자의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "교황 요한 바오로 2세가 1992년 제정한 가톨릭 기념일로, 성모 마리아가 프랑스 루르드에 발현했다고 전해지는 날(2월 11일)에서 날짜를 따왔다.",
+      "anecdote": "이날 전 세계 가톨릭 병원과 성당에서 병자를 위한 특별 미사와 병문안 봉사가 이뤄진다. 루르드는 지금도 기적의 치유를 바라는 순례자들이 매년 수백만 명씩 찾는 성지로 남아 있다. 한국 천주교도 매년 2월 이맘때 병원 사목 관련 행사를 연다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-11-women-in-science-day-global",
+    "date": "02-11",
+    "dateType": "annual-fixed",
+    "name": "세계 여성 과학인의 날",
+    "category": "academic",
+    "tags": [
+      "학술 & 기술"
+    ],
+    "storytelling": {
+      "origin": "2015년 12월 UN 총회가 결의 70/212를 채택해 매년 2월 11일을 여성과 소녀의 과학기술 참여를 독려하는 날로 지정했다.",
+      "anecdote": "UNESCO와 UN Women이 함께 주관하며, 과학·기술·공학·수학(STEM) 분야에서 여성의 완전하고 평등한 참여를 가로막는 장벽을 알리는 게 목적이다. 노벨상 과학 부문 수상자 중 여성 비율이 여전히 한 자릿수라는 점, 그리고 전 세계 연구 인력 중 여성이 3분의 1에도 못 미친다는 통계가 이 날이 계속 필요한 이유로 꼽힌다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.un.org/en/observances/women-and-girls-in-science-day"
+  },
+  {
     "id": "anv-fixed-02-12-abraham-lincoln-birthday-us",
     "date": "02-12",
     "dateType": "annual-fixed",
@@ -856,6 +936,22 @@
       }
     ],
     "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-13-world-radio-day-global",
+    "date": "02-13",
+    "dateType": "annual-fixed",
+    "name": "세계 라디오의 날",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "UN 라디오 방송이 1946년 2월 13일 개국한 것을 기려 정한 날짜다. UNESCO가 2011년 총회에서 먼저 제정했고 2012년 UN 총회가 국제기념일로 승인했다.",
+      "anecdote": "라디오는 텔레비전이나 인터넷 없이도 닿는 매체라, 재난 상황이나 문맹률이 높은 지역에서 여전히 가장 폭넓게 정보를 전달하는 수단으로 꼽힌다. UN 라디오 자체도 뉴욕 레이크석세스의 임시 스튜디오에서 방송을 시작해, 냉전기 각국 여론을 향한 창구 역할을 했다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.un.org/en/observances/radio-day"
   },
   {
     "id": "anv-fixed-02-14-valentines-day-global",
@@ -1041,6 +1137,22 @@
     },
     "memes": [],
     "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-15-international-childhood-cancer-day-global",
+    "date": "02-15",
+    "dateType": "annual-fixed",
+    "name": "국제 소아암의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "소아암 환아 가족 90개국 네트워크인 국제소아암기구(CCI)가 2002년 처음 제정한 날로, 나라·인종·경제력과 무관하게 모든 아이가 최선의 치료를 받아야 한다는 원칙을 내세운다.",
+      "anecdote": "선진국에서는 소아암 완치율이 80%를 넘지만 저소득국에서는 그 절반에도 못 미친다는 격차가 이 날이 계속 알리려는 문제다. CCI는 세계보건기구와 협력해 각국 정부에 소아암 등록 통계와 치료 접근성 개선을 요구하는 활동도 함께 벌인다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.daysoftheyear.com/days/international-childhood-cancer-day/"
   },
   {
     "id": "anv-fixed-02-16-do-a-grouch-a-favor-day-us",
@@ -1329,6 +1441,22 @@
     "sourceUrl": null
   },
   {
+    "id": "anv-fixed-02-21-international-mother-language-day-global",
+    "date": "02-21",
+    "dateType": "annual-fixed",
+    "name": "국제 모국어의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "1952년 2월 21일 파키스탄 치하 동벵골(현 방글라데시)에서 벵골어를 공용어로 요구하며 시위하던 학생들이 경찰 총격에 목숨을 잃은 사건을 기린다. 1999년 방글라데시 제안으로 UNESCO가 제정했다.",
+      "anecdote": "이 시위 덕분에 1956년 벵골어가 파키스탄의 공용어로 인정받았다. 희생된 학생들의 이름은 압둘 살람, 아불 바르카트 등으로 지금도 다카에서 매년 추모 행렬이 이어지며, 2000년부터는 사라져 가는 소수 언어를 지키자는 취지로 전 세계가 함께 기념하고 있다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.banglapedia.org/index.php/International_Mother_Language_Day"
+  },
+  {
     "id": "anv-fixed-02-22-cook-a-sweet-potato-day-global",
     "date": "02-22",
     "dateType": "annual-fixed",
@@ -1419,6 +1547,38 @@
     },
     "memes": [],
     "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-22-child-sexual-abuse-eradication-day-kr",
+    "date": "02-22",
+    "dateType": "annual-fixed",
+    "name": "아동성폭력 추방의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "2006년 서울 용산에서 실종된 뒤 세상을 떠난 10세 여아 사건이 계기가 됐다. 아이의 장례가 치러진 2월 22일을 여성가족부와 국가청소년위원회가 기념일로 정했다.",
+      "anecdote": "당시 아이는 집 앞 비디오 가게에 테이프를 반납하러 나갔다가 변을 당했다. 이후 시민단체와 함께 아동 성폭력 예방 캠페인을 범국민 운동으로 넓혀 왔고, 아동안전지킴이집과 성범죄자 신상공개 제도도 이 무렵을 전후해 정비됐다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-02-22-takeshima-day-jp",
+    "date": "02-22",
+    "dateType": "annual-fixed",
+    "name": "일본 다케시마의 날",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "일본 시마네현이 1905년 2월 22일 독도를 자국 행정구역으로 편입한다고 고시한 지 100주년이 되는 2005년, 이를 근거로 조례를 만들어 2월 22일을 기념일로 정했다.",
+      "anecdote": "조례는 그해 2월 23일 현의회에 상정돼 3월 16일 가결, 3월 25일 공표됐다. 조례 1조는 '다케시마의 영토권 조기 확립'을 목표로 명시하고 있으며, 한국 정부는 매년 이 행사에 항의하며 독도 영유권을 재확인하는 성명을 낸다."
+    },
+    "memes": [],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/다케시마의_날"
   },
   {
     "id": "anv-fixed-02-23-dog-biscuit-day-us",

@@ -83,6 +83,22 @@
     "sourceUrl": "https://www.law.go.kr/법령/수산업어촌발전기본법"
   },
   {
+    "id": "anv-fixed-04-01-fair-trade-day-kr",
+    "date": "04-01",
+    "dateType": "annual-fixed",
+    "name": "공정거래의 날",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "공정거래법이 시행된 1981년 4월 1일을 기려 중소기업중앙회 등 4개 경제단체가 2002년부터 지키는 날이다.",
+      "anecdote": "공정거래위원회가 직접 만든 게 아니라 민간 경제단체들이 자율적으로 제정했다는 점이 특이하다. 공정위는 이 취지에 공감해 기념식을 후원하고, 매년 상생협력에 기여한 기업·개인을 표창한다. 2025년에는 제도 시행 44주년을 맞아 기념행사 규모를 키웠다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-04-02-autism-awareness-day-global",
     "date": "04-02",
     "dateType": "annual-fixed",
@@ -191,6 +207,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-reconciliation-day-april-2/"
+  },
+  {
+    "id": "anv-fixed-04-02-international-childrens-book-day-global",
+    "date": "04-02",
+    "dateType": "annual-fixed",
+    "name": "세계 어린이 책의 날",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "국제아동청소년도서협의회(IBBY)가 1967년 제정했다. 동화작가 한스 크리스티안 안데르센의 생일에서 날짜를 따왔다.",
+      "anecdote": "매년 회원국 중 한 곳이 돌아가며 공식 포스터와 세계 어린이에게 보내는 메시지를 만들어 전 세계 학교와 도서관에 배포하는 전통이 60년 가까이 이어지고 있다. 한국에서도 IBBY 한국위원회가 매해 관련 행사를 연다. 안데르센의 고향 덴마크는 이날을 전후해 학교마다 낭독회를 연다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "gov-7",
@@ -511,6 +543,22 @@
       }
     ],
     "sourceUrl": "https://ko.wikipedia.org/wiki/청명"
+  },
+  {
+    "id": "anv-fixed-04-05-cheondogyo-founding-day-kr",
+    "date": "04-05",
+    "dateType": "annual-fixed",
+    "name": "천일기념일",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "1860년 4월 5일 최제우가 경주 용담정에서 한울님의 가르침을 받아 동학을 깨친 것을 기리는 천도교 최대 경축일이다.",
+      "anecdote": "원래 사건은 음력 날짜였지만, 천도교는 숫자를 그대로 양력으로 옮겨 지금까지 지킨다. 동학은 이후 3대 교주 손병희 대에 이르러 천도교로 이름을 바꿨고, 서울 종로 중앙대교당에서 매년 기념식을 연다. 이 무렵 경주 용담정에는 참배객의 발길이 이어진다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-04-06-sorry-charlie-day-us",
@@ -1334,6 +1382,22 @@
     "sourceUrl": "https://www.law.go.kr/법령/도시농업의육성및지원에관한법률"
   },
   {
+    "id": "anv-fixed-04-11-world-parkinsons-day-global",
+    "date": "04-11",
+    "dateType": "annual-fixed",
+    "name": "세계 파킨슨병의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "파킨슨병을 처음 의학적으로 기술한 영국 의사 제임스 파킨슨의 생일(1755년 4월 11일)에서 날짜를 따왔다. 유럽파킨슨병협회가 1997년 세계보건기구와 함께 제정했다.",
+      "anecdote": "고령화가 빠른 한국에서도 환자 수가 매년 늘고 있어, 손 떨림이나 느린 걸음 같은 초기 증상을 조기에 알아채는 것이 이날 캠페인의 핵심 메시지다. 상징색은 빨간 튤립으로, 네덜란드 원예가가 자신의 파킨슨병 진단을 계기로 만든 품종에서 유래했다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-04-12-grilled-cheese-sandwich-day-us",
     "date": "04-12",
     "dateType": "annual-fixed",
@@ -1450,6 +1514,22 @@
     "storytelling": {
       "origin": "반려동물로 인기 있는 햄스터를 기리는 비공식 기념일이다.",
       "anecdote": "햄스터는 야행성이라 낮에는 자는 모습을 자주 보이는데, 볼주머니에 먹이를 잔뜩 저장하는 습성이 반려인들 사이에서 특히 사랑받는 특징으로 꼽힌다. 국내에서도 최근 몇 년 새 아파트에서 기르기 좋은 소형 반려동물로 인기를 끌며, 이날에 맞춰 사료·용품 할인 프로모션이 열리기도 한다. 동면 습성이 있는 골든햄스터는 온도가 낮아지면 며칠씩 움직이지 않아 종종 반려인을 놀라게 하는 것으로도 유명하다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-04-12-yuris-night-global",
+    "date": "04-12",
+    "dateType": "annual-fixed",
+    "name": "유리의 밤",
+    "category": "academic",
+    "tags": [
+      "학술 & 기술"
+    ],
+    "storytelling": {
+      "origin": "1961년 4월 12일 소련 우주비행사 유리 가가린이 보스토크 1호로 인류 최초의 우주 비행에 성공한 것을 기리는 날이다.",
+      "anecdote": "2001년부터 전 세계 우주 애호가들이 자발적으로 파티를 열기 시작해 '세계 우주 파티'로 불린다. 공교롭게도 1981년 미국의 첫 우주왕복선 컬럼비아호도 같은 날 발사돼, 유인우주비행 역사에서 두 번 겹치는 날짜가 됐다. 국내에서도 과학관·천문대가 연계 행사를 여는 경우가 늘고 있다."
     },
     "memes": [],
     "sourceUrl": null
@@ -1867,6 +1947,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-titanic-remembrance-day-april-15/"
   },
   {
+    "id": "anv-fixed-04-15-world-art-day-global",
+    "date": "04-15",
+    "dateType": "annual-fixed",
+    "name": "세계 예술의 날",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "레오나르도 다빈치의 생일(1452년 4월 15일)에서 날짜를 따온 기념일로, 국제조형예술협회(IAA)가 제안해 2019년 유네스코 총회가 공식 지정했다.",
+      "anecdote": "지정 전에도 여러 나라 미술가 단체가 각자 이 날을 기려 왔는데, 유네스코가 뒤늦게 공식화하면서 비로소 전 세계가 같은 날짜를 쓰게 됐다. 미술을 통한 창의성과 문화 다양성 증진이 공식 취지로 명시돼 있다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-04-16-auctioneers-day-us",
     "date": "04-16",
     "dateType": "annual-fixed",
@@ -2104,6 +2200,22 @@
     "sourceUrl": "https://zatsuneta.com/archives/104171.html"
   },
   {
+    "id": "anv-fixed-04-17-world-hemophilia-day-global",
+    "date": "04-17",
+    "dateType": "annual-fixed",
+    "name": "세계 혈우병의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "세계혈우연맹(WFH)을 만든 프랭크 슈나벨의 생일(4월 17일)을 기려 1989년 제정했다.",
+      "anecdote": "혈우병은 피가 잘 멎지 않는 유전질환인데, 치료제 보급이 늦은 나라일수록 진단조차 못 받는 환자가 많다는 점을 알리는 것이 이날의 핵심 목표다. 상징색은 빨간색이며, 매년 랜드마크 건물을 빨갛게 밝히는 행사가 여러 나라에서 열린다. 국내에서도 한국혈우재단이 매년 환자·가족을 위한 행사를 연다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-04-18-animal-crackers-day-us",
     "date": "04-18",
     "dateType": "annual-fixed",
@@ -2181,6 +2293,22 @@
     "storytelling": {
       "origin": "1938년 4월 18일 발매된 만화 '액션 코믹스' 1호에서 슈퍼맨이 처음 등장한 것을 기리는 날이다.",
       "anecdote": "당시 표지가값 10센트였던 이 창간호는 이후 슈퍼히어로 장르 전체의 출발점으로 꼽히며, 경매에서 수백만 달러에 거래되는 희귀본이 됐다. DC코믹스는 매년 이날을 전후해 팬 이벤트를 연다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-04-18-international-day-for-monuments-and-sites-global",
+    "date": "04-18",
+    "dateType": "annual-fixed",
+    "name": "국제 문화유산의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "국제기념물유적협의회(ICOMOS)가 1982년 제안해 이듬해 유네스코 총회 승인을 받은 날이다. 정식 명칭은 '국제 기념물과 유적의 날'이다.",
+      "anecdote": "매년 주제를 정해 각국 문화재 관리기관이 평소 닫혀 있던 유적지를 특별 개방하거나 보존 강연을 여는 방식으로 참여한다. 재해·분쟁으로 훼손된 유산 복구가 최근 자주 다뤄지는 주제다. 한국은 문화재청 산하 기관이 매년 4월 이 무렵 국내 사적 특별 프로그램을 마련한다."
     },
     "memes": [],
     "sourceUrl": null
@@ -2798,6 +2926,22 @@
     "sourceUrl": null
   },
   {
+    "id": "anv-fixed-04-23-sant-jordi-day-es",
+    "date": "04-23",
+    "dateType": "annual-fixed",
+    "name": "산 조르디의 날",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "스페인 카탈루냐 지방에서 수호성인 성 조르디를 기리는 축일로, 남성은 여성에게 장미를, 여성은 남성에게 책을 선물하는 풍습이 있다.",
+      "anecdote": "세르반테스와 셰익스피어가 공교롭게도 같은 날(1616년 4월 23일) 세상을 떠나, 유네스코가 1995년 이 날을 '세계 책의 날'로 정하는 계기가 됐다. 바르셀로나 거리는 이날 하루 장미와 책 노점으로 가득 찬다. 카탈루냐에서는 이날 하루 서점 매출이 연중 최고치를 기록한다고 알려져 있다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-04-24-pet-parents-day-us",
     "date": "04-24",
     "dateType": "annual-fixed",
@@ -2840,6 +2984,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-pigs-in-a-blanket-day-april-24/"
+  },
+  {
+    "id": "anv-fixed-04-24-world-day-for-animals-in-laboratories-global",
+    "date": "04-24",
+    "dateType": "annual-fixed",
+    "name": "세계 실험동물의 날",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "영국 반달팽이의학진보협회(NAVS)가 1979년 제정했다. 동물실험의 고통을 줄이고 대체시험법 개발을 촉구하는 취지다.",
+      "anecdote": "화장품 동물실험을 금지하는 나라가 늘면서, 이날에 맞춰 세포·컴퓨터 모델 기반 대체시험법 연구 성과를 발표하는 학회나 기업이 많아졌다. 유럽연합은 2013년부터 화장품 동물실험을 전면 금지했다. 국내에서도 동물실험 대체법 개발에 대한 관심이 점차 커지고 있다."
+    },
+    "memes": [],
+    "sourceUrl": null
   },
   {
     "id": "anv-fixed-04-25-dna-day-global",
@@ -2991,6 +3151,38 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-kiss-of-hope-day-april-25/"
   },
   {
+    "id": "anv-nth-04-l-sat-world-veterinary-day-global",
+    "date": "04-L-SAT",
+    "dateType": "annual-nth-weekday",
+    "name": "세계 수의사의 날",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "세계수의사회(WVA)가 매년 4월 마지막 토요일로 정한 국제기념일이다.",
+      "anecdote": "최근에는 반려동물뿐 아니라 가축·야생동물의 건강이 사람의 건강과 맞닿아 있다는 '원헬스' 개념이 주요 주제로 자주 다뤄진다. 매년 세계수의사회가 우수 활동 수의사에게 시상하는 것도 이날의 관례다. 국내에서는 대한수의사회가 같은 주말 반려동물 건강 캠페인을 별도로 진행한다. 창립 100주년을 맞은 2019년에는 전 세계에서 기념 학술대회가 함께 열렸다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-04-25-world-penguin-day-global",
+    "date": "04-25",
+    "dateType": "annual-fixed",
+    "name": "세계 펭귄의 날",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "남극 아델리펭귄이 매년 이맘때 북쪽으로 이동하는 시기에 맞춰 미국 맥머도 남극기지 연구자들이 정한 날이다.",
+      "anecdote": "지구온난화로 서식지가 줄어드는 펭귄 보호를 알리는 취지로, 국내에서도 여러 아쿠아리움이 이날 펭귄 관련 특별 프로그램을 연다. 세계 18종 펭귄 중 상당수가 이미 취약종·위기종으로 분류돼 있다. 남극 인근 관측 기지 연구자들이 매년 개체 수 변화를 보고하는 계기로도 쓰인다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-04-26-richter-scale-day-us",
     "date": "04-26",
     "dateType": "annual-fixed",
@@ -3120,6 +3312,54 @@
         "caption": "욕조 물을 물려받는 순서가 곧 서열."
       }
     ],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-04-26-world-ip-day-global",
+    "date": "04-26",
+    "dateType": "annual-fixed",
+    "name": "세계 지적 재산의 날",
+    "category": "academic",
+    "tags": [
+      "학술 & 기술"
+    ],
+    "storytelling": {
+      "origin": "세계지식재산기구(WIPO)가 2000년 제정했다. 1970년 4월 26일 WIPO를 설립한 협약이 발효된 날에서 날짜를 따왔다.",
+      "anecdote": "특허·상표·저작권을 아우르는 넓은 개념이라, 매년 여성 발명가나 청년 혁신가처럼 서로 다른 주제를 내세워 캠페인을 벌인다. 한국 특허청도 이 시기에 맞춰 발명 유공자 포상 행사를 연다. 세계지식재산기구 본부가 있는 스위스 제네바에서 공식 기념행사가 열리고, 한국 특허청도 발명 유공자 포상을 이날 전후로 진행한다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-04-26-international-chernobyl-disaster-remembrance-day-global",
+    "date": "04-26",
+    "dateType": "annual-fixed",
+    "name": "국제 체르노빌 참사 추모의 날",
+    "category": "history",
+    "tags": [
+      "역사 & 추모"
+    ],
+    "storytelling": {
+      "origin": "1986년 4월 26일 우크라이나 체르노빌 원자력발전소 폭발 사고를 기려 UN 총회가 2016년 제정했다.",
+      "anecdote": "사고 지역은 지금도 반경 30km가 출입제한구역으로 남아 있다. 원전 안전 규제를 세계적으로 강화하는 계기가 된 사건이라, 매년 원자력 안전 논의에서 함께 언급된다. 한국에서도 원자력 안전 관련 시민단체가 이날에 맞춰 토론회를 연다. 사고로 방출된 방사성 물질은 유럽 여러 나라까지 퍼져나갔다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-04-26-lesbian-visibility-day-global",
+    "date": "04-26",
+    "dateType": "annual-fixed",
+    "name": "레즈비언 가시화의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "레즈비언 커뮤니티의 존재와 기여를 알리기 위해 2008년 미국에서 시작된 기념일이다.",
+      "anecdote": "3월 31일 트랜스젠더 가시화의 날처럼, 성소수자 그룹마다 각자의 가시화의 날을 따로 두는 흐름 속에서 자리 잡았다. SNS에서는 이날 해시태그 캠페인으로 자신의 정체성을 알리는 이용자가 늘어난다. 자주색과 분홍색이 섞인 깃발이 이날의 상징색으로 쓰인다. 미국 일부 주에서는 이날을 공식 기념일로 선포하기도 했다."
+    },
+    "memes": [],
     "sourceUrl": null
   },
   {
@@ -3564,6 +3804,22 @@
     "sourceUrl": null
   },
   {
+    "id": "anv-fixed-04-29-international-dance-day-global",
+    "date": "04-29",
+    "dateType": "annual-fixed",
+    "name": "국제 춤의 날",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "근대 발레의 아버지로 불리는 프랑스 무용가 장조르주 노베르의 생일(1727년 4월 29일)에서 따왔다. 국제극예술협회(ITI)가 1982년 제정했다.",
+      "anecdote": "매년 저명한 무용가 한 명이 전 세계 무용인에게 보내는 축하 메시지를 발표하는 전통이 이어지고 있다. 국내에서도 발레단·무용단들이 이 시기에 갈라 공연을 연다. 국내에서도 발레단·무용단들이 이 시기에 갈라 공연을 연다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-04-30-raisin-day-us",
     "date": "04-30",
     "dateType": "annual-fixed",
@@ -3794,5 +4050,21 @@
     },
     "memes": [],
     "sourceUrl": "https://www.law.go.kr/법령/각종기념일등에관한규정"
+  },
+  {
+    "id": "anv-fixed-04-30-international-jazz-day-global",
+    "date": "04-30",
+    "dateType": "annual-fixed",
+    "name": "국제 재즈의 날",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "재즈 피아니스트 허비 행콕의 제안으로 유네스코가 2011년 제정했다.",
+      "anecdote": "매년 본행사 개최 도시가 바뀌며, 세계 각국 재즈 뮤지션이 한자리에 모이는 올스타 콘서트가 생중계된다. 첫 회는 파리와 뉴욕에서 동시에 열렸다. 첫 회는 파리와 뉴욕에서 동시에 열렸고, 이후 매년 다른 대륙의 도시가 개최지를 맡는다. 유네스코는 재즈가 인종·문화 간 대화를 촉진하는 예술 장르라는 점을 강조한다."
+    },
+    "memes": [],
+    "sourceUrl": null
   }
 ]

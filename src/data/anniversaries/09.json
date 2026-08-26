@@ -94,6 +94,22 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Principality_of_Sealand"
   },
   {
+    "id": "anv-fixed-09-03-broadcasting-day-kr",
+    "date": "09-03",
+    "dateType": "annual-fixed",
+    "name": "방송의 날",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "1947년 국제무선통신회의에서 대한민국이 무선통신 호출부호 'HL'을 배정받은 것을 기려 1978년부터 지켜 온 한국 기념일이다.",
+      "anecdote": "이후 한국의 모든 방송 콜사인에 'HL'이 들어가게 됐다. 매년 이날 한국방송협회가 한국방송대상 시상식을 열고, 지상파 3사가 돌아가며 중계한다. 이 부호를 배정받기 전에는 국제 규약상 한국 방송을 구분할 고유 표시가 없어 혼선이 있었다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-09-04-intellectual-property-day-kr",
     "date": "09-04",
     "dateType": "annual-fixed",
@@ -126,6 +142,22 @@
     },
     "memes": [],
     "sourceUrl": "https://www.law.go.kr/법령/고향사랑기부금에관한법률"
+  },
+  {
+    "id": "anv-fixed-09-05-international-day-of-charity-global",
+    "date": "09-05",
+    "dateType": "annual-fixed",
+    "name": "국제 자선의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "2012년 UN 총회가 결의(67/105)로 제정했다. 헝가리가 제안해 44개국이 공동 후원했다.",
+      "anecdote": "날짜는 빈곤과 고통에 맞선 활동으로 1979년 노벨평화상을 받은 마더 테레사의 선종일(1997년 9월 5일)에서 따왔다. 지정 이후 매년 UN 회원국과 시민단체가 자선활동 참여를 독려하는 캠페인을 함께 벌인다. 지정 이후 매년 UN 회원국과 시민단체가 자선활동 참여를 독려하는 캠페인을 함께 벌인다. 한국에서도 사회복지공동모금회 등이 이 시기에 맞춰 기부 캠페인을 진행한다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/International_Day_of_Charity"
   },
   {
     "id": "anv-fixed-09-07-insect-day-kr",
@@ -179,6 +211,86 @@
     "sourceUrl": "https://www.law.go.kr/법령/기업부설연구소등의연구개발지원에관한법률"
   },
   {
+    "id": "anv-fixed-09-08-international-literacy-day-global",
+    "date": "09-08",
+    "dateType": "annual-fixed",
+    "name": "국제 문해의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "유네스코가 1966년 총회에서 선포해 이듬해부터 지켜 온 국제기념일이다.",
+      "anecdote": "세계 성인 5명 중 1명, 약 7억 7천만 명이 여전히 최소한의 읽고 쓰는 능력을 갖추지 못한 것으로 추산되며 이 중 3분의 2가 여성이다. 이런 격차를 알리고 문해 교육의 중요성을 강조하는 게 이날의 취지다. 이날 유네스코가 수여하는 국제문해상 중 하나인 '세종대왕 문해상'은 한글을 창제한 세종대왕의 업적을 기려 1989년 한국 정부의 지원으로 만들어졌다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/International_Literacy_Day"
+  },
+  {
+    "id": "anv-fixed-09-09-korean-cat-day-kr",
+    "date": "09-09",
+    "dateType": "annual-fixed",
+    "name": "한국 고양이의 날",
+    "category": "animal",
+    "tags": [
+      "동물 & 자연"
+    ],
+    "storytelling": {
+      "origin": "2009년 고양이 전문 서점 '야옹서가'의 고경원 대표가 제안해 시작된 한국 기념일이다. '고양이 목숨은 아홉 개'라는 속설과 아홉 구(九)·오랠 구(久)의 발음이 같다는 데서 9월 9일로 정했다.",
+      "anecdote": "1년에 하루만이라도 고양이의 생명을 생각하자는 취지에서 출발했다. 세계 고양이의 날(8월 8일), 일본 고양이의 날(2월 22일), 미국 고양이의 날(10월 29일)과는 별개의 한국 고유 기념일이다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.sedaily.com/article/13935260"
+  },
+  {
+    "id": "anv-fixed-09-09-organ-donation-day-kr",
+    "date": "09-09",
+    "dateType": "annual-fixed",
+    "name": "장기 기증의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "사랑의장기기증운동본부가 2008년 제정한 한국 기념일이다. 별칭 'SAVE9'는 뇌사 시 심장·간·신장 2개·폐 2개·췌장·각막 2개까지 최대 9명의 생명을 살릴 수 있다는 뜻을 담았다.",
+      "anecdote": "1997년부터 매년 9월 둘째 주를 '장기주간'으로 정해 캠페인을 벌이다 2008년부터 9월 9일 하루로 압축했다. 제주도와 서울시는 조례로 이날을 공식 기념일로 정했다."
+    },
+    "memes": [],
+    "sourceUrl": "https://ko.wikipedia.org/wiki/장기기증의_날"
+  },
+  {
+    "id": "anv-fixed-09-09-ear-day-kr",
+    "date": "09-09",
+    "dateType": "annual-fixed",
+    "name": "귀의 날",
+    "category": "general",
+    "tags": [
+      "일반"
+    ],
+    "storytelling": {
+      "origin": "1958년 대한이비인후과학회가 제정한 한국 기념일이다. 숫자 9의 우리말 발음 '구'가 '귀'와 비슷하고, 숫자 9의 모양이 사람 귀와 닮았다는 데서 9월 9일로 정했다.",
+      "anecdote": "제정 이듬해인 1961년부터 의료 관련 신문·잡지가 귀 건강 특집을 다루며 알려지기 시작했다. 지금도 매년 전국에서 난청 예방 강좌와 무료 검진 행사가 열린다. 세계보건기구가 3월 3일을 '세계 청력의 날'로 별도 지정하고 있어 국내 기념일과는 날짜가 다르다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-09-09-99-day-kr",
+    "date": "09-09",
+    "dateType": "annual-fixed",
+    "name": "구구데이",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "농림축산식품부가 국내 닭고기 소비를 늘리고 양계 농가를 지원하기 위해 2003년 지정한 한국 기념일이다. 숫자 99가 닭 울음소리 '구구'와 비슷하다는 데서 이름 붙었다.",
+      "anecdote": "이날이면 치킨 프랜차이즈들이 할인·증정 이벤트를 열어 '치킨 먹는 날'로도 통한다. 같은 9월 9일에 고양이의 날·장기 기증의 날·귀의 날까지 겹쳐 있다. 프랜차이즈 업계뿐 아니라 대형마트도 이 시기 닭고기 할인전을 함께 연다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "anv-fixed-09-13-world-sepsis-day-global",
     "date": "09-13",
     "dateType": "annual-fixed",
@@ -212,6 +324,38 @@
     "sourceUrl": "https://www.law.go.kr/법령/산업집적활성화및공장설립에관한법률"
   },
   {
+    "id": "anv-fixed-09-14-photo-day-kr",
+    "date": "09-14",
+    "dateType": "annual-fixed",
+    "name": "포토데이",
+    "category": "romance",
+    "tags": [
+      "연애 & 기념일"
+    ],
+    "storytelling": {
+      "origin": "매달 14일마다 이름을 붙이는 한국 '데이 문화'의 하나로, 9월 14일에는 연인이나 가족과 기념사진을 남긴다.",
+      "anecdote": "누가 언제 처음 정했는지는 뚜렷하지 않다. 스마트폰 촬영이 보편화되며 이 무렵 공원·유원지·사진 명소가 붐비는 진풍경이 매년 되풀이된다. 이 시기 사진관과 여행업계에서도 관련 상품을 내놓으며 마케팅에 활용한다. 사진관·여행업계에서도 이 시기 관련 상품을 내놓으며 마케팅에 활용한다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
+    "id": "anv-fixed-09-17-confession-day-kr",
+    "date": "09-17",
+    "dateType": "annual-fixed",
+    "name": "고백데이",
+    "category": "romance",
+    "tags": [
+      "연애 & 기념일"
+    ],
+    "storytelling": {
+      "origin": "12월 25일 크리스마스로부터 정확히 100일 전이라는 데서 비롯된 비공식 기념일이다. 이날 사귀기 시작하면 사귄 지 100일째 되는 날이 크리스마스가 된다.",
+      "anecdote": "특정 제정 주체 없이 2010년대 온라인 커뮤니티와 SNS를 통해 자연스럽게 퍼졌다. 숫자 917에 '영원(9)·하나됨(1)·행복(7)'을 갖다 붙이는 해석도 함께 떠돈다. 비슷한 시기 유통업계가 커플 상품을 홍보하면서 대중적으로 더 널리 알려진 측면도 있다."
+    },
+    "memes": [],
+    "sourceUrl": null
+  },
+  {
     "id": "gov-110",
     "date": "09-3-SAT",
     "dateType": "annual-nth-weekday",
@@ -243,6 +387,22 @@
     },
     "memes": [],
     "sourceUrl": "https://www.worldrhinoday.org/"
+  },
+  {
+    "id": "anv-fixed-09-23-international-day-of-sign-languages-global",
+    "date": "09-23",
+    "dateType": "annual-fixed",
+    "name": "국제 수화의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "2018년 UN 총회가 제정한 국제기념일이다. 날짜는 세계농아인연맹이 1951년 설립된 날에서 따왔다.",
+      "anecdote": "국제 농아인주간 안에 포함돼 함께 기념된다. 한국은 2016년 한국수어법을 시행해 한국수어를 한국어와 동등한 공용어로 인정하고 있다. 이날 전후로 한국을 포함해 각국 농인단체가 수어 교육·인식개선 행사를 연다. 세계농아인연맹은 190여 개 회원국을 두고 있으며, 이날을 계기로 각국 수어의 공용어 지위 인정을 촉구해 왔다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/International_Day_of_Sign_Languages"
   },
   {
     "id": "anv-rel-chuseok-minus1-separated-families-day-kr",
@@ -2653,6 +2813,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-pancake-day-september-26/"
   },
   {
+    "id": "anv-fixed-09-26-world-contraception-day-global",
+    "date": "09-26",
+    "dateType": "annual-fixed",
+    "name": "세계 피임의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "2007년 국제 가족계획 단체 10곳과 제약회사 바이엘이 공동으로 제정한 캠페인성 기념일이다.",
+      "anecdote": "원치 않는 임신을 예방하고 피임에 대한 정보 접근성을 높이자는 취지로 세계 각지에서 캠페인이 열린다. WHO가 하루에도 수백 명의 여성이 임신·출산 합병증으로 목숨을 잃는다고 추산하는 상황을 배경으로, 피임에 대한 정보 접근을 넓히자는 캠페인이 세계 곳곳에서 함께 열린다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.bayer.com/en/pharma/world-contraception-day-and-your-life-campaign"
+  },
+  {
     "id": "anv-fixed-09-27-gold-star-mothers-day-us",
     "date": "09-27",
     "dateType": "annual-fixed",
@@ -2827,6 +3003,22 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/national-good-neighbor-day-september-28/"
+  },
+  {
+    "id": "anv-fixed-09-28-international-day-for-universal-access-to-information-global",
+    "date": "09-28",
+    "dateType": "annual-fixed",
+    "name": "국제 정보 접근의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "유네스코가 2015년 지정해 2016년 처음 지켰고, 2019년 UN 총회가 국제기념일로 공식 선언했다.",
+      "anecdote": "아프리카 시민사회 단체들이 정보 공개 제도 확산을 요구하며 추진을 이끌었다. 지금도 아프리카연합 회원국 중 정보공개법을 도입한 나라는 17개국에 그친다. 정보 접근권은 부패를 줄이고 정부 신뢰도를 높이는 데도 기여한다는 점에서 국제 반부패 단체들도 이 캠페인을 지지해 왔다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/International_Day_for_Universal_Access_to_Information"
   },
   {
     "id": "anv-fixed-09-29-attend-your-grandchilds-birth-day-us",
@@ -3103,5 +3295,21 @@
     },
     "memes": [],
     "sourceUrl": "https://www.law.go.kr/법령/개인정보보호법"
+  },
+  {
+    "id": "anv-fixed-09-30-international-translation-day-global",
+    "date": "09-30",
+    "dateType": "annual-fixed",
+    "name": "국제 번역의 날",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "2017년 UN 총회가 결의(71/288)로 제정했다. 날짜는 성경을 라틴어로 번역해 번역가의 수호성인으로 불리는 성 예로니모의 축일에서 따왔다.",
+      "anecdote": "아제르바이잔·방글라데시·쿠바·터키 등 11개국이 공동 발의했다. 언어 장벽을 넘어 나라를 잇는 전문 번역가의 역할을 인정하자는 취지다. 유엔이 강조하는 다국어주의 정신과도 맞닿아 있어, 세계 각지 번역가·통역사 단체가 연대 행사를 함께 연다."
+    },
+    "memes": [],
+    "sourceUrl": "https://en.wikipedia.org/wiki/International_Translation_Day"
   }
 ]
