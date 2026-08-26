@@ -1,7 +1,7 @@
 # [기념일 만물상](https://annical.vercel.app/)
 
 세상의 다양하고 흥미로운 기념일을 매일 큐레이션 해주는 웹앱.
-전 세계 1,400개 기념일을 13개 카테고리로 분류해 피드·달력·캘린더 연동으로 제공한다.
+전 세계 1,572개 기념일을 13개 카테고리로 분류해 피드·달력·캘린더 연동으로 제공한다.
 
 ## 주요 기능
 
@@ -35,32 +35,86 @@ npm run type-check  # 타입 체크
 npm run build       # 프로덕션 빌드
 ```
 
+## URL 구조
+
+배포 기준 기본 URL은 `https://annical.vercel.app`이다.
+
+```text
+https://annical.vercel.app
+├── /                              # 오늘의 기념일 피드
+├── /calendar                      # 월간 달력·검색
+├── /export                        # .ics 다운로드·캘린더 구독
+├── /day/:date                     # 날짜별 기념일 허브 (:date = MM-DD)
+│   └── /:slug                     # 기념일 상세
+├── /api
+│   ├── /calendar                  # 캘린더 구독용 ICS 피드
+│   └── /stats                     # 익명 방문·조회 통계
+├── /sitemap.xml                   # 빌드 시 생성되는 사이트맵
+├── /robots.txt                    # 크롤러 정책
+└── 그 외 경로                     # noindex 404 페이지
+```
+
+| 경로 | 방식 | 설명 |
+|---|---|---|
+| `/` | 정적 진입점 + SPA | 오늘 날짜의 기념일과 관심도 순위를 표시한다. |
+| `/calendar` | SPA rewrite | 월별 달력에서 이름·태그로 기념일을 찾는다. |
+| `/export` | SPA rewrite | 선택한 카테고리·그룹으로 `.ics`를 만들거나 구독 URL을 발급한다. |
+| `/day/:date` | 프리렌더 | `MM-DD` 형식의 유효한 날짜 366개를 날짜 허브로 생성한다. 예: `/day/03-14` |
+| `/day/:date/:slug` | 프리렌더 | `routes.json`에 등록된 기념일 상세 페이지다. 예: `/day/03-14/pi-day` |
+| `/api/calendar` | Vercel Function | `GET`·`HEAD` 요청에 `text/calendar` 형식으로 응답한다. |
+| `/api/stats` | Vercel Function | `GET`으로 공개 통계를 조회하고 `POST`로 페이지뷰를 기록한다. |
+
+상세 경로는 `src/data/routes.json`이 관리하며 `npm run check:slugs`로 데이터와의 일치 여부를 검사한다. `annual-nth-weekday`처럼 실제 날짜가 해마다 달라지는 기념일도 검색 색인을 유지하도록 URL의 `:date`는 기준 연도(2026년) 값으로 고정한다. 화면에 표시되는 날짜와 날짜 허브 소속은 현재 연도의 실제 발생일을 계산해 사용한다.
+
+빌드 시 날짜 허브 366개와 기념일 상세 1,572개를 정적 HTML로 만들고 사이트맵에도 포함한다. `/calendar`와 `/export`만 `index.html`로 rewrite하며, 등록되지 않은 경로는 `404.html`로 응답한다.
+
 ## 디렉토리 구조
 
-```
-src/
-├── assets/                  # 글로벌 CSS, 정적 자원
-├── components/              # 도메인 무관 공통 UI
-│   ├── common/              #   원자 단위 (CategoryBadge 등)
-│   ├── layout/              #   AppShell, Header, Footer
-│   ├── card/                #   AnniversaryCard
-│   └── share/               #   ShareCard, ShareModal
-├── features/                # 도메인 기능 단위
-│   ├── feed/                #   오늘의 기념일 큐레이션 피드
-│   ├── calendar/            #   월간 달력 + 검색
-│   └── calendar-export/     #   .ics 다운로드 + 구독 URL
-├── data/                    # 정적 JSON DB
-│   ├── anniversaries/       #   01.json … 12.json (월별 분할, 총 1,400건)
-│   └── categories.json      #   13개 카테고리 정의
-├── services/                # 데이터 추상화 (Repository 패턴)
-├── stores/                  # Pinia 전역 상태
-├── router/
-├── types/                   # TS 타입 정의
-└── utils/                   # 순수 유틸 (날짜 계산, ics 생성 등)
-
-api/
-├── calendar.ts              # Vercel 서버리스 — 캘린더 구독 피드 (/api/calendar)
-└── stats.ts                 # Vercel 서버리스 — 공개 방문·조회 통계 (/api/stats)
+```text
+.
+├── api/                              # Vercel 서버리스 함수
+│   ├── calendar.ts                   #   캘린더 구독 피드 (/api/calendar)
+│   └── stats.ts                      #   공개 방문·조회 통계 (/api/stats)
+├── public/                           # 그대로 배포되는 정적 파일
+├── src/
+│   ├── assets/                       # 글로벌 CSS
+│   ├── components/                   # 도메인 공통 UI
+│   │   ├── card/                     #   기념일 카드
+│   │   ├── common/                   #   배지 등 원자 컴포넌트
+│   │   ├── layout/                   #   AppShell, Header, Footer
+│   │   └── share/                    #   공유 카드·모달
+│   ├── composables/                  # 전역 재사용 Composition 함수
+│   ├── data/                         # 정적 JSON 데이터베이스
+│   │   ├── anniversaries/            #   01.json … 12.json (월별, 총 1,572건)
+│   │   ├── categories.json           #   13개 카테고리
+│   │   ├── groups.json               #   교차 선택 그룹
+│   │   ├── observances.json          #   기념일 원본·보조 데이터
+│   │   └── routes.json               #   기념일 id ↔ URL 날짜·slug 매핑
+│   ├── features/                     # 도메인 기능 단위
+│   │   ├── calendar/                 #   월간 달력·검색
+│   │   ├── calendar-export/          #   .ics 다운로드·구독 URL
+│   │   ├── day/                      #   날짜 허브·기념일 상세
+│   │   ├── feed/                     #   오늘의 기념일 피드
+│   │   ├── notfound/                 #   클라이언트 404 화면
+│   │   └── stats/                    #   공개 통계 UI
+│   ├── router/                       # vue-router 라우트 정의
+│   ├── seo/                          # 메타 태그·canonical·JSON-LD
+│   ├── services/                     # 데이터 접근 계층 (Repository 패턴)
+│   ├── stores/                       # Pinia 전역 상태
+│   ├── types/                        # TypeScript 타입
+│   └── utils/                        # 날짜·URL·ICS 등 순수 유틸
+├── tests/                            # Vitest 데이터·API·빌드 검증
+├── tools/
+│   ├── enrich/                       # 데이터 보강 파이프라인
+│   ├── inspector/                    # 데이터 검수 도구
+│   ├── namuwiki/                     # 나무위키 데이터 수집·대조
+│   ├── observances/                  # observances 생성 도구
+│   ├── prerender/                    # 상세·날짜 허브 정적 HTML 생성
+│   ├── research/                     # 조사 자료
+│   └── slugs/                        # slug·routes.json 생성 및 검증
+├── index.html                        # Vite HTML 진입점
+├── vite.config.ts                    # Vite·사이트맵·프리렌더 설정
+└── vercel.json                       # rewrite·보안 헤더 설정
 ```
 
 ## 데이터 레이어 흐름
@@ -100,11 +154,25 @@ features/<domain>/views/*.vue       ← 화면
 ```
 GET /api/calendar
 GET /api/calendar?categories=food,holiday,quirky
+GET /api/calendar?groups=statutory
+GET /api/calendar?categories=food&groups=statutory
+HEAD /api/calendar
 ```
 
 - 응답 형식: `text/calendar` (`.ics`)
 - 전체 선택 시 쿼리 파라미터 생략 가능
+- 허용 쿼리: `categories`, `groups` (둘을 함께 지정하면 OR 조건)
 - CDN 캐시: 12시간 + 24시간 stale-while-revalidate
+
+## 통계 API
+
+```text
+GET  /api/stats                       # 전체 공개 통계·관심도 TOP 5
+GET  /api/stats?id=<anniversary-id>   # 전체 통계 + 해당 기념일 조회수·순위
+POST /api/stats                       # 페이지뷰 기록
+```
+
+`POST` 본문은 `application/json` 형식의 `{ "eventId": "<UUID>", "anniversaryId": "<선택>" }`를 사용한다. `anniversaryId`를 생략하면 일반 페이지뷰만 기록한다.
 
 ## 공개 통계 설정
 
