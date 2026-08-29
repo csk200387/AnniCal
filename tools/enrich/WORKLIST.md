@@ -6,29 +6,29 @@
 
 | 구간 | 건수 | 비율 |
 |---|---:|---:|
-| ~100자 | 136 | 7.8% |
+| ~100자 | 72 | 4.2% |
 | 100~200자 | 621 | 35.8% |
-| 200자~ (목표 달성) | 977 | 56.3% |
+| 200자~ (목표 달성) | 1,041 | 60.0% |
 
 ### 출처 그룹별
 
 | 그룹 | 전체 | ~100자 | 평균 |
 |---|---:|---:|---:|
-| 미국 nationaldaycalendar | 1133 | 136 | 161자 |
+| 미국 nationaldaycalendar | 1133 | 72 | 168자 |
 | 위키백과 | 123 | 0 | 226자 |
 | 기타 공식 출처 | 94 | 0 | 227자 |
 | 일본 zatsuneta | 29 | 0 | 229자 |
 | 출처 없음/비URL | 231 | 0 | 206자 |
 | gov-* 한국 법정·정부 | 124 | 0 | 222자 |
 
-## 유래 단서 상태 (~100자 136건)
+## 유래 단서 상태 (~100자 72건)
 
 | 등급 | 뜻 | 건수 |
 |---|---|---:|
 | A | 연도+주체 있음 — 확장만 | 0 |
 | B | 단서 일부 — 나머지 조사 | 0 |
 | C | 상투구만 — 유래 조사 필요 | 72 |
-| D | 설명만 — 유래 조사 필요 | 64 |
+| D | 설명만 — 유래 조사 필요 | 0 |
 
 > C·D 는 조사해도 **그 날짜의 유래가 없을 수 있다.** 미국 이색 기념일 상당수는
 > nationaldaycalendar 등록이 유일한 출처다. 그럴 때는 날짜의 유래를 지어내지 말고
@@ -152,122 +152,6 @@
 | 날짜 | 이름 | 자수 | 현재 origin | id |
 |---|---|---:|---|---|
 | 06-12 | 빨간 장미의 날 (National Red Rose Day) | 84 | 사랑과 열정을 상징하는 빨간 장미를 기념하는 날이다. | `anv-fixed-06-12-red-rose-day-us` |
-
-## D. 설명만 — 유래 조사 필요 — 64건
-
-### 직업 & 감사 (13건)
-
-| 날짜 | 이름 | 자수 | 현재 origin | id |
-|---|---|---:|---|---|
-| 04-16 | 잠옷 입고 출근하는 날 | 80 | 편안한 잠옷을 입고 출근하며 하루의 여유와 재미를 더해보자는 취지의 날이다. | `anv-fixed-04-16-pajamas-to-work-day-us` |
-| 06-02 | 조퇴해도 되는 날 | 84 | 평소보다 일찍 퇴근해 자신만의 시간을 가져보자는 취지의 날이다. | `anv-fixed-06-02-leave-the-office-early-day-us` |
-| 12-03 | 머리 위 지붕에 감사하는 날 | 84 | 추운 계절, 비바람을 막아주는 보금자리가 있다는 사실에 감사해보자는 날이다. | `anv-fixed-12-03-roof-over-your-head-day-us` |
-| 04-25 | 배관공을 안아주는 날 | 85 | 막힌 배관과 새는 수도를 고쳐주는 배관공들의 노고에 감사를 전하는 날이다. | `anv-fixed-04-25-hug-a-plumber-day-us` |
-| 08-11 | 아들·딸의 날 | 88 | 부모에게 더없이 소중한 존재인 아들과 딸에게 사랑을 전하는 날이다. | `anv-fixed-08-11-sons-and-daughters-day-us` |
-| 05-07 | 베이비시터의 날 (National Babysitter's Day) | 89 | 부모를 대신해 아이를 돌봐주는 베이비시터들의 수고에 감사를 전하는 날이다. | `anv-fixed-05-07-babysitters-day-us` |
-| 10-14 | 부모님과 점심 먹는 날 | 91 | 바쁜 일상 속에서 부모님과 여유롭게 점심 한 끼를 함께해보자는 취지의 날이다. | `anv-fixed-10-14-take-your-parents-to-lunch-day-us` |
-| 09-14 | 상사·직원 역할 바꾸는 날 | 92 | 상사와 직원이 하루 동안 역할을 바꿔보며 서로의 입장을 이해해보자는 취지의 날이다. | `anv-fixed-09-14-boss-employee-exchange-day-us` |
-| 09-04 | 상사를 안아주는 날 | 93 | 평소 어렵게만 느껴지던 상사에게 가벼운 친근함을 표현해보자는 유쾌한 기념일이다. | `anv-fixed-09-04-hug-your-boss-day-us` |
-| 12-26 | 감사 카드의 날 (National Thank-you Note Day) | 94 | 크리스마스에 받은 선물과 마음에 감사 카드로 답례해보자는 취지의 날이다. | `anv-fixed-12-26-thank-you-note-day-global` |
-| 09-22 | 여성 출장족의 날 | 95 | 비즈니스 출장으로 끊임없이 이동하는 여성 직장인들을 응원하는 날이다. | `anv-fixed-09-22-woman-road-warrior-day-us` |
-| 10-11 | 성직자 감사의 날 | 96 | 신앙 공동체를 이끌고 신도들의 마음을 보살피는 성직자들의 헌신에 감사를 전하는 날이다. | `anv-fixed-10-11-clergy-appreciation-day-global` |
-| 12-13 | 병리학자와 친구되는 날 | 99 | 현미경 너머에서 질병의 원인을 밝혀내는 병리학자들의 노고를 기리는 유쾌한 기념일이다. | `anv-fixed-12-13-pick-a-pathologist-pal-day-us` |
-
-### 음식 & 디저트 (13건)
-
-| 날짜 | 이름 | 자수 | 현재 origin | id |
-|---|---|---:|---|---|
-| 06-17 | 채소를 먹는 날 | 71 | 건강한 식습관을 위해 채소 섭취를 독려하는 날이다. | `anv-fixed-06-17-eat-your-vegetables-day-us` |
-| 07-03 | 콩을 먹는 날 (National Eat Your Beans Day) | 73 | 단백질과 식이섬유가 풍부한 콩류 섭취를 독려하는 날이다. | `anv-fixed-07-03-eat-your-beans-day-us` |
-| 07-23 | 리프레시먼트의 날 (National Refreshment Day) | 77 | 더운 날 시원한 음료로 활력을 되찾자는 취지의 날이다. | `anv-fixed-07-23-refreshment-day-us` |
-| 05-20 | 딸기 따는 날 | 79 | 직접 농장을 찾아 딸기를 수확하는 체험을 즐기자는 취지의 날이다. | `anv-fixed-05-20-pick-strawberries-day-us` |
-| 10-25 | 가장 신 음식의 날 (Sourest Day) | 83 | 새콤하고 시큼한 음식과 사탕을 도전적으로 즐겨보자는 유쾌한 기념일이다. | `anv-fixed-10-25-sourest-day-us` |
-| 12-05 | 욕조 파티의 날 (Bathtub Party Day) | 83 | 거품 가득한 욕조에 몸을 담그고 여유를 즐겨보자는 가벼운 기념일이다. | `anv-fixed-12-05-bathtub-party-day-global` |
-| 06-13 | 부엌 서투른 사람들의 날 | 87 | 요리할 때마다 작은 실수를 저지르는 사람들을 유쾌하게 위로하는 날이다. | `anv-fixed-06-13-kitchen-klutzes-day-us` |
-| 09-13 | 아이가 주방을 차지하는 날 | 87 | 아이들이 직접 요리를 해보며 주방의 주인공이 되어보는 날이다. | `anv-fixed-09-13-kids-take-over-kitchen-day-us` |
-| 11-23 | 크랜베리 먹는 날 | 88 | 새콤한 빨간 열매, 크랜베리를 그대로 즐겨보자는 취지의 날이다. | `anv-fixed-11-23-eat-a-cranberry-day-us` |
-| 12-05 | 루바브 보드카의 날 | 89 | 새콤한 루바브로 향을 낸 보드카를 즐겨보자는 날이다. | `anv-fixed-12-05-rhubarb-vodka-day-us` |
-| 07-01 | 창의적인 아이스크림 맛의 날 | 93 | 전통적인 맛을 벗어난 독창적인 아이스크림 맛을 시도해보자는 취지의 날이다. | `anv-fixed-07-01-creative-ice-cream-flavors-day-us` |
-| 11-25 | 앞치마 두르는 날 (Tie One On Day) | 95 | 추수감사절을 앞두고 앞치마를 두르고 파이를 구워 이웃과 나눠 먹자는 취지의 날이다. | `anv-fixed-11-25-tie-one-on-day-us` |
-| 12-16 | 초콜릿 코팅의 날 | 95 | 딸기든 과자든, 무엇이든 초콜릿으로 입혀 먹어보자는 즐거운 날이다. | `anv-fixed-12-16-chocolate-covered-anything-day-us` |
-
-### 동물 & 자연 (12건)
-
-| 날짜 | 이름 | 자수 | 현재 origin | id |
-|---|---|---:|---|---|
-| 08-06 | 상큼한 입냄새의 날 | 75 | 구강 건강과 상큼한 입냄새 관리의 중요성을 알리는 날이다. | `anv-fixed-08-06-fresh-breath-day-us` |
-| 09-13 | 사냥개를 안아주는 날 | 78 | 충직한 사냥개와 그 견종들에게 사랑을 표현해보자는 날이다. | `anv-fixed-09-13-hug-your-hound-day-us` |
-| 11-17 | 하이킹 가는 날 (National Take A Hike Day) | 81 | 산이나 트레일을 직접 걸으며 자연을 만끽해보자는 취지의 날이다. | `anv-fixed-11-17-take-a-hike-day-us` |
-| 06-30 | 유성 관측의 날 (National Meteor Watch Day) | 84 | 밤하늘을 가로지르는 유성을 관측하며 우주의 신비를 느껴보는 날이다. | `anv-fixed-06-30-meteor-watch-day-us` |
-| 10-17 | 대체 연료의 날 (Alternative Fuel Day) | 85 | 화석연료를 대체할 친환경 에너지원에 대한 관심을 높이기 위한 날이다. | `anv-fixed-10-17-alternative-fuel-day-global` |
-| 09-27 | 캔 찌그러뜨리는 날 (National Crush a Can Day) | 86 | 다 마신 음료 캔을 찌그러뜨려 재활용 준비를 하자는 환경 캠페인성 기념일이다. | `anv-fixed-09-27-crush-a-can-day-us` |
-| 06-21 | 일광 감사의 날 (National Daylight Appreciation Day) | 87 | 한 해 중 낮이 가장 긴 하지에 맞춰, 풍부한 햇빛과 일광의 가치를 감사하는 날이다. | `anv-fixed-06-21-daylight-appreciation-day-us` |
-| 10-10 | 코스튬 교환의 날 | 91 | 핼러윈을 앞두고 안 입는 코스튬 의상을 서로 교환해보자는 친환경적인 기념일이다. | `anv-fixed-10-10-costume-swap-day-us` |
-| 12-15 | 고양이 몰이꾼의 날 (Cat Herders Day) | 91 | 고양이처럼 제멋대로인 존재나 일을 다루는 어려움을 위로하는 유쾌한 기념일이다. | `anv-fixed-12-15-cat-herders-day-global` |
-| 10-21 | 파충류 인식의 날 (National Reptile Awareness Day) | 95 | 거북이, 뱀, 도마뱀 등 파충류에 대한 편견을 줄이고 올바른 이해를 돕기 위한 날이다. | `anv-fixed-10-21-reptile-awareness-day-global` |
-| 11-07 | 반려견 림프종 인식의 날 | 96 | 반려견에게 흔히 발생하는 암 중 하나인 림프종에 대한 인식을 높이기 위한 날이다. | `anv-fixed-11-07-canine-lymphoma-awareness-day-us` |
-| 05-04 | 자전거 통학의 날 (National Bike To School Day) | 98 | 학생들이 자전거를 타고 등교하며 건강과 환경 의식을 동시에 기르도록 독려하는 날이다. | `anv-fixed-05-04-bike-to-school-day-us` |
-
-### 국제 캠페인 & 보건 (7건)
-
-| 날짜 | 이름 | 자수 | 현재 origin | id |
-|---|---|---:|---|---|
-| 04-25 | 희망의 키스 날 | 82 | 암 등 질병과 싸우는 이들에게 희망과 사랑을 전하자는 의미를 담은 날이다. | `anv-fixed-04-25-kiss-of-hope-day-us` |
-| 10-13 | 두뇌를 훈련하는 날 (National Train Your Brain Day) | 88 | 퍼즐이나 새로운 학습으로 두뇌를 단련해보자는 취지의 날이다. | `anv-fixed-10-13-train-your-brain-day-us` |
-| 10-14 | 테디베어와 함께하는 날 | 88 | 어릴 적 친구였던 테디베어를 학교나 직장에 데려가 보자는 유쾌한 기념일이다. | `anv-fixed-10-14-bring-your-teddy-bear-day-us` |
-| 08-06 | 발가락 꼼지락거리는 날 | 92 | 신발을 벗고 발가락을 자유롭게 움직이며 작은 휴식을 가져보자는 유쾌한 기념일이다. | `anv-fixed-08-06-wiggle-your-toes-day-us` |
-| 05-11 | 폼롤러의 날 (National Foam Rolling Day) | 93 | 근육 회복과 유연성 향상에 도움을 주는 폼롤러 사용을 독려하는 날이다. | `anv-fixed-05-11-foam-rolling-day-us` |
-| 06-01 | 맨발로 걷는 날 | 94 | 신발을 벗고 맨발로 땅을 밟으며 자연과 교감해보자는 취지의 날이다. | `anv-fixed-06-01-go-barefoot-day-us` |
-| 10-14 | 괴롭힘 근절의 날 (National Stop Bullying Day) | 94 | 학교와 사회에서 일어나는 괴롭힘 문제를 알리고 근절을 독려하기 위한 날이다. | `anv-fixed-10-14-stop-bullying-day-us` |
-
-### 일반 (7건)
-
-| 날짜 | 이름 | 자수 | 현재 origin | id |
-|---|---|---:|---|---|
-| 10-30 | 서비스를 위해 목소리 내는 날 | 89 | 받은 서비스에 대한 의견과 피드백을 적극적으로 표현해보자는 취지의 날이다. | `anv-fixed-10-30-speak-up-for-service-day-us` |
-| 06-13 | 정원의 잡초 뽑는 날 | 90 | 정원이나 화단의 잡초를 정리하며 식물이 잘 자랄 수 있는 환경을 만들어주는 날이다. | `anv-fixed-06-13-weed-your-garden-day-us` |
-| 12-01 | 나눔의 날 (National Day of Giving) | 93 | 연말을 맞아 어려운 이웃에게 작은 나눔을 실천해보자는 취지의 날이다. | `anv-fixed-12-01-day-of-giving-us` |
-| 11-01 | 가족 문해력의 날 (National Family Literacy Day) | 94 | 가족이 함께 책을 읽고 문해력을 키워가는 문화를 독려하기 위한 날이다. | `anv-fixed-11-01-family-literacy-day-us` |
-| 10-15 | 고객을 알아가는 날 | 95 | 단순한 거래를 넘어 고객과 진심으로 소통해보자는 취지의 비즈니스 기념일이다. | `anv-fixed-10-15-get-to-know-your-customers-day-us` |
-| 09-25 | 차량 점검의 날 (National Tune-Up Day) | 96 | 본격적인 가을·겨울철을 앞두고 자동차 점검을 받아보자는 취지의 날이다. | `anv-fixed-09-25-tune-up-day-us` |
-| 02-26 | 동화 들려주는 날 | 99 | 아이들에게 동화를 읽어주거나 들려주며 상상력과 교훈을 전하자는 취지로 만들어진 날. | `anv-fixed-02-26-tell-a-fairy-tale-day-global` |
-
-### 문화 & 예술 (4건)
-
-| 날짜 | 이름 | 자수 | 현재 origin | id |
-|---|---|---:|---|---|
-| 05-03 | 짝짝이 신발의 날 | 77 | 일부러 색이 다른 신발 두 짝을 신어보며 가볍게 일상에 재미를 더하는 날이다. | `anv-fixed-05-03-two-different-colored-shoes-day-us` |
-| 05-22 | 악기를 사는 날 | 79 | 미뤄왔던 악기 구입을 결심하고 새로운 취미에 도전해보자는 취지의 날이다. | `anv-fixed-05-22-buy-a-musical-instrument-day-us` |
-| 12-12 | 딩어링의 날 | 84 | 방울 소리처럼 경쾌한 것들을 기념하며 즐겁게 보내자는 가벼운 기념일이다. | `anv-fixed-12-12-ding-a-ling-day-us` |
-| 04-28 | 주머니 속 시의 날 | 99 | 좋아하는 시 한 편을 주머니에 넣고 다니며 사람들과 나누는 캠페인성 기념일이다. | `anv-fixed-04-28-poem-in-your-pocket-day-us` |
-
-### 학술 & 기술 (2건)
-
-| 날짜 | 이름 | 자수 | 현재 origin | id |
-|---|---|---:|---|---|
-| 10-14 | 화석의 날 (National Fossil Day) | 90 | 수백만 년 전 생명체의 흔적을 간직한 화석의 과학적 가치를 알리기 위한 날이다. | `anv-fixed-10-14-fossil-day-us` |
-| 10-19 | 바탕화면 정리하는 날 | 93 | 아이콘으로 가득 찬 컴퓨터 바탕화면을 깨끗하게 정리해보자는 취지의 날이다. | `anv-fixed-10-19-clean-virtual-desktop-day-us` |
-
-### 역사 & 추모 (2건)
-
-| 날짜 | 이름 | 자수 | 현재 origin | id |
-|---|---|---:|---|---|
-| 05-09 | 잃어버린 양말 추모의 날 | 84 | 세탁기 속에서 사라져 짝을 잃은 양말들을 유쾌하게 추모하는 날이다. | `anv-fixed-05-09-lost-sock-memorial-day-us` |
-| 12-23 | 뿌리를 찾는 날 (National Roots Day) | 95 | 연말 가족이 모이는 시기, 자신의 가족사와 뿌리를 찾아보자는 취지의 날이다. | `anv-fixed-12-23-roots-day-us` |
-
-### 연애 & 기념일 (2건)
-
-| 날짜 | 이름 | 자수 | 현재 origin | id |
-|---|---|---:|---|---|
-| 09-20 | 아내에게 감사하는 날 | 87 | 가정을 함께 일구어가는 아내의 노고와 사랑에 감사를 전하는 날이다. | `anv-fixed-09-20-wife-appreciation-day-us` |
-| 08-25 | 화해의 키스 날 | 92 | 다툰 연인이나 가족과 화해하고 관계를 회복하자는 취지의 날이다. | `anv-fixed-08-25-kiss-and-make-up-day-us` |
-
-### 스포츠 & 레저 (2건)
-
-| 날짜 | 이름 | 자수 | 현재 origin | id |
-|---|---|---:|---|---|
-| 07-22 | 해먹의 날 (National Hammock Day) | 94 | 나무 사이에 매달아 늘어지는 그물침대, 해먹에서 여유를 즐기자는 취지의 날이다. | `anv-fixed-07-22-hammock-day-us` |
-| 12-18 | 언더독의 날 (Underdog Day) | 96 | 주목받지 못하지만 끝까지 최선을 다하는 약자, 언더독을 응원하는 날이다. | `anv-fixed-12-18-underdog-day-global` |
 
 ## 100~200자 621건
 
