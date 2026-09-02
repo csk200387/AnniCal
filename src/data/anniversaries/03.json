@@ -3063,6 +3063,22 @@
     "sourceUrl": "https://nationaldaycalendar.com/national-weed-appreciation-day-march-28/"
   },
   {
+    "id": "anv-fixed-03-28-solar-salt-day-kr",
+    "date": "03-28",
+    "dateType": "annual-fixed",
+    "name": "천일염의 날",
+    "category": "food",
+    "tags": [
+      "음식 & 디저트"
+    ],
+    "storytelling": {
+      "origin": "국내 최대 천일염 생산지인 전라남도 신안군이 2008년 「신안군 천일염의 날 지정에 관한 조례」를 제정해 매년 3월 28일로 정한 지역 기념일이다.",
+      "anecdote": "신안군은 전국 천일염 생산량의 상당 부분을 차지하며, 태평염전 등 대규모 염전이 몰려 있다. 2008년 천일염이 광물이 아닌 식품으로 법적 분류가 바뀐 것을 계기로, 산업 진흥과 품질 홍보를 위해 이 조례가 만들어진 것으로 알려져 있다."
+    },
+    "memes": [],
+    "sourceUrl": "https://www.law.go.kr/LSW//ordinInfoP.do?ordinSeq=947085&chrClsCd=010202&gubun=ELIS"
+  },
+  {
     "id": "anv-fixed-03-29-mom-and-pop-business-owners-day-us",
     "date": "03-29",
     "dateType": "annual-fixed",
