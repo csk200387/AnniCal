@@ -1,204 +1,137 @@
 <script setup lang="ts">
-import { computed, onBeforeUnmount, ref, watch } from 'vue'
+import { computed, ref, watch } from 'vue'
 import dayjs from 'dayjs'
 import { RouterLink } from 'vue-router'
 import { useTodayFeed } from '../composables/useTodayFeed'
+import { useFeedMotion } from '../composables/useFeedMotion'
 import TodayStoryCard from '../components/TodayStoryCard.vue'
+import CalendarArtwork from '../components/CalendarArtwork.vue'
 import type { Anniversary } from '@/types/anniversary'
+import type { CategoryId } from '@/types/category'
 import { useShareStore } from '@/stores/share'
-import { formatKoreanMonthDay } from '@/utils/dateUtils'
+import { useAnniversariesStore } from '@/stores/anniversaries'
 import { pathFor } from '@/utils/anniversaryRoutes'
 import AudienceStats from '@/features/stats/components/AudienceStats.vue'
 import PopularityRanking from '@/features/stats/components/PopularityRanking.vue'
 
 const { todays, upcoming, today, isLoading, error } = useTodayFeed(30)
+const { vReveal, reducedMotion } = useFeedMotion()
 const shareStore = useShareStore()
-
-const PAGE_SIZE = 10
-const revealCount = ref(PAGE_SIZE)
-const totalCount = computed(() => todays.value.length + upcoming.value.length)
-const needsPaging = computed(() => totalCount.value >= PAGE_SIZE)
-const visibleUpcoming = computed(() => {
-  if (!needsPaging.value) return upcoming.value
-  const limit = Math.max(revealCount.value - todays.value.length, 0)
-  return upcoming.value.slice(0, limit)
-})
-const hasMore = computed(
-  () => needsPaging.value && visibleUpcoming.value.length < upcoming.value.length,
-)
-
-watch([todays, upcoming], () => {
-  if (revealCount.value < PAGE_SIZE) revealCount.value = PAGE_SIZE
-})
-
-const sentinelRef = ref<HTMLElement | null>(null)
-let observer: IntersectionObserver | null = null
-watch(sentinelRef, (el) => {
-  observer?.disconnect()
-  observer = null
-  if (!el) return
-  observer = new IntersectionObserver((entries) => {
-    if (entries[0]?.isIntersecting && hasMore.value) revealCount.value += PAGE_SIZE
-  })
-  observer.observe(el)
-})
-onBeforeUnmount(() => observer?.disconnect())
-
+const store = useAnniversariesStore()
 const todayValue = computed(() => dayjs(today.value))
-const issueLabel = computed(() => {
-  const d = todayValue.value
-  const dayOfYear = d.diff(d.startOf('year'), 'day') + 1
-  return `Vol. ${d.year()} · Issue ${String(dayOfYear).padStart(3, '0')}`
-})
-const monthLabel = computed(() =>
-  ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'][todayValue.value.month()],
-)
-const weekdayLabel = computed(() =>
-  ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'][todayValue.value.day()],
-)
-const todayStoryLine = computed(() => {
-  if (!todays.value.length) return '오늘은 등록된 기념일이 없어요. 다가오는 이야기를 먼저 만나보세요.'
-  const names = todays.value.map((item) => item.name)
-  if (names.length <= 2) return `오늘의 이야기 — ${names.join(' · ')}`
-  return `오늘의 이야기 — ${names.slice(0, 2).join(' · ')} 외 ${names.length - 2}개`
+const dateLabel = computed(() => todayValue.value.format('YYYY.MM.DD'))
+const weekday = computed(() => ['일', '월', '화', '수', '목', '금', '토'][todayValue.value.day()])
+const motionPaused = ref(false)
+const storiesRef = ref<HTMLElement | null>(null)
+const heroRef = ref<HTMLElement | null>(null)
+const activeCategory = ref<CategoryId | 'all'>('all')
+const pageSize = 8
+const revealCount = ref(pageSize)
+const categoryFilters = computed(() => store.categories.filter((category) => upcoming.value.some(({ anniversary }) => anniversary.category === category.id)))
+const filteredUpcoming = computed(() => upcoming.value.filter(({ anniversary }) => activeCategory.value === 'all' || anniversary.category === activeCategory.value))
+const visibleUpcoming = computed(() => filteredUpcoming.value.slice(0, revealCount.value))
+const hasMore = computed(() => revealCount.value < filteredUpcoming.value.length)
+watch(activeCategory, () => { revealCount.value = pageSize })
+watch(categoryFilters, (categories) => {
+  if (activeCategory.value !== 'all' && !categories.some((category) => category.id === activeCategory.value)) activeCategory.value = 'all'
 })
 
-function handleShare(anv: Anniversary, dDay?: number) {
-  shareStore.open(anv, dDay)
+const miniCalendar = computed(() => {
+  const start = todayValue.value.startOf('month')
+  return Array.from({ length: start.day() + start.daysInMonth() }, (_, index) => index < start.day() ? null : index - start.day() + 1)
+})
+
+function scrollToStories() {
+  storiesRef.value?.scrollIntoView({ behavior: reducedMotion.value ? 'auto' : 'smooth', block: 'start' })
+  storiesRef.value?.focus({ preventScroll: true })
 }
+function moveArtwork(event: PointerEvent) {
+  if (!heroRef.value || reducedMotion.value || motionPaused.value || event.pointerType !== 'mouse') return
+  const rect = heroRef.value.getBoundingClientRect()
+  heroRef.value.style.setProperty('--pointer-x', `${((event.clientX - rect.left) / rect.width - 0.5) * 14}px`)
+  heroRef.value.style.setProperty('--pointer-y', `${((event.clientY - rect.top) / rect.height - 0.5) * 10}px`)
+}
+function resetArtwork() {
+  heroRef.value?.style.setProperty('--pointer-x', '0px')
+  heroRef.value?.style.setProperty('--pointer-y', '0px')
+}
+watch(motionPaused, resetArtwork)
+function handleShare(anniversary: Anniversary, dDay?: number) { shareStore.open(anniversary, dDay) }
+function upcomingDate(dDay: number) { return todayValue.value.add(dDay, 'day') }
+function categoryLabel(id: CategoryId) { return store.categories.find((category) => category.id === id)?.label ?? '기념일' }
 </script>
 
 <template>
-  <div>
-    <section class="grid overflow-hidden border-b border-ink-900 md:grid-cols-[minmax(220px,0.68fr)_minmax(0,1.32fr)]">
-      <div class="relative flex min-h-[285px] flex-col justify-between overflow-hidden bg-accent-600 p-7 text-paper-50 md:min-h-[430px] md:p-8">
-        <div class="absolute -right-28 -top-24 h-72 w-72 rounded-full border border-paper-50/15" aria-hidden="true" />
-        <div class="absolute -bottom-24 -right-12 h-56 w-56 rounded-full border border-paper-50/15 shadow-[0_0_0_28px_rgba(255,255,255,0.035)]" aria-hidden="true" />
-        <p class="eyebrow !text-paper-200">{{ issueLabel }}</p>
-        <strong class="relative z-10 my-8 font-display text-[7.5rem] font-normal leading-[0.75] tracking-[-0.09em] md:text-[10.5rem]">
-          {{ todayValue.date() }}
-        </strong>
-        <div class="relative z-10 flex items-end justify-between gap-5">
-          <span class="font-display text-3xl">{{ monthLabel }}</span>
-          <span class="pb-1 text-right text-[0.6rem] uppercase tracking-[0.2em]">
-            {{ weekdayLabel }}<br />{{ todayValue.year() }}
-          </span>
+  <div class="home-page" :class="{ 'motion-paused': motionPaused || reducedMotion }">
+    <section ref="heroRef" class="home-hero" aria-labelledby="hero-title" @pointermove="moveArtwork" @pointerleave="resetArtwork">
+      <div class="hero-topline"><span>MAKE EVERY DAY A LITTLE SPECIAL</span><span>기념일 만물상 · ANNICAL</span></div>
+      <div class="hero-content">
+        <div class="hero-copy">
+          <p class="hero-eyebrow"><span class="tiny-spark" aria-hidden="true">✳</span> 하루에 하나, 새로운 발견</p>
+          <h1 id="hero-title">평범한 하루에,<br />기념할 이유 <span class="hero-last-word">하나<svg viewBox="0 0 160 18" fill="none" aria-hidden="true"><path d="M4 12Q72 0 155 8M18 16Q90 8 141 13" stroke="currentColor" stroke-width="3" stroke-linecap="round" /></svg></span><span class="hero-period">.</span></h1>
+          <p class="hero-description">누군가는 오늘을 특별한 날로 정해두었어요.<br />세상 곳곳의 기념일과 그 안에 담긴 이야기를 만나보세요.</p>
+          <div class="hero-actions">
+            <button type="button" class="home-button home-button--dark" @click="scrollToStories">오늘의 기념일 발견하기 <span aria-hidden="true">↗</span></button>
+            <RouterLink to="/calendar" class="hero-calendar-link">달력 둘러보기 <span aria-hidden="true">→</span></RouterLink>
+          </div>
         </div>
+        <CalendarArtwork :today="today" />
       </div>
-
-      <div class="flex flex-col justify-end py-9 md:py-10 md:pl-16 lg:pl-20">
-        <div class="flex items-center gap-3">
-          <span class="h-px w-10 bg-accent-600" />
-          <span class="eyebrow">The Daily Edition</span>
-        </div>
-        <h1 class="mt-7 font-display text-[3.1rem] font-normal leading-[0.98] tracking-[-0.055em] text-ink-900 sm:text-[4rem] lg:text-[4.75rem]">
-          오늘이라는 날짜에<br /><em class="font-normal text-accent-600">이야기를 더합니다.</em>
-        </h1>
-        <p class="mt-6 max-w-2xl font-display text-lg leading-[1.7] text-ink-600">
-          평범해 보이는 하루에도 누군가가 기억해 둔 이야기가 있습니다.
-        </p>
-        <p class="mt-2 max-w-2xl text-xs leading-relaxed text-ink-400">{{ todayStoryLine }}</p>
-        <div class="mt-7 flex max-w-xl gap-10 border-t hairline pt-4">
-          <div><span class="eyebrow">Today</span><strong class="mt-1 block font-display text-2xl font-normal">{{ todays.length }} stories</strong></div>
-          <div><span class="eyebrow">Next 30 days</span><strong class="mt-1 block font-display text-2xl font-normal">{{ upcoming.length }} stories</strong></div>
-        </div>
+      <div class="hero-bottomline">
+        <p><span class="live-dot" /> {{ dateLabel }} <span class="hero-bottom-divider">/</span> {{ weekday }}요일의 작은 발견</p>
+        <button v-if="!reducedMotion" type="button" class="motion-control" :aria-pressed="motionPaused" :aria-label="motionPaused ? '장식 애니메이션 재생' : '장식 애니메이션 일시정지'" @click="motionPaused = !motionPaused"><span aria-hidden="true">{{ motionPaused ? '▶' : 'Ⅱ' }}</span></button>
+        <button type="button" class="hero-scroll" @click="scrollToStories">SCROLL TO DISCOVER <span aria-hidden="true">↓</span></button>
       </div>
     </section>
 
-    <AudienceStats />
+    <div class="discovery-strip" aria-label="기념일 안내">
+      <span><span class="strip-flower" aria-hidden="true">✳</span> 모든 날에는 이야기가 있어요</span>
+      <span>오늘의 기념일 <strong>{{ isLoading && !todays.length ? '—' : todays.length }}<small>개</small></strong></span>
+      <span>앞으로 30일 <strong>{{ isLoading && !upcoming.length ? '—' : upcoming.length }}<small>개의 발견</small></strong></span>
+      <span class="strip-signoff">A NEW DAY, A NEW STORY.</span>
+    </div>
 
-    <p v-if="isLoading" class="mt-14 eyebrow">Loading…</p>
-    <p v-else-if="error" class="mt-14 text-sm text-accent-600">{{ error }}</p>
+    <div class="home-container">
+      <section ref="storiesRef" class="home-section today-section" tabindex="-1" aria-labelledby="today-title">
+        <div v-reveal class="section-heading">
+          <div><p class="section-kicker"><span /> TODAY’S DISCOVERIES</p><h2 id="today-title">오늘은 이런 날이에요<span class="heading-dot">.</span></h2><p class="section-description">{{ todayValue.month() + 1 }}월 {{ todayValue.date() }}일, 알고 나면 조금 다르게 보일 오늘.</p></div>
+          <span class="date-pill">{{ String(todayValue.month() + 1).padStart(2, '0') }}.{{ String(todayValue.date()).padStart(2, '0') }} <span>{{ weekday }}요일</span></span>
+        </div>
+        <div v-if="isLoading && !todays.length" class="story-grid" role="status" aria-label="오늘의 기념일 불러오는 중"><div v-for="n in 3" :key="n" class="story-skeleton"><span /><span /><span /></div></div>
+        <div v-else-if="error" class="home-empty" role="alert"><h3>이야기를 불러오지 못했어요.</h3><p>잠시 후 다시 시도해 주세요.</p><button type="button" class="home-button home-button--dark" @click="store.retry()">다시 불러오기 ↗</button></div>
+        <div v-else-if="todays.length" class="story-grid" :class="{ 'story-grid--two': todays.length === 2, 'story-grid--one': todays.length === 1 }">
+          <TodayStoryCard v-for="(anniversary, index) in todays" :key="anniversary.id" v-reveal :anniversary="anniversary" :index="index" :style="{ '--reveal-delay': `${Math.min(index, 2) * 75}ms` }" @share="handleShare" />
+        </div>
+        <div v-else class="home-empty"><span class="empty-flower" aria-hidden="true">✳</span><h3>아직 이름 붙이지 않은 하루예요.</h3><p>오늘은 나만의 기념일을 만들어보는 건 어때요?<br />아래에서 다가오는 기념일도 만나보세요.</p></div>
+      </section>
 
-    <template v-else>
-      <section class="mt-16">
-        <div class="mb-6 flex flex-col items-start justify-between gap-4 border-b border-ink-900 pb-5 sm:flex-row sm:items-end">
-          <div>
-            <p class="eyebrow"><span class="mr-2 inline-grid h-6 w-6 place-items-center rounded-full border hairline font-display text-xs text-accent-600">01</span>Today’s Stories</p>
-            <h2 class="mt-2 font-display text-3xl font-normal tracking-[-0.04em] text-ink-900 sm:text-4xl">
-              {{ todayValue.month() + 1 }}월 {{ todayValue.date() }}일의 기념일
-            </h2>
+      <section v-if="upcoming.length" class="home-section" aria-labelledby="upcoming-title">
+        <div v-reveal class="section-heading"><div><p class="section-kicker"><span /> SOMETHING TO LOOK FORWARD TO</p><h2 id="upcoming-title">다가올 날도 기대되니까<span class="heading-dot">.</span></h2><p class="section-description">미리 알아두면 더 즐거운, 앞으로 30일의 기념일.</p></div><RouterLink to="/calendar" class="section-text-link">전체 달력 보기 <span aria-hidden="true">↗</span></RouterLink></div>
+        <div class="upcoming-layout">
+          <div v-reveal class="upcoming-main">
+            <div class="category-filters" role="group" aria-label="다가오는 기념일 카테고리">
+              <button type="button" :aria-pressed="activeCategory === 'all'" @click="activeCategory = 'all'">전체 <span>{{ upcoming.length }}</span></button>
+              <button v-for="category in categoryFilters" :key="category.id" type="button" :aria-pressed="activeCategory === category.id" @click="activeCategory = category.id">{{ category.label }}</button>
+            </div>
+            <p class="upcoming-result-count" role="status">{{ activeCategory === 'all' ? '전체' : categoryLabel(activeCategory) }} 기념일 {{ filteredUpcoming.length }}개</p>
+            <ol class="upcoming-list">
+              <li v-for="{ anniversary, dDay } in visibleUpcoming" :key="anniversary.id" class="upcoming-item">
+                <time :datetime="upcomingDate(dDay).format('YYYY-MM-DD')" class="upcoming-date"><span>{{ upcomingDate(dDay).month() + 1 }}월</span><strong>{{ String(upcomingDate(dDay).date()).padStart(2, '0') }}</strong></time>
+                <div class="upcoming-info"><span>{{ categoryLabel(anniversary.category) }}</span><RouterLink v-if="pathFor(anniversary)" :to="pathFor(anniversary)!">{{ anniversary.name }}</RouterLink><strong v-else>{{ anniversary.name }}</strong></div>
+                <span class="dday-pill">D−{{ dDay }}</span>
+                <button type="button" class="round-icon-button upcoming-share" :aria-label="`${anniversary.name} 공유`" @click="handleShare(anniversary, dDay)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 15V3m-4 4 4-4 4 4M6 11H4v9h16v-9h-2" stroke-linecap="round" stroke-linejoin="round" /></svg></button>
+              </li>
+            </ol>
+            <button v-if="hasMore" type="button" class="load-more-button" @click="revealCount += pageSize">기념일 더 보기 <span>{{ visibleUpcoming.length }} / {{ filteredUpcoming.length }}</span><span aria-hidden="true">↓</span></button>
           </div>
-          <p class="max-w-xs font-display text-sm italic leading-relaxed text-ink-400 sm:text-right">
-            오늘 등록된 모든 기념일을 한 편의 짧은 기사처럼 읽어보세요.
-          </p>
-        </div>
-
-        <div v-if="todays.length" class="grid gap-5 lg:grid-cols-[1.18fr_0.82fr]">
-          <TodayStoryCard
-            v-for="(anniversary, index) in todays"
-            :key="anniversary.id"
-            :anniversary="anniversary"
-            :index="index"
-            :featured="index === 0"
-            @share="handleShare"
-          />
-        </div>
-        <div v-else class="border-y hairline bg-paper-50 px-6 py-16 text-center">
-          <p class="eyebrow">No entries for today</p>
-          <p class="mt-3 font-display text-lg italic text-ink-500">오늘은 등록된 기념일이 없어요.</p>
-          <p class="mt-1 text-sm text-ink-400">아래에서 다가오는 기념일을 둘러보세요.</p>
+          <aside v-reveal class="calendar-promo"><p class="section-kicker">YOUR NEXT FAVORITE DAY</p><h3>좋아하는 날을<br />하나씩 찾아보세요.</h3><p>한 달의 이야기를 한눈에.<br />날짜마다 새로운 발견이 기다려요.</p><div class="mini-calendar" aria-hidden="true"><div class="mini-calendar-heading"><strong>{{ todayValue.year() }}.{{ String(todayValue.month() + 1).padStart(2, '0') }}</strong><span>↗</span></div><div class="mini-calendar-grid"><span v-for="(day, index) in ['S', 'M', 'T', 'W', 'T', 'F', 'S']" :key="`weekday-${index}`" class="mini-weekday">{{ day }}</span><span v-for="(day, index) in miniCalendar" :key="index" :class="{ 'mini-today': day === todayValue.date() }">{{ day }}</span></div></div><RouterLink to="/calendar" class="home-button home-button--accent">기념일 달력 열기 <span aria-hidden="true">↗</span></RouterLink><span class="promo-spark" aria-hidden="true">✳</span></aside>
         </div>
       </section>
 
-      <section v-if="upcoming.length" class="mt-16">
-        <div class="mb-6 flex flex-col items-start justify-between gap-4 border-b border-ink-900 pb-5 sm:flex-row sm:items-end">
-          <div>
-            <p class="eyebrow"><span class="mr-2 inline-grid h-6 w-6 place-items-center rounded-full border hairline font-display text-xs text-accent-600">02</span>Upcoming</p>
-            <h2 class="mt-2 font-display text-3xl font-normal tracking-[-0.04em] text-ink-900 sm:text-4xl">다가오는 기념일</h2>
-          </div>
-          <p class="max-w-xs font-display text-sm italic leading-relaxed text-ink-400 sm:text-right">
-            앞으로 30일 동안 이어질 이야기를 날짜순으로 살펴봅니다.
-          </p>
-        </div>
+      <PopularityRanking />
 
-        <div class="grid items-start gap-10 lg:grid-cols-[minmax(0,1fr)_280px]">
-          <ol class="border-t hairline">
-            <li
-              v-for="{ anniversary, dDay } in visibleUpcoming"
-              :key="anniversary.id"
-              class="grid min-h-20 grid-cols-[5.5rem_minmax(0,1fr)_auto] items-center gap-3 border-b hairline sm:gap-5"
-            >
-              <time class="text-xs tabular-nums text-ink-400">{{ formatKoreanMonthDay(anniversary, todayValue.year()) }}</time>
-              <div class="min-w-0">
-                <RouterLink
-                  v-if="pathFor(anniversary)"
-                  :to="pathFor(anniversary)!"
-                  class="font-display text-lg text-ink-800 transition hover:text-accent-600"
-                >{{ anniversary.name }}</RouterLink>
-                <span v-else class="font-display text-lg text-ink-800">{{ anniversary.name }}</span>
-                <span class="mt-1 block text-[0.58rem] uppercase tracking-[0.16em] text-ink-400">{{ anniversary.tags[0] }}</span>
-              </div>
-              <button
-                type="button"
-                class="font-display text-base text-accent-600 transition hover:text-accent-700"
-                :aria-label="`${anniversary.name} 공유`"
-                @click="handleShare(anniversary, dDay)"
-              >D−{{ dDay }}</button>
-            </li>
-          </ol>
-
-          <aside class="border-t-4 border-accent-600 bg-paper-200 p-6">
-            <p class="eyebrow">Browse the month</p>
-            <strong class="mt-4 block font-display text-2xl font-normal leading-tight text-ink-900">
-              이번 달의 모든 날을<br />한눈에 살펴보기
-            </strong>
-            <p class="mt-4 font-display text-sm leading-relaxed text-ink-500">
-              달력에서 날짜를 고르면 그날의 기념일과 이야기를 바로 확인할 수 있습니다.
-            </p>
-            <RouterLink
-              to="/calendar"
-              class="mt-7 inline-block border-b border-ink-800 pb-1 text-[0.65rem] uppercase tracking-[0.16em] text-ink-800 transition hover:border-accent-600 hover:text-accent-600"
-            >Open Calendar →</RouterLink>
-          </aside>
-        </div>
-
-        <div v-if="hasMore" ref="sentinelRef" class="pt-10 text-center">
-          <span class="eyebrow">Loading more…</span>
-        </div>
-      </section>
-    </template>
-
-    <PopularityRanking />
+      <section v-reveal class="subscribe-banner" aria-labelledby="subscribe-title"><div class="subscribe-art" aria-hidden="true"><span>✓</span><span>✳</span></div><div><p class="section-kicker">KEEP YOUR FAVORITE DAYS CLOSE</p><h2 id="subscribe-title">기억하고 싶은 날은, 내 캘린더에.</h2><p>구글·애플 캘린더에 담아두고 매일의 작은 기념일을 만나보세요.</p></div><RouterLink to="/export" class="home-button home-button--dark">내 캘린더에 담기 <span aria-hidden="true">↗</span></RouterLink></section>
+      <AudienceStats />
+    </div>
   </div>
 </template>

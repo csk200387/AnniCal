@@ -364,24 +364,22 @@ async function handleNativeShare() {
         @keydown="onKeydown"
       >
         <div
-          class="relative flex w-full max-w-xl flex-col gap-6 border hairline bg-paper-50 px-6 py-7 shadow-[0_30px_80px_-30px_rgba(10,9,8,0.5)] sm:px-8 sm:py-9"
+          class="home-page relative flex w-full max-w-xl flex-col gap-6 rounded-3xl border border-rule bg-paper-50 px-6 py-7 shadow-[0_30px_80px_-30px_rgba(10,9,8,0.5)] sm:px-8 sm:py-9"
         >
           <!-- 헤더 -->
           <header class="flex items-start justify-between gap-4">
             <div>
-              <p class="eyebrow">Share</p>
-              <h2
-                class="mt-2 font-display text-2xl font-medium tracking-tight text-ink-900"
-              >
-                공유하기
+              <p class="section-kicker"><span /> SHARE</p>
+              <h2 class="mt-3 text-2xl font-semibold tracking-[-0.05em] text-ink-700">
+                공유하기<span class="heading-dot">.</span>
               </h2>
-              <p class="mt-1 text-xs text-ink-400">
+              <p class="mt-1.5 text-xs text-ink-400">
                 이미지로 저장하거나 링크를 보내세요.
               </p>
             </div>
             <button
               type="button"
-              class="grid h-8 w-8 place-items-center border border-rule font-display text-base leading-none text-ink-500 transition hover:border-ink-800 hover:text-ink-900"
+              class="round-icon-button text-lg leading-none"
               aria-label="닫기"
               @click="close"
             >
@@ -392,7 +390,7 @@ async function handleNativeShare() {
           <!-- 미리보기 -->
           <div ref="previewWrapRef" class="w-full min-w-0 overflow-hidden">
             <div
-              class="mx-auto overflow-hidden border hairline shadow-[0_18px_45px_-25px_rgba(10,9,8,0.35)]"
+              class="mx-auto overflow-hidden rounded-2xl border border-rule shadow-[0_18px_45px_-25px_rgba(10,9,8,0.35)]"
               :style="{
                 width: `${540 * previewScale}px`,
                 height: `${540 * previewScale}px`,
@@ -418,22 +416,22 @@ async function handleNativeShare() {
 
           <!-- 링크 -->
           <div class="flex flex-col gap-2" :aria-busy="!shareUrl">
-            <p class="eyebrow !text-[0.6rem]">Link</p>
-            <div class="flex items-stretch border hairline bg-paper-100/60">
+            <p class="section-kicker"><span /> LINK</p>
+            <div class="flex items-stretch gap-2">
               <input
                 :value="shareUrl ?? ''"
                 :placeholder="shareUrl ? undefined : '공유 링크를 준비하고 있어요…'"
                 readonly
                 aria-label="기념일 페이지 주소"
-                class="min-w-0 flex-1 bg-transparent px-3 py-2.5 font-display text-[0.82rem] text-ink-600 outline-none placeholder:italic placeholder:text-ink-400"
+                class="min-w-0 flex-1 rounded-full border border-rule bg-paper-100 px-4 py-2.5 text-[0.8rem] text-ink-600 outline-none placeholder:text-ink-400 focus:border-ink-300"
                 @focus="shareUrl && ($event.target as HTMLInputElement).select()"
               />
               <button
                 type="button"
-                class="shrink-0 border-l hairline px-4 text-[0.68rem] font-medium uppercase tracking-[0.18em] transition disabled:cursor-wait disabled:text-ink-300"
+                class="shrink-0 rounded-full px-5 text-xs font-medium transition disabled:cursor-wait disabled:opacity-40"
                 :class="shareUrl && copied
-                  ? 'bg-ink-900 text-paper-50'
-                  : 'text-ink-600 hover:bg-paper-200 hover:text-ink-900'"
+                  ? 'bg-accent-600 text-paper-50'
+                  : 'bg-ink-700 text-paper-50 hover:bg-accent-600'"
                 :disabled="!shareUrl"
                 @click="handleCopyLink"
               >
@@ -452,10 +450,10 @@ async function handleNativeShare() {
           <div class="flex flex-col gap-2.5 sm:flex-row sm:gap-3">
             <button
               type="button"
-              class="relative isolate flex-1 overflow-hidden border border-ink-900 px-5 py-3 text-[0.72rem] font-medium uppercase tracking-[0.22em] transition disabled:cursor-wait"
+              class="relative isolate flex-1 overflow-hidden rounded-full px-5 py-3.5 text-xs font-medium transition disabled:cursor-wait"
               :class="isGenerating
-                ? 'bg-paper-50 text-ink-900'
-                : 'bg-ink-900 text-paper-50 hover:bg-ink-800'"
+                ? 'border border-rule bg-paper-50 text-ink-700'
+                : 'bg-ink-700 text-paper-50 hover:bg-ink-600'"
               :disabled="isGenerating"
               :aria-busy="isGenerating"
               @pointerenter="warmUpImage"
@@ -464,7 +462,7 @@ async function handleNativeShare() {
             >
               <span
                 v-if="isGenerating"
-                class="absolute inset-y-0 left-0 bg-ink-900 transition-[width] duration-300 ease-out"
+                class="absolute inset-y-0 left-0 bg-ink-700 transition-[width] duration-300 ease-out"
                 :style="{ width: `${generationProgress}%` }"
                 aria-hidden="true"
               />
@@ -472,28 +470,28 @@ async function handleNativeShare() {
                 class="relative z-10"
                 :class="isGenerating ? 'text-white mix-blend-difference' : ''"
               >
-                <template v-if="isGenerating">Generating · {{ Math.round(generationProgress) }}%</template>
-                <template v-else>Download · 이미지 저장</template>
+                <template v-if="isGenerating">만드는 중 · {{ Math.round(generationProgress) }}%</template>
+                <template v-else>이미지 저장 ↓</template>
               </span>
             </button>
             <button
               type="button"
-              class="flex-1 border border-ink-800 bg-paper-50 px-5 py-3 text-[0.72rem] font-medium uppercase tracking-[0.22em] text-ink-800 transition hover:bg-paper-200 disabled:cursor-wait disabled:border-rule-strong disabled:text-ink-300"
+              class="flex-1 rounded-full border border-rule bg-paper-50 px-5 py-3.5 text-xs font-medium text-ink-600 transition hover:bg-paper-200 disabled:cursor-wait disabled:opacity-40"
               :disabled="!shareUrl"
               @click="handleShareLink"
             >
-              {{ canNativeShare ? 'Share · 링크 공유' : 'Copy · 링크 복사' }}
+              {{ canNativeShare ? '링크 공유 ↗' : '링크 복사' }}
             </button>
             <button
               v-if="canNativeShare"
               type="button"
-              class="flex-1 border border-ink-800 bg-paper-50 px-5 py-3 text-[0.72rem] font-medium uppercase tracking-[0.22em] text-ink-800 transition hover:bg-paper-200 disabled:opacity-60"
+              class="flex-1 rounded-full border border-rule bg-paper-50 px-5 py-3.5 text-xs font-medium text-ink-600 transition hover:bg-paper-200 disabled:opacity-50"
               :disabled="isGenerating"
               @pointerenter="warmUpImage"
               @focus="warmUpImage"
               @click="handleNativeShare"
             >
-              Share · 이미지 공유
+              이미지 공유 ↗
             </button>
           </div>
 

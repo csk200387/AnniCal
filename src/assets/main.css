@@ -104,3 +104,49 @@
     border-color: var(--color-rule);
   }
 }
+
+/* Shared navigation: the folded-page monogram and a compact, floating tab rail. */
+.site-header { position: sticky; top: 0; z-index: 30; padding: 0 32px; background: color-mix(in srgb, var(--color-paper-100) 95%, transparent); transition: box-shadow .35s, background .35s; backdrop-filter: blur(18px); }
+.site-header.is-scrolled { background: color-mix(in srgb, var(--color-paper-100) 91%, transparent); box-shadow: 0 1px 0 color-mix(in srgb, var(--color-ink-700) 6%, transparent); }
+.site-header-inner { max-width: 1400px; min-height: 96px; margin: auto; display: flex; align-items: center; justify-content: space-between; gap: 24px; transition: min-height .45s cubic-bezier(.22,1,.36,1); }
+.is-scrolled .site-header-inner { min-height: 76px; }
+.brand { display: inline-flex; align-items: center; gap: 9px; color: var(--color-ink-700); font: 500 32px/1 var(--font-display); letter-spacing: -1.6px; }
+.brand-mark { width: 39px; height: 39px; color: var(--color-accent-500); flex-shrink: 0; transition: transform .4s; }
+.brand:hover .brand-mark { transform: translateY(-2px); }
+.brand-wordmark { padding-bottom: 2px; }
+.brand-wordmark > span { color: var(--color-accent-600); }
+.header-nav { display: flex; gap: 3px; padding: 5px; background: var(--color-paper-200); border: 1px solid var(--color-rule); border-radius: 40px; }
+.header-nav a { padding: 11px 21px; border-radius: 30px; font-size: 13px; font-weight: 550; color: var(--color-ink-600); white-space: nowrap; transition: color .2s, background .2s, box-shadow .2s; }
+.header-nav a:hover { color: var(--color-ink-700); background: color-mix(in srgb, var(--color-paper-50) 50%, transparent); }
+.header-nav a.is-active { background: var(--color-paper-100); color: var(--color-ink-700); box-shadow: 0 2px 6px color-mix(in srgb, var(--color-ink-700) 4%, transparent); }
+.header-nav a span { margin-left: 6px; }
+.header-today { display: flex; align-items: center; gap: 9px; font-size: 11px; color: var(--color-ink-600); font-variant-numeric: tabular-nums; }
+.header-today-label { color: var(--color-ink-400); margin-left: 3px; }
+.live-dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--color-accent-500); flex-shrink: 0; }
+.site-header :focus-visible, .site-footer :focus-visible { outline: 2px solid var(--color-accent-600); outline-offset: 5px; }
+.site-footer { color: var(--color-ink-700); background: var(--color-paper-200); margin-top: 88px; padding: 48px 32px 24px; }
+.site-footer-inner { max-width: 1240px; margin: auto; }
+.footer-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 32px; }
+.footer-description { font-size: 13px; color: var(--color-ink-400); line-height: 1.9; margin-top: 17px; }
+.footer-links { display: flex; gap: 28px; font-size: 13px; padding-top: 12px; }
+.footer-links a:hover { color: var(--color-accent-600); }
+.footer-wordmark { font-size: clamp(80px,17vw,230px); font-weight: 650; letter-spacing: -.085em; line-height: 1; margin: 42px 0 25px; color: var(--color-paper-300); overflow: hidden; }
+.footer-bottom { display: flex; justify-content: space-between; gap: 16px; border-top: 1px solid var(--color-rule); padding-top: 22px; font-size: 10px; color: var(--color-ink-400); letter-spacing: .08em; }
+@media (max-width: 1050px) { .header-today-label { display: none; } }
+@media (max-width: 760px) {
+  .site-header { padding: 0 20px; }
+  .site-header-inner { min-height: 116px; gap: 12px; flex-wrap: wrap; padding: 14px 0 10px; }
+  .is-scrolled .site-header-inner { min-height: 106px; }
+  .brand { font-size: 27px; }
+  .brand-mark { width: 32px; height: 32px; }
+  .header-today { font-size: 10px; }
+  .header-nav { order: 3; width: 100%; justify-content: center; padding: 3px; }
+  .header-nav a { flex: 1; text-align: center; font-size: 12px; padding: 9px 8px; }
+  .site-footer { margin-top: 56px; padding: 32px 24px 24px; }
+  .footer-top { flex-direction: column; gap: 16px; }
+  .footer-links { gap: 24px; }
+  .footer-bottom { flex-direction: column; font-size: 9px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .site-header, .site-header-inner, .brand-mark, .header-nav a { transition: none; }
+}

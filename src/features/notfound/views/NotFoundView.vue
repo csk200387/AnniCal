@@ -12,21 +12,15 @@ onMounted(() => applyNotFoundMeta(route.fullPath))
 </script>
 
 <template>
-  <div class="mx-auto w-full max-w-2xl px-5 py-24 text-center sm:px-6">
-    <p class="eyebrow">404</p>
-    <h1 class="mt-4 font-display text-[2.2rem] font-medium leading-[1.12] tracking-tight text-ink-900">
-      찾는 페이지가 없어요
-    </h1>
-    <p class="mt-3 text-[0.95rem] leading-relaxed text-ink-500">
-      주소가 바뀌었거나 잘못 입력했을 수 있어요.
-    </p>
-    <div class="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-[0.85rem]">
-      <RouterLink to="/" class="underline underline-offset-4 hover:text-ink-800">
-        오늘의 기념일
-      </RouterLink>
-      <RouterLink to="/calendar" class="underline underline-offset-4 hover:text-ink-800">
-        달력에서 찾아보기
-      </RouterLink>
+  <div class="home-page">
+    <div class="article-shell">
+      <div class="home-empty">
+        <span class="empty-flower" aria-hidden="true">✳</span>
+        <h1>찾는 페이지가 없어요<span class="heading-dot">.</span></h1>
+        <p>주소가 바뀌었거나 잘못 입력했을 수 있어요.<br />오늘의 기념일부터 다시 둘러보는 건 어때요?</p>
+        <RouterLink to="/" class="home-button home-button--dark">오늘의 기념일 보기 <span aria-hidden="true">↗</span></RouterLink>
+        <p class="notfound-alt"><RouterLink to="/calendar">달력에서 찾아보기 →</RouterLink></p>
+      </div>
     </div>
   </div>
 </template>

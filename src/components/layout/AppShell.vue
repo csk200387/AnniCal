@@ -4,7 +4,6 @@ import { storeToRefs } from 'pinia'
 import { useRoute } from 'vue-router'
 import AppHeader from './AppHeader.vue'
 import AppFooter from './AppFooter.vue'
-import AppBackdrop from './AppBackdrop.vue'
 import { useShareStore } from '@/stores/share'
 import { useStatsStore } from '@/stores/stats'
 
@@ -45,11 +44,11 @@ watch(
 </script>
 
 <template>
-  <div class="relative flex min-h-full flex-col bg-paper-100 text-ink-700">
-    <AppBackdrop />
+  <div class="home-shell relative flex min-h-full flex-col bg-paper-100 text-ink-700">
     <div class="relative z-10 flex min-h-full flex-1 flex-col">
       <AppHeader />
-      <main class="mx-auto w-full max-w-[1180px] flex-1 px-5 py-10 sm:px-8 sm:py-14 lg:px-10">
+      <!-- 모든 페이지가 같은 스타일을 쓴다 — 여백은 각 뷰가 .home-container / .article-shell 로 잡는다. -->
+      <main class="home-main">
         <slot />
       </main>
       <AppFooter />
