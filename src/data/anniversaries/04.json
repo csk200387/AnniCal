@@ -1302,7 +1302,7 @@
     "id": "anv-fixed-04-11-pet-day-global",
     "date": "04-11",
     "dateType": "annual-fixed",
-    "name": "애완동물의 날 (National Pet Day)",
+    "name": "반려동물의 날 (National Pet Day)",
     "category": "animal",
     "tags": [
       "동물 & 자연"
@@ -3318,7 +3318,7 @@
     "id": "anv-fixed-04-26-world-ip-day-global",
     "date": "04-26",
     "dateType": "annual-fixed",
-    "name": "세계 지적 재산의 날",
+    "name": "세계 지식재산의 날",
     "category": "academic",
     "tags": [
       "학술 & 기술"

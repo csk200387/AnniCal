@@ -238,7 +238,7 @@
     "id": "anv-fixed-05-03-raspberry-popover-day-us",
     "date": "05-03",
     "dateType": "annual-fixed",
-    "name": "라즈베리 파퍼버의 날",
+    "name": "라즈베리 포포버의 날",
     "category": "food",
     "tags": [
       "음식 & 디저트"
@@ -650,7 +650,7 @@
     "id": "gov-20",
     "date": "05-05",
     "dateType": "annual-fixed",
-    "name": "어린이 날",
+    "name": "어린이날",
     "category": "holiday",
     "tags": [
       "공휴일",
@@ -1161,7 +1161,7 @@
     "id": "gov-21",
     "date": "05-08",
     "dateType": "annual-fixed",
-    "name": "어버이 날",
+    "name": "어버이날",
     "category": "general",
     "tags": [
       "일반",

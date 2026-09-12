@@ -634,7 +634,7 @@
     "id": "anv-fixed-07-07-mazda-rx7-day-jp",
     "date": "07-07",
     "dateType": "annual-fixed",
-    "name": "마쯔다 RX-7 데이(일본)",
+    "name": "마쓰다 RX-7 데이(일본)",
     "category": "quirky",
     "tags": [
       "이색 & 유머"
@@ -1804,7 +1804,7 @@
     "id": "anv-fixed-07-22-pi-approximation-day-global",
     "date": "07-22",
     "dateType": "annual-fixed",
-    "name": "파이 근사값의 날",
+    "name": "파이 근삿값의 날",
     "category": "general",
     "tags": [
       "일반"

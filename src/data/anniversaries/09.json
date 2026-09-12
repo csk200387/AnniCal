@@ -392,7 +392,7 @@
     "id": "anv-fixed-09-23-international-day-of-sign-languages-global",
     "date": "09-23",
     "dateType": "annual-fixed",
-    "name": "국제 수화의 날",
+    "name": "세계 수어의 날",
     "category": "campaign",
     "tags": [
       "국제 캠페인 & 보건"
@@ -464,7 +464,7 @@
     "id": "anv-fixed-09-03-welsh-rarebit-day-us",
     "date": "09-03",
     "dateType": "annual-fixed",
-    "name": "웰시 래빗의 날",
+    "name": "웰시 레어빗의 날",
     "category": "food",
     "tags": [
       "음식 & 디저트"
@@ -1523,7 +1523,7 @@
     "id": "anv-fixed-09-15-linguine-day-us",
     "date": "09-15",
     "dateType": "annual-fixed",
-    "name": "리니귀네의 날 (National Linguine Day)",
+    "name": "링귀니의 날 (National Linguine Day)",
     "category": "food",
     "tags": [
       "음식 & 디저트"
@@ -1809,7 +1809,7 @@
     "id": "anv-fixed-09-17-constitution-citizenship-day-us",
     "date": "09-17",
     "dateType": "annual-fixed",
-    "name": "제헌절 및 시민의 날 (Constitution Day and Citizenship Day)",
+    "name": "미국 헌법의 날 및 시민권의 날 (Constitution Day and Citizenship Day)",
     "category": "history",
     "tags": [
       "역사 & 추모"

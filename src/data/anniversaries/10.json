@@ -1520,7 +1520,7 @@
     "id": "anv-fixed-10-15-white-cane-safety-day-us",
     "date": "10-15",
     "dateType": "annual-fixed",
-    "name": "백색 지팡이 안전의 날 (National White Cane Safety Day)",
+    "name": "미국 흰 지팡이 안전의 날 (National White Cane Safety Day)",
     "category": "campaign",
     "tags": [
       "국제 캠페인 & 보건"
@@ -2614,7 +2614,7 @@
     "id": "anv-fixed-10-25-international-bandanna-day-global",
     "date": "10-25",
     "dateType": "annual-fixed",
-    "name": "세계 밴대나의 날 (International Bandanna Day)",
+    "name": "세계 반다나의 날 (International Bandanna Day)",
     "category": "campaign",
     "tags": [
       "국제 캠페인 & 보건"
@@ -3202,7 +3202,7 @@
     "id": "anv-fixed-10-31-halloween-global",
     "date": "10-31",
     "dateType": "annual-fixed",
-    "name": "할로윈 데이",
+    "name": "핼러윈",
     "category": "general",
     "tags": [
       "일반"

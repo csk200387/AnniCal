@@ -2100,7 +2100,7 @@
     "id": "anv-fixed-12-25-christmas-global",
     "date": "12-25",
     "dateType": "annual-fixed",
-    "name": "크리스마스 (기독교탄신일)",
+    "name": "크리스마스 (기독탄신일)",
     "category": "holiday",
     "tags": [
       "공휴일"
@@ -2265,7 +2265,7 @@
     "id": "anv-fixed-12-28-holy-innocents-day-global",
     "date": "12-28",
     "dateType": "annual-fixed",
-    "name": "성 인노첸시오 축일 (Holy Innocents Day)",
+    "name": "죄 없는 아기 순교자들 축일 (Holy Innocents Day)",
     "category": "history",
     "tags": [
       "역사 & 추모"
