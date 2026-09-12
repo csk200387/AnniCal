@@ -115,7 +115,7 @@ describe.runIf(existsSync(join(DIST, 'index.html')))('빌드 산출물', () => {
   })
 
   it('라우터의 모든 유효 경로가 정적 파일이거나 rewrite 대상이다', () => {
-    // vercel.json 의 rewrite 를 /calendar·/export 로 좁혔기 때문에, 그 밖의
+    // vercel.json 의 rewrite 를 소수의 정적 SPA 페이지로 좁혔기 때문에, 그 밖의
     // 유효 경로는 반드시 정적 파일로 존재해야 한다. 하나라도 빠지면 정상
     // 페이지가 404 를 낸다.
     const vercel = JSON.parse(readFileSync(join(ROOT, 'vercel.json'), 'utf-8')) as {

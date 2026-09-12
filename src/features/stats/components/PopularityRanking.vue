@@ -11,7 +11,7 @@ const stats = useStatsStore()
 const number = new Intl.NumberFormat('ko-KR')
 
 const entries = computed(() =>
-  (stats.snapshot?.ranking ?? []).flatMap((ranked, index) => {
+  (stats.snapshot?.ranking ?? []).slice(0, 5).flatMap((ranked, index) => {
     const anniversary = anniversaries.byId.get(ranked.id)
     const path = pathForId(ranked.id)
     return anniversary && path
@@ -44,5 +44,6 @@ const entries = computed(() =>
         </RouterLink>
       </li>
     </ol>
+    <RouterLink class="section-text-link" to="/popular">전체 관심도 순위 보기 <span aria-hidden="true">→</span></RouterLink>
   </section>
 </template>

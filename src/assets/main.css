@@ -150,3 +150,16 @@
 @media (prefers-reduced-motion: reduce) {
   .site-header, .site-header-inner, .brand-mark, .header-nav a { transition: none; }
 }
+
+/* Comfortable shared navigation and icon targets, including the share dialog. */
+.site-header .brand { min-height: 44px; }
+.site-header .header-nav a { display: flex; align-items: center; justify-content: center; min-height: 44px; font-size: 13px; }
+.site-header .header-today { font-size: 12px; }
+.site-footer .footer-links a { display: flex; align-items: center; min-height: 44px; }
+.site-footer .footer-bottom { font-size: 12px; }
+.home-page .round-icon-button { min-width: 44px; min-height: 44px; }
+@media (max-width: 370px) {
+  .site-header { padding-left: 16px; padding-right: 16px; }
+  .site-header .header-nav a { font-size: 12px; padding-left: 7px; padding-right: 7px; }
+  .site-header .header-nav a span { margin-left: 3px; }
+}

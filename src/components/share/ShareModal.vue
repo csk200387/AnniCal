@@ -359,12 +359,12 @@ async function handleNativeShare() {
         role="dialog"
         aria-modal="true"
         aria-label="기념일 공유 이미지"
-        class="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto bg-ink-900/55 px-4 py-8 backdrop-blur-sm focus:outline-none"
+        class="fixed inset-0 z-50 flex items-start justify-center overflow-y-auto bg-ink-900/55 px-4 py-8 backdrop-blur-sm focus:outline-none"
         @click="onBackdropClick"
         @keydown="onKeydown"
       >
         <div
-          class="home-page relative flex w-full max-w-xl flex-col gap-6 rounded-3xl border border-rule bg-paper-50 px-6 py-7 shadow-[0_30px_80px_-30px_rgba(10,9,8,0.5)] sm:px-8 sm:py-9"
+          class="home-page relative my-auto flex w-full max-w-xl flex-col gap-6 rounded-3xl border border-rule bg-paper-50 px-6 py-7 shadow-[0_30px_80px_-30px_rgba(10,9,8,0.5)] sm:px-8 sm:py-9"
         >
           <!-- 헤더 -->
           <header class="flex items-start justify-between gap-4">
@@ -428,7 +428,7 @@ async function handleNativeShare() {
               />
               <button
                 type="button"
-                class="shrink-0 rounded-full px-5 text-xs font-medium transition disabled:cursor-wait disabled:opacity-40"
+                class="min-h-11 shrink-0 rounded-full px-5 text-xs font-medium transition disabled:cursor-wait disabled:opacity-40"
                 :class="shareUrl && copied
                   ? 'bg-accent-600 text-paper-50'
                   : 'bg-ink-700 text-paper-50 hover:bg-accent-600'"
@@ -438,10 +438,10 @@ async function handleNativeShare() {
                 {{ shareUrl ? (copied ? '복사됨' : '복사') : '준비 중' }}
               </button>
             </div>
-            <p v-if="shareUrl" class="text-[0.7rem] leading-relaxed text-ink-400">
+            <p v-if="shareUrl" class="text-xs leading-relaxed text-ink-400">
               {{ shareUrlLabel }} — 받는 사람은 앱을 열지 않아도 이 기념일의 유래를 바로 볼 수 있어요.
             </p>
-            <p v-else class="text-[0.7rem] leading-relaxed text-ink-400" role="status">
+            <p v-else class="text-xs leading-relaxed text-ink-400" role="status">
               이 기념일의 공유 주소를 불러오고 있어요.
             </p>
           </div>

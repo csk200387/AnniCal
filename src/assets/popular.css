@@ -1,0 +1,48 @@
+.popular-page { padding-bottom: 10px; }
+.popular-hero { background: var(--color-ink-700); color: var(--color-paper-50); }
+.popular-hero .section-kicker, .popular-hero .page-hero-description { color: var(--color-ink-200); }
+.popular-hero .section-kicker > span { background: var(--color-accent-500); }
+.popular-hero h1 em { color: #dca7a0; }
+.popular-hero .page-hero-stats { border-color: color-mix(in srgb, var(--color-paper-50) 16%, transparent); }
+.popular-hero .page-hero-stats span, .popular-hero .page-hero-stats small { color: var(--color-ink-200); }
+.popular-hero .page-hero-spark { color: color-mix(in srgb, var(--color-paper-50) 7%, transparent); }
+.ranking-board { margin-top: 64px; }
+.ranking-board-heading { display: flex; align-items: end; justify-content: space-between; gap: 24px; padding-bottom: 22px; border-bottom: 1px solid var(--color-ink-700); }
+.ranking-board-heading h2 { margin-top: 12px; font-size: 31px; font-weight: 650; letter-spacing: -.05em; }
+.ranking-board-heading > p { font-size: 12px; color: var(--color-ink-400); }
+.ranking-list li { border-bottom: 1px solid var(--color-rule); }
+.ranking-list a { display: grid; grid-template-columns: 54px 24px minmax(0,1fr) auto 28px; align-items: center; gap: 20px; min-height: 126px; padding: 24px 14px; border-radius: 14px; transition: background .2s, transform .2s; }
+.ranking-list a:hover { background: var(--color-paper-200); transform: translateX(4px); }
+.ranking-number { font-size: 31px; font-weight: 550; letter-spacing: -.055em; color: var(--color-ink-300); font-variant-numeric: tabular-nums; }
+.ranking-medal { min-height: 1em; color: var(--color-accent-500); font-size: 16px; }
+.is-podium .ranking-number { color: var(--color-accent-600); }
+.ranking-copy { min-width: 0; }
+.ranking-meta { display: flex; align-items: center; gap: 7px; font-size: 11px; color: var(--color-ink-400); }
+.ranking-meta i { width: 6px; height: 6px; flex-shrink: 0; border-radius: 50%; }
+.ranking-copy > strong { display: block; margin-top: 8px; font-size: 19px; font-weight: 600; line-height: 1.45; letter-spacing: -.035em; word-break: keep-all; overflow-wrap: anywhere; }
+.ranking-tags { display: block; margin-top: 7px; overflow: hidden; color: var(--color-ink-400); font-size: 11px; text-overflow: ellipsis; white-space: nowrap; }
+.ranking-views { min-width: 92px; text-align: right; }
+.ranking-views strong { display: block; font-size: 20px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.ranking-views small { display: block; margin-top: 5px; font-size: 10px; color: var(--color-ink-400); }
+.ranking-go { font-size: 21px; color: var(--color-ink-300); transition: color .2s; }
+.ranking-list a:hover .ranking-go { color: var(--color-accent-600); }
+.ranking-state { display: grid; justify-items: center; min-height: 310px; place-content: center; padding: 50px 24px; text-align: center; border-bottom: 1px solid var(--color-rule); }
+.ranking-state > span { margin-bottom: 18px; font-size: 34px; color: var(--color-accent-500); }
+.ranking-state strong { font-size: 19px; font-weight: 600; }
+.ranking-state p { margin-top: 9px; font-size: 13px; color: var(--color-ink-400); }
+.ranking-state a { min-height: 44px; display: flex; align-items: center; margin-top: 18px; font-size: 13px; color: var(--color-accent-600); }
+.ranking-loader { width: 28px; height: 28px; border: 2px solid var(--color-rule); border-top-color: var(--color-accent-500); border-radius: 50%; animation: ranking-spin .8s linear infinite; }
+@keyframes ranking-spin { to { transform: rotate(360deg); } }
+@media (max-width: 760px) {
+  .ranking-board { margin-top: 44px; }
+  .ranking-board-heading { align-items: flex-start; flex-direction: column; gap: 9px; }
+  .ranking-board-heading h2 { font-size: 26px; }
+  .ranking-list a { grid-template-columns: 38px minmax(0,1fr) auto; gap: 13px; min-height: 112px; padding: 20px 0; }
+  .ranking-number { font-size: 24px; }
+  .ranking-medal, .ranking-go, .ranking-tags { display: none; }
+  .ranking-copy > strong { font-size: 15px; }
+  .ranking-meta { font-size: 10px; }
+  .ranking-views { min-width: 65px; }
+  .ranking-views strong { font-size: 16px; }
+}
+@media (prefers-reduced-motion: reduce) { .ranking-list a { transition: none; }.ranking-loader { animation: none; } }

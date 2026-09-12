@@ -1,0 +1,186 @@
+/* Feed-specific composition; the existing paper/ink/burgundy tokens remain the source of color. */
+.feed-page .home-hero { padding-top: 20px; padding-bottom: 14px; }
+.feed-page .hero-content { min-height: 365px; grid-template-columns: minmax(0,1.25fr) minmax(0,1fr); }
+.feed-page .hero-copy { padding: 12px 0; }
+.feed-page .hero-eyebrow { margin-bottom: 14px; }
+.feed-page .hero-copy h1 { font-size: clamp(40px,4.5vw,58px); line-height: 1.16; }
+.feed-page .hero-description { font-size: 14px; margin-top: 18px; max-width: 38ch; }
+.feed-page .hero-topline, .feed-page .hero-bottomline p { font-size: 12px; letter-spacing: .02em; }
+.feed-page .hero-edition { font-size: 10px; letter-spacing: .13em; }
+.feed-page .hero-bottomline { padding-top: 8px; }
+.feed-page .hero-scroll { min-height: 44px; font-size: 12px; letter-spacing: .06em; }
+.feed-page .hero-actions { margin-top: 12px; gap: 22px; }
+.feed-page .hero-calendar-link { min-height: 44px; font-size: 13px; }
+.feed-page .home-button { font-size: 14px; min-height: 48px; }
+.feed-page .calendar-artwork { height: 365px; max-width: 430px; transform: translate(var(--pointer-x,0px),var(--pointer-y,0px)) scale(.84); }
+.feed-page .art-caption { bottom: -37px; }
+.feed-page .art-sticker { bottom: 1px; }
+.feed-page .art-orbit { left: 35px; }
+.feed-page .art-seal { right: -32px; }
+.hero-featured { max-width: 460px; margin-top: 14px; padding: 12px 16px 7px; border: 1px solid var(--color-rule); border-left: 3px solid var(--color-accent-600); border-radius: 0 12px 12px 0; background: var(--color-paper-50); }
+.hero-featured-label { display: block; color: var(--color-ink-400); font-size: 12px; }
+.hero-featured > a, .hero-featured > button { display: flex; align-items: center; justify-content: space-between; gap: 15px; min-height: 44px; width: 100%; text-align: left; color: var(--color-accent-600); }
+.hero-featured strong { font-size: 17px; font-weight: 600; letter-spacing: -.035em; line-height: 1.5; word-break: keep-all; overflow-wrap: anywhere; }
+.hero-featured > a > span, .hero-featured > button > span { font-size: 22px; transition: transform .25s; }
+.hero-featured > a:hover > span { transform: translate(3px,-3px); }
+.hero-featured > p { min-height: 44px; display: flex; align-items: center; font-size: 14px; color: var(--color-ink-500); }
+.feed-page .discovery-strip {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 0;
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+.feed-page .discovery-strip > span { min-height: 44px; padding: 0 34px; }
+.feed-page .discovery-strip > span:first-child { padding-left: 0; }
+.feed-page .discovery-strip > span + span { padding-left: 34px; border-left: 1px solid var(--color-rule); }
+.feed-page .discovery-strip small { font-size: 12px; }
+.feed-page .home-section { margin-top: 56px; }
+.feed-page .section-kicker { font-size: 12px; letter-spacing: .08em; }
+.feed-page .section-description { font-size: 14px; }
+.feed-page .date-pill span { font-size: 12px; }
+.feed-page .section-text-link { min-height: 44px; font-size: 13px; }
+
+/* A single stamp collection, with a stable accent for each category. */
+.feed-page .today-story { --art-bg: var(--color-paper-200); --art-ink: var(--color-accent-600); --art-fill: var(--color-paper-300); }
+.feed-page .today-story[data-category='animal'],
+.feed-page .today-story[data-category='career'] { --art-ink: var(--color-editorial-green); }
+.feed-page .today-story[data-category='culture'],
+.feed-page .today-story[data-category='quirky'] { --art-ink: var(--color-editorial-purple); }
+.feed-page .today-story[data-category='academic'],
+.feed-page .today-story[data-category='campaign'] { --art-ink: var(--color-editorial-blue); }
+.feed-page .today-story[data-category='sports'],
+.feed-page .today-story[data-category='history'] { --art-ink: var(--color-editorial-gold); }
+.feed-page .story-art { height: 186px; display: grid; place-items: center; }
+.anniversary-stamp { width: 250px; height: 180px; max-width: 100%; transition: transform .5s var(--home-ease); }
+.today-story:hover .anniversary-stamp { transform: rotate(-4deg) translateY(-3px); }
+.stamp-sheet { transform: rotate(-7deg); transform-origin: 118px 90px; }
+.story-mini-symbol { display: none; }
+.feed-page .story-body { padding: 22px 23px 14px; }
+.story-meta { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; font-size: 12px; line-height: 1.5; color: var(--color-ink-400); }
+.story-selection { color: var(--color-accent-600); }
+.feed-page .story-body h3 { font-size: 22px; }
+.feed-page .story-body h3 a { display: flex; align-items: center; min-height: 44px; }
+.feed-page .story-body > p { font-size: 14px; line-height: 1.8; margin: 11px 0 20px; }
+.feed-page .story-read { min-height: 44px; font-size: 13px; }
+.feed-page .story-grid--one .today-story { grid-template-columns: .7fr 1.3fr; }
+.feed-page .story-grid--one .story-art { height: 100%; min-height: 270px; }
+
+/* Preserve readable labels and real 44px hit areas at every breakpoint. */
+.feed-page .round-icon-button, .feed-page .motion-control { width: 44px; height: 44px; min-width: 44px; min-height: 44px; }
+.feed-page .round-icon-button svg { width: 19px; height: 19px; }
+.feed-page .category-filters { padding: 5px 5px 12px; }
+.feed-page .category-filters button { min-width: 44px; min-height: 44px; font-size: 13px; padding: 10px 15px; }
+.feed-page .category-filters button span { font-size: 12px; }
+.feed-page .upcoming-result-count, .feed-page .upcoming-date span,
+.feed-page .upcoming-info > span, .feed-page .dday-pill,
+.feed-page .load-more-button span, .feed-page .calendar-promo .section-kicker,
+.feed-page .audience-note, .feed-page .audience-stats dt,
+.feed-page .audience-stats small, .feed-page .popularity-tag,
+.feed-page .popularity-views > span { font-size: 12px; }
+.feed-page .upcoming-info a { display: flex; align-items: center; min-height: 44px; font-size: 15px; }
+.feed-page .load-more-button { min-height: 48px; font-size: 14px; }
+.feed-page .calendar-promo > p:not(.section-kicker),
+.feed-page .subscribe-banner p:not(.section-kicker) { font-size: 14px; }
+.feed-page .calendar-promo .section-kicker { line-height: 1.6; letter-spacing: .06em; }
+.feed-page .mini-calendar-grid > span { font-size: 12px; }
+.feed-page .home-empty p { font-size: 14px; }
+
+@media (min-width: 1600px) {
+  .feed-page .hero-content { min-height: 400px; }
+}
+@media (max-width: 1050px) {
+  .feed-page .hero-content { grid-template-columns: minmax(0,1.4fr) minmax(0,1fr); }
+  .feed-page .hero-copy h1 { font-size: 46px; }
+  .feed-page .calendar-artwork { transform: translate(var(--pointer-x,0px),var(--pointer-y,0px)) scale(.7); }
+  .feed-page .hero-actions { gap: 16px; }
+  .feed-page .upcoming-layout { grid-template-columns: minmax(0,1fr) 270px; gap: 24px; }
+  .feed-page .upcoming-item { grid-template-columns: 40px minmax(0,1fr) auto 44px; gap: 10px; }
+}
+@media (max-width: 850px) {
+  .feed-page .hero-actions { flex-direction: row; align-items: center; flex-wrap: wrap; gap: 8px 18px; }
+  .feed-page .hero-copy h1 { font-size: 40px; }
+  .feed-page .upcoming-layout { grid-template-columns: 1fr; }
+  .feed-page .calendar-promo { position: relative; top: auto; display: grid; grid-template-columns: 1fr 240px; column-gap: 30px; }
+  .feed-page .mini-calendar { grid-column: 2; grid-row: 1 / 5; margin: 8px 0; }
+  .feed-page .calendar-promo > .home-button { grid-column: 1; margin-top: 20px; align-self: end; max-width: 280px; }
+}
+@media (max-width: 640px) {
+  .feed-page .home-hero { padding: 18px 22px 10px; }
+  .feed-page .hero-content { min-height: 0; grid-template-columns: minmax(0,1fr); }
+  .feed-page .hero-topline { gap: 12px; }
+  .feed-page .hero-edition { font-size: 9px; max-width: 100px; }
+  .feed-page .hero-topline > :last-child { display: block; font-size: 12px; flex-shrink: 0; }
+  .feed-page .hero-copy { padding: 19px 0 13px; }
+  .feed-page .hero-eyebrow { font-size: 12px; margin-bottom: 14px; }
+  .feed-page .hero-copy h1 { font-size: clamp(32px,8.4vw,44px); line-height: 1.22; }
+  .feed-page .hero-description { font-size: 14px; line-height: 1.7; margin-top: 20px; }
+  .feed-page .calendar-artwork { display: none; }
+  .hero-featured { margin-top: 15px; padding: 10px 13px 5px; }
+  .hero-featured strong { font-size: 16px; }
+  .feed-page .hero-actions { display: flex; gap: 8px 16px; margin-top: 14px; }
+  .feed-page .hero-actions .home-button { font-size: 13px; padding: 12px 15px; }
+  .feed-page .hero-calendar-link { font-size: 12px; }
+  .feed-page .hero-bottomline { margin-top: 0; }
+  .feed-page .hero-bottomline p { display: block; font-size: 12px; line-height: 1.6; }
+  .feed-page .hero-bottomline .live-dot { margin-right: 6px; vertical-align: middle; }
+  .feed-page .hero-bottom-divider { display: none; }
+  .feed-page .discovery-strip { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 0; font-size: 12px; padding: 13px 0; }
+  .feed-page .discovery-strip > span:first-child { display: none; }
+  .feed-page .discovery-strip > span { justify-content: center; gap: 7px; min-height: 50px; padding: 0 10px; }
+  .feed-page .discovery-strip > span + span { padding-left: 10px; border-left: 0; }
+  .feed-page .discovery-strip > span:nth-child(3) { border-left: 1px solid var(--color-rule); }
+  .feed-page .discovery-strip strong { font-size: 17px; }
+  .feed-page .home-section { margin-top: 37px; scroll-margin-top: 150px; }
+  .feed-page .section-heading { flex-wrap: wrap; align-items: center; gap: 9px 12px; margin-bottom: 20px; }
+  .feed-page .section-heading h2 { font-size: 26px; }
+  .feed-page .section-kicker { font-size: 12px; letter-spacing: .035em; }
+  .feed-page .section-description { font-size: 14px; }
+  .feed-page .section-text-link { margin-top: 0; font-size: 13px; }
+  .feed-page .date-pill { margin-top: 0; }
+  .feed-page .story-grid { gap: 12px; }
+  .feed-page .story-art, .feed-page .story-grid--one .story-art { height: 142px; min-height: 0; }
+  .anniversary-stamp { height: 138px; }
+  .feed-page .story-body { padding: 19px 20px 12px; }
+  .feed-page .story-body h3 { font-size: 22px; }
+  .feed-page .story-body > p { font-size: 14px; }
+  .feed-page .story-grid--one .today-story { display: flex; }
+  .feed-page .today-story--compact { display: grid; grid-template-columns: 44px minmax(0,1fr) 44px; gap: 0 12px; padding: 15px 13px; border-radius: 12px; align-items: center; }
+  .feed-page .today-story--compact .story-art { grid-column: 1; grid-row: 1 / 3; width: 44px; height: 56px; background: var(--color-paper-200); border-radius: 3px 3px 0 0; clip-path: polygon(0 0,100% 0,100% 100%,50% 88%,0 100%); }
+  .today-story--compact .anniversary-stamp { display: none; }
+  .today-story--compact .story-mini-symbol { display: block; width: 30px; height: 30px; margin-bottom: 4px; }
+  .feed-page .today-story--compact .story-body, .feed-page .today-story--compact .story-footer { display: contents; }
+  .today-story--compact .story-meta { grid-column: 2; grid-row: 1; margin-bottom: 0; }
+  .feed-page .today-story--compact h3 { grid-column: 2; grid-row: 2; font-size: 16px; line-height: 1.5; }
+  .feed-page .today-story--compact h3 a { min-height: 44px; }
+  .feed-page .today-story--compact .story-body > p { display: none; }
+  .feed-page .today-story--compact .story-read { display: none; }
+  .feed-page .today-story--compact .story-read[href^='http'] { display: flex; grid-column: 2; grid-row: 3; }
+  .today-story--compact .round-icon-button { grid-column: 3; grid-row: 1 / 3; }
+  .feed-page .upcoming-item { grid-template-columns: 34px minmax(0,1fr) 44px; gap: 0 12px; padding: 17px 0; }
+  .feed-page .upcoming-date { grid-column: 1; grid-row: 1 / 3; }
+  .feed-page .upcoming-info { grid-column: 2; grid-row: 1; }
+  .feed-page .upcoming-info a { font-size: 14px; line-height: 1.6; }
+  .feed-page .dday-pill { grid-column: 2; grid-row: 2; justify-self: start; font-size: 12px; padding: 3px 8px; }
+  .feed-page .upcoming-share { grid-column: 3; grid-row: 1 / 3; }
+  .feed-page .calendar-promo { display: block; padding: 26px; }
+  .feed-page .calendar-promo .mini-calendar { margin: 25px auto; }
+  .feed-page .calendar-promo > .home-button { max-width: none; }
+  .feed-page .subscribe-banner { margin-top: 42px; }
+  .feed-page .subscribe-banner p:not(.section-kicker) { font-size: 14px; }
+}
+@media (max-width: 370px) {
+  .feed-page .home-hero { padding-left: 18px; padding-right: 18px; }
+  .feed-page .hero-copy h1 { font-size: 30px; }
+  .feed-page .hero-actions { gap: 4px 10px; }
+  .feed-page .hero-actions .home-button { padding-left: 12px; padding-right: 12px; font-size: 12px; gap: 8px; }
+  .feed-page .hero-bottomline p { max-width: 190px; }
+  .feed-page .discovery-strip { margin-left: 20px; margin-right: 20px; }
+  .feed-page .discovery-strip > span { gap: 5px; }
+  .feed-page .discovery-strip small { font-size: 12px; }
+  .feed-page .today-story--compact { column-gap: 9px; padding: 13px 10px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .feed-page *, .feed-page *::before, .feed-page *::after { animation: none !important; transition: none !important; }
+}

@@ -13,6 +13,7 @@ import { useAnniversariesStore } from '@/stores/anniversaries'
 import { pathFor } from '@/utils/anniversaryRoutes'
 import AudienceStats from '@/features/stats/components/AudienceStats.vue'
 import PopularityRanking from '@/features/stats/components/PopularityRanking.vue'
+import '@/assets/feed.css'
 
 const { todays, upcoming, today, isLoading, error } = useTodayFeed(30)
 const { vReveal, reducedMotion } = useFeedMotion()
@@ -21,6 +22,9 @@ const store = useAnniversariesStore()
 const todayValue = computed(() => dayjs(today.value))
 const dateLabel = computed(() => todayValue.value.format('YYYY.MM.DD'))
 const weekday = computed(() => ['일', '월', '화', '수', '목', '금', '토'][todayValue.value.day()])
+const featuredStory = computed(() => todays.value[0] ?? null)
+const featuredPath = computed(() => featuredStory.value ? pathFor(featuredStory.value) : null)
+const featuredTitle = computed(() => featuredStory.value?.name.replace(/\s+\([A-Za-z][^)]*\)$/, '') ?? '')
 const motionPaused = ref(false)
 const storiesRef = ref<HTMLElement | null>(null)
 const heroRef = ref<HTMLElement | null>(null)
@@ -62,16 +66,30 @@ function categoryLabel(id: CategoryId) { return store.categories.find((category)
 </script>
 
 <template>
-  <div class="home-page" :class="{ 'motion-paused': motionPaused || reducedMotion }">
+  <div class="home-page feed-page" :class="{ 'motion-paused': motionPaused || reducedMotion }">
     <section ref="heroRef" class="home-hero" aria-labelledby="hero-title" @pointermove="moveArtwork" @pointerleave="resetArtwork">
-      <div class="hero-topline"><span>MAKE EVERY DAY A LITTLE SPECIAL</span><span>기념일 만물상 · ANNICAL</span></div>
+      <div class="hero-topline">
+        <span class="hero-edition">ANNICAL DAILY JOURNAL</span>
+        <time :datetime="todayValue.format('YYYY-MM-DD')">{{ dateLabel }} · {{ weekday }}요일</time>
+      </div>
       <div class="hero-content">
         <div class="hero-copy">
           <p class="hero-eyebrow"><span class="tiny-spark" aria-hidden="true">✳</span> 하루에 하나, 새로운 발견</p>
           <h1 id="hero-title">평범한 하루에,<br />기념할 이유 <span class="hero-last-word">하나<svg viewBox="0 0 160 18" fill="none" aria-hidden="true"><path d="M4 12Q72 0 155 8M18 16Q90 8 141 13" stroke="currentColor" stroke-width="3" stroke-linecap="round" /></svg></span><span class="hero-period">.</span></h1>
-          <p class="hero-description">누군가는 오늘을 특별한 날로 정해두었어요.<br />세상 곳곳의 기념일과 그 안에 담긴 이야기를 만나보세요.</p>
+          <p class="hero-description">날짜에 담긴 이야기를 발견하고, 좋아하는 날을 기억해요.</p>
+          <div class="hero-featured">
+            <span class="hero-featured-label">오늘의 첫 이야기</span>
+            <RouterLink v-if="featuredStory && featuredPath && !error" :to="featuredPath"
+              :aria-label="`오늘의 첫 이야기: ${featuredStory.name}`">
+              <strong>{{ featuredTitle }}</strong><span aria-hidden="true">↗</span>
+            </RouterLink>
+            <button v-else-if="featuredStory && !error" type="button" @click="scrollToStories">
+              <strong>{{ featuredTitle }}</strong><span aria-hidden="true">↓</span>
+            </button>
+            <p v-else role="status">{{ error ? '오늘의 이야기를 다시 불러와 주세요.' : isLoading ? '오늘의 이야기를 고르고 있어요…' : '오늘은 나만의 기념일을 만들어보세요.' }}</p>
+          </div>
           <div class="hero-actions">
-            <button type="button" class="home-button home-button--dark" @click="scrollToStories">오늘의 기념일 발견하기 <span aria-hidden="true">↗</span></button>
+            <button type="button" class="home-button home-button--dark" @click="scrollToStories">오늘의 기념일 보기 <span aria-hidden="true">↗</span></button>
             <RouterLink to="/calendar" class="hero-calendar-link">달력 둘러보기 <span aria-hidden="true">→</span></RouterLink>
           </div>
         </div>
@@ -88,7 +106,6 @@ function categoryLabel(id: CategoryId) { return store.categories.find((category)
       <span><span class="strip-flower" aria-hidden="true">✳</span> 모든 날에는 이야기가 있어요</span>
       <span>오늘의 기념일 <strong>{{ isLoading && !todays.length ? '—' : todays.length }}<small>개</small></strong></span>
       <span>앞으로 30일 <strong>{{ isLoading && !upcoming.length ? '—' : upcoming.length }}<small>개의 발견</small></strong></span>
-      <span class="strip-signoff">A NEW DAY, A NEW STORY.</span>
     </div>
 
     <div class="home-container">
@@ -100,7 +117,7 @@ function categoryLabel(id: CategoryId) { return store.categories.find((category)
         <div v-if="isLoading && !todays.length" class="story-grid" role="status" aria-label="오늘의 기념일 불러오는 중"><div v-for="n in 3" :key="n" class="story-skeleton"><span /><span /><span /></div></div>
         <div v-else-if="error" class="home-empty" role="alert"><h3>이야기를 불러오지 못했어요.</h3><p>잠시 후 다시 시도해 주세요.</p><button type="button" class="home-button home-button--dark" @click="store.retry()">다시 불러오기 ↗</button></div>
         <div v-else-if="todays.length" class="story-grid" :class="{ 'story-grid--two': todays.length === 2, 'story-grid--one': todays.length === 1 }">
-          <TodayStoryCard v-for="(anniversary, index) in todays" :key="anniversary.id" v-reveal :anniversary="anniversary" :index="index" :style="{ '--reveal-delay': `${Math.min(index, 2) * 75}ms` }" @share="handleShare" />
+          <TodayStoryCard v-for="(anniversary, index) in todays" :key="anniversary.id" v-reveal :anniversary="anniversary" :index="index" :date-label="todayValue.format('MM.DD')" :style="{ '--reveal-delay': `${Math.min(index, 2) * 75}ms` }" @share="handleShare" />
         </div>
         <div v-else class="home-empty"><span class="empty-flower" aria-hidden="true">✳</span><h3>아직 이름 붙이지 않은 하루예요.</h3><p>오늘은 나만의 기념일을 만들어보는 건 어때요?<br />아래에서 다가오는 기념일도 만나보세요.</p></div>
       </section>

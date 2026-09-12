@@ -26,6 +26,7 @@ onBeforeUnmount(() => window.removeEventListener('scroll', updateScroll))
       <nav class="header-nav" aria-label="주 메뉴">
         <RouterLink to="/" exact-active-class="is-active">오늘의 발견</RouterLink>
         <RouterLink to="/calendar" active-class="is-active">기념일 달력</RouterLink>
+        <RouterLink to="/popular" active-class="is-active">인기 순위</RouterLink>
         <RouterLink to="/export" active-class="is-active">캘린더 연동 <span aria-hidden="true">↗</span></RouterLink>
       </nav>
       <div class="header-today"><span class="live-dot" /><span>{{ todayLabel }}</span><span class="header-today-label">좋은 하루예요!</span></div>

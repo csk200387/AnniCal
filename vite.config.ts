@@ -16,7 +16,7 @@ export default defineConfig({
     tailwindcss(),
     Sitemap({
       hostname: 'https://annical.vercel.app',
-      dynamicRoutes: ['/calendar', '/export', ...targets.map((t) => t.path)],
+      dynamicRoutes: ['/calendar', '/popular', '/export', ...targets.map((t) => t.path)],
       // 라우트별로 다르게 준다. 특히 lastmod 를 빌드 시각으로 통일하면
       // 재배포마다 전 URL 이 "수정됨"이 되어 검색엔진이 값을 무시한다.
       lastmod,

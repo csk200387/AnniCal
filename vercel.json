@@ -1,6 +1,7 @@
 {
   "rewrites": [
     { "source": "/calendar", "destination": "/index.html" },
+    { "source": "/popular", "destination": "/index.html" },
     { "source": "/export", "destination": "/index.html" }
   ],
   "headers": [

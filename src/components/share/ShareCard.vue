@@ -3,8 +3,9 @@ import { computed } from 'vue'
 import dayjs from 'dayjs'
 import type { Anniversary } from '@/types/anniversary'
 import { formatKoreanMonthDay } from '@/utils/dateUtils'
-import { primaryColorForTags } from '@/utils/tagPalette'
 import { useAnniversariesStore } from '@/stores/anniversaries'
+import { SITE_URL } from '@/seo/meta'
+import CategorySymbol from '@/features/feed/components/CategorySymbol.vue'
 
 const props = defineProps<{
   anniversary: Anniversary
@@ -17,9 +18,19 @@ const category = computed(() =>
   store.categories.find((c) => c.id === props.anniversary.category),
 )
 
-const accentDot = computed(
-  () => primaryColorForTags(props.anniversary.tags).dot,
+// 피드 카드와 같은 규칙 — 뒤에 붙은 영문 원어명은 떼고 보여준다.
+const displayName = computed(() =>
+  props.anniversary.name.replace(/\s+\([A-Za-z][^)]*\)$/, ''),
 )
+
+/** 제목 길이에 맞춘 본문 크기. 540px 안에서 두 줄을 넘기지 않게 한다. */
+const titleSize = computed(() => {
+  const length = displayName.value.length
+  if (length <= 8) return '52px'
+  if (length <= 13) return '44px'
+  if (length <= 20) return '36px'
+  return '30px'
+})
 
 const dateKo = computed(() => formatKoreanMonthDay(props.anniversary))
 
@@ -36,249 +47,131 @@ const dateEn = computed(() => {
   return `${months[Number(m[1]) - 1]} ${m[2]}`
 })
 
-const todayStamp = computed(() => dayjs().format('YYYY.MM.DD'))
-
-// 다가오는 기념일일 때 "당신의 캘린더에 D−3" 같은 보조 카피
-const dDayCaption = computed(() => {
+/** 다가오는 기념일 배지. 오늘이면 "오늘". */
+const dDayBadge = computed(() => {
   if (typeof props.dDay !== 'number') return null
-  if (props.dDay === 0) return '오늘'
-  return `오늘로부터 ${props.dDay}일 뒤`
+  return props.dDay === 0 ? '오늘' : `D−${props.dDay}`
 })
+
+const todayStamp = computed(() => dayjs().format('YYYY.MM.DD'))
+const siteLabel = SITE_URL.replace(/^https?:\/\//, '')
+
+// 우표 천공. 뒤에 깔린 종이색(paper-200)으로 구멍을 뚫는다.
+const holesY = Array.from({ length: 11 }, (_, i) => 18 + i * 12)
+const holesX = Array.from({ length: 13 }, (_, i) => 18 + i * 14)
 </script>
 
 <template>
   <!--
-    1:1 캡처 카드 — 540×540 px.
-    pixelRatio:2 로 저장하면 최종 1080×1080.
+    1:1 캡처 카드 — 540×540 px. pixelRatio:2 로 저장하면 최종 1080×1080.
+    색은 html-to-image 가 복제 트리에서 CSS 변수를 못 푸는 경우가 있어,
+    SVG 안에서는 토큰과 같은 값을 리터럴로 적는다.
+    바탕은 사이트의 히어로 패널과 같은 paper-200 — 우표(paper-50)가 떠 보인다.
   -->
   <div
-    class="share-card relative overflow-hidden bg-paper-100 text-ink-700"
+    class="share-card relative overflow-hidden bg-paper-200 text-ink-700"
     style="width: 540px; height: 540px;"
   >
-    <!-- 배경 추상 도형 ─────────────────────────── -->
+    <!-- 배경: 사이트 곳곳에 쓰는 링 장식 ─────────── -->
     <svg
       class="absolute inset-0 h-full w-full"
       viewBox="0 0 540 540"
-      preserveAspectRatio="none"
       aria-hidden="true"
     >
-      <defs>
-        <radialGradient id="sc-grad-1" cx="85%" cy="105%" r="75%">
-          <stop offset="0%" stop-color="#8b2c2c" stop-opacity="0.18" />
-          <stop offset="60%" stop-color="#8b2c2c" stop-opacity="0.06" />
-          <stop offset="100%" stop-color="#8b2c2c" stop-opacity="0" />
-        </radialGradient>
-        <radialGradient id="sc-grad-2" cx="0%" cy="0%" r="80%">
-          <stop offset="0%" stop-color="#2f2c28" stop-opacity="0.12" />
-          <stop offset="100%" stop-color="#2f2c28" stop-opacity="0" />
-        </radialGradient>
-        <radialGradient id="sc-grad-3" cx="50%" cy="50%" r="50%">
-          <stop offset="0%" stop-color="#2f2c28" stop-opacity="0.05" />
-          <stop offset="100%" stop-color="#2f2c28" stop-opacity="0" />
-        </radialGradient>
-      </defs>
-
-      <!-- 좌상단 부드러운 빛 -->
-      <rect x="0" y="0" width="540" height="540" fill="url(#sc-grad-2)" />
-      <!-- 우하단 액센트 글로우 -->
-      <circle cx="540" cy="540" r="340" fill="url(#sc-grad-1)" />
-      <!-- 중앙 미세 빛 -->
-      <circle cx="270" cy="270" r="220" fill="url(#sc-grad-3)" />
-
-      <!-- 좌상단 동심원 (가는 선) -->
-      <g stroke="#2f2c28" fill="none">
-        <circle cx="36" cy="40" r="120" stroke-width="0.7" stroke-opacity="0.18" />
-        <circle cx="36" cy="40" r="190" stroke-width="0.6" stroke-opacity="0.12" />
-        <circle cx="36" cy="40" r="260" stroke-width="0.5" stroke-opacity="0.08" />
-        <circle cx="36" cy="40" r="330" stroke-width="0.5" stroke-opacity="0.05" />
-      </g>
-
-      <!-- 우하단 동심원 (반대편) -->
-      <g stroke="#8b2c2c" fill="none">
-        <circle cx="510" cy="510" r="80" stroke-width="0.7" stroke-opacity="0.18" />
-        <circle cx="510" cy="510" r="140" stroke-width="0.6" stroke-opacity="0.1" />
-      </g>
-
-      <!-- 중앙 큰 outlined 원 -->
-      <circle
-        cx="380" cy="200" r="78"
-        fill="none" stroke="#2f2c28"
-        stroke-width="0.5" stroke-opacity="0.1"
-      />
-      <!-- 그 안쪽 작은 원 -->
-      <circle
-        cx="380" cy="200" r="42"
-        fill="none" stroke="#2f2c28"
-        stroke-width="0.5" stroke-opacity="0.07"
-      />
-
-      <!-- 우상단 도트 클러스터 -->
-      <g fill="#8b2c2c">
-        <circle cx="486" cy="84" r="3.2" fill-opacity="0.7" />
-        <circle cx="500" cy="100" r="1.6" fill-opacity="0.5" />
-        <circle cx="470" cy="102" r="1.6" fill-opacity="0.5" />
-        <circle cx="492" cy="116" r="1.2" fill-opacity="0.35" />
-      </g>
-
-      <!-- 좌하단 도트 클러스터 -->
-      <g fill="#2f2c28">
-        <circle cx="62" cy="446" r="2.2" fill-opacity="0.32" />
-        <circle cx="78" cy="460" r="1.4" fill-opacity="0.22" />
-        <circle cx="50" cy="462" r="1.4" fill-opacity="0.22" />
-        <circle cx="90" cy="444" r="1.2" fill-opacity="0.18" />
-      </g>
-
-      <!-- 매거진 풍 + 마커 -->
-      <g stroke="#2f2c28" stroke-width="0.7" stroke-opacity="0.22" stroke-linecap="round">
-        <!-- top-right plus -->
-        <line x1="446" y1="160" x2="454" y2="160" />
-        <line x1="450" y1="156" x2="450" y2="164" />
-        <!-- mid-left plus -->
-        <line x1="100" y1="288" x2="108" y2="288" />
-        <line x1="104" y1="284" x2="104" y2="292" />
-        <!-- bottom-mid plus -->
-        <line x1="248" y1="468" x2="256" y2="468" />
-        <line x1="252" y1="464" x2="252" y2="472" />
-      </g>
-
-      <!-- 짧은 대각 hash 라인들 -->
-      <g stroke="#2f2c28" stroke-width="0.6" stroke-opacity="0.14" stroke-linecap="round">
-        <line x1="180" y1="74" x2="194" y2="60" />
-        <line x1="186" y1="80" x2="200" y2="66" />
-        <line x1="430" y1="382" x2="444" y2="368" />
-        <line x1="436" y1="388" x2="450" y2="374" />
-      </g>
-
-      <!-- 중앙을 가로지르는 가는 수평선 (두 줄) -->
-      <line
-        x1="60" y1="312" x2="480" y2="312"
-        stroke="#2f2c28" stroke-opacity="0.08" stroke-width="0.5"
-      />
-      <line
-        x1="180" y1="320" x2="360" y2="320"
-        stroke="#2f2c28" stroke-opacity="0.05" stroke-width="0.5"
-      />
-
-      <!-- 우측 길게 늘어진 가는 곡선 -->
-      <path
-        d="M 540 180 Q 380 240 400 380 Q 420 500 540 480"
-        fill="none" stroke="#2f2c28" stroke-opacity="0.1" stroke-width="0.7"
-      />
-      <!-- 좌측에서 흐르는 보조 곡선 -->
-      <path
-        d="M 0 360 Q 120 320 160 380 Q 200 440 140 500"
-        fill="none" stroke="#2f2c28" stroke-opacity="0.07" stroke-width="0.6"
-      />
-
-      <!-- 미니 사각형 outlines (매거진 픽토그램 풍) -->
-      <g stroke="#2f2c28" fill="none" stroke-width="0.6" stroke-opacity="0.16">
-        <rect x="408" y="58" width="14" height="14" />
-        <rect x="160" y="410" width="10" height="10" transform="rotate(45 165 415)" />
-      </g>
+      <circle cx="470" cy="470" r="150" fill="none" stroke="#8b2c2c" stroke-opacity="0.16" />
+      <circle cx="470" cy="470" r="206" fill="none" stroke="#8b2c2c" stroke-opacity="0.09" />
+      <circle cx="470" cy="470" r="272" fill="none" stroke="#2f2c28" stroke-opacity="0.05" />
+      <circle cx="64" cy="84" r="118" fill="none" stroke="#2f2c28" stroke-opacity="0.06" />
     </svg>
 
     <!-- 콘텐츠 ───────────────────────────────── -->
     <div class="relative z-10 flex h-full flex-col px-12 py-11">
-      <!-- 상단: 발행 마크 / D-Day -->
-      <header class="flex items-start justify-between gap-4">
+      <header class="flex items-start justify-between gap-5">
         <div>
-          <p
-            class="font-sans text-[10px] font-medium uppercase tracking-[0.28em] text-ink-500"
-          >
-            Anniversarium
+          <p class="flex items-center gap-2 text-[10px] font-medium tracking-[0.2em] text-ink-500">
+            <span class="inline-block h-1.5 w-1.5 rounded-full bg-accent-500" aria-hidden="true" />
+            ANNICAL
           </p>
-          <p
-            class="mt-1 font-sans text-[9.5px] uppercase tracking-[0.24em] text-ink-400"
-          >
-            A Daily Curation
+          <p class="mt-2.5 text-[15px] font-semibold tracking-[-0.04em] text-ink-700">
+            기념일 만물상
           </p>
         </div>
 
-        <div v-if="typeof dDay === 'number'" class="text-right">
-          <p
-            class="font-sans text-[9.5px] font-medium uppercase tracking-[0.28em] text-accent-600"
-          >
-            D −
-          </p>
-          <p
-            class="-mt-0.5 font-display text-[2.6rem] font-medium leading-none tabular-nums text-accent-600"
-          >
-            {{ dDay }}
-          </p>
-          <p
-            v-if="dDayCaption"
-            class="mt-1 font-sans text-[9px] uppercase tracking-[0.2em] text-ink-400"
-          >
-            {{ dDayCaption }}
-          </p>
-        </div>
+        <!-- 오늘의 발견 카드와 같은 우표 모티프 -->
+        <svg width="200" height="148" viewBox="0 0 210 155" fill="none" aria-hidden="true">
+          <g transform="rotate(-4 105 77)">
+            <rect x="6" y="6" width="198" height="143" fill="#fdfcf9" />
+            <g fill="#f3ede0">
+              <template v-for="y in holesY" :key="`y${y}`">
+                <circle cx="6" :cy="y" r="3.4" />
+                <circle cx="204" :cy="y" r="3.4" />
+              </template>
+              <template v-for="x in holesX" :key="`x${x}`">
+                <circle :cx="x" cy="6" r="3.4" />
+                <circle :cx="x" cy="149" r="3.4" />
+              </template>
+            </g>
+            <rect x="18" y="20" width="174" height="115" stroke="#6f2222" stroke-opacity="0.35" />
+            <text
+              x="105" y="38" text-anchor="middle" fill="#6f2222"
+              font-size="8.5" letter-spacing="2.4"
+            >ANNICAL</text>
+            <CategorySymbol
+              :category="anniversary.category"
+              x="76" y="48" width="58" height="58"
+              style="color: #6f2222"
+            />
+            <path d="M32 116h146" stroke="#6f2222" stroke-opacity="0.25" />
+            <text
+              x="105" y="131" text-anchor="middle" fill="#6f2222"
+              font-size="11" letter-spacing="1.6"
+            >{{ dateEn || dateKo }}</text>
+          </g>
+        </svg>
       </header>
 
-      <!-- 중앙: 카테고리 + 제목 -->
+      <!-- 중앙: 카테고리 + 제목 + 날짜 -->
       <div class="mt-auto">
-        <div
-          class="flex items-center gap-2 font-sans text-[10px] uppercase tracking-[0.26em] text-ink-500"
-        >
+        <div class="flex items-center gap-3">
+          <span class="flex items-center gap-2 text-[11px] tracking-[0.12em] text-ink-500">
+            <span class="inline-block h-1.5 w-1.5 rounded-full bg-accent-500" aria-hidden="true" />
+            {{ category?.label ?? '기념일' }}
+          </span>
           <span
-            class="h-1.5 w-1.5 rounded-full"
-            :class="accentDot"
-            aria-hidden="true"
-          />
-          <span v-if="category">{{ category.label }}</span>
+            v-if="dDayBadge"
+            class="rounded-full bg-accent-600 px-3 py-1 text-[11px] font-semibold tracking-[-0.01em] text-paper-50"
+          >{{ dDayBadge }}</span>
         </div>
 
         <h1
-          class="mt-3 font-display font-medium leading-[1.04] tracking-[-0.015em] text-ink-900"
-          :class="anniversary.name.length > 10 ? 'text-[2.7rem]' : 'text-[3.5rem]'"
+          class="mt-4 font-bold leading-[1.24] tracking-[-0.055em] text-ink-700"
+          style="word-break: keep-all;"
+          :style="{ fontSize: titleSize }"
         >
-          {{ anniversary.name }}
+          {{ displayName }}
         </h1>
 
-        <!-- 큰 날짜 라인 -->
-        <p class="mt-5 flex items-baseline gap-3 text-ink-600">
-          <span
-            class="font-display text-[1.6rem] font-medium leading-none tracking-tight"
-          >
+        <p class="mt-5 flex items-center gap-4">
+          <span class="text-[22px] font-semibold leading-none tracking-[-0.045em] text-ink-600">
             {{ dateKo }}
           </span>
-          <span class="h-px w-6 self-center bg-ink-300" aria-hidden="true" />
-          <span
-            class="font-sans text-[11px] font-medium uppercase tracking-[0.3em] text-ink-500"
-          >
+          <span class="h-px w-7 bg-ink-300" aria-hidden="true" />
+          <span class="text-[11px] font-medium tracking-[0.24em] text-ink-500">
             {{ dateEn }}
           </span>
         </p>
       </div>
 
-      <!-- 하단: 태그 + 워치마크 -->
-      <footer class="mt-8">
-        <ul
-          v-if="anniversary.tags.length"
-          class="flex flex-wrap items-center gap-x-4 gap-y-1.5 font-sans text-[10px] uppercase tracking-[0.22em] text-ink-500"
-        >
-          <li
-            v-for="tag in anniversary.tags.slice(0, 5)"
-            :key="tag"
-            class="flex items-center gap-1.5"
-          >
-            <span class="h-px w-3 bg-ink-300" aria-hidden="true" />
-            <span>{{ tag }}</span>
-          </li>
-        </ul>
-
-        <div
-          class="mt-5 flex items-end justify-between border-t pt-3.5"
-          style="border-color: var(--color-rule);"
-        >
-          <span class="font-display text-[0.95rem] tracking-tight text-ink-700">
-            기념일 만물상
-          </span>
-          <span
-            class="font-sans text-[9.5px] uppercase tracking-[0.28em] text-ink-400 tabular-nums"
-          >
-            Captured · {{ todayStamp }}
-          </span>
-        </div>
+      <footer
+        class="mt-9 flex items-end justify-between border-t pt-4"
+        style="border-color: #e3ddd1;"
+      >
+        <span class="text-[12px] font-medium tracking-[-0.02em] text-ink-500">
+          {{ siteLabel }}
+        </span>
+        <span class="text-[9.5px] tracking-[0.22em] text-ink-400 tabular-nums">
+          CAPTURED · {{ todayStamp }}
+        </span>
       </footer>
     </div>
   </div>

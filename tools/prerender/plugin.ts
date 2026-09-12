@@ -203,7 +203,7 @@ export function prerender(): Plugin {
 
       // 정적으로 매칭되지 않는 주소용 404 페이지.
       //
-      // vercel.json 의 rewrite 를 /calendar·/export 로 좁혔기 때문에, 그 밖의
+      // vercel.json 의 rewrite 를 소수의 정적 SPA 페이지로 좁혔기 때문에, 그 밖의
       // 없는 주소는 여기로 떨어지며 HTTP 상태도 진짜 404 가 된다. 예전에는
       // 모든 경로를 index.html 로 rewrite 해서 없는 페이지도 200 을 냈고,
       // 검색엔진이 그것들을 정상 페이지로 색인할 수 있었다.

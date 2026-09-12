@@ -60,6 +60,16 @@ const router = createRouter({
       },
     },
     {
+      path: '/popular',
+      name: 'popular',
+      component: () => import('@/features/stats/views/PopularView.vue'),
+      meta: {
+        title: '많이 읽은 기념일 · 관심도 순위',
+        description: '기념일 만물상에서 독자들이 가장 많이 읽은 기념일을 누적 조회수와 관심도 순위로 살펴보세요.',
+        keywords: '기념일 순위,인기 기념일,많이 읽은 기념일,기념일 관심도,기념일 만물상',
+      },
+    },
+    {
       path: '/day/:date',
       name: 'date-hub',
       component: () => import('@/features/day/views/DateHubView.vue'),
