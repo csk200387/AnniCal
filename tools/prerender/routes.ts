@@ -265,5 +265,11 @@ export function buildSitemapMeta(targets: PrerenderTarget[]): SitemapMeta {
     changefreq[p] = 'weekly'
   }
 
+  // 생일 도구는 기념일 데이터뿐 아니라 페이지 콘텐츠의 수정일도 반영한다.
+  lastmod['/birthday'] = new Date(Math.max(
+    lastmod['/birthday'].getTime(),
+    changedAt('src/features/birthday').getTime(),
+  ))
+
   return { lastmod, priority, changefreq }
 }
