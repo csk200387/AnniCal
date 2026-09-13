@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, watch } from 'vue'
+import { computed, defineAsyncComponent, ref, watch } from 'vue'
 import { useRoute, RouterLink } from 'vue-router'
 import { useDayDetail, formatUrlDate } from '../composables/useDayPages'
 import { datePath, pathForId } from '@/utils/anniversaryRoutes'
@@ -9,6 +9,8 @@ import CategoryBadge from '@/components/common/CategoryBadge.vue'
 import { applyAnniversaryMeta, applyNotFoundMeta } from '@/seo/head'
 import { useShareStore } from '@/stores/share'
 import { useStatsStore } from '@/stores/stats'
+
+const FeedbackModal = defineAsyncComponent(() => import('@/features/feedback/components/FeedbackModal.vue'))
 
 const route = useRoute()
 const urlDate = computed(() => String(route.params.date ?? ''))
@@ -28,6 +30,7 @@ const {
 const shareStore = useShareStore()
 const statsStore = useStatsStore()
 const number = new Intl.NumberFormat('ko-KR')
+const feedbackOpen = ref(false)
 const detailStats = computed(() => {
   const id = anniversary.value?.id
   return id ? statsStore.detailById[id] ?? null : null
@@ -147,6 +150,7 @@ watch(
 
         <div class="article-share">
           <button type="button" class="home-button home-button--dark" @click="openShare">공유하기 <span aria-hidden="true">↗</span></button>
+          <button type="button" class="article-feedback-button" @click="feedbackOpen = true">정보 요청 <span aria-hidden="true">✎</span></button>
         </div>
       </article>
 
@@ -171,5 +175,6 @@ watch(
         <RouterLink :to="datePath(hubDate)">{{ dateLabel }}은 무슨 날인지 전부 보기 <span aria-hidden="true">↗</span></RouterLink>
       </div>
     </div>
+    <FeedbackModal v-if="feedbackOpen && anniversary" :anniversary="anniversary" @close="feedbackOpen = false" />
   </div>
 </template>

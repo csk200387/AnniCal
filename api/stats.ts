@@ -12,9 +12,9 @@ const COOKIE_NAME = 'annical_vid'
 const COOKIE_MAX_AGE = 60 * 60 * 24 * 365
 const EVENT_TTL_SECONDS = 60 * 60 * 24
 const DAILY_TTL_SECONDS = 60 * 60 * 48
-// 홈에서는 상위 5개만 잘라 보여주고, 인기 페이지는 이 목록 전체를 사용한다.
+// 홈에서는 상위 5개만 잘라 보여주고, 인기 페이지는 상위 20개를 사용한다.
 // 한 번이라도 읽힌 기념일만 Redis sorted set에 들어가므로 빈 순위는 전송되지 않는다.
-const RANKING_LIMIT = 100
+const RANKING_LIMIT = 20
 const MAX_BODY_BYTES = 1024
 const ID_RE = /^[a-z0-9][a-z0-9-]{2,159}$/
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i

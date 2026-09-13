@@ -58,7 +58,7 @@ const isPending = computed(() => (statsLoading.value || anniversaries.isLoading)
         <div class="ranking-board-heading">
           <div>
             <p class="section-kicker"><span /> POPULARITY INDEX</p>
-            <h2 id="ranking-board-title">누적 관심도 순위</h2>
+            <h2 id="ranking-board-title">누적 관심도 TOP 20</h2>
           </div>
           <p>상세 페이지 누적 읽음 기준</p>
         </div>
