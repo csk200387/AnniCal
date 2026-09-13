@@ -22,6 +22,16 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
+      path: '/birthday',
+      name: 'birthday',
+      component: () => import('@/features/birthday/views/BirthdayView.vue'),
+      meta: {
+        title: '내 생일은 무슨 날? · 생일 기념일 찾기',
+        description: '내 생일과 같은 날의 기념일을 발견하고, 마음에 드는 이야기로 생일 카드를 만들어보세요. 친구의 생일도 함께 알아보세요.',
+        keywords: '생일 기념일,내 생일은 무슨 날,생일 카드,생일 공유,기념일 만물상',
+      },
+    },
+    {
       path: '/',
       name: 'feed',
       component: () => import('@/features/feed/views/FeedView.vue'),

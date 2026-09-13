@@ -1,6 +1,7 @@
 import { defineStore } from 'pinia'
 import { ref } from 'vue'
 import type { Anniversary } from '@/types/anniversary'
+import type { BirthdayContext } from '@/features/birthday/birthday'
 
 /**
  * 공유 모달 글로벌 상태.
@@ -10,6 +11,7 @@ export const useShareStore = defineStore('share', () => {
   const isOpen = ref(false)
   const anniversary = ref<Anniversary | null>(null)
   const dDay = ref<number | undefined>(undefined)
+  const birthday = ref<BirthdayContext | null>(null)
   /**
    * 이 세션에서 모달을 한 번이라도 열었는가.
    * AppShell 이 비동기 모달 청크를 계속 붙여 둘지 판단하는 데 쓴다 —
@@ -18,17 +20,24 @@ export const useShareStore = defineStore('share', () => {
   const hasOpened = ref(false)
 
   function open(anv: Anniversary, d?: number) {
+    birthday.value = null
     anniversary.value = anv
     dDay.value = d
     isOpen.value = true
     hasOpened.value = true
   }
 
+  function openBirthday(anv: Anniversary, context: BirthdayContext) {
+    open(anv)
+    birthday.value = { ...context }
+  }
+
   function close() {
     isOpen.value = false
     anniversary.value = null
     dDay.value = undefined
+    birthday.value = null
   }
 
-  return { isOpen, anniversary, dDay, hasOpened, open, close }
+  return { isOpen, anniversary, dDay, birthday, hasOpened, open, openBirthday, close }
 })

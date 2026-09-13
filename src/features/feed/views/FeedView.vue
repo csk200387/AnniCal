@@ -90,7 +90,7 @@ function categoryLabel(id: CategoryId) { return store.categories.find((category)
           </div>
           <div class="hero-actions">
             <button type="button" class="home-button home-button--dark" @click="scrollToStories">오늘의 기념일 보기 <span aria-hidden="true">↗</span></button>
-            <RouterLink to="/calendar" class="hero-calendar-link">달력 둘러보기 <span aria-hidden="true">→</span></RouterLink>
+            <RouterLink to="/birthday" class="hero-calendar-link">내 생일은 무슨 날? <span aria-hidden="true">→</span></RouterLink>
           </div>
         </div>
         <CalendarArtwork :today="today" />

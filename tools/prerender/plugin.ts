@@ -147,6 +147,26 @@ export function prerender(): Plugin {
       // 파일을 덮어쓰는 것을 막는 마지막 방어선이다.
       const outRoot = resolve(outDir)
 
+      // 날짜 쿼리와 관계없이 생일 공유 링크에 전용 제목과 설명을 제공한다.
+      const birthdayTitle = '내 생일은 무슨 날? · 생일 기념일 찾기 | ' + SITE_NAME
+      const birthdayDescription = '내 생일과 같은 날의 기념일을 발견하고, 마음에 드는 이야기로 생일 카드를 만들어보세요. 친구의 생일도 함께 알아보세요.'
+      let birthdayHtml = shell
+        .replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(birthdayTitle)}</title>`)
+        .replace(/<link rel="canonical"[^>]*>/, `<link rel="canonical" href="${SITE_URL}/birthday" />`)
+        .replace(/<meta property="og:url"[^>]*>/, `<meta property="og:url" content="${SITE_URL}/birthday" />`)
+        .replace('<div id="app"></div>', '<div id="app"><h1>내 생일은 무슨 날?</h1><p>' + birthdayDescription + '</p><a href="/calendar">기념일 달력 둘러보기</a></div>')
+      for (const [attr, key, content] of [
+        ['name', 'description', birthdayDescription],
+        ['property', 'og:title', birthdayTitle],
+        ['property', 'og:description', birthdayDescription],
+        ['name', 'twitter:title', birthdayTitle],
+        ['name', 'twitter:description', birthdayDescription],
+      ]) {
+        birthdayHtml = birthdayHtml.replace(new RegExp(`<meta ${attr}="${key}"[^>]*>`), `<meta ${attr}="${key}" content="${esc(content)}" />`)
+      }
+      mkdirSync(join(outDir, 'birthday'), { recursive: true })
+      writeFileSync(join(outDir, 'birthday/index.html'), birthdayHtml, 'utf-8')
+
       const byDate = new Map<string, Anniversary[]>()
       for (const t of targets) {
         if (t.kind === 'hub') byDate.set(t.urlDate, t.items ?? [])

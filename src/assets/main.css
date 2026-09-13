@@ -133,6 +133,10 @@
 .footer-wordmark { font-size: clamp(80px,17vw,230px); font-weight: 650; letter-spacing: -.085em; line-height: 1; margin: 42px 0 25px; color: var(--color-paper-300); overflow: hidden; }
 .footer-bottom { display: flex; justify-content: space-between; gap: 16px; border-top: 1px solid var(--color-rule); padding-top: 22px; font-size: 10px; color: var(--color-ink-400); letter-spacing: .08em; }
 @media (max-width: 1050px) { .header-today-label { display: none; } }
+@media (min-width: 761px) and (max-width: 1100px) {
+  .site-header .header-nav a { padding-left: 12px; padding-right: 12px; }
+  .header-today { display: none; }
+}
 @media (max-width: 760px) {
   .site-header { padding: 0 20px; }
   .site-header-inner { min-height: 116px; gap: 12px; flex-wrap: wrap; padding: 14px 0 10px; }
@@ -140,7 +144,7 @@
   .brand { font-size: 27px; }
   .brand-mark { width: 32px; height: 32px; }
   .header-today { font-size: 10px; }
-  .header-nav { order: 3; width: 100%; justify-content: center; padding: 3px; }
+  .header-nav { order: 3; width: 100%; justify-content: flex-start; padding: 3px; overflow-x: auto; }
   .header-nav a { flex: 1; text-align: center; font-size: 12px; padding: 9px 8px; }
   .site-footer { margin-top: 56px; padding: 32px 24px 24px; }
   .footer-top { flex-direction: column; gap: 16px; }

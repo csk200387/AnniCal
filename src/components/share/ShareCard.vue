@@ -6,11 +6,13 @@ import { formatKoreanMonthDay } from '@/utils/dateUtils'
 import { useAnniversariesStore } from '@/stores/anniversaries'
 import { SITE_URL } from '@/seo/meta'
 import CategorySymbol from '@/features/feed/components/CategorySymbol.vue'
+import type { BirthdayContext } from '@/features/birthday/birthday'
 
 const props = defineProps<{
   anniversary: Anniversary
   /** 다가오는 기념일일 때 D-N 값. 오늘이면 undefined. */
   dDay?: number
+  birthday?: BirthdayContext
 }>()
 
 const store = useAnniversariesStore()
@@ -32,7 +34,13 @@ const titleSize = computed(() => {
   return '30px'
 })
 
-const dateKo = computed(() => formatKoreanMonthDay(props.anniversary))
+const dateKo = computed(() => {
+  if (props.birthday) {
+    const [m, d] = props.birthday.date.split('-').map(Number)
+    return `${m}월 ${d}일`
+  }
+  return formatKoreanMonthDay(props.anniversary)
+})
 
 const dateEn = computed(() => {
   // 영문 약식 — "MAY 27"
@@ -93,7 +101,7 @@ const holesX = Array.from({ length: 13 }, (_, i) => 18 + i * 14)
             ANNICAL
           </p>
           <p class="mt-2.5 text-[15px] font-semibold tracking-[-0.04em] text-ink-700">
-            기념일 만물상
+            {{ birthday ? '내 생일의 발견' : '기념일 만물상' }}
           </p>
         </div>
 
@@ -132,6 +140,7 @@ const holesX = Array.from({ length: 13 }, (_, i) => 18 + i * 14)
 
       <!-- 중앙: 카테고리 + 제목 + 날짜 -->
       <div class="mt-auto">
+        <p v-if="birthday" class="mb-3 text-[16px] font-semibold text-accent-600">내 생일과 같은 날,</p>
         <div class="flex items-center gap-3">
           <span class="flex items-center gap-2 text-[11px] tracking-[0.12em] text-ink-500">
             <span class="inline-block h-1.5 w-1.5 rounded-full bg-accent-500" aria-hidden="true" />
@@ -167,10 +176,10 @@ const holesX = Array.from({ length: 13 }, (_, i) => 18 + i * 14)
         style="border-color: #e3ddd1;"
       >
         <span class="text-[12px] font-medium tracking-[-0.02em] text-ink-500">
-          {{ siteLabel }}
+          {{ siteLabel }}{{ birthday ? '/birthday' : '' }}
         </span>
         <span class="text-[9.5px] tracking-[0.22em] text-ink-400 tabular-nums">
-          CAPTURED · {{ todayStamp }}
+          {{ birthday ? `네 생일은 무슨 날? · ${birthday.year}년 기준` : `CAPTURED · ${todayStamp}` }}
         </span>
       </footer>
     </div>

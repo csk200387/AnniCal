@@ -259,7 +259,7 @@ export function buildSitemapMeta(targets: PrerenderTarget[]): SitemapMeta {
   lastmod['/'] = changedAt('src/data/anniversaries')
   priority['/'] = 1.0
   changefreq['/'] = 'daily'
-  for (const p of ['/calendar', '/popular', '/export']) {
+  for (const p of ['/calendar', '/birthday', '/popular', '/export']) {
     lastmod[p] = changedAt('src/data/anniversaries')
     priority[p] = 0.5
     changefreq[p] = 'weekly'

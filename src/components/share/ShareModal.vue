@@ -5,6 +5,7 @@ import { useShareStore } from '@/stores/share'
 import { useCopyToClipboard } from '@/composables/useCopyToClipboard'
 import { SITE_URL } from '@/seo/meta'
 import ShareCard from './ShareCard.vue'
+import { birthdayPath } from '@/features/birthday/birthday'
 
 // html-to-image 는 이미지를 만들 때만 필요하다. 모달을 열어 링크만 복사하는
 // 사람에게는 받게 하지 않는다 — 한 번 받으면 모듈 캐시에 남아 재요청은 없다.
@@ -46,7 +47,7 @@ function warmUpImage(): void {
 }
 
 const shareStore = useShareStore()
-const { isOpen, anniversary, dDay } = storeToRefs(shareStore)
+const { isOpen, anniversary, dDay, birthday } = storeToRefs(shareStore)
 
 // ShareCard root element 참조 — 캡처 대상.
 const cardRootRef = ref<HTMLElement | null>(null)
@@ -114,7 +115,7 @@ const filename = computed(() => {
   if (!anniversary.value) return 'anniversarium.png'
   // 파일명에 부적합한 문자 제거
   const safe = anniversary.value.name.replace(/[\\/:*?"<>|]/g, '')
-  return `anniversarium-${safe}.png`
+  return `${birthday.value ? 'annical-birthday' : 'anniversarium'}-${safe}.png`
 })
 
 // 이 기념일의 상세 페이지 주소. 프리렌더된 정적 페이지라 링크를 받은 사람은
@@ -168,15 +169,19 @@ function unobservePreview() {
 
 // 기념일이 바뀔 때마다 경로를 다시 해석한다. 모달이 닫혀 있으면 굳이 불러오지 않는다.
 watch(
-  [isOpen, anniversary],
-  async ([open, anv]) => {
+  [isOpen, anniversary, birthday],
+  async ([open, anv, birthdayContext]) => {
     if (!open || !anv) {
       sharePath.value = null
       return
     }
+    if (birthdayContext) {
+      sharePath.value = birthdayPath(birthdayContext, anv.id)
+      return
+    }
     const { pathForId } = await loadRoutes()
     // 로딩 중에 닫거나 다른 기념일로 바뀌었으면 늦게 도착한 결과는 버린다.
-    if (shareStore.isOpen && shareStore.anniversary?.id === anv.id) {
+    if (shareStore.isOpen && shareStore.anniversary?.id === anv.id && !shareStore.birthday) {
       sharePath.value = pathForId(anv.id)
     }
   },
@@ -288,7 +293,7 @@ const canNativeShare = computed(
 )
 
 const shareText = computed(() =>
-  anniversary.value ? `${anniversary.value.name} · 기념일 만물상` : '기념일 만물상',
+  anniversary.value ? `${birthday.value ? '내 생일과 같은 날, ' : ''}${anniversary.value.name} · 기념일 만물상${birthday.value ? ' — 네 생일은 무슨 날?' : ''}` : '기념일 만물상',
 )
 
 /** 사용자 취소(AbortError)는 오류가 아니므로 조용히 넘긴다. */
@@ -371,7 +376,7 @@ async function handleNativeShare() {
             <div>
               <p class="section-kicker"><span /> SHARE</p>
               <h2 class="mt-3 text-2xl font-semibold tracking-[-0.05em] text-ink-700">
-                공유하기<span class="heading-dot">.</span>
+                {{ birthday ? '내 생일의 발견' : '공유하기' }}<span class="heading-dot">.</span>
               </h2>
               <p class="mt-1.5 text-xs text-ink-400">
                 이미지로 저장하거나 링크를 보내세요.
@@ -408,6 +413,7 @@ async function handleNativeShare() {
                   <ShareCard
                     :anniversary="anniversary"
                     :d-day="dDay"
+                    :birthday="birthday ?? undefined"
                   />
                 </div>
               </div>
@@ -439,7 +445,7 @@ async function handleNativeShare() {
               </button>
             </div>
             <p v-if="shareUrl" class="text-xs leading-relaxed text-ink-400">
-              {{ shareUrlLabel }} — 받는 사람은 앱을 열지 않아도 이 기념일의 유래를 바로 볼 수 있어요.
+              {{ birthday ? '링크에는 선택한 월·일과 기념일이 담겨요. 친구도 같은 결과를 보고 자기 생일을 찾아볼 수 있어요.' : `${shareUrlLabel} — 받는 사람은 앱을 열지 않아도 이 기념일의 유래를 바로 볼 수 있어요.` }}
             </p>
             <p v-else class="text-xs leading-relaxed text-ink-400" role="status">
               이 기념일의 공유 주소를 불러오고 있어요.
