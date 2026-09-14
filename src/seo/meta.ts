@@ -8,7 +8,7 @@
 import type { Anniversary } from '../types/anniversary'
 
 export const SITE_NAME = '기념일 만물상'
-export const SITE_URL = 'https://annical.vercel.app'
+export const SITE_URL = 'https://www.annical.me'
 export const OG_IMAGE = `${SITE_URL}/og-cover.png`
 
 /** description 최대 길이 — 검색결과 스니펫이 잘리지 않는 선. */

@@ -5,6 +5,7 @@ import Sitemap from 'vite-plugin-sitemap'
 import { fileURLToPath, URL } from 'node:url'
 import { prerender } from './tools/prerender/plugin'
 import { buildSitemapMeta, buildTargets } from './tools/prerender/routes'
+import { SITE_URL } from './src/seo/meta'
 
 // 기념일 상세 + 날짜 허브. 프리렌더와 사이트맵이 같은 목록을 공유한다.
 const targets = buildTargets()
@@ -15,7 +16,7 @@ export default defineConfig({
     vue(),
     tailwindcss(),
     Sitemap({
-      hostname: 'https://annical.vercel.app',
+      hostname: SITE_URL,
       dynamicRoutes: ['/calendar', '/birthday', '/popular', '/export', ...targets.map((t) => t.path)],
       // 라우트별로 다르게 준다. 특히 lastmod 를 빌드 시각으로 통일하면
       // 재배포마다 전 URL 이 "수정됨"이 되어 검색엔진이 값을 무시한다.
