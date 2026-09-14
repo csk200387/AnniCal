@@ -1,19 +1,57 @@
 <script setup lang="ts">
-import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
-import { RouterLink } from 'vue-router'
+import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
+import { RouterLink, useRoute } from 'vue-router'
 import dayjs from 'dayjs'
 import AnnicalMark from '@/components/common/AnnicalMark.vue'
 import { useNow } from '@/composables/useNow'
 
 const { today } = useNow()
+const route = useRoute()
 const todayLabel = computed(() => dayjs(today.value).format('YYYY.MM.DD'))
 const scrolled = ref(false)
+const navRef = ref<HTMLElement | null>(null)
+const indicatorX = ref(0)
+const indicatorY = ref(0)
+const indicatorWidth = ref(0)
+const indicatorHeight = ref(0)
+const indicatorReady = ref(false)
+const indicatorStyle = computed(() => ({
+  width: `${indicatorWidth.value}px`,
+  height: `${indicatorHeight.value}px`,
+  transform: `translate3d(${indicatorX.value}px, ${indicatorY.value}px, 0)`,
+}))
+
 function updateScroll() { scrolled.value = window.scrollY > 32 }
+function updateNavIndicator() {
+  void nextTick(() => {
+    const nav = navRef.value
+    const activeLink = nav?.querySelector<HTMLAnchorElement>('a.is-active')
+    if (!nav || !activeLink) return
+    const navRect = nav.getBoundingClientRect()
+    const linkRect = activeLink.getBoundingClientRect()
+    indicatorX.value = linkRect.left - navRect.left + nav.scrollLeft
+    indicatorY.value = linkRect.top - navRect.top + nav.scrollTop
+    indicatorWidth.value = linkRect.width
+    indicatorHeight.value = linkRect.height
+    indicatorReady.value = true
+  })
+}
+
+let navResizeObserver: ResizeObserver | null = null
 onMounted(() => {
   updateScroll()
   window.addEventListener('scroll', updateScroll, { passive: true })
+  updateNavIndicator()
+  if (typeof ResizeObserver !== 'undefined' && navRef.value) {
+    navResizeObserver = new ResizeObserver(updateNavIndicator)
+    navResizeObserver.observe(navRef.value)
+  }
 })
-onBeforeUnmount(() => window.removeEventListener('scroll', updateScroll))
+watch(() => route.path, updateNavIndicator, { flush: 'post' })
+onBeforeUnmount(() => {
+  window.removeEventListener('scroll', updateScroll)
+  navResizeObserver?.disconnect()
+})
 </script>
 
 <template>
@@ -23,7 +61,13 @@ onBeforeUnmount(() => window.removeEventListener('scroll', updateScroll))
         <AnnicalMark class="brand-mark" />
         <span class="brand-wordmark">Anni<span>Cal</span></span>
       </RouterLink>
-      <nav class="header-nav" aria-label="주 메뉴">
+      <nav ref="navRef" class="header-nav" aria-label="주 메뉴">
+        <span
+          class="header-nav-indicator"
+          :class="{ 'is-ready': indicatorReady }"
+          :style="indicatorStyle"
+          aria-hidden="true"
+        />
         <RouterLink to="/" exact-active-class="is-active">오늘의 발견</RouterLink>
         <RouterLink to="/calendar" active-class="is-active">기념일 달력</RouterLink>
         <RouterLink to="/birthday" active-class="is-active">내 생일은?</RouterLink>

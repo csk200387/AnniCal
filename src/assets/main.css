@@ -108,17 +108,20 @@
 /* Shared navigation: the folded-page monogram and a compact, floating tab rail. */
 .site-header { position: sticky; top: 0; z-index: 30; padding: 0 32px; background: color-mix(in srgb, var(--color-paper-100) 95%, transparent); transition: box-shadow .35s, background .35s; backdrop-filter: blur(18px); }
 .site-header.is-scrolled { background: color-mix(in srgb, var(--color-paper-100) 91%, transparent); box-shadow: 0 1px 0 color-mix(in srgb, var(--color-ink-700) 6%, transparent); }
-.site-header-inner { max-width: 1400px; min-height: 96px; margin: auto; display: flex; align-items: center; justify-content: space-between; gap: 24px; transition: min-height .45s cubic-bezier(.22,1,.36,1); }
-.is-scrolled .site-header-inner { min-height: 76px; }
+/* 스크롤로 sticky 헤더 높이를 바꾸면 본문의 스크롤 보정이 다시 임계값을
+   넘나들며 떨릴 수 있다. 높이는 유지하고 배경과 그림자만 전환한다. */
+.site-header-inner { max-width: 1400px; min-height: 96px; margin: auto; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 .brand { display: inline-flex; align-items: center; gap: 9px; color: var(--color-ink-700); font: 500 32px/1 var(--font-display); letter-spacing: -1.6px; }
 .brand-mark { width: 39px; height: 39px; color: var(--color-accent-500); flex-shrink: 0; transition: transform .4s; }
 .brand:hover .brand-mark { transform: translateY(-2px); }
 .brand-wordmark { padding-bottom: 2px; }
 .brand-wordmark > span { color: var(--color-accent-600); }
-.header-nav { display: flex; gap: 3px; padding: 5px; background: var(--color-paper-200); border: 1px solid var(--color-rule); border-radius: 40px; }
-.header-nav a { padding: 11px 21px; border-radius: 30px; font-size: 13px; font-weight: 550; color: var(--color-ink-600); white-space: nowrap; transition: color .2s, background .2s, box-shadow .2s; }
+.header-nav { position: relative; isolation: isolate; display: flex; gap: 3px; padding: 5px; background: var(--color-paper-200); border: 1px solid var(--color-rule); border-radius: 40px; }
+.header-nav-indicator { position: absolute; z-index: 0; top: 0; left: 0; border-radius: 30px; pointer-events: none; opacity: 0; background: var(--color-paper-100); box-shadow: 0 2px 6px color-mix(in srgb, var(--color-ink-700) 4%, transparent); transition: transform .24s cubic-bezier(.22,1,.36,1), width .24s cubic-bezier(.22,1,.36,1), height .24s cubic-bezier(.22,1,.36,1), opacity .12s ease; }
+.header-nav-indicator.is-ready { opacity: 1; }
+.header-nav a { position: relative; z-index: 1; padding: 11px 21px; border-radius: 30px; font-size: 13px; font-weight: 550; color: var(--color-ink-600); white-space: nowrap; transition: color .16s ease, background .16s ease; }
 .header-nav a:hover { color: var(--color-ink-700); background: color-mix(in srgb, var(--color-paper-50) 50%, transparent); }
-.header-nav a.is-active { background: var(--color-paper-100); color: var(--color-ink-700); box-shadow: 0 2px 6px color-mix(in srgb, var(--color-ink-700) 4%, transparent); }
+.header-nav a.is-active { background: transparent; color: var(--color-ink-700); }
 .header-nav a span { margin-left: 6px; }
 .header-today { display: flex; align-items: center; gap: 9px; font-size: 11px; color: var(--color-ink-600); font-variant-numeric: tabular-nums; }
 .header-today-label { color: var(--color-ink-400); margin-left: 3px; }
@@ -140,7 +143,6 @@
 @media (max-width: 760px) {
   .site-header { padding: 0 20px; }
   .site-header-inner { min-height: 116px; gap: 12px; flex-wrap: wrap; padding: 14px 0 10px; }
-  .is-scrolled .site-header-inner { min-height: 106px; }
   .brand { font-size: 27px; }
   .brand-mark { width: 32px; height: 32px; }
   .header-today { font-size: 10px; }
@@ -152,7 +154,7 @@
   .footer-bottom { flex-direction: column; font-size: 9px; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .site-header, .site-header-inner, .brand-mark, .header-nav a { transition: none; }
+  .site-header, .site-header-inner, .brand-mark, .header-nav a, .header-nav-indicator { transition: none; }
 }
 
 /* Comfortable shared navigation and icon targets, including the share dialog. */
@@ -166,4 +168,18 @@
   .site-header { padding-left: 16px; padding-right: 16px; }
   .site-header .header-nav a { font-size: 12px; padding-left: 7px; padding-right: 7px; }
   .site-header .header-nav a span { margin-left: 3px; }
+}
+
+/* 상단 메뉴 전환: iOS의 페이지 넘김처럼 이동 방향을 유지한다. 긴 화면이
+   겹치며 흔들리지 않게 out-in 전환과 짧은 이동 거리만 사용한다. */
+.home-main { overflow-x: clip; }
+.route-forward-enter-active, .route-forward-leave-active, .route-back-enter-active, .route-back-leave-active, .route-fade-enter-active, .route-fade-leave-active { will-change: opacity, transform; transition: opacity .18s ease, transform .28s cubic-bezier(.22,1,.36,1); }
+.route-forward-enter-from { opacity: 0; transform: translate3d(28px, 0, 0); }
+.route-forward-leave-to { opacity: 0; transform: translate3d(-20px, 0, 0); }
+.route-back-enter-from { opacity: 0; transform: translate3d(-28px, 0, 0); }
+.route-back-leave-to { opacity: 0; transform: translate3d(20px, 0, 0); }
+.route-fade-enter-from { opacity: 0; transform: translateY(5px); }
+.route-fade-leave-to { opacity: 0; transform: translateY(-3px); }
+@media (prefers-reduced-motion: reduce) {
+  .route-forward-enter-active, .route-forward-leave-active, .route-back-enter-active, .route-back-leave-active, .route-fade-enter-active, .route-fade-leave-active { transition: none; }
 }
