@@ -1,4 +1,4 @@
-# [기념일 만물상](https://annical.vercel.app/)
+# [기념일 만물상](https://www.annical.me/)
 
 세상의 다양하고 흥미로운 기념일을 매일 큐레이션 해주는 웹앱.
 전 세계 1,572개 기념일을 13개 카테고리로 분류해 피드·달력·캘린더 연동으로 제공한다.
@@ -37,10 +37,10 @@ npm run build       # 프로덕션 빌드
 
 ## URL 구조
 
-배포 기준 기본 URL은 `https://annical.vercel.app`이다.
+배포 기준 기본 URL은 `https://www.annical.me`이다.
 
 ```text
-https://annical.vercel.app
+https://www.annical.me
 ├── /                              # 오늘의 기념일 피드
 ├── /calendar                      # 월간 달력·검색
 ├── /export                        # .ics 다운로드·캘린더 구독

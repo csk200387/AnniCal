@@ -62,7 +62,9 @@ const dDayBadge = computed(() => {
 })
 
 const todayStamp = computed(() => dayjs().format('YYYY.MM.DD'))
-const siteLabel = SITE_URL.replace(/^https?:\/\//, '')
+// 이미지 안에서는 www 를 빼 브랜드 도메인을 짧고 또렷하게 보여 준다.
+// 실제 공유 URL은 ShareModal 이 SITE_URL(www.annical.me)을 그대로 사용한다.
+const siteLabel = SITE_URL.replace(/^https?:\/\/(?:www\.)?/, '')
 
 // 우표 천공. 뒤에 깔린 종이색(paper-200)으로 구멍을 뚫는다.
 const holesY = Array.from({ length: 11 }, (_, i) => 18 + i * 12)

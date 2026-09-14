@@ -17,7 +17,9 @@
 .hero-copy h1 { font-size: clamp(44px,5.1vw,76px); font-weight: 750; line-height: 1.2; letter-spacing: -.065em; }
 .hero-last-word { position: relative; display: inline-block; }
 .hero-last-word { color: var(--color-accent-600); }
-.hero-last-word svg { position: absolute; width: 109%; bottom: -12px; left: -3%; color: var(--color-accent-500); }
+.hero-last-word svg { position: absolute; width: 109%; bottom: -12px; left: -3%; color: var(--color-accent-500); overflow: visible; }
+.hero-underline path { stroke-dasharray: 190; stroke-dashoffset: 190; animation: hero-underline-draw .58s var(--home-ease) .48s both; }
+.hero-underline path + path { animation-delay: .64s; animation-duration: .46s; }
 .hero-period { color: var(--color-accent-600); }
 .hero-description { margin-top: 31px; font-size: 14px; line-height: 1.85; color: var(--color-ink-500); word-break: keep-all; }
 .hero-actions { display: flex; align-items: center; gap: 25px; margin-top: 30px; }
@@ -159,8 +161,9 @@
 .story-skeleton span:last-child { width: 65%; }
 .reveal-pending { opacity: 0; transform: translateY(24px); }
 .section-heading, .upcoming-main, .calendar-promo, .subscribe-banner { transition: opacity .75s var(--home-ease), transform .75s var(--home-ease); }
-.motion-paused .art-calendar, .motion-paused .art-seal { animation-play-state: paused; }
+.motion-paused .art-calendar, .motion-paused .art-seal, .motion-paused .hero-underline path { animation-play-state: paused; }
 @keyframes home-enter { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes hero-underline-draw { to { stroke-dashoffset: 0; } }
 @keyframes calendar-float { 0%,100% { transform: translateY(0) rotate(-5deg); } 50% { transform: translateY(-10px) rotate(-3deg); } }
 @keyframes seal-turn { to { transform: rotate(360deg); } }
 @media (min-width: 1600px) { .home-hero { padding-left: max(48px,calc((100vw - 1340px)/2)); padding-right: max(48px,calc((100vw - 1340px)/2)); }.hero-content { min-height: 550px; } }
@@ -177,6 +180,7 @@
 @media (max-width: 370px) { .home-hero { padding-left: 19px; padding-right: 19px; }.hero-copy h1 { font-size: 36px; }.hero-actions { gap: 13px; }.hero-calendar-link { font-size: 9px; }.calendar-artwork { width: 300px; transform: scale(.72); }.home-container { padding: 0 20px; }.section-heading h2 { font-size: 23px; }.upcoming-item { grid-template-columns: 29px minmax(0,1fr) auto auto; gap: 7px; }.upcoming-share { width: 28px; height: 28px; } }
 @media (prefers-reduced-motion: reduce) {
   .home-page *, .home-page *::before, .home-page *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+  .home-page .hero-underline path { stroke-dashoffset: 0; }
   .home-page .reveal-pending { opacity: 1; transform: none; }
 }
 

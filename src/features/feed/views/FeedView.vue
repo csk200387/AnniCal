@@ -75,7 +75,16 @@ function categoryLabel(id: CategoryId) { return store.categories.find((category)
       <div class="hero-content">
         <div class="hero-copy">
           <p class="hero-eyebrow"><span class="tiny-spark" aria-hidden="true">✳</span> 하루에 하나, 새로운 발견</p>
-          <h1 id="hero-title">평범한 하루에,<br />기념할 이유 <span class="hero-last-word">하나<svg viewBox="0 0 160 18" fill="none" aria-hidden="true"><path d="M4 12Q72 0 155 8M18 16Q90 8 141 13" stroke="currentColor" stroke-width="3" stroke-linecap="round" /></svg></span><span class="hero-period">.</span></h1>
+          <h1 id="hero-title">
+            평범한 하루에,<br />기념할 이유
+            <span class="hero-last-word">
+              하나
+              <svg class="hero-underline" viewBox="0 0 160 18" fill="none" aria-hidden="true">
+                <path d="M4 12Q72 0 155 8" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+                <path d="M18 16Q90 8 141 13" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+              </svg>
+            </span><span class="hero-period">.</span>
+          </h1>
           <p class="hero-description">날짜에 담긴 이야기를 발견하고, 좋아하는 날을 기억해요.</p>
           <div class="hero-featured">
             <span class="hero-featured-label">오늘의 첫 이야기</span>

@@ -24,7 +24,7 @@ function logicalLines(ics: string): string[] {
 
 function eventFor(ics: string, id: string): string[] {
   const lines = logicalLines(ics)
-  const start = lines.findIndex((l) => l === `UID:${id}@annical.vercel.app`)
+  const start = lines.findIndex((l) => l === `UID:${id}@www.annical.me`)
   if (start < 0) return []
   const begin = lines.lastIndexOf('BEGIN:VEVENT', start)
   const end = lines.indexOf('END:VEVENT', start)

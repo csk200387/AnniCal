@@ -192,7 +192,7 @@ function eventLines(anv: Anniversary, year: number, stamp: string): EventBuildRe
 
   const lines: string[] = [
     'BEGIN:VEVENT',
-    `UID:${uid}@annical.vercel.app`,
+    `UID:${uid}@www.annical.me`,
     `DTSTAMP:${stamp}`,
     `DTSTART;VALUE=DATE:${fmtDate(start)}`,
     ...(rdates.length ? [`RDATE;VALUE=DATE:${rdates.join(',')}`] : []),

@@ -18,7 +18,7 @@ describe('생일 선택과 공유', () => {
 
   it('공유 링크에 날짜·기준 연도·선택한 기념일을 보존한다', () => {
     const context = { date: '05-10', year: 2026 }
-    const url = new URL(birthdayPath(context, 'test&item'), 'https://annical.vercel.app')
+    const url = new URL(birthdayPath(context, 'test&item'), 'https://www.annical.me')
     expect(parseBirthday(url.searchParams.get('date'), url.searchParams.get('year'), 2027)).toEqual(context)
     expect(url.searchParams.get('pick')).toBe('test&item')
   })

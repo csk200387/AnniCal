@@ -2,8 +2,8 @@
 // 캘린더 앱이 주기적으로 이 엔드포인트를 다시 받아오므로, 데이터가 추가/배포되면
 // 구독자 캘린더가 자동으로 갱신된다. (정적 .ics 다운로드와 달리 스냅샷이 아님)
 //
-// 예) webcal://annical.vercel.app/api/calendar
-//     webcal://annical.vercel.app/api/calendar?categories=general,holiday
+// 예) webcal://www.annical.me/api/calendar
+//     webcal://www.annical.me/api/calendar?categories=general,holiday
 //
 // ## 이 엔드포인트는 인증 없이 공개된다
 //

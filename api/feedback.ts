@@ -160,7 +160,7 @@ async function createIssue(body: FeedbackBody): Promise<number> {
   if (sourceUrl.length > MAX_SOURCE_LENGTH || !validSourceUrl(sourceUrl)) throw new Error('INVALID_INPUT')
 
   const meta = TYPE_META[type]
-  const pageUrl = `https://annical.vercel.app/day/${route.urlDate}/${route.slug}`
+  const pageUrl = `https://www.annical.me/day/${route.urlDate}/${route.slug}`
   const issueBody = [
     '## 사용자 요청',
     '',
