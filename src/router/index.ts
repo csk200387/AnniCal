@@ -74,8 +74,8 @@ const router = createRouter({
       name: 'popular',
       component: () => import('@/features/stats/views/PopularView.vue'),
       meta: {
-        title: '많이 읽은 기념일 · 관심도 순위',
-        description: '기념일 만물상에서 독자들이 가장 많이 읽은 기념일을 누적 조회수와 관심도 순위로 살펴보세요.',
+        title: '많이 읽은 기념일 · 월별 관심도 순위',
+        description: '이번 달 가장 많이 읽은 기념일 TOP 20과 지난달 관심도 순위를 살펴보세요. 월별 기록과 전체 누적 순위를 함께 볼 수 있어요.',
         keywords: '기념일 순위,인기 기념일,많이 읽은 기념일,기념일 관심도,기념일 만물상',
       },
     },

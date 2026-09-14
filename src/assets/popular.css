@@ -7,6 +7,23 @@
 .popular-hero .page-hero-stats span, .popular-hero .page-hero-stats small { color: var(--color-ink-200); }
 .popular-hero .page-hero-spark { color: color-mix(in srgb, var(--color-paper-50) 7%, transparent); }
 .ranking-board { margin-top: 64px; }
+.ranking-period-controls { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; margin-bottom: 18px; }
+.ranking-period-tabs { display: flex; gap: 4px; padding: 4px; border: 1px solid var(--color-rule); border-radius: 30px; background: var(--color-paper-200); }
+.ranking-period-tabs button { min-height: 44px; padding: 10px 20px; border-radius: 24px; font-size: 13px; }
+.ranking-period-tabs button[aria-pressed="true"] { color: var(--color-paper-50); background: var(--color-ink-700); }
+.ranking-month-picker { display: flex; align-items: center; gap: 8px; min-width: 0; }
+.ranking-month-picker label { font-size: 12px; color: var(--color-ink-400); margin-right: 4px; }
+.ranking-month-picker input { min-width: 0; min-height: 44px; padding: 8px 12px; border: 1px solid var(--color-rule-strong); border-radius: 6px; background: var(--color-paper-50); font-size: 14px; }
+.ranking-month-picker button { width: 44px; min-height: 44px; border: 1px solid var(--color-rule); border-radius: 50%; flex-shrink: 0; }
+.ranking-month-picker button:disabled { opacity: .3; cursor: not-allowed; }
+.ranking-month-shortcuts { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 30px; }
+.ranking-month-shortcuts button { padding: 10px 14px; min-height: 44px; font-size: 12px; border-bottom: 2px solid transparent; }
+.ranking-month-shortcuts button[aria-pressed="true"] { color: var(--color-accent-600); border-color: var(--color-accent-500); }
+.ranking-month-shortcuts span, .ranking-history-note { font-size: 12px; color: var(--color-ink-400); line-height: 1.8; }
+.ranking-history-note { padding: 14px 0; border-bottom: 1px solid var(--color-rule); }
+.ranking-state .home-button { margin-top: 18px; }
+.popular-page :is(button, input):focus-visible { outline: 2px solid var(--color-accent-500); outline-offset: 3px; }
+@media (max-width: 420px) { .ranking-month-picker { width: 100%; }.ranking-month-picker input { flex: 1; width: 140px; }.ranking-month-picker label { display: none; } }
 .ranking-board-heading { display: flex; align-items: end; justify-content: space-between; gap: 24px; padding-bottom: 22px; border-bottom: 1px solid var(--color-ink-700); }
 .ranking-board-heading h2 { margin-top: 12px; font-size: 31px; font-weight: 650; letter-spacing: -.05em; }
 .ranking-board-heading > p { font-size: 12px; color: var(--color-ink-400); }

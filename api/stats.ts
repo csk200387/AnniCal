@@ -25,6 +25,7 @@ const KEYS = {
   visitorsAll: 'annical:stats:v1:visitors:all',
   pageViews: 'annical:stats:v1:pageviews',
   anniversaryViews: 'annical:stats:v1:anniversary-views',
+  monthlyStartedOn: 'annical:stats:v1:monthly-started-on',
 } as const
 
 interface StatsSnapshot {
@@ -61,12 +62,17 @@ if rate <= 60 then
 end
 
 if fresh then
+  local startedOn = redis.call('GET', KEYS[8])
+  if not startedOn or ARGV[5] < startedOn then
+    redis.call('SET', KEYS[8], ARGV[5])
+  end
   redis.call('PFADD', KEYS[2], ARGV[1])
   redis.call('PFADD', KEYS[3], ARGV[1])
   redis.call('EXPIRE', KEYS[3], tonumber(ARGV[4]))
   redis.call('INCR', KEYS[4])
   if ARGV[2] ~= '' then
     redis.call('ZINCRBY', KEYS[5], 1, ARGV[2])
+    redis.call('ZINCRBY', KEYS[7], 1, ARGV[2])
   end
 end
 
@@ -156,7 +162,7 @@ function snapshotFromResults(results: unknown[], anniversaryId: string | null): 
     ranking: parseRanking(results[5] ?? results[3]),
   }
   if (anniversaryId) {
-    const rawRank = Number(results[4])
+    const rawRank = results[4] == null ? -1 : Number(results[4])
     snapshot.detail = {
       id: anniversaryId,
       views: safeCount(results[3]),
@@ -249,7 +255,7 @@ async function readSnapshot(
     ranking: parseRanking(result[3]),
   }
   if (anniversaryId) {
-    const rawRank = Number(result[5])
+    const rawRank = result[5] == null ? -1 : Number(result[5])
     snapshot.detail = {
       id: anniversaryId,
       views: safeCount(result[4]),
@@ -257,6 +263,24 @@ async function readSnapshot(
     }
   }
   return snapshot
+}
+
+function monthlyKey(month: string): string {
+  // 월별 기록은 만료시키지 않아 다음 달 이후에도 조회할 수 있다.
+  return `${KEYS.anniversaryViews}:month:${month}`
+}
+
+async function readMonthlyRanking(config: { url: string; token: string }, month: string, currentMonth: string) {
+  const results = await redisPipeline(config, [
+    ['ZREVRANGE', monthlyKey(month), 0, RANKING_LIMIT - 1, 'WITHSCORES'],
+    ['GET', KEYS.monthlyStartedOn],
+  ])
+  return {
+    month,
+    currentMonth,
+    trackingStartedOn: typeof results[1] === 'string' ? results[1] : null,
+    ranking: parseRanking(results[0]),
+  }
 }
 
 async function recordPageView(
@@ -273,17 +297,20 @@ async function recordPageView(
   const result = await redisCommand(config, [
     'EVAL',
     RECORD_SCRIPT,
-    6,
+    8,
     `annical:stats:v1:event:${eventId}`,
     KEYS.visitorsAll,
     `annical:stats:v1:visitors:${day}`,
     KEYS.pageViews,
     KEYS.anniversaryViews,
     `annical:stats:v1:rate:${visitorFingerprint}`,
+    monthlyKey(day.slice(0, 7)),
+    KEYS.monthlyStartedOn,
     visitorFingerprint,
     anniversaryId ?? '',
     EVENT_TTL_SECONDS,
     DAILY_TTL_SECONDS,
+    day,
   ])
   return snapshotFromResults(Array.isArray(result) ? result : [], anniversaryId)
 }
@@ -306,12 +333,18 @@ export default async function handler(req: IncomingMessage, res: ServerResponse)
 
   const url = new URL(req.url ?? '/api/stats', 'http://localhost')
   for (const key of url.searchParams.keys()) {
-    if (key !== 'id') {
+    if ((key !== 'id' && key !== 'month') || url.searchParams.getAll(key).length > 1) {
       writeJson(res, 400, { error: 'Unsupported query parameter' })
       return
     }
   }
   const queryId = url.searchParams.get('id')
+  const month = url.searchParams.get('month')
+  const currentMonth = seoulDay().slice(0, 7)
+  if (month !== null && (method !== 'GET' || url.searchParams.has('id') || !/^20\d{2}-(0[1-9]|1[0-2])$/.test(month) || month > currentMonth)) {
+    writeJson(res, 400, { error: 'Invalid ranking month' })
+    return
+  }
   if (queryId && !VALID_ANNIVERSARY_IDS.has(queryId)) {
     writeJson(res, 400, { error: 'Unknown anniversary' })
     return
@@ -319,7 +352,9 @@ export default async function handler(req: IncomingMessage, res: ServerResponse)
 
   try {
     if (method === 'GET') {
-      const snapshot = await readSnapshot(config, queryId)
+      const snapshot = month !== null
+        ? await readMonthlyRanking(config, month, currentMonth)
+        : await readSnapshot(config, queryId)
       res.setHeader('Cache-Control', 'public, s-maxage=15, stale-while-revalidate=30')
       writeJson(res, 200, snapshot)
       return

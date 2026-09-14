@@ -45,11 +45,15 @@ describe('통계 API', () => {
   beforeEach(() => {
     vi.stubEnv('KV_REST_API_URL', 'https://redis.example')
     vi.stubEnv('KV_REST_API_TOKEN', 'secret')
+    vi.useFakeTimers({ toFake: ['Date'] })
+    vi.setSystemTime(new Date('2026-09-14T02:00:00Z'))
   })
 
   afterEach(() => {
     vi.unstubAllEnvs()
     vi.restoreAllMocks()
+    vi.unstubAllGlobals()
+    vi.useRealTimers()
   })
 
   it('GET은 공개 통계와 관심도 순위를 정규화해 반환한다', async () => {
@@ -126,5 +130,67 @@ describe('통계 API', () => {
     expect(method.headers.allow).toBe('GET, POST')
     expect((await call('GET', '/api/stats?limit=999')).status).toBe(400)
     expect((await call('GET', '/api/stats?id=unknown')).status).toBe(400)
+  })
+
+  it('지난달 조회는 누적 키가 아닌 해당 월 기록과 집계 시작일을 반환한다', async () => {
+    const fetchMock = vi.fn().mockResolvedValue(new Response(JSON.stringify([
+      { result: [anniversaryId, '4'] },
+      { result: '2026-08-20' },
+    ]), { status: 200 }))
+    vi.stubGlobal('fetch', fetchMock)
+    const response = await call('GET', '/api/stats?month=2026-08')
+    expect(response.status).toBe(200)
+    expect(JSON.parse(response.body)).toEqual({
+      month: '2026-08', currentMonth: '2026-09', trackingStartedOn: '2026-08-20',
+      ranking: [{ id: anniversaryId, views: 4 }],
+    })
+    const commands = JSON.parse(fetchMock.mock.calls[0]![1].body)
+    expect(commands[0]).toEqual(['ZREVRANGE', 'annical:stats:v1:anniversary-views:month:2026-08', 0, 19, 'WITHSCORES'])
+    expect(commands.flat()).not.toContain('annical:stats:v1:anniversary-views')
+  })
+
+  it('기록이 없는 과거 달에 누적 수치를 복제하지 않는다', async () => {
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue(new Response(JSON.stringify([
+      { result: [] }, { result: '2026-09-14' },
+    ]), { status: 200 })))
+    const response = await call('GET', '/api/stats?month=2026-08')
+    expect(JSON.parse(response.body)).toEqual({
+      month: '2026-08', currentMonth: '2026-09', trackingStartedOn: '2026-09-14', ranking: [],
+    })
+  })
+
+  it('유효하지 않은 월·미래·중복 쿼리는 Redis 요청 없이 거절한다', async () => {
+    const fetchMock = vi.fn()
+    vi.stubGlobal('fetch', fetchMock)
+    for (const query of ['month=', 'month=2026-13', 'month=2026-00', 'month=2026-9', 'month=2026-10', 'month=2026-09&month=2026-08', `month=2026-09&id=${anniversaryId}`]) {
+      expect((await call('GET', `/api/stats?${query}`)).status).toBe(400)
+    }
+    expect((await call('POST', '/api/stats?month=2026-08')).status).toBe(400)
+    expect(fetchMock).not.toHaveBeenCalled()
+  })
+
+  it('한국 시간의 월 경계에서 새 월 키를 사용하고 eventId는 월간 중복 집계도 막는다', async () => {
+    const fetchMock = vi.fn().mockImplementation(async () => new Response(JSON.stringify({ result: [1, 1, 1, 1, 0, []] })))
+    vi.stubGlobal('fetch', fetchMock)
+    const options = { body: { eventId, anniversaryId }, headers: { 'content-type': 'application/json' } }
+    vi.setSystemTime(new Date('2026-09-30T14:59:59Z'))
+    await call('POST', '/api/stats', options)
+    vi.setSystemTime(new Date('2026-09-30T15:00:00Z'))
+    await call('POST', '/api/stats', options)
+    const before = JSON.parse(fetchMock.mock.calls[0]![1].body)
+    const after = JSON.parse(fetchMock.mock.calls[1]![1].body)
+    expect(before).toContain('annical:stats:v1:anniversary-views:month:2026-09')
+    expect(after).toContain('annical:stats:v1:anniversary-views:month:2026-10')
+    expect(before[3]).toBe(after[3]) // 월이 달라도 같은 이벤트의 중복 방지 키 유지
+    expect(after.at(-1)).toBe('2026-10-01')
+    expect(after[2]).toBe(8)
+  })
+
+  it('읽음이 없는 상세 페이지를 1위라고 표시하지 않는다', async () => {
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue(new Response(JSON.stringify([
+      { result: 1 }, { result: 1 }, { result: 1 }, { result: [] }, { result: null }, { result: null },
+    ]))))
+    const response = await call('GET', `/api/stats?id=${anniversaryId}`)
+    expect(JSON.parse(response.body).detail).toEqual({ id: anniversaryId, views: 0, rank: null })
   })
 })

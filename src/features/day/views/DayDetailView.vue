@@ -120,7 +120,7 @@ watch(
           <div v-if="detailStats" class="article-stats" aria-label="기념일 관심도 통계">
             <span>누적 <strong>{{ number.format(detailStats.views) }}</strong>회 읽음</span>
             <span v-if="detailStats.rank" class="meta-divider" aria-hidden="true" />
-            <span v-if="detailStats.rank">관심도 <strong class="accent">{{ number.format(detailStats.rank) }}위</strong></span>
+            <span v-if="detailStats.rank">누적 관심도 <strong class="accent">{{ number.format(detailStats.rank) }}위</strong></span>
           </div>
         </header>
 

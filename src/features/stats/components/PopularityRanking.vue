@@ -2,16 +2,20 @@
 import { computed } from 'vue'
 import { RouterLink } from 'vue-router'
 import { useAnniversariesStore } from '@/stores/anniversaries'
-import { useStatsStore } from '@/stores/stats'
+import { useMonthlyRanking } from '../composables/useMonthlyRanking'
+import { monthKey } from '../months'
+import { useNow } from '@/composables/useNow'
 import { pathForId } from '@/utils/anniversaryRoutes'
 import { primaryColorForTags } from '@/utils/tagPalette'
 
 const anniversaries = useAnniversariesStore()
-const stats = useStatsStore()
+const { today } = useNow()
+const month = computed(() => monthKey(today.value))
+const { data } = useMonthlyRanking(month)
 const number = new Intl.NumberFormat('ko-KR')
 
 const entries = computed(() =>
-  (stats.snapshot?.ranking ?? []).slice(0, 5).flatMap((ranked, index) => {
+  (data.value?.ranking ?? []).slice(0, 5).flatMap((ranked, index) => {
     const anniversary = anniversaries.byId.get(ranked.id)
     const path = pathForId(ranked.id)
     return anniversary && path
@@ -26,8 +30,8 @@ const entries = computed(() =>
     <div class="section-heading">
       <div>
         <p class="section-kicker"><span /> READERS’ FAVORITES</p>
-        <h2 id="popularity-title">요즘, 많이 발견한 이야기<span class="heading-dot">.</span></h2>
-        <p class="section-description">상세 페이지 누적 조회수로 살펴보는 관심도 순위.</p>
+        <h2 id="popularity-title">이번 달, 많이 발견한 이야기<span class="heading-dot">.</span></h2>
+        <p class="section-description">{{ today.getMonth() + 1 }}월에 읽힌 횟수로 살펴보는 관심도 순위.</p>
       </div>
       <span class="date-pill">TOP {{ entries.length }}</span>
     </div>
