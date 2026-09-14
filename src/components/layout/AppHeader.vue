@@ -57,7 +57,7 @@ onBeforeUnmount(() => {
 <template>
   <header class="site-header" :class="{ 'is-scrolled': scrolled }">
     <div class="site-header-inner">
-      <RouterLink to="/" class="brand" aria-label="AnniCal 기념일 만물상 홈">
+      <RouterLink to="/" class="brand" aria-label="AnniCal 기념일 도감 홈">
         <AnnicalMark class="brand-mark" />
         <span class="brand-wordmark">Anni<span>Cal</span></span>
       </RouterLink>

@@ -152,7 +152,7 @@ export function useCalendarExport() {
   // ─── .ics 다운로드 (클라이언트) ───────────────────────────────
   function downloadIcs(): void {
     if (!selectedItems.value.length) return
-    const ics = buildCalendar(selectedItems.value, { calName: '기념일 만물상' })
+    const ics = buildCalendar(selectedItems.value, { calName: '기념일 도감' })
     const blob = new Blob([ics], { type: 'text/calendar;charset=utf-8' })
     const url = URL.createObjectURL(blob)
     const a = document.createElement('a')

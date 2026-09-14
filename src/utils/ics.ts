@@ -247,14 +247,14 @@ export function buildCalendarDetailed(
   items: Anniversary[],
   opts: BuildCalendarOptions = {},
 ): CalendarResult {
-  const calName = opts.calName ?? '기념일 만물상'
+  const calName = opts.calName ?? '기념일 도감'
   const year = opts.year ?? new Date().getFullYear()
   const stamp = fmtStamp(opts.stamp ?? new Date())
 
   const lines: string[] = [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
-    'PRODID:-//Anniversarium//기념일 만물상//KO',
+    'PRODID:-//Anniversarium//기념일 도감//KO',
     'CALSCALE:GREGORIAN',
     'METHOD:PUBLISH',
     `X-WR-CALNAME:${esc(calName)}`,

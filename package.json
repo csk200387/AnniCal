@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "description": "기념일 만물상 - 기념일 큐레이션 웹앱",
+  "description": "기념일 도감 - 세계 곳곳의 특이한 기념일과 이색 기념일을 모아 기록하는 웹앱",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",

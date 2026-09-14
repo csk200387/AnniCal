@@ -3,7 +3,7 @@ import { computed, nextTick, onBeforeUnmount, ref, useTemplateRef, watch } from 
 import { storeToRefs } from 'pinia'
 import { useShareStore } from '@/stores/share'
 import { useCopyToClipboard } from '@/composables/useCopyToClipboard'
-import { SITE_URL } from '@/seo/meta'
+import { SITE_NAME, SITE_URL } from '@/seo/meta'
 import ShareCard from './ShareCard.vue'
 import { birthdayPath } from '@/features/birthday/birthday'
 
@@ -293,7 +293,7 @@ const canNativeShare = computed(
 )
 
 const shareText = computed(() =>
-  anniversary.value ? `${birthday.value ? '내 생일과 같은 날, ' : ''}${anniversary.value.name} · 기념일 만물상${birthday.value ? ' — 네 생일은 무슨 날?' : ''}` : '기념일 만물상',
+  anniversary.value ? `${birthday.value ? '내 생일과 같은 날, ' : ''}${anniversary.value.name} · ${SITE_NAME}${birthday.value ? ' — 네 생일은 무슨 날?' : ''}` : SITE_NAME,
 )
 
 /** 사용자 취소(AbortError)는 오류가 아니므로 조용히 넘긴다. */

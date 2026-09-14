@@ -153,7 +153,7 @@ export default function handler(req: IncomingMessage, res: ServerResponse): void
             (labelFilter ? a.tags.some((t) => labelFilter.has(t)) : false),
         )
     const body = buildCalendar(items, {
-      calName: '기념일 만물상',
+      calName: '기념일 도감',
       stamp: BUILD_TIME,
     })
     entry = { body, etag: `"${BUILD_ID}-${cacheKey}-${body.length}"` }

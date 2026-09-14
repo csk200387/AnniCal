@@ -103,7 +103,7 @@ const holesX = Array.from({ length: 13 }, (_, i) => 18 + i * 14)
             ANNICAL
           </p>
           <p class="mt-2.5 text-[15px] font-semibold tracking-[-0.04em] text-ink-700">
-            {{ birthday ? '내 생일의 발견' : '기념일 만물상' }}
+            {{ birthday ? '내 생일의 발견' : '기념일 도감' }}
           </p>
         </div>
 

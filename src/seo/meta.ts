@@ -7,7 +7,7 @@
 // 타입은 alias 대신 상대경로로 가져온다 — Node 쪽 tsconfig 에는 "@/*" 가 없다.
 import type { Anniversary } from '../types/anniversary'
 
-export const SITE_NAME = '기념일 만물상'
+export const SITE_NAME = '기념일 도감'
 export const SITE_URL = 'https://www.annical.me'
 export const OG_IMAGE = `${SITE_URL}/og-cover.png`
 
