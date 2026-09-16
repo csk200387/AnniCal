@@ -194,6 +194,27 @@ Upstash에서 직접 만든 데이터베이스라면 `UPSTASH_REDIS_REST_URL`,
 - `Do Not Track`이 켜진 브라우저는 집계하지 않고 공개 수치만 조회한다.
 - 상세 조회수는 기념일 id별로 누적되며 홈의 관심도 TOP 5에 반영된다.
 
+## 보안 및 운영 제한
+
+- 통계 쓰기는 IPv4 주소 또는 IPv6 `/64`별 **60초에 120회**, 서비스 전체 **60초에 3,000회**까지 허용한다. 쿠키를 바꿔도 한도를 공유하며 초과하면 `429`와 `Retry-After`를 반환한다. 공유 IP 사용자가 많은 환경에서는 `api/stats.ts`의 상수를 실제 트래픽에 맞춰 조정한다.
+- 요청 IP는 Vercel(`VERCEL=1`)에서 플랫폼이 덮어쓴 `X-Forwarded-For`만 신뢰하고, 다른 환경에서는 소켓 주소를 사용한다. 다른 리버스 프록시로 이전할 때는 신뢰할 프록시를 명시적으로 검증해야 한다. Redis에는 원문 IP 대신 서버 비밀값으로 HMAC 처리한 제한 키를 60초간 보관한다.
+- 캘린더 인스턴스 캐시는 최대 **32개 / 문자열 보관 비용 8 MiB**로 제한한다. 초과하면 가장 오래 사용하지 않은 항목부터 퇴출하며, 응답 자체는 계속 제공한다.
+- JSON 본문은 파싱 여부에 관계없이 바이트 수를 제한한다. 통계는 **1,024바이트**, 피드백은 한글 2,000자를 지원하도록 **8,000바이트**이며, 알 수 없는 필드도 거절한다.
+- CSP는 강제 적용한다. 공유 이미지의 웹폰트 임베딩에 필요한 Google Fonts 및 `data:`/`blob:` 통신만 추가로 허용한다. Vercel Analytics 프로덕션 스크립트·수집 요청은 같은 출처를 사용한다. Preview Toolbar 등 새 외부 기능을 켜면 CSP 호환성을 별도로 확인한다.
+- GitHub App 토큰은 지정한 피드백 저장소 한 개의 Issues 쓰기 권한으로 축소해 발급한다. App 설치 자체도 비공개 저장소 한 개에만 허용한다.
+- 로컬 `.env` 파일은 `chmod 600`으로 보호하고 생성 전에 `umask 077`을 설정한다. `.gitignore`는 압축·복사·백업에 포함되는 비밀파일까지 막지 않는다.
+
+GitHub Actions의 `Secret scan`은 Gitleaks 8.30.1로 전체 Git 이력을 검사한다. PR과 push에 실행되며 비밀값은 로그에서 마스킹한다. 로컬 커밋 전 검사도 사용하려면 `pre-commit` 설치 후 아래 명령을 실행한다.
+
+```sh
+pre-commit install
+pre-commit run gitleaks --all-files
+```
+
+`gitleaks` 훅은 staged diff를 검사한다. 기존 이력까지 수동 검사하려면 Gitleaks 8.30.1을 설치한 뒤 `gitleaks git --redact --log-opts="--all" .`을 실행한다. GitHub 서버의 push protection과 브랜치 필수 검사 설정은 저장소 관리 화면에서 활성화해야 한다.
+
+보안 수정 내역과 검증 범위는 [보안 조치 기록](docs/security/SECURITY_FIXES_2026-09-16.md)을 참고한다.
+
 ## 데이터 작성 규칙
 
 기념일 데이터는 `src/data/anniversaries/01.json … 12.json` (월별 12파일)에 분할 저장된다.

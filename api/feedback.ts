@@ -1,9 +1,11 @@
 import type { IncomingMessage, ServerResponse } from 'node:http'
-import { createHash, createSign } from 'node:crypto'
+import { createSign } from 'node:crypto'
+import { readJsonObject, requesterFingerprint } from '../server/request.js'
 import { allAnniversaries } from '../src/data/anniversaries/all.js'
 import routes from '../src/data/routes.json' with { type: 'json' }
 
-const MAX_BODY_BYTES = 5_000
+// 한글 2,000자와 최대 500자의 출처 링크도 UTF-8 본문 한도 안에 들어간다.
+const MAX_BODY_BYTES = 8_000
 const MAX_MESSAGE_LENGTH = 2_000
 const MAX_SOURCE_LENGTH = 500
 const RATE_LIMIT = 3
@@ -54,15 +56,22 @@ async function githubInstallationToken(): Promise<string> {
   const installationId = process.env.GITHUB_FEEDBACK_INSTALLATION_ID
   const privateKey = process.env.GITHUB_FEEDBACK_PRIVATE_KEY?.replace(/\\n/g, '\n')
   if (!appId || !installationId || !privateKey) throw new Error('GITHUB_NOT_CONFIGURED')
+  const repository = FEEDBACK_REPOSITORY.split('/')
+  if (repository.length !== 2 || repository.some((part) => !/^[A-Za-z0-9_.-]+$/.test(part))) {
+    throw new Error('GITHUB_NOT_CONFIGURED')
+  }
 
   const response = await fetch(`${GITHUB_API}/app/installations/${installationId}/access_tokens`, {
     method: 'POST',
+    signal: AbortSignal.timeout(5000),
     headers: {
       Authorization: `Bearer ${githubAppJwt(appId, privateKey)}`,
       Accept: 'application/vnd.github+json',
       'X-GitHub-Api-Version': '2022-11-28',
       'User-Agent': 'AnniCal-Feedback',
+      'Content-Type': 'application/json',
     },
+    body: JSON.stringify({ repositories: [repository[1]], permissions: { issues: 'write' } }),
   })
   if (!response.ok) throw new Error('GITHUB_UNAVAILABLE')
   const result = await response.json() as { token?: unknown }
@@ -78,43 +87,19 @@ function writeJson(res: ServerResponse, status: number, data: unknown): void {
   res.end(JSON.stringify(data))
 }
 
-async function readBody(req: IncomingMessage): Promise<unknown> {
-  const supplied = (req as IncomingMessage & { body?: unknown }).body
-  if (supplied !== undefined) return supplied
-
-  const declared = Number(req.headers['content-length'] ?? 0)
-  if (Number.isFinite(declared) && declared > MAX_BODY_BYTES) throw new Error('BODY_TOO_LARGE')
-
-  const chunks: Buffer[] = []
-  let size = 0
-  for await (const chunk of req) {
-    const buffer = Buffer.isBuffer(chunk) ? chunk : Buffer.from(chunk)
-    size += buffer.length
-    if (size > MAX_BODY_BYTES) throw new Error('BODY_TOO_LARGE')
-    chunks.push(buffer)
-  }
-  if (!chunks.length) return {}
-  return JSON.parse(Buffer.concat(chunks).toString('utf-8'))
-}
-
 function redisConfig(): { url: string; token: string } | null {
   const url = process.env.KV_REST_API_URL ?? process.env.UPSTASH_REDIS_REST_URL
   const token = process.env.KV_REST_API_TOKEN ?? process.env.UPSTASH_REDIS_REST_TOKEN
   return url && token ? { url: url.replace(/\/$/, ''), token } : null
 }
 
-function requesterFingerprint(req: IncomingMessage, salt: string): string {
-  const forwarded = String(req.headers['x-forwarded-for'] ?? '').split(',')[0]?.trim()
-  const ip = forwarded || req.socket?.remoteAddress || 'unknown'
-  return createHash('sha256').update(`annical:feedback:v1:${salt}:${ip}`).digest('hex')
-}
-
 async function checkRateLimit(req: IncomingMessage): Promise<boolean> {
   const config = redisConfig()
   if (!config) throw new Error('RATE_LIMIT_UNAVAILABLE')
-  const fingerprint = requesterFingerprint(req, config.token)
+  const fingerprint = requesterFingerprint(req, config.token, 'annical:feedback:v2')
   const response = await fetch(`${config.url}/pipeline`, {
     method: 'POST',
+    signal: AbortSignal.timeout(5000),
     headers: { Authorization: `Bearer ${config.token}`, 'Content-Type': 'application/json' },
     body: JSON.stringify([
       ['INCR', `annical:feedback:v1:rate:${fingerprint}`],
@@ -125,7 +110,9 @@ async function checkRateLimit(req: IncomingMessage): Promise<boolean> {
   if (!response.ok || !Array.isArray(payload) || payload.some((item) => item.error)) {
     throw new Error('RATE_LIMIT_UNAVAILABLE')
   }
-  return Number(payload[0]?.result) <= RATE_LIMIT
+  const count = Number(payload[0]?.result)
+  if (!Number.isSafeInteger(count) || count < 1) throw new Error('RATE_LIMIT_UNAVAILABLE')
+  return count <= RATE_LIMIT
 }
 
 function cleanText(value: unknown): string {
@@ -155,7 +142,7 @@ async function createIssue(body: FeedbackBody): Promise<number> {
   const anniversary = ANNIVERSARY_BY_ID.get(anniversaryId)
   const route = ROUTES[anniversaryId]
 
-  if (!anniversary || !route || !(type in TYPE_META)) throw new Error('INVALID_INPUT')
+  if (!anniversary || !route || !Object.hasOwn(TYPE_META, type)) throw new Error('INVALID_INPUT')
   if (message.length < 20 || message.length > MAX_MESSAGE_LENGTH) throw new Error('INVALID_INPUT')
   if (sourceUrl.length > MAX_SOURCE_LENGTH || !validSourceUrl(sourceUrl)) throw new Error('INVALID_INPUT')
 
@@ -180,6 +167,7 @@ async function createIssue(body: FeedbackBody): Promise<number> {
 
   const response = await fetch(`${GITHUB_API}/repos/${FEEDBACK_REPOSITORY}/issues`, {
     method: 'POST',
+    signal: AbortSignal.timeout(5000),
     headers: {
       Authorization: `Bearer ${token}`,
       Accept: 'application/vnd.github+json',
@@ -207,19 +195,22 @@ export default async function handler(req: IncomingMessage, res: ServerResponse)
     writeJson(res, 405, { error: 'Method Not Allowed' })
     return
   }
-  if (!String(req.headers['content-type'] ?? '').toLowerCase().startsWith('application/json')) {
+  if (String(req.headers['content-type'] ?? '').split(';')[0]?.trim().toLowerCase() !== 'application/json') {
     writeJson(res, 415, { error: 'Content-Type must be application/json' })
     return
   }
 
   try {
-    const body = await readBody(req) as FeedbackBody
+    const body = await readJsonObject(req, MAX_BODY_BYTES, ['anniversaryId', 'type', 'message', 'sourceUrl', 'website'])
+    if (Object.values(body).some((value) => typeof value !== 'string')) throw new Error('INVALID_INPUT')
+    if (!Object.hasOwn(TYPE_META, cleanText(body.type))) throw new Error('INVALID_INPUT')
     // 화면에는 보이지 않는 허니팟. 봇에는 성공처럼 답하되 실제 Issue는 만들지 않는다.
     if (cleanText(body.website)) {
       writeJson(res, 202, { accepted: true })
       return
     }
     if (!await checkRateLimit(req)) {
+      res.setHeader('Retry-After', String(RATE_WINDOW_SECONDS))
       writeJson(res, 429, { error: 'Too many requests' })
       return
     }

@@ -49,6 +49,7 @@ describe('정보 요청 API', () => {
   afterEach(() => {
     vi.unstubAllEnvs()
     vi.restoreAllMocks()
+    vi.unstubAllGlobals()
   })
 
   it('검증된 요청을 비공개 GitHub Issue로 생성한다', async () => {
@@ -69,6 +70,16 @@ describe('정보 요청 API', () => {
     expect(payload.labels).toEqual(['정보 오류'])
     expect(payload.body).toContain(anniversaryId)
     expect(payload.body).not.toContain('192.0.2.1')
+    const tokenRequest = JSON.parse(String(fetchMock.mock.calls[1]![1]?.body))
+    expect(tokenRequest).toEqual({ repositories: ['AnniCal-feedback'], permissions: { issues: 'write' } })
+  })
+
+  it('최대 길이 한글 메시지를 바이트 제한과 함께 지원한다', async () => {
+    vi.stubGlobal('fetch', vi.fn()
+      .mockResolvedValueOnce(new Response(JSON.stringify([{ result: 1 }, { result: 1 }])))
+      .mockResolvedValueOnce(new Response(JSON.stringify({ token: 'installation-token' })))
+      .mockResolvedValueOnce(new Response(JSON.stringify({ number: 1 }))))
+    expect((await call('POST', { ...validBody, message: '한'.repeat(2000) })).status).toBe(201)
   })
 
   it('메서드와 콘텐츠 타입을 제한한다', async () => {
@@ -91,6 +102,16 @@ describe('정보 요청 API', () => {
     vi.stubGlobal('fetch', fetchMock)
     expect((await call('POST', validBody)).status).toBe(429)
     expect(fetchMock).toHaveBeenCalledTimes(1)
+  })
+
+  it('과대·비객체 본문과 상속된 요청 유형을 외부 호출 전에 거절한다', async () => {
+    const fetchMock = vi.fn()
+    vi.stubGlobal('fetch', fetchMock)
+    expect((await call('POST', { ...validBody, padding: 'x'.repeat(100000) })).status).toBe(413)
+    for (const body of [null, [], { ...validBody, extra: 'field' }, { ...validBody, sourceUrl: 7 }, ...['constructor', 'toString', '__proto__'].map((type) => ({ ...validBody, type }))]) {
+      expect((await call('POST', body)).status).toBe(400)
+    }
+    expect(fetchMock).not.toHaveBeenCalled()
   })
 
   it('허니팟에 값이 있으면 외부 서비스를 호출하지 않는다', async () => {

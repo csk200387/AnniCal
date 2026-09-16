@@ -18,6 +18,7 @@ async function call(
     url,
     body: options.body,
     headers: options.headers ?? {},
+    socket: { remoteAddress: '192.0.2.1' },
   } as never
   const reply: Reply = { status: 0, body: '', headers: {} }
   const res = {
@@ -43,6 +44,7 @@ const eventId = '1035f67e-89ab-4cde-8123-0123456789ab'
 
 describe('통계 API', () => {
   beforeEach(() => {
+    vi.stubEnv('VERCEL', '')
     vi.stubEnv('KV_REST_API_URL', 'https://redis.example')
     vi.stubEnv('KV_REST_API_TOKEN', 'secret')
     vi.useFakeTimers({ toFake: ['Date'] })
@@ -183,7 +185,7 @@ describe('통계 API', () => {
     expect(after).toContain('annical:stats:v1:anniversary-views:month:2026-10')
     expect(before[3]).toBe(after[3]) // 월이 달라도 같은 이벤트의 중복 방지 키 유지
     expect(after.at(-1)).toBe('2026-10-01')
-    expect(after[2]).toBe(8)
+    expect(after[2]).toBe(9)
   })
 
   it('읽음이 없는 상세 페이지를 1위라고 표시하지 않는다', async () => {
@@ -192,5 +194,60 @@ describe('통계 API', () => {
     ]))))
     const response = await call('GET', `/api/stats?id=${anniversaryId}`)
     expect(JSON.parse(response.body).detail).toEqual({ id: anniversaryId, views: 0, rank: null })
+  })
+})
+
+
+describe('통계 쓰기 방어', () => {
+  beforeEach(() => {
+    vi.stubEnv('KV_REST_API_URL', 'https://redis.example')
+    vi.stubEnv('KV_REST_API_TOKEN', 'test-only-token')
+    vi.stubEnv('VERCEL', '')
+  })
+  afterEach(() => {
+    vi.unstubAllEnvs()
+    vi.unstubAllGlobals()
+  })
+
+  it('쿠키를 생략·교체하고 eventId를 바꿔도 네트워크 제한 키는 유지된다', async () => {
+    const fetchMock = vi.fn().mockImplementation(async () => new Response(JSON.stringify({ result: [1, 1, 1, 1, 0, []] })))
+    vi.stubGlobal('fetch', fetchMock)
+    for (const cookie of ['', 'annical_vid=aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa', 'annical_vid=bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb']) {
+      await call('POST', '/api/stats', {
+        body: { eventId: crypto.randomUUID(), anniversaryId },
+        headers: { 'content-type': 'application/json', cookie },
+      })
+    }
+    const commands = fetchMock.mock.calls.map((args) => JSON.parse(args[1].body))
+    const key = commands[0][8]
+    expect(key).toMatch(/^annical:stats:v2:rate:network:[a-f0-9]{64}$/)
+    expect(new Set(commands.map((cmd) => cmd[8])).size).toBe(1)
+    expect(new Set(commands.map((cmd) => cmd[3])).size).toBe(3)
+    expect(commands.every((cmd) => cmd.includes('annical:stats:v2:rate:global'))).toBe(true)
+    expect(JSON.stringify(commands)).not.toContain('192.0.2.1')
+  })
+
+  it('제한 초과는 429·Retry-After로 끝나고 쿠키 발급·추가 조회를 하지 않는다', async () => {
+    const fetchMock = vi.fn().mockResolvedValue(new Response(JSON.stringify({ result: [-1, 42] })))
+    vi.stubGlobal('fetch', fetchMock)
+    const reply = await call('POST', '/api/stats', { body: { eventId }, headers: { 'content-type': 'application/json' } })
+    expect(reply.status).toBe(429)
+    expect(reply.headers['retry-after']).toBe('42')
+    expect(reply.headers['cache-control']).toBe('no-store')
+    expect(reply.headers['set-cookie']).toBeUndefined()
+    expect(fetchMock).toHaveBeenCalledTimes(1)
+  })
+
+  it('파싱된 과대 본문과 잘못된 스키마를 Redis 호출 전에 거절한다', async () => {
+    const fetchMock = vi.fn()
+    vi.stubGlobal('fetch', fetchMock)
+    const oversized = await call('POST', '/api/stats', {
+      body: { eventId, padding: 'x'.repeat(100000) }, headers: { 'content-type': 'application/json' },
+    })
+    expect(oversized.status).toBe(413)
+    for (const body of [null, [], { eventId, anniversaryId: 7 }, { eventId, extra: 'x' }, '{bad']) {
+      expect((await call('POST', '/api/stats', { body, headers: { 'content-type': 'application/json' } })).status).toBe(400)
+    }
+    expect(fetchMock).not.toHaveBeenCalled()
   })
 })

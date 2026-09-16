@@ -25,6 +25,7 @@ import categoriesJson from '../src/data/categories.json' with { type: 'json' }
 import groupsJson from '../src/data/groups.json' with { type: 'json' }
 import { registerAnchors } from '../src/utils/dateUtils.js'
 import { buildCalendar } from '../src/utils/ics.js'
+import { BoundedCache } from '../server/boundedCache.js'
 
 // anchor 맵은 데이터에만 의존하므로 모듈 초기화 때 한 번만 등록한다.
 // 요청마다 1,400개 Map 을 다시 만들 이유가 없다.
@@ -62,8 +63,8 @@ const BUILD_TIME = (() => {
 const BUILD_ID =
   process.env.VERCEL_GIT_COMMIT_SHA ?? process.env.VERCEL_DEPLOYMENT_ID ?? 'dev'
 
-/** 정규화된 (카테고리, 그룹) 키 → 완성된 ICS 본문. 인스턴스 수명 동안 유지된다. */
-const cache = new Map<string, { body: string; etag: string }>()
+// 필터 조합이 늘어나도 보관 문자열 비용 8 MiB·32개 안에서 LRU로 퇴출한다.
+const cache = new BoundedCache<{ body: string; etag: string }>(32, 8 * 1024 * 1024)
 
 /**
  * `categories` 쿼리를 정규형으로 접는다.
@@ -157,7 +158,10 @@ export default function handler(req: IncomingMessage, res: ServerResponse): void
       stamp: BUILD_TIME,
     })
     entry = { body, etag: `"${BUILD_ID}-${cacheKey}-${body.length}"` }
-    cache.set(cacheKey, entry)
+    // UTF-16 문자열과 UTF-8 표현 중 큰 쪽으로 계산하고 메타데이터 여유를 둔다.
+    const bytes = Math.max(body.length * 2, Buffer.byteLength(body))
+      + (cacheKey.length + entry.etag.length) * 2 + 256
+    cache.set(cacheKey, entry, bytes)
   }
 
   res.setHeader('Content-Type', 'text/calendar; charset=utf-8')

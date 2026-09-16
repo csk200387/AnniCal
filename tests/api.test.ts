@@ -1,5 +1,7 @@
 // 공개 구독 API — 인증이 없으므로 입력 검증과 캐시 정규화가 곧 방어선이다.
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it, vi } from 'vitest'
+import { BoundedCache } from '../server/boundedCache'
+import categories from '../src/data/categories.json'
 import handler from '../api/calendar'
 import { allAnniversaries } from '../src/data/anniversaries/all'
 
@@ -178,4 +180,25 @@ describe('groups 필터', () => {
     const b = call('GET', '/api/calendar?groups=statutory&categories=romance,food')
     expect(a.headers.etag).toBe(b.headers.etag)
   })
+})
+
+
+it('조합이 캐시 한도를 넘어도 메모리 예산·본문·ETag를 유지한다', () => {
+  const spy = vi.spyOn(BoundedCache.prototype, 'set')
+  try {
+    const original = call('GET', '/api/calendar?categories=holiday')
+    for (let mask = 1; mask <= 64; mask++) {
+      const ids = categories.filter((_, i) => mask & (1 << i)).map((c) => c.id)
+      expect(call('GET', `/api/calendar?categories=${ids.join(',')}`).status).toBe(200)
+      const cache = spy.mock.contexts.at(-1)!
+      expect(cache.size).toBeLessThanOrEqual(32)
+      expect(cache.retainedBytes).toBeLessThanOrEqual(8 * 1024 * 1024)
+    }
+    const again = call('GET', '/api/calendar?categories=holiday')
+    expect(again.body).toBe(original.body)
+    expect(again.headers.etag).toBe(original.headers.etag)
+    expect(call('GET', '/api/calendar?categories=holiday', { 'if-none-match': original.headers.etag }).status).toBe(304)
+  } finally {
+    spy.mockRestore()
+  }
 })

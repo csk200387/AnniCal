@@ -6,6 +6,7 @@
 // - 클라이언트가 재시도해도 eventId가 같으면 한 번만 집계한다.
 import type { IncomingMessage, ServerResponse } from 'node:http'
 import { createHash, randomUUID } from 'node:crypto'
+import { readJsonObject, requesterFingerprint } from '../server/request.js'
 import { allAnniversaries } from '../src/data/anniversaries/all.js'
 
 const COOKIE_NAME = 'annical_vid'
@@ -16,6 +17,14 @@ const DAILY_TTL_SECONDS = 60 * 60 * 48
 // 한 번이라도 읽힌 기념일만 Redis sorted set에 들어가므로 빈 순위는 전송되지 않는다.
 const RANKING_LIMIT = 20
 const MAX_BODY_BYTES = 1024
+// 공유 IP를 쓰는 정상 방문자를 고려하되, 전체 저장소 쓰기에도 상한을 둔다.
+const NETWORK_RATE_LIMIT = 120
+const GLOBAL_RATE_LIMIT = 3000
+const RATE_WINDOW_SECONDS = 60
+
+class RateLimitError extends Error {
+  constructor(readonly retryAfter: number) { super('RATE_LIMITED') }
+}
 const ID_RE = /^[a-z0-9][a-z0-9-]{2,159}$/
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i
 
@@ -36,11 +45,6 @@ interface StatsSnapshot {
   detail?: { id: string; views: number; rank: number | null }
 }
 
-interface RecordBody {
-  eventId?: unknown
-  anniversaryId?: unknown
-}
-
 interface RedisEnvelope {
   result?: unknown
   error?: string
@@ -53,13 +57,19 @@ type RedisCommand = Array<string | number>
  * 않으므로, 중복 요청 사이에 끼어들 여지가 없는 Lua 스크립트를 사용한다.
  */
 const RECORD_SCRIPT = `
-local rate = redis.call('INCR', KEYS[6])
-if rate == 1 then redis.call('EXPIRE', KEYS[6], 60) end
-
-local fresh = false
-if rate <= 60 then
-  fresh = redis.call('SET', KEYS[1], '1', 'NX', 'EX', tonumber(ARGV[3]))
+-- 초과 요청은 이벤트 키 생성, HLL/순위 조회 전에 끝낸다.
+-- 전체 한도를 먼저 읽어 IP를 바꾼 요청도 제한 키를 무한 생성하지 못하게 한다.
+if tonumber(redis.call('GET', KEYS[9]) or '0') >= ${GLOBAL_RATE_LIMIT} then
+  return {-1, math.max(1, redis.call('TTL', KEYS[9]))}
 end
+if tonumber(redis.call('GET', KEYS[6]) or '0') >= ${NETWORK_RATE_LIMIT} then
+  return {-1, math.max(1, redis.call('TTL', KEYS[6]))}
+end
+for _, key in ipairs({KEYS[9], KEYS[6]}) do
+  local count = redis.call('INCR', key)
+  if count == 1 then redis.call('EXPIRE', key, ${RATE_WINDOW_SECONDS}) end
+end
+local fresh = redis.call('SET', KEYS[1], '1', 'NX', 'EX', tonumber(ARGV[3]))
 
 if fresh then
   local startedOn = redis.call('GET', KEYS[8])
@@ -109,6 +119,7 @@ async function redisCommand(config: { url: string; token: string }, command: Red
       'Content-Type': 'application/json',
     },
     body: JSON.stringify(command),
+    signal: AbortSignal.timeout(5000),
   })
   const payload = (await response.json()) as RedisEnvelope
   if (!response.ok || payload.error) {
@@ -128,6 +139,7 @@ async function redisPipeline(
       'Content-Type': 'application/json',
     },
     body: JSON.stringify(commands),
+    signal: AbortSignal.timeout(5000),
   })
   const payload = (await response.json()) as RedisEnvelope[]
   if (!response.ok || !Array.isArray(payload)) {
@@ -204,29 +216,11 @@ function setVisitorCookie(res: ServerResponse, visitorId: string): void {
   )
 }
 
-async function readBody(req: IncomingMessage): Promise<unknown> {
-  const supplied = (req as IncomingMessage & { body?: unknown }).body
-  if (supplied !== undefined) return supplied
-
-  const declared = Number(req.headers['content-length'] ?? 0)
-  if (Number.isFinite(declared) && declared > MAX_BODY_BYTES) throw new Error('BODY_TOO_LARGE')
-
-  const chunks: Buffer[] = []
-  let size = 0
-  for await (const chunk of req) {
-    const buffer = Buffer.isBuffer(chunk) ? chunk : Buffer.from(chunk)
-    size += buffer.length
-    if (size > MAX_BODY_BYTES) throw new Error('BODY_TOO_LARGE')
-    chunks.push(buffer)
-  }
-  if (!chunks.length) return {}
-  return JSON.parse(Buffer.concat(chunks).toString('utf-8'))
-}
-
 function writeJson(res: ServerResponse, status: number, data: unknown): void {
   res.statusCode = status
   res.setHeader('Content-Type', 'application/json; charset=utf-8')
   res.setHeader('X-Content-Type-Options', 'nosniff')
+  if (status >= 400) res.setHeader('Cache-Control', 'no-store')
   res.end(JSON.stringify(data))
 }
 
@@ -286,6 +280,7 @@ async function readMonthlyRanking(config: { url: string; token: string }, month:
 async function recordPageView(
   config: { url: string; token: string },
   visitorId: string,
+  networkFingerprint: string,
   eventId: string,
   anniversaryId: string | null,
 ): Promise<StatsSnapshot> {
@@ -297,22 +292,29 @@ async function recordPageView(
   const result = await redisCommand(config, [
     'EVAL',
     RECORD_SCRIPT,
-    8,
+    9,
     `annical:stats:v1:event:${eventId}`,
     KEYS.visitorsAll,
     `annical:stats:v1:visitors:${day}`,
     KEYS.pageViews,
     KEYS.anniversaryViews,
-    `annical:stats:v1:rate:${visitorFingerprint}`,
+    `annical:stats:v2:rate:network:${networkFingerprint}`,
     monthlyKey(day.slice(0, 7)),
     KEYS.monthlyStartedOn,
+    'annical:stats:v2:rate:global',
     visitorFingerprint,
     anniversaryId ?? '',
     EVENT_TTL_SECONDS,
     DAILY_TTL_SECONDS,
     day,
   ])
-  return snapshotFromResults(Array.isArray(result) ? result : [], anniversaryId)
+  if (!Array.isArray(result)) throw new Error('INVALID_REDIS_RESPONSE')
+  if (result[0] === -1) {
+    const retry = Number(result[1])
+    throw new RateLimitError(Number.isFinite(retry) ? Math.max(1, Math.min(60, Math.ceil(retry))) : 60)
+  }
+  if (result.length !== 6) throw new Error('INVALID_REDIS_RESPONSE')
+  return snapshotFromResults(result, anniversaryId)
 }
 
 export default async function handler(req: IncomingMessage, res: ServerResponse): Promise<void> {
@@ -360,11 +362,12 @@ export default async function handler(req: IncomingMessage, res: ServerResponse)
       return
     }
 
-    if (!String(req.headers['content-type'] ?? '').toLowerCase().startsWith('application/json')) {
+    if (String(req.headers['content-type'] ?? '').split(';')[0]?.trim().toLowerCase() !== 'application/json') {
       writeJson(res, 415, { error: 'Content-Type must be application/json' })
       return
     }
-    const body = (await readBody(req)) as RecordBody
+    const body = await readJsonObject(req, MAX_BODY_BYTES, ['eventId', 'anniversaryId'])
+    if (body.anniversaryId != null && typeof body.anniversaryId !== 'string') throw new Error('INVALID_INPUT')
     const eventId = typeof body?.eventId === 'string' ? body.eventId : ''
     const anniversaryId =
       typeof body?.anniversaryId === 'string' && body.anniversaryId ? body.anniversaryId : null
@@ -378,16 +381,23 @@ export default async function handler(req: IncomingMessage, res: ServerResponse)
       return
     }
 
-    let visitorId = cookieValue(req)
-    if (!visitorId) {
-      visitorId = randomUUID()
-      setVisitorCookie(res, visitorId)
-    }
-    const snapshot = await recordPageView(config, visitorId, eventId, anniversaryId)
+    const existingVisitor = cookieValue(req)
+    const visitorId = existingVisitor ?? randomUUID()
+    const fingerprint = requesterFingerprint(req, config.token, 'annical:stats:v2')
+    const snapshot = await recordPageView(config, visitorId, fingerprint, eventId, anniversaryId)
+    // 거절된 요청에는 새 쿠키를 발급하지 않는다.
+    if (!existingVisitor) setVisitorCookie(res, visitorId)
     res.setHeader('Cache-Control', 'no-store')
     writeJson(res, 200, snapshot)
   } catch (error) {
-    const status = error instanceof Error && error.message === 'BODY_TOO_LARGE' ? 413 : 503
-    writeJson(res, status, { error: status === 413 ? 'Request body too large' : 'Statistics unavailable' })
+    if (error instanceof RateLimitError) {
+      res.setHeader('Retry-After', String(error.retryAfter))
+      writeJson(res, 429, { error: 'Too many requests' })
+      return
+    }
+    const reason = error instanceof Error ? error.message : ''
+    if (reason === 'BODY_TOO_LARGE') writeJson(res, 413, { error: 'Request body too large' })
+    else if (reason === 'INVALID_INPUT' || error instanceof SyntaxError) writeJson(res, 400, { error: 'Invalid request' })
+    else writeJson(res, 503, { error: 'Statistics unavailable' })
   }
 }
