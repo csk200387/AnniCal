@@ -147,8 +147,7 @@ async function handleAppShare() {
   try {
     // Invoke directly in the tap handler so mobile browsers retain user activation.
     await navigator.share({
-      title: anniversary.value?.name ?? '기념일 도감',
-      // Keep the link last in one text payload; separate URL fields may be reordered by apps.
+      // Some apps prepend title to copied text. Send only text, with the link last.
       text: [anniversary.value ? shareMessageFor(anniversary.value, birthday.value) : '', shareUrl.value]
         .filter(Boolean).join('\n'),
     })
