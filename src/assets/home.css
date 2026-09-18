@@ -363,7 +363,7 @@
 @media (max-width: 850px) {
   .calendar-layout { grid-template-columns: minmax(0,1fr); }
   .day-panel { position: relative; top: auto; }
-  .day-panel-list { max-height: none; }
+  .day-panel-list { max-height: none; overflow: visible; overscroll-behavior: auto; }
   .export-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
   .export-cards { grid-template-columns: minmax(0,1fr); }
   .export-card { min-height: 0; }

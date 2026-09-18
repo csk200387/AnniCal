@@ -2,12 +2,12 @@
 import { computed, nextTick, onBeforeUnmount, ref, useTemplateRef, watch } from 'vue'
 import { storeToRefs } from 'pinia'
 import { useShareStore } from '@/stores/share'
-import { useCopyToClipboard } from '@/composables/useCopyToClipboard'
-import { SITE_NAME, SITE_URL } from '@/seo/meta'
+import { SITE_URL } from '@/seo/meta'
 import ShareCard from './ShareCard.vue'
 import { birthdayPath } from '@/features/birthday/birthday'
+import { shareMessageFor } from '@/utils/sharePost'
 
-// html-to-image 는 이미지를 만들 때만 필요하다. 모달을 열어 링크만 복사하는
+// html-to-image 는 이미지를 만들 때만 필요하다. 모달을 열어 링크만 공유하는
 // 사람에게는 받게 하지 않는다 — 한 번 받으면 모듈 캐시에 남아 재요청은 없다.
 type ImageLib = typeof import('html-to-image')
 let imageLibPromise: Promise<ImageLib> | null = null
@@ -19,7 +19,7 @@ function loadImageLib(): Promise<ImageLib> {
 // 폰트 임베딩 CSS(웹폰트 base64 인라인)는 카드 내용과 무관하게 항상 동일하므로
 // 세션 동안 한 번만 계산해 재사용한다. 이게 캡처 시간의 대부분(특히 한글
 // Noto Serif KR 임베딩)을 차지한다. 모달을 열자마자가 아니라 이미지 버튼에
-// 손이 닿았을 때(hover/focus) 준비해, 링크만 복사하는 사람은 이 비용을 아예
+// 손이 닿았을 때(hover/focus) 준비해, 링크만 공유하는 사람은 이 비용을 아예
 // 치르지 않게 한다.
 let fontEmbedCssCache: string | null = null
 let fontEmbedCssPromise: Promise<string> | null = null
@@ -133,15 +133,32 @@ function loadRoutes() {
 const sharePath = ref<string | null>(null)
 const shareUrl = computed(() => (sharePath.value ? `${SITE_URL}${sharePath.value}` : null))
 
-// 화면에 보여줄 때는 스킴을 떼어 짧게 — 복사되는 값은 전체 URL 그대로다.
-const shareUrlLabel = computed(() => shareUrl.value?.replace(/^https?:\/\//, '') ?? '')
+const canNativeShare = typeof navigator !== 'undefined' && typeof navigator.share === 'function'
+const isSharing = ref(false)
 
-const { copied, copy } = useCopyToClipboard()
-
-async function handleCopyLink() {
-  if (!shareUrl.value) return
-  const ok = await copy(shareUrl.value)
-  if (!ok) errorMsg.value = '링크 복사에 실패했어요. 주소를 직접 선택해 복사해 주세요.'
+async function handleAppShare() {
+  if (!shareUrl.value || isSharing.value) return
+  if (!canNativeShare) {
+    errorMsg.value = '이 환경에서는 공유 메뉴를 지원하지 않아요. 휴대폰 브라우저에서 https://www.annical.me로 접속해 주세요.'
+    return
+  }
+  isSharing.value = true
+  errorMsg.value = null
+  try {
+    // Invoke directly in the tap handler so mobile browsers retain user activation.
+    await navigator.share({
+      title: anniversary.value?.name ?? '기념일 도감',
+      // Keep the link last in one text payload; separate URL fields may be reordered by apps.
+      text: [anniversary.value ? shareMessageFor(anniversary.value, birthday.value) : '', shareUrl.value]
+        .filter(Boolean).join('\n'),
+    })
+  } catch (error) {
+    if (!(error instanceof Error && error.name === 'AbortError')) {
+      errorMsg.value = '공유 메뉴를 열지 못했어요. 잠시 후 다시 시도해 주세요.'
+    }
+  } finally {
+    isSharing.value = false
+  }
 }
 
 // 미리보기 스케일 — 실제 사용 가능한 컨테이너 폭(래퍼 clientWidth)에 카드(540px)가
@@ -179,6 +196,7 @@ watch(
       sharePath.value = birthdayPath(birthdayContext, anv.id)
       return
     }
+    sharePath.value = null
     const { pathForId } = await loadRoutes()
     // 로딩 중에 닫거나 다른 기념일로 바뀌었으면 늦게 도착한 결과는 버린다.
     if (shareStore.isOpen && shareStore.anniversary?.id === anv.id && !shareStore.birthday) {
@@ -276,75 +294,18 @@ async function generatePng(): Promise<string | null> {
 }
 
 async function handleDownload() {
+  if (isGenerating.value) return
+  const downloadFilename = filename.value
   const url = await generatePng()
   if (!url) return
   const a = document.createElement('a')
   a.href = url
-  a.download = filename.value
+  a.download = downloadFilename
   document.body.appendChild(a)
   a.click()
   a.remove()
 }
 
-// navigator.share 만 있으면 링크 공유는 가능하다. 파일(이미지) 첨부는
-// canShare({ files }) 가 참일 때만 되므로 둘을 따로 따진다.
-const canNativeShare = computed(
-  () => typeof navigator !== 'undefined' && typeof navigator.share === 'function',
-)
-
-const shareText = computed(() =>
-  anniversary.value ? `${birthday.value ? '내 생일과 같은 날, ' : ''}${anniversary.value.name} · ${SITE_NAME}${birthday.value ? ' — 네 생일은 무슨 날?' : ''}` : SITE_NAME,
-)
-
-/** 사용자 취소(AbortError)는 오류가 아니므로 조용히 넘긴다. */
-function reportShareError(e: unknown) {
-  if (e instanceof Error && e.name !== 'AbortError') errorMsg.value = e.message
-}
-
-/** 링크만 공유. 네이티브 공유 시트가 없으면 클립보드 복사로 대체한다. */
-async function handleShareLink() {
-  if (!shareUrl.value) return
-  if (!canNativeShare.value) {
-    await handleCopyLink()
-    return
-  }
-  try {
-    await navigator.share({
-      title: anniversary.value?.name,
-      text: shareText.value,
-      url: shareUrl.value,
-    })
-  } catch (e) {
-    reportShareError(e)
-  }
-}
-
-/** 이미지 공유. 링크가 있으면 함께 실어 보낸다. */
-async function handleNativeShare() {
-  const dataUrl = await generatePng()
-  if (!dataUrl || !anniversary.value) return
-  try {
-    const blob = await (await fetch(dataUrl)).blob()
-    const file = new File([blob], filename.value, { type: 'image/png' })
-    if (navigator.canShare?.({ files: [file] })) {
-      // url 을 files 와 함께 넘기면 무시하는 브라우저가 있어, 링크를 text 에도 넣는다.
-      await navigator.share({
-        files: [file],
-        title: anniversary.value.name,
-        text: shareUrl.value ? `${shareText.value}\n${shareUrl.value}` : shareText.value,
-        ...(shareUrl.value ? { url: shareUrl.value } : {}),
-      })
-    } else {
-      // 파일 공유가 안 되는 환경 — 이미지는 내려받고 링크는 따로 공유한다.
-      const a = document.createElement('a')
-      a.href = dataUrl
-      a.download = filename.value
-      a.click()
-    }
-  } catch (e) {
-    reportShareError(e)
-  }
-}
 </script>
 
 <template>
@@ -363,7 +324,7 @@ async function handleNativeShare() {
         tabindex="-1"
         role="dialog"
         aria-modal="true"
-        aria-label="기념일 공유 이미지"
+        aria-label="기념일 공유"
         class="fixed inset-0 z-50 flex items-start justify-center overflow-y-auto bg-ink-900/55 px-4 py-8 backdrop-blur-sm focus:outline-none"
         @click="onBackdropClick"
         @keydown="onKeydown"
@@ -378,9 +339,6 @@ async function handleNativeShare() {
               <h2 class="mt-3 text-2xl font-semibold tracking-[-0.05em] text-ink-700">
                 {{ birthday ? '내 생일의 발견' : '공유하기' }}<span class="heading-dot">.</span>
               </h2>
-              <p class="mt-1.5 text-xs text-ink-400">
-                이미지로 저장하거나 링크를 보내세요.
-              </p>
             </div>
             <button
               type="button"
@@ -420,40 +378,8 @@ async function handleNativeShare() {
             </div>
           </div>
 
-          <!-- 링크 -->
-          <div class="flex flex-col gap-2" :aria-busy="!shareUrl">
-            <p class="section-kicker"><span /> LINK</p>
-            <div class="flex items-stretch gap-2">
-              <input
-                :value="shareUrl ?? ''"
-                :placeholder="shareUrl ? undefined : '공유 링크를 준비하고 있어요…'"
-                readonly
-                aria-label="기념일 페이지 주소"
-                class="min-w-0 flex-1 rounded-full border border-rule bg-paper-100 px-4 py-2.5 text-[0.8rem] text-ink-600 outline-none placeholder:text-ink-400 focus:border-ink-300"
-                @focus="shareUrl && ($event.target as HTMLInputElement).select()"
-              />
-              <button
-                type="button"
-                class="min-h-11 shrink-0 rounded-full px-5 text-xs font-medium transition disabled:cursor-wait disabled:opacity-40"
-                :class="shareUrl && copied
-                  ? 'bg-accent-600 text-paper-50'
-                  : 'bg-ink-700 text-paper-50 hover:bg-accent-600'"
-                :disabled="!shareUrl"
-                @click="handleCopyLink"
-              >
-                {{ shareUrl ? (copied ? '복사됨' : '복사') : '준비 중' }}
-              </button>
-            </div>
-            <p v-if="shareUrl" class="text-xs leading-relaxed text-ink-400">
-              {{ birthday ? '링크에는 선택한 월·일과 기념일이 담겨요. 친구도 같은 결과를 보고 자기 생일을 찾아볼 수 있어요.' : `${shareUrlLabel} — 받는 사람은 앱을 열지 않아도 이 기념일의 유래를 바로 볼 수 있어요.` }}
-            </p>
-            <p v-else class="text-xs leading-relaxed text-ink-400" role="status">
-              이 기념일의 공유 주소를 불러오고 있어요.
-            </p>
-          </div>
-
-          <!-- 액션 -->
-          <div class="flex flex-col gap-2.5 sm:flex-row sm:gap-3">
+          <!-- 이미지 저장은 하나의 버튼으로 제공한다. -->
+          <div class="flex flex-col gap-3">
             <button
               type="button"
               class="relative isolate flex-1 overflow-hidden rounded-full px-5 py-3.5 text-xs font-medium transition disabled:cursor-wait"
@@ -477,32 +403,24 @@ async function handleNativeShare() {
                 :class="isGenerating ? 'text-white mix-blend-difference' : ''"
               >
                 <template v-if="isGenerating">만드는 중 · {{ Math.round(generationProgress) }}%</template>
-                <template v-else>이미지 저장 ↓</template>
+                <template v-else>이미지 다운로드 ↓</template>
               </span>
             </button>
             <button
               type="button"
-              class="flex-1 rounded-full border border-rule bg-paper-50 px-5 py-3.5 text-xs font-medium text-ink-600 transition hover:bg-paper-200 disabled:cursor-wait disabled:opacity-40"
-              :disabled="!shareUrl"
-              @click="handleShareLink"
+              class="flex min-h-12 items-center justify-center gap-2 rounded-full bg-accent-600 px-5 py-3 text-sm font-medium text-paper-50 transition hover:bg-accent-700 disabled:cursor-wait disabled:opacity-40"
+              :disabled="!shareUrl || isSharing"
+              :aria-busy="isSharing"
+              @click="handleAppShare"
             >
-              {{ canNativeShare ? '링크 공유 ↗' : '링크 복사' }}
-            </button>
-            <button
-              v-if="canNativeShare"
-              type="button"
-              class="flex-1 rounded-full border border-rule bg-paper-50 px-5 py-3.5 text-xs font-medium text-ink-600 transition hover:bg-paper-200 disabled:opacity-50"
-              :disabled="isGenerating"
-              @pointerenter="warmUpImage"
-              @focus="warmUpImage"
-              @click="handleNativeShare"
-            >
-              이미지 공유 ↗
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15V3m-4 4 4-4 4 4M5 12v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-8" /></svg>
+              공유하기
             </button>
           </div>
 
           <p
             v-if="errorMsg"
+            role="alert"
             class="text-center text-xs text-accent-600"
           >
             {{ errorMsg }}

@@ -26,7 +26,10 @@ function updateNavIndicator() {
   void nextTick(() => {
     const nav = navRef.value
     const activeLink = nav?.querySelector<HTMLAnchorElement>('a.is-active')
-    if (!nav || !activeLink) return
+    if (!nav || !activeLink) {
+      indicatorReady.value = false
+      return
+    }
     const navRect = nav.getBoundingClientRect()
     const linkRect = activeLink.getBoundingClientRect()
     indicatorX.value = linkRect.left - navRect.left + nav.scrollLeft
@@ -68,11 +71,11 @@ onBeforeUnmount(() => {
           :style="indicatorStyle"
           aria-hidden="true"
         />
-        <RouterLink to="/" exact-active-class="is-active">오늘의 발견</RouterLink>
-        <RouterLink to="/calendar" active-class="is-active">기념일 달력</RouterLink>
-        <RouterLink to="/birthday" active-class="is-active">내 생일은?</RouterLink>
-        <RouterLink to="/popular" active-class="is-active">인기 순위</RouterLink>
-        <RouterLink to="/export" active-class="is-active">캘린더 연동 <span aria-hidden="true">↗</span></RouterLink>
+        <RouterLink to="/" exact-active-class="is-active"><span>오늘의</span> <span>발견</span></RouterLink>
+        <RouterLink to="/calendar" active-class="is-active"><span>기념일</span> <span>달력</span></RouterLink>
+        <RouterLink to="/birthday" active-class="is-active"><span>내</span> <span>생일은?</span></RouterLink>
+        <RouterLink to="/popular" active-class="is-active"><span>인기</span> <span>순위</span></RouterLink>
+        <RouterLink to="/export" active-class="is-active"><span>캘린더</span> <span>연동 <span class="header-nav-arrow" aria-hidden="true">↗</span></span></RouterLink>
       </nav>
       <div class="header-today"><span class="live-dot" /><span>{{ todayLabel }}</span><span class="header-today-label">좋은 하루예요!</span></div>
     </div>

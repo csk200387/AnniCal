@@ -19,8 +19,8 @@ export const useShareStore = defineStore('share', () => {
    */
   const hasOpened = ref(false)
 
-  function open(anv: Anniversary, d?: number) {
-    birthday.value = null
+  function open(anv: Anniversary, d?: number, context?: BirthdayContext) {
+    birthday.value = context ? { ...context } : null
     anniversary.value = anv
     dDay.value = d
     isOpen.value = true
@@ -28,8 +28,7 @@ export const useShareStore = defineStore('share', () => {
   }
 
   function openBirthday(anv: Anniversary, context: BirthdayContext) {
-    open(anv)
-    birthday.value = { ...context }
+    open(anv, undefined, context)
   }
 
   function close() {
