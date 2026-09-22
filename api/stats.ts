@@ -6,6 +6,7 @@
 // - 클라이언트가 재시도해도 eventId가 같으면 한 번만 집계한다.
 import type { IncomingMessage, ServerResponse } from 'node:http'
 import { createHash, randomUUID } from 'node:crypto'
+import { checkBotId } from 'botid/server'
 import { readJsonObject, requesterFingerprint } from '../server/request.js'
 import { allAnniversaries } from '../src/data/anniversaries/all.js'
 
@@ -25,16 +26,21 @@ const RATE_WINDOW_SECONDS = 60
 class RateLimitError extends Error {
   constructor(readonly retryAfter: number) { super('RATE_LIMITED') }
 }
+// Googlebot 은 evergreen Chromium 으로 페이지를 렌더링하므로 trackPage() 가 그대로
+// 실행된다. 그런데 렌더 사이에 쿠키를 유지하지 않아 크롤 1회가 신규 방문자 1명으로
+// 잡힌다. 하루 900여 건의 크롤이 방문자 수를 10배 이상 부풀리고 있었다.
+const BOT_UA_RE =
+  /bot|crawl|spider|slurp|headless|scrape|curl|wget|python-requests|facebookexternalhit|whatsapp|embedly/i
 const ID_RE = /^[a-z0-9][a-z0-9-]{2,159}$/
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i
 
 const VALID_ANNIVERSARY_IDS = new Set(allAnniversaries.map((a) => a.id))
 
 const KEYS = {
-  visitorsAll: 'annical:stats:v1:visitors:all',
-  pageViews: 'annical:stats:v1:pageviews',
-  anniversaryViews: 'annical:stats:v1:anniversary-views',
-  monthlyStartedOn: 'annical:stats:v1:monthly-started-on',
+  visitorsAll: 'annical:stats:v2:visitors:all',
+  pageViews: 'annical:stats:v2:pageviews',
+  anniversaryViews: 'annical:stats:v2:anniversary-views',
+  monthlyStartedOn: 'annical:stats:v2:monthly-started-on',
 } as const
 
 interface StatsSnapshot {
@@ -228,7 +234,7 @@ async function readSnapshot(
   config: { url: string; token: string },
   anniversaryId: string | null,
 ): Promise<StatsSnapshot> {
-  const dayKey = `annical:stats:v1:visitors:${seoulDay()}`
+  const dayKey = `annical:stats:v2:visitors:${seoulDay()}`
   const commands: RedisCommand[] = [
     ['PFCOUNT', KEYS.visitorsAll],
     ['PFCOUNT', dayKey],
@@ -277,6 +283,23 @@ async function readMonthlyRanking(config: { url: string; token: string }, month:
   }
 }
 
+/**
+ * UA 로 거른 뒤 BotID 로 한 번 더 본다. UA 는 Googlebot 처럼 정직하게 밝히는
+ * 크롤러를, BotID 는 사람인 척하는 스크래퍼를 잡는다.
+ *
+ * BotID 가 장애로 던지면 UA 판정만 쓴다 — 통계는 부가 기능이라, 집계를 멈추는
+ * 것보다 덜 정확해지는 쪽이 낫다. 지금 문제(일 900건 크롤)는 UA 만으로도 걸린다.
+ */
+async function isBot(req: IncomingMessage): Promise<boolean> {
+  if (BOT_UA_RE.test(String(req.headers['user-agent'] ?? ''))) return true
+  try {
+    const verification = await checkBotId({ advancedOptions: { headers: req.headers } })
+    return verification.isBot
+  } catch {
+    return false
+  }
+}
+
 async function recordPageView(
   config: { url: string; token: string },
   visitorId: string,
@@ -293,9 +316,9 @@ async function recordPageView(
     'EVAL',
     RECORD_SCRIPT,
     9,
-    `annical:stats:v1:event:${eventId}`,
+    `annical:stats:v2:event:${eventId}`,
     KEYS.visitorsAll,
-    `annical:stats:v1:visitors:${day}`,
+    `annical:stats:v2:visitors:${day}`,
     KEYS.pageViews,
     KEYS.anniversaryViews,
     `annical:stats:v2:rate:network:${networkFingerprint}`,
@@ -378,6 +401,13 @@ export default async function handler(req: IncomingMessage, res: ServerResponse)
     }
     if (anniversaryId && (!ID_RE.test(anniversaryId) || !VALID_ANNIVERSARY_IDS.has(anniversaryId))) {
       writeJson(res, 400, { error: 'Unknown anniversary' })
+      return
+    }
+
+    // 봇에게도 공개 수치는 그대로 보여주되, 집계에는 넣지 않는다.
+    if (await isBot(req)) {
+      res.setHeader('Cache-Control', 'no-store')
+      writeJson(res, 200, await readSnapshot(config, anniversaryId))
       return
     }
 

@@ -1,4 +1,10 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
+
+// BotID 는 Vercel 런타임에서만 판정할 수 있다. 여기서는 판정 결과만 갈아끼워
+// 핸들러가 그 결과를 실제로 반영하는지 본다.
+const checkBotId = vi.hoisted(() => vi.fn(async () => ({ isBot: false })))
+vi.mock('botid/server', () => ({ checkBotId }))
+
 import handler from '../api/stats'
 import { allAnniversaries } from '../src/data/anniversaries/all'
 
@@ -41,6 +47,8 @@ async function call(
 
 const anniversaryId = allAnniversaries[0]!.id
 const eventId = '1035f67e-89ab-4cde-8123-0123456789ab'
+const humanUA =
+  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
 
 describe('통계 API', () => {
   beforeEach(() => {
@@ -49,6 +57,7 @@ describe('통계 API', () => {
     vi.stubEnv('KV_REST_API_TOKEN', 'secret')
     vi.useFakeTimers({ toFake: ['Date'] })
     vi.setSystemTime(new Date('2026-09-14T02:00:00Z'))
+    checkBotId.mockResolvedValue({ isBot: false })
   })
 
   afterEach(() => {
@@ -96,6 +105,86 @@ describe('통계 API', () => {
     const command = JSON.parse(String(fetchMock.mock.calls[0]![1]?.body)) as unknown[]
     expect(command[0]).toBe('EVAL')
     expect(command).toContain(anniversaryId)
+  })
+
+  it('봇 UA의 POST는 집계하지 않고 읽기 전용 스냅샷만 돌려준다', async () => {
+    const fetchMock = vi.fn().mockResolvedValue(new Response(JSON.stringify([
+      { result: 42 },
+      { result: 7 },
+      { result: '123' },
+      { result: [anniversaryId, '9'] },
+    ]), { status: 200 }))
+    vi.stubGlobal('fetch', fetchMock)
+
+    const response = await call('POST', '/api/stats', {
+      body: { eventId, anniversaryId },
+      headers: {
+        'content-type': 'application/json',
+        'user-agent': 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+      },
+    })
+
+    expect(response.status).toBe(200)
+    expect(JSON.parse(response.body).visitorsToday).toBe(7)
+    // 쿠키를 발급하지 않아야 다음 크롤도 같은 경로로 걸러진다.
+    expect(response.headers['set-cookie']).toBeUndefined()
+    // 기록용 EVAL 이 아니라 읽기 파이프라인만 나간다.
+    const sent = JSON.parse(String(fetchMock.mock.calls[0]![1]?.body)) as unknown[]
+    expect(JSON.stringify(sent)).not.toContain('EVAL')
+    expect(JSON.stringify(sent)).toContain('PFCOUNT')
+  })
+
+  it('사람 브라우저 UA는 평소대로 집계한다', async () => {
+    const fetchMock = vi.fn().mockResolvedValue(new Response(JSON.stringify({
+      result: [43, 8, '124', '10', 0, [anniversaryId, '10']],
+    }), { status: 200 }))
+    vi.stubGlobal('fetch', fetchMock)
+
+    const response = await call('POST', '/api/stats', {
+      body: { eventId, anniversaryId },
+      headers: {
+        'content-type': 'application/json',
+        'user-agent': humanUA,
+      },
+    })
+
+    expect(response.status).toBe(200)
+    expect(response.headers['set-cookie']).toContain('HttpOnly')
+    expect(JSON.parse(String(fetchMock.mock.calls[0]![1]?.body))[0]).toBe('EVAL')
+  })
+
+  it('사람 UA 라도 BotID 가 봇으로 보면 집계하지 않는다', async () => {
+    checkBotId.mockResolvedValue({ isBot: true })
+    const fetchMock = vi.fn().mockResolvedValue(new Response(JSON.stringify([
+      { result: 42 }, { result: 7 }, { result: '123' }, { result: [anniversaryId, '9'] },
+    ]), { status: 200 }))
+    vi.stubGlobal('fetch', fetchMock)
+
+    const response = await call('POST', '/api/stats', {
+      body: { eventId, anniversaryId },
+      headers: { 'content-type': 'application/json', 'user-agent': humanUA },
+    })
+
+    expect(response.status).toBe(200)
+    expect(response.headers['set-cookie']).toBeUndefined()
+    expect(JSON.stringify(fetchMock.mock.calls[0]![1]?.body)).not.toContain('EVAL')
+  })
+
+  it('BotID 가 장애로 던지면 UA 판정만으로 떨어뜨린다', async () => {
+    checkBotId.mockRejectedValue(new Error('botid down'))
+    const fetchMock = vi.fn().mockResolvedValue(new Response(JSON.stringify({
+      result: [43, 8, '124', '10', 0, [anniversaryId, '10']],
+    }), { status: 200 }))
+    vi.stubGlobal('fetch', fetchMock)
+
+    const response = await call('POST', '/api/stats', {
+      body: { eventId, anniversaryId },
+      headers: { 'content-type': 'application/json', 'user-agent': humanUA },
+    })
+
+    // 사람은 계속 집계된다 — 통계가 멈추는 것보다 덜 정확한 쪽을 택했다.
+    expect(response.status).toBe(200)
+    expect(JSON.parse(String(fetchMock.mock.calls[0]![1]?.body))[0]).toBe('EVAL')
   })
 
   it('쓰기 요청의 형식과 기념일 id를 검증한다', async () => {
@@ -147,8 +236,8 @@ describe('통계 API', () => {
       ranking: [{ id: anniversaryId, views: 4 }],
     })
     const commands = JSON.parse(fetchMock.mock.calls[0]![1].body)
-    expect(commands[0]).toEqual(['ZREVRANGE', 'annical:stats:v1:anniversary-views:month:2026-08', 0, 19, 'WITHSCORES'])
-    expect(commands.flat()).not.toContain('annical:stats:v1:anniversary-views')
+    expect(commands[0]).toEqual(['ZREVRANGE', 'annical:stats:v2:anniversary-views:month:2026-08', 0, 19, 'WITHSCORES'])
+    expect(commands.flat()).not.toContain('annical:stats:v2:anniversary-views')
   })
 
   it('기록이 없는 과거 달에 누적 수치를 복제하지 않는다', async () => {
@@ -181,8 +270,8 @@ describe('통계 API', () => {
     await call('POST', '/api/stats', options)
     const before = JSON.parse(fetchMock.mock.calls[0]![1].body)
     const after = JSON.parse(fetchMock.mock.calls[1]![1].body)
-    expect(before).toContain('annical:stats:v1:anniversary-views:month:2026-09')
-    expect(after).toContain('annical:stats:v1:anniversary-views:month:2026-10')
+    expect(before).toContain('annical:stats:v2:anniversary-views:month:2026-09')
+    expect(after).toContain('annical:stats:v2:anniversary-views:month:2026-10')
     expect(before[3]).toBe(after[3]) // 월이 달라도 같은 이벤트의 중복 방지 키 유지
     expect(after.at(-1)).toBe('2026-10-01')
     expect(after[2]).toBe(9)

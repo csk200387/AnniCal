@@ -1,11 +1,18 @@
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
+import { initBotId } from 'botid/client/core'
 
 import App from './App.vue'
 import router from './router'
 
 import './assets/main.css'
 import './assets/home.css'
+
+// 통계 집계에서 봇을 빼기 위한 클라이언트 챌린지. AppShell 이 라우트마다 쏘는
+// POST /api/stats 보다 먼저 떠 있어야 하므로 mount 전에 호출한다.
+// 챌린지 스크립트는 vercel.json 리라이트를 거쳐 같은 출처에서 오므로 CSP
+// script-src 'self' 를 건드리지 않는다.
+initBotId({ protect: [{ path: '/api/stats', method: 'POST' }] })
 
 const app = createApp(App)
 const pinia = createPinia()
