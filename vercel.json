@@ -10,6 +10,11 @@
       ],
       "destination": "https://www.annical.me/:path*",
       "permanent": true
+    },
+    {
+      "source": "/day/05-24/monaco-grand-prix",
+      "destination": "/day/05-24",
+      "permanent": true
     }
   ],
   "rewrites": [
