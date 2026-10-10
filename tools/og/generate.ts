@@ -1,24 +1,25 @@
 import { mkdirSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
-import { homedir } from 'node:os'
 import { allAnniversaries } from '../../src/data/anniversaries/all.js'
 import routes from '../../src/data/routes.json' with { type: 'json' }
-import { displayName } from '../../src/seo/meta.js'
+import { ogDisplayName } from '../../server/og/text.js'
 import { ogImageUrl, type StaticPage } from '../../src/seo/og.js'
 import { pageCard } from '../../server/og/query.js'
 import { renderOg } from '../../server/og/render.js'
 import handler from '../../api/og.js'
+import { samplesOutputDir } from './options.js'
 
 if (process.argv[2] === 'samples') {
-  const out = join(homedir(), '.hermes/cache/scratch/og-samples')
+  const out = samplesOutputDir(process.argv.slice(3))
   mkdirSync(out, { recursive: true })
-  const longest = allAnniversaries.slice().sort((a, b) => displayName(b.name).length - displayName(a.name).length)[0]
+  const longest = allAnniversaries.slice().sort((a, b) => ogDisplayName(b.name).length - ogDisplayName(a.name).length)[0]
   const route = (routes as Record<string, { urlDate: string; slug: string }>)[longest.id]
   const queries = {
     birthday: { kind: 'birthday', date: '10-11', year: 2026, pick: 'anv-fixed-10-11-sausage-pizza-day-us' },
     together: { kind: 'together', date: '2026-06-21', m: 'd100', pick: allAnniversaries.find(a => a.dateType === 'annual-fixed' && a.date === '06-21')!.id },
     'detail-long': { kind: 'detail', date: route.urlDate, slug: route.slug },
     hub: { kind: 'hub', date: '10-11' },
+    'hub-many': { kind: 'hub', date: '11-11', year: 2026 },
   } as const
   for (const [name, query] of Object.entries(queries)) {
     const url = ogImageUrl(query)
@@ -30,6 +31,8 @@ if (process.argv[2] === 'samples') {
     } as never)
     console.log(`${name}: ${url}`)
   }
+  writeFileSync(join(out, 'home.png'), await renderOg(pageCard('home')))
+  console.log(`home: ${join(out, 'home.png')}`)
 } else {
   mkdirSync('public/og', { recursive: true })
   for (const page of ['home', 'calendar', 'export', 'popular', 'birthday', 'together'] as StaticPage[]) {

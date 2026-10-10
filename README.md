@@ -90,11 +90,17 @@ https://www.annical.me
 `src/seo/pages.ts`의 정적 메타는 라우터·프리렌더·봇 폴백이 공유한다. 이미지 URL은
 `src/seo/og.ts`의 `ogImageUrl()`만 생성하며 `OG_VERSION`을 `v` 쿼리로 붙인다.
 상세·허브 이미지에는 기준 `year`도 넣어, 새해에 전년도 발생일 이미지가 CDN에 남지 않게 한다.
+`/api/og`는 `v`가 영문 소문자·숫자 1~8자면 구버전도 받으며 렌더·메모리 캐시 키는
+현재 `OG_VERSION`을 사용한다. 그 외 버전 형식은 400으로 거절한다.
 canonical과 기존 상세 URL의 `urlDate`·slug는 바뀌지 않는다.
 
 - `/`·`/calendar`·`/export`·`/popular`·`/birthday`·`/together`: `public/og/*.png` 6장.
 - 상세·허브와 공유 결과: `/api/og?kind=detail|hub|birthday|together&…`의 1200×630 PNG.
-  제목은 `displayName()`을 쓰고 두 줄까지 표시한다. 자유 텍스트는 받지 않는다.
+  이미지·공유 메타 제목은 OG 전용 `ogDisplayName()`으로 중첩된 원어 괄호까지 제거하며,
+  한글 괄호와 기존 SEO의 `displayName()`은 유지한다. 이미지 제목은 두 줄까지 표시한다.
+  허브는 제목 아래 기념일 이름 최대 3개와 `외 N개`를 두 줄 안에 표시하고,
+  날짜 행에 전체 이야기 수를 둔다. 빈 날짜에는 `아직 이름 붙지 않은 하루`를 표시한다.
+  정적 페이지는 날짜 행 없이 제목 아래 부제를 둔다. 자유 텍스트는 받지 않는다.
 - `/birthday?…`·`/together?…`: 사람·검색 크롤러는 프리렌더 SPA를 받는다.
   `src/seo/previewBots.ts`의 미리보기 봇만 Vercel UA 조건으로 `/api/share-meta`에 연결된다.
   공유 결과 HTML은 모든 값을 이스케이프하고 쿼리 없는 canonical·noindex를 사용한다.
@@ -107,7 +113,8 @@ canonical과 기존 상세 URL의 `urlDate`·slug는 바뀌지 않는다.
 
 ```bash
 npm run og:static   # public/og/*.png 생성 (저장소에 포함)
-npm run og:samples  # ~/.hermes/cache/scratch/og-samples/에 동적 샘플 4장 (커밋 제외)
+npm run og:samples  # tmp/og-samples/에 샘플 6장 (gitignored)
+npm run og:samples -- --out /path/to/review  # 출력 폴더 지정
 npm run verify     # slug 검사·빌드·API 타입 검사·전체 테스트
 ```
 
@@ -121,8 +128,9 @@ npm run og:static
 ```
 
 원본·venv는 gitignored이고, `server/og/fonts/`의 TTF 3장과 OFL 사본만 저장소에 포함한다.
-생성기는 실제 `displayName()`·카테고리·`server/og/copy.json`·ASCII에서 글자 집합을 만들며
+생성기는 실제 `ogDisplayName()`·모든 태그·카테고리·`server/og/copy.json`·ASCII에서 글자 집합을 만들며
 출력 타임스탬프를 고정한다. 테스트는 파이썬 없이 TTF cmap을 검사해 글리프 누락을 잡는다.
+실제 페이지·허브 이름 목록·모든 마일스톤의 템플릿 출력도 글리프 검사에 포함한다.
 
 `/together`는 시작일을 1일로 센다(100일 = +99일). 윤일 시작의 평년 주년은 2월 28일이다.
 1950년 1월 1일부터 서울 기준 오늘까지 입력할 수 있고, 계산 자료 범위 밖 연도는 고정일

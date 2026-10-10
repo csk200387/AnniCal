@@ -51,6 +51,11 @@ describe('공유 결과 메타', () => {
     expect(result.image).toContain('date=2026-06-21')
     expect(shareMetaHtml(result)).toContain('rel="canonical" href="https://www.annical.me/together"')
   })
+  it('공유 제목에서도 중첩 원어 괄호를 제거한다', () => {
+    const anv = allAnniversaries.find(a => a.name.includes('National Bundt (Pan) Day'))!
+    expect(meta(`page=birthday&date=11-15&pick=${anv.id}`).title).toBe('내 생일 11월 15일은 번트팬의 날')
+    expect(meta(`page=together&start=2025-11-15&m=y1&pick=${anv.id}`).title).toBe('우리 1주년 11월 15일은 번트팬의 날')
+  })
   it('잘못된 값·pick·추가 키·중복·긴 입력은 일반 페이지로 폴백', () => {
     for (const query of ['page=birthday', 'page=birthday&date=02-31', 'page=birthday&date=10-11&year=9999',
       `page=birthday&date=10-12&pick=${pizza.id}`, 'page=birthday&date=10-11&name=<script>',

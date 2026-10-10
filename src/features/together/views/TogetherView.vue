@@ -20,15 +20,15 @@ const startInput = ref(''), formError = ref(''), loading = ref(false), loadError
 const selectedId = ref('')
 const heading = ref<HTMLElement | null>(null)
 const start = computed(() => validStart(route.query.start, today.value) ? route.query.start : null)
-const window = computed(() => start.value ? milestoneWindow(start.value, today.value) : { next: null, later: [], past: [] })
-const activeM = computed(() => typeof route.query.m === 'string' ? route.query.m : route.query.m === undefined ? window.value.next?.ids[0] : undefined)
+const timeline = computed(() => start.value ? milestoneWindow(start.value, today.value) : { next: null, later: [], past: [] })
+const activeM = computed(() => typeof route.query.m === 'string' ? route.query.m : route.query.m === undefined ? timeline.value.next?.ids[0] : undefined)
 const context = computed<TogetherContext | null>(() => {
   if (!start.value || !activeM.value) return null
   const date = milestoneDate(start.value, activeM.value)
   return date ? { start: start.value, m: activeM.value, date } : null
 })
 const invalidLink = computed(() => (route.query.start !== undefined || route.query.m !== undefined) && (!start.value || (route.query.m !== undefined && !context.value)))
-const rows = computed(() => [window.value.next, ...window.value.later, ...window.value.past].filter((row): row is Milestone => !!row))
+const rows = computed(() => [timeline.value.next, ...timeline.value.later, ...timeline.value.past].filter((row): row is Milestone => !!row))
 function items(date: string) {
   if (loading.value || loadError.value) return []
   const [year, month, day] = date.split('-').map(Number)
@@ -93,13 +93,13 @@ function openCard() { if (selected.value && context.value) share.openTogether(se
       <p v-if="invalidLink" class="birthday-notice" role="alert">공유 링크의 시작일이나 마일스톤이 올바르지 않아요. 날짜를 다시 입력해 주세요.</p>
       <section v-if="start && !invalidLink" class="birthday-results" aria-labelledby="together-result-title" :aria-busy="loading">
         <header class="birthday-result-heading"><div><p class="section-kicker"><span /> OUR NEXT DISCOVERY</p><h2 id="together-result-title" ref="heading" tabindex="-1">우리의 다음 기념일<span class="heading-dot">.</span></h2></div><span class="date-pill">{{ start }}부터</span></header>
-        <button v-if="window.next" type="button" class="together-next" @click="chooseMilestone(window.next)"><span><small>다가오는 우리의 날</small><strong>{{ window.next.labels.join(' · ') }}</strong><span>{{ dateLabel(window.next.date) }}</span></span><b>{{ dDay(window.next.daysAway) }}</b></button>
+        <button v-if="timeline.next" type="button" class="together-next" @click="chooseMilestone(timeline.next)"><span><small>다가오는 우리의 날</small><strong>{{ timeline.next.labels.join(' · ') }}</strong><span>{{ dateLabel(timeline.next.date) }}</span></span><b>{{ dDay(timeline.next.daysAway) }}</b></button>
         <p v-else class="birthday-notice">준비한 50주년·10,000일 마일스톤을 모두 지났어요. 최근 지난 날의 이야기를 만나보세요.</p>
         <p v-if="loading" class="birthday-notice" role="status">그날에 담긴 이야기를 찾고 있어요…</p>
         <div v-else-if="loadError" class="birthday-notice" role="alert"><p>기념일을 불러오지 못했어요. 잠시 후 다시 시도해 주세요.</p><button type="button" class="home-button" @click="loadResults">다시 불러오기 ↻</button></div>
         <template v-else>
           <div class="together-timeline">
-            <section v-for="group in [{ title: '이후 다섯 번의 발견', list: window.later }, { title: '최근 지난 우리의 날', list: window.past }]" :key="group.title">
+            <section v-for="group in [{ title: '이후 다섯 번의 발견', list: timeline.later }, { title: '최근 지난 우리의 날', list: timeline.past }]" :key="group.title">
               <h3>{{ group.title }}</h3>
               <ul><li v-for="row in group.list" :key="row.date">
                 <button type="button" class="together-row" :aria-pressed="context?.date === row.date" @click="chooseMilestone(row)"><span><strong>{{ row.labels.join(' · ') }}</strong><span>{{ dateLabel(row.date) }}</span><small>{{ items(row.date).length ? items(row.date).map(a => displayName(a.name)).join(' · ') : '아직 등록된 기념일이 없어요.' }}</small></span><b>{{ dDay(row.daysAway) }}</b></button>

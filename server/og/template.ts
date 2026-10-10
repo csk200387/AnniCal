@@ -1,5 +1,6 @@
 // JSX 없이 satori 요소를 만드는 순수 함수. 렌더 시 외부 리소스를 가져오지 않는다.
 import type { OgCard } from './query.js'
+import { ogDisplayName } from './text.js'
 
 export interface Element { type: string; props: { style?: Record<string, unknown>; children?: string | Element[]; [key: string]: unknown } }
 const el = (style: Record<string, unknown>, children?: string | Element[]): Element => ({ type: 'div', props: { style: { display: 'flex', ...style }, children } })
@@ -23,8 +24,33 @@ export function titleLines(title: string): { lines: string[]; size: number } {
   }
   return { lines, size }
 }
+/** 목록은 두 줄, 넘칠 때도 나머지 개수 접미사는 보존한다. */
+export function hubLines(lead: string): string[] {
+  const capacity = 30
+  const suffix = lead.match(/ 외 \d+개$/)?.[0] ?? ''
+  let remaining = suffix ? lead.slice(0, -suffix.length) : lead
+  const lines: string[] = []
+  for (let row = 0; row < 2; row++) {
+    const chars = Array.from(remaining)
+    const tail = row === 1 ? suffix : ''
+    if (chars.length + Array.from(suffix).length <= capacity) { lines.push(remaining + suffix); break }
+    if (row === 1) {
+      lines.push(chars.slice(0, capacity - Array.from(tail).length - 1).join('').trimEnd() + '…' + tail)
+      break
+    }
+    let cut = capacity
+    const space = chars.slice(0, capacity + 1).lastIndexOf(' ')
+    if (space >= capacity / 2) cut = space
+    lines.push(chars.slice(0, cut).join('').trimEnd())
+    remaining = chars.slice(cut).join('').trimStart()
+  }
+  return lines
+}
 export function ogTemplate(card: OgCard): Element {
-  const { lines, size } = titleLines(card.title)
+  const { lines, size } = titleLines(ogDisplayName(card.title))
+  const subtitle = card.kind === 'page' || card.kind === 'hub'
+  const theme = card.kind === 'page' ? card.page : card.kind
+  const stamp = theme === 'birthday' ? '생일' : theme === 'together' ? '우리' : '하루'
   const ink = '#1f1d1a', accent = '#8b2c2c', paper = '#f3ede0'
   const ring = (diameter: number, opacity: number) => el({ position: 'absolute', width: diameter, height: diameter, right: -diameter / 3, bottom: -diameter / 2, borderRadius: '50%', border: `2px solid rgba(139,44,44,${opacity})` })
   const holes = Array.from({ length: 8 }, (_, i) => el({ position: 'absolute', top: 10 + i * 22, left: -5, width: 10, height: 10, borderRadius: '50%', background: paper }))
@@ -33,7 +59,7 @@ export function ogTemplate(card: OgCard): Element {
     el({ position: 'absolute', top: 47, right: 54, width: 170, height: 186, background: '#fdfcf9', padding: 14, transform: 'rotate(-5deg)' }, [
       ...holes, el({ border: '1px solid #c5a8a0', flexDirection: 'column', width: '100%', alignItems: 'center', justifyContent: 'center', color: accent }, [
         el({ fontSize: 16, letterSpacing: 3 }, 'ANNICAL'),
-        el({ fontFamily: 'Noto Serif KR', fontSize: 42, marginTop: 18, fontWeight: 700 }, card.kind === 'together' ? '우리' : '하루'),
+        el({ fontFamily: 'Noto Serif KR', fontSize: 42, marginTop: 18, fontWeight: 700 }, stamp),
         el({ fontSize: 15, marginTop: 12 }, '기념일 도감'),
       ]),
     ]),
@@ -41,11 +67,13 @@ export function ogTemplate(card: OgCard): Element {
       el({ fontSize: 18, color: accent, letterSpacing: 4, fontWeight: 700 }, 'ANNICAL'),
       el({ fontSize: 27, marginTop: 10, fontWeight: 700 }, card.header),
       el({ flexDirection: 'column', marginTop: 45, width: 910 }, [
-        el({ fontSize: 25, color: accent, fontWeight: 500, height: 38 }, card.lead),
-        el({ flexDirection: 'column', fontFamily: 'Noto Serif KR', fontWeight: 700, fontSize: size, lineHeight: 1.28, marginTop: 10, height: 195 }, lines.map(line => el({}, line))),
-        el({ gap: 20, alignItems: 'center', marginTop: 15 }, [
+        ...(!subtitle ? [el({ fontSize: 25, color: accent, fontWeight: 500, height: 38 }, card.lead)] : []),
+        el({ flexDirection: 'column', fontFamily: 'Noto Serif KR', fontWeight: 700, fontSize: size, lineHeight: 1.28, marginTop: 10, height: subtitle ? lines.length * size * 1.28 : 195 }, lines.map(line => el({}, line))),
+        ...(subtitle ? [el({ flexDirection: 'column', fontSize: 28, lineHeight: 1.3, color: '#625c52', marginTop: 26, width: 870 },
+          card.kind === 'hub' ? hubLines(card.lead).map(line => el({}, line)) : card.lead)] : []),
+        ...(card.kind !== 'page' ? [el({ gap: 20, alignItems: 'center', marginTop: subtitle ? 24 : 15 }, [
           el({ fontSize: 32, fontWeight: 700 }, card.date), el({ fontSize: 22, color: '#625c52' }, card.label),
-        ]),
+        ])] : []),
       ]),
       el({ marginTop: 'auto', borderTop: '1px solid #d5ccbc', paddingTop: 20, justifyContent: 'space-between', fontSize: 19, color: '#625c52' }, [
         el({}, 'annical.me'), el({}, '평범한 하루에, 기념할 이유 하나.'),

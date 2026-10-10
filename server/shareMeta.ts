@@ -1,6 +1,7 @@
 // 봇 전용 결과 HTML. 임의 텍스트를 반영하지 않고 검증된 카드 문구만 사용한다.
 import { allAnniversaries } from '../src/data/anniversaries/all.js'
-import { SITE_NAME, SITE_URL, displayName, koreanDate, truncate } from '../src/seo/meta.js'
+import { SITE_NAME, SITE_URL, koreanDate, truncate } from '../src/seo/meta.js'
+import { ogDisplayName } from './og/text.js'
 import { ogImageUrl } from '../src/seo/og.js'
 import { PAGE_META } from '../src/seo/pages.js'
 import { milestoneDate, milestoneLabel, togetherPath, validStart } from '../src/features/together/milestones.js'
@@ -12,7 +13,7 @@ export interface ShareMeta { page: 'birthday' | 'together'; title: string; descr
 export const escapeHtml = (value: string): string => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;')
 export function shareMeta(params: URLSearchParams, today = todayInSiteZone()): ShareMeta {
   const page = params.get('page') === 'together' ? 'together' : 'birthday'
-  const fallback: ShareMeta = { page, title: PAGE_META[page].title, description: PAGE_META[page].description, image: ogImageUrl(page), path: `/${page}` }
+  const fallback: ShareMeta = { page, title: ogDisplayName(PAGE_META[page].title), description: PAGE_META[page].description, image: ogImageUrl(page), path: `/${page}` }
   const allowed = page === 'birthday' ? ['page', 'date', 'year', 'pick'] : ['page', 'start', 'm', 'pick']
   if (params.toString().length > 512 || !['birthday', 'together'].includes(params.get('page') ?? '')) return fallback
   for (const key of params.keys()) if (!allowed.includes(key) || params.getAll(key).length !== 1) return fallback
@@ -39,7 +40,7 @@ export function shareMeta(params: URLSearchParams, today = todayInSiteZone()): S
   const parsed = parseOgQuery(og, today.getFullYear())
   if (typeof parsed === 'number') return fallback
   const anv = parsed.pick ? byId.get(parsed.pick) : undefined
-  const title = `${lead}은 ${anv ? displayName(anv.name) : '어떤 날일까?'}`
+  const title = `${lead}은 ${anv ? ogDisplayName(anv.name) : '어떤 날일까?'}`
   const origin = anv?.storytelling.origin?.trim()
   // 첫 문장이 너무 길어도 검색/공유 앱의 설명 길이를 넘기지 않는다.
   const description = origin ? truncate(origin.match(/^.*?[.!?。](?:\s|$)/)?.[0] ?? origin) : `${lead}에 담긴 이야기를 기념일 도감에서 만나보세요.`

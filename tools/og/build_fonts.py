@@ -7,13 +7,13 @@ from fontTools.varLib.instancer import instantiateVariableFont
 from fontTools import subset
 
 ROOT = Path(__file__).resolve().parents[2]
-# 원어 괄호 제거 규칙은 복제하지 않고 실제 displayName()을 호출한다(Node 22.18+).
+# 원어 괄호 제거 규칙은 복제하지 않고 실제 ogDisplayName()을 호출한다(Node 22.18+).
 script = """
 import { readFileSync, readdirSync } from 'node:fs';
-import { displayName } from './src/seo/meta.ts';
+import { ogDisplayName } from './server/og/text.ts';
 const dir = 'src/data/anniversaries/';
 console.log(JSON.stringify(readdirSync(dir).filter(f => f.endsWith('.json')).sort()
-.flatMap(f => JSON.parse(readFileSync(dir + f, 'utf8')).map(a => displayName(a.name)))));
+.flatMap(f => JSON.parse(readFileSync(dir + f, 'utf8')).flatMap(a => [ogDisplayName(a.name), ...a.tags]))));
 """
 names = json.loads(subprocess.check_output(['node', '--input-type=module', '-e', script], cwd=ROOT))
 copy = json.loads((ROOT / 'server/og/copy.json').read_text())
