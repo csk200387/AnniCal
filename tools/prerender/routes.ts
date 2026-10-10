@@ -5,6 +5,7 @@ import { readFileSync, readdirSync, statSync } from 'node:fs'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import type { Anniversary } from '../../src/types/anniversary'
+import { todayInSiteZone } from '../../src/utils/clock'
 import { registerAnchors, resolveOccurrenceSafe } from '../../src/utils/dateUtils'
 
 const ROOT = fileURLToPath(new URL('../..', import.meta.url))
@@ -75,7 +76,7 @@ export function shiftUrlDate(urlDate: string, days: number): string | null {
  * 고정돼 있지만(색인 유지), 본문·제목·허브 소속은 매 배포 시점의 실제 날짜를
  * 따라야 한다 — 그래야 2027년에 어머니의 날이 "5월 10일"로 남지 않는다.
  */
-export const DISPLAY_YEAR = new Date().getFullYear()
+export const DISPLAY_YEAR = todayInSiteZone().getFullYear()
 
 /** 그 해 실제 발생일의 "MM-DD". 계산할 수 없으면 URL 날짜로 물러선다. */
 export function displayDateFor(anv: Anniversary, fallback: string): string {

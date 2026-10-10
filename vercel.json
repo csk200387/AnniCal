@@ -19,24 +19,34 @@
   ],
   "rewrites": [
     {
+      "source": "/birthday",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(?:[Tt][Ww][Ii][Tt][Tt][Ee][Rr][Bb][Oo][Tt]|[Ff][Aa][Cc][Ee][Bb][Oo][Oo][Kk][Ee][Xx][Tt][Ee][Rr][Nn][Aa][Ll][Hh][Ii][Tt]|[Ff][Aa][Cc][Ee][Bb][Oo][Tt]|[Kk][Aa][Kk][Aa][Oo][Tt][Aa][Ll][Kk]-[Ss][Cc][Rr][Aa][Pp]|[Ss][Ll][Aa][Cc][Kk][Bb][Oo][Tt]|[Dd][Ii][Ss][Cc][Oo][Rr][Dd][Bb][Oo][Tt]|[Tt][Ee][Ll][Ee][Gg][Rr][Aa][Mm][Bb][Oo][Tt]|[Ll][Ii][Nn][Kk][Ee][Dd][Ii][Nn][Bb][Oo][Tt]|[Ww][Hh][Aa][Tt][Ss][Aa][Pp][Pp]|[Ll][Ii][Nn][Ee]/|[Pp][Ii][Nn][Tt][Ee][Rr][Ee][Ss][Tt]|[Rr][Ee][Dd][Dd][Ii][Tt][Bb][Oo][Tt]|[Bb][Ll][Uu][Ee][Ss][Kk][Yy]|[Mm][Aa][Ss][Tt][Oo][Dd][Oo][Nn]|[Ii][Ff][Rr][Aa][Mm][Ee][Ll][Yy]|[Ee][Mm][Bb][Ee][Dd][Ll][Yy]|[Ss][Kk][Yy][Pp][Ee][Uu][Rr][Ii][Pp][Rr][Ee][Vv][Ii][Ee][Ww]|[Aa][Pp][Pp][Ll][Ee][Bb][Oo][Tt]).*"
+        }
+      ],
+      "destination": "/api/share-meta?page=birthday"
+    },
+    {
+      "source": "/together",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(?:[Tt][Ww][Ii][Tt][Tt][Ee][Rr][Bb][Oo][Tt]|[Ff][Aa][Cc][Ee][Bb][Oo][Oo][Kk][Ee][Xx][Tt][Ee][Rr][Nn][Aa][Ll][Hh][Ii][Tt]|[Ff][Aa][Cc][Ee][Bb][Oo][Tt]|[Kk][Aa][Kk][Aa][Oo][Tt][Aa][Ll][Kk]-[Ss][Cc][Rr][Aa][Pp]|[Ss][Ll][Aa][Cc][Kk][Bb][Oo][Tt]|[Dd][Ii][Ss][Cc][Oo][Rr][Dd][Bb][Oo][Tt]|[Tt][Ee][Ll][Ee][Gg][Rr][Aa][Mm][Bb][Oo][Tt]|[Ll][Ii][Nn][Kk][Ee][Dd][Ii][Nn][Bb][Oo][Tt]|[Ww][Hh][Aa][Tt][Ss][Aa][Pp][Pp]|[Ll][Ii][Nn][Ee]/|[Pp][Ii][Nn][Tt][Ee][Rr][Ee][Ss][Tt]|[Rr][Ee][Dd][Dd][Ii][Tt][Bb][Oo][Tt]|[Bb][Ll][Uu][Ee][Ss][Kk][Yy]|[Mm][Aa][Ss][Tt][Oo][Dd][Oo][Nn]|[Ii][Ff][Rr][Aa][Mm][Ee][Ll][Yy]|[Ee][Mm][Bb][Ee][Dd][Ll][Yy]|[Ss][Kk][Yy][Pp][Ee][Uu][Rr][Ii][Pp][Rr][Ee][Vv][Ii][Ee][Ww]|[Aa][Pp][Pp][Ll][Ee][Bb][Oo][Tt]).*"
+        }
+      ],
+      "destination": "/api/share-meta?page=together"
+    },
+    {
       "source": "/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/a-4-a/c.js",
       "destination": "https://api.vercel.com/bot-protection/v1/challenge"
     },
     {
       "source": "/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/:path*",
       "destination": "https://api.vercel.com/bot-protection/v1/proxy/:path*"
-    },
-    {
-      "source": "/calendar",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/popular",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/export",
-      "destination": "/index.html"
     }
   ],
   "headers": [
@@ -70,5 +80,10 @@
         }
       ]
     }
-  ]
+  ],
+  "functions": {
+    "api/og.ts": {
+      "includeFiles": "server/og/fonts/**"
+    }
+  }
 }

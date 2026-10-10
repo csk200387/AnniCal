@@ -1,0 +1,24 @@
+/* 생일 화면의 종이·우표 톤과 버튼을 함께 사용한다. */
+.together-start { margin: 24px 0; }
+.together-start input { width: 100%; min-width: 0; min-height: 52px; padding: 12px 14px; border: 1px solid var(--color-rule); border-radius: 8px; background: var(--color-paper-50); color: var(--color-ink-700); font: inherit; }
+.together-next { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 24px; text-align: left; padding: 28px 32px; border: 1px solid var(--color-rule); border-radius: 20px; background: var(--color-paper-200); color: var(--color-ink-700); cursor: pointer; }
+.together-next > span, .together-row > span { min-width: 0; display: flex; flex-direction: column; gap: 8px; }
+.together-next small { color: var(--color-accent-600); }
+.together-next strong { font-family: var(--font-display); font-size: 36px; }
+.together-next b { font-size: 30px; color: var(--color-accent-600); white-space: nowrap; }
+.together-timeline { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 32px; }
+.together-timeline h3, .together-discovery > h3 { font-size: 22px; margin-bottom: 18px; font-weight: 600; }
+.together-timeline ul { list-style: none; padding: 0; margin: 0; }
+.together-row { display: flex; justify-content: space-between; align-items: start; gap: 18px; width: 100%; padding: 20px 0; text-align: left; border-bottom: 1px solid var(--color-rule); cursor: pointer; }
+.together-row strong { font-size: 20px; }
+.together-row small { color: var(--color-ink-500); font-size: 13px; line-height: 1.65; }
+.together-row b { white-space: nowrap; font-size: 14px; color: var(--color-accent-600); }
+.together-row[aria-pressed="true"] { background: var(--color-paper-200); border-radius: 10px; padding-inline: 14px; }
+.together-discovery { margin-top: 42px; }
+.together-next:focus-visible, .together-row:focus-visible { outline: 2px solid var(--color-accent-600); outline-offset: 4px; }
+@media (max-width: 700px) {
+  .together-timeline { grid-template-columns: 1fr; gap: 22px; }
+  .together-next { padding: 24px 20px; gap: 14px; }
+  .together-next strong { font-size: 28px; }
+  .together-next b { font-size: 23px; }
+}

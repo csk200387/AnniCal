@@ -74,6 +74,7 @@ onBeforeUnmount(() => {
         <RouterLink to="/" exact-active-class="is-active"><span>오늘의</span> <span>발견</span></RouterLink>
         <RouterLink to="/calendar" active-class="is-active"><span>기념일</span> <span>달력</span></RouterLink>
         <RouterLink to="/birthday" active-class="is-active"><span>내</span> <span>생일은?</span></RouterLink>
+        <RouterLink to="/together" active-class="is-active"><span>우리의</span> <span>날</span></RouterLink>
         <RouterLink to="/popular" active-class="is-active"><span>인기</span> <span>순위</span></RouterLink>
         <RouterLink to="/export" active-class="is-active"><span>캘린더</span> <span>연동 <span class="header-nav-arrow" aria-hidden="true">↗</span></span></RouterLink>
       </nav>

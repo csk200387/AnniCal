@@ -151,3 +151,33 @@ describe.runIf(existsSync(join(DIST, 'index.html')))('빌드 산출물', () => {
     expect(html).not.toContain('/day/03-02')
   })
 })
+
+describe.runIf(existsSync(join(DIST, 'index.html')))('페이지별 OG 메타', () => {
+  it('정적 페이지 6개에 전용 이미지·본문·canonical이 있다', async () => {
+    const { PAGE_META } = await import('../src/seo/pages')
+    const { ogImageUrl } = await import('../src/seo/og')
+    for (const page of Object.keys(PAGE_META) as Array<keyof typeof PAGE_META>) {
+      const html = readFileSync(join(DIST, page === 'home' ? '' : page, 'index.html'), 'utf-8')
+      expect(html).toContain(ogImageUrl(page).replace(/&/g, '&amp;'))
+      expect(html).toContain(PAGE_META[page].title)
+      expect(html).toContain('og:image:width" content="1200')
+      expect(html).toContain('og:image:height" content="630')
+      expect(html).toContain('twitter:image:alt')
+      if (page !== 'home') { expect(html).toContain('<h1>'); expect(html).toContain(`rel="canonical" href="https://www.annical.me/${page}"`) }
+    }
+  })
+  it('상세·허브는 각자의 동적 이미지 URL을 쓴다', async () => {
+    const { ogImageUrl } = await import('../src/seo/og')
+    const routes = JSON.parse(readFileSync(join(ROOT, 'src/data/routes.json'), 'utf-8')) as Record<string, { slug: string; urlDate: string }>
+    for (const r of Object.values(routes)) {
+      const html = readFileSync(join(DIST, 'day', r.urlDate, r.slug, 'index.html'), 'utf-8')
+      const image = ogImageUrl({ kind: 'detail', date: r.urlDate, slug: r.slug }).replace(/&/g, '&amp;')
+      expect(html).toContain(`property="og:image" content="${image}"`)
+      expect(html).toContain(`name="twitter:image" content="${image}"`)
+    }
+    for (const date of ORDINAL_DATES) {
+      const html = readFileSync(join(DIST, 'day', date, 'index.html'), 'utf-8')
+      expect(html).toContain(ogImageUrl({ kind: 'hub', date }).replace(/&/g, '&amp;'))
+    }
+  })
+})

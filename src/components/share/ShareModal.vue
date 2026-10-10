@@ -4,6 +4,7 @@ import { storeToRefs } from 'pinia'
 import { useShareStore } from '@/stores/share'
 import { SITE_URL } from '@/seo/meta'
 import ShareCard from './ShareCard.vue'
+import { togetherPath } from '@/features/together/milestones'
 import { birthdayPath } from '@/features/birthday/birthday'
 import { shareMessageFor } from '@/utils/sharePost'
 
@@ -47,7 +48,7 @@ function warmUpImage(): void {
 }
 
 const shareStore = useShareStore()
-const { isOpen, anniversary, dDay, birthday } = storeToRefs(shareStore)
+const { isOpen, anniversary, dDay, birthday, together } = storeToRefs(shareStore)
 
 // ShareCard root element 참조 — 캡처 대상.
 const cardRootRef = ref<HTMLElement | null>(null)
@@ -115,7 +116,7 @@ const filename = computed(() => {
   if (!anniversary.value) return 'anniversarium.png'
   // 파일명에 부적합한 문자 제거
   const safe = anniversary.value.name.replace(/[\\/:*?"<>|]/g, '')
-  return `${birthday.value ? 'annical-birthday' : 'anniversarium'}-${safe}.png`
+  return `${together.value ? 'annical-together' : birthday.value ? 'annical-birthday' : 'anniversarium'}-${safe}.png`
 })
 
 // 이 기념일의 상세 페이지 주소. 프리렌더된 정적 페이지라 링크를 받은 사람은
@@ -148,7 +149,7 @@ async function handleAppShare() {
     // Invoke directly in the tap handler so mobile browsers retain user activation.
     await navigator.share({
       // Some apps prepend title to copied text. Send only text, with the link last.
-      text: [anniversary.value ? shareMessageFor(anniversary.value, birthday.value) : '', shareUrl.value]
+      text: [anniversary.value ? shareMessageFor(anniversary.value, birthday.value, undefined, together.value) : '', shareUrl.value]
         .filter(Boolean).join('\n'),
     })
   } catch (error) {
@@ -185,10 +186,14 @@ function unobservePreview() {
 
 // 기념일이 바뀔 때마다 경로를 다시 해석한다. 모달이 닫혀 있으면 굳이 불러오지 않는다.
 watch(
-  [isOpen, anniversary, birthday],
-  async ([open, anv, birthdayContext]) => {
+  [isOpen, anniversary, birthday, together],
+  async ([open, anv, birthdayContext, togetherContext]) => {
     if (!open || !anv) {
       sharePath.value = null
+      return
+    }
+    if (togetherContext) {
+      sharePath.value = togetherPath(togetherContext, anv.id)
       return
     }
     if (birthdayContext) {
@@ -198,7 +203,7 @@ watch(
     sharePath.value = null
     const { pathForId } = await loadRoutes()
     // 로딩 중에 닫거나 다른 기념일로 바뀌었으면 늦게 도착한 결과는 버린다.
-    if (shareStore.isOpen && shareStore.anniversary?.id === anv.id && !shareStore.birthday) {
+    if (shareStore.isOpen && shareStore.anniversary?.id === anv.id && !shareStore.birthday && !shareStore.together) {
       sharePath.value = pathForId(anv.id)
     }
   },
@@ -336,7 +341,7 @@ async function handleDownload() {
             <div>
               <p class="section-kicker"><span /> SHARE</p>
               <h2 class="mt-3 text-2xl font-semibold tracking-[-0.05em] text-ink-700">
-                {{ birthday ? '내 생일의 발견' : '공유하기' }}<span class="heading-dot">.</span>
+                {{ together ? '우리의 발견' : birthday ? '내 생일의 발견' : '공유하기' }}<span class="heading-dot">.</span>
               </h2>
             </div>
             <button
@@ -371,6 +376,7 @@ async function handleDownload() {
                     :anniversary="anniversary"
                     :d-day="dDay"
                     :birthday="birthday ?? undefined"
+                    :together="together ?? undefined"
                   />
                 </div>
               </div>

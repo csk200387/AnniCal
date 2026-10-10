@@ -6,6 +6,8 @@ import { formatKoreanMonthDay } from '@/utils/dateUtils'
 import { useAnniversariesStore } from '@/stores/anniversaries'
 import { SITE_URL } from '@/seo/meta'
 import CategorySymbol from '@/features/feed/components/CategorySymbol.vue'
+import { displayName as anniversaryDisplayName } from '@/seo/meta'
+import { milestoneLabel, type TogetherContext } from '@/features/together/milestones'
 import type { BirthdayContext } from '@/features/birthday/birthday'
 
 const props = defineProps<{
@@ -13,6 +15,7 @@ const props = defineProps<{
   /** 다가오는 기념일일 때 D-N 값. 오늘이면 undefined. */
   dDay?: number
   birthday?: BirthdayContext
+  together?: TogetherContext
 }>()
 
 const store = useAnniversariesStore()
@@ -22,7 +25,7 @@ const category = computed(() =>
 
 // 피드 카드와 같은 규칙 — 뒤에 붙은 영문 원어명은 떼고 보여준다.
 const displayName = computed(() =>
-  props.anniversary.name.replace(/\s+\([A-Za-z][^)]*\)$/, ''),
+  anniversaryDisplayName(props.anniversary.name),
 )
 
 /** 제목 길이에 맞춘 본문 크기. 540px 안에서 두 줄을 넘기지 않게 한다. */
@@ -35,6 +38,10 @@ const titleSize = computed(() => {
 })
 
 const dateKo = computed(() => {
+  if (props.together) {
+    const [m, d] = props.together.date.slice(5).split('-').map(Number)
+    return `${m}월 ${d}일`
+  }
   if (props.birthday) {
     const [m, d] = props.birthday.date.split('-').map(Number)
     return `${m}월 ${d}일`
@@ -103,7 +110,7 @@ const holesX = Array.from({ length: 13 }, (_, i) => 18 + i * 14)
             ANNICAL
           </p>
           <p class="mt-2.5 text-[15px] font-semibold tracking-[-0.04em] text-ink-700">
-            {{ birthday ? '내 생일의 발견' : '기념일 도감' }}
+            {{ together ? '우리의 발견' : birthday ? '내 생일의 발견' : '기념일 도감' }}
           </p>
         </div>
 
@@ -142,7 +149,8 @@ const holesX = Array.from({ length: 13 }, (_, i) => 18 + i * 14)
 
       <!-- 중앙: 카테고리 + 제목 + 날짜 -->
       <div class="mt-auto">
-        <p v-if="birthday" class="mb-3 text-[16px] font-semibold text-accent-600">내 생일과 같은 날,</p>
+        <p v-if="together" class="mb-3 text-[16px] font-semibold text-accent-600">우리 {{ milestoneLabel(together.m) }},</p>
+        <p v-else-if="birthday" class="mb-3 text-[16px] font-semibold text-accent-600">내 생일과 같은 날,</p>
         <div class="flex items-center gap-3">
           <span class="flex items-center gap-2 text-[11px] tracking-[0.12em] text-ink-500">
             <span class="inline-block h-1.5 w-1.5 rounded-full bg-accent-500" aria-hidden="true" />
@@ -178,10 +186,10 @@ const holesX = Array.from({ length: 13 }, (_, i) => 18 + i * 14)
         style="border-color: #e3ddd1;"
       >
         <span class="text-[12px] font-medium tracking-[-0.02em] text-ink-500">
-          {{ siteLabel }}{{ birthday ? '/birthday' : '' }}
+          {{ siteLabel }}{{ together ? '/together' : birthday ? '/birthday' : '' }}
         </span>
         <span class="text-[9.5px] tracking-[0.22em] text-ink-400 tabular-nums">
-          {{ birthday ? `네 생일은 무슨 날? · ${birthday.year}년 기준` : `CAPTURED · ${todayStamp}` }}
+          {{ together ? `${together.date} · 우리의 날` : birthday ? `네 생일은 무슨 날? · ${birthday.year}년 기준` : `CAPTURED · ${todayStamp}` }}
         </span>
       </footer>
     </div>

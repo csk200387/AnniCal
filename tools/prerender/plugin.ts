@@ -12,7 +12,6 @@ import { dirname, join, resolve, sep } from 'node:path'
 import type { Plugin } from 'vite'
 import type { Anniversary } from '../../src/types/anniversary'
 import {
-  OG_IMAGE,
   SITE_NAME,
   SITE_URL,
   anniversaryDescription,
@@ -25,6 +24,8 @@ import {
   koreanDate,
   safeJsonLd,
 } from '../../src/seo/meta'
+import { ogImageUrl, type StaticPage } from '../../src/seo/og'
+import { PAGE_META } from '../../src/seo/pages'
 import {
   buildTargets,
   loadRoutes,
@@ -40,6 +41,20 @@ const esc = (s: string): string =>
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#39;')
+
+/** 이미지 메타는 정적 페이지와 상세/허브가 같은 규칙으로 갱신한다. */
+function imageMeta(html: string, image: string, alt: string): string {
+  for (const [attr, key, value] of [
+    ['property', 'og:image', image], ['property', 'og:image:width', '1200'],
+    ['property', 'og:image:height', '630'], ['property', 'og:image:alt', alt],
+    ['name', 'twitter:image', image], ['name', 'twitter:image:alt', alt],
+  ]) {
+    const re = new RegExp(`<meta\\s+${attr}="${key}"[^>]*>`)
+    const tag = `<meta ${attr}="${key}" content="${esc(value)}" />`
+    html = re.test(html) ? html.replace(re, tag) : html.replace('</head>', `${tag}\n</head>`)
+  }
+  return html
+}
 
 /**
  * URL 경로 조각 이스케이프.
@@ -147,25 +162,26 @@ export function prerender(): Plugin {
       // 파일을 덮어쓰는 것을 막는 마지막 방어선이다.
       const outRoot = resolve(outDir)
 
-      // 날짜 쿼리와 관계없이 생일 공유 링크에 전용 제목과 설명을 제공한다.
-      const birthdayTitle = '내 생일은 무슨 날? · 생일 기념일 찾기 | ' + SITE_NAME
-      const birthdayDescription = '내 생일과 같은 날의 기념일을 발견하고, 마음에 드는 이야기로 생일 카드를 만들어보세요. 친구의 생일도 함께 알아보세요.'
-      let birthdayHtml = shell
-        .replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(birthdayTitle)}</title>`)
-        .replace(/<link rel="canonical"[^>]*>/, `<link rel="canonical" href="${SITE_URL}/birthday" />`)
-        .replace(/<meta property="og:url"[^>]*>/, `<meta property="og:url" content="${SITE_URL}/birthday" />`)
-        .replace('<div id="app"></div>', '<div id="app"><h1>내 생일은 무슨 날?</h1><p>' + birthdayDescription + '</p><a href="/calendar">기념일 달력 둘러보기</a></div>')
-      for (const [attr, key, content] of [
-        ['name', 'description', birthdayDescription],
-        ['property', 'og:title', birthdayTitle],
-        ['property', 'og:description', birthdayDescription],
-        ['name', 'twitter:title', birthdayTitle],
-        ['name', 'twitter:description', birthdayDescription],
-      ]) {
-        birthdayHtml = birthdayHtml.replace(new RegExp(`<meta ${attr}="${key}"[^>]*>`), `<meta ${attr}="${key}" content="${esc(content)}" />`)
+      // 정적 페이지도 제목·설명·이미지와 읽을 수 있는 본문을 미리 만든다.
+      for (const page of Object.keys(PAGE_META) as StaticPage[]) {
+        const meta = PAGE_META[page]
+        const path = page === 'home' ? '/' : `/${page}`
+        let html = shell.replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(meta.title + ' | ' + SITE_NAME)}</title>`)
+          .replace(/<link rel="canonical"[^>]*>/, `<link rel="canonical" href="${SITE_URL}${path}" />`)
+          .replace(/<meta property="og:url"[^>]*>/, `<meta property="og:url" content="${SITE_URL}${path}" />`)
+        for (const [attr, key, value] of [
+          ['name', 'description', meta.description], ['name', 'keywords', meta.keywords],
+          ['property', 'og:title', meta.title + ' | ' + SITE_NAME], ['property', 'og:description', meta.description],
+          ['name', 'twitter:title', meta.title + ' | ' + SITE_NAME], ['name', 'twitter:description', meta.description],
+        ]) html = html.replace(new RegExp(`<meta\\s+${attr}="${key}"[^>]*>`), `<meta ${attr}="${key}" content="${esc(value)}" />`)
+        html = imageMeta(html, ogImageUrl(page), meta.title)
+        if (page !== 'home') {
+          html = html.replace('<div id="app"></div>', `<div id="app"><h1>${esc(meta.title)}</h1><p>${esc(meta.description)}</p><nav><a href="/calendar">기념일 달력</a> · <a href="/birthday">내 생일은?</a> · <a href="/together">우리의 날</a></nav></div>`)
+        }
+        const dir = page === 'home' ? outDir : join(outDir, page)
+        mkdirSync(dir, { recursive: true })
+        writeFileSync(join(dir, 'index.html'), html, 'utf-8')
       }
-      mkdirSync(join(outDir, 'birthday'), { recursive: true })
-      writeFileSync(join(outDir, 'birthday/index.html'), birthdayHtml, 'utf-8')
 
       const byDate = new Map<string, Anniversary[]>()
       for (const t of targets) {
@@ -194,7 +210,7 @@ export function prerender(): Plugin {
             )
           : hubBody(t.urlDate, t.items ?? [], routes)
 
-        const html = shell
+        let html = shell
           .replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(fullTitle)}</title>`)
           .replace(/<meta\s+name="description"[\s\S]*?\/>/, `<meta name="description" content="${esc(description)}" />`)
           // keywords 는 구글·네이버 모두 랭킹에 쓰지 않는다. 상세 페이지에서는 뺀다.
@@ -204,11 +220,14 @@ export function prerender(): Plugin {
           .replace(/<meta property="og:title"[\s\S]*?\/>/, `<meta property="og:title" content="${esc(fullTitle)}" />`)
           .replace(/<meta\s+property="og:description"[\s\S]*?\/>/, `<meta property="og:description" content="${esc(description)}" />`)
           .replace(/<meta property="og:url"[^>]*>/, `<meta property="og:url" content="${esc(url)}" />`)
-          .replace(/<meta property="og:image"[^>]*>/, `<meta property="og:image" content="${esc(OG_IMAGE)}" />`)
           .replace(/<meta name="twitter:title"[\s\S]*?\/>/, `<meta name="twitter:title" content="${esc(fullTitle)}" />`)
           .replace(/<meta\s+name="twitter:description"[\s\S]*?\/>/, `<meta name="twitter:description" content="${esc(description)}" />`)
           .replace('</head>', `  <script type="application/ld+json" id="ld-page">${jsonLd(t, url, description)}</script>\n  </head>`)
           .replace('<div id="app"></div>', `<div id="app">${body}</div>`)
+
+        html = imageMeta(html, ogImageUrl(isDetail
+          ? { kind: 'detail', date: t.urlDate, slug: routes[t.anniversary!.id].slug }
+          : { kind: 'hub', date: t.urlDate }), title)
 
         const file = resolve(outDir, t.path.replace(/^\//, ''), 'index.html')
         if (file !== join(outRoot, 'index.html') && !file.startsWith(outRoot + sep)) {
@@ -227,7 +246,7 @@ export function prerender(): Plugin {
       // 없는 주소는 여기로 떨어지며 HTTP 상태도 진짜 404 가 된다. 예전에는
       // 모든 경로를 index.html 로 rewrite 해서 없는 페이지도 200 을 냈고,
       // 검색엔진이 그것들을 정상 페이지로 색인할 수 있었다.
-      const notFoundHtml = shell
+      const notFoundHtml = imageMeta(shell, `${SITE_URL}/og-cover.png`, '페이지를 찾을 수 없어요')
         .replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(`페이지를 찾을 수 없어요 | ${SITE_NAME}`)}</title>`)
         .replace(/<link rel="canonical"[^>]*>/, '')
         .replace('</head>', '  <meta name="robots" content="noindex, follow" />\n  </head>')

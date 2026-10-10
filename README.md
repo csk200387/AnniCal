@@ -3,7 +3,7 @@
 [![AnniCal — 평범한 하루에, 기념할 이유 하나. 오늘의 발견·기념일 달력·생일 카드·월별 인기 순위](docs/images/annical-banner.png)](https://www.annical.me/)
 
 기념일 도감은 세상의 다양하고 흥미로운 기념일을 날짜별로 기록하고 발견하는 웹앱.
-전 세계 1,572개 기념일을 13개 카테고리로 분류해 피드·달력·캘린더 연동으로 제공한다.
+전 세계 1,734개 기념일을 13개 카테고리로 분류해 피드·달력·캘린더 연동으로 제공한다.
 
 ## 주요 기능
 
@@ -13,6 +13,8 @@
 - **공유** — 기념일 카드를 이미지로 저장·공유
 - **공개 통계** — 오늘·누적 익명 방문자와 전체 페이지뷰 표시
 - **내 생일의 발견** — 생일과 같은 날의 기념일을 찾아 카드 이미지·링크로 공유
+- **우리의 날** — 시작한 날부터 100일·N주년을 계산하고 그날의 기념일을 카드·링크로 공유
+- **링크 미리보기** — 모든 공개 페이지 전용 OG 이미지와 생일·우리의 날 공유 결과 카드
 - **관심도 순위** — 월별 TOP 20·지난달 기록·전체 누적 순위 조회
 
 ## 기술 스택
@@ -26,7 +28,8 @@
 - **dayjs** — 날짜 계산
 - **ics** — `.ics` 캘린더 파일 생성
 - **html-to-image** — 카드 → 이미지 변환
-- **Vercel** — 정적 호스팅 + 서버리스 API (`/api/calendar`)
+- **satori + @resvg/resvg-js** — 서브셋 한글 폰트로 서버·빌드에서 OG PNG 생성
+- **Vercel** — 프리렌더 정적 호스팅 + Node 서버리스 API
 - **Upstash Redis** — 익명 방문자·페이지뷰·기념일 관심도 집계
 
 ## 시작하기
@@ -47,11 +50,17 @@ https://www.annical.me
 ├── /                              # 오늘의 기념일 피드
 ├── /calendar                      # 월간 달력·검색
 ├── /export                        # .ics 다운로드·캘린더 구독
+├── /popular                       # 월별 관심도 순위
+├── /birthday                      # 내 생일의 발견 (?date=MM-DD&year=YYYY&pick=id)
+├── /together                      # 우리의 날 (?start=YYYY-MM-DD&m=d100|y1…&pick=id)
 ├── /day/:date                     # 날짜별 기념일 허브 (:date = MM-DD)
 │   └── /:slug                     # 기념일 상세
 ├── /api
 │   ├── /calendar                  # 캘린더 구독용 ICS 피드
-│   └── /stats                     # 익명 방문·조회 통계
+│   ├── /stats                     # 익명 방문·조회 통계
+│   ├── /feedback                  # 피드백 접수
+│   ├── /og                        # 검증된 날짜·기념일의 1200×630 PNG
+│   └── /share-meta                # 미리보기 봇용 공유 결과 HTML
 ├── /sitemap.xml                   # 빌드 시 생성되는 사이트맵
 ├── /robots.txt                    # 크롤러 정책
 └── 그 외 경로                     # noindex 404 페이지
@@ -60,16 +69,64 @@ https://www.annical.me
 | 경로 | 방식 | 설명 |
 |---|---|---|
 | `/` | 정적 진입점 + SPA | 오늘 날짜의 기념일과 관심도 순위를 표시한다. |
-| `/calendar` | SPA rewrite | 월별 달력에서 이름·태그로 기념일을 찾는다. |
-| `/export` | SPA rewrite | 선택한 카테고리·그룹으로 `.ics`를 만들거나 구독 URL을 발급한다. |
+| `/calendar` | 프리렌더 + SPA | 월별 달력에서 이름·태그로 기념일을 찾는다. |
+| `/export` | 프리렌더 + SPA | 선택한 카테고리·그룹으로 `.ics`를 만들거나 구독 URL을 발급한다. |
+| `/popular` | 프리렌더 + SPA | 월별 관심도 순위와 지난 기록을 표시한다. |
+| `/birthday` | 프리렌더 + SPA / 봇 rewrite | 생일 결과를 찾고 공유한다. 미리보기 봇은 결과 메타를 받는다. |
+| `/together` | 프리렌더 + SPA / 봇 rewrite | 시작일에서 다가오는 마일스톤과 그날의 기념일을 찾는다. |
 | `/day/:date` | 프리렌더 | `MM-DD` 형식의 유효한 날짜 366개를 날짜 허브로 생성한다. 예: `/day/03-14` |
 | `/day/:date/:slug` | 프리렌더 | `routes.json`에 등록된 기념일 상세 페이지다. 예: `/day/03-14/pi-day` |
 | `/api/calendar` | Vercel Function | `GET`·`HEAD` 요청에 `text/calendar` 형식으로 응답한다. |
 | `/api/stats` | Vercel Function | `GET`으로 공개 통계를 조회하고 `POST`로 페이지뷰를 기록한다. |
+| `/api/og` | Vercel Node Function | `GET`·`HEAD`, 날짜·기념일 allowlist로 검증한 PNG와 ETag를 반환한다. |
+| `/api/share-meta` | Vercel Node Function | `GET`·`HEAD`, 결과별 OG/Twitter HTML. canonical은 쿼리 없는 페이지이며 noindex다. |
 
 상세 경로는 `src/data/routes.json`이 관리하며 `npm run check:slugs`로 데이터와의 일치 여부를 검사한다. `annual-nth-weekday`처럼 실제 날짜가 해마다 달라지는 기념일도 검색 색인을 유지하도록 URL의 `:date`는 기준 연도(2026년) 값으로 고정한다. 화면에 표시되는 날짜와 날짜 허브 소속은 현재 연도의 실제 발생일을 계산해 사용한다.
 
-빌드 시 날짜 허브 366개와 기념일 상세 1,572개를 정적 HTML로 만들고 사이트맵에도 포함한다. `/calendar`와 `/export`만 `index.html`로 rewrite하며, 등록되지 않은 경로는 `404.html`로 응답한다.
+빌드 시 날짜 허브 366개와 기념일 상세 1,734개를 정적 HTML로 만들고 사이트맵에도 포함한다. `/calendar`·`/export`·`/popular`·`/birthday`·`/together`도 전용 정적 HTML을 생성한다. 미리보기 봇의 생일·우리의 날 요청만 `/api/share-meta`로 rewrite하며, 등록되지 않은 경로는 `404.html`로 응답한다.
+
+## OG 이미지·공유 메타 구조
+
+`src/seo/pages.ts`의 정적 메타는 라우터·프리렌더·봇 폴백이 공유한다. 이미지 URL은
+`src/seo/og.ts`의 `ogImageUrl()`만 생성하며 `OG_VERSION`을 `v` 쿼리로 붙인다.
+상세·허브 이미지에는 기준 `year`도 넣어, 새해에 전년도 발생일 이미지가 CDN에 남지 않게 한다.
+canonical과 기존 상세 URL의 `urlDate`·slug는 바뀌지 않는다.
+
+- `/`·`/calendar`·`/export`·`/popular`·`/birthday`·`/together`: `public/og/*.png` 6장.
+- 상세·허브와 공유 결과: `/api/og?kind=detail|hub|birthday|together&…`의 1200×630 PNG.
+  제목은 `displayName()`을 쓰고 두 줄까지 표시한다. 자유 텍스트는 받지 않는다.
+- `/birthday?…`·`/together?…`: 사람·검색 크롤러는 프리렌더 SPA를 받는다.
+  `src/seo/previewBots.ts`의 미리보기 봇만 Vercel UA 조건으로 `/api/share-meta`에 연결된다.
+  공유 결과 HTML은 모든 값을 이스케이프하고 쿼리 없는 canonical·noindex를 사용한다.
+  잘못된 입력은 일반 페이지 메타로 폴백한다.
+- 동적 이미지: CDN 1년, 브라우저 1일, ETag, 인스턴스 LRU 최대 64개 / 16 MiB.
+  공유 HTML: 서울 자정까지 최대 1시간, `Vary: User-Agent`, LRU 최대 128개 / 2 MiB.
+  `vercel.json`의 `includeFiles`가 서버 폰트 포함을 보장한다.
+
+이미지·폰트·문구를 바꾸면 `OG_VERSION`을 올리고 정적 PNG를 다시 생성한다.
+
+```bash
+npm run og:static   # public/og/*.png 생성 (저장소에 포함)
+npm run og:samples  # ~/.hermes/cache/scratch/og-samples/에 동적 샘플 4장 (커밋 제외)
+npm run verify     # slug 검사·빌드·API 타입 검사·전체 테스트
+```
+
+폰트는 Noto Serif KR 700과 Noto Sans KR 500/700의 정적 서브셋이다.
+원본 가변 TTF를 `tools/og/fonts-src/NotoSerifKR-VF.ttf`와 `NotoSansKR-VF.ttf`에 두고,
+fonttools가 설치된 `tools/og/.venv`에서 다음 명령으로 재생성한다(Node 22.18+ 필요).
+
+```bash
+tools/og/.venv/bin/python tools/og/build_fonts.py
+npm run og:static
+```
+
+원본·venv는 gitignored이고, `server/og/fonts/`의 TTF 3장과 OFL 사본만 저장소에 포함한다.
+생성기는 실제 `displayName()`·카테고리·`server/og/copy.json`·ASCII에서 글자 집합을 만들며
+출력 타임스탬프를 고정한다. 테스트는 파이썬 없이 TTF cmap을 검사해 글리프 누락을 잡는다.
+
+`/together`는 시작일을 1일로 센다(100일 = +99일). 윤일 시작의 평년 주년은 2월 28일이다.
+1950년 1월 1일부터 서울 기준 오늘까지 입력할 수 있고, 계산 자료 범위 밖 연도는 고정일
+기념일만 표시한다. 다가오는 하나·이후 다섯·최근 지난 둘을 제공하며 같은 날짜는 합친다.
 
 ## 디렉토리 구조
 
@@ -77,8 +134,14 @@ https://www.annical.me
 .
 ├── api/                              # Vercel 서버리스 함수
 │   ├── calendar.ts                   #   캘린더 구독 피드 (/api/calendar)
-│   └── stats.ts                      #   공개 방문·조회 통계 (/api/stats)
-├── public/                           # 그대로 배포되는 정적 파일
+│   ├── stats.ts                      #   공개 방문·조회 통계 (/api/stats)
+│   ├── og.ts                         #   동적 PNG (/api/og)
+│   └── share-meta.ts                 #   공유 결과 HTML (/api/share-meta)
+├── server/
+│   ├── og/                           # 검증·템플릿·렌더러·정적 서브셋 TTF·OFL
+│   ├── shareMeta.ts                  # 공유 링크 검증·이스케이프 HTML
+│   └── boundedCache.ts               # 개수·바이트 제한 LRU
+├── public/                           # 정적 파일, og/에 페이지 PNG 6장
 ├── src/
 │   ├── assets/                       # 글로벌 CSS
 │   ├── components/                   # 도메인 공통 UI
@@ -88,12 +151,14 @@ https://www.annical.me
 │   │   └── share/                    #   공유 카드·모달
 │   ├── composables/                  # 전역 재사용 Composition 함수
 │   ├── data/                         # 정적 JSON 데이터베이스
-│   │   ├── anniversaries/            #   01.json … 12.json (월별, 총 1,572건)
+│   │   ├── anniversaries/            #   01.json … 12.json (월별, 총 1,734건)
 │   │   ├── categories.json           #   13개 카테고리
 │   │   ├── groups.json               #   교차 선택 그룹
 │   │   ├── observances.json          #   기념일 원본·보조 데이터
 │   │   └── routes.json               #   기념일 id ↔ URL 날짜·slug 매핑
 │   ├── features/                     # 도메인 기능 단위
+│   │   ├── birthday/                 #   내 생일의 발견
+│   │   ├── together/                 #   마일스톤 계산·우리의 날
 │   │   ├── calendar/                 #   월간 달력·검색
 │   │   ├── calendar-export/          #   .ics 다운로드·구독 URL
 │   │   ├── day/                      #   날짜 허브·기념일 상세
@@ -111,6 +176,7 @@ https://www.annical.me
 │   ├── enrich/                       # 데이터 보강 파이프라인
 │   ├── inspector/                    # 데이터 검수 도구
 │   ├── namuwiki/                     # 나무위키 데이터 수집·대조
+│   ├── og/                           # 폰트 서브셋·정적 PNG·검토 샘플 생성
 │   ├── observances/                  # observances 생성 도구
 │   ├── prerender/                    # 상세·날짜 허브 정적 HTML 생성
 │   ├── research/                     # 조사 자료

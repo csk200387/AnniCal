@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import { applyRouteMeta } from '@/seo/head'
+import { staticPageMeta } from '@/seo/pages'
 
 // 라우트 meta 의 SEO 필드 타입 보강.
 declare module 'vue-router' {
@@ -8,6 +9,7 @@ declare module 'vue-router' {
     title?: string
     description?: string
     keywords?: string
+    ogImage?: string
     /**
      * true 면 afterEach 의 정적 메타 주입을 건너뛴다.
      * 기념일 상세·날짜 허브는 데이터에서 title/description/JSON-LD 를 만들어
@@ -22,60 +24,40 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
+      path: '/together',
+      name: 'together',
+      component: () => import('@/features/together/views/TogetherView.vue'),
+      meta: staticPageMeta('together'),
+    },
+    {
       path: '/birthday',
       name: 'birthday',
       component: () => import('@/features/birthday/views/BirthdayView.vue'),
-      meta: {
-        title: '내 생일은 무슨 날? · 생일 기념일 찾기',
-        description: '내 생일과 같은 날의 기념일을 발견하고, 마음에 드는 이야기로 생일 카드를 만들어보세요. 친구의 생일도 함께 알아보세요.',
-        keywords: '생일 기념일,내 생일은 무슨 날,생일 카드,생일 공유,기념일 도감,기념일 만물상',
-      },
+      meta: staticPageMeta('birthday'),
     },
     {
       path: '/',
       name: 'feed',
       component: () => import('@/features/feed/views/FeedView.vue'),
-      meta: {
-        title: '오늘의 기념일 · 세계 기념일 캘린더',
-        description: '오늘은 무슨 날? 세계 곳곳의 특이한 기념일과 이색 기념일을 모아 기록하는 도감',
-        keywords:
-          '오늘의 기념일,기념일 캘린더,세계 기념일,세계의 날,이색 기념일,특이한 기념일,월별 기념일,음식 기념일,기념일 모음,기념일 도감,기념일 만물상',
-      },
+      meta: staticPageMeta('home'),
     },
     {
       path: '/calendar',
       name: 'calendar',
       component: () => import('@/features/calendar/views/CalendarView.vue'),
-      meta: {
-        title: '기념일 캘린더·검색',
-        description:
-          '월별 달력에서 모든 기념일을 한눈에. 이름·태그로 검색하고 날짜별 기념일을 확인하세요.',
-        keywords:
-          '기념일 캘린더,기념일 달력,기념일 검색,오늘의 기념일,월별 기념일,기념일 도감,기념일 만물상',
-      },
+      meta: staticPageMeta('calendar'),
     },
     {
       path: '/export',
       name: 'export',
       component: () => import('@/features/calendar-export/views/ExportView.vue'),
-      meta: {
-        title: '기념일 캘린더 구독·.ics 다운로드',
-        description:
-          '관심 기념일을 .ics로 내려받아 구글·애플 캘린더에 추가하거나, ' +
-          '구독 링크로 새 기념일을 자동 업데이트 받으세요.',
-        keywords:
-          '기념일 캘린더 구독,기념일 ics,ics 다운로드,구글 캘린더 기념일,애플 캘린더,기념일 도감,기념일 만물상',
-      },
+      meta: staticPageMeta('export'),
     },
     {
       path: '/popular',
       name: 'popular',
       component: () => import('@/features/stats/views/PopularView.vue'),
-      meta: {
-        title: '많이 읽은 기념일 · 월별 관심도 순위',
-        description: '이번 달 가장 많이 읽은 기념일 TOP 20과 지난달 관심도 순위를 살펴보세요. 월별 기록과 전체 누적 순위를 함께 볼 수 있어요.',
-        keywords: '기념일 순위,인기 기념일,많이 읽은 기념일,기념일 관심도,기념일 도감,기념일 만물상',
-      },
+      meta: staticPageMeta('popular'),
     },
     {
       path: '/day/:date',

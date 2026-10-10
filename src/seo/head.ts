@@ -19,6 +19,8 @@ import {
   dateHubTitle,
 } from './meta'
 
+import { ogImageUrl } from './og'
+
 export { SITE_NAME, SITE_URL }
 
 /** 상세·허브 페이지가 주입하는 JSON-LD <script> 의 id. */
@@ -69,7 +71,7 @@ function upsertJsonLd(data: unknown): void {
 }
 
 /** title·description·canonical·OG·Twitter 를 한 번에 갱신하고 정규 URL 을 돌려준다. */
-function applyPageMeta(title: string, description: string, path: string): string {
+function applyPageMeta(title: string, description: string, path: string, image = OG_IMAGE): string {
   const fullTitle = title ? `${title} | ${SITE_NAME}` : SITE_NAME
   const url = `${SITE_URL}${path === '/' ? '' : path}` || SITE_URL
 
@@ -81,10 +83,14 @@ function applyPageMeta(title: string, description: string, path: string): string
   upsertMeta('property', 'og:title', fullTitle)
   upsertMeta('property', 'og:description', description)
   upsertMeta('property', 'og:url', url)
-  upsertMeta('property', 'og:image', OG_IMAGE)
+  upsertMeta('property', 'og:image', image)
+  upsertMeta('property', 'og:image:width', '1200')
+  upsertMeta('property', 'og:image:height', '630')
+  upsertMeta('property', 'og:image:alt', title)
   upsertMeta('name', 'twitter:title', fullTitle)
   upsertMeta('name', 'twitter:description', description)
-  upsertMeta('name', 'twitter:image', OG_IMAGE)
+  upsertMeta('name', 'twitter:image', image)
+  upsertMeta('name', 'twitter:image:alt', title)
   return url
 }
 
@@ -94,7 +100,7 @@ function applyPageMeta(title: string, description: string, path: string): string
  */
 export function applyRouteMeta(to: RouteLocationNormalized): void {
   const description = to.meta.description ?? DEFAULT_DESCRIPTION
-  applyPageMeta(to.meta.title ?? '', description, to.path)
+  applyPageMeta(to.meta.title ?? '', description, to.path, to.meta.ogImage)
 
   if (to.meta.keywords) upsertMeta('name', 'keywords', to.meta.keywords)
 
@@ -117,7 +123,7 @@ export function applyAnniversaryMeta(
   const urlDate = path.split('/')[2] ?? ''
   const shown = displayDate ?? urlDate
   const description = anniversaryDescription(anv, urlDate, shown)
-  const url = applyPageMeta(anniversaryTitle(anv, urlDate, shown), description, path)
+  const url = applyPageMeta(anniversaryTitle(anv, urlDate, shown), description, path, ogImageUrl({ kind: 'detail', date: urlDate, slug: path.split('/')[3] ?? '' }))
   upsertMeta('property', 'og:type', 'article')
   upsertJsonLd(anniversaryJsonLd(anv, urlDate, url, description, shown))
 }
@@ -139,7 +145,7 @@ export function applyNotFoundMeta(path: string): void {
 /** 날짜 허브 페이지 — CollectionPage/Breadcrumb JSON-LD. */
 export function applyDateHubMeta(urlDate: string, items: Anniversary[]): void {
   const description = dateHubDescription(urlDate, items)
-  const url = applyPageMeta(dateHubTitle(urlDate), description, `/day/${urlDate}`)
+  const url = applyPageMeta(dateHubTitle(urlDate), description, `/day/${urlDate}`, ogImageUrl({ kind: 'hub', date: urlDate }))
   upsertMeta('property', 'og:type', 'website')
   upsertJsonLd(dateHubJsonLd(urlDate, url, description))
 }

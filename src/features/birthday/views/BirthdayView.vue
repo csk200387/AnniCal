@@ -140,6 +140,7 @@ function openCard() {
         </template>
         <div v-else class="birthday-notice"><p>아직 {{ dateLabel }}에 등록된 기념일이 없어요.<br />이날의 새로운 이야기도 차근차근 채워갈게요.</p><RouterLink to="/calendar" class="section-text-link">다른 날짜 둘러보기 →</RouterLink></div>
         <div v-if="!loading && !loadError" class="birthday-friend"><span class="birthday-friend-spark" aria-hidden="true">✳</span><div><h3>그 친구의 생일도 궁금하다면.</h3><p>“네 생일에 이런 날이 있더라.” 먼저 이야기를 건네보세요.</p></div><button type="button" class="home-button" @click="findFriend">친구 생일도 알아보기 <span aria-hidden="true">→</span></button></div>
+        <p class="birthday-notice"><RouterLink to="/together">함께한 날도 궁금하다면, 우리의 날 찾기 →</RouterLink></p>
       </section>
       <div v-else-if="!invalidLink" class="birthday-how" aria-label="이렇게 즐겨보세요"><p><span>01</span> 생일을 고르고</p><p><span>02</span> 나와 닮은 이야기를 발견하고</p><p><span>03</span> 카드 한 장으로 나눠요</p></div>
     </div>
