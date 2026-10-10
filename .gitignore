@@ -47,3 +47,7 @@ NAMUWIKI_*.md
 CLAUDE.md
 .env*
 !.env.example
+
+# OG 이미지 폰트 원본·도구 venv (tools/og/build_fonts.py 입력)
+tools/og/fonts-src/
+tools/og/.venv/
