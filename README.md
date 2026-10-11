@@ -314,3 +314,24 @@ pre-commit run gitleaks --all-files
 
 - `N`: `1`~`5` 또는 `L` (마지막 주)
 - `DOW`: `SUN` `MON` `TUE` `WED` `THU` `FRI` `SAT`
+
+## 디자인 시스템
+
+홈을 시각 기준으로 삼아요. `src/assets/tokens.css`의 역할 색상(`--fg-*`, `--bg-*`, `--stroke-*`), 4px 간격, 타이포·라운드·모션 토큰을 사용하고, 공통 스타일은 `ui.css`, 컨테이너와 여백은 `layout.css`에 둬요. 도구 페이지는 `tool-container`(1240px), 상세·날짜 허브는 `article-shell`(1040px)을 사용해요.
+
+| UI 컴포넌트 | 사용할 때 |
+| --- | --- |
+| `PageHero` / `SectionHeader` | 페이지 소개 / 섹션 제목. 읽기 페이지 히어로는 `compact` |
+| `UiButton` | 실행·이동 액션. `neutral`은 기본, `brand`는 핵심 액션, `outline`·`weak`·`ghost`는 보조 액션 |
+| `ListGroup` / `ListRow` | 구분선이 있는 목록·이동·선택 행. 제목·설명·앞뒤 요소는 슬롯으로 구성 |
+| `SegmentedControl` | 2–4개 중 하나를 고르는 동등한 보기 전환. 화면당 하나 |
+| `ChipGroup` / `UiChip` | 주제·필터 선택. `scrollable`은 가로 목록, 기본은 줄바꿈. `to`는 이동, `static`은 범례·태그 |
+| `FieldShell` | 입력의 레이블·도움말·오류를 함께 표시 |
+| `ResultState` / `SkeletonRows` | 빈 결과·오류·404 / 목록·카드 로딩. 404는 `large`와 `level=1` |
+| `PromoCard` | 다음 발견으로 이어지는 교차 링크 |
+
+생일·우리의 날은 `components/discovery/*`를, 날짜 허브의 이야기는 홈의 `TodayStoryCard`를 재사용해요. 별도의 버튼·리스트 변형을 만들지 않아요.
+
+눌림은 `basis = max(높이, 폭/4, 24)`, `scale = (basis-2)/basis`에 가까운 토큰으로 표현해요. 버튼 S/M/L은 .945/.955/.962, 칩은 .94, 카드는 .985이며 리스트는 콘텐츠만 줄여요. reduced-motion에서는 축소 없이 색 변화만 사용해요. 타깃은 44px 이상, 키보드 포커스는 `:focus-visible`로 표시해요.
+
+버건디 단색 배경은 화면당 핵심 액션 또는 순간 하나에만 사용해요(예: 상세의 공유, 연동의 내려받기, 달력의 오늘). 나머지 강조는 글자색·약한 배경·구분선으로 표현해요. 홈의 기존 아트와 `ShareCard.vue` 이미지 렌더링은 유지해요. 모바일 공유 모달은 760px 이하에서 안전영역을 포함한 바텀시트로 표시해요.

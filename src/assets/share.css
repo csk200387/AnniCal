@@ -1,0 +1,30 @@
+.share-backdrop { position: fixed; inset: 0; z-index: 100; display: flex; align-items: center; justify-content: center; padding: var(--space-6) var(--space-4); background: color-mix(in srgb, var(--color-ink-900) 55%, transparent); backdrop-filter: blur(4px); }
+.share-dialog { display: flex; flex-direction: column; gap: var(--space-6); width: 100%; max-width: 576px; max-height: calc(100dvh - 48px); overflow-y: auto; overscroll-behavior: contain; padding: var(--space-8); border: 1px solid var(--stroke-weak); border-radius: var(--radius-xl); background: var(--bg-surface); box-shadow: 0 30px 80px color-mix(in srgb, var(--fg-neutral) 25%, transparent); }
+.share-dialog > * { flex-shrink: 0; }
+.share-dialog:focus { outline: none; }
+.share-close { min-width: 44px; padding: var(--space-2); font-size: var(--text-t9); }
+.share-handle { display: none; }
+.share-actions { display: flex; flex-direction: column; gap: var(--space-2); }
+.share-actions-secondary { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-2); }
+.share-download { position: relative; isolation: isolate; overflow: hidden; }
+.share-progress { position: absolute; inset: 0 auto 0 0; background: var(--color-paper-300); transition: width var(--dur-base) var(--ease-out); }
+.share-download-label { position: relative; z-index: 1; }
+.share-dialog-enter-active,.share-dialog-leave-active { transition: opacity var(--dur-base) var(--ease-out); }
+.share-dialog-enter-active .share-dialog,.share-dialog-leave-active .share-dialog { transition: transform var(--dur-base) var(--ease-out); }
+.share-dialog-enter-from,.share-dialog-leave-to { opacity: 0; }
+.share-dialog-enter-from .share-dialog,.share-dialog-leave-to .share-dialog { transform: translateY(16px); }
+@media (max-width: 760px) {
+  .share-backdrop { align-items: end; padding: 0; }
+  .share-dialog { max-width: 100%; max-height: 90dvh; padding: var(--space-3) var(--space-6) calc(var(--space-6) + env(safe-area-inset-bottom, 0px)); border-bottom: 0; border-radius: var(--radius-xl) var(--radius-xl) 0 0; gap: var(--space-5); }
+  .share-handle { display: block; align-self: center; width: 40px; height: 4px; border-radius: var(--radius-full); background: var(--stroke-strong); }
+  .share-dialog-enter-from .share-dialog,.share-dialog-leave-to .share-dialog { transform: translateY(100%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .share-dialog-enter-active,.share-dialog-leave-active,.share-dialog-enter-active .share-dialog,.share-dialog-leave-active .share-dialog,.share-progress { transition: none; }
+  .share-dialog-enter-from .share-dialog,.share-dialog-leave-to .share-dialog { transform: none; }
+}
+
+.share-download .share-download-label { font-size: inherit; line-height: inherit; }
+.share-download .share-progress { transition: width var(--dur-base) var(--ease-out); }
+.share-download[aria-busy="true"] { opacity: 1; cursor: wait; }
+@media (prefers-reduced-motion: reduce) { .share-download .share-progress { transition: none; } }

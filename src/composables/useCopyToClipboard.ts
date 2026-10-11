@@ -16,10 +16,12 @@ async function writeClipboard(text: string): Promise<boolean> {
   ta.value = value
   ta.setAttribute('readonly', '')
   ta.style.cssText = 'position:fixed;top:0;left:-9999px;opacity:0'
-  document.body.appendChild(ta)
+  const previousFocus = document.activeElement as HTMLElement | null
+  const container = previousFocus?.closest('[role="dialog"]') ?? document.body
+  container.appendChild(ta)
   ta.select()
   ta.setSelectionRange(0, value.length)
-  try { return document.execCommand('copy') } catch { return false } finally { ta.remove() }
+  try { return document.execCommand('copy') } catch { return false } finally { ta.remove(); previousFocus?.focus({ preventScroll: true }) }
 }
 
 /**

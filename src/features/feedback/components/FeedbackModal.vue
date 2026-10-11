@@ -1,7 +1,12 @@
 <script setup lang="ts">
 import '@/assets/feedback.css'
-import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
+import { computed, ref } from 'vue'
 import type { Anniversary } from '@/types/anniversary'
+
+import { useModalFocus } from '@/composables/modalFocus'
+const dialog = ref<HTMLElement | null>(null)
+const open = ref(true)
+useModalFocus(open, dialog, close)
 
 const props = defineProps<{ anniversary: Anniversary }>()
 const emit = defineEmits<{ close: [] }>()
@@ -15,7 +20,6 @@ const reference = ref<number | null>(null)
 const canSubmit = computed(() => message.value.trim().length >= 20 && state.value !== 'sending')
 
 function close() { emit('close') }
-function onKeydown(event: KeyboardEvent) { if (event.key === 'Escape') close() }
 
 async function submit() {
   if (!canSubmit.value) return
@@ -45,20 +49,12 @@ async function submit() {
   }
 }
 
-onMounted(() => {
-  document.body.style.overflow = 'hidden'
-  window.addEventListener('keydown', onKeydown)
-})
-onBeforeUnmount(() => {
-  document.body.style.overflow = ''
-  window.removeEventListener('keydown', onKeydown)
-})
 </script>
 
 <template>
   <Teleport to="body">
     <div class="feedback-backdrop" @mousedown.self="close">
-      <section role="dialog" aria-modal="true" aria-labelledby="feedback-title" class="feedback-modal">
+      <section ref="dialog" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="feedback-title" class="feedback-modal">
         <button type="button" class="feedback-close" aria-label="닫기" @click="close">×</button>
 
         <template v-if="state === 'success'">

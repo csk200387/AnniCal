@@ -6,6 +6,10 @@ import { SITE_URL } from '@/seo/meta'
 import ShareCard from './ShareCard.vue'
 import { togetherPath } from '@/features/together/milestones'
 import { birthdayPath } from '@/features/birthday/birthday'
+import UiButton from '@/components/ui/UiButton.vue'
+import { useCopyToClipboard } from '@/composables/useCopyToClipboard'
+import { useModalFocus } from '@/composables/modalFocus'
+import '@/assets/share.css'
 import { shareMessageFor } from '@/utils/sharePost'
 
 // html-to-image 는 이미지를 만들 때만 필요하다. 모달을 열어 링크만 공유하는
@@ -55,6 +59,14 @@ const cardRootRef = ref<HTMLElement | null>(null)
 // 미리보기 폭 측정용 풀폭 래퍼 — 스케일 계산 기준.
 const previewWrapRef = ref<HTMLElement | null>(null)
 const dialogRef = useTemplateRef<HTMLDivElement>('dialogRef')
+
+useModalFocus(isOpen, dialogRef, close)
+const { copied, copy } = useCopyToClipboard()
+async function copyLink() {
+  if (!shareUrl.value) return
+  const success = await copy(shareUrl.value)
+  errorMsg.value = success ? null : '링크를 복사하지 못했어요. 잠시 후 다시 시도해 주세요.'
+}
 
 const isGenerating = ref(false)
 const generationProgress = ref(0)
@@ -216,7 +228,6 @@ watch(
   isOpen,
   (open) => {
     if (open) {
-      document.body.style.overflow = 'hidden'
       // 모달 DOM 이 그려진 뒤에 측정/관찰해야 clientWidth 가 유효하다.
       nextTick(() => {
         dialogRef.value?.focus()
@@ -226,7 +237,6 @@ watch(
         // warmUpImage() 가 맡는다(위 주석 참고).
       })
     } else {
-      document.body.style.overflow = ''
       unobservePreview()
       errorMsg.value = null
     }
@@ -237,7 +247,6 @@ watch(
 )
 
 onBeforeUnmount(() => {
-  document.body.style.overflow = ''
   unobservePreview()
   resetGenerationProgress()
 })
@@ -248,10 +257,6 @@ function close() {
 
 function onBackdropClick(e: MouseEvent) {
   if (e.target === e.currentTarget) close()
-}
-
-function onKeydown(e: KeyboardEvent) {
-  if (e.key === 'Escape') close()
 }
 
 async function generatePng(): Promise<string | null> {
@@ -314,44 +319,19 @@ async function handleDownload() {
 
 <template>
   <Teleport to="body">
-    <Transition
-      enter-active-class="transition duration-300"
-      enter-from-class="opacity-0"
-      enter-to-class="opacity-100"
-      leave-active-class="transition duration-200"
-      leave-from-class="opacity-100"
-      leave-to-class="opacity-0"
-    >
-      <div
-        v-if="isOpen && anniversary"
-        ref="dialogRef"
-        tabindex="-1"
-        role="dialog"
-        aria-modal="true"
-        aria-label="기념일 공유"
-        class="fixed inset-0 z-50 flex items-start justify-center overflow-y-auto bg-ink-900/55 px-4 py-8 backdrop-blur-sm focus:outline-none"
-        @click="onBackdropClick"
-        @keydown="onKeydown"
-      >
-        <div
-          class="home-page relative my-auto flex w-full max-w-xl flex-col gap-6 rounded-3xl border border-rule bg-paper-50 px-6 py-7 shadow-[0_30px_80px_-30px_rgba(10,9,8,0.5)] sm:px-8 sm:py-9"
-        >
+    <Transition name="share-dialog">
+      <div v-if="isOpen && anniversary" class="share-backdrop" @click="onBackdropClick">
+        <div ref="dialogRef" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="share-title" class="home-page share-dialog">
+          <span class="share-handle" aria-hidden="true" />
           <!-- 헤더 -->
           <header class="flex items-start justify-between gap-4">
             <div>
               <p class="section-kicker"><span /> SHARE</p>
-              <h2 class="mt-3 text-2xl font-semibold tracking-[-0.05em] text-ink-700">
+              <h2 id="share-title" class="mt-3 text-2xl font-semibold tracking-[-0.05em] text-ink-700">
                 {{ together ? '우리의 발견' : birthday ? '내 생일의 발견' : '공유하기' }}<span class="heading-dot">.</span>
               </h2>
             </div>
-            <button
-              type="button"
-              class="round-icon-button text-lg leading-none"
-              aria-label="닫기"
-              @click="close"
-            >
-              ×
-            </button>
+            <UiButton variant="ghost" size="s" class="share-close" aria-label="닫기" @click="close">×</UiButton>
           </header>
 
           <!-- 미리보기 -->
@@ -383,44 +363,17 @@ async function handleDownload() {
             </div>
           </div>
 
-          <!-- 이미지 저장은 하나의 버튼으로 제공한다. -->
-          <div class="flex flex-col gap-3">
-            <button
-              type="button"
-              class="relative isolate flex-1 overflow-hidden rounded-full px-5 py-3.5 text-xs font-medium transition disabled:cursor-wait"
-              :class="isGenerating
-                ? 'border border-rule bg-paper-50 text-ink-700'
-                : 'bg-ink-700 text-paper-50 hover:bg-ink-600'"
-              :disabled="isGenerating"
-              :aria-busy="isGenerating"
-              @pointerenter="warmUpImage"
-              @focus="warmUpImage"
-              @click="handleDownload"
-            >
-              <span
-                v-if="isGenerating"
-                class="absolute inset-y-0 left-0 bg-ink-700 transition-[width] duration-300 ease-out"
-                :style="{ width: `${generationProgress}%` }"
-                aria-hidden="true"
-              />
-              <span
-                class="relative z-10"
-                :class="isGenerating ? 'text-white mix-blend-difference' : ''"
-              >
-                <template v-if="isGenerating">만드는 중 · {{ Math.round(generationProgress) }}%</template>
-                <template v-else>이미지 다운로드 ↓</template>
-              </span>
-            </button>
-            <button
-              type="button"
-              class="flex min-h-12 items-center justify-center gap-2 rounded-full bg-accent-600 px-5 py-3 text-sm font-medium text-paper-50 transition hover:bg-accent-700 disabled:cursor-wait disabled:opacity-40"
-              :disabled="!shareUrl || isSharing"
-              :aria-busy="isSharing"
-              @click="handleAppShare"
-            >
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15V3m-4 4 4-4 4 4M5 12v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-8" /></svg>
-              공유하기
-            </button>
+          <div class="share-actions">
+            <!-- SEED 위계: 핵심 액션 하나만 brand 단색, 보조 액션 둘은 weak 로 나란히. -->
+            <UiButton block variant="brand" :disabled="!shareUrl || isSharing" :loading="isSharing" icon="arrow" @click="handleAppShare">공유하기</UiButton>
+            <div class="share-actions-secondary">
+              <UiButton block class="share-download" variant="weak" :disabled="isGenerating" :aria-busy="isGenerating" @pointerenter="warmUpImage" @focus="warmUpImage" @click="handleDownload">
+                <span v-if="isGenerating" class="share-progress" :style="{ width: `${generationProgress}%` }" aria-hidden="true" />
+                <span class="share-download-label">{{ isGenerating ? `만드는 중 · ${Math.round(generationProgress)}%` : '이미지 저장 ↓' }}</span>
+              </UiButton>
+              <UiButton block variant="weak" :disabled="!shareUrl" @click="copyLink">{{ copied ? '복사했어요' : '링크 복사' }}</UiButton>
+            </div>
+            <p class="sr-only" role="status">{{ copied ? '공유 링크를 복사했어요.' : '' }}</p>
           </div>
 
           <p

@@ -11,6 +11,17 @@ import { applyAnniversaryMeta, applyNotFoundMeta } from '@/seo/head'
 import { useShareStore } from '@/stores/share'
 import { useStatsStore } from '@/stores/stats'
 
+import PageHero from '@/components/ui/PageHero.vue'
+import SectionHeader from '@/components/ui/SectionHeader.vue'
+import UiButton from '@/components/ui/UiButton.vue'
+import PromoCard from '@/components/ui/PromoCard.vue'
+import ChipGroup from '@/components/ui/ChipGroup.vue'
+import UiChip from '@/components/ui/UiChip.vue'
+import ListGroup from '@/components/ui/ListGroup.vue'
+import ListRow from '@/components/ui/ListRow.vue'
+import ResultState from '@/components/ui/ResultState.vue'
+import SkeletonRows from '@/components/ui/SkeletonRows.vue'
+
 const FeedbackModal = defineAsyncComponent(() => import('@/features/feedback/components/FeedbackModal.vue'))
 
 const route = useRoute()
@@ -76,105 +87,35 @@ watch(
 </script>
 
 <template>
-  <div class="home-page">
-    <div class="article-shell">
-      <!-- 빵부스러기: 날짜 허브로 올라가는 내부 링크 -->
-      <nav aria-label="위치" class="crumbs">
-        <RouterLink to="/">홈</RouterLink>
-        <span aria-hidden="true">/</span>
-        <RouterLink :to="datePath(hubDate)">{{ dateLabel }}</RouterLink>
-      </nav>
-
-      <p v-if="state === 'not-found'" class="page-state">
-        찾을 수 없는 기념일이에요.
-        <RouterLink to="/calendar">달력에서 찾아보기</RouterLink>
-      </p>
-
-      <!-- 데이터를 못 받아온 것과 기념일이 없는 것은 다르다. 재시도할 수 있게 한다. -->
-      <div v-else-if="state === 'error'" class="page-state">
-        <p>기념일을 불러오지 못했어요.</p>
-        <p v-if="error">{{ error }}</p>
-        <button type="button" class="home-button home-button--dark" @click="retry">다시 시도 <span aria-hidden="true">↻</span></button>
-      </div>
-
-      <!-- 로딩 중에는 아무것도 그리지 않는다. 프리렌더된 정적 본문을 지우고
-           빈 화면이나 "찾을 수 없음"을 잠깐 보여주면 크롤러가 그걸 볼 수 있다. -->
-      <p v-else-if="state === 'loading'" class="page-state">불러오는 중…</p>
-
-      <!-- prerender 테스트가 여는 태그를 문자열로 확인한다 — 속성을 붙이지 말 것. -->
+  <div class="home-page detail-page">
+    <div class="article-shell tool-container">
+      <nav aria-label="위치" class="crumbs"><RouterLink to="/">홈</RouterLink><span aria-hidden="true">/</span><RouterLink :to="datePath(hubDate)">{{ dateLabel }}</RouterLink></nav>
+      <ResultState v-if="state === 'not-found'" title="찾을 수 없는 기념일이에요" asset="✳" large :level="1"><template #actions><UiButton to="/calendar" icon="next">달력에서 찾아보기</UiButton></template></ResultState>
+      <ResultState v-else-if="state === 'error'" tone="error" title="기념일을 불러오지 못했어요" :description="error ?? undefined"><template #actions><UiButton icon="retry" @click="retry">다시 시도</UiButton></template></ResultState>
+      <SkeletonRows v-else-if="state === 'loading'" :rows="3" label="기념일을 불러오는 중이에요" />
       <article v-else-if="anniversary">
-        <header class="article-hero">
-          <div class="article-meta">
-            <i :class="accentDot" aria-hidden="true" />
-            <CategoryBadge :category-id="anniversary.category" />
-            <span class="meta-divider" aria-hidden="true" />
-            <span>{{ dateLabel }}</span>
+        <PageHero variant="compact" title-id="detail-title" :title="anniversary.name">
+          <template #topline><div class="article-meta"><i :class="accentDot" aria-hidden="true" /><CategoryBadge :category-id="anniversary.category" /><span class="meta-divider" aria-hidden="true" /><span>{{ dateLabel }}</span></div></template>
+          <p v-if="dateDrifts" class="article-drift">매년 날짜가 바뀌는 기념일이에요. <strong>올해는 {{ actualDateLabel }}</strong>입니다.</p>
+          <template v-if="detailStats" #footer><div class="article-stats" aria-label="기념일 관심도 통계"><span>누적 <strong>{{ number.format(detailStats.views) }}</strong>회 읽음</span><span v-if="detailStats.rank">누적 관심도 <strong class="heading-dot">{{ number.format(detailStats.rank) }}위</strong></span></div></template>
+        </PageHero>
+        <div class="article-layout tool-section">
+          <div class="article-body">
+            <section v-if="anniversary.storytelling.origin?.trim()" aria-labelledby="origin-title"><SectionHeader kicker="ORIGIN" title="유래" title-id="origin-title" /><p>{{ anniversary.storytelling.origin }}</p></section>
+            <section v-if="anniversary.storytelling.anecdote?.trim()" aria-labelledby="anecdote-title"><SectionHeader kicker="A LITTLE MORE TO KNOW" title="이야깃거리" title-id="anecdote-title" /><p>{{ anniversary.storytelling.anecdote }}</p></section>
+            <section v-if="anniversary.memes.length" class="article-quotes" aria-label="이날에 어울리는 한마디"><blockquote v-for="(meme, idx) in anniversary.memes" :key="idx">&ldquo;{{ meme.caption }}&rdquo;</blockquote></section>
+            <ChipGroup v-if="anniversary.tags.length" class="article-tags" label="이야기의 주제"><UiChip v-for="tag in anniversary.tags" :key="tag" static>{{ tag }}</UiChip></ChipGroup>
+            <p v-if="isExternalUrl(anniversary.sourceUrl)" class="article-source">출처 <a :href="anniversary.sourceUrl!" target="_blank" :rel="EXTERNAL_LINK_REL">{{ sourceHost(anniversary.sourceUrl) }}</a></p>
           </div>
-
-          <h1>{{ anniversary.name }}</h1>
-
-          <!-- 'N번째 O요일'·음력처럼 매년 날짜가 움직이는 기념일 안내 -->
-          <p v-if="dateDrifts" class="article-drift">
-            매년 날짜가 바뀌는 기념일이에요. <strong>올해는 {{ actualDateLabel }}</strong>입니다.
-          </p>
-
-          <div v-if="detailStats" class="article-stats" aria-label="기념일 관심도 통계">
-            <span>누적 <strong>{{ number.format(detailStats.views) }}</strong>회 읽음</span>
-            <span v-if="detailStats.rank" class="meta-divider" aria-hidden="true" />
-            <span v-if="detailStats.rank">누적 관심도 <strong class="accent">{{ number.format(detailStats.rank) }}위</strong></span>
-          </div>
-        </header>
-
-        <section class="article-body">
-          <div v-if="anniversary.storytelling.origin?.trim()">
-            <h2>유래</h2>
-            <p>{{ anniversary.storytelling.origin }}</p>
-          </div>
-          <div v-if="anniversary.storytelling.anecdote?.trim()">
-            <h2>이야깃거리</h2>
-            <p>{{ anniversary.storytelling.anecdote }}</p>
-          </div>
-        </section>
-
-        <section v-if="anniversary.memes.length" class="article-quotes">
-          <blockquote v-for="(meme, idx) in anniversary.memes" :key="idx">&ldquo;{{ meme.caption }}&rdquo;</blockquote>
-        </section>
-
-        <ul v-if="anniversary.tags.length" class="article-tags">
-          <li v-for="tag in anniversary.tags" :key="tag">{{ tag }}</li>
-        </ul>
-
-        <p v-if="isExternalUrl(anniversary.sourceUrl)" class="article-source">
-          출처
-          <a :href="anniversary.sourceUrl!" target="_blank" :rel="EXTERNAL_LINK_REL">{{ sourceHost(anniversary.sourceUrl) }}</a>
-        </p>
-
-        <div class="article-share">
-          <button type="button" class="home-button home-button--dark" @click="openShare">공유하기 <span aria-hidden="true">↗</span></button>
-          <button type="button" class="article-feedback-button" @click="feedbackOpen = true">정보 요청 <span aria-hidden="true">✎</span></button>
+          <aside class="article-aside" aria-label="이야기 공유와 다음 발견">
+            <section class="article-actions" aria-labelledby="article-actions-title"><h2 id="article-actions-title">이 이야기를 함께 나눠요<span class="heading-dot">.</span></h2><UiButton variant="brand" block icon="arrow" @click="openShare">공유하기</UiButton><UiButton variant="outline" block @click="feedbackOpen = true">정보 요청 <span aria-hidden="true">✎</span></UiButton></section>
+            <PromoCard kicker="YOUR DAY, YOUR STORY" title="이 날이 생일이라면?" :description="`${dateLabel}에 담긴 이야기를 생일 카드로 남겨보세요.`" :to="`/birthday?date=${hubDate}`" cta="내 생일의 이야기 보기" />
+            <section v-if="sameDay.length" class="article-section" aria-labelledby="same-day-title"><SectionHeader :level="3" :title="`${dateLabel}의 다른 기념일`" title-id="same-day-title" /><ListGroup as="ul" label="같은 날의 다른 기념일"><li v-for="a in sameDay" :key="a.id"><ListRow :to="pathForId(a.id) ?? '/'"><template #title>{{ a.name }}</template><template #suffix><span aria-hidden="true">→</span></template></ListRow></li></ListGroup></section>
+            <section v-if="related.length" class="article-section" aria-labelledby="related-title"><SectionHeader :level="3" title="비슷한 주제의 기념일" title-id="related-title" /><ChipGroup label="비슷한 주제의 기념일"><UiChip v-for="a in related" :key="a.id" :to="pathForId(a.id) ?? '/'">{{ a.name }}</UiChip></ChipGroup></section>
+          </aside>
         </div>
+        <div class="article-foot"><UiButton :to="datePath(hubDate)" variant="ghost" icon="arrow">{{ dateLabel }}은 무슨 날인지 전부 보기</UiButton></div>
       </article>
-
-      <!-- 같은 날의 다른 기념일 — 날짜 허브와 상세를 잇는 내부 링크 -->
-      <section v-if="sameDay.length" class="article-section">
-        <h2>{{ dateLabel }}의 다른 기념일</h2>
-        <ul class="article-list">
-          <li v-for="a in sameDay" :key="a.id">
-            <RouterLink :to="pathForId(a.id) ?? '/'">{{ a.name }}<span aria-hidden="true">→</span></RouterLink>
-          </li>
-        </ul>
-      </section>
-
-      <section v-if="related.length" class="article-section">
-        <h2>비슷한 주제의 기념일</h2>
-        <div class="article-related">
-          <RouterLink v-for="a in related" :key="a.id" :to="pathForId(a.id) ?? '/'">{{ a.name }}</RouterLink>
-        </div>
-      </section>
-
-      <div v-if="anniversary" class="article-foot">
-        <RouterLink :to="datePath(hubDate)">{{ dateLabel }}은 무슨 날인지 전부 보기 <span aria-hidden="true">↗</span></RouterLink>
-      </div>
     </div>
     <FeedbackModal v-if="feedbackOpen && anniversary" :anniversary="anniversary" @close="feedbackOpen = false" />
   </div>

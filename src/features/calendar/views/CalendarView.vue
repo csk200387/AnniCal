@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import '@/assets/calendar.css'
-import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
+import { computed, nextTick, onBeforeUnmount, onMounted, ref } from 'vue'
+import type { Dayjs } from 'dayjs'
 import { RouterLink } from 'vue-router'
 import { useMonthCalendar } from '../composables/useMonthCalendar'
 import CategoryBadge from '@/components/common/CategoryBadge.vue'
@@ -10,6 +11,26 @@ import { daysUntil, formatKoreanMonthDay } from '@/utils/dateUtils'
 import { primaryColorForTags } from '@/utils/tagPalette'
 import { pathFor } from '@/utils/anniversaryRoutes'
 
+import PageHero from '@/components/ui/PageHero.vue'
+import UiButton from '@/components/ui/UiButton.vue'
+import FieldShell from '@/components/ui/FieldShell.vue'
+import ChipGroup from '@/components/ui/ChipGroup.vue'
+import UiChip from '@/components/ui/UiChip.vue'
+import ResultState from '@/components/ui/ResultState.vue'
+import SkeletonRows from '@/components/ui/SkeletonRows.vue'
+
+const dayPanel = ref<HTMLElement | null>(null)
+const calendarRoot = ref<HTMLElement | null>(null)
+async function revealSelection() {
+  await nextTick()
+  if (window.matchMedia('(max-width: 760px)').matches) {
+    dayPanel.value?.scrollIntoView({ block: 'start', behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' })
+  }
+}
+function chooseDate(date: Dayjs, event: MouseEvent) {
+  selectDate(date)
+  if (event.detail > 0) void revealSelection()
+}
 const shareStore = useShareStore()
 const {
   cursor,
@@ -34,9 +55,12 @@ const {
 } = useMonthCalendar()
 
 const searchRootEl = ref<HTMLElement | null>(null)
-function goToAnniversary(anv: Anniversary) {
+async function goToAnniversary(anv: Anniversary, event: MouseEvent) {
   selectAnniversary(anv)
   searchQuery.value = ''
+  await nextTick()
+  calendarRoot.value?.querySelector<HTMLButtonElement>('.is-selected')?.focus({ preventScroll: true })
+  if (event.detail > 0) void revealSelection()
 }
 function resultDate(anv: Anniversary): string {
   return formatKoreanMonthDay(anv, cursor.value.year()) ?? ''
@@ -74,44 +98,36 @@ function handleShare(anv: Anniversary) {
 
 <template>
   <div class="home-page">
-    <div class="home-container">
-      <header class="page-hero" aria-labelledby="calendar-title">
-        <p class="section-kicker"><span /> CALENDAR ALMANAC · {{ cursor.year() }}</p>
-        <h1 id="calendar-title">{{ monthLabel }}<span class="heading-dot">,</span><br />어떤 날들이 있을까요<span class="heading-dot">?</span></h1>
-        <p class="page-hero-description">날짜를 고르면 그날의 기념일과 짧은 이야기가 같은 화면에 펼쳐져요.</p>
-        <div class="page-hero-stats">
-          <div><span>THIS MONTH</span><strong>{{ monthStoryCount }}<small>개의 이야기</small></strong></div>
-          <div><span>SELECTED</span><strong>{{ String(selectedDate.month() + 1).padStart(2, '0') }}.{{ String(selectedDate.date()).padStart(2, '0') }}</strong></div>
-        </div>
-        <span class="page-hero-spark" aria-hidden="true">✳</span>
-      </header>
+    <div class="tool-container">
+      <PageHero :kicker="`CALENDAR ALMANAC · ${cursor.year()}`" title-id="calendar-title" description="날짜를 고르면 그날의 기념일과 짧은 이야기가 같은 화면에 펼쳐져요.">
+        <template #title>{{ monthLabel }}<span class="heading-dot">,</span><br />어떤 날들이 있을까요<span class="heading-dot">?</span></template>
+        <template #footer><dl class="calendar-summary">
+          <div><dt>THIS MONTH</dt><dd>{{ monthStoryCount }}<small>개의 이야기</small></dd></div>
+          <div><dt>SELECTED</dt><dd>{{ selectedDate.format('MM.DD') }}</dd></div>
+        </dl></template>
+      </PageHero>
 
       <p v-if="outOfRangeNotice" class="page-note">{{ outOfRangeNotice }}</p>
-      <p v-if="error" class="page-note">
-        기념일을 불러오지 못했어요.
-        <button type="button" @click="retry">다시 시도</button>
-      </p>
+      <ResultState v-if="error" tone="error" title="기념일을 불러오지 못했어요" description="잠시 후 다시 시도해 주세요."><template #actions><UiButton icon="retry" @click="retry">다시 시도</UiButton></template></ResultState>
 
       <div class="calendar-toolbar">
         <div class="month-nav">
-          <button type="button" class="round-icon-button" aria-label="이전 달" :disabled="!canGoPrev" @click="goPrevMonth">‹</button>
+          <UiButton variant="ghost" size="s" aria-label="이전 달" :disabled="!canGoPrev" @click="goPrevMonth">‹</UiButton>
           <strong>{{ monthLabel }}</strong>
-          <button type="button" class="round-icon-button" aria-label="다음 달" :disabled="!canGoNext" @click="goNextMonth">›</button>
+          <UiButton variant="ghost" size="s" aria-label="다음 달" :disabled="!canGoNext" @click="goNextMonth">›</UiButton>
         </div>
-        <button type="button" class="today-button" @click="goToday">오늘로</button>
+        <UiButton size="s" @click="goToday">오늘로</UiButton>
 
         <div ref="searchRootEl" class="calendar-search">
-          <input
-            v-model="searchQuery"
-            type="search"
-            autocomplete="off"
-            placeholder="기념일 이름·태그 검색…"
-          />
-          <span aria-hidden="true">⌕</span>
-          <div v-if="searchQuery.trim()" class="search-results">
+          <FieldShell for="calendar-search" label="기념일 검색">
+            <input id="calendar-search" v-model="searchQuery" type="search" autocomplete="off"
+              placeholder="기념일 이름·태그 검색…" :aria-controls="searchQuery.trim() ? 'calendar-search-results' : undefined" @keydown.esc.stop="searchQuery = ''" />
+          </FieldShell>
+          <p class="sr-only" role="status">{{ searchQuery.trim() ? `검색 결과 ${searchResults.length}개` : '' }}</p>
+          <div v-if="searchQuery.trim()" id="calendar-search-results" class="search-results" role="region" aria-label="기념일 검색 결과">
             <ul v-if="searchResults.length">
               <li v-for="anv in searchResults" :key="anv.id">
-                <button type="button" @click="goToAnniversary(anv)">
+                <button type="button" @click="goToAnniversary(anv, $event)">
                   <span>{{ anv.name }}</span><span>{{ resultDate(anv) }}</span>
                 </button>
               </li>
@@ -121,10 +137,10 @@ function handleShare(anv: Anniversary) {
         </div>
       </div>
 
-      <p v-if="isLoading" class="page-note">기념일을 불러오는 중…</p>
+      <SkeletonRows v-if="isLoading && !error" :rows="3" variant="card" label="기념일을 불러오는 중이에요" />
       <template v-else-if="!error">
         <div class="calendar-layout">
-          <section class="month-card" aria-label="월간 달력">
+          <section ref="calendarRoot" class="month-card" aria-label="월간 달력">
             <div class="month-weekdays">
               <span v-for="label in weekdayLabels" :key="label">{{ label }}</span>
             </div>
@@ -140,7 +156,10 @@ function handleShare(anv: Anniversary) {
                   'is-outside': !cell.isCurrentMonth,
                 }"
                 :disabled="!isMonthInRange(cell.date)"
-                @click="selectDate(cell.date)"
+                :aria-label="`${cell.date.format('YYYY년 M월 D일')} · 기념일 ${cell.anniversaries.length}개`"
+                :aria-pressed="selectedDate.isSame(cell.date, 'day')"
+                :aria-current="cell.isToday ? 'date' : undefined"
+                @click="chooseDate(cell.date, $event)"
               >
                 <time :datetime="cell.date.format('YYYY-MM-DD')">{{ cell.date.date() }}</time>
                 <template v-if="cell.anniversaries.length">
@@ -160,7 +179,7 @@ function handleShare(anv: Anniversary) {
             </div>
           </section>
 
-          <aside class="day-panel" aria-labelledby="selected-date-heading">
+          <aside ref="dayPanel" class="day-panel" aria-labelledby="selected-date-heading">
             <div class="day-panel-head">
               <p class="section-kicker"><span /> SELECTED DATE</p>
               <div class="day-panel-date">
@@ -171,7 +190,7 @@ function handleShare(anv: Anniversary) {
             </div>
 
             <div class="day-panel-body">
-              <div class="day-panel-title">
+              <div class="day-panel-title" aria-live="polite" aria-atomic="true">
                 <h2 id="selected-date-heading">{{ selectedHumanDate }}</h2>
                 <span>{{ selectedAnniversaries.length }}개</span>
               </div>
@@ -181,21 +200,21 @@ function handleShare(anv: Anniversary) {
                   <RouterLink v-if="pathFor(anv)" :to="pathFor(anv)!">{{ anv.name }}</RouterLink>
                   <h3 v-else>{{ anv.name }}</h3>
                   <p>{{ anv.storytelling.origin }}</p>
-                  <button type="button" class="panel-share" @click="handleShare(anv)">공유하기 <span aria-hidden="true">↗</span></button>
+                  <UiButton variant="ghost" size="s" icon="arrow" @click="handleShare(anv)">공유하기</UiButton>
                 </li>
               </ol>
-              <p v-else class="day-panel-empty">이 날엔 등록된 기념일이 없어요.</p>
+              <ResultState v-else title="이 날엔 등록된 기념일이 없어요" />
             </div>
           </aside>
         </div>
 
-        <div class="calendar-legend">
-          <span><i class="bg-amber-700" />음식 &amp; 디저트</span>
-          <span><i class="bg-fuchsia-700" />문화 &amp; 예술</span>
-          <span><i class="bg-sky-700" />국제 캠페인</span>
-          <span><i class="bg-emerald-700" />동물 &amp; 자연</span>
-          <span><i class="bg-rose-700" />역사 &amp; 공휴일</span>
-        </div>
+        <ChipGroup class="calendar-legend" label="달력 색상 범례">
+          <UiChip static><i class="bg-amber-700" aria-hidden="true" />음식 &amp; 디저트</UiChip>
+          <UiChip static><i class="bg-fuchsia-700" aria-hidden="true" />문화 &amp; 예술</UiChip>
+          <UiChip static><i class="bg-sky-700" aria-hidden="true" />국제 캠페인</UiChip>
+          <UiChip static><i class="bg-emerald-700" aria-hidden="true" />동물 &amp; 자연</UiChip>
+          <UiChip static><i class="bg-rose-700" aria-hidden="true" />역사 &amp; 공휴일</UiChip>
+        </ChipGroup>
       </template>
     </div>
   </div>

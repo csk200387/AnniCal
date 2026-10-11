@@ -12,6 +12,7 @@ const props = defineProps<{
   anniversary: Anniversary
   index: number
   dateLabel: string
+  selectionLabel?: string
 }>()
 defineEmits<{ (e: 'share', anniversary: Anniversary): void }>()
 const store = useAnniversariesStore()
@@ -31,7 +32,7 @@ const displayName = computed(() => props.anniversary.name.replace(/\s+\([A-Za-z]
     <div class="story-body">
       <div class="story-meta">
         <span>{{ category?.label ?? '기념일' }}</span>
-        <span v-if="index === 0" class="story-selection">오늘의 첫 이야기</span>
+        <span v-if="index === 0" class="story-selection">{{ selectionLabel ?? '오늘의 첫 이야기' }}</span>
       </div>
       <h3>
         <RouterLink v-if="path" :to="path" :aria-label="anniversary.name">{{ displayName }}</RouterLink>

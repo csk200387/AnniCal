@@ -19,22 +19,18 @@
   .home-page .hero-underline path { stroke-dashoffset: 0; }
   .home-page .reveal-pending { opacity: 1; transform: none; }
 }
-.article-shell { max-width: 800px; margin: 0 auto; padding: 30px 24px 0; }
 .crumbs { display: flex; align-items: center; gap: 9px; font-size: 11px; letter-spacing: .04em; color: var(--color-ink-400); }
 .crumbs a:hover { color: var(--color-accent-600); }
 .crumbs > span[aria-hidden] { opacity: .45; }
-.article-shell .home-empty { margin-top: 44px; }
-@media (max-width: 640px) {
-  .article-shell { padding: 18px 20px 0; }
-}
 
 /* Tool pages use the same paper shell, with their own responsive content gutter. */
 .tool-container { width: 100%; max-width: 1240px; margin-inline: auto; padding: var(--nav-to-title) var(--gutter) 0; }
+.article-shell.tool-container { max-width: 1040px; padding-bottom: var(--space-8); }
 .tool-container .crumbs a { display: inline-flex; align-items: center; min-height: 44px; }
 .tool-section { margin-top: var(--section-gap); scroll-margin-top: 120px; }
 .tool-cross-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-6); margin-top: var(--section-gap); }
 @media (max-width: 760px) {
-  .tool-container { padding-bottom: var(--space-8); }
+  .tool-container, .article-shell.tool-container { padding-bottom: calc(100px + env(safe-area-inset-bottom, 0px)); }
   .tool-section { scroll-margin-top: 96px; }
   .tool-cross-links { grid-template-columns: minmax(0, 1fr); gap: var(--space-4); }
 }
