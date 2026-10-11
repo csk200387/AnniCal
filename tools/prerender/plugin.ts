@@ -178,9 +178,13 @@ export function prerender(): Plugin {
         if (page !== 'home') {
           html = html.replace('<div id="app"></div>', `<div id="app"><h1>${esc(meta.title)}</h1><p>${esc(meta.description)}</p><nav><a href="/calendar">기념일 달력</a> · <a href="/birthday">내 생일은?</a> · <a href="/together">우리의 날</a></nav></div>`)
         }
-        const dir = page === 'home' ? outDir : join(outDir, page)
-        mkdirSync(dir, { recursive: true })
-        writeFileSync(join(dir, 'index.html'), html, 'utf-8')
+        // Vercel 은 rewrite 전에 파일시스템을 확인하므로 공유 경로에 파일을 두면
+        // 봇 UA rewrite 가 실행되지 않는다. 일반 요청만 /_pages HTML 로 rewrite 한다.
+        const file = page === 'birthday' || page === 'together'
+          ? join(outDir, '_pages', `${page}.html`)
+          : join(outDir, page === 'home' ? '' : page, 'index.html')
+        mkdirSync(dirname(file), { recursive: true })
+        writeFileSync(file, html, 'utf-8')
       }
 
       const byDate = new Map<string, Anniversary[]>()

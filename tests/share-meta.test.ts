@@ -18,6 +18,34 @@ function call(method: string, url: string, headers: Record<string, string> = {})
 }
 
 describe('공유 미리보기 봇 allowlist', () => {
+  it('봇 rewrite 둘 다음에 일반 HTML 폴백 둘을 두고 경로를 가리는 rewrite가 없다', () => {
+    const pages = ['birthday', 'together']
+    expect(config.rewrites.slice(0, 4)).toEqual([
+      ...pages.map(page => ({
+        source: `/${page}`,
+        has: [{ type: 'header', key: 'user-agent', value: PREVIEW_BOT_PATTERN }],
+        destination: `/api/share-meta?page=${page}`,
+      })),
+      ...pages.map(page => ({ source: `/${page}`, destination: `/_pages/${page}.html` })),
+    ])
+    // 뒤에는 별도 prefix 의 기존 bot-protection 규칙만 허용한다. catch-all 금지.
+    expect(config.rewrites.slice(4)).toEqual([
+      {
+        source: '/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/a-4-a/c.js',
+        destination: 'https://api.vercel.com/bot-protection/v1/challenge',
+      },
+      {
+        source: '/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/:path*',
+        destination: 'https://api.vercel.com/bot-protection/v1/proxy/:path*',
+      },
+    ])
+  })
+
+  it('내부 HTML 응답에는 X-Robots-Tag: noindex를 붙인다', () => {
+    const rule = config.headers.find(r => r.source === '/_pages/(.*)')
+    expect(rule?.headers).toContainEqual({ key: 'X-Robots-Tag', value: 'noindex' })
+  })
+
   it('Vercel rewrite와 원본이 같고 검색 크롤러는 대상에서 제외한다', () => {
     for (const page of ['birthday', 'together']) {
       const rule = config.rewrites.find(r => r.source === `/${page}`)!

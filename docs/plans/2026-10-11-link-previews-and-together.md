@@ -150,6 +150,7 @@
 
 ## 구현 메모
 
+- Vercel은 rewrites보다 파일시스템을 먼저 확인하므로 생일·함께 HTML을 `dist/_pages/{birthday,together}.html`로 옮기고 봇 rewrite 뒤 일반 요청 폴백을 둔다(`/_pages/*`는 noindex·사이트맵 제외).
 - 후속 폴리시에서 `/api/og`의 `v`는 `/^[0-9a-z]{1,8}$/` 형식만 검사한다(잘못된 형식은 400).
   구버전 HTML도 이미지를 받을 수 있고, 메모리 키·렌더는 현재 `OG_VERSION`으로 정규화한다.
   디자인·폰트 변경에 맞춰 버전을 2로 올렸다.

@@ -84,6 +84,7 @@ https://www.annical.me
 상세 경로는 `src/data/routes.json`이 관리하며 `npm run check:slugs`로 데이터와의 일치 여부를 검사한다. `annual-nth-weekday`처럼 실제 날짜가 해마다 달라지는 기념일도 검색 색인을 유지하도록 URL의 `:date`는 기준 연도(2026년) 값으로 고정한다. 화면에 표시되는 날짜와 날짜 허브 소속은 현재 연도의 실제 발생일을 계산해 사용한다.
 
 빌드 시 날짜 허브 366개와 기념일 상세 1,734개를 정적 HTML로 만들고 사이트맵에도 포함한다. `/calendar`·`/export`·`/popular`·`/birthday`·`/together`도 전용 정적 HTML을 생성한다. 미리보기 봇의 생일·우리의 날 요청만 `/api/share-meta`로 rewrite하며, 등록되지 않은 경로는 `404.html`로 응답한다.
+Vercel은 rewrites보다 파일시스템을 먼저 확인하므로 생일·우리의 날 HTML은 `dist/_pages/{birthday,together}.html`에 저장하고, 봇 rewrite 뒤 일반 요청을 해당 파일로 연결한다(`/_pages/*`는 noindex·사이트맵 제외; 로컬 dev/preview는 SPA 폴백).
 
 ## OG 이미지·공유 메타 구조
 

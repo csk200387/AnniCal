@@ -3,6 +3,7 @@ import { describe, expect, it } from 'vitest'
 import { readFileSync, existsSync } from 'node:fs'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { resolveConfig } from 'vite'
 import { safeJsonLd } from '@/seo/meta'
 import { shiftUrlDate, ORDINAL_DATES, displayDateFor, DISPLAY_YEAR } from '../tools/prerender/routes'
 import { registerAnchors } from '@/utils/dateUtils'
@@ -10,6 +11,15 @@ import type { Anniversary } from '@/types/anniversary'
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
 const DIST = join(ROOT, 'dist')
+
+it('로컬 dev/preview는 /birthday 라우트를 SPA 폴백으로 제공한다 (서버 실행 없이 검사)', async () => {
+  // dev 와 preview 는 모두 serve 설정의 appType 으로 HTML 폴백을 결정한다.
+  const config = await resolveConfig({ root: ROOT }, 'serve')
+  expect(config.appType).toBe('spa')
+  expect(config.plugins.some((p) => p.name === 'annical-prerender')).toBe(false)
+  expect(readFileSync(join(ROOT, 'index.html'), 'utf-8')).toContain('<div id="app"></div>')
+  expect(readFileSync(join(ROOT, 'src/router/index.ts'), 'utf-8')).toContain("path: '/birthday'")
+})
 
 describe('JSON-LD 직렬화', () => {
   it('</script> 로 script 요소를 닫을 수 없다', () => {
@@ -114,14 +124,36 @@ describe.runIf(existsSync(join(DIST, 'index.html')))('빌드 산출물', () => {
     expect(html).not.toContain('rel="canonical"')
   })
 
+  it('공유 경로를 가리는 파일이 없고 내부 HTML만 존재한다', () => {
+    for (const page of ['birthday', 'together']) {
+      // 디렉터리 index 외에도 clean URL 과 일치할 수 있는 파일을 모두 검사한다.
+      for (const path of [page, `${page}.html`, `${page}/index.html`]) {
+        expect(existsSync(join(DIST, path)), path).toBe(false)
+      }
+      expect(existsSync(join(DIST, '_pages', `${page}.html`))).toBe(true)
+    }
+  })
+
+  it('사이트맵은 공개 공유 경로만 포함하고 내부 HTML 경로는 제외한다', () => {
+    const sitemap = readFileSync(join(DIST, 'sitemap.xml'), 'utf-8')
+    for (const page of ['birthday', 'together']) {
+      expect(sitemap).toContain(`<loc>https://www.annical.me/${page}</loc>`)
+    }
+    expect(sitemap).not.toContain('/_pages/')
+  })
+
   it('라우터의 모든 유효 경로가 정적 파일이거나 rewrite 대상이다', () => {
     // vercel.json 의 rewrite 를 소수의 정적 SPA 페이지로 좁혔기 때문에, 그 밖의
     // 유효 경로는 반드시 정적 파일로 존재해야 한다. 하나라도 빠지면 정상
     // 페이지가 404 를 낸다.
     const vercel = JSON.parse(readFileSync(join(ROOT, 'vercel.json'), 'utf-8')) as {
-      rewrites: Array<{ source: string }>
+      rewrites: Array<{ source: string; destination: string; has?: unknown[] }>
     }
-    const rewritten = new Set(vercel.rewrites.map((r) => r.source))
+    // 조건부 봇 rewrite 만 있으면 사람의 요청을 보장하지 못한다.
+    const rewritten = new Set(vercel.rewrites.filter((r) => !r.has).map((r) => r.source))
+    for (const r of vercel.rewrites.filter((r) => r.destination.startsWith('/_pages/'))) {
+      expect(existsSync(join(DIST, r.destination.slice(1))), r.destination).toBe(true)
+    }
     const router = readFileSync(join(ROOT, 'src/router/index.ts'), 'utf-8')
     const declared = [...router.matchAll(/path: '([^']+)'/g)].map((m) => m[1])
 
@@ -157,12 +189,18 @@ describe.runIf(existsSync(join(DIST, 'index.html')))('페이지별 OG 메타', (
     const { PAGE_META } = await import('../src/seo/pages')
     const { ogImageUrl } = await import('../src/seo/og')
     for (const page of Object.keys(PAGE_META) as Array<keyof typeof PAGE_META>) {
-      const html = readFileSync(join(DIST, page === 'home' ? '' : page, 'index.html'), 'utf-8')
-      expect(html).toContain(ogImageUrl(page).replace(/&/g, '&amp;'))
+      const file = page === 'birthday' || page === 'together'
+        ? join(DIST, '_pages', `${page}.html`)
+        : join(DIST, page === 'home' ? '' : page, 'index.html')
+      const html = readFileSync(file, 'utf-8')
+      const image = ogImageUrl(page).replace(/&/g, '&amp;')
+      expect(html).toContain(`property="og:image" content="${image}"`)
+      expect(html).toContain(`name="twitter:image" content="${image}"`)
       expect(html).toContain(PAGE_META[page].title)
       expect(html).toContain('og:image:width" content="1200')
       expect(html).toContain('og:image:height" content="630')
       expect(html).toContain('twitter:image:alt')
+      expect(html).toMatch(/<script\b[^>]*src="\/assets\/[^\"]+"/)
       if (page !== 'home') { expect(html).toContain('<h1>'); expect(html).toContain(`rel="canonical" href="https://www.annical.me/${page}"`) }
     }
   })
