@@ -59,15 +59,6 @@
   ],
   "headers": [
     {
-      "source": "/_pages/(.*)",
-      "headers": [
-        {
-          "key": "X-Robots-Tag",
-          "value": "noindex"
-        }
-      ]
-    },
-    {
       "source": "/(.*)",
       "headers": [
         {

@@ -41,9 +41,11 @@ describe('공유 미리보기 봇 allowlist', () => {
     ])
   })
 
-  it('내부 HTML 응답에는 X-Robots-Tag: noindex를 붙인다', () => {
-    const rule = config.headers.find(r => r.source === '/_pages/(.*)')
-    expect(rule?.headers).toContainEqual({ key: 'X-Robots-Tag', value: 'noindex' })
+  // /_pages 에 noindex 헤더를 걸지 않는다. rewrite 뒤 경로에도 헤더가 매칭되면
+  // /birthday·/together 자체가 색인에서 빠질 위험이 있다. 중복 색인은
+  // 내부 HTML 의 canonical(/birthday, /together)과 사이트맵 제외로 막는다.
+  it('내부 HTML 경로에 X-Robots-Tag 헤더 규칙을 두지 않는다', () => {
+    expect(config.headers.some(r => r.source.includes('_pages'))).toBe(false)
   })
 
   it('Vercel rewrite와 원본이 같고 검색 크롤러는 대상에서 제외한다', () => {
