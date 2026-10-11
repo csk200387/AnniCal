@@ -4,7 +4,7 @@ import { readFileSync, readdirSync } from 'node:fs'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import type { Anniversary } from '@/types/anniversary'
-import { registerAnchors, resolveOccurrence } from '@/utils/dateUtils'
+import { registerAnchors, resolveOccurrence, resolveOccurrenceSafe } from '@/utils/dateUtils'
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
 const DATA_DIR = join(ROOT, 'src/data/anniversaries')
@@ -73,7 +73,10 @@ describe('날짜 규칙', () => {
     const failures: string[] = []
     for (const a of anniversaries) {
       try {
-        const d = resolveOccurrence(a, 2026)
+        // 윤일만 평년의 합법적인 부재다. 규칙 자체는 윤년에도 반드시 검증한다.
+        const leapOnly = a.dateType === 'annual-fixed' && a.date === '02-29'
+        const d = resolveOccurrence(a, leapOnly ? 2028 : 2026)
+        if (leapOnly && resolveOccurrenceSafe(a, 2026) !== null) failures.push(`${a.id}: 평년 윤일 발생`)
         if (Number.isNaN(d.getTime())) failures.push(`${a.id}: NaN`)
       } catch (e) {
         failures.push(`${a.id}: ${e instanceof Error ? e.message : e}`)

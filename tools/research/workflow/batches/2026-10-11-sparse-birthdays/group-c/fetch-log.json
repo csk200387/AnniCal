@@ -1,0 +1,134 @@
+{
+  "fetches": [
+    {
+      "url": "https://www.fao.org/world-cotton-day/en",
+      "final_url": "https://www.fao.org/world-cotton-day/en",
+      "status_code": 200,
+      "accessed_at": "2026-10-11T06:38:46.675959+00:00",
+      "title": "World Cotton Day | 7 October",
+      "path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/cotton.txt"
+    },
+    {
+      "url": "https://www.ituc-csi.org/world-day-for-decent-work-2026",
+      "final_url": "https://www.ituc-csi.org/world-day-for-decent-work-2026",
+      "status_code": 403,
+      "accessed_at": "2026-10-11T06:38:44.827607+00:00",
+      "title": "Just a moment...",
+      "path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/decent.txt"
+    },
+    {
+      "url": "https://www.un.org/en/observances/international-day-of-solidarity-with-the-palestinian-people",
+      "final_url": "https://www.un.org/en/observances/international-day-of-solidarity-with-the-palestinian-people",
+      "status_code": 200,
+      "accessed_at": "2026-10-11T06:38:45.787147+00:00",
+      "title": "International Day of Solidarity with the Palestinian People | United Nations",
+      "path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/palestine.txt"
+    },
+    {
+      "url": "https://www.internationaljaguarday.org/",
+      "final_url": "https://www.internationaljaguarday.org/",
+      "status_code": 200,
+      "accessed_at": "2026-10-11T06:38:45.189678+00:00",
+      "title": "November 29",
+      "path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/jaguar.txt"
+    },
+    {
+      "url": "https://www.thepresidency.gov.za/president-ramaphosa-deliver-national-day-reconciliation-address",
+      "final_url": "https://www.thepresidency.gov.za/president-ramaphosa-deliver-national-day-reconciliation-address",
+      "status_code": 200,
+      "accessed_at": "2026-10-11T06:38:47.991717+00:00",
+      "title": "President Ramaphosa to deliver National Day of Reconciliation address | The Presidency",
+      "path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/reconciliation.txt"
+    },
+    {
+      "url": "https://afd.gov.bd/media/important-occations/victory-day",
+      "final_url": "https://afd.gov.bd/media/important-occations/victory-day",
+      "status_code": 200,
+      "accessed_at": "2026-10-11T06:38:45.425992+00:00",
+      "title": "Victory Day | Armed Forces Division(AFD)",
+      "path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/victory.txt"
+    },
+    {
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2208145&reg=3&lang=1",
+      "final_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2208145&reg=3&lang=1",
+      "status_code": 200,
+      "accessed_at": "2026-10-11T06:38:47.610597+00:00",
+      "title": "Press Release Page | Press Information Bureau",
+      "path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/governance.txt"
+    },
+    {
+      "url": "https://www.timeanddate.com/holidays/taiwan/constitution-day",
+      "final_url": "https://www.timeanddate.com/holidays/taiwan/constitution-day",
+      "status_code": 403,
+      "accessed_at": "2026-10-11T06:38:44.791045+00:00",
+      "title": "Just a moment…",
+      "path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/constitution.txt"
+    },
+    {
+      "url": "https://www.etuc.org/en/world-day-decent-work-2025",
+      "final_url": "https://www.etuc.org/en/world-day-decent-work-2025",
+      "status_code": 403,
+      "accessed_at": "2026-10-11T06:39:05.015013+00:00",
+      "title": "Just a moment...",
+      "path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/decent-alt.txt"
+    },
+    {
+      "url": "https://www.officeholidays.com/holidays/taiwan/taiwan-constitution-day",
+      "final_url": "https://www.officeholidays.com/holidays/taiwan/taiwan-constitution-day",
+      "status_code": 200,
+      "accessed_at": "2026-10-11T06:39:05.428108+00:00",
+      "title": "Constitution Day in Taiwan in 2026 | Office Holidays",
+      "path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/constitution-alt.txt"
+    },
+    {
+      "url": "https://www.epsu.org/article/world-day-decent-work-7-october",
+      "final_url": "https://www.epsu.org/article/world-day-decent-work-7-october",
+      "status_code": 403,
+      "accessed_at": "2026-10-11T06:39:13.812004+00:00",
+      "title": "Just a moment...",
+      "path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/decent-epsu.txt"
+    },
+    {
+      "url": "https://www.ilo.org/resource/news/world-day-decent-work-prioritizing-ilo-global-call-action",
+      "final_url": "https://www.ilo.org/resource/news/world-day-decent-work-prioritizing-ilo-global-call-action",
+      "status_code": 200,
+      "accessed_at": "2026-10-11T06:39:14.742152+00:00",
+      "title": "World Day for Decent Work: Prioritizing ILO Global Call to Action | International Labour Organization",
+      "path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/decent-ilo.txt"
+    },
+    {
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0020033",
+      "status_code": 200,
+      "accessed_at": "2026-10-11T06:40:02.367442+00:00",
+      "title": "constitution-law",
+      "path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/constitution-law.txt",
+      "retrieval_method": "curl verified TLS"
+    },
+    {
+      "url": "https://english.president.gov.tw/page/93",
+      "status_code": 200,
+      "accessed_at": "2026-10-11T06:40:03.771611+00:00",
+      "title": "constitution-president",
+      "path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/constitution-president.txt",
+      "retrieval_method": "curl verified TLS"
+    },
+    {
+      "url": "https://anydayguide.com/calendar/4329",
+      "final_url": "https://anydayguide.com/calendar/4329",
+      "status_code": 200,
+      "accessed_at": "2026-10-11T06:39:25.902674+00:00",
+      "title": "World Day for Decent Work / October 7, 2026",
+      "path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/decent-recurring.txt"
+    },
+    {
+      "url": "https://www.dgpa.gov.tw/information?uid=41&pid=12573",
+      "status_code": 200,
+      "accessed_at": "2026-10-11T06:40:13.517323+00:00",
+      "title": "中華民國一百一十五年政府行政機關辦公日曆表",
+      "path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/constitution-dgpa.txt",
+      "retrieval_method": "curl verified TLS"
+    }
+  ],
+  "browser_failure": "Edge profile write lock; browser body not obtained",
+  "limitations": "403 bodies retained as failure evidence only. requests TLS validation failed on Taiwan sources; verified-TLS curl succeeded."
+}

@@ -1,0 +1,93 @@
+{
+  "draft_count": 13,
+  "new_candidates": 12,
+  "existing_correction": 1,
+  "exact_keys_match": true,
+  "evidence_references": 49,
+  "unique_cited_sources": 24,
+  "literal_quotes_verified": true,
+  "no_controls_verified": true,
+  "lengths": {
+    "02-24-scn2a": {
+      "origin": 254,
+      "anecdote": 226,
+      "total": 480
+    },
+    "05-26-paper2": {
+      "origin": 262,
+      "anecdote": 241,
+      "total": 503
+    },
+    "06-16-remittances": {
+      "origin": 240,
+      "anecdote": 240,
+      "total": 480
+    },
+    "07-09-world-misophonia-awareness-day": {
+      "origin": 256,
+      "anecdote": 261,
+      "total": 517
+    },
+    "07-21-singapore-racial-harmony-day": {
+      "origin": 442,
+      "anecdote": 413,
+      "total": 855
+    },
+    "08-17-black-cat-appreciation-day": {
+      "origin": 246,
+      "anecdote": 274,
+      "total": 520
+    },
+    "08-17-national-nonprofit-day-us": {
+      "origin": 282,
+      "anecdote": 275,
+      "total": 557
+    },
+    "10-07-cotton": {
+      "origin": 242,
+      "anecdote": 265,
+      "total": 507
+    },
+    "10-07-decent": {
+      "origin": 245,
+      "anecdote": 265,
+      "total": 510
+    },
+    "jp-fujiq-day-02-29": {
+      "origin": 232,
+      "anecdote": 254,
+      "total": 486
+    },
+    "ie-bachelors-day-02-29": {
+      "origin": 277,
+      "anecdote": 252,
+      "total": 529
+    },
+    "rare-disease-day-leap-date-correction": {
+      "origin": 252,
+      "anecdote": 254,
+      "total": 506
+    },
+    "11-29-jaguar": {
+      "origin": 243,
+      "anecdote": 282,
+      "total": 525
+    }
+  },
+  "remaining_new_keys_other_owner": [
+    "02-24-estonia",
+    "05-26-sorry2",
+    "06-16-african",
+    "07-09-argentina-independence-day",
+    "07-21-belgian-national-day",
+    "11-29-palestine",
+    "12-16-reconciliation",
+    "12-16-victory",
+    "12-25-governance",
+    "12-25-constitution"
+  ],
+  "production_modified": false,
+  "code_modified": false,
+  "git_modified": false,
+  "deployed": false
+}

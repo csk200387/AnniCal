@@ -9,7 +9,7 @@ import {
   categoryRepository,
   groupRepository,
 } from '@/services/anniversaryRepository'
-import { registerAnchors, resolveOccurrenceSafe } from '@/utils/dateUtils'
+import { occursOnBirthday, registerAnchors, resolveOccurrenceSafe } from '@/utils/dateUtils'
 
 /** "MM-DD" 키. 연도별 발생일 색인의 키로 쓴다. */
 function monthDayKey(d: Date): string {
@@ -51,14 +51,8 @@ export const useAnniversariesStore = defineStore('anniversaries', () => {
 
       index = new Map()
       for (const a of source) {
-        // annual-fixed 는 연도와 무관하게 date 가 곧 키다 — 계산을 건너뛴다.
-        let key: string | null
-        if (a.dateType === 'annual-fixed') {
-          key = a.date
-        } else {
-          const d = resolveOccurrenceSafe(a, year)
-          key = d && d.getFullYear() === year ? monthDayKey(d) : null
-        }
+        const d = resolveOccurrenceSafe(a, year)
+        const key = d && d.getFullYear() === year ? monthDayKey(d) : null
         if (!key) continue
         const bucket = index.get(key)
         if (bucket) bucket.push(a)
@@ -73,6 +67,11 @@ export const useAnniversariesStore = defineStore('anniversaries', () => {
   function onDate(year: number, month: number, day: number): Anniversary[] {
     const key = `${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`
     return occurrenceIndex.value(year).get(key) ?? []
+  }
+
+  /** 실제 발생일 색인과 달리 생일 탐색은 평년의 02-29도 허용한다. */
+  function onBirthdayDate(year: number, month: number, day: number): Anniversary[] {
+    return items.value.filter(a => occursOnBirthday(a, year, month, day))
   }
 
   /** 검색용으로 미리 소문자화해 둔 문자열. 입력할 때마다 다시 만들지 않는다. */
@@ -161,6 +160,7 @@ export const useAnniversariesStore = defineStore('anniversaries', () => {
     hasData,
     byId,
     onDate,
+    onBirthdayDate,
     searchIndex,
     ensureMonths,
     ensureAll,

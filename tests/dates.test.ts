@@ -5,6 +5,7 @@ import type { Anniversary } from '@/types/anniversary'
 import {
   OutOfTableRangeError,
   daysUntil,
+  formatKoreanMonthDay,
   isToday,
   occursOn,
   registerAnchors,
@@ -40,6 +41,44 @@ function mk(overrides: Partial<Anniversary>): Anniversary {
 
 const iso = (d: Date) =>
   `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
+
+describe('윤일 고정 기념일', () => {
+  it('평년의 표시 날짜는 미정이나 3월 1일이 아니라 윤일 규칙이다', () => {
+    expect(formatKoreanMonthDay(mk({ date: '02-29' }), 2026)).toBe('2월 29일 (윤년에만)')
+    expect(formatKoreanMonthDay(mk({ date: '02-29' }), 2028)).toBe('2월 29일')
+    expect(formatKoreanMonthDay(mk({ date: '02-30' }), 2026)).toBeNull()
+  })
+  it('평년에는 발생하지 않고 3월 1일로 넘기지 않는다', () => {
+    const a = mk({ date: '02-29' })
+    expect(resolveOccurrenceSafe(a, 2026)).toBeNull()
+    expect(() => resolveOccurrence(a, 2026)).toThrow()
+    expect(isToday(a, new Date(2026, 2, 1))).toBe(false)
+    expect(iso(resolveOccurrence(a, 2028))).toBe('2028-02-29')
+  })
+  it('윤일 예외로 다른 잘못된 고정일 규칙을 허용하지 않는다', () => {
+    for (const date of ['02-30', '04-31', '13-01', '00-01', '01-00', '2-29', '02-29-extra']) {
+      const a = mk({ date })
+      expect(() => resolveOccurrence(a, 2028), date).toThrow()
+      expect(resolveOccurrenceSafe(a, 2026), date).toBeNull()
+      expect(daysUntil(a, new Date(2026, 0, 1)), date).toBeNull()
+    }
+  })
+  it('없는 2월 29일은 occursOn에서도 거절한다', () => {
+    const a = mk({ date: '02-29' })
+    expect(occursOn(a, 2026, 2, 29)).toBe(false)
+    expect(occursOn(a, 2100, 2, 29)).toBe(false)
+    expect(occursOn(a, 2028, 2, 29)).toBe(true)
+    expect(occursOn(a, 2000, 2, 29)).toBe(true)
+    expect(occursOn(a, 2026, 3, 1)).toBe(false)
+  })
+  it('다가오는 실제 윤일까지 평년과 2100년을 건너뛴다', () => {
+    const a = mk({ date: '02-29' })
+    expect(daysUntil(a, new Date(2026, 1, 28))).toBe(dayjs('2028-02-29').diff(dayjs('2026-02-28'), 'day'))
+    expect(daysUntil(a, new Date(2028, 1, 29))).toBe(0)
+    expect(daysUntil(a, new Date(2028, 2, 1))).toBe(dayjs('2032-02-29').diff(dayjs('2028-03-01'), 'day'))
+    expect(daysUntil(a, new Date(2096, 2, 1))).toBe(dayjs('2104-02-29').diff(dayjs('2096-03-01'), 'day'))
+  })
+})
 
 describe('N번째 요일', () => {
   it('둘째 일요일 — 어머니의 날은 매년 실제 날짜가 다르다', () => {

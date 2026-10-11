@@ -1,0 +1,28 @@
+{
+  "records_total": 31,
+  "new_evidenced_candidates": 22,
+  "ordinary_fixed_date_candidates": 20,
+  "leap_day_candidates_integration_blocked": 2,
+  "existing_date_corrections": 1,
+  "source_access_blocked": 1,
+  "duplicates_excluded": 7,
+  "unique_cited_sources": 32,
+  "evidence_quote_references": 44,
+  "approval_pending": 23,
+  "production_added": 0,
+  "production_modified": 0,
+  "deployed": false,
+  "per_date_new_candidates": {
+    "02-24": 2,
+    "05-26": 2,
+    "06-16": 2,
+    "07-09": 2,
+    "07-21": 2,
+    "08-17": 2,
+    "10-07": 2,
+    "11-29": 2,
+    "12-16": 2,
+    "12-25": 2,
+    "02-29": 2
+  }
+}

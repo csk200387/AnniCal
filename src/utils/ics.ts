@@ -3,7 +3,7 @@
 // 런타임 import 는 상대경로만 사용하고, 타입은 import type 으로만 들여온다.
 import dayjs from 'dayjs'
 // Node ESM(서버리스 함수)과 Vite 양쪽에서 동작하도록 상대경로 + .js 확장자 사용.
-import { resolveOccurrence, tabulatedYearRange } from './dateUtils.js'
+import { nextOccurrenceSafe, resolveOccurrence, tabulatedYearRange } from './dateUtils.js'
 import type { Anniversary } from '../types/anniversary.js'
 
 const DOW_TO_ICS: Record<string, string> = {
@@ -117,7 +117,7 @@ function safeSourceUrl(raw: string | null | undefined): string | null {
 function rruleFor(anv: Anniversary): string | null {
   switch (anv.dateType) {
     case 'annual-fixed':
-      // 매년 같은 월·일 — DTSTART 의 월·일이 그대로 반복된다.
+      // DTSTART의 월·일 반복. RFC 5545에 따라 없는 날짜(평년 02-29)는 생략한다.
       return 'FREQ=YEARLY'
     case 'annual-nth-weekday': {
       const [mm, nStr, dowStr] = anv.date.split('-')
@@ -169,7 +169,11 @@ function eventLines(anv: Anniversary, year: number, stamp: string): EventBuildRe
 
   let start: Date
   try {
-    start = resolveOccurrence(anv, year)
+    const first = anv.dateType === 'annual-fixed'
+      ? nextOccurrenceSafe(anv, new Date(year, 0, 1))
+      : resolveOccurrence(anv, year)
+    if (!first) return { lines: null, skipped: `date '${anv.date}' 의 다음 발생일이 없음` }
+    start = first
   } catch (e) {
     return { lines: null, skipped: e instanceof Error ? e.message : String(e) }
   }

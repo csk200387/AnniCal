@@ -38,7 +38,7 @@ const dateLabel = computed(() => context.value ? (koreanUrlDate(context.value.da
 const anniversaries = computed(() => {
   if (!context.value || loading.value || loadError.value) return []
   const [m, d] = context.value.date.split('-').map(Number)
-  return store.onDate(context.value.year, m, d).filter(a => pathForId(a.id))
+  return store.onBirthdayDate(context.value.year, m, d).filter(a => pathForId(a.id))
     .slice().sort((a, b) => Number(b.dateType === 'annual-fixed') - Number(a.dateType === 'annual-fixed') || a.name.localeCompare(b.name, 'ko'))
 })
 const selected = computed(() => anniversaries.value.find(a => a.id === selectedId.value) ?? anniversaries.value[0])

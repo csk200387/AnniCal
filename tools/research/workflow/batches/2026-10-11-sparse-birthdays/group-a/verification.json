@@ -1,0 +1,216 @@
+{
+  "ok": true,
+  "production_items_checked": 1734,
+  "record_count": 10,
+  "status_counts": {
+    "evidenced": 6,
+    "blocked": 1,
+    "rejected_duplicate": 3
+  },
+  "evidenced_by_date": {
+    "02-24": 2,
+    "05-26": 2,
+    "06-16": 2
+  },
+  "quote_substrings_verified": true,
+  "required_fields_verified": true,
+  "occurrenceChecks": [
+    {
+      "candidate_key": "02-24-estonia",
+      "year": 2026,
+      "occurrence": "2026-02-24"
+    },
+    {
+      "candidate_key": "02-24-scn2a",
+      "year": 2026,
+      "occurrence": "2026-02-24"
+    },
+    {
+      "candidate_key": "05-26-sorry2",
+      "year": 2026,
+      "occurrence": "2026-05-26"
+    },
+    {
+      "candidate_key": "05-26-paper2",
+      "year": 2026,
+      "occurrence": "2026-05-26"
+    },
+    {
+      "candidate_key": "06-16-remittances",
+      "year": 2026,
+      "occurrence": "2026-06-16"
+    },
+    {
+      "candidate_key": "06-16-african",
+      "year": 2026,
+      "occurrence": "2026-06-16"
+    },
+    {
+      "candidate_key": "02-24-estonia",
+      "year": 2027,
+      "occurrence": "2027-02-24"
+    },
+    {
+      "candidate_key": "02-24-scn2a",
+      "year": 2027,
+      "occurrence": "2027-02-24"
+    },
+    {
+      "candidate_key": "05-26-sorry2",
+      "year": 2027,
+      "occurrence": "2027-05-26"
+    },
+    {
+      "candidate_key": "05-26-paper2",
+      "year": 2027,
+      "occurrence": "2027-05-26"
+    },
+    {
+      "candidate_key": "06-16-remittances",
+      "year": 2027,
+      "occurrence": "2027-06-16"
+    },
+    {
+      "candidate_key": "06-16-african",
+      "year": 2027,
+      "occurrence": "2027-06-16"
+    },
+    {
+      "candidate_key": "02-24-estonia",
+      "year": 2028,
+      "occurrence": "2028-02-24"
+    },
+    {
+      "candidate_key": "02-24-scn2a",
+      "year": 2028,
+      "occurrence": "2028-02-24"
+    },
+    {
+      "candidate_key": "05-26-sorry2",
+      "year": 2028,
+      "occurrence": "2028-05-26"
+    },
+    {
+      "candidate_key": "05-26-paper2",
+      "year": 2028,
+      "occurrence": "2028-05-26"
+    },
+    {
+      "candidate_key": "06-16-remittances",
+      "year": 2028,
+      "occurrence": "2028-06-16"
+    },
+    {
+      "candidate_key": "06-16-african",
+      "year": 2028,
+      "occurrence": "2028-06-16"
+    }
+  ],
+  "baseline": [
+    {
+      "year": 2026,
+      "date": "02-24",
+      "existing": [
+        {
+          "id": "anv-fixed-02-24-tortilla-chip-day-us",
+          "name": "토르티야 칩의 날",
+          "dateType": "annual-fixed"
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "date": "05-26",
+      "existing": [
+        {
+          "id": "anv-fixed-05-26-blueberry-cheesecake-day-us",
+          "name": "블루베리 치즈케이크의 날",
+          "dateType": "annual-fixed"
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "date": "06-16",
+      "existing": [
+        {
+          "id": "anv-fixed-06-16-fudge-day-us",
+          "name": "퍼지의 날 (National Fudge Day)",
+          "dateType": "annual-fixed"
+        }
+      ]
+    },
+    {
+      "year": 2027,
+      "date": "02-24",
+      "existing": [
+        {
+          "id": "anv-fixed-02-24-tortilla-chip-day-us",
+          "name": "토르티야 칩의 날",
+          "dateType": "annual-fixed"
+        }
+      ]
+    },
+    {
+      "year": 2027,
+      "date": "05-26",
+      "existing": [
+        {
+          "id": "anv-fixed-05-26-blueberry-cheesecake-day-us",
+          "name": "블루베리 치즈케이크의 날",
+          "dateType": "annual-fixed"
+        }
+      ]
+    },
+    {
+      "year": 2027,
+      "date": "06-16",
+      "existing": [
+        {
+          "id": "anv-fixed-06-16-fudge-day-us",
+          "name": "퍼지의 날 (National Fudge Day)",
+          "dateType": "annual-fixed"
+        }
+      ]
+    },
+    {
+      "year": 2028,
+      "date": "02-24",
+      "existing": [
+        {
+          "id": "anv-fixed-02-24-tortilla-chip-day-us",
+          "name": "토르티야 칩의 날",
+          "dateType": "annual-fixed"
+        }
+      ]
+    },
+    {
+      "year": 2028,
+      "date": "05-26",
+      "existing": [
+        {
+          "id": "anv-fixed-05-26-blueberry-cheesecake-day-us",
+          "name": "블루베리 치즈케이크의 날",
+          "dateType": "annual-fixed"
+        }
+      ]
+    },
+    {
+      "year": 2028,
+      "date": "06-16",
+      "existing": [
+        {
+          "id": "gov-88",
+          "name": "선원의 날",
+          "dateType": "annual-nth-weekday"
+        },
+        {
+          "id": "anv-fixed-06-16-fudge-day-us",
+          "name": "퍼지의 날 (National Fudge Day)",
+          "dateType": "annual-fixed"
+        }
+      ]
+    }
+  ],
+  "production_writes": false
+}

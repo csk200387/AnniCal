@@ -79,8 +79,8 @@ export function shiftUrlDate(urlDate: string, days: number): string | null {
 export const DISPLAY_YEAR = todayInSiteZone().getFullYear()
 
 /** 그 해 실제 발생일의 "MM-DD". 계산할 수 없으면 URL 날짜로 물러선다. */
-export function displayDateFor(anv: Anniversary, fallback: string): string {
-  const d = resolveOccurrenceSafe(anv, DISPLAY_YEAR)
+export function displayDateFor(anv: Anniversary, fallback: string, year = DISPLAY_YEAR): string {
+  const d = resolveOccurrenceSafe(anv, year)
   if (!d) return fallback
   return `${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
 }
@@ -103,9 +103,12 @@ export interface PrerenderTarget {
  * 발생일로 정한다. 고정 날짜로 묶으면 비고정 기념일 78건이 매년 엉뚱한
  * 날짜 허브에 남는다.
  */
-export function buildTargets(): PrerenderTarget[] {
-  const anns = loadAnniversaries()
-  const routes = loadRoutes()
+export function buildTargets(
+  anns: Anniversary[] = loadAnniversaries(),
+  routes: Record<string, RouteEntry> = loadRoutes(),
+  year = DISPLAY_YEAR,
+): PrerenderTarget[] {
+  registerAnchors(anns)
   const byId = new Map(anns.map((a) => [a.id, a]))
 
   // ── 빌드를 멈춰야 하는 조건들 ──────────────────────────────────
@@ -145,7 +148,7 @@ export function buildTargets(): PrerenderTarget[] {
 
   for (const [id, r] of Object.entries(routes)) {
     const anv = byId.get(id)!
-    const displayDate = displayDateFor(anv, r.urlDate)
+    const displayDate = displayDateFor(anv, r.urlDate, year)
     targets.push({
       path: `/day/${r.urlDate}/${r.slug}`,
       kind: 'detail',
@@ -153,7 +156,11 @@ export function buildTargets(): PrerenderTarget[] {
       urlDate: r.urlDate,
       displayDate,
     })
-    // 허브 묶음은 실제 발생일 기준.
+    // 상세의 URL 날짜 폴백은 발생일이 아니다. 해당 연도에 없는 날은 허브에서 제외.
+    // 단, 윤일 고정 기념일은 평년에도 2월 29일 허브에서 소개한다(생일 탐색과 같은 정책).
+    const occurrence = resolveOccurrenceSafe(anv, year)
+    const leapOnly = anv.dateType === 'annual-fixed' && anv.date === '02-29'
+    if (!leapOnly && (!occurrence || occurrence.getFullYear() !== year)) continue
     const bucket = byDate.get(displayDate)
     if (bucket) bucket.push(anv)
     else byDate.set(displayDate, [anv])

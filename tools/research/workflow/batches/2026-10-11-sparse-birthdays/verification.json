@@ -1,0 +1,29 @@
+{
+  "records_total": 31,
+  "evidenced_records_checked": 23,
+  "literal_quote_references_checked": 44,
+  "quote_mismatches_after_parent_split": 0,
+  "unique_candidate_keys": true,
+  "duplicate_ids_exist": true,
+  "categories_valid_after_mapping": true,
+  "ordinary_candidates_checked": 20,
+  "years_checked": [
+    2026,
+    2027,
+    2028
+  ],
+  "occurrence_checks_passed": 60,
+  "existing_tests_passed": 32,
+  "slug_check": "passed_1734_routes",
+  "production_diff_check": "passed_no_change",
+  "full_build_run": false,
+  "approved": false,
+  "deployed": false,
+  "review_actions": [
+    "Split nonadjacent excerpts in five records into separate quotes",
+    "Mapped three unsupported society categories to current categories",
+    "Changed world cotton research category to campaign",
+    "Kept leap-only candidates outside integration-ready list"
+  ],
+  "checked_at": "2026-10-11T06:47:44.616364+00:00"
+}

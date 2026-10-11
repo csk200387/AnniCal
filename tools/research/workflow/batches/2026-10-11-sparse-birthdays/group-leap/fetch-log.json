@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://www.rarediseaseday.org/what-is-rare-disease-day/",
+    "status": 200,
+    "accessed_at": "2026-10-11T06:38:34.911583+00:00",
+    "path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-leap/evidence/leap-1.txt"
+  },
+  {
+    "url": "https://prtimes.jp/main/html/rd/p/000001552.000001110.html",
+    "status": 200,
+    "accessed_at": "2026-10-11T06:38:32.971869+00:00",
+    "path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-leap/evidence/leap-2.txt"
+  },
+  {
+    "url": "https://zatsuneta.com/archives/102292.html",
+    "status": 200,
+    "accessed_at": "2026-10-11T06:38:32.974872+00:00",
+    "path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-leap/evidence/leap-3.txt"
+  },
+  {
+    "url": "https://www.timeanddate.com/date/leap-day-february-29.html",
+    "error": "403 Client Error: Forbidden for url: https://www.timeanddate.com/date/leap-day-february-29.html"
+  },
+  {
+    "url": "https://www.livenowfox.com/news/leap-year-2024-what-is-bachelors-day",
+    "status": 200,
+    "accessed_at": "2026-10-11T06:38:34.216566+00:00",
+    "path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-leap/evidence/leap-5.txt"
+  }
+]

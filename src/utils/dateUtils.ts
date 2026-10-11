@@ -146,7 +146,7 @@ function resolveNthWeekday(year: number, dateStr: string): Date {
 
 /**
  * Anniversary 가 "특정 연도" 에 떨어지는 Date 를 계산.
- * - annual-fixed("MM-DD")                       → 같은 연도의 그 월/일
+ * - annual-fixed("MM-DD")                       → 같은 연도의 실재하는 월/일 (평년 02-29는 예외)
  * - annual-nth-weekday("MM-N-DOW")               → 같은 연도의 N째 요일
  * - annual-relative-to-holiday("anchorId:N일")   → anchor 의 같은 연도 occurrence + N일
  * - annual-tabulated("키")                       → observances.json 에서 그 연도의 날짜 조회
@@ -157,8 +157,15 @@ function resolveNthWeekday(year: number, dateStr: string): Date {
  */
 export function resolveOccurrence(anv: Anniversary, year: number, _depth = 0): Date {
   if (anv.dateType === 'annual-fixed') {
+    if (!/^\d{2}-\d{2}$/.test(anv.date)) {
+      throw new Error(`annual-fixed: 해석할 수 없는 규칙 "${anv.date}"`)
+    }
     const [mm, dd] = anv.date.split('-').map(Number)
-    return new Date(year, mm - 1, dd)
+    const occurrence = new Date(year, mm - 1, dd)
+    if (occurrence.getMonth() + 1 !== mm || occurrence.getDate() !== dd) {
+      throw new Error(`annual-fixed: "${anv.date}" 는 ${year}년에 발생하지 않습니다`)
+    }
+    return occurrence
   }
   if (anv.dateType === 'annual-nth-weekday') {
     return resolveNthWeekday(year, anv.date)
@@ -191,6 +198,12 @@ export function resolveOccurrenceSafe(anv: Anniversary, year: number): Date | nu
   }
 }
 
+/** 생일 탐색은 평년에도 윤일로 정해진 고정 기념일을 보여주는 별도 정책이다. */
+export function occursOnBirthday(anv: Anniversary, year: number, month: number, day: number): boolean {
+  return (month === 2 && day === 29 && anv.dateType === 'annual-fixed' && anv.date === '02-29')
+    || occursOn(anv, year, month, day)
+}
+
 /** 매년 반복되는 타입인지. */
 export function isRecurring(anv: Anniversary): boolean {
   return (
@@ -212,23 +225,23 @@ export function isToday(anv: Anniversary, today: Date = new Date()): boolean {
   )
 }
 
-/** 오늘로부터 며칠 남았는지 (음수면 이미 지남). 계산 불가면 null. */
-export function daysUntil(anv: Anniversary, from: Date = new Date()): number | null {
-  const todayStart = dayjs(from).startOf('day')
-  const thisYear = from.getFullYear()
-  const thisYearDate = resolveOccurrenceSafe(anv, thisYear)
-  if (!thisYearDate) return null
-
-  let target = dayjs(thisYearDate).startOf('day')
-
-  // 매년 반복되는 타입은 올해 일정이 지났으면 내년으로 롤오버.
-  if (isRecurring(anv) && target.isBefore(todayStart)) {
-    const nextYearDate = resolveOccurrenceSafe(anv, thisYear + 1)
-    if (!nextYearDate) return null
-    target = dayjs(nextYearDate).startOf('day')
+/** 다음 실제 발생일 (오늘 포함). 윤일은 세기 경계의 최대 8년 공백도 건너뛴다. */
+export function nextOccurrenceSafe(anv: Anniversary, from: Date): Date | null {
+  const start = dayjs(from).startOf('day')
+  const horizon = isRecurring(anv) ? 8 : 0
+  for (let offset = 0; offset <= horizon; offset += 1) {
+    const occurrence = resolveOccurrenceSafe(anv, from.getFullYear() + offset)
+    if (occurrence && !dayjs(occurrence).startOf('day').isBefore(start)) return occurrence
   }
+  return null
+}
 
-  return target.diff(todayStart, 'day')
+/** 오늘로부터 며칠 남았는지. 단발 일정의 과거 날짜는 음수, 계산 불가는 null. */
+export function daysUntil(anv: Anniversary, from: Date = new Date()): number | null {
+  const occurrence = isRecurring(anv)
+    ? nextOccurrenceSafe(anv, from)
+    : resolveOccurrenceSafe(anv, from.getFullYear())
+  return occurrence ? dayjs(occurrence).startOf('day').diff(dayjs(from).startOf('day'), 'day') : null
 }
 
 /** 한국식 날짜 표기 ("3월 14일"). 계산 불가면 null. */
@@ -237,12 +250,13 @@ export function formatKoreanMonthDay(
   year: number = new Date().getFullYear(),
 ): string | null {
   const d = resolveOccurrenceSafe(anv, year)
+  if (!d && anv.dateType === 'annual-fixed' && anv.date === '02-29') return '2월 29일 (윤년에만)'
   return d ? `${d.getMonth() + 1}월 ${d.getDate()}일` : null
 }
 
 /**
  * 특정 (year, month, day) 에 발생하는 기념일인지.
- * - annual-fixed:               월/일만 비교
+ * - annual-fixed:               해당 연도에 실재하는 월/일과 비교
  * - annual-nth-weekday:         해당 연도의 규칙 해석 결과와 비교
  * - annual-relative-to-holiday: 해당 연도의 anchor 기준 occurrence 와 비교
  * - annual-tabulated:           observances.json 에서 조회한 날짜와 비교
@@ -255,11 +269,8 @@ export function occursOn(
   month: number,
   day: number,
 ): boolean {
-  if (anv.dateType === 'annual-fixed') {
-    const [mm, dd] = anv.date.split('-').map(Number)
-    return mm === month && dd === day
-  }
   if (
+    anv.dateType === 'annual-fixed' ||
     anv.dateType === 'annual-nth-weekday' ||
     anv.dateType === 'annual-relative-to-holiday' ||
     anv.dateType === 'annual-tabulated'

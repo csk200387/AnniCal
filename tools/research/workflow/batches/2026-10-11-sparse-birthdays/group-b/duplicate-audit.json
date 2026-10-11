@@ -1,0 +1,88 @@
+{
+  "baseline_count": 1734,
+  "patterns": {
+    "misophon": [],
+    "소포니": [],
+    "소리혐오": [],
+    "argentin": [],
+    "아르헨": [],
+    "belgi": [],
+    "벨기에": [],
+    "racial.harmony": [],
+    "인종.화합": [],
+    "민족.화합": [],
+    "nonprofit.day": [],
+    "비영리.*날": [],
+    "black.cat": [],
+    "검은.*고양": [],
+    "흑묘": []
+  },
+  "existing_on_target_dates": [
+    {
+      "id": "anv-fixed-07-09-sugar-cookie-day-us",
+      "date": "07-09",
+      "dateType": "annual-fixed",
+      "name": "슈가쿠키의 날 (National Sugar Cookie Day)",
+      "category": "food",
+      "tags": [
+        "음식 & 디저트"
+      ],
+      "storytelling": {
+        "origin": "밀가루·설탕·버터·달걀만으로 만드는 가장 단순한 쿠키다. 18세기 중반 미국 펜실베이니아주 나사렛에 정착한 독일계 모라비아 교도들이 구워 팔던 '나사렛 쿠키'가 원형으로 알려져 있으며, 펜실베이니아주는 1990년대에 이를 공식 쿠키로 지정하며 그 유산을 정식으로 기렸다.",
+        "anecdote": "반죽에 향이 거의 없어 모양 틀과 아이싱을 쓰기에 좋다. 그래서 크리스마스나 핼러윈처럼 장식이 중요한 절기 과자로 자리 잡았다. 나사렛에서는 이 쿠키를 얇고 둥글게 구웠는데, 훗날 다양한 모양 틀로 찍어내는 지금의 형태로 발전했고 한국 베이커리에서도 흔히 볼 수 있다."
+      },
+      "memes": [
+        {
+          "type": "text",
+          "url": null,
+          "caption": "장식하다가 결국 다 먹어버리는 그 쿠키 데코의 함정"
+        }
+      ],
+      "sourceUrl": "https://nationaldaycalendar.com/celebrations/national-sugar-cookie-day-july-9"
+    },
+    {
+      "id": "anv-fixed-07-21-junk-food-day-us",
+      "date": "07-21",
+      "dateType": "annual-fixed",
+      "name": "정크푸드의 날 (National Junk Food Day)",
+      "category": "food",
+      "tags": [
+        "음식 & 디저트"
+      ],
+      "storytelling": {
+        "origin": "정크푸드를 하루쯤 마음 편히 먹자는 날. '정크푸드'라는 말은 1972년 공익과학센터 소장이던 미생물학자 마이클 제이컵슨이 열량만 높고 영양가는 없는 식품을 가리켜 쓰면서 널리 퍼졌다. 죄책감 없이 즐기자는 취지로 미국 이색 기념일 목록에 자리 잡았다. 물론 하루로 끝내자는 것이 전제다.",
+        "anecdote": "표현 자체는 1950년대 초 미국에서 이미 쓰인 것으로 전해지나, 지금 같은 뜻으로 자리 잡은 건 제이컵슨 이후다. 한국은 2008년 어린이 식생활안전관리 특별법을 만들어 학교 경계 200m 안을 '그린푸드존'으로 지정하고, 고열량·저영양 식품의 학교 매점 판매를 막고 있다."
+      },
+      "memes": [
+        {
+          "type": "text",
+          "url": null,
+          "caption": "오늘만큼은 칼로리 계산 안 하기로 다짐하는 그 결심"
+        }
+      ],
+      "sourceUrl": "https://nationaldaycalendar.com/celebrations/national-junk-food-day-july-21"
+    },
+    {
+      "id": "anv-fixed-08-17-thrift-shop-day-us",
+      "date": "08-17",
+      "dateType": "annual-fixed",
+      "name": "중고 상점의 날 (National Thrift Shop Day)",
+      "category": "animal",
+      "tags": [
+        "동물 & 자연"
+      ],
+      "storytelling": {
+        "origin": "값싸게 숨은 보물을 찾을 수 있는 중고 상점(스리프트 숍) 쇼핑을 기념하는 8월 17일의 미국 기념일이다. 스리프트 숍은 보통 자선단체가 운영하며, 시민들이 기부한 물건을 자원봉사자들이 팔아 모은 돈을 단체의 자선 활동에 쓴다. 미국에서는 거의 모든 마을에 하나씩 있다.",
+        "anecdote": "재난이나 어려움을 겪은 이웃에게 기부 물품을 직접 나눠 주기도 한다. 환경 보호와 합리적인 소비를 함께할 수 있는 쇼핑 방식이라 빈티지 유행과 함께 다시 주목받고 있다. 2012년 래퍼 매클모어의 노래 「스리프트 숍」이 크게 히트하기도 했다. 한국에서는 기증품을 파는 '아름다운가게'와 '굿윌스토어'가 비슷한 역할을 한다."
+      },
+      "memes": [
+        {
+          "type": "text",
+          "url": null,
+          "caption": "운 좋으면 숨은 명품 건지는 그 짜릿한 보물찾기"
+        }
+      ],
+      "sourceUrl": "https://nationaldaycalendar.com/celebrations/national-thrift-shop-day-august-17"
+    }
+  ]
+}

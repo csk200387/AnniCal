@@ -1,0 +1,158 @@
+{
+  "authorized_scope": "User explicitly approved all22 evidenced new candidates, expanded accessible history text, one existing RareDisease date correction, commit and production deployment. Unverified Mexico flag day excluded.",
+  "new_entries": [
+    {
+      "candidate_key": "02-24-estonia",
+      "id": "anv-fixed-02-24-estonia-independence-day",
+      "date": "02-24",
+      "category": "history"
+    },
+    {
+      "candidate_key": "02-24-scn2a",
+      "id": "anv-fixed-02-24-international-scn2a-awareness-day",
+      "date": "02-24",
+      "category": "campaign"
+    },
+    {
+      "candidate_key": "05-26-sorry2",
+      "id": "anv-fixed-05-26-australia-national-sorry-day",
+      "date": "05-26",
+      "category": "history"
+    },
+    {
+      "candidate_key": "05-26-paper2",
+      "id": "anv-fixed-05-26-national-paper-airplane-day-us",
+      "date": "05-26",
+      "category": "academic"
+    },
+    {
+      "candidate_key": "06-16-remittances",
+      "id": "anv-fixed-06-16-international-day-of-family-remittances",
+      "date": "06-16",
+      "category": "campaign"
+    },
+    {
+      "candidate_key": "06-16-african",
+      "id": "anv-fixed-06-16-day-of-the-african-child",
+      "date": "06-16",
+      "category": "history"
+    },
+    {
+      "candidate_key": "07-09-world-misophonia-awareness-day",
+      "id": "anv-fixed-07-09-world-misophonia-awareness-day",
+      "date": "07-09",
+      "category": "campaign"
+    },
+    {
+      "candidate_key": "07-09-argentina-independence-day",
+      "id": "anv-fixed-07-09-argentina-independence-day",
+      "date": "07-09",
+      "category": "history"
+    },
+    {
+      "candidate_key": "07-21-belgian-national-day",
+      "id": "anv-fixed-07-21-belgian-national-day",
+      "date": "07-21",
+      "category": "history"
+    },
+    {
+      "candidate_key": "07-21-singapore-racial-harmony-day",
+      "id": "anv-fixed-07-21-singapore-racial-harmony-day",
+      "date": "07-21",
+      "category": "culture"
+    },
+    {
+      "candidate_key": "08-17-black-cat-appreciation-day",
+      "id": "anv-fixed-08-17-black-cat-appreciation-day-us",
+      "date": "08-17",
+      "category": "animal"
+    },
+    {
+      "candidate_key": "08-17-national-nonprofit-day-us",
+      "id": "anv-fixed-08-17-national-nonprofit-day-us",
+      "date": "08-17",
+      "category": "career"
+    },
+    {
+      "candidate_key": "10-07-cotton",
+      "id": "anv-fixed-10-07-world-cotton-day",
+      "date": "10-07",
+      "category": "campaign"
+    },
+    {
+      "candidate_key": "10-07-decent",
+      "id": "anv-fixed-10-07-world-day-for-decent-work",
+      "date": "10-07",
+      "category": "career"
+    },
+    {
+      "candidate_key": "11-29-palestine",
+      "id": "anv-fixed-11-29-international-day-of-solidarity-with-the-palestinian-people",
+      "date": "11-29",
+      "category": "campaign"
+    },
+    {
+      "candidate_key": "11-29-jaguar",
+      "id": "anv-fixed-11-29-international-jaguar-day",
+      "date": "11-29",
+      "category": "animal"
+    },
+    {
+      "candidate_key": "12-16-reconciliation",
+      "id": "anv-fixed-12-16-south-africa-day-of-reconciliation",
+      "date": "12-16",
+      "category": "holiday"
+    },
+    {
+      "candidate_key": "12-16-victory",
+      "id": "anv-fixed-12-16-bangladesh-victory-day",
+      "date": "12-16",
+      "category": "holiday"
+    },
+    {
+      "candidate_key": "12-25-governance",
+      "id": "anv-fixed-12-25-india-good-governance-day",
+      "date": "12-25",
+      "category": "general"
+    },
+    {
+      "candidate_key": "12-25-constitution",
+      "id": "anv-fixed-12-25-taiwan-constitution-day",
+      "date": "12-25",
+      "category": "holiday"
+    },
+    {
+      "candidate_key": "jp-fujiq-day-02-29",
+      "id": "anv-fixed-02-29-fujiq-day-jp",
+      "date": "02-29",
+      "category": "brand"
+    },
+    {
+      "candidate_key": "ie-bachelors-day-02-29",
+      "id": "anv-fixed-02-29-bachelors-day-ie",
+      "date": "02-29",
+      "category": "romance"
+    }
+  ],
+  "existing_correction": {
+    "id": "anv-fixed-02-28-rare-disease-day-global",
+    "dateType": "annual-tabulated",
+    "date": "rare-disease-day",
+    "years": [
+      2020,
+      2050
+    ],
+    "preserve_id_and_route": true
+  },
+  "storytelling_policy": "Historical and national entries should explain situation→event→modern meaning in approachable Korean; no150char upper bound. Two text fields may exceed700combined chars; intro concise but narrative length driven by evidence.",
+  "baseline_commit": "95556ed2",
+  "baseline_tests_passed": 179,
+  "production_data_total_before": 1734,
+  "result": {
+    "production_total_after": 1756,
+    "new_entries_added": 22,
+    "existing_corrected": 1,
+    "excluded": "Mexico flag day (blocked evidence), 7 duplicates",
+    "verify": "npm run verify: 22 files/190 tests passed, 1756 detail + 366 hub prerendered"
+  }
+}

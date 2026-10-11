@@ -4,7 +4,7 @@ import routesJson from '../../src/data/routes.json' with { type: 'json' }
 import { koreanDate } from '../../src/seo/meta.js'
 import { ogDisplayName } from './text.js'
 import { OG_VERSION, type OgQuery, type StaticPage } from '../../src/seo/og.js'
-import { occursOn, isYearSupported, registerAnchors, resolveOccurrenceSafe } from '../../src/utils/dateUtils.js'
+import { occursOn, occursOnBirthday, isYearSupported, registerAnchors, resolveOccurrenceSafe } from '../../src/utils/dateUtils.js'
 import { todayInSiteZone } from '../../src/utils/clock.js'
 import { MILESTONE_IDS, milestoneLabel, parseIsoDate } from '../../src/features/together/milestones.js'
 import copy from './copy.json' with { type: 'json' }
@@ -78,7 +78,13 @@ export function parseOgQuery(params: URLSearchParams, currentYear = todayInSiteZ
       query = { kind: 'together', date, m }
     }
     const id = params.get('pick')
-    const anv = id ? itemsOnDate(resultYear, shown, kind === 'together').find(a => a.id === id && routes[a.id]) : undefined
+    const candidates = kind === 'birthday'
+      ? allAnniversaries.filter(a => {
+          const [m, d] = shown.split('-').map(Number)
+          return occursOnBirthday(a, resultYear, m, d)
+        })
+      : itemsOnDate(resultYear, shown, true)
+    const anv = id ? candidates.find(a => a.id === id && routes[a.id]) : undefined
     if (id !== null && !anv) return 404
     pick = anv?.id
     query = { ...query, ...(pick ? { pick } : {}) }

@@ -34,7 +34,10 @@ describe('생일 선택과 공유', () => {
     expect(store.onDate(2027, 5, 9)).toContain(mothersDay)
     const leapDay = { ...mothersDay, id: 'test-leap', date: '02-29', dateType: 'annual-fixed' as const }
     store.items = [...store.items, leapDay]
-    expect(store.onDate(2026, 2, 29)).toContain(leapDay)
+    expect(store.onDate(2026, 2, 29)).not.toContain(leapDay)
+    expect(store.onDate(2028, 2, 29)).toContain(leapDay)
+    expect(store.onBirthdayDate(2026, 2, 29)).toContain(leapDay)
+    expect(store.onBirthdayDate(2026, 3, 1)).not.toContain(leapDay)
     expect(store.onDate(2026, 3, 1)).not.toContain(leapDay)
     const share = useShareStore()
     share.openBirthday(mothersDay, { date: '05-10', year: 2026 })

@@ -52,6 +52,19 @@ function mk(overrides: Partial<Anniversary>): Anniversary {
 beforeAll(() => registerAnchors(anniversaries))
 
 describe('반복 규칙', () => {
+  it('윤일 일정은 첫 실제 윤일 DTSTART와 연간 반복 규칙을 가진다', () => {
+    const a = mk({ id: 'leap-fixed', date: '02-29' })
+    for (const [year, first] of [[2026, '20280229'], [2028, '20280229'], [2100, '21040229']] as const) {
+      const result = buildCalendarDetailed([a], { stamp: STAMP, year })
+      expect(result.skipped).toEqual([])
+      expect(result.count).toBe(1)
+      const block = eventFor(result.ics, a.id)
+      expect(block).toContain(`DTSTART;VALUE=DATE:${first}`)
+      expect(block).toContain('RRULE:FREQ=YEARLY')
+      expect(block.filter(l => l.startsWith('RDATE'))).toEqual([])
+      expect(block).toContain(`DTEND;VALUE=DATE:${first.slice(0, 4)}0301`)
+    }
+  })
   it('상대 날짜 기념일의 이후 연도가 실제 계산과 일치한다', () => {
     // 이게 F-03 의 핵심. FREQ=YEARLY 로 적으면 DTSTART 의 월·일이 그대로 반복돼
     // 블랙프라이데이가 2027년에 하루 어긋났다.

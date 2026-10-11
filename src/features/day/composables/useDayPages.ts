@@ -180,7 +180,7 @@ export function useDateHub(urlDate: ComputedRef<string>): DateHub {
     if (!isValid.value) return []
     const [mm, dd] = urlDate.value.split('-').map(Number)
     return store
-      .onDate(today.value.getFullYear(), mm, dd)
+      .onBirthdayDate(today.value.getFullYear(), mm, dd)
       .filter((a) => routeForId(a.id))
   })
 

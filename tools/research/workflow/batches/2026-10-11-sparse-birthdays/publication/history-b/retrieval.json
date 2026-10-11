@@ -1,0 +1,152 @@
+[
+  {
+    "name": "sorry",
+    "url": "https://www.reconciliation.org.au/national-sorry-day-2020/",
+    "publisher": "Reconciliation Australia",
+    "title": "National Sorry Day - Reconciliation Australia",
+    "accessed_at": "2026-10-11T07:10:06.662243+00:00",
+    "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/publication/history-b/evidence/sorry.txt",
+    "status": 200,
+    "length": 8909
+  },
+  {
+    "name": "apology",
+    "url": "https://www.nma.gov.au/defining-moments/resources/national-apology",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "african",
+    "url": "https://au.int/en/newsevents/20200616/day-african-child-2020",
+    "publisher": "African Union",
+    "title": "Day of the African Child 2020 | African Union",
+    "accessed_at": "2026-10-11T07:10:07.167834+00:00",
+    "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/publication/history-b/evidence/african.txt",
+    "status": 200,
+    "length": 11161
+  },
+  {
+    "name": "african2024",
+    "url": "https://au.int/en/pressreleases/20240614/commemoration-day-african-child-and-launch-au-unicef-joint-report-education",
+    "publisher": "African Union",
+    "title": "Commemoration of the Day of the African Child; and the Launch of AU-UNICEF Joint Report on Education Financing as a Lever for achieving the right to education for all in Africa | African Union",
+    "accessed_at": "2026-10-11T07:10:07.270248+00:00",
+    "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/publication/history-b/evidence/african2024.txt",
+    "status": 200,
+    "length": 15130
+  },
+  {
+    "name": "reconciliation",
+    "url": "https://www.gov.za/day-reconciliation",
+    "publisher": "South African Government",
+    "title": "Day of Reconciliation | South African Government",
+    "accessed_at": "2026-10-11T07:10:08.074534+00:00",
+    "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/publication/history-b/evidence/reconciliation.txt",
+    "status": 200,
+    "length": 7165
+  },
+  {
+    "name": "victory",
+    "url": "https://afd.gov.bd/media/important-occations/victory-day",
+    "publisher": "Armed Forces Division, Bangladesh",
+    "title": "Victory Day | Armed Forces Division(AFD)",
+    "accessed_at": "2026-10-11T07:10:06.681658+00:00",
+    "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/publication/history-b/evidence/victory.txt",
+    "status": 200,
+    "length": 3416
+  },
+  {
+    "name": "bangladesh",
+    "url": "https://beautifulbangladesh.gov.bd/event/40",
+    "publisher": "Bangladesh Tourism Board",
+    "title": "Victory Day",
+    "accessed_at": "2026-10-11T07:10:07.018299+00:00",
+    "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/publication/history-b/evidence/bangladesh.txt",
+    "status": 200,
+    "length": 3276
+  },
+  {
+    "name": "palestine",
+    "url": "https://www.un.org/en/observances/international-day-of-solidarity-with-the-palestinian-people",
+    "publisher": "United Nations",
+    "title": "International Day of Solidarity with the Palestinian People | United Nations",
+    "accessed_at": "2026-10-11T07:10:06.850525+00:00",
+    "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/publication/history-b/evidence/palestine.txt",
+    "status": 200,
+    "length": 4842
+  },
+  {
+    "name": "palestine-background",
+    "url": "https://www.un.org/en/observances/international-day-of-solidarity-with-the-palestinian-people/background",
+    "publisher": "United Nations",
+    "title": "Background | International Day of Solidarity with the Palestinian People | United Nations",
+    "accessed_at": "2026-10-11T07:10:06.817089+00:00",
+    "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/publication/history-b/evidence/palestine-background.txt",
+    "status": 200,
+    "length": 4458
+  },
+  {
+    "name": "governance",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2208145&reg=3&lang=1",
+    "publisher": "Press Information Bureau, Government of India",
+    "title": "Press Release Page | Press Information Bureau",
+    "accessed_at": "2026-10-11T07:10:08.213709+00:00",
+    "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/publication/history-b/evidence/governance.txt",
+    "status": 200,
+    "length": 36620
+  },
+  {
+    "name": "apology-dfat",
+    "url": "https://www.dfat.gov.au/people-to-people/public-diplomacy/programs-activities/Pages/apology-to-the-stolen-generations",
+    "error": "The read operation timed out"
+  },
+  {
+    "name": "apartheid",
+    "url": "https://sahistory.org.za/article/history-apartheid-south-africa",
+    "publisher": "South African History Online",
+    "title": "A history of Apartheid in South Africa | South African History Online",
+    "accessed_at": "2026-10-11T07:10:44.783764+00:00",
+    "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/publication/history-b/evidence/apartheid.txt",
+    "status": 200,
+    "length": 17489
+  },
+  {
+    "name": "soweto",
+    "url": "https://sahistory.org.za/article/june-16-soweto-youth-uprising",
+    "publisher": "South African History Online",
+    "title": "16 June 1976 - Soweto Uprising | South African History Online",
+    "accessed_at": "2026-10-11T07:10:44.813596+00:00",
+    "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/publication/history-b/evidence/soweto.txt",
+    "status": 200,
+    "length": 55329
+  },
+  {
+    "name": "governance2014",
+    "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=114099&reg=3&lang=2",
+    "publisher": "Press Information Bureau, Government of India",
+    "title": "Good Governance Day observed by I&B Ministry",
+    "accessed_at": "2026-10-11T07:10:44.559626+00:00",
+    "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/publication/history-b/evidence/governance2014.txt",
+    "status": 200,
+    "length": 2650
+  },
+  {
+    "name": "stolen",
+    "url": "https://aiatsis.gov.au/explore/stolen-generations",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "bringing",
+    "url": "https://humanrights.gov.au/bringing-them-home/index.html",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "healing",
+    "url": "https://healingfoundation.org.au/what-we-do/bringing-them-home/",
+    "publisher": "The Healing Foundation",
+    "title": "Bringing Them Home | Report, Findings and Legacy | The Healing Foundation",
+    "accessed_at": "2026-10-11T07:12:10.261931+00:00",
+    "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/publication/history-b/evidence/healing.txt",
+    "status": 200,
+    "length": 23777
+  }
+]

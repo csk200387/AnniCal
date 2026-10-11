@@ -1,0 +1,313 @@
+{
+  "records": [
+    {
+      "candidate_key": "10-07-cotton",
+      "name_ko": "세계 면화의 날",
+      "name_original": "World Cotton Day",
+      "date": "10-07",
+      "dateType": "annual-fixed",
+      "scope": "국제",
+      "officiality": "UN 공식 기념일",
+      "category": "culture",
+      "status": "evidenced",
+      "duplicate_of": null,
+      "duplicate_check_notes": "솜사탕의 날과 산업 대상·날짜 다름. 전체 월별 JSON 1,734개 이름·ID 및 동일 날짜 항목 대조; 독립 검수 전 판정.",
+      "origin": "매년 10월 7일 면화 산업의 역할을 알리는 국제 기념일이다.",
+      "anecdote": "",
+      "sourceUrl": "https://www.fao.org/world-cotton-day/en",
+      "evidence": [
+        {
+          "url": "https://www.fao.org/world-cotton-day/en",
+          "publisher": "FAO",
+          "title": "World Cotton Day | 7 October",
+          "accessed_at": "2026-10-11T06:38:46.675959+00:00",
+          "quote_original": "recognised the unique benefits of cotton by proclaiming 7\n October of each year as World Cotton Day.",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/cotton.txt",
+          "access_status": "read_body",
+          "citation_id": 1
+        }
+      ],
+      "unverified_fields": [
+        "founding_year",
+        "founding_actor",
+        "date_rationale"
+      ],
+      "notes": "연구 후보; 승인·통합·배포 없음. 미확인 일화는 빈 문자열로 보존."
+    },
+    {
+      "candidate_key": "10-07-decent",
+      "name_ko": "세계 양질의 일자리의 날",
+      "name_original": "World Day for Decent Work",
+      "date": "10-07",
+      "dateType": "annual-fixed",
+      "scope": "국제",
+      "officiality": "국제 노동조합 캠페인; UN 제정 기념일 아님",
+      "category": "society",
+      "status": "evidenced",
+      "duplicate_of": null,
+      "duplicate_check_notes": "gov-19 노동절 및 미국 노동절과 원명·날짜·주최 캠페인 다름. 전체 월별 JSON 1,734개 이름·ID 및 동일 날짜 항목 대조; 독립 검수 전 판정.",
+      "origin": "10월 7일 양질의 일자리를 강조하는 세계 캠페인이다. ILO 본문은 ITUC 발의를 확인한다.",
+      "anecdote": "",
+      "sourceUrl": "https://www.ilo.org/resource/news/world-day-decent-work-prioritizing-ilo-global-call-action",
+      "evidence": [
+        {
+          "url": "https://www.ilo.org/resource/news/world-day-decent-work-prioritizing-ilo-global-call-action",
+          "publisher": "International Labour Organization",
+          "title": "World Day for Decent Work: Prioritizing ILO Global Call to Action | International Labour Organization",
+          "accessed_at": "2026-10-11T06:39:14.742152+00:00",
+          "quote_original": "The Trade Union Federation of Uzbekistan held a webinar on post-COVID employment recovery to commemorate the World Day for Decent Work celebrated worldwide on 7 October upon the initiative of the International Trade Union Confederation (ITUC).",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/decent-ilo.txt",
+          "access_status": "read_body",
+          "citation_id": 2
+        },
+        {
+          "url": "https://anydayguide.com/calendar/4329",
+          "publisher": "AnydayGuide",
+          "title": "World Day for Decent Work / October 7, 2026",
+          "accessed_at": "2026-10-11T06:39:25.902674+00:00",
+          "quote_original": "is observed annually on October 7.",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/decent-recurring.txt",
+          "access_status": "read_body",
+          "citation_id": 3
+        }
+      ],
+      "unverified_fields": [
+        "founding_year",
+        "date_rationale"
+      ],
+      "notes": "연구 후보; 승인·통합·배포 없음. 미확인 일화는 빈 문자열로 보존."
+    },
+    {
+      "candidate_key": "11-29-palestine",
+      "name_ko": "팔레스타인 민중과의 국제 연대의 날",
+      "name_original": "International Day of Solidarity with the Palestinian People",
+      "date": "11-29",
+      "dateType": "annual-fixed",
+      "scope": "국제",
+      "officiality": "UN 공식 기념일",
+      "category": "society",
+      "status": "evidenced",
+      "duplicate_of": null,
+      "duplicate_check_notes": "전역 이름·ID에 팔레스타인 연대 기념일 없음. 전체 월별 JSON 1,734개 이름·ID 및 동일 날짜 항목 대조; 독립 검수 전 판정.",
+      "origin": "유엔 총회가 11월 29일의 연례 기념을 요청한 국제 연대의 날이다.",
+      "anecdote": "",
+      "sourceUrl": "https://www.un.org/en/observances/international-day-of-solidarity-with-the-palestinian-people",
+      "evidence": [
+        {
+          "url": "https://www.un.org/en/observances/international-day-of-solidarity-with-the-palestinian-people",
+          "publisher": "United Nations",
+          "title": "International Day of Solidarity with the Palestinian People | United Nations",
+          "accessed_at": "2026-10-11T06:38:45.787147+00:00",
+          "quote_original": "In 1977, the General Assembly called for the annual observance of 29 November as the International Day of Solidarity with the Palestinian People (",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/palestine.txt",
+          "access_status": "read_body",
+          "citation_id": 4
+        }
+      ],
+      "unverified_fields": [
+        "founding_year",
+        "founding_actor",
+        "date_rationale"
+      ],
+      "notes": "연구 후보; 승인·통합·배포 없음. 미확인 일화는 빈 문자열로 보존. UN 실제 2025 회의는 11-25로 11-29 기념일과 구분."
+    },
+    {
+      "candidate_key": "11-29-jaguar",
+      "name_ko": "국제 재규어의 날",
+      "name_original": "International Jaguar Day",
+      "date": "11-29",
+      "dateType": "annual-fixed",
+      "scope": "국제; 재규어 서식 국가 중심",
+      "officiality": "국제 보전 캠페인; UN 총회 제정 여부 미확인",
+      "category": "animal",
+      "status": "evidenced",
+      "duplicate_of": null,
+      "duplicate_check_notes": "전역 이름·ID에 jaguar/재규어 없음; 일반 동물 기념일과 종·날짜 다름. 전체 월별 JSON 1,734개 이름·ID 및 동일 날짜 항목 대조; 독립 검수 전 판정.",
+      "origin": "매년 11월 29일 재규어 보전에 대한 관심을 높이는 날이다.",
+      "anecdote": "",
+      "sourceUrl": "https://www.internationaljaguarday.org/",
+      "evidence": [
+        {
+          "url": "https://www.internationaljaguarday.org/",
+          "publisher": "International Jaguar Day 공식 캠페인",
+          "title": "November 29",
+          "accessed_at": "2026-10-11T06:38:45.189678+00:00",
+          "quote_original": "Observed annually on\nNovember 29,\nInternational Jaguar Day celebrates the",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/jaguar.txt",
+          "access_status": "read_body",
+          "citation_id": 5
+        }
+      ],
+      "unverified_fields": [
+        "founding_year",
+        "founding_actor",
+        "date_rationale"
+      ],
+      "notes": "연구 후보; 승인·통합·배포 없음. 미확인 일화는 빈 문자열로 보존."
+    },
+    {
+      "candidate_key": "12-16-reconciliation",
+      "name_ko": "남아프리카공화국 화해의 날",
+      "name_original": "Day of Reconciliation",
+      "date": "12-16",
+      "dateType": "annual-fixed",
+      "scope": "남아프리카공화국",
+      "officiality": "국가 공휴일",
+      "category": "holiday",
+      "status": "evidenced",
+      "duplicate_of": null,
+      "duplicate_check_notes": "미국 04-02 화해의 날 및 개인관계 화해의 날들과 국가·통합 목적·공휴일 지위 다름. 전체 월별 JSON 1,734개 이름·ID 및 동일 날짜 항목 대조; 독립 검수 전 판정.",
+      "origin": "남아프리카공화국에서 매년 12월 16일 지키는 화해와 국가 통합을 위한 공휴일이다.",
+      "anecdote": "대통령실은 아파르트헤이트 종료 후 1995년부터 시행됐다고 설명한다.",
+      "sourceUrl": "https://www.thepresidency.gov.za/president-ramaphosa-deliver-national-day-reconciliation-address",
+      "evidence": [
+        {
+          "url": "https://www.thepresidency.gov.za/president-ramaphosa-deliver-national-day-reconciliation-address",
+          "publisher": "The Presidency, South Africa",
+          "title": "President Ramaphosa to deliver National Day of Reconciliation address | The Presidency",
+          "accessed_at": "2026-10-11T06:38:47.991717+00:00",
+          "quote_original": "The National Day of Reconciliation is a public holiday in South Africa held annually on 16 December. The holiday came into effect in 1995 after the end of apartheid, intending to foster reconciliation and national unity for the country.",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/reconciliation.txt",
+          "access_status": "read_body",
+          "citation_id": 6
+        }
+      ],
+      "unverified_fields": [
+        "founding_actor",
+        "date_rationale"
+      ],
+      "notes": "연구 후보; 승인·통합·배포 없음. 미확인 일화는 빈 문자열로 보존."
+    },
+    {
+      "candidate_key": "12-16-victory",
+      "name_ko": "방글라데시 승리의 날",
+      "name_original": "Victory Day (Bijoy Dibosh)",
+      "date": "12-16",
+      "dateType": "annual-fixed",
+      "scope": "방글라데시",
+      "officiality": "국가 공휴일",
+      "category": "holiday",
+      "status": "evidenced",
+      "duplicate_of": null,
+      "duplicate_check_notes": "전역 이름·ID에 방글라데시 승리의 날 없음; 다른 국가 승전 기념일과 국가·사건 다름. 전체 월별 JSON 1,734개 이름·ID 및 동일 날짜 항목 대조; 독립 검수 전 판정.",
+      "origin": "방글라데시에서 12월 16일 해방전쟁의 승리를 기리는 날이다. 정부 군사기관은 공휴일로 기념한다고 명시한다.",
+      "anecdote": "",
+      "sourceUrl": "https://afd.gov.bd/media/important-occations/victory-day",
+      "evidence": [
+        {
+          "url": "https://afd.gov.bd/media/important-occations/victory-day",
+          "publisher": "Armed Forces Division, Bangladesh",
+          "title": "Victory Day | Armed Forces Division(AFD)",
+          "accessed_at": "2026-10-11T06:38:45.425992+00:00",
+          "quote_original": "is celebrated on 16 December commemorating the ultimate victory in our Liberation War in 1971.",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/victory.txt",
+          "access_status": "read_body",
+          "citation_id": 7
+        }
+      ],
+      "unverified_fields": [
+        "founding_year",
+        "founding_actor",
+        "date_rationale"
+      ],
+      "notes": "연구 후보; 승인·통합·배포 없음. 미확인 일화는 빈 문자열로 보존."
+    },
+    {
+      "candidate_key": "12-25-governance",
+      "name_ko": "인도 좋은 거버넌스의 날",
+      "name_original": "Good Governance Day",
+      "date": "12-25",
+      "dateType": "annual-fixed",
+      "scope": "인도",
+      "officiality": "인도 정부 공식 기념일; 공휴일 여부 미확인",
+      "category": "society",
+      "status": "evidenced",
+      "duplicate_of": null,
+      "duplicate_check_notes": "기존 크리스마스와 날짜만 같고 기념 대상·정부 주최 다름. 전체 월별 JSON 1,734개 이름·ID 및 동일 날짜 항목 대조; 독립 검수 전 판정.",
+      "origin": "인도에서 매년 12월 25일 지키는 거버넌스 기념일로, 아탈 비하리 바지파이 전 총리의 탄생일과 연결된다.",
+      "anecdote": "",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2208145&reg=3&lang=1",
+      "evidence": [
+        {
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2208145&reg=3&lang=1",
+          "publisher": "Press Information Bureau, Government of India",
+          "title": "Press Release Page | Press Information Bureau",
+          "accessed_at": "2026-10-11T06:38:47.610597+00:00",
+          "quote_original": "Good Governance Day\nis observed annually on\nDecember 25\n, the birth anniversary of\nformer Prime Minister Atal Bihari Vajpayee",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/governance.txt",
+          "access_status": "read_body",
+          "citation_id": 8
+        }
+      ],
+      "unverified_fields": [
+        "founding_year",
+        "founding_actor",
+        "date_rationale"
+      ],
+      "notes": "연구 후보; 승인·통합·배포 없음. 미확인 일화는 빈 문자열로 보존."
+    },
+    {
+      "candidate_key": "12-25-constitution",
+      "name_ko": "대만 헌법 시행 기념일",
+      "name_original": "行憲紀念日 / Constitution Day",
+      "date": "12-25",
+      "dateType": "annual-fixed",
+      "scope": "대만",
+      "officiality": "공식 기념일; 2026 정부 달력에 공휴일 근거 수록",
+      "category": "holiday",
+      "status": "evidenced",
+      "duplicate_of": null,
+      "duplicate_check_notes": "한국 제헌절·미국 헌법의 날과 국가·헌법·날짜 다름. 크리스마스의 번역 별칭이 아님. 전체 월별 JSON 1,734개 이름·ID 및 동일 날짜 항목 대조; 독립 검수 전 판정.",
+      "origin": "대만 행정원 인사행정총처 자료는 헌법 시행 기념일을 12월 25일로 정한다.",
+      "anecdote": "총통부는 헌법 채택일이 1946년 12월 25일이고 시행일이 1947년 12월 25일이라고 구분한다.",
+      "sourceUrl": "https://www.dgpa.gov.tw/information?uid=41&pid=12573",
+      "evidence": [
+        {
+          "url": "https://www.dgpa.gov.tw/information?uid=41&pid=12573",
+          "publisher": "行政院人事行政總處",
+          "title": "中華民國一百一十五年政府行政機關辦公日曆表",
+          "accessed_at": "2026-10-11T06:40:13.517323+00:00",
+          "quote_original": "十九、行憲紀念日：十二月二十五日。\n二十、全國客家日：十二月二十八日。\n第四條",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/constitution-dgpa.txt",
+          "access_status": "read_body",
+          "citation_id": 9
+        },
+        {
+          "url": "https://english.president.gov.tw/page/93",
+          "publisher": "Office of the President, Republic of China (Taiwan)",
+          "title": "constitution-president",
+          "accessed_at": "2026-10-11T06:40:03.771611+00:00",
+          "quote_original": "The ROC Constitution was adopted on December 25, 1946, by the National Assembly convened in Nanking. It was promulgated by the National Government on January 1, 1947, and put into effect on December 25 of the same year.",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/constitution-president.txt",
+          "access_status": "read_body",
+          "citation_id": 10
+        }
+      ],
+      "unverified_fields": [
+        "founding_year",
+        "founding_actor",
+        "date_rationale"
+      ],
+      "notes": "연구 후보; 승인·통합·배포 없음. 미확인 일화는 빈 문자열로 보존. D0020033은 폐지 법령이므로 현행 근거로 사용하지 않음. Office Holidays의 adoption 표현은 총통부 채택/시행 구분과 상충하여 사용하지 않음."
+    },
+    {
+      "candidate_key": "12-25-christmas-alias",
+      "name_ko": "성탄절",
+      "name_original": "Christmas Day",
+      "date": "12-25",
+      "dateType": "annual-fixed",
+      "scope": "국제",
+      "officiality": "기존 항목 별칭",
+      "category": "holiday",
+      "status": "rejected_duplicate",
+      "duplicate_of": "anv-fixed-12-25-christmas-global",
+      "duplicate_check_notes": "기존 크리스마스(기독탄신일)와 같은 대상·날짜의 번역 별칭.",
+      "origin": "",
+      "anecdote": "",
+      "sourceUrl": null,
+      "evidence": [],
+      "unverified_fields": [],
+      "notes": "신규 수 제외; src/data/anniversaries/12.json로 확인."
+    }
+  ]
+}

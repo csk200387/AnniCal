@@ -2,7 +2,7 @@ import { computed, onMounted, ref, watch } from 'vue'
 import { useAnniversariesStore } from '@/stores/anniversaries'
 import { buildCalendar } from '@/utils/ics'
 import { SITE_URL } from '@/seo/head'
-import { resolveOccurrenceSafe } from '@/utils/dateUtils'
+import { formatKoreanMonthDay, resolveOccurrenceSafe } from '@/utils/dateUtils'
 import { useNow } from '@/composables/useNow'
 
 export interface CategoryOption {
@@ -136,9 +136,7 @@ export function useCalendarExport() {
         const occurrence = resolveOccurrenceSafe(anniversary, year)
         return {
           id: anniversary.id,
-          dateLabel: occurrence
-            ? `${occurrence.getMonth() + 1}월 ${occurrence.getDate()}일`
-            : '날짜 미정',
+          dateLabel: formatKoreanMonthDay(anniversary, year) ?? '날짜 미정',
           name: anniversary.name,
           sortKey: occurrence
             ? (occurrence.getMonth() + 1) * 100 + occurrence.getDate()

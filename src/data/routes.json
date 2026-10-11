@@ -655,6 +655,14 @@
     "slug": "dog-biscuit-day",
     "urlDate": "02-23"
   },
+  "anv-fixed-02-24-estonia-independence-day": {
+    "slug": "estonia-independence-day",
+    "urlDate": "02-24"
+  },
+  "anv-fixed-02-24-international-scn2a-awareness-day": {
+    "slug": "international-scn2a-awareness-day",
+    "urlDate": "02-24"
+  },
   "anv-fixed-02-24-tortilla-chip-day-us": {
     "slug": "tortilla-chip-day",
     "urlDate": "02-24"
@@ -714,6 +722,14 @@
   "anv-fixed-02-28-tooth-fairy-day-global": {
     "slug": "tooth-fairy-day",
     "urlDate": "02-28"
+  },
+  "anv-fixed-02-29-bachelors-day-ie": {
+    "slug": "bachelors-day-ie",
+    "urlDate": "02-29"
+  },
+  "anv-fixed-02-29-fujiq-day-jp": {
+    "slug": "fujiq-day",
+    "urlDate": "02-29"
   },
   "anv-fixed-03-01-fruit-compote-day-global": {
     "slug": "fruit-compote-day",
@@ -2595,8 +2611,16 @@
     "slug": "wine-day",
     "urlDate": "05-25"
   },
+  "anv-fixed-05-26-australia-national-sorry-day": {
+    "slug": "australia-national-sorry-day",
+    "urlDate": "05-26"
+  },
   "anv-fixed-05-26-blueberry-cheesecake-day-us": {
     "slug": "blueberry-cheesecake-day",
+    "urlDate": "05-26"
+  },
+  "anv-fixed-05-26-national-paper-airplane-day-us": {
+    "slug": "national-paper-airplane-day",
     "urlDate": "05-26"
   },
   "anv-fixed-05-27-cellophane-tape-day-us": {
@@ -2987,8 +3011,16 @@
     "slug": "smile-power-day",
     "urlDate": "06-15"
   },
+  "anv-fixed-06-16-day-of-the-african-child": {
+    "slug": "day-of-the-african-child",
+    "urlDate": "06-16"
+  },
   "anv-fixed-06-16-fudge-day-us": {
     "slug": "fudge-day",
+    "urlDate": "06-16"
+  },
+  "anv-fixed-06-16-international-day-of-family-remittances": {
+    "slug": "international-day-of-family-remittances",
     "urlDate": "06-16"
   },
   "anv-fixed-06-17-apple-strudel-day-us": {
@@ -3319,8 +3351,16 @@
     "slug": "defense-industry-day",
     "urlDate": "07-08"
   },
+  "anv-fixed-07-09-argentina-independence-day": {
+    "slug": "argentina-independence-day",
+    "urlDate": "07-09"
+  },
   "anv-fixed-07-09-sugar-cookie-day-us": {
     "slug": "sugar-cookie-day",
+    "urlDate": "07-09"
+  },
+  "anv-fixed-07-09-world-misophonia-awareness-day": {
+    "slug": "world-misophonia-awareness-day",
     "urlDate": "07-09"
   },
   "anv-fixed-07-10-clerihew-day-us": {
@@ -3491,8 +3531,16 @@
     "slug": "lollipop-day",
     "urlDate": "07-20"
   },
+  "anv-fixed-07-21-belgian-national-day": {
+    "slug": "belgian-national-day",
+    "urlDate": "07-21"
+  },
   "anv-fixed-07-21-junk-food-day-us": {
     "slug": "junk-food-day",
+    "urlDate": "07-21"
+  },
+  "anv-fixed-07-21-singapore-racial-harmony-day": {
+    "slug": "singapore-racial-harmony-day",
     "urlDate": "07-21"
   },
   "anv-fixed-07-22-hammock-day-us": {
@@ -3918,6 +3966,14 @@
   "anv-fixed-08-16-tell-a-joke-day-us": {
     "slug": "tell-a-joke-day",
     "urlDate": "08-16"
+  },
+  "anv-fixed-08-17-black-cat-appreciation-day-us": {
+    "slug": "black-cat-appreciation-day",
+    "urlDate": "08-17"
+  },
+  "anv-fixed-08-17-national-nonprofit-day-us": {
+    "slug": "national-nonprofit-day",
+    "urlDate": "08-17"
   },
   "anv-fixed-08-17-thrift-shop-day-us": {
     "slug": "thrift-shop-day",
@@ -4745,6 +4801,14 @@
   },
   "anv-fixed-10-07-frappe-day-us": {
     "slug": "frappe-day",
+    "urlDate": "10-07"
+  },
+  "anv-fixed-10-07-world-cotton-day": {
+    "slug": "world-cotton-day",
+    "urlDate": "10-07"
+  },
+  "anv-fixed-10-07-world-day-for-decent-work": {
+    "slug": "world-day-for-decent-work",
     "urlDate": "10-07"
   },
   "anv-fixed-10-08-fluffernutter-day-us": {
@@ -5651,6 +5715,14 @@
     "slug": "electronic-greetings-day",
     "urlDate": "11-29"
   },
+  "anv-fixed-11-29-international-day-of-solidarity-with-the-palestinian-people": {
+    "slug": "international-day-of-solidarity-with-the-palestinian-people",
+    "urlDate": "11-29"
+  },
+  "anv-fixed-11-29-international-jaguar-day": {
+    "slug": "international-jaguar-day",
+    "urlDate": "11-29"
+  },
   "anv-fixed-11-30-computer-security-day-global": {
     "slug": "computer-security-day",
     "urlDate": "11-30"
@@ -5915,8 +5987,16 @@
     "slug": "zamenhof-day",
     "urlDate": "12-15"
   },
+  "anv-fixed-12-16-bangladesh-victory-day": {
+    "slug": "bangladesh-victory-day",
+    "urlDate": "12-16"
+  },
   "anv-fixed-12-16-chocolate-covered-anything-day-us": {
     "slug": "chocolate-covered-anything-day",
+    "urlDate": "12-16"
+  },
+  "anv-fixed-12-16-south-africa-day-of-reconciliation": {
+    "slug": "south-africa-day-of-reconciliation",
     "urlDate": "12-16"
   },
   "anv-fixed-12-17-maple-syrup-day-us": {
@@ -6033,6 +6113,14 @@
   },
   "anv-fixed-12-25-christmas-global": {
     "slug": "christmas",
+    "urlDate": "12-25"
+  },
+  "anv-fixed-12-25-india-good-governance-day": {
+    "slug": "india-good-governance-day",
+    "urlDate": "12-25"
+  },
+  "anv-fixed-12-25-taiwan-constitution-day": {
+    "slug": "taiwan-constitution-day",
     "urlDate": "12-25"
   },
   "anv-fixed-12-26-boxing-day-global": {

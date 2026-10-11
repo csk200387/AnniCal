@@ -1,0 +1,973 @@
+{
+  "batch_id": "2026-10-11-sparse-birthdays",
+  "note": "일반 날짜의 신규 조사 후보. 서비스 추가 승인 전이며 Anniversary 직접 입력 형식이 아님.",
+  "records": [
+    {
+      "candidate_key": "02-24-estonia",
+      "name_ko": "에스토니아 독립기념일",
+      "name_original": "Independence Day of Estonia",
+      "date": "02-24",
+      "dateType": "annual-fixed",
+      "scope": "에스토니아",
+      "officiality": "공식 국가 기념일·국경일",
+      "category": "history",
+      "status": "evidenced",
+      "duplicate_of": null,
+      "duplicate_check_notes": "월별 JSON 1,734건 전체의 id·명칭·본문·sourceUrl을 원명/한국어/별칭으로 검색하고 해당 날짜의 resolver 발생일도 검토. 같은 대상·지역·반복 규칙의 항목 없음.",
+      "origin": "매년 2월 24일 에스토니아에서 독립을 기념하는 국가 기념일이다. 1918년 이날 탈린에서 독립선언서가 인쇄·배포된 일을 기린다.",
+      "anecdote": "독립선언서는 2월 23일 패르누에서 먼저 공개 낭독됐다. 매년 2월 24일에는 국방군 퍼레이드, 음악회와 대통령 리셉션 등이 열린다.",
+      "sourceUrl": "https://visitestonia.com/en/what-to-do/february-24-estonias-independence-day",
+      "evidence": [
+        {
+          "url": "https://visitestonia.com/en/what-to-do/february-24-estonias-independence-day",
+          "publisher": "Visit Estonia / Estonian Business and Innovation Agency",
+          "title": "February 24 — Estonia's Independence Day!",
+          "accessed_at": "2026-10-11T06:40:22.962284+00:00",
+          "quote_original": "It was then printed and distributed in Tallinn on February 24, 1918, the date now celebrated as Estonia's Independence Day.",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-a/evidence/estonia.txt",
+          "access_status": "body_read_http_200",
+          "review_note": "원문에서 서로 떨어진 문장을 별도 인용으로 분리",
+          "citation_id": 1
+        },
+        {
+          "url": "https://visitestonia.com/en/what-to-do/february-24-estonias-independence-day",
+          "publisher": "Visit Estonia / Estonian Business and Innovation Agency",
+          "title": "February 24 — Estonia's Independence Day!",
+          "accessed_at": "2026-10-11T06:40:22.962284+00:00",
+          "quote_original": "Each year, February 24th is marked by fireworks, concerts, a parade of the Defense Forces, and a presidential reception.",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-a/evidence/estonia.txt",
+          "access_status": "body_read_http_200",
+          "review_note": "원문에서 서로 떨어진 문장을 별도 인용으로 분리",
+          "citation_id": 1
+        }
+      ],
+      "unverified_fields": [
+        "법정공휴일 법조문은 별도 확인하지 않음"
+      ],
+      "notes": "독립 검수·승인 전 후보. 서비스 반영 없음. 2026/2027/2028 annual-fixed 발생일 검증 대상.",
+      "research_group": "group-a",
+      "track": "new_candidate",
+      "approval_status": "pending",
+      "production_applied": false,
+      "published": false
+    },
+    {
+      "candidate_key": "02-24-scn2a",
+      "name_ko": "국제 SCN2A 인식의 날",
+      "name_original": "International SCN2A Awareness Day",
+      "date": "02-24",
+      "dateType": "annual-fixed",
+      "scope": "국제 / FamilieSCN2A Foundation 캠페인",
+      "officiality": "민간 재단 제정 인식 캠페인; UN 지정일 아님",
+      "category": "campaign",
+      "status": "evidenced",
+      "duplicate_of": null,
+      "duplicate_check_notes": "월별 JSON 1,734건 전체의 id·명칭·본문·sourceUrl을 원명/한국어/별칭으로 검색하고 해당 날짜의 resolver 발생일도 검토. 같은 대상·지역·반복 규칙의 항목 없음.",
+      "origin": "SCN2A 관련 질환에 대한 인식을 높이는 매년 2월 24일의 캠페인이다. FamilieSCN2A Foundation이 2017년 제정했으며, 날짜는 SCN2A 유전자가 2번 염색체의 24.3 위치에 있다는 설명에서 따왔다.",
+      "anecdote": "재단은 파란색·보라색·초록색 옷을 입어 지지를 표현하는 참여 방법을 안내한다.",
+      "sourceUrl": "https://www.scn2a.org/programs-events/events/scn2a-awareness-day/",
+      "evidence": [
+        {
+          "url": "https://www.scn2a.org/programs-events/events/scn2a-awareness-day/",
+          "publisher": "FamilieSCN2A Foundation",
+          "title": "SCN2A Awareness Day",
+          "accessed_at": "2026-10-11T06:40:22.962284+00:00",
+          "quote_original": "In 2017, the FamilieSCN2A Foundation established International SCN2A Awareness Day, celebrated each year on February 24th — a date chosen because the SCN2A gene is located on the long (q) arm of chromosome 2 at position 24.3.",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-a/evidence/scn2a.txt",
+          "access_status": "body_read_http_200",
+          "review_note": "원문에서 서로 떨어진 문장을 별도 인용으로 분리",
+          "citation_id": 2
+        },
+        {
+          "url": "https://www.scn2a.org/programs-events/events/scn2a-awareness-day/",
+          "publisher": "FamilieSCN2A Foundation",
+          "title": "SCN2A Awareness Day",
+          "accessed_at": "2026-10-11T06:40:22.962284+00:00",
+          "quote_original": "Wear blue (autism), purple (epilepsy), or green (movement disorders)",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-a/evidence/scn2a.txt",
+          "access_status": "body_read_http_200",
+          "review_note": "원문에서 서로 떨어진 문장을 별도 인용으로 분리",
+          "citation_id": 2
+        }
+      ],
+      "unverified_fields": [],
+      "notes": "독립 검수·승인 전 후보. 서비스 반영 없음. 2026/2027/2028 annual-fixed 발생일 검증 대상.",
+      "research_group": "group-a",
+      "track": "new_candidate",
+      "approval_status": "pending",
+      "production_applied": false,
+      "published": false
+    },
+    {
+      "candidate_key": "05-26-sorry2",
+      "name_ko": "호주 국가 사과의 날",
+      "name_original": "National Sorry Day",
+      "date": "05-26",
+      "dateType": "annual-fixed",
+      "scope": "호주",
+      "officiality": "전국적 화해·기억의 기념일; 이 근거만으로 법정공휴일이라 부르지 않음",
+      "category": "history",
+      "status": "evidenced",
+      "duplicate_of": null,
+      "duplicate_check_notes": "월별 JSON 1,734건 전체의 id·명칭·본문·sourceUrl을 원명/한국어/별칭으로 검색하고 해당 날짜의 resolver 발생일도 검토. 같은 대상·지역·반복 규칙의 항목 없음.",
+      "origin": "매년 5월 26일 호주에서 원주민과 토레스해협 제도민의 강제 가족 분리 피해를 기억하는 날이다. 처음 열린 날은 1998년 5월 26일로, Bringing Them Home 보고서가 의회에 제출된 지 1년 후였다.",
+      "anecdote": "가족과 공동체에서 강제로 분리된 사람들은 ‘도둑맞은 세대’로 알려져 있다. 이 날은 생존자들의 힘을 인정하고 치유에 함께 참여할 방법을 돌아보자는 취지다.",
+      "sourceUrl": "https://www.reconciliation.org.au/national-sorry-day-2020/",
+      "evidence": [
+        {
+          "url": "https://www.reconciliation.org.au/national-sorry-day-2020/",
+          "publisher": "Reconciliation Australia",
+          "title": "National Sorry Day",
+          "accessed_at": "2026-10-11T06:40:22.962284+00:00",
+          "quote_original": "Every year on 26 May, National Sorry Day remembers and acknowledges the mistreatment of Aboriginal and Torres Strait Islander people who were forcibly removed from their families and communities, which we now know as ‘The Stolen Generations’.",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-a/evidence/sorry2.txt",
+          "access_status": "body_read_http_200",
+          "review_note": "원문에서 서로 떨어진 문장을 별도 인용으로 분리",
+          "citation_id": 3
+        },
+        {
+          "url": "https://www.reconciliation.org.au/national-sorry-day-2020/",
+          "publisher": "Reconciliation Australia",
+          "title": "National Sorry Day",
+          "accessed_at": "2026-10-11T06:40:22.962284+00:00",
+          "quote_original": "The first National Sorry Day was held on 26 May 1998,  one year after the Bringing Them Home report was tabled in Parliament.",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-a/evidence/sorry2.txt",
+          "access_status": "body_read_http_200",
+          "review_note": "원문에서 서로 떨어진 문장을 별도 인용으로 분리",
+          "citation_id": 3
+        }
+      ],
+      "unverified_fields": [
+        "법정 지정 및 공휴일 여부는 별도 법령 미검토"
+      ],
+      "notes": "독립 검수·승인 전 후보. 서비스 반영 없음. 2026/2027/2028 annual-fixed 발생일 검증 대상.",
+      "research_group": "group-a",
+      "track": "new_candidate",
+      "approval_status": "pending",
+      "production_applied": false,
+      "published": false
+    },
+    {
+      "candidate_key": "05-26-paper2",
+      "name_ko": "미국 종이비행기의 날",
+      "name_original": "National Paper Airplane Day",
+      "date": "05-26",
+      "dateType": "annual-fixed",
+      "scope": "미국; 교육기관의 참여 사례 확인",
+      "officiality": "비공식 취미·교육 기념일 (Wikipedia 분류로 확인; 정부 법령 직접 조사 아님)",
+      "category": "academic",
+      "status": "evidenced",
+      "duplicate_of": null,
+      "duplicate_check_notes": "월별 JSON 1,734건 전체의 id·명칭·본문·sourceUrl을 원명/한국어/별칭으로 검색하고 해당 날짜의 resolver 발생일도 검토. 같은 대상·지역·반복 규칙의 항목 없음.",
+      "origin": "미국에서 종이비행기를 접고 날리는 활동을 기념하는 날로, 매년 5월 26일에 돌아온다. Space Center Houston은 이 반복 날짜를 명시하고 집에서도 해 볼 수 있는 항공 체험 활동을 소개한다.",
+      "anecdote": "Space Center Houston은 2025년 기념일 안내에서 종이비행기와 고리 날개 글라이더, 스톰프 로켓 등 체험 활동을 소개했다.",
+      "sourceUrl": "https://spacecenter.org/national-paper-airplane-day-2025/",
+      "evidence": [
+        {
+          "url": "https://spacecenter.org/national-paper-airplane-day-2025/",
+          "publisher": "Space Center Houston",
+          "title": "Get Ready to Take Flight on National Paper Airplane Day!",
+          "accessed_at": "2026-10-11T06:40:22.962284+00:00",
+          "quote_original": "National Paper Airplane Day occurs annually on May 26.\nThis year, we invite you to celebrate our friends in flight with hands-on aircraft activities.",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-a/evidence/paper2.txt",
+          "access_status": "body_read_http_200",
+          "citation_id": 4
+        },
+        {
+          "url": "https://nationaltoday.com/national-paper-airplane-day/",
+          "publisher": "National Today",
+          "title": "National Paper Airplane Day",
+          "accessed_at": "2026-10-11T06:40:22.962284+00:00",
+          "quote_original": "Where:\n United States\n Date change rule:\n Every May 26",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-a/evidence/paper3.txt",
+          "access_status": "body_read_http_200",
+          "citation_id": 5
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/National_Paper_Airplane_Day",
+          "publisher": "Wikipedia contributors",
+          "title": "National Paper Airplane Day",
+          "accessed_at": "2026-10-11T06:40:22.962284+00:00",
+          "quote_original": "National Paper Airplane Day is an unofficial observance, celebrated on May 26 each year in the United States to commemorate the simple aeronautical toy.",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-a/evidence/paperwiki.txt",
+          "access_status": "body_read_http_200",
+          "citation_id": 6
+        }
+      ],
+      "unverified_fields": [
+        "제정 연도",
+        "최초 제정 주체",
+        "5월 26일을 선택한 이유"
+      ],
+      "notes": "독립 검수·승인 전 후보. 서비스 반영 없음. 2026/2027/2028 annual-fixed 발생일 검증 대상.",
+      "research_group": "group-a",
+      "track": "new_candidate",
+      "approval_status": "pending",
+      "production_applied": false,
+      "published": false
+    },
+    {
+      "candidate_key": "06-16-remittances",
+      "name_ko": "국제 가족 송금의 날",
+      "name_original": "International Day of Family Remittances",
+      "date": "06-16",
+      "dateType": "annual-fixed",
+      "scope": "국제 / UN",
+      "officiality": "UN 총회 채택 공식 국제 기념일",
+      "category": "campaign",
+      "status": "evidenced",
+      "duplicate_of": null,
+      "duplicate_check_notes": "월별 JSON 1,734건 전체의 id·명칭·본문·sourceUrl을 원명/한국어/별칭으로 검색하고 해당 날짜의 resolver 발생일도 검토. 같은 대상·지역·반복 규칙의 항목 없음.",
+      "origin": "이주민이 고향의 가족에게 보내는 송금의 기여를 알리는 매년 6월 16일의 국제 기념일이다. UN 총회가 채택한 기념일로, 송금이 가정과 공동체에 미치는 영향을 이해하고 그 효과를 높이는 방법을 찾자는 취지다.",
+      "anecdote": "UN의 설명은 거대한 합계 뒤에 이주 노동자가 정기적으로 보내는 작은 송금이 있다고 강조한다. 가족은 이 돈으로 식비·주거비 등 필요한 지출을 충당한다.",
+      "sourceUrl": "https://www.un.org/en/observances/remittances-day/background",
+      "evidence": [
+        {
+          "url": "https://www.un.org/en/observances/remittances-day/background",
+          "publisher": "United Nations",
+          "title": "International Day of Family Remittances - BACKGROUND",
+          "accessed_at": "2026-10-11T06:40:22.962284+00:00",
+          "quote_original": "The International Day of Family Remittances (IDFR) is a universally-recognized observance adopted by the United Nations General Assembly and celebrated every year on 16 June.",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-a/evidence/remittances.txt",
+          "access_status": "body_read_http_200",
+          "review_note": "원문에서 서로 떨어진 문장을 별도 인용으로 분리",
+          "citation_id": 7
+        },
+        {
+          "url": "https://www.un.org/en/observances/remittances-day/background",
+          "publisher": "United Nations",
+          "title": "International Day of Family Remittances - BACKGROUND",
+          "accessed_at": "2026-10-11T06:40:22.962284+00:00",
+          "quote_original": "But behind the global numbers are individual remittances of US$200 or $300 that migrants send home regularly, so that their families can buy food, pay for housing, and meet necessary expenses.",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-a/evidence/remittances.txt",
+          "access_status": "body_read_http_200",
+          "review_note": "원문에서 서로 떨어진 문장을 별도 인용으로 분리",
+          "citation_id": 7
+        }
+      ],
+      "unverified_fields": [
+        "채택 연도 및 선행 IFAD 제정 연도는 이번 본문에서 확인하지 않아 서술하지 않음"
+      ],
+      "notes": "독립 검수·승인 전 후보. 서비스 반영 없음. 2026/2027/2028 annual-fixed 발생일 검증 대상.",
+      "research_group": "group-a",
+      "track": "new_candidate",
+      "approval_status": "pending",
+      "production_applied": false,
+      "published": false
+    },
+    {
+      "candidate_key": "06-16-african",
+      "name_ko": "아프리카 어린이의 날",
+      "name_original": "Day of the African Child",
+      "date": "06-16",
+      "dateType": "annual-fixed",
+      "scope": "아프리카 / African Union 및 회원국",
+      "officiality": "아프리카통일기구(OAU) 제정·AU 공식 기념일",
+      "category": "history",
+      "status": "evidenced",
+      "duplicate_of": null,
+      "duplicate_check_notes": "월별 JSON 1,734건 전체의 id·명칭·본문·sourceUrl을 원명/한국어/별칭으로 검색하고 해당 날짜의 resolver 발생일도 검토. 같은 대상·지역·반복 규칙의 항목 없음.",
+      "origin": "매년 6월 16일 아프리카연합과 회원국이 아동의 권리를 돌아보는 날이다. 당시 아프리카통일기구(OAU) 정상회의가 1991년 제정했으며, 1976년 6월 16일 남아프리카공화국 소웨토 학생 봉기를 기억한다.",
+      "anecdote": "당시 학생들은 열악한 교육과 아파르트헤이트에 기반한 교육에 항의하고 자신의 언어로 교육받을 권리를 요구했다. 기념일은 아이들의 권리를 지키려 했던 행동을 기억하고 오늘의 과제를 돌아보는 계기다.",
+      "sourceUrl": "https://au.int/en/newsevents/20200616/day-african-child-2020",
+      "evidence": [
+        {
+          "url": "https://au.int/en/newsevents/20200616/day-african-child-2020",
+          "publisher": "African Union",
+          "title": "Day of the African Child 2020",
+          "accessed_at": "2026-10-11T06:40:22.962284+00:00",
+          "quote_original": "Like every year on 16 June, the African Union and its Member States observe the Day of the African Child (DAC) as a commemoration of the 16th June 1976 student uprising in Soweto, South Africa, where students who marched in protest against apartheid-inspired education, were brutally murdered.",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-a/evidence/african.txt",
+          "access_status": "body_read_http_200",
+          "review_note": "원문에서 서로 떨어진 문장을 별도 인용으로 분리",
+          "citation_id": 8
+        },
+        {
+          "url": "https://au.int/en/newsevents/20200616/day-african-child-2020",
+          "publisher": "African Union",
+          "title": "Day of the African Child 2020",
+          "accessed_at": "2026-10-11T06:40:22.962284+00:00",
+          "quote_original": "In 1991, the Assembly of Heads of State and Government of the then OAU instituted the Day of the African Child (DAC) in memory of the 16th June 1976 student uprising in Soweto, South Africa.",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-a/evidence/african.txt",
+          "access_status": "body_read_http_200",
+          "review_note": "원문에서 서로 떨어진 문장을 별도 인용으로 분리",
+          "citation_id": 8
+        }
+      ],
+      "unverified_fields": [],
+      "notes": "독립 검수·승인 전 후보. 서비스 반영 없음. 2026/2027/2028 annual-fixed 발생일 검증 대상.",
+      "research_group": "group-a",
+      "track": "new_candidate",
+      "approval_status": "pending",
+      "production_applied": false,
+      "published": false
+    },
+    {
+      "candidate_key": "07-09-world-misophonia-awareness-day",
+      "name_ko": "세계 미소포니아 인식의 날",
+      "name_original": "World Misophonia Awareness Day",
+      "date": "07-09",
+      "dateType": "annual-fixed",
+      "scope": "국제 시민사회 캠페인; soQuiet와 여러 나라 연구·옹호 단체 참여",
+      "officiality": "민간 단체가 선언한 인식 개선일; UN·국가 법정기념일로 확인한 것은 아님",
+      "category": "campaign",
+      "status": "evidenced",
+      "duplicate_of": null,
+      "duplicate_check_notes": "전역 1,734건의 이름·id에서 misophonia/소포니/소리혐오 일치 없음. 기존 음식 기념일과 대상·주최·범위가 다름.",
+      "origin": "매년 7월 9일 미소포니아에 대한 이해와 지원을 넓히기 위한 국제 캠페인이다. soQuiet와 관련 단체들이 공동으로 알리고 있다.",
+      "anecdote": "캠페인 운영 사이트는 2024년 11월에 이 날을 선언했고 2025년 7월 처음 기념했다고 설명한다. 선언 시점과 첫 행사 연도는 서로 구분해야 한다.",
+      "sourceUrl": "https://www.soquiet.org/blog/world-misophonia-awareness-day",
+      "evidence": [
+        {
+          "url": "https://www.soquiet.org/blog/world-misophonia-awareness-day",
+          "accessed_at": "2026-10-11T06:38:38.534944+00:00",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-b/evidence/misophonia.txt",
+          "access_status": "read",
+          "publisher": "soQuiet",
+          "title": "World Misophonia Awareness Day brings together organizations from around the globe.  — soQuiet Misophonia Advocacy",
+          "quote_original": "World Misophonia Awareness Day will be observed annually on July 9th.",
+          "citation_id": 9
+        },
+        {
+          "url": "https://www.soquiet.org/blog/world-misophonia-awareness-day",
+          "accessed_at": "2026-10-11T06:38:38.534944+00:00",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-b/evidence/misophonia.txt",
+          "access_status": "read",
+          "publisher": "soQuiet",
+          "title": "World Misophonia Awareness Day brings together organizations from around the globe.  — soQuiet Misophonia Advocacy",
+          "quote_original": "Organizations dedicated to misophonia, a condition marked by intense emotional and physical reactions to certain sounds, have come together internationally to establish July 9th as World Misophonia Awareness Day.",
+          "citation_id": 9
+        },
+        {
+          "url": "https://www.misophoniaday.com/",
+          "accessed_at": "2026-10-11T06:38:38.535398+00:00",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-b/evidence/misophonia-site.txt",
+          "access_status": "read",
+          "publisher": "World Misophonia Awareness Day / soQuiet",
+          "title": "World Misophonia Awareness Day | July 9th",
+          "quote_original": "World Misophonia Awareness Day was declared in November of 2024 by soQuiet, a nonprofit misophonia advocacy and support organization, with the support of the Del Valle family. In July of 2025, the Day was first observed in partnership with the organizations and entities below.",
+          "citation_id": 10
+        }
+      ],
+      "unverified_fields": [
+        "국제기구 또는 각국의 법적 지정 여부"
+      ],
+      "notes": "보건·추모 소재. 유래에 사망 사례가 있으므로 생일용 유머·밈 없이 존중하는 편집 필요.",
+      "research_group": "group-b",
+      "track": "new_candidate",
+      "approval_status": "pending",
+      "production_applied": false,
+      "published": false
+    },
+    {
+      "candidate_key": "07-09-argentina-independence-day",
+      "name_ko": "아르헨티나 독립기념일",
+      "name_original": "Día de la Independencia de la República Argentina",
+      "date": "07-09",
+      "dateType": "annual-fixed",
+      "scope": "아르헨티나",
+      "officiality": "아르헨티나 고정 공휴일; 국립대학 자료에서 Feriado inamovible 확인",
+      "category": "history",
+      "status": "evidenced",
+      "duplicate_of": null,
+      "duplicate_check_notes": "Argentina/아르헨티나 독립일에 해당하는 이름·id 없음. 기존 미국 독립기념일(07-04)은 국가·기념 사건·날짜가 다름.",
+      "origin": "아르헨티나는 매년 7월 9일 독립기념일을 기념한다. 날짜를 옮기지 않는 공휴일로 안내되며 1816년 독립 선언을 기린다.",
+      "anecdote": "정부 자료는 1816년 7월 9일 투쿠만 의회가 독립을 선언했다고 설명한다. 1816년은 기념 대상 사건의 연도이지 공휴일 제정 연도로 확인된 것은 아니다.",
+      "sourceUrl": "https://www.unc.edu.ar/gesti%C3%B3n/feriado-inamovible-d%C3%ADa-de-la-independencia",
+      "evidence": [
+        {
+          "url": "https://www.unc.edu.ar/gesti%C3%B3n/feriado-inamovible-d%C3%ADa-de-la-independencia",
+          "accessed_at": "2026-10-11T06:39:13.636627+00:00",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-b/evidence/argentina-unc.txt",
+          "access_status": "read",
+          "publisher": "Universidad Nacional de Córdoba",
+          "title": "Feriado inamovible: Día de la Independencia | Universidad Nacional de Córdoba",
+          "quote_original": "El Día de la Independencia de la República Argentina se celebra todos los 9 de julio de cada año",
+          "citation_id": 11
+        },
+        {
+          "url": "https://www.unc.edu.ar/gesti%C3%B3n/feriado-inamovible-d%C3%ADa-de-la-independencia",
+          "accessed_at": "2026-10-11T06:39:13.636627+00:00",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-b/evidence/argentina-unc.txt",
+          "access_status": "read",
+          "publisher": "Universidad Nacional de Córdoba",
+          "title": "Feriado inamovible: Día de la Independencia | Universidad Nacional de Córdoba",
+          "quote_original": "Feriado inamovible: Día de la Independencia",
+          "citation_id": 11
+        },
+        {
+          "url": "https://www.casarosada.gob.ar/international/latest-news/50572-9-july-argentine-independence-day",
+          "accessed_at": "2026-10-11T06:38:38.535634+00:00",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-b/evidence/argentina.txt",
+          "access_status": "read",
+          "publisher": "Casa Rosada / 아르헨티나 대통령실",
+          "title": "9 July: Argentine Independence Day",
+          "quote_original": "On 9 July 1816, after nine hours of intense debate, the Congress of Tucumán declared Independence.",
+          "citation_id": 12
+        }
+      ],
+      "unverified_fields": [
+        "독립기념일 최초 제정 연도·제정 법령"
+      ],
+      "notes": "1816년을 기념일 창설 연도로 쓰지 않음.",
+      "research_group": "group-b",
+      "track": "new_candidate",
+      "approval_status": "pending",
+      "production_applied": false,
+      "published": false
+    },
+    {
+      "candidate_key": "07-21-belgian-national-day",
+      "name_ko": "벨기에 국경일",
+      "name_original": "Belgian National Day",
+      "date": "07-21",
+      "dateType": "annual-fixed",
+      "scope": "벨기에",
+      "officiality": "벨기에 국가 공휴일; 브뤼셀 시·미 육군 베네룩스 자료 확인",
+      "category": "history",
+      "status": "evidenced",
+      "duplicate_of": null,
+      "duplicate_check_notes": "Belgian/Belgium/벨기에 이름·id 일치 없음. 아르헨티나·미국 독립일과 국가 및 기념 사건이 다름.",
+      "origin": "7월 21일은 벨기에 국경일이다. 브뤼셀 시는 이 날을 Belgian National Holiday로 안내한다.",
+      "anecdote": "이 날은 1831년 7월 21일 레오폴드가 헌법에 충성을 맹세하고 벨기에의 첫 국왕이 된 사건을 기린다. 사건 연도와 국경일 제정 연도를 혼동하지 않는다.",
+      "sourceUrl": "https://www.brussels.be/national-day",
+      "evidence": [
+        {
+          "url": "https://www.brussels.be/national-day",
+          "accessed_at": "2026-10-11T06:38:38.536238+00:00",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-b/evidence/belgium.txt",
+          "access_status": "read",
+          "publisher": "City of Brussels",
+          "title": "National Day in the Park | City of Brussels",
+          "quote_original": "July 21st is the Belgian National Holiday.",
+          "citation_id": 13
+        },
+        {
+          "url": "https://home.army.mil/benelux/my-fort/news/celebrating-belgiums-national-day-1",
+          "accessed_at": "2026-10-11T06:38:38.536366+00:00",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-b/evidence/belgium-history.txt",
+          "access_status": "read",
+          "publisher": "U.S. Army Garrison Benelux",
+          "title": "Celebrating Belgium’s National Day",
+          "quote_original": "Belgian National Day commemorates an event that occurred July 21, 1831. On that day, Leopold of Saxe-Cobourg swore allegiance to the new Belgian Constitution and became the first King of the Belgians.",
+          "citation_id": 14
+        },
+        {
+          "url": "https://home.army.mil/benelux/my-fort/news/celebrating-belgiums-national-day-1",
+          "accessed_at": "2026-10-11T06:38:38.536366+00:00",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-b/evidence/belgium-history.txt",
+          "access_status": "read",
+          "publisher": "U.S. Army Garrison Benelux",
+          "title": "Celebrating Belgium’s National Day",
+          "quote_original": "July 21 is a day of national pride for Belgians, who celebrate this public holiday with concerts, parties, fireworks and other festive events.",
+          "citation_id": 14
+        }
+      ],
+      "unverified_fields": [
+        "국경일 제정 연도·최초 법령",
+        "프랑스어·네덜란드어 공식 명칭 원문 검증"
+      ],
+      "notes": "원명은 실제 읽은 영어 자료의 명칭 사용. 1831년을 국경일 제정 연도로 단정하지 않음.",
+      "research_group": "group-b",
+      "track": "new_candidate",
+      "approval_status": "pending",
+      "production_applied": false,
+      "published": false
+    },
+    {
+      "candidate_key": "07-21-singapore-racial-harmony-day",
+      "name_ko": "싱가포르 인종 화합의 날",
+      "name_original": "Racial Harmony Day",
+      "date": "07-21",
+      "dateType": "annual-fixed",
+      "scope": "싱가포르; 학교 교육 중심",
+      "officiality": "교육부가 매년 기념하는 교육 기념일; 공휴일 여부는 이 조사에서 확인하지 않음",
+      "category": "culture",
+      "status": "evidenced",
+      "duplicate_of": null,
+      "duplicate_check_notes": "Racial Harmony/인종 화합/민족 화합에 해당하는 이름·id 없음. 다른 인종·문화 관련 캠페인의 번역명 대체가 아니라 싱가포르 학교 중심 기념일.",
+      "origin": "싱가포르 학교들은 매년 7월 21일 인종 화합의 날을 기념하며 학생들이 인종 간 화합과 사회적 결속을 이해하도록 돕는다.",
+      "anecdote": "2025년 교육부 자료에는 학생과 교직원의 기념 활동이 7월 18일 열렸다고 나온다. 실제 행사일이 앞당겨졌더라도 같은 자료는 기념일 자체가 7월 21일이며 매년 기념한다고 명시한다.",
+      "sourceUrl": "https://www.moe.gov.sg/news/press-releases/20250718-racial-harmony-day-2025-our-people-our-tapestry",
+      "evidence": [
+        {
+          "url": "https://www.moe.gov.sg/news/press-releases/20250718-racial-harmony-day-2025-our-people-our-tapestry",
+          "accessed_at": "2026-10-11T06:39:13.376324+00:00",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-b/evidence/racial-moe.txt",
+          "access_status": "read",
+          "publisher": "Singapore Ministry of Education",
+          "title": "Racial Harmony Day 2025 Our People, Our Tapestry | MOE",
+          "quote_original": "Racial Harmony Day (RHD), which falls on 21 July, is commemorated annually by schools to enable students to gain a deeper appreciation of racial harmony and social cohesion.",
+          "citation_id": 15
+        },
+        {
+          "url": "https://www.moe.gov.sg/news/press-releases/20250718-racial-harmony-day-2025-our-people-our-tapestry",
+          "accessed_at": "2026-10-11T06:39:13.376324+00:00",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-b/evidence/racial-moe.txt",
+          "access_status": "read",
+          "publisher": "Singapore Ministry of Education",
+          "title": "Racial Harmony Day 2025 Our People, Our Tapestry | MOE",
+          "quote_original": "joined students and staff at Mayflower Secondary School to commemorate RHD on 18 July.",
+          "citation_id": 15
+        },
+        {
+          "url": "https://www.sg101.gov.sg/resources/archives/racial-harmony-2026/",
+          "accessed_at": "2026-10-11T06:38:38.536094+00:00",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-b/evidence/racial-annual.txt",
+          "access_status": "read",
+          "publisher": "SG101 / Singapore government",
+          "title": "Racial Harmony Day 2026 | SG101",
+          "quote_original": "Every year on 21 July, we commemorate Racial Harmony Day to remind ourselves that everyone has a role to play to build a harmonious society, and that our diversity can be a source of strength for the common good.",
+          "citation_id": 16
+        }
+      ],
+      "unverified_fields": [
+        "최초 제정 연도·제정 배경",
+        "법정공휴일 여부"
+      ],
+      "notes": "NLB 검색 결과의 1997년·1964년 설명은 본문이 빈 JS 셸이라 근거 제외.",
+      "research_group": "group-b",
+      "track": "new_candidate",
+      "approval_status": "pending",
+      "production_applied": false,
+      "published": false
+    },
+    {
+      "candidate_key": "08-17-black-cat-appreciation-day",
+      "name_ko": "검은 고양이 감사의 날",
+      "name_original": "Black Cat Appreciation Day",
+      "date": "08-17",
+      "dateType": "annual-fixed",
+      "scope": "미국 동물보호단체·입양 캠페인에서 확인; FOUR PAWS 미국 사이트 참여",
+      "officiality": "민간 동물보호 캠페인; 법정기념일로 확인하지 않음",
+      "category": "animal",
+      "status": "evidenced",
+      "duplicate_of": null,
+      "duplicate_check_notes": "black cat/검은 고양이/흑묘 이름·id 일치 없음. 세계 고양이의 날(08-08), 한국 고양이의 날(09-09), 미국 고양이의 날(10-29), 길고양이의 날(10-16)과 대상·캠페인 날짜가 다름.",
+      "origin": "검은 고양이에 대한 편견을 줄이고 보호소 고양이의 입양을 권하는 민간 기념일이다. FOUR PAWS 미국 사이트는 매년 8월 17일 기념하도록 안내한다.",
+      "anecdote": "ASPCA는 2017년 이 기념일에 맞춰 8월 17일 검은 고양이 입양 캠페인을 안내했다. 할인 조건은 그 해 행사 내용이며 매년 반복되는 기념일의 일반 규칙으로 쓰지 않는다.",
+      "sourceUrl": "https://www.fourpawsusa.org/campaigns-topics/topics/companion-animals/black-cat-appreciation-day",
+      "evidence": [
+        {
+          "url": "https://www.fourpawsusa.org/campaigns-topics/topics/companion-animals/black-cat-appreciation-day",
+          "accessed_at": "2026-10-11T06:38:39.846338+00:00",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-b/evidence/black-cat.txt",
+          "access_status": "read",
+          "publisher": "FOUR PAWS USA",
+          "title": "Black Cat Appreciation Day - FOUR PAWS in US - Global Animal Protection Organization",
+          "quote_original": "Here at FOUR PAWS we invite everyone to celebrate the 17th of August this year and every year.",
+          "citation_id": 17
+        },
+        {
+          "url": "https://www.fourpawsusa.org/campaigns-topics/topics/companion-animals/black-cat-appreciation-day",
+          "accessed_at": "2026-10-11T06:38:39.846338+00:00",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-b/evidence/black-cat.txt",
+          "access_status": "read",
+          "publisher": "FOUR PAWS USA",
+          "title": "Black Cat Appreciation Day - FOUR PAWS in US - Global Animal Protection Organization",
+          "quote_original": "This special day of the year is now used to remind us all of the value of black cats, to dispel prejudices and to encourage people to give a new home to black cats left behind at animal shelters.",
+          "citation_id": 17
+        },
+        {
+          "url": "https://www.aspca.org/news/its-black-cat-appreciation-day",
+          "accessed_at": "2026-10-11T06:38:39.983935+00:00",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-b/evidence/black-cat-aspca.txt",
+          "access_status": "read",
+          "publisher": "ASPCA",
+          "title": "Celebrate Black Cat Appreciation Day on August 17! | ASPCA",
+          "quote_original": "Celebrate Black Cat Appreciation Day on August 17!",
+          "citation_id": 18
+        }
+      ],
+      "unverified_fields": [
+        "창설자의 이름·창설 경위 독립 확인",
+        "법적 지정 여부"
+      ],
+      "notes": "FOUR PAWS 본문 첫 문장의 August1은 각주 번호 결합으로 보임. 정확한 날짜 근거는 별도 문장 사용. 고양이 색깔에 따른 입양률 일반화는 본문에 넣지 않음.",
+      "research_group": "group-b",
+      "track": "new_candidate",
+      "approval_status": "pending",
+      "production_applied": false,
+      "published": false
+    },
+    {
+      "candidate_key": "08-17-national-nonprofit-day-us",
+      "name_ko": "미국 비영리단체의 날",
+      "name_original": "National Nonprofit Day",
+      "date": "08-17",
+      "dateType": "annual-fixed",
+      "scope": "미국 비영리단체·자선단체 캠페인",
+      "officiality": "민간 감사·인식 개선 기념일; 국가 법정기념일로 확인한 것은 아님",
+      "category": "career",
+      "status": "evidenced",
+      "duplicate_of": null,
+      "duplicate_check_notes": "nonprofit day/비영리단체의 날 이름·id 일치 없음. 국제 자선의 날(09-05), 기부의 날(12월 둘째 월요일)은 대상·운영 범위·날짜가 다름.",
+      "origin": "미국에서 매년 8월 17일 비영리단체와 자선단체가 지역사회와 세계에 기여하는 노력을 기리는 민간 기념일이다.",
+      "anecdote": "Paws for Purple Hearts는 Sherita J. Herring이 사람들의 참여를 교육·격려하고 삶을 개선하는 활동을 인정하기 위해 이 날을 만들었다고 설명한다.",
+      "sourceUrl": "https://www.pawsforpurplehearts.org/blog/national-nonprofit-day",
+      "evidence": [
+        {
+          "url": "https://www.pawsforpurplehearts.org/blog/national-nonprofit-day",
+          "accessed_at": "2026-10-11T06:38:39.041226+00:00",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-b/evidence/nonprofit-org.txt",
+          "access_status": "read",
+          "publisher": "Paws for Purple Hearts",
+          "title": "NATIONAL NONPROFIT DAY — Paws for Purple Hearts",
+          "quote_original": "Did you know that every year, August 17th is a day dedicated to recognize the tremendous effort nonprofits and charities put into making an impact in their communities and across the globe?",
+          "citation_id": 19
+        },
+        {
+          "url": "https://www.pawsforpurplehearts.org/blog/national-nonprofit-day",
+          "accessed_at": "2026-10-11T06:38:39.041226+00:00",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-b/evidence/nonprofit-org.txt",
+          "access_status": "read",
+          "publisher": "Paws for Purple Hearts",
+          "title": "NATIONAL NONPROFIT DAY — Paws for Purple Hearts",
+          "quote_original": "Sherita J. Herring, a renowned speaker, best-selling author and business strategist, founded National Nonprofit Day with the intent to educate, enlighten, and empower others to make a difference, while also acknowledging those that are working to impact and improve lives every day.",
+          "citation_id": 19
+        }
+      ],
+      "unverified_fields": [
+        "최초 제정 연도",
+        "8월 17일 선택 이유의 법률사적 정확성",
+        "국가 법정 지정 여부"
+      ],
+      "notes": "National Day Calendar 403으로 대체 기관 본문 사용. 1894년 법안 날짜 주장은 독립 법령 원문 검증 전 편집에서 제외.",
+      "research_group": "group-b",
+      "track": "new_candidate",
+      "approval_status": "pending",
+      "production_applied": false,
+      "published": false
+    },
+    {
+      "candidate_key": "10-07-cotton",
+      "name_ko": "세계 면화의 날",
+      "name_original": "World Cotton Day",
+      "date": "10-07",
+      "dateType": "annual-fixed",
+      "scope": "국제",
+      "officiality": "UN 공식 기념일",
+      "category": "campaign",
+      "status": "evidenced",
+      "duplicate_of": null,
+      "duplicate_check_notes": "솜사탕의 날과 산업 대상·날짜 다름. 전체 월별 JSON 1,734개 이름·ID 및 동일 날짜 항목 대조; 독립 검수 전 판정.",
+      "origin": "매년 10월 7일 면화 산업의 역할을 알리는 국제 기념일이다.",
+      "anecdote": "",
+      "sourceUrl": "https://www.fao.org/world-cotton-day/en",
+      "evidence": [
+        {
+          "url": "https://www.fao.org/world-cotton-day/en",
+          "publisher": "FAO",
+          "title": "World Cotton Day | 7 October",
+          "accessed_at": "2026-10-11T06:38:46.675959+00:00",
+          "quote_original": "recognised the unique benefits of cotton by proclaiming 7\n October of each year as World Cotton Day.",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/cotton.txt",
+          "access_status": "read_body",
+          "citation_id": 20
+        }
+      ],
+      "unverified_fields": [
+        "founding_year",
+        "founding_actor",
+        "date_rationale"
+      ],
+      "notes": "연구 후보; 승인·통합·배포 없음. 미확인 일화는 빈 문자열로 보존.",
+      "research_group": "group-c",
+      "track": "new_candidate",
+      "approval_status": "pending",
+      "production_applied": false,
+      "published": false
+    },
+    {
+      "candidate_key": "10-07-decent",
+      "name_ko": "세계 양질의 일자리의 날",
+      "name_original": "World Day for Decent Work",
+      "date": "10-07",
+      "dateType": "annual-fixed",
+      "scope": "국제",
+      "officiality": "국제 노동조합 캠페인; UN 제정 기념일 아님",
+      "category": "career",
+      "status": "evidenced",
+      "duplicate_of": null,
+      "duplicate_check_notes": "gov-19 노동절 및 미국 노동절과 원명·날짜·주최 캠페인 다름. 전체 월별 JSON 1,734개 이름·ID 및 동일 날짜 항목 대조; 독립 검수 전 판정.",
+      "origin": "10월 7일 양질의 일자리를 강조하는 세계 캠페인이다. ILO 본문은 ITUC 발의를 확인한다.",
+      "anecdote": "",
+      "sourceUrl": "https://www.ilo.org/resource/news/world-day-decent-work-prioritizing-ilo-global-call-action",
+      "evidence": [
+        {
+          "url": "https://www.ilo.org/resource/news/world-day-decent-work-prioritizing-ilo-global-call-action",
+          "publisher": "International Labour Organization",
+          "title": "World Day for Decent Work: Prioritizing ILO Global Call to Action | International Labour Organization",
+          "accessed_at": "2026-10-11T06:39:14.742152+00:00",
+          "quote_original": "The Trade Union Federation of Uzbekistan held a webinar on post-COVID employment recovery to commemorate the World Day for Decent Work celebrated worldwide on 7 October upon the initiative of the International Trade Union Confederation (ITUC).",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/decent-ilo.txt",
+          "access_status": "read_body",
+          "citation_id": 21
+        },
+        {
+          "url": "https://anydayguide.com/calendar/4329",
+          "publisher": "AnydayGuide",
+          "title": "World Day for Decent Work / October 7, 2026",
+          "accessed_at": "2026-10-11T06:39:25.902674+00:00",
+          "quote_original": "is observed annually on October 7.",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/decent-recurring.txt",
+          "access_status": "read_body",
+          "citation_id": 22
+        }
+      ],
+      "unverified_fields": [
+        "founding_year",
+        "date_rationale"
+      ],
+      "notes": "연구 후보; 승인·통합·배포 없음. 미확인 일화는 빈 문자열로 보존.",
+      "research_group": "group-c",
+      "track": "new_candidate",
+      "approval_status": "pending",
+      "production_applied": false,
+      "published": false
+    },
+    {
+      "candidate_key": "11-29-palestine",
+      "name_ko": "팔레스타인 민중과의 국제 연대의 날",
+      "name_original": "International Day of Solidarity with the Palestinian People",
+      "date": "11-29",
+      "dateType": "annual-fixed",
+      "scope": "국제",
+      "officiality": "UN 공식 기념일",
+      "category": "campaign",
+      "status": "evidenced",
+      "duplicate_of": null,
+      "duplicate_check_notes": "전역 이름·ID에 팔레스타인 연대 기념일 없음. 전체 월별 JSON 1,734개 이름·ID 및 동일 날짜 항목 대조; 독립 검수 전 판정.",
+      "origin": "유엔 총회가 11월 29일의 연례 기념을 요청한 국제 연대의 날이다.",
+      "anecdote": "",
+      "sourceUrl": "https://www.un.org/en/observances/international-day-of-solidarity-with-the-palestinian-people",
+      "evidence": [
+        {
+          "url": "https://www.un.org/en/observances/international-day-of-solidarity-with-the-palestinian-people",
+          "publisher": "United Nations",
+          "title": "International Day of Solidarity with the Palestinian People | United Nations",
+          "accessed_at": "2026-10-11T06:38:45.787147+00:00",
+          "quote_original": "In 1977, the General Assembly called for the annual observance of 29 November as the International Day of Solidarity with the Palestinian People (",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/palestine.txt",
+          "access_status": "read_body",
+          "citation_id": 23
+        }
+      ],
+      "unverified_fields": [
+        "founding_year",
+        "founding_actor",
+        "date_rationale"
+      ],
+      "notes": "연구 후보; 승인·통합·배포 없음. 미확인 일화는 빈 문자열로 보존. UN 실제 2025 회의는 11-25로 11-29 기념일과 구분.",
+      "research_group": "group-c",
+      "track": "new_candidate",
+      "approval_status": "pending",
+      "production_applied": false,
+      "published": false
+    },
+    {
+      "candidate_key": "11-29-jaguar",
+      "name_ko": "국제 재규어의 날",
+      "name_original": "International Jaguar Day",
+      "date": "11-29",
+      "dateType": "annual-fixed",
+      "scope": "국제; 재규어 서식 국가 중심",
+      "officiality": "국제 보전 캠페인; UN 총회 제정 여부 미확인",
+      "category": "animal",
+      "status": "evidenced",
+      "duplicate_of": null,
+      "duplicate_check_notes": "전역 이름·ID에 jaguar/재규어 없음; 일반 동물 기념일과 종·날짜 다름. 전체 월별 JSON 1,734개 이름·ID 및 동일 날짜 항목 대조; 독립 검수 전 판정.",
+      "origin": "매년 11월 29일 재규어 보전에 대한 관심을 높이는 날이다.",
+      "anecdote": "",
+      "sourceUrl": "https://www.internationaljaguarday.org/",
+      "evidence": [
+        {
+          "url": "https://www.internationaljaguarday.org/",
+          "publisher": "International Jaguar Day 공식 캠페인",
+          "title": "November 29",
+          "accessed_at": "2026-10-11T06:38:45.189678+00:00",
+          "quote_original": "Observed annually on\nNovember 29,\nInternational Jaguar Day celebrates the",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/jaguar.txt",
+          "access_status": "read_body",
+          "citation_id": 24
+        }
+      ],
+      "unverified_fields": [
+        "founding_year",
+        "founding_actor",
+        "date_rationale"
+      ],
+      "notes": "연구 후보; 승인·통합·배포 없음. 미확인 일화는 빈 문자열로 보존.",
+      "research_group": "group-c",
+      "track": "new_candidate",
+      "approval_status": "pending",
+      "production_applied": false,
+      "published": false
+    },
+    {
+      "candidate_key": "12-16-reconciliation",
+      "name_ko": "남아프리카공화국 화해의 날",
+      "name_original": "Day of Reconciliation",
+      "date": "12-16",
+      "dateType": "annual-fixed",
+      "scope": "남아프리카공화국",
+      "officiality": "국가 공휴일",
+      "category": "holiday",
+      "status": "evidenced",
+      "duplicate_of": null,
+      "duplicate_check_notes": "미국 04-02 화해의 날 및 개인관계 화해의 날들과 국가·통합 목적·공휴일 지위 다름. 전체 월별 JSON 1,734개 이름·ID 및 동일 날짜 항목 대조; 독립 검수 전 판정.",
+      "origin": "남아프리카공화국에서 매년 12월 16일 지키는 화해와 국가 통합을 위한 공휴일이다.",
+      "anecdote": "대통령실은 아파르트헤이트 종료 후 1995년부터 시행됐다고 설명한다.",
+      "sourceUrl": "https://www.thepresidency.gov.za/president-ramaphosa-deliver-national-day-reconciliation-address",
+      "evidence": [
+        {
+          "url": "https://www.thepresidency.gov.za/president-ramaphosa-deliver-national-day-reconciliation-address",
+          "publisher": "The Presidency, South Africa",
+          "title": "President Ramaphosa to deliver National Day of Reconciliation address | The Presidency",
+          "accessed_at": "2026-10-11T06:38:47.991717+00:00",
+          "quote_original": "The National Day of Reconciliation is a public holiday in South Africa held annually on 16 December. The holiday came into effect in 1995 after the end of apartheid, intending to foster reconciliation and national unity for the country.",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/reconciliation.txt",
+          "access_status": "read_body",
+          "citation_id": 25
+        }
+      ],
+      "unverified_fields": [
+        "founding_actor",
+        "date_rationale"
+      ],
+      "notes": "연구 후보; 승인·통합·배포 없음. 미확인 일화는 빈 문자열로 보존.",
+      "research_group": "group-c",
+      "track": "new_candidate",
+      "approval_status": "pending",
+      "production_applied": false,
+      "published": false
+    },
+    {
+      "candidate_key": "12-16-victory",
+      "name_ko": "방글라데시 승리의 날",
+      "name_original": "Victory Day (Bijoy Dibosh)",
+      "date": "12-16",
+      "dateType": "annual-fixed",
+      "scope": "방글라데시",
+      "officiality": "국가 공휴일",
+      "category": "holiday",
+      "status": "evidenced",
+      "duplicate_of": null,
+      "duplicate_check_notes": "전역 이름·ID에 방글라데시 승리의 날 없음; 다른 국가 승전 기념일과 국가·사건 다름. 전체 월별 JSON 1,734개 이름·ID 및 동일 날짜 항목 대조; 독립 검수 전 판정.",
+      "origin": "방글라데시에서 12월 16일 해방전쟁의 승리를 기리는 날이다. 정부 군사기관은 공휴일로 기념한다고 명시한다.",
+      "anecdote": "",
+      "sourceUrl": "https://afd.gov.bd/media/important-occations/victory-day",
+      "evidence": [
+        {
+          "url": "https://afd.gov.bd/media/important-occations/victory-day",
+          "publisher": "Armed Forces Division, Bangladesh",
+          "title": "Victory Day | Armed Forces Division(AFD)",
+          "accessed_at": "2026-10-11T06:38:45.425992+00:00",
+          "quote_original": "is celebrated on 16 December commemorating the ultimate victory in our Liberation War in 1971.",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/victory.txt",
+          "access_status": "read_body",
+          "citation_id": 26
+        }
+      ],
+      "unverified_fields": [
+        "founding_year",
+        "founding_actor",
+        "date_rationale"
+      ],
+      "notes": "연구 후보; 승인·통합·배포 없음. 미확인 일화는 빈 문자열로 보존.",
+      "research_group": "group-c",
+      "track": "new_candidate",
+      "approval_status": "pending",
+      "production_applied": false,
+      "published": false
+    },
+    {
+      "candidate_key": "12-25-governance",
+      "name_ko": "인도 좋은 거버넌스의 날",
+      "name_original": "Good Governance Day",
+      "date": "12-25",
+      "dateType": "annual-fixed",
+      "scope": "인도",
+      "officiality": "인도 정부 공식 기념일; 공휴일 여부 미확인",
+      "category": "general",
+      "status": "evidenced",
+      "duplicate_of": null,
+      "duplicate_check_notes": "기존 크리스마스와 날짜만 같고 기념 대상·정부 주최 다름. 전체 월별 JSON 1,734개 이름·ID 및 동일 날짜 항목 대조; 독립 검수 전 판정.",
+      "origin": "인도에서 매년 12월 25일 지키는 거버넌스 기념일로, 아탈 비하리 바지파이 전 총리의 탄생일과 연결된다.",
+      "anecdote": "",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2208145&reg=3&lang=1",
+      "evidence": [
+        {
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2208145&reg=3&lang=1",
+          "publisher": "Press Information Bureau, Government of India",
+          "title": "Press Release Page | Press Information Bureau",
+          "accessed_at": "2026-10-11T06:38:47.610597+00:00",
+          "quote_original": "Good Governance Day\nis observed annually on\nDecember 25\n, the birth anniversary of\nformer Prime Minister Atal Bihari Vajpayee",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/governance.txt",
+          "access_status": "read_body",
+          "citation_id": 27
+        }
+      ],
+      "unverified_fields": [
+        "founding_year",
+        "founding_actor",
+        "date_rationale"
+      ],
+      "notes": "연구 후보; 승인·통합·배포 없음. 미확인 일화는 빈 문자열로 보존.",
+      "research_group": "group-c",
+      "track": "new_candidate",
+      "approval_status": "pending",
+      "production_applied": false,
+      "published": false
+    },
+    {
+      "candidate_key": "12-25-constitution",
+      "name_ko": "대만 헌법 시행 기념일",
+      "name_original": "行憲紀念日 / Constitution Day",
+      "date": "12-25",
+      "dateType": "annual-fixed",
+      "scope": "대만",
+      "officiality": "공식 기념일; 2026 정부 달력에 공휴일 근거 수록",
+      "category": "holiday",
+      "status": "evidenced",
+      "duplicate_of": null,
+      "duplicate_check_notes": "한국 제헌절·미국 헌법의 날과 국가·헌법·날짜 다름. 크리스마스의 번역 별칭이 아님. 전체 월별 JSON 1,734개 이름·ID 및 동일 날짜 항목 대조; 독립 검수 전 판정.",
+      "origin": "대만 행정원 인사행정총처 자료는 헌법 시행 기념일을 12월 25일로 정한다.",
+      "anecdote": "총통부는 헌법 채택일이 1946년 12월 25일이고 시행일이 1947년 12월 25일이라고 구분한다.",
+      "sourceUrl": "https://www.dgpa.gov.tw/information?uid=41&pid=12573",
+      "evidence": [
+        {
+          "url": "https://www.dgpa.gov.tw/information?uid=41&pid=12573",
+          "publisher": "行政院人事行政總處",
+          "title": "中華民國一百一十五年政府行政機關辦公日曆表",
+          "accessed_at": "2026-10-11T06:40:13.517323+00:00",
+          "quote_original": "十九、行憲紀念日：十二月二十五日。\n二十、全國客家日：十二月二十八日。\n第四條",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/constitution-dgpa.txt",
+          "access_status": "read_body",
+          "citation_id": 28
+        },
+        {
+          "url": "https://english.president.gov.tw/page/93",
+          "publisher": "Office of the President, Republic of China (Taiwan)",
+          "title": "constitution-president",
+          "accessed_at": "2026-10-11T06:40:03.771611+00:00",
+          "quote_original": "The ROC Constitution was adopted on December 25, 1946, by the National Assembly convened in Nanking. It was promulgated by the National Government on January 1, 1947, and put into effect on December 25 of the same year.",
+          "local_evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-c/evidence/constitution-president.txt",
+          "access_status": "read_body",
+          "citation_id": 29
+        }
+      ],
+      "unverified_fields": [
+        "founding_year",
+        "founding_actor",
+        "date_rationale"
+      ],
+      "notes": "연구 후보; 승인·통합·배포 없음. 미확인 일화는 빈 문자열로 보존. D0020033은 폐지 법령이므로 현행 근거로 사용하지 않음. Office Holidays의 adoption 표현은 총통부 채택/시행 구분과 상충하여 사용하지 않음.",
+      "research_group": "group-c",
+      "track": "new_candidate",
+      "approval_status": "pending",
+      "production_applied": false,
+      "published": false
+    }
+  ]
+}

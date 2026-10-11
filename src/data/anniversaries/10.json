@@ -595,6 +595,50 @@
     "sourceUrl": "https://nationaldaycalendar.com/celebrations/national-frappe-day-october-7"
   },
   {
+    "id": "anv-fixed-10-07-world-cotton-day",
+    "date": "10-07",
+    "dateType": "annual-fixed",
+    "name": "세계 면화의 날 (World Cotton Day)",
+    "category": "campaign",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ],
+    "storytelling": {
+      "origin": "세계 면화의 날은 매년 10월 7일 면화가 생계와 무역, 경제 발전에 하는 역할을 알리는 유엔 기념일이다. 유엔 총회는 2021년 8월 이 날짜를 연례 기념일로 선포했다. 면화는 옷과 집안의 직물에 일상적으로 쓰이는 천연 섬유이지만, 생산지에서는 소규모 농민과 가족의 일자리와 소득을 지탱하는 작물이기도 하다. 일부 저소득 국가에는 중요한 수출 수입원이어서, 이 날은 익숙한 옷감 너머 생산과 무역에 연결된 사람들의 삶을 보게 한다.",
+      "anecdote": "FAO는 면화를 생산하는 데서 그치지 않고 현지 제조와 부산물 개발로 가치를 더하면 일자리와 수익을 늘릴 수 있다고 설명한다. 면화 산업에는 농민만이 아니라 생산에서 가공까지 이어지는 다양한 노동자와 가족이 연결돼 있다. 그래서 지속 가능한 면화 산업을 이야기할 때는 생산 효율뿐 아니라 환경, 여성의 역량, 청년 고용과 양질의 일자리도 함께 다룬다. 천연 섬유라는 소재의 장점만 기리는 날이 아니라, 그 섬유가 만들어지고 거래되는 과정의 생활과 노동을 함께 살피는 날이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "오늘 입은 옷 한 벌에도 누군가의 밭이 있다"
+      }
+    ],
+    "sourceUrl": "https://www.fao.org/world-cotton-day/en"
+  },
+  {
+    "id": "anv-fixed-10-07-world-day-for-decent-work",
+    "date": "10-07",
+    "dateType": "annual-fixed",
+    "name": "세계 양질의 일자리의 날 (World Day for Decent Work)",
+    "category": "career",
+    "tags": [
+      "직업 & 감사"
+    ],
+    "storytelling": {
+      "origin": "세계 양질의 일자리의 날은 매년 10월 7일 국제노동조합총연맹(ITUC)의 발의로 이어지는 국제 노동 캠페인이다. 이름의 ‘양질’은 단순히 월급이 높거나 일자리 수가 많다는 뜻에 머무르지 않는다. 국제노동기구(ILO)는 공정한 소득, 안전한 일터와 사회적 보호, 자신의 의견을 말하고 관련 결정에 참여할 자유, 동등한 기회와 대우를 함께 설명한다. 일하는 사람이 생계를 유지하면서 존엄과 권리를 지킬 수 있는 조건에 관심을 모으는 날이다.",
+      "anecdote": "ILO가 정리하는 양질의 일자리의 네 기둥은 일자리 창출, 노동에서의 권리, 사회적 보호와 사회적 대화다. 취업 여부만 따로 보는 대신 어떤 조건에서 일하며 누가 목소리를 낼 수 있는지까지 묻는 틀이다. 2021년에는 우즈베키스탄 노동조합이 이 날을 맞아 코로나19 이후 고용 회복을 논의하는 온라인 세미나를 열었다. 캠페인의 구체적 주제가 그 시기의 노동 문제와 만나는 사례다. 국제노동기구가 다루는 의제라고 해서 이 날짜 자체가 유엔이 제정한 공식 기념일인 것은 아니다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "일은 생계이자 존엄이다"
+      }
+    ],
+    "sourceUrl": "https://www.ilo.org/resource/news/world-day-decent-work-prioritizing-ilo-global-call-action"
+  },
+  {
     "id": "anv-fixed-10-08-poetry-day-us",
     "date": "10-08",
     "dateType": "annual-fixed",

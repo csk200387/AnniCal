@@ -1,0 +1,122 @@
+{
+  "baseline_count": 1734,
+  "record_count": 9,
+  "counts": {
+    "evidenced": 6,
+    "rejected_duplicate": 3
+  },
+  "per_date": {
+    "07-09": 2,
+    "07-21": 2,
+    "08-17": 2
+  },
+  "resolver": [
+    {
+      "candidate_key": "07-09-world-misophonia-awareness-day",
+      "years": [
+        {
+          "year": 2026,
+          "actual": "2026-07-09"
+        },
+        {
+          "year": 2027,
+          "actual": "2027-07-09"
+        },
+        {
+          "year": 2028,
+          "actual": "2028-07-09"
+        }
+      ]
+    },
+    {
+      "candidate_key": "07-09-argentina-independence-day",
+      "years": [
+        {
+          "year": 2026,
+          "actual": "2026-07-09"
+        },
+        {
+          "year": 2027,
+          "actual": "2027-07-09"
+        },
+        {
+          "year": 2028,
+          "actual": "2028-07-09"
+        }
+      ]
+    },
+    {
+      "candidate_key": "07-21-belgian-national-day",
+      "years": [
+        {
+          "year": 2026,
+          "actual": "2026-07-21"
+        },
+        {
+          "year": 2027,
+          "actual": "2027-07-21"
+        },
+        {
+          "year": 2028,
+          "actual": "2028-07-21"
+        }
+      ]
+    },
+    {
+      "candidate_key": "07-21-singapore-racial-harmony-day",
+      "years": [
+        {
+          "year": 2026,
+          "actual": "2026-07-21"
+        },
+        {
+          "year": 2027,
+          "actual": "2027-07-21"
+        },
+        {
+          "year": 2028,
+          "actual": "2028-07-21"
+        }
+      ]
+    },
+    {
+      "candidate_key": "08-17-black-cat-appreciation-day",
+      "years": [
+        {
+          "year": 2026,
+          "actual": "2026-08-17"
+        },
+        {
+          "year": 2027,
+          "actual": "2027-08-17"
+        },
+        {
+          "year": 2028,
+          "actual": "2028-08-17"
+        }
+      ]
+    },
+    {
+      "candidate_key": "08-17-national-nonprofit-day-us",
+      "years": [
+        {
+          "year": 2026,
+          "actual": "2026-08-17"
+        },
+        {
+          "year": 2027,
+          "actual": "2027-08-17"
+        },
+        {
+          "year": 2028,
+          "actual": "2028-08-17"
+        }
+      ]
+    }
+  ],
+  "required_fields": "passed",
+  "literal_quotes": "passed",
+  "duplicate_targets": "passed",
+  "independent_review": "pending",
+  "service_integration": false
+}

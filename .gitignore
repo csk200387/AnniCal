@@ -52,3 +52,6 @@ CLAUDE.md
 # OG 이미지 폰트 원본·도구 venv (tools/og/build_fonts.py 입력)
 tools/og/fonts-src/
 tools/og/.venv/
+
+# 조사 원문 HTML 사본은 로컬 보관 (본문 TXT·인용 원장은 커밋)
+tools/research/workflow/**/*.html

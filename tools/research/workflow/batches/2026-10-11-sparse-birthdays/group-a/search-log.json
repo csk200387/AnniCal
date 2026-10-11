@@ -1,0 +1,249 @@
+{
+  "batch_id": "2026-10-11-sparse-birthdays-group-a",
+  "accessed_at": "2026-10-11T06:40:22.962284+00:00",
+  "dates": [
+    {
+      "date": "02-24",
+      "queries": [
+        {
+          "query": "February 24 awareness day World Bartender Estonia independence holidays",
+          "result_summary": "영문 일반 탐색. Estonia 및 bartender 후보, tortilla chip 기존 중복 발견.",
+          "search_snippets_used_as_evidence": false
+        },
+        {
+          "query": "site.gob.mx \"24 de febrero\" \"Día de la Bandera\"",
+          "result_summary": "정부 자료 후보 발견. 실제 본문 대신 챌린지 반환.",
+          "search_snippets_used_as_evidence": false
+        },
+        {
+          "query": "2월 24일 기념일 에스토니아 독립 멕시코 국기",
+          "result_summary": "한국어 탐색. 에스토니아 독립 리드; 신규 한국 기념일 증거 없음.",
+          "search_snippets_used_as_evidence": false
+        },
+        {
+          "query": "\"Día de la Bandera\" \"24 de febrero\" site.senado.gob.mx",
+          "result_summary": "범위 확장. 의회 박물관 대체 URL 발견하였으나 요청 시간초과.",
+          "search_snippets_used_as_evidence": false
+        },
+        {
+          "query": "\"Día de la Bandera\" \"24 de febrero\" site.cndh.org.mx",
+          "result_summary": "CNDH PDF 리드 발견. PDF 본문 미열람이므로 인용하지 않음.",
+          "search_snippets_used_as_evidence": false
+        },
+        {
+          "query": "\"February 24\" \"SCN2A\" awareness day foundation",
+          "result_summary": "국제 보건 대체 후보 발견. 재단 본문에서 존재·반복일·제정 배경 확인.",
+          "search_snippets_used_as_evidence": false
+        }
+      ],
+      "candidates": [
+        {
+          "candidate_key": "02-24-estonia",
+          "name": "Independence Day of Estonia",
+          "outcome": "evidenced",
+          "reason": "원문 존재·날짜·지역 및 전역 중복 대조 완료; 미승인 후보"
+        },
+        {
+          "candidate_key": "02-24-scn2a",
+          "name": "International SCN2A Awareness Day",
+          "outcome": "evidenced",
+          "reason": "원문 존재·날짜·지역 및 전역 중복 대조 완료; 미승인 후보"
+        },
+        {
+          "candidate_key": "02-24-mexico-flag",
+          "name": "Día de la Bandera",
+          "outcome": "blocked",
+          "reason": "검색 요약을 증거로 쓰지 않음. gob.mx는 Challenge Validation만 반환, 대체 의회 박물관 본문은 시간초과. CNDH PDF 발견은 후속 조사 리드일 뿐 본문 미열람."
+        },
+        {
+          "candidate_key": "02-24-existing",
+          "name": "National Tortilla Chip Day",
+          "outcome": "rejected_duplicate",
+          "reason": "로컬 기존 데이터의 중복 발견 기록이며 외부 사실 검증 후보가 아님."
+        }
+      ],
+      "other_leads_not_accepted": {
+        "World Bartender Day": "목록 리드만, 본문 미조사",
+        "World Spay Day": "요일 규칙 후보; 고정일 우선으로 미조사"
+      },
+      "access_attempts": [
+        {
+          "key": "estonia",
+          "url": "https://visitestonia.com/en/what-to-do/february-24-estonias-independence-day",
+          "status": "body_read_http_200",
+          "evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-a/evidence/estonia.txt"
+        },
+        {
+          "key": "mexico",
+          "url": "https://www.gob.mx/segob/articulos/dia-de-la-bandera-148585",
+          "status": "challenge_not_article",
+          "evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-a/evidence/mexico.txt"
+        },
+        {
+          "key": "mexico2",
+          "url": "https://museolegislativo.diputados.gob.mx/24-de-febrero-dia-de-la-bandera/",
+          "status": "<urlopen error timed out>",
+          "evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-a/evidence/mexico2.txt"
+        },
+        {
+          "key": "scn2a",
+          "url": "https://www.scn2a.org/programs-events/events/scn2a-awareness-day/",
+          "status": "body_read_http_200",
+          "evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-a/evidence/scn2a.txt"
+        }
+      ]
+    },
+    {
+      "date": "05-26",
+      "queries": [
+        {
+          "query": "May 26 annual day paper airplane apology independence",
+          "result_summary": "Sorry Day 및 Paper Airplane, 독립기념일 리드. blueberry cheesecake 중복 발견.",
+          "search_snippets_used_as_evidence": false
+        },
+        {
+          "query": "site.gov.au \"National Sorry Day\" \"26 May\"",
+          "result_summary": "호주 정부 자료 발견. health.gov.au 시간초과, 의회 사이트 403.",
+          "search_snippets_used_as_evidence": false
+        },
+        {
+          "query": "\"National Sorry Day\" \"every year\" \"26 May\"",
+          "result_summary": "반복일 근거 확장. Reconciliation Australia 본문으로 회복.",
+          "search_snippets_used_as_evidence": false
+        },
+        {
+          "query": "\"National Paper Airplane Day\" \"May 26\" museum",
+          "result_summary": "기념일 목록 403 대체 탐색. Space Center Houston 본문에서 매년 반복 확인.",
+          "search_snippets_used_as_evidence": false
+        },
+        {
+          "query": "\"5월 26일\" \"기념일\" 종이비행기 사과",
+          "result_summary": "한국어 확장. 호주 사과의 날, 타국 기념일 리드. 신규 한국 기념일 증거 없음.",
+          "search_snippets_used_as_evidence": false
+        }
+      ],
+      "candidates": [
+        {
+          "candidate_key": "05-26-sorry2",
+          "name": "National Sorry Day",
+          "outcome": "evidenced",
+          "reason": "원문 존재·날짜·지역 및 전역 중복 대조 완료; 미승인 후보"
+        },
+        {
+          "candidate_key": "05-26-paper2",
+          "name": "National Paper Airplane Day",
+          "outcome": "evidenced",
+          "reason": "원문 존재·날짜·지역 및 전역 중복 대조 완료; 미승인 후보"
+        },
+        {
+          "candidate_key": "05-26-existing",
+          "name": "National Blueberry Cheesecake Day",
+          "outcome": "rejected_duplicate",
+          "reason": "로컬 기존 데이터의 중복 발견 기록이며 외부 사실 검증 후보가 아님."
+        }
+      ],
+      "other_leads_not_accepted": {
+        "Georgia/Guyana Independence Day": "확장 리드만"
+      },
+      "access_attempts": [
+        {
+          "key": "sorry",
+          "url": "https://www.health.gov.au/news/national-sorry-day-26-may-2022",
+          "status": "The read operation timed out",
+          "evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-a/evidence/sorry.txt"
+        },
+        {
+          "key": "paper",
+          "url": "https://nationaldaycalendar.com/celebrations/national-paper-airplane-day-may-26",
+          "status": "HTTP Error 403: Forbidden",
+          "evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-a/evidence/paper.txt"
+        },
+        {
+          "key": "sorry2",
+          "url": "https://www.reconciliation.org.au/national-sorry-day-2020/",
+          "status": "body_read_http_200",
+          "evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-a/evidence/sorry2.txt"
+        },
+        {
+          "key": "paper2",
+          "url": "https://spacecenter.org/national-paper-airplane-day-2025/",
+          "status": "body_read_http_200",
+          "evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-a/evidence/paper2.txt"
+        },
+        {
+          "key": "paper3",
+          "url": "https://nationaltoday.com/national-paper-airplane-day/",
+          "status": "body_read_http_200",
+          "evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-a/evidence/paper3.txt"
+        },
+        {
+          "key": "sorrygov",
+          "url": "https://education.parliament.sa.gov.au/event/national-sorry-day/2026-05-26/",
+          "status": "HTTP Error 403: Forbidden",
+          "evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-a/evidence/sorrygov.txt"
+        },
+        {
+          "key": "paperwiki",
+          "url": "https://en.wikipedia.org/wiki/National_Paper_Airplane_Day",
+          "status": "body_read_http_200",
+          "evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-a/evidence/paperwiki.txt"
+        }
+      ]
+    },
+    {
+      "date": "06-16",
+      "queries": [
+        {
+          "query": "June 16 international day African child family remittances",
+          "result_summary": "UN 가족송금 기념일 확인, fudge 기존 중복 발견.",
+          "search_snippets_used_as_evidence": false
+        },
+        {
+          "query": "site.au.int \"Day of the African Child\" \"16 June\"",
+          "result_summary": "AU 공식 본문에서 연간 반복·기념 대상·제정 확인.",
+          "search_snippets_used_as_evidence": false
+        },
+        {
+          "query": "\"6월 16일\" \"아프리카\" \"송금\"",
+          "result_summary": "한국어 좁은 검색은 결과 0. 영문 국제기구/AU 검색으로 범위 확장하여 본문 근거 확보.",
+          "search_snippets_used_as_evidence": false
+        }
+      ],
+      "candidates": [
+        {
+          "candidate_key": "06-16-remittances",
+          "name": "International Day of Family Remittances",
+          "outcome": "evidenced",
+          "reason": "원문 존재·날짜·지역 및 전역 중복 대조 완료; 미승인 후보"
+        },
+        {
+          "candidate_key": "06-16-african",
+          "name": "Day of the African Child",
+          "outcome": "evidenced",
+          "reason": "원문 존재·날짜·지역 및 전역 중복 대조 완료; 미승인 후보"
+        },
+        {
+          "candidate_key": "06-16-existing",
+          "name": "National Fudge Day",
+          "outcome": "rejected_duplicate",
+          "reason": "로컬 기존 데이터의 중복 발견 기록이며 외부 사실 검증 후보가 아님."
+        }
+      ],
+      "other_leads_not_accepted": {},
+      "access_attempts": [
+        {
+          "key": "remittances",
+          "url": "https://www.un.org/en/observances/remittances-day/background",
+          "status": "body_read_http_200",
+          "evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-a/evidence/remittances.txt"
+        },
+        {
+          "key": "african",
+          "url": "https://au.int/en/newsevents/20200616/day-african-child-2020",
+          "status": "body_read_http_200",
+          "evidence_path": "/Users/csk200387/Desktop/AnniCal/tools/research/workflow/batches/2026-10-11-sparse-birthdays/group-a/evidence/african.txt"
+        }
+      ]
+    }
+  ]
+}

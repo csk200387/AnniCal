@@ -26,8 +26,10 @@ import {
 } from '../../src/seo/meta'
 import { ogImageUrl, type StaticPage } from '../../src/seo/og'
 import { PAGE_META } from '../../src/seo/pages'
+import { formatKoreanMonthDay } from '../../src/utils/dateUtils'
 import {
   buildTargets,
+  DISPLAY_YEAR,
   loadRoutes,
   shiftUrlDate,
   type PrerenderTarget,
@@ -69,11 +71,12 @@ const escPath = (s: string): string => encodeURIComponent(s)
 const EXTERNAL_REL = 'noopener noreferrer nofollow'
 
 /** 상세 페이지 본문 — Vue 가 그리는 내용과 같은 텍스트를 같은 순서로. */
-function detailBody(
+export function detailBody(
   anv: Anniversary,
   displayDate: string,
   sameDay: Anniversary[],
   routes: Record<string, { slug: string; urlDate: string }>,
+  year = DISPLAY_YEAR,
 ): string {
   const link = (a: Anniversary) => {
     const r = routes[a.id]
@@ -94,11 +97,12 @@ function detailBody(
   const source = isHttpUrl(anv.sourceUrl)
     ? `<p>출처 <a href="${esc(anv.sourceUrl)}" rel="${EXTERNAL_REL}">${esc(anv.sourceUrl)}</a></p>` : ''
   const hub = `/day/${escPath(displayDate)}`
+  const dateLabel = formatKoreanMonthDay(anv, year) ?? koreanDate(displayDate)
   const others = sameDay.length
     ? `<section><h2>${koreanDate(displayDate)}의 다른 기념일</h2><ul>${sameDay.map(link).join('')}</ul></section>` : ''
 
   return `<nav><a href="/">홈</a> / <a href="${hub}">${koreanDate(displayDate)}</a></nav>` +
-    `<article><h1>${esc(anv.name)}</h1><p>${koreanDate(displayDate)}</p>` +
+    `<article><h1>${esc(anv.name)}</h1><p>${esc(dateLabel)}</p>` +
     `${story}${quotes}${tags}${source}</article>${others}` +
     `<p><a href="${hub}">${koreanDate(displayDate)}은 무슨 날인지 전부 보기</a></p>`
 }

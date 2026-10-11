@@ -1,0 +1,176 @@
+{
+  "items_checked": 1734,
+  "method": "all serialized fields substring search + manual subject/scope/date-rule review; id and Korean/original aliases checked",
+  "terms": [
+    "estonia",
+    "에스토니아",
+    "scn2a",
+    "sorry day",
+    "stolen generation",
+    "국가 사과",
+    "호주 사과",
+    "paper airplane",
+    "paper-airplane",
+    "종이비행",
+    "remittance",
+    "송금",
+    "african child",
+    "아프리카 어린이",
+    "아프리카 아동",
+    "mexico",
+    "멕시코"
+  ],
+  "broad_keyword_hits": [
+    {
+      "id": "anv-fixed-01-06-bean-day-us",
+      "name": "콩의 날",
+      "date": "01-06",
+      "decision": "Mexican cultural/history mentions in other observances, not candidate duplicate"
+    },
+    {
+      "id": "anv-fixed-01-29-corn-chip-day-us",
+      "name": "콘칩의 날",
+      "date": "01-29",
+      "decision": "Mexican cultural/history mentions in other observances, not candidate duplicate"
+    },
+    {
+      "id": "anv-fixed-10-04-taco-day-us",
+      "name": "타코의 날 (National Taco Day)",
+      "date": "10-04",
+      "decision": "Mexican cultural/history mentions in other observances, not candidate duplicate"
+    },
+    {
+      "id": "anv-nth-10-2-sat-world-migratory-bird-day-global",
+      "name": "세계 철새의 날",
+      "date": "10-2-SAT",
+      "decision": "Mexican cultural/history mentions in other observances, not candidate duplicate"
+    },
+    {
+      "id": "anv-fixed-10-26-pumpkin-day-us",
+      "name": "호박의 날 (National Pumpkin Day)",
+      "date": "10-26",
+      "decision": "Mexican cultural/history mentions in other observances, not candidate duplicate"
+    },
+    {
+      "id": "anv-fixed-06-11-corn-on-the-cob-day-us",
+      "name": "통옥수수의 날 (National Corn on the Cob Day)",
+      "date": "06-11",
+      "decision": "Mexican cultural/history mentions in other observances, not candidate duplicate"
+    },
+    {
+      "id": "anv-fixed-07-04-caesar-salad-day-us",
+      "name": "시저 샐러드의 날",
+      "date": "07-04",
+      "decision": "Mexican cultural/history mentions in other observances, not candidate duplicate"
+    },
+    {
+      "id": "anv-fixed-07-22-penuche-fudge-day-us",
+      "name": "페누체 퍼지의 날",
+      "date": "07-22",
+      "decision": "Mexican cultural/history mentions in other observances, not candidate duplicate"
+    },
+    {
+      "id": "anv-fixed-07-24-tequila-day-us",
+      "name": "테킬라의 날 (National Tequila Day)",
+      "date": "07-24",
+      "decision": "Mexican cultural/history mentions in other observances, not candidate duplicate"
+    },
+    {
+      "id": "anv-fixed-11-06-nachos-day-us",
+      "name": "나초의 날 (National Nachos Day)",
+      "date": "11-06",
+      "decision": "Mexican cultural/history mentions in other observances, not candidate duplicate"
+    },
+    {
+      "id": "anv-fixed-11-10-vanilla-cupcake-day-us",
+      "name": "바닐라 컵케이크의 날",
+      "date": "11-10",
+      "decision": "Mexican cultural/history mentions in other observances, not candidate duplicate"
+    },
+    {
+      "id": "anv-fixed-11-14-spicy-guacamole-day-us",
+      "name": "스파이시 과카몰리의 날",
+      "date": "11-14",
+      "decision": "Mexican cultural/history mentions in other observances, not candidate duplicate"
+    },
+    {
+      "id": "anv-fixed-04-16-orchid-day-us",
+      "name": "난초의 날 (National Orchid Day)",
+      "date": "04-16",
+      "decision": "Mexican cultural/history mentions in other observances, not candidate duplicate"
+    },
+    {
+      "id": "anv-fixed-12-09-anti-corruption-day-global",
+      "name": "국제 반부패의 날 (International Anti-Corruption Day)",
+      "date": "12-09",
+      "decision": "Mexican cultural/history mentions in other observances, not candidate duplicate"
+    },
+    {
+      "id": "anv-fixed-12-12-poinsettia-day-global",
+      "name": "포인세티아의 날 (Poinsettia Day)",
+      "date": "12-12",
+      "decision": "Mexican cultural/history mentions in other observances, not candidate duplicate"
+    },
+    {
+      "id": "anv-fixed-09-07-acorn-squash-day-us",
+      "name": "아콘 스쿼시의 날",
+      "date": "09-07",
+      "decision": "Mexican cultural/history mentions in other observances, not candidate duplicate"
+    },
+    {
+      "id": "anv-fixed-09-30-chewing-gum-day-us",
+      "name": "껌의 날 (National Chewing Gum Day)",
+      "date": "09-30",
+      "decision": "Mexican cultural/history mentions in other observances, not candidate duplicate"
+    },
+    {
+      "id": "anv-fixed-05-05-cinco-de-mayo-global",
+      "name": "싱코 데 마요 (Cinco de Mayo)",
+      "date": "05-05",
+      "decision": "Mexican cultural/history mentions in other observances, not candidate duplicate"
+    },
+    {
+      "id": "anv-fixed-05-05-totally-chipotle-day-us",
+      "name": "치폴레의 날",
+      "date": "05-05",
+      "decision": "Mexican cultural/history mentions in other observances, not candidate duplicate"
+    },
+    {
+      "id": "anv-fixed-05-06-nurses-day-global",
+      "name": "간호사의 날 (National Nurses Day)",
+      "date": "05-06",
+      "decision": "Mexican cultural/history mentions in other observances, not candidate duplicate"
+    },
+    {
+      "id": "anv-fixed-05-06-international-no-diet-day-global",
+      "name": "세계 노(No) 다이어트의 날",
+      "date": "05-06",
+      "decision": "Mexican cultural/history mentions in other observances, not candidate duplicate"
+    },
+    {
+      "id": "anv-fixed-05-07-start-seeing-monarchs-day-us",
+      "name": "모나크 나비 관찰의 날",
+      "date": "05-07",
+      "decision": "Mexican cultural/history mentions in other observances, not candidate duplicate"
+    },
+    {
+      "id": "anv-fixed-05-22-vanilla-pudding-day-us",
+      "name": "바닐라 푸딩의 날",
+      "date": "05-22",
+      "decision": "Mexican cultural/history mentions in other observances, not candidate duplicate"
+    },
+    {
+      "id": "anv-fixed-02-27-kahlua-day-us",
+      "name": "칼루아의 날",
+      "date": "02-27",
+      "decision": "Mexican cultural/history mentions in other observances, not candidate duplicate"
+    }
+  ],
+  "candidate_duplicates": [],
+  "existing_per_date": {
+    "02-24": "anv-fixed-02-24-tortilla-chip-day-us",
+    "05-26": "anv-fixed-05-26-blueberry-cheesecake-day-us",
+    "06-16": "anv-fixed-06-16-fudge-day-us"
+  },
+  "resolver_note": "2026,2027 each target date has one existing food record. 2028-06-16 also has gov-88 선원의 날 (floating weekday)."
+}

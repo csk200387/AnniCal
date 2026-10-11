@@ -1,0 +1,137 @@
+Paper Airplane Activity
++ 
+              Text Only Site
++ Non-Flash Version
++ 
+              Contact Glenn
+PAPER AIRPLANE ACTIVITY
+Overview
+In the paper airplane activity students select and build one of
+five different paper airplane designs and test them for distance and
+for time aloft. Part of this activity is designed to explore NASA
+developed software,
+FoilSim
+,
+with respect to the lift of an airfoil and the surface area of a
+wing.
+Materials
+calculator
+ruler
+graph paper
+lightweight unlined paper
+scissors
+Download
+   Design for the Dart
+Download
+   FoilSim
+or execute
+on-line
+.
+Technology Needed
+Internet Access
+Graphing Calculator (optional)
+Time Required
+2-3 class periods
+Classroom Organization
+Students should work in groups of 3 or 4.
+Procedure
+Give students a sheet of unlined paper and instructions for
+   construction of a paper airplane (See download above).
+Students should give their plane a name using the
+aviation
+   alphabet
+. (Example N 831 FE represents November 831 Foxtrot
+   Echo. Identification numbers and letters must not exceed 7; and
+   the identification must begin with
+N
+, which stands for the
+   United States.)
+Students should determine the area of the wings of their
+   planes. If students are able, have them unfold their planes and
+   lay out basic geometric shapes to fill the wing area. Then have
+   them calculate the total area from the sum of the areas of the
+   shapes. (
+See example
+.
+   Use "back arrow" to return here.)
+If students are not able to calculate geometric areas, they could
+   make a duplicate plane, cut off the wings, and lay the wings onto
+   measured grids or pieces of graph paper and count the total
+   squares covered, estimating partial squares.
+A variation of this technique that eliminates a duplicate plane
+   and cutting wings is to draw or trace a grid on a blank
+   transparency with a sharpie marker and then hold the clear grid
+   over the wings to count squares covered.
+Have students fly their planes in the gym or hallway or other
+   large indoors area (to eliminate wind effects) five times, each
+   time trying for maximum distance. Stress trying to duplicate the
+   same launch angle and speed. Now do another five trials, this time
+   trying for maximum time aloft. Students should record their
+   distances and times and average the three longest distances and
+   the three longest times.
+Have students put their data onto a graph for the class, one
+   graph of time aloft vs. wing area and the other of distance vs.
+   wing area.
+Discuss the results from the graphs as a class, and then ask
+   for predictions as to what would happen if the wings were made
+   smaller.
+Have the students draw a line two centimeters from and
+   parallel to the trailing edges of their wings, and then cut that 2
+   cm portion off the wings (Shown in red).
+The cut off part should be tucked on the inside of the plane when
+   it is refolded in order to keep mass constant. You might ask the
+   class to provide an explanation for doing this.
+Repeat steps three through six.
+Have the students investigate their results using
+FoilSim.
+They should set the ANGLE OF ATTACK to 5 degrees
+   and then vary only the area of the wing and note the effect on the
+   value of LIFT. They can compare these results to their own
+   experimental results.
+ADDITIONAL QUESTION: "Why don't all planes have the biggest
+   wing area possible? Why do some fighter jets have small wings?"
+   (ANSWER: There are other factors that contribute to lift, such as
+   velocity and shape of the wing. The weight of a plane is also very
+   important.) Students can investigate these other factors by going
+   through the lessons that are part of
+FoilSim
+.
+Extension Activity
+Further
+   activities
+that your class might try.
+Assessment Strategies/Evaluation
+Each group could make a presentation on their airplane and
+   what made its design successful.
+Students could individually graph the experimental data and
+   make a report.
+Challenge students to fold a better plane and explain the
+   reasons for changes in design.
+Students could write a summary of experimental results and
+   relate the variables tested.
+Supplementary Resources
+Related Internet
+   Links
+Related Pages
+LIFT Home Page
+Aeronautics Activities
+Aerospace Activities Page
+Aerodynamic Index
+Wing Area
+Wing Area Effects on Lift
++ Inspector General Hotline
++ Equal Employment Opportunity Data Posted Pursuant to the No Fear Act
++ Budgets, Strategic Plans and Accountability Reports
++ Freedom of Information Act
++ The President's Management Agenda
++ NASA Privacy Statement, Disclaimer,
+and Accessibility Certification
+Editor:
+Tom 
+                  Benson
+NASA Official:
+Tom 
+                  Benson
+Last Updated:   May 13 2021
++ 
+                  Contact Glenn

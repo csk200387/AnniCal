@@ -1,0 +1,78 @@
+{
+  "_note": "빈 조사 기록 템플릿. 실제 후보나 검증 완료 결과가 아니다. 서비스 Anniversary 스키마와 별도이며 직접 적용하지 않는다.",
+  "batch_id": "",
+  "records": [
+    {
+      "task_id": "",
+      "track": "",
+      "status": "queued",
+      "owner": "",
+      "existing_id": null,
+      "candidate_key": "",
+      "name_ko": "",
+      "name_original": "",
+      "aliases": [],
+      "scope_country_or_region": "",
+      "officiality": "unknown",
+      "date_type": null,
+      "date_rule": null,
+      "occurrences_checked": [],
+      "duplicate_of": null,
+      "distinct_from_similar_reason": "",
+      "claims": [
+        {
+          "claim": "",
+          "evidence_ids": [],
+          "verdict": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "",
+          "url": "",
+          "publisher": "",
+          "title": "",
+          "source_type": "",
+          "accessed_at": "",
+          "access_status": "not_fetched",
+          "quote_original": "",
+          "local_evidence_path": "",
+          "limitations": ""
+        }
+      ],
+      "draft": {
+        "origin": "",
+        "anecdote": "",
+        "category": null,
+        "tags": [],
+        "sourceUrl": null,
+        "memes": []
+      },
+      "review": {
+        "reviewer": "",
+        "reviewed_at": "",
+        "decision": "pending",
+        "checks": {
+          "existence": false,
+          "date_rule": false,
+          "scope": false,
+          "claims_vs_original": false,
+          "duplicates": false,
+          "schema": false
+        },
+        "notes": ""
+      },
+      "blocked_reason": "",
+      "resume_condition": "",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null
+      },
+      "application": {
+        "commit": null,
+        "verification_result": null,
+        "published_url": null
+      }
+    }
+  ]
+}
