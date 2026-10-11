@@ -1,0 +1,119 @@
+[
+  {
+    "id": "anv-fixed-07-04-independence-day-us",
+    "date": "07-04",
+    "dateType": "annual-fixed",
+    "name": "미국 독립기념일 (Independence Day)",
+    "category": "history",
+    "storytelling": {
+      "origin": "1776년 7월 4일, 13개 식민지가 영국으로부터 독립을 선언한 것을 기념하는 미국의 대표 국경일이다. 실제 독립 결의안 표결은 이틀 앞선 7월 2일에 있었고, 선언문에 대표단이 서명한 것도 대부분 8월 2일에야 이뤄졌지만, 문서가 공식 채택된 7월 4일이 그대로 기념일로 굳었다.",
+      "anecdote": "전국 각지에서 불꽃놀이와 바비큐 파티가 열리는 미국 최대의 여름 축제일로, 영화와 대중문화 속에서도 자주 등장해 전 세계적으로 친숙한 날이다. 존 애덤스는 편지에서 7월 2일이 후대에 길이 기념될 것이라 자신 있게 예측했지만, 정작 역사는 그 예언을 이틀 어긋나게 실현시켰다."
+    },
+    "sourceUrl": "https://nationaldaycalendar.com/celebrations/independence-day-july-4",
+    "current_chars": 312
+  },
+  {
+    "id": "anv-fixed-09-17-constitution-citizenship-day-us",
+    "date": "09-17",
+    "dateType": "annual-fixed",
+    "name": "미국 헌법의 날 및 시민권의 날 (Constitution Day and Citizenship Day)",
+    "category": "history",
+    "storytelling": {
+      "origin": "1787년 9월 17일 필라델피아 제헌회의에 참석한 대표 39인이 서명한 미국 헌법 제정을 기념하는 '헌법의 날'과, 1952년 해리 트루먼 대통령이 기존 5월 3일이던 '나는 미국인이다의 날'을 이 날짜로 옮기며 이름을 바꾼 '시민권의 날'이 하나로 합쳐진 기념일이다.",
+      "anecdote": "헌법은 국가 권력의 한계를 정하고 시민의 권리를 보장하는 사회적 약속이라는 점에서, 어느 나라든 그 의미는 본질적으로 닿아 있다. 한국도 7월 17일을 제헌절로 기념하며, 1948년 대한민국 헌법 공포일에서 유래했다는 점에서 두 나라의 상징성이 서로 깊이 맞닿아 있다."
+    },
+    "sourceUrl": "https://nationaldaycalendar.com/celebrations/constitution-day-and-citizenship-day-september-17",
+    "current_chars": 301
+  },
+  {
+    "id": "anv-fixed-12-15-bill-of-rights-day-us",
+    "date": "12-15",
+    "dateType": "annual-fixed",
+    "name": "권리장전의 날 (Bill of Rights Day)",
+    "category": "history",
+    "storytelling": {
+      "origin": "1791년 12월 15일 미국 수정헌법 제1조부터 제10조까지, 이른바 '권리장전'이 버지니아주의 비준으로 발효된 것을 기념하는 날이다. 1941년 150주년을 맞아 프랭클린 루스벨트 대통령이 처음 선포했다. 제임스 매디슨이 초안을 쓴 이 조항들은 표현·종교·언론의 자유와 부당한 수색 금지 등을 담았다.",
+      "anecdote": "원래 헌법에 기본권 조항이 빠지자 반연방주의자들이 강하게 반발했고, 비준을 얻으려고 권리 조항을 따로 덧붙이기로 약속한 결과물이다. 매디슨은 12개 조항을 제안했는데 10개가 먼저 비준됐고, 그중 하나는 200년 뒤인 1992년에야 수정헌법 제27조로 비준됐다. 원본은 워싱턴 국립문서보관소에 전시돼 있다."
+    },
+    "sourceUrl": "https://nationaldaycalendar.com/celebrations/bill-of-rights-day-december-15",
+    "current_chars": 341
+  },
+  {
+    "id": "anv-fixed-06-14-flag-day-us",
+    "date": "06-14",
+    "dateType": "annual-fixed",
+    "name": "미국 국기의 날 (National Flag Day)",
+    "category": "history",
+    "storytelling": {
+      "origin": "1777년 6월 14일, 대륙회의가 별과 줄무늬가 그려진 첫 공식 국기를 채택한 것을 기념하는 날이다. 이후 여러 지역에서 저마다 자체적으로 기념해 오다가, 1916년 우드로 윌슨 대통령이 포고문을 통해 전국적인 국기의 날로 공식 선포하며 전국 단위 행사로 자리 잡게 됐다.",
+      "anecdote": "이후 주가 늘어날 때마다 별의 개수도 함께 늘어나며 지금의 50개 별이 있는 성조기가 완성됐다. 미국 국기의 날은 법정 공휴일은 아니지만 1949년 트루먼 대통령이 의회 결의로 정식 국경일로 지정했고, 펜실베이니아주 등 일부 지역은 지금도 이날을 지역 공휴일로 쉬고 있다."
+    },
+    "sourceUrl": "https://nationaldaycalendar.com/celebrations/national-flag-day-june-14",
+    "current_chars": 305
+  },
+  {
+    "id": "anv-fixed-02-12-abraham-lincoln-birthday-us",
+    "date": "02-12",
+    "dateType": "annual-fixed",
+    "name": "에이브러햄 링컨 탄생일",
+    "category": "history",
+    "storytelling": {
+      "origin": "미국 제16대 대통령 에이브러햄 링컨의 생일(1809년 2월 12일)을 기념하는 날. 그는 남북전쟁을 통해 연방을 지키고 노예 해방을 이끈 인물로 평가받는다. 여러 주에서 조지 워싱턴 생일과 함께 별도 공휴일로 기념하다가, 1971년 이후 '대통령의 날'로 통합돼 함께 지켜지고 있다.",
+      "anecdote": "'국민의, 국민에 의한, 국민을 위한 정부'라는 게티즈버그 연설은 단 272단어, 약 2분 분량의 짧은 연설이었지만 역사상 가장 위대한 연설로 꼽힌다. 통나무집에서 태어나 독학으로 변호사·대통령에 오른 입지전적 인물이다. 그는 남북전쟁 종전 직후인 1865년 4월 암살로 세상을 떠났다."
+    },
+    "sourceUrl": "https://ko.wikipedia.org/wiki/에이브러햄_링컨",
+    "current_chars": 319
+  },
+  {
+    "id": "anv-fixed-02-01-national-freedom-day-us",
+    "date": "02-01",
+    "dateType": "annual-fixed",
+    "name": "전미 자유의 날 (National Freedom Day)",
+    "category": "history",
+    "storytelling": {
+      "origin": "1865년 2월 1일 에이브러햄 링컨 대통령이 노예제 폐지를 명시한 수정헌법 제13조에 서명한 것을 기념하는 날로, 1948년 미국에서 공식 기념일로 제정되었다. 라이트가 세상을 떠난 이듬해, 상하 양원이 이를 법안으로 통과시켰고 해리 트루먼 대통령이 포고문에 서명해 공식화했다.",
+      "anecdote": "노예 출신 사업가이자 인권운동가였던 리처드 R. 라이트(Richard R. Wright Sr.)가 '자유를 기념하는 날'을 만들자고 제안해 탄생했다. 이듬해 시작되는 미국 흑인 역사의 달(Black History Month)의 문을 여는 날이기도 하며, 두 기념일은 서로 정신적으로 이어져 있다."
+    },
+    "sourceUrl": null,
+    "current_chars": 321
+  },
+  {
+    "id": "anv-fixed-08-26-womens-equality-day-us",
+    "date": "08-26",
+    "dateType": "annual-fixed",
+    "name": "여성평등의 날 (National Women's Equality Day)",
+    "category": "history",
+    "storytelling": {
+      "origin": "1920년 8월 26일, 미국 여성에게 투표권을 부여하는 헌법 수정조항이 공식 발효된 것을 기념하는 날이다. 하원의원 벨라 앱저그가 1971년 처음 이 날짜를 기념일로 지정하자는 결의안을 냈고, 1973년 의회가 정식으로 통과시켰다. 발효 당일 국무장관 베인브리지 콜비가 서명하며 절차가 마무리됐다.",
+      "anecdote": "오랜 투쟁을 거쳐 쟁취한 참정권은 이후 전 세계 여성 인권 운동에 중요한 디딤돌이 됐다. 앱저그의 결의안은 1970년 열린 '여성 평등을 위한 파업' 행진 1주년에 맞춰 발의됐으며, 지금도 미국 대통령이 매년 이날을 공식 선포한다. 다만 이 수정조항으로도 흑인 여성 상당수는 이후 수십 년간 실질적 투표권을 얻지 못했다."
+    },
+    "sourceUrl": "https://nationaldaycalendar.com/celebrations/national-womens-equality-day-august-26",
+    "current_chars": 346
+  },
+  {
+    "id": "anv-fixed-06-12-loving-day-global",
+    "date": "06-12",
+    "dateType": "annual-fixed",
+    "name": "러빙 데이 (National Loving Day)",
+    "category": "history",
+    "storytelling": {
+      "origin": "1967년 6월 12일, 미국 연방대법원이 '러빙 대 버지니아' 판결로 인종 간 결혼 금지법을 위헌으로 판단한 것을 기념하는 날이다. 당시 미국 16개 주에서 여전히 이런 법이 남아 있었으며, 이 판결로 전국적으로 한꺼번에 폐지됐다. 원고인 러빙 부부는 결혼했다는 이유만으로 고향에서 추방당한 상태였다.",
+      "anecdote": "원고 부부의 성씨가 우연히도 'Loving(사랑)'이었다는 점이 이 판결을 더욱 상징적으로 만들었다. 사랑에는 국경도, 인종도 장벽이 될 수 없다는 메시지를 남겼다. 이후 이 판결은 동성 결혼 합법화 논쟁에서도 중요한 판례로 자주 인용됐으며, 미국 곳곳에서 매년 기념 행사가 열린다."
+    },
+    "sourceUrl": "https://nationaldaycalendar.com/celebrations/national-loving-day-june-12",
+    "current_chars": 327
+  },
+  {
+    "id": "anv-fixed-12-01-rosa-parks-day-us",
+    "date": "12-01",
+    "dateType": "annual-fixed",
+    "name": "로자 파크스의 날",
+    "category": "history",
+    "storytelling": {
+      "origin": "1955년 12월 1일 미국 앨라배마주 몽고메리에서 버스 기사가 백인 승객에게 자리를 양보하라고 요구하자 이를 거부해 체포된 흑인 여성 로자 파크스를 기리는 날이다. 그의 체포는 381일 동안 이어진 몽고메리 버스 보이콧의 불씨가 됐고, 1956년 연방대법원이 버스의 인종 분리를 위헌으로 판결하는 결과로 이어졌다.",
+      "anecdote": "보이콧을 이끈 젊은 목사가 마틴 루서 킹 주니어로, 이 운동을 계기로 민권운동의 지도자로 떠올랐다. 파크스는 흔히 '지친 재봉사'로 묘사되지만 실제로는 오래 활동한 전미유색인종지위향상협회(NAACP) 간부였다. 캘리포니아와 오하이오 등 여러 주가 이날이나 그의 생일(2월 4일)을 기념일로 지키며, 인권 교육에서 자주 다뤄진다."
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Rosa_Parks_Day",
+    "current_chars": 359
+  }
+]

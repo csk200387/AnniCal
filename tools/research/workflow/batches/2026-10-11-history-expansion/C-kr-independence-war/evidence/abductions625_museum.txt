@@ -1,0 +1,211 @@
+URL: https://www.abductions625.go.kr/home/exhibitionGuide/TmlmtNowDetail02.jsp
+
+국립 6.25전쟁납북자기념관 
+ -->
+ 본문바로가기 
+ 주메뉴 바로가기 
+ -->
+ HOME 
+ SITEMAP 
+ ENGLISH 
+ 글자크기 
+ EN 
+ 관람 
+ 1199){location.replace('/home/memorialGuidance/memorialIntrcn.jsp;jsessionid=9B323B0DB4A29F981DF897E939D94228')}
+ else if (Number(depth3MenuCnt) 
+ 관람안내
+ 1199){location.replace('/home/memorialGuidance/memorialIntrfloor.jsp;jsessionid=9B323B0DB4A29F981DF897E939D94228')}
+ else if (Number(depth3MenuCnt) 
+ 층별안내
+ 1199){location.replace('/home/memorialGuidance/otlnmap.jsp;jsessionid=9B323B0DB4A29F981DF897E939D94228')}
+ else if (Number(depth3MenuCnt) 
+ 오시는길
+ 소장품 
+ 1199){location.replace('/user/emuseum/BD_selectEmuseumList.do;jsessionid=9B323B0DB4A29F981DF897E939D94228')}
+ else if (Number(depth3MenuCnt) 
+ 소장품
+ 1199){location.replace('/home/dta01/cntrInfo.jsp;jsessionid=9B323B0DB4A29F981DF897E939D94228')}
+ else if (Number(depth3MenuCnt) 
+ 기증
+ 1199){location.replace('/home/dta01/alarmCopy.jsp;jsessionid=9B323B0DB4A29F981DF897E939D94228')}
+ else if (Number(depth3MenuCnt) 
+ 열람·복제
+ 1199){location.replace('/home/dta01/rental.jsp;jsessionid=9B323B0DB4A29F981DF897E939D94228')}
+ else if (Number(depth3MenuCnt) 
+ 대여
+ 전시 
+ 1199){location.replace('/home/exhibitionGuide/Prmestbl.jsp;jsessionid=9B323B0DB4A29F981DF897E939D94228')}
+ else if (Number(depth3MenuCnt) 
+ 상설전시
+ 1199){location.replace('/home/exhibitionGuide/TmlmtList.jsp;jsessionid=9B323B0DB4A29F981DF897E939D94228')}
+ else if (Number(depth3MenuCnt) 
+ 특별전시
+ 1199){location.replace('/home/exhibitionGuide/ebook.jsp;jsessionid=9B323B0DB4A29F981DF897E939D94228')}
+ else if (Number(depth3MenuCnt) 
+ e-book
+ 교육 
+ 1199){location.replace('/user/bbs/BD_selectBbsList.do;jsessionid=9B323B0DB4A29F981DF897E939D94228?q_bbsCode=1014')}
+ else if (Number(depth3MenuCnt) 
+ 교육자료
+ 1199){location.replace('/user/bbs/BD_selectBbsList.do;jsessionid=9B323B0DB4A29F981DF897E939D94228?q_bbsCode=1002&q_clCode=6')}
+ else if (Number(depth3MenuCnt) 
+ 교육 프로그램
+ 1199){location.replace('/user/bbs/BD_selectBbsList.do;jsessionid=9B323B0DB4A29F981DF897E939D94228?q_bbsCode=1015')}
+ else if (Number(depth3MenuCnt) 
+ 교육사진
+ 1199){location.replace('/user/bbs/BD_selectBbs.do;jsessionid=9B323B0DB4A29F981DF897E939D94228?q_bbsCode=1016&q_clCode=1')}
+ else if (Number(depth3MenuCnt) 
+ 교육동영상
+ 6·25전쟁납북자 
+ 1199){location.replace('/home/dta01/dta01_01.jsp;jsessionid=9B323B0DB4A29F981DF897E939D94228')}
+ else if (Number(depth3MenuCnt) 
+ 납북자의 정의
+ 1199){location.replace('/home/dta01/dta01_02.jsp;jsessionid=9B323B0DB4A29F981DF897E939D94228')}
+ else if (Number(depth3MenuCnt) 
+ 납북자 현황
+ 1199){location.replace('/home/dta01/dta03/dta03_report.jsp;jsessionid=9B323B0DB4A29F981DF897E939D94228')}
+ else if (Number(depth3MenuCnt) 
+ 납북자 자료
+ - 진상조사 보고서 
+ - 납북자 가족 증언 
+ - 동영상자료 
+ 1199){location.replace('/home/dta01/memorialStatue.jsp;jsessionid=9B323B0DB4A29F981DF897E939D94228')}
+ else if (Number(depth3MenuCnt) 
+ 납북자 추모비
+ 소식 
+ 1199){location.replace('/user/bbs/BD_selectBbsList.do;jsessionid=9B323B0DB4A29F981DF897E939D94228?q_bbsCode=1002&q_clCode=1')}
+ else if (Number(depth3MenuCnt) 
+ 공지사항
+ 1199){location.replace('/user/bbs/BD_selectBbsList.do;jsessionid=9B323B0DB4A29F981DF897E939D94228?q_bbsCode=1002&q_clCode=2')}
+ else if (Number(depth3MenuCnt) 
+ 보도자료
+ 1199){location.replace('/user/bbs/BD_selectBbsList.do;jsessionid=9B323B0DB4A29F981DF897E939D94228?q_bbsCode=1013')}
+ else if (Number(depth3MenuCnt) 
+ 최근소식
+ 1199){location.replace('/user/bbs/BD_selectBbsList.do;jsessionid=9B323B0DB4A29F981DF897E939D94228?q_bbsCode=1017')}
+ else if (Number(depth3MenuCnt) 
+ 이달의 유물
+ 기념관소개 
+ 1199){location.replace('/home/memorialIntr/memorialInfo.jsp;jsessionid=9B323B0DB4A29F981DF897E939D94228')}
+ else if (Number(depth3MenuCnt) 
+ 건립 취지
+ 1199){location.replace('/home/memorialIntr/memorialOrgcht.jsp;jsessionid=9B323B0DB4A29F981DF897E939D94228')}
+ else if (Number(depth3MenuCnt) 
+ 조직 및 업무
+ 1199){location.replace('/home/memorialIntr/memorialPR/memorialMI.jsp;jsessionid=9B323B0DB4A29F981DF897E939D94228')}
+ else if (Number(depth3MenuCnt) 
+ 홍보자료
+ - MI 
+ - 리플릿 
+ - 동영상 
+ -->
+ 전시 
+ 특별전시
+ 전시
+ 상설전시 
+ 특별전시 
+ e-book 
+ 특별전시
+ VR -->
+ 프롤로그 
+ 1부_소리없는 전쟁, 
+목격과 진실
+ 포화 속의 기록자 ‘종군기자’
+ 2부_상공의 심리전 “살랴면 지금 넘어오시오!” 
+ 3부_전쟁의 기억, 폐허와 상처만 남기고 
+ 에필로그 
+ 프롤로그
+ 1950년 6월 25일 일요일 아침 7시, 국방부 정훈국은 서울중앙방송국을 접수하고 아침방송을 중단시켰다. 곧이어
+ 라디오방송으로 북한의 남침 사실이 발표되었다. 그러나 별다른 동요나 대대적인 피난 행렬은 없었으며 서울운동장에서는
+ 야구경기가 진행되고 있었다.
+ 대통령을 비롯한 정부인사가 이미 대전으로 피난을 떠났음에도 서울을 사수하자는 방송이 라디오로 퍼져 나왔고,
+ 이에 안심한 시민들 100만 여명은 28일 한강다리 폭파 이후 북한군에 점령된 채, 납북되거나 죽음의 공포에 시달리는 등
+ 큰 피해를 입었다. 
+ 6·25전쟁은 무력 충돌 뿐 아니라 체제 선전이 중요시된 국제전이었다. 따라서 전쟁기 각종 매체는 이념을
+ 선전하는 제3의 부대가 되기도 했다. 70년 전 발행된 신문·잡지·도서, 그리고 수많은 선전물에서 ‘사실’이 어떻게
+ 전달되었는지, 적군을 아군으로 만들기 위해 어떠한 ‘설득’이 이루어졌는지, ‘냉전의 무기’가 되었던 이 시대 미디어를
+ 통해 6·25전쟁을 다시금 기억할 수 있을 것이다.
+ 1부_소리없는 전쟁, 목격과 진실
+ 6월 25일 아침, 국내 주요 신문사 기자들은 북한의 침략을 알리는 호외를 발행했다. 이튿날 이들 신문사는 국방부의 남침
+ 발표 담화문을 머리기사로 보도했으나, 28일 서울이 북한군에 점령되면서 9월 서울이 다시 수복될 때까지 신문 발행을
+ 중단해야 했다. 이 시기에 수많은 남한 언론인들이 납북 혹은 피살되었고, 인쇄시설과 자재가 파괴되었다. 서울거리에는 북한
+ 조선로동당의 기관지가 창간되어 남한 주민들에게 배포되었다.
+ 대구와 부산 피난지에서는 어려운
+ 여건 속에서도 전시판戰時版 신문이 발행되었다. 전쟁기 국내 신문의 보도는 주로 국방부와 정부의 입장을 대변하는 내용을
+ 싣거나 외신에 의존하는 경우가 많았다.
+ 이에 반해 해외 각국 언론은 수백 명의 특파원을 한국에
+ 파견하여 열띤 보도 경쟁에 돌입했다.
+ 6·25전쟁 보도 사진과 기사들은 해외 주요 시사잡지에
+ 게재되어 전쟁의 과정이 생생하게 전달되었으며, 종군 기자나 포로를 비롯한 참전 군인들의 회고록이 발간되어 6·25전쟁에
+ 대한 다각적인 시선을 확인해볼 수 있다.
+ 1.경향신문 1950.6.26. / 경향일보사 제공
+ 2.대한화보 제93호, 1953.6.1.
+ 3.Daily News, 1950.7.6
+ 4.La DOMENICA DEL CORRIERE, 1950.7.30.
+ 5.LIFE, 1950.7.31.
+ 6.The New York Times Magazine, 1953.8.30.
+ 7.アサヒグラフ THE ASAHI PICTURE NEWS, 1953.7.29.
+ 8.TIME 1950.10.16.
+ 포화 속의 기록자 ‘종군기자’
+ 총과 칼이 아닌 펜과 카메라로 무장하고, 총알과 포탄이 빗발치는 전투 현장을 누비는 또 하나의 병사, ‘종군기자’. 6.25전쟁에서도 그들은 존재했다.
+ 1950년 6월 25일, 오전 9시 30분 서울 주재 특파원 잭 제임스 기자의 전쟁 발발 뉴스 최초 보도를 시작으로,
+ 6.25전쟁의 첫 기사, 그리고 정전협정까지 3년간 남북한의 전쟁 소식을 알리기 위해 국내외 종군기자들은 위험천만한 전투 현장의 일분일초를 전장의 군인들과 함께 했다..
+ 1.인터뷰 하고 있는 종군기자 1950-1953
+ 2.L.C.Smith 8-12 Typewriter, 영문 타자기, 1930년대
+ 3.Rolleicord 카메라, 1933년~1950년
+ 4.종군기 남북 삼천리, 문제안 저, 낙산각 발행, 1956
+ 2부_상공의 심리전 “살랴면 지금 넘어오시오!”
+ 냉전 체제가 가속화되면서 미국은 공산주의의 확산을 막기 위한 ‘심리전’이라는 새로운 용어를 등장시켰고,
+ 한국전쟁에서 선전의 효과를 적극 활용하는 정책을 펼쳤다. 1947년부터 미국의 극동지역 사령부 정보참모부에는
+ 심리전과(PWB, Psychological Warfare Branch)를 두어 본국의 정책을 기본으로 선전매체를
+ 생산하도록 하는 하위조직을 두었다. 6·25전쟁 발발 후 대한민국 국방부 정훈국은 미 심리전과의 검열 속에 다양한
+ 선전물을 생산하였다.
+ 1.신변안전보증서, 1950~1953
+ 2.맥아더장군의 포고, 1950~1953
+ 3.아버지는 어데 계서요?, 1951.12.12.
+ 4.한시조-한 피-한민족!, 1950~1953
+ 5.노예냐? 통일이냐? 1952.8.9..
+ 6.경고, 목숨을 살려라 1951.11.24.
+ 7.General Electric 202 라디오, 1947
+ 8.THE VOICE OF AMERICA 1951.1~2.
+ 3부_전쟁의 기억, 폐허와 상처만 남기고
+ 1950년 6월 25일부터 정전 협정이 체결된 1953년 7월 27일까지, 3년여 간의 전쟁은 막대한 인적, 물적 피해를
+ 낳았다. 참전한 군인 250여만 명이 전사하거나 부상·실종되고, 남한 지역 사망자 24만 4천여 명, 북한 지역 사망자가
+ 28만 2천명에 달했으며, 피난민은 1953년에 2백 60여 만 명이었다.
+ 전쟁은 사람들의 가슴에 어두운 그림자를 남겼다. 그리고 6·25전쟁, 그 시련의 시간을 잊지 않기 위하여
+ 사람들은 펜을 들었다. 누군가는 전쟁의 매 순간을 일기에 담거나, 지워지지 않는 죄책감과 이별의 슬픔을 수필로, 끝없는
+ 그리움을 시에 담기도 했다.
+ 치열한 전투의 승리와 패배, 포로 생활의 경험, 전장의 참상과 고난 등을 회고한 개인의 기록들은 전쟁기
+ 미디어가 다 담아내지 못한 현장의 진실한 목소리다.
+ 1.KOREAN REPORT, René Cutforth 저, 1952
+ 2.내가 격근 판문점, 최덕신 저, 1955
+ 3.UNITED NATIONS P.O.W’S IN KOREA, CPCW 저, 1953
+ 4.THE WOODEN BOXES, Derek Kinne 저, 1955
+ 5.March Till They Die, REV. Philip Crosbie 저, 1956
+ 6.학도는 이렇게 싸웠다, 학도의용병 현충비건립준비위원회 발행, 1955
+ 7.혈화의 전선, 이주일 저, 1955
+ 8.신성 신성사 발행 1951.11.
+ 에필로그
+ 펜과 카메라를 들고 뛰어든
+ 이들의 진실을 알리기 위한 위대한 열정이 있었기에
+ 전선에서도 피난지에서도
+ 모두가 희망의 끈을 놓지 않았다.
+ 종이 위에 펼쳐진 그 전쟁의 기록들은
+ 70년 분단의 땅에 살고 있는
+ 우리 모두의 기억이다.
+ 전쟁의 기억
+ 폐허와 상처를 걷어내고
+ 절망과 아픔이 희망으로
+ 다름을 인정하는 이해로
+ 서로가 마음으로 통하는
+ 그 중심에 ‘미디어’가 있다.
+ 개인정보처리방침 
+ 고정형 영상정보처리기기 운영관리 방침 
+ 찾아오시는길 
+ 페이스북 
+ 인스타그램 
+ 유튜브 
+ 우) 10808 경기도 파주시 문산읍 임진각로 153
+ 대표번호 031-930-6000
+ 팩스 031-930-6097
+ COPYRIGHT ⓒ National Memorial for Abductees during the Korean War. ALL RIGHT RESERVED.

@@ -1,0 +1,370 @@
+URL: https://theme.archives.go.kr/next/nationalHolidayAnniversary/viewMain.do
+FETCH: 200 text/html;charset=UTF-8 https://theme.archives.go.kr/next/nationalHolidayAnniversary/viewMain.do
+ACCESSED: 2026-10-11
+---
+
+ 국경일과 법정기념일
+국경일과 법정기념일
+콘텐츠 소개
+개요
+국경일
+법정기념일
+주요 기록물
+ 콘텐츠 소개
+ 일러두기
+ 메뉴소개
+ 개요
+ 개요
+ 국경일
+ 법정기념일
+ 1월
+ 2월
+ 3월
+ 4월
+ 5월
+ 6월
+ 7월
+ 8월
+ 9월
+ 10월
+ 11월
+ 12월
+ 주요기록물
+ 주요기록물
+ 기념일별 목록
+일러두기
+메뉴소개
+개요
+1월
+2월
+3월
+4월
+5월
+6월
+7월
+8월
+9월
+10월
+11월
+12월
+주요 기록물
+기념일별 목록
+ 국경일과 법정기념일
+국경일
+ 3ㆍ1절3월 1일
+ 제헌절7월 17일
+ 광복절8월 15일
+ 개천절10월 3일
+ 한글날10월 9일
+법정기념일
+[[], [AnniversaryListOutVo [anniversaryId=9880000001, enactReason=농인 등의 한국수어 사용 권리를 신장하고 한국수어에 대한 국민의 인식을 고취하기 위함이다., anniversaryCont=2016년 2월 3일은 ｢한국수화언어법｣이 제정된 날로 한국수화언어가 국어와 동등한 자격을 가진 농인의 공용어로 인정받게 되었다. 2020년 해당 법령의 일부 개정으로 매년 2월 3일을 한국수어의 날로 지정하여 국가와 지방자치단체에서 관련 행사를 실시할 수 있게 되었다. 또한 한국수화언어 사용 권리를 신장하고 국민 의식을 고취하기 위해 한국수어의 날이 속한 주간을 한국수어 주간으로 정하고 있다. , managementAgency=문화체육관광부, anniversaryTitle=한국수어의 날, anniversaryMonth=2, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=02/03, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 16:29:08, dateText=2월 3일, dateDayText=03, calDateText=2월 3일], AnniversaryListOutVo [anniversaryId=9880000002, enactReason=문화재를 화재 등의 재해로부터 안전하게 보존하고 국민의 문화재에 대한 안전관리의식을 높이기 위함이다., anniversaryCont=2010년 2월 4일 ｢문화재보호법｣이 전부 개정되어 문화재 방재의 날이 법정기념일이 되었다. 이를 통해 문화재의 화재 및 재난방지, 도난 예방을 위한 시책을 수립 시행하고, 문화재별 화재대응 지침서를 마련함과 동시에 문화재 방재의 날을 정하여 취지에 맞는 안전점검, 방재훈련 등의 사업 및 기념 행사를 실시하도록 하였다. 2023년 8월 8일, ｢문화유산의 보존 및 활용에 관한 법률(문화유산법)｣ 일부 개정으로 법정기념일 명칭이 문화유산 방재의 날로 변경되었다. , managementAgency=문화재청, anniversaryTitle=문화유산 방재의 날, anniversaryMonth=2, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=02/10, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 16:29:08, dateText=2월 10일, dateDayText=10, calDateText=2월 10일], AnniversaryListOutVo [anniversaryId=9880000003, enactReason=대구 시민과 학생들이 독재정권에 맞섰던 1960년 2·28민주운동의 역사적 의미와 숭고한 정신을 계승·발전시키기 위함이다. , anniversaryCont=1960년 2월 28일 정‧부통령 선거(3.15.)를 앞두고, 독재와 부정선거에 맞서 대구 시내 8개 학교 학생들이 시위를 주도하였다. 학생과 시민들의 지지 속에 전국적으로 퍼져나간 민주운동은 이후 3·8의거, 3·15의거, 4·19혁명으로 이어졌다. 2018년 1월 30일 국무회의 의결을 거쳐 2018년 2월 6일 ｢각종 기념일 등에 관한 규정(기념일규정)｣의 일부 개정으로 법정기념일이 되었다. , managementAgency=국가보훈부, anniversaryTitle=2·28민주운동 기념일, anniversaryMonth=2, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=02/28, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 16:29:08, dateText=2월 28일, dateDayText=28, calDateText=2월 28일], AnniversaryListOutVo [anniversaryId=9880000004, enactReason=희귀질환에 대한 국민의 이해를 높이고 희귀질환의 예방ㆍ치료 및 관리 의욕을 고취시키기 위함이다., anniversaryCont=2015년 12월 29일 제정된 ｢희귀질환관리법｣은 희귀질환의 예방, 진료 및 연구 등에 관한 정책을 종합적으로 수립‧시행하여 희귀질환으로 인한 개인적‧사회적 부담을 감소시키고, 국민의 건강 증진 및 복지 향상을 위해 제정되었다. 법령 제정과 함께 5월 23일이 법정기념일로 지정되었다. 2023년 6월 13일, 해당 법령이 일부 개정되어 2월 마지막 날로 법정기념일이 변경되었다. , managementAgency=보건복지부, anniversaryTitle=희귀질환 극복의 날, anniversaryMonth=2, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=9, showYn=Y, startDate=null, endDate=null, weekCode=15, dayCode=24, creDt=2023-12-18 16:29:08, dateText=2월 마지막 날, dateDayText=28, calDateText=2월 01일]], [AnniversaryListOutVo [anniversaryId=9806000000, enactReason=국민의 4대 의무 중 하나인 납세 의무의 중요성을 널리 알려 납세정신을 계몽하고, 국민의 성실한 납세와 세정 협조에 대한 감사를 표현하며, 세무공무원의 사명감을 고취하고 노고를 치하하기 위함이다. , anniversaryCont=1969년 7월 「세금의 날에 관한 규정」에 의해 국세청 발족일인 3월 3일을 ‘세금의 날'로 지정하였고, 1971년 8월 「관세의 날에 관한 규정」에 의해 관세청 발족일인 8월 27일을 ‘관세의 날’로 지정하였다. 1973년 3월 「각종 기념일 등에 관한 규정」에 의해 ‘세금의 날’과 ‘관세의 날’을 ‘조세의 날’로 통합하였다. 2000년 2월 ‘조세의 날’이 ‘납세자의 날’로 변경되었다., managementAgency=기획재정부, anniversaryTitle=납세자의 날, anniversaryMonth=3, sortNo=1, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=03/03, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=3월 3일, dateDayText=03, calDateText=3월 3일], AnniversaryListOutVo [anniversaryId=9880000005, enactReason=국립공원에 대한 국민의 관심과 이해를 높이기 위함이다., anniversaryCont=국립공원은 자연자원을 국가가 특별히 관리하기 위해 지정하는 자연유산으로, 1967년 제1호 국립공원으로 지리산이 지정되었다. 환경부 산하 국립공원공단은 1967년 국립공원 제도 도입 이후, 국립공원의 가치에 대한 국민적 관심을 고취시키고 국립공원의 의미를 재조명하기 위해 기념일 지정을 추진하였다. 2020년 6월 9일 ｢자연공원법｣의 개정으로, 매년 3월 3일이 기념일로 지정되었다., managementAgency=환경부, anniversaryTitle=국립공원의 날, anniversaryMonth=3, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=03/03, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 16:29:08, dateText=3월 3일, dateDayText=03, calDateText=3월 3일], AnniversaryListOutVo [anniversaryId=9880000007, enactReason=3·8민주의거의 역사적 의미와 숭고한 정신을 길이 계승‧발전시키기 위함이다. , anniversaryCont=1960년 3월 8일 대전지역 고등학생들은 자유당 정권의 부정·부패 및 정·부통령 선거를 규탄하고 학원자유 쟁취를 위해 시위를 전개하였다. 3·8민주의거는 대구의 2·28민주운동, 마산의 3·15의거와 함께 4·19혁명의 기폭제가 되었다. 2018년 11월 2일 ｢각종 기념일 등에 관한 규정｣ 에 법정기념일로 지정되었고, 2019년 3월 8일 정부 주관으로 첫 기념식을 개최하였다. , managementAgency=국가보훈부, anniversaryTitle=3·8민주의거 기념일, anniversaryMonth=3, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=03/08, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 16:29:08, dateText=3월 8일, dateDayText=08, calDateText=3월 8일], AnniversaryListOutVo [anniversaryId=9880000006, enactReason=국제연합(UN)이 지정한 세계 여성의 날인 3월 8일을 여성의 날 기념일로 지정하여 여성에 대한 차별철폐를 요구한 역사적 의미를 되새기고, 범국민적 양성평등 인식을 확산하기 위함이다., anniversaryCont=1908년 3월 8일은 미국 여성 노동자들이 생존권과 인권, 참정권 보장을 위해 궐기한 날이다. UN은 1977년 이를 기념하여 여성의 날을 지정하였고, 한국에서는 2018년 3월 2일 ｢양성평등기본법｣의 개정으로 법정기념일이 되었다. , managementAgency=여성가족부, anniversaryTitle=여성의 날, anniversaryMonth=3, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=03/08, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 16:29:08, dateText=3월 8일, dateDayText=08, calDateText=3월 8일], AnniversaryListOutVo [anniversaryId=9880000008, enactReason=농업의 근간이 되는 흙의 소중함을 국민에게 알리기 위함이다., anniversaryCont=2015년 3월 27일 ｢친환경농어업 육성 및 유기식품 등의 관리ㆍ지원에 관한 법률(친환경농어업법)｣ 개정으로 법정기념일이 되었다. 흙은 농업의 필수불가결한 요소이나 도시화와 산업화로 인해 토양 오염이 심화되고, 농산물의 안전과 국민의 건강을 위협하는 반면, 흙의 중요성에 대한 국민들의 인식이 날로 줄어들어 흙의 소중함과 보전의 필요성을 널리 알리려는 취지에서 법정기념일로 지정되었다., managementAgency=농림축산식품부, anniversaryTitle=흙의 날, anniversaryMonth=3, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=03/11, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 16:29:08, dateText=3월 11일, dateDayText=11, calDateText=3월 11일], AnniversaryListOutVo [anniversaryId=9807000000, enactReason=1960년 3월 15일 마산 시민과 학생들이 부정선거에 항거한 3ㆍ15 의거의 역사적 의미와 숭고한 정신을 계승하고 발전시키기 위함이다. , anniversaryCont=2010년 3월 「각종 기념일 등에 관한 규정」에 의해 ‘3ㆍ15 의거 기념일’을 제정하였다., managementAgency=국가보훈부, anniversaryTitle=3ㆍ15의거기념일, anniversaryMonth=3, sortNo=2, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=03/15, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=3월 15일, dateDayText=15, calDateText=3월 15일], AnniversaryListOutVo [anniversaryId=9880000009, enactReason=암에 대한 국민의 이해를 높이고 암의 예방ㆍ치료 및 관리 의욕을 고취시키기 위함이다., anniversaryCont=2006년 10월 27일 ｢암관리법｣ 개정으로 암 예방의 날이 법정기념일로 지정되었다. 국민들의 암에 대한 관심과 이해를 높이기 위하여 제정한 것으로, 암 예방의 날을 정하여 암 예방과 관련된 행사 및 교육·홍보사업을 실시할 수 있도록 3월 21일을 기념일로 지정하였다., managementAgency=보건복지부, anniversaryTitle=암 예방의 날, anniversaryMonth=3, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=03/21, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 16:29:08, dateText=3월 21일, dateDayText=21, calDateText=3월 21일], AnniversaryListOutVo [anniversaryId=9809000000, enactReason=결핵예방 및 관리의 중요성을 널리 알리고 결핵에 대한 경각심을 고취하기 위함이다. , anniversaryCont=결핵균을 발견한 지 100주년이 되던 해인 1982년에 결핵 예방 및 조기 발견을 위하여 ‘세계 결핵의 날’이 제정되었다. 우리나라는 대한결핵협회 주관하에 1982년부터 2010년까지 ‘세계 결핵의 날’ 기념행사를 실시하였다. 2010년 결핵 예방과 퇴치에 대한 국민적 관심을 촉구하고자 「결핵예방법」을 개정하고, ‘세계 결핵의 날’인 3월 24일을 ‘결핵 예방의 날’로 지정하여 2011년 제1회 결핵의 날 행사를 가졌다., managementAgency=질병관리청, anniversaryTitle=결핵 예방의 날, anniversaryMonth=3, sortNo=4, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=03/24, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=3월 24일, dateDayText=24, calDateText=3월 24일], AnniversaryListOutVo [anniversaryId=9808000000, enactReason=지속적인 경제성장을 위하여 상공인의 역할을 강조하고 상공업의 진흥을 촉진하며 재외 상공인의 애국심 고취와 국내 상공인의 유대 강화를 추진하기 위함이다. , anniversaryCont=1973년 3월 「각종 기념일 등에 관한 규정」에 의해 ‘발명의 날’, ‘전기의 날’, ‘계량의 날’이 ‘상공의 날’로 통합되었으며, 기념일자는 3월 20일이었다. 1984년 9월 ‘상공의 날’ 기념일을 3월 20일에서 3월 셋째 수요일로 변경하였다. , managementAgency=산업통상자원부, anniversaryTitle=상공의 날, anniversaryMonth=3, sortNo=3, typeCode=4, typeCodeName=법정기념일, dateCode=9, showYn=Y, startDate=null, endDate=null, weekCode=13, dayCode=19, creDt=2023-12-18 00:00:00, dateText=3월 셋째 수요일, dateDayText=18, calDateText=3월 18일]], [AnniversaryListOutVo [anniversaryId=9810000000, enactReason=수산업·어촌의 소중함 홍보 및 수산인의 긍지와 자부심 고취, anniversaryCont=1968년 수산청 고시에 의해 제정된‘어민의 날’(4월 1일)이 1973년 「각종 기념일 등에 관한 규정」에 의해 ‘권농의 날’로 통합되었다. 1996년 세계무역기구체제의 출범 이후 개방화 등으로 더욱 어려워진 농어업의 중요성을 인식시키고 농어업인의 사기진작을 위하여 ‘권농의 날’(5월 넷째 화요일)을 폐지하고, 11월 11일을 ‘농어업인의 날’로 정하였다. 1997년 해양수산부가 신설됨에 따라 어업인의 행사가 ‘농어업인의 날’에서 분리되어 ‘바다의 날’에 포함되었다. 2011년 7월 25일 「수산업법」에 의해 농림수산식품부가 주관하는 ‘어업인의 날’이 부활되었다. 2016년 3월 「수산업·어촌 발전 기본법」에 의거 수산인의 날로 변경되었다., managementAgency=해양수산부, anniversaryTitle=수산인의 날, anniversaryMonth=4, sortNo=1, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=04/01, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=4월 1일, dateDayText=01, calDateText=4월 1일], AnniversaryListOutVo [anniversaryId=9880000010, enactReason=제주4·3사건 희생자를 위령하고 유족을 위로하며, ｢제주4·3사건 진상규명 및 희생자 명예회복에 관한 특별법(4ㆍ3사건법)｣의 기본 목적인 화해와 상생을 도모하기 위함이다. , anniversaryCont=제주4·3은 1947년 3월 1일을 기점으로 1948년 4월 3일 발생한 소요사태 및 1954년 9월 21일까지 제주도에서 발생한 무력충돌과 그 진압과정에서 주민들이 희생당한 사건을 말한다. 2013년 6월 27일 국회는 ｢제주4·3사건 진상규명 및 희생자 명예회복에 관한 특별법(4·3사건법)｣을 개정하면서, 2014년 4월 3일 이전 매년 4월 3일을 추념일로 정하도록 의견을 제시하였다. 2014년 3월 24일 ｢기념일규정｣ 의 일부 개정으로 제주4·3사건 희생자를 추념하는 법정기념일이 지정되었다. , managementAgency=행정안전부, anniversaryTitle=4·3희생자 추념일, anniversaryMonth=4, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=04/03, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 16:29:08, dateText=4월 3일, dateDayText=03, calDateText=4월 3일], AnniversaryListOutVo [anniversaryId=9812000000, enactReason=나무심기 운동의 확산으로 쾌적한 생활환경을 조성하고, 산림자원의 육성을 촉진하기 위함이다. , anniversaryCont=조선 성종때 왕·세자·문무백관이 동대문 밖 선농단에서 친경한 날을 기원으로 하며, 1910년 친경제(親耕祭) 거행시 순종께서 친식(親植)한 것에서 유래하였다. 1949년 6월「관공서의 공휴일에 관한 건」에 의해 ‘식목일’이 법정공휴일로 지정되었다. 1960년 3월 ‘식목일’(4월 5일)이 ‘사방의 날’(3월 15일)로 변경되었으며, 1961년 2월 ‘사방의 날’(3월 15일)이 다시 ‘식목일’(4월 5일)로 변경되었다. 1982년 5월 15일 「각종 기념일 등에 관한 규정」에 의해 법정기념일로 제정되었으며, 2006년부터 공휴일에서 제외되었다. , managementAgency=농림축산식품부, anniversaryTitle=식목일, anniversaryMonth=4, sortNo=3, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=04/05, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=4월 5일, dateDayText=05, calDateText=4월 5일], AnniversaryListOutVo [anniversaryId=9813000000, enactReason=국민 보건의식을 향상시키고 보건의료 및 복지 분야의 종사자를 격려하기 위함이다., anniversaryCont=1948년 4월 7일은 세계보건기구 헌장 비준일로, 1953년 3월 국무회의에서 4월 7일을 ‘세계보건일’로 지정하기로 의결했다. 1973년 3월 「각종 기념일 등에 관한 규정」에 의해 ‘나병의 날’, ‘세계보건일’, ‘세계적십자의 날’, ‘국제간호원의 날’, ‘구강의 날’, ‘귀의 날’, ‘약(藥)의 날’, ‘눈의 날’을 ‘보건의 날’로 통합하였다., managementAgency=보건복지부, anniversaryTitle=보건의 날, anniversaryMonth=4, sortNo=4, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=04/07, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=4월 7일, dateDayText=07, calDateText=4월 7일], AnniversaryListOutVo [anniversaryId=9880000011, enactReason=국민에게 자연친화적인 도시환경 조성을 위한 도시농업의 중요성을 알리기 위함이다., anniversaryCont=도시농업의 날은 2017년 3월 21일 ｢도시농업의 육성 및 지원에 관한 법률(도시농업법)｣ 일부 개정으로 법정기념일로 지정되었다. 도시농업이란 도시지역에 있는 토지, 건축물 또는 다양한 생활공간을 활용한 농작물 경작․재배, 수목․화초 재배, 곤충 사육(양봉) 행위를 말한다. 도시농업의 개념이 생소한 사람들에게 도시농업을 알릴 수 있는 계기가 부족한 상황이며, 도시농업인 간에도 응집력이 부족하여 도시농업기술 공유 등에 한계가 있어 도시농업 홍보 활성화를 위한 제도적 기반을 마련할 필요가 있다는 취지로 해당 기념일을 지정하고 관련 기념행사를 추진하고 있다. , managementAgency=농림축산식품부, anniversaryTitle=도시농업의 날, anniversaryMonth=4, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=04/11, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 16:29:08, dateText=4월 11일, dateDayText=11, calDateText=4월 11일], AnniversaryListOutVo [anniversaryId=9814000000, enactReason=임시정부의 법통을 계승하여 대한민국의 정통성을 공고히 하고 민족자존 의식을 확립하기 위함이다. , anniversaryCont=1919년 4월 13일 대한민국 임시정부가 수립되었다. 임시정부 수립 60주년인 1979년부터 국가보훈처장, 독립운동 관련 단체장, 광복회원이 참가한 가운데 서울 용산구 효창공원에서 합동추모제전을 거행하였고, 대한민국 임시정부 수립 기념일에 대한 검토는 1970년대 후반부터 1980년대 후반에 걸쳐 이루어졌다. 1987년 제9차 헌법 개정시, 전문(前文)에 “대한민국은 임시정부의 법통을 계승하였다.”라고 밝혀 대한민국의 정통성이 임시정부에 있음을 천명하였고, 1989년 「각종 기념일 등에 관한 규정」에 의해 대한민국 임시정부 수립일을 법정기념일로 제정하였다. 2018년 11월 「각종 기념일 등에 관한 규정」개정으로 4월 13일에서 4월 11일로 변경되었다., managementAgency=국가보훈부, anniversaryTitle=대한민국 임시정부 수립 기념일, anniversaryMonth=4, sortNo=5, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=04/13, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=4월 13일, dateDayText=13, calDateText=4월 13일], AnniversaryListOutVo [anniversaryId=9880000012, enactReason=세월호 침몰사고를 추모하고, 국민의 안전의식을 제고하며, 안전문화를 확산하기 위함이다., anniversaryCont=2014년 4월 16일 세월호 침몰사고 이후, 12월 30일 ｢재난 및 안전관리 기본법(재난안전법)｣ 의 일부 개정으로 법정기념일이 되었다. 청소년의 안전문화 의식을 높이기 위하여 교육부장관이 학생에 대한 안전교육을 실시하려는 취지에서 신설되었으며. 2015년부터 국가 기념행사 및 국민안전 다짐대회 등 관련 행사가 추진되고 있다. , managementAgency=행정안전부, anniversaryTitle=국민 안전의 날, anniversaryMonth=4, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=04/16, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 16:29:08, dateText=4월 16일, dateDayText=16, calDateText=4월 16일], AnniversaryListOutVo [anniversaryId=9815000000, enactReason=4·19 혁명 정신을 기리고 4·19 민주이념을 계승·발전시켜 정의사회를 구현하고 희생자 영령을 추모하기 위함이다., anniversaryCont=4·19혁명은 1960년 4월 19일에 학생과 시민이 중심이 되어 일으킨 반독재 민주주의 운동으로, 3.15 부정선거를 규탄하는 시위를 대대적으로 벌였으며, 그 결과 이승만대통령이 하야하였다. 1973년 3월 「각종 기념일 등에 관한 규정」에 의해 ‘4·19의거 기념일’로 제정되었다. 1994년 12월 ‘4·19혁명 기념일’로 명칭이 변경되었다. , managementAgency=국가보훈부, anniversaryTitle=4ㆍ19혁명기념일, anniversaryMonth=4, sortNo=6, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=04/19, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=4월 19일, dateDayText=19, calDateText=4월 19일], AnniversaryListOutVo [anniversaryId=9816000000, enactReason=장애인에 대한 국민의 이해를 깊게 하고, 장애인의 재활 의욕을 북돋우며 복지 증진의 계기를 마련하기 위함이다. , anniversaryCont=1970년 국제재활협회에서 그 해를 ‘재활 10년’으로 정하고, 각 나라에 ‘재활의 날’을 지정·기념할 것을 권고하였다. 1972년 4월 11일 한국장애인재활협회에서 재활의 의미가 있는 4월중, 통계적으로 비가 오지 않는 4월 20일을 선택하여 ‘재활의 날’로 지정하여 행사를 거행하였다. UN이 ‘세계 장애인의 해’로 지정한 1981년에 보건사회부는 4월 20일을 ‘제1회 장애자의 날’로 정하고 기념하였다. 1989년 12월 30일 「장애인복지법」, 같은법 시행령에 의해 4월 20일을 ‘장애인의 날’로 정하였으며, 1994년 3월 「각종 기념일 등에 관한 규정」에 포함되었다. , managementAgency=보건복지부, anniversaryTitle=장애인의 날, anniversaryMonth=4, sortNo=7, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=04/20, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=4월 20일, dateDayText=20, calDateText=4월 20일], AnniversaryListOutVo [anniversaryId=9817000000, enactReason=과학기술에 대한 국민의 인식을 제고하고, 과학기술 혁신분위기를 확산시켜 국가경쟁력을 강화하고자 함이다. , anniversaryCont=찰스 다윈이 죽은 지 50주년이 되는 해인 1934년 4월 19일에 ‘제1회 과학데이 행사’가 거행되었다. 1969년 8월 「과학의 날에 관한 규정」에 의해 과학기술처 개청일인 4월 21일을 ‘과학의 날’로 지정하였다. 1973년 3월 「각종 기념일 등에 관한 규정」에 의해 ‘세계 기상의 날’(3월 23일)을 ‘과학의 날’에 통합하였다. , managementAgency=과학기술정보통신부, anniversaryTitle=과학의 날, anniversaryMonth=4, sortNo=8, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=04/21, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=4월 21일, dateDayText=21, calDateText=4월 21일], AnniversaryListOutVo [anniversaryId=9818000000, enactReason=정보통신의 중요성과 의의를 높이고 정보통신사업의 발전을 다짐하며 관계 종사원의 노고를 위로하기 위함이다. , anniversaryCont=1956년 6월 우정총국 개설 축하연을 베푼 날인 1884년 12월 4일을 ‘체신의 날’로 지정하였고, 1967년 11월 체신부훈령에 의해 5월 31일을 ‘집배원의 날’로 지정하였다. 고종이 우정총국 개설을 명령한 날(1884년 4월 22일)을 기념하여 1972년 7월 ‘체신의 날’을 4월 22일로 변경했으며, 1973년 1월 ‘집배원의 날’을 ‘체신의 날’에 통합하였다. 1973년 3월 「각종 기념일 등에 관한 규정」에 의해 ‘체신의 날’이 법정기념일로 포함되었으며, 1996년 5월‘정보통신의 날’로 명칭을 변경하였다. , managementAgency=과학기술정보통신부ㆍ방송통신위원회, anniversaryTitle=정보통신의 날, anniversaryMonth=4, sortNo=9, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=04/22, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=4월 22일, dateDayText=22, calDateText=4월 22일], AnniversaryListOutVo [anniversaryId=9819000000, enactReason=심각한 교통·환경문제에 대한 대처, 국민의 건강증진과 근검절약하는 사회적 분위기 조성 등을 위해 자전거 이용을 활성화하고 자전거 이용자의 자긍심을 고취하기 위함이다., anniversaryCont=2010년 6월 「자전거이용 활성화에 관한 법률」 및 같은 법 시행령에 의해 4월 22일 ‘자전거의 날’이 법정기념일로 제정되었다. 4월은 자전거를 타기 좋은 달이고, 22일은 자전거의 앞뒤 2개의 바퀴를 상징하는 날이기에 4월 22일을 ‘자전거의 날’로 지정하였다고 한다. , managementAgency=행정안전부, anniversaryTitle=자전거의 날, anniversaryMonth=4, sortNo=10, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=04/22, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=4월 22일, dateDayText=22, calDateText=4월 22일], AnniversaryListOutVo [anniversaryId=9820000000, enactReason=새마을운동을 지속적으로 추진하고 국민의 새마을운동에 대한 관심을 높이기 위함이다. , anniversaryCont=새마을운동은 1970년 농촌개량운동으로 출발한 정부 주도의 운동이었다. 2011년 3월 3일 「새마을운동 조직 육성법」에 의해 4월 22일 ‘새마을의 날’이 법정기념일로 제정되었다., managementAgency=행정안전부, anniversaryTitle=새마을의 날, anniversaryMonth=4, sortNo=11, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=04/22, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=4월 22일, dateDayText=22, calDateText=4월 22일], AnniversaryListOutVo [anniversaryId=9821000000, enactReason=국민의 준법정신을 높이고 법의 존엄성을 고취하기 위함이다. , anniversaryCont=1958년 미국에서 최초로 5월 1일을 ‘법의 날’로 지정하였고, 1963년 7월 제1차 세계법률가 대회에서 ‘법의 날’제정을 세계 각국에 권고하였다. 1964년 4월 「법의 날에 관한 건」에 의해 5월 1일을 ‘법의 날’로 지정하였고, 1973년 3월 「각종 기념일 등에 관한 규정」에 의해‘교도관의 날’(10월 28일)이 ‘법의 날’에 통합되었다. 2003년 2월, 근대적 사법제도의 도입계기가 된 갑오개혁 때 제정된 「재판소구성」(재판소구성법)이 시행된 4월 25일로 기념일자를 변경하였다. , managementAgency=법무부, anniversaryTitle=법의 날, anniversaryMonth=4, sortNo=12, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=04/25, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=4월 25일, dateDayText=25, calDateText=4월 25일], AnniversaryListOutVo [anniversaryId=9822000000, enactReason=충무공 이순신의 애국 위훈을 길이 전승하고 민족자주정신을 선양하기 위함이다. , anniversaryCont=이순신 장군을 기리는 행사는 그가 죽은 직후부터 시작되었다. 조선 선조는 경남 통영에 사당을 세워 제사하도록 했고, 효종 때 남해도 노량에, 숙종 때 아산에 사당을 세웠다. 정조는 이순신에게 의정부 영의정을 추증하고 제사를 지내도록 하였다. 1945년 이후 충무공기념사업회 주관으로 매년 4월 28일 탄신제전을 올렸으며, 1966년 4월 아산 현충사 경내 성역화 사업이 추진되었다. 1967년 1월 16일에 문교부령 제179호로 4월 28일을 ‘충무공 탄신기념일’로 제정하였고, 1968년에 서울 광화문에 충무공 동상을 세웠다. 1973년 3월 「각종 기념일 등에 관한 규정」에 ‘충무공 탄신일’이 법정기념일에 포함되었다. , managementAgency=문화체육관광부, anniversaryTitle=충무공 이순신 탄신일, anniversaryMonth=4, sortNo=13, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=04/28, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=4월 28일, dateDayText=28, calDateText=4월 28일], AnniversaryListOutVo [anniversaryId=9811000000, enactReason=범국민적인 안보의식과 향토애를 통한 지역단위 방위 체제를 확립하고, 향토예비군의 임무를 새롭게 다지며, 예비군의 노고를 치하하고 사기를 진작하기 위함이다. , anniversaryCont=1968년 1월 무장공비 침투사건과 미국의 첩보함 푸에블로호 납북사건을 계기로 그 해 4월 1일에 향토예비군이 창설되고, 다음해인 1969년 4월 1일에 향토예비군 창설 제1주년 기념식이 실시되었다. 1970년 2월 「향토예비군의 날에 관한 규정」에 의해 4월 첫째 토요일을 ‘향토예비군의 날’로 지정하였다. 1973년 3월 「각종 기념일 등에 관한 규정」에 ‘향토예비군의 날’이 포함되면서 「향토예비군의 날에 관한 규정」이 폐지되었다. 2006년 9월 6일 ‘향토예비군의 날’기념일자가 4월 첫째 토요일에서 4월 첫째 금요일로 변경되었다. , managementAgency=국방부, anniversaryTitle=예비군의 날, anniversaryMonth=4, sortNo=2, typeCode=4, typeCodeName=법정기념일, dateCode=9, showYn=Y, startDate=null, endDate=null, weekCode=11, dayCode=21, creDt=2023-12-18 00:00:00, dateText=4월 첫째 금요일, dateDayText=03, calDateText=4월 03일]], [AnniversaryListOutVo [anniversaryId=9823000000, enactReason=근로의 중요성을 인식하고 근로자의 노고를 위로하며, 근무의욕을 제고하기 위함이다. , anniversaryCont=1884년 미국노동조합연맹은 ‘1886년 5월 1일부터 8시간 근로’를 요구하는 결의문을 채택하였고, 1889년 프랑스혁명 100주년 기념일에 5월 1일을 ‘메이데이’로 정하였다. 1957년 대한노총 대의원대회에서 창립일인 3월 10일을 ‘노동절’로 결의하였고, 1963년 4월 「근로자의 날 제정에 관한 법률」에 의해 3월 10일을 ‘근로자의 날’로 지정하였다. 1973년 3월 「각종 기념일 등에 관한 규정」에 포함되었으며, 1994년 3월 「근로자의 날 제정에 관한 법률」이 개정됨에 따라 ‘근로자의 날’이 5월 1일로 변경되었다. , managementAgency=고용노동부, anniversaryTitle=근로자의 날, anniversaryMonth=5, sortNo=1, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=05/01, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=5월 1일, dateDayText=01, calDateText=5월 1일], AnniversaryListOutVo [anniversaryId=9837000000, enactReason=씨름에 대한 국민의 관심을 제고하고 씨름 진흥을 도모하기 위함이다. , anniversaryCont=2012년 1월 17일에 제정된 「씨름진흥법」에 의해 단오(음력 5월 5일)를 ‘씨름의 날’로 지정하였다. , managementAgency=문화체육관광부, anniversaryTitle=씨름의 날, anniversaryMonth=5, sortNo=1, typeCode=4, typeCodeName=법정기념일, dateCode=8, showYn=Y, startDate=05/05, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=음력 5월 5일, dateDayText=05, calDateText=음력 5월 5일], AnniversaryListOutVo [anniversaryId=9824000000, enactReason=어린이 애호사상을 함양하고 건전육성을 위한 범국민적 분위기를 조성하기 위함이다., anniversaryCont=‘어린이 날’은 천도교 소년회에서 어린이 날을 선포한 것과 이듬해 조선소년운동협회에서 ‘어린이 날’을 제정한 것을 기원으로 한다. ‘어린이 날’은 처음에 5월 1일을 기념일로 하였다가 1928년부터 5월 첫째주 일요일로 변경하였다. 변경된 어린이 날은 1937년까지 유지되다가 일제의 소년단체 해산 명령으로 중단되었다. ‘어린이 날’ 행사가 다시 시작된 것은 1946년이다. 이 해 5월 첫째 일요일이 5월 5일이었는데 이때부터 날짜가 달라지는 것을 막기 위해 5월 5일을 기념일로 하였다. 1973년 3월 「각종 기념일 등에 관한 규정」에 의해 ‘어린이 날’을 법정기념일로 제정하였다. 1975년 1월 「관공서의 공휴일에 관한 규정」에 의해 법정 공휴일로 정하였고, 이후 「각종 기념일 등에 관한 규정」에서 제외하였다. 1981년 4월 「아동복지법」에 의해 5월 5일을 ‘어린이날’로 지정하였으며, 1982년 5월 「각종 기념일 등에 관한 규정」에 재규정하였다. , managementAgency=보건복지부, anniversaryTitle=어린이 날, anniversaryMonth=5, sortNo=2, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=05/05, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=5월 5일, dateDayText=05, calDateText=5월 5일], AnniversaryListOutVo [anniversaryId=9880000031, enactReason=식품안전기본법 제5조의2, anniversaryCont=식품안전에 대한 국민의 이해와 관심 및 영업자의 식품안전 인식 제고 등을 위해 식품안전주간 지정.
+매년 양력 5월 7일~5월 21일, managementAgency=식품의약품안전처, anniversaryTitle=식품안전주간, anniversaryMonth=5, sortNo=16, typeCode=4, typeCodeName=법정기념일, dateCode=7, showYn=Y, startDate=05/07, endDate=05/21, weekCode=null, dayCode=null, creDt=2025-07-09 16:24:17, dateText=5월 7일~21일, dateDayText=07, calDateText=5월 7일~21일], AnniversaryListOutVo [anniversaryId=9825000000, enactReason=어버이 은혜에 감사하고 어른과 노인을 공경하는 전통적 미덕을 기리며, 산업화·도시화·핵가족화로 퇴조해가는 어른 봉양과 경로사상을 확산하는 계기로 삼기 위함이다. , anniversaryCont=1956년부터 5월 8일을 ‘어머니날’로 지정하여 경로효친의 행사를 실시하였다. 1973년 3월 「각종 기념일 등에 관한 규정」에 의해 어머니만이 아니라 아버지를 포함하여 어른, 노인들을 공경하는 전통적 미덕을 기리는‘어버이 날’로 확대·제정하였다. , managementAgency=보건복지부, anniversaryTitle=어버이 날, anniversaryMonth=5, sortNo=3, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=05/08, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=5월 8일, dateDayText=08, calDateText=5월 8일], AnniversaryListOutVo [anniversaryId=9826000000, enactReason=선거의 중요성과 의미를 되새기고 주권의식을 높이기 위함이다. , anniversaryCont=1948년 5월 10일 국회의원 총선거는 우리나라 역사상 최초로 보통·평등·직접·비밀선거로 치루어졌다. 2012년 2월 17일 「공직선거법」에 의해 5월 10일을 ‘유권자의 날’로 지정하였다., managementAgency=중앙선거관리위원회, anniversaryTitle=유권자의 날, anniversaryMonth=5, sortNo=4, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=05/10, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=5월 10일, dateDayText=10, calDateText=5월 10일], AnniversaryListOutVo [anniversaryId=9880000013, enactReason=바닷속 생태계의 중요성과 황폐화의 심각성을 국민에게 알리고 범국민적인 관심 속에서 바다숲이 조성될 수 있도록 하기 위함이다. , anniversaryCont=바다식목일은 바다가 사막화되는 갯녹음(백화현상)을 방지하고 바다에 해조류를 대량 번식시켜 바다숲이 조성될 수 있도록 법정기념일이 되었다. 2012년 2월 22일 ｢수산자원관리법｣을 개정하여 법정기념일로 지정하고, 관련 기념행사를 개최할 수 있도록 하였다. , managementAgency=해양수산부, anniversaryTitle=바다식목일, anniversaryMonth=5, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=05/10, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 16:29:08, dateText=5월 10일, dateDayText=10, calDateText=5월 10일], AnniversaryListOutVo [anniversaryId=9827000000, enactReason=건전한 입양문화의 정착과 국내입양의 활성화를 위기 위함이다. , anniversaryCont=2005년 3월 31일 「입양촉진 및 절차에 관한 특례법」에 의해 5월 11일을 ‘입양의 날’로 지정하였다., managementAgency=보건복지부 , anniversaryTitle=입양의 날, anniversaryMonth=5, sortNo=5, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=05/11, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=5월 11일, dateDayText=11, calDateText=5월 11일], AnniversaryListOutVo [anniversaryId=9880000014, enactReason=동학농민혁명의 역사적 가치와 의미를 재조명하고 애국애족정신을 높이기 위함이다. , anniversaryCont=동학농민혁명은 1894년 부패한 봉건제도를 개혁하고, 일제의 침략으로부터 국권 수호를 위해 발발하였다. 2004년 3월 5일 동학농민혁명 참여자 등의 명예회복에 관한 특별법 제정 후 2019년 2월 26일 ｢각종 기념일 등에 관한 규정(기념일규정)｣ 일부 개정으로 법정기념일로 지정되었다. 이후 2019년 5월 11일, 정부 주관으로 동학농민혁명 기념식(제125주년)이 개최되었다. 2023년에는 동학농민혁명 기록물이 그 중요성을 인정받아 유네스코 세계기록유산으로 등재되었다. , managementAgency=문화체육관광부, anniversaryTitle=동학농민혁명 기념일, anniversaryMonth=5, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=05/11, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 16:29:08, dateText=5월 11일, dateDayText=11, calDateText=5월 11일], AnniversaryListOutVo [anniversaryId=9880000032, enactReason=식품안전기본법 제5조의2, anniversaryCont=식품안전에 대한 국민의 이해와 관심 및 영업자의 식품안전 인식 제고 등을 위해 식품안전의 날 지정 및 기념식 개최(유공자 포상, 식품안전 주요 정책 등 홍보부스 운영, 주제영상 제작 및 상영 등), managementAgency=식품의약품안전처, anniversaryTitle=식품안전의 날, anniversaryMonth=5, sortNo=17, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=05/14, endDate=null, weekCode=null, dayCode=null, creDt=2025-07-09 16:24:54, dateText=5월 14일, dateDayText=14, calDateText=5월 14일], AnniversaryListOutVo [anniversaryId=9828000000, enactReason=가정의 중요성을 고취하고 건강가정을 위한 개인·가정·사회의 적극적인 참여분위기를 조성하기 위함이다. , anniversaryCont=1989년 제44차 국제연합총회에서 가정의 역할과 책임의 중요성에 대해 정부와 민간의 인식을 제고할 목적으로 1994년을 ‘세계 가정의 해’로 설정하고, 5월 15일을 ‘세계가정의 날’로 정하였다. 2004년 2월 「건강가정기본법」에 의해 5월 15일을 ‘가정의 날’로 지정하였다., managementAgency=여성가족부, anniversaryTitle=가정의 날, anniversaryMonth=5, sortNo=6, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=05/15, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=5월 15일, dateDayText=15, calDateText=5월 15일], AnniversaryListOutVo [anniversaryId=9829000000, enactReason=스승 존경의 사회적 풍토를 조성하고 교권확립에 관한 국민적 인식을 높이기 위함이다., anniversaryCont=1958년 대한적십자사가 세계적십자의 날인 5월 8일을 기념하여 청소년적십자(JRC)가 결단된 학교에서 스승을 위로하는 행사를 개최하였으며, 1963년 충청남도내 JRC가 9월 21일을 ‘은사의 날’로 정하고 충청남도 전역에서 각종 사은행사를 실시하였다. 1965년 4월 ‘스승의 날’을 세종대왕 탄생일인 5월 15일로 변경하였다. 1973년 3월 「각종 기념일 등에 관한 규정」에 의해 ‘스승의 날’(5월 15일)이 ‘국민교육헌장 선포 기념일’(12월 5일)로 통합되었다. 이후 1982년 5월 「각종 기념일 등에 관한 규정」에 의해 ‘스승의 날’을 법정기념일로 제정하였다. , managementAgency=교육부, anniversaryTitle=스승의 날, anniversaryMonth=5, sortNo=7, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=05/15, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=5월 15일, dateDayText=15, calDateText=5월 15일], AnniversaryListOutVo [anniversaryId=9830000000, enactReason=5·18민주화운동을 기리고 이를 계승하기 위함이다. , anniversaryCont=1993년 문민정부 출범 이후 5·18민주화운동에 대한 국가 차원의 재평가와 각종 기념사업이 이루어졌다. 1996년 광주시의회는 5월 18일을 ‘5·18민중항쟁기념일’로 지정하는 광주시 조례를 제정하였고, 광주시는 1997년 2월 정부에 법정기념일로 제정해 줄 것을 건의하였다. 1997년 5월 「각종 기념일 등에 관한 규정」에 의해 ‘5ㆍ18민주화운동 기념일’이 법정기념일로 제정되었다., managementAgency=국가보훈부, anniversaryTitle=5ㆍ18민주화운동기념일, anniversaryMonth=5, sortNo=8, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=05/18, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=5월 18일, dateDayText=18, calDateText=5월 18일], AnniversaryListOutVo [anniversaryId=9831000000, enactReason=발명의 중요성을 인식시키고 발명의욕을 북돋우기 위함이다. , anniversaryCont=‘발명의 날’은 1441년(세종 23년) 세계 최초로 측우기를 발명하고 세종대왕이 측우기를 공식적으로 사용하기 시작한 날(1441년 5월 19일)을 기념하여 1957년에 제정된 것이다. 1973년 3월 「각종 기념일 등에 관한 규정」에 의해 ‘상공의 날’로 통폐합되었으나, 1994년 3월 24일 제정된 「발명진흥법」에 의해 정부는 매년 5월 19일에 발명진흥연차대회를 개최하였다. 1992년 2월 4일 「발명진흥법」을 개정하여 5월 19일을 ‘발명의 날’로 지정하였다. , managementAgency=특허청, anniversaryTitle=발명의 날, anniversaryMonth=5, sortNo=9, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=05/19, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=5월 19일, dateDayText=19, calDateText=5월 19일], AnniversaryListOutVo [anniversaryId=9832000000, enactReason=국민과 재한 외국인이 서로의 문화와 전통을 존중하면서 더불어 살아갈 수 있는 사회 환경을 조성하기 위함이다., anniversaryCont=2006년 3월 ‘외국인의 날’ 지정을 위한 이민정책 포럼이 개최되었으며, 의견수렴 및 설문 조사를 통해 ‘세계인의 날’로 명칭이 정해졌고, 일자는 유엔이 정한 ‘세계 문화 다양성의 날’(5월 21일)이 적합한 것으로 조사되었으나 타 기념일(부부의 날)과 중복되어 5월 20일로 정해졌다. 2007년 「재한외국인 처우 기본법」에 의해 5월 20일이 ‘세계인의 날’로 지정되었다. , managementAgency=법무부, anniversaryTitle=세계인의 날, anniversaryMonth=5, sortNo=10, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=05/20, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=5월 20일, dateDayText=20, calDateText=5월 20일], AnniversaryListOutVo [anniversaryId=9833000000, enactReason=평등하고 민주적인 부부문화를 퍼지게 하고 건전한 가족문화를 정착시키며 가족해체를 예방하기 위함이다. , anniversaryCont=민간단체인 부부의 날 위원회는 1995년부터 ‘건강한 부부와 행복한 가정은 밝고 희망찬 사회를 만드는 디딤돌’이라는 표어를 내걸고 가정의 달 5월에 둘(2)이 하나(1)가 된다는 의미에서 매년 5월 21일에 ‘부부의 날’ 행사를 개최하였고, 2001년 4월 ‘부부의 날 국가 기념일 제정에 관한 청원’을 국회에 제출하였다. 2007년 5월 2일 「각종 기념일 등에 관한 규정」에 ‘부부의 날’이 법정기념일로 제정되었다. , managementAgency=여성가족부, anniversaryTitle=부부의 날, anniversaryMonth=5, sortNo=11, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=05/21, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=5월 21일, dateDayText=21, calDateText=5월 21일], AnniversaryListOutVo [anniversaryId=9880000015, enactReason=문화다양성에 대한 국민의 이해를 증진하기 위함이다. , anniversaryCont=유네스코는 2001년 세계문화다양성 선언을 발표한 후 2005년 문화다양성협약을 채택하였다. 대한민국은 이 협약의 110번째 비준국가가 되어 국내에서는 2010년 7월 협약이 정식 발효되었다. 2014년 5월 28일 제정된 ｢문화다양성의 보호와 증진에 관한 법률(문화다양성법)｣ 은 문화다양성협약의 구체적인 실행방안을 강구하기 위해 제정되었다. 법에서 정의하는 문화다양성이란 집단과 사회의 문화가 집단과 사회 간 그리고 집단과 사회 내에 전하여지는 다양한 방식으로 표현되는 것을 말하며, 그 수단과 기법에 관계없이 인류의 문화유산이 표현, 진흥, 전달되는 데에 사용되는 방법의 다양성과 예술적 창작, 생산, 보급, 유통, 향유 방식 등에서의 다양성을 포함한다. 법률 제정 시 매년 5월 21일을 문화다양성의 날로 하고, 문화다양성의 날부터 1주간을 문화다양성 주간으로 정하여 관련 기념 행사를 개최할 수 있도록 하였다. , managementAgency=문화체육관광부, anniversaryTitle=문화다양성의 날, anniversaryMonth=5, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=05/21, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 16:29:08, dateText=5월 21일, dateDayText=21, calDateText=5월 21일], AnniversaryListOutVo [anniversaryId=9835000000, enactReason=자연재해에 대한 경각심을 높이고 교육과 홍보를 통해 피해를 최소화하기 위함이다. , anniversaryCont=유엔은 1989년 12월 22일 총회에서 1990년도를 “자연재해 경감을 위한 10개년 계획 기간”으로 정하고 자연재해를 극복하기 위해 매년 10월 둘째 주 수요일을 ‘세계 자연재해 경감의 날’로 지정하였다. 1996년 「자연재해대책법」과 같은 법 시행령에 의해 5월 25일을 ‘방재의 날’로 지정하고, 방재관련 행사를 전국적으로 실시하였다. 2004년 「재난 및 안전관리기본법 시행령」에‘방재의 날’ 조항을 추가하였으며, 이후 「자연재해대책법」에서는 관련 조항을 삭제하였다. , managementAgency=행정안전부, anniversaryTitle=방재의 날, anniversaryMonth=5, sortNo=13, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=05/25, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=5월 25일, dateDayText=25, calDateText=5월 25일], AnniversaryListOutVo [anniversaryId=9880000016, enactReason=해외 파병용사의 희생과 공헌을 기리기 위함이다., anniversaryCont=2022년 9월 20일 ｢참전유공자 예우 및 단체설립에 관한 법률(참전유공자법)｣ 시행령 개정으로 매년 5월 29일 해외 파병용사의 날이 제정되었다. 2016년 ｢참전유공자법｣의 개정으로 해외파병용사의 날이 정해졌지만 날짜가 특정되지 않았었다. 이날은 유엔이 정한 유엔평화유지군의 날로, 관련 법령 주관부처인 국가보훈처(현 국가보훈부)는 외교부 등 관계기관 관련 단체의 의견 수렴을 통해 5월 29일로 기념일을 제정하여 기념행사를 추진할 법적 근거를 마련하였다. , managementAgency=국가보훈부, anniversaryTitle=해외 파병용사의 날, anniversaryMonth=5, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=05/29, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 16:29:08, dateText=5월 29일, dateDayText=29, calDateText=5월 29일], AnniversaryListOutVo [anniversaryId=9880000035, enactReason=의료기기법 제2조의2, anniversaryCont=국민의 건강 및 생명상의 안전을 확보하기 위한 의료기기의 중요성을 널리 알리기 위해 의료기기의 날을 지정하고 기념식 개최(유공자 포상, 홍보 등), managementAgency=식품의약품안전처, anniversaryTitle=의료기기의 날, anniversaryMonth=5, sortNo=20, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=05/29, endDate=null, weekCode=null, dayCode=null, creDt=2025-07-09 16:26:02, dateText=5월 29일, dateDayText=29, calDateText=5월 29일], AnniversaryListOutVo [anniversaryId=9836000000, enactReason=해양을 둘러싼 국제환경의 급격한 변화에 적극 대처하고, 해양 개발의 중요성과 바다에 대한 국민의 인식 확산 등 해양사상을 고취하며, 종사자의 자긍심을 제고하기 위함이다. , anniversaryCont=1994년 11월 유엔 해양법협약이 발효됨으로써 세계 각국은 해양자원 개발 확보를 위한 치열한 경쟁체제로 전환했다. 이에 따라 일본은 7월 20일을 ‘바다의 날’로 제정하였고, 미국도 5월 22일을 ‘바다의 날’로 지정하였다. 우리나라도 신라시대 해상왕 장보고가 전남 완도에 청해진을 설치한 달(828년 5월)을 기념하여 ‘바다의 날’을 5월 31일로 정했다. 1996년 5월 「각종 기념일 등에 관한 규정」에 의해 ‘바다의 날’을 법정기념일로 제정하였다., managementAgency=해양수산부, anniversaryTitle=바다의 날, anniversaryMonth=5, sortNo=14, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=05/31, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=5월 31일, dateDayText=31, calDateText=5월 31일], AnniversaryListOutVo [anniversaryId=9834000000, enactReason=성인으로서 자각과 사회인으로서의 책무를 일깨워 주고 성년이 되었음을 축하하고 격려하기 위함이다. , anniversaryCont=전통사회에서의 성년의식(成年儀式)인 관례는 상투를 틀어 갓을 씌우는 의식을 중심으로 하였으며, 15세에서 20세 사이에 행하였다. 고려시대에도 관례의식에 관한 기록이 있으나, 주자가례의 유입과 더불어 조선시대에 정착되었다. 그러나 갑오경장 이후, 단발령의 시행으로 머리를 깎았기 때문에 전통적 의미의 관례는 사라졌으며, 혼인의 과정에 흡수되어 혼인을 앞두고 동네 어른들을 모셔다가 잔치를 베풀고 인사하는 풍습으로 변용되기도 했다. 1973년 3월 「각종 기념일 등에 관한 규정」에 의해 4월 20일을 ‘성년의 날’로 지정하였다. 1975년 4월 ‘성년의 날’ 기념일이 5월 6일로 변경되었으며, 1984년 9월 다시 5월 셋째 월요일로 변경되었다. , managementAgency=여성가족부, anniversaryTitle=성년의 날, anniversaryMonth=5, sortNo=12, typeCode=4, typeCodeName=법정기념일, dateCode=9, showYn=Y, startDate=null, endDate=null, weekCode=13, dayCode=17, creDt=2023-12-18 00:00:00, dateText=5월 셋째 월요일, dateDayText=18, calDateText=5월 18일]], [AnniversaryListOutVo [anniversaryId=9838000000, enactReason=의병의 자기 희생정신을 기리고, 국민의 나라사랑 정신을 고취하기 위함이다. , anniversaryCont=2010년 5월 「각종 기념일 등에 관한 규정」에 의해 국가가 위기에 처했을 때 자발적으로 일어난 의병의 역사적 의의를 되새기고, 이들의 애국ㆍ애족 정신을 계승ㆍ발전시켜 국민통합과 국가발전의 원동력으로 삼을 수 있도록 6월 1일을 ‘의병의 날’로 지정하였다. , managementAgency=행정안전부, anniversaryTitle=의병의 날, anniversaryMonth=6, sortNo=2, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=06/01, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=6월 1일, dateDayText=01, calDateText=6월 1일], AnniversaryListOutVo [anniversaryId=9839000000, enactReason=국민의 환경보전 의식을 함양하고 실천을 생활화하기 위함이다. , anniversaryCont=지구환경 문제를 논의하기 위한 최초의 세계회의인 1972년 유엔인간환경회의에서 유엔인간환경선언을 채택하고 ‘세계 환경의 날’을 제정하기로 결정하였으며, 같은 해 제27차 유엔총회에서 유엔인간환경회의 개최일인 6월 5일을 ‘세계 환경의 날’로 지정하였다. 1996년 5월 「각종 기념일 등에 관한 규정」에 의해 6월 5일 ‘환경의 날’을 법정기념일로 정하였다. , managementAgency=환경부, anniversaryTitle=환경의 날, anniversaryMonth=6, sortNo=3, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=06/05, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=6월 5일, dateDayText=05, calDateText=6월 5일], AnniversaryListOutVo [anniversaryId=9840000000, enactReason=국권회복을 위하여 헌신·희생하신 순국선열과 전몰호국용사의 숭고한 애국·애족정신을 기리고 명복을 기원하기 위함이다. , anniversaryCont=1956년 4월 「관공서의 공휴일에 관한 규정」에 의해 6월 6일을 ‘현충기념일’로 지정하고 공휴일로 정하였다. 현충일을 6월 6일로 제정한 이유로, ‘6월은 6·25 사변일이 들어있는 달이고, 24절기 중의 하나인 제사를 지내는 망종이 6월 무렵이며, 1956년의 망종이 6월 6일이었기 때문’이라는 설이 일반적이다. 1975년 1월 「관공서의 공휴일에 관한 규정」이 개정되면서 ‘현충일’로 명칭이 변경되었고, 1982년 5월 「각종 기념일 등에 관한 규정」에 의해 법정기념일에 포함되었다., managementAgency=국가보훈부, anniversaryTitle=현충일, anniversaryMonth=6, sortNo=4, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=06/06, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=6월 6일, dateDayText=06, calDateText=6월 6일], AnniversaryListOutVo [anniversaryId=9880000017, enactReason=우수한 기록문화 전통을 계승하고 기록의 중요성을 국민에게 알리기 위함이다., anniversaryCont=6월 9일은 세계기록관리협의회(ICA, International Council on Archives)이 2007년 제정한 세계기록의 날로, 기록에 대한 전 세계적 인식 확산을 위해 각 회원국에서 매년 기념행사를 개최하고 있다. 국가기록원은 2016년 ICA 서울총회 개최를 계기로 매년 기념행사를 개최해 왔다. 또한 기록사랑 백일장, 기록사랑 공모전, 관련 전시회 등 국민들이 직접 참여하는 행사를 통해 기록문화의 중요성을 알리고 있다. 2019년 12월 3일 ｢공공기록물 관리에 관한 법률｣ 일부 개정으로 기록의 날이 법정기념일로 제정된 이후, 2020년 법정기념일로서 첫 기념행사를 개최하였다. , managementAgency=행정안전부 국가기록원, anniversaryTitle=기록의 날, anniversaryMonth=6, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=06/09, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 16:29:08, dateText=6월 9일, dateDayText=09, calDateText=6월 9일], AnniversaryListOutVo [anniversaryId=9841000000, enactReason=우리나라 민주주의 도약의 계기가 된 6월 민주항쟁을 기념하고, 전국적인 범위에서 기념사업을 수행함으로써 민주주의를 위한 고결한 정신을 계승하기 위함이다. , anniversaryCont=6.10민주항쟁기념일은 1987년 「4·13호헌조치」발표 후, 그해 6월 10일을 정점으로 20여 일 동안 전국적으로 확산된 민주화운동이다. 2007년 5월 2일 「각종 기념일 등에 관한 규정」에 의해 ‘6.10 민주항쟁기념일’을 법정기념일로 제정하였다., managementAgency=행정안전부, anniversaryTitle=6ㆍ10민주항쟁기념일, anniversaryMonth=6, sortNo=5, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=06/10, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=6월 10일, dateDayText=10, calDateText=6월 10일], AnniversaryListOutVo [anniversaryId=9880000018, enactReason=일제의 강제병합과 식민지배에 항거한 순국선열의 숭고한 독립정신과 희생정신을 계승하기 위함이다. , anniversaryCont=순종의 장례일인 1926년 6월 10일, 학생들을 중심으로 서울 곳곳에서 만세시위가 일어났다. 서울에서 시작한 시위는 전국으로 확산되어 학생과 시민들의 운동을 이끌어 내었다. 6ㆍ10만세운동은 학생 주도의 항일운동이 더욱 활발해지는 계기가 되었으며, 3.1운동과 1929년 광주학생항일운동과 더불어 주요 만세운동 시위로 꼽힌다. 2020년 12월 15일 ｢각종 기념일 등에 관한 규정(기념일규정)｣ 일부 개정으로 법정기념일이 되었다. , managementAgency=국가보훈부, anniversaryTitle=6ㆍ10만세운동기념일, anniversaryMonth=6, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=06/10, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 16:29:08, dateText=6월 10일, dateDayText=10, calDateText=6월 10일], AnniversaryListOutVo [anniversaryId=9880000019, enactReason=범국민적으로 노인학대에 대한 인식을 높이고 관심을 유도하기 위함이다., anniversaryCont=2015년 12월 29일 ｢노인복지법｣ 개정으로 노인학대 예방의 날이 법정기념일로 지정하였다. 6월 15일은 국제연합(UN)에서 정한 세계 노인학대 인식의 날로, 이날을 법정기념일로 하여 국가와 지방자치단체에서 기념일 취지에 맞는 행사와 홍보를 실시하도록 하였다. , managementAgency=보건복지부, anniversaryTitle=노인학대 예방의 날, anniversaryMonth=6, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=06/15, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 16:29:08, dateText=6월 15일, dateDayText=15, calDateText=6월 15일], AnniversaryListOutVo [anniversaryId=9880000020, enactReason=전자정부의 우수성과 편리함을 국민에게 알리고 국제적 위상을 제고하는 등 지속적으로 전자정부의 발전을 촉진하기 위함이다., anniversaryCont=전자정부란 정보기술을 활용하여 행정기관 및 공공기관의 업무를 전자화하여 행정기관 등 상호 간의 행정업무 및 국민에 대한 행정업무를 효율적으로 수행하는 정부를 말한다. 전자정부의 날은 국민에게 전자정부서비스의 우수성과 편리성을 알리고 국제적 위상을 제고하는 등 지속적으로 전자정부 발전을 촉진하기 위하여 2017년 10월 24일 ｢전자정부법｣ 일부 개정으로 제정되었다. , managementAgency=행정안전부, anniversaryTitle=전자정부의 날, anniversaryMonth=6, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=06/24, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 16:29:08, dateText=6월 24일, dateDayText=24, calDateText=6월 24일], AnniversaryListOutVo [anniversaryId=9842000000, enactReason=후세들에게 6.25전쟁의 참상과 역사적 교훈을 상기시키고, 참전용사의 위훈과 명예를 선양하며, 국민의 호국정신 및 안보의식을 고취하기 위함이다. , anniversaryCont=휴전 이후 국방부, 문공부 주관 6.25기념일 행사를 거행해오다가, 1973년 「각종 기념일 등에 관한 규정」에 의해 법정기념일로 제정되었다. , managementAgency=국가보훈부, anniversaryTitle=6ㆍ25전쟁일, anniversaryMonth=6, sortNo=6, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=06/25, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=6월 25일, dateDayText=25, calDateText=6월 25일], AnniversaryListOutVo [anniversaryId=9880000021, enactReason=마약류 등의 오남용에 대한 사회적 경각심을 높이고 마약류에 관한 범죄를 예방하기 위함이다., anniversaryCont=6월 26일은 국제연합(UN)이 마약류 오남용과 위험성에 대한 경각심을 높이고 마약퇴치에 대한 관심과 참여를 확대하기 위해 정한 세계마약퇴치의 날이다. 이 취지에 따라 한구겡서는 1991년부터 기념식을 개최해 오다 2017년 4월 18일 ｢마약류 관리에 관한 법률(마약류관리법)｣ 일부 개정으로 법정기념일이 되었다., managementAgency=식품의약안전처, anniversaryTitle=마약퇴치의 날, anniversaryMonth=6, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=06/26, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 16:29:08, dateText=6월 26일, dateDayText=26, calDateText=6월 26일], AnniversaryListOutVo [anniversaryId=9880000033, enactReason=마약류 관리에 관한 법률 제51조의3, anniversaryCont=마약류 등의 오남용에 대한 사회적 경각심을 높이고 마약류에 관한 범죄를 예방기 위해 마약퇴지의 날 지정 및 기념식 개최(홍보, 마약퇴치 유공자 포상 등), managementAgency=식품의약품안전처, anniversaryTitle=마약퇴치의 날, anniversaryMonth=6, sortNo=18, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=06/26, endDate=null, weekCode=null, dayCode=null, creDt=2025-07-09 16:25:17, dateText=6월 26일, dateDayText=26, calDateText=6월 26일], AnniversaryListOutVo [anniversaryId=9848000000, enactReason=기간교통 수단인 철도의 의의를 높이고 종사원들의 노고를 위로하기 위함이다. , anniversaryCont=1937년에 최초의 철도인 경인선(노량진→제물포)이 개통한 날(1899년 9월 18일)을 ‘철도기념일’로 지정하였으며, 1964년 11월 「철도의 날에 관한 규정」에 의해 9월 18을 ‘철도의 날’로 지정하였다. 1973년 3월「각종 기념일 등에 관한 규정」에 법정기념일로 포함되었으며, 「철도의 날에 관한 규정」은 폐지되었다. 이후, 2018년 5월 15일 개정된「각종 기념일 등에 관한 규정」에 의거 철도의 날은 9월 18일에서 철도국이 설립(1894년)된 날인 6월 28일로 변경되었다., managementAgency=국토교통부, anniversaryTitle=철도의 날, anniversaryMonth=6, sortNo=7, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=06/28, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=6월 28일, dateDayText=28, calDateText=6월 28일]], [AnniversaryListOutVo [anniversaryId=9880000022, enactReason=사회적기업에 대한 이해를 증진시키고 사회적기업가의 활동을 장려하기 위함이다., anniversaryCont=사회적기업이란 취약계층에게 사회서비스 또는 일자리를 제공하거나 지역사회에 공헌함으로써 지역주민의 삶의 질을 높이는 등의 사회적 목적을 추구하면서 재화 및 서비스의 생산ㆍ판매 등 영업활동을 하는 기업으로, ｢사회적기업 육성법(사회적기업법)｣에 따라 인증받은 자를 뜻한다. 2010년 6월 8일 해당 법령의 일부 개정으로 매년 7월 1일이 사회적기업의 날로 지정되었다. 또한 7월 1일이 있는 주간을 사회적기업 주간으로 지정하여 사회적기업에 대한 인식을 확산하고, 사회적기업의 설립을 촉진할 수 있는 근거를 마련하였다. , managementAgency=고용노동부, anniversaryTitle=사회적기업의 날, anniversaryMonth=7, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=07/01, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 16:29:08, dateText=7월 1일, dateDayText=01, calDateText=7월 1일], AnniversaryListOutVo [anniversaryId=9880000023, enactReason=도시와 농어촌 간에 소통여건을 조성하고 상호교류를 정착시키기 위함이다., anniversaryCont=2013년 6월 12일 ｢도시와 농어촌 간의 교류촉진에 관한 법률(도농교류법)｣개정으로 도농교류의 날이 법정기념일이 되었다. 농어촌과 도시 간 지속적인 교류와 소통의 장을 마련하는 한편, 도농 간 균형 발전과 공동체 형성 등에 기여하고 이에 적합한 행사 등을 실시하려는 취지에서 지정되었다. , managementAgency=농림축산식품부, anniversaryTitle=도농교류의 날, anniversaryMonth=7, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=07/07, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 16:29:08, dateText=7월 7일, dateDayText=07, calDateText=7월 7일], AnniversaryListOutVo [anniversaryId=9880000037, enactReason=방위산업 발전 및 지원에 관한 법률 제17조의 2 (방위산업의 날), anniversaryCont=방위산업의 중요성을 국민에게 알리고 방산 종사자들의 긍지와 자부심 고취를 위해 거북선 첫 출전일인 매년 7월 8일을 방위산업의 날로 지정하고 기념식 개최 * 유공자 포상, 홍보 등, managementAgency=방위사업청, anniversaryTitle=방위산업의 날, anniversaryMonth=7, sortNo=22, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=07/08, endDate=null, weekCode=null, dayCode=null, creDt=2025-07-15 09:51:59, dateText=7월 8일, dateDayText=08, calDateText=7월 8일], AnniversaryListOutVo [anniversaryId=9843000000, enactReason=인구구조 불균형이 초래하는 정치적·경제적·사회적 파급영향에 대하여 국민의 이해와 관심을 높이고, 저출산·고령화 대응에 민간의 참여를 유도하기 위함이다., anniversaryCont=2011년 8월 4일 개정된 「저출산·고령사회 기본법」에 의해, 7월 11일을 ‘인구의 날’로 정하였다. 7월 11일은 국제연합이 ‘세계 인구의 날’로 지정한 날로, 1987년 7월 11일 세계인구가 50억 명을 넘은 것을 기념하기 위함이었다. , managementAgency=보건복지부, anniversaryTitle=인구의 날, anniversaryMonth=7, sortNo=1, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=07/11, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=7월 11일, dateDayText=11, calDateText=7월 11일], AnniversaryListOutVo [anniversaryId=9880000024, enactReason=6ㆍ25전쟁에 참전하여 대한민국의 자유민주주의를 수호한 유엔참전국의 공헌을 기리기 위함이다., anniversaryCont=유엔군 참전의 날은 2013년 7월 26일 ｢참전유공자 예우 및 단체설립에 관한 법률(참전유공자법)｣이 개정되어 법정기념일로 지정되었다. 유엔 참전국과 참전용사의 희생과 위훈을 기리고 미국, 캐나다 등 참전국들이 정전협정일인 7월 27일을 한국전 참전용사의 날로 지정하여 국가적인 기념행사를 추진하고 있는 점을 반영한 것이었다. 2020년 3월 24일 ｢유엔참전용사의 명예선양 등에 관한 법률(유엔참전용사법)｣ 제정으로 해당 법률에 법정기념일로 지정되어 있다., managementAgency=국가보훈부, anniversaryTitle=유엔군 참전의 날, anniversaryMonth=7, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=07/27, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 16:29:08, dateText=7월 27일, dateDayText=27, calDateText=7월 27일], AnniversaryListOutVo [anniversaryId=9844000000, enactReason=국가의 정보보호 역량을 강화하고 국민들의 정보보호 생활화를 촉진하기 위함이다. , anniversaryCont=2012년 10월 개정된 「각종 기념일 등에 관한 규정」에 의해 7월 둘째 수요일을 ‘정보보호의 날’로 지정하였다. , managementAgency=행정안전부·지식경제부·국가정보원·방송통신위원회, anniversaryTitle=정보보호의 날, anniversaryMonth=7, sortNo=2, typeCode=4, typeCodeName=법정기념일, dateCode=9, showYn=Y, startDate=null, endDate=null, weekCode=12, dayCode=19, creDt=2023-12-18 00:00:00, dateText=7월 둘째 수요일, dateDayText=08, calDateText=7월 08일]], [AnniversaryListOutVo [anniversaryId=9880000025, enactReason=남북 이산가족의 생사확인 및 교류를 촉진하고 이산가족 문제에 대한 관심을 높이기 위함이다. , anniversaryCont=이산가족의 날은 2023년 3월 28일 ｢남북 이산가족 생사확인 및 교류촉진에 관한 법률(이산가족법)｣이 개정되어 법정기념일로 지정되었다. 기념일의 날짜는 통일부에서 2021년 실시한 제3차 남북 이산가족 실태조사 결과를 반영하여 추석 전전날(음력 8월 13일)로 정해졌다. 법정기념일 지정 후 2023년 9월 27일 제1회 이산가족의 날을 기념하는 정부 주관의 기념행사가 개최되었다. , managementAgency=통일부, anniversaryTitle=이산가족의 날, anniversaryMonth=8, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=8, showYn=Y, startDate=08/13, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 16:29:08, dateText=음력 8월 13일, dateDayText=13, calDateText=음력 8월 13일], AnniversaryListOutVo [anniversaryId=9880000026, enactReason=일본군‘위안부’ 문제를 국내외에 알리고 일본군‘위안부’ 피해자를 기리기 위함이다., anniversaryCont=일제에 의하여 강제로 동원되어 일본군 ‘위안부’로서의 생활을 강요당한 피해자를 보호하고 지원하기 위하여 1993년 6월 11일 ｢일제하 일본군 위안부에 대한 생활안정지원법｣이 제정되었다. 이후 일본군‘위안부’피해자의 명예회복과 진상 규명을 위한 기념사업 수행을 위해 관련 법률이 개정되어 왔다. 2017년 12월 12일 ｢일제하 일본군위안부 피해자에 대한 보호·지원 및 기념사업 등에 관한 법률(위안부피해자법)｣의 개정으로, 일본군‘위안부’ 피해자를 기리기 위한 법정기념일이 지정되었고, 2018년 8월 14일 여성가족부 주관으로 첫 정부 기념식이 개최되었다. , managementAgency=여성가족부, anniversaryTitle=일본군‘위안부’피해자 기림의 날, anniversaryMonth=8, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=08/14, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 16:29:08, dateText=8월 14일, dateDayText=14, calDateText=8월 14일]], [AnniversaryListOutVo [anniversaryId=9845000000, enactReason=통계의 중요성에 대한 국민 의식수준을 높이고 통계이용을 활성화하기 위함이다., anniversaryCont=2009년 4월 개정된 「통계법」에 의해 9월 1일을 ‘통계의 날’로 지정하였다. 우리나라 근대 통계의 시작으로 평가되고 있는 「호구조사규칙」이 최초로 마련된 1896년 9월 1일을 기념하기 위한 날로, 통계청은 이 날을 ‘통계의 날’로 제정하여 1995년부터 기념행사를 개최해왔다. 유엔통계처(UNSD)는 2010년부터 매년 10월 20일을‘세계 통계의 날(World Statistics Day)’로 제정·선포하였다. , managementAgency=통계청, anniversaryTitle=통계의 날, anniversaryMonth=9, sortNo=1, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=09/01, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=9월 1일, dateDayText=01, calDateText=9월 1일], AnniversaryListOutVo [anniversaryId=9846000000, enactReason=태권도에 대한 국민의 관심을 제고하고 태권도 보급을 도모하기 위하여 위함이다., anniversaryCont=1994년 9월 4일 프랑스 파리에서 열린 제103차 국제올림픽위원회(IOC) 총회에서 태권도가 올림픽 정식종목으로 채택되었다. 이 날을 기념하여 2006년 세계태권도연맹정기총회에서 9월 4일을‘태권도의 날’로 정하였다. 2007년 12월 21일 제정된 「태권도 진흥 및 공원 조성에 관한 법률」에 의해 9월 4일 ‘태권도의 날’을 법정기념일로 지정했다., managementAgency=문화체육관광부, anniversaryTitle=태권도의 날, anniversaryMonth=9, sortNo=2, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=09/04, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=9월 4일, dateDayText=04, calDateText=9월 4일], AnniversaryListOutVo [anniversaryId=9847000000, enactReason=국민의 사회복지에 대한 이해를 증진하고 사회복지사업 종사자의 활동을 장려하기 위함이다., anniversaryCont=2000년 1월 12일 개정된 「사회복지사업법」에 의해 9월 7일을 ‘사회복지의 날’로 지정하였다. 9월 7일은 「국민기초생활보장법」 공포일로, 이 법은 빈곤을 개인이 아닌 국가의 책임으로 간주하고, 전 국민의 최저생활을 보장할 뿐만 아니라 자립자활서비스까지 제공한다는 점이 특징이다., managementAgency=보건복지부, anniversaryTitle=사회복지의 날, anniversaryMonth=9, sortNo=3, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=09/07, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=9월 7일, dateDayText=07, calDateText=9월 7일], AnniversaryListOutVo [anniversaryId=9880000027, enactReason=유엔 기념일인 푸른 하늘을 위한 국제 맑은 공기의 날을 맞이하여 대기질 개선에 대한 국민의 이해와 관심을 제고하기 위함이다., anniversaryCont=국제연합(UN) 기념일인 세계 푸른하늘의 날은 우리나라가 2019년 9월 유엔 기후행동 정상회의에 제안하여 지정된 최초의 유엔 기념일이다. 이후 2020년 8월 18일 ｢각종 기념일 등에 관한 규정(기념일규정)｣ 이 개정되어 푸른 하늘의 날이 법정기념일로 지정되었다. 이에 따라 푸른 하늘을 위한 국제 맑은 공기의 날을 맞이하여 대기질 개선에 대한 국민의 이해와 관심을 제고하고, 대기오염 저감활동에 범국가적인 참여를 촉진하는 행사를 실시하게 되었다. , managementAgency=외교부․환경부, anniversaryTitle=푸른 하늘의 날, anniversaryMonth=9, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=09/07, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 16:29:08, dateText=9월 7일, dateDayText=07, calDateText=9월 7일], AnniversaryListOutVo [anniversaryId=9880000036, enactReason=화장품법 제2조의3, anniversaryCont=화장품산업의 국제 경쟁력 강화를 도모하고 화장품에 대한 국민의 이해와 관심을 높이기 위해 화장품의 날 지정 및 기념식 개최(유공자 포상, 홍보 등), managementAgency=식품의약품안전처, anniversaryTitle=화장품의 날, anniversaryMonth=9, sortNo=21, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=09/07, endDate=null, weekCode=null, dayCode=null, creDt=2025-07-09 16:26:27, dateText=9월 7일, dateDayText=07, calDateText=9월 7일], AnniversaryListOutVo [anniversaryId=9849000000, enactReason=치매관리의 중요성을 널리 알리고 치매를 극복하기 위한 범국민적 공감대를 형성하기 위함이다., anniversaryCont=2011년 8월 4일에 제정된 「치매관리법」에 의해 9월 21일을 ‘치매극복의 날’로 지정하였다. 9월 21일은 1995년 세계보건기구(WHO)가 국제알츠하이머협회(ADI)와 함께 가족과 사회의 치매환자 간호문제를 새롭게 인식하는 계기를 마련하고자 지정한 날이다., managementAgency=보건복지부, anniversaryTitle=치매극복의 날, anniversaryMonth=9, sortNo=5, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=09/21, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=9월 21일, dateDayText=21, calDateText=9월 21일]], [AnniversaryListOutVo [anniversaryId=9850000000, enactReason=국군의 새로운 위상과 참모습을 적극 홍보하고, 장병의 사기를 진작하며, 유비무환의 총력안보 태세를 확립하기 위함이다., anniversaryCont=1956년 9월 「국군의 날에 관한 규정」에 의해 육·해·공군 기념일을 통합하여, 국군이 최초로 38선을 돌파한 10월 1일을 ‘국군의 날’로 지정하였다. 1973년 3월 「각종 기념일 등에 관한 규정」에 법정기념일로 포함되었으며, 「국군의 날에 관한 규정」은 폐지되었다. 1976년 9월 「관공서의 공휴일에 관한 규정」에 의해 공휴일로 지정되면서 「각종 기념일 등에 관한 규정」에서는 제외되었다. 1982년 5월 「각종 기념일 등에 관한 규정」에 재규정되었으며, 1990년‘국군의 날’이 법정공휴일에서 제외되었다., managementAgency=국방부, anniversaryTitle=국군의 날, anniversaryMonth=10, sortNo=1, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=10/01, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=10월 1일, dateDayText=01, calDateText=10월 1일], AnniversaryListOutVo [anniversaryId=9851000000, enactReason=전통 미풍양속인 경로효친 의식을 고양하고, 노인문제에 대한 국가적 대책을 마련하며 범국민적 관심을 제고하기 위함이다., anniversaryCont=1990년 오스트리아 빈에서 열린 제45차 유엔총회에서 10월 1일을 ‘국제 노인의 날’로 결의하고, 1991년 10월 1일 전세계 유엔사무소에서 ‘제1회 국제 노인의 날’ 행사를 거행하였다. 1997년 5월 「각종 기념일 등에 관한 규정」에 의해 법정기념일로 제정되었다., managementAgency=보건복지부, anniversaryTitle=노인의 날, anniversaryMonth=10, sortNo=2, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=10/02, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=10월 2일, dateDayText=02, calDateText=10월 2일], AnniversaryListOutVo [anniversaryId=9852000000, enactReason=재외동포의 거주국내 권익 신장과 역량을 강화하고 한민족으로서의 정체성 및 자긍심을 고양하며, 동포간 화합 및 모국과 동포 사회간 호혜적 발전을 도모하기 위함이다., anniversaryCont=우리민족의 역사적 의미를 지니는 기간인 개천절(10월 3일)과 한글날(10월 9일) 주간을 재외동포주간으로 활용하였으며, 2007년 5월 「각종 기념일 등에 관한 규정」에 의해 법정기념일로 제정되었다., managementAgency=재외동포청, anniversaryTitle=세계한인의 날, anniversaryMonth=10, sortNo=3, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=10/05, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=10월 5일, dateDayText=05, calDateText=10월 5일], AnniversaryListOutVo [anniversaryId=9853000000, enactReason=세계향군연맹 가입국가와의 우호를 증진하고, 재향군인회 회원의 사기를 앙양하기 위함이다., anniversaryCont=1952년 2월 1일 재향군인회를 창설하였으며, 1953년 10월 8일 대한민국 제대장병 보도회로 명명하였다. 1957년 1월 17일 대한참전전우회 등을 통합하여 대한상무회를 창립하였고, 1960년 5월 14일 대한민국재향군인회로 개칭하였으며, 1961년 5월 8일 세계향군연맹에 가입하였다. 1965년 6월 8일 국무회의 의결을 통해 세계향군연맹에 가입한 날(5월 8일)을 ‘재향군인의 날’로 지정하였으며, 1973년 3월 「각종 기념일 등에 관한 규정」에 의해 법정기념일로 제정되었다. 2002년 ‘재향군인의 날’을 재향군인회의 모체가 되는 대한민국 제대장병 보도회의 명명일인 10월 8일로 변경하였다., managementAgency=국가보훈부, anniversaryTitle=재향군인의 날, anniversaryMonth=10, sortNo=4, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=10/08, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=10월 8일, dateDayText=08, calDateText=10월 8일], AnniversaryListOutVo [anniversaryId=9854000000, enactReason=임신과 출산에 대한 긍정적인 인식을 통해 저출산을 극복하고 임산부를 배려·보호하는 사회적 분위기를 만들기 위함이다., anniversaryCont=2005년 12월 7일 개정된 「모자보건법」에 의해 10월 10일을 ‘임산부의 날’로 지정하였다. 10월 10일은 풍요와 수확을 상징하는 10월과 임신기간 10개월을 의미한다., managementAgency=보건복지부, anniversaryTitle=임산부의 날, anniversaryMonth=10, sortNo=5, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=10/10, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=10월 10일, dateDayText=10, calDateText=10월 10일], AnniversaryListOutVo [anniversaryId=9855000000, enactReason=국민의 스포츠 의식을 북돋우고 스포츠를 보급하기 위함이다. , anniversaryCont=1963년 3월 18일 제정된 「국민체육진흥법 시행령」에 의해 10월 15일을 ‘체육의 날’로 지정하였다. 1973년 3월 「각종 기념일 등에 관한 규정」에 의해 ‘체육의 날’을 ‘올림픽의 날’(6월 23일)과 통합하였다. 2021년 8월 10일 제정된「스포츠기본법」에 '스포츠의 날'로 지정되었다. , managementAgency=문화체육관광부, anniversaryTitle=스포츠의 날, anniversaryMonth=10, sortNo=6, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=10/15, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=10월 15일, dateDayText=15, calDateText=10월 15일], AnniversaryListOutVo [anniversaryId=9880000028, enactReason=부마민주항쟁의 역사적 가치와 의미를 재조명하고 숭고한 정신을 계승·발전시키기 위함이다. , anniversaryCont=부마민주항쟁은 부산지역과 경남지역(마산)의 학생과 시민들이 유신독재에 항거하여 발생한 대규모 민주화운동이다. 1979년 10월 16일 부산에서 처음 발생하여, 같은 달 18일 창원(옛 마산)지역까지 확산되었다. 2017년 2월 7일 경상남도 창원시는 부마민주항쟁을 기리기 위해 시 기념일(10.18.)을 제정하였다. 이후 국무총리소속 ‘부마민주항쟁 진상규명위원회’는 관련 지자체 및 단체, 각계 전문가 의견 수렴을 통해 2018년 9월부터 부마민주항쟁의 최초 발생일인 10월 16일을 국가기념일로 지정하는 방안을 추진하였다. 이에 2019년 2월 24일 ｢각종 기념일 등에 관한 규정 일부 개정령안｣의 의결되어 10월 16일이 법정기념일이 되었다. 지정 이후 2019년 10월 16일 40주년 부마민주항쟁 기념식이 첫 정부 주관 기념행사로 개최되었다. , managementAgency=행정안전부, anniversaryTitle=부마민주항쟁기념일, anniversaryMonth=10, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=10/16, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 16:29:08, dateText=10월 16일, dateDayText=16, calDateText=10월 16일], AnniversaryListOutVo [anniversaryId=9857000000, enactReason=건국·구국·호국의 경찰로서 역경과 시련을 극복한 경찰사를 되새기기 위함이다. , anniversaryCont=미군정청 경무국 창설일(1945년 10월 21일)인 10월 21일을 1948년에‘국립경찰 창설일’로, 1957년에 ‘경찰의 날’로 지정하였다. 1971년 9월「경찰의 날 규정」을 제정하여, ‘경찰의 날’을 기념하였고, 1973년 3월 「각종 기념일 등에 관한 규정」에 의해 법정기념일에 포함되었다. , managementAgency=행정안전부, anniversaryTitle=경찰의 날, anniversaryMonth=10, sortNo=8, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=10/21, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=10월 21일, dateDayText=21, calDateText=10월 21일], AnniversaryListOutVo [anniversaryId=9858000000, enactReason=평화 애호국으로서 국제연합의 숭고한 이념을 고취·앙양하고, 6·25전쟁중 국제연합군의 지원을 상기하며 국제연합과 우리 국민간 심정적 유대를 강화하기 위함이다., anniversaryCont=1950년 9월 「관공서의 공휴일에 관한 건」에 의해 10월 24일 ‘국제연합일’이 법정공휴일로 지정되었다. ‘국제연합일’은 1976년 9월 법정공휴일에서 제외되었고, 「각종 기념일 등에 관한 규정」에 의한 법정기념일로 제정되었다., managementAgency=외교통상부, anniversaryTitle=국제연합일, anniversaryMonth=10, sortNo=9, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=10/24, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=10월 24일, dateDayText=24, calDateText=10월 24일], AnniversaryListOutVo [anniversaryId=9859000000, enactReason=교정(矯正) 관련 종사자들의 사기를 높이고 재소자의 갱생의지를 촉진하기 위함이다., anniversaryCont=1959년 10월 28일 ‘교도관의 날’을 10월 28일로 정하였는데, 이 날은 일제로부터 교정시설을 접수한 날인 1945년 10월 28일을 기념하기 위함이다. 1973년 3월 「각종 기념일 등에 관한 규정」에 의해 5월 1일 ‘법의 날’에 통합되었다가 2002년 6월 ‘교정의 날’로 다시 제정되었다., managementAgency=법무부, anniversaryTitle=교정의 날, anniversaryMonth=10, sortNo=10, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=10/28, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=10월 28일, dateDayText=28, calDateText=10월 28일], AnniversaryListOutVo [anniversaryId=9860000000, enactReason=지방자치에 대한 국민적 관심을 높이고 그 성과를 공유하기 위함이다., anniversaryCont=2012년 10월 22일 개정된 「각종 기념일 등에 관한 규정」에 의해 10월 29일을 ‘지방자치의 날’로 제정하였다. 이 날은 지방자치 부활을 위한 헌법개정일인 1987년 10월 29일을 기념한다., managementAgency=행정안전부, anniversaryTitle=지방자치의 날, anniversaryMonth=10, sortNo=11, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=10/29, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=10월 29일, dateDayText=29, calDateText=10월 29일], AnniversaryListOutVo [anniversaryId=9856000000, enactReason=국민의 문화 의식과 이해를 높이고 문화 활동에의 적극적인 참여를 유도하기 위함이다., anniversaryCont=1970년대에 들면서 문화 창조의 필요성이 증대됨에 따라 1972년 「문화예술진흥법」을 제정·공포하였고, 1973년 3월 「각종 기념일 등에 관한 규정」에 의해 ‘방송의 날’, ‘영화의 날’, ‘잡지의 날’을 흡수·통합하여 10월 20일을 ‘문화의 날’로 제정하였다. 2006년 9월에 ‘문화의 날’을 10월 20일에서 10월 셋째 토요일로 변경하였다. 2013년 12월 30일 제정된 「문화기본법」에 법정기념일로 지정되어 있다. , managementAgency=문화체육관광부, anniversaryTitle=문화의 날, anniversaryMonth=10, sortNo=7, typeCode=4, typeCodeName=법정기념일, dateCode=9, showYn=Y, startDate=null, endDate=null, weekCode=13, dayCode=22, creDt=2023-12-18 00:00:00, dateText=10월 셋째 토요일, dateDayText=17, calDateText=10월 17일], AnniversaryListOutVo [anniversaryId=9861000000, enactReason=금융에 대한 국민의 이해를 높이고 금융의 역할과 책임을 되새기며 금융권 종사자들의 노고를 격려하기 위함, anniversaryCont=1964년 6월 「저축의 날에 관한 건」에 의해 9월 21일을 '저축의 날로 지정하였다가 1966년에 9월 25일로 변경하였다. 1973년 3월 「각종 기념일 등에 관한 규정」에 의해 '증권의 날(5월 3일)과 보험의 날(11월 21일)이 저축의 날로 통합되었다. '저축의 날' 기념일자는 1973년 11월에 10월 25일로, 1984년 9월에 10월 마지막 화요일로 두 차례 변경되었다. 2016년 3월 개정된 「각종 기념일 등에 관한 규정」개정으로 금융의 날로 변경되었다. , managementAgency=금융위원회, anniversaryTitle=금융의 날, anniversaryMonth=10, sortNo=12, typeCode=4, typeCodeName=법정기념일, dateCode=9, showYn=Y, startDate=null, endDate=null, weekCode=15, dayCode=18, creDt=2023-12-18 00:00:00, dateText=10월 마지막 화요일, dateDayText=03, calDateText=10월 03일]], [AnniversaryListOutVo [anniversaryId=9862000000, enactReason=광주학생독립운동의 정신을 계승·발전시켜 역사적 소명의식을 고취하고 학생들에게 자율역량과 애국심을 함양시키기 위함이다., anniversaryCont=1953년 10월에 광주학생운동을 기념하여 11월 3일을 ‘학생의 날’로 지정하였고, 1956년에 11월 23일을 ‘반공학생의 날’로 지정하였다. 1984년 9월 「각종 기념일 등에 관한 규정」에 의해 11월 3일 ‘학생의 날’이 법정기념일이 되었고, 2006년 ‘학생독립운동 기념일’로 명칭이 변경되었다., managementAgency=교육부ㆍ국가보훈부, anniversaryTitle=학생독립운동 기념일, anniversaryMonth=11, sortNo=1, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=11/03, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=11월 3일, dateDayText=03, calDateText=11월 3일], AnniversaryListOutVo [anniversaryId=9863000000, enactReason=국민들에게 화재에 대한 경각심과 이해를 높이고 화재를 사전에 예방하게 하여 국민의 재산과 생명을 화재로부터 보호하기 위함이다., anniversaryCont=1948년 이후 정부는 불조심 강조 기간을 정하여 11월 1일에 유공자 표창, 불조심 캠페인 같은 기념행사를 하였다. 이후 1963년부터는 내무부가 주관하여 ‘소방의 날’ 행사를 개최하다가, 1991년 12월 14일 개정된 「소방법」에 의해 119를 상징하는 11월 9일을 ‘소방의 날’로 제정하였다., managementAgency=소방방재청, anniversaryTitle=소방의 날, anniversaryMonth=11, sortNo=2, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=11/09, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=11월 9일, dateDayText=09, calDateText=11월 9일], AnniversaryListOutVo [anniversaryId=9864000000, enactReason=보행교통 개선의 중요성에 대한 범국민적인 의식을 고취하기 위함이다., anniversaryCont=2009년 제정된 「지속가능 교통물류 발전법」과 같은법 시행규칙 등에 의해, 11월 11일을 ‘보행의 날’로 제정하였다., managementAgency=국토교통부, anniversaryTitle=보행자의 날, anniversaryMonth=11, sortNo=3, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=11/11, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=11월 11일, dateDayText=11, calDateText=11월 11일], AnniversaryListOutVo [anniversaryId=9865000000, enactReason=농업이 국민경제의 근간임을 국민들에게 인식시키고, 농업인의 긍지와 자부심을 고하며 노고를 위로하기 위함이다., anniversaryCont=1973년 3월 「각종 기념일 등에 관한 규정」에 의해 ‘어민의 날’ (4월 1일)과 ‘권농의 날’(6월 1일), ‘목초의 날’ (9월 5일)을 ‘권농의 날’(6월 첫째 토요일)로 통합하였다. 1984년 전국적으로 모내기 시기가 앞당겨짐에 따라 ‘권농의 날’을 6월 첫째 토요일에서 5월 넷째 화요일로 변경하였다. 1996년 5월 「각종 기념일 등에 관한 규정」에 의해 ‘권농의 날’을 폐지하고, 11월 11일을 ‘농어업인의 날’로 지정하였다. 농민은 흙에서 나서 흙을 벗삼아 함께 살다가 흙으로 돌아간다는 의미에서 흙‘土’자가 겹친 ‘土月土日’, 11월 11일을 ‘농업인의 날’로 정하였다. 이 때가 모든 영농을 마치고 풍년제를 할 수 있는 적절한 시기라는 것도 하나의 이유이다. 1997년에 ‘농어업인의 날’을 ‘농업인의 날’로 변경하였다., managementAgency=농림축산식품부, anniversaryTitle=농업인의 날, anniversaryMonth=11, sortNo=4, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=11/11, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=11월 11일, dateDayText=11, calDateText=11월 11일], AnniversaryListOutVo [anniversaryId=9880000029, enactReason=6·25 전쟁에 참전하여 대한민국의 자유민주주의를 수호한 유엔참전용사의 희생과 공헌을 기념하고 이들을 유엔참전국과 함께 추모하기 위함이다., anniversaryCont=2020년 3월 24일 ｢유엔참전용사의 명예선양 등에 관한 법률(유엔참전용사법)｣ 이 제정되었다. 해당 법률의 제정으로 유엔참전용사의 명예선양과 유엔참전국과의 우호증진에 관한 기본계획 및 시행계획을 수립·시행하고, 유엔참전용사에 대한 적절한 예우와 지원 등의 법적 근거를 마련하게 되었다. 법률 제정 시 6·25 전쟁에 참전한 유엔참전용사를 추모하고 기억하기 위해 매년 11월 11일을 유엔참전용사 국제추모의 날로 지정하였다., managementAgency=국가보훈부, anniversaryTitle=유엔참전용사 국제추모의 날, anniversaryMonth=11, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=11/11, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 16:29:08, dateText=11월 11일, dateDayText=11, calDateText=11월 11일], AnniversaryListOutVo [anniversaryId=9866000000, enactReason=국권회복을 위하여 헌신·희생하신 순국선열의 독립정신과 희생정신을 후세에 길이 전하고 위훈을 기리기 위함이다., anniversaryCont=‘순국선열’은 일제의 국권침탈 전·후부터 1945년 8월 14일까지 국내외에서 국권침탈을 반대하거나 독립을 위해 항거하다가 순국한 분을 일컫는다. 1939년 11월 21일 대한민국 임시정부에서 ‘을사늑약’(1905년 11월 17일)을 잊지 않기 위해 11월 17일을 ‘순국선열공동기념일’로 정하고 이후 추모행사를 거행하였다. 1955년부터 1969년까지는 정부 주관의 기념행사가 거행되었으나, 1970년 이후에는 정부행사 간소화 조치로 정부 주관 행사는 폐지되고 유족단체 주관 기념행사는 거행되었다. 1997년 5월 「각종 기념일 등에 관한 규정」에 의해 11월 17일 ‘순국선열의 날’을 법정기념일로 제정하였다., managementAgency=국가보훈부, anniversaryTitle=순국선열의 날, anniversaryMonth=11, sortNo=5, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=11/17, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=11월 17일, dateDayText=17, calDateText=11월 17일], AnniversaryListOutVo [anniversaryId=9880000034, enactReason=약사법 제2조의2, anniversaryCont=국민의 생명, 신체 및 건강상의 안전을 확보하는 의약품의 중요성을 널리 알리고 적절한 정보 제공을 통하여 의약품의 오남용을 방지하기 위하여 약의 날 지정 및 기념식 개최(유공자 포상, 홍보 등), managementAgency=식품의약품안전처, anniversaryTitle=약의 날, anniversaryMonth=11, sortNo=19, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=11/18, endDate=null, weekCode=null, dayCode=null, creDt=2025-07-09 16:25:37, dateText=11월 18일, dateDayText=18, calDateText=11월 18일], AnniversaryListOutVo [anniversaryId=9880000030, enactReason=아동의 건강한 성장을 도모하고, 범국민적으로 아동학대의 예방과 방지에 관한 관심을 높이기 위함이다., anniversaryCont=11월 19일은 세계여성정상기금(Women’s World Summit Foundation)에서 지정한 세계아동학대의 날로 한국은 2007년부터 매년 기념식을 개최해 왔다. 2011년 8월 4일 ｢아동복지법｣의 전부개정으로 법정기념일로 지정되어, 국가와 지방자치단체에서 그 취지에 맞는 행사와 홍보를 할 수 있도록 법적 근거를 마련하였다. 또한 아동학대예방의 날로부터 1주일을 아동학대예방주간으로 지정하여 국민적 관심을 제고하도록 하였다. , managementAgency=보건복지부, anniversaryTitle=아동학대예방의 날, anniversaryMonth=11, sortNo=15, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=11/19, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 16:29:08, dateText=11월 19일, dateDayText=19, calDateText=11월 19일]], [AnniversaryListOutVo [anniversaryId=9867000000, enactReason=소비자의 권리의식을 고취하고 권익을 강화하며, 소비자 문제에 대한 범국민적 관심도를 제고하기 위함이다., anniversaryCont=1982년부터 민간소비자단체에서 「소비자보호법」 국회 통과일 (1979년 12월 3일)을 ‘소비자의 날’로 정하여 기념행사를 실시하였으며, 1996년 5월 개정된 「각종 기념일 등에 관한 규정」에 의해 12월 3일을 ‘소비자보호의 날’로 제정하였다. 2000년 11월에 ‘소비자의 날’로 명칭이 변경되었다., managementAgency=공정거래위원회, anniversaryTitle=소비자의 날, anniversaryMonth=12, sortNo=1, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=12/03, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=12월 3일, dateDayText=03, calDateText=12월 3일], AnniversaryListOutVo [anniversaryId=9868000000, enactReason=국민경제에 미치는 수출의 중요성을 홍보하고, 수출증진 분위기를 확산하며 수출유공업체 및 개인의 노고를 치하하기 위함이다., anniversaryCont=1964년 국무회의 의결에 의해 수출 1억불 달성일(11월 30일)을 ‘수출의 날'로 지정하였으며, 1973년 3월「각종 기념일 등에 관한 규정」에 의해 ‘중소기업의 날’(5월 1일), ‘상공인의 날’(10월 31일)이 ‘수출의 날’(11월 30일)로 통합되었다. 1989년 12월 개정된 「각종 기념일 등에 관한 규정」에 의해 ‘수출의 날’이 ‘무역의 날’로 명칭이 변경되었으며, 2012년 10월 ‘무역의 날’ 기념일자를 무역규모 1조 달러를 달성한 날인 12월 5일로 변경하였다., managementAgency=산업통상자원부, anniversaryTitle=무역의 날, anniversaryMonth=12, sortNo=2, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=12/05, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=12월 5일, dateDayText=05, calDateText=12월 5일], AnniversaryListOutVo [anniversaryId=9869000000, enactReason=국민의 자원봉사활동에 대한 참여를 촉진하고 자원봉사자의 사기를 높이기 위함이다., anniversaryCont=2005년 8월 4일에 제정된 「자원봉사활동 기본법」에 의해 12월 5일을 ‘자원봉사자의 날’로 지정하였다., managementAgency=행정안전부, anniversaryTitle=자원봉사자의 날, anniversaryMonth=12, sortNo=2, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=12/05, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=12월 5일, dateDayText=05, calDateText=12월 5일], AnniversaryListOutVo [anniversaryId=9870000000, enactReason=원자력 안전의 중요성을 널리 알리고, 원자력 산업의 진흥을 촉진하기 위함이다., anniversaryCont=2010년 12월 개정된 「각종 기념일 등에 관한 규정」에 의해 12월 27일을 ‘원자력 안전 및 진흥의 날’로 제정하였다., managementAgency=과학기술정보통신부ㆍ산업통상자원부ㆍ원자력안전위원회, anniversaryTitle=원자력 안전 및 진흥의 날, anniversaryMonth=12, sortNo=4, typeCode=4, typeCodeName=법정기념일, dateCode=6, showYn=Y, startDate=12/27, endDate=null, weekCode=null, dayCode=null, creDt=2023-12-18 00:00:00, dateText=12월 27일, dateDayText=27, calDateText=12월 27일]]]
+해당 월에는 법정기념일이 없습니다.
+03
+ 한국수어의 날
+ 2월 3일
+10
+ 문화유산 방재의 날
+ 2월 10일
+28
+ 2·28민주운동 기념일
+ 2월 28일
+28
+ 희귀질환 극복의 날
+ 2월 마지막 날
+03
+ 납세자의 날
+ 3월 3일
+03
+ 국립공원의 날
+ 3월 3일
+08
+ 3·8민주의거 기념일
+ 3월 8일
+08
+ 여성의 날
+ 3월 8일
+11
+ 흙의 날
+ 3월 11일
+15
+ 3ㆍ15의거기념일
+ 3월 15일
+21
+ 암 예방의 날
+ 3월 21일
+24
+ 결핵 예방의 날
+ 3월 24일
+18
+ 상공의 날
+ 3월 셋째 수요일
+01
+ 수산인의 날
+ 4월 1일
+03
+ 4·3희생자 추념일
+ 4월 3일
+05
+ 식목일
+ 4월 5일
+07
+ 보건의 날
+ 4월 7일
+11
+ 도시농업의 날
+ 4월 11일
+13
+ 대한민국 임시정부 수립 기념일
+ 4월 13일
+16
+ 국민 안전의 날
+ 4월 16일
+19
+ 4ㆍ19혁명기념일
+ 4월 19일
+20
+ 장애인의 날
+ 4월 20일
+21
+ 과학의 날
+ 4월 21일
+22
+ 정보통신의 날
+ 4월 22일
+22
+ 자전거의 날
+ 4월 22일
+22
+ 새마을의 날
+ 4월 22일
+25
+ 법의 날
+ 4월 25일
+28
+ 충무공 이순신 탄신일
+ 4월 28일
+03
+ 예비군의 날
+ 4월 첫째 금요일
+01
+ 근로자의 날
+ 5월 1일
+05
+ 씨름의 날
+ 음력 5월 5일
+05
+ 어린이 날
+ 5월 5일
+07
+ 식품안전주간
+ 5월 7일~21일
+08
+ 어버이 날
+ 5월 8일
+10
+ 유권자의 날
+ 5월 10일
+10
+ 바다식목일
+ 5월 10일
+11
+ 입양의 날
+ 5월 11일
+11
+ 동학농민혁명 기념일
+ 5월 11일
+14
+ 식품안전의 날
+ 5월 14일
+15
+ 가정의 날
+ 5월 15일
+15
+ 스승의 날
+ 5월 15일
+18
+ 5ㆍ18민주화운동기념일
+ 5월 18일
+19
+ 발명의 날
+ 5월 19일
+20
+ 세계인의 날
+ 5월 20일
+21
+ 부부의 날
+ 5월 21일
+21
+ 문화다양성의 날
+ 5월 21일
+25
+ 방재의 날
+ 5월 25일
+29
+ 해외 파병용사의 날
+ 5월 29일
+29
+ 의료기기의 날
+ 5월 29일
+31
+ 바다의 날
+ 5월 31일
+18
+ 성년의 날
+ 5월 셋째 월요일
+01
+ 의병의 날
+ 6월 1일
+05
+ 환경의 날
+ 6월 5일
+06
+ 현충일
+ 6월 6일
+09
+ 기록의 날
+ 6월 9일
+10
+ 6ㆍ10민주항쟁기념일
+ 6월 10일
+10
+ 6ㆍ10만세운동기념일
+ 6월 10일
+15
+ 노인학대 예방의 날
+ 6월 15일
+24
+ 전자정부의 날
+ 6월 24일
+25
+ 6ㆍ25전쟁일
+ 6월 25일
+26
+ 마약퇴치의 날
+ 6월 26일
+26
+ 마약퇴치의 날
+ 6월 26일
+28
+ 철도의 날
+ 6월 28일
+01
+ 사회적기업의 날
+ 7월 1일
+07
+ 도농교류의 날
+ 7월 7일
+08
+ 방위산업의 날
+ 7월 8일
+11
+ 인구의 날
+ 7월 11일
+27
+ 유엔군 참전의 날
+ 7월 27일
+08
+ 정보보호의 날
+ 7월 둘째 수요일
+13
+ 이산가족의 날
+ 음력 8월 13일
+14
+ 일본군‘위안부’피해자 기림의 날
+ 8월 14일
+01
+ 통계의 날
+ 9월 1일
+04
+ 태권도의 날
+ 9월 4일
+07
+ 사회복지의 날
+ 9월 7일
+07
+ 푸른 하늘의 날
+ 9월 7일
+07
+ 화장품의 날
+ 9월 7일
+21
+ 치매극복의 날
+ 9월 21일
+01
+ 국군의 날
+ 10월 1일
+02
+ 노인의 날
+ 10월 2일
+05
+ 세계한인의 날
+ 10월 5일
+08
+ 재향군인의 날
+ 10월 8일
+10
+ 임산부의 날
+ 10월 10일
+15
+ 스포츠의 날
+ 10월 15일
+16
+ 부마민주항쟁기념일
+ 10월 16일
+21
+ 경찰의 날
+ 10월 21일
+24
+ 국제연합일
+ 10월 24일
+28
+ 교정의 날
+ 10월 28일
+29
+ 지방자치의 날
+ 10월 29일
+17
+ 문화의 날
+ 10월 셋째 토요일
+03
+ 금융의 날
+ 10월 마지막 화요일
+03
+ 학생독립운동 기념일
+ 11월 3일
+09
+ 소방의 날
+ 11월 9일
+11
+ 보행자의 날
+ 11월 11일
+11
+ 농업인의 날
+ 11월 11일
+11
+ 유엔참전용사 국제추모의 날
+ 11월 11일
+17
+ 순국선열의 날
+ 11월 17일
+18
+ 약의 날
+ 11월 18일
+19
+ 아동학대예방의 날
+ 11월 19일
+03
+ 소비자의 날
+ 12월 3일
+05
+ 무역의 날
+ 12월 5일
+05
+ 자원봉사자의 날
+ 12월 5일
+27
+ 원자력 안전 및 진흥의 날
+ 12월 27일
+ 35208 대전광역시 서구 청사로 189, 2동
+ © National Archives of Korea.

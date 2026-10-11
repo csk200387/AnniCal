@@ -1,0 +1,1866 @@
+{
+  "gov-1": {
+    "origin": "2·28민주운동 기념일은 1960년 2월 28일 대구의 고등학생들이 정부와 여당의 부당한 선거 개입에 맞서 거리로 나선 일을 기리는 국가기념일이다. 그해 3월 15일 정·부통령 선거를 앞두고 야당 대통령 후보 조병옥이 2월 15일 갑자기 세상을 떠나면서, 이승만의 대통령 당선은 사실상 정해진 상황이었다. 그래서 대통령 유고 시 자리를 잇는 부통령 선거가 승부처가 됐고, 2월 28일 일요일 대구 수성천변에서는 야당 부통령 후보 장면의 유세가 예정돼 있었다. 당국은 학생들이 유세장에 가지 못하도록 대구의 8개 공립 고등학교에 일요일 등교를 지시했다. 명분은 시험, 영화 관람, 토끼사냥 등 제각각이었다. 이에 반발한 학생 간부들이 전날 모여 결의문을 썼고, 28일 낮 경북고 학생부위원장 이대우가 조회단에서 이를 낭독했다. 경북고생 800여 명을 시작으로 여러 학교 학생들이 '학원을 정치 도구화하지 말라'고 외치며 도심을 행진했다. 이날은 오랫동안 대구시 조례에 따라 지역 행사로 기려졌고, 2018년 2월 '각종 기념일 등에 관한 규정' 개정으로 국가기념일이 됐다.",
+    "anecdote": "흔히 '백만 학도여, 피가 있거든 우리의 뒤를 따르라'로 알려진 결의문 구절은 기념사업회가 공개한 원문과 다르다. 원문에는 '백만학도여! 피가 있거든 우리의 신성한 권리를 위하여 서슴지 말고 일어서라'라고 적혀 있다. 이날 경찰에 붙잡힌 학생은 200명이 넘었다. 대구 지역 언론이 고등학생들의 시위를 크게 보도하면서 학생 시위는 마산, 대전, 부산, 서울 등으로 퍼져 나갔다. 3월 8일 대전의 3·8민주의거, 3월 15일 마산의 3·15의거를 거쳐 4·19혁명으로 이어지는 1960년 봄의 첫 장면이 바로 2·28이다. 정부가 학생을 동원한 관제 시위가 흔하던 시절에 학생들이 스스로 조직한 시위였다는 점도 중요하게 평가된다. 2·28민주운동기념사업회는 이 운동을 정부 수립 이후 최초의 반독재 민주화 운동으로 소개한다. 국가기념일 지정은 사건 발생 58년 만의 일이었으며, 지금은 국가보훈부가 주관해 기념행사를 연다.",
+    "sourceUrl": "https://www.228.or.kr/front/index.php?g_page=guide&m_page=guide01",
+    "evidence": [
+      {
+        "claim": "1960년 2월 28일 대구 고등학생들이 정부·여당의 선거 개입에 항의한 시위",
+        "url": "https://encykorea.aks.ac.kr/Article/E0075781",
+        "title": "2·28대구학생시위",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1960년 2월 28일 정부와 여당의 부당한 선거개입에 항의하며 대구의 고등학생들이 벌인 학생시위.",
+        "local_evidence_path": "evidence/ency_228.txt"
+      },
+      {
+        "claim": "야당 대통령 후보 조병옥 2월 15일 급서, 이승만 당선 기정사실화",
+        "url": "https://www.228.or.kr/front/index.php?g_page=guide&m_page=guide01",
+        "title": "2·28민주운동이란",
+        "publisher": "2·28민주운동기념사업회",
+        "accessed_at": "2026-10-11",
+        "quote_original": "야당 대통령 후보 조병옥이 선거를 한 달 앞둔 2월 15일 급서함으로써 이승만의 대통령 당선은 기정사실화 되었다.",
+        "local_evidence_path": "evidence/228_about.txt"
+      },
+      {
+        "claim": "부통령은 대통령 유고 시 권력승계자",
+        "url": "https://www.228.or.kr/front/index.php?g_page=guide&m_page=guide01",
+        "title": "2·28민주운동이란",
+        "publisher": "2·28민주운동기념사업회",
+        "accessed_at": "2026-10-11",
+        "quote_original": "대통령 유고시 권력승계자인 부통령에 이기붕을 당선시키는 것이 자유당 정권 최대의 과제로 떠올랐다.",
+        "local_evidence_path": "evidence/228_about.txt"
+      },
+      {
+        "claim": "2월 28일 장면의 대구 수성천변 유세",
+        "url": "https://www.228.or.kr/front/index.php?g_page=guide&m_page=guide01",
+        "title": "2·28민주운동이란",
+        "publisher": "2·28민주운동기념사업회",
+        "accessed_at": "2026-10-11",
+        "quote_original": "2월 28일 예정된 장면의 대구 수성천변 유세에는 전국의 이목이 집중되었다.",
+        "local_evidence_path": "evidence/228_about.txt"
+      },
+      {
+        "claim": "8개 공립 고교 일요일 등교 지시",
+        "url": "https://www.228.or.kr/front/index.php?g_page=guide&m_page=guide01",
+        "title": "2·28민주운동이란",
+        "publisher": "2·28민주운동기념사업회",
+        "accessed_at": "2026-10-11",
+        "quote_original": "당국이 대구의 8개 공립 고등학교",
+        "local_evidence_path": "evidence/228_about.txt"
+      },
+      {
+        "claim": "등교 명분",
+        "url": "https://www.228.or.kr/front/index.php?g_page=guide&m_page=guide01",
+        "title": "2·28민주운동이란",
+        "publisher": "2·28민주운동기념사업회",
+        "accessed_at": "2026-10-11",
+        "quote_original": "일요일 등교의 명분은 조기 중간고사, 영화관람, 토끼사냥 등이었다.",
+        "local_evidence_path": "evidence/228_about.txt"
+      },
+      {
+        "claim": "2월 28일은 일요일; 학기말 시험 등 명분",
+        "url": "https://encykorea.aks.ac.kr/Article/E0075781",
+        "title": "2·28대구학생시위",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "경북고는 학기말 시험, 대구고는 토끼사냥, 경북사대부고는 임시수업, 대구상고와 대구여고는 졸업생 송별회 등을 일요일 등교의 이유로 들었다.",
+        "local_evidence_path": "evidence/ency_228.txt"
+      },
+      {
+        "claim": "이대우 결의문 낭독, 800여 명, 구호",
+        "url": "https://encykorea.aks.ac.kr/Article/E0075781",
+        "title": "2·28대구학생시위",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "경북고 학생 부위원장 이대우(李大雨)가 학교 운동장 조회단에서 결의문을 읽었고, 경북고생 800여 명이",
+        "local_evidence_path": "evidence/ency_228.txt"
+      },
+      {
+        "claim": "구호 '학원을 정치 도구화하지 말라'",
+        "url": "https://encykorea.aks.ac.kr/Article/E0075781",
+        "title": "2·28대구학생시위",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "“학원을 정치 도구화하지 말라” 등의 구호를 외치며 대구 시내 중심가로 나가 시위를 벌였다.",
+        "local_evidence_path": "evidence/ency_228.txt"
+      },
+      {
+        "claim": "전날 결의문 작성",
+        "url": "https://www.228.or.kr/front/index.php?g_page=guide&m_page=guide01",
+        "title": "2·28민주운동이란",
+        "publisher": "2·28민주운동기념사업회",
+        "accessed_at": "2026-10-11",
+        "quote_original": "상호 연락망을 구축하고 결의문을 작성했다.",
+        "local_evidence_path": "evidence/228_about.txt"
+      },
+      {
+        "claim": "이전에는 대구시 조례에 따른 행사",
+        "url": "https://www.yna.co.kr/view/AKR20180129164400001",
+        "title": "정부, '대구 2·28 민주운동' 국가기념일로 지정",
+        "publisher": "연합뉴스",
+        "accessed_at": "2026-10-11",
+        "quote_original": "그동안에는 대구시 조례에 따라 기념행사가 이뤄졌는데, 올해부터는 정부 주관 행사로 격상된다.",
+        "local_evidence_path": "evidence/yna_228.txt"
+      },
+      {
+        "claim": "2018.2.6 규정 개정·관보 게재로 국가기념일, 58년 만",
+        "url": "https://www.228.or.kr/front/index.php?g_page=guide&m_page=guide09",
+        "title": "국가기념일지정 경과",
+        "publisher": "2·28민주운동기념사업회",
+        "accessed_at": "2026-10-11",
+        "quote_original": "2·28민주운동이 발생한지 58년 만에 국가기념일로 지정된 것이다.",
+        "local_evidence_path": "evidence/228_designation.txt"
+      },
+      {
+        "claim": "2018년 2월 6일 최종재가·관보",
+        "url": "https://www.228.or.kr/front/index.php?g_page=guide&m_page=guide09",
+        "title": "국가기념일지정 경과",
+        "publisher": "2·28민주운동기념사업회",
+        "accessed_at": "2026-10-11",
+        "quote_original": "2월 6일 문재인 대통령의 최종재가를 받아 관보에 게재됨으로써 2·28민주운동은 국가기념일이 되었다.",
+        "local_evidence_path": "evidence/228_designation.txt"
+      },
+      {
+        "claim": "결의문 원문 구절",
+        "url": "https://www.228.or.kr/front/index.php?g_page=guide&m_page=guide07",
+        "title": "2·28민주운동 결의문",
+        "publisher": "2·28민주운동기념사업회",
+        "accessed_at": "2026-10-11",
+        "quote_original": "백만학도여! 피가 있거든 우리의 신성한 권리를 위하여 서슴지 말고 일어서라",
+        "local_evidence_path": "evidence/228_resolution.txt"
+      },
+      {
+        "claim": "연행 약 220여 명",
+        "url": "https://www.228.or.kr/front/index.php?g_page=guide&m_page=guide01",
+        "title": "2·28민주운동이란",
+        "publisher": "2·28민주운동기념사업회",
+        "accessed_at": "2026-10-11",
+        "quote_original": "이 날 시위현장에서 약 220여명의 학생들이 경찰에 체포됐고",
+        "local_evidence_path": "evidence/228_about.txt"
+      },
+      {
+        "claim": "언론 보도로 마산·대전·부산·서울 확산",
+        "url": "https://www.228.or.kr/front/index.php?g_page=guide&m_page=guide01",
+        "title": "2·28민주운동이란",
+        "publisher": "2·28민주운동기념사업회",
+        "accessed_at": "2026-10-11",
+        "quote_original": "마산, 대전, 부산, 서울 등으로 학생시위를 확산시키는 계기를 만들었다.",
+        "local_evidence_path": "evidence/228_about.txt"
+      },
+      {
+        "claim": "관제시위 아닌 자발적 시위",
+        "url": "https://encykorea.aks.ac.kr/Article/E0075781",
+        "title": "2·28대구학생시위",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "정부에 의해 동원된 관제시위가 아닌 학생들이 스스로 조직한 자발적인 시위였다.",
+        "local_evidence_path": "evidence/ency_228.txt"
+      },
+      {
+        "claim": "기념사업회: 정부 수립 이후 최초의 반독재 민주화 운동",
+        "url": "https://www.228.or.kr/front/index.php?g_page=guide&m_page=guide01",
+        "title": "2·28민주운동이란",
+        "publisher": "2·28민주운동기념사업회",
+        "accessed_at": "2026-10-11",
+        "quote_original": "대한민국 정부수립 이후 최초의 반독재 민주화 운동의 횃불이 타오른 것이다.",
+        "local_evidence_path": "evidence/228_about.txt"
+      },
+      {
+        "claim": "주관부처 국가보훈부",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&ID=002065",
+        "title": "각종 기념일 등에 관한 규정 [별표]",
+        "publisher": "국가법령정보센터(법제처)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "2ㆍ28민주운동의 역사적 의미와 숭고한 정",
+        "local_evidence_path": "evidence/law_ginyeomil.txt"
+      }
+    ],
+    "corrections_to_existing": [
+      "결의문 구절 '백만 학도여, 피가 있거든 우리의 뒤를 따르라'는 2·28민주운동기념사업회 공개 원문과 불일치. 원문: '백만학도여! 피가 있거든 우리의 신성한 권리를 위하여 서슴지 말고 일어서라'.",
+      "'경북고를 비롯한 8개 학교 학생들이 반발'은 부정확: 8개교는 일요 등교 지시를 받은 학교 수(기념사업회)이며, 시위 참여 학교 구성은 자료마다 다름.",
+      "'광복 이후 처음 일어난 학생 민주화 운동으로 꼽힌다'는 기념사업회 자체 평가(정부 수립 이후 최초의 반독재 민주화 운동)로 출처 귀속 필요."
+    ],
+    "notes": "연행 인원은 자료마다 220여 명(기념사업회, 28일)·250여 명(백과사전)으로 달라 '200명이 넘었다'로 표기. 시위 학교 수는 미기재."
+  },
+  "gov-3": {
+    "origin": "3·8민주의거 기념일은 1960년 3월 8일부터 10일까지 대전의 고등학생들이 이승만 정권의 부정선거와 학원 탄압에 맞서 벌인 시위를 기리는 국가기념일이다. 3월 15일 정·부통령 선거를 앞두고 여당인 자유당은 야당의 유세를 방해하면서도, 자기 당 행사에는 학생들을 동원하곤 했다. 열흘 전 대구에서 일어난 2·28 시위는 전국의 학생들에게 큰 자극이 됐다. 3월 8일 대전공설운동장에서 민주당 부통령 후보 장면의 선거 연설회가 열리기로 하자, 교육 당국은 학생들이 유세장에 나가지 않게 하라는 공문을 여러 차례 학교에 보냈다. 그러자 대전고 학생 1,000여 명이 경찰 저지선을 뚫고 '학원에 자유를 달라', '학생을 정치 도구화하지 말라'고 외치며 거리로 나섰다. 9일에는 다시 시위를 준비하던 학생 대표들이 경찰에 연행됐지만, 10일 대전상고 학생 600여 명이 구속 학생 석방을 요구하며 또 거리로 나왔다. 2009년 대전시의회가 기념 조례를 만들었고, 2018년 11월 대통령령 개정으로 국가기념일이 됐다.",
+    "anecdote": "3·8민주의거는 하루에 끝난 사건이 아니라 3월 8일부터 10일까지 사흘 동안의 시위를 묶어 부르는 이름이다. 대전상고 학생들이 바로 이튿날 뒤를 이었다고 소개되기도 하지만, 9일의 계획은 미리 새어 나가 대전고·대전상고 등 4개 학교 학생 대표 24명이 연행됐고, 대전상고의 시위는 10일에 일어났다. 사흘 동안 학생 100여 명이 연행됐고, 경찰 방망이에 맞아 고막이 터지는 등 크게 다친 학생도 있었다. 대전고 교사 두 명이 수갑을 찬 채 경찰서로 끌려가기도 했다. 3·8민주의거기념사업회는 이 사건을 충청권 최초의 학생운동이자 대구의 2·28, 마산의 3·15와 함께 4·19혁명의 단초가 된 사건으로 평가한다. 2013년에는 민주화운동기념사업회법 개정으로 민주화운동으로 인정받을 법적 근거가 마련됐다. 국가기념일 지정은 같은 해 2월 지정된 2·28보다 아홉 달가량 늦었다. 지금은 국가보훈부가 주관해 기념행사를 연다.",
+    "sourceUrl": "http://www.38.or.kr/38_patriotic1.php",
+    "evidence": [
+      {
+        "claim": "3월 8~10일 대전 고교생 민주화운동",
+        "url": "https://encykorea.aks.ac.kr/Article/E0078634",
+        "title": "3·8민주의거",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1960년 3월 8일부터 3월 10일까지 충청남도 대전 지역 고등학생들이 중심이 되어 불법 · 부정선거에 항거하여 일어난 민주화운동.",
+        "local_evidence_path": "evidence/ency_38.txt"
+      },
+      {
+        "claim": "자유당이 야당 유세 방해, 학생 동원",
+        "url": "https://encykorea.aks.ac.kr/Article/E0078634",
+        "title": "3·8민주의거",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "그러나 자유당의 선거 유세 및 정치 행사에는 학생들을 직 · 간접적으로 동원하였다.",
+        "local_evidence_path": "evidence/ency_38.txt"
+      },
+      {
+        "claim": "2·28이 큰 자극",
+        "url": "https://encykorea.aks.ac.kr/Article/E0078634",
+        "title": "3·8민주의거",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "대구의 2 · 28의거는 전국의 학생들에게 큰 자극제가 되었다.",
+        "local_evidence_path": "evidence/ency_38.txt"
+      },
+      {
+        "claim": "교육청 공문 여러 차례",
+        "url": "https://encykorea.aks.ac.kr/Article/E0078634",
+        "title": "3·8민주의거",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "대전교육청에서는 각 학교에 학생들이 유세장에 나오지 않게 훈육하라는 공문을 여러 차례 보냈으며",
+        "local_evidence_path": "evidence/ency_38.txt"
+      },
+      {
+        "claim": "대전공설운동장 장면 연설회, 대전고 1,000여 명",
+        "url": "http://www.38.or.kr/38_patriotic1.php",
+        "title": "3·8민주의거란?",
+        "publisher": "3·8민주의거기념사업회",
+        "accessed_at": "2026-10-11",
+        "quote_original": "경찰의 저지망을 뚫고 대전고등학교 1,000여 명의 학생이 독재타도와 학원의 자유를 외치며",
+        "local_evidence_path": "evidence/38_or.txt"
+      },
+      {
+        "claim": "구호",
+        "url": "https://encykorea.aks.ac.kr/Article/E0078634",
+        "title": "3·8민주의거",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "학생들은 ‘학생을 정치 도구화하지 말라’, ‘학원에 자유를 달라’, ‘이승만 독재 물러가라’ 등의 구호를 외치며 시위하였다.",
+        "local_evidence_path": "evidence/ency_38.txt"
+      },
+      {
+        "claim": "9일 4개교 대표 24명 연행",
+        "url": "http://www.38.or.kr/38_patriotic1.php",
+        "title": "3·8민주의거란?",
+        "publisher": "3·8민주의거기념사업회",
+        "accessed_at": "2026-10-11",
+        "quote_original": "9일에는 또 경찰에서 대전고, 대전상고, 대전공고, 보문고 등 4개 학교 학생대표 24명을 연행 구속했다.",
+        "local_evidence_path": "evidence/38_or.txt"
+      },
+      {
+        "claim": "10일 대전상고 600여 명",
+        "url": "http://www.38.or.kr/38_patriotic1.php",
+        "title": "3·8민주의거란?",
+        "publisher": "3·8민주의거기념사업회",
+        "accessed_at": "2026-10-11",
+        "quote_original": "10일에는 다시 대전상업고등학교 학생 600여 명이",
+        "local_evidence_path": "evidence/38_or.txt"
+      },
+      {
+        "claim": "9일 계획 누설",
+        "url": "https://encykorea.aks.ac.kr/Article/E0078634",
+        "title": "3·8민주의거",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "3월 9일 대전고등학교 학생 및 대전상업고등학교 학생들이 모임을 갖고 다시 시위를 계획하였으나 정보가 누설되어 학생들이 경찰에 연행, 구속되었다.",
+        "local_evidence_path": "evidence/ency_38.txt"
+      },
+      {
+        "claim": "100여 명 연행",
+        "url": "http://www.38.or.kr/38_patriotic1.php",
+        "title": "3·8민주의거란?",
+        "publisher": "3·8민주의거기념사업회",
+        "accessed_at": "2026-10-11",
+        "quote_original": "시위가 진행되면서 100여 명의 학생이 연행 구속되어 고초를 당했으며",
+        "local_evidence_path": "evidence/38_or.txt"
+      },
+      {
+        "claim": "교사 2명 수갑 연행",
+        "url": "http://www.38.or.kr/38_patriotic1.php",
+        "title": "3·8민주의거란?",
+        "publisher": "3·8민주의거기념사업회",
+        "accessed_at": "2026-10-11",
+        "quote_original": "특히 두명의 교사(대전고 조남호, 금종철)가 수갑을 차고 곤봉세례를 받으며 경찰서에 연행되는",
+        "local_evidence_path": "evidence/38_or.txt"
+      },
+      {
+        "claim": "경찰 방망이로 고막 터진 학생",
+        "url": "http://www.38.or.kr/38_patriotic1.php",
+        "title": "3·8민주의거란?",
+        "publisher": "3·8민주의거기념사업회",
+        "accessed_at": "2026-10-11",
+        "quote_original": "경찰 방망이로 맞아 고막이 터지고",
+        "local_evidence_path": "evidence/38_or.txt"
+      },
+      {
+        "claim": "충청권 최초 학생운동, 4·19 단초",
+        "url": "http://www.38.or.kr/38_patriotic1.php",
+        "title": "3·8민주의거란?",
+        "publisher": "3·8민주의거기념사업회",
+        "accessed_at": "2026-10-11",
+        "quote_original": "3·8민주의거는 충청권 최초의 학생운동이며 지역민주화운동의 효시로 역사적 교훈과 가치가 큰 것이며 대구의 2·28, 마산의 3·15와 함께 4·19혁명의 단초로서 중대한 의의를 새길 수 있는 것이다.",
+        "local_evidence_path": "evidence/38_or.txt"
+      },
+      {
+        "claim": "2013 민주화운동기념사업회법 개정",
+        "url": "http://www.38.or.kr/38_patriotic1.php",
+        "title": "3·8민주의거란?",
+        "publisher": "3·8민주의거기념사업회",
+        "accessed_at": "2026-10-11",
+        "quote_original": "3·8대전민주의거의 민주화운동 인정 근거마련을 위한 ‘민주화운동기념사업회법 일부 개정 법률안’이 국회본회의에서 통과되었고",
+        "local_evidence_path": "evidence/38_or.txt"
+      },
+      {
+        "claim": "2009 대전시의회 조례",
+        "url": "https://encykorea.aks.ac.kr/Article/E0078634",
+        "title": "3·8민주의거",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "2009년 대전시의회는 ｢3.8민주의거 기념조례｣를 제정하였다.",
+        "local_evidence_path": "evidence/ency_38.txt"
+      },
+      {
+        "claim": "2018.11.2 국가기념일 지정 공포",
+        "url": "http://www.38.or.kr/38_patriotic1.php",
+        "title": "3·8민주의거란?",
+        "publisher": "3·8민주의거기념사업회",
+        "accessed_at": "2026-10-11",
+        "quote_original": "2018년 11월 2일, 3·8민주의거기념일을 국가기념일로 지정 공포했다(대통령령 29271호).",
+        "local_evidence_path": "evidence/38_or.txt"
+      },
+      {
+        "claim": "주관부처 국가보훈부",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&ID=002065",
+        "title": "각종 기념일 등에 관한 규정 [별표]",
+        "publisher": "국가법령정보센터(법제처)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "3ㆍ8민주의거의 역사적 의미와 숭고한 정신을",
+        "local_evidence_path": "evidence/law_ginyeomil.txt"
+      },
+      {
+        "claim": "2·28 2018.2.6 지정(비교)",
+        "url": "https://www.228.or.kr/front/index.php?g_page=guide&m_page=guide09",
+        "title": "국가기념일지정 경과",
+        "publisher": "2·28민주운동기념사업회",
+        "accessed_at": "2026-10-11",
+        "quote_original": "2·28민주운동 국가기념일 지정 절차의 완료 – 2018.2.6",
+        "local_evidence_path": "evidence/228_designation.txt"
+      }
+    ],
+    "corrections_to_existing": [
+      "'이튿날 대전상고가 뒤를 이었다' 오류: 9일 시위 계획은 누설돼 학생 대표 24명 연행, 대전상고 시위는 3월 10일(600여 명).",
+      "'2·28민주운동과 나란히 2018년' — 같은 해지만 2·28은 2018.2.6, 3·8은 2018.11.2로 9개월 차이."
+    ],
+    "notes": "대전 연설회 개최지(대전공설운동장)는 백과사전 근거."
+  },
+  "gov-4": {
+    "origin": "3·15의거 기념일은 1960년 3월 15일 정·부통령 선거 당일, 노골적인 부정선거에 항의해 경남 마산의 시민과 학생들이 일으킨 시위를 기리는 국가기념일이다. 당시 자유당 정권은 투표 시작 전에 여당 표 40%를 투표함에 미리 넣어 두는 '4할 사전투표', 3명이나 9명씩 조를 짜 조장이 기표 내용을 확인하는 '3인조·9인조 공개투표' 같은 수법을 썼다. 마산에서는 오전부터 민주당이 선거 포기와 무효를 선언했고, 오후에는 시민들이 거리로 모여 평화적인 행진을 벌였다. 저녁 개표가 시작되자 시위대는 1만 명 가까이 불어났고, 저녁 8시 이후 경찰이 실탄을 쏘기 시작했다. 정부 수립 이후 처음으로 경찰이 평화적 시위대를 향해 집단 발포한 사건으로 기록된다. 이날 7명이 경찰의 총에 맞아 숨졌고, 소년 김주열은 행방불명됐다. 마산시는 1993년 이날을 시 기념일로, 경상남도는 2003년 도 기념일로 정했으며, 정부는 2010년 3월 국가기념일로 지정했다.",
+    "anecdote": "3·15의거는 하루로 끝나지 않았다. 행방불명됐던 김주열의 시신이 4월 11일 마산 앞바다에서 눈에 최루탄이 박힌 채 발견되자, 분노한 마산 시민들이 다시 거리로 나섰다. 이를 4·11 제2차 마산의거라고 부르며, 이 시위는 4월 19일 서울을 비롯한 전국의 대규모 시위로 이어졌다. 당시 정권은 시위를 공산당과 엮으려 했지만, 1960년 6월 검찰 수사에서 경찰이 총에 맞은 시위대의 시신에 불온 전단을 넣어 조작한 사실이 드러났다. 대구 2·28과 대전 3·8이 학생들의 항의로 시작됐다면, 3·15는 선거 당일 시민들이 대거 참여했고 경찰의 집단 발포로 첫 희생자가 난 사건이라는 점에서 성격이 다르다. 그래서 3·15의거는 4·19혁명의 직접적인 도화선으로 평가된다. 1960년 봄의 항쟁 가운데 국가기념일 지정은 4·19 다음으로 빨랐고, 2011년부터 국가보훈처(지금의 국가보훈부) 주관으로 기념식이 열린다. 창원시 마산회원구에는 국립3·15민주묘지가 있다.",
+    "sourceUrl": "https://dict.kdemo.or.kr/entry/84/",
+    "evidence": [
+      {
+        "claim": "선거 당일 마산 시민 시위",
+        "url": "https://dict.kdemo.or.kr/entry/84/",
+        "title": "3.15마산의거",
+        "publisher": "민주화운동기념사업회 민주화운동사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1960년 3.15마산의거는 3.15부정선거에 항거하여 선거 당일인 3월 15일 마산 시민이 일으킨 시위 사건이다.",
+        "local_evidence_path": "evidence/kdemo_315.txt"
+      },
+      {
+        "claim": "최초 경찰 집단 발포",
+        "url": "https://dict.kdemo.or.kr/entry/84/",
+        "title": "3.15마산의거",
+        "publisher": "민주화운동기념사업회 민주화운동사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "대한민국 정부 수립 이후 최초로 평화적 시위대를 향해 경찰이 집단 발포하여 다수의 희생자가 발생한 유혈 민주화운동이다.",
+        "local_evidence_path": "evidence/kdemo_315.txt"
+      },
+      {
+        "claim": "4할 사전투표 정의",
+        "url": "https://dict.kdemo.or.kr/entry/88/",
+        "title": "4월혁명(4.19혁명)",
+        "publisher": "민주화운동기념사업회 민주화운동사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "투표 개시 전에 자유당에 기표한 투표용지 40%를 투표함에 미리 넣어두는 ‘4할 사전 투표’",
+        "local_evidence_path": "evidence/kdemo_419.txt"
+      },
+      {
+        "claim": "3인조·9인조 공개투표 정의",
+        "url": "https://dict.kdemo.or.kr/entry/88/",
+        "title": "4월혁명(4.19혁명)",
+        "publisher": "민주화운동기념사업회 민주화운동사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "3명·9명이 짝을 지어 조장이 기표 사실을 확인한 후 자유당 선거위원의 검수 끝에 투표용지를 투표함에 넣는 ‘3인조·9인조 공개 투표’",
+        "local_evidence_path": "evidence/kdemo_419.txt"
+      },
+      {
+        "claim": "마산에서 사전 4할·3인조·9인조 확인",
+        "url": "https://dict.kdemo.or.kr/entry/84/",
+        "title": "3.15마산의거",
+        "publisher": "민주화운동기념사업회 민주화운동사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "사전 4할 투표, 3인조·9인조 투표장 투입은 물론이고",
+        "local_evidence_path": "evidence/kdemo_315.txt"
+      },
+      {
+        "claim": "오전 10시 30분 민주당 마산시당 선거 포기·무효",
+        "url": "https://dict.kdemo.or.kr/entry/84/",
+        "title": "3.15마산의거",
+        "publisher": "민주화운동기념사업회 민주화운동사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "오전 10시 30분경, 민주당 마산시당은 선거 포기를 선언하고",
+        "local_evidence_path": "evidence/kdemo_315.txt"
+      },
+      {
+        "claim": "평화적 행진",
+        "url": "https://dict.kdemo.or.kr/entry/84/",
+        "title": "3.15마산의거",
+        "publisher": "민주화운동기념사업회 민주화운동사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "구호를 외치고 평화적으로 행진하는 가운데, 시위대는 수천 명으로 불어났다.",
+        "local_evidence_path": "evidence/kdemo_315.txt"
+      },
+      {
+        "claim": "1만 명 가까운 인파",
+        "url": "https://dict.kdemo.or.kr/entry/84/",
+        "title": "3.15마산의거",
+        "publisher": "민주화운동기념사업회 민주화운동사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "대로에는 1만 명에 가까운 인파로 가득했다.",
+        "local_evidence_path": "evidence/kdemo_315.txt"
+      },
+      {
+        "claim": "저녁 8시 이후 사격",
+        "url": "https://dict.kdemo.or.kr/entry/84/",
+        "title": "3.15마산의거",
+        "publisher": "민주화운동기념사업회 민주화운동사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "저녁 8시 이후 시위대를 향해 경찰의 사격이 시작되었다.",
+        "local_evidence_path": "evidence/kdemo_315.txt"
+      },
+      {
+        "claim": "7명 실탄 사망, 김주열 최루탄",
+        "url": "https://dict.kdemo.or.kr/entry/84/",
+        "title": "3.15마산의거",
+        "publisher": "민주화운동기념사업회 민주화운동사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "등 7명이 경찰의 실탄사격에 사망했고,",
+        "local_evidence_path": "evidence/kdemo_315.txt"
+      },
+      {
+        "claim": "김주열 실종",
+        "url": "https://encykorea.aks.ac.kr/Article/E0078995",
+        "title": "김주열",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "김주열은 3월 15일 시위 당일 실종되었는데, 4월 11일 눈에 최루탄이 박힌 그의 시신이 마산 앞바다에서 발견되면서 이승만 정권에 대한 국민적 공분이 일어났고, 이는 4·19혁명의 도화선이 되었다.",
+        "local_evidence_path": "evidence/ency_kimjuyeol.txt"
+      },
+      {
+        "claim": "4·11 제2차 마산의거 → 4·19",
+        "url": "https://dict.kdemo.or.kr/entry/84/",
+        "title": "3.15마산의거",
+        "publisher": "민주화운동기념사업회 민주화운동사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "이 사건으로 곧바로 마산에서 시위가 재개되었고(4.11제2차마산의거), 이는 4월 19일 서울을 비롯한 전국 곳곳에서 발생한 대규모 시위로 이어졌다.",
+        "local_evidence_path": "evidence/kdemo_315.txt"
+      },
+      {
+        "claim": "용공 조작 전단 삽입 드러남",
+        "url": "https://dict.kdemo.or.kr/entry/84/",
+        "title": "3.15마산의거",
+        "publisher": "민주화운동기념사업회 민주화운동사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "총탄에 쓰러진 시위대의 시신 안에 “이승만을 죽여라”, “인민공화국 만세” 등의 전단을 만들어 넣은 것이 드러났고",
+        "local_evidence_path": "evidence/kdemo_315.txt"
+      },
+      {
+        "claim": "밤시위에 시민·하층민 참여 두드러짐",
+        "url": "https://dict.kdemo.or.kr/entry/84/",
+        "title": "3.15마산의거",
+        "publisher": "민주화운동기념사업회 민주화운동사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "3월 15일 ‘밤시위’는 학생보다 시민, 특히 도시 하층민의 참여가 두드러졌다.",
+        "local_evidence_path": "evidence/kdemo_315.txt"
+      },
+      {
+        "claim": "1993 마산시, 2003 경남, 2010 정부, 2011 보훈처 주관",
+        "url": "https://edu.mpva.go.kr/bohun/eventDetail.do?bsrlNo=788",
+        "title": "3·15의거 기념식",
+        "publisher": "국가보훈부 나라사랑배움터",
+        "accessed_at": "2026-10-11",
+        "quote_original": "2010년 3월 12일 정부기념일로 제정되어 2011년부터 국가보훈처 주관으로 기념식을 거행해옴",
+        "local_evidence_path": "evidence/mpva_edu_315.txt"
+      },
+      {
+        "claim": "1993 마산시 기념일",
+        "url": "https://edu.mpva.go.kr/bohun/eventDetail.do?bsrlNo=788",
+        "title": "3·15의거 기념식",
+        "publisher": "국가보훈부 나라사랑배움터",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1993. 7. 5. 마산시 기념일로 제정되어",
+        "local_evidence_path": "evidence/mpva_edu_315.txt"
+      },
+      {
+        "claim": "2003 경남 기념일",
+        "url": "https://edu.mpva.go.kr/bohun/eventDetail.do?bsrlNo=788",
+        "title": "3·15의거 기념식",
+        "publisher": "국가보훈부 나라사랑배움터",
+        "accessed_at": "2026-10-11",
+        "quote_original": "2003년 12월 12일 경상남도",
+        "local_evidence_path": "evidence/mpva_edu_315.txt"
+      },
+      {
+        "claim": "2010년 3월 규정",
+        "url": "https://theme.archives.go.kr/next/anniversary/anniversary.do?anniversaryId=9807000000",
+        "title": "3ㆍ15의거기념일",
+        "publisher": "국가기록원",
+        "accessed_at": "2026-10-11",
+        "quote_original": "2010년 3월 「각종 기념일 등에 관한 규정」에 의해 ‘3ㆍ15 의거 기념일’을 제정하였다.",
+        "local_evidence_path": "evidence/archives_315.txt"
+      },
+      {
+        "claim": "국립3·15민주묘지 주소",
+        "url": "https://dict.kdemo.or.kr/entry/84/",
+        "title": "3.15마산의거",
+        "publisher": "민주화운동기념사업회 민주화운동사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "경남 창원시 마산회원구 3·15성역로 75",
+        "local_evidence_path": "evidence/kdemo_315.txt"
+      },
+      {
+        "claim": "4·19 1973 지정(순서 비교)",
+        "url": "https://theme.archives.go.kr/next/anniversary/anniversary.do?anniversaryId=9815000000",
+        "title": "4ㆍ19혁명기념일",
+        "publisher": "국가기록원",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1973년 3월 「각종 기념일 등에 관한 규정」에 의해 ‘4·19의거 기념일’로 제정되었다.",
+        "local_evidence_path": "evidence/archives_419_anniv.txt"
+      },
+      {
+        "claim": "2·28 2018 지정(순서 비교)",
+        "url": "https://www.228.or.kr/front/index.php?g_page=guide&m_page=guide09",
+        "title": "국가기념일지정 경과",
+        "publisher": "2·28민주운동기념사업회",
+        "accessed_at": "2026-10-11",
+        "quote_original": "2·28민주운동 국가기념일 지정 절차의 완료 – 2018.2.6",
+        "local_evidence_path": "evidence/228_designation.txt"
+      },
+      {
+        "claim": "3·8 2018.11 지정(순서 비교)",
+        "url": "http://www.38.or.kr/38_patriotic1.php",
+        "title": "3·8민주의거란?",
+        "publisher": "3·8민주의거기념사업회",
+        "accessed_at": "2026-10-11",
+        "quote_original": "2018년 11월 2일, 3·8민주의거기념일을 국가기념일로 지정 공포했다(대통령령 29271호).",
+        "local_evidence_path": "evidence/38_or.txt"
+      }
+    ],
+    "corrections_to_existing": [
+      "'그날 밤 마산 시민들이 거리로 쏟아져 나왔다' — 시위는 오후부터 시작(민주당 마산시당 오전 선거 포기·무효 선언, 오후 가두행진), 발포는 저녁 8시 이후.",
+      "'열일곱 살 김주열' — 나이 표기 자료마다 다름(한국민족문화대백과 4·19혁명 항목 '16세'; 1944.10 출생). 신규 원고는 나이 생략.",
+      "'국가기념일 지정 2010년' 정확(2010.3.12)."
+    ],
+    "notes": "김주열 나이 생략. '첫 희생자'는 2·28·3·8 관련 자료에 사망 기록이 없고 3·15가 최초 경찰 집단 발포라는 민주화운동사전 서술에 근거한 표현."
+  },
+  "gov-12": {
+    "origin": "4·19혁명 기념일은 1960년 4월 19일 학생과 시민들이 3·15 부정선거와 이승만 정권의 독재에 맞서 전국에서 일어선 일을 기리는 국가기념일이다. 이승만 정권은 1952년 발췌개헌과 1954년 사사오입 개헌을 밀어붙여 장기 집권의 길을 열었고, 1960년 선거에서는 공무원과 경찰까지 동원해 표를 조작했다. 2월 대구, 3월 대전과 마산에서 학생과 시민의 항의가 이어졌고, 4월 11일 마산 앞바다에서 김주열의 시신이 발견되며 분노가 전국으로 번졌다. 4월 18일 시위를 마치고 돌아가던 고려대 학생들이 정치깡패에게 습격당하자, 이튿날 서울에서만 약 3만 명의 대학생과 고등학생이 거리로 나왔고 그중 수천 명이 대통령 관저인 경무대로 향했다. 경찰이 발포하면서 이날 서울에서만 약 130명이 숨졌다. 4월 25일에는 대학교수 258명이 시위에 나섰고, 이승만 대통령은 결국 4월 26일 물러났다. 정부는 1973년 3월 이날을 '4·19의거 기념일'로 처음 지정했고, 1994년 12월 지금의 '4·19혁명 기념일'로 이름을 바꿨다.",
+    "anecdote": "4·19혁명의 희생 규모는 자료마다 차이가 있다. 민주화운동기념사업회의 민주화운동사전은 혁명 전 기간에 전국에서 186명이 숨지고 6,026명이 다친 것으로 정리한다. 거리에는 대학생과 중고생뿐 아니라 초등학생도 나섰다. 서울 수송초등학교 6학년 전한승이 시위를 구경하다 경찰의 총에 맞아 숨지자, 친구들은 '우리 부모형제들에게 총부리를 대지 말라!'라고 쓴 플래카드를 들고 거리로 나왔다. 4·19는 4월 19일 하루만 가리키는 말이 아니기도 하다. 넓게는 2월 28일 대구 시위부터 4월 26일 대통령 하야까지 이어진 흐름 전체를 '4월혁명'이라 부르며, 대한민국 최초의 전국 단위 민주화운동으로 평가된다. 4·19의 정신은 지금의 헌법 전문에도 담겨 있다. 헌법은 '불의에 항거한 4·19민주이념을 계승'한다고 밝힌다. 정부 기념식은 1974년부터 국가보훈처(지금의 국가보훈부) 주관으로 열리며, 매년 4월 19일 서울 국립4·19민주묘지에서 거행된다.",
+    "sourceUrl": "https://encykorea.aks.ac.kr/Article/E0025902",
+    "evidence": [
+      {
+        "claim": "발췌개헌·사사오입 개헌",
+        "url": "https://dict.kdemo.or.kr/entry/88/",
+        "title": "4월혁명(4.19혁명)",
+        "publisher": "민주화운동기념사업회 민주화운동사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1952년 부산정치파동에 따른 발췌개헌과 1954년 사사오입 개헌을 강행해",
+        "local_evidence_path": "evidence/kdemo_419.txt"
+      },
+      {
+        "claim": "공무원 동원",
+        "url": "https://encykorea.aks.ac.kr/Article/E0025902",
+        "title": "4·19혁명",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "이때 실제적으로 많은 공무원들이 이승만의 당선을 위하여 동원되었다.",
+        "local_evidence_path": "evidence/ency_419.txt"
+      },
+      {
+        "claim": "경찰이 투표 총계 조작",
+        "url": "https://encykorea.aks.ac.kr/Article/E0025902",
+        "title": "4·19혁명",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "내무부 와 각 도의 경찰 이 이제 실질적인 선거본부가 되어 투표총계를 조작하고 날조하였던 것이다.",
+        "local_evidence_path": "evidence/ency_419.txt"
+      },
+      {
+        "claim": "고려대생 귀교 중 정치깡패 습격",
+        "url": "https://contents.history.go.kr/mobile/eh/view.do?levelId=eh_r0400_0010&code=eh_age_50",
+        "title": "4·19 혁명 유적",
+        "publisher": "우리역사넷(국사편찬위원회)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "평화롭게 시위를 마치고 학교로 돌아가는 도중 정치 깡패들에게 학생들이 몽둥이로 두들겨 맞아 부상을 당하는 사건이 벌어졌어요.",
+        "local_evidence_path": "evidence/history_419_sites.txt"
+      },
+      {
+        "claim": "4/19 약 3만 명, 수천 명 경무대",
+        "url": "https://encykorea.aks.ac.kr/Article/E0025902",
+        "title": "4·19혁명",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "4월 19일 약 3만 명의 대학생과 고등학교 학생들이 거리로 쏟아져나와 그 가운데 수천 명이 경무대로 몰려들었다.",
+        "local_evidence_path": "evidence/ency_419.txt"
+      },
+      {
+        "claim": "경무대=대통령 거처(청와대 옛 이름)",
+        "url": "https://contents.history.go.kr/mobile/eh/view.do?levelId=eh_r0400_0010&code=eh_age_50",
+        "title": "4·19 혁명 유적",
+        "publisher": "우리역사넷(국사편찬위원회)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "바로 대통령이 머물고 있는 경무대(청와대 옛 이름)앞이었어요.",
+        "local_evidence_path": "evidence/history_419_sites.txt"
+      },
+      {
+        "claim": "서울 약 130명 사망",
+        "url": "https://encykorea.aks.ac.kr/Article/E0025902",
+        "title": "4·19혁명",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "서울에서만도 자정까지 약 130명이 죽고, 1,000여 명 이상의 부상자가 발생하였다.",
+        "local_evidence_path": "evidence/ency_419.txt"
+      },
+      {
+        "claim": "4/25 교수 258명",
+        "url": "https://dict.kdemo.or.kr/entry/88/",
+        "title": "4월혁명(4.19혁명)",
+        "publisher": "민주화운동기념사업회 민주화운동사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "258명에 달하는 동료 교수들이 대회 장소에 모였다.",
+        "local_evidence_path": "evidence/kdemo_419.txt"
+      },
+      {
+        "claim": "4월 26일 사임",
+        "url": "https://encykorea.aks.ac.kr/Article/E0025902",
+        "title": "4·19혁명",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "이승만은 1960년 4월 26일 사임을 발표하지 않으면 안되었다.",
+        "local_evidence_path": "evidence/ency_419.txt"
+      },
+      {
+        "claim": "1973.3 4·19의거 기념일, 1994.12 명칭 변경",
+        "url": "https://theme.archives.go.kr/next/anniversary/anniversary.do?anniversaryId=9815000000",
+        "title": "4ㆍ19혁명기념일",
+        "publisher": "국가기록원",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1973년 3월 「각종 기념일 등에 관한 규정」에 의해 ‘4·19의거 기념일’로 제정되었다. 1994년 12월 ‘4·19혁명 기념일’로 명칭이 변경되었다.",
+        "local_evidence_path": "evidence/archives_419_anniv.txt"
+      },
+      {
+        "claim": "186명 사망 6026명 부상(자료마다 차이)",
+        "url": "https://dict.kdemo.or.kr/entry/88/",
+        "title": "4월혁명(4.19혁명)",
+        "publisher": "민주화운동기념사업회 민주화운동사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "자료에 따라 차이가 있지만 4월혁명 전 기간 동안 전국적으로 186명이 사망했고 6026명이 부상을 당했으며",
+        "local_evidence_path": "evidence/kdemo_419.txt"
+      },
+      {
+        "claim": "수송초 전한승",
+        "url": "https://contents.history.go.kr/mobile/eh/view.do?levelId=eh_r0400_0010&code=eh_age_50",
+        "title": "4·19 혁명 유적",
+        "publisher": "우리역사넷(국사편찬위원회)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "수송초등학교 6학년에 재학 중인 전한승 학생이 집으로 돌아가는 길에 광화문 근처에서 시민들의 시위를 구경하던 도중 경찰이 쏜 총에 맞아 사망했어요.",
+        "local_evidence_path": "evidence/history_419_sites.txt"
+      },
+      {
+        "claim": "수송초 플래카드",
+        "url": "https://contents.history.go.kr/mobile/eh/view.do?levelId=eh_r0400_0010&code=eh_age_50",
+        "title": "4·19 혁명 유적",
+        "publisher": "우리역사넷(국사편찬위원회)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "‘우리 부모형제들에게 총부리를 대지 말라!’는 글이 적힌 플래카드를 들고 거리로 나와",
+        "local_evidence_path": "evidence/history_419_sites.txt"
+      },
+      {
+        "claim": "4월혁명 기간 2/28~4/26, 최초 전국 단위",
+        "url": "https://dict.kdemo.or.kr/entry/88/",
+        "title": "4월혁명(4.19혁명)",
+        "publisher": "민주화운동기념사업회 민주화운동사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1960년 2월 28일부터 4월 26일까지 전국에서 전개된 민주화운동이다.",
+        "local_evidence_path": "evidence/kdemo_419.txt"
+      },
+      {
+        "claim": "최초의 전국 단위 민주화운동",
+        "url": "https://dict.kdemo.or.kr/entry/88/",
+        "title": "4월혁명(4.19혁명)",
+        "publisher": "민주화운동기념사업회 민주화운동사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "대한민국 최초의 전국 단위 민주화운동으로 이후 한국민주화운동에 많은 영향을 주었다.",
+        "local_evidence_path": "evidence/kdemo_419.txt"
+      },
+      {
+        "claim": "헌법 전문",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&ID=001444",
+        "title": "대한민국헌법",
+        "publisher": "국가법령정보센터(법제처)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "불의에 항거한 4ㆍ19민주이념을 계승하고",
+        "local_evidence_path": "evidence/law_constitution.txt"
+      },
+      {
+        "claim": "1974년부터 보훈처 주관",
+        "url": "https://edu.mpva.go.kr/bohun/eventDetail.do?bsrlNo=791",
+        "title": "4·19혁명 기념식",
+        "publisher": "국가보훈부 나라사랑배움터",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1974년 제14주년부터 국가보훈처 주관으로 거행되었고",
+        "local_evidence_path": "evidence/mpva_edu_419.txt"
+      },
+      {
+        "claim": "장소 국립4·19민주묘지",
+        "url": "https://edu.mpva.go.kr/bohun/eventDetail.do?bsrlNo=791",
+        "title": "4·19혁명 기념식",
+        "publisher": "국가보훈부 나라사랑배움터",
+        "accessed_at": "2026-10-11",
+        "quote_original": "장 소 : 국립4·19민주묘지",
+        "local_evidence_path": "evidence/mpva_edu_419.txt"
+      }
+    ],
+    "corrections_to_existing": [
+      "'경찰의 발포로 180여 명이 목숨을 잃었다' 부정확: 민주화운동사전은 4월혁명 전 기간 전국 186명 사망(자료마다 차이)로 정리하며, 4월 19일 당일 서울 사망은 약 130명(한국민족문화대백과).",
+      "'2020년 60주년을 계기로 정부 기념식 격을 한층 높여' — 근거 미확인, 삭제.",
+      "'수유리' 위치 표기는 미검증으로 생략(국립4·19민주묘지 명칭만 유지).",
+      "기념일 최초 지정은 1973년 3월 '4·19의거 기념일', 1994년 12월 '4·19혁명 기념일'로 명칭 변경 — 기존 원고에 누락."
+    ],
+    "notes": "사망자 수치는 기관 귀속(민주화운동사전 186명, 백과사전 4·19 당일 서울 약 130명)."
+  },
+  "gov-25": {
+    "origin": "5·18민주화운동 기념일은 1980년 5월 18일부터 27일까지 광주와 전남 지역 시민들이 신군부의 비상계엄 확대와 계엄군의 무력 진압에 맞선 일을 기리는 국가기념일이다. 1979년 10·26 사건으로 박정희 정부가 무너진 뒤, 전두환 보안사령관을 중심으로 한 군인 세력, 이른바 신군부가 12·12 사건으로 군을 장악했다. 1980년 봄 계엄 해제와 민주화를 요구하는 학생 시위가 커지자, 신군부는 5월 17일 비상계엄을 전국으로 넓히고 대학에 휴교령을 내렸으며 정치인과 학생 지도부를 잡아들였다. 18일 전남대 앞에 모인 학생들을 공수부대가 막아서며 과잉 진압이 시작됐고, 잔혹한 진압에 분노한 시민들이 합세했다. 계엄군이 시민을 향해 발포하자 일부 시민은 스스로 무장해 맞섰고, 27일 새벽 계엄군이 전남도청을 다시 장악하며 항쟁은 끝났다. 당시 '광주사태'로 불렸던 이 일은 1988년 '광주민주화운동'으로 공식 규정됐고, 1997년 5월 '각종 기념일 등에 관한 규정' 개정으로 정부 기념일이 됐다.",
+    "anecdote": "5·18의 희생 규모는 조사 시점과 기관에 따라 다르게 집계돼 왔다. 1995년 서울지방검찰청과 국방부 검찰부는 그때까지 확인된 사망자가 민간인 166명, 군인 23명, 경찰 4명 등 193명이라고 발표했다. 같은 해 12월 5·18특별법이 국회를 통과했고, 1997년 4월 상고심 판결로 12·12는 군사반란, 5·17과 5·18 진압은 내란 및 내란목적 살인으로 결론 났다. 5·18 관련 기록물은 2011년 5월 유네스코 세계기록유산에 등재됐다. 기념식에서 부르는 '임을 위한 행진곡'은 1997년 정부 기념식이 시작된 뒤 공식 노래로 불렸지만, 2009년부터 공식 행사에서 빠지거나 참석자 모두가 부르는 '제창' 대신 합창단만 부르는 '합창' 방식으로 바뀌어 논란이 이어졌다. 2017년 기념식에서 대통령과 참석자들이 다시 함께 제창했다. 오늘날 기념식은 매년 5월 18일 광주 국립5·18민주묘지에서 국가보훈부 주관으로 열린다.",
+    "sourceUrl": "https://encykorea.aks.ac.kr/Article/E0038496",
+    "evidence": [
+      {
+        "claim": "5/18~27 광주·전남",
+        "url": "https://encykorea.aks.ac.kr/Article/E0038496",
+        "title": "5·18광주민주화운동",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1980년 5월 18일부터 27일까지 구 광주광역시[당시 광주시]와 전라남도 지역의 시민들이 벌인 민주화 운동.",
+        "local_evidence_path": "evidence/ency_518.txt"
+      },
+      {
+        "claim": "신군부 12·12로 군 장악",
+        "url": "https://encykorea.aks.ac.kr/Article/E0038496",
+        "title": "5·18광주민주화운동",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "10 · 26사태의 사후 수습과정에서 보안사령관 전두환 소장을 중심으로 한 신군부 세력이 부상하였으며, 12 · 12사건의 하극상을 통하여 군부를 장악하였다.",
+        "local_evidence_path": "evidence/ency_518.txt"
+      },
+      {
+        "claim": "5/17 계엄 전국 확대, 휴교령",
+        "url": "https://encykorea.aks.ac.kr/Article/E0038496",
+        "title": "5·18광주민주화운동",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "비상계엄을 전국에 확대하는 조치인 계엄포고 10호(17일 24시에 발효: 각 대학 휴교령 포함)",
+        "local_evidence_path": "evidence/ency_518.txt"
+      },
+      {
+        "claim": "체포",
+        "url": "https://encykorea.aks.ac.kr/Article/E0038496",
+        "title": "5·18광주민주화운동",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "권력형 부정축재자 및 소요조종 혐의자, 학생 시위 주동자가 체포되었다.",
+        "local_evidence_path": "evidence/ency_518.txt"
+      },
+      {
+        "claim": "전남대 앞",
+        "url": "https://encykorea.aks.ac.kr/Article/E0038496",
+        "title": "5·18광주민주화운동",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "학생들은 전남대학교 앞에 모였다.",
+        "local_evidence_path": "evidence/ency_518.txt"
+      },
+      {
+        "claim": "과잉 진압이 시민 단결",
+        "url": "https://encykorea.aks.ac.kr/Article/E0038496",
+        "title": "5·18광주민주화운동",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "계엄군의 과잉 무력진압은 시위를 해산시키는 데는 성공하였으나 오히려 시민들을 단결시켰으며",
+        "local_evidence_path": "evidence/ency_518.txt"
+      },
+      {
+        "claim": "시민 무장",
+        "url": "https://encykorea.aks.ac.kr/Article/E0038496",
+        "title": "5·18광주민주화운동",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "결국 오후 3시 경부터 시민들에게 무기들이 지급되어 계엄군과 시가전이 벌어졌다.",
+        "local_evidence_path": "evidence/ency_518.txt"
+      },
+      {
+        "claim": "27일 새벽 도청",
+        "url": "https://encykorea.aks.ac.kr/Article/E0038496",
+        "title": "5·18광주민주화운동",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "도청에 있던 시민군이 오전 5시 22분에 전원 연행됨으로써 광주지역은 계엄군에 넘어갔으며",
+        "local_evidence_path": "evidence/ency_518.txt"
+      },
+      {
+        "claim": "1988 광주민주화운동 규정",
+        "url": "https://encykorea.aks.ac.kr/Article/E0038496",
+        "title": "5·18광주민주화운동",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1988년 4월 1일 민주화추진위원회에서 ‘광주민주화운동’으로 정식 규정되었고",
+        "local_evidence_path": "evidence/ency_518.txt"
+      },
+      {
+        "claim": "광주사태로 불림",
+        "url": "https://encykorea.aks.ac.kr/Article/E0038496",
+        "title": "5·18광주민주화운동",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "‘광주소요사태’, ‘광주사태’, ‘폭동’ 등으로 보도되기도 하였다.",
+        "local_evidence_path": "evidence/ency_518.txt"
+      },
+      {
+        "claim": "1997년 5월 기념일",
+        "url": "https://theme.archives.go.kr/next/anniversary/anniversary.do?anniversaryId=9830000000",
+        "title": "5ㆍ18민주화운동기념일",
+        "publisher": "국가기록원",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1997년 5월 「각종 기념일 등에 관한 규정」에 의해 ‘5ㆍ18민주화운동 기념일’이 법정기념일로 제정되었다.",
+        "local_evidence_path": "evidence/archives_518_anniv.txt"
+      },
+      {
+        "claim": "1995 검찰 발표 193명",
+        "url": "https://encykorea.aks.ac.kr/Article/E0038496",
+        "title": "5·18광주민주화운동",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "서울지방검찰청 · 국방부 검찰부의 1995년 7월 18일 발표에 의하면 그때까지 확인된 사망자는 193명인데 이 중 군인 23명, 경찰 4명, 민간인 166명이다.",
+        "local_evidence_path": "evidence/ency_518.txt"
+      },
+      {
+        "claim": "5·18특별법 1995.12 국회 통과",
+        "url": "https://encykorea.aks.ac.kr/Article/E0038496",
+        "title": "5·18광주민주화운동",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "12월 19일 5 · 18특별법이 국회를 통과하였으며",
+        "local_evidence_path": "evidence/ency_518.txt"
+      },
+      {
+        "claim": "1997.4.17 판결",
+        "url": "https://encykorea.aks.ac.kr/Article/E0038496",
+        "title": "5·18광주민주화운동",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "재판부가 1997년 4월 17일 12 · 12사건은 군사반란이며 5 · 17사건과 5 · 18사건은 내란 및 내란목적의 살인행위였다고 단정하였다.",
+        "local_evidence_path": "evidence/ency_518.txt"
+      },
+      {
+        "claim": "1997.4.17 상고심 확정",
+        "url": "https://encykorea.aks.ac.kr/Article/E0038496",
+        "title": "5·18광주민주화운동",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1997년 4월 17일의 상고심에서 위 형량이 확정되었으나",
+        "local_evidence_path": "evidence/ency_518.txt"
+      },
+      {
+        "claim": "2011년 5월 유네스코",
+        "url": "https://www.heritage.go.kr/heri/html/HtmlPage.do?pg=%2Funesco%2FMemHeritage%2FMemHeritage_09.jsp&pageNo=5_4_2_0",
+        "title": "5.18 민주화운동 기록물",
+        "publisher": "국가유산청 국가유산포털",
+        "accessed_at": "2026-10-11",
+        "quote_original": "그런 세계사적 중요성을 인정받아 2011년 5월 유네스코 세계기록유산으로 등재 되었다.",
+        "local_evidence_path": "evidence/heritage_518.txt"
+      },
+      {
+        "claim": "임행진 1997 공식 주제가",
+        "url": "https://www.hankookilbo.com/news/article/201705121687699414",
+        "title": "‘임을 위한 행진곡’ 9년 논란 마침표",
+        "publisher": "한국일보",
+        "accessed_at": "2026-10-11",
+        "quote_original": "‘임을 위한 행진곡’은 1997년 5∙18민주화운동기념식이 국가공식행사가 되면서 공식주제가로서 불려왔다.",
+        "local_evidence_path": "evidence/hankook_march.txt"
+      },
+      {
+        "claim": "2009년부터 제외/합창",
+        "url": "https://www.hankookilbo.com/news/article/201705121687699414",
+        "title": "‘임을 위한 행진곡’ 9년 논란 마침표",
+        "publisher": "한국일보",
+        "accessed_at": "2026-10-11",
+        "quote_original": "2009년부터 아예 공식행사에서 제외되거나 참석자가 다 함께 부르는 제창 형식이 아닌 합창단이 노래를 부르는 합창 형식으로 의미가 축소됐다.",
+        "local_evidence_path": "evidence/hankook_march.txt"
+      },
+      {
+        "claim": "2017 제창",
+        "url": "https://www.seoul.co.kr/news/politics/president/2017/05/18/20170518500044",
+        "title": "문 대통령 5·18 기념식에서 ‘임을 위한 행진곡’ 제창",
+        "publisher": "서울신문",
+        "accessed_at": "2026-10-11",
+        "quote_original": "문 대통령은 18일 오전 10시 광주 국립 5·18 민주묘지에서 열린 기념식에 참석해 민주화운동을 상징하는 노래인 ‘임을 위한 행진곡’을 다른 참석자들과 함께 제창했다.",
+        "local_evidence_path": "evidence/seoul_518_2017.txt"
+      },
+      {
+        "claim": "장소·식순",
+        "url": "https://edu.mpva.go.kr/bohun/eventDetail.do?bsrlNo=792",
+        "title": "5·18 민주화운동 기념식",
+        "publisher": "국가보훈부 나라사랑배움터",
+        "accessed_at": "2026-10-11",
+        "quote_original": "장 소 : 국립 5·18 민주묘지",
+        "local_evidence_path": "evidence/mpva_edu_518.txt"
+      },
+      {
+        "claim": "주관부처 국가보훈부",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&ID=002065",
+        "title": "각종 기념일 등에 관한 규정 [별표]",
+        "publisher": "국가법령정보센터(법제처)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "5ㆍ18민주화운동을 기념하는 행사를 한다.",
+        "local_evidence_path": "evidence/law_ginyeomil.txt"
+      }
+    ],
+    "corrections_to_existing": [
+      "'사망·행방불명자는 지금도 정확한 수가 확정되지 않았다' — 확인 가능한 출처 미확보로 삭제, 대신 1995년 검찰·국방부 발표 수치(193명, 당시까지 확인)를 시점·기관 명시하여 기재.",
+      "'2017년부터 ... 제창 방식으로 자리 잡았다' — 2017년 제창 확인, 보훈부 식순에 '임을 위한 행진곡 제창' 포함 확인. 논란 시기는 2009년부터(한국일보)."
+    ],
+    "notes": "사망자 수치는 1995년 발표 시점 확인치로만 기재. 이후 조사(진상규명조사위원회 등) 수치는 미검증으로 미기재."
+  },
+  "gov-33": {
+    "origin": "6·10민주항쟁 기념일은 1987년 6월 10일을 정점으로 20여 일 동안 전국에서 이어진 민주화 시위를 기리는 국가기념일이다. 1985년 총선 이후 국민이 대통령을 직접 뽑는 '직선제'로 헌법을 바꾸자는 요구가 커졌지만 여야 협상은 지지부진했다. 그런 가운데 1987년 1월 서울대생 박종철이 남영동 대공분실에서 조사를 받다 고문으로 숨졌고, 4월 13일 전두환 대통령은 임기 안에 개헌을 하지 않겠다는 '4·13 호헌조치'를 발표했다. 5월 18일에는 천주교정의구현사제단이 박종철 사건이 정권 차원에서 축소·조작됐다고 폭로했다. 야당과 재야, 종교계는 민주헌법쟁취국민운동본부를 만들고 6월 10일 '고문살인 은폐 규탄 및 호헌철폐 국민대회'를 열기로 했다. 대회 하루 전 연세대생 이한열이 경찰이 쏜 최루탄에 맞아 쓰러지며 분노는 더 커졌다. 시위가 전국의 대도시와 중소도시, 군 단위까지 번지자, 6월 29일 여당 대표 노태우가 직선제 개헌 요구를 받아들인다고 발표했다. 정부는 2007년 5월 이날을 법정기념일로 정했다.",
+    "anecdote": "6·10민주항쟁은 '6월 민주항쟁' 또는 '6월항쟁'으로도 불린다. 같은 날짜의 '6·10만세운동 기념일'은 일제강점기 독립운동을 기리는 별개의 국가기념일이니 헷갈리지 않도록 주의해야 한다. 항쟁 기간 경찰이 쏜 최루탄은 67만 발이 넘었고, 6월 18일 '최루탄추방대회'와 6월 26일 '국민평화대행진'에는 전국에서 각각 100만 명 이상이 참여한 것으로 알려져 있다. 도심에서는 '넥타이 부대'라 불린 사무직 노동자들도 시위에 함께했다. 최루탄에 맞은 이한열은 7월 5일 끝내 숨졌다. 항쟁의 결과 그해 10월 국민투표를 거쳐 헌법이 고쳐졌다. 대통령을 국민이 직접 뽑고, 임기는 5년이며 다시 할 수 없다는 지금의 헌법 조항이 이때 만들어졌다. 1988년 2월 25일 시행된 이 헌법이 지금도 쓰이고 있다. 6월항쟁의 경험은 그해 7월부터 이어진 노동자들의 대규모 투쟁으로도 이어졌다. 기념행사는 행정안전부가 주관한다.",
+    "sourceUrl": "https://encykorea.aks.ac.kr/Article/E0068343",
+    "evidence": [
+      {
+        "claim": "20여 일 전국 확산",
+        "url": "https://theme.archives.go.kr/next/anniversary/anniversary.do?anniversaryId=9841000000",
+        "title": "6ㆍ10민주항쟁기념일",
+        "publisher": "국가기록원",
+        "accessed_at": "2026-10-11",
+        "quote_original": "그해 6월 10일을 정점으로 20여 일 동안 전국적으로 확산된 민주화운동이다.",
+        "local_evidence_path": "evidence/archives_610_anniv.txt"
+      },
+      {
+        "claim": "2007.5.2 법정기념일",
+        "url": "https://theme.archives.go.kr/next/anniversary/anniversary.do?anniversaryId=9841000000",
+        "title": "6ㆍ10민주항쟁기념일",
+        "publisher": "국가기록원",
+        "accessed_at": "2026-10-11",
+        "quote_original": "2007년 5월 2일 「각종 기념일 등에 관한 규정」에 의해 ‘6.10 민주항쟁기념일’을 법정기념일로 제정하였다.",
+        "local_evidence_path": "evidence/archives_610_anniv.txt"
+      },
+      {
+        "claim": "1985 총선 후 직선제 요구, 협상 난항",
+        "url": "https://encykorea.aks.ac.kr/Article/E0068343",
+        "title": "6월항쟁",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1985년 2 · 12총선에서 신한민주당 이 승리한 것을 기점으로 대통령직선제 개헌 요구가 날로 커졌다.",
+        "local_evidence_path": "evidence/ency_610.txt"
+      },
+      {
+        "claim": "협상 난항",
+        "url": "https://encykorea.aks.ac.kr/Article/E0068343",
+        "title": "6월항쟁",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "여야 간 개헌 협상은 난항을 거듭하였다.",
+        "local_evidence_path": "evidence/ency_610.txt"
+      },
+      {
+        "claim": "4·13 호헌조치",
+        "url": "https://encykorea.aks.ac.kr/Article/E0068343",
+        "title": "6월항쟁",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1987년 4월 13일 전두환은 대통령 임기 내 개헌을 거부하고",
+        "local_evidence_path": "evidence/ency_610.txt"
+      },
+      {
+        "claim": "박종철 남영동 고문 사망",
+        "url": "https://archives.kdemo.or.kr/display/move610.html",
+        "title": "6·10민주항쟁 – 한국민주화운동사",
+        "publisher": "민주화운동기념사업회 오픈아카이브",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1987년 1월 서울대생 박종철 군이 남영동 대공분실에서 고문받다 사망하였습니다.",
+        "local_evidence_path": "evidence/kdemo_610_archive.txt"
+      },
+      {
+        "claim": "5/18 사제단 폭로",
+        "url": "https://encykorea.aks.ac.kr/Article/E0068343",
+        "title": "6월항쟁",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "5월 18일 정의구현사제단 이 지난 1987년 1월 발생한 박종철고문치사사건 이 정권 차원에서 은폐 · 조작되었다는 사실을 폭로하였다.",
+        "local_evidence_path": "evidence/ency_610.txt"
+      },
+      {
+        "claim": "국본 결성",
+        "url": "https://encykorea.aks.ac.kr/Article/E0068343",
+        "title": "6월항쟁",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1987년 5월 27일 야당과 재야, 종교계 등이 힘을 모아 ‘ 민주헌법쟁취국민운동본부 ’을 조직하였다.",
+        "local_evidence_path": "evidence/ency_610.txt"
+      },
+      {
+        "claim": "국민대회 명칭",
+        "url": "https://encykorea.aks.ac.kr/Article/E0068343",
+        "title": "6월항쟁",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "‘고문살인 은폐규탄 및 호헌철폐 국민대회(6 · 10국민대회)’",
+        "local_evidence_path": "evidence/ency_610.txt"
+      },
+      {
+        "claim": "6/9 이한열",
+        "url": "https://encykorea.aks.ac.kr/Article/E0068343",
+        "title": "6월항쟁",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "6월 9일 연세대 학생 이한열 이 교문 앞에서 시위를 벌이다가 경찰이 쏜 최루탄에 맞아 피를 흘리며 쓰러졌다.",
+        "local_evidence_path": "evidence/ency_610.txt"
+      },
+      {
+        "claim": "군 단위까지 확산",
+        "url": "https://encykorea.aks.ac.kr/Article/E0068343",
+        "title": "6월항쟁",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "농촌 지역의 군 단위에서도 시위가 일어났다.",
+        "local_evidence_path": "evidence/ency_610.txt"
+      },
+      {
+        "claim": "6·29 노태우 직선제 수용",
+        "url": "https://encykorea.aks.ac.kr/Article/E0042141",
+        "title": "6·29민주화선언",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1987년 6월 29일 대통령 후보였던 노태우(盧泰愚) 민주정의당(약칭 민정당) 대표위원이 당시 국민들의 민주화와 직선제 개헌요구를 받아들여 발표한 시국 수습을 위한 특별선언.",
+        "local_evidence_path": "evidence/ency_629.txt"
+      },
+      {
+        "claim": "최루탄 67만 발",
+        "url": "https://encykorea.aks.ac.kr/Article/E0068343",
+        "title": "6월항쟁",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "유월항쟁 기간 동안 경찰이 사용한 최루탄만 총 67만 발이 넘었다.",
+        "local_evidence_path": "evidence/ency_610.txt"
+      },
+      {
+        "claim": "6/18, 6/26 100만 명 이상",
+        "url": "https://encykorea.aks.ac.kr/Article/E0068343",
+        "title": "6월항쟁",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "특히 6월 18일 ‘최루탄추방대회’와 6월 26일 ‘국민평화대행진’은 전국 곳곳에서 한꺼번에 1백만 명 이상이 참여하였다.",
+        "local_evidence_path": "evidence/ency_610.txt"
+      },
+      {
+        "claim": "넥타이 부대",
+        "url": "https://archives.kdemo.or.kr/display/move610.html",
+        "title": "6·10민주항쟁 – 한국민주화운동사",
+        "publisher": "민주화운동기념사업회 오픈아카이브",
+        "accessed_at": "2026-10-11",
+        "quote_original": "도심에서는 ‘넥타이 부대’인 사무직 노동자들이 시민들과 함께했고",
+        "local_evidence_path": "evidence/kdemo_610_archive.txt"
+      },
+      {
+        "claim": "이한열 7/5 사망",
+        "url": "https://encykorea.aks.ac.kr/Article/E0068343",
+        "title": "6월항쟁",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "그동안 의식불명 상태에 있었던 이한열이 7월 5일 끝내 사망하였다.",
+        "local_evidence_path": "evidence/ency_610.txt"
+      },
+      {
+        "claim": "10월 국민투표 직선제 개헌",
+        "url": "https://encykorea.aks.ac.kr/Article/E0042141",
+        "title": "6·29민주화선언",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "이 결과 10월 27일 국민투표로 직선제 개헌이 이루어졌고",
+        "local_evidence_path": "evidence/ency_629.txt"
+      },
+      {
+        "claim": "5년 단임, 1988.2.25 발효",
+        "url": "https://theme.archives.go.kr/next/rule/sub2_10.do",
+        "title": "헌법개정사 제9차개정",
+        "publisher": "국가기록원",
+        "accessed_at": "2026-10-11",
+        "quote_original": "부칙의 규정에 의해 1988년 2월 25일에 발효되었다.",
+        "local_evidence_path": "evidence/archives_9th_const.txt"
+      },
+      {
+        "claim": "헌법 제70조",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&ID=001444",
+        "title": "대한민국헌법",
+        "publisher": "국가법령정보센터(법제처)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "제70조 대통령의 임기는 5년으로 하며, 중임할 수 없다.",
+        "local_evidence_path": "evidence/law_constitution.txt"
+      },
+      {
+        "claim": "7월 노동자 투쟁",
+        "url": "https://archives.kdemo.or.kr/display/move610.html",
+        "title": "6·10민주항쟁 – 한국민주화운동사",
+        "publisher": "민주화운동기념사업회 오픈아카이브",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1987년 7월부터 세 달간 전국적인 규모로 진행된 노동자들의 거대한 투쟁은 6·10민주항쟁의 연장이라고 말할 수 있습니다.",
+        "local_evidence_path": "evidence/kdemo_610_archive.txt"
+      },
+      {
+        "claim": "6·10만세운동 기념일 별도(독립운동)",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&ID=002065",
+        "title": "각종 기념일 등에 관한 규정 [별표]",
+        "publisher": "국가법령정보센터(법제처)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "일제의 강제병합과 식민지배에 항거한 순",
+        "local_evidence_path": "evidence/law_ginyeomil.txt"
+      },
+      {
+        "claim": "주관부처 행정안전부",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&ID=002065",
+        "title": "각종 기념일 등에 관한 규정 [별표]",
+        "publisher": "국가법령정보센터(법제처)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "6ㆍ10민주항쟁을 기념하는 행사를 한다.",
+        "local_evidence_path": "evidence/law_ginyeomil.txt"
+      },
+      {
+        "claim": "헌법 제67조 직선",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&ID=001444",
+        "title": "대한민국헌법",
+        "publisher": "국가법령정보센터(법제처)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "대통령은 국민의 보통ㆍ평등ㆍ직접ㆍ비밀선거에 의하여 선출한다.",
+        "local_evidence_path": "evidence/law_constitution.txt"
+      }
+    ],
+    "corrections_to_existing": [
+      "'이한열이 최루탄에 맞아 쓰러진 일이 도화선' — 이한열 피격은 6·10 대회 하루 전(6.9)이며, 직접 계기는 4·13 호헌조치와 박종철 사건 은폐·조작 폭로(5.18). 신규 원고는 순서를 명확히 함.",
+      "'점심시간에 합류해 넥타이 부대' — 점심시간 부분 미확인, 삭제(넥타이 부대=사무직 노동자 참여는 확인).",
+      "'기념식은 매년 서울광장 등지에서' — 미확인, 삭제. 주관부처는 행정안전부(규정 별표)."
+    ],
+    "notes": "9차 개헌 국민투표일은 자료 간 10월 27일(백과사전)/10월 29일(국가기록원, 확정·공포일로 추정) 차이가 있어 '그해 10월'로만 표기."
+  },
+  "gov-45": {
+    "origin": "부마민주항쟁 기념일은 1979년 10월 16일부터 20일까지 부산과 마산 지역에서 학생과 시민들이 유신체제에 맞서 일어난 항쟁을 기리는 국가기념일이다. 유신체제는 1972년 박정희 대통령이 계엄령을 내리고 국회를 해산한 뒤 국민투표로 헌법을 바꿔 만든 1인 장기 집권 체제를 말한다. 1979년에는 경제 위기로 중소기업이 줄줄이 쓰러졌고, 노동집약적 제조업이 몰린 부산과 마산은 타격이 특히 컸다. 8월에는 YH무역 노동자들의 신민당사 농성을 경찰이 강제 해산했고, 10월 4일에는 야당인 신민당 총재 김영삼이 국회의원직에서 제명됐다. 16일 아침 부산대 도서관 앞에서 학생 500여 명이 시위를 시작했고, 시내로 나갈 무렵 약 5,000명으로 불어났다. 17일 밤에는 노동자, 상인, 고교생 등 시민이 대거 합류했고, 18일에는 시위가 마산으로 번졌다. 정부는 18일 0시 부산에 비상계엄을, 20일 정오 마산·창원 일대에 군 병력을 들이는 위수령을 내렸다. 2019년 9월 국무회의 의결로 국가기념일이 됐고, 그해 10월 16일 첫 정부 기념식이 열렸다.",
+    "anecdote": "'부마'는 부산과 마산의 앞 글자를 딴 이름이다. 계엄령과 위수령으로 시위는 겉으로는 빨리 진압됐다. 부산에서 1,058명, 마산에서 505명이 연행됐고 그중 일부는 군사재판에 넘겨졌다. 하지만 항쟁 대응을 두고 정권 안에서 강경론과 온건론이 부딪쳤고, 항쟁이 시작된 지 열흘 만인 10월 26일 김재규 중앙정보부장이 박정희 대통령을 살해하면서 유신체제는 막을 내렸다. 그래서 부마민주항쟁은 유신체제의 붕괴를 앞당긴 결정적 사건으로 평가된다. 구호에 '부가가치세를 철폐하라'가 등장하고 세무서가 공격받은 데서 보이듯, 정치적 요구와 함께 생활고에 대한 분노가 함께 터져 나온 시민항쟁이기도 했다. 정부는 이 항쟁을 4·19혁명, 5·18민주화운동, 6·10민주항쟁과 함께 한국 현대사의 4대 민주항쟁으로 소개하지만, 국가기념일 지정은 넷 가운데 가장 늦었다. 2013년 관련자 명예회복과 보상을 위한 법률이 제정됐고, 기념식은 행정안전부가 주관한다.",
+    "sourceUrl": "https://encykorea.aks.ac.kr/Article/E0024157",
+    "evidence": [
+      {
+        "claim": "10/16~20 부산·마산 반정부 항쟁",
+        "url": "https://encykorea.aks.ac.kr/Article/E0024157",
+        "title": "부마민주항쟁",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1979년 10월 16일부터 20일까지 경상남도 부산과 마산 지역에서 일어난 반정부 항쟁 사건.",
+        "local_evidence_path": "evidence/ency_buma.txt"
+      },
+      {
+        "claim": "유신헌법 성립",
+        "url": "https://dict.kdemo.or.kr/entry/194/",
+        "title": "유신헌법",
+        "publisher": "민주화운동기념사업회 민주화운동사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1972년 10월 17일 박정희(朴正熙) 대통령은 계엄령을 발동하고 국회를 해산하는 등 헌정을 유린하며 국민투표를 통해 헌법을 개정, 그해 12월 27일 시행했다.",
+        "local_evidence_path": "evidence/kdemo_yushin.txt"
+      },
+      {
+        "claim": "1인 영구집권체제",
+        "url": "https://dict.kdemo.or.kr/entry/194/",
+        "title": "유신헌법",
+        "publisher": "민주화운동기념사업회 민주화운동사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "박정희 1인 영구집권체제를 위한 헌법이었다.",
+        "local_evidence_path": "evidence/kdemo_yushin.txt"
+      },
+      {
+        "claim": "중소기업 줄도산",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i502300&code=kc_age_50",
+        "title": "부마민주항쟁 1979",
+        "publisher": "우리역사넷(국사편찬위원회)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "안정화정책 이후 중소기업들이 줄도산하며 부도율이 급증했고 도시하층민들의 생활이 더욱 피폐해졌다.",
+        "local_evidence_path": "evidence/history_buma.txt"
+      },
+      {
+        "claim": "부산·마산 타격",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i502300&code=kc_age_50",
+        "title": "부마민주항쟁 1979",
+        "publisher": "우리역사넷(국사편찬위원회)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "노동집약적 제조업이 집중됐던 부산과 마산에서는 상황이 더욱 심각했다.",
+        "local_evidence_path": "evidence/history_buma.txt"
+      },
+      {
+        "claim": "YH 신민당사 강제연행",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i502300&code=kc_age_50",
+        "title": "부마민주항쟁 1979",
+        "publisher": "우리역사넷(국사편찬위원회)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "정부는 8월 11일 새벽 1,000여 명의 경찰을 신민당사에 투입하여 노동자들을 강제 연행하고",
+        "local_evidence_path": "evidence/history_buma.txt"
+      },
+      {
+        "claim": "10/4 김영삼 제명",
+        "url": "https://encykorea.aks.ac.kr/Article/E0038496",
+        "title": "5·18광주민주화운동",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "10월 4일 신민당 총재 김영삼(金泳三)은 국회에서 의원직을 제명당하자",
+        "local_evidence_path": "evidence/ency_518.txt"
+      },
+      {
+        "claim": "16일 500→5,000",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i502300&code=kc_age_50",
+        "title": "부마민주항쟁 1979",
+        "publisher": "우리역사넷(국사편찬위원회)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "도서관 앞에서 약 500명의 학생들이 모여 반정부 시위를 시작했다.",
+        "local_evidence_path": "evidence/history_buma.txt"
+      },
+      {
+        "claim": "5,000명",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i502300&code=kc_age_50",
+        "title": "부마민주항쟁 1979",
+        "publisher": "우리역사넷(국사편찬위원회)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "교문을 나가 가두시위를 시작할 때 인원은 5,000명으로 늘어났다.",
+        "local_evidence_path": "evidence/history_buma.txt"
+      },
+      {
+        "claim": "17일 시민 합류",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i502300&code=kc_age_50",
+        "title": "부마민주항쟁 1979",
+        "publisher": "우리역사넷(국사편찬위원회)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "야간시위에는 고교생, 자영업자는 물론 사무직·제조업·접객업·일용직 노동자들이 광범위하게 참여하여 인원이 5만명에 이르렀다.",
+        "local_evidence_path": "evidence/history_buma.txt"
+      },
+      {
+        "claim": "18일 마산 확산",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i502300&code=kc_age_50",
+        "title": "부마민주항쟁 1979",
+        "publisher": "우리역사넷(국사편찬위원회)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "18일에는 마산 지역으로 시위가 확산되었다.",
+        "local_evidence_path": "evidence/history_buma.txt"
+      },
+      {
+        "claim": "18일 0시 부산 비상계엄",
+        "url": "https://encykorea.aks.ac.kr/Article/E0024157",
+        "title": "부마민주항쟁",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "정부는 18일 새벽 0시를 기해 부산일원에 비상계엄을 선포하였다.",
+        "local_evidence_path": "evidence/ency_buma.txt"
+      },
+      {
+        "claim": "20일 정오 마산·창원 위수령, 군 진주",
+        "url": "https://encykorea.aks.ac.kr/Article/E0024157",
+        "title": "부마민주항쟁",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "10월 20일 정오를 기해 정부는 경상남도 마산 및 창원 일원에 위수령(衛戍令)을 발동하였다.",
+        "local_evidence_path": "evidence/ency_buma.txt"
+      },
+      {
+        "claim": "군 진주",
+        "url": "https://encykorea.aks.ac.kr/Article/E0024157",
+        "title": "부마민주항쟁",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "마산일원에 군을 진주시켜",
+        "local_evidence_path": "evidence/ency_buma.txt"
+      },
+      {
+        "claim": "2019.9.17 국무회의, 첫 정부행사",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148864716",
+        "title": "부마민주항쟁, 올해부터 국가기념일로 지정",
+        "publisher": "대한민국 정책브리핑(행정안전부)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "정부는 올해부터 부마민주항쟁 발생일을 국가기념일로 지정하면서 10월 16일 제40주년 부마민주항쟁 기념식을 첫 정부행사로 거행한다.",
+        "local_evidence_path": "evidence/korea_buma_news.txt"
+      },
+      {
+        "claim": "국무회의 의결",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148864716",
+        "title": "부마민주항쟁, 올해부터 국가기념일로 지정",
+        "publisher": "대한민국 정책브리핑(행정안전부)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "행정안전부는 17일 열린 국무회의에서 부마민주항쟁 기념일 제정을 주요내용으로 하는 ‘각종 기념일 등에 관한 규정 일부개정령안’이 심의·의결됐다고 밝혔다.",
+        "local_evidence_path": "evidence/korea_buma_news.txt"
+      },
+      {
+        "claim": "표면적으로 단시간 진압",
+        "url": "https://encykorea.aks.ac.kr/Article/E0024157",
+        "title": "부마민주항쟁",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "이 때문에 계엄령과 위수령 발동 후 부마민주항쟁은 적어도 표면적으로는 단시간에 진압되었다.",
+        "local_evidence_path": "evidence/ency_buma.txt"
+      },
+      {
+        "claim": "부산 1,058명 연행, 66명 군사재판",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i502300&code=kc_age_50",
+        "title": "부마민주항쟁 1979",
+        "publisher": "우리역사넷(국사편찬위원회)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "부산지역에서 1,058명을 연행했으며, 66명을 군사재판에 회부하였다.",
+        "local_evidence_path": "evidence/history_buma.txt"
+      },
+      {
+        "claim": "마산 505명, 59명",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i502300&code=kc_age_50",
+        "title": "부마민주항쟁 1979",
+        "publisher": "우리역사넷(국사편찬위원회)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "505명을 연행하고 59명을 군사재판에 회부하였다.",
+        "local_evidence_path": "evidence/history_buma.txt"
+      },
+      {
+        "claim": "내부 갈등",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i502300&code=kc_age_50",
+        "title": "부마민주항쟁 1979",
+        "publisher": "우리역사넷(국사편찬위원회)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "내부에서 강경론과 온건론으로 나뉘어 대립한 끝에, 경호실장 차지철의 강경론에 중앙정보부장 김재규가 반발하면서 내부 갈등이 극에 달했다",
+        "local_evidence_path": "evidence/history_buma.txt"
+      },
+      {
+        "claim": "10/26 김재규 박정희 살해",
+        "url": "https://encykorea.aks.ac.kr/Article/E0038496",
+        "title": "5·18광주민주화운동",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "10월 26일 김재규(金載圭)가 박정희를 살해하였다.",
+        "local_evidence_path": "evidence/ency_518.txt"
+      },
+      {
+        "claim": "결정적 사건 평가",
+        "url": "https://encykorea.aks.ac.kr/Article/E0024157",
+        "title": "부마민주항쟁",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "사실상 박정희 정권의 붕괴를 촉진시킨 결정적인 사건이었다.",
+        "local_evidence_path": "evidence/ency_buma.txt"
+      },
+      {
+        "claim": "부가세 구호·세무서",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i502300&code=kc_age_50",
+        "title": "부마민주항쟁 1979",
+        "publisher": "우리역사넷(국사편찬위원회)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "‘부가가치세를 철폐하라’라는 구호와 함께 세무서를 공격한 점 역시 항쟁의 경제적인 배경을 드러낸다.",
+        "local_evidence_path": "evidence/history_buma.txt"
+      },
+      {
+        "claim": "4대 민주항쟁",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148864716",
+        "title": "부마민주항쟁, 올해부터 국가기념일로 지정",
+        "publisher": "대한민국 정책브리핑(행정안전부)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "4·19혁명과 5·18광주민주화운동 그리고 6·10민주항쟁과 함께 한국 현대사의 4대 민주항쟁으로 인정받고 있다.",
+        "local_evidence_path": "evidence/korea_buma_news.txt"
+      },
+      {
+        "claim": "2013 법률 제정",
+        "url": "https://encykorea.aks.ac.kr/Article/E0024157",
+        "title": "부마민주항쟁",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "'부마민주항쟁 관련자의 명예회복 및 보상 등에 관한 법률'(제11851호, 2013.6.4. 제정)",
+        "local_evidence_path": "evidence/ency_buma.txt"
+      },
+      {
+        "claim": "주관 행정안전부",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&ID=002065",
+        "title": "각종 기념일 등에 관한 규정 [별표]",
+        "publisher": "국가법령정보센터(법제처)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "부마민주항쟁을 기념하는 행사를 한다.",
+        "local_evidence_path": "evidence/law_ginyeomil.txt"
+      },
+      {
+        "claim": "4·19 1973 (지정 순서 비교)",
+        "url": "https://theme.archives.go.kr/next/anniversary/anniversary.do?anniversaryId=9815000000",
+        "title": "4ㆍ19혁명기념일",
+        "publisher": "국가기록원",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1973년 3월 「각종 기념일 등에 관한 규정」에 의해 ‘4·19의거 기념일’로 제정되었다.",
+        "local_evidence_path": "evidence/archives_419_anniv.txt"
+      },
+      {
+        "claim": "5·18 1997 (지정 순서 비교)",
+        "url": "https://theme.archives.go.kr/next/anniversary/anniversary.do?anniversaryId=9830000000",
+        "title": "5ㆍ18민주화운동기념일",
+        "publisher": "국가기록원",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1997년 5월 「각종 기념일 등에 관한 규정」에 의해 ‘5ㆍ18민주화운동 기념일’이 법정기념일로 제정되었다.",
+        "local_evidence_path": "evidence/archives_518_anniv.txt"
+      },
+      {
+        "claim": "6·10 2007 (지정 순서 비교)",
+        "url": "https://theme.archives.go.kr/next/anniversary/anniversary.do?anniversaryId=9841000000",
+        "title": "6ㆍ10민주항쟁기념일",
+        "publisher": "국가기록원",
+        "accessed_at": "2026-10-11",
+        "quote_original": "2007년 5월 2일 「각종 기념일 등에 관한 규정」에 의해 ‘6.10 민주항쟁기념일’을 법정기념일로 제정하였다.",
+        "local_evidence_path": "evidence/archives_610_anniv.txt"
+      }
+    ],
+    "corrections_to_existing": [
+      "'정권은 부산에 비상계엄을, 마산에 위수령' — 위수령 범위는 마산 및 창원 일원(10.20 정오).",
+      "'부마민주항쟁기념재단이 관련자 명예회복과 기념사업을 맡고 있다' — 재단 업무 범위 미검증으로 삭제. 명예회복은 2013년 법률에 따른 심의위원회 활동(백과사전)으로 서술.",
+      "'4대 민주항쟁'은 정부(행정안전부) 표현으로 귀속."
+    ],
+    "notes": "마산은 현재 창원시에 속하나 출처 직접 진술이 없어 '부산과 마산'으로 유지."
+  },
+  "gov-7": {
+    "origin": "4·3희생자 추념일은 제주4·3사건으로 희생된 이들을 기리고 위로하는 국가기념일이다. 제주4·3특별법은 이 사건을 1947년 3월 1일을 기점으로 1948년 4월 3일 발생한 소요사태 및 1954년 9월 21일까지 제주도에서 발생한 무력충돌과 그 진압과정에서 주민들이 희생당한 사건으로 정의한다. 광복 직후 제주는 귀환 인구의 실업, 생필품 부족, 콜레라, 흉년 등으로 몹시 어려웠다. 1947년 3·1절 기념대회 때 경찰의 발포로 민간인 6명이 숨지자 총파업과 대규모 검거가 이어졌고, 갈등은 점점 깊어졌다. 1948년 4월 3일 새벽 남로당 제주도당이 주도한 무장대가 경찰지서 등을 습격하면서 무력 충돌이 본격화됐다. 이후 군경 토벌대의 강경 진압, 특히 1948년 11월부터 중산간 마을을 불태운 이른바 초토화작전으로 많은 주민이 희생됐고, 무장대의 습격으로 숨진 주민도 있었다. 1954년 9월 21일 한라산 출입 금지가 풀리며 사건은 7년 7개월 만에 끝났다. 정부는 2014년 3월 '각종 기념일 등에 관한 규정'을 개정해 4월 3일을 추념일로 지정했다.",
+    "anecdote": "정부가 2003년 확정한 제주4·3사건 진상조사보고서는 당시 인명 피해를 2만 5,000명에서 3만 명으로 추정한다. 이와 별개로 4·3위원회가 심사를 거쳐 공식 결정한 희생자는 2026년 4월 기준 1만 5,218명이다. 앞의 수치는 추정치이고 뒤의 수치는 신고와 심사를 거친 결정 인원이어서, 두 숫자를 같은 의미로 쓰면 안 된다. 2003년 10월 노무현 대통령은 보고서를 바탕으로 과거 국가권력의 잘못을 공식 사과했다. 제주4·3평화기념관 상설전시실 첫머리에는 글자 없이 누워 있는 비석 '백비(白碑)'가 있다. 4·3이 아직 올바른 이름을 얻지 못한 역사라는 뜻으로, 진정한 해결이 이뤄지는 날 비문을 새기고 비석을 세우겠다는 의미를 담았다. 진상조사보고서 역시 사건 전체의 성격이나 역사적 평가는 내리지 않고 후대의 몫으로 남겼다. 오랫동안 금기였던 위령 행사는 1989년 시민사회단체가 연 추모제를 거쳐 국가 추념일로 이어졌고, 추념 행사는 행정안전부가 주관한다.",
+    "sourceUrl": "https://jeju43peace.or.kr/kor/sub01_01_02.do",
+    "evidence": [
+      {
+        "claim": "특별법 정의",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&ID=002040",
+        "title": "제주4ㆍ3사건 진상규명 및 희생자 명예회복에 관한 특별법",
+        "publisher": "국가법령정보센터(법제처)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "\"제주4ㆍ3사건\"이란 1947년 3월 1일을 기점으로 1948년 4월 3일 발생한 소요사태 및 1954년 9월 21일까지 제주도에서 발생한 무력충돌과 그 진압과정에서 주민들이 희생당한 사건을 말한다.",
+        "local_evidence_path": "evidence/law_jeju43.txt"
+      },
+      {
+        "claim": "광복 직후 사회문제",
+        "url": "https://encykorea.aks.ac.kr/Article/E0051439",
+        "title": "제주4·3사건",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "광복 직후 제주사회는 6만여 명 귀환인구의 실직난, 생필품 부족, 콜레라의 창궐, 극심한 흉년 등으로 겹친 악재와",
+        "local_evidence_path": "evidence/ency_43.txt"
+      },
+      {
+        "claim": "3·1절 발포 6명",
+        "url": "https://encykorea.aks.ac.kr/Article/E0051439",
+        "title": "제주4·3사건",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "경찰이 총을 발사함으로써 민간인 6명이 숨지는 사건이 발생했다.",
+        "local_evidence_path": "evidence/ency_43.txt"
+      },
+      {
+        "claim": "총파업",
+        "url": "https://encykorea.aks.ac.kr/Article/E0051439",
+        "title": "제주4·3사건",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "제주도 전체 직장의 95% 이상이 참여한 대규모 민 · 관 총파업이 이어졌다.",
+        "local_evidence_path": "evidence/ency_43.txt"
+      },
+      {
+        "claim": "검거",
+        "url": "https://encykorea.aks.ac.kr/Article/E0051439",
+        "title": "제주4·3사건",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "검속 한 달 만에 500여 명이 체포됐고, 1년 동안 2,500명이 구금됐다.",
+        "local_evidence_path": "evidence/ency_43.txt"
+      },
+      {
+        "claim": "4·3 새벽 무장봉기 지서 습격",
+        "url": "https://encykorea.aks.ac.kr/Article/E0051439",
+        "title": "제주4·3사건",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "350명의 무장대는 이날 새벽 12개의 경찰지서와 서청 등 우익단체 요인들의 집을 습격했다.",
+        "local_evidence_path": "evidence/ency_43.txt"
+      },
+      {
+        "claim": "남로당 제주도당 주도",
+        "url": "https://encykorea.aks.ac.kr/Article/E0051439",
+        "title": "제주4·3사건",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "남로당 제주도당이 주도한 무장봉기의 신호탄이 올랐다.",
+        "local_evidence_path": "evidence/ency_43.txt"
+      },
+      {
+        "claim": "초토화작전 1948.11",
+        "url": "https://jeju43peace.or.kr/kor/sub01_01_02.do",
+        "title": "피해실태",
+        "publisher": "제주4·3평화재단",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1948년 11월부터 9연대에 의해 이루어진 ‘초토화작전’으로 중산간마을 95% 이상이 불타 없어졌고 많은 인명이 희생됐다.",
+        "local_evidence_path": "evidence/jeju43_damage.txt"
+      },
+      {
+        "claim": "무장대의 주민 살해",
+        "url": "https://jeju43peace.or.kr/kor/sub01_01_01.do",
+        "title": "제주4·3사건 진상조사보고서",
+        "publisher": "제주4·3평화재단",
+        "accessed_at": "2026-10-11",
+        "quote_original": "무장대들은 해안마을을 습격하여 경찰가족과 우익인사를 살해했다. 그 와중에 무고한 주민들도 상당수 희생되었다.",
+        "local_evidence_path": "evidence/jeju43_report.txt"
+      },
+      {
+        "claim": "1954.9.21 금족 해제, 7년 7개월",
+        "url": "https://jeju43peace.or.kr/kor/sub01_01_01.do",
+        "title": "제주4·3사건 진상조사보고서",
+        "publisher": "제주4·3평화재단",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1954년 9월 21일 한라산 금족(禁足)지역이 전면 개방되었다.",
+        "local_evidence_path": "evidence/jeju43_report.txt"
+      },
+      {
+        "claim": "7년 7개월, 2.5~3만",
+        "url": "https://jeju43peace.or.kr/kor/sub01_01_01.do",
+        "title": "제주4·3사건 진상조사보고서",
+        "publisher": "제주4·3평화재단",
+        "accessed_at": "2026-10-11",
+        "quote_original": "2만 5,000~3만 명의 주민들이 희생된 가운데 7년 7개월 만에 막을 내리게 되었다.",
+        "local_evidence_path": "evidence/jeju43_report.txt"
+      },
+      {
+        "claim": "2014.3.18 국무회의, 3.24 공포",
+        "url": "https://jeju43peace.or.kr/kor/sub01_02_01.do",
+        "title": "진상규명운동사",
+        "publisher": "제주4·3평화재단",
+        "accessed_at": "2026-10-11",
+        "quote_original": "2014년 3월 18일 정부는 국무회의에서 ‘각종 기념일 등에 관한 규정’을 개정하고 3월 24일자 관보에 게재함으로써",
+        "local_evidence_path": "evidence/jeju43_truth.txt"
+      },
+      {
+        "claim": "보고서 추정 2.5~3만, 결정 15,218명",
+        "url": "https://jeju43peace.or.kr/kor/sub01_01_02.do",
+        "title": "피해실태",
+        "publisher": "제주4·3평화재단",
+        "accessed_at": "2026-10-11",
+        "quote_original": "제주4·3사건진상규명 및 희생자명예회복위원회(약칭 : 4·3위원회)가 확정한 희생자 수는 2026년 현재 15,218명이다. 이는 공식적으로 집계된 희생자 수치일 뿐, 진상조사보고서는 4·3 당시 인명피해를 2만 5,000명에서 3만 명으로 추정한다.",
+        "local_evidence_path": "evidence/jeju43_damage.txt"
+      },
+      {
+        "claim": "2026.4 기준",
+        "url": "https://jeju43peace.or.kr/kor/sub01_01_02.do",
+        "title": "피해실태",
+        "publisher": "제주4·3평화재단",
+        "accessed_at": "2026-10-11",
+        "quote_original": "4·3희생자·유족 결정현황(2026. 4. 기준)",
+        "local_evidence_path": "evidence/jeju43_damage.txt"
+      },
+      {
+        "claim": "2003.10.15 보고서 확정, 10.31 사과",
+        "url": "https://jeju43peace.or.kr/kor/sub01_02_01.do",
+        "title": "진상규명운동사",
+        "publisher": "제주4·3평화재단",
+        "accessed_at": "2026-10-11",
+        "quote_original": "2003년 10월 15일 4·3사건의 진상을 담은 대한민국 정부의 공식 보고서가 확정됐다. 10월 31일 노무현 대통령은 제주도를 방문하여 진상보고서에 근거해 과거 국가권력의 잘못을 공식 사과했다.",
+        "local_evidence_path": "evidence/jeju43_truth.txt"
+      },
+      {
+        "claim": "백비",
+        "url": "https://jeju43peace.or.kr/kor/sub05_02_02.do",
+        "title": "상설전시실 안내도",
+        "publisher": "제주4·3평화재단",
+        "accessed_at": "2026-10-11",
+        "quote_original": "터널을 지나면 원형의 천창 아래 누워있는 ‘백비(비문 없는 비석)’를 만나게 된다. 4·3은 아직도 정명(正名)되지 못한 역사이기 때문이다. 4·3의 진정한 해결이 이루어지는 날, 비로소 비문이 새겨질 것이며, 누워 있는 비석도 세워질 것이다.",
+        "local_evidence_path": "evidence/jeju43_hall.txt"
+      },
+      {
+        "claim": "보고서 성격 평가 유보",
+        "url": "https://jeju43peace.or.kr/kor/sub01_01_01.do",
+        "title": "제주4·3사건 진상조사보고서",
+        "publisher": "제주4·3평화재단",
+        "accessed_at": "2026-10-11",
+        "quote_original": "4·3사건 전체에 대한 성격이나 역사적 평가를 내리지 않았습니다. 이는 후세 사기들의 몫이라고 생각합니다.",
+        "local_evidence_path": "evidence/jeju43_report.txt"
+      },
+      {
+        "claim": "1989 추모제",
+        "url": "https://jeju43peace.or.kr/kor/sub01_02_01.do",
+        "title": "진상규명운동사",
+        "publisher": "제주4·3평화재단",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1989년 제주도내 11개 시민사회단체로 구성된 제주4·3사월제공동준비위원회가 ‘제1회 4·3추모제’를 봉행함으로써",
+        "local_evidence_path": "evidence/jeju43_truth.txt"
+      },
+      {
+        "claim": "금기",
+        "url": "https://jeju43peace.or.kr/kor/sub01_02_01.do",
+        "title": "진상규명운동사",
+        "publisher": "제주4·3평화재단",
+        "accessed_at": "2026-10-11",
+        "quote_original": "과거 4·3은 반세기 넘도록 금기의 영역에 갇혀 있었기 때문에 유가족들은 희생자들을 위령하는 행사조차 공개적으로 열기 어려웠다.",
+        "local_evidence_path": "evidence/jeju43_truth.txt"
+      },
+      {
+        "claim": "주관 행정안전부",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&ID=002065",
+        "title": "각종 기념일 등에 관한 규정 [별표]",
+        "publisher": "국가법령정보센터(법제처)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "제주4ㆍ3사건 희생자를 위령하는 추념 행사",
+        "local_evidence_path": "evidence/law_ginyeomil.txt"
+      }
+    ],
+    "corrections_to_existing": [
+      "기간 오류: 기존 '1948년 4월 3일 시작돼 1954년까지' → 특별법 정의상 기점은 1947년 3월 1일, 종료는 1954년 9월 21일.",
+      "'목숨을 잃은 사람을 2만 5천~3만 명으로 추산' → 진상조사보고서 표현은 '인명피해' 2만 5,000~3만 명 추정. 4·3위원회 결정 희생자(2026.4 기준 15,218명)와 구분.",
+      "백비 설명 오류: '이름조차 남기지 못한 이들을 위한' 비석이 아니라 4·3이 아직 정명(正名)되지 못한 역사임을 상징. 위치는 4·3평화공원 내 제주4·3평화기념관 상설전시실 제1관.",
+      "'국가추념일' 공식 명칭은 '4ㆍ3희생자 추념일'(규정 별표), 2014.3.18 국무회의·3.24 관보 공포."
+    ],
+    "notes": "희생자 결정 수치는 제주4·3평화재단 페이지(2026.4 기준)로, 갱신 시 변동 가능. 추념식 개최 장소는 출처 미확보로 미기재."
+  },
+  "gov-22": {
+    "origin": "동학농민혁명 기념일은 1894년 동학농민군이 전라도 정읍 황토현에서 관군과 처음 크게 맞붙어 승리한 날을 기리는 국가기념일이다. 조선 말기 곡창지대인 전라도의 농민들은 탐관오리의 가혹한 수탈에 시달렸고, 1894년 1월 고부군수 조병갑의 횡포에 맞서 고부에서 민란이 일어났다. 이어 전봉준, 손화중, 김개남 등 동학 지도자들이 무장에서 다시 들고일어나 고부 관아를 점령했고, 백산에 모여 전봉준을 대장으로 세웠다. 전라감사가 보낸 감영군이 진압에 나서자 농민군은 일부러 지는 척 물러나며 적을 황토재(황토현)까지 끌어들였고, 새벽에 고개 위에서 기습해 크게 이겼다. 당시 쓰던 음력으로는 4월 7일, 지금 달력으로는 5월 11일 무렵의 일이다. 이 승리로 기세가 오른 농민군은 정읍을 점령했고, 이후 전주성까지 들어갔다. 문화체육관광부는 지자체 추천, 공청회, 선정위원회 심사를 거쳐 이날을 기념일로 골랐고, 2019년 2월 국무회의 의결로 국가기념일이 됐다.",
+    "anecdote": "기념일 날짜를 정하기까지는 진통이 있었다. 전북의 네 시·군이 각자 의미 있는 날을 내세웠기 때문이다. 고창군은 무장에서 처음 봉기한 무장기포일(4월 25일), 부안군은 백산에서 격문을 발표한 백산대회일(5월 1일), 정읍시는 황토현 전승일(5월 11일), 전주시는 관군과 강화를 맺은 전주화약일(6월 11일)을 주장했다. 선정위원회는 황토현 전승일이 농민군 지도부가 조직적으로 관군과 싸워 처음 크게 이긴 날이고, 혁명이 전국으로 번지는 동력이 됐다는 점을 높이 평가했다. 이날을 '일본군을 처음 이긴 날'로 소개하는 경우도 있지만, 황토현에서 맞선 상대는 전라감영의 군대였다. 일본군과의 큰 싸움은 그해 9월 일본의 침략에 맞선 2차 봉기 뒤 공주 우금치에서 벌어졌고, 농민군은 이 싸움에서 크게 패했다. 기념식은 문화체육관광부가 주관하며, 2025년처럼 정읍 동학농민혁명기념공원에서 열린 해도 있고 2026년처럼 서울 국립중앙박물관에서 열린 해도 있다.",
+    "sourceUrl": "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pSeq=16984",
+    "evidence": [
+      {
+        "claim": "고부 민란 1894.1.10 조병갑",
+        "url": "https://encykorea.aks.ac.kr/Article/E0016865",
+        "title": "동학운동",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1894년 1월 10일 고부군수 조병갑(趙秉甲)의 지나친 가렴주구에 항거하는 광범한 농민층의 분노가 폭발하여 민란이 일어났다.",
+        "local_evidence_path": "evidence/ency_donghak.txt"
+      },
+      {
+        "claim": "전라도 곡창·수탈",
+        "url": "https://encykorea.aks.ac.kr/Article/E0016865",
+        "title": "동학운동",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "전라도는 물산이 풍부한 곡창지대로 국가재정도 이 지역에 크게 의존하고 있었을 뿐만 아니라 조선 전시대에 걸쳐 수탈의 대상이 되어 농민들은 항상 탐관오리의 가렴주구에 시달리고 있었다.",
+        "local_evidence_path": "evidence/ency_donghak.txt"
+      },
+      {
+        "claim": "무장 봉기",
+        "url": "https://encykorea.aks.ac.kr/Article/E0065371",
+        "title": "황토현전투",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "전라도 무장에서 전봉준(全琫準)·손화중(孫化中)·김개남(金開男) 등의 남접계 동학지도자들을 중심으로 4,000여 명의 동학농민군들이 들고 일어섰다.",
+        "local_evidence_path": "evidence/ency_hwangtohyeon.txt"
+      },
+      {
+        "claim": "고부 관아 점령",
+        "url": "https://encykorea.aks.ac.kr/Article/E0065371",
+        "title": "황토현전투",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "합세하여 고부 관아를 점령하였다.",
+        "local_evidence_path": "evidence/ency_hwangtohyeon.txt"
+      },
+      {
+        "claim": "백산 대장 추대",
+        "url": "https://encykorea.aks.ac.kr/Article/E0065371",
+        "title": "황토현전투",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "농민군 진영에서는 전봉준을 대장으로 추대하고",
+        "local_evidence_path": "evidence/ency_hwangtohyeon.txt"
+      },
+      {
+        "claim": "거짓 패배 유인",
+        "url": "https://encykorea.aks.ac.kr/Article/E0065371",
+        "title": "황토현전투",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "이에 농민군은 또다시 거짓 패한 체하며 황토재로 올라갔다.",
+        "local_evidence_path": "evidence/ency_hwangtohyeon.txt"
+      },
+      {
+        "claim": "4월 7일 새벽 기습",
+        "url": "https://encykorea.aks.ac.kr/Article/E0065371",
+        "title": "황토현전투",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "4월 7일 새벽이 되자 황토재 마루에서 몸을 숨기고 있던 농민군은 고개 아래에 주둔하고 있는 감영군 진영을 향하여 포를 쏘아대며 기습공격을 감행하였다.",
+        "local_evidence_path": "evidence/ency_hwangtohyeon.txt"
+      },
+      {
+        "claim": "최초 접전 승리",
+        "url": "https://encykorea.aks.ac.kr/Article/E0065371",
+        "title": "황토현전투",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "관군과의 최초의 접전에서 승리를 거두었다.",
+        "local_evidence_path": "evidence/ency_hwangtohyeon.txt"
+      },
+      {
+        "claim": "상대는 감영군",
+        "url": "https://encykorea.aks.ac.kr/Article/E0065371",
+        "title": "황토현전투",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1894년(고종 31) 동학농민군이 전라감영군을 맞아 크게 승리한 전투.",
+        "local_evidence_path": "evidence/ency_hwangtohyeon.txt"
+      },
+      {
+        "claim": "양력 5월 10~11일 황토현 접전",
+        "url": "https://encykorea.aks.ac.kr/Article/E0016865",
+        "title": "동학운동",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "관군은 5월 10일에서 11일 새벽에 걸쳐 도교산(道橋山)에 근거를 둔 동학농민군과 황토현(黃土峴)에서 접전을 벌였으나 대패하고 말았다.",
+        "local_evidence_path": "evidence/ency_donghak.txt"
+      },
+      {
+        "claim": "encykorea 양력 표기 관례(음력 병기)",
+        "url": "https://encykorea.aks.ac.kr/Article/E0016865",
+        "title": "동학운동",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "6월 11일(음력 5월 8일) 전주화약이 성립되고",
+        "local_evidence_path": "evidence/ency_donghak.txt"
+      },
+      {
+        "claim": "정읍 점거",
+        "url": "https://encykorea.aks.ac.kr/Article/E0016865",
+        "title": "동학운동",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "황토현싸움에서 승리하자 동학농민군은 그 기세를 몰아 정읍으로 진격하여 이를 점거하였다.",
+        "local_evidence_path": "evidence/ency_donghak.txt"
+      },
+      {
+        "claim": "전주성 점거",
+        "url": "https://encykorea.aks.ac.kr/Article/E0016865",
+        "title": "동학운동",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "동학농민군은 전주성을 점거한 지 10여일 만에 철수하고",
+        "local_evidence_path": "evidence/ency_donghak.txt"
+      },
+      {
+        "claim": "선정 절차",
+        "url": "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pSeq=17118",
+        "title": "동학농민혁명 기념일 5월 11일, 국가기념일로 제정",
+        "publisher": "문화체육관광부",
+        "accessed_at": "2026-10-11",
+        "quote_original": "전국 지방자치단체를 대상으로 대상 기념일을 공모하고 , 공청회 및 기념일 선정위원회의 심의 과정을 거쳐 1894 년 5 월 11 일 황토현 전승일을 동학농민혁명 기념일로 최종 선정한 바 있다 .",
+        "local_evidence_path": "evidence/mcst_donghak2.txt"
+      },
+      {
+        "claim": "2019.2.19 국무회의 의결",
+        "url": "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pSeq=17118",
+        "title": "동학농민혁명 기념일 5월 11일, 국가기념일로 제정",
+        "publisher": "문화체육관광부",
+        "accessed_at": "2026-10-11",
+        "quote_original": "2 월 19 일 ( 화 ) 국무회의에서 < 각종 기념일 등에 관한 규정> 개정안이 심의 · 의결됨에 따라 동학농민혁명 기념일 (5 월 11 일 ) 이 국가기념일로 제정되었다고 밝혔다 .",
+        "local_evidence_path": "evidence/mcst_donghak2.txt"
+      },
+      {
+        "claim": "선정 이유",
+        "url": "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pSeq=16984",
+        "title": "동학농민혁명 법정 기념일은 5월 11일",
+        "publisher": "문화체육관광부",
+        "accessed_at": "2026-10-11",
+        "quote_original": "위원회는 황토현전승일이 전봉준 , 손화중 , 김개남 등 동학농민군 지도부가 조직적으로 관군과 격돌해 최초로 대승한 날로 , 이 날을 계기로 농민군의 혁명 열기가 크게 고양되었고 , 이후 동학농민혁명이 전국적으로 전개될 수 있는 중요한 동력이 되었다는 점에서 가치를 높게 평가했다 .",
+        "local_evidence_path": "evidence/mcst_donghak.txt"
+      },
+      {
+        "claim": "4개 지자체 후보",
+        "url": "https://www.nocutnews.co.kr/news/5106839",
+        "title": "동학농민혁명 법정 기념일로 '황토현 전승일'인 5월 11일 제정",
+        "publisher": "노컷뉴스",
+        "accessed_at": "2026-10-11",
+        "quote_original": "무장 기포일인 4월 25일을 내세웠던 고창군, 백산대회일인 5월 1일을 주장하는 부안군, 황토현 전승일인 5월 11일로 목청을 높였던 정읍시, 그리고 전주 화약일인 6월 11일을 앞세웠던 전주시까지.",
+        "local_evidence_path": "evidence/nocut_donghak.txt"
+      },
+      {
+        "claim": "후보 날짜 설명",
+        "url": "https://www.hani.co.kr/arti/culture/culture_general/869583.html",
+        "title": "동학농민혁명 법정기념일 5월 11일 확정",
+        "publisher": "한겨레",
+        "accessed_at": "2026-10-11",
+        "quote_original": "전북 고창 무장에서 처음 봉기한 무장기포일(4월25일), 전북 부안 백산에서 4대 강령과 봉기 격문을 발표한 백산대회일(5월1일), 전북 전주에서 관군과 강화를 맺은 전주화약일(6월11일)이 후보 날짜로 올라 경합했다.",
+        "local_evidence_path": "evidence/hani_donghak.txt"
+      },
+      {
+        "claim": "'관군과 일본군' 표현이 쓰인 사례(정부 뉴스)",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148942991",
+        "title": "5월 11일 '동학농민혁명' 국가기념일…제131주년 기념식 개최",
+        "publisher": "대한민국 정책브리핑(문화체육관광부)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "동학농민혁명군이 관군과 일본군을 상대로 최초로 승리한 황토현 전승일인 5월 11일을 2019년에 국가기념일로 지정한 이후, 매년 정부 기념식으로 거행하고 있다.",
+        "local_evidence_path": "evidence/korea_donghak131.txt"
+      },
+      {
+        "claim": "2차 봉기 9월, 항일",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&ID=009672",
+        "title": "동학농민혁명 참여자 등의 명예회복에 관한 특별법",
+        "publisher": "국가법령정보센터(법제처)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "같은 해 9월에 일제의 침략으로부터 국권을 수호하기 위하여 2차로 봉기하여 항일무장투쟁을 전개한",
+        "local_evidence_path": "evidence/law_donghak.txt"
+      },
+      {
+        "claim": "우금치 참패",
+        "url": "https://encykorea.aks.ac.kr/Article/E0016865",
+        "title": "동학운동",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "우수한 근대식 무기와 장비로 훈련된 일본군에게 동학농민군은 많은 사상자를 내면서 참패하고",
+        "local_evidence_path": "evidence/ency_donghak.txt"
+      },
+      {
+        "claim": "주관 문체부",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&ID=002065",
+        "title": "각종 기념일 등에 관한 규정 [별표]",
+        "publisher": "국가법령정보센터(법제처)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "명하고 애국애족정신을 높이는 행사를 한다.",
+        "local_evidence_path": "evidence/law_ginyeomil.txt"
+      },
+      {
+        "claim": "2025 정읍 기념공원",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148942991",
+        "title": "5월 11일 '동학농민혁명' 국가기념일…제131주년 기념식 개최",
+        "publisher": "대한민국 정책브리핑(문화체육관광부)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "오는 11일 오전 11시에 전북 정읍의 동학농민혁명기념공원에서 '제131주년 동학농민혁명 기념식'을 개최한다고 9일 밝혔다.",
+        "local_evidence_path": "evidence/korea_donghak131.txt"
+      },
+      {
+        "claim": "2026 국립중앙박물관",
+        "url": "https://view.asiae.co.kr/article/2026051109060707893",
+        "title": "제132주년 동학농민혁명 기념식, 국립중앙박물관에서 개최",
+        "publisher": "아시아경제",
+        "accessed_at": "2026-10-11",
+        "quote_original": "11일 오전 11시 국립중앙박물관 대강당에서 '제132주년 동학농민혁명 기념식'을 개최한다고 밝혔다.",
+        "local_evidence_path": "evidence/asiae_donghak132.txt"
+      }
+    ],
+    "corrections_to_existing": [
+      "'행정안전부와 전라북도가 매년 정읍 황토현 전적지에서 기념식을 함께 연다' 오류: 주관부처는 문화체육관광부(규정 별표), 개최지는 해마다 다름(2025 정읍 동학농민혁명기념공원, 2026 국립중앙박물관).",
+      "후보일 서술 오류: '봉기가 시작된 고부'가 아니라 고창 무장기포일(4.25), 부안 백산대회일(5.1), 정읍 황토현(5.11), 전주화약일(6.11) 4개 시·군 경합.",
+      "'갑오개혁에 직간접적 영향' — 이번 조사에서 근거 미확보로 삭제.",
+      "황토현에서 패한 쪽은 전라감영군(무남영병·향병). 정부 뉴스(정책브리핑 2025)에 '관군과 일본군을 상대로 최초 승리'라는 표현이 있으나 백과사전과 불일치 — 신규 원고에서 바로잡음."
+    ],
+    "notes": "'음력 4월 7일 = 양력 5월 11일': 황토현전투 항목은 4월 7일 새벽(음력 관례), 동학운동 항목은 양력 '5월 10일에서 11일 새벽'과 '6월 11일(음력 5월 8일)'로 표기. 음력 5월 8일=6월 11일이면 음력 4월(30일) 7일=5월 11일로 일관됨(계산 검증). 직접 '양력 환산' 문구는 출처에 없음 — 리뷰어 확인 권장."
+  }
+}

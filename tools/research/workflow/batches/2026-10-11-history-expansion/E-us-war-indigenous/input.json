@@ -1,0 +1,119 @@
+[
+  {
+    "id": "anv-fixed-12-07-pearl-harbor-remembrance-day-us",
+    "date": "12-07",
+    "dateType": "annual-fixed",
+    "name": "진주만 추모의 날",
+    "category": "history",
+    "storytelling": {
+      "origin": "1941년 12월 7일 일본의 하와이 진주만 기습으로 숨진 미군과 민간인 2,400여 명을 추모하는 날이다. 1994년 미 의회가 이날을 '국가 진주만 추모의 날'로 지정했다. 공휴일은 아니지만 이날 관공서에서는 조기를 게양한다. 기습 다음 날 미국은 일본에 선전포고했다.",
+      "anecdote": "프랭클린 루스벨트 대통령은 의회 연설에서 이날을 '치욕 속에 살아갈 날'이라고 불렀다. 이 사건으로 미국은 제2차 세계대전에 본격적으로 참전했고, 전쟁의 흐름이 바뀌었다. 격침된 전함 애리조나호에서만 1,177명이 숨졌으며, 그 위에 세운 USS 애리조나 기념관을 해마다 수많은 사람이 찾는다."
+    },
+    "sourceUrl": "https://nationaldaycalendar.com/celebrations/national-pearl-harbor-remembrance-day-december-7",
+    "current_chars": 316
+  },
+  {
+    "id": "anv-fixed-08-15-vj-day-global",
+    "date": "08-15",
+    "dateType": "annual-fixed",
+    "name": "대일전승기념일 (V-J Day)",
+    "category": "history",
+    "storytelling": {
+      "origin": "1945년 8월 15일, 일본이 연합국에 무조건 항복을 선언하며 제2차 세계대전이 막을 내린 것을 기념하는 날이다. 미국에서는 'Victory over Japan Day'라 부른다. 공식 항복 문서 서명은 2주 뒤인 9월 2일 도쿄만의 미주리함에서 이뤄졌지만, 항복 선언 자체가 있었던 8월 15일을 종전일로 더 널리 기억한다.",
+      "anecdote": "같은 날 한국에서는 일제로부터 해방된 광복절을 기념한다. 지구 반대편 미국과 한반도가 같은 하루를 전혀 다른 의미로, 그러나 같은 역사적 사건으로 함께 기억하고 있는 셈이다. 미국 일부 주에서는 지금도 이날을 공식 기념일로 유지하고 있으며, 로드아일랜드주는 아예 주 공휴일로 정해 두고 있다."
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/V-J_Day",
+    "current_chars": 346
+  },
+  {
+    "id": "anv-nth-05-l-mon-memorial-day-us",
+    "date": "05-L-MON",
+    "dateType": "annual-nth-weekday",
+    "name": "미국 현충일 (National Memorial Day)",
+    "category": "career",
+    "storytelling": {
+      "origin": "매년 5월 마지막 월요일, 나라를 위해 목숨을 바친 군인들을 추모하기 위해 지정된 미국의 연방 공휴일이다. 뉴욕주 워터루 마을이 1866년 5월 5일 처음 지역 행사를 연 것을 계기로, 1966년 미국 의회와 린든 존슨 대통령이 이 마을을 '메모리얼 데이의 발상지'로 공식 인정했다.",
+      "anecdote": "남북전쟁 직후 전사자를 추모하던 'Decoration Day'에서 유래했다. 한국의 현충일(6월 6일)과 비슷한 결의 기념일이다. 처음엔 5월 30일 고정 날짜였다가 1971년부터 '월요일 공휴일법'에 따라 지금의 마지막 월요일로 바뀌었다. 이 조치로 3일 연휴가 생기면서 여름 휴가철의 시작을 알리는 날로도 여겨진다."
+    },
+    "sourceUrl": "memorial-day-us",
+    "current_chars": 336
+  },
+  {
+    "id": "anv-fixed-09-11-patriot-day-remembrance-us",
+    "date": "09-11",
+    "dateType": "annual-fixed",
+    "name": "패트리어트 데이 (9·11 추모의 날)",
+    "category": "history",
+    "storytelling": {
+      "origin": "2001년 9월 11일 발생한 테러로 희생된 이들을 추모하기 위해 지정된 미국의 국가 추모일이다. 뉴욕 세계무역센터, 워싱턴 국방부 청사, 펜실베이니아 들판 세 곳에서 동시다발적으로 벌어진 공격으로 납치범을 제외한 2,977명이 목숨을 잃었으며, 조지 W. 부시 대통령이 이날을 국가 추모일로 처음 선포했다.",
+      "anecdote": "전 세계가 생생히 지켜본 그날의 충격은 이후 항공 보안, 국제 안보 정책 전반에 큰 변화를 가져왔다. 한국에서도 당시 뉴스로 그 장면을 지켜본 이들이 많다. 희생자 대부분은 세계무역센터 붕괴로 목숨을 잃은 뉴욕 시민들이었으며, 소방관·경찰 등 초동 구조 인력의 희생도 유난히 컸다."
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Patriot_Day",
+    "current_chars": 329
+  },
+  {
+    "id": "anv-fixed-09-16-trail-of-tears-commemoration-day-us",
+    "date": "09-16",
+    "dateType": "annual-fixed",
+    "name": "눈물의 길 추모일 (Trail of Tears Commemoration Day)",
+    "category": "history",
+    "storytelling": {
+      "origin": "1830년대 미국 정부의 강제 이주 정책으로 고향을 떠나야 했던 체로키 등 아메리카 원주민들의 고난과 희생을 추모하는 날이다. 앤드루 잭슨 대통령이 서명한 '인디언 이주법'이 이 강제 이주의 법적 근거가 됐다. 체로키어로는 이 길을 '우리가 울며 걸은 길'이라 부른다.",
+      "anecdote": "수천 명이 강제 이주 과정에서 추위와 질병으로 목숨을 잃은 이 사건은 9·11 테러 희생자 수보다 많은 것으로 추산될 만큼 미국 역사에서 깊이 새겨진 비극으로 기억된다. 원주민 공동체는 지금도 매년 이 날을 기리며 그 역사를 잊지 않으려 한다. 오클라호마까지 이어진 이주 경로는 지금도 국립 역사 탐방로로 지정돼 있다."
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Trail_of_Tears",
+    "current_chars": 328
+  },
+  {
+    "id": "anv-nth-10-2-mon-native-american-day-us",
+    "date": "10-2-MON",
+    "dateType": "annual-nth-weekday",
+    "name": "원주민의 날 (Native American Day)",
+    "category": "history",
+    "storytelling": {
+      "origin": "아메리카 원주민의 문화와 역사, 그들이 겪은 고난을 기리는 날로, 매년 10월 둘째 월요일에 일부 주와 도시에서 콜럼버스의 날을 대체하거나 함께 기념한다. 1990년 사우스다코타주가 처음 이날을 '원주민의 날'로 바꿨고, 1992년 캘리포니아주 버클리가 '원주민의 날(Indigenous Peoples' Day)'을 도입했다.",
+      "anecdote": "콜럼버스의 신대륙 '발견' 서사가 원주민의 시각에서는 식민화와 학살의 시작이었다는 인식이 퍼지며, 여러 도시와 주가 이날을 원주민의 날로 공식 전환해 왔다. 2021년에는 조 바이든 대통령이 처음으로 '원주민의 날' 포고문을 냈다. 미국에는 연방 정부가 인정한 원주민 부족이 570곳이 넘는다."
+    },
+    "sourceUrl": "native-american-day-us",
+    "current_chars": 346
+  },
+  {
+    "id": "anv-nth-10-2-mon-columbus-day-us",
+    "date": "10-2-MON",
+    "dateType": "annual-nth-weekday",
+    "name": "콜럼버스의 날 (Columbus Day)",
+    "category": "history",
+    "storytelling": {
+      "origin": "매년 10월 둘째 월요일, 1492년 콜럼버스가 아메리카 대륙에 도착한 항해를 기념하기 위해 지정된 미국의 연방 공휴일이다. 이탈리아계 가톨릭 친목단체 콜럼버스 기사단의 청원을 받아들여 1937년 프랭클린 루스벨트 대통령이 연방 공휴일로 공식 지정했으며, 애초에는 이탈리아계 미국인의 문화유산을 기리는 성격이 강했다.",
+      "anecdote": "오랫동안 '신대륙 발견'을 기리는 날로 여겨졌지만, 원주민에게 닥친 식민화의 역사를 함께 떠올려야 한다는 목소리가 커지며 오늘날엔 그 의미를 둘러싼 논의가 활발히 계속되고 있다. 지금은 미국 17개 주가 이날을 아예 '원주민의 날'로 대체하거나 나란히 병행해 기념하고 있다."
+    },
+    "sourceUrl": "columbus-day-us",
+    "current_chars": 330
+  },
+  {
+    "id": "anv-nth-11-4-thu-day-of-mourning-us",
+    "date": "11-4-THU",
+    "dateType": "annual-nth-weekday",
+    "name": "애도의 날 (National Day of Mourning)",
+    "category": "history",
+    "storytelling": {
+      "origin": "추수감사절과 같은 날, 아메리카 원주민들이 식민화로 겪은 고난과 상실을 함께 기억하는 추모 행사로 1970년부터 매사추세츠주 플리머스에서 열린다. 순례자 상륙 350주년 기념식에서 연설을 준비했던 왐파노아그족 지도자 와무수타 프랭크 제임스가 원주민의 시각을 담은 연설문을 검열당하자 이 행사를 시작했다.",
+      "anecdote": "추수감사절의 '풍요로운 첫 수확' 서사 이면에는 원주민의 땅과 삶을 빼앗긴 역사가 있다는 또 다른 시각을 보여 준다. 참가자들은 플리머스 록이 내려다보이는 언덕에 모여 금식하며 연설을 듣는다. 같은 날, 같은 사건을 서로 다르게 기억하는 두 갈래의 역사가 공존하는 셈이다. 뉴잉글랜드 미국 원주민 연합이 주관한다."
+    },
+    "sourceUrl": "day-of-mourning",
+    "current_chars": 344
+  },
+  {
+    "id": "anv-rel-thanksgiving-1-native-american-heritage-day-us",
+    "date": "anv-nth-11-4-thu-thanksgiving-day-us:1",
+    "dateType": "annual-relative-to-holiday",
+    "name": "원주민 유산의 날 (National Native American Heritage Day)",
+    "category": "history",
+    "storytelling": {
+      "origin": "추수감사절 다음날인 금요일, 아메리카 원주민의 문화와 유산, 그들이 미국 사회에 기여한 바를 기리기 위해 2008년 제정된 날이다. 캘리포니아 하원의원 조 바카가 발의한 법안에 조지 W. 부시 대통령이 서명하며 만들어졌으며, 전미인디언게이밍협회와 연방정부 공인 부족 184곳이 이 법안을 지지했다.",
+      "anecdote": "쇼핑으로 들썩이는 블랙프라이데이 같은 날, 그 반대편에서 원주민 문화를 조명하려는 시도라는 점에서 의미가 깊다. 1990년에는 이미 매년 11월 전체가 '전미 인디언 유산의 달'로 지정돼 있어, 이 하루는 그 한 달을 조용히 마무리하며 장식하는 상징적인 날이기도 하다."
+    },
+    "sourceUrl": "native-american-heritage-day",
+    "current_chars": 316
+  }
+]

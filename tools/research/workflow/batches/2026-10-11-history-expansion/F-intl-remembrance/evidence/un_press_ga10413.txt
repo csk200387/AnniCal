@@ -1,0 +1,9 @@
+URL: https://press.un.org/en/2005/ga10413.doc.htm
+FETCH: 200 text/html; charset=utf-8 https://press.un.org/en/2005/ga10413.doc.htm
+ACCESSED: 2026-10-11
+---
+
+ Client Challenge
+ A required part of this site couldn’t load. This may be due to a browser
+ extension, network issues, or browser settings. Please check your
+ connection, disable any ad blockers, or try using a different browser.

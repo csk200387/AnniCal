@@ -1,0 +1,127 @@
+URL: https://www.unscear.org/unscear/en/areas-of-work/chernobyl.html
+FETCH: 200 text/html;charset=utf-8 https://www.unscear.org/unscear/en/areas-of-work/chernobyl.html
+ACCESSED: 2026-10-11
+---
+The Chornobyl Accident
+Welcome to the United Nations
+English
+日本語
+عربي
+Español
+Français
+Русский
+中文
+United Nations
+Scientific Committee on the Effects of Atomic Radiation
+Site SearchSearch the site
+Home
+About us
+Overview
+Mandate
+Governing Principles
+Sustainable Development Goals
+Strategic Directions
+History
+Annual Sessions
+Committee Members
+Bureau
+Secretariat
+Internships
+Partnerships
+Areas of Work
+Overview
+Fukushima Daiichi Accident
+Chornobyl Accident
+Radiation FAQ
+Publications
+Overview
+Publications Search
+Scientific Reports
+Radiation Booklet
+White Papers
+General Assembly
+News and Media
+Global Survey
+Members Area
+Contact us
+Assessments of the radiation effects from the Chernobyl nuclear reactor accident
+Summary
+The accident at the Chernobyl nuclear reactor that occurred on 26 April 1986 was the most serious accident ever to occur in the nuclear power industry. The reactor was destroyed in the accident and considerable amounts of radioactive material were released to the environment. The accident caused the deaths, within a few weeks, of 30 workers and radiation injuries to over a hundred others. In response, the authorities evacuated, in 1986, about 115,000 people from areas surrounding the reactor and subsequently relocated, after 1986, about 220,000 people from Belarus, the Russian Federation and Ukraine. The accident caused serious social and psychological disruption in the lives of those affected and vast economic losses over the entire region. Large areas of the three countries were contaminated with radioactive materials, and radionuclides from the Chernobyl release were measurable in all countries of the northern hemisphere.
+Among the residents of Belarus, the Russian Federation and Ukraine, there had been up to the year 2005 more than 6,000 cases of thyroid cancer reported in children and adolescents who were exposed at the time of the accident, and more cases can be expected during the next decades. Notwithstanding the influence of enhanced screening regimes, many of those cancers were most likely caused by radiation exposures shortly after the accident. Apart from this increase, there is no evidence of a major public health impact attributable to radiation exposure two decades after the accident. There is no scientific evidence of increases in overall cancer incidence or mortality rates or in rates of non-malignant disorders that could be related to radiation exposure. The incidence of leukaemia in the general population, one of the main concerns owing to the shorter time expected between exposure and its occurrence compared with solid cancers, does not appear to be elevated. Although those most highly exposed individuals are at an increased risk of radiation-associated effects, the great majority of the population is not likely to experience serious health consequences as a result of radiation from the Chornobyl accident. Many other health problems have been noted in the populations that are not related to radiation exposure.
+Release of radionuclides
+Maps of radionuclide deposition
+Download detailed maps from the UNSCEAR 2000 report
+Surface ground deposition of caesium-137 on the territories of Belarus, Russian and Ukraine (1.1 MBytes)
+Surface ground deposition of caesium-137 in Europe (2.2 MBytes)
+The radionuclides released from the reactor that caused exposure of individuals were mainly iodine-131, caesium-134 and caesium-137. Iodine-131 has a short radioactive half-life (eight days), but it can be transferred to humans relatively rapidly from the air and through consumption of contaminated milk and leafy vegetables. Iodine becomes localized in the thyroid gland. For reasons related to the intake of milk and dairy products by infants and children, as well as the size of their thyroid glands and their metabolism, the radiation doses are usually higher for them than for adults.
+Average effective doses to those persons most affected by the accident were assessed to be about 120 mSv for 530,000 recovery operation workers, 30 mSv for 115,000 evacuated persons and 9 mSv during the first two decades after the accident to those who continued to reside in contaminated areas. (For comparison, the typical dose from a single computed tomography scan is 9 mSv). Maximum individual values of the dose may be an order of magnitude and even more. Outside Belarus, the Russian Federation and Ukraine, other European countries were affected by the accident. Average national doses there were less than 1 mSv in the first year after the accident with progressively decreasing doses in subsequent years. The average dose over a lifetime in distant countries of Europe was estimated to be about 1 mSv. These doses are comparable to an annual dose from natural background radiation (the global average is 2.4 mSv) and are, therefore, of little radiological significance.
+The exposures were much higher for those involved in mitigating the effects of the accident and those who resided nearby. Those exposures are reviewed in great detail in the UNSCEAR assessments.
+Health effects
+The Chernobyl accident caused many severe radiation effects almost immediately. Of 600 workers present on the site during the early morning of 26 April 1986, 134 received high doses (0.8-16 Gy) and suffered from radiation sickness. Of these, 28 died in the first three months and another 19 died in 1987-2004 of various causes not necessarily associated with radiation exposure. In addition, according to the UNSCEAR 2008 Report, the majority of the 530,000 registered recovery operation workers received doses of between 0.02 Gy and 0.5 Gy between 1986 and 1990. That cohort is still at potential risk of late consequences such as cancer and other diseases and their health will be followed closely.
+The Chernobyl accident also resulted in widespread radioactive contamination in areas of Belarus, the Russian Federation and Ukraine inhabited by several million people. In addition to causing radiation exposure, the accident caused long-term changes in the lives of the people living in the contaminated districts, since the measures intended to limit radiation doses included resettlement, changes in food supplies and restrictions on the activities of individuals and families. Later on, those changes were accompanied by the major economic, social, and political changes that took place when the former Soviet Union broke up.
+For the last two decades, attention has been focused on investigating the association between exposure caused by radionuclides released in the Chernobyl accident and late effects, in particular thyroid cancer in children. Doses to the thyroid received in the first few months after the accident were particularly high in those who were children and adolescents at the time in Belarus, Ukraine and the most affected Russian regions and drank milk with high levels of radioactive iodine. By 2005, more than 6,000 thyroid cancer cases had been diagnosed in this group, and it is most likely that a large fraction of these thyroid cancers is attributable to radioiodine intake. It is expected that the increase in thyroid cancer incidence due to the Chernobyl accident will continue for many more years, although the long-term increase is difficult to quantify precisely.
+Among Russian recovery operation workers with higher doses there is emerging evidence of some increase in the incidence of leukaemia. However, based on other studies, the annual incidence of radiation-induced leukaemia would be expected to fall within a few decades after exposure. In addition, recent studies of the recovery operation workers indicate that opacities of the eye lens might be caused by relatively low radiation doses.
+Among the 106 patients surviving radiation sickness, complete normalization of health took several years. Many of those patients developed clinically significant radiation-induced cataracts in the first few years after the accident. Over the period 1987-2006, 19 survivors died for various reasons; however, some of these deaths were due to causes not associated with radiation exposure.
+Apart from the dramatic increase in thyroid cancer incidence among those exposed at a young age, and some indication of an increased leukaemia and cataract incidence among the workers, there is no clearly demonstrated increase in the incidence of solid cancers or leukaemia due to radiation in the exposed populations. Neither is there any proof of other non-malignant disorders that are related to ionizing radiation. However, there were widespread psychological reactions to the accident, which were due to fear of the radiation, not to the actual radiation doses.
+There is a tendency to attribute increases in the rates of all cancers over time to the Chernobyl accident, but it should be noted that increases were also observed before the accident in the affected areas. Moreover, a general increase in mortality has been reported in recent decades in most areas of the former Soviet Union, and this must be taken into account when interpreting the results of the accident-related studies.
+The present understanding of the late effects of protracted exposure to ionizing radiation is limited, since the dose-response assessments rely heavily on studies of exposure to high doses and animal experiments. Studies of the Chernobyl accident exposure might shed light on the late effects of protracted exposure, but given the low doses received by the majority of exposed individuals, any increase in cancer incidence or mortality will be difficult to detect in epidemiological studies.
+Conclusion
+The accident at the Chernobyl nuclear power plant in 1986 was a tragic event for its victims, and those most affected suffered major hardship. Some of the people who dealt with the emergency lost their lives. Although those exposed as children and the emergency and recovery workers are at increased risk of radiation-induced effects, the vast majority of the population need not live in fear of serious health consequences due to the radiation from the Chernobyl accident. For the most part, they were exposed to radiation levels comparable to or a few times higher than annual levels of natural background, and future exposures continue to slowly diminish as the radionuclides decay. Lives have been seriously disrupted by the Chernobyl accident, but from the radiological point of view, generally positive prospects for the future health of most individuals should prevail.
+Chernobyl Forum 2005
+From 2003 to 2005 Committee's experts participated in the work of the Chernobyl Forum, whose conclusions (Summary report of the Chernobyl Forum) essentially concur with those of the UNSCEAR 2000 report.
+UNSCEAR publications
+The Committee has been involved from early on in the assessment of radiation exposures and health effects from the accident.
+UNSCEAR 1988 Report, annex D - Exposures from the Chernobyl accident, and appendix
+ to annex G - Acute radiation effects in victims of the Chernobyl accident
+In 1988 it issued its first study of acute radiation effects in victims of the Chernobyl accident (UNSCEAR 1988 Report, appendix to annex G), which reviews experience gained in treating the immediate radiation injuries of workers and firemen who dealt with the initial emergency. The Committee also published an account of the accident, and its global fallout and exposures (UNSCEAR 1988 Report, annex D). Soon after the accident, the dispersion of radionuclides and the resulting radiation exposures had been measured and evaluated throughout the affected regions. The Committee made use of those data to evaluate the average individual and population doses for affected regions, and for the northern hemisphere as a whole.
+UNSCEAR 1993 Report, annex B - Exposures from man-made sources of radiation
+In 1993 the Committee issued an assessment of exposures from man-made sources of radiation (UNSCEAR 1993 Report, annex B), which summarizes the findings of the more detailed assessment of the UNSCEAR 1988 Report, annexes D and G on the exposures and effects of the Chernobyl accident.
+UNSCEAR 2000 Report, annex J - Epidemiological evaluation of radiation-induced cancer
+In 2000 the Committee issued a more detailed assessment of radiation levels and effects: Exposures and effects of the Chernobyl accident (UNSCEAR 2000 Report Volume II, annex J). Evaluating the exposures received by the people who had been evacuated or who were still residing in the areas most affected by the accident required much time and effort. The initial measurements were supplemented by information on matters such as the location and diet of the people in each settlement. The accumulation of data on any late health effects also required time.
+UNSCEAR 2001 Report - Hereditary effects of radiation
+In 2001 Committee also published findings related to possible genetic effects of radiation exposures resulting from the Chernobyl accident (UNSCEAR 2001 Report).
+UNSCEAR 2008 Report, annex D - Health effects due to radiation from the Chernobyl
+ accident
+In 2011, the Committee published a report, entitled "Health effects due to radiation from the Chernobyl accident" (UNSCEAR 2008 Report, annex D). The findings are based on more than two decades of experimental and analytical studies of the radiation consequences of the Chernobyl accident for health of the exposed populations and for the environment. The data reviewed, including numerous dosimetric measurements and results of analytical epidemiological studies, allowed a comprehensive evaluation of the human exposure levels and radiation-induced health effects at that time.
+Chernobyl 2017 White Paper - Evaluation of data on thyroid cancer in regions affected
+ by the Chernobyl accident 
+In 2018, the UNSCEAR secretariat published a White Paper evaluating thyroid cancer data in regions affected by the Chernobyl accident to guide the Scientific Committee's future programme of work. The publication recapitulates previous findings of the Scientific Committee on this matter, reports the latest data provided by the three most affected countries (Belarus, the Russian Federation and Ukraine), summarizes key literature of the past ten years, and makes an assessment of the cases of thyroid cancer that could be attributed to radiation exposure.
+UNSCEAR 2020/2021 Report, annex B, appendix B - Comparison between various attributes
+ and consequences of the accidents at Chernobyl and Fukushima Daiichi nuclear power
+ stations
+The Committee also summarised the key radiological data from the Fukushima and Chernobyl accidents in the UNSCEAR 2020/2021 Report, annex B, appendix B - comparison between various attributes and consequences of the accidents at Chernobyl and Fukushima Daiichi nuclear power stations.
+Secretary General reports on the accident
+A/65/341: Optimizing the international effort to study, mitigate and minimize the
+ consequences of the Chernobyl disaster
+In 2010, in accordance with General Assembly resolution 62/9 on the strengthening of international cooperation, the Secretary-General submitted to the General Assembly the report "Optimizing the international effort to study, mitigate and minimize the consequences of the Chernobyl disaster" (A/65/341).
+A/RES/71/125: Persistent legacy of the Chernobyl disaster
+In 2019 the Secretary General submitted a report in accordance with General Assembly resolution A/RES/71/125 on the persistent legacy of the Chernobyl disaster and provides an update on the progress made in the implementation of all aspects of the resolution.
+NoteThe material on this page has been prepared by the UNSCEAR secretariat based on the published UNSCEAR reports, including the latest UNSCEAR document Health effects due to radiation from the Chernobyl accident (annex D of 2008 UNSCEAR Report).
+Other key Chornobyl links
+World Health Organization (WHO)
+International Atomic Energy Agency (IAEA)
+United Nations
+UNSCEAR Evaluations
+Publications
+Areas of Work
+Fukushima Daiichi
+Chernobyl
+Global Survey
+The Committee
+Committee Members
+Reports to the General Assembly and Resolutions
+Members Area
+Annual Sessions
+Programme of work
+Bureau
+Quick Links
+Partnerships
+Newsletter
+Internships
+Contact us
+News and Media
+United Nations Scientific Committee on the Effects of Atomic Radiation
+LinkedIn
+Twitter
+Home
+Contact us

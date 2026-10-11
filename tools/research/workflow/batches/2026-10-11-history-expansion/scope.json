@@ -1,0 +1,76 @@
+{
+  "audited": 155,
+  "all_under_400": true,
+  "min": 301,
+  "median": 328,
+  "max": 381,
+  "selected": {
+    "A-kr-national": [
+      "anv-fixed-03-01-march-1st-movement-day-kr",
+      "anv-fixed-08-15-liberation-day-kr",
+      "anv-fixed-07-17-constitution-day-kr",
+      "anv-fixed-10-03-national-foundation-day-kr",
+      "anv-fixed-10-09-hangul-day-kr",
+      "anv-fixed-06-06-memorial-day-kr",
+      "gov-54",
+      "gov-11",
+      "anv-fixed-08-29-national-humiliation-day-kr"
+    ],
+    "B-kr-democracy": [
+      "gov-1",
+      "gov-3",
+      "gov-4",
+      "gov-12",
+      "gov-25",
+      "gov-33",
+      "gov-45",
+      "gov-7",
+      "gov-22"
+    ],
+    "C-kr-independence-war": [
+      "gov-34",
+      "gov-52",
+      "gov-35",
+      "gov-99",
+      "gov-122",
+      "anv-fixed-06-28-korean-war-abductees-day-kr",
+      "anv-rel-chuseok-minus1-separated-families-day-kr",
+      "anv-fixed-08-12-separated-families-day-private-kr",
+      "gov-101",
+      "anv-fixed-10-25-dokdo-day-kr"
+    ],
+    "D-us-founding-rights": [
+      "anv-fixed-07-04-independence-day-us",
+      "anv-fixed-09-17-constitution-citizenship-day-us",
+      "anv-fixed-12-15-bill-of-rights-day-us",
+      "anv-fixed-06-14-flag-day-us",
+      "anv-fixed-02-12-abraham-lincoln-birthday-us",
+      "anv-fixed-02-01-national-freedom-day-us",
+      "anv-fixed-08-26-womens-equality-day-us",
+      "anv-fixed-06-12-loving-day-global",
+      "anv-fixed-12-01-rosa-parks-day-us"
+    ],
+    "E-us-war-indigenous": [
+      "anv-fixed-12-07-pearl-harbor-remembrance-day-us",
+      "anv-fixed-08-15-vj-day-global",
+      "anv-nth-05-l-mon-memorial-day-us",
+      "anv-fixed-09-11-patriot-day-remembrance-us",
+      "anv-fixed-09-16-trail-of-tears-commemoration-day-us",
+      "anv-nth-10-2-mon-native-american-day-us",
+      "anv-nth-10-2-mon-columbus-day-us",
+      "anv-nth-11-4-thu-day-of-mourning-us",
+      "anv-rel-thanksgiving-1-native-american-heritage-day-us"
+    ],
+    "F-intl-remembrance": [
+      "anv-fixed-01-27-international-holocaust-remembrance-day-global",
+      "anv-fixed-03-25-remembrance-victims-slavery-transatlantic-slave-trade-global",
+      "anv-fixed-12-02-abolition-of-slavery-day-global",
+      "anv-fixed-12-10-human-rights-day-global",
+      "anv-fixed-04-26-international-chernobyl-disaster-remembrance-day-global",
+      "anv-fixed-04-29-chemical-warfare-victims-day-global",
+      "anv-fixed-08-30-international-day-of-the-victims-of-enforced-disappearances-global",
+      "gov-20",
+      "gov-103"
+    ]
+  }
+}

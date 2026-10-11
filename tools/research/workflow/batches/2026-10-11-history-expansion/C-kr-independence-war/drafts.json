@@ -1,0 +1,1859 @@
+{
+  "gov-34": {
+    "name": "6ㆍ10만세운동 기념일",
+    "date": "06-10",
+    "origin": "6·10만세운동은 1926년 6월 10일 대한제국의 마지막 황제 순종의 장례일에 서울에서 학생들이 주도해 벌인 독립 만세 시위다. 임금의 장례일을 '인산일(因山日)'이라고 하는데, 이날 상여가 지나는 길에는 학생 2만 4,000여 명이 늘어서 있었다. 3·1운동 이후 국내 민족운동은 일제의 탄압과 회유 속에 침체해 가고 있었고, 순종의 죽음은 나라 잃은 설움을 다시 일깨웠다. 일제는 3·1운동이 되풀이될 것을 경계해 군대 7,000여 명을 서울에 모으고 감시를 강화했다. 사회주의 계열이 준비하던 시위 계획은 사전에 발각됐지만, 전문학교 학생들과 중앙고보·중동학교 학생들은 각자 격문을 찍어 나눠 가지며 준비를 이어 갔다. 오전 8시 30분쯤 상여가 종로 단성사 앞을 지날 때 중앙고보생 300여 명이 '조선독립만세'를 외치며 격문을 뿌린 것을 시작으로, 곳곳에서 만세 소리가 이어졌다. 이날은 2020년 12월 국무회의에서 「각종 기념일 등에 관한 규정」 개정안이 의결되면서 정부 기념일이 됐고, 지금은 국가보훈부가 기념식을 주관한다.",
+    "anecdote": "6·10만세운동은 3·1운동, 1929년 광주에서 시작된 학생독립운동과 함께 일제강점기 3대 만세운동으로 꼽힌다. 같은 6월 10일이지만 1987년 6월 민주항쟁을 기리는 '6·10민주항쟁 기념일'과는 다른 기념일이어서, 정부 기념일 목록에는 두 날이 같은 날짜에 나란히 올라 있다. 시위 뒤 서울에서만 210여 명, 전국적으로 1,000여 명의 학생이 붙잡혔고, 주동 학생들은 재판에 넘겨져 징역형을 받았다. 한 학생은 법정에서 '자유를 절규하면 자유가 생긴다는 결심으로 거사에 임하였다'고 진술했다. 시위는 서울에서 일어났지만 소식이 퍼지면서 여러 지방 학교의 동맹휴학(학생들이 함께 수업을 거부하는 일)으로 번졌다. 한국민족문화대백과사전은 이 운동이 침체된 민족운동에 활기를 불어넣고 3·1운동과 광주학생운동을 잇는 다리 역할을 했다고 평가한다. 정부 주관 기념식은 2021년부터 열렸고, 100주년인 2026년에는 서울 광화문광장에서 기념식이 열렸다.",
+    "sourceUrl": "https://encykorea.aks.ac.kr/Article/E0042124",
+    "previous_sourceUrl": "https://ko.wikipedia.org/wiki/6·10_만세운동",
+    "char_counts": {
+      "origin": 526,
+      "anecdote": 480,
+      "total": 1006,
+      "previous_total": 325
+    },
+    "evidence": [
+      {
+        "claim": "1926년 6월 10일 순종 인산일 학생 중심 만세시위",
+        "url": "https://encykorea.aks.ac.kr/Article/E0042124",
+        "title": "6·10만세운동",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1926년 6월 10일 순종의 장례일[인산일(因山日)]을 기해 만세시위로 일어난 학생중심의 민족독립운동.",
+        "local_evidence_path": "evidence/ek_610.txt"
+      },
+      {
+        "claim": "학생 2만4000여 명 도열, 8시30분 단성사 앞 중앙고보생 300여 명 만세",
+        "url": "https://encykorea.aks.ac.kr/Article/E0042124",
+        "title": "6·10만세운동",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1926년 6월 10일 순종의 인산일에 참가한 2만4000여 명의 학생들은 돈화문에서 홍릉까지 도열하였다. 그리고 오전 8시 30분경 순종의 상여가 종로 3가 단성사 앞을 지날 때, 중앙고보생 300여 명이 “조선독립만세”를 부르고 격문을 뿌리며 시위를 감행하였다.",
+        "local_evidence_path": "evidence/ek_610.txt"
+      },
+      {
+        "claim": "국내외 민족운동 침체 배경",
+        "url": "https://encykorea.aks.ac.kr/Article/E0042124",
+        "title": "6·10만세운동",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "이렇듯 국내외 기성세대들의 민족운동이 침체되어가는 상황 속에 1920년대 민족운동의 활력소는 학생운동이었다.",
+        "local_evidence_path": "evidence/ek_610.txt"
+      },
+      {
+        "claim": "순종 죽음과 국가 없는 민족의 설움",
+        "url": "https://encykorea.aks.ac.kr/Article/E0042124",
+        "title": "6·10만세운동",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "자조와 실의 속에 살다가 1926년 4월 26일 죽은 대한제국의 황제 순종에 대한 전국민의 애도는 국가 없는 민족의 설움을 대변해 주는 것이기도 하였다.",
+        "local_evidence_path": "evidence/ek_610.txt"
+      },
+      {
+        "claim": "일제 군대 7,000여 명 경성 집결",
+        "url": "https://encykorea.aks.ac.kr/Article/E0042124",
+        "title": "6·10만세운동",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "심지어 육해군 7,000여 명을 경성에 집결시키고 부산과 인천에 함대를 정박시켜 놓기까지 하였다.",
+        "local_evidence_path": "evidence/ek_610.txt"
+      },
+      {
+        "claim": "사회주의 계열 계획 사전 발각, 학생 주도",
+        "url": "https://theme.archives.go.kr/next/koreaOfRecord/studentMovement.do",
+        "title": "기록으로 만나는 대한민국 - 학생독립운동기념일",
+        "publisher": "국가기록원",
+        "accessed_at": "2026-10-11",
+        "quote_original": "학생들과 사회주의 운동 계열이 각각 3·1 운동 때와 같은 거족적 시위를 준비하였으나 사회주의계열의 기획은 사전에 발각되어 무산되었고 시위는 학생들의 주도로 전개되었다.",
+        "local_evidence_path": "evidence/archives_student_day.txt"
+      },
+      {
+        "claim": "통동계(중앙고보·중동학교) 학생",
+        "url": "https://encykorea.aks.ac.kr/Article/E0042124",
+        "title": "6·10만세운동",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "셋째 계열은 중등학교 학생 중심의 통동계(通洞系)이다. 중앙고보와 중동학교 학생인",
+        "local_evidence_path": "evidence/ek_610.txt"
+      },
+      {
+        "claim": "사직동계 전문학생 격문 인쇄·배포",
+        "url": "https://encykorea.aks.ac.kr/Article/E0042124",
+        "title": "6·10만세운동",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "둘째 계열은 전문학생들이 중심이 된 사직동계(社稷洞系)이다.",
+        "local_evidence_path": "evidence/ek_610.txt"
+      },
+      {
+        "claim": "2020.12 국무회의 의결로 기념일 지정",
+        "url": "https://m.korea.kr/briefing/pressReleaseView.do?newsId=156425530",
+        "title": "6월 10일 ‘6·10만세운동’ 국가기념일로 지정",
+        "publisher": "행정안전부(정책브리핑)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "’6·10만세운동 기념일’ 지정을 주요내용으로 하는 「각종 기념일 등에 관한 규정」 개정안이 12월 8일(화) 국무회의에서 의결됐다고 밝혔다.",
+        "local_evidence_path": "evidence/korea_610_press.txt"
+      },
+      {
+        "claim": "현행 별표: 6ㆍ10만세운동기념일 6.10 국가보훈부",
+        "url": "https://www.law.go.kr/법령별표서식/(각종 기념일 등에 관한 규정,20260102,별표1)",
+        "title": "각종 기념일 등에 관한 규정 [별표 1] 각종 기념일",
+        "publisher": "법제처 국가법령정보센터",
+        "accessed_at": "2026-10-11",
+        "quote_original": "34 6ㆍ10만세운동 6. 10. 국가보훈부 일제의 강제병합과 식민지배에 항거한 순",
+        "local_evidence_path": "evidence/law_ginyeomil_byeolpyo1_raw.txt"
+      },
+      {
+        "claim": "3대 독립만세운동 평가",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148966331",
+        "title": "6·10만세운동 100주년, 그날을 기억합니다.",
+        "publisher": "대한민국 정책브리핑(정책기자단)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "학생독립운동(1929.11.3., 광주학생항일운동)과 함께 3대 독립만세운동으로 평가받으며",
+        "local_evidence_path": "evidence/korea_610_100th.txt"
+      },
+      {
+        "claim": "6·10민주항쟁기념일도 같은 6월 10일",
+        "url": "https://www.law.go.kr/법령별표서식/(각종 기념일 등에 관한 규정,20260102,별표1)",
+        "title": "각종 기념일 등에 관한 규정 [별표 1] 각종 기념일",
+        "publisher": "법제처 국가법령정보센터",
+        "accessed_at": "2026-10-11",
+        "quote_original": "6ㆍ10민주항쟁",
+        "local_evidence_path": "evidence/law_ginyeomil_byeolpyo1_raw.txt"
+      },
+      {
+        "claim": "검거 학생 서울 210여 명, 전국 1,000여 명",
+        "url": "https://encykorea.aks.ac.kr/Article/E0042124",
+        "title": "6·10만세운동",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "6·10만세운동으로 일본 경찰에게 붙잡힌 학생수는 서울에서 210여 명이었고, 전국적으로는 1,000여 명이나 되었다.",
+        "local_evidence_path": "evidence/ek_610.txt"
+      },
+      {
+        "claim": "이선호 법정 진술",
+        "url": "https://encykorea.aks.ac.kr/Article/E0042124",
+        "title": "6·10만세운동",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "이선호는 “자유를 절규하면 자유가 생긴다는 결심으로 거사에 임하였다”",
+        "local_evidence_path": "evidence/ek_610.txt"
+      },
+      {
+        "claim": "주동 학생 징역형, 10명 수감",
+        "url": "https://encykorea.aks.ac.kr/Article/E0042124",
+        "title": "6·10만세운동",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "그런데 10여 명은 징역 1년, 1명은 징역 1년에 집행유예 3년의 언도를 받아 10명은 결국 수감되었다.",
+        "local_evidence_path": "evidence/ek_610.txt"
+      },
+      {
+        "claim": "지방 동맹휴학 파급",
+        "url": "https://encykorea.aks.ac.kr/Article/E0042124",
+        "title": "6·10만세운동",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "6·10만세운동은 서울에 국한되어 일어났으나 전국적으로 알려지면서 학생들은 동맹휴학을 통해 일제에 항거하였는데",
+        "local_evidence_path": "evidence/ek_610.txt"
+      },
+      {
+        "claim": "3·1운동과 광주학생운동의 교량",
+        "url": "https://encykorea.aks.ac.kr/Article/E0042124",
+        "title": "6·10만세운동",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "그래서 침체된 민족운동에 새로운 활기를 안겨주었고, 3·1운동과 1929년 광주학생운동의 교량적 구실을 담당하여",
+        "local_evidence_path": "evidence/ek_610.txt"
+      },
+      {
+        "claim": "2021년 첫 정부 주관 기념식",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148966331",
+        "title": "6·10만세운동 100주년, 그날을 기억합니다.",
+        "publisher": "대한민국 정책브리핑(정책기자단)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "이듬해인 2021년 6월 10일 훈련원공원에서 6·10만세운동 95주년 행사가 정부 주관 첫 기념식으로 개최됐고",
+        "local_evidence_path": "evidence/korea_610_100th.txt"
+      },
+      {
+        "claim": "2026년 100주년 광화문 기념식",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148966331",
+        "title": "6·10만세운동 100주년, 그날을 기억합니다.",
+        "publisher": "대한민국 정책브리핑(정책기자단)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "그리고 올해, 6·10만세운동 100주년을 맞아 대한민국에서, 그리고 수도 서울에서 의미 있는 장소인 광화문광장에서 행사가 열리게 됐다.",
+        "local_evidence_path": "evidence/korea_610_100th.txt"
+      },
+      {
+        "claim": "3·1운동 이후 일제의 회유와 억압",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148966331",
+        "title": "6·10만세운동 100주년, 그날을 기억합니다.",
+        "publisher": "대한민국 정책브리핑(정책기자단)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "일본 제국은 회유와 억압을 병행하며 탄압을 지속했고",
+        "local_evidence_path": "evidence/korea_610_100th.txt"
+      }
+    ],
+    "corrections_to_existing": [
+      "기존 '3·1운동 이후 최대 규모의 항일 시위' 표현 삭제: 해당 평가는 광주학생운동에 대해 한국민족문화대백과사전이 사용한 표현이며 6·10만세운동에는 정책기자단 기사 외 근거 없음",
+      "기존 '2020년 국가기념일' 유지하되 근거를 행안부 보도자료(2020.12.8 국무회의 의결)로 명확화; 정책기자단 기사는 12.15 대통령령 개정이라 서술해 의결일/공포일 차이 있음 → 본문은 '2020년 12월 국무회의 의결'로 표기",
+      "기존 '정부와 지자체가 함께 기념식' → 별표1 기준 주관 국가보훈부로 수정",
+      "기존 '학생들이 조직을 여러 갈래로 나눠 준비한 덕에 시위 성사' 인과 단정 완화: 세 계열 중 사회주의 계열은 발각, 학생 계열이 별도 준비(백과사전·국가기록원)",
+      "기존 '학생 주도 항일운동의 원형' 평가 삭제(출처 미확인)"
+    ],
+    "notes": "정부 주관 기념식 2021년 시작·2026 광화문 개최는 정책브리핑 정책기자단 기사 근거(정부 운영 매체). sourceUrl은 위키백과 대신 한국민족문화대백과사전 제안."
+  },
+  "gov-52": {
+    "name": "학생독립운동 기념일",
+    "date": "11-03",
+    "origin": "학생독립운동기념일은 1929년 11월 3일 광주에서 시작돼 전국으로 번진 학생 항일운동을 기리는 정부 기념일이다. 이 운동은 흔히 광주학생항일운동 또는 광주학생운동이라고도 부른다. 당시 한국인 학생들은 민족을 차별하는 식민지 교육에 오랫동안 불만을 품고 있었고, 광주에서는 독서회 같은 비밀 학생 조직이 동맹휴학(학생들이 함께 수업을 거부하는 일)을 이끌어 왔다. 1929년 10월 30일 나주역에서 일본인 학생들이 광주여자고등보통학교 한국인 여학생들의 댕기머리를 잡아당기며 모욕하자 한국인 학생들과 충돌이 벌어졌는데, 출동한 경찰은 일방적으로 일본인 학생 편을 들었다. 11월 3일 광주 시내에서 다시 충돌이 일어났고, 그날 오후 광주고등보통학교 학생 300여 명이 '조선독립만세'를 외치며 거리로 나섰다. 시위와 동맹휴학은 이듬해 초까지 서울과 평양 등 전국 학교로 퍼졌다. 이날은 1953년 국회 결의로 '학생의 날'이 됐고, 지금은 「각종 기념일 등에 관한 규정」에 따라 교육부와 국가보훈부가 함께 주관한다.",
+    "anecdote": "11월 3일은 여러 의미가 겹친 날짜였다. 일본에는 메이지 일왕의 생일을 기리는 '메이지절'이었고, 그해에는 음력 10월 3일 개천절과도 겹쳤다. 광주고등보통학교 학생들은 메이지절 기념식 뒤에 있을 신사 참배를 거부하기로 마음먹고 있었다. 한국민족문화대백과사전은 이 운동에 전국 194개 학교, 5만 4,000여 명의 학생이 참여했다고 정리하며 3·1운동 이후 최대의 항일 민족운동으로 평가한다. 기념일의 역사도 순탄하지 않았다. 1953년 지정된 '학생의 날'은 유신 직후인 1973년 정부가 기념일을 통폐합하면서 폐지됐다가, 1984년 9월 국가기념일로 다시 살아났다. 2006년 2월 국회 결의로 이름이 지금의 '학생독립운동기념일'로 바뀌었다. 기념일 규정은 이날 학생독립운동의 정신을 이어받아 학생들의 자율역량과 애국심을 기르는 행사를 하도록 정하고 있다. 광주에는 광주학생독립운동기념관이 있어 당시의 기록을 전한다.",
+    "sourceUrl": "https://encykorea.aks.ac.kr/Article/E0060871",
+    "previous_sourceUrl": "https://ko.wikipedia.org/wiki/광주학생항일운동",
+    "char_counts": {
+      "origin": 512,
+      "anecdote": 461,
+      "total": 973,
+      "previous_total": 345
+    },
+    "evidence": [
+      {
+        "claim": "1929년 광주 학생 주도 항일독립만세운동",
+        "url": "https://encykorea.aks.ac.kr/Article/E0005301",
+        "title": "광주학생운동",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1929년 광주[현 전남광주통합특별시] 지역의 학생이 주도하여 일으킨 항일독립만세운동.",
+        "local_evidence_path": "evidence/ek_gwangju.txt"
+      },
+      {
+        "claim": "민족 차별 교육에서 발단",
+        "url": "https://encykorea.aks.ac.kr/Article/E0005301",
+        "title": "광주학생운동",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "민족 차별 교육에서 발단하여 민족 독립 만세 운동으로 발전하였다.",
+        "local_evidence_path": "evidence/ek_gwangju.txt"
+      },
+      {
+        "claim": "성진회·독서회 비밀결사",
+        "url": "https://encykorea.aks.ac.kr/Article/E0005301",
+        "title": "광주학생운동",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "다음해에 독서회로 확대, 개편되면서 광주고등보통학교 · 광주농업학교 · 광주사범학교 · 광주여자고등보통학교 · 목포상업학교 등에 하부 조직을 두고",
+        "local_evidence_path": "evidence/ek_gwangju.txt"
+      },
+      {
+        "claim": "10.30 나주역 댕기머리 모욕",
+        "url": "https://encykorea.aks.ac.kr/Article/E0005301",
+        "title": "광주학생운동",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "이날 나주역에서 통학생들이 집찰구로 걸어나올 때 일본인 학생 몇 명이 광주여자고등보통학교 3학년 학생 박기옥(朴己玉).이금자(李錦子).이광춘(李光春) 등의 댕기 머리를 잡아당기면서 모욕적인 발언과 조롱을 하였다.",
+        "local_evidence_path": "evidence/ek_gwangju.txt"
+      },
+      {
+        "claim": "경찰 일방적으로 일본인 학생 편",
+        "url": "https://encykorea.aks.ac.kr/Article/E0005301",
+        "title": "광주학생운동",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "그때 출동한 역전 파출소 경찰은 일방적으로 일본인 학생을 편들며 박준채를 구타하였다.",
+        "local_evidence_path": "evidence/ek_gwangju.txt"
+      },
+      {
+        "claim": "11.3 오후 300여 명 가두 시위",
+        "url": "https://encykorea.aks.ac.kr/Article/E0005301",
+        "title": "광주학생운동",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "오후 1시 대오를 정비하여 300여명의 학생들이 교문을 박차고 나섰다.",
+        "local_evidence_path": "evidence/ek_gwangju.txt"
+      },
+      {
+        "claim": "조선독립만세 외침",
+        "url": "https://encykorea.aks.ac.kr/Article/E0005301",
+        "title": "광주학생운동",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "그들은 '조선독립만세'를 외치고 운동가를 고창하며 행진해 나갔다.",
+        "local_evidence_path": "evidence/ek_gwangju.txt"
+      },
+      {
+        "claim": "1930년 1월 서울 학생 시위, 194개교 5만4천명, 3·1운동 이후 최대",
+        "url": "https://encykorea.aks.ac.kr/Article/E0005301",
+        "title": "광주학생운동",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "그 결과 전국적으로 참가한 학교 194개, 학생 수 5만 4,000여 명이었으며, 퇴학 처분자 582명, 무기정학 2,330명, 피검자 1,642명으로 이 운동은 3·1운동 이후 최대의 대일민족항쟁이었다.",
+        "local_evidence_path": "evidence/ek_gwangju.txt"
+      },
+      {
+        "claim": "평양 학교 맹휴",
+        "url": "https://encykorea.aks.ac.kr/Article/E0005301",
+        "title": "광주학생운동",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "같은 시기에 평양의 광성고보 및 평양여자고보, 공주영명고등여학교 및 공주고보 주3 등도 맹휴를 선언하였다.",
+        "local_evidence_path": "evidence/ek_gwangju.txt"
+      },
+      {
+        "claim": "11.3 메이지절·음력 개천절·성진회 창립일",
+        "url": "https://encykorea.aks.ac.kr/Article/E0005301",
+        "title": "광주학생운동",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "일본으로서는 일왕 메이지의 생일인 메이지절[明治節]이었고, 우리 민족으로서는 마침 음력 10월 3일로 개천절이었으며",
+        "local_evidence_path": "evidence/ek_gwangju.txt"
+      },
+      {
+        "claim": "신사 참배 거부 결의",
+        "url": "https://encykorea.aks.ac.kr/Article/E0005301",
+        "title": "광주학생운동",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "이날 광주고등보통학교 학생들은 메이지절 기념식 후에 있을 신사 참배를 거부하고",
+        "local_evidence_path": "evidence/ek_gwangju.txt"
+      },
+      {
+        "claim": "1953 국회 결의 학생의 날",
+        "url": "https://encykorea.aks.ac.kr/Article/E0060871",
+        "title": "학생독립운동기념일",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "국회발의로 1929년 일제에 항거한 광주학생운동일인 11월 3일을 ‘학생의 날’로 지정하는 결의안을 의결하였다.",
+        "local_evidence_path": "evidence/ek_student_day.txt"
+      },
+      {
+        "claim": "1973 폐지, 1984 부활, 2006 명칭 변경",
+        "url": "https://encykorea.aks.ac.kr/Article/E0060871",
+        "title": "학생독립운동기념일",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1973년 3월 30일 정부가 주관하는 각종 기념일을 통폐합하는 목적으로 제정된 대통령령 「각종기념일 등에 관한 규정」에 의하여 폐지되었다. 1984년 9월 22일 국가기념일로서 ‘학생의 날’이 다시 부활되었다. 2006년 2월 9일 학생독립운동기념일로 변경되어 현재에 이르고 있다.",
+        "local_evidence_path": "evidence/ek_student_day.txt"
+      },
+      {
+        "claim": "2006 국회 결의로 명칭 변경",
+        "url": "https://theme.archives.go.kr/next/koreaOfRecord/studentMovement.do",
+        "title": "기록으로 만나는 대한민국 - 학생독립운동기념일",
+        "publisher": "국가기록원",
+        "accessed_at": "2026-10-11",
+        "quote_original": "2006년 2월 9일 열린 제258회 국회 제3차 본회의에서 ‘학생의 날 명칭변경에 관한 결의안’(대안)이 통과되면서",
+        "local_evidence_path": "evidence/archives_student_day.txt"
+      },
+      {
+        "claim": "현행 별표: 교육부ㆍ국가보훈부 주관, 행사 내용",
+        "url": "https://www.law.go.kr/법령별표서식/(각종 기념일 등에 관한 규정,20260102,별표1)",
+        "title": "각종 기념일 등에 관한 규정 [별표 1] 각종 기념일",
+        "publisher": "법제처 국가법령정보센터",
+        "accessed_at": "2026-10-11",
+        "quote_original": "52 기념일 11. 3. 국가보훈부 생들에게 자율역량과 애국심을 함양시키는",
+        "local_evidence_path": "evidence/law_ginyeomil_byeolpyo1_raw.txt"
+      },
+      {
+        "claim": "현행 별표: 학생독립운동 정신 계승 문구",
+        "url": "https://www.law.go.kr/법령별표서식/(각종 기념일 등에 관한 규정,20260102,별표1)",
+        "title": "각종 기념일 등에 관한 규정 [별표 1] 각종 기념일",
+        "publisher": "법제처 국가법령정보센터",
+        "accessed_at": "2026-10-11",
+        "quote_original": "학생독립운동의 정신을 계승ㆍ발전시켜 학",
+        "local_evidence_path": "evidence/law_ginyeomil_byeolpyo1_raw.txt"
+      },
+      {
+        "claim": "광주학생독립운동기념관 존재",
+        "url": "http://gsim.gen.go.kr/sub/page.php?page_code=sub2_01_tab4",
+        "title": "광주학생독립운동기념관 - 독립운동 그 이후",
+        "publisher": "광주학생독립운동기념관",
+        "accessed_at": "2026-10-11",
+        "quote_original": "광주학생독립운동기념관",
+        "local_evidence_path": "evidence/gsim_home.txt"
+      }
+    ],
+    "corrections_to_existing": [
+      "기존 '전국 320여 개 학교 5만여 명' → 한국민족문화대백과사전 수치(194개교, 5만 4,000여 명)로 교체하고 출처 명시. 320개교 수치는 이번에 1차 출처로 확인하지 못함",
+      "기존 '일본인 학생이 조선인 여학생을 희롱' → 백과사전 서술(댕기머리를 잡아당기며 모욕적 발언과 조롱, 경찰의 일방적 편들기)로 구체화",
+      "기념일 연혁(1953 국회 결의, 1973.3.30 폐지, 1984.9.22 부활, 2006.2.9 명칭 변경) 확인 — 기존 서술 정확",
+      "기존 '이름에 독립운동이 들어간 것은 성격을 분명히 하자는 뜻' 해석 삭제(출처 미확인)",
+      "주관 부처: 현행 별표1 기준 교육부ㆍ국가보훈부 공동 주관 추가"
+    ],
+    "notes": "참여 규모 수치는 자료마다 다를 수 있어 백과사전으로 귀속. sourceUrl 위키→한국민족문화대백과사전 '학생독립운동기념일' 제안."
+  },
+  "gov-35": {
+    "name": "6ㆍ25전쟁일",
+    "date": "06-25",
+    "origin": "6·25전쟁일은 1950년 6월 25일 새벽 북한군이 38선 전역에서 남쪽으로 쳐들어오며 시작된 6·25전쟁을 되새기는 정부 기념일이다. 광복 직후 한반도에는 북위 38도선을 경계로 남쪽에 미군, 북쪽에 소련군이 들어왔고, 통일 정부를 세우려는 노력이 실패하면서 남과 북에 각각 정부가 수립됐다. 전쟁이 터지자 유엔 안전보장이사회는 그날 북한의 무력 공격을 침략 행위로 규정했고, 6월 27일에는 회원국들에 한국을 도우라고 권고했다. 북한군은 개전 사흘 만인 6월 28일 서울을 점령했다. 유엔군은 낙동강 방어선에서 버티다 9월 인천상륙작전으로 반격했지만, 10월 중국군이 참전하면서 전세는 다시 뒤집혔다. 1951년 7월부터는 휴전회담과 전투가 함께 이어졌고, 1953년 7월 27일 정전협정이 체결되면서 총성이 멎었다. 정전협정은 전쟁을 일시적으로 멈추기로 한 합의이지 전쟁을 공식적으로 끝낸 평화조약이 아니다. 「각종 기념일 등에 관한 규정」은 이날 6·25전쟁을 상기해 국민의 안보의식을 북돋우는 행사를 하도록 정하고 있으며, 국가보훈부가 주관한다.",
+    "anecdote": "이 기념일의 예전 이름은 '6.25 사변일'이었다. 과거 기념일 규정에는 이 이름으로 올라 있었고, 지금 규정에는 '6ㆍ25전쟁일'로 적혀 있다. 정전협정에는 유엔군 총사령관 클라크와 북한의 김일성, 중국인민지원군 사령원 펑더화이가 서명했고, 대한민국 대표는 휴전에 반대한다는 뜻에서 끝내 서명하지 않았다. 전쟁이 남긴 큰 상처 가운데 하나는 헤어진 가족이다. 한국민족문화대백과사전은 이산가족의 수를 정확히 밝히기 어렵지만 일반적으로 1000만 명 규모로 말한다고 설명한다. 통일부 집계에 따르면 북의 가족을 찾겠다며 정부에 신청한 13만 4,516명 가운데 2025년 말까지 10만 명 넘게 세상을 떠났고, 남북 당국 차원의 상봉은 2018년 8월이 마지막이었다. 이 전쟁에는 전투 병력을 보낸 16개국과 의료 지원을 한 6개국 등 22개국이 유엔군으로 참전했다. 6월 25일은 이런 사실을 함께 돌아보며 전쟁과 분단이 지금도 이어지는 문제임을 생각해 보는 날이다.",
+    "sourceUrl": "https://encykorea.aks.ac.kr/Article/E0042143",
+    "previous_sourceUrl": "https://ko.wikipedia.org/wiki/한국_전쟁",
+    "char_counts": {
+      "origin": 535,
+      "anecdote": 485,
+      "total": 1020,
+      "previous_total": 333
+    },
+    "evidence": [
+      {
+        "claim": "1950.6.25 새벽 38선 전역 남침",
+        "url": "https://encykorea.aks.ac.kr/Article/E0042143",
+        "title": "한국전쟁",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "이렇게 하여 1950년 6월 25일 새벽 북한공산군은 38선 전역에 걸쳐 전면 남침을 개시하였다.",
+        "local_evidence_path": "evidence/ek_koreanwar.txt"
+      },
+      {
+        "claim": "광복 직후 38도선 미·소 진주",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i502900&code=kc_age_50",
+        "title": "이산가족 만남 1985",
+        "publisher": "국사편찬위원회 우리역사넷",
+        "accessed_at": "2026-10-11",
+        "quote_original": "해방 직후 한반도에는 북위 38도를 경계로 하여 남쪽에는 미국군이, 북쪽에는 소련군이 진주했다.",
+        "local_evidence_path": "evidence/hist_reunion1985.txt"
+      },
+      {
+        "claim": "남북 각각 정부 수립",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i502900&code=kc_age_50",
+        "title": "이산가족 만남 1985",
+        "publisher": "국사편찬위원회 우리역사넷",
+        "accessed_at": "2026-10-11",
+        "quote_original": "그러나 한반도에 통일정부를 수립하려던 노력들이 수포로 돌아가고, 남과 북에는 각각의 정부가 수립됐다.",
+        "local_evidence_path": "evidence/hist_reunion1985.txt"
+      },
+      {
+        "claim": "안보리 25일 침략행위 규정",
+        "url": "https://encykorea.aks.ac.kr/Article/E0042143",
+        "title": "한국전쟁",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "25일 유엔안전보장이사회를 긴급소집하여 북한의 무력공격은 평화를 파괴하는 ‘침략행위’라고 선언하고",
+        "local_evidence_path": "evidence/ek_koreanwar.txt"
+      },
+      {
+        "claim": "안보리 27일 원조 권고",
+        "url": "https://encykorea.aks.ac.kr/Article/E0042143",
+        "title": "한국전쟁",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "그 날 안전보장이사회는 유엔 회원국들에게 북한의 무력공격을 격퇴하고 국제 평화와 한반도의 안전을 회복하기 위하여 필요한 원조를 한국에 제공할 것을 내용으로 하는 권고문을 채택함으로써",
+        "local_evidence_path": "evidence/ek_koreanwar.txt"
+      },
+      {
+        "claim": "6.28 서울 점령",
+        "url": "https://jinsil.go.kr/KoreanWar/01.do",
+        "title": "적대세력(전시납북) 사건(1)",
+        "publisher": "진실·화해를위한과거사정리위원회",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1950년 한국전쟁 발발 3일 후인 6월 28일 인민군은 서울을 점령했고",
+        "local_evidence_path": "evidence/jinsil_abduction.txt"
+      },
+      {
+        "claim": "낙동강 방어선",
+        "url": "https://encykorea.aks.ac.kr/Article/E0042143",
+        "title": "한국전쟁",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "그리하여 유엔군은 부산을 거점으로 한 낙동강 방어선을 확보하여 항쟁하면서 반격의 기회를 노렸다.",
+        "local_evidence_path": "evidence/ek_koreanwar.txt"
+      },
+      {
+        "claim": "9.15 인천상륙",
+        "url": "https://encykorea.aks.ac.kr/Article/E0042143",
+        "title": "한국전쟁",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "9월 15일 새벽에 인천 월미도에 기습상륙하고",
+        "local_evidence_path": "evidence/ek_koreanwar.txt"
+      },
+      {
+        "claim": "10월 중공군 참전으로 전황 역전",
+        "url": "https://jinsil.go.kr/KoreanWar/01.do",
+        "title": "적대세력(전시납북) 사건(1)",
+        "publisher": "진실·화해를위한과거사정리위원회",
+        "accessed_at": "2026-10-11",
+        "quote_original": "10월 19일 중공군이 한국전쟁에 참전하면서 다시 전황이 역전되자",
+        "local_evidence_path": "evidence/jinsil_abduction.txt"
+      },
+      {
+        "claim": "휴전회담 1951.7.10~1953.7.27",
+        "url": "https://encykorea.aks.ac.kr/Article/E0065859",
+        "title": "휴전회담",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "6·25전쟁을 평화적 방법으로 해결하기 위하여 유엔군측과 공산군측이 1951년 7월 10일부터 1953년 7월 27일까지 지속한 군사회담.",
+        "local_evidence_path": "evidence/ek_truce.txt"
+      },
+      {
+        "claim": "정전협정은 일시적 중지 합의",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i502950&code=kc_age_50",
+        "title": "정전협정의 체결 1953",
+        "publisher": "국사편찬위원회 우리역사넷",
+        "accessed_at": "2026-10-11",
+        "quote_original": "한국전쟁을 일시적으로 중지시키는 데 교전 양측이 합의한 것으로",
+        "local_evidence_path": "evidence/hist_armistice.txt"
+      },
+      {
+        "claim": "현행 별표: 6ㆍ25전쟁일 국가보훈부",
+        "url": "https://www.law.go.kr/법령별표서식/(각종 기념일 등에 관한 규정,20260102,별표1)",
+        "title": "각종 기념일 등에 관한 규정 [별표 1] 각종 기념일",
+        "publisher": "법제처 국가법령정보센터",
+        "accessed_at": "2026-10-11",
+        "quote_original": "35 6ㆍ25전쟁일 6. 25. 국가보훈부",
+        "local_evidence_path": "evidence/law_ginyeomil_byeolpyo1_raw.txt"
+      },
+      {
+        "claim": "행사 내용: 6·25전쟁 상기, 안보의식",
+        "url": "https://www.law.go.kr/법령별표서식/(각종 기념일 등에 관한 규정,20260102,별표1)",
+        "title": "각종 기념일 등에 관한 규정 [별표 1] 각종 기념일",
+        "publisher": "법제처 국가법령정보센터",
+        "accessed_at": "2026-10-11",
+        "quote_original": "ㆍ25전쟁을 상기하여 국민의 안보의식을",
+        "local_evidence_path": "evidence/law_ginyeomil_byeolpyo1.txt"
+      },
+      {
+        "claim": "과거 명칭 6.25 사변일",
+        "url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=281021&efYd=20260102&chrClsCd=010202&ancYnChk=0",
+        "title": "각종 기념일 등에 관한 규정(부칙 포함)",
+        "publisher": "법제처 국가법령정보센터",
+        "accessed_at": "2026-10-11",
+        "quote_original": "┃24 │6.25 사변일 │6.25 │국가보훈처 │6.25를 상기하여 국민의 안보의식을 고취하 ┃",
+        "local_evidence_path": "evidence/law_ginyeomil.txt"
+      },
+      {
+        "claim": "서명자와 한국 미서명",
+        "url": "https://encykorea.aks.ac.kr/Article/E0065859",
+        "title": "휴전회담",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "클라크 유엔군사령관, 북한군총사령관 김일성 , 중공군총사령관 펑더화이가 각각 그의 후방 사령부에서 휴정협정서에 서명하였다.",
+        "local_evidence_path": "evidence/ek_truce.txt"
+      },
+      {
+        "claim": "대한민국 대표 미서명",
+        "url": "https://encykorea.aks.ac.kr/Article/E0065859",
+        "title": "휴전회담",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "그러나 대한민국 대표는 최후까지 휴전에 반대한다는 의미에서 끝내 본 휴전협정서에 서명하지 않았다.",
+        "local_evidence_path": "evidence/ek_truce.txt"
+      },
+      {
+        "claim": "이산가족 1000만 명 규모",
+        "url": "https://encykorea.aks.ac.kr/Article/E0042143",
+        "title": "한국전쟁",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "이산가족의 수를 정확히 밝히기는 어렵다. 일반적으로 1000만 명 규모인 것으로 말한다.",
+        "local_evidence_path": "evidence/ek_koreanwar.txt"
+      },
+      {
+        "claim": "신청자 13만4516명, 사망 10만148명",
+        "url": "https://www.yna.co.kr/view/AKR20260115055900504",
+        "title": "이산가족 사망자 10만명 넘어…생존자는 3만4천여명",
+        "publisher": "연합뉴스(통일부 집계 인용)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "15일 통일부에 따르면 작년 말 기준 이산가족 신청자 총 13만4천516명 가운데 사망자는 10만148명으로 파악됐다.",
+        "local_evidence_path": "evidence/yna_sep_2026.txt"
+      },
+      {
+        "claim": "당국 상봉 2018년 8월이 마지막",
+        "url": "https://www.yna.co.kr/view/AKR20260115055900504",
+        "title": "이산가족 사망자 10만명 넘어…생존자는 3만4천여명",
+        "publisher": "연합뉴스(통일부 집계 인용)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "당국 차원의 이산가족 상봉과 생사확인은 2018년 8월이 마지막이었다.",
+        "local_evidence_path": "evidence/yna_sep_2026.txt"
+      },
+      {
+        "claim": "전투 16개국·의료 6개국, 총 22개국",
+        "url": "https://www.unmck.or.kr/kor/02_unmck/?mcode=0402010200",
+        "title": "유엔군 지원 현황",
+        "publisher": "재한유엔기념공원관리처",
+        "accessed_at": "2026-10-11",
+        "quote_original": "전투지원 16개국과 병원선, 의료진, 의약품 등을 지원한 의료지원 6개국 등을 포함하여 총 22개국이 한국을 방어하기 위해 참전하였습니다.",
+        "local_evidence_path": "evidence/unmck_support.txt"
+      }
+    ],
+    "corrections_to_existing": [
+      "기존 '6월을 호국보훈의 달로 정한 것도 이 전쟁의 기억 때문' 삭제(근거 미확인)",
+      "기존 '이산가족 상봉 신청자 13만 명 넘었지만 대부분 재회 못한 채 사망' → 통일부 집계(2025년 말: 신청 13만 4,516명, 사망 10만 148명) 인용으로 구체화",
+      "기존 '참전 16개국 유엔군' → 전투 16개국+의료 6개국=22개국으로 정확화",
+      "기존 '학교마다 안보 교육, 현충시설 참배객' 등 미확인 일반화 삭제",
+      "기존 '수백만 명이 죽거나 다쳤고' 수치 표현 삭제(이번에 1차 출처로 확인 못함)"
+    ],
+    "notes": "category=general 유지. 사상자 수는 신뢰 가능한 단일 수치 확보 못해 제외. sourceUrl 위키→한국민족문화대백과사전 '한국전쟁' 제안."
+  },
+  "gov-99": {
+    "name": "유엔군 참전의 날",
+    "date": "07-27",
+    "origin": "유엔군 참전의 날은 6·25전쟁 정전협정이 체결된 7월 27일에 맞춰, 전쟁에 참전한 유엔참전국들의 공헌을 기리는 법정기념일이다. 1950년 6월 북한의 남침 직후 유엔 안전보장이사회는 6월 27일 유엔의 이름으로 연합군을 보내기로 결의했다. 재한유엔기념공원은 이것이 지금까지 유엔군의 이름으로 분쟁 지역에 파병한 유일한 사례라고 설명한다. 전투 병력과 장비를 보낸 16개국, 병원선과 의료진을 보낸 6개국 등 모두 22개국이 참전했다. 전쟁은 1951년 7월부터 2년 넘게 휴전회담이 이어진 끝에 1953년 7월 27일 오전 10시 판문점에서 정전협정이 체결되며 멈췄다. 정부는 해마다 이날을 기념해 왔고, 2013년 7월 국회가 매년 7월 27일을 '유엔군 참전의 날'로 정하는 법률 개정안을 통과시켰다. 그해 7월 27일 정전 60주년 기념식이 첫 번째 유엔군 참전의 날 기념식으로 열렸다. 지금 이 날은 2020년 제정된 「유엔참전용사의 명예선양 등에 관한 법률」 제5조에 규정돼 있다.",
+    "anecdote": "정전(停戰)은 싸움을 멈춘 것이고, 종전(終戰)은 전쟁을 공식적으로 끝낸 것이다. 1953년 협정의 정식 명칭도 '한국군사정전에 관한 협정'으로, 전쟁을 일시적으로 멈추는 데 합의한 문서이며 지금도 한반도 정전체제의 기본 규범으로 남아 있다. 이 협정에는 유엔군 총사령관 클라크, 북한의 김일성, 중국인민지원군 사령원 펑더화이가 서명했다. 재한유엔기념공원이 국방부 군사편찬연구소 통계를 바탕으로 정리한 자료에 따르면 22개국의 파병 인원은 모두 198만 8,400명이고, 전사자는 4만 명이 넘는다. 이 가운데 미국이 178만 9,000명을 보내 가장 많았다. 부산의 유엔기념공원은 세계 유일의 유엔기념묘지로, 1951년 유엔군사령부가 전사자를 묻기 위해 조성했다. 1955년에는 대한민국 국회가 이 땅을 유엔에 영구히 기증하기로 결의했다. 7월 27일 기념식에는 국내외 참전유공자와 후손, 참전국 외교사절 등이 함께해 서로의 희생을 기린다.",
+    "sourceUrl": "https://www.law.go.kr/법령/유엔참전용사의명예선양등에관한법률",
+    "previous_sourceUrl": "https://www.law.go.kr/법령/유엔참전용사의명예선양등에관한법률",
+    "char_counts": {
+      "origin": 500,
+      "anecdote": 471,
+      "total": 971,
+      "previous_total": 319
+    },
+    "evidence": [
+      {
+        "claim": "7.27 유엔군 참전의 날 법정 규정",
+        "url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=248555&efYd=20230605&chrClsCd=010202&ancYnChk=0",
+        "title": "유엔참전용사의 명예선양 등에 관한 법률",
+        "publisher": "법제처 국가법령정보센터",
+        "accessed_at": "2026-10-11",
+        "quote_original": "6ㆍ25전쟁에 참전하여 대한민국의 자유민주주의를 수호한 유엔참전국의 공헌을 기리기 위하여 매년 7월 27일을 유엔군 참전의 날로 한다.",
+        "local_evidence_path": "evidence/law_unvet.txt"
+      },
+      {
+        "claim": "1950.6.27 안보리 파병 결의, 유일 사례",
+        "url": "https://www.unmck.or.kr/kor/02_unmck/?mcode=0402010200",
+        "title": "유엔군 지원 현황",
+        "publisher": "재한유엔기념공원관리처",
+        "accessed_at": "2026-10-11",
+        "quote_original": "유엔은 1950년 6월 27일 제2차 유엔 안전보장이사회에서, 유엔의 이름으로 연합군을 파병할 것을 결의하였습니다. 이는 현재까지 유엔군의 이름으로 세계 분쟁지역에 파병한 유일한 사례가 되고 있습니다.",
+        "local_evidence_path": "evidence/unmck_support.txt"
+      },
+      {
+        "claim": "16+6=22개국",
+        "url": "https://www.unmck.or.kr/kor/02_unmck/?mcode=0402010200",
+        "title": "유엔군 지원 현황",
+        "publisher": "재한유엔기념공원관리처",
+        "accessed_at": "2026-10-11",
+        "quote_original": "전투지원 16개국과 병원선, 의료진, 의약품 등을 지원한 의료지원 6개국 등을 포함하여 총 22개국이 한국을 방어하기 위해 참전하였습니다.",
+        "local_evidence_path": "evidence/unmck_support.txt"
+      },
+      {
+        "claim": "1953.7.27 오전 10시 판문점",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i502950&code=kc_age_50",
+        "title": "정전협정의 체결 1953",
+        "publisher": "국사편찬위원회 우리역사넷",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1953년 7월 27일 오전 10시에 판문점에서 정전협정이 체결되었다.",
+        "local_evidence_path": "evidence/hist_armistice.txt"
+      },
+      {
+        "claim": "휴전회담 1951.7.10 시작",
+        "url": "https://encykorea.aks.ac.kr/Article/E0065859",
+        "title": "휴전회담",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1951년 7월 10일부터 1953년 7월 27일까지 지속한 군사회담.",
+        "local_evidence_path": "evidence/ek_truce.txt"
+      },
+      {
+        "claim": "정부가 매년 기념, 2013.7.2 법률 개정안 통과, 첫 기념식",
+        "url": "https://www.archives.go.kr/next/newsearch/listSubjectDescription.do?id=010556&sitePage=1-2-3",
+        "title": "정전협정 및 유엔군 참전의 날 기념식 행사",
+        "publisher": "국가기록원",
+        "accessed_at": "2026-10-11",
+        "quote_original": "2013년 7월 2일 국회 본회의에서 매년 7월 27일을 ‘유엔 참전의 날’ 기념일로 제정하는 내용의 법률 개정안이 통과되었고, 같은 해 7월 27일 정부는 첫 번째 유엔군 참전의 날을 맞이해 유엔과 참전국 등 27개국을 초청, 「제60주년 정전협정 및 유엔군 참전의 날 기념식」을 전쟁기념관 평화의 광장에서 거행했다.",
+        "local_evidence_path": "evidence/archives_unday.txt"
+      },
+      {
+        "claim": "정부 해마다 기념",
+        "url": "https://www.archives.go.kr/next/newsearch/listSubjectDescription.do?id=010556&sitePage=1-2-3",
+        "title": "정전협정 및 유엔군 참전의 날 기념식 행사",
+        "publisher": "국가기록원",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1953년 7월 27일은 정전협정이 체결된 날로서 정부는 해마다 이 날을 기념하는 행사를 개최해 왔다.",
+        "local_evidence_path": "evidence/archives_unday.txt"
+      },
+      {
+        "claim": "2013 첫 공식 감사 행사",
+        "url": "https://www.hankookilbo.com/news/article/201307281274034076",
+        "title": "정부, 7월27일 유엔군 참전의 날 공포… 첫 공식 감사행사",
+        "publisher": "한국일보",
+        "accessed_at": "2026-10-11",
+        "quote_original": "유엔 참전국에 대한 한국 정부의 첫 공식 감사 행사를 겸해 치러졌으며",
+        "local_evidence_path": "evidence/hk_unday_2013.txt"
+      },
+      {
+        "claim": "2020 제정 유엔참전용사법",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148908052",
+        "title": "11일 유엔참전용사 추모의 날…“11시 부산 향해 묵념”",
+        "publisher": "국가보훈처(정책브리핑)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "이후 2020년 제정된 ‘유엔참전용사의 명예선양 등에 관한 법률’에 따라 11월 11일을 법정기념일로 격상해 거행되고 있다.",
+        "local_evidence_path": "evidence/korea_ttb_2020.txt"
+      },
+      {
+        "claim": "2020 법 부칙(법률 제17117호) 및 참전유공자법 제4조의2 삭제",
+        "url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=248555&efYd=20230605&chrClsCd=010202&ancYnChk=0",
+        "title": "유엔참전용사의 명예선양 등에 관한 법률",
+        "publisher": "법제처 국가법령정보센터",
+        "accessed_at": "2026-10-11",
+        "quote_original": "부 칙 <법률 제17117호, 2020. 3. 24.>",
+        "local_evidence_path": "evidence/law_unvet.txt"
+      },
+      {
+        "claim": "협정 정식 명칭·정전체제 규범",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i502950&code=kc_age_50",
+        "title": "정전협정의 체결 1953",
+        "publisher": "국사편찬위원회 우리역사넷",
+        "accessed_at": "2026-10-11",
+        "quote_original": "“유엔군총사령관을 일방(一方)으로 하고 조선인민군최고사령관 및 중국인민지원군사령원을 다른 일방으로 하는 한국군사정전(韓國軍事停戰)에 관한 협정”이다.",
+        "local_evidence_path": "evidence/hist_armistice.txt"
+      },
+      {
+        "claim": "정전체제 기본 규범",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i502950&code=kc_age_50",
+        "title": "정전협정의 체결 1953",
+        "publisher": "국사편찬위원회 우리역사넷",
+        "accessed_at": "2026-10-11",
+        "quote_original": "한반도 정전체제의 기본적 규범으로 남아있다.",
+        "local_evidence_path": "evidence/hist_armistice.txt"
+      },
+      {
+        "claim": "서명자",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i502950&code=kc_age_50",
+        "title": "정전협정의 체결 1953",
+        "publisher": "국사편찬위원회 우리역사넷",
+        "accessed_at": "2026-10-11",
+        "quote_original": "유엔군총사령관 미육군대장 클라크(Mark. W. Clark), 조선민주주의인민공화국 원수 최고인민군최고사령관 김일성(金日成)·중국인민지원군사령원 팽덕회(彭德懷, 펑떠화이)가 서명하였고",
+        "local_evidence_path": "evidence/hist_armistice.txt"
+      },
+      {
+        "claim": "파병 합계 1,988,400 / 전사 40,897 / 미국 1,789,000",
+        "url": "https://www.unmck.or.kr/kor/02_unmck/?mcode=0402010300",
+        "title": "안장자 및 전사자 현황",
+        "publisher": "재한유엔기념공원관리처",
+        "accessed_at": "2026-10-11",
+        "quote_original": "유 엔 군 총 계 \n 1,988,400 \n 40,897",
+        "local_evidence_path": "evidence/unmck_buried.txt"
+      },
+      {
+        "claim": "미국 파병 1,789,000",
+        "url": "https://www.unmck.or.kr/kor/02_unmck/?mcode=0402010300",
+        "title": "안장자 및 전사자 현황",
+        "publisher": "재한유엔기념공원관리처",
+        "accessed_at": "2026-10-11",
+        "quote_original": "미국 \n 1,789,000",
+        "local_evidence_path": "evidence/unmck_buried.txt"
+      },
+      {
+        "claim": "통계 출처 군사편찬연구소",
+        "url": "https://www.unmck.or.kr/kor/02_unmck/?mcode=0402010300",
+        "title": "안장자 및 전사자 현황",
+        "publisher": "재한유엔기념공원관리처",
+        "accessed_at": "2026-10-11",
+        "quote_original": "파병자수: 국방부 군사편찬연구소 『6.25전쟁 통계자료집』(2023.12.편찬)",
+        "local_evidence_path": "evidence/unmck_buried.txt"
+      },
+      {
+        "claim": "전사자 40,896명(본문)",
+        "url": "https://www.unmck.or.kr/kor/02_unmck/?mcode=0402010200",
+        "title": "유엔군 지원 현황",
+        "publisher": "재한유엔기념공원관리처",
+        "accessed_at": "2026-10-11",
+        "quote_original": "40,896 명의 유엔군 희생자가 발생하였습니다.",
+        "local_evidence_path": "evidence/unmck_support.txt"
+      },
+      {
+        "claim": "세계 유일 유엔기념묘지, 1951 조성",
+        "url": "https://www.unmck.or.kr/kor/02_unmck/?mcode=0402010100",
+        "title": "유엔기념공원 역사",
+        "publisher": "재한유엔기념공원관리처",
+        "accessed_at": "2026-10-11",
+        "quote_original": "이곳 유엔기념공원은 세계 유일의 유엔기념묘지로서",
+        "local_evidence_path": "evidence/unmck_history.txt"
+      },
+      {
+        "claim": "1951.1 유엔군사령부 조성",
+        "url": "https://www.unmck.or.kr/kor/02_unmck/?mcode=0402010100",
+        "title": "유엔기념공원 역사",
+        "publisher": "재한유엔기념공원관리처",
+        "accessed_at": "2026-10-11",
+        "quote_original": "이곳 묘지는 한국전쟁이 일어난 이듬해인 1951년 1월, 전사자 매장을 위하여 유엔군 사령부가 조성하였으며",
+        "local_evidence_path": "evidence/unmck_history.txt"
+      },
+      {
+        "claim": "1955.11 국회 영구 기증 결의",
+        "url": "https://www.unmck.or.kr/kor/02_unmck/?mcode=0402010100",
+        "title": "유엔기념공원 역사",
+        "publisher": "재한유엔기념공원관리처",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1955년 11월 대한민국 국회는 유엔군의 희생에 보답하기 위해 이곳 토지를 유엔에 영구히 기증하고, 아울러 묘지를 성지로 지정할 것을 결의하였습니다.",
+        "local_evidence_path": "evidence/unmck_history.txt"
+      },
+      {
+        "claim": "기념식 참석 대상",
+        "url": "https://www.archives.go.kr/next/newsearch/listSubjectDescription.do?id=010556&sitePage=1-2-3",
+        "title": "정전협정 및 유엔군 참전의 날 기념식 행사",
+        "publisher": "국가기록원",
+        "accessed_at": "2026-10-11",
+        "quote_original": "3) 참석 : 국내·외 6·25참전유공자 및 후손, 참전국 외교사절, 정부 주요인사, 각계대표, 시민, 학생, 장병 등",
+        "local_evidence_path": "evidence/archives_unday.txt"
+      }
+    ],
+    "corrections_to_existing": [
+      "[중요] 기존 '2013년 「유엔참전용사의 명예선양 등에 관한 법률」로 법정기념일' 오류: 2013년에는 국회가 7.27 기념일 법률 개정안을 통과(국가기록원), 「유엔참전용사의 명예선양 등에 관한 법률」은 2020년 제정(법률 제17117호, 2020.3.24 공포, 6개월 후 시행; 부칙에서 참전유공자법 제4조의2 삭제)",
+      "기존 '195만 명가량 참전, 3만 7천여 명 사망' → 재한유엔기념공원(군사편찬연구소 2023 통계) 기준 파병 198만 8,400명, 전사 4만 명 이상(표 합계 40,897 / 본문 40,896)으로 수정",
+      "기존 '세계에서 유일한 유엔군 묘지' 유지(UNMCK '세계 유일의 유엔기념묘지')",
+      "기존 '유해 안장 요청이 지금도 이어지며' 표현은 gov-122로 이동, 근거 보강"
+    ],
+    "notes": "sourceUrl 기존 law.go.kr 유지(제5조 근거)."
+  },
+  "gov-122": {
+    "name": "유엔참전용사 국제추모의 날",
+    "date": "11-11",
+    "origin": "유엔참전용사 국제추모의 날은 매년 11월 11일 오전 11시, 세계 곳곳에서 부산 유엔기념공원을 향해 1분간 묵념하며 6·25전쟁에서 숨진 유엔군 장병을 추모하는 법정기념일이다. '턴 투워드 부산(Turn Toward Busan)', 곧 '부산을 향하여'라는 행사 이름으로도 널리 알려져 있다. 이 행사는 2007년 6·25전쟁에 참전한 캐나다 참전용사 빈센트 커트니의 제안으로 시작됐다. 숨진 전우들이 잠든 부산을 향해 세계가 같은 시각에 함께 고개를 숙이자는 뜻이었다. 이듬해인 2008년부터는 국가보훈처(지금의 국가보훈부)가 주관해 추모 행사를 열었다. 2020년 「유엔참전용사의 명예선양 등에 관한 법률」이 제정되면서 11월 11일은 법정기념일이 됐다. 법은 이날을 유엔참전용사의 희생과 공헌을 기념하고 유엔참전국과 함께 추모하는 날로 정하고 있다. 행사 당일 오전 11시가 되면 부산 전역에 1분 동안 추모 사이렌이 울리고, 기념식 참석자와 시민들이 함께 묵념한다.",
+    "anecdote": "11월 11일이라는 날짜는 제1차 세계대전과도 이어져 있다. 1918년 11월 11일 전쟁이 끝난 것을 기념해 영연방 국가들은 이날을 현충일(Remembrance Day)로, 미국은 제대군인의 날(Veterans Day)로 지키며 전사자를 추모해 왔다. 여러 참전국이 이미 추모하는 날에 부산을 함께 떠올리는 셈이다. 부산 유엔기념공원은 세계 유일의 유엔기념묘지다. 1951년부터 1954년 사이에는 이곳에 유엔군 전사자 약 1만 1,000명의 유해가 안장돼 있었지만, 여러 나라가 유해를 본국으로 옮기면서 지금은 2,300여 구가 잠들어 있다. 나라별로는 영국, 튀르키예, 캐나다, 호주 장병이 많다. 지금도 세상을 떠난 참전용사가 생전의 뜻에 따라 이곳에 안장되기도 하며, 추모식에 맞춰 합동안장식이 마련되기도 한다. 7월 27일 '유엔군 참전의 날'이 참전국의 공헌을 기린다면, 11월 11일은 숨진 장병을 추모하는 데 초점을 둔 날이다.",
+    "sourceUrl": "https://www.law.go.kr/법령/유엔참전용사의명예선양등에관한법률",
+    "previous_sourceUrl": "https://www.law.go.kr/법령/유엔참전용사의명예선양등에관한법률",
+    "char_counts": {
+      "origin": 489,
+      "anecdote": 472,
+      "total": 961,
+      "previous_total": 342
+    },
+    "evidence": [
+      {
+        "claim": "11.11 국제추모의 날 법정 규정",
+        "url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=248555&efYd=20230605&chrClsCd=010202&ancYnChk=0",
+        "title": "유엔참전용사의 명예선양 등에 관한 법률",
+        "publisher": "법제처 국가법령정보센터",
+        "accessed_at": "2026-10-11",
+        "quote_original": "6ㆍ25전쟁에 참전하여 대한민국의 자유민주주의를 수호한 유엔참전용사의 희생과 공헌을 기념하고 이들을 유엔참전국과 함께 추모하기 위하여 매년 11월 11일을 유엔참전용사 국제추모의 날로 한다.",
+        "local_evidence_path": "evidence/law_unvet.txt"
+      },
+      {
+        "claim": "2007 커트니 제안, 2008 보훈처 주관, 2020 법정기념일",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148908052",
+        "title": "11일 유엔참전용사 추모의 날…“11시 부산 향해 묵념”",
+        "publisher": "국가보훈처(정책브리핑)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "유엔참전용사 국제추모의 날 행사는 지난 2007년 빈센트 커트니 캐나다 참전용사의 제안에 따라 처음 시작됐다. 2008년부터 보훈처 주관으로 추모행사를 개최하고 있다.",
+        "local_evidence_path": "evidence/korea_ttb_2020.txt"
+      },
+      {
+        "claim": "2020 법 제정 법정기념일",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148908052",
+        "title": "11일 유엔참전용사 추모의 날…“11시 부산 향해 묵념”",
+        "publisher": "국가보훈처(정책브리핑)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "이후 2020년 제정된 ‘유엔참전용사의 명예선양 등에 관한 법률’에 따라 11월 11일을 법정기념일로 격상해 거행되고 있다.",
+        "local_evidence_path": "evidence/korea_ttb_2020.txt"
+      },
+      {
+        "claim": "11시 1분 사이렌·묵념",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148908052",
+        "title": "11일 유엔참전용사 추모의 날…“11시 부산 향해 묵념”",
+        "publisher": "국가보훈처(정책브리핑)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "11시 정각에 맞춰 1분 동안 부산광역시 전역에 추모 사이렌이 울리면 추모식 참석자와 부산시민 등이 묵념에 동참해",
+        "local_evidence_path": "evidence/korea_ttb_2020.txt"
+      },
+      {
+        "claim": "부산을 향하여 주제",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148908052",
+        "title": "11일 유엔참전용사 추모의 날…“11시 부산 향해 묵념”",
+        "publisher": "국가보훈처(정책브리핑)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "‘부산을 향하여’라는 주제로 추모식이 거행된 뒤",
+        "local_evidence_path": "evidence/korea_ttb_2020.txt"
+      },
+      {
+        "claim": "세계 유일 유엔군 묘지 부산 향해 묵념 제안",
+        "url": "https://www.korea.kr/news/reporterView.do?newsId=148922405",
+        "title": "11월 11일, 유엔참전용사를 추모해 주세요!",
+        "publisher": "대한민국 정책브리핑(정책기자단)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "6.25전쟁 캐나다 참전용사인 빈센트 커트니 씨의 제안으로 세계 유일의 유엔군 묘지가 있는 부산을 향해 묵념을 하는 ‘턴 투워드 부산’ 추모식 행사가 열리기 때문이다.",
+        "local_evidence_path": "evidence/korea_ttb_reporter.txt"
+      },
+      {
+        "claim": "1차대전 종전일, 영연방 현충일·미국 제대군인의 날",
+        "url": "https://siminilbo.co.kr/news/newsview.php?ncode=1065595415515732",
+        "title": "세계인의 현충일 11월 11일 11시 묵념, 턴 투어드 부산",
+        "publisher": "시민일보(인천보훈지청 직원 기고)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "이 행사는 1차 세계대전 종전일인 1918년 11월11일을 기념하는데서 비롯되어, 영연방에서는 현충일(Remebrance Day)로 미국에서는 제대군인의 날(Veterans Day)로 지정하여 전사자를 추모하고 있다.",
+        "local_evidence_path": "evidence/siminilbo_ttb.txt"
+      },
+      {
+        "claim": "세계 유일 유엔기념묘지",
+        "url": "https://www.unmck.or.kr/kor/02_unmck/?mcode=0402010100",
+        "title": "유엔기념공원 역사",
+        "publisher": "재한유엔기념공원관리처",
+        "accessed_at": "2026-10-11",
+        "quote_original": "이곳 유엔기념공원은 세계 유일의 유엔기념묘지로서",
+        "local_evidence_path": "evidence/unmck_history.txt"
+      },
+      {
+        "claim": "1951~54 약 11,000여 명 안장, 이후 이장",
+        "url": "https://www.unmck.or.kr/kor/02_unmck/?mcode=0402010300",
+        "title": "안장자 및 전사자 현황",
+        "publisher": "재한유엔기념공원관리처",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1951~1954년 사이에 이곳 유엔기념공원에는 유엔군 전사자 약 11,000여명의 유해가 안장되어 있었으나",
+        "local_evidence_path": "evidence/unmck_buried.txt"
+      },
+      {
+        "claim": "현재 안장자 합계 2,339",
+        "url": "https://www.unmck.or.kr/kor/02_unmck/?mcode=0402010300",
+        "title": "안장자 및 전사자 현황",
+        "publisher": "재한유엔기념공원관리처",
+        "accessed_at": "2026-10-11",
+        "quote_original": "계 \n - \n - \n 2,339",
+        "local_evidence_path": "evidence/unmck_buried.txt"
+      },
+      {
+        "claim": "국가별 안장: 영국 892",
+        "url": "https://www.unmck.or.kr/kor/02_unmck/?mcode=0402010300",
+        "title": "안장자 및 전사자 현황",
+        "publisher": "재한유엔기념공원관리처",
+        "accessed_at": "2026-10-11",
+        "quote_original": "영국 \n 81,084 \n 1,177 \n 892",
+        "local_evidence_path": "evidence/unmck_buried.txt"
+      },
+      {
+        "claim": "튀르키예 462",
+        "url": "https://www.unmck.or.kr/kor/02_unmck/?mcode=0402010300",
+        "title": "안장자 및 전사자 현황",
+        "publisher": "재한유엔기념공원관리처",
+        "accessed_at": "2026-10-11",
+        "quote_original": "튀르키예 \n 21,212 \n 1,005 \n 462",
+        "local_evidence_path": "evidence/unmck_buried.txt"
+      },
+      {
+        "claim": "캐나다 382",
+        "url": "https://www.unmck.or.kr/kor/02_unmck/?mcode=0402010300",
+        "title": "안장자 및 전사자 현황",
+        "publisher": "재한유엔기념공원관리처",
+        "accessed_at": "2026-10-11",
+        "quote_original": "캐나다 \n 26,791 \n 516 \n 382",
+        "local_evidence_path": "evidence/unmck_buried.txt"
+      },
+      {
+        "claim": "호주 281",
+        "url": "https://www.unmck.or.kr/kor/02_unmck/?mcode=0402010300",
+        "title": "안장자 및 전사자 현황",
+        "publisher": "재한유엔기념공원관리처",
+        "accessed_at": "2026-10-11",
+        "quote_original": "호주 \n 17,164 \n 346 \n 281",
+        "local_evidence_path": "evidence/unmck_buried.txt"
+      },
+      {
+        "claim": "고인들 뜻에 따라 안장",
+        "url": "https://www.korea.kr/news/reporterView.do?newsId=148922405",
+        "title": "11월 11일, 유엔참전용사를 추모해 주세요!",
+        "publisher": "대한민국 정책브리핑(정책기자단)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "6.25한국전쟁에 참전한 영국과 콜롬비아 참전용사 6명이 고인들 뜻에 따라 부산 유엔기념공원에서 영면을 맞게 됐다.",
+        "local_evidence_path": "evidence/korea_ttb_reporter.txt"
+      },
+      {
+        "claim": "추모식에 이은 합동안장식(2022)",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148908052",
+        "title": "11일 유엔참전용사 추모의 날…“11시 부산 향해 묵념”",
+        "publisher": "국가보훈처(정책브리핑)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "네덜란드와 영국 참전용사 유해 3위에 대한 합동안장식이 참전용사 묘역에서 진행된다.",
+        "local_evidence_path": "evidence/korea_ttb_2020.txt"
+      },
+      {
+        "claim": "7.27 유엔군 참전의 날 공헌",
+        "url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=248555&efYd=20230605&chrClsCd=010202&ancYnChk=0",
+        "title": "유엔참전용사의 명예선양 등에 관한 법률",
+        "publisher": "법제처 국가법령정보센터",
+        "accessed_at": "2026-10-11",
+        "quote_original": "유엔참전국의 공헌을 기리기 위하여 매년 7월 27일을 유엔군 참전의 날로 한다.",
+        "local_evidence_path": "evidence/law_unvet.txt"
+      }
+    ],
+    "corrections_to_existing": [
+      "기존 '11개국 2,300여 구' → 안장자 합계 2,339(한국인 39·무명 5·기타 11 포함)로 '2,300여 구' 유지, 국가 수 표현은 UNMCK 문장 누락('11개국의 구의 유해')으로 숫자 불명확해 생략",
+      "기존 '6·25전쟁 당시 유엔군은 22개국에서 참전' 유지",
+      "기존 '11월 11일 11시는 1차 대전 종전 시각' → 확보 근거(인천보훈지청 직원 기고)는 '1918년 11월 11일 종전일'까지만 언급해 '날짜'로 표현 축소"
+    ],
+    "notes": "1차대전 연결 근거는 시민일보 기고(인천보훈지청 제대군인지원센터 직원) — 정부 1차 문서는 아님. 2022 합동안장식은 보훈처 사전 보도자료 근거라 본문에서 연도 생략·일반화."
+  },
+  "anv-fixed-06-28-korean-war-abductees-day-kr": {
+    "name": "6·25전쟁 납북자 기억의 날",
+    "date": "06-28",
+    "origin": "6·25전쟁 납북자 기억의 날은 6·25전쟁 중 북한으로 강제로 끌려간 민간인 납북자를 기억하기 위해 매년 6월 28일로 정한 법정기념일이다. 1950년 6월 25일 전쟁이 일어나고 사흘 뒤인 6월 28일, 북한군은 서울을 점령했다. 점령 지역에서는 법조계 인사, 공무원, 경찰, 교육계 인사, 종교인, 사업가 등이 끌려갔고, 유엔군의 인천상륙작전으로 전세가 불리해지자 북한은 서울과 경기 지역 구금시설에 갇혀 있던 사람들까지 북으로 데려갔다. 정부는 전쟁 직후부터 1963년까지 여러 차례 납치자 명부를 만들었고, 통일부는 이를 바탕으로 전시납북자를 10만 명 안팎으로 추정한다. 법정기념일이 되기 전에는 민간단체인 6·25전쟁납북인사가족협의회가 서울이 점령된 6월 28일을 '6·25전쟁 납북희생자 기억의 날'로 해마다 기념해 왔다. 2024년 12월 20일 「6·25전쟁 납북피해 진상규명 및 납북피해자 명예회복에 관한 법률」이 개정되면서 이날이 법정기념일이 됐고, 통일부는 2025년 6월 28일 경기도 파주 임진각에서 첫 정부 기념식을 열었다.",
+    "anecdote": "통일부는 전시납북자를 남한에 살던 대한민국 국민(군인 제외) 가운데 6·25전쟁 중 본인의 뜻에 반해 북한에 강제로 끌려가 억류되거나 그곳에서 살게 된 사람으로 정의한다. 그래서 전투 중 붙잡힌 국군포로나 정전 이후 납치된 전후납북자와는 구분해 다룬다. 납북 피해를 밝히려는 국가의 노력은 2010년 3월 관련 법이 제정되면서 본격화됐다. 국무총리를 위원장으로 한 진상규명위원회는 정부 명부 등을 분석해 전시납북자 규모를 10만 명 안팎으로 추산했고, 접수된 신고 5,505건을 심사해 4,777명을 납북자로 결정했다. 위원회는 2017년 진상조사보고서를 펴내고 활동을 마쳤다. 정부가 남긴 명부 가운데 1952년에 만든 '6·25사변 피랍치자 명부'에는 8만 2,959명이 올라 있다. 파주 임진각에는 국립6·25전쟁납북자기념관이 있으며, 통일부는 2026년 제2회 기념식도 이곳에서 열기로 했다. 법은 이날 국가와 지방자치단체가 행사와 교육, 홍보를 할 수 있도록 정하고 있다.",
+    "sourceUrl": "https://www.law.go.kr/법령/625전쟁납북피해진상규명및납북피해자명예회복에관한법률",
+    "previous_sourceUrl": "https://www.law.go.kr/법령/625전쟁납북피해진상규명및납북피해자명예회복에관한법률",
+    "char_counts": {
+      "origin": 533,
+      "anecdote": 493,
+      "total": 1026,
+      "previous_total": 345
+    },
+    "evidence": [
+      {
+        "claim": "6.28 납북자 기억의 날 법정 규정, 2024.12.20 신설",
+        "url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=283683&efYd=20260828&chrClsCd=010202&ancYnChk=0",
+        "title": "6ㆍ25전쟁 납북피해 진상규명 및 납북피해자 명예회복에 관한 법률",
+        "publisher": "법제처 국가법령정보센터",
+        "accessed_at": "2026-10-11",
+        "quote_original": "제11조의2(6ㆍ25전쟁 납북자 기억의 날) ① 납북자를 기억하고 납북피해에 대한 국민적 관심을 높이기 위하여 매년 6월 28일을 6ㆍ25전쟁 납북자 기억의 날로 한다.",
+        "local_evidence_path": "evidence/law_abductee.txt"
+      },
+      {
+        "claim": "본조신설 2024.12.20",
+        "url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=283683&efYd=20260828&chrClsCd=010202&ancYnChk=0",
+        "title": "6ㆍ25전쟁 납북피해 진상규명 및 납북피해자 명예회복에 관한 법률",
+        "publisher": "법제처 국가법령정보센터",
+        "accessed_at": "2026-10-11",
+        "quote_original": "[본조신설 2024. 12. 20.]",
+        "local_evidence_path": "evidence/law_abductee.txt"
+      },
+      {
+        "claim": "국가·지자체 행사·교육·홍보 가능",
+        "url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=283683&efYd=20260828&chrClsCd=010202&ancYnChk=0",
+        "title": "6ㆍ25전쟁 납북피해 진상규명 및 납북피해자 명예회복에 관한 법률",
+        "publisher": "법제처 국가법령정보센터",
+        "accessed_at": "2026-10-11",
+        "quote_original": "② 국가와 지방자치단체는 6ㆍ25전쟁 납북자 기억의 날에 적합한 행사, 교육 및 홍보 등을 실시할 수 있다.",
+        "local_evidence_path": "evidence/law_abductee.txt"
+      },
+      {
+        "claim": "6.28 서울 점령",
+        "url": "https://jinsil.go.kr/KoreanWar/01.do",
+        "title": "적대세력(전시납북) 사건(1)",
+        "publisher": "진실·화해를위한과거사정리위원회",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1950년 한국전쟁 발발 3일 후인 6월 28일 인민군은 서울을 점령했고",
+        "local_evidence_path": "evidence/jinsil_abduction.txt"
+      },
+      {
+        "claim": "납북자 직군, 인천상륙 후 구금시설 수감자 납북",
+        "url": "https://jinsil.go.kr/KoreanWar/01.do",
+        "title": "적대세력(전시납북) 사건(1)",
+        "publisher": "진실·화해를위한과거사정리위원회",
+        "accessed_at": "2026-10-11",
+        "quote_original": "유엔군의 인천상륙작전으로 전세가 불리해지자 북한 정권은 9월 15일 서대문형무소, 마포형무소 등 서울과 경기지역 구금시설에 수감된 이들을 북한으로 끌고 갔다.",
+        "local_evidence_path": "evidence/jinsil_abduction.txt"
+      },
+      {
+        "claim": "납북자 직군",
+        "url": "https://jinsil.go.kr/KoreanWar/01.do",
+        "title": "적대세력(전시납북) 사건(1)",
+        "publisher": "진실·화해를위한과거사정리위원회",
+        "accessed_at": "2026-10-11",
+        "quote_original": "납북자들은 주로 법조계 인사, 행정공무원, 경찰, 교육계 인사, 종교인, 반공단체 구성원, 우익인사, 사업가 등이었다.",
+        "local_evidence_path": "evidence/jinsil_abduction.txt"
+      },
+      {
+        "claim": "1963년까지 명부, 10만명 내외 추정",
+        "url": "https://unikorea.go.kr/web/unikorea/contents/overview_abductee",
+        "title": "전시납북자 현황",
+        "publisher": "통일부",
+        "accessed_at": "2026-10-11",
+        "quote_original": "전쟁발생 직후부터 1963년까지 수차례에 걸쳐 정부차원에서 납치자 명부가 작성되었으며, 이를 바탕으로 전시납북자는 10만명 내외로 추정됩니다.",
+        "local_evidence_path": "evidence/unikorea_abductee.txt"
+      },
+      {
+        "claim": "민간단체 6·25전쟁납북인사가족협의회 기념",
+        "url": "https://www.yna.co.kr/view/AKR20250627081200504",
+        "title": "'6·25전쟁 납북자 기억의 날' 첫 기념식 28일 임진각서 개최",
+        "publisher": "연합뉴스",
+        "accessed_at": "2026-10-11",
+        "quote_original": "법정기념일 지정 전에는 민간단체인 6·25전쟁납북인사가족협의회가 서울이 점령된 6월 28일을 6·25전쟁 납북희생자 기억의 날로 매년 기념했다.",
+        "local_evidence_path": "evidence/yna_abductee_2025.txt"
+      },
+      {
+        "claim": "제1회 기념식 2025.6.28 임진각",
+        "url": "https://eiec.kdi.re.kr/policy/materialView.do?num=268125",
+        "title": "통일부, 제1회 6·25전쟁 납북자 기억의 날 기념행사 개최(6.28.)",
+        "publisher": "통일부(KDI 경제정책자료 게재)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "6.28.(토), 파주 임진각 평화누리공원에서 ‘제1회 6·25전쟁 납북자 기억의 날’ 기념식을 개최한다고 밝혔다.",
+        "local_evidence_path": "evidence/kdi_abductee_2025.txt"
+      },
+      {
+        "claim": "기념식 진행됨",
+        "url": "https://eiec.kdi.re.kr/policy/materialView.do?num=268125",
+        "title": "통일부, 제1회 6·25전쟁 납북자 기억의 날 기념행사 개최(6.28.)",
+        "publisher": "통일부(KDI 경제정책자료 게재)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "기념행사는 기념식을 포함하여 납북자 가족 헌화, 기념공연 순으로 진행되었음.",
+        "local_evidence_path": "evidence/kdi_abductee_2025.txt"
+      },
+      {
+        "claim": "전시납북자 정의(군인 제외)",
+        "url": "https://unikorea.go.kr/web/unikorea/contents/overview_abductee",
+        "title": "전시납북자 현황",
+        "publisher": "통일부",
+        "accessed_at": "2026-10-11",
+        "quote_original": "전시납북자란, 남한에 거주하고 있던 대한민국 국민(군인 제외)으로서 6·25전쟁 중(1950년 6월 25일부터 1953년 7월 27일 군사정전에 관한 협정 체결 전까지를 말함) 본인의 의사에 반하여 북한에 의하여 강제로 납북되어 북한에 억류 또는 거주하게 된 사람을 말합니다.",
+        "local_evidence_path": "evidence/unikorea_abductee.txt"
+      },
+      {
+        "claim": "전시납북자·전후납북자·국군포로 구분",
+        "url": "https://unikorea.go.kr/web/unikorea/contents/overview_abductee",
+        "title": "전시납북자 현황",
+        "publisher": "통일부",
+        "accessed_at": "2026-10-11",
+        "quote_original": "전시납북자 \n 전후납북자 \n 억류자 \n 국군포로",
+        "local_evidence_path": "evidence/unikorea_abductee.txt"
+      },
+      {
+        "claim": "2010.3.26 법 제정, 위원회 설치",
+        "url": "https://unikorea.go.kr/web/unikorea/contents/overview_abductee",
+        "title": "전시납북자 현황",
+        "publisher": "통일부",
+        "accessed_at": "2026-10-11",
+        "quote_original": "｢6·25전쟁 납북피해 진상규명 및 납북피해자 명예회복에 관한 법률｣이 제정(’10.3.26.)됨에 따라 국무총리를 위원장으로 하고",
+        "local_evidence_path": "evidence/unikorea_abductee.txt"
+      },
+      {
+        "claim": "10만명 내외 추산, 5,505건 심사 4,777명 결정, 2017 보고서",
+        "url": "https://unikorea.go.kr/web/unikorea/contents/overview_abductee",
+        "title": "전시납북자 현황",
+        "publisher": "통일부",
+        "accessed_at": "2026-10-11",
+        "quote_original": "전시납북자 규모를 ‘10만명 내외’로 추산하였으며, 납북피해신고 접수건수 5,505건을 심사한 결과 최종 4,777명을 납북자로 결정하고, 2017년 6월 12일 ｢6·25전쟁 납북피해 진상조사보고서｣를 발간·배포를 끝으로 활동을 종료하였습니다.",
+        "local_evidence_path": "evidence/unikorea_abductee.txt"
+      },
+      {
+        "claim": "1952 피랍치자 명부 82,959명",
+        "url": "https://unikorea.go.kr/web/unikorea/contents/overview_abductee",
+        "title": "전시납북자 현황",
+        "publisher": "통일부",
+        "accessed_at": "2026-10-11",
+        "quote_original": "6·25사변 피랍치자 명부(5권) \n 1952 \n 82,959",
+        "local_evidence_path": "evidence/unikorea_abductee.txt"
+      },
+      {
+        "claim": "국립6·25전쟁납북자기념관 파주 임진각",
+        "url": "https://unikorea.go.kr/web/unikorea/contents/overview_abductee",
+        "title": "전시납북자 현황",
+        "publisher": "통일부",
+        "accessed_at": "2026-10-11",
+        "quote_original": "경기도 파주시에 소재한 임진각 평화누리공원에 「국립6·25전쟁납북자기념관」",
+        "local_evidence_path": "evidence/unikorea_abductee.txt"
+      },
+      {
+        "claim": "2026 제2회 기념식 기념관 개최 계획",
+        "url": "https://unikorea.go.kr/web/unikorea/bbs/bbs_0000000000000004/59570",
+        "title": "제2회 6.25전쟁 납북자 기억의 날 기념식 개최",
+        "publisher": "통일부",
+        "accessed_at": "2026-10-11",
+        "quote_original": "6월 28일(일) 오전 10시, 국립6·25전쟁납북자기념관(경기도 파주시)에서 ｢제2회 6·25전쟁 납북자 기억의 날｣ 기념식을 개최한다.",
+        "local_evidence_path": "evidence/unikorea_abductee_2nd.txt"
+      }
+    ],
+    "corrections_to_existing": [
+      "기존 '1952년 정부 피납치자 명부 8만여 명' → 통일부 표 기준 '6·25사변 피랍치자 명부(5권) 1952년 82,959명'으로 정확화",
+      "기존 '정부 위원회가 진상 조사해 납북 피해를 결정하는 절차를 운영하고 있다'(현재형) 오류: 위원회는 2017년 6월 보고서 발간 후 활동 종료(통일부)",
+      "지정 시점 명시: 2024.12.20 개정(공포일 시행), 첫 기념식 2025.6.28",
+      "기존 '학자·공무원·법조인·언론인' → 진실화해위 자료 직군(법조계, 행정공무원, 경찰, 교육계, 종교인, 사업가 등)으로 교체",
+      "기존 '유족 상당수는 이미 세상을 떠났다' 삭제(근거 미확인)"
+    ],
+    "notes": "제2회(2026) 기념식은 통일부 사전 보도자료 근거라 '열기로 했다'로 서술."
+  },
+  "anv-rel-chuseok-minus1-separated-families-day-kr": {
+    "name": "이산가족의 날",
+    "date": "anv-lunar-chuseok-kr:-2",
+    "origin": "이산가족의 날은 남북으로 헤어진 이산가족의 아픔을 위로하고 생사 확인과 교류를 촉진하기 위해 정한 법정기념일로, 날짜는 해마다 추석 전전날인 음력 8월 13일이다. 광복 직후 한반도는 38도선을 경계로 남쪽에 미군, 북쪽에 소련군이 들어왔고, 남과 북에 각각 정부가 세워지면서 고향과 가족이 있는 땅으로 갈 수 없는 사람들이 생겨났다. 이어 일어난 6·25전쟁은 이산가족을 대거 만들어 냈다. 남북 적십자사는 1971년부터 이산가족 문제를 논의했고, 1985년 고향방문단 교류를 거쳐 2000년 이후 정기적인 상봉이 이뤄졌다. 민간에서 기념해 오던 '이산가족의 날'을 국가기념일로 정하자는 법안은 2013년 처음 발의됐고, 10년 만인 2023년 3월 28일 「남북 이산가족 생사확인 및 교류 촉진에 관한 법률」 개정안이 공포되며 법정기념일이 됐다. 날짜는 2021년 제3차 남북 이산가족 실태조사에서 응답자의 43.4%가 희망 날짜로 '추석 전전날'을 고른 결과를 반영했다. 그해 9월 27일 통일부 주관으로 제1회 기념식이 열렸다.",
+    "anecdote": "'이산가족의 날'이라는 이름의 날은 두 개다. 8월 12일의 이산가족의 날은 1982년 북한 출신 이산가족들이 민간에서 정한 날이고, 추석 전전날의 이산가족의 날은 법률에 근거한 정부 기념일이다. 양력 날짜 대신 명절을 기준으로 삼았기 때문에 양력으로는 해마다 날짜가 바뀐다. 이산가족 문제는 시간이 많지 않은 문제이기도 하다. 통일부 집계를 보도한 연합뉴스에 따르면 2025년 말 기준 이산가족 찾기를 신청한 13만 4,516명 가운데 10만 148명이 세상을 떠났고, 생존자는 3만 4,368명이다. 북에 가족을 둔 채 눈을 감는 이산가족이 매달 평균 200여 명에 이르고, 남북 당국 차원의 상봉과 생사 확인은 2018년 8월이 마지막이었다. 제1회 기념식에서는 104세 최고령 이산가족이 참석했고, 이산가족 2·3세대 대표가 북한에 생사 확인을 촉구하는 결의문을 발표했다. 법은 국가와 지방자치단체가 이날의 취지에 맞는 기념행사와 홍보를 할 수 있도록 정하고 있다.",
+    "sourceUrl": "https://www.law.go.kr/법령/남북이산가족생사확인및교류촉진에관한법률",
+    "previous_sourceUrl": "https://www.law.go.kr/법령/남북이산가족생사확인및교류촉진에관한법률",
+    "char_counts": {
+      "origin": 523,
+      "anecdote": 488,
+      "total": 1011,
+      "previous_total": 343
+    },
+    "evidence": [
+      {
+        "claim": "추석 전전날(음력 8.13) 이산가족의 날 법정 규정",
+        "url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=259607&efYd=20240807&chrClsCd=010202&ancYnChk=0",
+        "title": "남북 이산가족 생사확인 및 교류 촉진에 관한 법률",
+        "publisher": "법제처 국가법령정보센터",
+        "accessed_at": "2026-10-11",
+        "quote_original": "제12조의2(이산가족의 날) ① 남북 이산가족의 생사확인 및 교류를 촉진하고 이산가족 문제에 대한 관심을 높이기 위하여 매년 추석 전전(前前)날(음력 8월 13일)을 이산가족의 날로 한다.",
+        "local_evidence_path": "evidence/law_separated.txt"
+      },
+      {
+        "claim": "본조신설 2023.3.28",
+        "url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=259607&efYd=20240807&chrClsCd=010202&ancYnChk=0",
+        "title": "남북 이산가족 생사확인 및 교류 촉진에 관한 법률",
+        "publisher": "법제처 국가법령정보센터",
+        "accessed_at": "2026-10-11",
+        "quote_original": "[본조신설 2023. 3. 28.]",
+        "local_evidence_path": "evidence/law_separated.txt"
+      },
+      {
+        "claim": "국가·지자체 기념행사·홍보",
+        "url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=259607&efYd=20240807&chrClsCd=010202&ancYnChk=0",
+        "title": "남북 이산가족 생사확인 및 교류 촉진에 관한 법률",
+        "publisher": "법제처 국가법령정보센터",
+        "accessed_at": "2026-10-11",
+        "quote_original": "② 국가와 지방자치단체는 이산가족의 날의 취지에 맞는 기념행사와 홍보를 실시할 수 있다.",
+        "local_evidence_path": "evidence/law_separated.txt"
+      },
+      {
+        "claim": "광복 직후 38도 미소 진주",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i502900&code=kc_age_50",
+        "title": "이산가족 만남 1985",
+        "publisher": "국사편찬위원회 우리역사넷",
+        "accessed_at": "2026-10-11",
+        "quote_original": "해방 직후 한반도에는 북위 38도를 경계로 하여 남쪽에는 미국군이, 북쪽에는 소련군이 진주했다.",
+        "local_evidence_path": "evidence/hist_reunion1985.txt"
+      },
+      {
+        "claim": "정부 수립·분단 공식화로 이산",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i502900&code=kc_age_50",
+        "title": "이산가족 만남 1985",
+        "publisher": "국사편찬위원회 우리역사넷",
+        "accessed_at": "2026-10-11",
+        "quote_original": "분단이 공식화되면서 고향과 가족이 있는 땅으로 갈 수 없는 사람들이 생겨나기 시작했다.",
+        "local_evidence_path": "evidence/hist_reunion1985.txt"
+      },
+      {
+        "claim": "6·25전쟁이 이산가족 대거 양산",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i502900&code=kc_age_50",
+        "title": "이산가족 만남 1985",
+        "publisher": "국사편찬위원회 우리역사넷",
+        "accessed_at": "2026-10-11",
+        "quote_original": "이어서 발발한 6·25전쟁은 이산가족을 대거 양산해냈다.",
+        "local_evidence_path": "evidence/hist_reunion1985.txt"
+      },
+      {
+        "claim": "1985 고향방문단, 2000년 이후 정기 상봉",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i502900&code=kc_age_50",
+        "title": "이산가족 만남 1985",
+        "publisher": "국사편찬위원회 우리역사넷",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1985년의 한 차례 고향방문단 교류를 거쳐 2000년 이후부터 정기적인 이산가족 상봉이 이루어졌다.",
+        "local_evidence_path": "evidence/hist_reunion1985.txt"
+      },
+      {
+        "claim": "1971 적십자 회담 시작",
+        "url": "https://encykorea.aks.ac.kr/Article/E0011932",
+        "title": "남북적십자회담",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1971년 8월 12일 최두선(崔斗善) 대한적십자사(약칭: 한적) 총재의 ‘남북이산가족찾기운동’ 제의로 성립되었다.",
+        "local_evidence_path": "evidence/ek_redcross_talks.txt"
+      },
+      {
+        "claim": "민간 기념→2013 발의→2023.3 지정",
+        "url": "https://www.unikorea.go.kr/web/unikorea/bbs/bbs_0000000000000004/55219",
+        "title": "아픔과 그리움, 함께 나누고 해결하겠습니다(제1회 이산가족의 날 기념행사 개최)",
+        "publisher": "통일부",
+        "accessed_at": "2026-10-11",
+        "quote_original": "그동안 민간 차원에서 기념해 오던 ‘이산가족의 날’이 올해 3월, 10",
+        "local_evidence_path": "evidence/unikorea_sepday.txt"
+      },
+      {
+        "claim": "2013 최초 발의",
+        "url": "https://www.unikorea.go.kr/web/unikorea/bbs/bbs_0000000000000004/55219",
+        "title": "아픔과 그리움, 함께 나누고 해결하겠습니다(제1회 이산가족의 날 기념행사 개최)",
+        "publisher": "통일부",
+        "accessed_at": "2026-10-11",
+        "quote_original": "’13년 최초 발의, ’23년 3월 발효",
+        "local_evidence_path": "evidence/unikorea_sepday.txt"
+      },
+      {
+        "claim": "2023.3.28 공포로 지정",
+        "url": "https://m.korea.kr/briefing/pressReleaseView.do?newsId=156559480",
+        "title": "이산가족의 날(추석 전전날), 국가기념일로 지정",
+        "publisher": "통일부(정책브리핑)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "3월 28일(화) ｢남북 이산가족 생사확인 및 교류 촉진에 관한 법률｣ 개정안이 공포됨에 따라",
+        "local_evidence_path": "evidence/korea_sepday_press.txt"
+      },
+      {
+        "claim": "실태조사 43.4% 추석 전전날",
+        "url": "https://m.korea.kr/briefing/pressReleaseView.do?newsId=156559480",
+        "title": "이산가족의 날(추석 전전날), 국가기념일로 지정",
+        "publisher": "통일부(정책브리핑)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "‘이산가족 기념일 지정 시 희망 날짜’ 문항에 응답자의 43.4%가 ‘추석 전전날’ 선택",
+        "local_evidence_path": "evidence/korea_sepday_press.txt"
+      },
+      {
+        "claim": "2021 제3차 실태조사 반영",
+        "url": "https://m.korea.kr/briefing/pressReleaseView.do?newsId=156559480",
+        "title": "이산가족의 날(추석 전전날), 국가기념일로 지정",
+        "publisher": "통일부(정책브리핑)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "기념일 날짜는 2021년에 실시한 제3차 남북 이산가족 실태조사 결과*를 반영하여 추석 전전날로 정하였습니다.",
+        "local_evidence_path": "evidence/korea_sepday_press.txt"
+      },
+      {
+        "claim": "제1회 기념식 9.27 개최(실제 개최 보도)",
+        "url": "https://www.seoul.co.kr/news/politics/2023/09/28/20230928020005",
+        "title": "제1회 이산가족의 날 기념식… 김영호 “北, 책임 있는 태도 보여야”",
+        "publisher": "서울신문",
+        "accessed_at": "2026-10-11",
+        "quote_original": "‘이산가족의 날’ 첫 번째 기념식이 27일 열렸다.",
+        "local_evidence_path": "evidence/seoul_sepday_2023.txt"
+      },
+      {
+        "claim": "1982 민간 이산가족의 날",
+        "url": "https://encykorea.aks.ac.kr/Article/E0011932",
+        "title": "남북적십자회담",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "남한에 거주하는 북한 출신 이산가족들은 1982년 8월 12일을 이산가족의 날로 제정",
+        "local_evidence_path": "evidence/ek_redcross_talks.txt"
+      },
+      {
+        "claim": "신청자·사망자",
+        "url": "https://www.yna.co.kr/view/AKR20260115055900504",
+        "title": "이산가족 사망자 10만명 넘어…생존자는 3만4천여명",
+        "publisher": "연합뉴스(통일부 집계 인용)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "15일 통일부에 따르면 작년 말 기준 이산가족 신청자 총 13만4천516명 가운데 사망자는 10만148명으로 파악됐다.",
+        "local_evidence_path": "evidence/yna_sep_2026.txt"
+      },
+      {
+        "claim": "생존 3만4368명",
+        "url": "https://www.yna.co.kr/view/AKR20260115055900504",
+        "title": "이산가족 사망자 10만명 넘어…생존자는 3만4천여명",
+        "publisher": "연합뉴스(통일부 집계 인용)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "생존 인원은 3만4천368명으로 줄었다.",
+        "local_evidence_path": "evidence/yna_sep_2026.txt"
+      },
+      {
+        "claim": "매달 평균 200여 명",
+        "url": "https://www.yna.co.kr/view/AKR20260115055900504",
+        "title": "이산가족 사망자 10만명 넘어…생존자는 3만4천여명",
+        "publisher": "연합뉴스(통일부 집계 인용)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "북에 가족을 둔 채 눈을 감는 이산가족은 매달 평균 200여 명이고",
+        "local_evidence_path": "evidence/yna_sep_2026.txt"
+      },
+      {
+        "claim": "당국 상봉 2018.8 마지막",
+        "url": "https://www.yna.co.kr/view/AKR20260115055900504",
+        "title": "이산가족 사망자 10만명 넘어…생존자는 3만4천여명",
+        "publisher": "연합뉴스(통일부 집계 인용)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "당국 차원의 이산가족 상봉과 생사확인은 2018년 8월이 마지막이었다.",
+        "local_evidence_path": "evidence/yna_sep_2026.txt"
+      },
+      {
+        "claim": "최고령 104세 참석",
+        "url": "https://www.seoul.co.kr/news/politics/2023/09/28/20230928020005",
+        "title": "제1회 이산가족의 날 기념식… 김영호 “北, 책임 있는 태도 보여야”",
+        "publisher": "서울신문",
+        "accessed_at": "2026-10-11",
+        "quote_original": "104세 최고령 이산가족 송용순씨",
+        "local_evidence_path": "evidence/seoul_sepday_2023.txt"
+      },
+      {
+        "claim": "2·3세대 결의문",
+        "url": "https://www.unikorea.go.kr/web/unikorea/bbs/bbs_0000000000000004/55219",
+        "title": "아픔과 그리움, 함께 나누고 해결하겠습니다(제1회 이산가족의 날 기념행사 개최)",
+        "publisher": "통일부",
+        "accessed_at": "2026-10-11",
+        "quote_original": "대표가 이산가족 생사확인을 북한에 촉구하는 내용 등의 결의문을 발표하고",
+        "local_evidence_path": "evidence/unikorea_sepday.txt"
+      }
+    ],
+    "corrections_to_existing": [
+      "날짜 확인: 법 제12조의2 '추석 전전(前前)날(음력 8월 13일)' — 기존 텍스트 정확. 브리프의 '추석 전날'은 법문과 다름. id의 'minus1'도 법문과 불일치하나 date 필드(chuseok:-2)는 법문과 일치(변경하지 않음)",
+      "기존 '생존자는 4만 명 안팎' → 2025년 말 기준 3만 4,368명(연합뉴스, 통일부 집계)으로 갱신",
+      "기존 '민간에서는 1982년부터 대한적십자사가 남북적십자회담을 제의한 날인 8월 12일을' → 백과사전 기준 민간 제정 주체는 '북한 출신 이산가족들'; 적십자 제의일은 1971.8.12",
+      "제1회 기념식 2023.9.27 개최 확인(통일부, 서울신문)"
+    ],
+    "notes": "이산가족 통계는 2025년 말 기준 — 게시 시점에 갱신 필요할 수 있음."
+  },
+  "anv-fixed-08-12-separated-families-day-private-kr": {
+    "name": "이산가족의 날(민간)",
+    "date": "08-12",
+    "origin": "8월 12일 '이산가족의 날'은 정부가 아니라 민간에서 지켜 온 기념일이다. 한국민족문화대백과사전은 남한에 사는 북한 출신 이산가족들이 1982년 8월 12일을 이산가족의 날로 정하고, 같은 해 12월 '1000만 이산가족 재회 추진위원회'를 사단법인으로 결성했다고 기록한다. 이 날짜는 1971년 대한적십자사가 북한에 이산가족 찾기를 제의한 날과 같다. 그해 8월 12일 최두선 대한적십자사 총재는 특별성명을 내고 남북 이산가족의 비극을 '금세기 인류의 상징적 비극'이라 부르며, 통일이 당장 어렵다면 적어도 이산가족의 실태를 파악하고 소식을 전하며 재회를 주선하는 가족찾기운동부터 하자고 제안했다. 북한 측이 8월 14일 수락 뜻을 밝히면서 판문점에서 예비회담이 열렸고, 이후 남북적십자회담이 서울과 평양을 오가며 진행됐다. 다만 1982년 민간 기념일을 정하며 이 날짜를 고른 이유를 직접 밝힌 기록은 찾기 어렵다.",
+    "anecdote": "지금은 '이산가족의 날'이 두 개다. 2023년 3월 법 개정으로 추석 전전날(음력 8월 13일)이 정부의 법정기념일 '이산가족의 날'이 됐기 때문이다. 통일부는 그동안 민간 차원에서 기념해 오던 이산가족의 날이 국가기념일로 지정됐다고 설명했다. 그러니 8월 12일은 민간 기념일의 날짜이고, 정부 공식 기념식은 추석 무렵에 열린다고 구분하면 된다. 1971년 제의로 시작된 남북적십자회담은 북한 측의 정치 문제 제기로 여러 차례 중단됐지만, 우리역사넷은 이 회담이 오랫동안 끊겼던 남북 간 접촉을 열었다는 점에서 의미가 크다고 설명한다. 회담은 1985년 남북 고향방문단 교류로 이어졌다. 오늘날 이산가족 찾기를 신청한 사람의 대부분은 이미 세상을 떠났다. 8월 12일은 반세기 전 '가족을 찾자'는 제안을 떠올리는 날로 읽을 수 있다.",
+    "sourceUrl": "https://encykorea.aks.ac.kr/Article/E0011932",
+    "previous_sourceUrl": null,
+    "char_counts": {
+      "origin": 459,
+      "anecdote": 413,
+      "total": 872,
+      "previous_total": 321
+    },
+    "evidence": [
+      {
+        "claim": "1982 북한 출신 이산가족이 8.12 제정, 12.20 재회추진위 결성",
+        "url": "https://encykorea.aks.ac.kr/Article/E0011932",
+        "title": "남북적십자회담",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "남한에 거주하는 북한 출신 이산가족들은 1982년 8월 12일을 이산가족의 날로 제정, 같은 해 12월 20일에는 ‘1000만 이산가족 재회 추진위원회’(사단법인)를 결성하였다.",
+        "local_evidence_path": "evidence/ek_redcross_talks.txt"
+      },
+      {
+        "claim": "1971.8.12 최두선 특별성명",
+        "url": "https://encykorea.aks.ac.kr/Article/E0011932",
+        "title": "남북적십자회담",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1971년 8월 12일, 대한적십자사최두선 총재는 특별성명을 발표, “남북이산가족들의 비극은 금세기 인류의 상징적 비극”이라고 하면서",
+        "local_evidence_path": "evidence/ek_redcross_talks.txt"
+      },
+      {
+        "claim": "가족찾기운동 제의 내용",
+        "url": "https://encykorea.aks.ac.kr/Article/E0011932",
+        "title": "남북적십자회담",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "적어도 1000만 이산가족들의 실태를 파악하고 소식을 전해 주며 재회를 알선하는 가족찾기운동만이라도 우선 전개할 것”을 북한에게 제의했다.",
+        "local_evidence_path": "evidence/ek_redcross_talks.txt"
+      },
+      {
+        "claim": "북측 8.14 수락, 판문점 예비회담",
+        "url": "https://encykorea.aks.ac.kr/Article/E0011932",
+        "title": "남북적십자회담",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "북측은 그 해 8월 14일, 평양방송으로 이를 수락할 뜻을 밝히고",
+        "local_evidence_path": "evidence/ek_redcross_talks.txt"
+      },
+      {
+        "claim": "판문점 예비회담 합의",
+        "url": "https://encykorea.aks.ac.kr/Article/E0011932",
+        "title": "남북적십자회담",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "판문점에서 5차례의 파견원 접촉이 이루어지고, 이어 판문점에서 예비회담을 개회하는 데 합의하였다.",
+        "local_evidence_path": "evidence/ek_redcross_talks.txt"
+      },
+      {
+        "claim": "서울·평양 교대 회담",
+        "url": "https://encykorea.aks.ac.kr/Article/E0011932",
+        "title": "남북적십자회담",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "서울과 평양에서 교대로 회담을 개최하였다.",
+        "local_evidence_path": "evidence/ek_redcross_talks.txt"
+      },
+      {
+        "claim": "2023 법정기념일(추석 전전날)",
+        "url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=259607&efYd=20240807&chrClsCd=010202&ancYnChk=0",
+        "title": "남북 이산가족 생사확인 및 교류 촉진에 관한 법률",
+        "publisher": "법제처 국가법령정보센터",
+        "accessed_at": "2026-10-11",
+        "quote_original": "매년 추석 전전(前前)날(음력 8월 13일)을 이산가족의 날로 한다.",
+        "local_evidence_path": "evidence/law_separated.txt"
+      },
+      {
+        "claim": "통일부: 민간 기념→국가기념일",
+        "url": "https://www.unikorea.go.kr/web/unikorea/bbs/bbs_0000000000000004/55219",
+        "title": "아픔과 그리움, 함께 나누고 해결하겠습니다(제1회 이산가족의 날 기념행사 개최)",
+        "publisher": "통일부",
+        "accessed_at": "2026-10-11",
+        "quote_original": "그동안 민간 차원에서 기념해 오던 ‘이산가족의 날’이 올해 3월, 10",
+        "local_evidence_path": "evidence/unikorea_sepday.txt"
+      },
+      {
+        "claim": "북측 정치문제 제기로 중단",
+        "url": "https://encykorea.aks.ac.kr/Article/E0011932",
+        "title": "남북적십자회담",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "회담은 북한적십자회(약칭: 북적)측의 정치문제 제기로 말미암아 아무런 실질적 해결도 보지 못했으며, 그 동안 수많은 회담 중단사태만을 거듭해 오고 있다.",
+        "local_evidence_path": "evidence/ek_redcross_talks.txt"
+      },
+      {
+        "claim": "남북 간 접촉을 연 의미",
+        "url": "https://contents.history.go.kr/mobile/ta/view.do?levelId=ta_m71_0110_0030_0020_0020",
+        "title": "남북 적십자 회담(중학교 국사 7차)",
+        "publisher": "국사편찬위원회 우리역사넷",
+        "accessed_at": "2026-10-11",
+        "quote_original": "남북 적십자 회담 은 오랫동안 단절되었던 남북 간의 접촉을 열었다는 점이나",
+        "local_evidence_path": "evidence/hist_redcross.txt"
+      },
+      {
+        "claim": "1985 고향방문단",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i502900&code=kc_age_50",
+        "title": "이산가족 만남 1985",
+        "publisher": "국사편찬위원회 우리역사넷",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1985년의 한 차례 고향방문단 교류를 거쳐",
+        "local_evidence_path": "evidence/hist_reunion1985.txt"
+      },
+      {
+        "claim": "신청자 대부분 사망",
+        "url": "https://www.yna.co.kr/view/AKR20260115055900504",
+        "title": "이산가족 사망자 10만명 넘어…생존자는 3만4천여명",
+        "publisher": "연합뉴스(통일부 집계 인용)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "15일 통일부에 따르면 작년 말 기준 이산가족 신청자 총 13만4천516명 가운데 사망자는 10만148명으로 파악됐다.",
+        "local_evidence_path": "evidence/yna_sep_2026.txt"
+      }
+    ],
+    "corrections_to_existing": [
+      "[중요] 기존 '이북5도민회중앙연합회 등 민간단체가 1982년부터' 주체 미확인 → 백과사전 '남한에 거주하는 북한 출신 이산가족들'로 교체",
+      "기존 '두 날 모두 통일부와 대한적십자사가 관련 행사를 지원하며, 상봉 신청 접수도 이 시기에 맞춰 안내' 삭제(근거 미확인)",
+      "기존 '분단 이후 최초로 이산가족 문제를 공식 의제로 꺼낸 시도' 단정 삭제 → 우리역사넷 '오랫동안 단절되었던 남북 간의 접촉을 열었다'로 대체",
+      "날짜 선정 이유(1971 제의 기념) 직접 근거 없음 → 날짜 일치만 서술하고 이유 미확인을 본문에 명시",
+      "sourceUrl 기존 null → 한국민족문화대백과사전 '남북적십자회담' 제안"
+    ],
+    "notes": "민간 기념일 원 제정 주체·현재 기념 활동은 1차 출처 미확보 — 의도적으로 짧게(총 872자) 유지. 날짜 선정 이유 미확인을 본문에 명시함."
+  },
+  "gov-101": {
+    "name": "일본군 위안부 피해자 기림의 날",
+    "date": "08-14",
+    "origin": "일본군 위안부 피해자 기림의 날은 1991년 8월 14일 김학순 할머니가 일본군 '위안부' 피해 사실을 한국인으로서는 처음 공개 증언한 것을 기려 정한 법정기념일이다. 법률에서 '일본군위안부 피해'는 일제에 의해 강제로 동원돼 성적 학대를 받으며 위안부로서의 생활을 강요당해 입은 피해를 뜻한다. 김학순은 1924년 만주 지린에서 태어났고, 1941년 일본군에 넘겨져 '위안부' 생활을 강요당했다. 해방 뒤 귀국해 날품팔이와 행상 등으로 어렵게 살던 그는 1990년 6월 일본이 군 위안부 문제에 관여하지 않았다고 발표하자 분노해 증언을 결심했다. 1991년 8월 14일 오후 한국여성단체연합 사무실에서 열린 기자회견에서 그는 자신이 피해자임을 밝혔다. 2012년 12월 대만 타이베이에서 열린 제11차 일본군 '위안부' 문제 해결을 위한 아시아연대회의는 이날을 '세계 일본군 위안부 기림일'로 정했다. 이어 2017년 12월 「일제하 일본군위안부 피해자에 대한 보호·지원 및 기념사업 등에 관한 법률」이 개정되면서 8월 14일이 국가기념일이 됐다.",
+    "anecdote": "법은 이날을 일본군 위안부 문제를 국내외에 알리고 피해자를 기리기 위한 날로 정하고, 국가와 지방자치단체가 취지에 맞는 행사와 홍보를 하도록 노력해야 한다고 규정한다. 광복절 하루 전날이라 함께 떠올리기 쉽지만 기리는 대상과 의미는 다르다. 김학순의 증언은 한일 두 나라에서 큰 반향을 일으켰고, 이후 다른 피해 생존자들의 증언이 잇따랐다. 그는 같은 해 12월 다른 피해자들과 함께 일본 정부를 상대로 소송을 냈고, 1992년에는 일본 법정에서 증언했다. 한국민족문화대백과사전은 이 활동이 1993년 고노 요헤이 일본 관방장관이 위안부 피해자에게 사죄하는 계기가 됐다고 설명한다. 김학순은 1997년 12월 일본 정부의 진심 어린 사죄를 받아 달라는 유언을 남기고 세상을 떠났다. 정부에 등록된 피해자는 모두 240명이며, 성평등가족부에 따르면 2026년 3월 기준 생존자는 5명이다. 피해자가 직접 증언할 수 있는 시간이 줄어드는 만큼 기록과 기억의 의미는 더 커지고 있다.",
+    "sourceUrl": "https://www.law.go.kr/법령/일제하일본군위안부피해자에대한보호ㆍ지원및기념사업등에관한법률",
+    "previous_sourceUrl": "https://www.law.go.kr/법령/일제하일본군위안부피해자에대한보호지원및기념사업등에관한법률",
+    "char_counts": {
+      "origin": 531,
+      "anecdote": 491,
+      "total": 1022,
+      "previous_total": 321
+    },
+    "evidence": [
+      {
+        "claim": "8.14 기림의 날 법정 규정",
+        "url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=283959&efYd=20260611&chrClsCd=010202&ancYnChk=0",
+        "title": "일제하 일본군위안부 피해자에 대한 보호ㆍ지원 및 기념사업 등에 관한 법률",
+        "publisher": "법제처 국가법령정보센터",
+        "accessed_at": "2026-10-11",
+        "quote_original": "제11조의2(일본군위안부 피해자 기림의 날) ① 일본군위안부 문제를 국내외에 알리고 일본군위안부 피해자를 기리기 위하여 매년 8월 14일을 일본군위안부 피해자 기림의 날로 한다.",
+        "local_evidence_path": "evidence/law_comfort.txt"
+      },
+      {
+        "claim": "국가·지자체 노력 의무",
+        "url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=283959&efYd=20260611&chrClsCd=010202&ancYnChk=0",
+        "title": "일제하 일본군위안부 피해자에 대한 보호ㆍ지원 및 기념사업 등에 관한 법률",
+        "publisher": "법제처 국가법령정보센터",
+        "accessed_at": "2026-10-11",
+        "quote_original": "② 국가와 지방자치단체는 제1항에 따른 일본군위안부 피해자 기림의 날의 취지에 맞는 행사와 홍보를 실시하도록 노력하여야 한다.",
+        "local_evidence_path": "evidence/law_comfort.txt"
+      },
+      {
+        "claim": "본조신설 2017.12.12",
+        "url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=283959&efYd=20260611&chrClsCd=010202&ancYnChk=0",
+        "title": "일제하 일본군위안부 피해자에 대한 보호ㆍ지원 및 기념사업 등에 관한 법률",
+        "publisher": "법제처 국가법령정보센터",
+        "accessed_at": "2026-10-11",
+        "quote_original": "[본조신설 2017. 12. 12.]",
+        "local_evidence_path": "evidence/law_comfort.txt"
+      },
+      {
+        "claim": "법률상 피해 정의",
+        "url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=283959&efYd=20260611&chrClsCd=010202&ancYnChk=0",
+        "title": "일제하 일본군위안부 피해자에 대한 보호ㆍ지원 및 기념사업 등에 관한 법률",
+        "publisher": "법제처 국가법령정보센터",
+        "accessed_at": "2026-10-11",
+        "quote_original": "“일본군위안부 피해”란 일제에 의하여 강제로 동원되어 성적(性的) 학대를 받으며 위안부로서의 생활을 강요당하여 입은 피해를 말한다.",
+        "local_evidence_path": "evidence/law_comfort.txt"
+      },
+      {
+        "claim": "1991.8.14 최초 공개 증언",
+        "url": "https://encykorea.aks.ac.kr/Article/E0079000",
+        "title": "김학순",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1991년 8월 14일 일본군 ‘위안부’였음을 최초로 공개 증언하였다.",
+        "local_evidence_path": "evidence/ek_kimhaksoon.txt"
+      },
+      {
+        "claim": "한국인 최초 공개 증언",
+        "url": "https://encykorea.aks.ac.kr/Article/E0079000",
+        "title": "김학순",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1991년 일본군 위안부 피해 사실을 한국인 최초로 공개 증언한 인물.",
+        "local_evidence_path": "evidence/ek_kimhaksoon.txt"
+      },
+      {
+        "claim": "1924 지린 출생, 1941 일본군에 넘겨짐",
+        "url": "https://encykorea.aks.ac.kr/Article/E0079000",
+        "title": "김학순",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "김학순(金學順)은 1924년 중국 만주의 지린〔吉林〕에서 태어났다.",
+        "local_evidence_path": "evidence/ek_kimhaksoon.txt"
+      },
+      {
+        "claim": "1941 위안부 생활",
+        "url": "https://encykorea.aks.ac.kr/Article/E0079000",
+        "title": "김학순",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1941년 양아버지가 일본군에 넘겨 만주에서 ‘ 위안부 ’ 생활을 하게 되었다.",
+        "local_evidence_path": "evidence/ek_kimhaksoon.txt"
+      },
+      {
+        "claim": "귀국 후 생활, 1990.6 일본 발표에 증언 결심",
+        "url": "https://encykorea.aks.ac.kr/Article/E0079000",
+        "title": "김학순",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "이후 날품팔이, 행상, 파출부 생활을 하며 지내다가 1990년 6월 일본이 군 위안부 문제에 관여하지 않았다고 발표하자 분노해 증언을 결심하였다.",
+        "local_evidence_path": "evidence/ek_kimhaksoon.txt"
+      },
+      {
+        "claim": "기자회견 장소·시각",
+        "url": "https://kyeol.kr/ko/node/180",
+        "title": "기림의 날에 기억하는 김학순과 그녀의 증언",
+        "publisher": "일본군 위안부 문제연구소 웹진 결",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1991년 8월 14일 오후 한국여성단체연합 사무실에서 개최된 기자회견에서 김학순은 자신이 일본군 ‘위안부’로 강제 동원되었던 피해자임을 폭로했다.",
+        "local_evidence_path": "evidence/kyeol_kimhaksoon.txt"
+      },
+      {
+        "claim": "2012.12 제11차 아시아연대회의 기림일 선포",
+        "url": "https://www.womenandwar.net/remembrance",
+        "title": "기억·기림 - 세계일본군위안부기림일",
+        "publisher": "정의기억연대",
+        "accessed_at": "2026-10-11",
+        "quote_original": "2012년 12월, 제11차 일본군 위안부 문제 해결을 위한 아시아연대회의에 참석한 8개 아시아 피해국 피해자 및 지원단체 활동가들은 고 김학순할머니가 피해사실을 공개증언한 날인 8월 14일을 세계 일본군‘위안부’ 기림일로 선포하였습니다.",
+        "local_evidence_path": "evidence/wav_remembrance.txt"
+      },
+      {
+        "claim": "회의 개최지 대만 타이베이, 2012.12.8~10",
+        "url": "https://archives.womenandwar.net/collections/conf11",
+        "title": "제11차 아시아연대회의 컬렉션",
+        "publisher": "전쟁과여성인권아카이브(정의기억연대)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "대만(타이페이)",
+        "local_evidence_path": "evidence/archives_wav_conf11.txt"
+      },
+      {
+        "claim": "회의 일시",
+        "url": "https://archives.womenandwar.net/collections/conf11",
+        "title": "제11차 아시아연대회의 컬렉션",
+        "publisher": "전쟁과여성인권아카이브(정의기억연대)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "2012년 12월 8일~10일",
+        "local_evidence_path": "evidence/archives_wav_conf11.txt"
+      },
+      {
+        "claim": "2017.12 국가기념일 지정",
+        "url": "https://www.womenandwar.net/remembrance",
+        "title": "기억·기림 - 세계일본군위안부기림일",
+        "publisher": "정의기억연대",
+        "accessed_at": "2026-10-11",
+        "quote_original": "대한민국 정부는 2017년 12월 일본군’위안부’피해자의 명예회복을 위해 8월14일을 국가기념일(일본군’위안부’피해자 기림의 날)로 지정하고",
+        "local_evidence_path": "evidence/wav_remembrance.txt"
+      },
+      {
+        "claim": "증언의 반향, 이어진 증언",
+        "url": "https://encykorea.aks.ac.kr/Article/E0079000",
+        "title": "김학순",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "그의 증언은 한일 양국에서 폭발적인 반응을 불러일으켰고",
+        "local_evidence_path": "evidence/ek_kimhaksoon.txt"
+      },
+      {
+        "claim": "다른 생존자 증언 이어짐",
+        "url": "https://encykorea.aks.ac.kr/Article/E0079000",
+        "title": "김학순",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "김학순의 이러한 활동에 다른 피해 생존자의 증언이 이어졌으며",
+        "local_evidence_path": "evidence/ek_kimhaksoon.txt"
+      },
+      {
+        "claim": "12월 소송",
+        "url": "https://encykorea.aks.ac.kr/Article/E0079000",
+        "title": "김학순",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "같은 해 12월, 다른 두 명의 피해자와 함께 일본 정부를 상대로 한 아시아 태평양전쟁 주1 한국인 희생자 보상 청구 소송을 제기하자",
+        "local_evidence_path": "evidence/ek_kimhaksoon.txt"
+      },
+      {
+        "claim": "1992 일본 법정 증언 → 1993 고노 사죄 계기",
+        "url": "https://encykorea.aks.ac.kr/Article/E0079000",
+        "title": "김학순",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1992년에는 일본 법정에서 일본의 만행을 증언함으로써 1993년 고노 요헤이〔河野洋平〕 관방장관이 일본군 ‘위안부’에게 사죄하는 계기가 되었다.",
+        "local_evidence_path": "evidence/ek_kimhaksoon.txt"
+      },
+      {
+        "claim": "1997.12 유언과 별세",
+        "url": "https://encykorea.aks.ac.kr/Article/E0079000",
+        "title": "김학순",
+        "publisher": "한국학중앙연구원 한국민족문화대백과사전",
+        "accessed_at": "2026-10-11",
+        "quote_original": "일본 정부의 진심 어린 사죄를 받아 달라는 유언을 남긴 채 1997년 12월 16일 폐질환으로 서울 동대문 이화여대부속병원에서 사망하였다.",
+        "local_evidence_path": "evidence/ek_kimhaksoon.txt"
+      },
+      {
+        "claim": "등록 240명, 2026.3 생존 5명",
+        "url": "https://www.seoul.co.kr/news/society/2026/03/29/20260329500007",
+        "title": "일본군 ‘위안부’ 생존 피해자 이제 5명…할머니 한 분 별세",
+        "publisher": "서울신문(성평등가족부 발표 인용)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "성평등가족부에 따르면 올해 3월 기준 정부에 등록된 일본군 ‘위안부’ 피해자는 총 240명으로, 이 중 235명이 사망하고 5명이 생존해 있다.",
+        "local_evidence_path": "evidence/seoul_comfort_2026.txt"
+      }
+    ],
+    "corrections_to_existing": [
+      "기존 '증언 당시 예순일곱' 삭제: 1924년생으로 만 나이 산정이 생일에 따라 달라 확정 불가",
+      "기존 '2012년 ... 아시아연대회의가 정했다' 유지·구체화(2012.12.8~10 타이베이 제11차). 참고: 백과사전은 '2012년 8월 14일'로 서술해 정의연·아카이브 자료(12월)와 다름 → 12월 채택",
+      "기존 '각국에 세워진 소녀상', '수요집회가 이날 전후 더 큰 규모' 삭제(근거 미확인)",
+      "기존 '생존자는 이제 손에 꼽으며' → 2026년 3월 기준 5명(성평등가족부 발표, 서울신문)으로 구체화. 이후 변동 가능",
+      "법 개정 2017.12.12 공포, 부칙상 공포 후 6개월 경과 시행"
+    ],
+    "notes": "생존자 수(2026.3 기준 5명)는 변동 가능 — 게시 전 성평등가족부 최신 발표 확인 권장. 용어는 법률 정의를 인용해 중립 서술."
+  },
+  "anv-fixed-10-25-dokdo-day-kr": {
+    "name": "독도의 날",
+    "date": "10-25",
+    "origin": "독도의 날은 1900년 10월 25일 대한제국 고종 황제가 「칙령 제41호」를 재가해 울릉도를 울도군으로 개편하고 석도(石島), 곧 독도를 그 관할 구역으로 명시한 일을 기념하는 날이다. 19세기 말 일본인들이 울릉도에서 나무를 함부로 베어 가는 등 문제가 잇따르자, 대한제국 정부는 일본에 이들의 철수를 요구하는 한편 울릉도의 지방행정 체제를 강화하기로 했다. 1900년 10월 24일 당시 최고 행정기관인 의정부 회의에서 울릉도를 울도로 고치고 섬을 관리하던 도감(島監)을 군수로 바꾸기로 결정했고, 다음 날 고종의 재가를 받아 10월 27일 관보에 실었다. 칙령 제2조는 울도군의 구역을 '울릉전도와 죽도·석도'로 정했다. 외교부는 이 칙령이 대한제국 정부가 울릉도의 일부로서 독도에 대해 주권을 행사해 온 역사적 사실을 분명히 보여 준다는 입장이다. 기념일로서의 독도의 날은 정부가 아니라 2000년 민간단체 독도수호대가 칙령 제정일을 기려 제안하면서 시작됐다.",
+    "anecdote": "독도의 날은 법률이나 대통령령으로 정한 국가기념일이 아니다. 정부 기념일을 정한 「각종 기념일 등에 관한 규정」의 목록에도 들어 있지 않다. 독도수호대는 2004년부터 국가기념일 지정을 위한 서명운동과 국회 청원을 벌였고, 국회에서도 지정 법안이 여러 차례 발의됐지만 아직 법정기념일이 되지는 못했다. 경상북도는 2005년 일본 시마네현 의회가 2월 22일을 '다케시마의 날'로 정하자 이에 대응해 조례로 10월을 '독도의 달'로 정했다. 일본이 독도 편입의 근거로 내세우는 1905년 '시마네현 고시 제40호'에 대해 외교부는 러일전쟁 중 한국 국권을 단계적으로 침탈하는 과정의 일환이자 불법 행위로, 국제법적 효력을 가질 수 없다는 입장이다. 독도에는 독도경비대원, 등대관리원, 울릉군 독도관리사무소 직원이 머문다. 1965년 최종덕 씨가 처음 거주한 뒤 거주민이 이어졌지만, 2026년 3월 마지막 주민 김신열 씨가 별세하면서 지금은 독도에 주소를 둔 주민이 없다.",
+    "sourceUrl": "https://dokdo.mofa.go.kr/m/kor/dokdo/faq08.jsp",
+    "previous_sourceUrl": "https://ko.wikipedia.org/wiki/독도의_날",
+    "char_counts": {
+      "origin": 486,
+      "anecdote": 487,
+      "total": 973,
+      "previous_total": 345
+    },
+    "evidence": [
+      {
+        "claim": "19세기 말 일본인 무단 벌채, 철수 요구, 행정 강화",
+        "url": "https://dokdo.mofa.go.kr/m/kor/dokdo/faq08.jsp",
+        "title": "독도에 관한 일문일답 - 칙령 제41호",
+        "publisher": "외교부",
+        "accessed_at": "2026-10-11",
+        "quote_original": "19세기 말 일본인들이 울릉도에서 무단으로 목재를 벌채하는 등 각종 문제가 발생하자, 대한제국 정부는 일본 정부에 이들을 철수시킬 것을 요구하는 한편, 울릉도의 지방행정 법제를 강화하기로 결정하였습니다.",
+        "local_evidence_path": "evidence/mofa_faq08.txt"
+      },
+      {
+        "claim": "10.24 의정부 결정, 10.25 재가, 10.27 관보",
+        "url": "https://dokdo.mofa.go.kr/m/kor/dokdo/faq08.jsp",
+        "title": "독도에 관한 일문일답 - 칙령 제41호",
+        "publisher": "외교부",
+        "accessed_at": "2026-10-11",
+        "quote_original": "이에 따라 1900년 10월 24일 당시 대한제국 최고 행정기관이었던 의정부회의에서 “울릉도(鬱陵島)를 울도(鬱島)로 개칭하고 도감(島監)을 군수(郡守)로 개정”하기로 결정하였고, 이러한 결정 내용은 1900년 10월 25일 고종황제의 재가를 받아 10월 27일 「칙령 제41호」로서 관보에 게재되었습니다.",
+        "local_evidence_path": "evidence/mofa_faq08.txt"
+      },
+      {
+        "claim": "제2조 울릉전도·죽도·석도 관할",
+        "url": "https://dokdo.mofa.go.kr/m/kor/dokdo/faq08.jsp",
+        "title": "독도에 관한 일문일답 - 칙령 제41호",
+        "publisher": "외교부",
+        "accessed_at": "2026-10-11",
+        "quote_original": "「칙령 제41호」는 제2조에서 “…구역(區域)은 울릉전도(鬱陵全島)와 죽도(竹島)·석도(石島: 독도)를 관할한다”라고 규정하여 독도가 울도군의 관할구역에 속함을 명시했습니다.",
+        "local_evidence_path": "evidence/mofa_faq08.txt"
+      },
+      {
+        "claim": "외교부 입장",
+        "url": "https://dokdo.mofa.go.kr/m/kor/dokdo/faq08.jsp",
+        "title": "독도에 관한 일문일답 - 칙령 제41호",
+        "publisher": "외교부",
+        "accessed_at": "2026-10-11",
+        "quote_original": "이와 같이「칙령 제41호」는 대한제국 정부가 울릉도의 일부로서 독도에 대해 주권을 행사해온 역사적 사실을 명확히 하고 있습니다.",
+        "local_evidence_path": "evidence/mofa_faq08.txt"
+      },
+      {
+        "claim": "2000 독도수호대 제안",
+        "url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=943583",
+        "title": "'독도의 날' 의미를 아시나요",
+        "publisher": "경북일보",
+        "accessed_at": "2026-10-11",
+        "quote_original": "독도의 날 제정 배경은 독도 수호운동을 하고 있는 민간단체인 독도수호대(獨島守護隊)가 지난 2000년에 독도의 날 지정을 제안했다.",
+        "local_evidence_path": "evidence/kyongbuk_dokdo_day.txt"
+      },
+      {
+        "claim": "2004 서명운동, 2008 국회청원",
+        "url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=943583",
+        "title": "'독도의 날' 의미를 아시나요",
+        "publisher": "경북일보",
+        "accessed_at": "2026-10-11",
+        "quote_original": "2004년부터는 독도의 날을 국가기념일로 제정하기 위한 서명운동과 2008년에는 국가기념일로 제정하기 위한 국회청원활동도 시작했다.",
+        "local_evidence_path": "evidence/kyongbuk_dokdo_day.txt"
+      },
+      {
+        "claim": "지정 법안 발의(2008)",
+        "url": "https://www.gne.go.kr/history/user/bbs/BD_selectBbs.do?q_bbsSn=1400&q_bbsDocNo=985562",
+        "title": "역사·독도·통일교육 교수학습자료 - 독도의날",
+        "publisher": "경상남도교육청(게시 자료)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "2008년 8월 22일 박주선 의원 외 9인이 독도의날 제정에 관한 법률안 발의",
+        "local_evidence_path": "evidence/gne_dokdo_day.txt"
+      },
+      {
+        "claim": "지정 법안 발의(2024)",
+        "url": "https://www.yna.co.kr/view/AKR20240906096000001",
+        "title": "野김준혁, '독도의날' 국가기념일 지정 법안 발의",
+        "publisher": "연합뉴스",
+        "accessed_at": "2026-10-11",
+        "quote_original": "더불어민주당 김준혁 의원은 6일 '독도의 날'(10월 25일)을 국가 기념일로 지정하는 내용의 독도의 지속가능한 이용에 관한 법률 개정안을 발의한다고 밝혔다.",
+        "local_evidence_path": "evidence/yna_dokdo_bill_2024.txt"
+      },
+      {
+        "claim": "경북 2005.7.4 조례 독도의 달",
+        "url": "https://www.yna.co.kr/view/AKR20261011014500053",
+        "title": "'10월은 독도의 달'…경북서 다양한 기념행사",
+        "publisher": "연합뉴스",
+        "accessed_at": "2026-10-11",
+        "quote_original": "'독도의 달'은 일본 시마네현 의회가 매년 2월 22일을 '다케시마의 날'로 정한 데 대응하기 위해 2005년 7월 4일 경상북도가 조례로 제정했다.",
+        "local_evidence_path": "evidence/yna_dokdo_month_2026.txt"
+      },
+      {
+        "claim": "시마네현고시 제40호 외교부 입장",
+        "url": "https://dokdo.mofa.go.kr/m/kor/dokdo/faq09.jsp",
+        "title": "독도에 관한 일문일답 - 시마네현고시 제40호",
+        "publisher": "외교부",
+        "accessed_at": "2026-10-11",
+        "quote_original": "이와 같이 시마네현고시 제40호는 일본의 우리나라 국권에 대한 단계적 침탈 과정의 일환이었으며, 우리나라가 오랜 기간에 걸쳐 확고히 확립하여 온 독도 영유권을 침해한 불법행위이므로 국제법적 효력을 가질 수 없습니다.",
+        "local_evidence_path": "evidence/mofa_faq09.txt"
+      },
+      {
+        "claim": "러일전쟁 중 군사적 필요",
+        "url": "https://dokdo.mofa.go.kr/m/kor/dokdo/faq09.jsp",
+        "title": "독도에 관한 일문일답 - 시마네현고시 제40호",
+        "publisher": "외교부",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1904년 이래 만주와 한반도에 대한 이권을 두고 러시아와 전쟁 중이던 상황에서",
+        "local_evidence_path": "evidence/mofa_faq09.txt"
+      },
+      {
+        "claim": "상주 인원",
+        "url": "https://dokdo.mofa.go.kr/kor/introduce/residence.jsp",
+        "title": "주민 및 입도관련",
+        "publisher": "외교부",
+        "accessed_at": "2026-10-11",
+        "quote_original": "현재 독도경비대원 20명, 등대관리원 2명, 울릉군청 독도관리사무소 직원 2명 등 거주 중",
+        "local_evidence_path": "evidence/mofa_residence.txt"
+      },
+      {
+        "claim": "1965 최초 거주, 김신열 2026.3 별세",
+        "url": "https://dokdo.mofa.go.kr/kor/introduce/residence.jsp",
+        "title": "주민 및 입도관련",
+        "publisher": "외교부",
+        "accessed_at": "2026-10-11",
+        "quote_original": "故 최종덕씨가 1965년 3월부터 최초 거주한 이래, \n 김성도씨(2018년 10월 별세)·김신열씨(2026년 3월 별세) 부부 등의 거주민이 있었으며,",
+        "local_evidence_path": "evidence/mofa_residence.txt"
+      },
+      {
+        "claim": "김신열 별세로 주소 둔 주민 없음",
+        "url": "https://www.yna.co.kr/view/AKR20260310134300053",
+        "title": "마지막 '독도 주민' 김신열씨 별세…독도 주소 둔 주민 0명",
+        "publisher": "연합뉴스",
+        "accessed_at": "2026-10-11",
+        "quote_original": "김성도씨에 이어 김신열씨까지 별세하면서 독도는 주소를 둔 주민이 없는 섬이 됐다.",
+        "local_evidence_path": "evidence/yna_dokdo_resident_2026.txt"
+      },
+      {
+        "claim": "1965년 최초 거주민 최종덕",
+        "url": "https://dokdo.mofa.go.kr/kor/introduce/residence.jsp",
+        "title": "주민 및 입도관련",
+        "publisher": "외교부",
+        "accessed_at": "2026-10-11",
+        "quote_original": "故 최종덕씨가 1965년 3월부터 최초 거주한 이래,",
+        "local_evidence_path": "evidence/mofa_residence.txt"
+      }
+    ],
+    "corrections_to_existing": [
+      "[중요] 기존 '경상북도는 2005년 조례로 이날을 정했다' 오류: 경북 조례(2005.7.4)는 10월을 '독도의 달'로 정한 것(연합뉴스 2026)",
+      "[중요] 기존 '주민등록상 실제 거주하는 주민도 있다' 시효 경과: 2026년 3월 김신열 씨 별세로 주소를 둔 주민 0명(외교부, 연합뉴스)",
+      "칙령 절차 정밀화: 10.24 의정부 결정 → 10.25 고종 재가 → 10.27 관보 게재(외교부)",
+      "기존 '민간단체가 2000년에 만든 기념일' 유지(독도수호대; 경북일보·연합뉴스). '2000년 8월'은 경남교육청 게시물(위키 전재로 보임)에만 있어 월은 생략",
+      "법정 지위: 「각종 기념일 등에 관한 규정」 별표1(2026.1.2 시행)과 현행 독도이용법에 '독도의 날' 없음 → 국가기념일 아님 확인(부재 확인이라 literal quote 없음)",
+      "기존 '일본의 시마네현 편입 고시(1905년)보다 5년 앞선다' → 외교부 입장(불법, 국제법적 효력 없음)으로 정부 입장 귀속 서술"
+    ],
+    "notes": "영토 관련 서술은 외교부 입장으로 귀속. sourceUrl 위키→외교부 독도 FAQ(칙령 제41호) 제안."
+  }
+}

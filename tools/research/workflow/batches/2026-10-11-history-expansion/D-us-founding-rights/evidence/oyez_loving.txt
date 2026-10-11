@@ -1,0 +1,4 @@
+URL: https://www.oyez.org/cases/1966/388us1
+TITLE: {{meta.fullTitle}}
+
+ {{meta.fullTitle}}

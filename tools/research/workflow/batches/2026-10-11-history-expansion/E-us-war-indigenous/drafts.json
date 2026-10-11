@@ -1,0 +1,1669 @@
+{
+  "anv-fixed-12-07-pearl-harbor-remembrance-day-us": {
+    "origin": "매년 12월 7일은 1941년 이날 일본군의 하와이 진주만 기습 공격으로 숨진 미군과 민간인을 추모하는 미국의 '국가 진주만 추모의 날'이다. 당시 진주만은 미 해군 태평양함대의 기지였다. 미국 국립공원관리청(NPS)은 이 공격으로 군인과 민간인 2,403명이 숨지고 1,178명이 다쳤으며, 전함 애리조나호와 유타호가 영구히 가라앉고 항공기 188대가 파괴됐다고 기록한다. 공격을 받은 다음 날인 12월 8일 프랭클린 루스벨트 대통령은 의회 합동회의와 라디오를 통해 연설했고, 상원은 만장일치로, 하원은 단 한 명의 반대만으로 전쟁을 지지했다. 루스벨트는 그날 오후 4시 대일 선전포고에 서명했고, 미국은 제2차 세계대전에 본격적으로 뛰어들었다. 이날이 법으로 정한 기념일이 된 것은 반세기가 지난 1994년 8월 23일이다. 미 의회는 12월 7일을 국가 진주만 추모의 날로 지정하고, 대통령이 해마다 포고문을 내 국민에게 추모 행사를 열고 연방 기관에 조기를 달도록 요청하게 했다. 다만 연방 법정공휴일 목록에는 없어 관공서와 학교는 평소처럼 문을 연다.",
+    "anecdote": "루스벨트 연설의 첫 문장에 나오는 '치욕 속에 살아갈 날(a date which will live in infamy)'은 미국인에게 가장 유명한 연설 구절 가운데 하나다. 미국 국립문서기록관리청에 따르면 처음 타자로 친 초안에는 '세계사 속에 살아갈 날'이라고 적혀 있었는데, 루스벨트가 직접 고쳐 지금의 표현이 됐다. 희생자 수는 자료마다 조금씩 다르다. NPS도 추모의 날 안내에서는 2,403명, 희생자 통계 페이지에서는 2,390명으로 적고 있어 '약 2,400명'으로 기억하면 무리가 없다. 가장 큰 희생은 전함 애리조나호에서 나왔다. 승조원 1,177명이 숨졌고, 그중 900명이 넘는 이들이 지금도 가라앉은 선체 안에 잠들어 있다. 1962년에는 선체 위를 가로지르는 USS 애리조나 기념관이 봉헌됐다. 민간인 희생도 컸다. 오아후섬에서 민간인 49명이 숨졌는데, 일부는 적의 공격으로, 일부는 아군의 오인 사격으로 목숨을 잃었다. 오늘날 12월 7일에는 생존자와 참전용사, 방문객이 진주만 국립기념지에 모여 추모식을 연다.",
+    "sourceUrl": "https://www.nps.gov/perl/learn/historyculture/national-pearl-harbor-remembrance-day.htm",
+    "evidence": [
+      {
+        "claim": "2,403 killed, 1,178 injured, Arizona & Utah sunk, 188 aircraft destroyed",
+        "url": "https://www.nps.gov/perl/learn/historyculture/national-pearl-harbor-remembrance-day.htm",
+        "title": "National Pearl Harbor Remembrance Day",
+        "publisher": "National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "honor and remember the 2,403 service members and civilians who were killed during the Japanese attack on Pearl Harbor on December 7, 1941. A further 1,178 people were injured in the attack, which permanently sank two U.S. Navy battleships (the USS Arizona and the USS Utah) and destroyed 188 aircraft.",
+        "local_evidence_path": "evidence/nps_pearl_remembrance.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Congress designated Dec 7 on Aug 23, 1994",
+        "url": "https://www.nps.gov/perl/learn/historyculture/national-pearl-harbor-remembrance-day.htm",
+        "title": "National Pearl Harbor Remembrance Day",
+        "publisher": "National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "On August 23, 1994, the United States Congress designated December 7 as National Pearl Harbor Remembrance Day.",
+        "local_evidence_path": "evidence/nps_pearl_remembrance.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Annual gathering of survivors, veterans, visitors",
+        "url": "https://www.nps.gov/perl/learn/historyculture/national-pearl-harbor-remembrance-day.htm",
+        "title": "National Pearl Harbor Remembrance Day",
+        "publisher": "National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Each year on December 7, Pearl Harbor Survivors, veterans, and visitors from all over the world come together",
+        "local_evidence_path": "evidence/nps_pearl_remembrance.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Law requests annual proclamation, ceremonies, half-staff flags",
+        "url": "https://www.law.cornell.edu/uscode/text/36/129",
+        "title": "36 U.S. Code § 129 - National Pearl Harbor Remembrance Day",
+        "publisher": "Cornell LII (U.S. Code)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The President is requested to issue each year a proclamation calling on—",
+        "local_evidence_path": "evidence/usc36_129_pearl.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Half-staff flag request",
+        "url": "https://www.law.cornell.edu/uscode/text/36/129",
+        "title": "36 U.S. Code § 129 - National Pearl Harbor Remembrance Day",
+        "publisher": "Cornell LII (U.S. Code)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "to fly the flag of the United States at halfstaff each December 7 in honor of the individuals who died as a result of their service at Pearl Harbor.",
+        "local_evidence_path": "evidence/usc36_129_pearl.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Source statute 1994 Pub. L. 103-308",
+        "url": "https://www.law.cornell.edu/uscode/text/36/129",
+        "title": "36 U.S. Code § 129 - National Pearl Harbor Remembrance Day",
+        "publisher": "Cornell LII (U.S. Code)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Aug. 23, 1994 , Pub. L. 103–308 , 108 Stat. 1669 .",
+        "local_evidence_path": "evidence/usc36_129_pearl.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Not on federal legal public holiday list (list shown; Pearl Harbor absent)",
+        "url": "https://www.law.cornell.edu/uscode/text/5/6103",
+        "title": "5 U.S. Code § 6103 - Holidays",
+        "publisher": "Cornell LII (U.S. Code)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Labor Day, the first Monday in September.",
+        "local_evidence_path": "evidence/usc5_6103.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Dec 8 address to joint session & radio; votes; signed 4pm",
+        "url": "https://www.archives.gov/education/lessons/day-of-infamy",
+        "title": "'A Date Which Will Live in Infamy'",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "On December 8, at 12:30 p.m., Roosevelt addressed a joint session of Congress and the Nation via radio. The Senate responded with a unanimous vote in support of war; only Montana pacifist Jeanette Rankin dissented in the House. At 4:00 p.m. that same afternoon, President Roosevelt signed the declaration of war.",
+        "local_evidence_path": "evidence/archives_infamy.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "First draft read 'world history'",
+        "url": "https://www.archives.gov/education/lessons/day-of-infamy",
+        "title": "'A Date Which Will Live in Infamy'",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "He made the most significant change in the critical first line, which originally read, \"a date which will live in world history.\"",
+        "local_evidence_path": "evidence/archives_infamy.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Alternate total 2,390",
+        "url": "https://www.nps.gov/perl/learn/historyculture/people.htm",
+        "title": "People - Pearl Harbor National Memorial",
+        "publisher": "National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Total casualties at Pearl Harbor : 2,390 American service members and civilians.",
+        "local_evidence_path": "evidence/nps_pearl_people.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Civilian casualties incl. friendly fire",
+        "url": "https://www.nps.gov/perl/learn/historyculture/people.htm",
+        "title": "People - Pearl Harbor National Memorial",
+        "publisher": "National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Civilian casualties : 49 civilians killed, some by enemy action, others by friendly fire.",
+        "local_evidence_path": "evidence/nps_pearl_people.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Arizona 1,177 dead, 900+ remain",
+        "url": "https://www.nps.gov/places/uss-arizona-memorial.htm",
+        "title": "USS Arizona Memorial",
+        "publisher": "National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The USS Arizona is the final resting place for over 900 of the ship's 1,177 crewmen who lost their lives on December 7, 1941.",
+        "local_evidence_path": "evidence/nps_arizona_place.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Memorial dedicated 1962",
+        "url": "https://www.nps.gov/places/uss-arizona-memorial.htm",
+        "title": "USS Arizona Memorial",
+        "publisher": "National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The Memorial was dedicated in 1962.",
+        "local_evidence_path": "evidence/nps_arizona_place.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "49 civilians killed on Oahu",
+        "url": "https://www.nps.gov/perl/learn/historyculture/civilian-casualties.htm",
+        "title": "Civilian Casualties - Pearl Harbor National Memorial",
+        "publisher": "National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In total, 49 civilians were killed and 35 were wounded during the attack on O‘ahu.",
+        "local_evidence_path": "evidence/nps_pearl_civilian.txt",
+        "quote_match": "exact"
+      }
+    ],
+    "corrections_to_existing": [
+      "기존 '1994년 미 의회 지정'은 맞음(1994-08-23, Pub. L. 103-308). '관공서에서 조기 게양'은 법이 연방 기관에 조기 게양을 '요청'하는 구조라 표현을 정밀화.",
+      "기존 출처 nationaldaycalendar.com → NPS 공식 페이지로 교체 제안."
+    ],
+    "notes": "NPS 내부 수치 불일치(2,403 vs 2,390)를 본문에 명시. 'Pacific Fleet 기지' 서술은 일반 상식 수준이며 별도 인용 없음(필요시 삭제 가능). 5 USC 6103 인용은 목록 존재 확인용이며 진주만 미포함은 목록 전체 검토로 판단."
+  },
+  "anv-fixed-08-15-vj-day-global": {
+    "origin": "V-J Day(Victory over Japan Day)는 제2차 세계대전에서 연합국이 일본에 승리한 것을 기념하는 날로, 우리말로는 대일전승기념일이라 부른다. 1945년 8월 6일 미국은 히로시마에, 8월 9일에는 나가사키에 원자폭탄을 떨어뜨렸다. 결국 일본 정부는 8월 14일 연합국의 항복 조건을 조건 없이 받아들였고, 그날 저녁 7시 해리 트루먼 대통령이 백악관에서 일본의 무조건 항복을 발표했다. 소식이 전해지자 미국 곳곳에서 축하 인파가 거리로 쏟아졌다. 일본에서는 다음 날인 8월 15일 히로히토 천황이 라디오 방송으로 국민에게 항복 사실을 알렸고, 영국은 이날을 공식 V-J Day로 정했다. 하지만 미국의 공식 V-J Day는 다르다. 9월 2일 도쿄만에 정박한 미 전함 미주리호에서 일본 대표들이 항복문서에 서명하자, 트루먼은 그날 밤 라디오 연설에서 9월 2일을 '일본이 공식 항복한 날'로서 V-J Day로 선포했다. 그래서 8월 14일과 15일은 항복 소식과 축하의 날로, 9월 2일은 항복 절차가 공식적으로 마무리된 날로 나눠 기억한다.",
+    "anecdote": "한국에서 8월 15일은 V-J Day보다 광복절로 훨씬 익숙하다. 광복절은 1945년 8월 15일 일본으로부터 국권을 되찾은 날과 1948년 8월 15일 대한민국 정부가 수립된 날을 함께 기념하는 국경일이다. 같은 날짜가 연합국에는 전쟁 승리의 날로, 한반도에는 식민 지배에서 벗어난 날로 남은 셈이다. 미국에는 V-J Day라는 이름의 연방 공휴일이 없다. 대신 로드아일랜드주가 매년 8월 둘째 월요일을 '승리의 날(Victory Day)'이라는 주 법정 공휴일로 지킨다. 트루먼은 9월 2일 연설에서 이날을 미국인이 '응징의 날'로 기억할 것이라고 말하며, 진주만 기습이 있었던 '치욕의 날'과 짝지어 표현했다. 한편 미국 국립 2차대전 박물관은 이날의 기쁨이 씁쓸함과 함께였다고 설명한다. 전쟁으로 미국인 40만 명 이상, 전 세계적으로 약 6,500만 명이 목숨을 잃었기 때문이다. 오늘날 V-J Day는 승리의 순간과 함께 그 승리에 이르기까지 치른 막대한 희생을 돌아보는 날로 읽힌다.",
+    "sourceUrl": "https://www.nationalww2museum.org/war/articles/v-j-day",
+    "evidence": [
+      {
+        "claim": "Aug 6 Hiroshima",
+        "url": "https://www.nationalww2museum.org/war/articles/v-j-day",
+        "title": "V-J Day",
+        "publisher": "The National WWII Museum",
+        "accessed_at": "2026-10-11",
+        "quote_original": "On August 6, the United States dropped the first atomic bomb over Hiroshima",
+        "local_evidence_path": "evidence/ww2museum_vj.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Aug 9 Nagasaki",
+        "url": "https://www.nationalww2museum.org/war/articles/v-j-day",
+        "title": "V-J Day",
+        "publisher": "The National WWII Museum",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Then, on August 9, the United States dropped a",
+        "local_evidence_path": "evidence/ww2museum_vj.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Japan accepted terms Aug 14; Truman announced",
+        "url": "https://www.nationalww2museum.org/war/articles/v-j-day",
+        "title": "V-J Day",
+        "publisher": "The National WWII Museum",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Finally recognizing that victory was impossible, the Japanese government accepted Allied surrender terms without qualifications on August 14, 1945. That same day, President Harry S. Truman announced from the White House that the Japanese acceptance met the terms laid down at the Potsdam Conference for unconditional surrender.",
+        "local_evidence_path": "evidence/ww2museum_vj.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "7 p.m. Aug 14 announcement; celebrations",
+        "url": "https://www.trumanlibraryinstitute.org/photo-exhibits/the-surrender-of-japan/",
+        "title": "The Surrender of Japan",
+        "publisher": "Truman Library Institute",
+        "accessed_at": "2026-10-11",
+        "quote_original": "At 7 p.m. on August 14, 1945, President Harry Truman stood before reporters gathered at The White House and announced the unconditional surrender of Japan.",
+        "local_evidence_path": "evidence/truman_inst_surrender.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Celebrations; UK V-J Day Aug 15",
+        "url": "https://www.nationalww2museum.org/war/articles/v-j-day",
+        "title": "V-J Day",
+        "publisher": "The National WWII Museum",
+        "accessed_at": "2026-10-11",
+        "quote_original": "As soon as the news of Japan’s surrender was announced on August 14, celebrations erupted across the United States. The United Kingdom announced that its official V-J Day would be the next day, August 15, 1945,",
+        "local_evidence_path": "evidence/ww2museum_vj.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Hirohito radio Aug 15",
+        "url": "https://ahf.nuclearmuseum.org/ahf/key-documents/jewel-voice-broadcast/",
+        "title": "The Jewel Voice Broadcast",
+        "publisher": "Atomic Heritage Foundation",
+        "accessed_at": "2026-10-11",
+        "quote_original": "On August 15, 1945, Japanese Emperor Hirohito announced the surrender of Japan to his people in the “Jewel Voice Broadcast,”",
+        "local_evidence_path": "evidence/ahf_jewel_voice.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Signing aboard USS Missouri Sept 2",
+        "url": "https://www.archives.gov/milestone-documents/surrender-of-japan",
+        "title": "Surrender of Japan (1945)",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Aboard the USS Missouri , this instrument of surrender was signed on September 2, 1945, by the Japanese envoys Foreign Minister Mamora Shigemitsu and Gen. Yoshijiro Umezu.",
+        "local_evidence_path": "evidence/nara_surrender_japan.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Truman proclaims Sept 2 V-J Day",
+        "url": "https://www.presidency.ucsb.edu/documents/radio-address-the-american-people-after-the-signing-the-terms-unconditional-surrender",
+        "title": "Radio Address to the American People After the Signing of the Terms of Unconditional Surrender",
+        "publisher": "The American Presidency Project (UCSB)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "As President of the United States, I proclaim Sunday, September the second, 1945, to be V-J Day--the day of formal surrender by Japan.",
+        "local_evidence_path": "evidence/truman_vj_radio.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "day of retribution / day of infamy",
+        "url": "https://www.presidency.ucsb.edu/documents/radio-address-the-american-people-after-the-signing-the-terms-unconditional-surrender",
+        "title": "Radio Address to the American People After the Signing of the Terms of Unconditional Surrender",
+        "publisher": "The American Presidency Project (UCSB)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "But it is a day which we Americans shall always remember as a day of retribution--as we remember that other day, the day of infamy.",
+        "local_evidence_path": "evidence/truman_vj_radio.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Radio address broadcast at night Sept 2",
+        "url": "https://www.trumanlibraryinstitute.org/photo-exhibits/the-surrender-of-japan/",
+        "title": "The Surrender of Japan",
+        "publisher": "Truman Library Institute",
+        "accessed_at": "2026-10-11",
+        "quote_original": "His message was broadcast by CBS at 9:56 p.m. on September 2, 1945.",
+        "local_evidence_path": "evidence/truman_inst_surrender.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "US official V-J Day = Sept 2",
+        "url": "https://www.nationalww2museum.org/war/articles/v-j-day",
+        "title": "V-J Day",
+        "publisher": "The National WWII Museum",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Victory over Japan Day (V-J Day) would officially be celebrated in the United States on the day formal surrender documents were signed aboard the USS Missouri in Tokyo Bay: September 2, 1945.",
+        "local_evidence_path": "evidence/ww2museum_vj.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "bittersweet; deaths",
+        "url": "https://www.nationalww2museum.org/war/articles/v-j-day",
+        "title": "V-J Day",
+        "publisher": "The National WWII Museum",
+        "accessed_at": "2026-10-11",
+        "quote_original": "But as welcome as victory over Japan was, the day was bittersweet in light of the war’s destructiveness. More than 400,000 Americans—and an estimated 65 million people worldwide—had died in the conflict.",
+        "local_evidence_path": "evidence/ww2museum_vj.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "RI Victory Day second Monday of August",
+        "url": "https://webserver.rilegislature.gov/Statutes/TITLE25/25-1/25-1-1.htm",
+        "title": "R.I. Gen. Laws § 25-1-1 (via Wayback Machine)",
+        "publisher": "Rhode Island General Assembly",
+        "accessed_at": "2026-10-11",
+        "quote_original": "the second Monday of August (as Victory Day)",
+        "local_evidence_path": "evidence/ri_25_1_1.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Victory Day among RI legal holidays",
+        "url": "https://webserver.rilegislature.gov/Statutes/TITLE25/25-3/25-3-1.htm",
+        "title": "R.I. Gen. Laws § 25-3-1 (via Wayback Machine)",
+        "publisher": "Rhode Island General Assembly",
+        "accessed_at": "2026-10-11",
+        "quote_original": "“Holidays” means Sunday, New Year’s Day, Memorial Day, Juneteenth National Freedom",
+        "local_evidence_path": "evidence/ri_25_3_1.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "광복절 정의",
+        "url": "https://encykorea.aks.ac.kr/Article/E0005138",
+        "title": "광복절",
+        "publisher": "한국민족문화대백과사전(한국학중앙연구원)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1945년 8월 15일 일본으로부터 국권을 되찾은 날과 1948년 8월 15일 대한민국정부가 수립된 날을 기념하는 날이다.",
+        "local_evidence_path": "evidence/encykorea_gwangbokjeol.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "No V-J Day in federal legal public holidays list",
+        "url": "https://www.law.cornell.edu/uscode/text/5/6103",
+        "title": "5 U.S. Code § 6103 - Holidays",
+        "publisher": "Cornell LII (U.S. Code)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Columbus Day, the second Monday in October.",
+        "local_evidence_path": "evidence/usc5_6103.txt",
+        "quote_match": "exact"
+      }
+    ],
+    "corrections_to_existing": [
+      "기존 origin '항복 선언 자체가 있었던 8월 15일을 종전일로 더 널리 기억한다'는 미국 기준으로 부정확: 미국에서는 트루먼 발표(8/14 저녁 7시)로 8월 14일에 축하가 시작됐고, 미국의 공식 V-J Day는 트루먼이 선포한 9월 2일. 8월 15일은 일본 천황 방송일·영국 공식 V-J Day.",
+      "기존 '미국 일부 주에서는 지금도 이날을 공식 기념일로 유지'는 로드아일랜드 외 확인 불가 → 삭제. 로드아일랜드 'Victory Day'는 8월 15일이 아니라 8월 둘째 월요일임을 명시.",
+      "sourceUrl Wikipedia → National WWII Museum으로 교체 제안."
+    ],
+    "notes": "ri_25_1_1/25_3_1은 직접 접속 불가로 Wayback(2025) 사본에서 확보. '로드아일랜드가 유일한 주'라는 언론 표현은 1차 자료로 확인 못해 쓰지 않음. ri_25_3_1 인용 문장은 줄바꿈 이후 'Day, July 4th, Victory Day'로 이어짐(파일 참조)."
+  },
+  "anv-nth-05-l-mon-memorial-day-us": {
+    "origin": "메모리얼 데이(Memorial Day)는 매년 5월 마지막 월요일, 군 복무 중 목숨을 잃은 미국의 장병을 애도하고 기리는 연방 공휴일이다. 뿌리는 남북전쟁(1861~1865)에 있다. 전쟁 막바지와 직후 북부와 남부, 흑인과 백인 공동체 곳곳에서 봄이 되면 전사자 무덤을 꽃으로 장식하는 '데코레이션 데이(Decoration Day)'가 열렸다. 1868년 5월 5일 북군 참전용사 단체인 공화국 대육군(GAR)의 존 A. 로건 사령관이 일반명령 제11호를 내려 이 관습을 전국적인 추모일로 공식화했다. 날짜는 봄꽃이 가장 좋을 때인 5월 30일로 정했고, 그해 5월 30일 알링턴 국립묘지에서 첫 전국 행사가 열렸다. 1873년 뉴욕주가 처음으로 이날을 주 공휴일로 공인했고, 제1차 세계대전 이후에는 남북전쟁뿐 아니라 미국이 치른 모든 전쟁의 전사자를 기리는 날로 넓어졌다. 지금의 날짜는 1968년 제정돼 1971년 시행된 '월요일 공휴일 통일법(Uniform Monday Holiday Act)'에서 나왔다. 이 법에 따라 메모리얼 데이는 5월 30일에서 5월 마지막 월요일로 옮겨졌다.",
+    "anecdote": "'최초의 메모리얼 데이'가 어디서 열렸는지를 두고는 여러 도시가 다퉈 왔다. 1966년 미 의회 결의와 린든 존슨 대통령의 포고로 뉴욕주 워털루가 공식 '발상지'로 인정됐지만, 미 보훈부 국립묘지청은 1866년 4월 조지아주 콜럼버스의 여성들이 무덤에 꽃을 바치는 날을 정하자고 나선 일 등 더 이른 사례들도 함께 소개한다. 이 기관이 인용한 한 학자의 말처럼, 누가 처음이었는지보다 남과 북, 흑인과 백인을 가리지 않고 전사자를 기리려는 마음이 그만큼 널리 퍼져 있었다는 사실이 더 중요할지 모른다. 11월 11일 재향군인의 날(Veterans Day)과 헷갈리기 쉬운데, 재향군인의 날은 나라를 위해 복무한 모든 참전용사에게 감사하는 날이고, 메모리얼 데이는 복무 중 숨진 이들을 애도하는 날이다. 2000년 제정된 법은 이날 현지 시각 오후 3시부터 1분을 '국가 추모의 순간'으로 정했다. 국립묘지에서는 지금도 무덤마다 작은 성조기를 꽂는 전통이 이어진다. 전사자를 기린다는 점에서 한국의 현충일과 비슷한 날이다.",
+    "sourceUrl": "https://www.cem.va.gov/history/Memorial-Day-history.asp",
+    "evidence": [
+      {
+        "claim": "Federal holiday, last Monday in May, mourn deceased service members",
+        "url": "https://www.cem.va.gov/history/Memorial-Day-history.asp",
+        "title": "Memorial Day history",
+        "publisher": "U.S. Department of Veterans Affairs, National Cemetery Administration",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Memorial Day, a federal holiday held the last Monday in May, is the nation's foremost annual day to mourn and honor its deceased service men and women.",
+        "local_evidence_path": "evidence/va_memday_history.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Legal public holiday",
+        "url": "https://www.law.cornell.edu/uscode/text/5/6103",
+        "title": "5 U.S. Code § 6103 - Holidays",
+        "publisher": "Cornell LII (U.S. Code)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Memorial Day, the last Monday in May.",
+        "local_evidence_path": "evidence/usc5_6103.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Early decoration days North/South, Black/White",
+        "url": "https://www.cem.va.gov/history/Memorial-Day-history.asp",
+        "title": "Memorial Day history",
+        "publisher": "U.S. Department of Veterans Affairs, National Cemetery Administration",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In the waning years of the Civil War (1861–1865) and immediately afterward, communities in the North and South, Black and White, decorated soldiers' graves with floral honors on springtime \"decoration days.\"",
+        "local_evidence_path": "evidence/va_memday_history.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "GAR Logan G.O. 11, May 5, 1868",
+        "url": "https://www.cem.va.gov/history/Memorial-Day-history.asp",
+        "title": "Memorial Day history",
+        "publisher": "U.S. Department of Veterans Affairs, National Cemetery Administration",
+        "accessed_at": "2026-10-11",
+        "quote_original": "On May 5, 1868, the Grand Army of the Republic (GAR), a politically powerful organization of Union veterans led by Major General John A. Logan — issued General Orders No. 11 or the \"Memorial Day Act.\"",
+        "local_evidence_path": "evidence/va_memday_history.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "May 30 chosen for flowers",
+        "url": "https://www.cem.va.gov/history/Memorial-Day-history.asp",
+        "title": "Memorial Day history",
+        "publisher": "U.S. Department of Veterans Affairs, National Cemetery Administration",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The GAR order placed the ceremonial observation on May 30 — to ensure availability of \"the choicest flowers of springtime\" all over the country.",
+        "local_evidence_path": "evidence/va_memday_history.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "First national celebration Arlington May 30 1868",
+        "url": "https://www.cem.va.gov/history/Memorial-Day-history.asp",
+        "title": "Memorial Day history",
+        "publisher": "U.S. Department of Veterans Affairs, National Cemetery Administration",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The first national Decoration Day celebration took place a few weeks after the GAR promulgated its G.O. 11, on May 30, 1868, at Arlington National Cemetery, VA.",
+        "local_evidence_path": "evidence/va_memday_history.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "NY first state 1873",
+        "url": "https://www.cem.va.gov/history/Memorial-Day-history.asp",
+        "title": "Memorial Day history",
+        "publisher": "U.S. Department of Veterans Affairs, National Cemetery Administration",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In 1873, New York became the first state to officially recognize the holiday.",
+        "local_evidence_path": "evidence/va_memday_history.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Expanded after WWI",
+        "url": "https://www.cem.va.gov/history/Memorial-Day-history.asp",
+        "title": "Memorial Day history",
+        "publisher": "U.S. Department of Veterans Affairs, National Cemetery Administration",
+        "accessed_at": "2026-10-11",
+        "quote_original": "After World War I, the event was expanded to honor those who died in all American wars.",
+        "local_evidence_path": "evidence/va_memday_history.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Waterloo 1966 + UMHA 1968/1971",
+        "url": "https://www.cem.va.gov/history/Memorial-Day-history.asp",
+        "title": "Memorial Day history",
+        "publisher": "U.S. Department of Veterans Affairs, National Cemetery Administration",
+        "accessed_at": "2026-10-11",
+        "quote_original": "A congressional resolution in 1966 officially recognized a century of Memorial Day events held on May 30 in Waterloo, NY, officially proclaimed by President Lyndon B. Johnson. Thus the federal government declared this location as the \"birthplace\" of Memorial Day. Shortly after that, the Uniform Monday Holiday Act, legislation enacted in 1968 — effective in 1971 — designated Memorial Day a national holiday and moved it from May 30 to the last Monday in May.",
+        "local_evidence_path": "evidence/va_memday_history.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Columbus GA April 1866",
+        "url": "https://www.cem.va.gov/history/Memorial-Day-history.asp",
+        "title": "Memorial Day history",
+        "publisher": "U.S. Department of Veterans Affairs, National Cemetery Administration",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Recent scholarship, however, points to the ladies of Columbus, GA, who in April 1866 lobbied for a clearly defined Memorial Day on which to place flowers on the graves of Civil War dead.",
+        "local_evidence_path": "evidence/va_memday_history.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Scholar quote on many claimants",
+        "url": "https://www.cem.va.gov/history/Memorial-Day-history.asp",
+        "title": "Memorial Day history",
+        "publisher": "U.S. Department of Veterans Affairs, National Cemetery Administration",
+        "accessed_at": "2026-10-11",
+        "quote_original": "than to understand how profoundly the large number of claimants to its origin indicates the ubiquity of the impulse, North and South, white and black, to commemorate the dead.",
+        "local_evidence_path": "evidence/va_memday_history.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Veterans Day honors all veterans",
+        "url": "https://department.va.gov/memorial-day/history/",
+        "title": "History of Veterans Day (served at memorial-day/history URL)",
+        "publisher": "U.S. Department of Veterans Affairs",
+        "accessed_at": "2026-10-11",
+        "quote_original": "A celebration to honor America’s veterans for their patriotism, love of country, and willingness to serve and sacrifice for the common good.",
+        "local_evidence_path": "evidence/va_veterans_day_history.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "3 pm National Moment of Remembrance (2000)",
+        "url": "https://www.cem.va.gov/history/Memorial-Day-history.asp",
+        "title": "Memorial Day history",
+        "publisher": "U.S. Department of Veterans Affairs, National Cemetery Administration",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The commission also endorsed a National Moment of Remembrance at 3 pm local time each Memorial Day , a minute of silence for those who have died in service to the nation.",
+        "local_evidence_path": "evidence/va_memday_history.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Statute: minute at 3:00 pm",
+        "url": "https://www.law.cornell.edu/uscode/text/36/116",
+        "title": "36 U.S. Code § 116 - Memorial Day",
+        "publisher": "Cornell LII (U.S. Code)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The minute beginning at 3:00 p.m. (local time) on Memorial Day each year is designated as the ‘National Moment of Remembrance’.",
+        "local_evidence_path": "evidence/usc36_116_memorial.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Miniature flags on graves",
+        "url": "https://www.cem.va.gov/history/Memorial-Day-history.asp",
+        "title": "Memorial Day history",
+        "publisher": "U.S. Department of Veterans Affairs, National Cemetery Administration",
+        "accessed_at": "2026-10-11",
+        "quote_original": "the federal government often provides miniature flags to be placed on graves.",
+        "local_evidence_path": "evidence/va_memday_history.txt",
+        "quote_match": "exact"
+      }
+    ],
+    "corrections_to_existing": [
+      "기존 '워털루가 1866년 5월 5일 처음 지역 행사를 연 것을 계기로' → VA 자료는 워털루의 '5월 30일' 100년 행사를 1966년에 인정했다고만 기록하며 1866-05-05 날짜는 확인 불가(5월 5일은 GAR 일반명령 제11호 발령일). 또 워털루는 공식 '발상지'로 인정됐을 뿐 '계기'로 단정할 수 없고 조지아주 콜럼버스 등 경쟁 주장이 있음.",
+      "기존 '여름 휴가철의 시작' 서술은 출처 미확인으로 삭제.",
+      "sourceUrl 'memorial-day-us'(슬러그) → https://www.cem.va.gov/history/Memorial-Day-history.asp 제안.",
+      "category가 'career'로 돼 있으나 지시에 따라 변경하지 않음(검토자 참고)."
+    ],
+    "notes": "https://department.va.gov/memorial-day/history/ 는 실제로 'History of Veterans Day' 내용을 반환하여 파일명을 va_veterans_day_history로 저장. 한국 현충일 비교는 해석적 서술(날짜는 넣지 않음)."
+  },
+  "anv-fixed-09-11-patriot-day-remembrance-us": {
+    "origin": "패트리어트 데이(Patriot Day)는 매년 9월 11일, 2001년 같은 날 미국에서 일어난 동시다발 테러로 숨진 이들을 추모하는 미국의 국가 기념일이다. 그날 테러범들은 민간 여객기 4대를 납치해 2대를 뉴욕 세계무역센터 쌍둥이 빌딩에, 1대를 워싱턴 인근 국방부 청사(펜타곤)에 충돌시켰다. 네 번째 비행기는 승객들이 테러범에게서 기체를 되찾으려 맞서 싸운 끝에 펜실베이니아 남서부의 들판에 추락했다. 국립 9·11 기념관·박물관 집계에 따르면 이 공격으로 90개국 출신 2,977명이 숨졌다. 뉴욕에서 2,753명, 펜타곤에서 184명, 유나이티드항공 93편에서 40명이다. 테러 직후 미 의회는 9월 11일을 패트리어트 데이로 지정하는 공동결의안을 하원(10월)과 상원(11월)에서 차례로 통과시켰고, 2001년 12월 18일 승인돼 연방법이 됐다. 이 법은 대통령이 해마다 포고문을 내 주 정부와 지방 정부, 국민에게 추모 행사를 열고 성조기를 조기로 달며 희생자를 위해 묵념하도록 요청하게 했다. 연방 법정공휴일은 아니어서 학교와 관공서는 평소처럼 운영된다.",
+    "anecdote": "이름의 '패트리어트(Patriot)'는 애국자를 뜻하지만, 이날은 축하가 아니라 애도의 날이다. 2009년에는 이날에 또 하나의 이름이 붙었다. 버락 오바마 대통령이 4월 21일 서명한 '에드워드 M. 케네디 미국봉사법'이 처음으로 9월 11일을 '국가 봉사와 추모의 날'로 연방 차원에서 인정한 것이다. 희생자를 분노나 폭력이 아니라 이웃을 돕는 봉사로 기리자는 취지였고, 9·11 유가족들도 이 법을 지지했다. 그래서 오늘날 9월 11일에는 추모식과 함께 곳곳에서 자원봉사 활동이 열린다. 뉴욕 세계무역센터 터에 조성된 9·11 기념관의 두 연못 둘레 청동판에는 2001년 희생자뿐 아니라 1993년 2월 26일 세계무역센터 지하에서 일어난 폭탄 테러로 숨진 6명의 이름도 함께 새겨져 있다. 쌍둥이 빌딩이 공격받았을 때 단지 안에는 1만 6,400명에서 1만 8,000명이 있었고 대부분은 무사히 대피했다. 사람들이 빠져나오는 동안 구조대원들은 갇히거나 다친 이들을 구하려고 건물 안으로 들어갔다.",
+    "sourceUrl": "https://www.govinfo.gov/content/pkg/PLAW-107publ89/html/PLAW-107publ89.htm",
+    "evidence": [
+      {
+        "claim": "Designation",
+        "url": "https://www.law.cornell.edu/uscode/text/36/144",
+        "title": "36 U.S. Code § 144 - Patriot Day",
+        "publisher": "Cornell LII (U.S. Code)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "September 11 is Patriot Day.",
+        "local_evidence_path": "evidence/usc36_144_patriot.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Hijacked 4 aircraft, WTC and Pentagon",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-107publ89/html/PLAW-107publ89.htm",
+        "title": "Public Law 107-89 (Patriot Day)",
+        "publisher": "U.S. Government Publishing Office",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Whereas on September 11, 2001, terrorists hijacked four civilian \n aircraft, crashing two of them into the towers of the World Trade \n Center in New York City, and a third into the Pentagon outside \n Washington, D.C.;",
+        "local_evidence_path": "evidence/pl107_89.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Fourth aircraft SW Pennsylvania after passengers fought",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-107publ89/html/PLAW-107publ89.htm",
+        "title": "Public Law 107-89 (Patriot Day)",
+        "publisher": "U.S. Government Publishing Office",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Whereas the fourth hijacked aircraft crashed in southwestern \n Pennsylvania after passengers tried to take control of the aircraft",
+        "local_evidence_path": "evidence/pl107_89.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "2,977 from 90 nations; breakdown",
+        "url": "https://www.911memorial.org/911-faqs",
+        "title": "9/11 FAQs",
+        "publisher": "National September 11 Memorial & Museum",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The attacks killed 2,977 people from 90 nations: 2,753 people were killed in New York; 184 people were killed at the Pentagon; and 40 people were killed on Flight 93.",
+        "local_evidence_path": "evidence/memorial911_faq.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "House Oct 25",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-107publ89/html/PLAW-107publ89.htm",
+        "title": "Public Law 107-89 (Patriot Day)",
+        "publisher": "U.S. Government Publishing Office",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Oct. 25, considered and passed House.",
+        "local_evidence_path": "evidence/pl107_89.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Senate Nov 30",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-107publ89/html/PLAW-107publ89.htm",
+        "title": "Public Law 107-89 (Patriot Day)",
+        "publisher": "U.S. Government Publishing Office",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Nov. 30, considered and passed Senate.",
+        "local_evidence_path": "evidence/pl107_89.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Approved Dec 18, 2001",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-107publ89/html/PLAW-107publ89.htm",
+        "title": "Public Law 107-89 (Patriot Day)",
+        "publisher": "U.S. Government Publishing Office",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Approved December 18, 2001.",
+        "local_evidence_path": "evidence/pl107_89.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Proclamation: programs",
+        "url": "https://www.law.cornell.edu/uscode/text/36/144",
+        "title": "36 U.S. Code § 144 - Patriot Day",
+        "publisher": "Cornell LII (U.S. Code)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "State and local governments and the people of the United States to observe Patriot Day with appropriate programs and activities;",
+        "local_evidence_path": "evidence/usc36_144_patriot.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Half-staff",
+        "url": "https://www.law.cornell.edu/uscode/text/36/144",
+        "title": "36 U.S. Code § 144 - Patriot Day",
+        "publisher": "Cornell LII (U.S. Code)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "to display the flag of the United States at halfstaff on Patriot Day",
+        "local_evidence_path": "evidence/usc36_144_patriot.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Moment of silence",
+        "url": "https://www.law.cornell.edu/uscode/text/36/144",
+        "title": "36 U.S. Code § 144 - Patriot Day",
+        "publisher": "Cornell LII (U.S. Code)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "the people of the United States to observe a moment of silence on Patriot Day",
+        "local_evidence_path": "evidence/usc36_144_patriot.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Not a legal public holiday (list)",
+        "url": "https://www.law.cornell.edu/uscode/text/5/6103",
+        "title": "5 U.S. Code § 6103 - Holidays",
+        "publisher": "Cornell LII (U.S. Code)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Veterans Day, November 11.",
+        "local_evidence_path": "evidence/usc5_6103.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Serve America Act: first federal recognition",
+        "url": "https://www.govinfo.gov/content/pkg/CRECB-2009-pt16/html/CRECB-2009-pt16-Pg21249.htm",
+        "title": "Congressional Record Vol. 155 Pt. 16 - H.Res. 718",
+        "publisher": "U.S. Government Publishing Office",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Kennedy Serve America Act, which included for the first time",
+        "local_evidence_path": "evidence/cr_2009_hres718.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "signed April 21, 2009",
+        "url": "https://www.govinfo.gov/content/pkg/CRECB-2009-pt16/html/CRECB-2009-pt16-Pg21249.htm",
+        "title": "Congressional Record Vol. 155 Pt. 16 - H.Res. 718",
+        "publisher": "U.S. Government Publishing Office",
+        "accessed_at": "2026-10-11",
+        "quote_original": "into law on April 21, 2009, by President Barack Obama",
+        "local_evidence_path": "evidence/cr_2009_hres718.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Honor not with anger/violence",
+        "url": "https://www.govinfo.gov/content/pkg/CRECB-2009-pt16/html/CRECB-2009-pt16-Pg21249.htm",
+        "title": "Congressional Record Vol. 155 Pt. 16 - H.Res. 718",
+        "publisher": "U.S. Government Publishing Office",
+        "accessed_at": "2026-10-11",
+        "quote_original": "tomorrow as Americans we have decided to honor those who died not with",
+        "local_evidence_path": "evidence/cr_2009_hres718.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "supported by 9/11 families",
+        "url": "https://www.govinfo.gov/content/pkg/CRECB-2009-pt16/html/CRECB-2009-pt16-Pg21249.htm",
+        "title": "Congressional Record Vol. 155 Pt. 16 - H.Res. 718",
+        "publisher": "U.S. Government Publishing Office",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Serve America Act--which was supported by the 9/11 families--and",
+        "local_evidence_path": "evidence/cr_2009_hres718.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Statutory 'September 11th National Day of Service and Remembrance'",
+        "url": "https://www.law.cornell.edu/uscode/text/42/12653",
+        "title": "42 U.S. Code § 12653",
+        "publisher": "Cornell LII (U.S. Code)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "in order to observe the September 11th National Day of Service and Remembrance at the Federal level.",
+        "local_evidence_path": "evidence/usc42_12653.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Names incl. 1993 on bronze panels",
+        "url": "https://www.911memorial.org/911-faqs",
+        "title": "9/11 FAQs",
+        "publisher": "National September 11 Memorial & Museum",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The names of the nearly 3,000 victims of the September 11, 2001 and February 26, 1993 terrorist attacks are inscribed on bronze panels lining the two Memorial pools.",
+        "local_evidence_path": "evidence/memorial911_faq.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1993 bombing six killed",
+        "url": "https://www.911memorial.org/911-faqs",
+        "title": "9/11 FAQs",
+        "publisher": "National September 11 Memorial & Museum",
+        "accessed_at": "2026-10-11",
+        "quote_original": "On February 26, 1993, terrorists with links to an Islamist extremist group detonated explosives in a van parked underneath the WTC. Six people were killed and thousands were injured.",
+        "local_evidence_path": "evidence/memorial911_faq.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "16,400-18,000 in complex; first responders rushed in",
+        "url": "https://www.911memorial.org/911-faqs",
+        "title": "9/11 FAQs",
+        "publisher": "National September 11 Memorial & Museum",
+        "accessed_at": "2026-10-11",
+        "quote_original": "When the towers were struck, between 16,400 and 18,000 people were in the WTC complex. Of those, the vast majority evacuated safely. As they rushed out, first responders rushed in trying to save those still trapped or injured.",
+        "local_evidence_path": "evidence/memorial911_faq.txt",
+        "quote_match": "exact"
+      }
+    ],
+    "corrections_to_existing": [
+      "기존 '조지 W. 부시 대통령이 이날을 국가 추모일로 처음 선포' → 패트리어트 데이는 의회 공동결의(H.J.Res.71, Pub.L.107-89)로 지정되어 2001-12-18 승인됨. 대통령은 법에 따라 매년 포고문을 내는 구조.",
+      "기존 '납치범을 제외한 2,977명' → 9/11 Memorial 집계 '90개국 출신 2,977명'으로 표현(납치범 제외 문구는 저장 원문에서 확인 못해 생략).",
+      "기존 '소방관·경찰 등 초동 구조 인력의 희생도 유난히 컸다' → 구조대원 사망자 수 원문 미확보로 '구조대원들이 건물 안으로 들어갔다'는 확인 사실로 대체.",
+      "sourceUrl Wikipedia → govinfo Pub.L.107-89 제안."
+    ],
+    "notes": "usc5_6103 인용은 법정공휴일 목록 확인용(Patriot Day 미포함). 승인일은 PL 원문 'Approved December 18, 2001.'"
+  },
+  "anv-fixed-09-16-trail-of-tears-commemoration-day-us": {
+    "origin": "눈물의 길 추모일은 1830년대 미국 정부의 강제 이주 정책으로 고향을 잃고 서쪽으로 끌려간 아메리카 원주민, 특히 체로키족의 고난을 기억하는 날이다. 출발점은 1830년 5월 28일 앤드루 잭슨 대통령이 서명한 '인디언 이주법'이다. 미시시피강 동쪽에 사는 원주민 부족과 이주 조약을 맺을 권한을 대통령에게 준 법으로, 이후 강압적인 조약과 군대 동원으로 약 10만 명이 지금의 오클라호마 지역인 '인디언 준주'로 옮겨졌다. 체로키, 촉토, 치카소, 크리크, 세미놀 부족이 대표적이다. 체로키족은 미국 연방대법원 소송에서 조지아주를 상대로 이기기도 했지만, 1835년 부족 내 소수파 대표만 서명한 뉴에코타 조약이 이듬해 상원에서 단 한 표 차로 비준되면서 이주를 강요당했다. 1838년 5월 연방군과 주 민병대가 체로키족을 수용소로 몰아넣기 시작했고, 1만 6,000명이 넘는 사람이 강제로 고향을 떠나 1839년 3월까지 서쪽에 도착했다. 다만 9월 16일이라는 날짜를 정한 정부나 부족 기관은 공식 자료에서 확인되지 않는다. 주로 민간 기념일 달력을 통해 알려진 추모일이다.",
+    "anecdote": "'눈물의 길'은 좁게는 체로키족의 이주 경로를, 넓게는 여러 부족이 겪은 강제 이주 전체를 가리키는 말로 쓰인다. 이주 과정에서 몇 명이 숨졌는지는 아무도 정확히 알지 못한다. 체로키족과 함께 길을 걸은 선교사 의사 엘리저 버틀러는 4,000명 이상, 곧 체로키 인구의 약 5분의 1이 숨졌다고 추산했다. 특히 아기와 어린이, 노인에게 가혹한 길이었다. 미국 정부는 조약에서 약속한 500만 달러도 끝내 지급하지 않았다. 일부 기념일 사이트는 9월 16일을 '마지막 체로키 일행이 1838년 오클라호마에 도착한 날'로 소개하지만, 미국 국립공원관리청(NPS)은 마지막 이주 집단이 1839년 3월 24일에 도착했다고 기록하고 있어 이 설명은 맞지 않는다. 1987년 미 의회는 '눈물의 길 국립역사탐방로'를 지정했다. 체로키 이주 집단 17개가 지나간 육로와 물길 약 2,200마일이 9개 주에 걸쳐 있다. 1839년 다시 세워진 체로키 네이션은 오클라호마주 털리쿼를 수도로 삼았고, 이곳은 지금도 체로키 네이션의 본부다.",
+    "sourceUrl": "https://www.nps.gov/articles/000/what-happened-on-the-trail-of-tears.htm",
+    "evidence": [
+      {
+        "claim": "Indian Removal Act signed May 28, 1830",
+        "url": "https://prologue.blogs.archives.gov/2017/03/16/on-exhibit-the-indian-removal-act/",
+        "title": "On Exhibit: the Indian Removal Act",
+        "publisher": "U.S. National Archives (Pieces of History blog)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The first major step to relocate American Indians came when Congress passed, and President Andrew Jackson signed, the Indian Removal Act on May 28, 1830.",
+        "local_evidence_path": "evidence/nara_prologue_removal.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Authorized removal treaties east of Mississippi",
+        "url": "https://prologue.blogs.archives.gov/2017/03/16/on-exhibit-the-indian-removal-act/",
+        "title": "On Exhibit: the Indian Removal Act",
+        "publisher": "U.S. National Archives (Pieces of History blog)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "It authorized the President to negotiate removal treaties with Indian tribes living east of the Mississippi River.",
+        "local_evidence_path": "evidence/nara_prologue_removal.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "~100,000 moved to Indian Territory; tribes listed",
+        "url": "https://www.nps.gov/articles/the-trail-of-tears-and-the-forced-relocation-of-the-cherokee-nation-teaching-with-historic-places.htm",
+        "title": "The Trail of Tears and the Forced Relocation of the Cherokee Nation",
+        "publisher": "National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Between the 1830 Indian Removal Act and 1850, the U.S. government used forced treaties and/or U.S. Army action to move about 100,000 American Indians living east of the Mississippi River, westward to Indian Territory in what is now Oklahoma. Among the relocated tribes were the Cherokee, Choctaw, Chickasaw, Creek, and Seminole.",
+        "local_evidence_path": "evidence/nps_tot_twhp.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Cherokee won in Supreme Court vs Georgia",
+        "url": "https://www.nps.gov/articles/000/what-happened-on-the-trail-of-tears.htm",
+        "title": "What Happened on the Trail of Tears?",
+        "publisher": "National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The Cherokees successfully challenged Georgia in the U.S. Supreme Court.",
+        "local_evidence_path": "evidence/nps_tot_what.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Minority signed treaty Dec 1835",
+        "url": "https://www.nps.gov/articles/000/what-happened-on-the-trail-of-tears.htm",
+        "title": "What Happened on the Trail of Tears?",
+        "publisher": "National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In December 1835, the U.S. sought out this minority",
+        "local_evidence_path": "evidence/nps_tot_what.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Ratified by one vote May 23, 1836",
+        "url": "https://www.nps.gov/articles/000/what-happened-on-the-trail-of-tears.htm",
+        "title": "What Happened on the Trail of Tears?",
+        "publisher": "National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Yet, on May 23, 1836, the Treaty of New Echota was ratified by the U.S. Senate – by just one vote.",
+        "local_evidence_path": "evidence/nps_tot_what.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "May 1838 roundup into stockades",
+        "url": "https://www.nps.gov/articles/000/what-happened-on-the-trail-of-tears.htm",
+        "title": "What Happened on the Trail of Tears?",
+        "publisher": "National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In May 1838, Federal troops and state militias began the roundup of the Cherokees into stockades.",
+        "local_evidence_path": "evidence/nps_tot_what.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "More than 16,000 removed in 1838",
+        "url": "https://www.nps.gov/places/trail-of-tears-national-historic-trail.htm",
+        "title": "Trail of Tears National Historic Trail",
+        "publisher": "National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In 1838, the United States government forcibly removed more than 16,000 Cherokee Indian people from their homelands in Tennessee, Alabama, North Carolina, and Georgia, and sent them to Indian Terr",
+        "local_evidence_path": "evidence/nps_tot_place.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Arrived by March 1839; deaths unknown; Butler estimate",
+        "url": "https://www.nps.gov/articles/000/what-happened-on-the-trail-of-tears.htm",
+        "title": "What Happened on the Trail of Tears?",
+        "publisher": "National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "By March 1839, all survivors had arrived in the west. No one knows how many died throughout the ordeal, but the trip was especially hard on infants, children, and the elderly. Missionary doctor Elizur Butler, who accompanied the Cherokees, estimated that over 4,000 died- nearly a fifth of the Cherokee population.",
+        "local_evidence_path": "evidence/nps_tot_what.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Last detachments March 24, 1839",
+        "url": "https://www.nps.gov/articles/the-trail-of-tears-and-the-forced-relocation-of-the-cherokee-nation-teaching-with-historic-places.htm",
+        "title": "The Trail of Tears and the Forced Relocation of the Cherokee Nation",
+        "publisher": "National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "On March 24, 1839, the last detachments arrived in the west.",
+        "local_evidence_path": "evidence/nps_tot_twhp.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "$5 million never paid",
+        "url": "https://www.nps.gov/articles/the-trail-of-tears-and-the-forced-relocation-of-the-cherokee-nation-teaching-with-historic-places.htm",
+        "title": "The Trail of Tears and the Forced Relocation of the Cherokee Nation",
+        "publisher": "National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The U.S. government never paid the $5 million promised to the Cherokees in the Treaty of New Echota.",
+        "local_evidence_path": "evidence/nps_tot_twhp.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Calendar-site claim about Sept 16 (contradicted)",
+        "url": "https://www.daysoftheyear.com/days/trail-of-tears-commemoration-day/",
+        "title": "Trail of Tears Commemoration Day",
+        "publisher": "Days Of The Year (commercial calendar; cited only to document the unverified date claim)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The day marks the anniversary of the arrival of the last group of Cherokees in Oklahoma in 1838.",
+        "local_evidence_path": "evidence/daysofyear_tot.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1987 NHT established",
+        "url": "https://www.nps.gov/articles/the-trail-of-tears-and-the-forced-relocation-of-the-cherokee-nation-teaching-with-historic-places.htm",
+        "title": "The Trail of Tears and the Forced Relocation of the Cherokee Nation",
+        "publisher": "National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In 1987, Congress established the Trail of Tears National Historic Trail, which is administered by the National Park Service",
+        "local_evidence_path": "evidence/nps_tot_twhp.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "17 detachments, ~2,200 miles, nine states",
+        "url": "https://www.nps.gov/places/trail-of-tears-national-historic-trail.htm",
+        "title": "Trail of Tears National Historic Trail",
+        "publisher": "National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "the paths that 17 Cherokee detachments followed westward. Today the trail encompasses about 2,200 miles of land and water routes, and traverses portions of nine states.",
+        "local_evidence_path": "evidence/nps_tot_place.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Tahlequah capital, still HQ",
+        "url": "https://www.nps.gov/articles/000/what-happened-on-the-trail-of-tears.htm",
+        "title": "What Happened on the Trail of Tears?",
+        "publisher": "National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In August 1839, John Ross was elected Principal Chief of the reconstituted Cherokee Nation. Tahlequah, Oklahoma was its capital. It remains tribal headquarters for the Cherokee Nation today.",
+        "local_evidence_path": "evidence/nps_tot_what.txt",
+        "quote_match": "exact"
+      }
+    ],
+    "corrections_to_existing": [
+      "기존 '체로키어로는 이 길을 \"우리가 울며 걸은 길\"이라 부른다' → 1차·공식 출처에서 확인 못해 삭제(민간 사이트에만 'Nunna daul Tsuny' 표기 존재).",
+      "기존 '9·11 테러 희생자 수보다 많은 것으로 추산될 만큼' → 출처 없는 부적절한 비교로 삭제, NPS의 '정확한 사망자 수는 알 수 없다·버틀러 추산 4,000명 이상'으로 대체.",
+      "기존 '원주민 공동체는 지금도 매년 이 날을 기리며' → 9월 16일을 지정·주관하는 원주민 공동체/기관 확인 불가. 기념일 성격을 '민간 기념일 달력 기반'으로 정정.",
+      "기존 '오클라호마까지 이어진 이주 경로는 국립 역사 탐방로' → 맞음(1987 지정, 9개 주) — 유지·구체화.",
+      "daysofyear 등 민간 사이트의 '1838년 마지막 체로키 도착일' 설명은 NPS(1839-03-24)와 충돌."
+    ],
+    "notes": "9월 16일의 기원 미확인이 이 항목의 핵심 리스크. 검토자는 날짜 자체의 존치 여부를 별도 판단 권장. cherokee.gov(Remember the Removal) 접속 불가로 미사용."
+  },
+  "anv-nth-10-2-mon-native-american-day-us": {
+    "origin": "원주민의 날(Native Americans' Day)은 미국 사우스다코타주가 매년 10월 둘째 월요일에 지키는 주 법정 공휴일이다. 주 법은 이날을 '주의 역사에 크게 기여한 위대한 원주민 지도자들을 기리는 날'로 정의한다. 연방 차원에서 같은 날은 콜럼버스의 날이지만, 사우스다코타주에서는 그 자리를 원주민의 날이 대신한다. 시작은 원주민과 비원주민 주민 사이의 오랜 갈등을 풀어 보려는 움직임이었다. 1989년 주 의회는 1990년을 원주민과 백인 시민 사이의 '화해의 해'로 선포하는 법을 통과시켰는데, 원주민 신문 발행인 팀 지아고가 조지 S. 미컬슨 주지사에게 이를 강하게 요청한 결과였다. 미컬슨 주지사와 주 의회는 그 화해 노력의 하나로 1990년 원주민의 날을 매년 기념하는 공휴일로 만들었고, 날짜는 일부러 연방 콜럼버스의 날과 같은 10월 둘째 월요일로 골랐다. 같은 해 10월 8일 첫 원주민의 날을 맞아 미컬슨 주지사는 사우스다코타의 크레이지 호스 기념물에서 연설했는데, 먼저 라코타어로 인사를 건넨 뒤 영어로 그 뜻을 옮겼다.",
+    "anecdote": "이름이 비슷한 기념일이 여럿이라 헷갈리기 쉽다. 캘리포니아주의 '원주민의 날(Native American Day)'은 날짜가 9월 넷째 금요일이다. 1998년 조 바카 당시 주 하원의원이 발의한 법으로 '캘리포니아 아메리칸 인디언의 날'에서 지금 이름으로 바뀌었다. 또 '토착민의 날(Indigenous Peoples' Day)'은 1992년 10월 12일 캘리포니아주 버클리시가 미국 도시 가운데 처음으로 콜럼버스의 날 대신 기념하면서 퍼졌다. 콜럼버스 도착 500주년에 맞춘 항의의 뜻이 담겨 있었다. 연방 차원에서는 2021년 조 바이든 대통령이 미국 대통령으로는 처음으로 토착민의 날을 공식 인정했다. 퓨리서치센터의 2025년 분석에 따르면 17개 주와 워싱턴 D.C.가 10월 둘째 월요일에 원주민을 기리는 휴일을 두고 있다. 미국 내무부 인디언국은 연방 정부가 인정한 부족이 575곳이라고 밝힌다. 연방 인정 부족이란 미국 정부와 '정부 대 정부' 관계를 맺고 고유한 자치권을 인정받는 원주민 공동체를 말한다.",
+    "sourceUrl": "https://sdlegislature.gov/api/Statutes/1-5-1.2.html",
+    "evidence": [
+      {
+        "claim": "SD statute: 2nd Monday Oct legal holiday; dedication",
+        "url": "https://sdlegislature.gov/api/Statutes/1-5-1.2.html",
+        "title": "SDCL 1-5-1.2 Native Americans' Day established",
+        "publisher": "South Dakota Legislature",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The second Monday in October, to be known as Native Americans' Day, shall be observed in this state as a legal holiday. Native Americans' Day is dedicated to the remembrance of the great Native American leaders who contributed so much to the history of our state.",
+        "local_evidence_path": "evidence/sd_law.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Session law 1990",
+        "url": "https://sdlegislature.gov/api/Statutes/1-5-1.2.html",
+        "title": "SDCL 1-5-1.2 Native Americans' Day established",
+        "publisher": "South Dakota Legislature",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Source: SL 1990, ch 7, § 2.",
+        "local_evidence_path": "evidence/sd_law.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Federal Columbus Day same date",
+        "url": "https://www.law.cornell.edu/uscode/text/5/6103",
+        "title": "5 U.S. Code § 6103 - Holidays",
+        "publisher": "Cornell LII (U.S. Code)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Columbus Day, the second Monday in October.",
+        "local_evidence_path": "evidence/usc5_6103.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Reconciling Native/non-Native challenges",
+        "url": "https://www.thune.senate.gov/public/index.cfm/op-eds?ID=1910478A-AAA1-499D-AF75-AB0EE9483FED",
+        "title": "In South Dakota, It's 'Native American Day' (via Wayback)",
+        "publisher": "Office of Sen. John Thune",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In 1990, South Dakota Governor George Mickelson sought to reconcile some of the challenges faced between the Native and non-Native American citizens in South Dakota.",
+        "local_evidence_path": "evidence/thune_nad.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1989 law proclaiming 1990 Year of Reconciliation",
+        "url": "https://www.bia.gov/NNAHM",
+        "title": "National Native American Heritage Month",
+        "publisher": "U.S. Dept. of the Interior, Indian Affairs",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In 1989, the South Dakota state legislature passed a bill proclaiming 1990 as the \"Year of Reconciliation\" between American Indian and White citizens.",
+        "local_evidence_path": "evidence/bia_nnahm.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Mickelson & Legislature created holiday 1990; chose 2nd Monday Oct; Giago",
+        "url": "https://southdakotasearchlight.com/2025/10/13/native-americans-day-in-south-dakota-a-foundation-upon-which-to-build-friendship-and-trust/",
+        "title": "Native Americans' Day in South Dakota (via Wayback)",
+        "publisher": "South Dakota Searchlight",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Gov. George S. Mickelson and the Legislature created the annual holiday in 1990. They chose the second Monday in October, which is federally designated as Columbus Day. The effort was part of a broader Year of Reconciliation proclaimed by Mickelson at the urging of Native American newspaper publisher Tim Giago.",
+        "local_evidence_path": "evidence/sd_searchlight_2025.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Oct 8, 1990 speech at Crazy Horse, began in Lakota",
+        "url": "https://southdakotasearchlight.com/2025/10/13/native-americans-day-in-south-dakota-a-foundation-upon-which-to-build-friendship-and-trust/",
+        "title": "Native Americans' Day in South Dakota (via Wayback)",
+        "publisher": "South Dakota Searchlight",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The following is an excerpt from a speech that Mickelson delivered Oct. 8, 1990, at Crazy Horse Memorial on South Dakota’s first Native Americans’ Day. He began by speaking in Lakota, and then provided the English translation for the traditional greeting:",
+        "local_evidence_path": "evidence/sd_searchlight_2025.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "CA fourth Friday Sept renamed by AB 1953 (Baca)",
+        "url": "https://leginfo.ca.gov/pub/97-98/bill/asm/ab_1951-2000/ab_1953_bill_19980921_chaptered.html",
+        "title": "AB 1953 (Baca) chaptered 1998",
+        "publisher": "California Legislature",
+        "accessed_at": "2026-10-11",
+        "quote_original": "AB 1953, Baca. Public holidays: Native American Day.",
+        "local_evidence_path": "evidence/ca_ab1953_1998.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "renamed from California American Indian Day",
+        "url": "https://leginfo.ca.gov/pub/97-98/bill/asm/ab_1951-2000/ab_1953_bill_19980921_chaptered.html",
+        "title": "AB 1953 (Baca) chaptered 1998",
+        "publisher": "California Legislature",
+        "accessed_at": "2026-10-11",
+        "quote_original": "fourth Friday in September to be \"California American Indian Day.\"",
+        "local_evidence_path": "evidence/ca_ab1953_1998.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Berkeley first city Oct 12, 1992; protest of 500th",
+        "url": "https://www.berkeleyside.org/2017/10/09/berkeley-became-1st-city-dump-columbus-day-indigenous-peoples-day",
+        "title": "How Berkeley dumped Columbus Day for Indigenous Peoples Day",
+        "publisher": "Berkeleyside/KQED",
+        "accessed_at": "2026-10-11",
+        "quote_original": "On Oct. 12, 1992, Berkeley became the first official city in the U.S. to celebrate the holiday.",
+        "local_evidence_path": "evidence/berkeleyside_ipd.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "created to protest 500th anniversary",
+        "url": "https://www.berkeleyside.org/2017/10/09/berkeley-became-1st-city-dump-columbus-day-indigenous-peoples-day",
+        "title": "How Berkeley dumped Columbus Day for Indigenous Peoples Day",
+        "publisher": "Berkeleyside/KQED",
+        "accessed_at": "2026-10-11",
+        "quote_original": "It was created to protest the 500th anniversary of Columbus’s arrival.",
+        "local_evidence_path": "evidence/berkeleyside_ipd.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Biden 2021 first president",
+        "url": "https://www.britannica.com/topic/Columbus-Day",
+        "title": "Columbus Day (via Wayback)",
+        "publisher": "Encyclopaedia Britannica",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In 2021 Joe Biden became the first U.S. president to officially recognize Indigenous Peoples’ Day.",
+        "local_evidence_path": "evidence/britannica_columbus_day.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "17 states + DC",
+        "url": "https://www.pewresearch.org/short-reads/2025/10/07/columbus-day-indigenous-peoples-day-or-just-a-regular-monday-it-depends-on-where-you-are/",
+        "title": "Columbus Day, Indigenous Peoples Day or just a regular Monday?",
+        "publisher": "Pew Research Center",
+        "accessed_at": "2026-10-11",
+        "quote_original": "All told, 17 states and D.C. have holidays honoring Native Americans on the second Monday in October.",
+        "local_evidence_path": "evidence/pew_columbus_2025.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "575 tribes",
+        "url": "https://www.bia.gov/faqs/what-federally-recognized-tribe",
+        "title": "What is a federally recognized tribe?",
+        "publisher": "U.S. Dept. of the Interior, Indian Affairs",
+        "accessed_at": "2026-10-11",
+        "quote_original": "At present, there are 575 federally recognized tribes, American Indian and Alaska Native tribes and villages.",
+        "local_evidence_path": "evidence/bia_tribes.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "definition",
+        "url": "https://www.bia.gov/faqs/what-federally-recognized-tribe",
+        "title": "What is a federally recognized tribe?",
+        "publisher": "U.S. Dept. of the Interior, Indian Affairs",
+        "accessed_at": "2026-10-11",
+        "quote_original": "A federally recognized tribe is an American Indian or Alaska Native tribal entity that is recognized as having a government-to-government relationship with the United States",
+        "local_evidence_path": "evidence/bia_tribes.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "self-government",
+        "url": "https://www.bia.gov/faqs/what-federally-recognized-tribe",
+        "title": "What is a federally recognized tribe?",
+        "publisher": "U.S. Dept. of the Interior, Indian Affairs",
+        "accessed_at": "2026-10-11",
+        "quote_original": "federally recognized tribes are recognized as possessing certain inherent rights of self-government (i.e., tribal sovereignty)",
+        "local_evidence_path": "evidence/bia_tribes.txt",
+        "quote_match": "exact"
+      }
+    ],
+    "corrections_to_existing": [
+      "관할 명시: 10월 둘째 월요일 'Native Americans' Day'는 사우스다코타주 법정 공휴일(SDCL 1-5-1.2, SL 1990). 기존 '일부 주와 도시에서 콜럼버스의 날을 대체하거나 함께 기념'은 토착민의 날(IPD) 일반론과 섞여 있어 분리.",
+      "기존 '1990년 사우스다코타주가 처음 이날을 원주민의 날로 바꿨고'는 대체로 맞음. 공식 명칭은 'Native Americans' Day'.",
+      "기존 '2021년 바이든이 처음으로 \"원주민의 날\" 포고문' → 바이든이 낸 것은 'Indigenous Peoples' Day'(토착민의 날) 포고문이며 사우스다코타의 Native Americans' Day와 별개. 용어 구분.",
+      "기존 '570곳이 넘는다' → BIA 현재 표기 575곳.",
+      "캘리포니아 Native American Day(9월 넷째 금요일)와 혼동 주의 문구 추가.",
+      "sourceUrl 'native-american-day-us'(슬러그) → SD 주법 URL 제안(사람이 읽는 페이지: https://sdlegislature.gov/Statutes/1-5-1.2)."
+    ],
+    "notes": "sd_searchlight_2025, thune_nad는 직접 접속 403으로 Wayback 사본 사용. 'Indigenous Peoples Day'를 '토착민의 날'로 번역해 'Native Americans' Day(원주민의 날)'과 구분 — 앱 내 다른 항목 용어와 일관성 검토 필요. 2021 bidenwhitehouse 포고문(wh_ipd_2021)도 저장."
+  },
+  "anv-nth-10-2-mon-columbus-day-us": {
+    "origin": "콜럼버스의 날(Columbus Day)은 매년 10월 둘째 월요일, 크리스토퍼 콜럼버스가 1492년 10월 12일 아메리카 대륙에 도착한 일을 기념하는 미국의 연방 공휴일이다. 미 의회도서관에 따르면 미국에서 기록된 첫 기념행사는 상륙 300주년인 1792년 태머니 협회가 열었다. 400주년인 1892년에는 벤저민 해리슨 대통령이 포고문을 내 전국적인 기념을 권했다. 브리태니커는 그 배경으로 1891년 뉴올리언스에서 이탈리아계 미국인들이 집단 린치를 당한 사건을 든다. 이 사건으로 흔들린 이탈리아와의 관계를 달래려는 한 번만의 기념이었다는 것이다. 이후 가톨릭 우애 단체인 콜럼버스 기사단이 각 주 의회에 공휴일 지정을 요구했고, 1907년 콜로라도주가 처음으로 법정 공휴일로 정했다. 1934년 연방 의회는 대통령이 해마다 10월 12일을 콜럼버스의 날로 포고하도록 요청하는 법을 만들었고, 1937년 프랭클린 루스벨트 대통령 때부터 매년 지키는 국가 기념일이 됐다. 이어 1968년 '월요일 공휴일 통일법'으로 연방 법정공휴일 목록에 추가되면서 1971년부터 지금처럼 10월 둘째 월요일에 쉬게 됐다.",
+    "anecdote": "콜럼버스의 날은 미국에서 가장 의견이 갈리는 공휴일 가운데 하나다. 한편에서는 '신대륙 발견'과 함께 이탈리아계 미국인의 문화유산을 기리는 날로 여긴다. 콜럼버스가 이탈리아 제노바 출신이라는 견해가 많기 때문이다. 뉴욕, 샌프란시스코, 시카고, 보스턴 등에서는 지금도 이탈리아 문화유산 퍼레이드가 열린다. 다른 한편에서 원주민 단체와 비판자들은 콜럼버스가 원주민을 가혹하게 대했고, 그의 항해가 유럽인 정착과 식민화의 시작이었다는 점을 들어 휴일을 바꾸자고 주장해 왔다. 브리태니커에 따르면 1992년 500주년 무렵 이 휴일은 유럽의 원주민 정복을 되돌아보는 계기가 됐고, 대안으로 '토착민의 날(Indigenous Peoples' Day)'이 제안됐다. 퓨리서치센터의 2025년 분석에 따르면 30개 주와 3개 준주가 어떤 형태로든 콜럼버스의 날을 인정하지만, 주 공무원 유급 휴일로 두는 곳은 20개 주와 2개 준주다. 연방 차원에서는 여전히 유급 휴일이라 우편 배달도 쉰다.",
+    "sourceUrl": "https://www.loc.gov/item/today-in-history/october-12/",
+    "evidence": [
+      {
+        "claim": "Federal legal public holiday 2nd Monday Oct",
+        "url": "https://www.law.cornell.edu/uscode/text/5/6103",
+        "title": "5 U.S. Code § 6103 - Holidays",
+        "publisher": "Cornell LII (U.S. Code)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Columbus Day, the second Monday in October.",
+        "local_evidence_path": "evidence/usc5_6103.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "commemorates landing Oct 12, 1492; since 1971 2nd Monday",
+        "url": "https://www.britannica.com/topic/Columbus-Day",
+        "title": "Columbus Day (via Wayback)",
+        "publisher": "Encyclopaedia Britannica",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Columbus Day , in the United States , a holiday (originally observed on October 12; since 1971 observed on the second Monday in October ) to commemorate the landing of Christopher Columbus in the Americas on October 12, 1492.",
+        "local_evidence_path": "evidence/britannica_columbus_day.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "First recorded 1792 by Tammany/Columbian Order",
+        "url": "https://www.loc.gov/item/today-in-history/october-12/",
+        "title": "Today in History - October 12 (via Wayback)",
+        "publisher": "Library of Congress",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The first recorded celebration of Columbus Day in the United States took place on October 12, 1792. Organized by the Society of St. Tammany, also known as the Columbian Order, it commemorated the 300th anniversary of Columbus’ landing.",
+        "local_evidence_path": "evidence/loc_oct12.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Harrison 1892 proclamation",
+        "url": "https://www.loc.gov/item/today-in-history/october-12/",
+        "title": "Today in History - October 12 (via Wayback)",
+        "publisher": "Library of Congress",
+        "accessed_at": "2026-10-11",
+        "quote_original": "President Benjamin Harrison issued a proclamation in 1892, “recommending to the people the observance in all their localities of the 400th anniversary of the discovery of America…”",
+        "local_evidence_path": "evidence/loc_oct12.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1891 lynching, diplomatic, one-time",
+        "url": "https://www.britannica.com/topic/Columbus-Day",
+        "title": "Columbus Day (via Wayback)",
+        "publisher": "Encyclopaedia Britannica",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The event threatened diplomatic relations between Italy and the United States, and, to appease the Italian government, U.S. Pres. Benjamin Harrison proclaimed the 400th anniversary of Columbus’s arrival a national holiday in 1892, intending it to be a one-time celebration.",
+        "local_evidence_path": "evidence/britannica_columbus_day.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Mass lynching New Orleans 1891",
+        "url": "https://www.britannica.com/topic/Columbus-Day",
+        "title": "Columbus Day (via Wayback)",
+        "publisher": "Encyclopaedia Britannica",
+        "accessed_at": "2026-10-11",
+        "quote_original": "A mass lynching of Italian Americans in New Orleans in 1891 prompted U.S. President Benjamin Harrison to make the 400th anniversary of Columbus’s arrival a national holiday in 1892",
+        "local_evidence_path": "evidence/britannica_columbus_day.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "KofC Catholic fraternal; Colorado first 1907",
+        "url": "https://www.loc.gov/item/today-in-history/october-12/",
+        "title": "Today in History - October 12 (via Wayback)",
+        "publisher": "Library of Congress",
+        "accessed_at": "2026-10-11",
+        "quote_original": "the Knights of Columbus , an international Roman Catholic fraternal benefit society, lobbied state legislatures to declare October 12 a legal holiday. Colorado was the first state to do so on April 1, 1907.",
+        "local_evidence_path": "evidence/loc_oct12.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1934 Act (Oct 12) source of proclamation request",
+        "url": "https://www.law.cornell.edu/uscode/text/36/107",
+        "title": "36 U.S. Code § 107 - Columbus Day",
+        "publisher": "Cornell LII (U.S. Code)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In clause (1), the words “the 2d Monday in October” are substituted for “October 12” in the Act of April 30, 1934",
+        "local_evidence_path": "evidence/usc36_107_columbus.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "President requested to proclaim",
+        "url": "https://www.law.cornell.edu/uscode/text/36/107",
+        "title": "36 U.S. Code § 107 - Columbus Day",
+        "publisher": "Cornell LII (U.S. Code)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The President is requested to issue each year a proclamation—",
+        "local_evidence_path": "evidence/usc36_107_columbus.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1937 FDR annual",
+        "url": "https://www.britannica.com/topic/Columbus-Day",
+        "title": "Columbus Day (via Wayback)",
+        "publisher": "Encyclopaedia Britannica",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In 1937 U.S. President Franklin D. Roosevelt proclaimed the day an annual holiday.",
+        "local_evidence_path": "evidence/britannica_columbus_day.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1937 federal, KofC lobbying, 1971 move",
+        "url": "https://www.pewresearch.org/short-reads/2025/10/07/columbus-day-indigenous-peoples-day-or-just-a-regular-monday-it-depends-on-where-you-are/",
+        "title": "Columbus Day, Indigenous Peoples Day or just a regular Monday?",
+        "publisher": "Pew Research Center",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Originally conceived as a celebration of Italian American heritage, Columbus Day was first observed as a federal holiday in 1937 . That was largely due to lobbying by the Knights of Columbus, a Catholic fraternal and service organization. The holiday moved from Oct. 12 to the second Monday in October starting in 1971.",
+        "local_evidence_path": "evidence/pew_columbus_2025.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1968 Pub. L. 90-363 added Columbus Day",
+        "url": "https://www.law.cornell.edu/uscode/text/5/6103",
+        "title": "5 U.S. Code § 6103 - Holidays",
+        "publisher": "Cornell LII (U.S. Code)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "1968—Subsec. (a). Pub. L. 90–363 added Columbus Day, the second Monday in October, to the enumerated legal public holidays",
+        "local_evidence_path": "evidence/usc5_6103.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Italian heritage; Genoa",
+        "url": "https://common.usembassy.gov/wp-content/uploads/sites/111/2023/02/P_US_Holidays_ColumbusDay_English.pdf",
+        "title": "Columbus Day (U.S. Holidays series)",
+        "publisher": "U.S. Embassy",
+        "accessed_at": "2026-10-11",
+        "quote_original": "celebrates the cultural heritage",
+        "local_evidence_path": "evidence/embassy_columbus.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Genoa",
+        "url": "https://common.usembassy.gov/wp-content/uploads/sites/111/2023/02/P_US_Holidays_ColumbusDay_English.pdf",
+        "title": "Columbus Day (U.S. Holidays series)",
+        "publisher": "U.S. Embassy",
+        "accessed_at": "2026-10-11",
+        "quote_original": "born in Genoa, Italy.",
+        "local_evidence_path": "evidence/embassy_columbus.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Parade cities",
+        "url": "https://common.usembassy.gov/wp-content/uploads/sites/111/2023/02/P_US_Holidays_ColumbusDay_English.pdf",
+        "title": "Columbus Day (U.S. Holidays series)",
+        "publisher": "U.S. Embassy",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Boston and Denver are some of the",
+        "local_evidence_path": "evidence/embassy_columbus.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Critics' argument",
+        "url": "https://www.pewresearch.org/short-reads/2025/10/07/columbus-day-indigenous-peoples-day-or-just-a-regular-monday-it-depends-on-where-you-are/",
+        "title": "Columbus Day, Indigenous Peoples Day or just a regular Monday?",
+        "publisher": "Pew Research Center",
+        "accessed_at": "2026-10-11",
+        "quote_original": "More recently, Native American groups and other critics have advocated for changing the holiday to something else, citing Columbus’ mistreatment of Indigenous people and the legacy of European settlement that his voyages initiated.",
+        "local_evidence_path": "evidence/pew_columbus_2025.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1992 quincentennial, IPD proposed",
+        "url": "https://www.britannica.com/topic/Columbus-Day",
+        "title": "Columbus Day (via Wayback)",
+        "publisher": "Encyclopaedia Britannica",
+        "accessed_at": "2026-10-11",
+        "quote_original": "By the quincentennial in 1992, however, the holiday had become an occasion for discussing the European conquest of Native peoples . Some people objected to celebrating the event and proposed alternatives , among them Indigenous Peoples’ Day .",
+        "local_evidence_path": "evidence/britannica_columbus_day.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "30 states + 3 territories recognize",
+        "url": "https://www.pewresearch.org/short-reads/2025/10/07/columbus-day-indigenous-peoples-day-or-just-a-regular-monday-it-depends-on-where-you-are/",
+        "title": "Columbus Day, Indigenous Peoples Day or just a regular Monday?",
+        "publisher": "Pew Research Center",
+        "accessed_at": "2026-10-11",
+        "quote_original": "On one hand, 30 states and three U.S. territories recognize Columbus Day in some form",
+        "local_evidence_path": "evidence/pew_columbus_2025.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "20 states + 2 territories paid",
+        "url": "https://www.pewresearch.org/short-reads/2025/10/07/columbus-day-indigenous-peoples-day-or-just-a-regular-monday-it-depends-on-where-you-are/",
+        "title": "Columbus Day, Indigenous Peoples Day or just a regular Monday?",
+        "publisher": "Pew Research Center",
+        "accessed_at": "2026-10-11",
+        "quote_original": "However, only 20 states and two territories make Columbus Day a paid holiday for state workers",
+        "local_evidence_path": "evidence/pew_columbus_2025.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "federal paid, no mail",
+        "url": "https://www.pewresearch.org/short-reads/2025/10/07/columbus-day-indigenous-peoples-day-or-just-a-regular-monday-it-depends-on-where-you-are/",
+        "title": "Columbus Day, Indigenous Peoples Day or just a regular Monday?",
+        "publisher": "Pew Research Center",
+        "accessed_at": "2026-10-11",
+        "quote_original": "It’s an official federal holiday , which means federal workers normally get a paid day off and there’s no mail delivery .",
+        "local_evidence_path": "evidence/pew_columbus_2025.txt",
+        "quote_match": "exact"
+      }
+    ],
+    "corrections_to_existing": [
+      "기존 '이탈리아계 가톨릭 친목단체 콜럼버스 기사단' → 의회도서관 표현은 '국제 로마 가톨릭 우애 공제회'로, 이탈리아계 단체가 아님.",
+      "기존 '1937년 루스벨트가 연방 공휴일로 공식 지정' → 1934년 의회법(대통령 포고 요청)+1937년부터 매년 포고(브리태니커·퓨). 연방 법정공휴일(5 USC 6103) 목록 편입은 1968년 Pub.L.90-363, 월요일 시행 1971년.",
+      "기존 '미국 17개 주가 이날을 원주민의 날로 대체하거나 병행' → 퓨 2025 기준 '17개 주+D.C.가 10월 둘째 월요일에 원주민을 기리는 휴일 보유'가 정확한 표현(이번 콜럼버스 항목에서는 30주/20주 수치로 대체, 17주 수치는 원주민의 날 항목에 배치).",
+      "sourceUrl 'columbus-day-us'(슬러그) → LOC Today in History Oct 12 제안."
+    ],
+    "notes": "LOC 페이지는 'FDR designated Columbus Day a national holiday in 1934'라고 적어 브리태니커·퓨(1937)와 표현 차이 → 본문에서 1934 법/1937 연례 포고로 분리해 조화. embassy PDF는 다단 레이아웃이라 짧은 구절 단위로 인용. 퍼레이드 도시는 PDF 원문 'New York, San Francisco, Chicago, Boston and Denver are some of the cities that hold festive Columbus Day/Italian heritage parades'(줄바꿈 분리). 논쟁은 퓨·브리태니커에 귀속해 중립 서술."
+  },
+  "anv-nth-11-4-thu-day-of-mourning-us": {
+    "origin": "애도의 날(National Day of Mourning)은 매년 미국 추수감사절 정오, 매사추세츠주 플리머스의 콜스 힐에 원주민과 지지자들이 모여 원주민 조상을 기리고 식민화의 역사를 되새기는 추모·항의 행사다. 정부가 정한 공휴일이 아니라 원주민 단체인 '뉴잉글랜드 아메리칸 인디언 연합(UAINE)'이 1970년부터 이어 오고 있다. 계기는 1970년 필그림 상륙 350주년이었다. 필그림은 1620년 메이플라워호를 타고 와 플리머스에 정착한 영국 이주민을 말한다. 매사추세츠주가 이를 기념해 연 만찬에서 아퀴나 왐파노아그족인 와무수타(프랭크 제임스)가 연설을 요청받았다. 그런데 주최 측은 미리 받아 본 연설문을 문제 삼아 그가 이 연설을 할 수 없다고 통보했다. 그 연설문은 필그림 측 기록을 근거로, 이들이 도착한 직후 원주민의 무덤을 파헤치고 겨울 식량을 가져갔다는 사실 등을 담고 있었다. 결국 와무수타와 지지자들은 플리머스 록이 내려다보이는 콜스 힐의 왐파노아그족 지도자 우사메퀸(매서소이트) 동상 옆에서 원래 연설을 했고, 이것이 첫 애도의 날이 됐다.",
+    "anecdote": "애도의 날은 축제가 아니라 엄숙한 추모이자 정치적 항의의 날이다. 주최 측에 따르면 많은 참가자가 전날 해 질 녘부터 당일 오후까지 금식하며, 콜스 힐 집회 뒤에는 플리머스 역사지구를 행진한다. 비원주민 지지자도 함께할 수 있지만 연단에는 초청받은 원주민만 선다. 1997년 추수감사절에는 플리머스에서 시위 참가자 25명이 체포되기도 했다. 이듬해 10월 기소가 취하되고 플리머스시와 합의가 이뤄졌는데, 시는 허가 없이도 애도의 날 집회와 행진을 할 수 있다고 인정하고 명판 두 개의 비용을 대기로 했다. 하나는 1970년부터 이어진 애도의 날을 알리는 콜스 힐의 명판이고, 다른 하나는 1675~1676년 영국 이주민과 전쟁을 벌인 왐파노아그족 지도자 메타콤(필립 왕)의 역사를 알리는 명판이다. 미국인 다수에게 추수감사절은 가족이 모여 감사하는 명절이지만, 같은 날 바로 그 장소에서 원주민의 시각으로 역사를 다시 이야기하는 자리가 반세기 넘게 이어져 왔다.",
+    "sourceUrl": "https://www.uaine.org/background.htm",
+    "evidence": [
+      {
+        "claim": "Since 1970, noon at Cole's Hill on Thanksgiving",
+        "url": "https://www.uaine.org/",
+        "title": "National Day of Mourning",
+        "publisher": "United American Indians of New England",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Since 1970, Indigenous people & their allies have gathered at noon on Cole's Hill in Plymouth to commemorate a National Day of Mourning on the US Thanksgiving holiday.",
+        "local_evidence_path": "evidence/uaine_home.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "remembrance + protest",
+        "url": "https://www.uaine.org/",
+        "title": "National Day of Mourning",
+        "publisher": "United American Indians of New England",
+        "accessed_at": "2026-10-11",
+        "quote_original": "It is a day of remembrance and spiritual connection, as well as a protest against the racism and oppression that Indigenous people continue to experience worldwide.",
+        "local_evidence_path": "evidence/uaine_home.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "UAINE declared in 1970",
+        "url": "https://www.uaine.org/background.htm",
+        "title": "Background Information",
+        "publisher": "United American Indians of New England",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In 1970, United American Indians of New England declared US Thanksgiving Day a National Day of Mourning.",
+        "local_evidence_path": "evidence/uaine_background.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Commonwealth banquet 350th anniversary",
+        "url": "https://www.uaine.org/background.htm",
+        "title": "Background Information",
+        "publisher": "United American Indians of New England",
+        "accessed_at": "2026-10-11",
+        "quote_original": "fancy Commonwealth of Massachusetts banquet celebrating the 350th anniversary of the landing of the Pilgrims.",
+        "local_evidence_path": "evidence/uaine_background.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Told he would not be allowed",
+        "url": "https://www.uaine.org/background.htm",
+        "title": "Background Information",
+        "publisher": "United American Indians of New England",
+        "accessed_at": "2026-10-11",
+        "quote_original": "told by a representative of the Department of Commerce and Development that he would not be allowed to give the",
+        "local_evidence_path": "evidence/uaine_background.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Speech based on Pilgrim account: graves, supplies",
+        "url": "https://www.uaine.org/background.htm",
+        "title": "Background Information",
+        "publisher": "United American Indians of New England",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The\n book tells of the opening of my ancestor's graves, taking our wheat and bean supplies",
+        "local_evidence_path": "evidence/uaine_background.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Speech text: graves robbed, corn and beans",
+        "url": "https://www.uaine.org/suppressed_speech.htm",
+        "title": "Suppressed Speech of Wamsutta (Frank B.) James",
+        "publisher": "United American Indians of New England",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The Pilgrims had hardly explored the shores of Cape Cod for four days before they had robbed the graves of my ancestors and stolen their corn and beans.",
+        "local_evidence_path": "evidence/uaine_suppressed.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Wamsutta (Frank B.) James, Wampanoag",
+        "url": "https://www.uaine.org/suppressed_speech.htm",
+        "title": "Suppressed Speech of Wamsutta (Frank B.) James",
+        "publisher": "United American Indians of New England",
+        "accessed_at": "2026-10-11",
+        "quote_original": "THE SUPPRESSED SPEECH OF WAMSUTTA (FRANK B.) JAMES, WAMPANOAG",
+        "local_evidence_path": "evidence/uaine_suppressed.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Aquinnah Wampanoag",
+        "url": "https://mashpeewampanoagtribe-nsn.gov/2022-november-mittark-blog/2022/10/26/53rd-national-day-of-mourning",
+        "title": "53rd National Day of Mourning",
+        "publisher": "Mashpee Wampanoag Tribe",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Wamsutta, known as Frank James, an Aquinnah Wampanoag",
+        "local_evidence_path": "evidence/mashpee_dom.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Spoke on Cole's Hill next to Ousamequin statue; first NDOM",
+        "url": "https://mashpeewampanoagtribe-nsn.gov/2022-november-mittark-blog/2022/10/26/53rd-national-day-of-mourning",
+        "title": "53rd National Day of Mourning",
+        "publisher": "Mashpee Wampanoag Tribe",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Instead, supporters followed tribal leaders to hear Wamsutta give his original speech on Cole’s Hill, next to the statue of former Wampanoag leader Ousamequin.",
+        "local_evidence_path": "evidence/mashpee_dom.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "first official",
+        "url": "https://mashpeewampanoagtribe-nsn.gov/2022-november-mittark-blog/2022/10/26/53rd-national-day-of-mourning",
+        "title": "53rd National Day of Mourning",
+        "publisher": "Mashpee Wampanoag Tribe",
+        "accessed_at": "2026-10-11",
+        "quote_original": "This became the first official National Day of Mourning.",
+        "local_evidence_path": "evidence/mashpee_dom.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Cole's Hill above Plymouth Rock",
+        "url": "https://www.uaine.org/",
+        "title": "National Day of Mourning",
+        "publisher": "United American Indians of New England",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Cole's Hill is the hill above Plymouth Rock in the Plymouth historic waterfront area.",
+        "local_evidence_path": "evidence/uaine_home.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Massasoit (Ousameqin)",
+        "url": "https://www.uaine.org/settlement.htm",
+        "title": "October 19, 1998 Settlement",
+        "publisher": "United American Indians of New England",
+        "accessed_at": "2026-10-11",
+        "quote_original": "a son of the Wampanoag sachem known as the Massasoit (Ousameqin)",
+        "local_evidence_path": "evidence/uaine_settlement.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Solemn, fasting",
+        "url": "https://www.uaine.org/",
+        "title": "National Day of Mourning",
+        "publisher": "United American Indians of New England",
+        "accessed_at": "2026-10-11",
+        "quote_original": "An annual tradition since 1970, National Day of Mourning is a solemn, spiritual and highly political day. Many of us fast from sundown the day before through the afternoon of that day",
+        "local_evidence_path": "evidence/uaine_home.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "March through historic district",
+        "url": "https://www.uaine.org/",
+        "title": "National Day of Mourning",
+        "publisher": "United American Indians of New England",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Yes, there will be a march through the historic district of Plymouth.",
+        "local_evidence_path": "evidence/uaine_home.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Only Indigenous speak; by invitation",
+        "url": "https://www.uaine.org/",
+        "title": "National Day of Mourning",
+        "publisher": "United American Indians of New England",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Although we very much welcome our non-Native supporters to join us, it is a day when only Indigenous people speak about our history and the struggles that are taking place throughout the Americas. Speakers are by invitation only.",
+        "local_evidence_path": "evidence/uaine_home.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "25 arrested Nov 27, 1997",
+        "url": "https://www.uaine.org/settlement.htm",
+        "title": "October 19, 1998 Settlement",
+        "publisher": "United American Indians of New England",
+        "accessed_at": "2026-10-11",
+        "quote_original": "what happened on November 27, 1997, when 25 peaceful protesters were arrested in Plymouth,",
+        "local_evidence_path": "evidence/uaine_settlement.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Charges dropped Oct 19, 1998; settlement",
+        "url": "https://www.uaine.org/settlement.htm",
+        "title": "October 19, 1998 Settlement",
+        "publisher": "United American Indians of New England",
+        "accessed_at": "2026-10-11",
+        "quote_original": "dropped as of today, October 19, 1998. Further, United American Indians of New England has reached a settlement with",
+        "local_evidence_path": "evidence/uaine_settlement.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "No permit required in perpetuity",
+        "url": "https://www.uaine.org/settlement.htm",
+        "title": "October 19, 1998 Settlement",
+        "publisher": "United American Indians of New England",
+        "accessed_at": "2026-10-11",
+        "quote_original": "National Day of Mourning is recognized in perpetuity without the requirement of a permit.",
+        "local_evidence_path": "evidence/uaine_settlement.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Two plaques",
+        "url": "https://www.uaine.org/settlement.htm",
+        "title": "October 19, 1998 Settlement",
+        "publisher": "United American Indians of New England",
+        "accessed_at": "2026-10-11",
+        "quote_original": "pays $15,000 for 2 plaques, one on Cole's",
+        "local_evidence_path": "evidence/uaine_settlement.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Plaque to commemorate NDOM since 1970",
+        "url": "https://www.uaine.org/settlement.htm",
+        "title": "October 19, 1998 Settlement",
+        "publisher": "United American Indians of New England",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Massasoit on Cole's Hill to commemorate that the National Day of Mourning has been observed in Plymouth since 1970.",
+        "local_evidence_path": "evidence/uaine_settlement.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "King Philip's War 1675-1676",
+        "url": "https://www.uaine.org/settlement.htm",
+        "title": "October 19, 1998 Settlement",
+        "publisher": "United American Indians of New England",
+        "accessed_at": "2026-10-11",
+        "quote_original": "lasted from 1675-1676.",
+        "local_evidence_path": "evidence/uaine_settlement.txt",
+        "quote_match": "exact"
+      }
+    ],
+    "corrections_to_existing": [
+      "기존 내용은 대체로 정확. '연설문을 검열당하자'는 UAINE 원문 기준 '주최 측이 사전 제출된 연설문을 이유로 연설 불허'로 정밀화.",
+      "기존 '참가자들은 ... 금식하며 연설을 듣는다' → 금식은 '많은 참가자'(Many of us)가 하는 것으로 한정.",
+      "sourceUrl 'day-of-mourning'(슬러그) → https://www.uaine.org/background.htm 제안.",
+      "1997년 체포 사건은 UAINE 측 서술('peaceful protesters', 'frame-up charges')에 의존 — 본문은 중립적으로 '체포', '기소 취하·합의'만 기술."
+    ],
+    "notes": "필그림 1620년 메이플라워 도착 연도는 일반 상식으로 별도 인용 없음(필요시 삭제 가능: 350주년=1970에서 역산 가능). 와무수타 소속은 Mashpee 자료가 'Aquinnah Wampanoag'라고 명시."
+  },
+  "anv-rel-thanksgiving-1-native-american-heritage-day-us": {
+    "origin": "원주민 유산의 날(Native American Heritage Day)은 매년 추수감사절 다음 날인 금요일, 아메리카 원주민의 역사와 문화, 미국 사회에 대한 기여를 기리는 미국의 기념일이다. 시작은 2008년이다. 캘리포니아주 출신 조 바카 연방 하원의원이 발의한 공동결의안이 의회를 통과해 그해 10월 8일 '2008년 원주민 유산의 날 법'으로 승인됐다. 다만 이 법이 원주민 유산의 날로 지정한 것은 2008년 11월 28일 금요일 하루뿐이었다. 해마다 추수감사절 다음 금요일을 원주민 유산의 날로 삼게 된 것은 이듬해 의회를 통과해 2009년 6월 26일 버락 오바마 대통령이 서명한 '2009년 원주민 유산의 날 법'부터다. 법은 연방·주·지방 정부와 단체, 국민이 이날 원주민 부족 정부의 역사적 지위와 오늘날의 상황, 원주민의 문화와 전통, 언어를 다루는 행사를 열도록 권장한다. 쉬는 날을 정한 연방 공휴일은 아니며, 대통령은 11월 '원주민 유산의 달' 포고문에서 그해의 원주민 유산의 날을 함께 기념하자고 권하곤 한다.",
+    "anecdote": "추수감사절 다음 날은 미국에서 대규모 할인 행사가 열리는 '블랙 프라이데이'로 더 잘 알려져 있다. 그날을 원주민의 역사를 돌아보는 날로도 만들자는 이 법안은 전미인디언게이밍협회(NIGA)와 그 회원인 연방 인정 부족 184곳의 지지를 받았다. 바카 의원은 그보다 앞서 캘리포니아주 하원의원 시절, 9월 넷째 금요일을 캘리포니아의 원주민의 날로 정하는 법을 발의해 1998년 주법으로 만든 인물이기도 하다. 법의 '조사 결과' 조항에는 원주민이 독립전쟁부터 오늘날까지 미국의 모든 군사 작전에 자원해 참전했고, 대부분의 전쟁에서 인구 대비 어느 집단보다 많이 복무했다는 내용이 들어 있다. 이날이 속한 11월은 '원주민 유산의 달'이다. 1990년 조지 H. W. 부시 대통령이 그해 11월을 '전미 아메리칸 인디언 유산의 달'로 정하는 결의안을 승인했고, 1994년부터는 해마다 비슷한 이름의 포고문이 나오고 있다. 퓨리서치센터에 따르면 메릴랜드주와 워싱턴주는 이날을 주 공무원 유급 휴일로 두고 있다.",
+    "sourceUrl": "https://www.bia.gov/NNAHM",
+    "evidence": [
+      {
+        "claim": "2008 Act title, Oct 8, 2008, H.J.Res.62",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-110publ370/html/PLAW-110publ370.htm",
+        "title": "Public Law 110-370 Native American Heritage Day Act of 2008",
+        "publisher": "U.S. Government Publishing Office",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Oct. 8, 2008 - [H.J. \n Res. 62]",
+        "local_evidence_path": "evidence/pl110_370_nahd.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Short title 2008",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-110publ370/html/PLAW-110publ370.htm",
+        "title": "Public Law 110-370 Native American Heritage Day Act of 2008",
+        "publisher": "U.S. Government Publishing Office",
+        "accessed_at": "2026-10-11",
+        "quote_original": "This Act may be cited as the ``Native American Heritage Day Act of \n2008''.",
+        "local_evidence_path": "evidence/pl110_370_nahd.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Designates only Nov 28, 2008",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-110publ370/html/PLAW-110publ370.htm",
+        "title": "Public Law 110-370 Native American Heritage Day Act of 2008",
+        "publisher": "U.S. Government Publishing Office",
+        "accessed_at": "2026-10-11",
+        "quote_original": "designates Friday, November 28, 2008, as ``Native \n American Heritage Day''",
+        "local_evidence_path": "evidence/pl110_370_nahd.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Approved Oct 8, 2008",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-110publ370/html/PLAW-110publ370.htm",
+        "title": "Public Law 110-370 Native American Heritage Day Act of 2008",
+        "publisher": "U.S. Government Publishing Office",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Approved October 8, 2008.",
+        "local_evidence_path": "evidence/pl110_370_nahd.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Introduced by Baca; supported by NIGA and 184 tribes",
+        "url": "http://uctp.blogspot.com/2008/10/house-passes-baca-legislation-to.html",
+        "title": "House Passes Baca Legislation (reprinted press release)",
+        "publisher": "UCTP Taino News (reprint of Rep. Baca release)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "introduced by Congressman Joe Baca (D-Rialto), and supported by the National Indian Gaming Association (NIGA) and 184 federally recognized tribes, to designate the Friday after Thanksgiving as Native American Heritage Day.",
+        "local_evidence_path": "evidence/baca_2008_release.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "NIGA and its 184 member tribes",
+        "url": "http://uctp.blogspot.com/2008/10/house-passes-baca-legislation-to.html",
+        "title": "House Passes Baca Legislation (reprinted press release)",
+        "publisher": "UCTP Taino News (reprint of Rep. Baca release)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The Native American Heritage Day Bill is strongly supported by NIGA and its 184 federally recognized member tribes throughout the nation.",
+        "local_evidence_path": "evidence/baca_2008_release.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "2009 Act annual; Obama signed June 26",
+        "url": "https://www.bia.gov/NNAHM",
+        "title": "National Native American Heritage Month",
+        "publisher": "U.S. Dept. of the Interior, Indian Affairs",
+        "accessed_at": "2026-10-11",
+        "quote_original": "2009: Congress passes House Joint Resolution 40 (Pub. L. 111-33), the “Native American Heritage Day Act of 2009”, which designates the Friday immediately following Thanksgiving Day of each year as “Native American Heritage Day.” President Barack Obama signs the legislation on June 26.",
+        "local_evidence_path": "evidence/bia_nnahm.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Approved June 26, 2009",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-111publ33/html/PLAW-111publ33.htm",
+        "title": "Public Law 111-33 Native American Heritage Day Act of 2009",
+        "publisher": "U.S. Government Publishing Office",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Approved June 26, 2009.",
+        "local_evidence_path": "evidence/pl111_33.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Encourages governments/groups; topics",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-111publ33/html/PLAW-111publ33.htm",
+        "title": "Public Law 111-33 Native American Heritage Day Act of 2009",
+        "publisher": "U.S. Government Publishing Office",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Congress encourages the people of the United States, as well as \nFederal, State, and local governments, and interested groups and \norganizations to honor Native Americans, with activities relating to--",
+        "local_evidence_path": "evidence/pl111_33.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Topics: tribal governments status",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-111publ33/html/PLAW-111publ33.htm",
+        "title": "Public Law 111-33 Native American Heritage Day Act of 2009",
+        "publisher": "U.S. Government Publishing Office",
+        "accessed_at": "2026-10-11",
+        "quote_original": "the historical status of Native American tribal \n governments as well as the present day status of Native \n Americans;",
+        "local_evidence_path": "evidence/pl111_33.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "cultures traditions languages",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-111publ33/html/PLAW-111publ33.htm",
+        "title": "Public Law 111-33 Native American Heritage Day Act of 2009",
+        "publisher": "U.S. Government Publishing Office",
+        "accessed_at": "2026-10-11",
+        "quote_original": "the cultures, traditions, and languages of Native \n Americans; and",
+        "local_evidence_path": "evidence/pl111_33.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Military service finding",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-111publ33/html/PLAW-111publ33.htm",
+        "title": "Public Law 111-33 Native American Heritage Day Act of 2009",
+        "publisher": "U.S. Government Publishing Office",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Native Americans have volunteered to serve in the United \n States Armed Forces and have served with valor in all of the \n Nation's military actions from the Revolutionary War through the \n present day, and in most of those actions, more Native Americans \n per capita served in the Armed Forces than any other group of \n Americans;",
+        "local_evidence_path": "evidence/pl111_33.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Presidential month proclamation urges Heritage Day (2024)",
+        "url": "https://www.federalregister.gov/documents/full_text/html/2024/11/05/2024-25808.html",
+        "title": "Proclamation on National Native American Heritage Month, 2024",
+        "publisher": "Federal Register",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Also, I urge all Americans to celebrate November 29, 2024, as Native American Heritage Day.",
+        "local_evidence_path": "evidence/fr_2024_nahm.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Obama 2009 proclamation incl. Heritage Day",
+        "url": "https://www.bia.gov/NNAHM",
+        "title": "National Native American Heritage Month",
+        "publisher": "U.S. Dept. of the Interior, Indian Affairs",
+        "accessed_at": "2026-10-11",
+        "quote_original": "On October 30 he issues a proclamation designating November 2009 as “National Native American Heritage Month” and November 27, 2009 as Native American Heritage Day.”",
+        "local_evidence_path": "evidence/bia_nnahm.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "Baca authored CA Native American Day law 1998",
+        "url": "http://uctp.blogspot.com/2008/10/house-passes-baca-legislation-to.html",
+        "title": "House Passes Baca Legislation (reprinted press release)",
+        "publisher": "UCTP Taino News (reprint of Rep. Baca release)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "As a state Assemblyman, Rep. Baca introduced the legislation that established the fourth Friday of September as Native American Day in California – which became state law in 1998.",
+        "local_evidence_path": "evidence/baca_2008_release.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1990 joint resolution; annual since 1994",
+        "url": "https://www.archives.gov/news/topics/native-american-heritage-month",
+        "title": "Native American Heritage Month",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In 1990 President George H. W. Bush approved a joint resolution designating November 1990 “National American Indian Heritage Month.” Similar proclamations, under variants on the name (including “Native American Heritage Month” and “National American Indian and Alaska Native Heritage Month”) have been issued each year since 1994.",
+        "local_evidence_path": "evidence/nara_heritage_month.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "MD and WA paid holiday Friday after Thanksgiving",
+        "url": "https://www.pewresearch.org/short-reads/2025/10/07/columbus-day-indigenous-peoples-day-or-just-a-regular-monday-it-depends-on-where-you-are/",
+        "title": "Columbus Day, Indigenous Peoples Day or just a regular Monday?",
+        "publisher": "Pew Research Center",
+        "accessed_at": "2026-10-11",
+        "quote_original": "But of those states, only Maryland and Washington make their Native heritage days paid holidays – once again on the Friday after Thanksgiving.",
+        "local_evidence_path": "evidence/pew_columbus_2025.txt",
+        "quote_match": "exact"
+      }
+    ],
+    "corrections_to_existing": [
+      "핵심 정정: 2008년 법(Pub.L.110-370, 2008-10-08 승인)은 2008년 11월 28일 하루만 지정. 매년 추수감사절 다음 금요일 지정은 2009년 법(Pub.L.111-33, 오바마 2009-06-26 서명).",
+      "기존 '1990년에는 이미 매년 11월 전체가 전미 인디언 유산의 달로 지정' → 1990년 결의는 1990년 11월만 지정. 매년 포고는 NARA 기준 1994년부터(BIA 연표상 1991년 법은 1991년 및 이후 11월 포고 요청).",
+      "기존 '조지 W. 부시 대통령이 서명' → 2008년 법 승인 시점 대통령은 부시가 맞으나, 원문(PL)은 'Approved October 8, 2008'만 표기 — 본문에서는 '승인'으로 표현.",
+      "블랙프라이데이 대비 '의미가 깊다' 류 평가 문구는 사실 서술로 대체.",
+      "sourceUrl 'native-american-heritage-day'(슬러그) → https://www.bia.gov/NNAHM 제안."
+    ],
+    "notes": "184개 부족 지지 근거는 바카 의원 보도자료의 재게재본(uctp.blogspot.com) — 원 하원 페이지 미확보. 필요시 해당 문장 삭제 가능. 블랙 프라이데이 자체 설명은 일반 상식(인용 없음)."
+  }
+}

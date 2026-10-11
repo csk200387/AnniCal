@@ -1,0 +1,1914 @@
+{
+  "anv-fixed-07-04-independence-day-us": {
+    "origin": "미국 독립기념일은 매년 7월 4일, 1776년 대륙회의가 독립선언문을 공식 채택한 일을 기리는 날이다. 당시 북아메리카 동부에는 영국이 다스리던 13개 식민지가 있었고, 이 식민지 대표들이 모인 대륙회의가 사실상 공동 정부 역할을 하고 있었다. 1775년 6월 대륙회의는 대륙군을 창설했고, 1776년 1월 나온 토머스 페인의 소책자 '상식'이 수천 부씩 팔리며 독립 여론도 커졌다. 6월 7일 버지니아 대표 리처드 헨리 리가 '이 연합 식민지는 자유롭고 독립된 국가이며, 마땅히 그래야 한다'는 결의안을 냈고, 의회는 존 애덤스, 벤저민 프랭클린, 토머스 제퍼슨 등 5인 위원회에 선언문 작성을 맡겼다. 초안은 제퍼슨이 썼다. 7월 2일 독립 결의안이 12개 식민지의 찬성으로 채택됐고(뉴욕은 표결에 불참), 의회는 이틀 동안 선언문 문구를 다듬어 7월 4일 공식 채택했다. 이날은 1870년 의회가 워싱턴 D.C.의 공휴일로 처음 지정했고, 지금은 연방법이 정한 법정 공휴일이다. 연방 공휴일은 연방 정부와 워싱턴 D.C.에 적용되며, 각 주는 자체 공휴일을 따로 정한다.",
+    "anecdote": "흔히 독립선언문이 7월 4일 대표 전원의 서명으로 완성됐다고 알려져 있지만, 미국 국립문서보관소는 이를 가장 널리 퍼진 오해 가운데 하나로 꼽는다. 채택된 선언문은 그날 밤 의회 공식 인쇄업자 존 던랩의 인쇄소에서 찍혀 7월 5일 아침 각지로 보내졌고, 양피지에 정서한 문서에 서명이 이뤄진 것은 8월 2일이었다. 최종 서명자는 56명이었지만 모두가 그날 한자리에 있었던 것은 아니다. 당시 찍은 '던랩 인쇄본'은 지금까지 26부가 남아 있다. 7월 2일의 의미도 크다. 존 애덤스는 7월 3일 아내 애비게일에게 보낸 편지에서 '1776년 7월 2일'이 미국 역사에서 가장 기억될 날이 되고, 후대가 축포와 종소리, 모닥불과 불빛으로 기념할 것이라고 썼다. 축하 방식은 내다봤지만 날짜는 이틀 빗나간 셈이다. 공교롭게도 애덤스와 제퍼슨은 선언문 채택 50주년인 1826년 7월 4일, 몇 시간 차이로 세상을 떠났다.",
+    "sourceUrl": "https://www.archives.gov/founding-docs/declaration-history",
+    "evidence": [
+      {
+        "claim": "13개 식민지와 대륙회의가 사실상 정부 역할",
+        "url": "https://www.archives.gov/founding-docs/declaration-history",
+        "title": "The Declaration of Independence: A History | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "When the Second Continental Congress, which was essentially the government of the United States from 1775 to 1788, first met in May 1775",
+        "local_evidence_path": "evidence/archives_decl_history.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1775년 6월 대륙군 창설",
+        "url": "https://www.archives.gov/founding-docs/declaration-history",
+        "title": "The Declaration of Independence: A History | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In June 1775 the Congress established the Continental Army",
+        "local_evidence_path": "evidence/archives_decl_history.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1776년 1월 '상식' 출간, 수천 부 판매",
+        "url": "https://www.archives.gov/founding-docs/declaration-history",
+        "title": "The Declaration of Independence: A History | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Thomas Paine's Common Sense, published in January 1776, was sold by the thousands.",
+        "local_evidence_path": "evidence/archives_decl_history.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "6월 7일 리 결의안",
+        "url": "https://www.archives.gov/founding-docs/declaration-history",
+        "title": "The Declaration of Independence: A History | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "the Continental Congress heard Richard Henry Lee of Virginia read his resolution beginning: \"Resolved: That these United Colonies are, and of right ought to be, free and independent States",
+        "local_evidence_path": "evidence/archives_decl_history.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "5인 위원회 구성원",
+        "url": "https://www.archives.gov/founding-docs/declaration-history",
+        "title": "The Declaration of Independence: A History | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The committee consisted of two New England men, John Adams of Massachusetts and Roger Sherman of Connecticut; two men from the Middle Colonies, Benjamin Franklin of Pennsylvania and Robert R. Livingston of New York; and one southerner, Thomas Jefferson of Virginia.",
+        "local_evidence_path": "evidence/archives_decl_history.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "제퍼슨이 초안 작성",
+        "url": "https://www.archives.gov/founding-docs/declaration-history",
+        "title": "The Declaration of Independence: A History | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "\"unanimously pressed on myself alone to undertake the draught [sic]. I consented; I drew it;",
+        "local_evidence_path": "evidence/archives_decl_history.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "7월 2일 리 결의안 12개 식민지 찬성, 뉴욕 불참",
+        "url": "https://www.archives.gov/founding-docs/declaration-history",
+        "title": "The Declaration of Independence: A History | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The following day, the Lee Resolution for independence was adopted by 12 of the 13 colonies, New York not voting.",
+        "local_evidence_path": "evidence/archives_decl_history.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "7월 4일 공식 채택",
+        "url": "https://www.archives.gov/founding-docs/declaration-history",
+        "title": "The Declaration of Independence: A History | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The process of revision continued through all of July 3 and into the late morning of July 4. The Declaration had been officially adopted.",
+        "local_evidence_path": "evidence/archives_decl_history.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1870년 의회가 D.C. 공휴일로 지정",
+        "url": "https://blogs.loc.gov/law/2024/03/a-cause-for-celebration-federal-holidays-and-observances-part-1/",
+        "title": "A Cause for Celebration: Federal Holidays and Observances Part 1 | In Custodia Legis",
+        "publisher": "Library of Congress",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The first public holidays were established by Congress in 1870 when New Year’s Day, Independence Day, Christmas, and Thanksgiving were declared holidays in the District of Columbia.",
+        "local_evidence_path": "evidence/loc_law_fedholidays1.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "현행 연방 법정 공휴일",
+        "url": "https://www.law.cornell.edu/uscode/text/5/6103",
+        "title": "5 U.S. Code § 6103 - Holidays | U.S. Code | US Law | LII / Legal Information Institute",
+        "publisher": "Cornell LII (U.S. Code text)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Independence Day, July 4.",
+        "local_evidence_path": "evidence/uscode_5_6103.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "연방 공휴일 적용 범위",
+        "url": "https://www.archives.gov/legislative/features/washington",
+        "title": "George Washington's Birthday | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Federal holidays apply only to the federal government and the District of Columbia; Congress has never declared a national holiday binding in all states and each state decides its own legal holidays.",
+        "local_evidence_path": "evidence/archives_presidents_day.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "7월 4일 전원 서명은 오해",
+        "url": "https://www.archives.gov/founding-docs/declaration-history",
+        "title": "The Declaration of Independence: A History | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "One of the most widely held misconceptions about the Declaration is that it was signed on July 4, 1776, by all the delegates in attendance.",
+        "local_evidence_path": "evidence/archives_decl_history.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "던랩 인쇄, 7월 5일 아침 배포",
+        "url": "https://www.archives.gov/founding-docs/declaration-history",
+        "title": "The Declaration of Independence: A History | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The first printed copies of the Declaration of Independence were turned out from the shop of John Dunlap, official printer to the Congress.",
+        "local_evidence_path": "evidence/archives_decl_history.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "7월 5일 아침 배포",
+        "url": "https://www.archives.gov/founding-docs/declaration-history",
+        "title": "The Declaration of Independence: A History | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "On the morning of July 5, copies were dispatched by members of Congress to various assemblies, conventions, and committees of safety as well as to the commanders of Continental troops.",
+        "local_evidence_path": "evidence/archives_decl_history.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "8월 2일 서명",
+        "url": "https://www.archives.gov/founding-docs/declaration-history",
+        "title": "The Declaration of Independence: A History | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "on August 2, the journal of the Continental Congress records that \"The declaration of independence being engrossed and compared at the table was signed.\"",
+        "local_evidence_path": "evidence/archives_decl_history.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "서명자 56명, 8월 2일 전원 참석 아님",
+        "url": "https://www.archives.gov/founding-docs/declaration-history",
+        "title": "The Declaration of Independence: A History | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Eventually 56 delegates signed, although all were not present on August 2.",
+        "local_evidence_path": "evidence/archives_decl_history.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "던랩 인쇄본 26부 현존",
+        "url": "https://www.archives.gov/founding-docs/declaration-history",
+        "title": "The Declaration of Independence: A History | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "There are 26 copies known to exist of what is commonly referred to as \"the Dunlap broadside,\"",
+        "local_evidence_path": "evidence/archives_decl_history.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "애덤스 편지 7월 2일 예언",
+        "url": "https://www.masshist.org/digitaladams/archive/doc?id=L17760703jasecond",
+        "title": "Letter from  John Adams to  Abigail Adams,  3 July 1776, \"Had a Declaration...\"",
+        "publisher": "Massachusetts Historical Society",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The Second Day of July 1776, will be the most memorable Epocha, in the History of America.",
+        "local_evidence_path": "evidence/masshist_adams_0703.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "애덤스 편지: 축하 방식",
+        "url": "https://www.masshist.org/digitaladams/archive/doc?id=L17760703jasecond",
+        "title": "Letter from  John Adams to  Abigail Adams,  3 July 1776, \"Had a Declaration...\"",
+        "publisher": "Massachusetts Historical Society",
+        "accessed_at": "2026-10-11",
+        "quote_original": "It ought to be solemnized with Pomp and Parade, with Shews, Games, Sports, Guns, Bells, Bonfires and Illuminations from one End of this Continent to the other from this Time forward forever more.",
+        "local_evidence_path": "evidence/masshist_adams_0703.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "애덤스·제퍼슨 1826년 7월 4일 사망, 몇 시간 차",
+        "url": "https://www.nps.gov/articles/000/on-presidential-births-and-deaths.htm",
+        "title": "On Presidential Births and Deaths (U.S. National Park Service)Lock",
+        "publisher": "U.S. National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "John Adams and Thomas Jefferson died on the fiftieth anniversary of the adoption of the Declaration of Independence, July 4, 1826. Jefferson died at approximately 2 p.m. on that day and Adams died at about 6 p.m.",
+        "local_evidence_path": "evidence/nps_pres_births_deaths.txt",
+        "quote_match": "exact"
+      }
+    ],
+    "corrections_to_existing": [
+      "기존 문장 '선언문에 대표단이 서명한 것도 대부분 8월 2일'은 방향은 맞으나, 국립문서보관소는 서명자 56명 전원이 8월 2일에 있지 않았고 일부는 이후 서명했다고 설명함 → '서명이 이뤄진 것은 8월 2일, 모두가 그날 한자리에 있지는 않았다'로 정밀화.",
+      "기존 '불꽃놀이와 바비큐... 미국 최대의 여름 축제일' 및 대중문화 관련 서술은 출처 미확보로 삭제.",
+      "sourceUrl을 nationaldaycalendar.com에서 archives.gov로 교체 제안."
+    ],
+    "notes": "애덤스 편지 날짜는 1776년 7월 3일(MHS 디지털 애덤스 문서). 1870년 지정은 D.C. 공휴일이었으며 '유급' 여부 등 세부는 기술하지 않음."
+  },
+  "anv-fixed-09-17-constitution-citizenship-day-us": {
+    "origin": "미국 헌법의 날 및 시민권의 날은 매년 9월 17일, 1787년 필라델피아 제헌회의 대표들이 미국 헌법에 서명한 일을 기념하고, 미국 시민이 된 모든 사람을 함께 기리는 날이다. 독립 직후 미국은 1781년부터 효력을 가진 '연합규약'으로 운영됐다. 이 규약은 13개 주의 '우호 동맹'에 가까워 주의 권한이 강하고 중앙정부는 약했다. 이를 고치기 위해 1787년 5월 25일 필라델피아의 주 의사당, 곧 독립선언문이 서명된 건물에서 회의가 열렸고 조지 워싱턴이 만장일치로 의장에 뽑혔다. 넉 달 가까운 토론 끝에 9월 17일 대표 39명이 서명했다. 헌법이 발효되려면 9개 주의 비준이 필요했는데, 1788년 7월 2일 연합회의는 뉴햄프셔가 아홉 번째로 비준했다는 소식을 받았다. 기념일의 뿌리는 두 갈래다. 1940년 5월 셋째 일요일로 정해진 '나는 미국인이다 시민의 날'이 1952년 '시민권의 날'로 이름을 바꾸고 헌법 서명일인 9월 17일로 옮겨졌다. 이어 2004년 의회가 지금의 이름으로 바꾸면서 두 의미가 한 날에 담겼다.",
+    "anecdote": "이날은 연방 법정 공휴일이 아니라 연방법에 근거한 기념일이다. 대통령은 매년 포고문을 내 정부 건물에 국기를 게양하도록 할 수 있고, 2004년 법 개정 이후 연방 자금을 받는 교육기관과 연방 기관은 9월 17일에 헌법 교육 프로그램을 마련해야 한다. '시민권의 날'이 함께 붙은 이유도 법 조문에 드러난다. 이날은 헌법 서명뿐 아니라 성년이 되거나 귀화해 시민이 된 모든 사람을 기린다. 서명 장면에도 잘 알려지지 않은 사실이 있다. 국립문서보관소에 따르면 서명자는 39명뿐이었다. 14명은 이미 집으로 돌아갔고, 버지니아의 랜돌프와 메이슨, 매사추세츠의 게리는 서명을 거부했다. 서명 가운데 하나는 자리에 없던 델라웨어의 존 디킨슨 것으로, 그의 부탁을 받은 같은 주 대표 조지 리드가 대신 적었다. 1956년에는 대통령이 9월 17일부터 23일까지를 '헌법 주간'으로 지정할 수 있도록 하는 법도 만들어져, 기념은 하루를 넘어 한 주로 넓어졌다.",
+    "sourceUrl": "https://www.law.cornell.edu/uscode/text/36/106",
+    "evidence": [
+      {
+        "claim": "법적 지정과 목적(서명 기념 + 성년·귀화 시민)",
+        "url": "https://www.law.cornell.edu/uscode/text/36/106",
+        "title": "36 U.S. Code § 106 - Constitution Day and Citizenship Day | U.S. Code | US Law | LII / Legal Information Institute",
+        "publisher": "Cornell LII (U.S. Code text)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Constitution Day and Citizenship Day commemorate the formation and signing on September 17, 1787, of the Constitution and recognize all who, by coming of age or by naturalization, have become citizens.",
+        "local_evidence_path": "evidence/uscode_36_106.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "연합규약 1781년부터, 13개 주의 우호 동맹",
+        "url": "https://www.archives.gov/founding-docs/more-perfect-union",
+        "title": "Constitution of the United States—A History | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In force since 1781, established as a \"league of friendship\" and a constitution for the 13 sovereign and independent states after the Revolution",
+        "local_evidence_path": "evidence/archives_more_perfect_union.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "주 권한이 강함",
+        "url": "https://www.archives.gov/founding-docs/more-perfect-union",
+        "title": "Constitution of the United States—A History | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "With the states retaining considerable power, the central",
+        "local_evidence_path": "evidence/archives_more_perfect_union.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "5월 25일 개회, 독립선언 서명된 주 의사당",
+        "url": "https://www.archives.gov/founding-docs/constitution-q-and-a",
+        "title": "Constitution questions and answers | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In Philadelphia, in the State House where the Declaration of Independence was signed. The meeting was called for May 14, 1787, but a quorum was not present until May 25.",
+        "local_evidence_path": "evidence/archives_constitution_qa.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "워싱턴 만장일치 의장 선출",
+        "url": "https://www.archives.gov/founding-docs/more-perfect-union",
+        "title": "Constitution of the United States—A History | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "He was unanimously elected president of the Philadelphia convention.",
+        "local_evidence_path": "evidence/archives_more_perfect_union.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "9월 17일 서명, 비준 9개 주 필요",
+        "url": "https://www.everycrsreport.com/reports/R48174.html",
+        "title": "Constitution Day and Citizenship Day: Fact Sheet - EveryCRSReport.com",
+        "publisher": "Congressional Research Service (via EveryCRSReport)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "On September 17, 1787, delegates to the Constitutional Convention in Philadelphia, PA, signed the U.S. Constitution, beginning a process of state-by-state ratification that lasted until 1790. The approval of nine states was needed to ratify the Constitution",
+        "local_evidence_path": "evidence/everycrs_constitution_day.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1788년 7월 2일 뉴햄프셔 9번째 비준 소식",
+        "url": "https://www.archives.gov/founding-docs/more-perfect-union",
+        "title": "Constitution of the United States—A History | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "On July 2, 1788, the Confederation Congress, meeting in New York, received word that a reconvened New Hampshire ratifying convention had approved the Constitution.",
+        "local_evidence_path": "evidence/archives_more_perfect_union.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1940년 5월 셋째 일요일 '나는 미국인이다 시민의 날'",
+        "url": "https://www.everycrsreport.com/reports/R48174.html",
+        "title": "Constitution Day and Citizenship Day: Fact Sheet - EveryCRSReport.com",
+        "publisher": "Congressional Research Service (via EveryCRSReport)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "On May 3, 1940, President Franklin Roosevelt signed a joint resolution making the third Sunday in May \"I Am an American Citizenship Day.\"",
+        "local_evidence_path": "evidence/everycrs_constitution_day.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1952년 시민권의 날로 개명, 9월 17일로 이동",
+        "url": "https://www.everycrsreport.com/reports/R48174.html",
+        "title": "Constitution Day and Citizenship Day: Fact Sheet - EveryCRSReport.com",
+        "publisher": "Congressional Research Service (via EveryCRSReport)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In 1952, I Am an American Citizenship Day was renamed to Citizenship Day, and the observance date was moved from May 3 to September 17 to coincide with the anniversary of the Constitution's signing.",
+        "local_evidence_path": "evidence/everycrs_constitution_day.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "2004년 개명 + 교육기관 의무",
+        "url": "https://www.everycrsreport.com/reports/R48174.html",
+        "title": "Constitution Day and Citizenship Day: Fact Sheet - EveryCRSReport.com",
+        "publisher": "Congressional Research Service (via EveryCRSReport)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In November 2004, Congress renamed the September 17 observance to \"Constitution Day and Citizenship Day\" and directed educational institutions that receive federal funding to hold related educational programs.",
+        "local_evidence_path": "evidence/everycrs_constitution_day.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "연방 기관·교육기관 9월 17일 교육 프로그램",
+        "url": "https://www.everycrsreport.com/reports/R48174.html",
+        "title": "Constitution Day and Citizenship Day: Fact Sheet - EveryCRSReport.com",
+        "publisher": "Congressional Research Service (via EveryCRSReport)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "This act established the requirement that federal agencies and educational institutions receiving federal funds provide an educational program on the U.S. Constitution on September 17",
+        "local_evidence_path": "evidence/everycrs_constitution_day.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "연방 기념(commemoration)",
+        "url": "https://www.everycrsreport.com/reports/R48174.html",
+        "title": "Constitution Day and Citizenship Day: Fact Sheet - EveryCRSReport.com",
+        "publisher": "Congressional Research Service (via EveryCRSReport)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Constitution Day and Citizenship Day is a federal commemoration observed annually on September 17",
+        "local_evidence_path": "evidence/everycrs_constitution_day.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "법정 공휴일 목록(헌법의 날 없음)",
+        "url": "https://www.law.cornell.edu/uscode/text/5/6103",
+        "title": "5 U.S. Code § 6103 - Holidays | U.S. Code | US Law | LII / Legal Information Institute",
+        "publisher": "Cornell LII (U.S. Code text)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The following are legal public holidays:",
+        "local_evidence_path": "evidence/uscode_5_6103.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "대통령 포고문·국기 게양",
+        "url": "https://www.law.cornell.edu/uscode/text/36/106",
+        "title": "36 U.S. Code § 106 - Constitution Day and Citizenship Day | U.S. Code | US Law | LII / Legal Information Institute",
+        "publisher": "Cornell LII (U.S. Code text)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The President may issue each year a proclamation calling on United States Government officials to display the flag of the United States on all Government buildings on Constitution Day and Citizenship Day",
+        "local_evidence_path": "evidence/uscode_36_106.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "서명자 39명, 14명 귀가, 3명 거부, 디킨슨 대리 서명",
+        "url": "https://www.archives.gov/founding-docs/constitution-q-and-a",
+        "title": "Constitution questions and answers | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Only thirty-nine signed. Fourteen deputies had departed for their homes, and three--Randolph and Mason, of Virginia, and Gerry, of Massachusetts--refused to sign. One of the signatures is that of an absent deputy, John Dickinson, of Delaware, added at his request by George Read, who also was from Delaware.",
+        "local_evidence_path": "evidence/archives_constitution_qa.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "헌법 주간 9월 17~23일(1956)",
+        "url": "https://www.everycrsreport.com/reports/R48174.html",
+        "title": "Constitution Day and Citizenship Day: Fact Sheet - EveryCRSReport.com",
+        "publisher": "Congressional Research Service (via EveryCRSReport)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "P.L. 84-915 (1956): \"Authorizing the President of the United States to designate the period beginning September 17 and ending September 23 of each year as Constitution Week.\"",
+        "local_evidence_path": "evidence/everycrs_constitution_day.txt",
+        "quote_match": "exact"
+      }
+    ],
+    "corrections_to_existing": [
+      "기존 '기존 5월 3일이던 나는 미국인이다의 날'은 부정확: 1940년 공동결의는 '5월 셋째 일요일'로 정함(CRS). CRS 본문 일부에 'moved from May 3'라는 표현이 있으나 같은 문서가 '3rd Sunday in May'를 명시하므로 셋째 일요일로 기술.",
+      "기존 '1952년 해리 트루먼 대통령이 ... 옮기며'는 법률(P.L. 82-261, 1952) 명의로 기술하고 대통령 개인 행위 표현은 출처 본문에 없어 제거.",
+      "기존 anecdote의 한국 제헌절 비교는 지침(근거 없는 한국 비유 금지)에 따라 삭제.",
+      "'39인 서명'은 유지하되 디킨슨 대리 서명 포함임을 명시.",
+      "sourceUrl을 36 U.S.C. §106(Cornell LII)로 교체 제안."
+    ],
+    "notes": "CRS 본문이 헌법 주간을 한 곳에서 '17-25'로, 법령 인용에서 '17-23'으로 표기 → 법령 문구(17~23일) 채택. LOC 블로그도 17-23."
+  },
+  "anv-fixed-12-15-bill-of-rights-day-us": {
+    "origin": "권리장전의 날은 매년 12월 15일, 1791년 미국 수정헌법 제1조부터 제10조까지, 이른바 '권리장전'이 헌법의 일부가 된 일을 기념하는 날이다. 1787년 만들어진 헌법에는 개인의 자유를 하나하나 보장하는 목록이 없었다. 헌법에 반대한 이들은 강한 중앙정부가 독재로 흐를 수 있다며 '권리장전'을 요구했고, 제헌회의 마지막 날 서명을 거부한 조지 메이슨도 그 이유로 권리장전이 없다는 점을 들었다. 비준이 위태로웠던 매사추세츠에서 헌법 지지자들이 개정 논의를 약속하면서 고비를 넘겼다. 1789년 6월 8일 제임스 매디슨이 제1대 의회에 수정안 목록을 제출했고, 의회는 9월 25일 12개 조항을 각 주에 제안했다. 1791년 12월 15일 버지니아가 열한 번째로 비준하면서 전체 주의 4분의 3이라는 요건이 채워졌고, 12개 가운데 3~12번째 조항이 수정헌법 제1~10조로 발효됐다. 기념일은 150주년인 1941년, 8월 의회 공동결의의 요청에 따라 프랭클린 루스벨트 대통령이 11월 27일 포고문으로 12월 15일을 권리장전의 날로 지정하면서 시작됐다.",
+    "anecdote": "권리장전에는 종교·표현·언론·집회의 자유와 정부에 청원할 권리 같은 기본권이 담겼다. 루스벨트는 포고문에서 이 조항들을 '개인의 자유와 인간 존엄을 위한 위대한 미국 헌장'이라 불렀다. 흥미롭게도 이를 의회에 제출한 매디슨은 한때 권리장전에 가장 목소리를 높여 반대한 인물이었다. 그는 유권자들이 이런 보호 장치를 얼마나 중요하게 여기는지 깨닫고 동료 의원들을 끈질기게 설득했다. 1789년 제안된 12개 조항 중 나머지 두 개의 운명은 엇갈렸다. 의원 보수 변경에 관한 두 번째 조항은 제안 203년 만인 1992년 수정헌법 제27조로 비준됐고, 하원 의원 수에 관한 첫 번째 조항은 끝내 비준되지 못했다. 또 1791년 당시 비준 결과를 보내지 않았던 매사추세츠·코네티컷·조지아는 의회 승인 150주년인 1939년에야 상징적으로 비준했다. 의회가 각 주에 보낸 1789년 공동결의 원본은 지금 워싱턴 D.C. 국립문서보관소 박물관의 원형 전시실에 상설 전시돼 있다.",
+    "sourceUrl": "https://www.archives.gov/milestone-documents/bill-of-rights",
+    "evidence": [
+      {
+        "claim": "반대자들이 독재 우려, 권리장전 요구",
+        "url": "https://www.archives.gov/milestone-documents/bill-of-rights",
+        "title": "Bill of Rights (1791) | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "During the debates on the adoption of the Constitution, its opponents repeatedly charged that the Constitution as drafted would open the way to tyranny by the central government.",
+        "local_evidence_path": "evidence/archives_bor_milestone.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "권리장전 요구",
+        "url": "https://www.archives.gov/milestone-documents/bill-of-rights",
+        "title": "Bill of Rights (1791) | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "They demanded a \"bill of rights\" that would spell out the immunities of individual citizens.",
+        "local_evidence_path": "evidence/archives_bor_milestone.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "메이슨 서명 거부 이유",
+        "url": "https://www.archives.gov/founding-docs/bill-of-rights/how-did-it-happen",
+        "title": "The Bill of Rights: How Did it Happen? | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Mason was one of three delegates present on the final day of the convention who refused to sign the Constitution because it lacked a bill of rights.",
+        "local_evidence_path": "evidence/archives_bor_how.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "매사추세츠 비준 위기에 개정 고려 합의",
+        "url": "https://www.archives.gov/founding-docs/bill-of-rights/how-did-it-happen",
+        "title": "The Bill of Rights: How Did it Happen? | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "But they agreed to consider adding amendments when ratification was in danger in the key state of Massachusetts.",
+        "local_evidence_path": "evidence/archives_bor_how.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "매디슨 1789년 6월 8일 제출, 한때 최대 반대자, 끈질긴 설득",
+        "url": "https://www.archives.gov/founding-docs/bill-of-rights/how-did-it-happen",
+        "title": "The Bill of Rights: How Did it Happen? | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "But James Madison, once the most vocal opponent of the Bill of Rights, introduced a list of amendments to the Constitution on June 8, 1789, and “hounded his colleagues relentlessly” to secure its passage.",
+        "local_evidence_path": "evidence/archives_bor_how.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "매디슨이 유권자 중시를 깨달음",
+        "url": "https://www.archives.gov/founding-docs/bill-of-rights/how-did-it-happen",
+        "title": "The Bill of Rights: How Did it Happen? | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Madison had come to appreciate the importance voters attached to these protections",
+        "local_evidence_path": "evidence/archives_bor_how.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "9월 25일 12개 조항 제안, 3~12조 1791년 12월 15일 비준",
+        "url": "https://www.archives.gov/milestone-documents/bill-of-rights",
+        "title": "Bill of Rights (1791) | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "On September 25, 1789, the First Congress of the United States therefore proposed to the state legislatures 12 amendments to the Constitution that met arguments most frequently advanced against it. Articles 3 to 12, ratified December 15, 1791, by three-fourths of the state legislatures, constitute the first 10 amendments of the Constitution, known as the Bill of Rights.",
+        "local_evidence_path": "evidence/archives_bor_milestone.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "버지니아 11번째 비준",
+        "url": "https://www.archives.gov/publications/prologue/2016/winter/poh-bill-of-rights",
+        "title": "Ratifying the Bill of Rights . . . in 1939 | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "When Virginia became the 11th state to ratify the amendments on December 15, 1791, amendments 3 through 12 became part of the Constitution",
+        "local_evidence_path": "evidence/archives_prologue_bor1939.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1941년 8월 21일 공동결의",
+        "url": "https://www.presidency.ucsb.edu/documents/proclamation-2524-bill-rights-day",
+        "title": "Proclamation 2524—Bill of Rights Day | The American Presidency Project",
+        "publisher": "The American Presidency Project (UC Santa Barbara)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Whereas a Joint Resolution of the Congress, approved August 21, 1941, authorizes and requests the President of the United States \"to issue a proclamation designating December 15, 1941, as Bill of Rights Day",
+        "local_evidence_path": "evidence/ucsb_proc2524.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "루스벨트 포고문 날짜 1941년 11월 27일",
+        "url": "https://www.presidency.ucsb.edu/documents/proclamation-2524-bill-rights-day",
+        "title": "Proclamation 2524—Bill of Rights Day | The American Presidency Project",
+        "publisher": "The American Presidency Project (UC Santa Barbara)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "November 27, 1941",
+        "local_evidence_path": "evidence/ucsb_proc2524.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "루스벨트 지정",
+        "url": "https://www.presidency.ucsb.edu/documents/proclamation-2524-bill-rights-day",
+        "title": "Proclamation 2524—Bill of Rights Day | The American Presidency Project",
+        "publisher": "The American Presidency Project (UC Santa Barbara)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "do hereby designate December 15, 1941, as Bill of Rights Day.",
+        "local_evidence_path": "evidence/ucsb_proc2524.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "기본권 목록과 '헌장' 표현",
+        "url": "https://www.presidency.ucsb.edu/documents/proclamation-2524-bill-rights-day",
+        "title": "Proclamation 2524—Bill of Rights Day | The American Presidency Project",
+        "publisher": "The American Presidency Project (UC Santa Barbara)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The first ten amendments, the great American charter of personal liberty and human dignity, became a part of the Constitution of the United States on the fifteenth day of December, 1791.",
+        "local_evidence_path": "evidence/ucsb_proc2524.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "종교·표현·언론·집회·청원",
+        "url": "https://www.presidency.ucsb.edu/documents/proclamation-2524-bill-rights-day",
+        "title": "Proclamation 2524—Bill of Rights Day | The American Presidency Project",
+        "publisher": "The American Presidency Project (UC Santa Barbara)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "the privileges of freedom of religion, freedom of speech, freedom of the press, freedom of assembly, and the free right to petition the Government for redress of grievances.",
+        "local_evidence_path": "evidence/ucsb_proc2524.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "제2조 1992년 제27조, 제1조 미비준",
+        "url": "https://www.archives.gov/milestone-documents/bill-of-rights",
+        "title": "Bill of Rights (1791) | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Article 2 concerning “varying the compensation for the services of the Senators and Representatives” was finally ratified on May 7, 1992 as the 27th Amendment to the Constitution. The first amendment, which concerned the number of constituents for each Representative, was never ratified.",
+        "local_evidence_path": "evidence/archives_bor_milestone.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "203년 만",
+        "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+        "title": "The Bill of Rights: A Transcription | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In 1992, 203 years after it was proposed, Article 2 was ratified as the 27th Amendment to the Constitution.",
+        "local_evidence_path": "evidence/archives_bor.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "세 주 미송부",
+        "url": "https://www.archives.gov/publications/prologue/2016/winter/poh-bill-of-rights",
+        "title": "Ratifying the Bill of Rights . . . in 1939 | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "At the time Virginia ratified, Massachusetts, Connecticut, and Georgia had not sent their approvals to Congress.",
+        "local_evidence_path": "evidence/archives_prologue_bor1939.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1939년 상징적 비준",
+        "url": "https://www.archives.gov/publications/prologue/2016/winter/poh-bill-of-rights",
+        "title": "Ratifying the Bill of Rights . . . in 1939 | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In 1939, the 150th anniversary of Congressional approval of the amendments, all three states symbolically ratified the Bill of Rights.",
+        "local_evidence_path": "evidence/archives_prologue_bor1939.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "원본 원형홀 상설 전시",
+        "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+        "title": "The Bill of Rights: A Transcription | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The 1789 Joint Resolution of Congress proposing the amendments is on display in the Rotunda in the National Archives Museum.",
+        "local_evidence_path": "evidence/archives_bor.txt",
+        "quote_match": "exact"
+      }
+    ],
+    "corrections_to_existing": [
+      "기존 '1941년 150주년을 맞아 루스벨트가 처음 선포'는 맞으나, 법적 근거(1941.8.21 공동결의)와 포고일(11.27)을 명시.",
+      "기존 '제임스 매디슨이 초안을 쓴'은 국립문서보관소 표현(매디슨이 수정안 목록을 제출, 하원 17개→상원 12개로 조정)에 맞게 '제출'로 정밀화.",
+      "기존 '부당한 수색 금지' 등 조항 예시는 출처에서 확인한 제1조 권리(종교·표현·언론·집회·청원)로 한정.",
+      "기존 '200년 뒤인 1992년' → 국립문서보관소 표현 '203년 만'으로 정정.",
+      "기존 '원본은 국립문서보관소에 전시'는 '의회가 주에 보낸 1789년 공동결의 원본(Rotunda 상설 전시)'으로 대상 명확화.",
+      "sourceUrl을 archives.gov로 교체 제안."
+    ],
+    "notes": "버지니아 '11번째' 비준은 국립문서보관소 Prologue와 버지니아 도서관(LVA) 모두 일치(evidence/lva_bor_1791.txt)."
+  },
+  "anv-fixed-06-14-flag-day-us": {
+    "origin": "미국 국기의 날은 매년 6월 14일, 1777년 대륙회의가 성조기를 미국의 공식 국기로 정한 일을 기념하는 날이다. 대륙회의는 영국에 맞서 독립전쟁을 치르던 13개 주의 대표 기구였다. 이날 채택된 결의는 국기를 빨강과 하양이 번갈아 놓인 13개의 줄무늬와, 파란 바탕 위에 '새로운 별자리'를 뜻하는 흰 별 13개로 구성한다고 정했다. 다만 국기 채택을 기념하는 전통은 한 세기가 지나서야 자리 잡기 시작했다. 1800년대 후반 미국 곳곳의 학교가 국기의 날 행사를 열었고, 위스콘신의 교사였다가 치과의사가 된 버나드 시그런드는 '국기의 날의 아버지'로 불릴 만큼 기념일 제정 운동에 힘썼다. 1916년 5월 30일 우드로 윌슨 대통령은 포고문을 내 6월 14일을 전국 모든 지역에서 국기의 날로 지켜 달라고 '제안하고 요청'했다. 이후 1949년 8월 3일 의회가 매년 6월 14일을 국기의 날로 정하는 법을 통과시키고 해리 트루먼 대통령이 서명하면서 법적 근거가 마련됐다. 오늘날 이 규정은 연방법전 제36편에 들어 있다.",
+    "anecdote": "국기의 날은 연방 법정 공휴일이 아니다. 연방법은 6월 14일을 국기의 날로 지정하고, 대통령에게 매년 포고문을 내 정부 건물에 국기를 게양하도록 요청할 뿐이다. 주 차원에서는 펜실베이니아가 1937년 처음으로 이날을 주 법정 공휴일로 정했고, 미국 보훈부 자료에 따르면 지금도 이날을 법정 공휴일로 인정하는 주는 펜실베이니아뿐이다. 성조기의 별은 주가 늘 때마다 늘었다. 연방법은 새 주가 연방에 들어오면 그다음 7월 4일에 별 하나를 더하도록 정하고 있다. 지금의 50개 별 국기는 알래스카와 하와이가 추가된 뒤 1960년 7월 4일부터 쓰였으며, 미국의 27번째 공식 국기다. 국기를 둘러싼 논쟁도 있었다. 1989년 연방대법원은 '텍사스 대 존슨' 판결에서 국기를 불태우는 행위도 수정헌법 제1조가 보호하는 상징적 표현이라고 5대 4로 판단했다. 미국 국립문서보관소는 국기의 날 100주년을 다룬 글에서 이 판결을 함께 소개하며, 국기가 여전히 대중의 관심을 받는 상징이라고 설명했다.",
+    "sourceUrl": "https://www.law.cornell.edu/uscode/text/36/110",
+    "evidence": [
+      {
+        "claim": "1777년 6월 14일 결의 내용",
+        "url": "https://prologue.blogs.archives.gov/2016/06/14/flag-day-past-and-present/",
+        "title": "Flag Day, Past and Present – Pieces of History",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The designation is based on the June 14, 1777, resolution of the Second Continental Congress declaring that the flag of the thirteen United States would be thirteen stripes, alternating red and white, with “the union” to be made up of thirteen stars “white in a blue field, representing a new constellation.”",
+        "local_evidence_path": "evidence/archives_flagday_blog.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1800년대 후반 학교 행사",
+        "url": "https://www.va.gov/opa/publications/celebrate/flagday.pdf",
+        "title": "The Origins of Flag Day (U.S. Department of Veterans Affairs)",
+        "publisher": "U.S. Department of Veterans Affairs",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In the late 1800s, schools all over the United States held Flag Day programs to contribute to the Americanization of immigrant children, and the observance caught on with individual communities.",
+        "local_evidence_path": "evidence/va_flagday.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "한 세기 넘게 지나 기념 시작",
+        "url": "https://www.va.gov/opa/publications/celebrate/flagday.pdf",
+        "title": "The Origins of Flag Day (U.S. Department of Veterans Affairs)",
+        "publisher": "U.S. Department of Veterans Affairs",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Although there are many claims to the first official observance of Flag Day, all but one took place more than an entire century after the flag’s adoption in 1777.",
+        "local_evidence_path": "evidence/va_flagday.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "시그런드 교사→치과의사, 국기의 날의 아버지",
+        "url": "https://prologue.blogs.archives.gov/2016/06/14/flag-day-past-and-present/",
+        "title": "Flag Day, Past and Present – Pieces of History",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Among them was a man generally recognized as the Father of Flag Day: Bernard J. Cigrand, a Wisconsin grade-school teacher turned dentist.",
+        "local_evidence_path": "evidence/archives_flagday_blog.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "윌슨 1916년 5월 30일 포고",
+        "url": "https://www.presidency.ucsb.edu/documents/proclamation-1335-flag-day",
+        "title": "Proclamation 1335—Flag Day | The American Presidency Project",
+        "publisher": "The American Presidency Project (UC Santa Barbara)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "May 30, 1916",
+        "local_evidence_path": "evidence/ucsb_wilson_flagday1916.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "윌슨 '제안·요청'",
+        "url": "https://www.presidency.ucsb.edu/documents/proclamation-1335-flag-day",
+        "title": "Proclamation 1335—Flag Day | The American Presidency Project",
+        "publisher": "The American Presidency Project (UC Santa Barbara)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "I therefore suggest and request that throughout the nation and if possible in every community the fourteenth day of June be observed as FLAG DAY",
+        "local_evidence_path": "evidence/ucsb_wilson_flagday1916.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1949년 8월 3일 법, 트루먼 서명",
+        "url": "https://www.va.gov/opa/publications/celebrate/flagday.pdf",
+        "title": "The Origins of Flag Day (U.S. Department of Veterans Affairs)",
+        "publisher": "U.S. Department of Veterans Affairs",
+        "accessed_at": "2026-10-11",
+        "quote_original": "But it wasn’t until August 3, 1949, that Congress approved the national observance, and President Harry Truman signed it into law.",
+        "local_evidence_path": "evidence/va_flagday.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "현행 36 USC 110 지정·포고 요청",
+        "url": "https://www.law.cornell.edu/uscode/text/36/110",
+        "title": "36 U.S. Code § 110 - Flag Day | U.S. Code | US Law | LII / Legal Information Institute",
+        "publisher": "Cornell LII (U.S. Code text)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "June 14 is Flag Day.",
+        "local_evidence_path": "evidence/uscode_36_110.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "대통령 포고문·정부 건물 게양 요청",
+        "url": "https://www.law.cornell.edu/uscode/text/36/110",
+        "title": "36 U.S. Code § 110 - Flag Day | U.S. Code | US Law | LII / Legal Information Institute",
+        "publisher": "Cornell LII (U.S. Code text)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The President is requested to issue each year a proclamation—",
+        "local_evidence_path": "evidence/uscode_36_110.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "정부 건물 국기 게양",
+        "url": "https://www.law.cornell.edu/uscode/text/36/110",
+        "title": "36 U.S. Code § 110 - Flag Day | U.S. Code | US Law | LII / Legal Information Institute",
+        "publisher": "Cornell LII (U.S. Code text)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "calling on United States Government officials to display the flag of the United States on all Government buildings on Flag Day; and",
+        "local_evidence_path": "evidence/uscode_36_110.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "법정 공휴일 목록(국기의 날 없음)",
+        "url": "https://www.law.cornell.edu/uscode/text/5/6103",
+        "title": "5 U.S. Code § 6103 - Holidays | U.S. Code | US Law | LII / Legal Information Institute",
+        "publisher": "Cornell LII (U.S. Code text)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The following are legal public holidays:",
+        "local_evidence_path": "evidence/uscode_5_6103.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "펜실베이니아 1937년, 유일 주",
+        "url": "https://www.va.gov/opa/publications/celebrate/flagday.pdf",
+        "title": "The Origins of Flag Day (U.S. Department of Veterans Affairs)",
+        "publisher": "U.S. Department of Veterans Affairs",
+        "accessed_at": "2026-10-11",
+        "quote_original": "it was not until May 7, 1937, that Pennsylvania became the first state to establish the June 14 Flag Day as a legal holiday. Flag Day is a nationwide observance today, but Pennsylvania is the only state that recognizes it as a legal holiday.",
+        "local_evidence_path": "evidence/va_flagday.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "새 주 가입 시 다음 7월 4일 별 추가",
+        "url": "https://www.law.cornell.edu/uscode/text/4/2",
+        "title": "4 U.S. Code § 2 - Same; additional stars | U.S. Code | US Law | LII / Legal Information Institute",
+        "publisher": "Cornell LII (U.S. Code text)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "On the admission of a new State into the Union one star shall be added to the union of the flag; and such addition shall take effect on the fourth day of July then next succeeding such admission.",
+        "local_evidence_path": "evidence/uscode_4_2.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "50개 별 1960년 7월 4일, 27번째 국기",
+        "url": "https://www.nps.gov/articles/000/harry-truman-and-the-48-star-flag.htm",
+        "title": "Harry Truman and the 48-Star Flag (U.S. National Park Service)Lock",
+        "publisher": "U.S. National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "It has flown over the United States since July 4, 1960, after the addition of Hawaii and Alaska. It is the twenty-seventh official flag that has flown over the country.",
+        "local_evidence_path": "evidence/nps_truman_48star.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "텍사스 대 존슨 1989 5대4",
+        "url": "https://prologue.blogs.archives.gov/2016/06/14/flag-day-past-and-present/",
+        "title": "Flag Day, Past and Present – Pieces of History",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "in 1989, by a five to four decision, the Supreme Court in Texas v. Johnson held that flag burning was a form of symbolic speech",
+        "local_evidence_path": "evidence/archives_flagday_blog.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "수정헌법 제1조 보호",
+        "url": "https://prologue.blogs.archives.gov/2016/06/14/flag-day-past-and-present/",
+        "title": "Flag Day, Past and Present – Pieces of History",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "and thus was protected by the First Amendment.",
+        "local_evidence_path": "evidence/archives_flagday_blog.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "국기가 대중 관심 유지",
+        "url": "https://prologue.blogs.archives.gov/2016/06/14/flag-day-past-and-present/",
+        "title": "Flag Day, Past and Present – Pieces of History",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Today the American flag continues to hold public attention.",
+        "local_evidence_path": "evidence/archives_flagday_blog.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "대륙회의의 성격(1775~1788 사실상 정부)",
+        "url": "https://www.archives.gov/founding-docs/declaration-history",
+        "title": "The Declaration of Independence: A History | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "When the Second Continental Congress, which was essentially the government of the United States from 1775 to 1788, first met in May 1775",
+        "local_evidence_path": "evidence/archives_decl_history.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "36 USC 110의 근거 법률 1949.8.3",
+        "url": "https://www.law.cornell.edu/uscode/text/36/110",
+        "title": "36 U.S. Code § 110 - Flag Day | U.S. Code | US Law | LII / Legal Information Institute",
+        "publisher": "Cornell LII (U.S. Code text)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Aug. 3, 1949, ch. 385, 63 Stat. 492.",
+        "local_evidence_path": "evidence/uscode_36_110.txt",
+        "quote_match": "exact"
+      }
+    ],
+    "corrections_to_existing": [
+      "기존 '1949년 트루먼 대통령이 의회 결의로 정식 국경일로 지정'은 오해 소지: 1949.8.3 법률로 '국기의 날'로 지정(36 U.S.C. §110)됐지만 연방 법정 공휴일(5 U.S.C. §6103)은 아님 → '법적 근거 마련/기념일'로 표현.",
+      "기존 '1916년 윌슨이 공식 선포'는 포고문 원문상 '제안하고 요청(suggest and request)'한 것으로 정밀화.",
+      "기존 '펜실베이니아주 등 일부 지역은 지역 공휴일'은 VA 자료상 '법정 공휴일로 인정하는 주는 펜실베이니아뿐'으로 정정.",
+      "sourceUrl을 36 U.S.C. §110으로 교체 제안."
+    ],
+    "notes": "펜실베이니아 주법 원문(palegis.us)은 접속 실패로 직접 확인 못함; 연방 보훈부(VA) 자료로 근거. 4 U.S.C. §1 본문은 여전히 '48개 별'로 되어 있으므로 50개 별은 NPS 자료로 근거."
+  },
+  "anv-fixed-02-12-abraham-lincoln-birthday-us": {
+    "origin": "에이브러햄 링컨 탄생일은 1809년 2월 12일 켄터키주 변경 지역에서 태어난 미국 제16대 대통령 에이브러햄 링컨을 기리는 날이다. 그는 아버지의 싱킹스프링 농장에 있던 방 한 칸짜리 통나무집에서 태어났다. 변경 학교에서 받은 정규 교육은 1년 정도에 불과했지만, 독학으로 법을 익혀 1837년 일리노이주 스프링필드에 변호사로 자리를 잡았다. 일리노이 주 의원을 지낸 그는 1860년 11월 6일 대통령 선거에서 승리했고, 남북전쟁이라는 격동의 시기에 나라를 이끌었다. 1863년 링컨은 반란 상태에 있는 주의 노예를 '영원히 자유'라고 선언한 노예해방선언을 발표했다. 하지만 이 선언은 연방에 남은 경계주에는 적용되지 않았기에, 그는 노예제를 확실히 끝내려면 헌법 개정이 필요하다고 보고 수정헌법 제13조 통과에 힘을 쏟았다. 그러나 1865년 4월 14일 포드 극장에서 남부 동조자인 배우 존 윌크스 부스의 총에 맞았고, 이튿날 아침 56세로 숨졌다. 그의 생일 기념식은 1922년 링컨 기념관이 봉헌된 뒤 1923년부터 매년 2월 12일 기념관에서 열리고 있다.",
+    "anecdote": "링컨 탄생일은 연방 법정 공휴일이 아니다. 흔히 2월 셋째 월요일을 '대통령의 날'이라 부르며 워싱턴과 링컨을 함께 기리는 날로 여기지만, 연방법이 정한 공식 명칭은 여전히 '워싱턴 탄생일'이다. 미국 국립문서보관소는 의회도 대통령도 이 공휴일의 이름을 '대통령의 날'로 바꾸도록 정한 적이 없다고 설명한다. 1968년 제정돼 1971년부터 시행된 이른바 '월요일 공휴일법'은 워싱턴 탄생일을 2월 22일에서 2월 셋째 월요일로 옮겼을 뿐, 링컨 생일을 연방 공휴일로 합친 법은 아니다. 공휴일은 주마다 따로 정할 수 있어서, 링컨이 정치 경력을 쌓은 일리노이주는 지금도 2월 12일을 주 정부 공휴일로 지킨다. 유명한 게티즈버그 연설은 1863년 11월 19일 전사자 묘지 봉헌식에서 나왔다. '국민의, 국민에 의한, 국민을 위한 정부'라는 구절로 유명하지만 연설은 2분 정도로 짧았다. 주 연사 에드워드 에버렛은 두 시간을 연설했지만, 링컨의 연설은 청중 상당수가 시작된 줄도 모르는 사이에 끝났다.",
+    "sourceUrl": "https://www.nps.gov/abli/learn/historyculture/index.htm",
+    "evidence": [
+      {
+        "claim": "1809.2.12 출생, 통나무집, 싱킹스프링 농장, 제16대 대통령, 남북전쟁",
+        "url": "https://www.nps.gov/abli/learn/historyculture/index.htm",
+        "title": "History & Culture - Abraham Lincoln Birthplace National Historical Park (U.S. National Park Service)Lock",
+        "publisher": "U.S. National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Born in a one-room log cabin on his father's Sinking Spring Farm on Sunday, February 12, 1809, Abraham Lincoln's early years on the Kentucky frontier helped to shape his character and prepare the boy who would grow up to become the 16th President of the United States to lead the nation through the tragic and turbulent times of the Civil War.",
+        "local_evidence_path": "evidence/nps_lincoln_birthplace.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1834 주 의원, 독학 변호사, 정규교육 1년, 1837 스프링필드",
+        "url": "https://www.nps.gov/articles/lincoln-home-national-historic-site-a-place-of-growth-and-memory-teaching-with-historic-places.htm",
+        "title": "Lincoln Home National Historic Site: A Place of Growth and Memory (Teaching with Historic Places) (U.S. National Park Service)Lock",
+        "publisher": "U.S. National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In 1831, when he was 22, Lincoln moved to New Salem, Illinois and in 1834 was elected to the first of five terms to the Illinois legislature.",
+        "local_evidence_path": "evidence/nps_liho_tlwhp.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "독학 변호사·1년 교육",
+        "url": "https://www.nps.gov/articles/lincoln-home-national-historic-site-a-place-of-growth-and-memory-teaching-with-historic-places.htm",
+        "title": "Lincoln Home National Historic Site: A Place of Growth and Memory (Teaching with Historic Places) (U.S. National Park Service)Lock",
+        "publisher": "U.S. National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In 1837, the lanky self-taught lawyer with only one year of frontier schooling rode his horse into Springfield, Illinois with all of his belongings in two saddlebags.",
+        "local_evidence_path": "evidence/nps_liho_tlwhp.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1860.11.6 당선",
+        "url": "https://www.nps.gov/articles/lincoln-home-national-historic-site-a-place-of-growth-and-memory-teaching-with-historic-places.htm",
+        "title": "Lincoln Home National Historic Site: A Place of Growth and Memory (Teaching with Historic Places) (U.S. National Park Service)Lock",
+        "publisher": "U.S. National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Later that year, on November 6, 1860, Lincoln won the election, becoming the 16th President of the United States.",
+        "local_evidence_path": "evidence/nps_liho_tlwhp.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1863 노예해방선언 내용",
+        "url": "https://www.archives.gov/milestone-documents/13th-amendment",
+        "title": "13th Amendment to the U.S. Constitution: Abolition of Slavery (1865) | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In 1863 President Lincoln issued the Emancipation Proclamation declaring “all persons held as slaves within any State, or designated part of a State, the people whereof shall then be in rebellion against the United States, shall be then, thenceforward, and forever free.”",
+        "local_evidence_path": "evidence/archives_13th.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "경계주 미적용",
+        "url": "https://www.archives.gov/milestone-documents/13th-amendment",
+        "title": "13th Amendment to the U.S. Constitution: Abolition of Slavery (1865) | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "it only applied to areas of the Confederacy currently in a state of rebellion (and not even to the loyal “border states” that remained in the Union).",
+        "local_evidence_path": "evidence/archives_13th.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "헌법 개정 필요 인식",
+        "url": "https://www.archives.gov/milestone-documents/13th-amendment",
+        "title": "13th Amendment to the U.S. Constitution: Abolition of Slavery (1865) | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Lincoln recognized that the Emancipation Proclamation would have to be followed by a constitutional amendment in order to guarantee the abolishment of slavery.",
+        "local_evidence_path": "evidence/archives_13th.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "13조 통과에 적극 개입",
+        "url": "https://www.archives.gov/milestone-documents/13th-amendment",
+        "title": "13th Amendment to the U.S. Constitution: Abolition of Slavery (1865) | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "At that point, Lincoln took an active role to ensure passage through Congress.",
+        "local_evidence_path": "evidence/archives_13th.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "암살 1865.4.14 포드 극장, 부스",
+        "url": "https://www.nps.gov/foth/learn/historyculture/faq-the-assassination.htm",
+        "title": "FAQ The Assassination - Ford's Theatre National Historic Site (U.S. National Park Service)Lock",
+        "publisher": "U.S. National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "On April 14th, 1865, famous actor and Confederate sympathizer John Wilkes Booth assassinated President Abraham Lincoln at Ford's Theatre.",
+        "local_evidence_path": "evidence/nps_foth_faq.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "4.15 아침 사망",
+        "url": "https://www.nps.gov/foth/learn/historyculture/faq-the-assassination.htm",
+        "title": "FAQ The Assassination - Ford's Theatre National Historic Site (U.S. National Park Service)Lock",
+        "publisher": "U.S. National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The 16th President of the United States died there, 9 hours later, at 7:22 am on April 15, 1865.",
+        "local_evidence_path": "evidence/nps_foth_faq.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "56세",
+        "url": "https://www.nps.gov/foth/learn/historyculture/faq-the-assassination.htm",
+        "title": "FAQ The Assassination - Ford's Theatre National Historic Site (U.S. National Park Service)Lock",
+        "publisher": "U.S. National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "He was 56 years, 2 months, and 3 days old.",
+        "local_evidence_path": "evidence/nps_foth_faq.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1923년부터 기념관 생일 기념식",
+        "url": "https://www.nps.gov/nama/learn/news/lincolnbirthday26.htm",
+        "title": "Abraham Lincoln's Birthday to be Observed at the Lincoln Memorial on Feb. 12 - National Mall and Memorial Parks  (U.S. National Park Service)Lock",
+        "publisher": "U.S. National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Following the dedication of the Lincoln Memorial in 1922, members of the Military Order of the Loyal Legion of the United States resolved to commemorate the anniversary of Abraham Lincoln's birth each year at the memorial, starting on February 12, 1923.",
+        "local_evidence_path": "evidence/nps_nama_lincolnbday26.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "연방 공휴일 명칭 '워싱턴 탄생일', 2월 셋째 월요일",
+        "url": "https://www.law.cornell.edu/uscode/text/5/6103",
+        "title": "5 U.S. Code § 6103 - Holidays | U.S. Code | US Law | LII / Legal Information Institute",
+        "publisher": "Cornell LII (U.S. Code text)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Washington’s Birthday, the third Monday in February.",
+        "local_evidence_path": "evidence/uscode_5_6103.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "'대통령의 날'로 개명된 적 없음",
+        "url": "https://www.archives.gov/legislative/features/washington",
+        "title": "George Washington's Birthday | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Contrary to popular belief, neither Congress nor the President has ever stipulated that the name of the holiday observed as Washington's Birthday be changed to \"President's Day.\"",
+        "local_evidence_path": "evidence/archives_presidents_day.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "월요일 공휴일법 1968, 2월 22일→셋째 월요일",
+        "url": "https://www.archives.gov/legislative/features/washington",
+        "title": "George Washington's Birthday | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "One of the provisions of this act changed the observance of Washington's Birthday from February 22nd to the third Monday in February.",
+        "local_evidence_path": "evidence/archives_presidents_day.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1971.1.1 시행",
+        "url": "https://www.law.cornell.edu/uscode/text/5/6103",
+        "title": "5 U.S. Code § 6103 - Holidays | U.S. Code | US Law | LII / Legal Information Institute",
+        "publisher": "Cornell LII (U.S. Code text)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "shall take effect on January 1, 1971.",
+        "local_evidence_path": "evidence/uscode_5_6103.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "OPM: 법적 명칭은 Washington's Birthday",
+        "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+        "title": "Federal HolidaysLock",
+        "publisher": "U.S. Office of Personnel Management",
+        "accessed_at": "2026-10-11",
+        "quote_original": "This holiday is designated as \"Washington’s Birthday\" in section 6103(a) of title 5 of the United States Code, which is the law that specifies holidays for Federal employees.",
+        "local_evidence_path": "evidence/opm_holidays.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "주별 공휴일 자율",
+        "url": "https://www.archives.gov/legislative/features/washington",
+        "title": "George Washington's Birthday | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "each state decides its own legal holidays.",
+        "local_evidence_path": "evidence/archives_presidents_day.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "일리노이 주 정부 공휴일 Lincoln's Birthday 2.12",
+        "url": "https://cms.illinois.gov/content/dam/soi/en/web/cms/personnel/employeeresources/documents/state-holidays.pdf",
+        "title": "Illinois CMS State Holiday Calendar for 2026 and 2027",
+        "publisher": "Illinois Department of Central Management Services",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Lincoln's Birthday Thursday, February 12 Friday, February 12",
+        "local_evidence_path": "evidence/il_cms_state_holidays.txt",
+        "quote_match": "whitespace-normalized"
+      },
+      {
+        "claim": "게티즈버그 1863.11.19",
+        "url": "https://home.nps.gov/liho/learn/historyculture/gettysburgaddress.htm",
+        "title": "Gettysburg Address - Lincoln Home National Historic Site (U.S. National Park Service)Lock",
+        "publisher": "U.S. National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Gettysburg, Pennsylvania, November 19, 1863",
+        "local_evidence_path": "evidence/nps_liho_gettysburg.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "봉헌식, 에버렛 주 연사",
+        "url": "https://home.nps.gov/liho/learn/historyculture/gettysburgaddress.htm",
+        "title": "Gettysburg Address - Lincoln Home National Historic Site (U.S. National Park Service)Lock",
+        "publisher": "U.S. National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "A dedication ceremony was planned and famed orator and former Harvard President Edward Everett was to be the featured speaker.",
+        "local_evidence_path": "evidence/nps_liho_gettysburg.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "2시간 vs 2분, 청중이 시작을 모름",
+        "url": "https://home.nps.gov/liho/learn/historyculture/gettysburgaddress.htm",
+        "title": "Gettysburg Address - Lincoln Home National Historic Site (U.S. National Park Service)Lock",
+        "publisher": "U.S. National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Everett's two hour speech and Lincoln's two minute speech was over before most in the crowd realized he had even begun.",
+        "local_evidence_path": "evidence/nps_liho_gettysburg.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "'국민의, 국민에 의한, 국민을 위한'",
+        "url": "https://www.nps.gov/linc/learn/historyculture/gettysburgaddress.htm",
+        "title": "Gettysburg Address - Lincoln Memorial  (U.S. National Park Service)Lock",
+        "publisher": "U.S. National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "government of the people by the people for the people shall not perish from the earth.",
+        "local_evidence_path": "evidence/nps_gettysburg.txt",
+        "quote_match": "exact"
+      }
+    ],
+    "corrections_to_existing": [
+      "기존 '1971년 이후 대통령의 날로 통합돼 함께 지켜지고 있다'는 부정확: 연방법상 명칭은 '워싱턴 탄생일'이며 의회·대통령 모두 '대통령의 날'로 개명한 적 없음(국립문서보관소). 링컨 생일은 연방 공휴일이었던 적이 없어 '통합'도 부정확.",
+      "기존 '여러 주에서 별도 공휴일'은 확인된 일리노이(주 정부 공휴일 일정표)만 구체 기술.",
+      "기존 '272단어'는 판본마다 단어 수가 달라 삭제, NPS 근거로 '2분 정도'만 유지.",
+      "기존 '통나무집에서 태어나 독학으로 변호사·대통령'은 NPS 근거로 유지.",
+      "기존 '종전 직후 1865년 4월 암살'은 NPS 근거 날짜(4.14 피격, 4.15 사망)로 정밀화. '종전 직후' 표현은 출처 미확보로 제외.",
+      "sourceUrl을 한국어 위키백과에서 NPS(링컨 생가 국립역사공원)로 교체 제안."
+    ],
+    "notes": "'남부 주들의 연방 탈퇴'는 확보 출처 본문에 없어 언급하지 않음. 일리노이는 CMS 2026-27 주 정부 공휴일 메모로 확인(주법 원문 ilga.gov 접속 실패)."
+  },
+  "anv-fixed-02-01-national-freedom-day-us": {
+    "origin": "전미 자유의 날은 매년 2월 1일, 1865년 에이브러햄 링컨 대통령이 노예제를 폐지하는 수정헌법 제13조를 각 주에 제안하는 의회 공동결의안에 서명한 일을 기리는 날이다. 1863년의 노예해방선언은 남부 연합 가운데 반란 상태에 있던 지역에만 적용됐고, 연방에 남은 '경계주'의 노예제는 그대로 남겨 두었다. 링컨은 노예제를 확실히 끝내려면 헌법 개정이 필요하다고 보았다. 상원은 1864년 4월 개정안을 통과시켰지만 하원은 처음에 통과시키지 못했고, 링컨이 직접 나선 끝에 1865년 1월 하원이 찬성 119표, 반대 56표로 가결했다. 링컨은 2월 1일 개정안을 주 의회들에 보내는 결의안을 승인했고, 그해 12월 6일 필요한 4분의 3 주가 비준하면서 제13조가 헌법에 들어갔다. 기념일은 노예로 태어나 교육자이자 은행가로 일한 필라델피아의 리처드 R. 라이트 시니어가 1942년 만들었다. 그가 1947년 숨진 이듬해인 1948년 6월 30일 의회가 대통령에게 이날을 선포할 권한을 주는 공동결의를 승인했고, 1949년 1월 25일 해리 트루먼 대통령이 첫 포고문을 냈다.",
+    "anecdote": "6월 19일의 '준틴스'와 혼동하기 쉽지만 두 날은 다르다. 준틴스는 1865년 텍사스주 갤버스턴에 노예해방 소식이 전해진 날을 기리며 2021년 연방 법정 공휴일이 됐다. 반면 전미 자유의 날은 공휴일이 아니라, 대통령이 매년 포고문을 낼 수 있도록 연방법에 정해 둔 기념일이다. 라이트가 이 날을 구상한 계기는 제2차 세계대전 초기 루스벨트 대통령이 말한 '네 가지 자유'였다. 그는 흑인을 포함한 모든 사람이 그 자유를 온전히 누리기 전까지 미국인은 자유롭지 않다는 글을 신문 필라델피아 트리뷴에 썼다. 초기 기념행사에는 퍼레이드와 함께 전국 대표들이 독립기념관과 의회당에 모였고, 서굿 마셜과 마틴 루서 킹 주니어 같은 인물이 연사로 나섰다. 자유의 종에 화환을 바치는 의식은 꾸준히 이어진 전통이다. 트루먼의 첫 포고문은 1948년 12월 유엔 총회가 채택한 세계인권선언도 함께 언급했다. 2월의 첫날이어서 흑인 역사의 달과 시작을 함께한다.",
+    "sourceUrl": "https://www.law.cornell.edu/uscode/text/36/124",
+    "evidence": [
+      {
+        "claim": "법적 근거와 기념 대상",
+        "url": "https://www.law.cornell.edu/uscode/text/36/124",
+        "title": "36 U.S. Code § 124 - National Freedom Day | U.S. Code | US Law | LII / Legal Information Institute",
+        "publisher": "Cornell LII (U.S. Code text)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The President may issue each year a proclamation designating February 1 as National Freedom Day to commemorate the signing by Abraham Lincoln on February 1, 1865, of the joint resolution adopted by the Senate and the House of Representatives that proposed the 13th amendment to the Constitution.",
+        "local_evidence_path": "evidence/uscode_36_124.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "노예해방선언 적용 범위",
+        "url": "https://www.archives.gov/milestone-documents/13th-amendment",
+        "title": "13th Amendment to the U.S. Constitution: Abolition of Slavery (1865) | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "it only applied to areas of the Confederacy currently in a state of rebellion (and not even to the loyal “border states” that remained in the Union).",
+        "local_evidence_path": "evidence/archives_13th.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "헌법 개정 필요",
+        "url": "https://www.archives.gov/milestone-documents/13th-amendment",
+        "title": "13th Amendment to the U.S. Constitution: Abolition of Slavery (1865) | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Lincoln recognized that the Emancipation Proclamation would have to be followed by a constitutional amendment in order to guarantee the abolishment of slavery.",
+        "local_evidence_path": "evidence/archives_13th.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "상원 1864.4 통과, 하원 초기 실패, 링컨 개입",
+        "url": "https://www.archives.gov/milestone-documents/13th-amendment",
+        "title": "13th Amendment to the U.S. Constitution: Abolition of Slavery (1865) | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "However, though the Senate passed it in April 1864, the House initially did not. At that point, Lincoln took an active role to ensure passage through Congress.",
+        "local_evidence_path": "evidence/archives_13th.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "하원 1865.1 119-56",
+        "url": "https://www.archives.gov/milestone-documents/13th-amendment",
+        "title": "13th Amendment to the U.S. Constitution: Abolition of Slavery (1865) | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "His efforts met with success when the House passed the bill in January 1865 with a vote of 119–56.",
+        "local_evidence_path": "evidence/archives_13th.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "2.1 승인, 12.6 비준",
+        "url": "https://www.archives.gov/milestone-documents/13th-amendment",
+        "title": "13th Amendment to the U.S. Constitution: Abolition of Slavery (1865) | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "On February 1, 1865, President Abraham Lincoln approved the Joint Resolution of Congress submitting the proposed amendment to the state legislatures. The necessary number of states (three-fourths) ratified it by December 6, 1865.",
+        "local_evidence_path": "evidence/archives_13th.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "라이트 1942년 창설, 노예 출생",
+        "url": "https://philadelphiaencyclopedia.org/essays/national-freedom-day/",
+        "title": "National Freedom Day - Encyclopedia of Greater Philadelphia",
+        "publisher": "Encyclopedia of Greater Philadelphia (Rutgers-Camden)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Created in 1942 by a Philadelphian born in slavery",
+        "local_evidence_path": "evidence/phila_freedom_day.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "라이트 교육자·은행 공동설립, 1855-1947",
+        "url": "https://philadelphiaencyclopedia.org/essays/national-freedom-day/",
+        "title": "National Freedom Day - Encyclopedia of Greater Philadelphia",
+        "publisher": "Encyclopedia of Greater Philadelphia (Rutgers-Camden)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Born into slavery in Georgia, Wright had moved to Philadelphia in 1921 following a long career as an educator",
+        "local_evidence_path": "evidence/phila_freedom_day.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "은행 공동 설립",
+        "url": "https://philadelphiaencyclopedia.org/essays/national-freedom-day/",
+        "title": "National Freedom Day - Encyclopedia of Greater Philadelphia",
+        "publisher": "Encyclopedia of Greater Philadelphia (Rutgers-Camden)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "he co-founded the Citizens and Southern Bank and Trust Company at Nineteenth and South Streets.",
+        "local_evidence_path": "evidence/phila_freedom_day.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1947년 사망",
+        "url": "https://philadelphiaencyclopedia.org/essays/national-freedom-day/",
+        "title": "National Freedom Day - Encyclopedia of Greater Philadelphia",
+        "publisher": "Encyclopedia of Greater Philadelphia (Rutgers-Camden)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Promoted vigorously and nationally by Wright until his death in 1947",
+        "local_evidence_path": "evidence/phila_freedom_day.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1948.6.30 공동결의",
+        "url": "https://www.presidency.ucsb.edu/documents/proclamation-2824-national-freedom-day",
+        "title": "Proclamation 2824—National Freedom Day | The American Presidency Project",
+        "publisher": "The American Presidency Project (UC Santa Barbara)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Whereas, by a joint resolution approved June 30, 1948 (62 Stat. 1150), the Congress authorized the President to proclaim the first day of February of each year as National Freedom Day",
+        "local_evidence_path": "evidence/ucsb_proc2824.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "트루먼 1949.1.25 포고",
+        "url": "https://www.presidency.ucsb.edu/documents/proclamation-2824-national-freedom-day",
+        "title": "Proclamation 2824—National Freedom Day | The American Presidency Project",
+        "publisher": "The American Presidency Project (UC Santa Barbara)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Done at the City of Washington this 25th day of January in the year of our Lord nineteen hundred and forty-nine",
+        "local_evidence_path": "evidence/ucsb_proc2824.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "포고문 세계인권선언 언급",
+        "url": "https://www.presidency.ucsb.edu/documents/proclamation-2824-national-freedom-day",
+        "title": "Proclamation 2824—National Freedom Day | The American Presidency Project",
+        "publisher": "The American Presidency Project (UC Santa Barbara)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Whereas the Government and people of the United States wholeheartedly support the Universal Declaration of Human Rights approved by the General Assembly of the United Nations on December 10, 1948",
+        "local_evidence_path": "evidence/ucsb_proc2824.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "준틴스 정의",
+        "url": "https://philadelphiaencyclopedia.org/essays/national-freedom-day/",
+        "title": "National Freedom Day - Encyclopedia of Greater Philadelphia",
+        "publisher": "Encyclopedia of Greater Philadelphia (Rutgers-Camden)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Juneteenth (June 19), which commemorates the end of slavery on the date in 1865 when news of the Emancipation Proclamation reached Galveston, Texas.",
+        "local_evidence_path": "evidence/phila_freedom_day.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "준틴스 2021 연방 공휴일 추가",
+        "url": "https://www.law.cornell.edu/uscode/text/5/6103",
+        "title": "5 U.S. Code § 6103 - Holidays | U.S. Code | US Law | LII / Legal Information Institute",
+        "publisher": "Cornell LII (U.S. Code text)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "2021—Subsec. (a). Pub. L. 117–17 inserted item relating to Juneteenth National Independence Day.",
+        "local_evidence_path": "evidence/uscode_5_6103.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "'네 가지 자유'와 필라델피아 트리뷴 기고",
+        "url": "https://philadelphiaencyclopedia.org/essays/national-freedom-day/",
+        "title": "National Freedom Day - Encyclopedia of Greater Philadelphia",
+        "publisher": "Encyclopedia of Greater Philadelphia (Rutgers-Camden)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Upon hearing President Franklin D. Roosevelt (1882-1945) speak of the Four Freedoms, Richard R. Wright Sr. (1855-1947) wrote in the Philadelphia Tribune that Americans would not be free until everyone, including African Americans, shared fully in those freedoms.",
+        "local_evidence_path": "evidence/phila_freedom_day.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "2차 대전 초기",
+        "url": "https://philadelphiaencyclopedia.org/essays/national-freedom-day/",
+        "title": "National Freedom Day - Encyclopedia of Greater Philadelphia",
+        "publisher": "Encyclopedia of Greater Philadelphia (Rutgers-Camden)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "National Freedom Day began in the early months of U.S. involvement in World War II.",
+        "local_evidence_path": "evidence/phila_freedom_day.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "초기 행사: 퍼레이드, 독립기념관·의회당, 연사",
+        "url": "https://philadelphiaencyclopedia.org/essays/national-freedom-day/",
+        "title": "National Freedom Day - Encyclopedia of Greater Philadelphia",
+        "publisher": "Encyclopedia of Greater Philadelphia (Rutgers-Camden)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "the earliest observances of National Freedom Day included parades and gatherings of delegates from around the nation at Independence Hall and Congress Hall. Such prominent speakers as Thurgood Marshall (1908-1993) and Dr. Martin Luther King Jr. (1929-1968)",
+        "local_evidence_path": "evidence/phila_freedom_day.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "자유의 종 화환",
+        "url": "https://philadelphiaencyclopedia.org/essays/national-freedom-day/",
+        "title": "National Freedom Day - Encyclopedia of Greater Philadelphia",
+        "publisher": "Encyclopedia of Greater Philadelphia (Rutgers-Camden)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "A consistent feature of the commemoration has been the laying of a wreath at the Liberty Bell.",
+        "local_evidence_path": "evidence/phila_freedom_day.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "흑인 역사의 달은 2월",
+        "url": "https://philadelphiaencyclopedia.org/essays/national-freedom-day/",
+        "title": "National Freedom Day - Encyclopedia of Greater Philadelphia",
+        "publisher": "Encyclopedia of Greater Philadelphia (Rutgers-Camden)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Black History Month (observed in February since 1926)",
+        "local_evidence_path": "evidence/phila_freedom_day.txt",
+        "quote_match": "exact"
+      }
+    ],
+    "corrections_to_existing": [
+      "기존 origin의 '1948년 공식 기념일로 제정... 트루먼이 포고문에 서명해 공식화'는 시점 혼재: 1948.6.30 의회 공동결의(대통령에게 선포 권한), 첫 포고문은 1949.1.25(Proclamation 2824).",
+      "기존 origin에서 '라이트'가 소개 전에 등장하는 문장 순서 문제 해소.",
+      "기존 anecdote '노예 출신 사업가이자 인권운동가'는 출처 표현(노예로 태어남, 교육자, 은행 공동설립, 정치활동가·언론인)에 맞춰 '교육자이자 은행가'로 정밀화.",
+      "기존 '이듬해 시작되는 흑인 역사의 달'은 오류(같은 2월에 시작) → '2월의 첫날이어서 흑인 역사의 달과 시작을 함께한다'로 정정.",
+      "sourceUrl이 null → 36 U.S.C. §124 제안."
+    ],
+    "notes": "'서명'은 36 U.S.C. §124와 트루먼 포고문 표현(signing/signed). 국립문서보관소는 'approved'로 표기 — 동일 사건."
+  },
+  "anv-fixed-08-26-womens-equality-day-us": {
+    "origin": "여성평등의 날은 매년 8월 26일, 1920년 미국 국무장관 베인브리지 콜비가 여성 참정권을 보장하는 수정헌법 제19조의 비준을 공식 인증한 일을 기리는 날이다. 제19조는 미국 시민의 투표권을 성별을 이유로 연방이나 주가 거부하거나 제한할 수 없다고 정한 조항이다. 이 개정안은 1878년 의회에 처음 제출됐지만 40년 넘게 통과되지 못했다. 그사이 운동가들은 행진과 로비는 물론 피켓·침묵 시위와 단식 투쟁까지 벌였고, 투옥되거나 폭행을 당하기도 했다. 일부는 주별 입법을 택해 1912년까지 서부 9개 주가 여성 투표권을 인정했다. 1917년 뉴욕주가 여성 참정권을 받아들이고 1918년 윌슨 대통령이 개정안 지지로 돌아서며 흐름이 바뀌었다. 1919년 5월 하원, 2주 뒤 상원이 개정안을 통과시켰고, 1920년 8월 18일 테네시가 36번째로 비준하며 전체 주의 4분의 3 요건이 채워졌다. 기념일은 하원의원 벨라 앱저그가 추진했다. 1971년 낸 결의안은 통과되지 못했지만 1973년 다시 낸 결의안이 통과됐고, 1972년 닉슨 대통령 이후 매년 대통령이 포고문으로 이날을 선포한다.",
+    "anecdote": "8월 26일과 8월 18일은 혼동하기 쉽다. 테네시의 비준으로 제19조의 요건이 채워진 날은 18일이고, 26일은 국무장관이 이를 인증한 날이다. 그래서 18일에 기념하는 경우도 있다. 8월 26일을 기념하는 전통은 법이 생기기 훨씬 전부터 있었다. 전국여성당(NWP)에 속한 여성운동가들은 1920년대부터 1950년대 이후까지 여러 방식으로 이날을 기렸다. 제19조 비준 50주년인 1970년에는 전미여성기구(NOW)가 '평등을 위한 파업'을 벌였다. 여성들에게 직장과 가사 노동에서 손을 떼고 쇼핑도 하지 말자고 호소한 이 파업에는 전국에서 수천 명이 참여했다. 다만 제19조가 모든 여성의 투표권을 곧바로 보장한 것은 아니다. 국립문서보관소는 차별적인 주 선거법 때문에 많은 여성이 20세기에 들어서도 오랫동안 투표하지 못했고, 흑인을 비롯한 소수자 여성의 투표권 투쟁은 수십 년 더 이어졌다고 설명한다. 이날은 참정권 획득을 기념하는 동시에 여성 평등의 진전을 점검하는 날로 자리 잡았다.",
+    "sourceUrl": "https://www.archives.gov/milestone-documents/19th-amendment",
+    "evidence": [
+      {
+        "claim": "콜비 1920.8.26 인증",
+        "url": "https://www.archives.gov/milestone-documents/19th-amendment",
+        "title": "19th Amendment to the U.S. Constitution: Women's Right to Vote (1920) | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Secretary of State Bainbridge Colby certified the ratification on August 26, 1920, changing the face of the American electorate forever.",
+        "local_evidence_path": "evidence/archives_19th.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "제19조 조문",
+        "url": "https://www.archives.gov/milestone-documents/19th-amendment",
+        "title": "19th Amendment to the U.S. Constitution: Women's Right to Vote (1920) | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The right of citizens of the United States to vote shall not be denied or abridged by the United States or by any State on account of sex.",
+        "local_evidence_path": "evidence/archives_19th.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1878년 첫 제출",
+        "url": "https://www.archives.gov/milestone-documents/19th-amendment",
+        "title": "19th Amendment to the U.S. Constitution: Women's Right to Vote (1920) | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Between 1878, when the amendment was first introduced in Congress, and August 18, 1920, when it was ratified",
+        "local_evidence_path": "evidence/archives_19th.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "서부 9개 주 1912년",
+        "url": "https://www.archives.gov/milestone-documents/19th-amendment",
+        "title": "19th Amendment to the U.S. Constitution: Women's Right to Vote (1920) | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Some pursued a strategy of passing suffrage acts in each state—nine western states adopted woman suffrage legislation by 1912.",
+        "local_evidence_path": "evidence/archives_19th.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "피켓·침묵·단식",
+        "url": "https://www.archives.gov/milestone-documents/19th-amendment",
+        "title": "19th Amendment to the U.S. Constitution: Women's Right to Vote (1920) | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Some suffragists used more confrontational tactics such as picketing, silent vigils, and hunger strikes.",
+        "local_evidence_path": "evidence/archives_19th.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "투옥·폭행",
+        "url": "https://www.archives.gov/milestone-documents/19th-amendment",
+        "title": "19th Amendment to the U.S. Constitution: Women's Right to Vote (1920) | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Opponents heckled, jailed, and sometimes physically abused them.",
+        "local_evidence_path": "evidence/archives_19th.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "강연·행진·로비",
+        "url": "https://www.archives.gov/milestone-documents/19th-amendment",
+        "title": "19th Amendment to the U.S. Constitution: Women's Right to Vote (1920) | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "several generations of woman suffrage supporters lectured, wrote, marched, lobbied, and practiced civil disobedience",
+        "local_evidence_path": "evidence/archives_19th.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1917 뉴욕, 1918 윌슨",
+        "url": "https://www.archives.gov/milestone-documents/19th-amendment",
+        "title": "19th Amendment to the U.S. Constitution: Women's Right to Vote (1920) | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "When New York adopted woman suffrage in 1917 and President Wilson changed his position to support an amendment in 1918, the political balance began to shift.",
+        "local_evidence_path": "evidence/archives_19th.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1919.5.21 하원, 2주 뒤 상원",
+        "url": "https://www.archives.gov/milestone-documents/19th-amendment",
+        "title": "19th Amendment to the U.S. Constitution: Women's Right to Vote (1920) | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "On May 21, 1919, the House of Representatives passed the amendment, and 2 weeks later, the Senate followed.",
+        "local_evidence_path": "evidence/archives_19th.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "테네시 36번째, 4분의 3",
+        "url": "https://www.archives.gov/milestone-documents/19th-amendment",
+        "title": "19th Amendment to the U.S. Constitution: Women's Right to Vote (1920) | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "When Tennessee became the 36th state to ratify the amendment on August 18, 1920, the amendment passed its final hurdle of obtaining the agreement of three-fourths of the states.",
+        "local_evidence_path": "evidence/archives_19th.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "앱저그 1971 실패, 1973 통과",
+        "url": "https://blogs.loc.gov/law/2016/08/today-is-womens-equality-day/",
+        "title": "Today is Women’s Equality Day! | In Custodia Legis",
+        "publisher": "Library of Congress",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In 1971, Congresswoman Abzug introduced H.J. Res 808 to designate August 26th as Women’s Equality Day. Although this joint resolution did not pass, in 1973 Congresswoman Abzug again introduced a bill for Women’s Equality Day. On August 16, 1973, the 93rd Congress passed H.J. Res. 52, which became Pub. L. 93-105.",
+        "local_evidence_path": "evidence/loc_law_wed2016.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1972 닉슨 첫 포고, 이후 매년",
+        "url": "https://blogs.loc.gov/manuscripts/2022/08/from-suffrage-day-to-womens-equality-day/",
+        "title": "From Suffrage Day to Women’s Equality Day: A Brief History of Celebrating August 26 | Unfolding History",
+        "publisher": "Library of Congress",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In 1972, Richard Nixon became the first president to issue a proclamation designating August 26 as “Women’s Rights Day.” Every year since, the president has declared August 26 “Women’s Equality Day.”",
+        "local_evidence_path": "evidence/loc_mss_suffrageday.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "8.18 기념행사도 있음",
+        "url": "https://blogs.loc.gov/manuscripts/2022/08/from-suffrage-day-to-womens-equality-day/",
+        "title": "From Suffrage Day to Women’s Equality Day: A Brief History of Celebrating August 26 | Unfolding History",
+        "publisher": "Library of Congress",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The Nineteenth Amendment was ratified on August 18, 1920, by Tennessee, the 36th state to ratify, and some Nineteenth Amendment celebrations occur/occurred on that day as well.",
+        "local_evidence_path": "evidence/loc_mss_suffrageday.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "NWP 1920년대~1950년대 이후 기념",
+        "url": "https://blogs.loc.gov/manuscripts/2022/08/from-suffrage-day-to-womens-equality-day/",
+        "title": "From Suffrage Day to Women’s Equality Day: A Brief History of Celebrating August 26 | Unfolding History",
+        "publisher": "Library of Congress",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Feminists associated with the NWP, however, celebrated August 26 from the 1920s to the 1950s and beyond in many different ways.",
+        "local_evidence_path": "evidence/loc_mss_suffrageday.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1970 NOW 평등을 위한 파업",
+        "url": "https://blogs.loc.gov/manuscripts/2022/08/from-suffrage-day-to-womens-equality-day/",
+        "title": "From Suffrage Day to Women’s Equality Day: A Brief History of Celebrating August 26 | Unfolding History",
+        "publisher": "Library of Congress",
+        "accessed_at": "2026-10-11",
+        "quote_original": "By the Nineteenth Amendment’s fiftieth anniversary in 1970, the women’s liberation movement, specifically the newly formed National Organization for Women (NOW), called women to commemorate August 26 with a “strike for equality.”",
+        "local_evidence_path": "evidence/loc_mss_suffrageday.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "파업 내용(직장·가사 중단, 쇼핑 자제)",
+        "url": "https://blogs.loc.gov/manuscripts/2022/08/from-suffrage-day-to-womens-equality-day/",
+        "title": "From Suffrage Day to Women’s Equality Day: A Brief History of Celebrating August 26 | Unfolding History",
+        "publisher": "Library of Congress",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The nationwide strike called for women to leave their work responsibilities, including those women working in the home, and to refrain from all shopping",
+        "local_evidence_path": "evidence/loc_mss_suffrageday.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "수천 명 참여",
+        "url": "https://blogs.loc.gov/manuscripts/2022/08/from-suffrage-day-to-womens-equality-day/",
+        "title": "From Suffrage Day to Women’s Equality Day: A Brief History of Celebrating August 26 | Unfolding History",
+        "publisher": "Library of Congress",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The strikes were an overwhelming success with thousands of participants nationwide.",
+        "local_evidence_path": "evidence/loc_mss_suffrageday.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "투표권 완전 보장 아님, 소수자 여성",
+        "url": "https://www.archives.gov/milestone-documents/19th-amendment",
+        "title": "19th Amendment to the U.S. Constitution: Women's Right to Vote (1920) | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "yet ratification did not ensure full enfranchisement. Decades of struggle to include African Americans and other minority women in the promise of voting rights remained. Many women remained unable to vote long into the 20th century because of discriminatory state voting laws.",
+        "local_evidence_path": "evidence/archives_19th.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "여성 평등 진전 점검의 날",
+        "url": "https://blogs.loc.gov/manuscripts/2022/08/from-suffrage-day-to-womens-equality-day/",
+        "title": "From Suffrage Day to Women’s Equality Day: A Brief History of Celebrating August 26 | Unfolding History",
+        "publisher": "Library of Congress",
+        "accessed_at": "2026-10-11",
+        "quote_original": "the day became solidified as a national celebration of women’s achievements and a time to evaluate the progress of women’s equality in the U.S. and around the world.",
+        "local_evidence_path": "evidence/loc_mss_suffrageday.txt",
+        "quote_match": "exact"
+      }
+    ],
+    "corrections_to_existing": [
+      "기존 '1920년 8월 26일 ... 수정조항이 공식 발효'는 부정확: 비준 요건 충족은 8월 18일(테네시), 8월 26일은 국무장관의 비준 인증일(국립문서보관소).",
+      "기존 '1971년 처음 결의안, 1973년 정식 통과'는 유지(LOC: 1971 H.J.Res.808 불통과, 1973 H.J.Res.52 → Pub. L. 93-105).",
+      "기존 '앱저그의 결의안은 1970년 파업 1주년에 맞춰 발의'는 출처 미확보로 삭제. 1970년 파업 자체는 LOC 근거로 기술.",
+      "기존 '흑인 여성 상당수는 이후 수십 년간 실질적 투표권을 얻지 못했다'는 국립문서보관소 표현에 맞게 정밀화.",
+      "sourceUrl을 archives.gov로 교체 제안."
+    ],
+    "notes": "Pub. L. 93-105의 정확한 범위(1973년 한 해 지정 여부)는 congress.gov 접속 차단으로 원문 미확인 → '1973년 결의안이 의회를 통과'까지만 기술. 1972년 닉슨 포고 명칭은 'Women's Rights Day'."
+  },
+  "anv-fixed-06-12-loving-day-global": {
+    "origin": "러빙 데이는 1967년 6월 12일 미국 연방대법원이 '러빙 대 버지니아' 사건에서 인종이 다른 사람끼리의 결혼을 금지한 주법을 위헌으로 판결한 일을 기리는 날이다. 버지니아에 살던 흑인 여성 밀드러드 지터와 백인 남성 리처드 러빙은 1958년 6월 2일 관련 금지법이 없던 워싱턴 D.C.에서 결혼했다. 그러나 고향 캐롤라인 카운티로 돌아온 뒤 버지니아의 '이인종 혼인 금지법', 곧 서로 다른 인종 간 결혼을 범죄로 처벌하는 법을 어겼다는 이유로 체포됐다. 이 법의 뼈대는 1924년 만들어진 '인종 순수성 법'이었다. 1959년 1월 6일 부부는 유죄를 인정했고, 판사는 징역 1년을 선고하되 25년 동안 둘이 함께 버지니아로 돌아오지 않는다는 조건으로 형 집행을 유예했다. 결국 부부는 워싱턴 D.C.로 떠났다. 1964년 무렵 밀드러드가 로버트 F. 케네디 법무장관에게 편지를 썼고, 케네디는 미국시민자유연맹(ACLU)을 소개했다. 사건은 연방대법원까지 올라갔고, 얼 워런 대법원장이 쓴 만장일치 판결은 이 법이 수정헌법 제14조의 평등보호와 적법절차 조항을 위반한다고 판단했다.",
+    "anecdote": "판결 당시 인종 간 결혼을 금지하고 처벌한 주는 버지니아를 포함해 16개였고, 이 판결로 16개 주의 법이 모두 무력화됐다. 판결문은 백인과 관련된 결혼만 금지한 점을 들어 이 법이 '백인 우월주의'를 유지하려는 장치라고 지적했고, 결혼의 자유를 '인간의 기본적 시민권' 가운데 하나라고 밝혔다. 이 판례는 2015년 동성 결혼을 인정한 '오버거펠 대 호지스' 판결에서도 결혼할 권리를 헌법이 보호한다는 대표 선례로 인용됐다. 러빙 데이는 정부가 정한 공식 기념일이 아니다. 이 판결을 학교에서 배운 적이 없다는 데 놀란 켄 다나베가 디자인 대학원 졸업 작품으로 기획해 2004년 시작한 민간 기념일이다. 첫 행사는 뉴욕의 한 바에서 100명 남짓이 모인 소박한 자리였고, 이후 다나베는 러빙 데이를 연방 기념일로 지정해 달라는 청원도 벌였다. 부부의 성이 우연히 '러빙(Loving)'이었다는 점은 이 날의 이름을 더 기억하기 쉽게 만든다.",
+    "sourceUrl": "https://www.law.cornell.edu/supremecourt/text/388/1",
+    "evidence": [
+      {
+        "claim": "1967.6.12 판결",
+        "url": "https://www.law.cornell.edu/supremecourt/text/388/1",
+        "title": "Richard Perry LOVING et ux., Appellants, v. COMMONWEALTH OF VIRGINIA. | Supreme Court | US Law | LII / Legal Information Institute",
+        "publisher": "Cornell LII (U.S. Supreme Court opinion)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Decided June 12, 1967.",
+        "local_evidence_path": "evidence/cornell_loving.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "부부의 인종·D.C. 결혼",
+        "url": "https://www.law.cornell.edu/supremecourt/text/388/1",
+        "title": "Richard Perry LOVING et ux., Appellants, v. COMMONWEALTH OF VIRGINIA. | Supreme Court | US Law | LII / Legal Information Institute",
+        "publisher": "Cornell LII (U.S. Supreme Court opinion)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In June 1958, two residents of Virginia, Mildred Jeter, a Negro woman, and Richard Loving, a white man, were married in the District of Columbia pursuant to its laws.",
+        "local_evidence_path": "evidence/cornell_loving.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "6월 2일 결혼",
+        "url": "https://prologue.blogs.archives.gov/2021/02/11/the-fight-for-the-right-to-marry-the-loving-v-virginia-case/",
+        "title": "The Fight for the Right to Marry: The Loving v. Virginia Case – Pieces of History",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "on June 2, 1958, they were married in Washington, DC.",
+        "local_evidence_path": "evidence/archives_loving_blog.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "D.C.에 금지법 없음",
+        "url": "https://rediscovering-black-history.blogs.archives.gov/2014/02/25/virginia-is-for-the-lovings/",
+        "title": "Virginia is for the Lovings – Rediscovering Black History",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "the couple married in Washington, D.C. where there was no law against interracial marriage",
+        "local_evidence_path": "evidence/archives_lovings_rbh.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "캐롤라인 카운티 귀환, 기소",
+        "url": "https://www.law.cornell.edu/supremecourt/text/388/1",
+        "title": "Richard Perry LOVING et ux., Appellants, v. COMMONWEALTH OF VIRGINIA. | Supreme Court | US Law | LII / Legal Information Institute",
+        "publisher": "Cornell LII (U.S. Supreme Court opinion)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Shortly after their marriage, the Lovings returned to Virginia and established their marital abode in Caroline County.",
+        "local_evidence_path": "evidence/cornell_loving.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "인종 순수성 법 1924, 우생학",
+        "url": "https://prologue.blogs.archives.gov/2021/02/11/the-fight-for-the-right-to-marry-the-loving-v-virginia-case/",
+        "title": "The Fight for the Right to Marry: The Loving v. Virginia Case – Pieces of History",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Under Virginia’s Racial Integrity Act of 1924 (RIA), inter-racial marriages were illegal and unrecognized by the state. The law arose from a eugenics and racist propaganda movement aimed at keeping Whites and Blacks segregated.",
+        "local_evidence_path": "evidence/archives_loving_blog.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "체포",
+        "url": "https://prologue.blogs.archives.gov/2021/02/11/the-fight-for-the-right-to-marry-the-loving-v-virginia-case/",
+        "title": "The Fight for the Right to Marry: The Loving v. Virginia Case – Pieces of History",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Both were arrested, and on January 6, 1959, they were given a suspended sentence of a year in prison but were allowed to relocate to Washington, DC, on the condition they not return for 25 years or risk imprisonment.",
+        "local_evidence_path": "evidence/archives_loving_blog.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "유죄 인정, 1년, 25년 조건 유예",
+        "url": "https://www.law.cornell.edu/supremecourt/text/388/1",
+        "title": "Richard Perry LOVING et ux., Appellants, v. COMMONWEALTH OF VIRGINIA. | Supreme Court | US Law | LII / Legal Information Institute",
+        "publisher": "Cornell LII (U.S. Supreme Court opinion)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "On January 6, 1959, the Lovings pleaded guilty to the charge and were sentenced to one year in jail; however, the trial judge suspended the sentence for a period of 25 years on the condition that the Lovings leave the State and not return to Virginia together for 25 years.",
+        "local_evidence_path": "evidence/cornell_loving.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "케네디에게 편지, ACLU 소개",
+        "url": "https://rediscovering-black-history.blogs.archives.gov/2014/02/25/virginia-is-for-the-lovings/",
+        "title": "Virginia is for the Lovings – Rediscovering Black History",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Around this time, Mildred wrote a letter in protest to Attorney General Robert F. Kennedy. Kennedy referred her to the American Civil Liberties Union (ACLU).",
+        "local_evidence_path": "evidence/archives_lovings_rbh.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1964년 무렵",
+        "url": "https://prologue.blogs.archives.gov/2021/02/11/the-fight-for-the-right-to-marry-the-loving-v-virginia-case/",
+        "title": "The Fight for the Right to Marry: The Loving v. Virginia Case – Pieces of History",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "By 1964, the Lovings decided to appeal their conviction and wrote to Attorney General Robert F. Kennedy, who referred them to the ACLU.",
+        "local_evidence_path": "evidence/archives_loving_blog.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "만장일치, 워런, 14조 적법절차·평등보호",
+        "url": "https://prologue.blogs.archives.gov/2021/02/11/the-fight-for-the-right-to-marry-the-loving-v-virginia-case/",
+        "title": "The Fight for the Right to Marry: The Loving v. Virginia Case – Pieces of History",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "On June 12, 1967, the Supreme Court voted unanimously in favor of the Lovings. Their 14th Amendment rights were indeed violated, including the right to due process and equal protection under the law.",
+        "local_evidence_path": "evidence/archives_loving_blog.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "워런 법정 의견",
+        "url": "https://www.law.cornell.edu/supremecourt/text/388/1",
+        "title": "Richard Perry LOVING et ux., Appellants, v. COMMONWEALTH OF VIRGINIA. | Supreme Court | US Law | LII / Legal Information Institute",
+        "publisher": "Cornell LII (U.S. Supreme Court opinion)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Mr. Chief Justice WARREN delivered the opinion of the Court.",
+        "local_evidence_path": "evidence/cornell_loving.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "16개 주",
+        "url": "https://www.law.cornell.edu/supremecourt/text/388/1",
+        "title": "Richard Perry LOVING et ux., Appellants, v. COMMONWEALTH OF VIRGINIA. | Supreme Court | US Law | LII / Legal Information Institute",
+        "publisher": "Cornell LII (U.S. Supreme Court opinion)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Virginia is now one of 16 States which prohibit and punish marriages on the basis of racial classifications.",
+        "local_evidence_path": "evidence/cornell_loving.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "16개 주 법 무효화",
+        "url": "https://blogs.loc.gov/law/2025/06/loving-day-pic-of-the-week/",
+        "title": "Loving Day – Pic of The Week | In Custodia Legis",
+        "publisher": "Library of Congress",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The ruling overturned the 1958 convictions of Richard and Mildred Loving and the anti-miscegenation laws in 16 states, including Virginia.",
+        "local_evidence_path": "evidence/loc_law_lovingday2025.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "백인 관련 결혼만 금지 → 백인 우월주의",
+        "url": "https://www.law.cornell.edu/supremecourt/text/388/1",
+        "title": "Richard Perry LOVING et ux., Appellants, v. COMMONWEALTH OF VIRGINIA. | Supreme Court | US Law | LII / Legal Information Institute",
+        "publisher": "Cornell LII (U.S. Supreme Court opinion)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The fact that Virginia prohibits only interracial marriages involving white persons demonstrates that the racial classifications must stand on their own justification, as measures designed to maintain White Supremacy.",
+        "local_evidence_path": "evidence/cornell_loving.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "결혼은 기본적 시민권",
+        "url": "https://www.law.cornell.edu/supremecourt/text/388/1",
+        "title": "Richard Perry LOVING et ux., Appellants, v. COMMONWEALTH OF VIRGINIA. | Supreme Court | US Law | LII / Legal Information Institute",
+        "publisher": "Cornell LII (U.S. Supreme Court opinion)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Marriage is one of the 'basic civil rights of man,' fundamental to our very existence and survival.",
+        "local_evidence_path": "evidence/cornell_loving.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "오버거펠 2015 인용",
+        "url": "https://www.law.cornell.edu/supremecourt/text/14-556",
+        "title": "OBERGEFELL v. HODGES | Supreme Court | US Law | LII / Legal Information Institute",
+        "publisher": "Cornell LII (U.S. Supreme Court opinion)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Applying these tenets, the Court has long held the right to marry is protected by the Constitution. For example, Loving v. Virginia, 388 U. S. 1, 12, invalidated bans on interracial unions",
+        "local_evidence_path": "evidence/cornell_obergefell.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "오버거펠 2015.6.26",
+        "url": "https://www.law.cornell.edu/supremecourt/text/14-556",
+        "title": "OBERGEFELL v. HODGES | Supreme Court | US Law | LII / Legal Information Institute",
+        "publisher": "Cornell LII (U.S. Supreme Court opinion)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Decided June 26, 2015",
+        "local_evidence_path": "evidence/cornell_obergefell.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "다나베 2004 창설, 대학원 논문 프로젝트, 학교에서 못 배움",
+        "url": "https://www.focusfeatures.com/article/interview_ken-tanabe_loving-day",
+        "title": "How the Historic Couple Portrayed in Jeff Nichols' Loving Inspired a Holiday",
+        "publisher": "Focus Features",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Loving Day officially launched in 2004. It was originally my graduate thesis project in design school, if you can believe that. I stumbled across the Loving case a few years before and it stuck with me. Why hadn't I learned about it in school, or anywhere else?",
+        "local_evidence_path": "evidence/focus_lovingday.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "첫 행사 뉴욕 바, 약 100명",
+        "url": "https://www.focusfeatures.com/article/interview_ken-tanabe_loving-day",
+        "title": "How the Historic Couple Portrayed in Jeff Nichols' Loving Inspired a Holiday",
+        "publisher": "Focus Features",
+        "accessed_at": "2026-10-11",
+        "quote_original": "It was a gathering at a bar in New York City in June 2004.",
+        "local_evidence_path": "evidence/focus_lovingday.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "약 100명",
+        "url": "https://www.focusfeatures.com/article/interview_ken-tanabe_loving-day",
+        "title": "How the Historic Couple Portrayed in Jeff Nichols' Loving Inspired a Holiday",
+        "publisher": "Focus Features",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Maybe 100 people or so showed up.",
+        "local_evidence_path": "evidence/focus_lovingday.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "연방 기념일 청원 = 아직 연방 기념일 아님",
+        "url": "https://www.nbcnews.com/news/nbcblk/loving-day-petition-launched-hope-broader-recognition-n584566",
+        "title": "'Loving Day' Petition Launched in Hope of Broader RecognitionNBC News LogoSearchSearchNBC News LogoToday Logo",
+        "publisher": "NBC News",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Tanabe launched a petition to make Loving Day, celebrated on June 12 in honor of the decision date of Loving v. Virginia, a federal observance.",
+        "local_evidence_path": "evidence/nbc_lovingday.txt",
+        "quote_match": "exact"
+      }
+    ],
+    "corrections_to_existing": [
+      "기존 '이 판결로 전국적으로 한꺼번에 폐지됐다'는 표현을 LOC 근거('16개 주의 이인종 혼인 금지법을 무효화')로 정밀화.",
+      "기존 '결혼했다는 이유만으로 고향에서 추방'은 판결문 근거(유죄 인정 후 25년간 함께 버지니아에 돌아오지 않는 조건의 집행유예)로 구체화.",
+      "기존 '사랑에는 국경도 인종도 장벽이 될 수 없다는 메시지', '매년 미국 곳곳에서 기념행사'는 출처 미확보로 삭제.",
+      "sourceUrl을 nationaldaycalendar.com에서 판결문 원문(Cornell LII)으로 교체 제안."
+    ],
+    "notes": "id에 'global'이 들어 있으나 확인된 성격은 미국 판결 기념 민간 기념일(2004, Ken Tanabe). '켄 다나베' 표기는 일본식 성 Tanabe의 국립국어원 표기 관례 적용. 판결문 원문 '백인 우월주의' 대문자 표기(White Supremacy)."
+  },
+  "anv-fixed-12-01-rosa-parks-day-us": {
+    "origin": "로자 파크스의 날은 1955년 12월 1일 미국 앨라배마주 몽고메리에서 버스 좌석을 백인 승객에게 내주라는 운전기사의 요구를 거부해 체포된 흑인 여성 로자 파크스를 기리는 날이다. 당시 미국 남부에는 공공시설에서 흑인과 백인을 분리하는 이른바 '짐 크로' 법과 정책이 있었다. 몽고메리 버스도 좌석이 인종별로 나뉘어 있었고, 운전기사가 백인 승객을 위해 흑인 승객을 일으켜 세우는 일이 흔했다. 운전기사에게는 명령을 따르지 않는 승객을 체포할 법적 권한까지 있었다. 백화점 재봉사로 일하던 42세의 파크스는 그날 퇴근길 버스의 '유색인' 구역에 앉아 있었지만, 백인 구역이 차자 자리를 내놓으라는 요구를 받았고 이를 거부해 체포됐다. 항의 전단이 빠르게 퍼졌고, 12월 4일 지역 지도자들이 몽고메리 개선협회를 꾸려 26세 목사 마틴 루서 킹 주니어를 회장으로 뽑았다. 버스 승차 거부 운동은 381일 동안 이어졌다. 1956년 11월 13일 연방대법원이 앨라배마의 버스 분리법을 위헌으로 판단했고, 12월 20일 몽고메리시에 버스 분리 철폐 명령이 내려졌다.",
+    "anecdote": "파크스는 우연히 그 자리에 있던 평범한 승객만은 아니었다. 그는 1943년부터 1956년까지 12년 동안 전미유색인지위향상협회(NAACP) 몽고메리 지부의 서기로 일했고, 체포 당시에는 지부장 E. D. 닉슨의 비서 역할도 맡고 있었다. 버스 분리를 끝낸 소송도 파크스 본인의 사건이 아니었다. 변호사 프레드 그레이는 앞서 버스에서 차별을 겪은 오렐리아 브라우더, 클로뎃 콜빈 등 여성 네 명을 원고로 '브라우더 대 게일' 소송을 냈다. 콜빈은 같은 해 3월 2일 자리 양보를 거부해 수갑을 차고 끌려 나간 15세 학생이었다. 보이콧 이후 파크스는 일자리를 잃고 살해 위협까지 받았다. 그를 기리는 날짜는 주마다 다르다. 오하이오주는 의회 의원 조이스 비티가 주 의원 시절 추진한 법으로 체포일인 12월 1일을 로자 파크스의 날로 정했다. 캘리포니아주는 2000년 결의로 그의 생일인 2월 4일과 이후 매년 2월 4일 다음 첫 월요일을 로자 파크스의 날로 정했다.",
+    "sourceUrl": "https://www.archives.gov/education/lessons/rosa-parks",
+    "evidence": [
+      {
+        "claim": "12.1 체포",
+        "url": "https://rediscovering-black-history.blogs.archives.gov/2015/12/01/60th-anniversary-of-the-montgomery-bus-boycott/",
+        "title": "60th Anniversary of the Montgomery Bus Boycott – Rediscovering Black History",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "On December 1, 1955, Rosa Parks refused to give up her seat on a Montgomery, Alabama city bus to a white man. She was arrested and charged with violating the city’s segregation laws.",
+        "local_evidence_path": "evidence/archives_mbb60.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "짐 크로 정책 용어",
+        "url": "https://rediscovering-black-history.blogs.archives.gov/2015/12/01/60th-anniversary-of-the-montgomery-bus-boycott/",
+        "title": "60th Anniversary of the Montgomery Bus Boycott – Rediscovering Black History",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "she did not hold the appropriate image to be a test case against Jim Crow policies.",
+        "local_evidence_path": "evidence/archives_mbb60.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "분리 좌석, 운전기사가 흑인을 일으켜 세움",
+        "url": "https://www.nps.gov/articles/montgomery-bus-boycott.htm",
+        "title": "The Montgomery Bus Boycott (U.S. National Park Service)Lock",
+        "publisher": "U.S. National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Despite having segregated seating arrangements on public buses, it was routine in Montgomery for bus drivers to force African Americans out of their seats for a white passenger.",
+        "local_evidence_path": "evidence/nps_mbb.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "운전기사 체포 권한",
+        "url": "https://www.nps.gov/articles/montgomery-bus-boycott.htm",
+        "title": "The Montgomery Bus Boycott (U.S. National Park Service)Lock",
+        "publisher": "U.S. National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "bus drivers in Montgomery had the legal ability to arrest passengers for refusing to obey their orders.",
+        "local_evidence_path": "evidence/nps_mbb.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "42세 재봉사, 백화점",
+        "url": "https://www.nps.gov/articles/montgomery-bus-boycott.htm",
+        "title": "The Montgomery Bus Boycott (U.S. National Park Service)Lock",
+        "publisher": "U.S. National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Rosa Parks - a 42-year-old seamstress and NAACP member- wanted a guaranteed seat on the bus for her ride home after working as a seamstress in a Montgomery department store.",
+        "local_evidence_path": "evidence/nps_mbb.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "유색인 구역",
+        "url": "https://www.nps.gov/articles/montgomery-bus-boycott.htm",
+        "title": "The Montgomery Bus Boycott (U.S. National Park Service)Lock",
+        "publisher": "U.S. National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "was able to find an open seat in the 'colored' section of the bus for her ride home.",
+        "local_evidence_path": "evidence/nps_mbb.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "백인 구역 만석 후 요구, 거부, 체포",
+        "url": "https://www.nps.gov/articles/montgomery-bus-boycott.htm",
+        "title": "The Montgomery Bus Boycott (U.S. National Park Service)Lock",
+        "publisher": "U.S. National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "After a few stops on Parks’ ride home, the white seating section of the bus became full. The driver demanded that Parks give up her seat on the bus so a white passenger could sit down. Parks refused to surrender her seat and was arrested for violating the bus driver’s orders.",
+        "local_evidence_path": "evidence/nps_mbb.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "로빈슨 5만 장, 12.4 MIA",
+        "url": "https://www.nps.gov/articles/montgomery-bus-boycott.htm",
+        "title": "The Montgomery Bus Boycott (U.S. National Park Service)Lock",
+        "publisher": "U.S. National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "By December 2, schoolteacher Jo Ann Robinson had mimeographed and delivered 50,000 protest leaflets around town. E.D. Nixon, a local labor leader, organized a December 4 meeting at Dexter Avenue Baptist Church, where local black leaders formed the Montgomery Improvement Association (MIA)to spearhead a boycott and negotiate with the bus company.",
+        "local_evidence_path": "evidence/nps_mbb.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "킹 회장 선출",
+        "url": "https://www.nps.gov/articles/montgomery-bus-boycott.htm",
+        "title": "The Montgomery Bus Boycott (U.S. National Park Service)Lock",
+        "publisher": "U.S. National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The MIA elected as their president a new but charismatic preacher, Martin Luther King Jr.",
+        "local_evidence_path": "evidence/nps_mbb.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "킹 26세, 381일",
+        "url": "https://www.archives.gov/education/lessons/rosa-parks",
+        "title": "An Act of Courage, The Arrest Records of Rosa Parks | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Martin Luther King, Jr., the 26-year-old minister of the Dexter Avenue Baptist Church, emerged as a leader during the well-coordinated, peaceful boycott that lasted 381 days and captured the world's attention.",
+        "local_evidence_path": "evidence/archives_rosaparks.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "1956.11.13 대법원, 12.20 철폐 명령",
+        "url": "https://leginfo.ca.gov/pub/99-00/bill/asm/ab_0101-0150/acr_116_bill_20000204_chaptered.html",
+        "title": "ACR 116   Assembly Concurrent Resolution - CHAPTERED",
+        "publisher": "California Legislature",
+        "accessed_at": "2026-10-11",
+        "quote_original": "On November 13, 1956, the United States Supreme Court\nruled that Montgomery's segregation law was unconstitutional, and on\nDecember 20, 1956, Montgomery officials were ordered to desegregate\nbuses",
+        "local_evidence_path": "evidence/ca_acr116.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "대법원 11.13 앨라배마 버스 분리법 위헌",
+        "url": "https://www.nps.gov/articles/montgomery-bus-boycott.htm",
+        "title": "The Montgomery Bus Boycott (U.S. National Park Service)Lock",
+        "publisher": "U.S. National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "The company reluctantly desegregated its buses only after November 13, 1956, when the Supreme Court ruled Alabama's bus segregation laws unconstitutional.",
+        "local_evidence_path": "evidence/nps_mbb.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "NAACP 서기 12년",
+        "url": "https://www.nps.gov/people/rosa-parks.htm",
+        "title": "Rosa Parks (U.S. National Park Service)Lock",
+        "publisher": "U.S. National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "When she inspired the bus boycott, Parks had been the secretary of the local NAACP for twelve years (1943-1956).",
+        "local_evidence_path": "evidence/nps_rosaparks.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "닉슨의 비서",
+        "url": "https://www.archives.gov/education/lessons/rosa-parks",
+        "title": "An Act of Courage, The Arrest Records of Rosa Parks | National Archives",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "serving as secretary to E.D. Nixon, president of the Montgomery chapter.",
+        "local_evidence_path": "evidence/archives_rosaparks.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "그레이, 원고 4명, 브라우더 대 게일",
+        "url": "https://www.nps.gov/articles/montgomery-bus-boycott.htm",
+        "title": "The Montgomery Bus Boycott (U.S. National Park Service)Lock",
+        "publisher": "U.S. National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Gray gathered Aurelia Browder, Susie McDonald, Claudette Colvin and Mary Louise Smith to challenge the constitutionality of the city busing laws. All four of the women had been previously mistreated on the city buses because of their race. The case took the name Browder v. Gayle.",
+        "local_evidence_path": "evidence/nps_mbb.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "콜빈 3.2 체포",
+        "url": "https://www.nps.gov/articles/montgomery-bus-boycott.htm",
+        "title": "The Montgomery Bus Boycott (U.S. National Park Service)Lock",
+        "publisher": "U.S. National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "On March 2, 1955, a black teenager named Claudette Colvin dared to defy bus segregation laws and was forcibly removed from another Montgomery bus.",
+        "local_evidence_path": "evidence/nps_mbb.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "콜빈 15세, 수갑",
+        "url": "https://rediscovering-black-history.blogs.archives.gov/2015/12/01/60th-anniversary-of-the-montgomery-bus-boycott/",
+        "title": "60th Anniversary of the Montgomery Bus Boycott – Rediscovering Black History",
+        "publisher": "U.S. National Archives",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Earlier that year, Claudette Colvin was handcuffed and arrested for refusing to give up her seat on March 2nd. Fifteen year old Colvin",
+        "local_evidence_path": "evidence/archives_mbb60.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "실직·살해 위협",
+        "url": "https://www.nps.gov/people/rosa-parks.htm",
+        "title": "Rosa Parks (U.S. National Park Service)Lock",
+        "publisher": "U.S. National Park Service",
+        "accessed_at": "2026-10-11",
+        "quote_original": "In the wake of the Montgomery Bus Boycott, Parks lost her tailoring job and received death threats.",
+        "local_evidence_path": "evidence/nps_rosaparks.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "오하이오 12.1, 비티 주 의원 시절",
+        "url": "https://beatty.house.gov/media-center/announcements/congresswoman-beatty-marks-rosa-parks-day",
+        "title": "Congresswoman Beatty Marks Rosa Parks Day | Congresswoman Joyce Beatty",
+        "publisher": "U.S. Rep. Joyce Beatty (house.gov)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "U.S. Congresswoman Joyce Beatty (OH-03), then-State Representative of the Ohio General Assembly, spearheaded legislation to designate December 1st as \"Rosa Parks Day\" in the State of Ohio",
+        "local_evidence_path": "evidence/beatty_rosaparksday.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "오하이오 12.1 법(보조)",
+        "url": "https://www.govtrack.us/congress/bills/119/hr916/text",
+        "title": "Text of H.R. 916: Rosa Parks Commemorative Coin Act (Introduced version) - GovTrack.us",
+        "publisher": "GovTrack (text of H.R. 916, 119th Congress)",
+        "accessed_at": "2026-10-11",
+        "quote_original": "Ohio became the first state to designate December 1, the day of Parks’ arrest, as Rosa Parks Day",
+        "local_evidence_path": "evidence/govtrack_hr916_119.txt",
+        "quote_match": "exact"
+      },
+      {
+        "claim": "캘리포니아 2000 결의",
+        "url": "https://leginfo.ca.gov/pub/99-00/bill/asm/ab_0101-0150/acr_116_bill_20000204_chaptered.html",
+        "title": "ACR 116   Assembly Concurrent Resolution - CHAPTERED",
+        "publisher": "California Legislature",
+        "accessed_at": "2026-10-11",
+        "quote_original": "hereby declares her birthday, Friday, February 4, 2000, and the first\nMonday following February 4 of each subsequent year, as Rosa Parks\nDay",
+        "local_evidence_path": "evidence/ca_acr116.txt",
+        "quote_match": "exact"
+      }
+    ],
+    "corrections_to_existing": [
+      "기존 '1956년 연방대법원이 버스의 인종 분리를 위헌으로 판결'은 유지하되, 실제 소송은 파크스 사건이 아니라 '브라우더 대 게일'(원고 4명)이었음을 명시.",
+      "기존 '흔히 지친 재봉사로 묘사되지만'은 '흔한 묘사'에 대한 출처 미확보로 해당 프레이밍 삭제, NAACP 서기 경력(NPS)은 유지.",
+      "기존 '캘리포니아와 오하이오 등 여러 주가 이날이나 그의 생일(2월 4일)'은 정밀화: 오하이오=12월 1일, 캘리포니아=2000년 2월 4일 및 이후 매년 '2월 4일 다음 첫 월요일'(ACR 116 원문).",
+      "sourceUrl을 en.wikipedia에서 archives.gov(파크스 체포 기록 교육자료)로 교체 제안."
+    ],
+    "notes": "오하이오 지정 연도는 출처 간 2005(비티 의원실: 법안 추진) vs 2006(H.R.916 findings: 서명) 차이 → 연도 미기재. 오하이오 주법전(codes.ohio.gov §5.2231) 원문은 접속 차단으로 미확인. Browder v. Gayle 하급심 판결일도 출처 간 6/4(NARA) vs 6/5(NPS) 차이 → 미기재."
+  }
+}

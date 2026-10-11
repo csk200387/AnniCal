@@ -1,0 +1,4 @@
+URL: https://webserver.rilegislature.gov/BillText06/HouseText06/H6733.pdf
+ACCESSED: 2026-10-11
+
+Syntax Error: Document stream is empty

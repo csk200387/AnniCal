@@ -1,0 +1,119 @@
+[
+  {
+    "id": "anv-fixed-01-27-international-holocaust-remembrance-day-global",
+    "date": "01-27",
+    "dateType": "annual-fixed",
+    "name": "국제 홀로코스트 희생자 추모의 날",
+    "category": "history",
+    "storytelling": {
+      "origin": "1945년 1월 27일 소련군이 폴란드 아우슈비츠 수용소를 해방한 날이다. UN 총회가 2005년 11월 결의 60/7호를 채택해 매년 이날을 국제기념일로 정했으며, 결의문에는 홀로코스트 부정을 명시적으로 규탄하는 내용도 함께 담겼다. 104개국이 이 결의에 공동 발의국으로 이름을 올렸다.",
+      "anecdote": "홀로코스트로 유대인 약 600만 명이 희생됐다. 이 날은 특정 종교·민족을 넘어 집단학살 부정과 혐오에 맞서자는 취지로, 세계 각국 정부와 UN이 함께 추모 행사를 열고 학교에서도 관련 교육을 진행하며 생존자들의 육성 증언을 기록으로 남기는 작업도 꾸준히 이어지고 있다."
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/International_Holocaust_Remembrance_Day",
+    "current_chars": 313
+  },
+  {
+    "id": "anv-fixed-03-25-remembrance-victims-slavery-transatlantic-slave-trade-global",
+    "date": "03-25",
+    "dateType": "annual-fixed",
+    "name": "노예제 및 대서양 노예무역 희생자 국제 추모의 날",
+    "category": "history",
+    "storytelling": {
+      "origin": "1807년 3월 25일 영국 의회가 노예무역 폐지법을 통과시킨 날짜를 기려, UN 총회가 2007년 12월 결의안 62/122로 지정했다. 공교롭게도 2007년은 그 폐지법 제정 200주년이 되는 해였으며, UN은 유네스코의 '노예의 길' 프로젝트와 연계해 매년 이날을 지켜오고 있다.",
+      "anecdote": "400년 가까이 이어진 대서양 노예무역으로 강제 이주된 아프리카인은 1,200만 명이 넘는 것으로 추산된다. UN은 이 날을 계기로 교육기관과 시민사회가 노예제의 역사와 인종차별의 위험성을 가르치도록 권고한다. 2015년에는 이날을 기려 유엔 본부에 대서양 노예무역을 상징하는 영구 기념물 '귀환의 방주(Ark of Return)'가 세워졌다."
+    },
+    "sourceUrl": "https://www.un.org/en/observances/transatlantic-slave-trade",
+    "current_chars": 351
+  },
+  {
+    "id": "anv-fixed-12-02-abolition-of-slavery-day-global",
+    "date": "12-02",
+    "dateType": "annual-fixed",
+    "name": "노예제 폐지를 위한 국제 기념일",
+    "category": "history",
+    "storytelling": {
+      "origin": "1949년 UN이 인신매매 금지 협약을 채택한 날을 기려 지정된 국제 기념일로, 현대판 노예제와 인신매매 문제에 대한 경각심을 일깨운다. 정식 명칭은 '인신매매 및 매춘 착취 금지에 관한 협약'이며, UN 총회 결의 317호로 채택됐다. 이 기념일은 1986년부터 UN 총회가 매년 조직해 왔다.",
+      "anecdote": "노예제는 과거의 일로만 여겨지기 쉽지만, 강제노동과 인신매매 형태로 여전히 존재한다는 사실을 일깨운다. 강제 결혼, 아동 노동, 무력 분쟁 속 아동 징집 등도 이날이 다루는 현대판 노예제의 범주에 포함되며, 국제노동기구는 전 세계 강제노동 피해자를 수천만 명 규모로 추산한다."
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/International_Day_for_the_Abolition_of_Slavery",
+    "current_chars": 319
+  },
+  {
+    "id": "anv-fixed-12-10-human-rights-day-global",
+    "date": "12-10",
+    "dateType": "annual-fixed",
+    "name": "세계 인권의 날 (Human Rights Day)",
+    "category": "history",
+    "storytelling": {
+      "origin": "1948년 12월 10일 UN 총회가 파리에서 세계인권선언을 채택한 날을 기념해 지정된 국제 기념일로, 모든 인간이 누려야 할 기본적 권리를 되새긴다. 프랭클린 루스벨트 전 대통령의 부인 엘리너 루스벨트가 이끈 인권위원회가 2년에 걸쳐 이 선언문 초안을 함께 작성했다.",
+      "anecdote": "전쟁의 폐허 속에서 다시는 같은 비극을 반복하지 않겠다는 굳은 다짐으로 만들어진 선언문이라는 점에서 더욱 의미가 깊다. 30개 조항으로 이뤄진 이 선언은 이후 수많은 나라의 헌법과 인권 관련 법률 제정에 직접적인 영향을 미쳤으며, 지금도 국제인권법의 핵심 토대로 꼽힌다."
+    },
+    "sourceUrl": "https://nationaldaycalendar.com/national-human-rights-day-december-10/",
+    "current_chars": 301
+  },
+  {
+    "id": "anv-fixed-04-26-international-chernobyl-disaster-remembrance-day-global",
+    "date": "04-26",
+    "dateType": "annual-fixed",
+    "name": "국제 체르노빌 참사 추모의 날",
+    "category": "history",
+    "storytelling": {
+      "origin": "1986년 4월 26일 우크라이나 체르노빌 원자력발전소 폭발 사고를 기려 UN 총회가 2016년 12월 8일 결의안 71/125호로 제정했다. 마침 그해가 사고 30주기여서 총회에서 특별 기념 회의가 함께 열렸으며, 이 자리에서 결의안이 채택됐다. 이는 원전 사고 역사상 최악의 등급인 국제원자력사고등급 7단계로 분류된 사건이다.",
+      "anecdote": "사고 지역은 지금도 반경 30km가 출입제한구역으로 남아 있다. 원전 안전 규제를 세계적으로 강화하는 계기가 된 사건이라, 매년 원자력 안전 논의에서 함께 언급된다. 한국에서도 원자력 안전 관련 시민단체가 이날에 맞춰 토론회를 연다. 사고로 방출된 방사성 물질은 유럽 여러 나라까지 퍼져나갔다."
+    },
+    "sourceUrl": null,
+    "current_chars": 348
+  },
+  {
+    "id": "anv-fixed-04-29-chemical-warfare-victims-day-global",
+    "date": "04-29",
+    "dateType": "annual-fixed",
+    "name": "국제 화학전쟁 희생자 추모의 날",
+    "category": "history",
+    "storytelling": {
+      "origin": "화학무기금지협약(CWC)이 1997년 4월 29일 발효된 것을 기려 UN 회원국들이 지정한 추모일이다. 화학무기 사용 희생자를 기리고 폐기를 촉구하는 취지다. 협약은 네덜란드 헤이그에 본부를 둔 화학무기금지기구(OPCW)가 이행을 감독하며, 협약 발효 이후 전 세계 신고된 화학무기 재고의 대부분이 폐기됐다.",
+      "anecdote": "화학무기금지기구(OPCW)가 이 협약의 이행을 감독하며, 2013년 노벨평화상을 받았다. 협약 가입국은 190개국을 넘어 사실상 전 세계적 규범으로 자리 잡았다. OPCW는 시리아·이라크 등 최근 분쟁 지역의 화학무기 사용 의혹을 조사하는 국제 사찰 기구로도 활동하고 있다."
+    },
+    "sourceUrl": null,
+    "current_chars": 325
+  },
+  {
+    "id": "anv-fixed-08-30-international-day-of-the-victims-of-enforced-disappearances-global",
+    "date": "08-30",
+    "dateType": "annual-fixed",
+    "name": "세계 강제실종 희생자의 날",
+    "category": "campaign",
+    "storytelling": {
+      "origin": "국가 권력에 의한 강제실종 피해자를 기리기 위해 UN 총회가 2010년 12월 결의 65/209로 제정했다. 같은 결의에서 강제실종 방지를 위한 국제협약도 함께 채택돼, 두 조치가 한 세트로 마련됐다. 협약은 강제실종을 조직적으로 자행할 경우 인도에 반한 죄로 규정할 수 있다는 조항도 담고 있다.",
+      "anecdote": "실종자 가족들이 생사조차 확인받지 못하는 고통을 알리는 데 초점이 있으며, 라틴아메리카 군사독재 시기의 실종 사건들이 제정 배경으로 자주 언급된다. 흰 스카프는 아르헨티나 '5월 광장 어머니회'를 상징하는 물건으로 함께 쓰인다. 실종자 수색·신원 확인 기술 발전도 최근 논의에서 함께 다뤄진다."
+    },
+    "sourceUrl": null,
+    "current_chars": 330
+  },
+  {
+    "id": "gov-20",
+    "date": "05-05",
+    "dateType": "annual-fixed",
+    "name": "어린이날",
+    "category": "holiday",
+    "storytelling": {
+      "origin": "1922년 방정환과 천도교소년회가 처음 만들었다. 아이를 어른의 소유물이 아니라 하나의 인격으로 대하자는 취지였고, '어린이'라는 말 자체를 널리 퍼뜨린 것도 이들이다. 1975년부터 공휴일이 됐으며, 아동 인권 운동으로는 세계적으로도 상당히 이른 시도로 두루 평가받는다.",
+      "anecdote": "첫 어린이날은 5월 1일이었으나 노동절과 겹치는 문제 등으로 1946년부터 5월 5일로 자리 잡았다. UN이 정한 세계 어린이의 날(11월 20일)보다 30년 넘게 앞선 셈이다. 이날 부모들은 놀이공원 인파와 매년 씨름하게 되지만 그래도 웃으며 기꺼이 발걸음을 옮긴다."
+    },
+    "sourceUrl": "https://ko.wikipedia.org/wiki/어린이날",
+    "current_chars": 302
+  },
+  {
+    "id": "gov-103",
+    "date": "09-01",
+    "dateType": "annual-fixed",
+    "name": "여권통문의 날",
+    "category": "history",
+    "storytelling": {
+      "origin": "1898년 9월 1일 서울 북촌의 여성들이 '여권통문(女權通文)'을 발표한 날이다. 여성의 교육권·직업권·참정권을 주장한 한국 최초의 여성인권선언으로, 300여 명이 이름을 올렸다. 2019년 양성평등기본법 개정으로 법정기념일이 됐다. 이 선언을 계기로 한국 최초의 여성단체인 찬양회도 조직됐다.",
+      "anecdote": "이 선언은 곧바로 행동으로 이어져 이듬해 한국인이 세운 첫 여학교인 순성여학교가 문을 열었다. 발표자로 남은 이름은 '이소사·김소사'인데, 소사는 이름이 아니라 기혼 여성을 부르던 호칭이다. 두 사람의 실제 이름은 지금까지도 확인되지 않고 있어 역사적 아쉬움으로 남는다."
+    },
+    "sourceUrl": "https://www.law.go.kr/법령/양성평등기본법",
+    "current_chars": 316
+  }
+]
