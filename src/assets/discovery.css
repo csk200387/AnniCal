@@ -1,0 +1,32 @@
+/* Shared discovery composition; page files only contain their own details. */
+.discovery-form { min-width: 0; padding: var(--space-7); background: var(--bg-surface); border: 1px solid var(--stroke-weak); border-radius: var(--radius-lg); }
+.discovery-form h2 { margin: var(--space-3) 0 var(--space-6); font-size: var(--text-t9); font-weight: var(--weight-medium); letter-spacing: -.04em; line-height: 1.5; }
+.discovery-form-kicker { color: var(--fg-subtle); font-size: var(--text-t2); }
+.discovery-form .ui-button { margin-top: var(--space-6); }
+.discovery-form-note { margin-top: var(--space-4); color: var(--fg-subtle); font-size: var(--text-t2); line-height: 1.8; }
+.discovery-invitation { max-width: 40ch; margin-top: var(--space-4); color: var(--fg-subtle); font-size: var(--text-t3); line-height: 1.8; word-break: keep-all; }
+.discovery-result-layout { display: grid; grid-template-columns: minmax(0, 1.12fr) minmax(0, 1fr); grid-template-areas: 'feature choices'; gap: var(--space-10); align-items: start; }
+.discovery-feature { grid-area: feature; min-width: 0; }
+.discovery-choices { grid-area: choices; min-width: 0; }
+.discovery-choice-desktop > h3 { font-size: var(--text-t6); font-weight: var(--weight-medium); letter-spacing: -.035em; }
+.discovery-choice-desktop > p { margin: var(--space-2) 0 var(--space-5); font-size: var(--text-t3); color: var(--fg-subtle); }
+.discovery-choice-mobile { display: none; }
+.discovery-story { border: 1px solid var(--stroke-weak); border-radius: var(--radius-lg); background: var(--bg-page); overflow: hidden; }
+.discovery-story-art { display: flex; align-items: center; justify-content: space-between; padding: var(--space-6) var(--space-8); background: var(--bg-weak); color: var(--fg-brand); }
+.discovery-story-art > span { font-size: var(--text-t9); letter-spacing: -.04em; font-weight: var(--weight-medium); }
+.discovery-story-body { padding: var(--space-8); }
+.discovery-story-caption { font-size: var(--text-t3); color: var(--fg-subtle); }
+.discovery-story h3 { margin: var(--space-3) 0 var(--space-4); font-size: var(--text-t12); font-weight: var(--weight-medium); line-height: 1.4; letter-spacing: -.05em; }
+.discovery-origin { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; margin-top: var(--space-5); font-size: var(--text-t4); line-height: 1.8; color: var(--fg-muted); word-break: keep-all; overflow-wrap: anywhere; }
+.discovery-story-note { margin-top: var(--space-4); color: var(--fg-subtle); font-size: var(--text-t2); line-height: 1.8; }
+.discovery-story-actions { display: flex; flex-wrap: wrap; gap: var(--space-3); margin-top: var(--space-6); padding-top: var(--space-5); border-top: 1px solid var(--stroke-weak); }
+.discovery-results h2[tabindex] { scroll-margin-top: 120px; }
+@media (max-width: 760px) {
+  .discovery-form { padding: var(--space-5); }
+  .discovery-result-layout { grid-template-columns: minmax(0, 1fr); grid-template-areas: 'choices' 'feature'; gap: var(--space-4); }
+  .discovery-choice-desktop { display: none; }
+  .discovery-choice-mobile { display: flex; }
+  .discovery-story-art, .discovery-story-body { padding: var(--space-6); }
+  .discovery-story h3 { font-size: var(--text-t11); }
+  .discovery-results h2[tabindex] { scroll-margin-top: 96px; }
+}

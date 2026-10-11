@@ -8,9 +8,18 @@ import { monthsCovering } from '@/services/anniversaryRepository'
 import { isYearSupported } from '@/utils/dateUtils'
 import { pathForId } from '@/utils/anniversaryRoutes'
 import { displayName } from '@/seo/meta'
-import CategoryBadge from '@/components/common/CategoryBadge.vue'
 import { isoDate, milestoneDate, milestoneLabel, milestoneWindow, togetherPath, validStart, type Milestone, type TogetherContext } from '../milestones'
-import '@/assets/birthday.css'
+import DiscoveryToolLayout from '@/components/discovery/DiscoveryToolLayout.vue'
+import DiscoveryChoices from '@/components/discovery/DiscoveryChoices.vue'
+import DiscoveryFeature from '@/components/discovery/DiscoveryFeature.vue'
+import SectionHeader from '@/components/ui/SectionHeader.vue'
+import UiButton from '@/components/ui/UiButton.vue'
+import FieldShell from '@/components/ui/FieldShell.vue'
+import ResultState from '@/components/ui/ResultState.vue'
+import SkeletonRows from '@/components/ui/SkeletonRows.vue'
+import PromoCard from '@/components/ui/PromoCard.vue'
+import ListGroup from '@/components/ui/ListGroup.vue'
+import ListRow from '@/components/ui/ListRow.vue'
 import '@/assets/together.css'
 
 const route = useRoute(), router = useRouter()
@@ -18,6 +27,7 @@ const store = useAnniversariesStore(), share = useShareStore()
 const { today } = useNow()
 const startInput = ref(''), formError = ref(''), loading = ref(false), loadError = ref(false)
 const selectedId = ref('')
+const showPast = ref(false)
 const heading = ref<HTMLElement | null>(null)
 const start = computed(() => validStart(route.query.start, today.value) ? route.query.start : null)
 const timeline = computed(() => start.value ? milestoneWindow(start.value, today.value) : { next: null, later: [], past: [] })
@@ -37,8 +47,17 @@ function items(date: string) {
 }
 const choices = computed(() => context.value ? items(context.value.date) : [])
 const selected = computed(() => choices.value.find(a => a.id === selectedId.value) ?? choices.value[0])
+watch(context, value => {
+  if (value && timeline.value.past.some(row => row.date === value.date)) showPast.value = true
+}, { immediate: true })
+function storySummary(date: string) {
+  const stories = items(date)
+  const summary = stories.slice(0, 2).map(a => displayName(a.name)).join(' · ')
+  return summary ? `${summary}${stories.length > 2 ? ` · 외 ${stories.length - 2}개` : ''}` : '아직 등록된 기념일이 없어요.'
+}
 const dateFormatter = new Intl.DateTimeFormat('ko-KR', { year: 'numeric', month: 'long', day: 'numeric', weekday: 'short', timeZone: 'UTC' })
 const dateLabel = (date: string) => dateFormatter.format(new Date(`${date}T00:00:00Z`))
+const startLabel = computed(() => start.value ? new Intl.DateTimeFormat('ko-KR', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' }).format(new Date(`${start.value}T00:00:00Z`)) : '')
 const dDay = (days: number) => days === 0 ? '오늘' : days > 0 ? `D-${days}` : `${-days}일 전`
 let loadVersion = 0
 async function loadResults() {
@@ -71,57 +90,63 @@ function openCard() { if (selected.value && context.value) share.openTogether(se
 
 <template>
   <div class="home-page together-page">
-    <div class="birthday-shell">
-      <nav class="crumbs" aria-label="위치"><RouterLink to="/">홈</RouterLink><span aria-hidden="true">/</span><span>우리의 날</span></nav>
-      <section class="birthday-intro" aria-labelledby="together-title">
-        <div class="birthday-copy">
-          <p class="section-kicker"><span /> OUR DAYS, OUR STORIES</p>
-          <h1 id="together-title">우리 N주년은<br />무슨 날<span class="heading-dot">?</span></h1>
-          <p class="birthday-description">처음 만난 날·사귄 날·결혼한 날 무엇이든.<br />함께 쌓은 시간에 새로운 이야기를 더해요.</p>
-          <p class="birthday-invitation">100일부터 50주년까지, 그날의 기념일을 카드로 남겨보세요.</p>
-        </div>
-        <div class="birthday-envelope">
-          <form class="birthday-form" @submit.prevent="discover">
-            <p class="birthday-form-kicker">함께 시작한 작은 발견</p><h2>우리의 시작은 언제인가요?</h2>
-            <div class="birthday-field together-start"><label for="together-start">시작한 날 (양력)</label><input id="together-start" v-model="startInput" type="date" min="1950-01-01" :max="isoDate(today)" required :aria-invalid="!!formError" :aria-describedby="formError ? 'together-error' : 'together-rule'" /></div>
-            <p v-if="formError" id="together-error" class="birthday-error" role="alert">{{ formError }}</p>
-            <button class="home-button home-button--dark birthday-submit" type="submit">우리의 날 찾기 <span aria-hidden="true">↗</span></button>
-            <p id="together-rule" class="birthday-form-note">시작일을 1일로 세어요. 100일은 시작일 + 99일.<br />2월 29일에 시작했다면 평년의 주년은 2월 28일이에요.</p>
-          </form>
-        </div>
-      </section>
-      <p v-if="invalidLink" class="birthday-notice" role="alert">공유 링크의 시작일이나 마일스톤이 올바르지 않아요. 날짜를 다시 입력해 주세요.</p>
-      <section v-if="start && !invalidLink" class="birthday-results" aria-labelledby="together-result-title" :aria-busy="loading">
-        <header class="birthday-result-heading"><div><p class="section-kicker"><span /> OUR NEXT DISCOVERY</p><h2 id="together-result-title" ref="heading" tabindex="-1">우리의 다음 기념일<span class="heading-dot">.</span></h2></div><span class="date-pill">{{ start }}부터</span></header>
-        <button v-if="timeline.next" type="button" class="together-next" @click="chooseMilestone(timeline.next)"><span><small>다가오는 우리의 날</small><strong>{{ timeline.next.labels.join(' · ') }}</strong><span>{{ dateLabel(timeline.next.date) }}</span></span><b>{{ dDay(timeline.next.daysAway) }}</b></button>
-        <p v-else class="birthday-notice">준비한 50주년·10,000일 마일스톤을 모두 지났어요. 최근 지난 날의 이야기를 만나보세요.</p>
-        <p v-if="loading" class="birthday-notice" role="status">그날에 담긴 이야기를 찾고 있어요…</p>
-        <div v-else-if="loadError" class="birthday-notice" role="alert"><p>기념일을 불러오지 못했어요. 잠시 후 다시 시도해 주세요.</p><button type="button" class="home-button" @click="loadResults">다시 불러오기 ↻</button></div>
-        <template v-else>
-          <div class="together-timeline">
-            <section v-for="group in [{ title: '이후 다섯 번의 발견', list: timeline.later }, { title: '최근 지난 우리의 날', list: timeline.past }]" :key="group.title">
-              <h3>{{ group.title }}</h3>
-              <ul><li v-for="row in group.list" :key="row.date">
-                <button type="button" class="together-row" :aria-pressed="context?.date === row.date" @click="chooseMilestone(row)"><span><strong>{{ row.labels.join(' · ') }}</strong><span>{{ dateLabel(row.date) }}</span><small>{{ items(row.date).length ? items(row.date).map(a => displayName(a.name)).join(' · ') : '아직 등록된 기념일이 없어요.' }}</small></span><b>{{ dDay(row.daysAway) }}</b></button>
-              </li></ul><p v-if="!group.list.length" class="birthday-notice">아직 이 구간의 기록이 없어요.</p>
-            </section>
+    <DiscoveryToolLayout kicker="OUR DAYS, OUR STORIES" title-id="together-title" description="처음 만난 날·사귄 날·결혼한 날 무엇이든. 함께 쌓은 시간에 새로운 이야기를 더해요."
+      :results="!!start && !invalidLink" results-id="together-result-title" :busy="loading" :has-feature="!!selected && !loading && !loadError">
+      <template #breadcrumb><nav class="crumbs" aria-label="위치"><RouterLink to="/">홈</RouterLink><span aria-hidden="true">/</span><span>우리의 날</span></nav></template>
+      <template #title>우리 N주년은<br />무슨 날<span class="heading-dot">?</span></template>
+      <template #invitation><p class="discovery-invitation">100일부터 50주년까지, 그날의 기념일을 카드로 남겨보세요.</p></template>
+      <template #form>
+        <form class="discovery-form" @submit.prevent="discover">
+          <p class="discovery-form-kicker">함께 시작한 작은 발견</p><h2>우리의 시작은 언제인가요<span class="heading-dot">?</span></h2>
+          <FieldShell for="together-start" label="시작한 날 (양력)" :error="formError" helper="1950년 1월 1일부터 오늘까지 선택할 수 있어요.">
+            <template #default="{ describedby, invalid }"><input id="together-start" v-model="startInput" type="date" min="1950-01-01" :max="isoDate(today)" required :aria-invalid="invalid" :aria-describedby="`${describedby} together-rule`" /></template>
+          </FieldShell>
+          <UiButton type="submit" size="l" block icon="arrow">우리의 날 찾기</UiButton>
+          <p id="together-rule" class="discovery-form-note">시작일을 1일로 세어요. 100일은 시작일에서 99일 뒤예요.<br />2월 29일에 시작했다면 평년의 주년은 2월 28일이에요.</p>
+        </form>
+      </template>
+      <template #notice><ResultState v-if="invalidLink" class="tool-section" tone="error" title="공유 링크의 날짜를 다시 확인해 주세요" description="시작일이나 기념일이 올바르지 않아요. 위에서 날짜를 다시 입력해 주세요." /></template>
+      <template #resultsHeader>
+        <SectionHeader kicker="OUR NEXT DISCOVERY"><template #title><h2 id="together-result-title" ref="heading" tabindex="-1">우리의 다음 기념일<span class="heading-dot">.</span></h2></template><template #action><span class="date-pill">{{ startLabel }}부터</span></template></SectionHeader>
+      </template>
+      <template #highlight>
+        <button v-if="timeline.next" type="button" class="together-highlight" :aria-pressed="context?.date === timeline.next.date" @click="chooseMilestone(timeline.next)">
+          <span class="section-kicker"><span /> 다가오는 우리의 날</span>
+          <span class="together-highlight-heading"><strong>{{ timeline.next.labels.join(' · ') }}</strong><span class="dday-pill">{{ dDay(timeline.next.daysAway) }}</span></span>
+          <time :datetime="timeline.next.date">{{ dateLabel(timeline.next.date) }}</time><span class="together-highlight-arrow" aria-hidden="true">↗</span>
+        </button>
+        <p v-else class="ui-callout">준비한 50주년·10,000일을 모두 지났어요. 최근 지난 날의 이야기를 만나보세요.</p>
+      </template>
+      <template #status>
+        <SkeletonRows v-if="loading" :rows="5" label="그날에 담긴 이야기를 찾고 있어요" />
+        <ResultState v-else-if="loadError" tone="error" title="기념일을 불러오지 못했어요" description="잠시 후 다시 시도해 주세요."><template #actions><UiButton icon="retry" @click="loadResults">다시 불러오기</UiButton></template></ResultState>
+        <div v-else class="together-timeline">
+          <h3>다가오는 날</h3>
+          <ListGroup v-if="timeline.later.length" as="ul" label="다가오는 우리의 날">
+            <li v-for="row in timeline.later" :key="row.date"><ListRow action :selected="context?.date === row.date" @click="chooseMilestone(row)"><template #prefix><span class="dday-pill">{{ dDay(row.daysAway) }}</span></template><template #title>{{ row.labels.join(' · ') }}</template><template #detail><time :datetime="row.date">{{ dateLabel(row.date) }}</time><br />{{ storySummary(row.date) }}</template><template #suffix><span aria-hidden="true">→</span></template></ListRow></li>
+          </ListGroup>
+          <p v-else class="ui-callout">다가오는 날은 모두 만나봤어요. 지난 날의 이야기도 둘러보세요.</p>
+          <UiButton variant="weak" size="s" :aria-expanded="showPast" aria-controls="together-past" @click="showPast = !showPast">{{ showPast ? '지난 날 접기' : '지난 날 보기' }}<span aria-hidden="true">{{ showPast ? '↑' : '↓' }}</span></UiButton>
+          <div v-show="showPast" id="together-past" class="together-past">
+            <h3>최근 지난 우리의 날</h3>
+            <ListGroup v-if="timeline.past.length" as="ul" label="최근 지난 우리의 날"><li v-for="row in timeline.past" :key="row.date"><ListRow action :selected="context?.date === row.date" @click="chooseMilestone(row)"><template #prefix><span class="dday-pill">{{ dDay(row.daysAway) }}</span></template><template #title>{{ row.labels.join(' · ') }}</template><template #detail><time :datetime="row.date">{{ dateLabel(row.date) }}</time><br />{{ storySummary(row.date) }}</template><template #suffix><span aria-hidden="true">→</span></template></ListRow></li></ListGroup>
+            <p v-else class="ui-callout">아직 지난 날의 기록이 없어요.</p>
           </div>
-          <section v-if="context" class="together-discovery" aria-labelledby="together-pick-title">
-            <h3 id="together-pick-title">우리 {{ milestoneLabel(context.m) }}, {{ dateLabel(context.date) }}</h3>
-            <p v-if="!isYearSupported(Number(context.date.slice(0, 4)))" class="birthday-notice">이 연도는 날짜 계산 자료의 범위를 벗어나 매년 같은 날짜의 기념일만 보여드려요.</p>
-            <div v-if="selected" class="birthday-result-layout">
-              <article class="birthday-feature">
-                <p class="birthday-feature-caption">우리 {{ milestoneLabel(context.m) }},</p><h3>{{ displayName(selected.name) }}</h3>
-                <CategoryBadge :category-id="selected.category" /><p class="birthday-origin">{{ selected.storytelling.origin }}</p>
-                <div class="birthday-feature-actions"><button type="button" class="home-button home-button--dark" @click="openCard">우리의 카드 만들기 ↗</button><RouterLink :to="pathForId(selected.id)!">그날의 이야기 더 읽기 →</RouterLink></div>
-              </article>
-              <div class="birthday-choices"><h3>함께 나눌 이야기를 골라보세요</h3><div class="birthday-choice-list" role="group" aria-label="우리의 카드에 담을 기념일"><button v-for="(a, index) in choices" :key="a.id" type="button" :aria-pressed="selected.id === a.id" @click="selectedId = a.id"><span class="birthday-choice-index">{{ String(index + 1).padStart(2, '0') }}</span><strong>{{ displayName(a.name) }}</strong><span aria-hidden="true">{{ selected.id === a.id ? '✓' : '↗' }}</span></button></div></div>
-            </div>
-            <p v-else class="birthday-notice">이날의 새로운 이야기도 차근차근 채워갈게요. <RouterLink :to="`/day/${context.date.slice(5)}`">이날의 이야기 더 읽기 →</RouterLink></p>
-          </section>
-        </template>
-      </section>
-      <div class="birthday-friend"><span class="birthday-friend-spark" aria-hidden="true">✳</span><div><h3>내 생일에도 이야기가 숨어 있을까요?</h3><p>매년 돌아오는 나만의 날도 발견해보세요.</p></div><RouterLink to="/birthday" class="home-button">내 생일은? →</RouterLink></div>
-    </div>
+        </div>
+      </template>
+      <template #featureHeader>
+        <div v-if="context && !loading && !loadError" class="together-discovery-heading">
+          <SectionHeader kicker="A STORY FOR OUR DAY" :level="3" :title="`우리 ${milestoneLabel(context.m)}에 담긴 이야기`" :description="dateLabel(context.date)" />
+          <p v-if="!isYearSupported(Number(context.date.slice(0, 4)))" class="ui-callout">이 연도는 날짜 계산 자료의 범위를 벗어나 매년 같은 날짜의 기념일만 보여드려요.</p>
+          <ResultState v-if="!selected" title="이날의 이야기를 기다리고 있어요" description="새로운 이야기도 차근차근 채워갈게요."><template #actions><UiButton :to="`/day/${context.date.slice(5)}`" variant="outline" icon="next">이날의 이야기 더 읽기</UiButton></template></ResultState>
+        </div>
+      </template>
+      <template #choices><DiscoveryChoices v-if="selected" :items="choices" :model-value="selected.id" feature-id="together-feature" label="우리의 카드에 담을 이야기" @update:model-value="selectedId = $event" /></template>
+      <template #feature><DiscoveryFeature v-if="selected && context" :anniversary="selected" feature-id="together-feature" :caption="`우리 ${milestoneLabel(context.m)}에 만난 이야기예요`" :date-label="dateLabel(context.date)" @share="openCard" /></template>
+      <template #crossLinks>
+        <PromoCard kicker="YOUR DAY, YOUR STORY" title="내 생일에도 이야기가 있어요." description="매년 돌아오는 나만의 날도 발견해보세요." to="/birthday" cta="내 생일은?" />
+        <PromoCard kicker="YOUR NEXT FAVORITE DAY" title="좋아하는 날을 찾아보세요." description="한 달의 기념일을 한눈에 만나보세요." to="/calendar" cta="기념일 달력 열기" />
+      </template>
+    </DiscoveryToolLayout>
   </div>
 </template>

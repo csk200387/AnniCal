@@ -13,6 +13,10 @@ import { useAnniversariesStore } from '@/stores/anniversaries'
 import { pathFor } from '@/utils/anniversaryRoutes'
 import AudienceStats from '@/features/stats/components/AudienceStats.vue'
 import PopularityRanking from '@/features/stats/components/PopularityRanking.vue'
+import PageHero from '@/components/ui/PageHero.vue'
+import SectionHeader from '@/components/ui/SectionHeader.vue'
+import UiButton from '@/components/ui/UiButton.vue'
+import PromoCard from '@/components/ui/PromoCard.vue'
 import '@/assets/feed.css'
 
 const { todays, upcoming, today, isLoading, error } = useTodayFeed(30)
@@ -27,7 +31,7 @@ const featuredPath = computed(() => featuredStory.value ? pathFor(featuredStory.
 const featuredTitle = computed(() => featuredStory.value?.name.replace(/\s+\([A-Za-z][^)]*\)$/, '') ?? '')
 const motionPaused = ref(false)
 const storiesRef = ref<HTMLElement | null>(null)
-const heroRef = ref<HTMLElement | null>(null)
+const heroRef = ref<InstanceType<typeof PageHero> | null>(null)
 const activeCategory = ref<CategoryId | 'all'>('all')
 const pageSize = 8
 const revealCount = ref(pageSize)
@@ -50,14 +54,14 @@ function scrollToStories() {
   storiesRef.value?.focus({ preventScroll: true })
 }
 function moveArtwork(event: PointerEvent) {
-  if (!heroRef.value || reducedMotion.value || motionPaused.value || event.pointerType !== 'mouse') return
-  const rect = heroRef.value.getBoundingClientRect()
-  heroRef.value.style.setProperty('--pointer-x', `${((event.clientX - rect.left) / rect.width - 0.5) * 14}px`)
-  heroRef.value.style.setProperty('--pointer-y', `${((event.clientY - rect.top) / rect.height - 0.5) * 10}px`)
+  if (!heroRef.value?.el || reducedMotion.value || motionPaused.value || event.pointerType !== 'mouse') return
+  const rect = heroRef.value.el.getBoundingClientRect()
+  heroRef.value.el.style.setProperty('--pointer-x', `${((event.clientX - rect.left) / rect.width - 0.5) * 14}px`)
+  heroRef.value.el.style.setProperty('--pointer-y', `${((event.clientY - rect.top) / rect.height - 0.5) * 10}px`)
 }
 function resetArtwork() {
-  heroRef.value?.style.setProperty('--pointer-x', '0px')
-  heroRef.value?.style.setProperty('--pointer-y', '0px')
+  heroRef.value?.el?.style.setProperty('--pointer-x', '0px')
+  heroRef.value?.el?.style.setProperty('--pointer-y', '0px')
 }
 watch(motionPaused, resetArtwork)
 function handleShare(anniversary: Anniversary, dDay?: number) { shareStore.open(anniversary, dDay) }
@@ -67,13 +71,12 @@ function categoryLabel(id: CategoryId) { return store.categories.find((category)
 
 <template>
   <div class="home-page feed-page" :class="{ 'motion-paused': motionPaused || reducedMotion }">
-    <section ref="heroRef" class="home-hero" aria-labelledby="hero-title" @pointermove="moveArtwork" @pointerleave="resetArtwork">
-      <div class="hero-topline">
+    <PageHero ref="heroRef" layout="home" title-id="hero-title" @pointermove="moveArtwork" @pointerleave="resetArtwork">
+      <template #topline>
         <span class="hero-edition">ANNICAL DAILY JOURNAL</span>
         <time :datetime="todayValue.format('YYYY-MM-DD')">{{ dateLabel }} · {{ weekday }}요일</time>
-      </div>
-      <div class="hero-content">
-        <div class="hero-copy">
+      </template>
+      <template #copy>
           <p class="hero-eyebrow"><span class="tiny-spark" aria-hidden="true">✳</span> 하루에 하나, 새로운 발견</p>
           <h1 id="hero-title">
             평범한 하루에,<br />기념할 이유
@@ -98,19 +101,18 @@ function categoryLabel(id: CategoryId) { return store.categories.find((category)
             <p v-else role="status">{{ error ? '오늘의 이야기를 다시 불러와 주세요.' : isLoading ? '오늘의 이야기를 고르고 있어요…' : '오늘은 나만의 기념일을 만들어보세요.' }}</p>
           </div>
           <div class="hero-actions">
-            <button type="button" class="home-button home-button--dark" @click="scrollToStories">오늘의 기념일 보기 <span aria-hidden="true">↗</span></button>
+            <UiButton canonical icon="arrow" @click="scrollToStories">오늘의 기념일 보기</UiButton>
             <RouterLink to="/together" class="hero-calendar-link">우리의 날 찾기 <span aria-hidden="true">→</span></RouterLink>
             <RouterLink to="/birthday" class="hero-calendar-link">내 생일은 무슨 날? <span aria-hidden="true">→</span></RouterLink>
           </div>
-        </div>
-        <CalendarArtwork :today="today" />
-      </div>
-      <div class="hero-bottomline">
+      </template>
+      <template #aside><CalendarArtwork :today="today" /></template>
+      <template #footer>
         <p><span class="live-dot" /> {{ dateLabel }} <span class="hero-bottom-divider">/</span> {{ weekday }}요일의 작은 발견</p>
         <button v-if="!reducedMotion" type="button" class="motion-control" :aria-pressed="motionPaused" :aria-label="motionPaused ? '장식 애니메이션 재생' : '장식 애니메이션 일시정지'" @click="motionPaused = !motionPaused"><span aria-hidden="true">{{ motionPaused ? '▶' : 'Ⅱ' }}</span></button>
         <button type="button" class="hero-scroll" @click="scrollToStories">SCROLL TO DISCOVER <span aria-hidden="true">↓</span></button>
-      </div>
-    </section>
+      </template>
+    </PageHero>
 
     <div class="discovery-strip" aria-label="기념일 안내">
       <span><span class="strip-flower" aria-hidden="true">✳</span> 모든 날에는 이야기가 있어요</span>
@@ -120,10 +122,10 @@ function categoryLabel(id: CategoryId) { return store.categories.find((category)
 
     <div class="home-container">
       <section ref="storiesRef" class="home-section today-section" tabindex="-1" aria-labelledby="today-title">
-        <div v-reveal class="section-heading">
-          <div><p class="section-kicker"><span /> TODAY’S DISCOVERIES</p><h2 id="today-title">오늘은 이런 날이에요<span class="heading-dot">.</span></h2><p class="section-description">{{ todayValue.month() + 1 }}월 {{ todayValue.date() }}일, 알고 나면 조금 다르게 보일 오늘.</p></div>
-          <span class="date-pill">{{ String(todayValue.month() + 1).padStart(2, '0') }}.{{ String(todayValue.date()).padStart(2, '0') }} <span>{{ weekday }}요일</span></span>
-        </div>
+        <SectionHeader v-reveal kicker="TODAY’S DISCOVERIES" :description="`${todayValue.month() + 1}월 ${todayValue.date()}일, 알고 나면 조금 다르게 보일 오늘.`">
+          <template #title><h2 id="today-title">오늘은 이런 날이에요<span class="heading-dot">.</span></h2></template>
+          <template #action><span class="date-pill">{{ String(todayValue.month() + 1).padStart(2, '0') }}.{{ String(todayValue.date()).padStart(2, '0') }} <span>{{ weekday }}요일</span></span></template>
+        </SectionHeader>
         <div v-if="isLoading && !todays.length" class="story-grid" role="status" aria-label="오늘의 기념일 불러오는 중"><div v-for="n in 3" :key="n" class="story-skeleton"><span /><span /><span /></div></div>
         <div v-else-if="error" class="home-empty" role="alert"><h3>이야기를 불러오지 못했어요.</h3><p>잠시 후 다시 시도해 주세요.</p><button type="button" class="home-button home-button--dark" @click="store.retry()">다시 불러오기 ↗</button></div>
         <div v-else-if="todays.length" class="story-grid" :class="{ 'story-grid--two': todays.length === 2, 'story-grid--one': todays.length === 1 }">
@@ -133,7 +135,7 @@ function categoryLabel(id: CategoryId) { return store.categories.find((category)
       </section>
 
       <section v-if="upcoming.length" class="home-section" aria-labelledby="upcoming-title">
-        <div v-reveal class="section-heading"><div><p class="section-kicker"><span /> SOMETHING TO LOOK FORWARD TO</p><h2 id="upcoming-title">다가올 날도 기대되니까<span class="heading-dot">.</span></h2><p class="section-description">미리 알아두면 더 즐거운, 앞으로 30일의 기념일.</p></div><RouterLink to="/calendar" class="section-text-link">전체 달력 보기 <span aria-hidden="true">↗</span></RouterLink></div>
+        <SectionHeader v-reveal kicker="SOMETHING TO LOOK FORWARD TO" description="미리 알아두면 더 즐거운, 앞으로 30일의 기념일."><template #title><h2 id="upcoming-title">다가올 날도 기대되니까<span class="heading-dot">.</span></h2></template><template #action><RouterLink to="/calendar" class="section-text-link">전체 달력 보기 <span aria-hidden="true">↗</span></RouterLink></template></SectionHeader>
         <div class="upcoming-layout">
           <div v-reveal class="upcoming-main">
             <div class="category-filters" role="group" aria-label="다가오는 기념일 카테고리">
@@ -151,13 +153,13 @@ function categoryLabel(id: CategoryId) { return store.categories.find((category)
             </ol>
             <button v-if="hasMore" type="button" class="load-more-button" @click="revealCount += pageSize">기념일 더 보기 <span>{{ visibleUpcoming.length }} / {{ filteredUpcoming.length }}</span><span aria-hidden="true">↓</span></button>
           </div>
-          <aside v-reveal class="calendar-promo"><p class="section-kicker">YOUR NEXT FAVORITE DAY</p><h3>좋아하는 날을<br />하나씩 찾아보세요.</h3><p>한 달의 이야기를 한눈에.<br />날짜마다 새로운 발견이 기다려요.</p><div class="mini-calendar" aria-hidden="true"><div class="mini-calendar-heading"><strong>{{ todayValue.year() }}.{{ String(todayValue.month() + 1).padStart(2, '0') }}</strong><span>↗</span></div><div class="mini-calendar-grid"><span v-for="(day, index) in ['S', 'M', 'T', 'W', 'T', 'F', 'S']" :key="`weekday-${index}`" class="mini-weekday">{{ day }}</span><span v-for="(day, index) in miniCalendar" :key="index" :class="{ 'mini-today': day === todayValue.date() }">{{ day }}</span></div></div><RouterLink to="/calendar" class="home-button home-button--accent">기념일 달력 열기 <span aria-hidden="true">↗</span></RouterLink><span class="promo-spark" aria-hidden="true">✳</span></aside>
+          <aside v-reveal class="calendar-promo"><p class="section-kicker">YOUR NEXT FAVORITE DAY</p><h3>좋아하는 날을<br />하나씩 찾아보세요.</h3><p>한 달의 이야기를 한눈에.<br />날짜마다 새로운 발견이 기다려요.</p><div class="mini-calendar" aria-hidden="true"><div class="mini-calendar-heading"><strong>{{ todayValue.year() }}.{{ String(todayValue.month() + 1).padStart(2, '0') }}</strong><span>↗</span></div><div class="mini-calendar-grid"><span v-for="(day, index) in ['S', 'M', 'T', 'W', 'T', 'F', 'S']" :key="`weekday-${index}`" class="mini-weekday">{{ day }}</span><span v-for="(day, index) in miniCalendar" :key="index" :class="{ 'mini-today': day === todayValue.date() }">{{ day }}</span></div></div><UiButton canonical to="/calendar" variant="brand" icon="arrow">기념일 달력 열기</UiButton><span class="promo-spark" aria-hidden="true">✳</span></aside>
         </div>
       </section>
 
       <PopularityRanking />
 
-      <section v-reveal class="subscribe-banner" aria-labelledby="subscribe-title"><div class="subscribe-art" aria-hidden="true"><span>✓</span><span>✳</span></div><div><p class="section-kicker">KEEP YOUR FAVORITE DAYS CLOSE</p><h2 id="subscribe-title">기억하고 싶은 날은, 내 캘린더에.</h2><p>구글·애플 캘린더에 담아두고 매일의 작은 기념일을 만나보세요.</p></div><RouterLink to="/export" class="home-button home-button--dark">내 캘린더에 담기 <span aria-hidden="true">↗</span></RouterLink></section>
+      <PromoCard v-reveal canonical kicker="KEEP YOUR FAVORITE DAYS CLOSE" title="기억하고 싶은 날은, 내 캘린더에." title-id="subscribe-title" description="구글·애플 캘린더에 담아두고 매일의 작은 기념일을 만나보세요." to="/export" cta="내 캘린더에 담기" />
       <AudienceStats />
     </div>
   </div>

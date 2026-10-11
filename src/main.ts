@@ -6,7 +6,8 @@ import App from './App.vue'
 import router from './router'
 
 import './assets/main.css'
-import './assets/home.css'
+import './assets/layout.css'
+import './assets/ui.css'
 
 // 통계 집계에서 봇을 빼기 위한 클라이언트 챌린지. AppShell 이 라우트마다 쏘는
 // POST /api/stats 보다 먼저 떠 있어야 하므로 mount 전에 호출한다.

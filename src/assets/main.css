@@ -7,41 +7,7 @@
    - Accent: 절제된 버건디 (D-day, CTA)
    - Rule: 가는 디바이더용 그레이
 ─────────────────────────────────────────────────────────────── */
-@theme {
-  --color-ink-50: #f5f3ee;
-  --color-ink-100: #ebe7df;
-  --color-ink-200: #d6cfc2;
-  --color-ink-300: #ada595;
-  --color-ink-400: #756e62;
-  --color-ink-500: #4a4540;
-  --color-ink-600: #2f2c28;
-  --color-ink-700: #1f1d1a;
-  --color-ink-800: #141311;
-  --color-ink-900: #0a0908;
-
-  --color-paper-50: #fdfcf9;
-  --color-paper-100: #faf7f0;
-  --color-paper-200: #f3ede0;
-  --color-paper-300: #e8dfca;
-
-  --color-accent-500: #8b2c2c;
-  --color-accent-600: #6f2222;
-  --color-accent-700: #5a1c1c;
-
-  --color-editorial-blue: #415f70;
-  --color-editorial-green: #50705d;
-  --color-editorial-gold: #9a7137;
-  --color-editorial-purple: #6d5877;
-
-  --color-rule: #e3ddd1;
-  --color-rule-strong: #c9c0ad;
-
-  --font-display: "Fraunces", "Cormorant Garamond", "Source Serif 4",
-    "Noto Serif KR", "Nanum Myeongjo", ui-serif, Georgia, serif;
-  --font-sans: "Inter", "Pretendard", "Noto Sans KR", ui-sans-serif,
-    system-ui, sans-serif;
-  --font-mono: "JetBrains Mono", "IBM Plex Mono", ui-monospace, monospace;
-}
+@import "./tokens.css";
 
 /* ─── Editorial typography helpers (utility-friendly) ─── */
 @layer base {

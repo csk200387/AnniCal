@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import '@/assets/calendar.css'
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import { RouterLink } from 'vue-router'
 import { useMonthCalendar } from '../composables/useMonthCalendar'

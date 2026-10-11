@@ -1,24 +1,22 @@
-/* 생일 화면의 종이·우표 톤과 버튼을 함께 사용한다. */
-.together-start { margin: 24px 0; }
-.together-start input { width: 100%; min-width: 0; min-height: 52px; padding: 12px 14px; border: 1px solid var(--color-rule); border-radius: 8px; background: var(--color-paper-50); color: var(--color-ink-700); font: inherit; }
-.together-next { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 24px; text-align: left; padding: 28px 32px; border: 1px solid var(--color-rule); border-radius: 20px; background: var(--color-paper-200); color: var(--color-ink-700); cursor: pointer; }
-.together-next > span, .together-row > span { min-width: 0; display: flex; flex-direction: column; gap: 8px; }
-.together-next small { color: var(--color-accent-600); }
-.together-next strong { font-family: var(--font-display); font-size: 36px; }
-.together-next b { font-size: 30px; color: var(--color-accent-600); white-space: nowrap; }
-.together-timeline { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 32px; }
-.together-timeline h3, .together-discovery > h3 { font-size: 22px; margin-bottom: 18px; font-weight: 600; }
-.together-timeline ul { list-style: none; padding: 0; margin: 0; }
-.together-row { display: flex; justify-content: space-between; align-items: start; gap: 18px; width: 100%; padding: 20px 0; text-align: left; border-bottom: 1px solid var(--color-rule); cursor: pointer; }
-.together-row strong { font-size: 20px; }
-.together-row small { color: var(--color-ink-500); font-size: 13px; line-height: 1.65; }
-.together-row b { white-space: nowrap; font-size: 14px; color: var(--color-accent-600); }
-.together-row[aria-pressed="true"] { background: var(--color-paper-200); border-radius: 10px; padding-inline: 14px; }
-.together-discovery { margin-top: 42px; }
-.together-next:focus-visible, .together-row:focus-visible { outline: 2px solid var(--color-accent-600); outline-offset: 4px; }
-@media (max-width: 700px) {
-  .together-timeline { grid-template-columns: 1fr; gap: 22px; }
-  .together-next { padding: 24px 20px; gap: 14px; }
-  .together-next strong { font-size: 28px; }
-  .together-next b { font-size: 23px; }
+.together-highlight { position: relative; display: block; width: 100%; padding: var(--space-8); text-align: left; border: 1px solid var(--stroke-weak); border-radius: var(--radius-lg); background: var(--bg-weak); transition: background var(--dur-fast), transform var(--dur-fast); }
+.together-highlight:hover { background: var(--color-paper-300); }
+.together-highlight:active { transform: scale(var(--press-card)); }
+.together-highlight-heading { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-4); margin-block: var(--space-5) var(--space-3); }
+.together-highlight-heading > strong { font-size: var(--text-t13); font-weight: var(--weight-medium); letter-spacing: -.05em; line-height: 1.3; }
+.together-highlight .dday-pill { font-size: var(--text-t4); border: 1px solid var(--stroke-strong); border-radius: var(--radius-full); padding: var(--space-2) var(--space-3); }
+.together-highlight > time { display: block; padding-right: var(--space-8); font-size: var(--text-t5); line-height: 1.6; color: var(--fg-muted); }
+.together-highlight-arrow { position: absolute; right: var(--space-8); bottom: var(--space-8); color: var(--fg-subtle); font-size: var(--text-t9); }
+.together-timeline { margin-top: var(--space-8); }
+.together-timeline h3 { font-size: var(--text-t6); font-weight: var(--weight-medium); margin-bottom: var(--space-4); }
+.together-timeline > .ui-button { margin-top: var(--space-5); }
+.together-timeline .ui-list-row-prefix { min-width: 70px; }
+.together-timeline .dday-pill { display: inline-block; font-size: var(--text-t2); padding: var(--space-2); }
+.together-past { margin-top: var(--space-6); }
+.together-discovery-heading { margin-top: var(--section-gap); }
+@media (max-width: 760px) {
+  .together-highlight { padding: var(--space-6); }
+  .together-highlight-heading > strong { font-size: var(--text-t12); }
+  .together-highlight > time { font-size: var(--text-t4); }
+  .together-timeline .ui-list-row-prefix { min-width: 60px; }
 }
+@media (prefers-reduced-motion: reduce) { .together-highlight { transition: none; } .together-highlight:active { transform: none; } }

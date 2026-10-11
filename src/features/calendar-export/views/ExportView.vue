@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import '@/assets/export.css'
 import { computed, ref, watch } from 'vue'
 import { useCalendarExport } from '../composables/useCalendarExport'
 

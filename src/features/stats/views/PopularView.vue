@@ -1,15 +1,25 @@
 <script setup lang="ts">
 import { computed, onMounted, watch } from 'vue'
 import { storeToRefs } from 'pinia'
-import { RouterLink, useRoute, useRouter } from 'vue-router'
+import { useRoute, useRouter } from 'vue-router'
 import { useAnniversariesStore } from '@/stores/anniversaries'
 import { useStatsStore } from '@/stores/stats'
 import { formatKoreanMonthDay } from '@/utils/dateUtils'
 import { pathForId } from '@/utils/anniversaryRoutes'
-import { primaryColorForTags } from '@/utils/tagPalette'
 import { useNow } from '@/composables/useNow'
 import { useMonthlyRanking } from '../composables/useMonthlyRanking'
 import { monthKey, monthLabel, shiftMonth } from '../months'
+import PageHero from '@/components/ui/PageHero.vue'
+import SectionHeader from '@/components/ui/SectionHeader.vue'
+import UiButton from '@/components/ui/UiButton.vue'
+import SegmentedControl from '@/components/ui/SegmentedControl.vue'
+import ListGroup from '@/components/ui/ListGroup.vue'
+import ListRow from '@/components/ui/ListRow.vue'
+import ResultState from '@/components/ui/ResultState.vue'
+import SkeletonRows from '@/components/ui/SkeletonRows.vue'
+import CategorySymbol from '@/features/feed/components/CategorySymbol.vue'
+import PromoCard from '@/components/ui/PromoCard.vue'
+import { RouterLink } from 'vue-router'
 import '@/assets/popular.css'
 
 const anniversaries = useAnniversariesStore()
@@ -65,89 +75,47 @@ const isPending = computed(() => ((isAllTime.value ? statsLoading.value : monthL
 
 <template>
   <div class="home-page popular-page">
-    <div class="home-container">
-      <header class="page-hero popular-hero" aria-labelledby="popular-title">
-        <p class="section-kicker"><span /> READERS’ FAVORITES · {{ isAllTime ? 'ALL TIME' : 'MONTHLY' }}</p>
-        <h1 id="popular-title">가장 많이 발견된<br /><em>기념일 이야기</em><span class="heading-dot">.</span></h1>
-        <p class="page-hero-description">매달 어떤 이야기가 사랑받았을까요? 그달에 읽힌 횟수로 관심도 순위를 모았어요. 지난달의 발견도 다시 만나보세요.</p>
-        <div class="page-hero-stats">
-          <div><span>{{ periodLabel }} 순위에 오른 이야기</span><strong>{{ isPending || unavailable ? '—' : number.format(entries.length) }}<small>개</small></strong></div>
-          <div><span>상위 이야기 읽음 합계</span><strong>{{ isPending || unavailable ? '—' : number.format(totalRankedViews) }}<small>회</small></strong></div>
-        </div>
-        <span class="page-hero-spark" aria-hidden="true">✳</span>
-      </header>
-
-      <section class="ranking-board" aria-labelledby="ranking-board-title">
-        <div class="ranking-period-controls">
-          <div class="ranking-period-tabs" role="group" aria-label="관심도 집계 기간">
-            <button type="button" :aria-pressed="!isAllTime" @click="selectPeriod(currentMonth)">월별 순위</button>
-            <button type="button" :aria-pressed="isAllTime" @click="selectPeriod('all')">전체 누적</button>
+    <div class="tool-container">
+      <PageHero :kicker="`READERS’ FAVORITES · ${isAllTime ? 'ALL TIME' : 'MONTHLY'}`" title-id="popular-title" description="매달 어떤 이야기가 사랑받았을까요? 그달에 읽힌 횟수로 관심도 순위를 모았어요. 지난달의 발견도 다시 만나보세요.">
+        <template #title>가장 많이 발견된<br /><span class="popular-title-accent">기념일 이야기</span><span class="heading-dot">.</span></template>
+        <template #footer>
+          <dl class="popular-summary"><div><dt>{{ periodLabel }} 순위에 오른 이야기</dt><dd>{{ isPending || unavailable || !validPeriod ? '—' : number.format(entries.length) }}<small>개</small></dd></div><div><dt>상위 이야기 읽음 합계</dt><dd>{{ isPending || unavailable || !validPeriod ? '—' : number.format(totalRankedViews) }}<small>회</small></dd></div></dl>
+        </template>
+      </PageHero>
+      <section class="tool-section ranking-board" aria-labelledby="ranking-board-title" :aria-busy="isPending">
+        <div class="popular-controls">
+          <SegmentedControl :model-value="isAllTime ? 'all' : 'monthly'" :options="[{ value: 'monthly', label: '월별' }, { value: 'all', label: '누적' }]" label="관심도 집계 기간" @update:model-value="selectPeriod($event === 'all' ? 'all' : currentMonth)" />
+          <div v-if="!isAllTime" class="popular-month-stepper">
+            <UiButton variant="ghost" size="s" aria-label="이전 달" :disabled="!selectedMonth || selectedMonth <= '2000-01'" @click="selectPeriod(shiftMonth(selectedMonth, -1))">‹</UiButton>
+            <div class="popular-month-input"><label for="ranking-month">{{ selectedMonth ? monthLabel(selectedMonth) : '기록 월 선택' }}</label><input id="ranking-month" type="month" :value="selectedMonth" min="2000-01" :max="currentMonth" aria-label="기록 월 선택" @change="selectPeriod(($event.target as HTMLInputElement).value)" /></div>
+            <UiButton variant="ghost" size="s" aria-label="다음 달" :disabled="!selectedMonth || selectedMonth >= currentMonth" @click="selectPeriod(shiftMonth(selectedMonth, 1))">›</UiButton>
           </div>
-          <div v-if="!isAllTime" class="ranking-month-picker">
-            <label for="ranking-month">기록 월</label>
-            <button type="button" aria-label="이전 달" :disabled="!selectedMonth || selectedMonth <= '2000-01'" @click="selectPeriod(shiftMonth(selectedMonth, -1))">←</button>
-            <input id="ranking-month" type="month" :value="selectedMonth" min="2000-01" :max="currentMonth" @change="selectPeriod(($event.target as HTMLInputElement).value)" />
-            <button type="button" aria-label="다음 달" :disabled="!selectedMonth || selectedMonth >= currentMonth" @click="selectPeriod(shiftMonth(selectedMonth, 1))">→</button>
-          </div>
+          <UiButton v-if="!isAllTime && selectedMonth !== currentMonth" variant="weak" size="s" @click="selectPeriod(currentMonth)">이번 달</UiButton>
         </div>
-        <div v-if="!isAllTime" class="ranking-month-shortcuts">
-          <button type="button" :aria-pressed="selectedMonth === currentMonth" @click="selectPeriod(currentMonth)">이번 달</button>
-          <button type="button" :aria-pressed="selectedMonth === shiftMonth(currentMonth, -1)" @click="selectPeriod(shiftMonth(currentMonth, -1))">지난달 기록</button>
-          <span>한국 시간 기준 · 해당 월에 읽힌 횟수</span>
-        </div>
-        <div class="ranking-board-heading">
-          <div>
-            <p class="section-kicker"><span /> POPULARITY INDEX</p>
-            <h2 id="ranking-board-title">{{ periodLabel }} 관심도 TOP 20</h2>
-          </div>
-          <p>{{ isAllTime ? '상세 페이지 누적 읽음 기준' : selectedMonth === currentMonth ? '이번 달 · 집계 중' : '지난 기록' }}</p>
-        </div>
-        <p v-if="!isPending && !unavailable && partialMonth" class="ranking-history-note">이달은 {{ Number(monthly!.trackingStartedOn!.slice(8)) }}일부터 월별 집계를 시작했어요. 그 이후의 읽음만 포함됩니다.</p>
-
-        <div v-if="!validPeriod" class="ranking-state" role="alert"><strong>올바른 기록 월을 선택해 주세요</strong><p>미래의 순위는 아직 볼 수 없어요.</p><button type="button" class="home-button" @click="selectPeriod(currentMonth)">이번 달 보기</button></div>
-        <div v-else-if="isPending" class="ranking-state" role="status">
-          <span class="ranking-loader" aria-hidden="true" />
-          <strong>순위를 불러오고 있어요</strong>
-          <p>잠시만 기다려 주세요.</p>
-        </div>
-        <div v-else-if="unavailable" class="ranking-state" role="alert">
-          <span aria-hidden="true">☁</span>
-          <strong>지금은 관심도 순위를 불러올 수 없어요</strong>
-          <p>기념일 이야기는 그대로 둘러볼 수 있어요.</p>
-          <button type="button" class="home-button" @click="retry">다시 불러오기 ↻</button>
-          <RouterLink to="/calendar">기념일 달력 보기 →</RouterLink>
-        </div>
-        <div v-else-if="!isAllTime && noHistory" class="ranking-state" role="status">
-          <span aria-hidden="true">◷</span><strong>이달은 월별 집계 기록이 없어요</strong>
-          <p>{{ monthly?.trackingStartedOn ? `${monthly.trackingStartedOn.replaceAll('-', '.')}부터 월별 기록을 모으고 있어요.` : '월별 기록 수집이 아직 시작되지 않았어요.' }} 이전 조회수는 전체 누적에서 볼 수 있어요.</p>
-          <button type="button" class="home-button" @click="selectPeriod('all')">전체 누적 보기 →</button>
-        </div>
-        <div v-else-if="!entries.length" class="ranking-state" role="status">
-          <span aria-hidden="true">✦</span>
-          <strong>{{ isAllTime || selectedMonth === currentMonth ? '첫 번째 관심 기록을 기다리고 있어요' : '이달에는 읽음 기록이 없어요' }}</strong>
-          <p>마음에 드는 기념일 이야기를 발견해 보세요.</p>
-          <RouterLink to="/calendar">기념일 둘러보기 →</RouterLink>
-        </div>
-
-        <ol v-else class="ranking-list">
-          <li v-for="entry in entries" :key="entry.anniversary.id" :class="{ 'is-podium': entry.rank <= 3 }">
-            <RouterLink :to="entry.path">
-              <span class="ranking-number">{{ String(entry.rank).padStart(2, '0') }}</span>
-              <span class="ranking-medal" aria-hidden="true">{{ entry.rank === 1 ? '●' : entry.rank === 2 ? '◐' : entry.rank === 3 ? '○' : '' }}</span>
-              <span class="ranking-copy">
-                <span class="ranking-meta">
-                  <i :class="primaryColorForTags(entry.anniversary.tags).dot" aria-hidden="true" />
-                  {{ entry.category?.label ?? '기념일' }} · {{ entry.date }}
-                </span>
-                <strong>{{ entry.anniversary.name }}</strong>
-                <span class="ranking-tags">{{ entry.anniversary.tags.slice(0, 3).join(' · ') }}</span>
-              </span>
-              <span class="ranking-views"><strong>{{ number.format(entry.views) }}</strong><small>{{ isAllTime ? '누적 읽음' : '해당 월 읽음' }}</small></span>
-              <span class="ranking-go" aria-hidden="true">↗</span>
-            </RouterLink>
-          </li>
-        </ol>
+        <SectionHeader kicker="POPULARITY INDEX" :title="`${periodLabel} 관심도 TOP 20`" title-id="ranking-board-title">
+          <template #action><p class="popular-period-note">{{ isAllTime ? '상세 페이지 누적 읽음 기준이에요' : selectedMonth === currentMonth ? '이번 달 읽음을 모으고 있어요' : '지난 읽음 기록이에요' }}</p></template>
+        </SectionHeader>
+        <p v-if="!isPending && !unavailable && partialMonth" class="ui-callout">이달은 {{ Number(monthly!.trackingStartedOn!.slice(8)) }}일부터 월별 읽음을 모았어요. 그 이후의 읽음만 포함해요.</p>
+        <ResultState v-if="!validPeriod" tone="error" title="올바른 기록 월을 선택해 주세요" description="지금까지의 월별 순위를 볼 수 있어요."><template #actions><UiButton @click="selectPeriod(currentMonth)">이번 달 보기</UiButton></template></ResultState>
+        <SkeletonRows v-else-if="isPending" :rows="3" variant="card" label="관심도 순위를 불러오고 있어요" />
+        <ResultState v-else-if="unavailable" tone="error" title="지금은 관심도 순위를 불러올 수 없어요" description="잠시 후 다시 시도해 주세요. 기념일 이야기는 달력에서 둘러볼 수 있어요."><template #actions><UiButton icon="retry" @click="retry">다시 불러오기</UiButton><UiButton to="/calendar" variant="outline" icon="next">기념일 달력 보기</UiButton></template></ResultState>
+        <ResultState v-else-if="!isAllTime && noHistory" title="이달은 월별 읽음 기록이 없어요" :description="`${monthly?.trackingStartedOn ? `${monthly.trackingStartedOn.replaceAll('-', '.')}부터 월별 기록을 모으고 있어요.` : '월별 기록 수집이 아직 시작되지 않았어요.'} 이전 조회수는 전체 누적에서 볼 수 있어요.`"><template #actions><UiButton icon="next" @click="selectPeriod('all')">전체 누적 보기</UiButton></template></ResultState>
+        <ResultState v-else-if="!entries.length" :title="isAllTime || selectedMonth === currentMonth ? '첫 번째 관심 기록을 기다리고 있어요' : '이달에는 읽음 기록이 없어요'" description="마음에 드는 기념일 이야기를 발견해 보세요."><template #actions><UiButton to="/calendar" variant="outline" icon="next">기념일 둘러보기</UiButton></template></ResultState>
+        <template v-else>
+          <ol class="popular-podium" aria-label="가장 많이 읽은 이야기 1위부터 3위">
+            <li v-for="entry in entries.slice(0, 3)" :key="entry.anniversary.id">
+              <RouterLink :to="entry.path" class="popular-podium-card">
+                <span class="popular-podium-art"><span class="popular-podium-rank"><span class="sr-only">순위 </span>{{ String(entry.rank).padStart(2, '0') }}<span class="sr-only">위</span></span><CategorySymbol :category="entry.anniversary.category" width="64" height="64" aria-hidden="true" /></span>
+                <span class="popular-podium-body"><span class="popular-podium-category">{{ entry.category?.label ?? '기념일' }} · {{ entry.date }}</span><strong>{{ entry.anniversary.name }}</strong><span class="popular-podium-footer"><span>{{ number.format(entry.views) }}<small>{{ isAllTime ? '누적 읽음' : '해당 월 읽음' }}</small></span><span aria-hidden="true">↗</span></span></span>
+              </RouterLink>
+            </li>
+          </ol>
+          <ListGroup v-if="entries.length > 3" as="ol" class="popular-rest" :start="entries[3].rank" label="4위부터의 관심도 순위">
+            <li v-for="entry in entries.slice(3)" :key="entry.anniversary.id"><ListRow :to="entry.path"><template #prefix><span class="popular-rest-rank"><span class="sr-only">순위 </span>{{ String(entry.rank).padStart(2, '0') }}<span class="sr-only">위</span></span></template><template #title>{{ entry.anniversary.name }}</template><template #detail>{{ entry.category?.label ?? '기념일' }} · {{ entry.date }}</template><template #suffix><span class="popular-views"><strong>{{ number.format(entry.views) }}</strong><small>{{ isAllTime ? '누적 읽음' : '해당 월 읽음' }}</small></span></template></ListRow></li>
+          </ListGroup>
+        </template>
       </section>
+      <div class="tool-cross-links"><PromoCard kicker="YOUR NEXT FAVORITE DAY" title="다음 발견을 찾아보세요." description="기념일 달력에서 좋아하는 날을 하나씩 만나보세요." to="/calendar" cta="기념일 달력 열기" /></div>
     </div>
   </div>
 </template>

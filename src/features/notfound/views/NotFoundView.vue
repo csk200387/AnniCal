@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import '@/assets/article.css'
 import { onMounted } from 'vue'
 import { useRoute, RouterLink } from 'vue-router'
 import { applyNotFoundMeta } from '@/seo/head'

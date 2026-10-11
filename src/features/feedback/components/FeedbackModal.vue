@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import '@/assets/feedback.css'
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import type { Anniversary } from '@/types/anniversary'
 

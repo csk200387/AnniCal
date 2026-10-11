@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import '@/assets/article.css'
 import { computed, defineAsyncComponent, ref, watch } from 'vue'
 import { useRoute, RouterLink } from 'vue-router'
 import { useDayDetail, formatUrlDate } from '../composables/useDayPages'
