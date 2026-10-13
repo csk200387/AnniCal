@@ -1,0 +1,292 @@
+{
+ "country": "IN",
+ "country_ko": "인도",
+ "search_language": "hi",
+ "sources": {
+  "navbharat-history": "NavBharat Live (2026-09-14)",
+  "drishti-2022": "Drishti IAS (공무원 시험 시사 해설, 2022)",
+  "drishti-2023": "Drishti IAS (2023)",
+  "prabhatkhabar-2022": "Prabhat Khabar (2022)",
+  "panchangbodh": "PanchangBodh (판창 사이트)",
+  "astrotalk": "Astrotalk (점성 사이트)",
+  "aajtak-2600426": "Aaj Tak (2026-08, 드리크 판창 인용)",
+  "panchangbodh-rb": "PanchangBodh (판창 사이트)"
+ },
+ "summary_ko": "인도는 국가 기념일 2건(힌디어의 날 9/14, 국가 과학의 날 2/28)과 힌두력 관계 축제 2건(남편 장수를 비는 아내의 단식 \"카르와 차우트\", 누이가 오빠·남동생 손목에 실을 매는 \"락샤 반단\")을 찾았다. 이전 contact 배치가 헌법의 날(11/26)·고아 해방의 날(12/19)을, 서비스가 굿 거버넌스의 날(12/25)·요가의 날을 갖고 있다.",
+ "limits": "홀리·디왈리 등 대형 힌두 명절은 시간 배분상 이번에 조사하지 못했다(네팔 티하르 등과의 국가 간 중복 판정 필요). 힌두력 날짜는 판창 사이트마다 하루씩 다르게 표기되는 경우가 있어(카르와 차우트 2026: 10/29 다수, 10/25 일부) 정부 공휴일표 대조가 필요하다.",
+ "candidates": [
+  {
+   "aliases": [
+    "Hindi Diwas",
+    "राष्ट्रीय हिंदी दिवस"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [
+    "anv-fixed-02-21-international-mother-language-day-global"
+   ],
+   "related_prior_candidates": [],
+   "quirk": "\"국어\"가 아니라 \"공용어\"가 된 날 — 인도엔 법정 국어가 없다",
+   "candidate_key": "in-hindi-diwas",
+   "name_original": "हिंदी दिवस",
+   "name_ko": "힌디어의 날 — 9월 14일",
+   "date_type": "annual-fixed",
+   "date_rule": "09-14",
+   "date_note": "1949-09-14 제헌의회 결정 기념, 첫 기념 1953",
+   "app_date_support": "supported",
+   "scope": "인도 정부 기념일(공휴일 아님)",
+   "kind": "official_culture",
+   "kind_group": "occupation_culture",
+   "officiality": "official_observance_not_holiday",
+   "meaning_ko": "1949년 9월 14일 인도 제헌의회가 데바나가리 문자로 쓰는 힌디어를 연방의 공용어(라즈바샤)로 채택한 날을 기념하는 날로, 첫 \"힌디어의 날\"은 1953년에 열렸다. 제헌의회는 영어도 공용어로 함께 인정했다. 1월 10일 \"세계 힌디어의 날\"(2006년 시작)과는 다른 날이다.",
+   "founder_origin": "1949 제헌의회 결정 → 1953 첫 기념(주최 기관 출처 상충)",
+   "founder_check_level": "news_read",
+   "founder_check": "partial",
+   "claims": [
+    {
+     "claim_id": "1949_1953",
+     "claim_ko": "1949-09-14 제헌의회 공용어 채택, 첫 힌디어의 날 1953",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "navbharat-history",
+       "quote": "14 सितंबर 1949 को संविधान सभा ने देवनागरी लिपि वाली हिंदी को भारत की राजभाषा घोषित किया। इसी वजह से 14 सितंबर को हिंदी दिवस मनाया जाता है। पहला हिंदी दिवस 1953 में मनाया गया।",
+       "quote_ko": "1949년 9월 14일 제헌의회가 데바나가리 문자 힌디어를 인도의 공용어로 선언했다. 그래서 9월 14일을 힌디어의 날로 기념한다. 첫 힌디어의 날은 1953년이었다."
+      },
+      {
+       "evidence_id": "drishti-2022",
+       "quote": "वर्ष 1949 में भारत की संविधान सभा द्वारा हिंदी को आधिकारिक भाषा के रूप में अपनाने के दिन को चिह्नित करने के लिये भारत में प्रत्येक वर्ष 14 सितंबर को हिंदी दिवस या राष्ट्रीय हिंदी दिवस मनाया जाता है।",
+       "quote_ko": "1949년 제헌의회가 힌디어를 공용어로 채택한 날을 기리려 인도에서는 매년 9월 14일 힌디어의 날을 기념한다."
+      }
+     ]
+    },
+    {
+     "claim_id": "english_too",
+     "claim_ko": "영어도 함께 공용어로",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "navbharat-history",
+       "quote": "संविधान सभा ने देवनागरी लिपि वाली हिंदी के साथ ही अंग्रेजी को भी आधिकारिक भाषा के रूप में स्वीकार किया।",
+       "quote_ko": "제헌의회는 데바나가리 힌디어와 함께 영어도 공용어로 받아들였다."
+      }
+     ]
+    }
+   ],
+   "distinct_reason": "국제 모국어의 날·한글날과 다른 인도 공용어 기념일",
+   "uncertainty": "첫 기념 주최(라슈트라바샤 프라차르 사미티)·네루 결정설은 검색결과 상충 — 쓰지 말 것. 원문이 언론·시험 해설 사이트라 정부(공용어국) 원문 확인 권장.",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "National Science Day (India)"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": "한 사람의 실험 발표일이 국가 과학의 날이 됐다",
+   "candidate_key": "in-science-day",
+   "name_original": "राष्ट्रीय विज्ञान दिवस",
+   "name_ko": "인도 국가 과학의 날 — 라만 효과 발견을 기리는 2월 28일",
+   "date_type": "annual-fixed",
+   "date_rule": "02-28",
+   "date_note": "1986년 지정, 1987년부터 기념(검색결과)",
+   "app_date_support": "supported",
+   "scope": "인도 정부 기념일(공휴일 아님)",
+   "kind": "official_science",
+   "kind_group": "occupation_culture",
+   "officiality": "official_observance_not_holiday",
+   "meaning_ko": "1928년 물리학자 C. V. 라만이 빛이 물질에 부딪혀 에너지를 주고받으며 산란하는 \"라만 효과\"를 발견한 것을 기려 인도 정부가 1986년 2월 28일을 \"국가 과학의 날\"로 지정했다. 라만은 이 발견으로 1930년 노벨 물리학상을 받아 아시아 최초의 과학 분야 노벨상 수상자가 됐다. 과학기술부 산하 기관이 해마다 주제를 정해 행사를 연다.",
+   "founder_origin": "1986 인도 정부 지정(NCSTC 제안 — 검색결과)",
+   "founder_check_level": "news_read",
+   "founder_check": "partial",
+   "claims": [
+    {
+     "claim_id": "designated_1986",
+     "claim_ko": "1986년 정부가 2/28 을 국가 과학의 날로 지정",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "drishti-2023",
+       "quote": "वर्ष 1986 में भारत सरकार ने \"रमन प्रभाव\" की खोज की घोषणा के उपलक्ष्य में 28 फरवरी को राष्ट्रीय विज्ञान दिवस के रूप में नामित किया था।",
+       "quote_ko": "1986년 인도 정부는 \"라만 효과\" 발견 발표를 기려 2월 28일을 국가 과학의 날로 지정했다."
+      }
+     ]
+    },
+    {
+     "claim_id": "raman_1928_1930",
+     "claim_ko": "1928 라만 효과 발견, 1930 노벨상",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "prabhatkhabar-2022",
+       "quote": "28 फरवरी को मनाया जाने वाला राष्ट्रीय विज्ञान दिवस, वर्ष 1928 में रमन प्रभाव की खोज का प्रतीक है.",
+       "quote_ko": "2월 28일의 국가 과학의 날은 1928년 라만 효과 발견을 상징한다."
+      },
+      {
+       "evidence_id": "prabhatkhabar-2022",
+       "quote": "वर्ष 1928 में, सीवी रमन ने रमन प्रभाव या रमन स्कैटरिंग की खोज की",
+       "quote_ko": "1928년 C. V. 라만이 라만 효과(라만 산란)를 발견했다"
+      }
+     ]
+    }
+   ],
+   "distinct_reason": "한국 과학의 날(4/21) 등과 나라·날짜가 다른 인도 기념일 — 서비스 \"과학의 날\" 여부는 별도 확인 필요",
+   "uncertainty": "\"아시아 최초 과학 노벨상\" 서술은 이번 원문 인용 밖 — 검수 시 원문 추가하거나 삭제. 1987 첫 기념·NCSTC 제안은 검색결과만.",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "Karva Chauth",
+    "Karwa Chauth"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": "남편 얼굴을 \"체\"로 걸러 본다",
+   "candidate_key": "in-karva-chauth",
+   "name_original": "करवा चौथ",
+   "name_ko": "카르와 차우트 — 아내가 달을 체로 보며 단식을 푸는 날",
+   "date_type": null,
+   "date_rule": null,
+   "date_rule_folk": "힌두력 카르티크 달 흑분(크리슈나 팍샤) 4일(차투르티)",
+   "date_note": "2026년 10월 29일(목)(판창 2곳). 힌두력 표 없음 → 앱 날짜 미지원. 25일로 쓴 사이트도 있음(검색결과).",
+   "app_date_support": "unsupported",
+   "scope": "북인도 중심 힌두 기혼 여성 풍습(공휴일 아님)",
+   "kind": "relationship_religious",
+   "kind_group": "relationship",
+   "officiality": "religious_festival",
+   "meaning_ko": "힌두력 카르티크 달 하현 넷째 날, 북인도 기혼 여성들이 남편의 장수를 빌며 해 뜨기 전부터 물 한 모금 마시지 않는 단식(니르잘라)을 하는 날이다. 새벽에 시어머니가 차려 주는 \"사르기\"를 먹고, 밤에 달이 뜨면 체(찰니)로 먼저 달을 본 뒤 같은 체로 남편 얼굴을 보고 단식을 푼다. 볼리우드 영화로 널리 알려진 풍습이다.",
+   "founder_origin": "힌두 전통(전설 다수)",
+   "founder_check_level": "panchang_sites_read",
+   "founder_check": "not_applicable",
+   "claims": [
+    {
+     "claim_id": "date_2026",
+     "claim_ko": "2026년 10월 29일 목요일, 카르티크 흑분 4일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "panchangbodh",
+       "quote": "2026 में यह दिन गुरुवार, 29 अक्टूबर को पड़ता है — कार्तिक के कृष्ण पक्ष की चतुर्थी",
+       "quote_ko": "2026년 이날은 10월 29일 목요일, 카르티크 흑분 4일이다"
+      },
+      {
+       "evidence_id": "astrotalk",
+       "quote": "करवा चौथ 2026 में गुरुवार 29 अक्टूबर को मनाई जाएगी।",
+       "quote_ko": "카르와 차우트는 2026년 10월 29일 목요일이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "fast_sieve",
+     "claim_ko": "물도 마시지 않는 단식, 달을 체로 본 뒤 남편 얼굴",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "panchangbodh",
+       "quote": "निर्जला — अन्न-जल कुछ नहीं",
+       "quote_ko": "니르잘라 — 음식도 물도 없음"
+      },
+      {
+       "evidence_id": "astrotalk",
+       "quote": "इसके बाद छलनी से पहले चंद्रमा के दर्शन करें और फिर इसी छलनी से पति",
+       "quote_ko": "그다음 체로 먼저 달을 보고, 같은 체로 남편을"
+      }
+     ]
+    },
+    {
+     "claim_id": "weekday_conflict",
+     "claim_ko": "같은 사이트 표에 요일이 화요일로 잘못 적힘",
+     "verdict": "conflicting",
+     "evidence": [
+      {
+       "evidence_id": "astrotalk",
+       "quote": "मंगलवार, 29 अक्टूबर 2026",
+       "quote_ko": "화요일, 2026년 10월 29일(실제는 목요일)"
+      }
+     ]
+    }
+   ],
+   "distinct_reason": "서비스·이전 후보에 없음(부부 기념일과 다른 종교 단식)",
+   "uncertainty": "근거가 판창·점성 사이트 2곳 — 정부 공휴일표·학술 자료 아님. 아스트로톡 표의 요일 오기(화요일). 성평등 논쟁(여성만 단식)은 편집 시 균형 필요.",
+   "confidence": "medium"
+  },
+  {
+   "aliases": [
+    "Raksha Bandhan",
+    "राखी"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": "남매 사이의 \"보호 계약\"을 실 한 가닥으로 맺는다",
+   "candidate_key": "in-raksha-bandhan",
+   "name_original": "रक्षाबंधन",
+   "name_ko": "락샤 반단 — 누이가 형제 손목에 실을 매는 날",
+   "date_type": null,
+   "date_rule": null,
+   "date_rule_folk": "힌두력 슈라와나(사완) 달 보름(푸르니마). 바드라(불길한 시간)엔 매지 않음",
+   "date_note": "2026년 8월 28일(금)(아즈탁·판창). 힌두력 표 없음 → 앱 날짜 미지원.",
+   "app_date_support": "unsupported",
+   "scope": "인도 전국 힌두 풍습(일부 주 휴일)",
+   "kind": "relationship_religious",
+   "kind_group": "relationship",
+   "officiality": "religious_festival",
+   "meaning_ko": "힌두력 사완 달 보름날, 누이가 오빠·남동생 손목에 \"라키\"라는 실 팔찌를 매어 주며 행복을 빌고, 형제는 평생 지켜 주겠다고 약속하며 선물을 건네는 남매의 날이다. 불길한 시간대 \"바드라\"에는 실을 매지 않는다는 금기가 있어 해마다 매는 시각이 뉴스가 된다. 2026년은 8월 28일이었고 그날은 바드라가 없었다.",
+   "founder_origin": "힌두 전통(전설 다수)",
+   "founder_check_level": "news_and_panchang_read",
+   "founder_check": "not_applicable",
+   "claims": [
+    {
+     "claim_id": "date_2026",
+     "claim_ko": "2026년 사완 보름 → 8월 28일(일출 시 보름)",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "aajtak-2600426",
+       "quote": "चूंकि 28 अगस्त को पूर्णिमा उदया तिथि में रहेगी. इसलिए इसी दिन रक्षा",
+       "quote_ko": "8월 28일 일출 때 보름 티티가 걸려 있으므로 이날 락샤(반단)…"
+      },
+      {
+       "evidence_id": "panchangbodh-rb",
+       "quote": "शुक्रवार, 28 अगस्त 2026, श्रावण पूर्णिमा को।",
+       "quote_ko": "2026년 8월 28일 금요일, 슈라와나 보름에."
+      }
+     ]
+    },
+    {
+     "claim_id": "meaning",
+     "claim_ko": "남매의 정, 누이가 형제 손목에 실을 맴",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "aajtak-2600426",
+       "quote": "हर साल सावन पूर्णिमा तिथि पर रक्षाबंधन का त्योहार मनाया जाता है. यह हिंदू धर्म का एक महत्वपूर्ण त्योहार है जो भाई-बहन के स्नेह, विश्वास, अटूट रिश्ते का प्रतीक माना जाता है.",
+       "quote_ko": "매년 사완 보름에 락샤 반단을 지낸다. 남매의 애정·믿음·끊어지지 않는 관계를 상징하는 중요한 힌두 축제다."
+      },
+      {
+       "evidence_id": "panchangbodh-rb",
+       "quote": "इस दिन बहन भाई की कलाई पर राखी बाँधकर उसके कल्याण की कामना करती है",
+       "quote_ko": "이날 누이는 형제 손목에 라키를 매고 그의 안녕을 빈다"
+      }
+     ]
+    },
+    {
+     "claim_id": "bhadra",
+     "claim_ko": "바드라 중엔 매지 않음, 2026년 28일엔 바드라 없음",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "aajtak-2600426",
+       "quote": "शास्त्रों के अनुसार, भद्रा काल में रक्षासूत्र बांधना वर्जित माना गया है. राहत की बात यह है कि 28 अगस्त 2026 को रक्षाबंधन के दिन भद्रा नहीं रहेगी.",
+       "quote_ko": "경전에 따르면 바드라 때 보호의 실을 매는 것은 금기다. 다행히 2026년 8월 28일엔 바드라가 없다."
+      }
+     ]
+    }
+   ],
+   "distinct_reason": "서비스에 남매·형제 기념일 없음(형제자매의 날 등 별도 확인 필요)",
+   "uncertainty": "기원 전설(크리슈나·드라우파디 등)은 쓰지 말 것. 공휴일 여부는 주마다 다름(미확인).",
+   "confidence": "high"
+  }
+ ]
+}

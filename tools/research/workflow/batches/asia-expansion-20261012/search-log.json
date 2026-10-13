@@ -1,0 +1,1102 @@
+[
+ {
+  "seq": 1,
+  "country": "JP",
+  "language": "ja",
+  "query": "七五三 11月15日 由来 徳川綱吉 徳松 髪置 袴着 帯解",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T01:27:54+00:00",
+  "result_urls": [
+   "https://meetsmore.com/services/shichigosan-photographers/media/27140",
+   "https://skywardplus.jal.co.jp/?p=21526",
+   "https://zatsuneta.com/archives/111151.html",
+   "https://skywardplus.jal.co.jp/plus_one/calendar/shichigosan/",
+   "https://www.jeepe.jp/ja/articles/shichigosan-guide-1625",
+   "https://kaden.watch.impress.co.jp/docs/column/lifestyle/1161281.html",
+   "https://www.alsok.co.jp/person/recommend/2054/",
+   "https://shintoinari.org/?p=7365",
+   "https://shintoinari.org/?p=461"
+  ],
+  "note": "칠오삼 날짜·유래 설 다수(도쿠마쓰 설·귀숙일 설·수확 감사 설) 검색결과 확인"
+ },
+ {
+  "seq": 2,
+  "country": "JP",
+  "language": "ja",
+  "query": "敬老の日 由来 兵庫県 野間谷村 としよりの日 9月15日 第3月曜日",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T01:27:54+00:00",
+  "result_urls": [
+   "https://www.takashimaya.co.jp/shopping/gift/story/A18424/617097",
+   "https://oggi.jp/6235160",
+   "https://oggi.jp/6047352",
+   "https://allabout.co.jp/gm/gc/220762/",
+   "https://www.asoview.com/note/2550/",
+   "https://event.rakuten.co.jp/keirou/guide/old/",
+   "https://yomuno.jp/posts/77181",
+   "https://www.city.shizuoka.lg.jp/000_003240.html",
+   "https://webview.isho.jp/journal/detail/abs/10.11477/mf.1664100238"
+  ],
+  "note": "경로의 날 기원(1947 노마다니촌)·2003년 셋째 월요일 이동 검색결과 확인. 국민 축일화 1965/1966 표기 상충"
+ },
+ {
+  "seq": 3,
+  "country": "JP",
+  "language": "ja",
+  "query": "山の日 8月11日 国民の祝日 2016年 施行 山に親しむ機会 内閣府",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T01:27:54+00:00",
+  "result_urls": [
+   "https://bestcalendar.jp/dates/kinenbi/127789",
+   "https://news.allabout.co.jp/articles/o/21851/",
+   "https://yamahack.com/53",
+   "https://zatsuneta.com/archives/108111.html",
+   "https://bestcalendar.jp/dates/kinenbi/6436",
+   "https://gosenjaku.co.jp/?p=21563",
+   "https://www.cwaf.jp/wp/wp-content/uploads/mailnews04.pdf",
+   "https://honcierge.jp/articles/shelf_story/5861",
+   "https://www.jbc-ltd.com/column/?p=11527"
+  ],
+  "note": "산의 날 2016 시행 검색결과 확인. 내각부 원문은 결과에 없음 → 직접 수집"
+ },
+ {
+  "seq": 4,
+  "country": "JP",
+  "language": "ja",
+  "query": "節分 立春の前日 日付 2025年 2月2日 国立天文台 暦要項",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T01:27:54+00:00",
+  "result_urls": [
+   "https://www.nippon.com/ja/japan-topics/today02020/",
+   "https://dengekionline.com/article/202501/30652",
+   "https://eco.mtk.nao.ac.jp/koyomi/yoko/2025/rekiyou252.html",
+   "https://www.jbc-ltd.com/column/?p=2891",
+   "https://www.kankomie.or.jp/topic/834",
+   "https://zatsuneta.com/archives/007344.html",
+   "https://shinagawa-sh.metro.ed.jp/site/zen/content/200000876.pdf",
+   "https://dime.jp/genre/1919012/",
+   "https://gentosha-go.com/articles/-/65066"
+  ],
+  "note": "세쓰분=입춘 전날, 2025년 2/2 국립천문대 역요항 검색결과 확인"
+ },
+ {
+  "seq": 5,
+  "country": "JP",
+  "language": "ja",
+  "query": "全国山の日協議会 山の日 8月11日 制定 経緯 祝日法改正 2014年",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T01:29:04+00:00",
+  "result_urls": [
+   "https://www.jcp.or.jp/akahata/aik16/2016-08-11/2016081101_05_1.html",
+   "https://bestcalendar.jp/dates/kinenbi/127789",
+   "https://zatsuneta.com/archives/108111.html",
+   "https://kumanichi.com/articles/2024187",
+   "https://news.allabout.co.jp/articles/o/21851/",
+   "https://hugkum.sho.jp/147347",
+   "https://www.cwaf.jp/wp/wp-content/uploads/mailnews04.pdf",
+   "https://nlab.itmedia.co.jp/cont/articles/3246554/amp/",
+   "https://honcierge.jp/articles/shelf_story/5861",
+   "https://precious.jp/articles/-/21078"
+  ],
+  "note": "산의 날 제정 경위(2014 국회, 8/12→8/11 이유 설) 검색결과 확인"
+ },
+ {
+  "seq": 6,
+  "country": "JP",
+  "language": "ja",
+  "query": "土用の丑の日 うなぎ 平賀源内 説 由来 2026年 日付",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T01:29:04+00:00",
+  "result_urls": [
+   "https://yomuno.jp/posts/137978",
+   "https://yomuno.jp/posts/137977",
+   "https://intojapanwaraku.com/?p=11623",
+   "https://intojapanwaraku.com/rock/gourmet-rock/11623/",
+   "https://bestcalendar.jp/guides/koyomi/doyou-ushi-2026",
+   "https://intojapanwaraku.com/gourmet/11623/",
+   "https://minnano-rakuraku.com/contents/?p=5942",
+   "https://www.jbc-ltd.com/column/?p=10842",
+   "https://www.jbc-ltd.com/column/2026/07/07/the-day-of-the-ox-during-the-midsummer-doyo-in-2026/"
+  ],
+  "note": "도요 축일(장어) 2026 날짜·히라가 겐나이 설(사료 근거 없음) 검색결과 확인"
+ },
+ {
+  "seq": 7,
+  "country": "JP",
+  "language": "ja",
+  "query": "成人の日 発祥 蕨市 青年祭 1946年 成年式 第2月曜日",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T01:29:04+00:00",
+  "result_urls": [
+   "https://www.nippon.com/ja/japan-topics/today1122/",
+   "https://hugkum.sho.jp/178992",
+   "https://toyokeizai.net/articles/-/323616?display=b",
+   "https://activitypub.space/topic/d50da79c-4895-4ada-a343-c17c1e83a894/coming-of-age-day",
+   "https://www.tsunagujapan.com/zh-hant/coming-of-age-day-seijin-no-hi/",
+   "https://arc-web.com/kids/howto/20th/reason",
+   "https://liuxue.xdf.cn/blog/blog_7783928.shtml",
+   "https://gendai.media/articles/-/120855",
+   "https://matcha-jp.com/jp/23535"
+  ],
+  "note": "성인의 날 발상(1946 와라비정 청년제)·1월 둘째 월요일 검색결과 확인"
+ },
+ {
+  "seq": 8,
+  "country": "JP",
+  "language": "ja",
+  "query": "ひな祭り 3月3日 上巳の節句 流し雛 由来 起源",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T01:29:04+00:00",
+  "result_urls": [
+   "https://allabout.co.jp/gm/gc/220699/",
+   "https://news.mynavi.jp/article/20220228-2277351/",
+   "https://news.mynavi.jp/article/20210302-1689198/",
+   "https://www.nact.jp/artcommons/user/detail/81360",
+   "https://www.nact.jp/english/artcommons/user/detail/81360",
+   "https://ginzamag.com/lifestyle/ohinasama",
+   "https://skywardplus.jal.co.jp/?p=2975",
+   "https://allabout.co.jp/gm/gc/220743/3",
+   "https://allabout.co.jp/gm/gc/220743/"
+  ],
+  "note": "히나마쓰리 상사절 기원·나가시비나 검색결과 확인"
+ },
+ {
+  "seq": 9,
+  "country": "CN",
+  "language": "zh-Hans",
+  "query": "中国农民丰收节 秋分 国务院 批复 2018年 设立",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T01:32:15+00:00",
+  "result_urls": [
+   "https://language.chinadaily.com.cn/a/201806/22/WS5b2cc083a3103349141de4af.html",
+   "https://language.chinadaily.com.cn/2018-06/22/content_36434909.htm",
+   "https://www.tjxz.cc/12313",
+   "https://cs.com.cn/xwzx/201806/t20180621_5826921.html",
+   "https://language.chinadaily.com.cn/a/202109/23/WS614bf256a310cdd39bc6afb1.html",
+   "https://www.ntdtv.com/gb/2018/06/24/a1380845.html",
+   "https://www.wj.gov.cn/html/czwj/2018/BEOHPFQE_0621/265479.html",
+   "https://www.gov.cn/zhengce/2018-06/22/content_5300368.htm",
+   "https://www.gov.cn/zhengce/2018-06/22/content_5300385.htm",
+   "https://www.gov.cn/zhengce/2018-06/22/content_5300396.htm"
+  ],
+  "note": "농민 풍수절(추분) 2018 국무원 비준 검색결과 확인"
+ },
+ {
+  "seq": 10,
+  "country": "CN",
+  "language": "zh-Hans",
+  "query": "中国人民警察节 1月10日 国务院 同意 设立 2020年",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T01:32:15+00:00",
+  "result_urls": [
+   "https://language.chinadaily.com.cn/a/202301/11/WS63be7a90a31057c47eba903e.html",
+   "https://cn.chinadaily.com.cn/a/202101/11/WS5ffbc749a3101e7ce973a1af.html",
+   "https://m.thepaper.cn/newsDetail_forward_29862139",
+   "https://cn.chinadaily.com.cn/a/202301/11/WS63be5013a3102ada8b22ab18.html",
+   "https://paper.people.com.cn/rmrbwap/html/2021-01/10/nw.D110000renmrb_20210110_2-01.htm",
+   "https://m.bjnews.com.cn/detail/161008017715261.html",
+   "https://szb.shaoyangnews.net/szb/syrb/pc/attachment/202101/14/35640de8-eee0-4a3e-83b3-7c8896f5a383.pdf",
+   "https://www.news.cn/politics/20250110/dcec86efa1d3418aaeb8394fa3c1bba7/c.html",
+   "https://m.thepaper.cn/newsDetail_forward_32358373"
+  ],
+  "note": "인민경찰절(1/10) 2020-07-21 국무원 비복 검색결과 확인"
+ },
+ {
+  "seq": 11,
+  "country": "CN",
+  "language": "zh-Hans",
+  "query": "中国航天日 4月24日 东方红一号 设立 国务院 2016",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T01:32:15+00:00",
+  "result_urls": [
+   "https://cs.com.cn/tzjj/tjdh/201603/t20160324_4932353.html",
+   "https://www.ncsti.gov.cn/kjdt/ztbd/jjhtkjzwftmx/bps/202203/t20220328_63889.html",
+   "https://www.chinanews.com.cn/gn/2023/04-19/9992708.shtml",
+   "https://china.zjol.com.cn/gnxw/201612/t20161227_2431543.shtml",
+   "https://castjournals.cast.org.cn/joweb/kjdb/CN/PDF/1242134886862107248",
+   "https://cpc.people.com.cn/xuexi/n1/2016/0915/c385474-28718006.html",
+   "https://m.thepaper.cn/baijiahao_22818126",
+   "https://language.chinadaily.com.cn/2016-04/25/content_24824163.htm",
+   "https://china.zjol.com.cn/gnxw/201604/t20160424_1438375.shtml"
+  ],
+  "note": "중국 항천일(4/24, 둥팡훙 1호) 검색결과 확인. 비복일 3/8 은 단일 출처"
+ },
+ {
+  "seq": 12,
+  "country": "CN",
+  "language": "zh-Hans",
+  "query": "二月二 龙抬头 剃头 习俗 正月不剃头 由来",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T01:32:15+00:00",
+  "result_urls": [
+   "https://www.chinanews.com.cn/cul/2014/03-03/5901402.shtml",
+   "https://www.chinanews.com.cn/cul/2025/03-01/10376049.shtml",
+   "https://www.chinanews.com.cn/cul/2014/03-03/5903577.shtml",
+   "https://www.ihchina.cn/art/detail/id/10343.html",
+   "https://www.rujiazg.com/index.php/article/22647",
+   "https://www.rujiazg.com/article/22647",
+   "https://wannianli.tianqi.com/news/265851.html",
+   "https://www.news.cn/politics/20250301/28f6f34be08f4669990f76c8d2c79137/c.html",
+   "https://www.chinanews.com.cn/cul/2014/03-03/5903954.shtml"
+  ],
+  "note": "용대두(음력 2/2) 이발 풍습 검색결과 확인. '정월 이발하면 외삼촌 죽는다' 속설 유래는 정설 없음"
+ },
+ {
+  "seq": 13,
+  "country": "CN",
+  "language": "zh-Hans",
+  "query": "光棍节 11月11日 起源 南京大学 宿舍 1990年代 双十一",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T01:33:00+00:00",
+  "result_urls": [
+   "https://blogs.transparent.com/chinese/?p=14555",
+   "https://blogs.transparent.com/chinese/china-singles-day-2/",
+   "https://uptogo.com.tw/?p=1753340",
+   "https://wannianli.tianqi.com/guanggunjie/",
+   "https://news.mydrivers.com/1/246/246467.htm",
+   "https://slowly.app/stamp/cn_singles-day",
+   "https://www.wangxiao.cn/cet6/59145914047.html",
+   "https://studycli.org/ja/chinese-holidays/singles-day/",
+   "https://language.chinadaily.com.cn/2014-11/13/content_18907297.htm"
+  ],
+  "note": "광군절 기원(1990년대 난징대 기숙사설, 세부는 전설성)·2009 타오바오 쇼핑절 검색결과 확인"
+ },
+ {
+  "seq": 14,
+  "country": "CN",
+  "language": "zh-Hans",
+  "query": "植树节 3月12日 孙中山 逝世纪念日 1979年 全国人大常委会 决定",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T01:33:00+00:00",
+  "result_urls": [
+   "https://m.thepaper.cn/newsDetail_forward_30389333",
+   "https://news.china.com/socialgd/10000169/20260312/49317106.html",
+   "https://language.chinadaily.com.cn/a/202203/14/WS62302392a310fd2b29e50fbe.html",
+   "https://www.rmzxw.com.cn/c/2020-03-12/2537121.shtml",
+   "https://m.thepaper.cn/baijiahao_11674591",
+   "https://www.chineseclass101.com/lesson/video-culture-class-chinese-holidays-16-national-tree-planting-day?lp=21",
+   "https://www.chineseclass101.com/lesson/video-culture-class-chinese-holidays-16-national-tree-planting-day",
+   "https://m.maigoo.com/goomai/187731.html",
+   "https://wannianli.tianqi.com/jishiqi/zhishujiedaojishi.html"
+  ],
+  "note": "중국 식수절(3/12, 쑨원 서거일) 1979 전인대 상무위 결정·2020 삼림법 명시 검색결과 확인"
+ },
+ {
+  "seq": 15,
+  "country": "TW",
+  "language": "zh-Hant",
+  "query": "大甲媽祖遶境 元宵節 擲筊 決定 起駕日期 2026",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T01:54:33+00:00",
+  "result_urls": [
+   "https://www.thenewslens.com/article/266233",
+   "https://blog.udn.com/0e35e329/188211811",
+   "https://www.businessweekly.com.tw/style/blog/3020833",
+   "https://blog.udn.com/9eb7f145/188286267",
+   "https://blog.udn.com/0ffb1d38/188245711",
+   "https://blog.udn.com/6a0cfb3a/188362018",
+   "https://gofunit.com/%e5%a4%a7%e7%94%b2%e5%aa%bd%e7%a5%96/",
+   "https://smiletaiwan.cw.com.tw/index.php/article/8009",
+   "https://smiletaiwan.cw.com.tw/article/8009"
+  ],
+  "note": "다자 마쭈 순행: 매년 원소절 밤 擲筊로 출발일 결정, 2026년 4/17 기가 검색결과 확인"
+ },
+ {
+  "seq": 16,
+  "country": "TW",
+  "language": "zh-Hant",
+  "query": "原住民族日 8月1日 1994年 原住民 正名 紀念日 實施條例 原住民族委員會",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T01:54:33+00:00",
+  "result_urls": [
+   "https://www.ltsh.tyc.edu.tw/ezfiles/1/1001/attach/86/pta_3702_1379297_80811.pdf",
+   "https://www.dpp.org.tw/news/contents/5725",
+   "https://www.thenewslens.com/article/45468",
+   "https://www.ey.gov.tw/Page/9277F759E41CCD91/7df9f14c-a512-4253-86ed-2dc602bf3232",
+   "https://www.tkgsh.tn.edu.tw/uploads/1691456152328QIhmIksK.pdf",
+   "https://new.tkgsh.tn.edu.tw/uploads/1691456152336jKIdkQ0R.pdf",
+   "https://www.dpp.org.tw/media/contents/10918",
+   "https://n.yam.com/Article/20170801121703",
+   "https://web.alcd.center/aew/150/chapter/3406"
+  ],
+  "note": "원주민족일(8/1, 1994 헌법 정명) 검색결과 확인"
+ },
+ {
+  "seq": 17,
+  "country": "TW",
+  "language": "zh-Hant",
+  "query": "國家防災日 9月21日 九二一地震 行政院 訂定 2000年",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T01:54:33+00:00",
+  "result_urls": [
+   "https://www.nownews.com/news/6876428",
+   "https://w3fs.tainan.gov.tw/001/Upload/137/epaper/0/1071031-官田區公所電子報-參事修正-.pdf",
+   "https://www.thenewslens.com/article/79247",
+   "https://www.nownews.com/news/6265037",
+   "https://d8.dcsh.tp.edu.tw/file/download/22915",
+   "https://www.ey.gov.tw/Page/9277F759E41CCD91/0d22e326-069d-499f-885a-de190747e9b0",
+   "https://www.cna.com.tw/news/aloc/201809160182.aspx",
+   "https://www.taiwannews.com.tw/zh/news/3772181"
+  ],
+  "note": "국가방재일(9/21) 2000/2002 지정 연도 표기 상충 검색결과 확인"
+ },
+ {
+  "seq": 18,
+  "country": "TW",
+  "language": "zh-Hant",
+  "query": "二二八和平紀念日 2月28日 國定假日 1997年 紀念日及節日實施條例",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T01:54:33+00:00",
+  "result_urls": [
+   "https://en.wikipedia.org/wiki/Peace_Memorial_Day",
+   "https://www.nownews.com/news/6372410",
+   "https://www.workstem.com/tw/?p=16995",
+   "https://udn.com/news/story/7269/9347148",
+   "https://newtalk.tw/citizen/view/71281"
+  ],
+  "note": "228 평화기념일 1995 기념일·1997 공휴일 검색결과 확인(요약은 영어)"
+ },
+ {
+  "seq": 19,
+  "country": "HK",
+  "language": "zh-Hant",
+  "query": "驚蟄 打小人 鵝頸橋 習俗 白虎 香港 非物質文化遺產",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:06:47+00:00",
+  "result_urls": [
+   "https://www.nownews.com/news/6791822",
+   "https://health.tvbs.com.tw/life/353199",
+   "https://health.tvbs.com.tw/nutrition/353199",
+   "https://www.nownews.com/news/6375415",
+   "https://www.ourchinastory.com/zh/1132",
+   "https://www.ourchinastory.com/zh/amp/1132",
+   "https://cculture.hku.hk/content/hkculture/tm/custom/custom01.pdf",
+   "https://www.ourchinastory.com/zh/3557"
+  ],
+  "note": "경칩 다샤오런(악인 때리기)·백호 제사 검색결과 확인, 비유산 등재 표현 상충"
+ },
+ {
+  "seq": 20,
+  "country": "HK",
+  "language": "zh-Hant",
+  "query": "長洲太平清醮 搶包山 日期 北帝 杯卜 農曆四月 非物質文化遺產",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:06:47+00:00",
+  "result_urls": [
+   "https://www.discoverhongkong.com/content/dam/dhk/intl/explore/culture/chinese-fes/Three-Day-Exploration-Spiritual-Traditions-Festivals_TC.pdf",
+   "https://www.lcsd.gov.hk/en/bun/common/images/bsc_p_chi.pdf",
+   "https://www.hk01.com/食玩買/60351417/長洲太平清醮-搶包山比賽時間-飄色路線-交通攻略-附4觀賞貼士",
+   "https://lcsd.gov.hk/en/bun/common/pdf/2025/bsc_p_chi.pdf",
+   "https://www.businesswire.com/news/home/20240425396460/zh-HK",
+   "https://unwire.hk/2016/05/13/weekend-3/hottopic/walk/",
+   "https://www.hk01.com/article/87173",
+   "https://www.hk01.com/熱爆話題/87992/搶包山入選-時代-世界10大古怪節日-無頭雞節裸體祭你聽過未",
+   "https://news.pts.org.tw/article/394749"
+  ],
+  "note": "청차우 태평청초·빵산 오르기, 2001년 이후 불탄일 고정 검색결과 확인"
+ },
+ {
+  "seq": 21,
+  "country": "HK",
+  "language": "zh-Hant",
+  "query": "大坑舞火龍 中秋 1880年 瘟疫 國家級非物質文化遺產 八月十四至十六",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:06:47+00:00",
+  "result_urls": [
+   "https://webarchive.lib.cuhk.edu.hk/20221211080842mp_/https:/www.eng.cuhk.edu.hk/ENGE-TellingStories/Pdf/Varieties of Chinese/Cantonese Speaker 6 (Hong Kong) English, Simplified and Traditional Chinese.pdf",
+   "https://cache.org.hk/blog/?p=17226",
+   "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/pshe/references-and-resources/chinese-history/PDF_05.pdf",
+   "https://cache.org.hk/blog/?p=1126",
+   "https://cache.org.hk/blog/tai-hang-fire-dragon-dance-qrcode/",
+   "https://www.ourchinastory.com/zh/amp/4023",
+   "https://www.ourchinastory.com/zh/4023",
+   "https://www.ourchinastory.com/zh/15712",
+   "https://www.ourchinastory.com/zh/amp/15712"
+  ],
+  "note": "다이항 불용춤(음력 8/14~16) 1880 역병 전설·2011 국가급 비유산 검색결과 확인"
+ },
+ {
+  "seq": 22,
+  "country": "HK",
+  "language": "zh-Hant",
+  "query": "香港特別行政區成立紀念日 7月1日 公眾假期 一九九七年 回歸 升旗儀式",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:07:34+00:00",
+  "result_urls": [
+   "https://hkmu.edu.hk/news/tc/?p=89544",
+   "https://www.cityu.edu.hk/media/press-release/2026/07/01/cityuhk-holds-flag-raising-ceremony-on-1-july",
+   "https://www.cityu.edu.hk/zh-cn/media/news/2026/07/01/flag-raising-ceremony",
+   "https://www.cathaybk.com.tw/hongkong/news/284/",
+   "https://hku.hk/press/c_news_detail_26299.html",
+   "https://www.cityu.edu.hk/zh-hk/media/news/2026/07/01/flag-raising-ceremony",
+   "https://www-5.hku.hk/press/c_news_detail_26299.html",
+   "https://www.cityu.edu.hk/zh-cn/media/news/2024/07/01/cityuhk-holds-flag-raising-ceremony-celebrate-27th-anniversary-establishment-hksar",
+   "https://www.cantoneseclass101.com/lesson/mustknow-cantonese-holiday-words-3-hong-kong-special-administrative-region-establishment-day",
+   "https://www.cantoneseclass101.com/lesson/mustknow-cantonese-holiday-words-3-hong-kong-special-administrative-region-establishment-day?lp=67"
+  ],
+  "note": "특구 성립 기념일(7/1) 공휴일·승기식 검색결과 확인"
+ },
+ {
+  "seq": 23,
+  "country": "MN",
+  "language": "mn",
+  "query": "Үндэсний их баяр наадам 7 сарын 11 хууль баяр ёслолын өдөр ЮНЕСКО",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:09:17+00:00",
+  "result_urls": [
+   "https://www.unescoicm.org/en/newsletter/view/9-Mongolia-hosts-Naadam-Festival-inscribed-as-UNESCO-Intangible-Cultural-Heritage",
+   "https://www.scu.edu/globalengagement/about/engage-with-us/newsletters/email-archives/holiday-announcements/2025-holiday-announcements/july-11-2025-naadam-festival",
+   "https://es.unesco.org/silkroad/node/631",
+   "https://ich.unesco.org/RL/00395",
+   "https://en.unesco.org/silkroad/silk-road-themes/festivals/naadam",
+   "https://abc17news.com/?p=1423467",
+   "https://abc17news.com/?p=1423470",
+   "https://www.myeyestokyo.com/happy-national-day-of-mongolia/",
+   "https://www.mongoliantour.guide/post/naadam-mongolia-s-most-important-festival-explained?page=2"
+  ],
+  "note": "나담 7/11~13·2010 UNESCO 등재 검색결과 확인(결과는 영어 자료뿐)"
+ },
+ {
+  "seq": 24,
+  "country": "MN",
+  "language": "mn",
+  "query": "Их Эзэн Чингис хааны төрсөн өдөр Монгол бахархлын өдөр өвлийн тэргүүн сарын шинийн нэгэн",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:09:17+00:00",
+  "result_urls": [
+   "https://gogo.mn/r/dqw14",
+   "https://gogo.mn/r/nk5jm",
+   "https://gogo.mn/r/113857",
+   "https://gogo.mn/r/173873",
+   "https://gogo.mn/media?id=g9k5d",
+   "https://ikon.mn/n/3jj3",
+   "https://ikon.mn/n/3j1s",
+   "https://legalinfo.mn/mn/detail?lawId=9522",
+   "https://ikon.mn/n/1ecy"
+  ],
+  "note": "칭기스 칸 탄신일=몽골 자긍심의 날(음력 겨울 첫 달 초하루) 검색결과 확인"
+ },
+ {
+  "seq": 25,
+  "country": "MN",
+  "language": "mn",
+  "query": "Цагаан сар 2026 битүүн шинийн нэгэн монгол зурхай хуанли өдөр",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:09:17+00:00",
+  "result_urls": [
+   "https://desafio.sebraemg.com.br/?p=25734",
+   "https://livescience.com/space/the-moon/full-moons-of-2026-when-to-see-all-13-moons-including-a-blue-moon-and-a-blood-moon-rise-next-year",
+   "https://chw.dhis2.org/calendar/2026-lunar-calendar.html"
+  ],
+  "note": "실패: 무관한 영어 달 위상 페이지만 나옴(차간사르 결과 없음)"
+ },
+ {
+  "seq": 26,
+  "country": "MN",
+  "language": "mn",
+  "query": "Цагаан сарын баяр 2026 он шинийн нэгэн хэдний өдөр таарч байна",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:10:07+00:00",
+  "result_urls": [
+   "https://desafio.sebraemg.com.br/?p=25734",
+   "https://chw.dhis2.org/calendar/2026-lunar-calendar.html",
+   "https://www.timeanddate.com/holidays/togo/municipal-elections"
+  ],
+  "note": "실패(2회째): 영어 달 위상 페이지뿐 — 차간사르 원문 확보 못 함"
+ },
+ {
+  "seq": 27,
+  "country": "MN",
+  "language": "mn",
+  "query": "Монгол бичиг үсгийн баяр өдөр жил бүрийн тавдугаар сарын эхний ням гараг тэмдэглэдэг",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:10:07+00:00",
+  "result_urls": [
+   "https://en.wikipedia.org/wiki/Mongolian_calendar",
+   "https://legalinfo.mn/mn/detail?lawId=810",
+   "https://ikon.mn/n/3nuw",
+   "https://ikon.mn/n/3ndp",
+   "https://meanwhileinmongolia.com/mongolia-festivals-holidays/",
+   "https://ikon.mn/n/3f0m",
+   "https://ikon.mn/n/3qfd",
+   "https://ikon.mn/n/3bgv",
+   "https://gogo.mn/r/7kxowo"
+  ],
+  "note": "몽골 문자의 날(5월 첫째 일요일) 대통령령 검색결과 확인"
+ },
+ {
+  "seq": 28,
+  "country": "VN",
+  "language": "vi",
+  "query": "ngày ông Công ông Táo 23 tháng Chạp thả cá chép nguồn gốc phong tục",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:11:37+00:00",
+  "result_urls": [
+   "https://vnexpress.net/le-nghi-tai-tam-4559662.html",
+   "https://lsvn.vn/hinh-tuong-ong-tao-trong-van-hoa-dan-gian-viet-nam1643080118-a114626.html",
+   "https://kinhte.congthuong.vn/apicenter@/print_article&i=301524",
+   "https://vov.vn/doi-song/cung-ong-cong-ong-tao-dat-mam-co-cung-o-dau-la-chuan-nhat-869967.vov",
+   "https://baophapluat.vn/khong-nen-tha-ca-ngay-ong-cong-ong-tao-post329377.html",
+   "https://vtcnews.vn/nguon-goc-y-nghia-ngay-tet-ong-cong-ong-tao-ar849276.html",
+   "https://vnexpress.net/nguon-cung-ca-chep-doi-dao-tai-tp-hcm-2943089.html",
+   "https://daibieunhandan.vn/ong-tao-ptag.html",
+   "https://daibieunhandan.vn/print/10406609.html"
+  ],
+  "note": "옹꽁옹따오(음력 12/23) 잉어 방생 전설 검색결과 확인"
+ },
+ {
+  "seq": 29,
+  "country": "VN",
+  "language": "vi",
+  "query": "Giỗ Tổ Hùng Vương mùng 10 tháng 3 âm lịch nghỉ lễ Bộ luật Lao động 2007 di sản UNESCO tín ngưỡng thờ cúng",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:11:37+00:00",
+  "result_urls": [
+   "https://thuvienphapluat.vn/phap-luat/chu-de/lich-nghi-gio-to-hung-vuong",
+   "https://hatinh.gov.vn/vi/bai-viet/lich-nghi-le-gio-to-hung-vuong-304-15-quoc-khanh-29-nam-2026",
+   "https://thuvienphapluat.vn/phap-luat/chu-de/lich-nghi-le",
+   "https://luatvietnam.vn/lao-dong-tien-luong/lich-nghi-gio-to-hung-vuong-2022-562-88889-article.html",
+   "https://thuvienphapluat.vn/phap-luat/chu-de/gio-to-hung-vuong",
+   "https://fptshop.com.vn/tin-tuc/for-gamers/lich-nghi-le-gio-to-hung-vuong-30-4-1-5-203978",
+   "https://tapchitoaan.vn/lich-nghi-le-gio-to-hung-vuong-304-15-va-quoc-khanh-29-nam-202615074.html",
+   "https://www.greensm.com/vn-vi/news/gio-to-hung-vuong"
+  ],
+  "note": "훙왕 제사일(음력 3/10) 노동법 2019 제112조 휴일 검색결과 확인"
+ },
+ {
+  "seq": 30,
+  "country": "VN",
+  "language": "vi",
+  "query": "Ngày Phụ nữ Việt Nam 20/10 nguồn gốc 1930 Hội Phụ nữ phản đế Đông Dương",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:11:37+00:00",
+  "result_urls": [
+   "https://vinpearl.com/vi/y-nghia-ngay-20-10-va-nguon-goc-ra-doi-ngay-phu-nu-viet-nam",
+   "https://nongnghiepmoitruong.vn/nguon-goc-va-y-nghia-ngay-phu-nu-viet-nam-20-10-d305548.html",
+   "https://vinwonders.com/?p=91817",
+   "https://pbgdpl.cantho.gov.vn/y-nghia-lich-su-ngay-2010-ngay-phu-nu-viet-nam",
+   "https://vinwonders.com/vi/wonderpedia/news/y-nghia-ngay-20-10/",
+   "https://hoanghamobile.com/tin-tuc/?p=268197",
+   "https://luatminhkhue.vn/ngay-le-20-10-co-duoc-nghi-khong.aspx",
+   "https://hoanghamobile.com/tin-tuc/20-10-la-ngay-gi/",
+   "https://vtcnews.vn/20-10-la-ngay-gi-ar827780.html"
+  ],
+  "note": "베트남 여성의 날(10/20, 1930 반제여성회 창립) 검색결과 확인"
+ },
+ {
+  "seq": 31,
+  "country": "VN",
+  "language": "vi",
+  "query": "Ngày Thầy thuốc Việt Nam 27/2 nguồn gốc thư Bác Hồ 1955 lương y như từ mẫu",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:11:37+00:00",
+  "result_urls": [
+   "https://baovanhoa.vn/van-hoa-va-thoi-luan/luong-y-nhu-tu-mau-62748.html",
+   "https://baovanhoa.vn/doi-song/ngay-thay-thuoc-viet-nam-207161.html",
+   "https://baovanhoa.vn/doi-song/ngay-thay-thuoc-viet-nam-207162.html",
+   "https://thitruongtaichinhtiente.vn/print/44483.html",
+   "https://daibieunhandan.vn/chu-tich-quoc-hoi-tran-thanh-man-du-le-ky-niem-70-nam-ngay-thay-thuoc-viet-nam-10360472.html",
+   "https://thitruongtaichinhtiente.vn/ky-niem-68-nam-ngay-thay-thuoc-viet-nam-27-2-1955-27-2-2023-theo-loi-dac-cua-bac-ho-44483.html",
+   "https://baovanhoa.vn/doi-song/luong-y-nhu-tu-mau-ngon-den-y-duc-soi-sang-hanh-trinh-nguoi-thay-thuoc-207230.html"
+  ],
+  "note": "베트남 의사의 날(2/27, 1955 호찌민 서한, 1985 지정) 검색결과 확인"
+ },
+ {
+  "seq": 32,
+  "country": "TH",
+  "language": "th",
+  "query": "พระราชพิธีพืชมงคลจรดพระนังคัลแรกนาขวัญ พระโคเสี่ยงทาย กินอะไร ฤกษ์ วันพืชมงคล 2569",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:13:31+00:00",
+  "result_urls": [
+   "https://www.thansettakij.com/economy/658130",
+   "https://www.thansettakij.com/economy/trade-agriculture/658130",
+   "https://www.khaosod.co.th/technologychaoban/?p=336629",
+   "https://www.thaipbs.or.th/now/content/2622",
+   "https://www.amarintv.com/news/social/545754",
+   "https://www.thansettakij.com/general-news/658896",
+   "https://www.thairath.co.th/news/local/bangkok/2932424",
+   "https://today.line.me/th/v3/article/j7vj96K",
+   "https://www.pptvhd36.com/video/news/218293"
+  ],
+  "note": "왕실 농경제(พืชมงคล) 2569 일정·소 점괘 검색결과 확인"
+ },
+ {
+  "seq": 33,
+  "country": "TH",
+  "language": "th",
+  "query": "ประเพณีผีตาโขน ด่านซ้าย เลย งานบุญหลวง กำหนดวัน เจ้าพ่อกวน ทรงเจ้า",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:13:31+00:00",
+  "result_urls": [
+   "https://www.bangkokbiznews.com/news/news-update/1239246",
+   "https://travel.trueid.net/detail/LVvK4MBE5q0z",
+   "https://travel.trueid.net/detail/QxqwQbK98Dqr",
+   "https://www.prd.go.th/th/content/category/detail/id/33/iid/514724",
+   "https://www.bangkokbiznews.com/news/761225",
+   "https://mgronline.com/travel/detail/9550000068811",
+   "https://thestandard.co/pm-phi-ta-khon-loei-economy/",
+   "https://www.thansettakij.com/lifestyle/travel-shopping/631215",
+   "https://www.gotoknow.org/posts/359835"
+  ],
+  "note": "피따콘(단사이) 2569 일정 검색결과 확인, 날짜 결정 방식은 결과에 없음"
+ },
+ {
+  "seq": 34,
+  "country": "TH",
+  "language": "th",
+  "query": "สงกรานต์ ยูเนสโก มรดกวัฒนธรรมที่จับต้องไม่ได้ 2566 13 เมษายน วันหยุด",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:13:31+00:00",
+  "result_urls": [
+   "https://www.prachachat.net/d-life/news-1455140",
+   "https://www.prachachat.net/?p=1455140",
+   "https://www.dailynews.co.th/news/2955153/",
+   "https://www.prachachat.net/hilight-prachachat/news-1455140",
+   "https://www.thailand-business-news.com/?p=117090",
+   "https://www.prd.go.th/th/content/category/detail/id/31/iid/238917",
+   "https://www.dailynews.co.th/news/3333616/",
+   "https://www.mitihoon.com/2023/04/05/374581/"
+  ],
+  "note": "송끄란 2023-12-06 UNESCO 등재 검색결과 확인"
+ },
+ {
+  "seq": 35,
+  "country": "TH",
+  "language": "th",
+  "query": "ลอยกระทง วันเพ็ญเดือนสิบสอง ประวัติ นางนพมาศ ความเชื่อ กรมศิลปากร",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:13:31+00:00",
+  "result_urls": [
+   "https://www.thaipbs.or.th/news/content/346058",
+   "https://www.silpa-mag.com/?p=12692",
+   "https://www.matichon.co.th/columnists/news_4873915",
+   "https://so04.tci-thaijo.org/index.php/JMA/article/view/274735",
+   "https://www.thaipbs.or.th/news/content/333566",
+   "https://www.gotoknow.org/posts/510384",
+   "https://image.mfa.go.th/mfa/0/pFxDf7ZYQ7/ไฟล์เอกสาร/ข้อมูลลอยกระทง_TH-EN.pdf",
+   "https://www.trueplookpanya.com/learning/detail/19887-00",
+   "https://www.rama.mahidol.ac.th/atrama/sites/default/files/public/pdf/column/%40Rama5_E12.pdf"
+  ],
+  "note": "로이끄라통(음력 12월 보름)·노ppamat 문헌 연대 논란 검색결과 확인"
+ },
+ {
+  "seq": 36,
+  "country": "TH",
+  "language": "th",
+  "query": "วันสงกรานต์ 13-15 เมษายน 2569 วันหยุดราชการ ประกาศ สำนักนายกรัฐมนตรี",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:14:30+00:00",
+  "result_urls": [
+   "https://image.mfa.go.th/mfa/0/pFxDf7ZYQ7/ประกาศวันหยุดเดือนเมษายน_69.pdf",
+   "https://flowaccount.com/blog/?p=25160",
+   "https://www.infoquest.co.th/?p=64932",
+   "https://www.naewna.com/likesara/931961",
+   "https://www.thansettakij.com/lifestyle/travel-shopping/653572",
+   "https://www.thansettakij.com/business/tourism/655845",
+   "https://www.thansettakij.com/lifestyle/travel-shopping/654192",
+   "https://www.bangkokbiznews.com/business/economic/1112945",
+   "https://www.thairath.co.th/news/society/2899469"
+  ],
+  "note": "송끄란 2569 공휴일 4/13~15 검색결과 확인"
+ },
+ {
+  "seq": 37,
+  "country": "ID",
+  "language": "id",
+  "query": "Hari Raya Nyepi Tahun Baru Saka Catur Brata Penyepian bandara Ngurah Rai tutup 24 jam 2026",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:16:21+00:00",
+  "result_urls": [
+   "https://www.jawapos.com/berita-daerah/2603130199/bandara-i-gusti-ngurah-rai-bali-tutup-24-jam-saat-nyepi-catat-jadwal-penerbangan-terakhir-dan-pertamanya",
+   "https://www.jawapos.com/berita-daerah/2603180356/bandara-i-gusti-ngurah-rai-bali-tutup-besok-pagi-untuk-nyepi-catat-jadwal-lengkapnya",
+   "https://ekonomi.bisnis.com/read/20260318/98/1961254/bandara-ngurah-rai-ditutup-sementara-jelang-nyepi-buka-lagi-jumat-20-maret",
+   "https://www.kompas.tv/info-publik/657190/jadwal-penutupan-bandara-pelabuhan-dan-terminal-di-bali-saat-nyepi-2026",
+   "https://www.metrotvnews.com/read/kj2CDD7Y-bandara-ngurah-rai-bali-mulai-ditutup-kamis-pagi",
+   "https://www.metrotvnews.com/read/NxGCPGDM-440-penerbangan-di-bandara-ngurah-rai-dibatalkan-saat-puncak-perayaan-nyepi",
+   "https://ekonomi.bisnis.com/read/20260309/98/1958993/mudik-lebaran-2026-bandara-ngurah-rai-bakal-layani-11-juta-penumpang",
+   "https://bali.antaranews.com/berita/400962/bandara-ngurah-rai-berhenti-operasi-sementara-24-jam-selama-nyepi",
+   "https://www.suarasurabaya.net/?p=504449"
+  ],
+  "note": "녜삐 2026(사카력 1948) 응우라라이 공항 24시간 폐쇄 검색결과 확인"
+ },
+ {
+  "seq": 38,
+  "country": "ID",
+  "language": "id",
+  "query": "Hari Batik Nasional 2 Oktober Keppres Nomor 33 Tahun 2009 UNESCO",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:16:21+00:00",
+  "result_urls": [
+   "https://www.goodnewsfromindonesia.id/infographic/di-balik-cerita-soal-batik-yang-menjadi-warisan-dunia",
+   "https://id.wikisource.org/wiki/Keputusan_Presiden_Republik_Indonesia_Nomor_33_Tahun_2009",
+   "https://www.goodnewsfromindonesia.id/2025/10/02/cara-asyik-rayakan-hari-batik-nasional",
+   "https://www.unpak.ac.id/pdf/2023/hari-batik-nasional.pdf",
+   "https://id.wikisource.org/wiki/Halaman:Keppre_33_2009.djvu/1",
+   "https://serealia.bsip.pertanian.go.id/berita/sejarah-hari-batik-sebuah-identitas-bangsa-indonesia",
+   "https://www.nu.or.id/nasional/ini-sejarah-penetapan-2-oktober-sebagai-hari-batik-nasional-e6CfG",
+   "https://www.pajak.go.id/id/artikel/hari-batik-nasional-ternyata-ada-lho-batik-sadar-pajak"
+  ],
+  "note": "바틱의 날(10/2, 대통령령 2009-33) 검색결과 확인"
+ },
+ {
+  "seq": 39,
+  "country": "ID",
+  "language": "id",
+  "query": "Pasola Sumba nyale cacing laut penentuan tanggal Rato adat Februari Maret",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:16:21+00:00",
+  "result_urls": [
+   "https://ejournal.upg45ntt.ac.id/jss/article/download/795/355/2516",
+   "https://kupang.antaranews.com/berita/14538/para-rato-berkumpul-memanggil-nyale-di-wanokaka",
+   "https://www.detik.com/bali/budaya/d-7332105/tradisi-pasola-di-sumba-barat-sejarah-hingga-waktu-pelaksanaan",
+   "https://www.liputan6.com/news/read/3322296/potret-kesatria-berkuda-tanah-sumba",
+   "https://www.goodnewsfromindonesia.id/2015/11/16/tradisi-sumba-ini-hanya-untuk-joki-yang-berani-mati",
+   "https://p2k.stekom.ac.id/ensiklopedia/Pasola",
+   "https://rri.co.id/gorontalo/berita-lain/2489556/mengenal-pasola-tradisi-unik-masyarakat-sumba-yang-mendunia",
+   "https://religionnews.com/2018/03/20/animist-war-game-ritual-lives-on-on-indonesian-christian-island/"
+  ],
+  "note": "파솔라(숨바) 날짜를 라토가 냘레 출현으로 결정 검색결과 확인"
+ },
+ {
+  "seq": 40,
+  "country": "ID",
+  "language": "id",
+  "query": "Hari Santri Nasional 22 Oktober Keppres Nomor 22 Tahun 2015 Resolusi Jihad",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:16:21+00:00",
+  "result_urls": [
+   "https://www.detik.com/jogja/berita/d-6988659/kapan-hari-santri-nasional-2023-berikut-sejarah-dan-cara-merayakannya",
+   "https://tirto.id/apa-itu-resolusi-jihad-dan-kaitannya-dengan-hari-santri-hj5a",
+   "https://nu.or.id/fragmen/sejarah-hari-santri-XE9hw",
+   "https://www.jawapos.com/nasional/2510220296/hari-santri-nasional-pengakuan-sejarah-tetesan-darah-perjuangan-ulama-santri-dalam-perjuangan-kemerdekaan",
+   "https://nu.or.id/fragmen/hari-santri-dan-sejarah-resolusi-jihad-nu-22-oktober-Glm4y"
+  ],
+  "note": "산트리의 날(10/22, 대통령령 2015-22, 1945 지하드 결의) 검색결과 확인"
+ },
+ {
+  "seq": 41,
+  "country": "MY",
+  "language": "ms",
+  "query": "Hari Gawai Dayak 1 Jun cuti umum Sarawak sejak 1965 diwartakan sejarah",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:18:14+00:00",
+  "result_urls": [
+   "https://utusansarawak.com.my/hari-gawai-dalam-sejarah-sarawak",
+   "https://www.bharian.com.my/amp/berita/nasional/2026/05/1561372/bhplus",
+   "https://www.thestar.com.my/news/nation/2024/06/01/hari-gawai",
+   "https://www.malaymail.com/news/malaysia/2026/05/28/dayak-community-works-to-keep-gawai-heritage-alive-as-traditions-fade/221676",
+   "https://www.timeout.com/kuala-lumpur/things-to-do/what-you-need-to-know-about-hari-gawai",
+   "https://www.bharian.com.my/amp/taxonomy/term/2647/2016/06/159685/bhplus",
+   "https://baskl.com.my/?p=19401",
+   "https://www.theborneopost.com/2014/06/01/a-state-of-happy-people/",
+   "https://thesun.my/malaysia-news/gawai-festival-unites-people-of-various-races-and-religions-eo12492125/"
+  ],
+  "note": "가와이 다약(6/1, 사라왁) 1965 공식 인정 표기 검색결과 확인"
+ },
+ {
+  "seq": 42,
+  "country": "MY",
+  "language": "ms",
+  "query": "Pesta Kaamatan 30 dan 31 Mei cuti umum Sabah Unduk Ngadau Bambaazon kaum Kadazandusun",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:18:14+00:00",
+  "result_urls": [
+   "https://en.wikipedia.org/wiki/Kaamatan",
+   "https://www.malaysiakini.com/news/380277",
+   "https://www.buro247.my/?p=107884",
+   "https://www.malaymail.com/news/malaysia/2017/04/29/sabah-mulls-national-level-holiday-for-kaamatan/1366475",
+   "https://library.sabah.gov.my/index.php/en/our-links/featured-articles/kaamatan-festival",
+   "https://blogmalaysia.com/public-holiday-sabah/",
+   "https://www.malaymail.com/news/malaysia/2017/05/28/minister-wants-harvest-festival-holiday-for-east-malaysians-in-peninsula/1386669",
+   "https://ttrweekly.com/site/2021/01/harvest-festivals-join-cuti-cuti-calendar"
+  ],
+  "note": "카아마탄(5/30~31, 사바) 검색결과 확인"
+ },
+ {
+  "seq": 43,
+  "country": "MY",
+  "language": "ms",
+  "query": "Hari Malaysia 16 September cuti umum persekutuan 2010 pembentukan Malaysia 1963 Sabah Sarawak",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:18:14+00:00",
+  "result_urls": [
+   "https://testastro.malaysiakini.com/news/115334-public-holiday-for-sept-16",
+   "https://www.kosmo.com.my/?p=187532",
+   "https://utusansarawak.com.my/?p=15930",
+   "https://www.kosmo.com.my/2021/10/23/isu-ma63-hari-malaysia-antara-pindaan-dalam-perlembagaan/",
+   "https://says.com/my/stories/tagged/16september",
+   "https://www.malaysia.gov.my/en/government/public-holidays--school-holidays/cuti-umum",
+   "https://www.bharian.com.my/amp/berita/nasional/2024/08/1279654/bhplus"
+  ],
+  "note": "말레이시아의 날(9/16) 2010 전국 공휴일 검색결과 확인"
+ },
+ {
+  "seq": 44,
+  "country": "MY",
+  "language": "ms",
+  "query": "Thaipusam Batu Caves kavadi bulan Thai bintang Pusam cuti umum negeri 2026",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:18:14+00:00",
+  "result_urls": [
+   "https://blogmalaysia.com/public-holiday-kuala-lumpur/",
+   "https://blogmalaysia.com/public-holiday-selangor/",
+   "https://says.com/my/news/these-7-states-will-not-observe-a-thaipusam-public-holiday-on-1-february-2026",
+   "https://www.eskimo.travel/vn/blog/malaysia-public-holidays-2026-vn",
+   "https://web11.bernama.com/en/news.php?id=2516486",
+   "https://www.trip.com/guide/info/malaysia-public-holidays.html",
+   "https://thesun.my/?p=160787",
+   "https://hindutone.com/festivals/hindu-festivals-in-malaysia-2026-2027/"
+  ],
+  "note": "타이푸삼 2026 날짜(2/1 다수, 2/5 등 상충)·주별 휴일 검색결과 확인"
+ },
+ {
+  "seq": 45,
+  "country": "PH",
+  "language": "fil",
+  "query": "Simbang Gabi siyam na araw Disyembre 16 hanggang 24 madaling araw tradisyon pinagmulan",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:20:33+00:00",
+  "result_urls": [
+   "https://www.jawapos.com/internasional/2512150299/simbang-gabi-di-filipina-tradisi-misa-subuh-menjelang-natal-yang-penuh-makna-dan-kebersamaan",
+   "https://chvnradio.com/articles/600-year-old-filipino-christmas-tradition-lives-on",
+   "https://es.catholic.net/imprimir.php?id=60526",
+   "https://kualalumpurpe.dfa.gov.ph/newsroom/press-releases/692-traditional-simbang-gabi-kicks-off-in-kuala-lumpur",
+   "https://philippines.licas.news/?p=193068",
+   "https://rove.me/de/to/philippines/simbang-gabi-misa-de-gallo",
+   "https://dfa.gov.ph/authentication-functions/254-christmas-2017/15103-geneva-observes-filipino-tradition-of-simbang-gabi",
+   "https://www.philstar.com/headlines/2012/12/16/886551/headlines"
+  ],
+  "note": "심방가비(12/16~24 새벽 미사 9일) 검색결과 확인"
+ },
+ {
+  "seq": 46,
+  "country": "PH",
+  "language": "fil",
+  "query": "Pahiyas Festival Lucban Mayo 15 San Isidro Labrador kiping palamuti bahay",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:20:33+00:00",
+  "result_urls": [
+   "https://www.outlooktraveller.com/News/philippines-pahiyas-festival",
+   "https://ph.asiatatler.com/life/fiesta-filipinas-summer-festivals",
+   "https://www.outlookindia.com/traveller/destinations/philippines-pahiyas-festival/",
+   "https://alpha.pna.gov.ph/articles/1174817",
+   "https://newsinfo.inquirer.net/603163/lucbans-pahiyas-goes-simple-uses-actual-produce",
+   "https://artesdelasfilipinas.com/archives.php?page_id=22",
+   "https://www.nomadicexperiences.com/2025/05/lucbans-pahiyas-festival-celebration.html"
+  ],
+  "note": "파히야스(루크반 5/15) 검색결과 확인(영어 자료 위주)"
+ },
+ {
+  "seq": 47,
+  "country": "PH",
+  "language": "fil",
+  "query": "Araw ng mga Bayani huling Lunes ng Agosto Republic Act 9492 regular holiday",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:20:33+00:00",
+  "result_urls": [
+   "https://www.officeholidays.com/holidays/philippines/philippines-national-heroes-day",
+   "https://laws.chanrobles.com/republicacts/95_republicacts.php?id=9359",
+   "https://legacy.senate.gov.ph/republic_acts/ra%209492.pdf",
+   "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/8424",
+   "https://batasnatin.com/laws/ra-9492",
+   "https://lawyerly.ph/laws/view/l20e8",
+   "https://lawphil.net/statutes/repacts/ra2007/ra_9492_2007.html",
+   "https://lawphil.net/executive/proc/proc2008/proc_1463_2008.html",
+   "https://negrosnowdaily.com/san-carlos-observes-national-heroes-day/"
+  ],
+  "note": "영웅의 날(8월 마지막 월요일, RA 9492) 검색결과 확인"
+ },
+ {
+  "seq": 48,
+  "country": "PH",
+  "language": "fil",
+  "query": "Sinulog Festival ikatlong Linggo ng Enero Santo Niño Cebu kasaysayan 1980",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:20:33+00:00",
+  "result_urls": [
+   "https://en.wikipedia.org/wiki/Sinulog",
+   "https://www.philstar.com/cebu-lifestyle/2007/01/20/380939/sinulog-dance-centuries-past",
+   "https://cebudailynews.inquirer.net/?p=279810",
+   "https://www.philstar.com/opinion/2007/01/20/380837/sinulog-festival",
+   "https://www.sunstar.com.ph/more-articles/sinulog-started-with-pe-students-says-odilao",
+   "https://www.cebu.ph.emb-japan.go.jp/itpr_ja/11_000001_00547.html"
+  ],
+  "note": "시눌로그(1월 셋째 일요일, 1980 첫 행렬) 검색결과 확인"
+ },
+ {
+  "seq": 49,
+  "country": "SG",
+  "language": "en",
+  "query": "Total Defence Day 15 February Singapore sirens Important Message signal 1942 fall of Singapore schools commemorate",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:22:47+00:00",
+  "result_urls": [
+   "https://en.wikipedia.org/wiki/Public_Warning_System_(Singapore)",
+   "https://www.scdf.gov.sg/eventslisting/newsarticledetail/Island-wide-Sounding-of-The-Public-Warning-System-(PWS)-on-Monday-15-February-2016-at-6-20-PM",
+   "https://www.sg101.gov.sg/resources/archives/totaldefence-singapores-public-warning-system/",
+   "https://littledayout.com/scdf-public-warning-system-siren-15-february",
+   "https://www.timeout.com/singapore/news/what-is-total-defence-day-and-why-do-we-commemorate-it-021522",
+   "https://www.concordpri.moe.edu.sg/departments/cce/total-defence-day-commemoration/",
+   "https://thesmartlocal.com/read/sdc-total-defence-day-2022/"
+  ],
+  "note": "총방위의 날(2/15) 사이렌 6:20pm·1942 함락 검색결과 확인"
+ },
+ {
+  "seq": 50,
+  "country": "SG",
+  "language": "zh-Hans",
+  "query": "新加坡 九皇爷诞 农历九月初一至初九 九皇大帝 后港斗母宫 送驾",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:22:47+00:00",
+  "result_urls": [
+   "https://gs.ctrip.com/html5/you/sight/singapore53/5485109.html",
+   "https://cdn.singaporeccc.org.sg/sccc/uploads/2023/07/Nine-Emperor-Gods-Vol-2B.pdf",
+   "https://www.roots.gov.sg/ich-landing/ich/the-nine-emperor-gods-festival",
+   "https://www.thenewslens.com/article/123589",
+   "https://www.iias.asia/the-newsletter/article/nine-emperor-gods-festival-southeast-asia-history-networks-and-identity",
+   "https://nineemperorgodsproject.com/our-publication/",
+   "https://nineemperorgodsproject.com/2018/10/22/hougang-dou-mu-gong-temple-%e5%90%8e%e6%b8%af%e6%96%97%e6%af%8d%e5%ae%ab-2017-english-version/"
+  ],
+  "note": "구황야탄(음력 9/1~9) 후강 두무궁 검색결과 확인"
+ },
+ {
+  "seq": 51,
+  "country": "SG",
+  "language": "en",
+  "query": "MOE Teachers' Day first Friday of September school holiday Children's Day first Friday of October Singapore",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:22:47+00:00",
+  "result_urls": [
+   "https://tampinespri.moe.edu.sg/files/tpps-51-2023%20-%20memo%20sep%202023.pdf",
+   "https://littledayout.com/?p=263627",
+   "https://www.littledayout.com/moe-school-holidays-2021-and-term-dates/",
+   "https://thenewageparents.com/moe-school-holidays-2023-singapore/",
+   "https://tutorsplus.com/list-of-singapore-school-holidays/",
+   "https://littlebigreddot.com/?p=24079",
+   "https://lilbutmightyenglish.com/blog/moe-school-holidays-2027-singapore/"
+  ],
+  "note": "싱가포르 교사의 날(대개 9월 첫 금요일, 2023 예외)·어린이날(10월 첫/둘째 금요일) 검색결과 확인"
+ },
+ {
+  "seq": 52,
+  "country": "IN",
+  "language": "hi",
+  "query": "हिंदी दिवस 14 सितंबर 1949 संविधान सभा राजभाषा पहली बार 1953 मनाया गया",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:24:28+00:00",
+  "result_urls": [
+   "https://navbharatlive.com/india/hindi-diwas-2026-why-hindi-is-not-national-language-of-india-kns18",
+   "https://www.drishtiias.com/hindi/mains-practice-question/question-1915/pnt",
+   "https://navbharatlive.com/special-coverage/hindi-diwas-history-14-september-1949-rajbhasha-first-hindi-day-1953-asp28",
+   "https://hindinews.careers360.com/national-hindi-day-2025-on-september-14-theme-history-and-important-facts-about-this-day/amp",
+   "https://www.drishtiias.com/hindi/daily-updates/prelims-facts/hindi-diwas-1/print/manual"
+  ],
+  "note": "힌디어의 날(9/14, 1949 제헌의회·1953 첫 기념) 검색결과 확인"
+ },
+ {
+  "seq": 53,
+  "country": "IN",
+  "language": "hi",
+  "query": "राष्ट्रीय विज्ञान दिवस 28 फरवरी रमन प्रभाव 1928 1987 से मनाया जाता है NCSTC",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:24:28+00:00",
+  "result_urls": [
+   "https://www.drishtiias.com/hindi/prelims-facts/national-science-day-2022",
+   "https://www.drishtiias.com/hindi/printpdf/national-science-day-2021",
+   "https://www.prabhatkhabar.com/life-and-style/national-science-day-2022-national-science-day-being-celebrated-today-know-this-years-theme-history-and-importance-tvi",
+   "https://byjus.com/ias-hindi/national-science-day-in-hindi/",
+   "https://www.drishtiias.com/hindi/daily-updates/prelims-facts/national-science-day-2023/print/manual"
+  ],
+  "note": "국가 과학의 날(2/28, 라만 효과) 검색결과 확인"
+ },
+ {
+  "seq": 54,
+  "country": "IN",
+  "language": "hi",
+  "query": "करवा चौथ कार्तिक कृष्ण चतुर्थी निर्जला व्रत चंद्रमा अर्घ्य छलनी 2026 तिथि",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:24:28+00:00",
+  "result_urls": [
+   "https://astrotalk.com/hi/festival/karwa-chauth",
+   "https://panchangbodh.com/hi/karwa-chauth",
+   "https://www.ganeshaspeaks.com/hindi/festival-calendars/information/karwa-chauth-and-some-famous-aspects/",
+   "https://shubhpanchang.com/hi/festivals/karava-chauth",
+   "https://ishvaram.com/hi/karwa-chauth-2026/",
+   "https://grahaguru.in/hi/blog/karwa-chauth-2026-date-muhurat"
+  ],
+  "note": "카르와 차우트(카르티크 흑분 4일) 2026 날짜 상충(10/29 다수, 10/25 일부) 검색결과 확인"
+ },
+ {
+  "seq": 55,
+  "country": "IN",
+  "language": "hi",
+  "query": "रक्षाबंधन श्रावण पूर्णिमा राखी भद्रा काल 2026 तिथि भाई बहन",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T02:24:28+00:00",
+  "result_urls": [
+   "https://www.prabhatkhabar.com/religion/raksha-bandhan-2026-correct-date-auspicious-time-for-tying-rakhi-and-bhadra-kaal-samay",
+   "https://www.aajtak.in/religion/news/story/raksha-bandhan-2026-date-shubh-muhurt-of-tie-rakhi-bhadra-kaal-timing-kab-hai-raksha-bandhan-tvisu-dskc-2600426-2026-08-01",
+   "https://www.aajtak.in/religion/festivals/story/raksha-bandhan-2026-kab-hai-date-tithi-know-rakhi-bandhane-ka-shubh-muhurat-pujan-vidhi-tvisg-dskc-2609833-2026-07-27",
+   "https://panchangbodh.com/hi/raksha-bandhan-2026",
+   "https://navbharatlive.com/religion/raksha-bandhan-2026-bhadra-shubh-sanyog",
+   "https://grahaguru.in/hi/blog/raksha-bandhan-2026-date-muhurat"
+  ],
+  "note": "락샤 반단(슈라와나 보름) 2026-08-28 검색결과 확인"
+ }
+]

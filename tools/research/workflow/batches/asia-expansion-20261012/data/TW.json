@@ -1,0 +1,305 @@
+{
+ "country": "TW",
+ "country_ko": "대만",
+ "search_language": "zh-Hant",
+ "sources": {
+  "newslens": "The News Lens 關鍵評論網 (2026)",
+  "smiletaiwan": "微笑台灣 (天下雜誌)",
+  "businessweekly": "商業周刊",
+  "ey-7df9": "行政院 (대만 행정원 보도, 2016-07-29)",
+  "newslens-45468": "The News Lens (중앙사·연합보 인용, 2016)",
+  "ey-0d22": "行政院 (원장 발언 보도)",
+  "cna-2018": "中央社 CNA (2018-09-16)",
+  "nownews-6876428": "NOWnews 今日新聞 (2026)",
+  "nownews-6372410": "NOWnews 今日新聞 (228 해설)",
+  "udn-9347148": "聯合報 udn (2026, 노동부 설명)"
+ },
+ "summary_ko": "대만은 공식 추모·기념일(228 평화기념일·원주민족일·국가방재일)과 종교 축제(다자 마쭈 순행)를 찾았다. 이전 배치가 520·교사절(9/28)·웨이야를 이미 다뤘고 서비스에 행헌기념일(12/25)이 있다. 228은 한국 2·28 민주운동 기념일과 날짜만 같고 사건이 전혀 다르다.",
+ "limits": "다자 마쭈 출발일은 매년 擲筊로 정해 규칙이 없다. 마쭈 탄신(음력 3/23)·토지공 생일(음력 2/2)은 표 키가 없어 별도 후보로 깊이 조사하지 않았다. 기념일 및 절일 실시조례 법령 원문은 수집하지 않았다.",
+ "candidates": [
+  {
+   "aliases": [
+    "228",
+    "Peace Memorial Day (Taiwan)"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [
+    "gov-1"
+   ],
+   "related_prior_candidates": [],
+   "quirk": null,
+   "candidate_key": "tw-228-peace-day",
+   "name_original": "和平紀念日（二二八）",
+   "name_ko": "228 평화기념일(대만)",
+   "date_type": "annual-fixed",
+   "date_rule": "02-28",
+   "date_note": "1995년 기념일, 1997년부터 국정 공휴일",
+   "app_date_support": "supported",
+   "scope": "대만 국정 공휴일·추모일",
+   "kind": "official_memorial",
+   "kind_group": "national_official",
+   "officiality": "official_national",
+   "meaning_ko": "1947년 2월 28일 대만에서 일어난 228사건과 이후 유혈 진압 희생자를 기리는 대만의 추모일이자 공휴일이다. 1995년 \"228사건 처리 및 보상 조례\"로 쉬지 않는 \"평화기념일\"이 됐고, 1997년 중화민국 최초의 법정 공휴일이 됐다. 노동부는 이날 근무하면 임금을 두 배로 줘야 한다고 안내한다.",
+   "founder_origin": "1995 입법원(228사건 처리 및 보상 조례) → 1997 공휴일",
+   "founder_check_level": "news_read_two_outlets",
+   "founder_check": "partial",
+   "claims": [
+    {
+     "claim_id": "law_1995_1997",
+     "claim_ko": "1995년 조례로 평화기념일, 1997년 국정 공휴일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "nownews-6372410",
+       "quote": "1995年3月22日，立法院三讀通過《二二八事件處理及補償條例》，將2月28日法定為非假日的紀念日，定名為「和平紀念日」；1997年2月25日將原本不放假的2月28日改為國定假日，為中華民國第一個法定的國定假日。",
+       "quote_ko": "1995년 3월 22일 입법원이 228사건 처리·보상 조례를 3독 통과시켜 2월 28일을 쉬지 않는 법정 기념일 \"평화기념일\"로 정했고, 1997년 2월 25일 국정 공휴일로 바꿨다."
+      }
+     ]
+    },
+    {
+     "claim_id": "holiday_2026",
+     "claim_ko": "2026년 2월 28일 평화기념일은 국정 공휴일(노동부)",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "udn-9347148",
+       "quote": "勞動部指出，2026年2月28日（星期六）和平紀念日為國定假日",
+       "quote_ko": "노동부는 2026년 2월 28일(토) 평화기념일이 국정 공휴일이라고 밝혔다."
+      }
+     ]
+    }
+   ],
+   "distinct_reason": "한국 2·28 민주운동 기념일(대구, 1960)과 날짜만 같고 사건·나라가 다름",
+   "uncertainty": "\"첫 법정 공휴일\" 표현은 NOWnews 해설 기준. 법령 원문 미수집. 228사건 사망자 수 등 역사 수치는 본문에 쓰지 말 것(출처 미수집).",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "Indigenous Peoples' Day (Taiwan)"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [
+    "anv-fixed-08-09-international-day-of-worlds-indigenous-peoples-global"
+   ],
+   "related_prior_candidates": [],
+   "quirk": "법조문의 단어 하나가 바뀐 날이 기념일이 됐다",
+   "candidate_key": "tw-indigenous-day",
+   "name_original": "原住民族日",
+   "name_ko": "원주민족일(대만) — \"산포\"에서 \"원주민\"으로 이름을 되찾은 날",
+   "date_type": "annual-fixed",
+   "date_rule": "08-01",
+   "date_note": "2016년 행정원 동의로 명정",
+   "app_date_support": "supported",
+   "scope": "대만 정부 지정 기념일(공휴일 아님)",
+   "kind": "official_memorial",
+   "kind_group": "national_official",
+   "officiality": "official_observance_not_holiday",
+   "meaning_ko": "1994년 8월 1일 개정 헌법 조문이 공포돼 40여 년 써 온 \"산포(山胞, 산에 사는 동포)\"라는 호칭이 \"원주민\"으로 바뀐 날을 기리는 대만의 기념일이다. 2016년 원주민족위원회의 요청을 행정원이 받아들여 정식으로 명정했다. 유엔 세계 원주민의 날(8월 9일)과는 다른 날이다.",
+   "founder_origin": "2016-07-29 행정원 동의(원주민족위원회 요청)",
+   "founder_check_level": "official_gov_read",
+   "founder_check": "confirmed",
+   "claims": [
+    {
+     "claim_id": "ey_2016",
+     "claim_ko": "원민회 요청을 행정원이 동의, 8월 1일 명정",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "ey-7df9",
+       "quote": "原住民族委員會簽請行政院明定8月1日為「原住民族日」，行政院予以同意。",
+       "quote_ko": "원주민족위원회가 8월 1일을 원주민족일로 명정해 달라고 요청했고 행정원이 동의했다."
+      },
+      {
+       "evidence_id": "ey-7df9",
+       "quote": "日期：105-07-29",
+       "quote_ko": "날짜: 민국 105년(2016) 7월 29일"
+      }
+     ]
+    },
+    {
+     "claim_id": "name_1994",
+     "claim_ko": "1994-08-01 헌법 증수조문 공포로 \"산포\"→\"원주민\"",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "ey-7df9",
+       "quote": "增修條文於1994年8月1日經總統公布施行，回應原住民族10年來的訴求，正式將沿用40餘年之「山胞」正名為「原住民」。",
+       "quote_ko": "증수조문이 1994년 8월 1일 총통 공포·시행돼, 원주민족의 10년 요구에 응해 40여 년 쓰던 \"산포\"를 \"원주민\"으로 정명했다."
+      },
+      {
+       "evidence_id": "newslens-45468",
+       "quote": "原住民族委員會簽請行政院明定8月1日為「原住民族日」，行政院長林全上午核定予以同意。",
+       "quote_ko": "원주민족위원회의 요청을 행정원장 린취안이 오전에 핵정·동의했다."
+      }
+     ]
+    }
+   ],
+   "distinct_reason": "유엔 세계 원주민의 날(8/9)과 날짜·근거가 다른 대만 고유 기념일",
+   "uncertainty": "2005년 행정원 실시조례 초안 통과·2005년 첫 행사 등 이전 경과는 검색결과만. 공휴일 아님(원주민 대상 휴일 여부는 미확인).",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "921",
+    "National Disaster Prevention Day (Taiwan)"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [
+    "anv-fixed-05-25-disaster-prevention-day-kr"
+   ],
+   "related_prior_candidates": [],
+   "quirk": "매년 이날 전 국민 휴대전화에 지진 경보 시험 문자가 온다",
+   "candidate_key": "tw-disaster-prevention-day",
+   "name_original": "國家防災日",
+   "name_ko": "국가방재일(대만) — 921 대지진을 기억하는 날",
+   "date_type": "annual-fixed",
+   "date_rule": "09-21",
+   "date_note": "매년 9월 21일. 2000년 \"재해방구일\" → 2002년 \"국가방재일\" 개칭(NOWnews)",
+   "app_date_support": "supported",
+   "scope": "대만 정부 지정 기념일(공휴일 아님), 전국 지진 훈련",
+   "kind": "official_memorial",
+   "kind_group": "national_official",
+   "officiality": "official_observance_not_holiday",
+   "meaning_ko": "1999년 9월 21일 난터우 지지(集集)에서 일어난 규모 7.3 지진으로 2,455명이 숨진 \"921 대지진\"을 기억하며 방재 의식을 높이는 대만의 날이다. 이날 전국이 함께 지진 대피 훈련을 하고 휴대전화로 시험 경보가 발송된다. 대만 역사상 가장 큰 인명 피해를 낸 지진은 사실 1935년 신주-타이중 지진이라는 점도 함께 소개된다.",
+   "founder_origin": "행정원 지정(2000 재해방구일 → 2002 국가방재일, 연도 표기 상충)",
+   "founder_check_level": "official_and_news_read_year_conflict",
+   "founder_check": "partial",
+   "claims": [
+    {
+     "claim_id": "reason",
+     "claim_ko": "1999-09-21 지진 2,455명 사망, 방재 중시 위해 9월 21일 지정",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "cna-2018",
+       "quote": "民國88年9月21日南投集集發生芮氏規模7.3的淺層地震，劇烈搖晃造成全台2455人死亡、1萬1305人受傷，房屋全倒與半倒數量近8萬5000戶，為喚起國人對防災的重視，將每年9月21日訂為「國家防災日」。",
+       "quote_ko": "1999년 9월 21일 난터우 지지에서 규모 7.3 천발지진이 일어나 2,455명이 숨지고 11,305명이 다쳤으며, 방재 경각심을 위해 매년 9월 21일을 국가방재일로 정했다."
+      }
+     ]
+    },
+    {
+     "claim_id": "drill",
+     "claim_ko": "행정원장: 전국 같은 날 지진 훈련",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "ey-0d22",
+       "quote": "政府已將每年9月21日訂定為「國家防災日」，全國在同一天共同辦理地震演練",
+       "quote_ko": "정부는 매년 9월 21일을 국가방재일로 정해 전국이 같은 날 지진 훈련을 한다."
+      }
+     ]
+    },
+    {
+     "claim_id": "naming_year",
+     "claim_ko": "2000년 재해방구일 설립, 2002년 개칭",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "nownews-6876428",
+       "quote": "行政院於 2000 年設立「災害防救日」，並於 2002 年更名為「國家防災日」",
+       "quote_ko": "행정원이 2000년 재해방구일을 만들고 2002년 국가방재일로 이름을 바꿨다."
+      }
+     ]
+    }
+   ],
+   "distinct_reason": "한국 방재의 날(05-25)과 나라·날짜·계기가 다른 별개",
+   "uncertainty": "지정 연도는 출처마다 2000/2002(검색결과에선 민국 91년 발표설도) — 본문엔 \"2000년대 초\"로. 행정원 원 공고 미확인.",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "大甲媽",
+    "三月瘋媽祖"
+   ],
+   "search_result_only": [
+    {
+     "url": "https://www.businessweekly.com.tw/style/blog/3020833",
+     "note": "상업주간 일정 안내 — 수집 실패(BadStatusLine)"
+    }
+   ],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": "행사 날짜를 해마다 신에게 점괘로 물어 정한다",
+   "candidate_key": "tw-dajia-mazu",
+   "name_original": "大甲媽祖遶境進香",
+   "name_ko": "다자 마쭈 순행 — 날짜를 신에게 점쳐 정하는 9일간의 도보 순례",
+   "date_type": null,
+   "date_rule": null,
+   "date_rule_folk": "매년 원소절(음력 1/15) 밤 鎮瀾宮에서 擲筊(반달형 점괘 던지기)로 출발 일시 결정. 대개 음력 3월(마쭈 탄신 3/23 전후)",
+   "date_note": "2026년은 4월 17일 밤 출발·4월 26일 귀환(원문). 해마다 점괘로 정해 규칙이 없음 → 앱 표현 불가(annual-floating 연도별 입력만 가능).",
+   "app_date_support": "unsupported",
+   "scope": "대만 타이중 다자 鎮瀾宮 주관, 중·장화·윈린·자이 4개 현시 순례(종교 축제)",
+   "kind": "religious_pilgrimage",
+   "kind_group": "festival_local",
+   "officiality": "religious_festival",
+   "meaning_ko": "바다의 여신 마쭈의 가마를 메고 타이중 다자 전란궁에서 자이 신강 펑톈궁까지 300km 넘게 9일 8박 걷는 대만 최대의 종교 행렬로 \"지상 최대의 이동\"이라 불린다. 출발 날짜와 시각은 사람이 아니라 매년 원소절 밤 반달 모양 점괘(擲筊)를 던져 \"마쭈가 직접\" 정한다. 참가자는 출발 3일 전부터 채식을 지킨다.",
+   "founder_origin": "제정자 없음(사묘 전통). 시작 연대 미확인",
+   "founder_check_level": "religious_tradition_news_read",
+   "founder_check": "not_applicable",
+   "claims": [
+    {
+     "claim_id": "jiaobei_date",
+     "claim_ko": "매년 원소절 밤 擲筊로 출발 일시 결정, 2026년 4/17 출발·4/26 귀환",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "newslens",
+       "quote": "每年元宵夜透過「筊筶」（擲筊）的方式由媽祖親自決定出發日期與時辰，而今年選定在4月17日晚上10點55分，從台中市大甲區鎮瀾宮起駕，沿途經過中、彰、雲、嘉4縣市，全程超過300公里，預計4月26日回鑾。",
+       "quote_ko": "매년 원소절 밤 擲筊로 마쭈가 직접 출발 날짜와 시각을 정하며, 올해는 4월 17일 밤 10시 55분 다자 전란궁에서 출발해 4개 현시 300km 넘게 돌아 4월 26일 귀환한다."
+      }
+     ]
+    },
+    {
+     "claim_id": "nine_days",
+     "claim_ko": "9일 8박, 신강 펑톈궁 왕복",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "newslens",
+       "quote": "9天8夜的進香行程，從台中大甲鎮瀾宮起駕出鑾，南下至嘉義新港奉天宮，再折返鎮瀾宮回鑾。",
+       "quote_ko": "9일 8박 진향 일정으로 다자 전란궁에서 출발해 자이 신강 펑톈궁까지 내려갔다 돌아온다."
+      }
+     ]
+    },
+    {
+     "claim_id": "vegetarian",
+     "claim_ko": "출발 3일 전부터 채식",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "newslens",
+       "quote": "起駕出發前3天必須茹素除淨身業",
+       "quote_ko": "출발 3일 전부터 채식으로 몸을 정결히 해야 한다"
+      }
+     ]
+    },
+    {
+     "claim_id": "departure_time_conflict",
+     "claim_ko": "출발 시각이 같은 기사 안에서 22:55 와 22:05 로 다름",
+     "verdict": "conflicting",
+     "evidence": [
+      {
+       "evidence_id": "newslens",
+       "quote": "起駕：4月17日（五）22：05（起點：台中市大甲區鎮瀾宮）",
+       "quote_ko": "출발: 4월 17일(금) 22:05"
+      }
+     ]
+    },
+    {
+     "claim_id": "mazu_season",
+     "claim_ko": "원소 이후 음력 3/23 마쭈 탄신까지 \"삼월에 마쭈에 미친다\"",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "smiletaiwan",
+       "quote": "「三月瘋媽祖」，每年元宵過後到農曆三月廿三日媽祖生日這段期間，各地媽祖廟都有如嘉年華會般沸騰",
+       "quote_ko": "\"삼월 마쭈 열풍\" — 매년 원소 이후 음력 3월 23일 마쭈 탄신까지 각지 마쭈 사당이 축제처럼 들끓는다"
+      }
+     ]
+    }
+   ],
+   "uncertainty": "순행 상세는 원문 1곳(뉴스렌즈) 중심 → 단일 출처. 출발 시각은 같은 기사에서도 22:05/22:55 상충. 시작 연대·\"지상 최대\" 표현의 근거는 미확인.",
+   "confidence": "medium"
+  }
+ ]
+}

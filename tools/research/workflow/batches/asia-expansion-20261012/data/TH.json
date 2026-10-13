@@ -1,0 +1,322 @@
+{
+ "country": "TH",
+ "country_ko": "태국",
+ "search_language": "th",
+ "sources": {
+  "thansettakij": "ฐานเศรษฐกิจ Thansettakij (2026)",
+  "thaipbs-2622": "Thai PBS (태국 공영방송)",
+  "prd-514724": "태국 정부 홍보청 PRD",
+  "thestandard": "THE STANDARD (2026-06-21)",
+  "gotoknow-359835": "GotoKnow (개인 블로그, 2010 TAT 일정 전재)",
+  "prachachat": "ประชาชาติธุรกิจ Prachachat (2023)",
+  "prd-238917": "태국 정부 홍보청 PRD",
+  "thairath-2899469": "ไทยรัฐ Thairath (2569 공휴일)",
+  "infoquest": "InfoQuest (2569 공휴일)",
+  "thaipbs-333566": "Thai PBS (문화진흥국 책 인용)",
+  "silpa-12692": "ศิลปวัฒนธรรม Silpa-mag (역사문화 잡지)",
+  "mfa-pdf": "태국 외교부 자료(문화진흥국 원고 수록 PDF)"
+ },
+ "summary_ko": "태국은 송끄란(4/13~15, 2023 UNESCO), 로이끄라통(태국력 12월 보름), 왕실 농경제(왕실 점성으로 날짜 결정, 신성한 소가 고른 음식으로 풍흉 점괘), 단사이 피따콘 축제를 찾았다. 이전 native 배치가 스승의 날(1/16)·나이카놈똠(3/17)을 다뤘다. 넷 중 셋이 해마다 날짜가 바뀌어 앱 규칙으로 표현할 수 없다.",
+ "limits": "정부 홍보청(PRD) 페이지는 두 번 다 404. 피따콘 날짜는 \"정령 매개자(เจ้าพ่อกวน) 신탁으로 정한다\"는 설이 있으나 원문에서 확인하지 못해 쓰지 않았다. 어머니의 날(8/12)·아버지의 날(12/5) 등 왕실 기념일은 조사하지 않았다.",
+ "candidates": [
+  {
+   "aliases": [
+    "Songkran",
+    "วันสงกรานต์"
+   ],
+   "search_result_only": [
+    {
+     "url": "https://www.prd.go.th/th/content/category/detail/id/31/iid/238917",
+     "note": "정부 홍보청 무형유산 목록 기사 — 404"
+    }
+   ],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": "새해 인사가 낯선 사람에게 물총을 쏘는 일이 됐다",
+   "candidate_key": "th-songkran",
+   "name_original": "สงกรานต์",
+   "name_ko": "송끄란 — 물 뿌리는 태국 설",
+   "date_type": "annual-fixed",
+   "date_rule": "04-13",
+   "date_note": "공휴일 4월 13~15일(2569=2026년 원문). 첫날 04-13 로 등록 가능.",
+   "app_date_support": "supported",
+   "scope": "태국 전국 공휴일·전통 설(UNESCO 인류무형유산 2023)",
+   "kind": "national_festival",
+   "kind_group": "folk_religious",
+   "officiality": "official_national",
+   "meaning_ko": "4월 13~15일 태국의 전통 새해로, 불상에 물을 붓고 어른 손에 물을 부어 축복을 받는 풍습이 거리의 대규모 물싸움 축제로 커졌다. 2023년 12월 6일 유네스코가 \"태국의 송끄란\"을 인류무형문화유산으로 등재했다. 사흘이 국가 공휴일이다.",
+   "founder_origin": "전통 명절",
+   "founder_check_level": "news_read",
+   "founder_check": "not_applicable",
+   "claims": [
+    {
+     "claim_id": "unesco_2023",
+     "claim_ko": "2023-12-06 UNESCO \"태국의 송끄란\" 등재",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "prachachat",
+       "quote": "เมื่อวันที่ 6 ธันวาคม 2566 องค์การการศึกษา วิทยาศาสตร์ และวัฒนธรรมแห่งสหประชาชาติ หรือ “ยูเนสโก” ได้ประกาศขึ้นทะเบียน “สงกรานต์ในประเทศไทย”",
+       "quote_ko": "2023년 12월 6일 유네스코가 \"태국의 송끄란\"을 등재했다"
+      }
+     ]
+    },
+    {
+     "claim_id": "holiday_2569",
+     "claim_ko": "2569(2026)년 4월 13~15일 공휴일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "thairath-2899469",
+       "quote": "วันจันทร์ที่ 13 เมษายน 2569 : วันสงกรานต์",
+       "quote_ko": "2026년 4월 13일(월): 송끄란"
+      },
+      {
+       "evidence_id": "thairath-2899469",
+       "quote": "วันพุธที่ 15 เมษายน 2569 : วันสงกรานต์",
+       "quote_ko": "2026년 4월 15일(수): 송끄란"
+      }
+     ]
+    }
+   ],
+   "distinct_reason": "스리랑카 신할라·타밀 새해(4/13~14)·미얀마 띤잔 등 같은 시기 남·동남아 새해와 관련되나 각국 고유 명절. 이번 배치에서 스리랑카를 별도로 다룰 경우 상호 참조",
+   "uncertainty": "물 뿌리기 기원·의례 세부는 이번 원문에서 인용 안 함. 고정일 4/13 은 공휴일 기준(전통적으로는 태양이 양자리에 드는 날).",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "Loy Krathong",
+    "ยี่เป็ง"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": "\"수코타이 시대 기원\" 이야기의 출처 책이 사실은 19세기 작품이라는 반전",
+   "candidate_key": "th-loy-krathong",
+   "name_original": "ลอยกระทง",
+   "name_ko": "로이끄라통 — 보름달 아래 연꽃 배를 띄우는 밤",
+   "date_type": null,
+   "date_rule": null,
+   "date_rule_folk": "태국 음력 12월 보름(ขึ้น ๑๕ ค่ำ เดือน ๑๒), 대개 양력 11월",
+   "date_note": "태국 음력 표 없음 → 앱 날짜 미지원. 한국 음력 10/15 와 대체로 겹치지만 태국력 윤달 규칙이 달라 그대로 쓰면 안 됨.",
+   "app_date_support": "unsupported",
+   "scope": "태국 전국 민속 축제(공휴일 아님)",
+   "kind": "folk_lunar",
+   "kind_group": "folk_religious",
+   "officiality": "folk_tradition",
+   "meaning_ko": "태국력 12월 보름밤, 바나나잎으로 만든 연꽃 모양 배(끄라통)에 초·향·꽃을 얹어 강에 띄우며 물의 여신에게 용서를 빌고 액운을 흘려보내는 축제다. 수코타이 왕의 후궁 \"나ㅇ 놉파맛\"이 처음 만들었다는 이야기가 유명하지만, 태국 정부 자료는 그 책이 라따나꼬신(방콕) 초기 작품이고 \"로이끄라통\"이라는 말도 그때 처음 기록에 나온다고 지적한다.",
+   "founder_origin": "제정자 없음. 놉파맛 기원담은 라따나꼬신 초기 문헌(전설)",
+   "founder_check_level": "government_document_read",
+   "founder_check": "not_applicable",
+   "claims": [
+    {
+     "claim_id": "date",
+     "claim_ko": "음력 12월 보름",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "mfa-pdf",
+       "quote": "ลอยกระทง เป็นประเพณีที่สำ�คัญเก่าแก่ของไทย ตรงกับวันเพ็ญขึ้น ๑๕ ค่ำ� เดือน ๑๒ ซึ่งอยู่",
+       "quote_ko": "로이끄라통은 태국의 오래된 중요한 전통으로 음력 12월 보름(상현 15일)이다"
+      }
+     ]
+    },
+    {
+     "claim_id": "word_rattanakosin",
+     "claim_ko": "\"로이끄라통\"이란 낱말은 라따나꼬신 초기에야 등장",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "mfa-pdf",
+       "quote": "คำ�ว่า “ลอยกระทง” เพิ่งปรากฏในต้นกรุงรัตนโกสินทร์นี้เอง",
+       "quote_ko": "\"로이끄라통\"이란 말은 라따나꼬신 초기에야 나타난다"
+      }
+     ]
+    },
+    {
+     "claim_id": "nopphamat_late",
+     "claim_ko": "놉파맛 이야기는 라따나꼬신 초기(2~3대 왕) 문헌",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "silpa-12692",
+       "quote": "หากพิจารณาสำนวนโวหารอย่างละเอียดจะสังเกตได้ว่าเป็นหนังสือที่แต่งขึ้นในช่วงต้นรัตนโกสินทร์ ระหว่างรัชกาลที่ 2 และ 3 หรือก่อนหลังไม่มาก",
+       "quote_ko": "문체를 자세히 보면 라따나꼬신 초기 2~3대 왕 무렵에 쓰인 책이다"
+      }
+     ]
+    },
+    {
+     "claim_id": "origin_unknown",
+     "claim_ko": "시작 시기 확증 없음, 물·땅 정령 신앙에서",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "thaipbs-333566",
+       "quote": "ไม่มีหลักฐานยืนยันแน่นอนว่าลอยกระทงเริ่มมีมาตั้งแต่เมื่อใด",
+       "quote_ko": "로이끄라통이 언제 시작됐는지 확실한 증거는 없다"
+      }
+     ]
+    }
+   ],
+   "distinct_reason": "한국 서비스에 해당 명절 없음. 란나(치앙마이) 이뻥 풍등 축제는 같은 밤의 북부 변형",
+   "uncertainty": "PDF 추출 텍스트에 깨진 문자(�)가 섞여 인용이 그 상태 그대로다. \"수코타이부터\"라고 단정하지 말 것.",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "Royal Ploughing Ceremony",
+    "วันพืชมงคล"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": "국가 경제 전망을 소가 고른 메뉴로 점친다(술을 고르면 교통·교역이 좋다는 식)",
+   "candidate_key": "th-royal-ploughing",
+   "name_original": "วันพืชมงคล (พระราชพิธีพืชมงคลจรดพระนังคัลแรกนาขวัญ)",
+   "name_ko": "태국 왕실 농경제 — 신성한 소가 고른 음식으로 한 해 농사를 점치는 날",
+   "date_type": null,
+   "date_rule": null,
+   "date_rule_folk": "해마다 왕실(궁내청)이 \"왕실 역법(ปฏิทินหลวง)\" 길일로 정함, 대개 음력 6월(양력 5월)",
+   "date_note": "2569(2026)년: 12일 불교 의식, 13일 사남루앙 쟁기 의식(원문). 매년 다름 → annual-floating 연도별 입력만 가능.",
+   "app_date_support": "unsupported",
+   "scope": "태국 국가 의례·공무원 휴일",
+   "kind": "royal_ritual",
+   "kind_group": "national_official",
+   "officiality": "official_national",
+   "meaning_ko": "농사철 시작을 알리는 태국 왕실 의례로, 길일을 골라 첫날 왕궁 사원에서 불교 의식을, 이튿날 방콕 사남루앙 광장에서 브라만식 쟁기질 의식을 한다. 수확신 역의 관리가 길이가 다른 천 중 하나를 골라 강수량을 점치고, 신성한 황소 한 쌍에게 쌀·옥수수·콩·참깨·술·물·풀 7가지를 차려 소가 무엇을 먹느냐로 한 해 농사와 경제를 점친다. 공무원 휴일이다.",
+   "founder_origin": "수코타이 시대부터라는 전승(원문 \"สมัยกรุงสุโขทัย\") — 연대는 전승",
+   "founder_check_level": "news_read",
+   "founder_check": "partial",
+   "claims": [
+    {
+     "claim_id": "date_by_palace",
+     "claim_ko": "해마다 궁내청이 왕실 역법 길일로 날짜 결정, 공무원 휴일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "thansettakij",
+       "quote": "แต่ละปีจะกำหนดวันจัดพระราชพิธีไม่ตรงกัน ด้วยเหตุที่ต้องดูฤกษ์ยามที่เหมาะสมเพื่อเริ่มต้นวันเพาะปลูกของเกษตรกร ซึ่งทางสำนักพระราชวังจะเป็นผู้กำหนดตาม \"ปฏิทินหลวง\"",
+       "quote_ko": "해마다 날짜가 다른데, 농부의 파종 시작에 맞는 길시를 봐야 해서 궁내청이 \"왕실 역법\"에 따라 정한다"
+      }
+     ]
+    },
+    {
+     "claim_id": "seven_foods",
+     "claim_ko": "소 앞에 7가지 음식(벼·옥수수·녹두·참깨·술·물·풀)",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "thansettakij",
+       "quote": "การเสี่ยงทายของกิน 7 สิ่ง ที่ตั้งเลี้ยงพระโคนั้น จะประกอบได้ด้วย ข้าวเปลือก ข้าวโพด ถั่วเขียว งา เหล้า น้ำ และหญ้า",
+       "quote_ko": "소에게 차리는 점괘 음식 7가지는 벼·옥수수·녹두·참깨·술·물·풀이다"
+      }
+     ]
+    },
+    {
+     "claim_id": "two_rites",
+     "claim_ko": "첫날 불교 의식(왕궁 사원), 둘째 날 브라만 쟁기 의식",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "thaipbs-2622",
+       "quote": "วันแรกประกอบพิธีสงฆ์ \"พระราชพิธีพืชมงคล\" บำรุงพืชเมล็ดพันธุ์ ณ พระอุโบสถวัดพระศรีรัตนศาสดาราม",
+       "quote_ko": "첫날은 왕궁 에메랄드 사원에서 종자를 축복하는 승려 의식 \"프랏차피티 프잇차몽콘\"을 한다"
+      }
+     ]
+    },
+    {
+     "claim_id": "sukhothai",
+     "claim_ko": "수코타이 시대부터 이어진 의례, 대개 음력 6월",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "thaipbs-2622",
+       "quote": "พระราชพิธีเก่าแก่ที่มีมาตั้งแต่สมัยกรุงสุโขทัย เนื่องใน \"วันพืชมงคล\" กำหนดจัดขึ้นราวเดือน 6 ของทุกปีตามฤกษ์ยามของปีนั้น ๆ",
+       "quote_ko": "수코타이 시대부터 이어진 오래된 왕실 의례로 해마다 그해 길시에 따라 대략 6월(태국력)에 연다"
+      }
+     ]
+    }
+   ],
+   "distinct_reason": "한국 권농일(과거)·서비스 항목 없음",
+   "uncertainty": "\"수코타이부터\"는 방송 해설 표현 — 전승으로 다룰 것. 2026년 소가 고른 음식 결과는 매체마다 요약이 달라(경제 해석) 쓰지 말 것.",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "Phi Ta Khon",
+    "ผีตาโขน"
+   ],
+   "search_result_only": [
+    {
+     "url": "https://www.prd.go.th/th/content/category/detail/id/33/iid/514724",
+     "note": "정부 홍보청 2026 개막 기사 — 404"
+    }
+   ],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": "마을 전체가 귀신 분장으로 행진하는 불교 공덕 잔치",
+   "candidate_key": "th-phi-ta-khon",
+   "name_original": "ประเพณีบุญหลวงและการละเล่นผีตาโขน",
+   "name_ko": "피따콘 — 귀신 가면을 쓰고 행진하는 단사이 마을 축제",
+   "date_type": null,
+   "date_rule": null,
+   "date_rule_folk": "해마다 달라짐(대개 6~7월). 2010년 6/12~14, 2026년 6/20~22",
+   "date_note": "고정 규칙 원문 미확인 → 앱 날짜 미지원.",
+   "app_date_support": "unsupported",
+   "scope": "태국 러이주 단사이군 지역 축제",
+   "kind": "folk_festival_local",
+   "kind_group": "festival_local",
+   "officiality": "regional_festival",
+   "meaning_ko": "러이주 단사이 마을에서 해마다 여는 \"분루앙(큰 공덕 잔치)\" 때, 코코넛 줄기와 대바구니로 만든 큰 귀신 가면을 쓴 \"피따콘\" 무리가 방울을 흔들며 거리를 누비는 축제다. 석가 전생 베산타라 왕자를 맞는 공덕 잔치(분프라웻)와 비를 부르는 로켓 축제(분방파이)를 하나로 합친 행사로 소개된다. \"피따콘\"이란 이름은 탈의 모양에서 왔다는 설과 신내림 무리의 말로 \"사람을 따라가는 귀신(피따무콘)\"이 변했다는 설이 있다. 2026년엔 총리가 개막식에 참석했다.",
+   "founder_origin": "제정자 없음(지역 전통)",
+   "founder_check_level": "blog_and_news_read",
+   "founder_check": "not_applicable",
+   "claims": [
+    {
+     "claim_id": "merged_merit",
+     "claim_ko": "분프라웻과 분방파이를 합친 큰 공덕 잔치, 2010년 6/12~14",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "gotoknow-359835",
+       "quote": "“งานบุญพระเวส” ( ฮีตเดือนสี่ ) และ“งานบุญบั้งไฟ” (ฮีตเดือนหก)",
+       "quote_ko": "\"분프라웻\"(넷째 달 관습)과 \"분방파이\"(여섯째 달 관습)"
+      },
+      {
+       "evidence_id": "gotoknow-359835",
+       "quote": "อ.ด่านซ้าย จ.เลย ในวันที่ 12-14 มิถุนายน 2553 ณ วัดโพนชัย",
+       "quote_ko": "러이주 단사이군 2010년 6월 12~14일 왓폰차이에서"
+      }
+     ]
+    },
+    {
+     "claim_id": "name_theory",
+     "claim_ko": "이름 유래: 가면 모양설·\"사람 따라가는 귀신\"설",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "gotoknow-359835",
+       "quote": "และจากคำบอกเล่าของเจ้าพ่อกวนคณะเข้าทรงว่า “ผีตามคน”",
+       "quote_ko": "신내림 무리 짜오포꾸안의 말로는 \"사람을 따라가는 귀신\"이었다고"
+      }
+     ]
+    },
+    {
+     "claim_id": "2026_opening",
+     "claim_ko": "2026년 총리 개막, 단사이 군청",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "thestandard",
+       "quote": "เป็นประธานในพิธีเปิดงานประเพณีบุญหลวง และการละเล่นผีตาโขน จังหวัดเลย ประจำปี 2569",
+       "quote_ko": "2026년 러이주 분루앙·피따콘 축제 개막식을 주재했다"
+      }
+     ]
+    }
+   ],
+   "distinct_reason": "서비스·이전 후보에 없음",
+   "uncertainty": "날짜 결정 방식(정령 매개자 신탁설)은 원문 미확인 — 쓰지 말 것. 1차 근거가 개인 블로그(TAT 일정 전재)라 등록 전 TAT·러이주 공식 자료 확인 필요.",
+   "confidence": "medium"
+  }
+ ]
+}

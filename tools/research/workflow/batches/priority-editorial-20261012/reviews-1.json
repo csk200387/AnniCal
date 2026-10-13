@@ -1,0 +1,2038 @@
+{
+  "reviewer": "independent-source-review-1",
+  "status": "reviewer_recommendations_only_not_human_approval",
+  "scope_file": "tools/research/workflow/batches/priority-editorial-20261012/review-scope-1.json",
+  "assigned_count": 16,
+  "reviewed_count": 16,
+  "counts": {
+    "accepted_after_source_review": 16,
+    "hold": 0
+  },
+  "verification": {
+    "assigned_uid_count": 16,
+    "reviewed_uid_count": 16,
+    "unique_evidence_files": 38,
+    "literal_quote_checks": 166,
+    "literal_quote_failures": 0,
+    "baseline_anniversary_count": 1756,
+    "exact_id_collisions": 0,
+    "schema_failures": 0,
+    "corrected_items": 13,
+    "resolver_years": [2026, 2027, 2028],
+    "actual_resolveOccurrence_checks": 48,
+    "resolver_failures": 0,
+    "live_url_fetch_or_web_search": false,
+    "human_approval_or_publication": false
+  },
+  "method": "저장된 원문 본문을 직접 대조. 신규 웹 검색/접속 없음. src/data/anniversaries 월별 전체 데이터와 ID·이름·원명·대상·나라·날짜 대조. 근거 미확인 부분은 삭제/귀속하고 분량 채우기 없음.",
+  "reviews": [
+    {
+      "uid": "contact:rotary-peace-day",
+      "original_id": "anv-fixed-02-23-rotary-world-understanding-peace-day",
+      "decision": "accepted_after_source_review",
+      "reasons": [
+        "지구 원문이 매년 2월 23일·1905년 첫 모임·해리스의 직업과 구상을 직접 설명한다.",
+        "1984 선포문은 그해 선언 및 당시 회원/클럽 수를 지지하지만 최초 제정 연도는 아니다."
+      ],
+      "evidence_paths_checked": [
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/rotary-peace-day/minnesota-proclamation-1984.txt",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/rotary-peace-day/rotary5340.txt",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/rotary-peace-day/rotary7080.txt"
+      ],
+      "date_scope_check": "5340 원문: observed every year on February 23. 전세계 로터리 단체 범위.",
+      "duplication_check": "01-01 가톨릭 세계 평화의 날·09-21 UN 세계 평화의 날과 조직·창립 기념 대상·날짜가 다름. 기존 로터리 ID/명칭 없음.",
+      "source_independence": "두 지구는 로터리 계열 자료. 미네소타 선포는 별도 정부 문서이나 로터리 창립/회원 정보를 재진술하며 정보의 독립 조사 여부는 미확인.",
+      "schema_category_tags_check": "현행 Anniversary 필수 필드·annual-fixed MM-DD·실제 category와 tags[0] 일치, text meme URL null. 한국 법정기념일 그룹 없음.",
+      "corrections": [
+        {
+          "field": "storytelling.origin",
+          "before": "2월 23일은 국제 봉사단체 로터리가 매년 기념하는 ‘세계 이해와 평화의 날(World Understanding and Peace Day)’이다. 1905년 2월 23일 미국 시카고에서 변호사 폴 해리스가 연 첫 로터리 모임을 기리는 날로, UN이나 국가가 아닌 단체가 정한 기념일이다. 1984년 미국 미네소타 주지사 선포문에는 국제로터리가 그해 2월 23일을 이 날로 선언했다고 적혀 있지만, 처음 제정된 해는 확인되지 않았다.",
+          "after": "2월 23일은 국제 봉사단체 로터리가 매년 기념하는 ‘세계 이해와 평화의 날(World Understanding and Peace Day)’이다. 1905년 2월 23일 미국 시카고에서 변호사 폴 해리스가 연 첫 로터리 모임을 기리는 날로, 로터리의 창립을 기념하는 단체 기념일이다. 1984년 미국 미네소타 주지사 선포문에는 국제로터리가 그해 2월 23일을 이 날로 선언했다고 적혀 있지만, 처음 제정된 해는 확인되지 않았다.",
+          "reason": "UN/국가 지정이 전혀 없다는 부정 단정은 확보 원문 범위를 넘으므로 삭제."
+        }
+      ],
+      "warnings": [
+        "지구 5340과 7080은 같은 로터리 조직 계열로 독립 2기관으로 세지 않음.",
+        "1984 미네소타 주지사 선포가 존재하므로 국가·정부와 전혀 무관하다는 표현 금지."
+      ],
+      "source_url_check": "저장 원문에서 기념일 자체의 명칭/날짜를 확인. 역사 사건 자료만을 sourceUrl로 쓰지 않음.",
+      "final_anniversary": {
+        "id": "anv-fixed-02-23-rotary-world-understanding-peace-day",
+        "date": "02-23",
+        "dateType": "annual-fixed",
+        "name": "세계 이해와 평화의 날(로터리)",
+        "category": "campaign",
+        "storytelling": {
+          "origin": "2월 23일은 국제 봉사단체 로터리가 매년 기념하는 ‘세계 이해와 평화의 날(World Understanding and Peace Day)’이다. 1905년 2월 23일 미국 시카고에서 변호사 폴 해리스가 연 첫 로터리 모임을 기리는 날로, 로터리의 창립을 기념하는 단체 기념일이다. 1984년 미국 미네소타 주지사 선포문에는 국제로터리가 그해 2월 23일을 이 날로 선언했다고 적혀 있지만, 처음 제정된 해는 확인되지 않았다.",
+          "anecdote": "로터리 지구 자료에 따르면 해리스는 정치·종교적 분열을 넘어 친목과 지역 봉사에 힘쓰는 전문직 모임을 구상했고, 단체가 미국 밖으로 넓어지면서 ‘국제로터리’라는 이름을 쓰게 됐다. 1984년 미네소타 선포문은 당시 로터리 회원이 100만 명 가까이, 클럽이 2만 곳 넘게 있었다고 적었다. 한 로터리 지구 자료는 2월을 ‘평화와 분쟁 예방·해결의 달’이라는 제목 아래 ‘세계 이해의 달’로 소개하며, 이 날이 그 달 안에 있다고 설명한다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "친목 모임 한 번이 평화를 말하는 날이 되기까지"
+          }
+        ],
+        "sourceUrl": "https://www.rotary5340.org/Stories/rotary-s-world-understanding-and-peace-day",
+        "tags": [
+          "국제 캠페인 & 보건"
+        ]
+      },
+      "final_lengths": {
+        "origin": 239,
+        "anecdote": 245
+      },
+      "evidence_sha256": {
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/rotary-peace-day/minnesota-proclamation-1984.txt": "46199eb96f832e6a9ae45e87ee8896b714ccde1ad889e0adb9219e36e39d7e2e",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/rotary-peace-day/rotary5340.txt": "b8bb460eb754eb23a81d77cf45cd016fca446fcf4ab2c6493768c4832fc8aa55",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/rotary-peace-day/rotary7080.txt": "03e285fbb70f9a5dea61a03bcef2ced46f7f9e5089cc3281608701e6a778a352"
+      },
+      "supporting_original_quotes": [
+        {
+          "claim_id": "existence_date",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/rotary-peace-day/rotary5340.txt",
+          "url": "https://www.rotary5340.org/Stories/rotary-s-world-understanding-and-peace-day",
+          "quote_original": "World Understanding and Peace Day is observed every year on February 23, marking a pivotal moment in history—the founding of Rotary International."
+        },
+        {
+          "claim_id": "date_reason",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/rotary-peace-day/rotary5340.txt",
+          "url": "https://www.rotary5340.org/Stories/rotary-s-world-understanding-and-peace-day",
+          "quote_original": "This day commemorates the very first Rotary meeting, initiated by Paul Harris in Chicago on February 23, 1905."
+        },
+        {
+          "claim_id": "date_reason",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/rotary-peace-day/minnesota-proclamation-1984.txt",
+          "url": "https://www.lrl.mn.gov/archive/sos/film/pdf/35062.pdf",
+          "quote_original": "Rotary International traces its beginnings to the organization of the first Rotary Club\non February 23. 1905: and"
+        },
+        {
+          "claim_id": "establishing_body",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/rotary-peace-day/minnesota-proclamation-1984.txt",
+          "url": "https://www.lrl.mn.gov/archive/sos/film/pdf/35062.pdf",
+          "quote_original": "To commemorate the birth of Rotary and its intemational activities, Rotary\nIntemational has declared February 23, 1984, to he World Understanding and Peace Day;"
+        },
+        {
+          "claim_id": "month",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/rotary-peace-day/rotary7080.txt",
+          "url": "https://rotary7080.org/stories/february-is-peace-and-conflict-prevention-resolution-month",
+          "quote_original": "The month of February is very special in the Rotary calendar since it is designated World Understanding Month. The month also includes the anniversary of the first meeting of Rotary held on February 23, 1905, now designated World Understanding and Peace Day…"
+        },
+        {
+          "claim_id": "harris",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/rotary-peace-day/rotary5340.txt",
+          "url": "https://www.rotary5340.org/Stories/rotary-s-world-understanding-and-peace-day",
+          "quote_original": "Harris, an attorney, envisioned a professional group that would rise above political and religious divisions, focusing instead on fellowship and community service."
+        },
+        {
+          "claim_id": "harris",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/rotary-peace-day/rotary5340.txt",
+          "url": "https://www.rotary5340.org/Stories/rotary-s-world-understanding-and-peace-day",
+          "quote_original": "This initial gathering laid the foundation for what would become Rotary International, a name adopted as the organization expanded beyond the United States to embrace a global mission."
+        },
+        {
+          "claim_id": "reminder",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/rotary-peace-day/rotary5340.txt",
+          "url": "https://www.rotary5340.org/Stories/rotary-s-world-understanding-and-peace-day",
+          "quote_original": "serves as a reminder of the ongoing need for peace and mutual understanding among all nations and communities."
+        },
+        {
+          "claim_id": "pe_members_1984",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/rotary-peace-day/minnesota-proclamation-1984.txt",
+          "url": "https://www.lrl.mn.gov/archive/sos/film/pdf/35062.pdf",
+          "quote_original": "Rotary International now had nearly 1,000,000 Rotarians in over 20,000 Rotary clubs"
+        },
+        {
+          "claim_id": "pe_month_title",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/rotary-peace-day/rotary7080.txt",
+          "url": "https://rotary7080.org/stories/february-is-peace-and-conflict-prevention-resolution-month",
+          "quote_original": "February is Peace and Conflict Prevention/Resolution Month"
+        },
+        {
+          "claim_id": "pe_members_1984",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/rotary-peace-day/minnesota-proclamation-1984.txt",
+          "url": "https://www.lrl.mn.gov/archive/sos/film/pdf/35062.pdf",
+          "quote_original": "Rotary International now had nearly 1,000,000 Rotarians in over 20,000 Rotary clubs"
+        },
+        {
+          "claim_id": "pe_month_title",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/rotary-peace-day/rotary7080.txt",
+          "url": "https://rotary7080.org/stories/february-is-peace-and-conflict-prevention-resolution-month",
+          "quote_original": "February is Peace and Conflict Prevention/Resolution Month"
+        }
+      ]
+    },
+    {
+      "uid": "contact:world-snake-day",
+      "original_id": "anv-fixed-07-16-world-snake-day-global",
+      "decision": "accepted_after_source_review",
+      "reasons": [
+        "동물원 원문이 annually on July 16을 명시하며 AIR 2023 보도는 실제 동물원 기념을 확인한다.",
+        "공포·보호·파충류관 체험 주장은 각 원문과 일치한다."
+      ],
+      "evidence_paths_checked": [
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/world-snake-day/newsonair-delhi-zoo.txt",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/world-snake-day/nikolaev-zoo.txt"
+      ],
+      "date_scope_check": "미콜라이우 동물원: celebrated annually on July 16. 우크라이나·인도 실제 관행 확인, 모든 국가 시행 주장 없음.",
+      "duplication_check": "기존 anv-fixed-02-01-serpent-day-global는 National Serpent Day, 02-01. 이번 원명 World Snake Day와 07-16이 다르고 동물원 운영 사례가 있어 별개. 소재 중복은 있음.",
+      "source_independence": "미콜라이우 동물원 자체 설명과 인도 AIR 현지 행사 보도. 공유 보도자료 여부는 입증하지 않음.",
+      "schema_category_tags_check": "현행 Anniversary 필수 필드·annual-fixed MM-DD·실제 category와 tags[0] 일치, text meme URL null. 한국 법정기념일 그룹 없음.",
+      "corrections": [
+        {
+          "field": "storytelling.origin",
+          "before": "7월 16일은 뱀과 생태계 속 뱀의 역할을 알리고 뱀에 대한 막연한 두려움을 덜자는 취지의 비공식 기념일 ‘세계 뱀의 날(World Snake Day)’이다. 우크라이나 미콜라이우 동물원은 이 날을 매년 7월 16일로 소개하고, 인도 뉴델리 국립동물공원도 2023년 이날 기념 행사를 열었다. 처음 만든 주체와 시작된 해, 7월 16일을 고른 이유는 확인되지 않았다.",
+          "after": "7월 16일은 뱀과 생태계 속 뱀의 역할을 알리고 뱀에 대한 막연한 두려움을 덜자는 취지의 인식개선 기념일 ‘세계 뱀의 날(World Snake Day)’이다. 우크라이나 미콜라이우 동물원은 이 날을 매년 7월 16일로 소개하고, 인도 뉴델리 국립동물공원도 2023년 이날 기념 행사를 열었다. 처음 만든 주체와 시작된 해, 7월 16일을 고른 이유는 확인되지 않았다.",
+          "reason": "정부/UN 비지정이라는 법적 부정은 원문이 증명하지 않으므로 비공식 단정을 제거."
+        }
+      ],
+      "warnings": [
+        "최초 주체/제정 연도/날짜 선정 이유는 원문에서 확인되지 않음. 비공식 여부 미입증을 존재 부정으로 취급하지 않음."
+      ],
+      "source_url_check": "저장 원문에서 기념일 자체의 명칭/날짜를 확인. 역사 사건 자료만을 sourceUrl로 쓰지 않음.",
+      "final_anniversary": {
+        "id": "anv-fixed-07-16-world-snake-day-global",
+        "date": "07-16",
+        "dateType": "annual-fixed",
+        "name": "세계 뱀의 날",
+        "category": "animal",
+        "storytelling": {
+          "origin": "7월 16일은 뱀과 생태계 속 뱀의 역할을 알리고 뱀에 대한 막연한 두려움을 덜자는 취지의 인식개선 기념일 ‘세계 뱀의 날(World Snake Day)’이다. 우크라이나 미콜라이우 동물원은 이 날을 매년 7월 16일로 소개하고, 인도 뉴델리 국립동물공원도 2023년 이날 기념 행사를 열었다. 처음 만든 주체와 시작된 해, 7월 16일을 고른 이유는 확인되지 않았다.",
+          "anecdote": "미콜라이우 동물원은 대부분의 뱀이 사람에게 위험하지 않은데도 두려움 때문에 죽임을 당하는 일이 많다고 설명한다. 2023년 뉴델리 국립동물공원은 인도에 사는 뱀과 생태계에서 뱀이 맡는 역할을 알려 뱀을 보호하자는 취지로 행사를 열었고, 방문객이 파충류관을 둘러보며 사육사와 이야기를 나누는 순서도 마련했다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "무서워하기 전에 먼저 알아보기"
+          }
+        ],
+        "sourceUrl": "https://zoo.nikolaev.ua/en/news/vsesvitnij_den_zmij8457",
+        "tags": [
+          "동물 & 자연"
+        ]
+      },
+      "final_lengths": {
+        "origin": 206,
+        "anecdote": 171
+      },
+      "evidence_sha256": {
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/world-snake-day/newsonair-delhi-zoo.txt": "365137a337f221a31215d3eea93444d141ae9f7d27323632541420dfc9c5ff67",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/world-snake-day/nikolaev-zoo.txt": "17cc7b64248884489d06dfae057c883892b511d4b14c0c1c19a4668efc6a8f95"
+      },
+      "supporting_original_quotes": [
+        {
+          "claim_id": "existence_date",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/world-snake-day/nikolaev-zoo.txt",
+          "url": "https://zoo.nikolaev.ua/en/news/vsesvitnij_den_zmij8457",
+          "quote_original": "World Snake Day is celebrated annually on July 16. The purpose of this day is to raise awareness of snakes and their role in the ecosystem, to help people learn more about these reptiles, to draw attention to these extraordinary creatures and to dispel fears associated with them."
+        },
+        {
+          "claim_id": "delhi_2023",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/world-snake-day/newsonair-delhi-zoo.txt",
+          "url": "https://www.newsonair.gov.in/national-zoological-park-in-new-delhi-celebrates-world-snake-day/",
+          "quote_original": "July 16, 2023 9:03 PM | National Zoological Park in New Delhi celebrates World Snake Day"
+        },
+        {
+          "claim_id": "delhi_2023",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/world-snake-day/newsonair-delhi-zoo.txt",
+          "url": "https://www.newsonair.gov.in/national-zoological-park-in-new-delhi-celebrates-world-snake-day/",
+          "quote_original": "The purpose of World Snake Day celebration is to protect snakes by raising awareness about snakes of India, and importance of snakes in the ecosystem."
+        },
+        {
+          "claim_id": "delhi_2023",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/world-snake-day/newsonair-delhi-zoo.txt",
+          "url": "https://www.newsonair.gov.in/national-zoological-park-in-new-delhi-celebrates-world-snake-day/",
+          "quote_original": "A reptile house walk was also conducted and visitors interacted with the snake keepers."
+        },
+        {
+          "claim_id": "fear",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/world-snake-day/nikolaev-zoo.txt",
+          "url": "https://zoo.nikolaev.ua/en/news/vsesvitnij_den_zmij8457",
+          "quote_original": "Unfortunately, snakes are very often killed out of fear, although most species are not dangerous to humans."
+        }
+      ]
+    },
+    {
+      "uid": "contact:myanmar-martyrs-day",
+      "original_id": "anv-fixed-07-19-myanmar-martyrs-day",
+      "decision": "accepted_after_source_review",
+      "reasons": [
+        "2013 annual Martyr’s Day 기사와 2024 77주기 기사에서 반복·날짜·피해 인원·아웅산 나이·우 소 처벌 확인.",
+        "2013 사이렌 거부 및 휴대전화/경적, 2024 행사 참석/불참은 보도 시점을 구분하면 원문과 일치."
+      ],
+      "evidence_paths_checked": [
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/aljazeera-2013.txt",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/ap-news4jax-2024.txt"
+      ],
+      "date_scope_check": "2013-07-19 annual Martyr’s Day 및 1947-07-19 사건, 2024-07-19 77주기. 미얀마 범위.",
+      "duplication_check": "한국 gov-54 11-17 순국선열의 날은 국가·추모 대상 다름. 미얀마 항목 없음.",
+      "source_independence": "도메인 수로 독립성 판정하지 않음. 원문 출처·재인용 관계를 확인한 범위만 인정.",
+      "schema_category_tags_check": "현행 Anniversary 필수 필드·annual-fixed MM-DD·실제 category와 tags[0] 일치, text meme URL null. 한국 법정기념일 그룹 없음.",
+      "corrections": [
+        {
+          "field": "storytelling.anecdote",
+          "before": "주요 추모식은 양곤 쉐다곤 파고다 기슭의 순국자 묘역에서 열리고, 양곤 곳곳에서는 사건 시각인 오전 10시 37분에 맞춰 1분 동안 사이렌과 자동차 경적이 울린다. 알자지라 보도에 따르면 국영 라디오가 아웅산을 기리는 사이렌을 내보내던 관행은 옛 군사정권 아래서 오랫동안 끊겼고, 2013년 정부가 교통사고 우려를 들어 전국 사이렌 재개를 거부하자 시민들이 휴대전화에 내려받은 사이렌 소리와 경적으로 대신했다. AP통신은 2021년 군부의 권력 장악 이후 묘역 추모식의 위상이 낮아졌다고 전했다. 2024년 77주기 추모식에는 수감 중인 아웅산 수치도, 군정 수장 민아웅흘라잉도 나오지 않았고, 수치의 오빠 아웅산우가 아버지의 묘에 헌화했다.",
+          "after": "AP통신의 2024년 보도에 따르면 그해 주요 추모식은 양곤 쉐다곤 파고다 기슭의 순국자 묘역에서 열렸고, 양곤 곳곳에서는 사건 시각인 오전 10시 37분에 맞춰 1분 동안 사이렌과 자동차 경적이 울렸다. 알자지라 보도에 따르면 국영 라디오가 아웅산을 기리는 사이렌을 내보내던 관행은 옛 군사정권 아래서 오랫동안 끊겼고, 2013년 정부가 교통사고 우려를 들어 전국 사이렌 재개를 거부하자 시민들이 휴대전화에 내려받은 사이렌 소리와 경적으로 대신했다. 같은 AP 보도는 2021년 군부의 권력 장악 이후 묘역 추모식의 위상이 낮아졌다고 전했다. 2024년 77주기 추모식에는 수감 중인 아웅산 수치도, 군정 수장 민아웅흘라잉도 나오지 않았고, 수치의 오빠 아웅산우가 아버지의 묘에 헌화했다.",
+          "reason": "2024 한 해의 행사·1분 경적을 현재 매년 관행으로 확장하지 않고 보도 시점에 귀속."
+        }
+      ],
+      "warnings": [
+        "공휴일/제정 연도/법령은 미확인. 알자지라 By News Agencies, AP 보도와 사건 사실의 독립 취재를 단정하지 않음."
+      ],
+      "source_url_check": "저장 원문에서 기념일 자체의 명칭/날짜를 확인. 역사 사건 자료만을 sourceUrl로 쓰지 않음.",
+      "final_anniversary": {
+        "id": "anv-fixed-07-19-myanmar-martyrs-day",
+        "date": "07-19",
+        "dateType": "annual-fixed",
+        "name": "순국자의 날(미얀마)",
+        "category": "history",
+        "storytelling": {
+          "origin": "7월 19일은 미얀마가 해마다 지키는 ‘순국자의 날(Martyrs' Day)’이다. 1947년 7월 19일 오전 10시 37분, 영국으로부터의 독립 투쟁을 이끌던 아웅산 장군이 각료 회의 도중 각료 6명, 관리 2명과 함께 총격으로 숨진 일을 추모한다. 당시 서른두 살이던 아웅산은 미얀마 독립의 설계자로 꼽히며, 독립은 그가 숨진 뒤 6개월이 채 안 돼 이뤄졌다. 정적이던 우 소 전 총리가 암살을 모의한 혐의로 재판을 받고 교수형에 처해졌다. 추모일로 지정된 해와 근거 법령, 공휴일 여부는 확인되지 않았다.",
+          "anecdote": "AP통신의 2024년 보도에 따르면 그해 주요 추모식은 양곤 쉐다곤 파고다 기슭의 순국자 묘역에서 열렸고, 양곤 곳곳에서는 사건 시각인 오전 10시 37분에 맞춰 1분 동안 사이렌과 자동차 경적이 울렸다. 알자지라 보도에 따르면 국영 라디오가 아웅산을 기리는 사이렌을 내보내던 관행은 옛 군사정권 아래서 오랫동안 끊겼고, 2013년 정부가 교통사고 우려를 들어 전국 사이렌 재개를 거부하자 시민들이 휴대전화에 내려받은 사이렌 소리와 경적으로 대신했다. 같은 AP 보도는 2021년 군부의 권력 장악 이후 묘역 추모식의 위상이 낮아졌다고 전했다. 2024년 77주기 추모식에는 수감 중인 아웅산 수치도, 군정 수장 민아웅흘라잉도 나오지 않았고, 수치의 오빠 아웅산우가 아버지의 묘에 헌화했다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "오전 10시 37분, 1분 동안의 추모"
+          }
+        ],
+        "sourceUrl": "https://www.news4jax.com/news/world/2024/07/19/strife-torn-myanmar-marks-77th-anniversary-of-the-assassination-of-independence-hero-gen-aung-san/",
+        "tags": [
+          "역사 & 추모"
+        ]
+      },
+      "final_lengths": {
+        "origin": 286,
+        "anecdote": 386
+      },
+      "evidence_sha256": {
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/aljazeera-2013.txt": "e061b70fc53f86914a6c5bd3fd4e3efe714ce7316a5c3050f7a594abb2348879",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/ap-news4jax-2024.txt": "10d461bc1f244ae597772b6392173a15c5158d0877260a6a7cbee57b58a3ca81"
+      },
+      "supporting_original_quotes": [
+        {
+          "claim_id": "existence_date",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/aljazeera-2013.txt",
+          "url": "https://www.aljazeera.com/news/2013/7/19/myanmar-honours-slain-democracy-activists",
+          "quote_original": "Myanmar has marked its annual Martyr’s Day in Yangon"
+        },
+        {
+          "claim_id": "existence_date",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/aljazeera-2013.txt",
+          "url": "https://www.aljazeera.com/news/2013/7/19/myanmar-honours-slain-democracy-activists",
+          "quote_original": "to mark the moment at 10:37am when General Aung San and eight others were assassinated at a Cabinet meeting on July 19, 1947."
+        },
+        {
+          "claim_id": "victims",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/ap-news4jax-2024.txt",
+          "url": "https://www.news4jax.com/news/world/2024/07/19/strife-torn-myanmar-marks-77th-anniversary-of-the-assassination-of-independence-hero-gen-aung-san/",
+          "quote_original": "Aung San, who led the independence struggle against Britain, was 32 years old when he was gunned down along with six Cabinet ministers and two other officials 77 years ago. He is considered the architect of Myanmar’s independence from Britain, which was achieved less than six months after his death."
+        },
+        {
+          "claim_id": "u_saw",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/ap-news4jax-2024.txt",
+          "url": "https://www.news4jax.com/news/world/2024/07/19/strife-torn-myanmar-marks-77th-anniversary-of-the-assassination-of-independence-hero-gen-aung-san/",
+          "quote_original": "A political rival, former Prime Minister U Saw, was tried and hanged for plotting the attack."
+        },
+        {
+          "claim_id": "ritual",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/ap-news4jax-2024.txt",
+          "url": "https://www.news4jax.com/news/world/2024/07/19/strife-torn-myanmar-marks-77th-anniversary-of-the-assassination-of-independence-hero-gen-aung-san/",
+          "quote_original": "In Yangon, neighborhoods heard wailing sirens and car horns bellowed out for one minute at 10:37 a.m., the time of the 1947 attack."
+        },
+        {
+          "claim_id": "ritual",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/ap-news4jax-2024.txt",
+          "url": "https://www.news4jax.com/news/world/2024/07/19/strife-torn-myanmar-marks-77th-anniversary-of-the-assassination-of-independence-hero-gen-aung-san/",
+          "quote_original": "main ceremony at the Martyrs’ Mausoleum near the foot of the towering Shwedagon Pagoda in Yangon."
+        },
+        {
+          "claim_id": "siren_history",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/aljazeera-2013.txt",
+          "url": "https://www.aljazeera.com/news/2013/7/19/myanmar-honours-slain-democracy-activists",
+          "quote_original": "State-owned radio stations used to broadcast sirens in Aung San’s honour but the custom was stopped for many years"
+        },
+        {
+          "claim_id": "siren_history",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/aljazeera-2013.txt",
+          "url": "https://www.aljazeera.com/news/2013/7/19/myanmar-honours-slain-democracy-activists",
+          "quote_original": "many people played siren-like ring tones downloaded to their mobile phones"
+        },
+        {
+          "claim_id": "suu_kyi",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/ap-news4jax-2024.txt",
+          "url": "https://www.news4jax.com/news/world/2024/07/19/strife-torn-myanmar-marks-77th-anniversary-of-the-assassination-of-independence-hero-gen-aung-san/",
+          "quote_original": "including Gen. Aung San, the father of the country’s ousted leader, Aung San Suu Kyi."
+        },
+        {
+          "claim_id": "pe_lower_profile",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/ap-news4jax-2024.txt",
+          "url": "https://www.news4jax.com/news/world/2024/07/19/strife-torn-myanmar-marks-77th-anniversary-of-the-assassination-of-independence-hero-gen-aung-san/",
+          "quote_original": "the main ceremony at the mausoleum has had a lower profile since the 2021 military takeover."
+        },
+        {
+          "claim_id": "pe_2024_absent",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/ap-news4jax-2024.txt",
+          "url": "https://www.news4jax.com/news/world/2024/07/19/strife-torn-myanmar-marks-77th-anniversary-of-the-assassination-of-independence-hero-gen-aung-san/",
+          "quote_original": "Neither Suu Kyi, who is imprisoned, nor Senior Gen. Min Aung Hlaing, the current head of the army-led government, attended this year’s main ceremony"
+        },
+        {
+          "claim_id": "pe_brother_wreath",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/ap-news4jax-2024.txt",
+          "url": "https://www.news4jax.com/news/world/2024/07/19/strife-torn-myanmar-marks-77th-anniversary-of-the-assassination-of-independence-hero-gen-aung-san/",
+          "quote_original": "Aung San Oo, laid a wreath in front of their father’s tomb"
+        },
+        {
+          "claim_id": "pe_2013_rejected",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/aljazeera-2013.txt",
+          "url": "https://www.aljazeera.com/news/2013/7/19/myanmar-honours-slain-democracy-activists",
+          "quote_original": "the government rejected the idea saying it could cause traffic accidents."
+        },
+        {
+          "claim_id": "pe_lower_profile",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/ap-news4jax-2024.txt",
+          "url": "https://www.news4jax.com/news/world/2024/07/19/strife-torn-myanmar-marks-77th-anniversary-of-the-assassination-of-independence-hero-gen-aung-san/",
+          "quote_original": "the main ceremony at the mausoleum has had a lower profile since the 2021 military takeover."
+        },
+        {
+          "claim_id": "pe_2024_absent",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/ap-news4jax-2024.txt",
+          "url": "https://www.news4jax.com/news/world/2024/07/19/strife-torn-myanmar-marks-77th-anniversary-of-the-assassination-of-independence-hero-gen-aung-san/",
+          "quote_original": "Neither Suu Kyi, who is imprisoned, nor Senior Gen. Min Aung Hlaing, the current head of the army-led government, attended this year’s main ceremony"
+        },
+        {
+          "claim_id": "pe_brother_wreath",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/ap-news4jax-2024.txt",
+          "url": "https://www.news4jax.com/news/world/2024/07/19/strife-torn-myanmar-marks-77th-anniversary-of-the-assassination-of-independence-hero-gen-aung-san/",
+          "quote_original": "Aung San Oo, laid a wreath in front of their father’s tomb"
+        },
+        {
+          "claim_id": "pe_2013_rejected",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/aljazeera-2013.txt",
+          "url": "https://www.aljazeera.com/news/2013/7/19/myanmar-honours-slain-democracy-activists",
+          "quote_original": "the government rejected the idea saying it could cause traffic accidents."
+        }
+      ]
+    },
+    {
+      "uid": "contact:ukraine-independence-day",
+      "original_id": "anv-fixed-08-24-ukraine-independence-day",
+      "decision": "accepted_after_source_review",
+      "reasons": [
+        "Espreso에 매년 8월 24일·1992-02-20 결의 인용·이전 7월 16일 날짜·1991 국민투표가 직접 있다.",
+        "ENRS/MSU 원문이 선포법 내용과 쿠데타 맥락을 지원하며 17:55는 ENRS로 귀속했다.",
+        "계엄령 휴무 예외는 2022년으로 한정돼 현재 공휴일 휴무를 단정하지 않는다."
+      ],
+      "evidence_paths_checked": [
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/enrs.txt",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/espreso-holidays.txt",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/msu-soviethistory-act.txt"
+      ],
+      "date_scope_check": "Espreso: Every year on August 24 및 결의 celebrate it annually. 우크라이나 국가 기념일.",
+      "duplication_check": "기존 월별 전체에서 우크라이나 독립기념일 없음. 다른 나라 독립/헌법 기념일은 국가·사건·날짜 다름.",
+      "source_independence": "ENRS/MSU는 같은 독립선포법을 각각 재수록한 자료로 문서 근거가 겹침. Espreso 역시 법령을 인용, 도메인 3개=독립 3근거가 아님.",
+      "schema_category_tags_check": "현행 Anniversary 필수 필드·annual-fixed MM-DD·실제 category와 tags[0] 일치, text meme URL null. 한국 법정기념일 그룹 없음.",
+      "corrections": [],
+      "warnings": [
+        "우크라이나 법령 원문 자체는 미확보. 결의 내용은 Espreso의 인용에 의존하므로 공식 법령 직접 검증 완료로 표현하면 안 됨."
+      ],
+      "source_url_check": "저장 원문에서 기념일 자체의 명칭/날짜를 확인. 역사 사건 자료만을 sourceUrl로 쓰지 않음.",
+      "final_anniversary": {
+        "id": "anv-fixed-08-24-ukraine-independence-day",
+        "date": "08-24",
+        "dateType": "annual-fixed",
+        "name": "우크라이나 독립기념일",
+        "category": "history",
+        "storytelling": {
+          "origin": "8월 24일은 우크라이나의 독립기념일이다. 1991년 8월 24일 우크라이나 소비에트 사회주의 공화국 최고라다(의회)가 ‘우크라이나 독립 선포법’을 채택한 날로, 1992년 2월 20일 최고라다 결의가 이날을 매년 기념하는 국가 공휴일로 정했다. 선포법은 그해 8월 모스크바에서 일어난 쿠데타가 실패한 직후 채택됐고, 우크라이나 영토는 나눌 수 없고 침범할 수 없다고 규정했다. 같은 해 12월 1일 전국 국민투표가 독립을 다시 확인했다.",
+          "anecdote": "처음 정한 독립기념일은 8월 24일이 아니었다. 1990년 7월 16일 의회가 국가주권 선언을 채택하면서 그날을 기념일로 정했고, 1991년 6월 18일 노동법의 공휴일 목록에도 ‘7월 16일 — 우크라이나 독립기념일’이 들어갔다. 이 결정은 1992년 결의로 효력을 잃었고, 8월 24일 기념일은 1992년부터 공식적으로 지켜졌다. 유럽 기억연대 네트워크(ENRS)는 선포법이 1991년 8월 24일 오후 5시 55분에 채택됐다고 전한다. 2022년에는 계엄령 아래 노동관계법이 바뀌면서 독립기념일에도 별도의 휴무가 주어지지 않았다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "7월 16일에서 8월 24일로 옮겨 온 독립기념일"
+          }
+        ],
+        "sourceUrl": "https://global.espreso.tv/ukraine-celebrates-independence-day-national-holidays-history",
+        "tags": [
+          "역사 & 추모"
+        ]
+      },
+      "final_lengths": {
+        "origin": 245,
+        "anecdote": 299
+      },
+      "evidence_sha256": {
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/enrs.txt": "aa6f241a363467b186c45797be0fb6d6271c52f69bb311e4defd91a8595a462a",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/espreso-holidays.txt": "6bd2b636d6d1c626244a393ce2ece9583f927b8495c1468c45c32e6bb1bb85ba",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/msu-soviethistory-act.txt": "6995586768162773e0b11255fc31f5beeed5041187d9a087bc366fa4555f1c8b"
+      },
+      "supporting_original_quotes": [
+        {
+          "claim_id": "existence_date",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/espreso-holidays.txt",
+          "url": "https://global.espreso.tv/ukraine-celebrates-independence-day-national-holidays-history",
+          "quote_original": "On February 20, 1992, the Verkhovna Rada of Ukraine adopted a resolution \"On the Independence Day of Ukraine\":"
+        },
+        {
+          "claim_id": "existence_date",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/espreso-holidays.txt",
+          "url": "https://global.espreso.tv/ukraine-celebrates-independence-day-national-holidays-history",
+          "quote_original": "1. To consider August 24 as the Independence Day of Ukraine and celebrate it annually as a public national holiday of Ukraine."
+        },
+        {
+          "claim_id": "act",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/espreso-holidays.txt",
+          "url": "https://global.espreso.tv/ukraine-celebrates-independence-day-national-holidays-history",
+          "quote_original": "On August 24, 1991, the Verkhovna Rada of the Ukrainian SSR adopted the Act of Proclamation of Independence of Ukraine, and on December 1, 1991, it was confirmed by the people at the All-Ukrainian referendum."
+        },
+        {
+          "claim_id": "act",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/enrs.txt",
+          "url": "https://enrs.eu/news/independence-day-of-ukraine",
+          "quote_original": "Ukrainian Independence Day on 24 August commemorates the announcement of the Act of Declaration of Independence in 1991."
+        },
+        {
+          "claim_id": "july16",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/espreso-holidays.txt",
+          "url": "https://global.espreso.tv/ukraine-celebrates-independence-day-national-holidays-history",
+          "quote_original": "On the same day, the parliament decided that the Independence Day of Ukraine will be celebrated on July 16."
+        },
+        {
+          "claim_id": "july16",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/espreso-holidays.txt",
+          "url": "https://global.espreso.tv/ukraine-celebrates-independence-day-national-holidays-history",
+          "quote_original": "2. The resolution of the Verkhovna Rada of the Ukrainian SSR \"On the Day of Proclamation of Independence of Ukraine\" dated July 16, 1990 shall be considered as having lost its validity."
+        },
+        {
+          "claim_id": "coup",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/msu-soviethistory-act.txt",
+          "url": "https://soviethistory.msu.edu/1991/ukrainian-independence/ukrainian-independence-texts/ukrainian-rada-declares-independence/",
+          "quote_original": "Adopted on August 24, 1991, in the wake of the failed Moscow coup,"
+        },
+        {
+          "claim_id": "coup",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/enrs.txt",
+          "url": "https://enrs.eu/news/independence-day-of-ukraine",
+          "quote_original": "The territory of Ukraine is indivisible and inviolable."
+        },
+        {
+          "claim_id": "martial_law",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/espreso-holidays.txt",
+          "url": "https://global.espreso.tv/ukraine-celebrates-independence-day-national-holidays-history",
+          "quote_original": "In 2022, due to martial law, Ukrainians will not have an additional day off on Independence Day."
+        },
+        {
+          "claim_id": "pe_1755",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/enrs.txt",
+          "url": "https://enrs.eu/news/independence-day-of-ukraine",
+          "quote_original": "On August 24, 1991 at 17:55 the Verkhovna Rada of Ukraine accepted"
+        },
+        {
+          "claim_id": "pe_labor_code_1991",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/espreso-holidays.txt",
+          "url": "https://global.espreso.tv/ukraine-celebrates-independence-day-national-holidays-history",
+          "quote_original": "On June 18, 1991, appropriate changes were made to Article 73 of the Labor Code of the Ukrainian SSR"
+        },
+        {
+          "claim_id": "pe_first_1992",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/espreso-holidays.txt",
+          "url": "https://global.espreso.tv/ukraine-celebrates-independence-day-national-holidays-history",
+          "quote_original": "Independence Day was officially celebrated in 1992."
+        },
+        {
+          "claim_id": "pe_1755",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/enrs.txt",
+          "url": "https://enrs.eu/news/independence-day-of-ukraine",
+          "quote_original": "On August 24, 1991 at 17:55 the Verkhovna Rada of Ukraine accepted"
+        },
+        {
+          "claim_id": "pe_labor_code_1991",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/espreso-holidays.txt",
+          "url": "https://global.espreso.tv/ukraine-celebrates-independence-day-national-holidays-history",
+          "quote_original": "On June 18, 1991, appropriate changes were made to Article 73 of the Labor Code of the Ukrainian SSR"
+        },
+        {
+          "claim_id": "pe_first_1992",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/espreso-holidays.txt",
+          "url": "https://global.espreso.tv/ukraine-celebrates-independence-day-national-holidays-history",
+          "quote_original": "Independence Day was officially celebrated in 1992."
+        }
+      ]
+    },
+    {
+      "uid": "contact:pluto-demoted-day",
+      "original_id": "anv-fixed-08-24-pluto-demoted-day",
+      "decision": "accepted_after_source_review",
+      "reasons": [
+        "National Today Every August 24와 SYFY 2019 기사에서 기념일 명칭·날짜가 확인된다.",
+        "IAU 원문은 프라하 2006-08-24 결정, 행성 8개, 왜소행성 첫 3개, 궤도 조건, 6A 투표수를 지원."
+      ],
+      "evidence_paths_checked": [
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/pluto-demoted-day/iauarchive-eso-iau0603.txt",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/pluto-demoted-day/nationaltoday.txt",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/pluto-demoted-day/syfy-2019.txt"
+      ],
+      "date_scope_check": "목록 Every August 24 및 2019-08-24 SYFY 기념 기사. 비공식 천문 팬문화 관행; IAU가 기념일을 제정했다는 주장은 하지 않음.",
+      "duplication_check": "기존 ID·명칭·원문명/명왕성 관련 항목 없음.",
+      "source_independence": "SYFY와 National Today의 역사 서술이 겹치며 공동 출전 가능성 미해결. IAU는 사건 원문이지 기념일 제정/공식성 근거가 아님.",
+      "schema_category_tags_check": "현행 Anniversary 필수 필드·annual-fixed MM-DD·실제 category와 tags[0] 일치, text meme URL null. 한국 법정기념일 그룹 없음.",
+      "corrections": [
+        {
+          "field": "storytelling.anecdote",
+          "before": "IAU 결의에 따르면 행성은 자기 궤도 주변을 깨끗이 정리한 천체여야 하는데, 명왕성은 이 조건을 채우지 못해 새로 만든 ‘왜소행성’ 범주로 옮겨졌다. 처음 왜소행성으로 꼽힌 천체는 세레스, 명왕성, 그리고 당시 임시 이름이던 2003 UB313(지금의 에리스)이었다. IAU는 명왕성을 해왕성 바깥 천체들로 이뤄진 새 범주의 원형으로 인정했다. ‘명왕성급 천체’를 정의한 결의 6A는 찬성 237표, 반대 157표, 기권 17표로 통과됐다.",
+          "after": "IAU 결의에 따르면 행성은 자기 궤도 주변을 깨끗이 정리한 천체여야 하는데, 명왕성은 이 조건을 채우지 못해 새로 만든 ‘왜소행성’ 범주로 옮겨졌다. 처음 왜소행성으로 꼽힌 천체는 세레스, 명왕성, 그리고 당시 임시 이름이던 2003 UB313이었다. IAU는 명왕성을 해왕성 바깥 천체들로 이뤄진 새 범주의 원형으로 인정했다. ‘명왕성급 천체’를 정의한 결의 6A는 찬성 237표, 반대 157표, 기권 17표로 통과됐다.",
+          "reason": "저장 IAU 원문은 임시명 2003 UB313만 적으며 이번 SYFY는 Eris를 나열하지만 임시명과의 동일성을 직접 설명하지 않아 현재명 괄호 삭제."
+        }
+      ],
+      "warnings": [
+        "SYFY와 National Today에 1992년 더 무거운 천체 발견 등 동일 오류가 있으므로 기원 서술의 독립성을 인정하지 않음.",
+        "237/157/17은 결의 6A 결과이며 행성 정의 결의 5A의 계수 투표가 아님. 초안은 6A로 정확히 구분."
+      ],
+      "source_url_check": "저장 원문에서 기념일 자체의 명칭/날짜를 확인. 역사 사건 자료만을 sourceUrl로 쓰지 않음.",
+      "final_anniversary": {
+        "id": "anv-fixed-08-24-pluto-demoted-day",
+        "date": "08-24",
+        "dateType": "annual-fixed",
+        "name": "명왕성 강등의 날",
+        "category": "academic",
+        "storytelling": {
+          "origin": "8월 24일은 2006년 국제천문연맹(IAU)이 명왕성을 행성에서 ‘왜소행성’으로 다시 분류한 일을 떠올리는 비공식 기념일 ‘명왕성 강등의 날(Pluto Demoted Day)’이다. 2006년 8월 24일 체코 프라하에서 열린 IAU 총회가 행성의 정의를 결의하면서 태양계 행성은 수성부터 해왕성까지 8개가 됐다. 이 날을 누가 언제부터 기념일로 불렀는지는 확인되지 않았다.",
+          "anecdote": "IAU 결의에 따르면 행성은 자기 궤도 주변을 깨끗이 정리한 천체여야 하는데, 명왕성은 이 조건을 채우지 못해 새로 만든 ‘왜소행성’ 범주로 옮겨졌다. 처음 왜소행성으로 꼽힌 천체는 세레스, 명왕성, 그리고 당시 임시 이름이던 2003 UB313이었다. IAU는 명왕성을 해왕성 바깥 천체들로 이뤄진 새 범주의 원형으로 인정했다. ‘명왕성급 천체’를 정의한 결의 6A는 찬성 237표, 반대 157표, 기권 17표로 통과됐다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "행성 명단에서는 빠져도 명왕성은 그 자리에"
+          }
+        ],
+        "sourceUrl": "https://www.syfy.com/syfy-wire/pluto-demoted-day-13-years-later-do-we-want-our-former-ninth-planet-back",
+        "tags": [
+          "학술 & 기술"
+        ]
+      },
+      "final_lengths": {
+        "origin": 210,
+        "anecdote": 238
+      },
+      "evidence_sha256": {
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/pluto-demoted-day/iauarchive-eso-iau0603.txt": "9349dd9fa9fcb6d4cd60c1aa7d30cd3cb8430db7d0afb05ec144d9f169ba35ff",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/pluto-demoted-day/nationaltoday.txt": "b3f3f3049289f02df431ebea683118ec7d87f49d0a1aaec2c7c4b2ce1195f6b2",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/pluto-demoted-day/syfy-2019.txt": "64c91c07aa973ff307dc24fc122f46ed32c8ebba0562256c5b174b09b03758be"
+      },
+      "supporting_original_quotes": [
+        {
+          "claim_id": "existence_date",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/pluto-demoted-day/nationaltoday.txt",
+          "url": "https://nationaltoday.com/pluto-demoted-day/",
+          "quote_original": "Every August 24"
+        },
+        {
+          "claim_id": "existence_date",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/pluto-demoted-day/nationaltoday.txt",
+          "url": "https://nationaltoday.com/pluto-demoted-day/",
+          "quote_original": "Pluto Demoted Day on August 24 commemorates the 2006 decision by the International Astronomical Union to reclassify Pluto as a dwarf planet."
+        },
+        {
+          "claim_id": "existence_date",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/pluto-demoted-day/syfy-2019.txt",
+          "url": "https://www.syfy.com/syfy-wire/pluto-demoted-day-13-years-later-do-we-want-our-former-ninth-planet-back",
+          "quote_original": "Pluto never actually got kicked out of the solar system, but on this day in 2006, the International Astronomical Union decided to take away its planet status."
+        },
+        {
+          "claim_id": "iau_event",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/pluto-demoted-day/iauarchive-eso-iau0603.txt",
+          "url": "https://iauarchive.eso.org/news/pressreleases/detail/iau0603/",
+          "quote_original": "24 August 2006, Prague"
+        },
+        {
+          "claim_id": "iau_event",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/pluto-demoted-day/iauarchive-eso-iau0603.txt",
+          "url": "https://iauarchive.eso.org/news/pressreleases/detail/iau0603/",
+          "quote_original": "This means that the Solar System consists of eight \"planets\" Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune."
+        },
+        {
+          "claim_id": "vote",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/pluto-demoted-day/iauarchive-eso-iau0603.txt",
+          "url": "https://iauarchive.eso.org/news/pressreleases/detail/iau0603/",
+          "quote_original": "Resolution 6A: \"Definition of Pluto-class objects\" was passed with 237 votes in favour, 157 against and 17 abstentions."
+        },
+        {
+          "claim_id": "dwarf",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/pluto-demoted-day/iauarchive-eso-iau0603.txt",
+          "url": "https://iauarchive.eso.org/news/pressreleases/detail/iau0603/",
+          "quote_original": "The first members of the \"dwarf planet\" category are Ceres, Pluto and 2003 UB313 (temporary name)."
+        },
+        {
+          "claim_id": "dwarf",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/pluto-demoted-day/iauarchive-eso-iau0603.txt",
+          "url": "https://iauarchive.eso.org/news/pressreleases/detail/iau0603/",
+          "quote_original": "(c) has not cleared the neighbourhood around its orbit"
+        },
+        {
+          "claim_id": "dwarf",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/pluto-demoted-day/iauarchive-eso-iau0603.txt",
+          "url": "https://iauarchive.eso.org/news/pressreleases/detail/iau0603/",
+          "quote_original": "Pluto is a \"dwarf planet\" by the above definition and is recognized as the prototype of a new category of trans-Neptunian objects."
+        },
+        {
+          "claim_id": "pe_eris",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/pluto-demoted-day/syfy-2019.txt",
+          "url": "https://www.syfy.com/syfy-wire/pluto-demoted-day-13-years-later-do-we-want-our-former-ninth-planet-back",
+          "quote_original": "which also included Ceres and Eris"
+        },
+        {
+          "claim_id": "pe_eris",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/pluto-demoted-day/syfy-2019.txt",
+          "url": "https://www.syfy.com/syfy-wire/pluto-demoted-day-13-years-later-do-we-want-our-former-ninth-planet-back",
+          "quote_original": "which also included Ceres and Eris"
+        }
+      ]
+    },
+    {
+      "uid": "contact:overdose-awareness-day",
+      "original_id": "anv-fixed-08-31-international-overdose-awareness-day",
+      "decision": "accepted_after_source_review",
+      "reasons": [
+        "주최 홈페이지·운영 연구소가 매년 8월 31일, 2001 구세군 교환소 모임, 2012 주도, 추모/교육/예방 목표를 지원한다."
+      ],
+      "evidence_paths_checked": [
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/overdose-awareness-day/ioad-about.txt",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/overdose-awareness-day/penington.txt"
+      ],
+      "date_scope_check": "주최 Every August 31. 민간 주도 국제 캠페인.",
+      "duplication_check": "gov-92 마약퇴치의 날 06-26은 불법 마약 남용/거래 대응, 이번 08-31은 과다복용 추모·예방 캠페인. 주체·날짜·범위가 다름.",
+      "source_independence": "overdoseday.com 및 Penington은 동일 캠페인/운영자 자료로 비독립.",
+      "schema_category_tags_check": "현행 Anniversary 필수 필드·annual-fixed MM-DD·실제 category와 tags[0] 일치, text meme URL null. 한국 법정기념일 그룹 없음.",
+      "corrections": [
+        {
+          "field": "storytelling.origin",
+          "before": "8월 31일은 약물 과다복용으로 숨진 이들을 추모하고 예방을 촉구하는 ‘국제 약물 과다복용 인식의 날(International Overdose Awareness Day)’이다. 2001년 호주 멜버른의 구세군 주사기 교환소에서 과다복용을 겪은 지역 주민들이 모인 바비큐 추모 모임에서 시작됐고, 2012년부터 호주 비영리단체 페닝턴 연구소가 이끌며 세계적인 행동의 날로 키웠다. 민간 단체가 주도하는 캠페인이다.",
+          "after": "8월 31일은 약물 과다복용으로 숨진 이들을 추모하고 예방을 촉구하는 ‘국제 약물 과다복용 인식의 날(International Overdose Awareness Day)’이다. 2001년 호주 멜버른의 구세군 주사기 교환소에서 과다복용으로 영향을 받은 지역 주민들이 모인 바비큐 추모 모임에서 시작됐고, 2012년부터 호주 비영리단체 페닝턴 연구소가 이끌며 세계적인 행동의 날로 키웠다. 민간 단체가 주도하는 캠페인이다.",
+          "reason": "impacted by overdose는 직접 과다복용 경험자뿐 아니라 유족/주변인도 포함하므로 좁은 번역 교정."
+        },
+        {
+          "field": "storytelling.anecdote",
+          "before": "주최 측은 해마다 대면·온라인 행사를 통해 지역사회가 떠난 이들을 기리고, 가족과 친구, 또래에게 과다복용을 알리며, 근거에 기반한 예방책을 함께 찾는다고 설명한다. 추모와 함께 과다복용 예방을 캠페인의 핵심 목표로 삼고, 금기처럼 여겨지는 과다복용 문제를 열린 대화로 다루자고 강조한다. 2026년은 이 날이 시작된 지 25년째로, 해마다 40여 개국에서 1,000건이 넘는 행사가 열린다. 8월 31일을 고른 이유와 처음 모임을 연 개인은 자료마다 달라 확인되지 않았다.",
+          "after": "주최 측은 해마다 대면·온라인 행사를 통해 지역사회가 떠난 이들을 기리고, 가족과 친구, 또래에게 과다복용을 알리며, 근거에 기반한 예방책을 함께 찾는다고 설명한다. 추모와 함께 과다복용 예방을 캠페인의 핵심 목표로 삼고, 금기처럼 여겨지는 과다복용 문제를 열린 대화로 다루자고 강조한다. 주최 측의 2026년 소개에 따르면 이 날은 시작 25주년을 맞았으며, 해마다 40개가 넘는 나라에서 1,000건이 넘는 행사가 열린다. 확보한 원문에서는 8월 31일을 고른 이유와 처음 모임을 연 개인을 확인하지 못했다.",
+          "reason": "25th anniversary를 25주년으로 번역. 규모를 2026 주최 소개로 귀속하며 원문에 없는 자료간 개인 기원 상충 주장은 삭제."
+        }
+      ],
+      "warnings": [
+        "overdoseday와 Penington은 동일 주최 캠페인 계열. 두 독립 근거로 세지 않음. 규모는 주최 측 수치."
+      ],
+      "source_url_check": "저장 원문에서 기념일 자체의 명칭/날짜를 확인. 역사 사건 자료만을 sourceUrl로 쓰지 않음.",
+      "final_anniversary": {
+        "id": "anv-fixed-08-31-international-overdose-awareness-day",
+        "date": "08-31",
+        "dateType": "annual-fixed",
+        "name": "국제 약물 과다복용 인식의 날",
+        "category": "campaign",
+        "storytelling": {
+          "origin": "8월 31일은 약물 과다복용으로 숨진 이들을 추모하고 예방을 촉구하는 ‘국제 약물 과다복용 인식의 날(International Overdose Awareness Day)’이다. 2001년 호주 멜버른의 구세군 주사기 교환소에서 과다복용으로 영향을 받은 지역 주민들이 모인 바비큐 추모 모임에서 시작됐고, 2012년부터 호주 비영리단체 페닝턴 연구소가 이끌며 세계적인 행동의 날로 키웠다. 민간 단체가 주도하는 캠페인이다.",
+          "anecdote": "주최 측은 해마다 대면·온라인 행사를 통해 지역사회가 떠난 이들을 기리고, 가족과 친구, 또래에게 과다복용을 알리며, 근거에 기반한 예방책을 함께 찾는다고 설명한다. 추모와 함께 과다복용 예방을 캠페인의 핵심 목표로 삼고, 금기처럼 여겨지는 과다복용 문제를 열린 대화로 다루자고 강조한다. 주최 측의 2026년 소개에 따르면 이 날은 시작 25주년을 맞았으며, 해마다 40개가 넘는 나라에서 1,000건이 넘는 행사가 열린다. 확보한 원문에서는 8월 31일을 고른 이유와 처음 모임을 연 개인을 확인하지 못했다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "잃은 사람을 기억하고, 더 잃지 않도록 말하는 날"
+          }
+        ],
+        "sourceUrl": "https://www.overdoseday.com/about/",
+        "tags": [
+          "국제 캠페인 & 보건"
+        ]
+      },
+      "final_lengths": {
+        "origin": 235,
+        "anecdote": 286
+      },
+      "evidence_sha256": {
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/overdose-awareness-day/ioad-about.txt": "d061d073c04ec0ca9a510bd6e878c0b6c669e215d6125ec8ea1f40dcc40c7842",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/overdose-awareness-day/penington.txt": "1ca4d907870f38cb5bf37d0fa268fb0e6f349f9cb2ca8f8fc8aaad50a8dbe643"
+      },
+      "supporting_original_quotes": [
+        {
+          "claim_id": "existence_date",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/overdose-awareness-day/penington.txt",
+          "url": "https://www.penington.org.au/overdose/overdose-projects-campaigns/international-overdose-awareness-day/",
+          "quote_original": "Every August 31, International Overdose Awareness Day (IOAD) unites a global community to take action on overdose."
+        },
+        {
+          "claim_id": "origin_2001",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/overdose-awareness-day/penington.txt",
+          "url": "https://www.penington.org.au/overdose/overdose-projects-campaigns/international-overdose-awareness-day/",
+          "quote_original": "International Overdose Awareness Day started in 2001 as a BBQ and social gathering of local people impacted by overdose at The Salvation Army needle exchange in Melbourne, Australia."
+        },
+        {
+          "claim_id": "penington",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/overdose-awareness-day/penington.txt",
+          "url": "https://www.penington.org.au/overdose/overdose-projects-campaigns/international-overdose-awareness-day/",
+          "quote_original": "Since 2012, Penington Institute has been quietly leading International Overdose Awareness Day, transforming a single event into a global day of action."
+        },
+        {
+          "claim_id": "activities",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/overdose-awareness-day/penington.txt",
+          "url": "https://www.penington.org.au/overdose/overdose-projects-campaigns/international-overdose-awareness-day/",
+          "quote_original": "Through events – both in person and online – communities honour lives lost, educate their families, friends and peers and explore evidence-based overdose prevention solutions."
+        },
+        {
+          "claim_id": "activities",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/overdose-awareness-day/ioad-about.txt",
+          "url": "https://www.overdoseday.com/about/",
+          "quote_original": "IOAD adopts overdose prevention as a core campaign ambition, alongside remembrance."
+        },
+        {
+          "claim_id": "scale",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/overdose-awareness-day/ioad-about.txt",
+          "url": "https://www.overdoseday.com/about/",
+          "quote_original": "In 2026, IOAD reaches its 25th year anniversary of sparking conversations about overdose and driving life-saving action. Thousands of voices, 1,000+ events, 40+ countries now join the campaign every year."
+        },
+        {
+          "claim_id": "pe_taboo",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/overdose-awareness-day/penington.txt",
+          "url": "https://www.penington.org.au/overdose/overdose-projects-campaigns/international-overdose-awareness-day/",
+          "quote_original": "IOAD confronts the taboo subject of overdose with open and honest discussion"
+        },
+        {
+          "claim_id": "pe_taboo",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/overdose-awareness-day/penington.txt",
+          "url": "https://www.penington.org.au/overdose/overdose-projects-campaigns/international-overdose-awareness-day/",
+          "quote_original": "IOAD confronts the taboo subject of overdose with open and honest discussion"
+        }
+      ]
+    },
+    {
+      "uid": "contact:african-descent-day",
+      "original_id": "anv-fixed-08-31-international-day-people-of-african-descent-global",
+      "decision": "accepted_after_source_review",
+      "reasons": [
+        "결의 75/170 원문이 2020-12-16 채택·8월31일 선포·목적·1920 뉴욕 대회/가비/선언을 직접 지지한다.",
+        "UN 안내문 2026 주제·두번째 2025–2034 국제10년·2024 첫10년 종료 및 논의 주제가 일치한다."
+      ],
+      "evidence_paths_checked": [
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/african-descent-day/a-res-75-170-pdf.txt",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/african-descent-day/un-observance.txt"
+      ],
+      "date_scope_check": "UN 결의가 31 August 국제의 날로 선포, 지속 국제 기념일. 2026 안내도 동일 관행.",
+      "duplication_check": "06-16 아프리카 어린이의 날은 AU 아동권리/소웨토 사건. 03-25 희생자 추모·12-02 현대노예제 폐지와 결의·대상·날짜 다름.",
+      "source_independence": "UN 결의 원문과 UN 안내문은 동일 조직, 역사적 대회 사실은 결의의 회고 내용을 요약.",
+      "schema_category_tags_check": "현행 Anniversary 필수 필드·annual-fixed MM-DD·실제 category와 tags[0] 일치, text meme URL null. 한국 법정기념일 그룹 없음.",
+      "corrections": [],
+      "warnings": [
+        "두 파일 모두 UN이며 결의/안내 역할이 다르지만 독립 기관 2개가 아님. 2026 주제는 연도 고정 문장이고 향후 매년 동일한 주제로 일반화하지 않음."
+      ],
+      "source_url_check": "저장 원문에서 기념일 자체의 명칭/날짜를 확인. 역사 사건 자료만을 sourceUrl로 쓰지 않음.",
+      "final_anniversary": {
+        "id": "anv-fixed-08-31-international-day-people-of-african-descent-global",
+        "date": "08-31",
+        "dateType": "annual-fixed",
+        "name": "국제 아프리카계 사람들의 날",
+        "category": "campaign",
+        "storytelling": {
+          "origin": "8월 31일은 UN이 정한 ‘국제 아프리카계 사람들의 날(International Day for People of African Descent)’이다. UN 총회는 2020년 12월 16일 결의 75/170을 채택해 이날을 선포했고, 아프리카계 사람들의 다양한 유산과 문화, 사회 발전에 대한 기여를 더 널리 인정하고 존중하며 그들의 인권과 기본적 자유를 존중하도록 하는 것을 목적으로 밝혔다.",
+          "anecdote": "날짜는 1920년 8월 31일에서 왔다. 결의문은 이날 미국 뉴욕에서 제1회 ‘세계 흑인 민족 국제대회’가 막을 내렸고, 마커스 가비가 이끈 논의 끝에 ‘세계 흑인 민족 권리 선언’이 공포됐다고 상기한다. UN은 2024년에 끝난 ‘아프리카계 사람들을 위한 국제 10년’에 이어 2025~2034년을 두 번째 국제 10년으로 정했다. 2026년 기념일 주제는 ‘아프리카계 사람들의 인권 확장’이며, 문화재 반환을 통한 배상적 정의, 아프리카계 청년의 인권, 더반 선언·행동계획 25주년 등을 함께 다룬다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "1920년 뉴욕의 권리 선언에서 이어진 날짜"
+          }
+        ],
+        "sourceUrl": "https://www.un.org/en/observances/african-descent-day",
+        "tags": [
+          "국제 캠페인 & 보건"
+        ]
+      },
+      "final_lengths": {
+        "origin": 220,
+        "anecdote": 282
+      },
+      "evidence_sha256": {
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/african-descent-day/a-res-75-170-pdf.txt": "26ed54ce781784096415760787ac8db313220ef87bbb98147a2ba4cf849321bf",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/african-descent-day/un-observance.txt": "85eb504b9d135145b3b1eff7ac0a89d51716485b537aeff59377d9b2e40b5d02"
+      },
+      "supporting_original_quotes": [
+        {
+          "claim_id": "existence_date",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/african-descent-day/a-res-75-170-pdf.txt",
+          "url": "https://documents.un.org/api/symbol/access?s=A/RES/75/170&l=en&t=pdf",
+          "quote_original": "1. Decides to proclaim 31 August as the International Day for People of\nAfrican Descent, in order to promote greater recognition and respect for the diverse\nheritage, culture and contribution of people of African descent to the development of\nsocieties, and to promote respect for human rights and fundamental freedoms of\npeople of African descent;"
+        },
+        {
+          "claim_id": "existence_date",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/african-descent-day/un-observance.txt",
+          "url": "https://www.un.org/en/observances/african-descent-day",
+          "quote_original": "International Day for People of African Descent\n31 August"
+        },
+        {
+          "claim_id": "adoption",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/african-descent-day/a-res-75-170-pdf.txt",
+          "url": "https://documents.un.org/api/symbol/access?s=A/RES/75/170&l=en&t=pdf",
+          "quote_original": "Resolution adopted by the General Assembly\non 16 December 2020"
+        },
+        {
+          "claim_id": "date_reason",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/african-descent-day/a-res-75-170-pdf.txt",
+          "url": "https://documents.un.org/api/symbol/access?s=A/RES/75/170&l=en&t=pdf",
+          "quote_original": "Recalling that, on 31 August 1920, the first International Convention o f the\nNegro Peoples of the World ended in New York, and as a result of the discussions led\nby Marcus Garvey, the Declaration of Rights of the Negro Peoples of the World was\npromulgated,"
+        },
+        {
+          "claim_id": "theme_2026",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/african-descent-day/un-observance.txt",
+          "url": "https://www.un.org/en/observances/african-descent-day",
+          "quote_original": "The 2026 International Day for People of African Descent is being observed under the theme “Expanding the Human Rights of People of African Descent” within the framework of the Second International Decade for People of African Descent (2025–2034)."
+        },
+        {
+          "claim_id": "pe_decade_end",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/african-descent-day/un-observance.txt",
+          "url": "https://www.un.org/en/observances/african-descent-day",
+          "quote_original": "The year 2024 marked the conclusion of the International Decade"
+        },
+        {
+          "claim_id": "pe_2026_topics",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/african-descent-day/un-observance.txt",
+          "url": "https://www.un.org/en/observances/african-descent-day",
+          "quote_original": "This year's discussions examine reparatory justice through the return of cultural artefacts, the human rights situation of youth of African descent, and the 25th anniversary of the Durban Declaration and Programme of Action"
+        },
+        {
+          "claim_id": "pe_decade_end",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/african-descent-day/un-observance.txt",
+          "url": "https://www.un.org/en/observances/african-descent-day",
+          "quote_original": "The year 2024 marked the conclusion of the International Decade"
+        },
+        {
+          "claim_id": "pe_2026_topics",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/african-descent-day/un-observance.txt",
+          "url": "https://www.un.org/en/observances/african-descent-day",
+          "quote_original": "This year's discussions examine reparatory justice through the return of cultural artefacts, the human rights situation of youth of African descent, and the 25th anniversary of the Durban Declaration and Programme of Action"
+        }
+      ]
+    },
+    {
+      "uid": "contact:korea-film-day",
+      "original_id": "anv-fixed-10-27-film-day-kr",
+      "decision": "accepted_after_source_review",
+      "reasons": [
+        "국가기록원 실제 본문이 매년 10월27일 영화의 날 제정을 직접 설명해 사건만의 근거가 아니다.",
+        "극본/연출·연쇄극·서울 야외 풍경·관객·1918 상설화·2019 우표·2024 105주년 행사 확인."
+      ],
+      "evidence_paths_checked": [
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/archives-dansungsa.txt",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/jjan-2023.txt",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/seoul-2024-award.txt",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/weeklykhan-2019-stamp.txt"
+      ],
+      "date_scope_check": "국가기록원 이후 매년 10월27일 영화의 날 명시. 한국 영화계 관행.",
+      "duplication_check": "기존 anv-fixed-12-01-movie-day-jp는 일본 영화 공개 기념, anv-fixed-11-14-movie-day-kr는 무비데이. 한국 1919 개봉 기념과 범위·유래·날짜 다름.",
+      "source_independence": "국가기록원 역사 소개, 전북일보 칼럼, 우표 관련 주간경향, 서울시의회 관련 보도. 기사 2건이 같은 발표를 전재했는지 외부 확인하지 않으며 개별 주장 별 역할만 인정.",
+      "schema_category_tags_check": "현행 Anniversary 필수 필드·annual-fixed MM-DD·실제 category와 tags[0] 일치, text meme URL null. 한국 법정기념일 그룹 없음.",
+      "corrections": [
+        {
+          "field": "name",
+          "before": "영화의 날",
+          "after": "영화의 날(한국)",
+          "reason": "12-01 일본 영화의 날 및 11-14 무비데이와 서비스 표시 혼동을 줄임. ID 유지."
+        },
+        {
+          "field": "storytelling.anecdote",
+          "before": "‘의리적 구토’는 김도산이 극본과 연출을 맡은 ‘연쇄극’으로, 연극 무대 사이사이에 한강철교·장충단·남대문정거장 같은 서울의 익숙한 야외 풍경을 찍은 필름을 끼워 보여 줬다. 연극보다 비싼 입장료에도 10만 관객이 들었다고 한다. 다만 연쇄극이라 온전한 영화로 보기 어렵고, 같은 날 먼저 상영된 ‘경성전시의 경’을 첫 한국영화로 봐야 한다는 주장도 있다. 단성사는 1918년 상설영화관으로 바뀐 극장이다. 2019년 우정사업본부는 한국영화 탄생 100년을 맞아 기념우표를 냈고, 2024년에는 한국영화인총연합회와 영화진흥위원회가 105주년 영화의 날 기념 세미나와 시상식을 열었다.",
+          "after": "‘의리적 구토’는 김도산이 극본과 연출을 맡은 ‘연쇄극’으로, 연극 무대 사이사이에 한강철교·장충단·남대문정거장 같은 서울의 익숙한 야외 풍경을 찍은 필름을 끼워 보여 줬다. 국가기록원은 연극보다 비싼 입장료에도 10만 관객이 들었다고 설명한다. 전북일보의 2023년 칼럼은 연쇄극을 온전한 영화로 볼 수 있는지 문제를 제기하며, 같은 날 먼저 상영된 ‘경성전시의 경’을 첫 한국영화로 봐야 한다는 주장도 소개한다. 단성사는 1918년 상설영화관으로 바뀐 극장이다. 2019년 우정사업본부는 한국영화 탄생 100년을 맞아 기념우표를 냈고, 2024년에는 한국영화인총연합회와 영화진흥위원회가 105주년 영화의 날 기념 세미나와 시상식을 열었다.",
+          "reason": "큰 관객 수를 국가기록원 서술로 귀속하고 최초영화 논쟁은 2023 칼럼의 주장으로 구분."
+        }
+      ],
+      "warnings": [
+        "10만 관객 집계 근거는 국가기록원 서술 외 별도 확인하지 않음. 제정 주체/연도/법정성 미확인.",
+        "2024 세미나/시상식 실제 개최일은 10-30으로 10-27 고정 기념일과 다름. 초안은 2024년만 적어 충돌 없음."
+      ],
+      "source_url_check": "저장 원문에서 기념일 자체의 명칭/날짜를 확인. 역사 사건 자료만을 sourceUrl로 쓰지 않음.",
+      "final_anniversary": {
+        "id": "anv-fixed-10-27-film-day-kr",
+        "date": "10-27",
+        "dateType": "annual-fixed",
+        "name": "영화의 날(한국)",
+        "category": "culture",
+        "storytelling": {
+          "origin": "10월 27일은 한국 영화계가 기념하는 ‘영화의 날’이다. 1919년 10월 27일 서울 종로의 극장 단성사에서 한국인이 국내 자본으로 만든 첫 영화로 꼽히는 ‘의리적 구토’가 처음 상영된 일을 기린다. 국가기록원 자료는 이날을 기념해 이후 매년 10월 27일을 영화의 날로 제정했다고 설명하지만, 제정 주체와 연도, 법정기념일 여부는 확인되지 않았다.",
+          "anecdote": "‘의리적 구토’는 김도산이 극본과 연출을 맡은 ‘연쇄극’으로, 연극 무대 사이사이에 한강철교·장충단·남대문정거장 같은 서울의 익숙한 야외 풍경을 찍은 필름을 끼워 보여 줬다. 국가기록원은 연극보다 비싼 입장료에도 10만 관객이 들었다고 설명한다. 전북일보의 2023년 칼럼은 연쇄극을 온전한 영화로 볼 수 있는지 문제를 제기하며, 같은 날 먼저 상영된 ‘경성전시의 경’을 첫 한국영화로 봐야 한다는 주장도 소개한다. 단성사는 1918년 상설영화관으로 바뀐 극장이다. 2019년 우정사업본부는 한국영화 탄생 100년을 맞아 기념우표를 냈고, 2024년에는 한국영화인총연합회와 영화진흥위원회가 105주년 영화의 날 기념 세미나와 시상식을 열었다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "한국영화의 생일 케이크에 초가 100개 넘게"
+          }
+        ],
+        "sourceUrl": "https://theme.archives.go.kr/next/koreaOfRecord/Dansungsa.do",
+        "tags": [
+          "문화 & 예술"
+        ]
+      },
+      "final_lengths": {
+        "origin": 197,
+        "anecdote": 359
+      },
+      "evidence_sha256": {
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/archives-dansungsa.txt": "d039815a22dbf0c04af460c44e4f4fdc4fd5e541567ebb5e1977a3a042362ab6",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/jjan-2023.txt": "8caa868b121f1cdfb0cabfd4aa2b4c36d53eb6ac10e19a194959dbe25add241c",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/seoul-2024-award.txt": "f643b26cb2557e8c984ad4da95debdbd95651f1deaeb2541b3289bb6e8f9e1b1",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/weeklykhan-2019-stamp.txt": "99c5da8114fbc6daa75dff7861c93ed834e7d807832d50d801ed394df541d898"
+      },
+      "supporting_original_quotes": [
+        {
+          "claim_id": "existence_date",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/archives-dansungsa.txt",
+          "url": "https://theme.archives.go.kr/next/koreaOfRecord/Dansungsa.do",
+          "quote_original": "한편, 최초의 한국 영화 ‘의리적 구토’가 단성사에서 처음 개봉된 1919년 10월 27일을 기념하여 이후 매년 10월 27일을 ‘영화의 날’로 제정하였다."
+        },
+        {
+          "claim_id": "existence_date",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/jjan-2023.txt",
+          "url": "https://www.jjan.kr/article/20231020580031",
+          "quote_original": "이 날이 '영화의 날'이 된 이유는 1919년 10월 27일에 한국 최초의 영화 <의리적 구토>가 <단성사>란 극장에서 상영되었기 때문이다."
+        },
+        {
+          "claim_id": "film",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/archives-dansungsa.txt",
+          "url": "https://theme.archives.go.kr/next/koreaOfRecord/Dansungsa.do",
+          "quote_original": "1919년 10월 27일 단성사는 최초로 한국인에 의해 국내 자본으로 만들어진 '의리적 구토'를 상영했다. 김도산 극본·연출의 이 영화는 연극에 영화 장면을 삽입한 ‘연쇄극’ 형태인데"
+        },
+        {
+          "claim_id": "box_office",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/archives-dansungsa.txt",
+          "url": "https://theme.archives.go.kr/next/koreaOfRecord/Dansungsa.do",
+          "quote_original": "연극 관람료가 40전 하던 것에 비하면 비싼 가격이었음에도 10만 관객이 들 정도로 흥행에 성공하였다."
+        },
+        {
+          "claim_id": "dispute",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/jjan-2023.txt",
+          "url": "https://www.jjan.kr/article/20231020580031",
+          "quote_original": "하지만 <의리적 구토>란 작품은 연극 공연 사이에 보여지는 연쇄극 형태의 영화이기 때문에 최초의 한국영화로 보기에는 다소 무리가 있으며 오히려 같은 날 <의리적 구토>에 앞서 먼저 상영된 <경성전시의 경>이 최초의 한국영화여야 한다는 주장들이 있다."
+        },
+        {
+          "claim_id": "event_2024",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/seoul-2024-award.txt",
+          "url": "https://m.go.seoul.co.kr/news/2024/11/01/20241101500084",
+          "quote_original": "(사)한국영화인총연합회(이사장 양윤호), 영화진흥위원회(위원장 한상준)가 공동 주최한 ‘한국영화 105주년 영화의 날 기념 세미나 & 시상식’"
+        },
+        {
+          "claim_id": "centenary",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/weeklykhan-2019-stamp.txt",
+          "url": "https://weekly.khan.co.kr/article/201910251752371",
+          "quote_original": "10월 27일은 영화의 생일이다. 그것도 100번째다."
+        },
+        {
+          "claim_id": "pe_outdoor_scenes",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/archives-dansungsa.txt",
+          "url": "https://theme.archives.go.kr/next/koreaOfRecord/Dansungsa.do",
+          "quote_original": "한강철교, 장충단, 청량리, 남대문정거장, 노량진 등 사람들에게 익숙한 공간의 야외 장면들이 삽입되는 연출이 큰 흥미를 불러일으켰다"
+        },
+        {
+          "claim_id": "pe_1918_cinema",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/archives-dansungsa.txt",
+          "url": "https://theme.archives.go.kr/next/koreaOfRecord/Dansungsa.do",
+          "quote_original": "이때부터 최초의 상설영화관으로 바뀌게 되었다"
+        },
+        {
+          "claim_id": "pe_stamp_2019",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/weeklykhan-2019-stamp.txt",
+          "url": "https://weekly.khan.co.kr/article/201910251752371",
+          "quote_original": "우정사업본부는 10월 25일 한국영화 탄생 100년을 맞아 기념우표 1종 총 82만장을 발행했다."
+        },
+        {
+          "claim_id": "pe_outdoor_scenes",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/archives-dansungsa.txt",
+          "url": "https://theme.archives.go.kr/next/koreaOfRecord/Dansungsa.do",
+          "quote_original": "한강철교, 장충단, 청량리, 남대문정거장, 노량진 등 사람들에게 익숙한 공간의 야외 장면들이 삽입되는 연출이 큰 흥미를 불러일으켰다"
+        },
+        {
+          "claim_id": "pe_1918_cinema",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/archives-dansungsa.txt",
+          "url": "https://theme.archives.go.kr/next/koreaOfRecord/Dansungsa.do",
+          "quote_original": "이때부터 최초의 상설영화관으로 바뀌게 되었다"
+        },
+        {
+          "claim_id": "pe_stamp_2019",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/weeklykhan-2019-stamp.txt",
+          "url": "https://weekly.khan.co.kr/article/201910251752371",
+          "quote_original": "우정사업본부는 10월 25일 한국영화 탄생 100년을 맞아 기념우표 1종 총 82만장을 발행했다."
+        }
+      ]
+    },
+    {
+      "uid": "contact:india-constitution-day",
+      "original_id": "anv-fixed-11-26-india-constitution-day",
+      "decision": "accepted_after_source_review",
+      "reasons": [
+        "인도대사관 안내가 매년11월26일·1949 채택·2015-11-19 부처 고시 번호를 확인한다.",
+        "Bar & Bench 2015-11-20 보도가 제헌의회 채택과 기존 Law Day 명칭을 지원한다. 짧은 본문도 근거 충족."
+      ],
+      "evidence_paths_checked": [
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/india-constitution-day/barandbench-2015.txt",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/india-constitution-day/embassy-bamako.txt"
+      ],
+      "date_scope_check": "인도 정부대사관 each year November26. 인도 국가 기념일, 공휴일 단정 없음.",
+      "duplication_check": "기존 한국 제헌절 07-17·미국 헌법/시민권 09-17·대만 행헌기념일12-25는 국가·문서·날짜 다름.",
+      "source_independence": "대사관과 법률매체는 같은 정부 고시를 소개해 고시 존재 사실의 원출전이 겹침.",
+      "schema_category_tags_check": "현행 Anniversary 필수 필드·annual-fixed MM-DD·실제 category와 tags[0] 일치, text meme URL null. 한국 법정기념일 그룹 없음.",
+      "corrections": [],
+      "warnings": [
+        "관보 전문은 확보하지 않았고 대사관의 관보 인용 확인이다. 채택일과 시행일을 혼동하지 않았고 미확보 헌법 시행일 등을 억지로 추가하지 않음."
+      ],
+      "source_url_check": "저장 원문에서 기념일 자체의 명칭/날짜를 확인. 역사 사건 자료만을 sourceUrl로 쓰지 않음.",
+      "final_anniversary": {
+        "id": "anv-fixed-11-26-india-constitution-day",
+        "date": "11-26",
+        "dateType": "annual-fixed",
+        "name": "인도 헌법의 날",
+        "category": "history",
+        "storytelling": {
+          "origin": "11월 26일은 인도 정부가 정한 ‘헌법의 날(Constitution Day)’이다. 1949년 11월 26일 인도 제헌의회가 인도 헌법을 채택한 날로, 인도 정부는 2015년 11월 19일 사회정의·권한강화부 관보 고시로 매년 이날을 헌법의 날로 지키기로 했다.",
+          "anecdote": "2015년 이전에도 이날은 제헌의회의 헌법 채택을 기념하는 ‘법의 날(Law Day)’로 지켜졌다. 법률 매체 바 앤드 벤치는 2015년 관보 고시 소식을 전하며 그해까지 같은 날이 법의 날이었다고 보도했고, 주말리 인도대사관도 관보 고시 번호를 밝혀 새 이름을 알렸다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "‘법의 날’이 ‘헌법의 날’로 이름을 바꾼 날"
+          }
+        ],
+        "sourceUrl": "https://embassyofindiabamako.gov.in/news_detail/?newsid=76",
+        "tags": [
+          "역사 & 추모"
+        ]
+      },
+      "final_lengths": {
+        "origin": 147,
+        "anecdote": 151
+      },
+      "evidence_sha256": {
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/india-constitution-day/barandbench-2015.txt": "41e60bb5ef5558ca5b472bfb79606c49d7a02ef502f40f66aec9416911ad4d56",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/india-constitution-day/embassy-bamako.txt": "14cfccba590de4b5afdaece06bcc45ef65633669db8eb8005ec0f73efd13ec27"
+      },
+      "supporting_original_quotes": [
+        {
+          "claim_id": "existence_date",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/india-constitution-day/embassy-bamako.txt",
+          "url": "https://embassyofindiabamako.gov.in/news_detail/?newsid=76",
+          "quote_original": "Government of India declares 26th day of November each year as Constitution Day."
+        },
+        {
+          "claim_id": "existence_date",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/india-constitution-day/embassy-bamako.txt",
+          "url": "https://embassyofindiabamako.gov.in/news_detail/?newsid=76",
+          "quote_original": "This was the day when the Constitution of India was adopted in 1949."
+        },
+        {
+          "claim_id": "notification",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/india-constitution-day/embassy-bamako.txt",
+          "url": "https://embassyofindiabamako.gov.in/news_detail/?newsid=76",
+          "quote_original": "Please refer to Gazette Notification No. F.No. 19022/11/2015.VI (E) dated November 19, 2015 notified by the Ministry of Social Justice and Empowerment, Government of India."
+        },
+        {
+          "claim_id": "notification",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/india-constitution-day/barandbench-2015.txt",
+          "url": "https://www.barandbench.com/news/november-26-to-be-celebrated-as-constitution-day",
+          "quote_original": "The Ministry of Social Justice and Empowerment has published a gazette notification declaring November 26 as Constitution Day."
+        },
+        {
+          "claim_id": "law_day",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/india-constitution-day/barandbench-2015.txt",
+          "url": "https://www.barandbench.com/news/november-26-to-be-celebrated-as-constitution-day",
+          "quote_original": "Until this year, the same day has been celebrated as Law Day, to commemorate the adoption of the Constitution of India by the Constituent Assembly."
+        }
+      ]
+    },
+    {
+      "uid": "contact:goa-liberation-day",
+      "original_id": "anv-fixed-12-19-goa-liberation-day",
+      "decision": "accepted_after_source_review",
+      "reasons": [
+        "고아 정부 기념 메시지와 2025 주지사 문서가 12-19 해방/편입·450년 이상·작전36시간·라지/로크바반 발표를 지원.",
+        "2026 공휴일 목록 보도도 같은 12-19를 지정해 다른 연도의 반복을 대조했다."
+      ],
+      "evidence_paths_checked": [
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/goa-liberation-day/dip-cm-greetings.txt",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/goa-liberation-day/governor-2025-pdf.txt",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/goa-liberation-day/thecurrentindia-2026.txt"
+      ],
+      "date_scope_check": "정부 12-19 해방 기념 메시지·2025 기념사 및2026 연례 공휴일12-19. 인도 고아주 범위.",
+      "duplication_check": "고아 항목 없음. 인도 독립기념일 및 다른 국가 해방 기념일과 지역·사건·날짜가 다름.",
+      "source_independence": "DIP 페이지와 goa.gov 주지사 PDF 모두 고아정부 계열. The Current India도 고아관보를 재인용한 2차 자료, 독립 역사 검증 3근거 아님.",
+      "schema_category_tags_check": "현행 Anniversary 필수 필드·annual-fixed MM-DD·실제 category와 tags[0] 일치, text meme URL null. 한국 법정기념일 그룹 없음.",
+      "corrections": [
+        {
+          "field": "storytelling.anecdote",
+          "before": "고아 주지사의 2025년 기념사에 따르면 1961년 12월, 외교적 해결의 길이 모두 막힌 뒤 인도 육·해·공군이 고아와 다만·디우를 식민 통치에서 해방하려는 ‘비자이 작전’에 나섰고, 작전은 36시간 만에 끝났다. 주지사는 이 작전을 고아 사람들도 1947년 인도의 나머지 지역이 얻은 것과 같은 독립을 누려야 한다는 선언이었다고 평가했다. 주정부는 기념식에서 해방운동 순국자 15명의 유족을 예우했다고 밝혔고, 2025년 기념일에는 주지사 관저 ‘라지 바반’을 ‘민중의 집’이라는 뜻의 ‘로크 바반’으로 부르겠다고 발표했다.",
+          "after": "고아 주지사의 2025년 기념사에 따르면 1961년 12월, 외교적 해결의 길이 모두 막힌 뒤 인도 육·해·공군이 고아와 다만·디우를 식민 통치에서 해방하려는 ‘비자이 작전’에 나섰고, 작전은 36시간 만에 끝났다. 주지사는 이 작전을 고아 사람들도 1947년 인도의 나머지 지역이 얻은 것과 같은 독립을 누려야 한다는 선언이었다고 평가했다. 주정부의 기념 메시지는 해방운동 순국자 15명의 유족을 예우했다고 밝혔고, 2025년 기념 메시지에서는 주지사 관저 ‘라지 바반’을 ‘민중의 집’이라는 뜻의 ‘로크 바반’으로 부르겠다고 발표했다.",
+          "reason": "유족 예우가 기념식에서 행해졌다는 세부 장소는 원문 메시지에 없으며 2025 문서는12-18 발행이므로 기념일 당일 발표 단정 대신 기념 메시지로 수정."
+        }
+      ],
+      "warnings": [
+        "공휴일 목록은 정부 관보 직접 원문이 아니라 The Current India의 인용.",
+        "외교 수단 소진·36시간·같은 독립이라는 역사 해석은 주지사의 평가로 귀속. 최초 기념일 제정 연도 불명."
+      ],
+      "source_url_check": "저장 원문에서 기념일 자체의 명칭/날짜를 확인. 역사 사건 자료만을 sourceUrl로 쓰지 않음.",
+      "final_anniversary": {
+        "id": "anv-fixed-12-19-goa-liberation-day",
+        "date": "12-19",
+        "dateType": "annual-fixed",
+        "name": "고아 해방의 날(인도)",
+        "category": "history",
+        "storytelling": {
+          "origin": "12월 19일은 인도 고아주가 기념하는 ‘고아 해방의 날(Goa Liberation Day)’이다. 1961년 12월 19일 고아가 450년 넘게 이어진 포르투갈의 식민 통치에서 벗어나 인도 연방에 편입된 일을 기린다. 고아 주총리와 주지사는 이날 기념 메시지를 내며, 고아 관보를 인용한 보도에 따르면 2026년 고아주 공휴일 목록에도 12월 19일이 올라 있다.",
+          "anecdote": "고아 주지사의 2025년 기념사에 따르면 1961년 12월, 외교적 해결의 길이 모두 막힌 뒤 인도 육·해·공군이 고아와 다만·디우를 식민 통치에서 해방하려는 ‘비자이 작전’에 나섰고, 작전은 36시간 만에 끝났다. 주지사는 이 작전을 고아 사람들도 1947년 인도의 나머지 지역이 얻은 것과 같은 독립을 누려야 한다는 선언이었다고 평가했다. 주정부의 기념 메시지는 해방운동 순국자 15명의 유족을 예우했다고 밝혔고, 2025년 기념 메시지에서는 주지사 관저 ‘라지 바반’을 ‘민중의 집’이라는 뜻의 ‘로크 바반’으로 부르겠다고 발표했다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "450년의 식민 통치, 36시간의 작전"
+          }
+        ],
+        "sourceUrl": "https://dip.goa.gov.in/cm-extends-greetings-on-goa-liberation-day/",
+        "tags": [
+          "역사 & 추모"
+        ]
+      },
+      "final_lengths": {
+        "origin": 204,
+        "anecdote": 301
+      },
+      "evidence_sha256": {
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/goa-liberation-day/dip-cm-greetings.txt": "9d857d4eed3418ffd2c0f5690b74b2adc6d2af771fc68ba06799b61bce35b835",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/goa-liberation-day/governor-2025-pdf.txt": "56ecfd3a2e916959413f174e7c5c818a87a45d332b32ef74cef482e807828b37",
+        "tools/research/workflow/batches/contact-expansion-20261012/evidence/goa-liberation-day/thecurrentindia-2026.txt": "c08ec6d9fad0241411288e1b6569082b55581b20768d935d71c09f69fa1ebfa0"
+      },
+      "supporting_original_quotes": [
+        {
+          "claim_id": "existence_date",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/goa-liberation-day/dip-cm-greetings.txt",
+          "url": "https://dip.goa.gov.in/cm-extends-greetings-on-goa-liberation-day/",
+          "quote_original": "Chief Minister Dr. Pramod Sawant has extended his whole-hearted greetings and good wishes to the people of Goa on the historic occasion of Liberation Day of the beautiful State of Goa, which attained freedom from 450 years of Portuguese rule on December 19, 1961."
+        },
+        {
+          "claim_id": "existence_date",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/goa-liberation-day/governor-2025-pdf.txt",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2025/12/GOVERNOR-GREETS-PEOPLE.pdf",
+          "quote_original": "19 December 1961 is the most significant day in\nGoan history, marking the liberation of Goa from Portuguese rule and its integration\ninto the Indian Union."
+        },
+        {
+          "claim_id": "date_rule",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/goa-liberation-day/thecurrentindia-2026.txt",
+          "url": "https://www.thecurrentindia.com/?p=21310",
+          "quote_original": "The Government of Goa has officially released its list of public holidays for 2026 through the Goa Gazette (Series II No. 28, dated 9 October 2025)."
+        },
+        {
+          "claim_id": "date_rule",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/goa-liberation-day/thecurrentindia-2026.txt",
+          "url": "https://www.thecurrentindia.com/?p=21310",
+          "quote_original": "Goa Liberation Day\n19 Dec 2026"
+        },
+        {
+          "claim_id": "vijay",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/goa-liberation-day/governor-2025-pdf.txt",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2025/12/GOVERNOR-GREETS-PEOPLE.pdf",
+          "quote_original": "The turning point arrived in December 1961, with the historic \"Operation\nVijay\""
+        },
+        {
+          "claim_id": "vijay",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/goa-liberation-day/governor-2025-pdf.txt",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2025/12/GOVERNOR-GREETS-PEOPLE.pdf",
+          "quote_original": "The operation lasted only for 36 hours"
+        },
+        {
+          "claim_id": "lok_bhavan",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/goa-liberation-day/governor-2025-pdf.txt",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2025/12/GOVERNOR-GREETS-PEOPLE.pdf",
+          "quote_original": "I am pleased to declare that Raj Bhavan, Goa, will be known as Lok\nBhavan, Goa."
+        },
+        {
+          "claim_id": "lok_bhavan",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/goa-liberation-day/governor-2025-pdf.txt",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2025/12/GOVERNOR-GREETS-PEOPLE.pdf",
+          "quote_original": "\"Lok Bhavan,\" means People's House"
+        },
+        {
+          "claim_id": "pe_same_independence",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/goa-liberation-day/governor-2025-pdf.txt",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2025/12/GOVERNOR-GREETS-PEOPLE.pdf",
+          "quote_original": "action. It was a declaration that the people of Goa deserved the same independence"
+        },
+        {
+          "claim_id": "pe_15_martyrs",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/goa-liberation-day/dip-cm-greetings.txt",
+          "url": "https://dip.goa.gov.in/cm-extends-greetings-on-goa-liberation-day/",
+          "quote_original": "HCM stated that the Government honoured and felicitated the families of 15 martyrs"
+        },
+        {
+          "claim_id": "pe_same_independence",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/goa-liberation-day/governor-2025-pdf.txt",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2025/12/GOVERNOR-GREETS-PEOPLE.pdf",
+          "quote_original": "action. It was a declaration that the people of Goa deserved the same independence"
+        },
+        {
+          "claim_id": "pe_15_martyrs",
+          "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/goa-liberation-day/dip-cm-greetings.txt",
+          "url": "https://dip.goa.gov.in/cm-extends-greetings-on-goa-liberation-day/",
+          "quote_original": "HCM stated that the Government honoured and felicitated the families of 15 martyrs"
+        }
+      ]
+    },
+    {
+      "uid": "quirky:hoodie-hoo-day",
+      "original_id": "anv-fixed-02-20-hoodie-hoo-day-us",
+      "decision": "accepted_after_source_review",
+      "reasons": [
+        "2017 지역신문은 매년요일무관2월20일, 창안 부부, 정오세번외침, 2014/2015/2016 참여수/취소를 직접 지지한다.",
+        "Pearson 본문은 Wellcat.com 및 북반구 겨울 우울 털어내기와 정오 의식을 소개한다."
+      ],
+      "evidence_paths_checked": [
+        "tools/research/workflow/batches/quirky-discovery-20261012/evidence/hoodie-hoo-day/observer-reporter-2017.txt",
+        "tools/research/workflow/batches/quirky-discovery-20261012/evidence/hoodie-hoo-day/pearson-calendar.txt"
+      ],
+      "date_scope_check": "신문 celebrated Feb.20 regardless of day of week; Pearson February20 noon. 미국 이색기념일, 북반구 겨울 맥락.",
+      "duplication_check": "기존 후디후/Wellcat 같은 대상 없음. 같은2월20일 반려동물/음식 날과 무관.",
+      "source_independence": "신문 지역행사 보도와 Pearson 달력 소개는 역할이 다름. Pearson은 Holiday Insights를 참조한 재인용 자료.",
+      "schema_category_tags_check": "현행 Anniversary 필수 필드·annual-fixed MM-DD·실제 category와 tags[0] 일치, text meme URL null. 한국 법정기념일 그룹 없음.",
+      "corrections": [
+        {
+          "field": "storytelling.anecdote",
+          "before": "펜실베이니아주 찰러로이에서는 몬밸리 지역 상공회의소가 2014년부터 이날 거리 축제를 열었다. 참가자들은 정오 카운트다운에 맞춰 손을 흔들며 ‘후디 후’를 세 번 외치고, 우스꽝스러운 모자나 풍선 모자를 쓰고 나와 겨우내 못 본 이웃과 어울린다. 지역 신문 옵서버리포터에 따르면 2014년 첫 행사에는 100명 남짓이 모였고, 2015년에는 혹독한 날씨로 취소됐으며, 이듬해에는 약 300명이 모였다.",
+          "after": "2017년 옵서버리포터 보도에 따르면 펜실베이니아주 찰러로이의 몬밸리 지역 상공회의소는 2014년 이날의 거리 축제를 시작했다. 참가자들은 정오 카운트다운에 맞춰 손을 흔들며 ‘후디 후’를 세 번 외치고, 우스꽝스러운 모자나 풍선 모자를 쓰고 나와 겨우내 못 본 이웃과 어울린다. 지역 신문 옵서버리포터에 따르면 2014년 첫 행사에는 100명 남짓이 모였고, 2015년에는 혹독한 날씨로 취소됐으며, 이듬해에는 약 300명이 모였다.",
+          "reason": "2014년부터 현재까지 계속되는 듯한 표현을 2017 보도 기준 시작 사실로 한정."
+        }
+      ],
+      "warnings": [
+        "Pearson은 References로 holidayinsights.com을 인용해 독립 원자료가 아님. 창안자 이름/제정연도는 추가하지 않음.",
+        "미국 지역 축제 관행을 전세계 공식 기념일로 확대하지 않음."
+      ],
+      "source_url_check": "저장 원문에서 기념일 자체의 명칭/날짜를 확인. 역사 사건 자료만을 sourceUrl로 쓰지 않음.",
+      "final_anniversary": {
+        "id": "anv-fixed-02-20-hoodie-hoo-day-us",
+        "date": "02-20",
+        "dateType": "annual-fixed",
+        "name": "후디 후 데이",
+        "category": "quirky",
+        "storytelling": {
+          "origin": "2월 20일은 정오에 밖으로 나가 두 손을 머리 위로 흔들며 ‘후디 후!’를 외쳐 겨울을 쫓는 미국의 비공식 이색 기념일 ‘후디 후 데이(Hoodie Hoo Day)’다. 요일과 상관없이 매년 2월 20일에 지키며, 지역 신문은 펜실베이니아 중부의 한 부부가 생각해 낸 ‘완전히 지어낸 기념일’이라고 소개했다. 교육 출판사 피어슨의 달력은 웰캣닷컴(Wellcat.com)이라는 회사가 북반구의 겨울 우울을 털어 내자고 만든 날로 설명한다.",
+          "anecdote": "2017년 옵서버리포터 보도에 따르면 펜실베이니아주 찰러로이의 몬밸리 지역 상공회의소는 2014년 이날의 거리 축제를 시작했다. 참가자들은 정오 카운트다운에 맞춰 손을 흔들며 ‘후디 후’를 세 번 외치고, 우스꽝스러운 모자나 풍선 모자를 쓰고 나와 겨우내 못 본 이웃과 어울린다. 지역 신문 옵서버리포터에 따르면 2014년 첫 행사에는 100명 남짓이 모였고, 2015년에는 혹독한 날씨로 취소됐으며, 이듬해에는 약 300명이 모였다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "봄을 부르는 데 필요한 건 두 손과 큰 목소리"
+          }
+        ],
+        "sourceUrl": "https://cs.observer-reporter.com/opinion/2017/feb/26/hoodie-hoo-a-fun-break-from-pennsylvania-winter/",
+        "tags": [
+          "이색 & 유머"
+        ]
+      },
+      "final_lengths": {
+        "origin": 245,
+        "anecdote": 243
+      },
+      "evidence_sha256": {
+        "tools/research/workflow/batches/quirky-discovery-20261012/evidence/hoodie-hoo-day/observer-reporter-2017.txt": "e8c2d4108434f7ed6e1ad113d3936d56941fef09fc47f8c59f07198cffbe8d9b",
+        "tools/research/workflow/batches/quirky-discovery-20261012/evidence/hoodie-hoo-day/pearson-calendar.txt": "a605a2e4c003d47c22685058477c89ed277a88e4d18b40a636e7ad727a7c8b53"
+      },
+      "supporting_original_quotes": [
+        {
+          "claim_id": "existence_date",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/hoodie-hoo-day/observer-reporter-2017.txt",
+          "url": "https://cs.observer-reporter.com/opinion/2017/feb/26/hoodie-hoo-a-fun-break-from-pennsylvania-winter/",
+          "quote_original": "The day is celebrated Feb. 20, regardless of the day of the week"
+        },
+        {
+          "claim_id": "fabricated",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/hoodie-hoo-day/observer-reporter-2017.txt",
+          "url": "https://cs.observer-reporter.com/opinion/2017/feb/26/hoodie-hoo-a-fun-break-from-pennsylvania-winter/",
+          "quote_original": "A thoroughly fabricated holiday, the brainchild of a central Pennsylvania couple, Hoodie Hoo Day is designed to ward off winter and its many ills."
+        },
+        {
+          "claim_id": "ritual",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/hoodie-hoo-day/pearson-calendar.txt",
+          "url": "https://www.pearsoncanadaschool.com/special-days-calendar/hoodie-hoo-day.html",
+          "quote_original": "The tradition involves going outside at noon on February 20th and waving your hands above your head while yelling"
+        },
+        {
+          "claim_id": "creator",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/hoodie-hoo-day/pearson-calendar.txt",
+          "url": "https://www.pearsoncanadaschool.com/special-days-calendar/hoodie-hoo-day.html",
+          "quote_original": "National Hoodie-Hoo Day is a special day created by a company called Wellcat.com to help people get rid of the blues of winter in the northern hemisphere."
+        },
+        {
+          "claim_id": "local_event",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/hoodie-hoo-day/observer-reporter-2017.txt",
+          "url": "https://cs.observer-reporter.com/opinion/2017/feb/26/hoodie-hoo-a-fun-break-from-pennsylvania-winter/",
+          "quote_original": "the Mon Valley Regional Chamber of Commerce started this wonderful silliness in 2014"
+        },
+        {
+          "claim_id": "pe_three_times",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/hoodie-hoo-day/observer-reporter-2017.txt",
+          "url": "https://cs.observer-reporter.com/opinion/2017/feb/26/hoodie-hoo-a-fun-break-from-pennsylvania-winter/",
+          "quote_original": "wave their hands above their heads and shout “Hoodie Hoo” three times"
+        },
+        {
+          "claim_id": "pe_turnout",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/hoodie-hoo-day/observer-reporter-2017.txt",
+          "url": "https://cs.observer-reporter.com/opinion/2017/feb/26/hoodie-hoo-a-fun-break-from-pennsylvania-winter/",
+          "quote_original": "The kickoff event went reasonably well, drawing about 100 celebrants, but the 2015 Hoodie Hoo had to be canceled because of harsh weather."
+        },
+        {
+          "claim_id": "pe_charleroi",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/hoodie-hoo-day/observer-reporter-2017.txt",
+          "url": "https://cs.observer-reporter.com/opinion/2017/feb/26/hoodie-hoo-a-fun-break-from-pennsylvania-winter/",
+          "quote_original": "But in Charleroi, George and Abe had to share second billing."
+        },
+        {
+          "claim_id": "pe_three_times",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/hoodie-hoo-day/observer-reporter-2017.txt",
+          "url": "https://cs.observer-reporter.com/opinion/2017/feb/26/hoodie-hoo-a-fun-break-from-pennsylvania-winter/",
+          "quote_original": "wave their hands above their heads and shout “Hoodie Hoo” three times"
+        },
+        {
+          "claim_id": "pe_turnout",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/hoodie-hoo-day/observer-reporter-2017.txt",
+          "url": "https://cs.observer-reporter.com/opinion/2017/feb/26/hoodie-hoo-a-fun-break-from-pennsylvania-winter/",
+          "quote_original": "The kickoff event went reasonably well, drawing about 100 celebrants, but the 2015 Hoodie Hoo had to be canceled because of harsh weather."
+        },
+        {
+          "claim_id": "pe_charleroi",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/hoodie-hoo-day/observer-reporter-2017.txt",
+          "url": "https://cs.observer-reporter.com/opinion/2017/feb/26/hoodie-hoo-a-fun-break-from-pennsylvania-winter/",
+          "quote_original": "But in Charleroi, George and Abe had to share second billing."
+        }
+      ]
+    },
+    {
+      "uid": "quirky:mean-girls-day",
+      "original_id": "anv-fixed-10-03-mean-girls-day-global",
+      "decision": "accepted_after_source_review",
+      "reasons": [
+        "TIME/CBS 각각2014·2018 10월3일 팬 기념 기사, 대사와 날짜 유래 및 비공식 팬관행 확인."
+      ],
+      "evidence_paths_checked": [
+        "tools/research/workflow/batches/quirky-discovery-20261012/evidence/mean-girls-day/cbsnews-2018.txt",
+        "tools/research/workflow/batches/quirky-discovery-20261012/evidence/mean-girls-day/time.txt"
+      ],
+      "date_scope_check": "2014 TIME10-03 팬 기념,2018 CBS10-03 사례. 매년 고정일 팬덤관행, 국가공휴일아님을 명시한 unofficial 소개.",
+      "duplication_check": "기존 Mean Girls/퀸카 동일대상 없음.10월3일 개천절·테키의날은 다른 대상.",
+      "source_independence": "TIME 영화 장면 소개와 CBS 뉴욕 계획기사. 작품정보는 같은 영화에 근거하며 출처 도메인으로 독립성을 증명하지 않음.",
+      "schema_category_tags_check": "현행 Anniversary 필수 필드·annual-fixed MM-DD·실제 category와 tags[0] 일치, text meme URL null. 한국 법정기념일 그룹 없음.",
+      "corrections": [
+        {
+          "field": "storytelling.origin",
+          "before": "10월 3일은 2004년 미국 영화 ‘퀸카로 살아남는 법(Mean Girls)’ 팬들이 비공식으로 챙기는 ‘퀸카로 살아남는 법의 날(Mean Girls Day)’이다. 영화에서 짝사랑 상대 에런 새뮤얼스가 주인공 케이디 헤런에게 오늘이 며칠이냐고 묻자 케이디가 ‘10월 3일이야’라고 답하는 장면에서 날짜가 왔다. 누가 제정한 날이 아니라 팬들이 주로 SNS에서 기념하며 퍼진 날이다.",
+          "after": "10월 3일은 2004년 미국 영화 ‘퀸카로 살아남는 법(Mean Girls)’ 팬들이 비공식으로 챙기는 ‘퀸카로 살아남는 법의 날(Mean Girls Day)’이다. 영화에서 짝사랑 상대 에런 새뮤얼스가 주인공 케이디 헤런에게 오늘이 며칠이냐고 묻자 케이디가 ‘10월 3일이야’라고 답하는 장면에서 날짜가 왔다. 타임은 팬들이 주로 SNS에서 이날을 기념한다고 소개한다.",
+          "reason": "비공식 팬기념 관행은 근거가 있으나 제정자가 전혀 없다는 부정은 입증되지 않아 삭제."
+        },
+        {
+          "field": "storytelling.anecdote",
+          "before": "린지 로한이 연기한 케이디가 짝사랑 상대와 처음 말을 나누는 장면이라 팬들에게 특히 기억된다. 시사주간지 타임은 이날을 ‘비공식적으로 내셔널 민 걸스 데이로 알려진 날’이라고 소개했다. 2018년 10월 3일 뉴욕에서는 이 영화를 원작으로 한 브로드웨이 뮤지컬이 사전 추첨에 당첨된 팬들을 위해 무료 공연을 열었고, 주변 가게들도 영화 속 유행어를 붙인 할인 행사를 내놓았다.",
+          "after": "타임은 이날을 ‘비공식적으로 내셔널 민 걸스 데이로 알려진 날’이라고 소개했다. CBS 뉴욕의 2018년 10월 3일 보도는 뉴욕의 브로드웨이 뮤지컬이 사전 추첨에 당첨된 팬들을 위해 무료 공연을 마련할 예정이라고 전했다. 주변 가게들도 영화 속 유행어인 ‘fetch’를 활용한 음료와 간식 할인 행사를 예고했다.",
+          "reason": "처음 말나누었다는 과장적 부연을 삭제. CBS는 당일 무료공연/할인 계획 기사라 개최완료를 단정하지 않음."
+        }
+      ],
+      "warnings": [
+        "한국 영화제목 자체의 개봉기록은 확보자료에 없으며 통용 번역 표기를 사용한 편집명이다.",
+        "특정 인물 최초 제정 여부 미확인, 팬덤 관행으로만 서술."
+      ],
+      "source_url_check": "저장 원문에서 기념일 자체의 명칭/날짜를 확인. 역사 사건 자료만을 sourceUrl로 쓰지 않음.",
+      "final_anniversary": {
+        "id": "anv-fixed-10-03-mean-girls-day-global",
+        "date": "10-03",
+        "dateType": "annual-fixed",
+        "name": "퀸카로 살아남는 법의 날",
+        "category": "culture",
+        "storytelling": {
+          "origin": "10월 3일은 2004년 미국 영화 ‘퀸카로 살아남는 법(Mean Girls)’ 팬들이 비공식으로 챙기는 ‘퀸카로 살아남는 법의 날(Mean Girls Day)’이다. 영화에서 짝사랑 상대 에런 새뮤얼스가 주인공 케이디 헤런에게 오늘이 며칠이냐고 묻자 케이디가 ‘10월 3일이야’라고 답하는 장면에서 날짜가 왔다. 타임은 팬들이 주로 SNS에서 이날을 기념한다고 소개한다.",
+          "anecdote": "타임은 이날을 ‘비공식적으로 내셔널 민 걸스 데이로 알려진 날’이라고 소개했다. CBS 뉴욕의 2018년 10월 3일 보도는 뉴욕의 브로드웨이 뮤지컬이 사전 추첨에 당첨된 팬들을 위해 무료 공연을 마련할 예정이라고 전했다. 주변 가게들도 영화 속 유행어인 ‘fetch’를 활용한 음료와 간식 할인 행사를 예고했다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "오늘 며칠이냐고 묻는다면, 10월 3일"
+          }
+        ],
+        "sourceUrl": "https://time.com/3457797/mean-girls-day-october-3/",
+        "tags": [
+          "문화 & 예술"
+        ]
+      },
+      "final_lengths": {
+        "origin": 208,
+        "anecdote": 175
+      },
+      "evidence_sha256": {
+        "tools/research/workflow/batches/quirky-discovery-20261012/evidence/mean-girls-day/cbsnews-2018.txt": "3b17b1a62f80af117f1245c3f013e2e99a59855e1544046176577305c3d573b3",
+        "tools/research/workflow/batches/quirky-discovery-20261012/evidence/mean-girls-day/time.txt": "276301263836c066950219c7404b694371b18ce25fa7f79bb05a77b49af20227"
+      },
+      "supporting_original_quotes": [
+        {
+          "claim_id": "date",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/mean-girls-day/cbsnews-2018.txt",
+          "url": "https://www.cbsnews.com/newyork/news/mean-girls-day-2018/",
+          "quote_original": "October 3 is a special day for"
+        },
+        {
+          "claim_id": "origin",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/mean-girls-day/time.txt",
+          "url": "https://time.com/3457797/mean-girls-day-october-3/",
+          "quote_original": "He asked her what day it was, and she replied"
+        },
+        {
+          "claim_id": "unofficial",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/mean-girls-day/time.txt",
+          "url": "https://time.com/3457797/mean-girls-day-october-3/",
+          "quote_original": "unofficially known as National Mean Girls Day"
+        },
+        {
+          "claim_id": "pe_first_spoke",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/mean-girls-day/cbsnews-2018.txt",
+          "url": "https://www.cbsnews.com/newyork/news/mean-girls-day-2018/",
+          "quote_original": "It's the day that Lindsay Lohan's character, Cady Heron, first spoke with her crush, Aaron Samuels, in the 2004 movie."
+        },
+        {
+          "claim_id": "pe_broadway_2018",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/mean-girls-day/cbsnews-2018.txt",
+          "url": "https://www.cbsnews.com/newyork/news/mean-girls-day-2018/",
+          "quote_original": "there will be a free performance of the Broadway musical comedy at the August Wilson Theater for fans who won an advanced lottery."
+        },
+        {
+          "claim_id": "pe_social_media",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/mean-girls-day/time.txt",
+          "url": "https://time.com/3457797/mean-girls-day-october-3/",
+          "quote_original": "Most fans celebrate this occasion — unofficially known as National Mean Girls Day — on social media."
+        },
+        {
+          "claim_id": "pe_first_spoke",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/mean-girls-day/cbsnews-2018.txt",
+          "url": "https://www.cbsnews.com/newyork/news/mean-girls-day-2018/",
+          "quote_original": "It's the day that Lindsay Lohan's character, Cady Heron, first spoke with her crush, Aaron Samuels, in the 2004 movie."
+        },
+        {
+          "claim_id": "pe_broadway_2018",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/mean-girls-day/cbsnews-2018.txt",
+          "url": "https://www.cbsnews.com/newyork/news/mean-girls-day-2018/",
+          "quote_original": "there will be a free performance of the Broadway musical comedy at the August Wilson Theater for fans who won an advanced lottery."
+        },
+        {
+          "claim_id": "pe_social_media",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/mean-girls-day/time.txt",
+          "url": "https://time.com/3457797/mean-girls-day-october-3/",
+          "quote_original": "Most fans celebrate this occasion — unofficially known as National Mean Girls Day — on social media."
+        }
+      ]
+    },
+    {
+      "uid": "quirky:its-gonna-be-may",
+      "original_id": "anv-fixed-04-30-its-gonna-be-may-day-global",
+      "decision": "accepted_after_source_review",
+      "reasons": [
+        "Spotify2019 본문이 unofficial holiday 및 매년4월30일을 명시한다. 밈 자체만 존재하는 것이 아니라 날의 실제 명칭을 확인.",
+        "2000노래·발음 말장난·2014재생증가 수치·2019 광고는 원문 범위 안에서 지원된다."
+      ],
+      "evidence_paths_checked": [
+        "tools/research/workflow/batches/quirky-discovery-20261012/evidence/its-gonna-be-may/meme-com.txt",
+        "tools/research/workflow/batches/quirky-discovery-20261012/evidence/its-gonna-be-may/spotify-newsroom.txt"
+      ],
+      "date_scope_check": "Spotify Happy last day of April / unofficial holiday / on this day each year.4월30일 인터넷밈 기념관행.",
+      "duplication_check": "기존 same date 재즈/벅스버니 등과 대상 다름. NSYNC/Timberlake/May 이름·ID 중복없음.",
+      "source_independence": "기원은 두 문서 모두 KnowYourMeme 의존 가능/명시. Spotify 자체재생 데이터는 다른 역할, meme.com 광고사례는 DailyDot 재인용.",
+      "schema_category_tags_check": "현행 Anniversary 필수 필드·annual-fixed MM-DD·실제 category와 tags[0] 일치, text meme URL null. 한국 법정기념일 그룹 없음.",
+      "corrections": [
+        {
+          "field": "storytelling.origin",
+          "before": "4월 30일은 미국 보이밴드 엔싱크(*NSYNC)의 2000년 노래 ‘It's Gonna Be Me’ 가사가 ‘It's Gonna Be May(이제 5월이야)’로 들린다는 인터넷 밈을 해마다 꺼내 드는 비공식 기념일 ‘잇츠 고나 비 메이 데이’다. 저스틴 팀버레이크가 ‘me’를 ‘메이’에 가깝게 발음한 데서 생긴 말장난으로, 2012년 1월 텀블러에서 시작해 4월 30일을 향한 연례 카운트다운 밈으로 굳었다.",
+          "after": "4월 30일은 미국 보이밴드 엔싱크(*NSYNC)의 2000년 노래 ‘It's Gonna Be Me’ 가사가 ‘It's Gonna Be May(곧 5월이 될 거야)’로 들린다는 인터넷 밈을 해마다 꺼내 드는 비공식 기념일 ‘잇츠 고나 비 메이 데이’다. 저스틴 팀버레이크가 ‘me’를 ‘메이’에 가깝게 발음한 데서 생긴 말장난으로, 스포티파이는 이 밈이 2012년 텀블러에 처음 올라왔다고 밈 데이터베이스 노유어밈을 인용해 소개했고, 밈 아카이브 meme.com은 그 시점을 2012년 1월로 설명한다. 4월 30일을 향한 연례 카운트다운으로 쓰인다.",
+          "reason": "미래형 gonna be를 정확히 번역.2012 최초기원은 2차아카이브의 설명으로 귀속."
+        },
+        {
+          "field": "storytelling.anecdote",
+          "before": "스포티파이는 이 밈 덕분에 해마다 4월 30일과 5월 1일 이 노래의 재생이 급증한다고 밝혔다. 2014년 4월 30일 버락 오바마 당시 미국 대통령이 백악관에서 팀버레이크와 함께 찍은 사진에 ‘It's gonna be May’라는 글을 붙여 올리자 그날 재생 수가 평소보다 101% 늘었고, 이튿날에는 191% 뛰었다. 2019년에는 엔싱크 멤버 랜스 배스가 가전 브랜드 메이택의 협찬 트윗으로 이 밈을 광고 문구로 바꾸기도 했다.",
+          "after": "스포티파이는 2019년 자료에서 해마다 4월 30일과 5월 1일 이 노래의 재생이 급증하는 추세를 소개했다. 2014년 4월 30일 버락 오바마 당시 미국 대통령이 백악관에서 팀버레이크와 함께 찍은 사진에 ‘It's gonna be May’라는 글을 붙여 올렸으며, 같은 날 재생 수는 평소보다 101% 늘었고, 이튿날에는 191% 뛰었다. meme.com은 2019년 엔싱크 멤버 랜스 배스가 가전 브랜드 메이택의 협찬 트윗으로 이 밈을 광고 문구로 바꾼 사례도 소개한다.",
+          "reason": "2019 플랫폼 관찰을 현재 일반 사실로 단정하지 않음. 대통령 게시와 재생상승의 인과관계 대신 같은 날의 상관관계 서술.광고는 아카이브에 귀속."
+        }
+      ],
+      "warnings": [
+        "Spotify는 KnowYourMeme를 인용하고 meme.com도 KnowYourMeme 등을 참조하므로 최초기원 독립2근거 아님.",
+        "sourceUrl은 태그 아카이브지만 저장본문에2019기사가 전문으로 있고 기념일 자체를 명시함."
+      ],
+      "source_url_check": "저장 원문에서 기념일 자체의 명칭/날짜를 확인. 역사 사건 자료만을 sourceUrl로 쓰지 않음.",
+      "final_anniversary": {
+        "id": "anv-fixed-04-30-its-gonna-be-may-day-global",
+        "date": "04-30",
+        "dateType": "annual-fixed",
+        "name": "잇츠 고나 비 메이 데이",
+        "category": "quirky",
+        "storytelling": {
+          "origin": "4월 30일은 미국 보이밴드 엔싱크(*NSYNC)의 2000년 노래 ‘It's Gonna Be Me’ 가사가 ‘It's Gonna Be May(곧 5월이 될 거야)’로 들린다는 인터넷 밈을 해마다 꺼내 드는 비공식 기념일 ‘잇츠 고나 비 메이 데이’다. 저스틴 팀버레이크가 ‘me’를 ‘메이’에 가깝게 발음한 데서 생긴 말장난으로, 스포티파이는 이 밈이 2012년 텀블러에 처음 올라왔다고 밈 데이터베이스 노유어밈을 인용해 소개했고, 밈 아카이브 meme.com은 그 시점을 2012년 1월로 설명한다. 4월 30일을 향한 연례 카운트다운으로 쓰인다.",
+          "anecdote": "스포티파이는 2019년 자료에서 해마다 4월 30일과 5월 1일 이 노래의 재생이 급증하는 추세를 소개했다. 2014년 4월 30일 버락 오바마 당시 미국 대통령이 백악관에서 팀버레이크와 함께 찍은 사진에 ‘It's gonna be May’라는 글을 붙여 올렸으며, 같은 날 재생 수는 평소보다 101% 늘었고, 이튿날에는 191% 뛰었다. meme.com은 2019년 엔싱크 멤버 랜스 배스가 가전 브랜드 메이택의 협찬 트윗으로 이 밈을 광고 문구로 바꾼 사례도 소개한다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "4월의 마지막 밤, 팀버레이크가 5월을 데려온다"
+          }
+        ],
+        "sourceUrl": "https://newsroom.spotify.com/tag/its-gonna-be-may",
+        "tags": [
+          "이색 & 유머"
+        ]
+      },
+      "final_lengths": {
+        "origin": 308,
+        "anecdote": 265
+      },
+      "evidence_sha256": {
+        "tools/research/workflow/batches/quirky-discovery-20261012/evidence/its-gonna-be-may/meme-com.txt": "878c224eeeecbddb0e6cc9ff87751113cb7ab1af54dd943e57a1b60768c176d6",
+        "tools/research/workflow/batches/quirky-discovery-20261012/evidence/its-gonna-be-may/spotify-newsroom.txt": "9ea63af04953b4f92b2b2c271867ca745a47d0c6adf1f33b88fae88303d91833"
+      },
+      "supporting_original_quotes": [
+        {
+          "claim_id": "annual_spike",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/its-gonna-be-may/spotify-newsroom.txt",
+          "url": "https://newsroom.spotify.com/tag/its-gonna-be-may",
+          "quote_original": "Thanks to a 2012 meme gone viral, on this day each year, the *NSYNC song"
+        },
+        {
+          "claim_id": "unofficial",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/its-gonna-be-may/spotify-newsroom.txt",
+          "url": "https://newsroom.spotify.com/tag/its-gonna-be-may",
+          "quote_original": "seen the meme of this unofficial holiday"
+        },
+        {
+          "claim_id": "origin",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/its-gonna-be-may/meme-com.txt",
+          "url": "https://meme.com/memes/its-gonna-be-may",
+          "quote_original": "Starting on Tumblr in January 2012, the misheard lyric turned into a yearly countdown to April 30th"
+        },
+        {
+          "claim_id": "pe_obama_2014",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/its-gonna-be-may/spotify-newsroom.txt",
+          "url": "https://newsroom.spotify.com/tag/its-gonna-be-may",
+          "quote_original": "That very same day, streams of the song spiked 101% from the daily average. The next day, May 1, 2014, streams rocketed 191%."
+        },
+        {
+          "claim_id": "pe_mondegreen",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/its-gonna-be-may/meme-com.txt",
+          "url": "https://meme.com/memes/its-gonna-be-may",
+          "quote_original": "built around Justin Timberlake's pronunciation of the word \"me\" in the NSYNC song \"It's Gonna Be Me,\" which sounds like \"May.\""
+        },
+        {
+          "claim_id": "pe_maytag_2019",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/its-gonna-be-may/meme-com.txt",
+          "url": "https://meme.com/memes/its-gonna-be-may",
+          "quote_original": "Lance Bass's 2019 sponsored tweet turning the meme into #ItsGonnaBeMaytag for a Maytag brand campaign."
+        },
+        {
+          "claim_id": "pe_obama_2014",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/its-gonna-be-may/spotify-newsroom.txt",
+          "url": "https://newsroom.spotify.com/tag/its-gonna-be-may",
+          "quote_original": "That very same day, streams of the song spiked 101% from the daily average. The next day, May 1, 2014, streams rocketed 191%."
+        },
+        {
+          "claim_id": "pe_mondegreen",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/its-gonna-be-may/meme-com.txt",
+          "url": "https://meme.com/memes/its-gonna-be-may",
+          "quote_original": "built around Justin Timberlake's pronunciation of the word \"me\" in the NSYNC song \"It's Gonna Be Me,\" which sounds like \"May.\""
+        },
+        {
+          "claim_id": "pe_maytag_2019",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/its-gonna-be-may/meme-com.txt",
+          "url": "https://meme.com/memes/its-gonna-be-may",
+          "quote_original": "Lance Bass's 2019 sponsored tweet turning the meme into #ItsGonnaBeMaytag for a Maytag brand campaign."
+        }
+      ]
+    },
+    {
+      "uid": "quirky:earth-wind-fire-day",
+      "original_id": "anv-fixed-09-21-earth-wind-and-fire-day-global",
+      "decision": "accepted_after_source_review",
+      "reasons": [
+        "2019 CNN 전재가 LA시의회 선언과 every September21 온라인 밈을 명시해 시민선언이 단발성이어도 팬관행의 연례성을 지원.",
+        "NPR2022 원문은2014작사가발언을 재인용하며 가사날짜유래가 일치."
+      ],
+      "evidence_paths_checked": [
+        "tools/research/workflow/batches/quirky-discovery-20261012/evidence/earth-wind-fire-day/cfpublic-npr-2022.txt",
+        "tools/research/workflow/batches/quirky-discovery-20261012/evidence/earth-wind-fire-day/wsvn.txt"
+      ],
+      "date_scope_check": "2019 CNN본문 every September21 memes and jokes +2022 NPR9월21일기념.미국음악팬관행/LA도시선언, 세계공식기념일주장없음.",
+      "duplication_check": "09-21 UN평화의날·세계알츠하이머·치매극복은 대상/주체다름. 밴드관련동일 항목없음.",
+      "source_independence": "WSVN CNN전재→KABC; CFpublic NPR전재→2014NPR인터뷰.사이트가4개라도 독립4출처아님.",
+      "schema_category_tags_check": "현행 Anniversary 필수 필드·annual-fixed MM-DD·실제 category와 tags[0] 일치, text meme URL null. 한국 법정기념일 그룹 없음.",
+      "corrections": [
+        {
+          "field": "storytelling.origin",
+          "before": "9월 21일은 미국 밴드 어스 윈드 앤 파이어(Earth, Wind & Fire)의 히트곡 ‘September’ 첫 가사 ‘Do you remember the 21st night of September?’ 덕분에 이 노래를 찾아 듣는 날로 불리는 ‘어스 윈드 앤 파이어 데이’다. 2019년 미국 로스앤젤레스 시의회가 9월 21일을 ‘Earth, Wind & Fire Day’로 선언했고, 미국 공영라디오 NPR도 이날을 같은 이름으로 소개했다. 국가가 정한 기념일은 아니다.",
+          "after": "9월 21일은 미국 밴드 어스 윈드 앤 파이어(Earth, Wind & Fire)의 히트곡 ‘September’ 첫 가사 ‘Do you remember the 21st night of September?’ 덕분에 이 노래를 찾아 듣는 날로 불리는 ‘어스 윈드 앤 파이어 데이’다. 2019년 미국 로스앤젤레스 시의회가 9월 21일을 ‘Earth, Wind & Fire Day’로 선언했고, 미국 공영라디오 NPR도 이날을 같은 이름으로 소개했다. LA의 도시 기념일 선언과 음악 팬들의 온라인 기념 관행을 구분할 필요가 있다.",
+          "reason": "국가 지정이 전혀 없다는 미입증부정 대신 도시선언과 팬덤관행 범위를 구분."
+        },
+        {
+          "field": "storytelling.anecdote",
+          "before": "정작 날짜에는 특별한 뜻이 없다. 공동 작사가 앨리 윌리스는 2014년 NPR 인터뷰에서 21일이 다른 어떤 날짜보다 노래에 잘 붙었다는 것 말고는 의미가 없다고 말했다. 로스앤젤레스 시의원 마퀴스 해리스도슨은 밴드가 LA를 고향으로 삼았기 때문에 이날을 지정했다고 설명했고, 시의회는 멤버 랄프 존슨, 필립 베일리, 버딘 화이트에게 기념 증서를 건넸다. 밴드를 만든 모리스 화이트는 2016년 세상을 떠났다. 이 밴드는 빌보드 핫100에 33곡을 올리고 그래미상을 여섯 번 받았다.",
+          "after": "가사 속 날짜에 특별한 의미가 있었던 것은 아니라고 작사가가 설명했다. 공동 작사가 앨리 윌리스는 2014년 NPR 인터뷰에서 21일이 다른 어떤 날짜보다 노래에 잘 붙었다는 것 말고는 의미가 없다고 말했다. 로스앤젤레스 시의원 마퀴스 해리스도슨은 밴드가 LA를 고향으로 삼았기 때문에 이날을 지정했다고 설명했고, 시의회는 멤버 랄프 존슨, 필립 베일리, 버딘 화이트에게 기념 증서를 건넸다. 밴드를 만든 모리스 화이트는 2016년 세상을 떠났다. 2019년 CNN 보도는 당시까지 이 밴드의 노래 33곡이 빌보드 핫100에 올랐고 그래미상을 여섯 번 받았다고 소개했다.",
+          "reason": "작사가평가귀속 및 음악상/차트누적수치를2019보도시점에 고정."
+        }
+      ],
+      "warnings": [
+        "WSVN 원기사는 CNN→KABC 취재 인용. WSVN의 독립취재로 기록하지 않음.",
+        "시의회선언 원문 자체와 법률상 영구연례효력은 미확보. annual-fixed의 별도근거는 every September21 팬온라인 관행이다."
+      ],
+      "source_url_check": "저장 원문에서 기념일 자체의 명칭/날짜를 확인. 역사 사건 자료만을 sourceUrl로 쓰지 않음.",
+      "final_anniversary": {
+        "id": "anv-fixed-09-21-earth-wind-and-fire-day-global",
+        "date": "09-21",
+        "dateType": "annual-fixed",
+        "name": "어스 윈드 앤 파이어 데이",
+        "category": "culture",
+        "storytelling": {
+          "origin": "9월 21일은 미국 밴드 어스 윈드 앤 파이어(Earth, Wind & Fire)의 히트곡 ‘September’ 첫 가사 ‘Do you remember the 21st night of September?’ 덕분에 이 노래를 찾아 듣는 날로 불리는 ‘어스 윈드 앤 파이어 데이’다. 2019년 미국 로스앤젤레스 시의회가 9월 21일을 ‘Earth, Wind & Fire Day’로 선언했고, 미국 공영라디오 NPR도 이날을 같은 이름으로 소개했다. LA의 도시 기념일 선언과 음악 팬들의 온라인 기념 관행을 구분할 필요가 있다.",
+          "anecdote": "가사 속 날짜에 특별한 의미가 있었던 것은 아니라고 작사가가 설명했다. 공동 작사가 앨리 윌리스는 2014년 NPR 인터뷰에서 21일이 다른 어떤 날짜보다 노래에 잘 붙었다는 것 말고는 의미가 없다고 말했다. 로스앤젤레스 시의원 마퀴스 해리스도슨은 밴드가 LA를 고향으로 삼았기 때문에 이날을 지정했다고 설명했고, 시의회는 멤버 랄프 존슨, 필립 베일리, 버딘 화이트에게 기념 증서를 건넸다. 밴드를 만든 모리스 화이트는 2016년 세상을 떠났다. 2019년 CNN 보도는 당시까지 이 밴드의 노래 33곡이 빌보드 핫100에 올랐고 그래미상을 여섯 번 받았다고 소개했다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "Do you remember? 오늘이 바로 그 21일 밤"
+          }
+        ],
+        "sourceUrl": "https://wsvn.com/entertainment/los-angeles-declared-september-21-earth-wind-fire-day/",
+        "tags": [
+          "문화 & 예술"
+        ]
+      },
+      "final_lengths": {
+        "origin": 294,
+        "anecdote": 319
+      },
+      "evidence_sha256": {
+        "tools/research/workflow/batches/quirky-discovery-20261012/evidence/earth-wind-fire-day/cfpublic-npr-2022.txt": "80954e359e7d0a2278db3dd41bcd14356ca0d752e499316792c2984e03f329c4",
+        "tools/research/workflow/batches/quirky-discovery-20261012/evidence/earth-wind-fire-day/wsvn.txt": "c143bf9fc4b55d6a73b0fb60d500a23c117755be31411bdae792d44504d62137"
+      },
+      "supporting_original_quotes": [
+        {
+          "claim_id": "meme_day",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/earth-wind-fire-day/cfpublic-npr-2022.txt",
+          "url": "https://www.cfpublic.org/2022-09-21/do-you-remember-its-earth-wind-and-fire-day",
+          "quote_original": "Happy Earth, Wind and Fire Day."
+        },
+        {
+          "claim_id": "no_meaning",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/earth-wind-fire-day/cfpublic-npr-2022.txt",
+          "url": "https://www.cfpublic.org/2022-09-21/do-you-remember-its-earth-wind-and-fire-day",
+          "quote_original": "There is no significance beyond it just sang better than any of the other dates."
+        },
+        {
+          "claim_id": "la_council",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/earth-wind-fire-day/wsvn.txt",
+          "url": "https://wsvn.com/entertainment/los-angeles-declared-september-21-earth-wind-fire-day/",
+          "quote_original": "the City Council declared September 21"
+        },
+        {
+          "claim_id": "pe_la_hometown",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/earth-wind-fire-day/wsvn.txt",
+          "url": "https://wsvn.com/entertainment/los-angeles-declared-september-21-earth-wind-fire-day/",
+          "quote_original": "They made Los Angeles their home, and so we decided in the city of LA, September 21 will be ‘Earth, Wind & Fire Day,'"
+        },
+        {
+          "claim_id": "pe_wsvn_date",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/earth-wind-fire-day/wsvn.txt",
+          "url": "https://wsvn.com/entertainment/los-angeles-declared-september-21-earth-wind-fire-day/",
+          "quote_original": "September 21, 2019"
+        },
+        {
+          "claim_id": "pe_members_cert",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/earth-wind-fire-day/wsvn.txt",
+          "url": "https://wsvn.com/entertainment/los-angeles-declared-september-21-earth-wind-fire-day/",
+          "quote_original": "The founder of the group, Maurice White, died in 2016."
+        },
+        {
+          "claim_id": "pe_chart",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/earth-wind-fire-day/wsvn.txt",
+          "url": "https://wsvn.com/entertainment/los-angeles-declared-september-21-earth-wind-fire-day/",
+          "quote_original": "Thirty-three of their songs appeared on the Billboard’s Hot 100 chart, and the band has won six Grammys."
+        },
+        {
+          "claim_id": "pe_willis_2014",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/earth-wind-fire-day/cfpublic-npr-2022.txt",
+          "url": "https://www.cfpublic.org/2022-09-21/do-you-remember-its-earth-wind-and-fire-day",
+          "quote_original": "One of the songwriters, Allee Willis, spoke to NPR in 2014."
+        },
+        {
+          "claim_id": "pe_la_hometown",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/earth-wind-fire-day/wsvn.txt",
+          "url": "https://wsvn.com/entertainment/los-angeles-declared-september-21-earth-wind-fire-day/",
+          "quote_original": "They made Los Angeles their home, and so we decided in the city of LA, September 21 will be ‘Earth, Wind & Fire Day,'"
+        },
+        {
+          "claim_id": "pe_wsvn_date",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/earth-wind-fire-day/wsvn.txt",
+          "url": "https://wsvn.com/entertainment/los-angeles-declared-september-21-earth-wind-fire-day/",
+          "quote_original": "September 21, 2019"
+        },
+        {
+          "claim_id": "pe_members_cert",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/earth-wind-fire-day/wsvn.txt",
+          "url": "https://wsvn.com/entertainment/los-angeles-declared-september-21-earth-wind-fire-day/",
+          "quote_original": "The founder of the group, Maurice White, died in 2016."
+        },
+        {
+          "claim_id": "pe_chart",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/earth-wind-fire-day/wsvn.txt",
+          "url": "https://wsvn.com/entertainment/los-angeles-declared-september-21-earth-wind-fire-day/",
+          "quote_original": "Thirty-three of their songs appeared on the Billboard’s Hot 100 chart, and the band has won six Grammys."
+        },
+        {
+          "claim_id": "pe_willis_2014",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/earth-wind-fire-day/cfpublic-npr-2022.txt",
+          "url": "https://www.cfpublic.org/2022-09-21/do-you-remember-its-earth-wind-and-fire-day",
+          "quote_original": "One of the songwriters, Allee Willis, spoke to NPR in 2014."
+        }
+      ]
+    },
+    {
+      "uid": "quirky:tau-day",
+      "original_id": "anv-fixed-06-28-tau-day-global",
+      "decision": "accepted_after_source_review",
+      "reasons": [
+        "TauDay 공식사이트가 C/r·6.283185·2010하틀선언문과 annually June28 직접명시.",
+        "SciAm2017은팔레2001글과6/28선정·MIT시각, 공식사이트는언어지원/8개언어판을 지원."
+      ],
+      "evidence_paths_checked": [
+        "tools/research/workflow/batches/quirky-discovery-20261012/evidence/tau-day/sciam-blog.txt",
+        "tools/research/workflow/batches/quirky-discovery-20261012/evidence/tau-day/tauday.txt"
+      ],
+      "date_scope_check": "주최 takes place annually on June28.비공식수학팬기념일.",
+      "duplication_check": "anv-fixed-03-14-pi-day는π3.14/03-14.이번τ6.28/06-28은명칭·옹호운동·상수·날짜다름.",
+      "source_independence": "주최사이트+2017저자인터뷰를포함한SciAm블로그.독립정부/학계공식승인으로표현하지않음.",
+      "schema_category_tags_check": "현행 Anniversary 필수 필드·annual-fixed MM-DD·실제 category와 tags[0] 일치, text meme URL null. 한국 법정기념일 그룹 없음.",
+      "corrections": [
+        {
+          "field": "storytelling.anecdote",
+          "before": "사이언티픽 아메리칸 블로그에 따르면 하틀의 선언문은 수학자 밥 팔레의 2001년 글 ‘파이는 틀렸다(Pi Is Wrong)’에서 영감을 받았다. 이 운동은 실제로 흔적을 남겨, 미국 MIT는 입학 결과를 3월 14일 ‘파이의 날’ 오후 6시 28분 ‘타우 타임’에 발표한다. 타우 공식 사이트는 구글 계산기와 자바·러스트·파이썬 같은 여러 프로그래밍 언어가 τ 상수를 지원하게 됐고, 선언문이 원문을 포함해 8개 언어로 나와 있다고 소개한다.",
+          "after": "사이언티픽 아메리칸 블로그에 따르면 하틀의 선언문은 수학자 밥 팔레의 2001년 글 ‘파이는 틀렸다(Pi Is Wrong)’에서 영감을 받았다. 같은 매체의 2017년 글은 미국 MIT가 입학 결과를 3월 14일 ‘파이의 날’ 6시 28분 ‘타우 타임’에 발표한다고 소개했다. 타우 공식 사이트는 구글 계산기와 자바·러스트·파이썬 같은 여러 프로그래밍 언어가 τ 상수를 지원하게 됐고, 선언문이 원문을 포함해 8개 언어로 나와 있다고 소개한다.",
+          "reason": "오후라는구분은 확보원문에없어삭제.MIT발표시각은2017기사시점으로한정."
+        }
+      ],
+      "warnings": [
+        "과학기사의수학적부연/활동영향은 저자의논평. MIT현재공식일정 검증한것아님.",
+        "τ숫자표현은 원문의 값을그대로사용.원주율π와같은수학상수라는오해없이2π=C/r로구분."
+      ],
+      "source_url_check": "저장 원문에서 기념일 자체의 명칭/날짜를 확인. 역사 사건 자료만을 sourceUrl로 쓰지 않음.",
+      "final_anniversary": {
+        "id": "anv-fixed-06-28-tau-day-global",
+        "date": "06-28",
+        "dateType": "annual-fixed",
+        "name": "타우의 날",
+        "category": "academic",
+        "storytelling": {
+          "origin": "6월 28일은 원의 둘레를 반지름으로 나눈 상수 τ(타우, 6.283…)를 기념하는 비공식 기념일 ‘타우의 날(Tau Day)’이다. τ 값의 앞자리 6.28이 미국식 날짜 표기 6/28과 같아 이날로 잡았고, 2010년 물리학자 마이클 하틀이 원주율 π 대신 τ를 ‘진짜 원의 상수’로 쓰자는 ‘타우 선언문(The Tau Manifesto)’을 발표하며 시작했다.",
+          "anecdote": "사이언티픽 아메리칸 블로그에 따르면 하틀의 선언문은 수학자 밥 팔레의 2001년 글 ‘파이는 틀렸다(Pi Is Wrong)’에서 영감을 받았다. 같은 매체의 2017년 글은 미국 MIT가 입학 결과를 3월 14일 ‘파이의 날’ 6시 28분 ‘타우 타임’에 발표한다고 소개했다. 타우 공식 사이트는 구글 계산기와 자바·러스트·파이썬 같은 여러 프로그래밍 언어가 τ 상수를 지원하게 됐고, 선언문이 원문을 포함해 8개 언어로 나와 있다고 소개한다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "파이 두 조각이면 타우 한 판"
+          }
+        ],
+        "sourceUrl": "https://tauday.com/",
+        "tags": [
+          "학술 & 기술"
+        ]
+      },
+      "final_lengths": {
+        "origin": 204,
+        "anecdote": 248
+      },
+      "evidence_sha256": {
+        "tools/research/workflow/batches/quirky-discovery-20261012/evidence/tau-day/sciam-blog.txt": "fb13f90f8c737c0a3e0b2cfa370bbca9a3b0c817f4549a15c31f3f54681968a0",
+        "tools/research/workflow/batches/quirky-discovery-20261012/evidence/tau-day/tauday.txt": "a947ff461ad24956db425382f722c44d9bffdea2f102c22e45808d6112ab78a4"
+      },
+      "supporting_original_quotes": [
+        {
+          "claim_id": "founding_date",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/tau-day/tauday.txt",
+          "url": "https://tauday.com/",
+          "quote_original": "Founded in 2010 with the publication of The Tau Manifesto by Michael Hartl, Tau Day takes place annually on June 28 (6/28 in the American calendar system)."
+        },
+        {
+          "claim_id": "independent",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/tau-day/sciam-blog.txt",
+          "url": "https://www.scientificamerican.com/blog/observations/the-tao-of-tau/",
+          "quote_original": "In his popular 2010"
+        },
+        {
+          "claim_id": "pe_palais",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/tau-day/sciam-blog.txt",
+          "url": "https://www.scientificamerican.com/blog/observations/the-tao-of-tau/",
+          "quote_original": "In his popular 2010 “Tau Manifesto,” inspired by Bob Palais’ 2001 essay “Pi Is Wrong,”"
+        },
+        {
+          "claim_id": "pe_mit",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/tau-day/sciam-blog.txt",
+          "url": "https://www.scientificamerican.com/blog/observations/the-tao-of-tau/",
+          "quote_original": "MIT now announces admissions decisions on Pi Day (3/14) at Tau Time (6:28)"
+        },
+        {
+          "claim_id": "pe_languages",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/tau-day/tauday.txt",
+          "url": "https://tauday.com/",
+          "quote_original": "being featured in the official Google calculator, and being supported by a large number of computer programming languages (including Microsoft .NET, Java, Rust, and Python)"
+        },
+        {
+          "claim_id": "pe_palais",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/tau-day/sciam-blog.txt",
+          "url": "https://www.scientificamerican.com/blog/observations/the-tao-of-tau/",
+          "quote_original": "In his popular 2010 “Tau Manifesto,” inspired by Bob Palais’ 2001 essay “Pi Is Wrong,”"
+        },
+        {
+          "claim_id": "pe_mit",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/tau-day/sciam-blog.txt",
+          "url": "https://www.scientificamerican.com/blog/observations/the-tao-of-tau/",
+          "quote_original": "MIT now announces admissions decisions on Pi Day (3/14) at Tau Time (6:28)"
+        },
+        {
+          "claim_id": "pe_languages",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/tau-day/tauday.txt",
+          "url": "https://tauday.com/",
+          "quote_original": "being featured in the official Google calculator, and being supported by a large number of computer programming languages (including Microsoft .NET, Java, Rust, and Python)"
+        }
+      ]
+    },
+    {
+      "uid": "quirky:ninja-day-jp",
+      "original_id": "anv-fixed-02-22-ninja-day-jp",
+      "decision": "accepted_after_source_review",
+      "reasons": [
+        "일본어원문2016닌자의날과2025현정부동일기념일을대조해2월22일반복관행확인.",
+        "닌닌닌말장난·협의회가입/목적·2016닌자원년/2030목표는타임아웃일본어본문과일치."
+      ],
+      "evidence_paths_checked": [
+        "tools/research/workflow/batches/quirky-discovery-20261012/evidence/ninja-day-jp/pref-mie.txt",
+        "tools/research/workflow/batches/quirky-discovery-20261012/evidence/ninja-day-jp/timeout-jp.txt"
+      ],
+      "date_scope_check": "2016TimeOut02-22닌자의날과2025Mie02-22안내교차확인.일본문화관광기념관행;연례법정지정주장없음.",
+      "duplication_check": "anv-fixed-12-05-ninja-day-global은미국NinjaBurger/12-05인터넷패러디.일본02-22언어유희/관광행사와주체·날짜·유래다름.",
+      "source_independence": "TimeOut현지기자2016소개와Mie2025행사예고.최초인정기관자료는없고두해자료가법적반복규칙을직접증명하지는않음.",
+      "schema_category_tags_check": "현행 Anniversary 필수 필드·annual-fixed MM-DD·실제 category와 tags[0] 일치, text meme URL null. 한국 법정기념일 그룹 없음.",
+      "corrections": [
+        {
+          "field": "storytelling.origin",
+          "before": "2월 22일은 숫자 2(니)를 세 번 겹쳐 닌자 소리 ‘닌닌닌’으로 읽는 일본어 말장난에서 날짜를 딴 일본의 ‘닌자의 날(忍者の日)’이다. 닌자를 관광·문화 자원으로 키우려는 일본닌자협의회가 이날 행사를 열고, 이가·고카 닌자의 고장으로 알려진 미에현과 시가현도 이날에 맞춘 닌자 행사를 열었다. 국가가 정한 기념일은 아니다.",
+          "after": "2월 22일은 2월 22일을 닌자 소리 ‘닌닌닌’과 연결하는 일본어 말장난에서 날짜를 딴 일본의 ‘닌자의 날(忍者の日)’이다. 닌자를 관광·문화 자원으로 키우려는 일본닌자협의회가 이날 행사를 열고, 이가·고카 닌자의 고장으로 알려진 미에현과 시가현도 이날에 맞춘 닌자 행사를 열었다. 확보한 자료는 문화·관광 행사의 맥락에서 이날을 소개한다.",
+          "reason": "원문 ニンニンニン과 날짜연결만보존.국가비지정은미입증이므로삭제."
+        },
+        {
+          "field": "storytelling.anecdote",
+          "before": "타임아웃 도쿄에 따르면 일본닌자협의회는 이가류 닌자의 발상지인 미에현 이가시를 중심으로 닌자와 인연이 있는 전국 지자체 등이 가입한 단체로, 닌자를 활용한 관광·문화 진흥과 지역 경제 활성화를 목표로 한다. 협의회는 닌자의 날 기자회견에서 2016년을 ‘닌자 원년’으로 선언하고 2030년까지 세계 닌자 팬 1억 명을 모으겠다는 목표를 내놓았다. 미에현은 도쿄 니혼바시의 홍보관 ‘미에 테라스’에서 시가현과 함께 퀴즈와 특산품 추첨을 곁들인 닌자 페스타를 열기도 했다.",
+          "after": "타임아웃 도쿄에 따르면 일본닌자협의회는 이가류 닌자의 발상지인 미에현 이가시를 중심으로 닌자와 인연이 있는 전국 지자체 등이 가입한 단체로, 닌자를 활용한 관광·문화 진흥과 지역 경제 활성화를 목표로 한다. 협의회는 닌자의 날 기자회견에서 2016년을 ‘닌자 원년’으로 선언하고 2030년까지 세계 닌자 팬 1억 명을 모으겠다는 목표를 내놓았다. 미에현은 2025년 안내에서 도쿄 니혼바시의 홍보관 ‘미에 테라스’와 시가현 홍보관 ‘고코 시가’를 연계해 퀴즈와 특산품 추첨을 곁들인 닌자 페스타를 열겠다고 예고했다.",
+          "reason": "2025현정부문서는행사예정안내라실제개최완료로확장하지않음.행사장소는두홍보관연계로정확히기술."
+        }
+      ],
+      "warnings": [
+        "일본기념일협회인정연도/최초제정일은확보자료로검증되지않아추가하지않음.",
+        "정부가행사를안내한것과국가법정기념일지정은다름.반복규칙명문은없지만2016/2025양해동일한2월22일인정으로관행판정."
+      ],
+      "source_url_check": "저장 원문에서 기념일 자체의 명칭/날짜를 확인. 역사 사건 자료만을 sourceUrl로 쓰지 않음.",
+      "final_anniversary": {
+        "id": "anv-fixed-02-22-ninja-day-jp",
+        "date": "02-22",
+        "dateType": "annual-fixed",
+        "name": "닌자의 날(일본)",
+        "category": "culture",
+        "storytelling": {
+          "origin": "2월 22일은 2월 22일을 닌자 소리 ‘닌닌닌’과 연결하는 일본어 말장난에서 날짜를 딴 일본의 ‘닌자의 날(忍者の日)’이다. 닌자를 관광·문화 자원으로 키우려는 일본닌자협의회가 이날 행사를 열고, 이가·고카 닌자의 고장으로 알려진 미에현과 시가현도 이날에 맞춘 닌자 행사를 열었다. 확보한 자료는 문화·관광 행사의 맥락에서 이날을 소개한다.",
+          "anecdote": "타임아웃 도쿄에 따르면 일본닌자협의회는 이가류 닌자의 발상지인 미에현 이가시를 중심으로 닌자와 인연이 있는 전국 지자체 등이 가입한 단체로, 닌자를 활용한 관광·문화 진흥과 지역 경제 활성화를 목표로 한다. 협의회는 닌자의 날 기자회견에서 2016년을 ‘닌자 원년’으로 선언하고 2030년까지 세계 닌자 팬 1억 명을 모으겠다는 목표를 내놓았다. 미에현은 2025년 안내에서 도쿄 니혼바시의 홍보관 ‘미에 테라스’와 시가현 홍보관 ‘고코 시가’를 연계해 퀴즈와 특산품 추첨을 곁들인 닌자 페스타를 열겠다고 예고했다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "달력을 읽기만 해도 닌닌닌"
+          }
+        ],
+        "sourceUrl": "https://www.pref.mie.lg.jp/TOPICS/m0031100533.htm",
+        "tags": [
+          "문화 & 예술"
+        ]
+      },
+      "final_lengths": {
+        "origin": 191,
+        "anecdote": 288
+      },
+      "evidence_sha256": {
+        "tools/research/workflow/batches/quirky-discovery-20261012/evidence/ninja-day-jp/pref-mie.txt": "e993727c7cb3cac4e487fc5d63901b536139b3eb6ef688e37a7e94ff16567c78",
+        "tools/research/workflow/batches/quirky-discovery-20261012/evidence/ninja-day-jp/timeout-jp.txt": "f2d38c94a8678c462ae9b05ad70774f605828b94af44bb5f1bb45ef26436fc9c"
+      },
+      "supporting_original_quotes": [
+        {
+          "claim_id": "pun_date",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/ninja-day-jp/timeout-jp.txt",
+          "url": "https://www.timeout.jp/tokyo/ja/blog/2%E6%9C%8822%E6%97%A5%E5%BF%8D%E8%80%85%E3%81%AE%E6%97%A5%E3%81%AB-%E5%BF%8D%E8%80%85%E5%85%83%E5%B9%B4%E5%AE%A3%E8%A8%80%E3%81%8C%E7%99%BA%E8%A1%A8-022216",
+          "quote_original": "2月22日「ニンニンニン」と語呂を合わせた忍者の日に"
+        },
+        {
+          "claim_id": "council",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/ninja-day-jp/timeout-jp.txt",
+          "url": "https://www.timeout.jp/tokyo/ja/blog/2%E6%9C%8822%E6%97%A5%E5%BF%8D%E8%80%85%E3%81%AE%E6%97%A5%E3%81%AB-%E5%BF%8D%E8%80%85%E5%85%83%E5%B9%B4%E5%AE%A3%E8%A8%80%E3%81%8C%E7%99%BA%E8%A1%A8-022216",
+          "quote_original": "昨年発足した日本忍者協議会によるこの取り組みは"
+        },
+        {
+          "claim_id": "government_event",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/ninja-day-jp/pref-mie.txt",
+          "url": "https://www.pref.mie.lg.jp/TOPICS/m0031100533.htm",
+          "quote_original": "2月22日「忍者の日」に合わせ"
+        },
+        {
+          "claim_id": "pe_council_members",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/ninja-day-jp/timeout-jp.txt",
+          "url": "https://www.timeout.jp/tokyo/ja/blog/2%E6%9C%8822%E6%97%A5%E5%BF%8D%E8%80%85%E3%81%AE%E6%97%A5%E3%81%AB-%E5%BF%8D%E8%80%85%E5%85%83%E5%B9%B4%E5%AE%A3%E8%A8%80%E3%81%8C%E7%99%BA%E8%A1%A8-022216",
+          "quote_original": "伊賀流忍者の発祥の地、三重県伊賀市を中心に忍者にゆかりのある全国の自治体などが加盟。"
+        },
+        {
+          "claim_id": "pe_ninja_gannen",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/ninja-day-jp/timeout-jp.txt",
+          "url": "https://www.timeout.jp/tokyo/ja/blog/2%E6%9C%8822%E6%97%A5%E5%BF%8D%E8%80%85%E3%81%AE%E6%97%A5%E3%81%AB-%E5%BF%8D%E8%80%85%E5%85%83%E5%B9%B4%E5%AE%A3%E8%A8%80%E3%81%8C%E7%99%BA%E8%A1%A8-022216",
+          "quote_original": "2030年までに、世界中で1億人の忍者ファン獲得を目標に"
+        },
+        {
+          "claim_id": "pe_mie_terrace",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/ninja-day-jp/pref-mie.txt",
+          "url": "https://www.pref.mie.lg.jp/TOPICS/m0031100533.htm",
+          "quote_original": "滋賀県情報発信拠点「ここ滋賀」とともに、忍者をテーマとした「日本橋ニンニン忍者フェスタ」を開催します。"
+        },
+        {
+          "claim_id": "pe_council_members",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/ninja-day-jp/timeout-jp.txt",
+          "url": "https://www.timeout.jp/tokyo/ja/blog/2%E6%9C%8822%E6%97%A5%E5%BF%8D%E8%80%85%E3%81%AE%E6%97%A5%E3%81%AB-%E5%BF%8D%E8%80%85%E5%85%83%E5%B9%B4%E5%AE%A3%E8%A8%80%E3%81%8C%E7%99%BA%E8%A1%A8-022216",
+          "quote_original": "伊賀流忍者の発祥の地、三重県伊賀市を中心に忍者にゆかりのある全国の自治体などが加盟。"
+        },
+        {
+          "claim_id": "pe_ninja_gannen",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/ninja-day-jp/timeout-jp.txt",
+          "url": "https://www.timeout.jp/tokyo/ja/blog/2%E6%9C%8822%E6%97%A5%E5%BF%8D%E8%80%85%E3%81%AE%E6%97%A5%E3%81%AB-%E5%BF%8D%E8%80%85%E5%85%83%E5%B9%B4%E5%AE%A3%E8%A8%80%E3%81%8C%E7%99%BA%E8%A1%A8-022216",
+          "quote_original": "2030年までに、世界中で1億人の忍者ファン獲得を目標に"
+        },
+        {
+          "claim_id": "pe_mie_terrace",
+          "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/ninja-day-jp/pref-mie.txt",
+          "url": "https://www.pref.mie.lg.jp/TOPICS/m0031100533.htm",
+          "quote_original": "滋賀県情報発信拠点「ここ滋賀」とともに、忍者をテーマとした「日本橋ニンニン忍者フェスタ」を開催します。"
+        }
+      ]
+    }
+  ]
+}

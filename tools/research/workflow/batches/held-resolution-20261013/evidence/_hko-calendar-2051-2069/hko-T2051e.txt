@@ -1,0 +1,367 @@
+Gregorian-Lunar Calendar Conversion Table of 2051 Xin-wei - year of the Goat)
+Gregorian date Lunar date Day-of-week Solar terms
+2051/1/1 19 Sunday
+2051/1/2 20 Monday
+2051/1/3 21 Tuesday
+2051/1/4 22 Wednesday
+2051/1/5 23 Thursday Moderate Cold
+2051/1/6 24 Friday
+2051/1/7 25 Saturday
+2051/1/8 26 Sunday
+2051/1/9 27 Monday
+2051/1/10 28 Tuesday
+2051/1/11 29 Wednesday
+2051/1/12 30 Thursday
+2051/1/13 12th Lunar Month Friday
+2051/1/14 2 Saturday
+2051/1/15 3 Sunday
+2051/1/16 4 Monday
+2051/1/17 5 Tuesday
+2051/1/18 6 Wednesday
+2051/1/19 7 Thursday
+2051/1/20 8 Friday Severe Cold
+2051/1/21 9 Saturday
+2051/1/22 10 Sunday
+2051/1/23 11 Monday
+2051/1/24 12 Tuesday
+2051/1/25 13 Wednesday
+2051/1/26 14 Thursday
+2051/1/27 15 Friday
+2051/1/28 16 Saturday
+2051/1/29 17 Sunday
+2051/1/30 18 Monday
+2051/1/31 19 Tuesday
+2051/2/1 20 Wednesday
+2051/2/2 21 Thursday
+2051/2/3 22 Friday
+2051/2/4 23 Saturday Spring Commences
+2051/2/5 24 Sunday
+2051/2/6 25 Monday
+2051/2/7 26 Tuesday
+2051/2/8 27 Wednesday
+2051/2/9 28 Thursday
+2051/2/10 29 Friday
+2051/2/11 1st Lunar Month Saturday
+2051/2/12 2 Sunday
+2051/2/13 3 Monday
+2051/2/14 4 Tuesday
+2051/2/15 5 Wednesday
+2051/2/16 6 Thursday
+2051/2/17 7 Friday
+2051/2/18 8 Saturday
+2051/2/19 9 Sunday Spring Showers
+2051/2/20 10 Monday
+2051/2/21 11 Tuesday
+2051/2/22 12 Wednesday
+2051/2/23 13 Thursday
+2051/2/24 14 Friday
+2051/2/25 15 Saturday
+2051/2/26 16 Sunday
+2051/2/27 17 Monday
+2051/2/28 18 Tuesday
+2051/3/1 19 Wednesday
+2051/3/2 20 Thursday
+2051/3/3 21 Friday
+2051/3/4 22 Saturday
+2051/3/5 23 Sunday Insects Waken
+2051/3/6 24 Monday
+2051/3/7 25 Tuesday
+2051/3/8 26 Wednesday
+2051/3/9 27 Thursday
+2051/3/10 28 Friday
+2051/3/11 29 Saturday
+2051/3/12 30 Sunday
+2051/3/13 2nd Lunar Month Monday
+2051/3/14 2 Tuesday
+2051/3/15 3 Wednesday
+2051/3/16 4 Thursday
+2051/3/17 5 Friday
+2051/3/18 6 Saturday
+2051/3/19 7 Sunday
+2051/3/20 8 Monday Vernal Equinox
+2051/3/21 9 Tuesday
+2051/3/22 10 Wednesday
+2051/3/23 11 Thursday
+2051/3/24 12 Friday
+2051/3/25 13 Saturday
+2051/3/26 14 Sunday
+2051/3/27 15 Monday
+2051/3/28 16 Tuesday
+2051/3/29 17 Wednesday
+2051/3/30 18 Thursday
+2051/3/31 19 Friday
+2051/4/1 20 Saturday
+2051/4/2 21 Sunday
+2051/4/3 22 Monday
+2051/4/4 23 Tuesday
+2051/4/5 24 Wednesday Bright & Clear
+2051/4/6 25 Thursday
+2051/4/7 26 Friday
+2051/4/8 27 Saturday
+2051/4/9 28 Sunday
+2051/4/10 29 Monday
+2051/4/11 3rd Lunar Month Tuesday
+2051/4/12 2 Wednesday
+2051/4/13 3 Thursday
+2051/4/14 4 Friday
+2051/4/15 5 Saturday
+2051/4/16 6 Sunday
+2051/4/17 7 Monday
+2051/4/18 8 Tuesday
+2051/4/19 9 Wednesday
+2051/4/20 10 Thursday Corn Rain
+2051/4/21 11 Friday
+2051/4/22 12 Saturday
+2051/4/23 13 Sunday
+2051/4/24 14 Monday
+2051/4/25 15 Tuesday
+2051/4/26 16 Wednesday
+2051/4/27 17 Thursday
+2051/4/28 18 Friday
+2051/4/29 19 Saturday
+2051/4/30 20 Sunday
+2051/5/1 21 Monday
+2051/5/2 22 Tuesday
+2051/5/3 23 Wednesday
+2051/5/4 24 Thursday
+2051/5/5 25 Friday Summer Commences
+2051/5/6 26 Saturday
+2051/5/7 27 Sunday
+2051/5/8 28 Monday
+2051/5/9 29 Tuesday
+2051/5/10 4th Lunar Month Wednesday
+2051/5/11 2 Thursday
+2051/5/12 3 Friday
+2051/5/13 4 Saturday
+2051/5/14 5 Sunday
+2051/5/15 6 Monday
+2051/5/16 7 Tuesday
+2051/5/17 8 Wednesday
+2051/5/18 9 Thursday
+2051/5/19 10 Friday
+2051/5/20 11 Saturday
+2051/5/21 12 Sunday Corn Forms
+2051/5/22 13 Monday
+2051/5/23 14 Tuesday
+2051/5/24 15 Wednesday
+2051/5/25 16 Thursday
+2051/5/26 17 Friday
+2051/5/27 18 Saturday
+2051/5/28 19 Sunday
+2051/5/29 20 Monday
+2051/5/30 21 Tuesday
+2051/5/31 22 Wednesday
+2051/6/1 23 Thursday
+2051/6/2 24 Friday
+2051/6/3 25 Saturday
+2051/6/4 26 Sunday
+2051/6/5 27 Monday
+2051/6/6 28 Tuesday Corn on Ear
+2051/6/7 29 Wednesday
+2051/6/8 30 Thursday
+2051/6/9 5th Lunar Month Friday
+2051/6/10 2 Saturday
+2051/6/11 3 Sunday
+2051/6/12 4 Monday
+2051/6/13 5 Tuesday
+2051/6/14 6 Wednesday
+2051/6/15 7 Thursday
+2051/6/16 8 Friday
+2051/6/17 9 Saturday
+2051/6/18 10 Sunday
+2051/6/19 11 Monday
+2051/6/20 12 Tuesday
+2051/6/21 13 Wednesday Summer Solstice
+2051/6/22 14 Thursday
+2051/6/23 15 Friday
+2051/6/24 16 Saturday
+2051/6/25 17 Sunday
+2051/6/26 18 Monday
+2051/6/27 19 Tuesday
+2051/6/28 20 Wednesday
+2051/6/29 21 Thursday
+2051/6/30 22 Friday
+2051/7/1 23 Saturday
+2051/7/2 24 Sunday
+2051/7/3 25 Monday
+2051/7/4 26 Tuesday
+2051/7/5 27 Wednesday
+2051/7/6 28 Thursday
+2051/7/7 29 Friday Moderate Heat
+2051/7/8 6th Lunar Month Saturday
+2051/7/9 2 Sunday
+2051/7/10 3 Monday
+2051/7/11 4 Tuesday
+2051/7/12 5 Wednesday
+2051/7/13 6 Thursday
+2051/7/14 7 Friday
+2051/7/15 8 Saturday
+2051/7/16 9 Sunday
+2051/7/17 10 Monday
+2051/7/18 11 Tuesday
+2051/7/19 12 Wednesday
+2051/7/20 13 Thursday
+2051/7/21 14 Friday
+2051/7/22 15 Saturday
+2051/7/23 16 Sunday Great Heat
+2051/7/24 17 Monday
+2051/7/25 18 Tuesday
+2051/7/26 19 Wednesday
+2051/7/27 20 Thursday
+2051/7/28 21 Friday
+2051/7/29 22 Saturday
+2051/7/30 23 Sunday
+2051/7/31 24 Monday
+2051/8/1 25 Tuesday
+2051/8/2 26 Wednesday
+2051/8/3 27 Thursday
+2051/8/4 28 Friday
+2051/8/5 29 Saturday
+2051/8/6 7th Lunar Month Sunday
+2051/8/7 2 Monday Autumn Commences
+2051/8/8 3 Tuesday
+2051/8/9 4 Wednesday
+2051/8/10 5 Thursday
+2051/8/11 6 Friday
+2051/8/12 7 Saturday
+2051/8/13 8 Sunday
+2051/8/14 9 Monday
+2051/8/15 10 Tuesday
+2051/8/16 11 Wednesday
+2051/8/17 12 Thursday
+2051/8/18 13 Friday
+2051/8/19 14 Saturday
+2051/8/20 15 Sunday
+2051/8/21 16 Monday
+2051/8/22 17 Tuesday
+2051/8/23 18 Wednesday End of Heat
+2051/8/24 19 Thursday
+2051/8/25 20 Friday
+2051/8/26 21 Saturday
+2051/8/27 22 Sunday
+2051/8/28 23 Monday
+2051/8/29 24 Tuesday
+2051/8/30 25 Wednesday
+2051/8/31 26 Thursday
+2051/9/1 27 Friday
+2051/9/2 28 Saturday
+2051/9/3 29 Sunday
+2051/9/4 30 Monday
+2051/9/5 8th Lunar Month Tuesday
+2051/9/6 2 Wednesday
+2051/9/7 3 Thursday White Dew
+2051/9/8 4 Friday
+2051/9/9 5 Saturday
+2051/9/10 6 Sunday
+2051/9/11 7 Monday
+2051/9/12 8 Tuesday
+2051/9/13 9 Wednesday
+2051/9/14 10 Thursday
+2051/9/15 11 Friday
+2051/9/16 12 Saturday
+2051/9/17 13 Sunday
+2051/9/18 14 Monday
+2051/9/19 15 Tuesday
+2051/9/20 16 Wednesday
+2051/9/21 17 Thursday
+2051/9/22 18 Friday
+2051/9/23 19 Saturday Autumnal Equinox
+2051/9/24 20 Sunday
+2051/9/25 21 Monday
+2051/9/26 22 Tuesday
+2051/9/27 23 Wednesday
+2051/9/28 24 Thursday
+2051/9/29 25 Friday
+2051/9/30 26 Saturday
+2051/10/1 27 Sunday
+2051/10/2 28 Monday
+2051/10/3 29 Tuesday
+2051/10/4 30 Wednesday
+2051/10/5 9th Lunar Month Thursday
+2051/10/6 2 Friday
+2051/10/7 3 Saturday
+2051/10/8 4 Sunday Cold Dew
+2051/10/9 5 Monday
+2051/10/10 6 Tuesday
+2051/10/11 7 Wednesday
+2051/10/12 8 Thursday
+2051/10/13 9 Friday
+2051/10/14 10 Saturday
+2051/10/15 11 Sunday
+2051/10/16 12 Monday
+2051/10/17 13 Tuesday
+2051/10/18 14 Wednesday
+2051/10/19 15 Thursday
+2051/10/20 16 Friday
+2051/10/21 17 Saturday
+2051/10/22 18 Sunday
+2051/10/23 19 Monday Frost
+2051/10/24 20 Tuesday
+2051/10/25 21 Wednesday
+2051/10/26 22 Thursday
+2051/10/27 23 Friday
+2051/10/28 24 Saturday
+2051/10/29 25 Sunday
+2051/10/30 26 Monday
+2051/10/31 27 Tuesday
+2051/11/1 28 Wednesday
+2051/11/2 29 Thursday
+2051/11/3 10th Lunar Month Friday
+2051/11/4 2 Saturday
+2051/11/5 3 Sunday
+2051/11/6 4 Monday
+2051/11/7 5 Tuesday Winter Commences
+2051/11/8 6 Wednesday
+2051/11/9 7 Thursday
+2051/11/10 8 Friday
+2051/11/11 9 Saturday
+2051/11/12 10 Sunday
+2051/11/13 11 Monday
+2051/11/14 12 Tuesday
+2051/11/15 13 Wednesday
+2051/11/16 14 Thursday
+2051/11/17 15 Friday
+2051/11/18 16 Saturday
+2051/11/19 17 Sunday
+2051/11/20 18 Monday
+2051/11/21 19 Tuesday
+2051/11/22 20 Wednesday Light Snow
+2051/11/23 21 Thursday
+2051/11/24 22 Friday
+2051/11/25 23 Saturday
+2051/11/26 24 Sunday
+2051/11/27 25 Monday
+2051/11/28 26 Tuesday
+2051/11/29 27 Wednesday
+2051/11/30 28 Thursday
+2051/12/1 29 Friday
+2051/12/2 30 Saturday
+2051/12/3 11th Lunar Month Sunday
+2051/12/4 2 Monday
+2051/12/5 3 Tuesday
+2051/12/6 4 Wednesday
+2051/12/7 5 Thursday Heavy Snow
+2051/12/8 6 Friday
+2051/12/9 7 Saturday
+2051/12/10 8 Sunday
+2051/12/11 9 Monday
+2051/12/12 10 Tuesday
+2051/12/13 11 Wednesday
+2051/12/14 12 Thursday
+2051/12/15 13 Friday
+2051/12/16 14 Saturday
+2051/12/17 15 Sunday
+2051/12/18 16 Monday
+2051/12/19 17 Tuesday
+2051/12/20 18 Wednesday
+2051/12/21 19 Thursday
+2051/12/22 20 Friday Winter Solstice
+2051/12/23 21 Saturday
+2051/12/24 22 Sunday
+2051/12/25 23 Monday
+2051/12/26 24 Tuesday
+2051/12/27 25 Wednesday
+2051/12/28 26 Thursday
+2051/12/29 27 Friday
+2051/12/30 28 Saturday
+2051/12/31 29 Sunday

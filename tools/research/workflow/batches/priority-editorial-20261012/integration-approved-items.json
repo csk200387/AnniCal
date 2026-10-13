@@ -1,0 +1,791 @@
+{
+  "user_authorization": "우선검토후보 먼저 진행해 (본문 작성·검수 후 로컬 반영; 배포 금지)",
+  "items": [
+    {
+      "uid": "contact:rotary-peace-day",
+      "anniversary": {
+        "id": "anv-fixed-02-23-rotary-world-understanding-peace-day",
+        "date": "02-23",
+        "dateType": "annual-fixed",
+        "name": "세계 이해와 평화의 날(로터리)",
+        "category": "campaign",
+        "storytelling": {
+          "origin": "2월 23일은 국제 봉사단체 로터리가 매년 기념하는 ‘세계 이해와 평화의 날(World Understanding and Peace Day)’이다. 1905년 2월 23일 미국 시카고에서 변호사 폴 해리스가 연 첫 로터리 모임을 기리는 날로, 로터리의 창립을 기념하는 단체 기념일이다. 1984년 미국 미네소타 주지사 선포문에는 국제로터리가 그해 2월 23일을 이 날로 선언했다고 적혀 있지만, 처음 제정된 해는 확인되지 않았다.",
+          "anecdote": "로터리 지구 자료에 따르면 해리스는 정치·종교적 분열을 넘어 친목과 지역 봉사에 힘쓰는 전문직 모임을 구상했고, 단체가 미국 밖으로 넓어지면서 ‘국제로터리’라는 이름을 쓰게 됐다. 1984년 미네소타 선포문은 당시 로터리 회원이 100만 명 가까이, 클럽이 2만 곳 넘게 있었다고 적었다. 한 로터리 지구 자료는 2월을 ‘평화와 분쟁 예방·해결의 달’이라는 제목 아래 ‘세계 이해의 달’로 소개하며, 이 날이 그 달 안에 있다고 설명한다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "친목 모임 한 번이 평화를 말하는 날이 되기까지"
+          }
+        ],
+        "sourceUrl": "https://www.rotary5340.org/Stories/rotary-s-world-understanding-and-peace-day",
+        "tags": [
+          "국제 캠페인 & 보건"
+        ]
+      }
+    },
+    {
+      "uid": "contact:world-snake-day",
+      "anniversary": {
+        "id": "anv-fixed-07-16-world-snake-day-global",
+        "date": "07-16",
+        "dateType": "annual-fixed",
+        "name": "세계 뱀의 날",
+        "category": "animal",
+        "storytelling": {
+          "origin": "7월 16일은 뱀과 생태계 속 뱀의 역할을 알리고 뱀에 대한 막연한 두려움을 덜자는 취지의 인식개선 기념일 ‘세계 뱀의 날(World Snake Day)’이다. 우크라이나 미콜라이우 동물원은 이 날을 매년 7월 16일로 소개하고, 인도 뉴델리 국립동물공원도 2023년 이날 기념 행사를 열었다. 처음 만든 주체와 시작된 해, 7월 16일을 고른 이유는 확인되지 않았다.",
+          "anecdote": "미콜라이우 동물원은 대부분의 뱀이 사람에게 위험하지 않은데도 두려움 때문에 죽임을 당하는 일이 많다고 설명한다. 2023년 뉴델리 국립동물공원은 인도에 사는 뱀과 생태계에서 뱀이 맡는 역할을 알려 뱀을 보호하자는 취지로 행사를 열었고, 방문객이 파충류관을 둘러보며 사육사와 이야기를 나누는 순서도 마련했다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "무서워하기 전에 먼저 알아보기"
+          }
+        ],
+        "sourceUrl": "https://zoo.nikolaev.ua/en/news/vsesvitnij_den_zmij8457",
+        "tags": [
+          "동물 & 자연"
+        ]
+      }
+    },
+    {
+      "uid": "contact:myanmar-martyrs-day",
+      "anniversary": {
+        "id": "anv-fixed-07-19-myanmar-martyrs-day",
+        "date": "07-19",
+        "dateType": "annual-fixed",
+        "name": "순국자의 날(미얀마)",
+        "category": "history",
+        "storytelling": {
+          "origin": "7월 19일은 미얀마가 해마다 지키는 ‘순국자의 날(Martyrs' Day)’이다. 1947년 7월 19일 오전 10시 37분, 영국으로부터의 독립 투쟁을 이끌던 아웅산 장군이 각료 회의 도중 각료 6명, 관리 2명과 함께 총격으로 숨진 일을 추모한다. 당시 서른두 살이던 아웅산은 미얀마 독립의 설계자로 꼽히며, 독립은 그가 숨진 뒤 6개월이 채 안 돼 이뤄졌다. 정적이던 우 소 전 총리가 암살을 모의한 혐의로 재판을 받고 교수형에 처해졌다. 추모일로 지정된 해와 근거 법령, 공휴일 여부는 확인되지 않았다.",
+          "anecdote": "AP통신의 2024년 보도에 따르면 그해 주요 추모식은 양곤 쉐다곤 파고다 기슭의 순국자 묘역에서 열렸고, 양곤 곳곳에서는 사건 시각인 오전 10시 37분에 맞춰 1분 동안 사이렌과 자동차 경적이 울렸다. 알자지라 보도에 따르면 국영 라디오가 아웅산을 기리는 사이렌을 내보내던 관행은 옛 군사정권 아래서 오랫동안 끊겼고, 2013년 정부가 교통사고 우려를 들어 전국 사이렌 재개를 거부하자 시민들이 휴대전화에 내려받은 사이렌 소리와 경적으로 대신했다. 같은 AP 보도는 2021년 군부의 권력 장악 이후 묘역 추모식의 위상이 낮아졌다고 전했다. 2024년 77주기 추모식에는 수감 중인 아웅산 수치도, 군정 수장 민아웅흘라잉도 나오지 않았고, 수치의 오빠 아웅산우가 아버지의 묘에 헌화했다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "오전 10시 37분, 1분 동안의 추모"
+          }
+        ],
+        "sourceUrl": "https://www.news4jax.com/news/world/2024/07/19/strife-torn-myanmar-marks-77th-anniversary-of-the-assassination-of-independence-hero-gen-aung-san/",
+        "tags": [
+          "역사 & 추모"
+        ]
+      }
+    },
+    {
+      "uid": "contact:ukraine-independence-day",
+      "anniversary": {
+        "id": "anv-fixed-08-24-ukraine-independence-day",
+        "date": "08-24",
+        "dateType": "annual-fixed",
+        "name": "우크라이나 독립기념일",
+        "category": "history",
+        "storytelling": {
+          "origin": "8월 24일은 우크라이나의 독립기념일이다. 1991년 8월 24일 우크라이나 소비에트 사회주의 공화국 최고라다(의회)가 ‘우크라이나 독립 선포법’을 채택한 날로, 1992년 2월 20일 최고라다 결의가 이날을 매년 기념하는 국가 공휴일로 정했다. 선포법은 그해 8월 모스크바에서 일어난 쿠데타가 실패한 직후 채택됐고, 우크라이나 영토는 나눌 수 없고 침범할 수 없다고 규정했다. 같은 해 12월 1일 전국 국민투표가 독립을 다시 확인했다.",
+          "anecdote": "처음 정한 독립기념일은 8월 24일이 아니었다. 1990년 7월 16일 의회가 국가주권 선언을 채택하면서 그날을 기념일로 정했고, 1991년 6월 18일 노동법의 공휴일 목록에도 ‘7월 16일 — 우크라이나 독립기념일’이 들어갔다. 이 결정은 1992년 결의로 효력을 잃었고, 8월 24일 기념일은 1992년부터 공식적으로 지켜졌다. 유럽 기억연대 네트워크(ENRS)는 선포법이 1991년 8월 24일 오후 5시 55분에 채택됐다고 전한다. 2022년에는 계엄령 아래 노동관계법이 바뀌면서 독립기념일에도 별도의 휴무가 주어지지 않았다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "7월 16일에서 8월 24일로 옮겨 온 독립기념일"
+          }
+        ],
+        "sourceUrl": "https://global.espreso.tv/ukraine-celebrates-independence-day-national-holidays-history",
+        "tags": [
+          "역사 & 추모"
+        ]
+      }
+    },
+    {
+      "uid": "contact:pluto-demoted-day",
+      "anniversary": {
+        "id": "anv-fixed-08-24-pluto-demoted-day",
+        "date": "08-24",
+        "dateType": "annual-fixed",
+        "name": "명왕성 강등의 날",
+        "category": "academic",
+        "storytelling": {
+          "origin": "8월 24일은 2006년 국제천문연맹(IAU)이 명왕성을 행성에서 ‘왜소행성’으로 다시 분류한 일을 떠올리는 비공식 기념일 ‘명왕성 강등의 날(Pluto Demoted Day)’이다. 2006년 8월 24일 체코 프라하에서 열린 IAU 총회가 행성의 정의를 결의하면서 태양계 행성은 수성부터 해왕성까지 8개가 됐다. 이 날을 누가 언제부터 기념일로 불렀는지는 확인되지 않았다.",
+          "anecdote": "IAU 결의에 따르면 행성은 자기 궤도 주변을 깨끗이 정리한 천체여야 하는데, 명왕성은 이 조건을 채우지 못해 새로 만든 ‘왜소행성’ 범주로 옮겨졌다. 처음 왜소행성으로 꼽힌 천체는 세레스, 명왕성, 그리고 당시 임시 이름이던 2003 UB313이었다. IAU는 명왕성을 해왕성 바깥 천체들로 이뤄진 새 범주의 원형으로 인정했다. ‘명왕성급 천체’를 정의한 결의 6A는 찬성 237표, 반대 157표, 기권 17표로 통과됐다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "행성 명단에서는 빠져도 명왕성은 그 자리에"
+          }
+        ],
+        "sourceUrl": "https://www.syfy.com/syfy-wire/pluto-demoted-day-13-years-later-do-we-want-our-former-ninth-planet-back",
+        "tags": [
+          "학술 & 기술"
+        ]
+      }
+    },
+    {
+      "uid": "contact:overdose-awareness-day",
+      "anniversary": {
+        "id": "anv-fixed-08-31-international-overdose-awareness-day",
+        "date": "08-31",
+        "dateType": "annual-fixed",
+        "name": "국제 약물 과다복용 인식의 날",
+        "category": "campaign",
+        "storytelling": {
+          "origin": "8월 31일은 약물 과다복용으로 숨진 이들을 추모하고 예방을 촉구하는 ‘국제 약물 과다복용 인식의 날(International Overdose Awareness Day)’이다. 2001년 호주 멜버른의 구세군 주사기 교환소에서 과다복용으로 영향을 받은 지역 주민들이 모인 바비큐 추모 모임에서 시작됐고, 2012년부터 호주 비영리단체 페닝턴 연구소가 이끌며 세계적인 행동의 날로 키웠다. 민간 단체가 주도하는 캠페인이다.",
+          "anecdote": "주최 측은 해마다 대면·온라인 행사를 통해 지역사회가 떠난 이들을 기리고, 가족과 친구, 또래에게 과다복용을 알리며, 근거에 기반한 예방책을 함께 찾는다고 설명한다. 추모와 함께 과다복용 예방을 캠페인의 핵심 목표로 삼고, 금기처럼 여겨지는 과다복용 문제를 열린 대화로 다루자고 강조한다. 주최 측의 2026년 소개에 따르면 이 날은 시작 25주년을 맞았으며, 해마다 40개가 넘는 나라에서 1,000건이 넘는 행사가 열린다. 확보한 원문에서는 8월 31일을 고른 이유와 처음 모임을 연 개인을 확인하지 못했다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "잃은 사람을 기억하고, 더 잃지 않도록 말하는 날"
+          }
+        ],
+        "sourceUrl": "https://www.overdoseday.com/about/",
+        "tags": [
+          "국제 캠페인 & 보건"
+        ]
+      }
+    },
+    {
+      "uid": "contact:african-descent-day",
+      "anniversary": {
+        "id": "anv-fixed-08-31-international-day-people-of-african-descent-global",
+        "date": "08-31",
+        "dateType": "annual-fixed",
+        "name": "국제 아프리카계 사람들의 날",
+        "category": "campaign",
+        "storytelling": {
+          "origin": "8월 31일은 UN이 정한 ‘국제 아프리카계 사람들의 날(International Day for People of African Descent)’이다. UN 총회는 2020년 12월 16일 결의 75/170을 채택해 이날을 선포했고, 아프리카계 사람들의 다양한 유산과 문화, 사회 발전에 대한 기여를 더 널리 인정하고 존중하며 그들의 인권과 기본적 자유를 존중하도록 하는 것을 목적으로 밝혔다.",
+          "anecdote": "날짜는 1920년 8월 31일에서 왔다. 결의문은 이날 미국 뉴욕에서 제1회 ‘세계 흑인 민족 국제대회’가 막을 내렸고, 마커스 가비가 이끈 논의 끝에 ‘세계 흑인 민족 권리 선언’이 공포됐다고 상기한다. UN은 2024년에 끝난 ‘아프리카계 사람들을 위한 국제 10년’에 이어 2025~2034년을 두 번째 국제 10년으로 정했다. 2026년 기념일 주제는 ‘아프리카계 사람들의 인권 확장’이며, 문화재 반환을 통한 배상적 정의, 아프리카계 청년의 인권, 더반 선언·행동계획 25주년 등을 함께 다룬다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "1920년 뉴욕의 권리 선언에서 이어진 날짜"
+          }
+        ],
+        "sourceUrl": "https://www.un.org/en/observances/african-descent-day",
+        "tags": [
+          "국제 캠페인 & 보건"
+        ]
+      }
+    },
+    {
+      "uid": "contact:korea-film-day",
+      "anniversary": {
+        "id": "anv-fixed-10-27-film-day-kr",
+        "date": "10-27",
+        "dateType": "annual-fixed",
+        "name": "영화의 날(한국)",
+        "category": "culture",
+        "storytelling": {
+          "origin": "10월 27일은 한국 영화계가 기념하는 ‘영화의 날’이다. 1919년 10월 27일 서울 종로의 극장 단성사에서 한국인이 국내 자본으로 만든 첫 영화로 꼽히는 ‘의리적 구토’가 처음 상영된 일을 기린다. 국가기록원 자료는 이날을 기념해 이후 매년 10월 27일을 영화의 날로 제정했다고 설명하지만, 제정 주체와 연도, 법정기념일 여부는 확인되지 않았다.",
+          "anecdote": "‘의리적 구토’는 김도산이 극본과 연출을 맡은 ‘연쇄극’으로, 연극 무대 사이사이에 한강철교·장충단·남대문정거장 같은 서울의 익숙한 야외 풍경을 찍은 필름을 끼워 보여 줬다. 국가기록원은 연극보다 비싼 입장료에도 10만 관객이 들었다고 설명한다. 전북일보의 2023년 칼럼은 연쇄극을 온전한 영화로 볼 수 있는지 문제를 제기하며, 같은 날 먼저 상영된 ‘경성전시의 경’을 첫 한국영화로 봐야 한다는 주장도 소개한다. 단성사는 1918년 상설영화관으로 바뀐 극장이다. 2019년 우정사업본부는 한국영화 탄생 100년을 맞아 기념우표를 냈고, 2024년에는 한국영화인총연합회와 영화진흥위원회가 105주년 영화의 날 기념 세미나와 시상식을 열었다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "한국영화의 생일 케이크에 초가 100개 넘게"
+          }
+        ],
+        "sourceUrl": "https://theme.archives.go.kr/next/koreaOfRecord/Dansungsa.do",
+        "tags": [
+          "문화 & 예술"
+        ]
+      }
+    },
+    {
+      "uid": "contact:india-constitution-day",
+      "anniversary": {
+        "id": "anv-fixed-11-26-india-constitution-day",
+        "date": "11-26",
+        "dateType": "annual-fixed",
+        "name": "인도 헌법의 날",
+        "category": "history",
+        "storytelling": {
+          "origin": "11월 26일은 인도 정부가 정한 ‘헌법의 날(Constitution Day)’이다. 1949년 11월 26일 인도 제헌의회가 인도 헌법을 채택한 날로, 인도 정부는 2015년 11월 19일 사회정의·권한강화부 관보 고시로 매년 이날을 헌법의 날로 지키기로 했다.",
+          "anecdote": "2015년 이전에도 이날은 제헌의회의 헌법 채택을 기념하는 ‘법의 날(Law Day)’로 지켜졌다. 법률 매체 바 앤드 벤치는 2015년 관보 고시 소식을 전하며 그해까지 같은 날이 법의 날이었다고 보도했고, 주말리 인도대사관도 관보 고시 번호를 밝혀 새 이름을 알렸다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "‘법의 날’이 ‘헌법의 날’로 이름을 바꾼 날"
+          }
+        ],
+        "sourceUrl": "https://embassyofindiabamako.gov.in/news_detail/?newsid=76",
+        "tags": [
+          "역사 & 추모"
+        ]
+      }
+    },
+    {
+      "uid": "contact:goa-liberation-day",
+      "anniversary": {
+        "id": "anv-fixed-12-19-goa-liberation-day",
+        "date": "12-19",
+        "dateType": "annual-fixed",
+        "name": "고아 해방의 날(인도)",
+        "category": "history",
+        "storytelling": {
+          "origin": "12월 19일은 인도 고아주가 기념하는 ‘고아 해방의 날(Goa Liberation Day)’이다. 1961년 12월 19일 고아가 450년 넘게 이어진 포르투갈의 식민 통치에서 벗어나 인도 연방에 편입된 일을 기린다. 고아 주총리와 주지사는 이날 기념 메시지를 내며, 고아 관보를 인용한 보도에 따르면 2026년 고아주 공휴일 목록에도 12월 19일이 올라 있다.",
+          "anecdote": "고아 주지사의 2025년 기념사에 따르면 1961년 12월, 외교적 해결의 길이 모두 막힌 뒤 인도 육·해·공군이 고아와 다만·디우를 식민 통치에서 해방하려는 ‘비자이 작전’에 나섰고, 작전은 36시간 만에 끝났다. 주지사는 이 작전을 고아 사람들도 1947년 인도의 나머지 지역이 얻은 것과 같은 독립을 누려야 한다는 선언이었다고 평가했다. 주정부의 기념 메시지는 해방운동 순국자 15명의 유족을 예우했다고 밝혔고, 2025년 기념 메시지에서는 주지사 관저 ‘라지 바반’을 ‘민중의 집’이라는 뜻의 ‘로크 바반’으로 부르겠다고 발표했다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "450년의 식민 통치, 36시간의 작전"
+          }
+        ],
+        "sourceUrl": "https://dip.goa.gov.in/cm-extends-greetings-on-goa-liberation-day/",
+        "tags": [
+          "역사 & 추모"
+        ]
+      }
+    },
+    {
+      "uid": "quirky:hoodie-hoo-day",
+      "anniversary": {
+        "id": "anv-fixed-02-20-hoodie-hoo-day-us",
+        "date": "02-20",
+        "dateType": "annual-fixed",
+        "name": "후디 후 데이",
+        "category": "quirky",
+        "storytelling": {
+          "origin": "2월 20일은 정오에 밖으로 나가 두 손을 머리 위로 흔들며 ‘후디 후!’를 외쳐 겨울을 쫓는 미국의 비공식 이색 기념일 ‘후디 후 데이(Hoodie Hoo Day)’다. 요일과 상관없이 매년 2월 20일에 지키며, 지역 신문은 펜실베이니아 중부의 한 부부가 생각해 낸 ‘완전히 지어낸 기념일’이라고 소개했다. 교육 출판사 피어슨의 달력은 웰캣닷컴(Wellcat.com)이라는 회사가 북반구의 겨울 우울을 털어 내자고 만든 날로 설명한다.",
+          "anecdote": "2017년 옵서버리포터 보도에 따르면 펜실베이니아주 찰러로이의 몬밸리 지역 상공회의소는 2014년 이날의 거리 축제를 시작했다. 참가자들은 정오 카운트다운에 맞춰 손을 흔들며 ‘후디 후’를 세 번 외치고, 우스꽝스러운 모자나 풍선 모자를 쓰고 나와 겨우내 못 본 이웃과 어울린다. 지역 신문 옵서버리포터에 따르면 2014년 첫 행사에는 100명 남짓이 모였고, 2015년에는 혹독한 날씨로 취소됐으며, 이듬해에는 약 300명이 모였다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "봄을 부르는 데 필요한 건 두 손과 큰 목소리"
+          }
+        ],
+        "sourceUrl": "https://cs.observer-reporter.com/opinion/2017/feb/26/hoodie-hoo-a-fun-break-from-pennsylvania-winter/",
+        "tags": [
+          "이색 & 유머"
+        ]
+      }
+    },
+    {
+      "uid": "quirky:mean-girls-day",
+      "anniversary": {
+        "id": "anv-fixed-10-03-mean-girls-day-global",
+        "date": "10-03",
+        "dateType": "annual-fixed",
+        "name": "퀸카로 살아남는 법의 날",
+        "category": "culture",
+        "storytelling": {
+          "origin": "10월 3일은 2004년 미국 영화 ‘퀸카로 살아남는 법(Mean Girls)’ 팬들이 비공식으로 챙기는 ‘퀸카로 살아남는 법의 날(Mean Girls Day)’이다. 영화에서 짝사랑 상대 에런 새뮤얼스가 주인공 케이디 헤런에게 오늘이 며칠이냐고 묻자 케이디가 ‘10월 3일이야’라고 답하는 장면에서 날짜가 왔다. 타임은 팬들이 주로 SNS에서 이날을 기념한다고 소개한다.",
+          "anecdote": "타임은 이날을 ‘비공식적으로 내셔널 민 걸스 데이로 알려진 날’이라고 소개했다. CBS 뉴욕의 2018년 10월 3일 보도는 뉴욕의 브로드웨이 뮤지컬이 사전 추첨에 당첨된 팬들을 위해 무료 공연을 마련할 예정이라고 전했다. 주변 가게들도 영화 속 유행어인 ‘fetch’를 활용한 음료와 간식 할인 행사를 예고했다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "오늘 며칠이냐고 묻는다면, 10월 3일"
+          }
+        ],
+        "sourceUrl": "https://time.com/3457797/mean-girls-day-october-3/",
+        "tags": [
+          "문화 & 예술"
+        ]
+      }
+    },
+    {
+      "uid": "quirky:its-gonna-be-may",
+      "anniversary": {
+        "id": "anv-fixed-04-30-its-gonna-be-may-day-global",
+        "date": "04-30",
+        "dateType": "annual-fixed",
+        "name": "잇츠 고나 비 메이 데이",
+        "category": "quirky",
+        "storytelling": {
+          "origin": "4월 30일은 미국 보이밴드 엔싱크(*NSYNC)의 2000년 노래 ‘It's Gonna Be Me’ 가사가 ‘It's Gonna Be May(곧 5월이 될 거야)’로 들린다는 인터넷 밈을 해마다 꺼내 드는 비공식 기념일 ‘잇츠 고나 비 메이 데이’다. 저스틴 팀버레이크가 ‘me’를 ‘메이’에 가깝게 발음한 데서 생긴 말장난으로, 스포티파이는 이 밈이 2012년 텀블러에 처음 올라왔다고 밈 데이터베이스 노유어밈을 인용해 소개했고, 밈 아카이브 meme.com은 그 시점을 2012년 1월로 설명한다. 4월 30일을 향한 연례 카운트다운으로 쓰인다.",
+          "anecdote": "스포티파이는 2019년 자료에서 해마다 4월 30일과 5월 1일 이 노래의 재생이 급증하는 추세를 소개했다. 2014년 4월 30일 버락 오바마 당시 미국 대통령이 백악관에서 팀버레이크와 함께 찍은 사진에 ‘It's gonna be May’라는 글을 붙여 올렸으며, 같은 날 재생 수는 평소보다 101% 늘었고, 이튿날에는 191% 뛰었다. meme.com은 2019년 엔싱크 멤버 랜스 배스가 가전 브랜드 메이택의 협찬 트윗으로 이 밈을 광고 문구로 바꾼 사례도 소개한다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "4월의 마지막 밤, 팀버레이크가 5월을 데려온다"
+          }
+        ],
+        "sourceUrl": "https://newsroom.spotify.com/tag/its-gonna-be-may",
+        "tags": [
+          "이색 & 유머"
+        ]
+      }
+    },
+    {
+      "uid": "quirky:earth-wind-fire-day",
+      "anniversary": {
+        "id": "anv-fixed-09-21-earth-wind-and-fire-day-global",
+        "date": "09-21",
+        "dateType": "annual-fixed",
+        "name": "어스 윈드 앤 파이어 데이",
+        "category": "culture",
+        "storytelling": {
+          "origin": "9월 21일은 미국 밴드 어스 윈드 앤 파이어(Earth, Wind & Fire)의 히트곡 ‘September’ 첫 가사 ‘Do you remember the 21st night of September?’ 덕분에 이 노래를 찾아 듣는 날로 불리는 ‘어스 윈드 앤 파이어 데이’다. 2019년 미국 로스앤젤레스 시의회가 9월 21일을 ‘Earth, Wind & Fire Day’로 선언했고, 미국 공영라디오 NPR도 이날을 같은 이름으로 소개했다. LA의 도시 기념일 선언과 음악 팬들의 온라인 기념 관행을 구분할 필요가 있다.",
+          "anecdote": "가사 속 날짜에 특별한 의미가 있었던 것은 아니라고 작사가가 설명했다. 공동 작사가 앨리 윌리스는 2014년 NPR 인터뷰에서 21일이 다른 어떤 날짜보다 노래에 잘 붙었다는 것 말고는 의미가 없다고 말했다. 로스앤젤레스 시의원 마퀴스 해리스도슨은 밴드가 LA를 고향으로 삼았기 때문에 이날을 지정했다고 설명했고, 시의회는 멤버 랄프 존슨, 필립 베일리, 버딘 화이트에게 기념 증서를 건넸다. 밴드를 만든 모리스 화이트는 2016년 세상을 떠났다. 2019년 CNN 보도는 당시까지 이 밴드의 노래 33곡이 빌보드 핫100에 올랐고 그래미상을 여섯 번 받았다고 소개했다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "Do you remember? 오늘이 바로 그 21일 밤"
+          }
+        ],
+        "sourceUrl": "https://wsvn.com/entertainment/los-angeles-declared-september-21-earth-wind-fire-day/",
+        "tags": [
+          "문화 & 예술"
+        ]
+      }
+    },
+    {
+      "uid": "quirky:tau-day",
+      "anniversary": {
+        "id": "anv-fixed-06-28-tau-day-global",
+        "date": "06-28",
+        "dateType": "annual-fixed",
+        "name": "타우의 날",
+        "category": "academic",
+        "storytelling": {
+          "origin": "6월 28일은 원의 둘레를 반지름으로 나눈 상수 τ(타우, 6.283…)를 기념하는 비공식 기념일 ‘타우의 날(Tau Day)’이다. τ 값의 앞자리 6.28이 미국식 날짜 표기 6/28과 같아 이날로 잡았고, 2010년 물리학자 마이클 하틀이 원주율 π 대신 τ를 ‘진짜 원의 상수’로 쓰자는 ‘타우 선언문(The Tau Manifesto)’을 발표하며 시작했다.",
+          "anecdote": "사이언티픽 아메리칸 블로그에 따르면 하틀의 선언문은 수학자 밥 팔레의 2001년 글 ‘파이는 틀렸다(Pi Is Wrong)’에서 영감을 받았다. 같은 매체의 2017년 글은 미국 MIT가 입학 결과를 3월 14일 ‘파이의 날’ 6시 28분 ‘타우 타임’에 발표한다고 소개했다. 타우 공식 사이트는 구글 계산기와 자바·러스트·파이썬 같은 여러 프로그래밍 언어가 τ 상수를 지원하게 됐고, 선언문이 원문을 포함해 8개 언어로 나와 있다고 소개한다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "파이 두 조각이면 타우 한 판"
+          }
+        ],
+        "sourceUrl": "https://tauday.com/",
+        "tags": [
+          "학술 & 기술"
+        ]
+      }
+    },
+    {
+      "uid": "quirky:ninja-day-jp",
+      "anniversary": {
+        "id": "anv-fixed-02-22-ninja-day-jp",
+        "date": "02-22",
+        "dateType": "annual-fixed",
+        "name": "닌자의 날(일본)",
+        "category": "culture",
+        "storytelling": {
+          "origin": "2월 22일은 2월 22일을 닌자 소리 ‘닌닌닌’과 연결하는 일본어 말장난에서 날짜를 딴 일본의 ‘닌자의 날(忍者の日)’이다. 닌자를 관광·문화 자원으로 키우려는 일본닌자협의회가 이날 행사를 열고, 이가·고카 닌자의 고장으로 알려진 미에현과 시가현도 이날에 맞춘 닌자 행사를 열었다. 확보한 자료는 문화·관광 행사의 맥락에서 이날을 소개한다.",
+          "anecdote": "타임아웃 도쿄에 따르면 일본닌자협의회는 이가류 닌자의 발상지인 미에현 이가시를 중심으로 닌자와 인연이 있는 전국 지자체 등이 가입한 단체로, 닌자를 활용한 관광·문화 진흥과 지역 경제 활성화를 목표로 한다. 협의회는 닌자의 날 기자회견에서 2016년을 ‘닌자 원년’으로 선언하고 2030년까지 세계 닌자 팬 1억 명을 모으겠다는 목표를 내놓았다. 미에현은 2025년 안내에서 도쿄 니혼바시의 홍보관 ‘미에 테라스’와 시가현 홍보관 ‘고코 시가’를 연계해 퀴즈와 특산품 추첨을 곁들인 닌자 페스타를 열겠다고 예고했다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "달력을 읽기만 해도 닌닌닌"
+          }
+        ],
+        "sourceUrl": "https://www.pref.mie.lg.jp/TOPICS/m0031100533.htm",
+        "tags": [
+          "문화 & 예술"
+        ]
+      }
+    },
+    {
+      "uid": "quirky:apple-day-kr",
+      "anniversary": {
+        "id": "anv-fixed-10-24-apple-day-kr",
+        "date": "10-24",
+        "dateType": "annual-fixed",
+        "name": "애플데이",
+        "category": "general",
+        "storytelling": {
+          "origin": "10월 24일은 ‘둘(2)이 서로 사(4)과하고 화해하자’는 말장난에서 날짜를 딴 한국의 ‘애플데이’다. 서울신문은 사과 철인 10월의 24일을 화해의 날로 정해, 직장이나 가정에서 나 때문에 마음 아팠을 사람에게 사과하고 그 표시로 사과를 건네자는 뜻에서 2002년 제정됐다고 전했다. 민간 화해 캠페인으로 소개된다.",
+          "anecdote": "한 대학원 기고문은 2002년 학교폭력대책 국민협의회가 선생님과 학생, 친구 사이에 애정과 화해를 담은 사과와 편지를 주고받아 따뜻한 학교를 만들자는 취지로 이날을 마련했다고 전한다. 꺼내기 어려운 사과(謝過)를 맛있는 사과(沙果)에 실어 자연스럽게 전하게 하자는 동음이의어 장치다. 2013년 10월 24일 서울 중구 남산골 한옥마을 광장에서 열린 애플데이 행사에는 어린이들이 사과를 들고 참여했다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "미안하다는 말이 어려우면 사과 한 알부터"
+          }
+        ],
+        "sourceUrl": "https://m.go.seoul.co.kr/news/2013/10/25/20131025012024",
+        "tags": [
+          "일반"
+        ]
+      }
+    },
+    {
+      "uid": "quirky:galentines-day",
+      "anniversary": {
+        "id": "anv-fixed-02-13-galentines-day-global",
+        "date": "02-13",
+        "dateType": "annual-fixed",
+        "name": "갤런타인데이",
+        "category": "culture",
+        "storytelling": {
+          "origin": "2월 13일은 밸런타인데이 전날 여성 친구들끼리 우정을 기념하는 비공식 기념일 ‘갤런타인데이(Galentine's Day)’다. 2010년 2월 11일 방영된 미국 NBC 시트콤 ‘팍스 앤 레크리에이션’ 시즌 2의 16화에서, 주인공 레슬리 노프(에이미 폴러)가 해마다 밸런타인데이 전날 주변 여성들을 모아 아침을 함께 먹는 날로 처음 등장했다. 드라마 속 가상의 날이 현실의 기념일이 된 경우다.",
+          "anecdote": "미국 히스토리 채널은 밸런타인데이가 연애를 기린다면 갤런타인데이는 여성 간의 우정을 기린다고 설명하며, 이제 현실의 여성들이 해마다 2월 13일에 이 날을 챙긴다고 전했다. 멘털 플로스는 이 이름을 처음 붙인 기록은 드라마지만 여성들이 밸런타인데이에 친구끼리 모여 온 일은 그전에도 있었다고 짚었다. 극 중 레슬리는 이날을 ‘1년 중 최고의 날’이라고 부른다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "초콜릿보다 먼저 챙기는 친구들의 아침"
+          }
+        ],
+        "sourceUrl": "https://www.history.com/articles/what-is-galentines-day",
+        "tags": [
+          "문화 & 예술"
+        ]
+      }
+    },
+    {
+      "uid": "quirky:bubble-wrap-appreciation-day",
+      "anniversary": {
+        "id": "anv-nth-01-l-mon-bubble-wrap-appreciation-day-us",
+        "date": "01-L-MON",
+        "dateType": "annual-nth-weekday",
+        "name": "뽁뽁이 감사의 날",
+        "category": "quirky",
+        "storytelling": {
+          "origin": "1월 마지막 월요일은 흔히 ‘뽁뽁이’라고 부르는 포장용 에어캡(버블랩)을 기념하는 미국의 비공식 이색 기념일 ‘뽁뽁이 감사의 날(Bubble Wrap Appreciation Day)’이다. 미국 벨뷰대학교 도서관 블로그가 이 날을 매년 1월 마지막 월요일로 소개하고, 미국 공영라디오 NPR도 2013년 1월 28일 아침 방송에서 이날을 언급했다. 처음 만든 주체와 시작 연도는 확인되지 않았다.",
+          "anecdote": "벨뷰대학교 도서관 블로그는 라디오 방송국이 방송 중 마이크의 포장을 풀자 청취자들이 즐거워한 데서 이 날이 시작됐다고 소개한다. 다만 저장 원문에는 방송국 이름과 시작 연도가 없어 기원은 확정하기 어렵다. NPR은 2013년 이날 방송에서 다른 포장재와 달리 에어캡에는 터뜨리는 소리와 감촉을 즐기는 팬이 있다고 전하며, 에어캡 웨딩드레스와 미식축구 헬멧 사례를 곁들였다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "오늘만큼은 마음껏 뽁, 뽁"
+          }
+        ],
+        "sourceUrl": "https://library.bellevue.edu/articles/tag/nationalbubblewrapappreciationday",
+        "tags": [
+          "이색 & 유머"
+        ]
+      }
+    },
+    {
+      "uid": "native:br-dia-do-saci",
+      "anniversary": {
+        "id": "anv-fixed-10-31-dia-do-saci-br",
+        "date": "10-31",
+        "dateType": "annual-fixed",
+        "name": "사치의 날(브라질)",
+        "category": "culture",
+        "storytelling": {
+          "origin": "10월 31일은 브라질 민담 속 장난꾸러기 요정 ‘사치(Saci)’를 기리는 ‘사치의 날(Dia do Saci)’이다. 2004년 1월 13일 브라질 상파울루주가 법률 제11.669호로 매년 10월 31일을 사치의 날로 정했고, 일부 시도 조례로 이날을 지정했다. 같은 날인 핼러윈에 맞서 브라질 민속 문화를 지키자는 운동에서 출발했으며, 공휴일은 아니다.",
+          "anecdote": "2003년 언론인 모우자르 베네지투 등은 브라질에서 핼러윈이 ‘문화 침략’이 되고 있다며 ‘사치 관찰자 협회(Sosaci)’를 세웠다. 이들은 상파울루주 내륙 도시 상루이스두파라이칭가에서 행사를 열고, 같은 해 이 도시가 10월 31일을 사치의 날로 정하는 조례를 만들도록 이끌었다. 사치는 한쪽 다리로 다니며 파이프를 물고 빨간 두건을 쓴 장난꾸러기로 그려진다. 협회 회원인 칼럼니스트 플라비우 파이바는 일부러 미국 명절과 같은 날로 잡아 대안을 주려 한 것이며, 비판 대상은 핼러윈 철의 지나친 소비라고 설명했다. 2018년 상루이스두파라이칭가에서는 16번째 사치 축제가 열렸다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "핼러윈 호박은 사치가 몰래 가져갑니다"
+          }
+        ],
+        "sourceUrl": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2004/lei-11669-13.01.2004.html",
+        "tags": [
+          "문화 & 예술"
+        ]
+      }
+    },
+    {
+      "uid": "native:br-santo-antonio-casamenteiro",
+      "anniversary": {
+        "id": "anv-fixed-06-13-santo-antonio-day-br",
+        "date": "06-13",
+        "dateType": "annual-fixed",
+        "name": "산투 안토니우의 날(브라질)",
+        "category": "culture",
+        "storytelling": {
+          "origin": "6월 13일은 가톨릭 성인 안토니오(포르투갈어 산투 안토니우)의 축일로, 브라질에서는 ‘중매 성인’의 날로 알려져 있다. TVT 뉴스는 이날을 6월 축제(페스타 주니나)의 주요 날짜로 소개한다. 리스본 출신으로 가난한 이들을 돌본 성인이 지참금 없는 젊은이들의 결혼을 도왔다는 민간 전승에서 ‘중매 성인(santo casamenteiro)’이라는 별명이 생겼다고 전해진다.",
+          "anecdote": "브라질 민간에는 성인상을 거꾸로 세워 두고 소원이 이뤄지기를 바라는 ‘심파치아(민간 주술)’가 전해진다. TVT 뉴스는 이 풍습을 사랑 문제에 도움을 청하는 상징적 의식으로 소개한다. 이 매체는 카루아루, 캄피나그란지, 상파울루의 축제에 미사와 전통 음식 노점이 있는 성당 바자회(케르메스)가 포함된다고 설명했다. 다만 기사에 실린 상파울루 성당 행사 일정은 6월 여러 주말에 걸쳐 있어, 바자회가 모두 6월 13일 당일에 열린다는 뜻은 아니다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "6월의 시작은 중매 성인과 함께"
+          }
+        ],
+        "sourceUrl": "https://tvtnews.com.br/?p=752468",
+        "tags": [
+          "문화 & 예술"
+        ]
+      }
+    },
+    {
+      "uid": "native:de-siebenschlaefertag",
+      "anniversary": {
+        "id": "anv-fixed-06-27-siebenschlaefertag-de",
+        "date": "06-27",
+        "dateType": "annual-fixed",
+        "name": "일곱 잠꾸러기의 날(독일)",
+        "category": "culture",
+        "storytelling": {
+          "origin": "6월 27일은 독일어권에서 ‘이날 날씨가 7주 동안 이어진다’는 농가 속담이 붙은 ‘일곱 잠꾸러기의 날(Siebenschläfertag)’이다. 이름은 박해를 피해 에페소스(지금의 튀르키예) 근처 동굴로 숨었다가 갇힌 일곱 그리스도인 청년이 여러 세대 뒤에 깨어났다는 기독교 전설에서 왔다. 오랫동안 교회 기념일이었다가 민간에서 날씨를 점치는 날(Lostag)로 자리 잡았다.",
+          "anecdote": "같은 이름의 작은 야행성 설치류 ‘지벤슐래퍼’는 긴 겨울잠 때문에 붙은 이름으로, 기념일의 유래와는 다르다. t-online은 독일 기상청 대변인을 인용해 하루보다 6월 말~7월 초 여러 날의 기상 흐름이 중요하다고 설명한다. 기사 속 60~70%는 그 무렵 대기의 흐름이 안정될 가능성으로, 하루 날씨로 여름 전체를 예보할 수 있다는 뜻이 아니다. 이 매체는 1582년 달력 개혁의 열흘 차이를 적용하면 옛 날짜가 7월 7일에 해당한다고 해설한다. 대변인의 ‘동전을 던져도 된다’는 말도 6월 27일만으로 일곱 주 날씨를 예측하는 데 대한 경고로 전한다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "일곱 명이 깨어난 날, 여름 예보는 기상청에 물어보기"
+          }
+        ],
+        "sourceUrl": "https://ms-aktuell.de/welt/23062026-siebenschlaefertag-bauernregel-brauchtum/",
+        "tags": [
+          "문화 & 예술"
+        ]
+      }
+    },
+    {
+      "uid": "native:de-tag-des-deutschen-bieres",
+      "anniversary": {
+        "id": "anv-fixed-04-23-german-beer-day-de",
+        "date": "04-23",
+        "dateType": "annual-fixed",
+        "name": "독일 맥주의 날",
+        "category": "food",
+        "storytelling": {
+          "origin": "4월 23일은 독일 양조업계가 기념하는 ‘독일 맥주의 날(Tag des Deutschen Bieres)’이다. 1516년 4월 23일 바이에른을 함께 다스리던 빌헬름 4세 공작과 동생 루트비히 10세 공작이 잉골슈타트에서 맥주 원료를 제한한 ‘맥주 순수령(Reinheitsgebot)’을 반포한 일을 기린다. 독일양조협회도 2023년 이날을 앞두고 관련 보도자료를 냈다.",
+          "anecdote": "독일 수공업 신문은 2012년 기사에서 두 공작이 주민에게 질 좋은 기본 식품을 공급하려 순수령을 냈다고 설명한다. 당시 기사에 따르면 독일 민간양조협회는 필스너·바이스비어·쾰슈 등 40가지가 넘는 맥주 종류를 소개했다. 2023년 맥주의 날을 앞두고 독일양조협회는 공식 등록된 가정·취미 양조인이 2014년 3,000명에서 2022년 말 약 1만 명으로, 8년 사이 세 배 넘게 늘었다고 발표했다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "500살 넘은 식품법의 생일"
+          }
+        ],
+        "sourceUrl": "https://www.deutsche-handwerks-zeitung.de/?p=88554",
+        "tags": [
+          "음식 & 디저트"
+        ]
+      }
+    },
+    {
+      "uid": "native:es-la-tomatina",
+      "anniversary": {
+        "id": "anv-nth-08-l-wed-la-tomatina-es",
+        "date": "08-L-WED",
+        "dateType": "annual-nth-weekday",
+        "name": "라 토마티나(스페인)",
+        "category": "culture",
+        "storytelling": {
+          "origin": "8월 마지막 수요일은 스페인 발렌시아주 소도시 부뇰에서 참가자들이 트럭으로 실어 온 토마토를 서로 던지는 축제 ‘라 토마티나(La Tomatina)’가 열리는 날이다. 1945년 8월 마지막 수요일, 거인 인형 행렬을 구경하던 젊은이들의 즉흥적인 다툼이 토마토 던지기로 번진 것이 시작으로 전해지며, 2002년 스페인 관광 당국이 ‘국제 관광 관심 축제’로 지정했다.",
+          "anecdote": "토마토 싸움은 마을 중심가를 막은 채 약 한 시간 동안 이어지며, 다치지 않도록 토마토를 미리 으깨서 던지는 것이 규칙이다. 본 행사에 앞서 비누칠한 장대 꼭대기에 걸린 하몽(햄)을 따는 ‘팔로 데 하본’이 열린다. 지역 매체 ValenciaBonita는 참가자가 늘자 부뇰시가 2013년 안전을 위해 입장 인원을 제한했다고 설명하며, 현재 입장권 구매가 필요하다고 안내한다. 이 매체는 1950년대 금지와 1957년 ‘토마토 장례식’ 시위, 1983년 스페인 국영방송 보도를 통한 전국적 확산도 소개한다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "오늘의 소스는 마을 전체가 함께 만든다"
+          }
+        ],
+        "sourceUrl": "https://www.spain.info/es/agenda/la-tomatina/",
+        "tags": [
+          "문화 & 예술"
+        ]
+      }
+    },
+    {
+      "uid": "native:es-ribarteme-ataudes",
+      "anniversary": {
+        "id": "anv-fixed-07-29-ribarteme-santa-marta-es",
+        "date": "07-29",
+        "dateType": "annual-fixed",
+        "name": "리바르테메 산타 마르타 순례(스페인)",
+        "category": "culture",
+        "storytelling": {
+          "origin": "7월 29일은 스페인 갈리시아 폰테베드라주 아스 네베스의 리바르테메에서 성녀 마르타를 기리는 순례(로메리아)의 날이다. 이 순례는 죽을 고비를 넘긴 신자가 관에 누워 가족·친구의 어깨에 실려 가며 생존에 감사하던 ‘관 행렬’로 알려졌다. 다만 최근에는 교회와의 갈등으로 관을 이용하는 방식이 제한됐다. EFE는 이 순례가 갈리시아 관광 관심 축제로 지정돼 있다고 전했다.",
+          "anecdote": "엘 데바테는 이 순례의 첫 역사적 언급을 1700년 주교가 옛 예배당의 수리를 요청한 문서라고 소개한다. Etnográfica에 공개된 민족지 연구의 초록은 교회의 허락 아래 관 의례가 치러진 마지막 해를 2019년으로 기록한다. EFE는 팬데믹으로 2년, 신부의 반대로 1년을 건너뛴 뒤 2023년 일부 재개됐다고 보도했다. 당시 관은 성당 안이 아니라 도로에서 출발했다. 종교 전문 매체 The Wild Hunt는 2025년에도 관 탑승을 허락받지 못한 사례를 전했다. 저장 자료만으로 2026년 관 행렬의 구체적 시행 형태를 확인할 수는 없다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "살아 돌아온 것에 감사하는 한여름의 순례"
+          }
+        ],
+        "sourceUrl": "https://www.laestrella.com.pa/vida-y-cultura/curiosidades/pueblo-espanol-ataudes-salen-procesion-celebrar-vida-JELE495639",
+        "tags": [
+          "문화 & 예술"
+        ]
+      }
+    },
+    {
+      "uid": "native:fr-catherinettes",
+      "anniversary": {
+        "id": "anv-fixed-11-25-sainte-catherine-fr",
+        "date": "11-25",
+        "dateType": "annual-fixed",
+        "name": "생트카트린 축일(프랑스)",
+        "category": "culture",
+        "storytelling": {
+          "origin": "11월 25일은 프랑스에서 성녀 카트린을 기리는 ‘생트카트린 축일’이다. 북부와 동부 일부 지역에는 25세까지 결혼하지 않은 여성을 ‘카트리네트(Catherinettes)’라 부르며 초록·노랑 모자를 씌우는 오랜 전통이 남아 있다. 성녀 카트린은 재봉사와 모자 장인의 수호성인이기도 해서, 19세기 말부터는 패션·봉제업계의 축일이라는 면이 더 널리 알려졌다.",
+          "anecdote": "옛날 젊은 여성들이 성당 성녀상의 머리 장식을 새로 갈아 주며 이른 결혼을 빌었다는 데서 ‘성녀 카트린의 머리를 손질한다(coiffer Sainte-Catherine)’는 표현이 생겼다. 민족학자 안 몽자레는 25세가 넘으면 결혼이 늦었다고 여기던 시절의 관습이라고 설명하고, 미혼임을 드러내는 모자는 재미로도 수치로도 받아들여질 수 있는 낙인이었다고 짚는다. 시사 매체 슬레이트는 성별 고정관념과 미혼자에 대한 압박 때문에 이 전통이 불편하게 여겨진다고 지적했다. 결혼하지 않는 것이 더는 부끄러운 일이 아니게 되면서, 북부에서는 어린 소녀들이 이날, 소년들은 12월 6일 성 니콜라 축일에 카드를 주고받는 날로 바뀌었다. 기원 시점은 ‘중세부터’와 ‘16세기부터’로 출처마다 다르다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "초록과 노랑, 일부러 안 어울리게 고른 모자"
+          }
+        ],
+        "sourceUrl": "https://www.slate.fr/story/256803/tradition-catherinettes-fete-sainte-catherine-25-novembre-filles-femmes-celibataires-mariage-sexisme-stigmatisation",
+        "tags": [
+          "문화 & 예술"
+        ]
+      }
+    },
+    {
+      "uid": "native:fr-fete-des-grands-meres",
+      "anniversary": {
+        "id": "anv-nth-03-1-sun-grandmothers-day-fr",
+        "date": "03-1-SUN",
+        "dateType": "annual-nth-weekday",
+        "name": "할머니의 날(프랑스)",
+        "category": "general",
+        "storytelling": {
+          "origin": "3월 첫째 일요일은 손주들이 할머니에게 고마움을 전하는 프랑스의 ‘할머니의 날(Fête des grands-mères)’이다. 프랑스 우체국 라포스트 안내에 따르면, 1987년 커피 브랜드 ‘카페 그랑메르’의 창업자 르네 모니에가 브랜드 홍보를 위해 만든 상업 기념일에서 출발했다. 프랑스 우체국 안내 기준으로 2026년은 3월 1일, 2027년은 3월 7일, 2028년은 3월 5일이다.",
+          "anecdote": "달력 사이트 아이칼랑드리에는 비영리 협회 ‘할머니의 날’이 1987년 설립됐으며, 적어도 2002년 행사부터 운영 주체였다고 설명한다. 이 협회는 크래프트 푸드가 주도한 단체로 소개되며, 사이트는 2017년 여름 이후 협회의 별도 온라인 활동을 찾기 어렵다고 덧붙인다. 같은 사이트가 인용한 1997년 조사에서는 응답자의 83%가 이 날을 알았지만 브랜드와 연결 짓는 사람은 6%였다. 라포스트는 학교 선생님의 도움을 받아 손수 선물을 만드는 방법을 어린 손주들을 위한 아이디어로 제안한다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "커피 광고에서 시작해 온 가족의 일요일로"
+          }
+        ],
+        "sourceUrl": "https://www.laposte.fr/fetes-des-grands-meres",
+        "tags": [
+          "일반"
+        ]
+      }
+    },
+    {
+      "uid": "native:pl-dzien-chlopaka",
+      "anniversary": {
+        "id": "anv-fixed-09-30-boys-day-pl",
+        "date": "09-30",
+        "dateType": "annual-fixed",
+        "name": "소년·남자친구의 날(폴란드)",
+        "category": "general",
+        "storytelling": {
+          "origin": "9월 30일은 폴란드에서 남자친구와 남학생, 아버지, 남성 동료에게 선물과 축하를 건네는 ‘젠 흐워파카(Dzień Chłopaka)’다. 브로츠와프시 생활 정보 페이지는 매년 이날을 기념한다고 안내한다. RMF24는 3월 8일 여성의 날에 대응하는 날로 소개하며, 학생·청소년·대학생 등 비교적 젊은 남성이 주로 챙긴다고 설명한다. 최초 제정 시기와 주체는 저장 자료만으로 확정하기 어렵다.",
+          "anecdote": "브로츠와프시 생활 정보 페이지는 이날 파트너, 아버지, 동료가 선물과 축하를 받는다고 소개한다. 다만 같은 페이지의 기원 설명은 9월 30일 날짜를 안내한 뒤 첫 개최를 1999년 11월 19일로 적고 국제 남성의 날과 연결한다. 이 내용만으로 폴란드의 9월 30일 기념일이 언제 시작됐는지는 알 수 없어, 제정 연도와 주체는 본문에서 단정하지 않는다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "3월 8일에 받은 마음, 9월 30일에 돌려주기"
+          }
+        ],
+        "sourceUrl": "https://www.wroclaw.pl/dla-mieszkanca/dzien-chlopaka-kiedy-wypada-propozycje-prezentow",
+        "tags": [
+          "일반"
+        ]
+      }
+    },
+    {
+      "uid": "native:th-nai-khanom-tom",
+      "anniversary": {
+        "id": "anv-fixed-03-17-nai-khanom-tom-day-th",
+        "date": "03-17",
+        "dateType": "annual-fixed",
+        "name": "나이카놈똠의 날(태국)",
+        "category": "sports",
+        "storytelling": {
+          "origin": "3월 17일은 태국 무에타이계가 전설적인 권투가 ‘나이 카놈똠’을 ‘무에타이의 큰 스승’으로 기리는 날이다. 태국 일간지 타이랏은 매년 이날을 나이카놈똠의 날로 삼는다고 설명한다. 이 매체가 소개한 이야기에서는 아유타야가 두 번째로 함락될 때 포로가 된 그가 버마 왕 앞에서 권투가 10명을 연달아 이긴다. 칼럼은 이 무대를 쉐다곤 탑의 첨탑 우산 봉헌이 열린 불기 2317년(1774년) 3월 17일로 설명하지만, 일화 자체를 확정된 역사로 보기는 어렵다.",
+          "anecdote": "개인 블로그 GotoKnow의 글은 이 이야기가 태국 왕실 연대기 필사본에 나온다면서도 다른 기록에서는 찾을 수 없고, 실존하지 않았다는 시각도 있다고 소개한다. 연대기 원본을 직접 대조한 자료는 아니므로 역사적 진위는 확정하지 않는다. 타이랏 칼럼은 그가 버마 왕의 보상을 사양하고 태국인 포로 모두의 석방을 청해 고향으로 돌아갔다고 전한다. 2017년 3월 12일자 같은 칼럼은 그해 3월 17일 아유타야 중앙경기장 임시 링에서 기념 무에타이 대회를 열 예정이라고 안내했다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "열 명을 이긴 전설에게 올리는 무에타이식 인사"
+          }
+        ],
+        "sourceUrl": "https://www.thairath.co.th/news/881791",
+        "tags": [
+          "스포츠 & 레저"
+        ]
+      }
+    },
+    {
+      "uid": "native:tr-hidirellez",
+      "anniversary": {
+        "id": "anv-fixed-05-06-hidirellez-tr",
+        "date": "05-06",
+        "dateType": "annual-fixed",
+        "name": "흐드렐레즈(튀르키예)",
+        "category": "culture",
+        "storytelling": {
+          "origin": "5월 6일은 튀르키예의 봄맞이 명절 ‘흐드렐레즈(Hıdırellez)’로, 전날인 5월 5일 밤부터 기념이 시작된다. 땅의 수호자로 어려운 이를 돕는다는 흐즈르와 물의 수호자 일리야스가 1년에 한 번 만난다는 민간 신앙에서 이름이 왔다. 2017년 튀르키예와 북마케도니아의 공동 등재로 ‘봄맞이 축제 흐드렐레즈’가 유네스코 인류무형문화유산 대표목록에 올랐다.",
+          "anecdote": "5월 5일 저녁 사람들은 바라는 집·자동차·아이 같은 소원을 종이에 그려 장미나무 가지에 묶거나 나무 밑 흙에 그려 두고, 풍요를 빌며 나무 밑에 동전을 묻기도 한다. 모닥불을 피우고 물로 몸을 씻는 풍습도 함께 전한다. 민간에서는 5월 6일부터 11월 7일까지를 ‘흐즈르의 날들’, 곧 여름으로, 11월 8일부터 5월 5일까지를 ‘카슴의 날들’, 곧 겨울로 나눈다. 아나톨리아뿐 아니라 발칸과 이라크·시리아 등에서도 지키며, 지역마다 ‘에데를레즈’ 등 여러 이름으로 불린다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "소원은 그림으로, 전달은 장미나무에게"
+          }
+        ],
+        "sourceUrl": "https://ich.unesco.org/en/RL/spring-celebration-of-hdrellez-01284",
+        "tags": [
+          "문화 & 예술"
+        ]
+      }
+    },
+    {
+      "uid": "native:tw-520",
+      "anniversary": {
+        "id": "anv-fixed-05-20-520-day-tw",
+        "date": "05-20",
+        "dateType": "annual-fixed",
+        "name": "520 데이(대만)",
+        "category": "romance",
+        "storytelling": {
+          "origin": "5월 20일은 숫자 ‘520’을 중국어 ‘我愛你(워 아이 니, 사랑해)’에 빗대는 말장난으로 사랑을 기념하는 대만의 날이다. 자유시보는 이날을 뜻깊게 여기는 커플들이 혼인신고를 하고, 2026년 타이난의 호적사무소들이 포토존과 선물을 준비했다고 보도했다. PTS도 해마다 이날 혼인신고를 하는 커플이 많다고 전한다. 저장 자료만으로 최초 시작 시기와 주체는 확인할 수 없다.",
+          "anecdote": "대만 공영방송 PTS에 따르면 2020년 5월 20일 하루 대만 전역에서 6,007쌍이 혼인신고를 해 당시 최근 5년 가운데 가장 많았다. ‘2020520’이 ‘사랑해 사랑해 나는 너를 사랑해’로 들린다는 말장난이 더해졌고, 기사는 동성혼 기념 시기와도 겹쳤다고 설명했다. 전체에는 동성 커플 209쌍이 포함됐다. 자유시보는 2026년 5월 20일 타이난시에서 308쌍이 혼인신고를 마쳤다고 보도했다."
+        },
+        "memes": [
+          {
+            "type": "text",
+            "url": null,
+            "caption": "숫자 세 개로 하는 고백, 5·2·0"
+          }
+        ],
+        "sourceUrl": "https://news.pts.org.tw/article/479653",
+        "tags": [
+          "연애 & 기념일"
+        ]
+      }
+    }
+  ],
+  "held": [
+    {
+      "uid": "native:pl-topienie-marzanny",
+      "reasons": [
+        "풍습의 존재는 확인되지만 ESKA는 3/21이 가장 흔할 뿐 규칙은 아니라고 명시한다(ale nie jest to regułą). 전체 풍습을 annual-fixed 03-21로 확정하면 실제 날짜 규칙을 과도하게 좁힌다.",
+        "체신 자료의 Poza Beskidami(베스키디 산지 밖에서는) 조건이 초안에서 빠져 체신 지역 전체에 원래 풍습이 없었다는 잘못된 일반화가 됐다.",
+        "노래하며 인형을 내보냈다는 원문은 과거형 의례 설명이며, 현재 학생들이 교사와 함께 노래한다는 합성 서술의 직접 근거는 없다.",
+        "ESKA sourceUrl 꼬리가 수집 원문 URL과 다르다."
+      ]
+    }
+  ]
+}

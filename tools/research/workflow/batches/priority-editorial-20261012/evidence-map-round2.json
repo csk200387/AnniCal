@@ -1,0 +1,3606 @@
+{
+ "_note": "라운드2 주장별 근거. path 는 repo 루트 기준. origin_batch=원본 배치 record 인용, this_batch=이번에 새로 붙인 인용. used=본문에 쓴 주장인지.",
+ "round": 2,
+ "items": {
+  "asia:cn-farmers-harvest": {
+   "candidate_key": "cn-farmers-harvest",
+   "source_record_path": "tools/research/workflow/batches/asia-expansion-20261012/records.json",
+   "sourceUrl": "https://www.gov.cn/zhengce/2018-06/22/content_5300368.htm",
+   "claims": [
+    {
+     "claim_id": "established_2018",
+     "claim_ko": "2018년부터 매년 추분을 중국 농민 풍수절로 설립, 국가 차원 첫 농민 명절",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "gov-cn-5300368",
+       "url": "https://www.gov.cn/zhengce/2018-06/22/content_5300368.htm",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-farmers-harvest/gov-cn-5300368.txt",
+       "quote": "经党中央批准、国务院批复，自2018年起，将每年农历秋分设立为‘中国农民丰收节’，这是第一个在国家层面专门为农民设立的节日。",
+       "quote_ko": "당 중앙 비준·국무원 비복으로 2018년부터 매년 추분을 중국 농민 풍수절로 정했다. 국가 차원에서 농민을 위해 만든 첫 명절이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "why_autumn_equinox",
+     "claim_ko": "추분을 고른 이유: 수확을 가장 잘 보여 주고 남북을 아우름",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "gov-cn-5300368",
+       "url": "https://www.gov.cn/zhengce/2018-06/22/content_5300368.htm",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-farmers-harvest/gov-cn-5300368.txt",
+       "quote": "将秋分定为“中国农民丰收节”，兼顾南北方，既便于城乡群众参与，也利于展示农业丰收成果。",
+       "quote_ko": "추분을 풍수절로 정하면 남북을 아우르고 도농 주민 참여와 수확 성과 전시에 유리하다."
+      }
+     ]
+    },
+    {
+     "claim_id": "fourth_2021",
+     "claim_ko": "2021년 9월 23일 추분이 제4회",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "chinadaily-2021",
+       "url": "https://language.chinadaily.com.cn/a/202109/23/WS614bf256a310cdd39bc6afb1.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-farmers-harvest/chinadaily-2021.txt",
+       "quote": "9月23日是农历秋分，也是第四个“中国农民丰收节”。",
+       "quote_ko": "9월 23일은 추분이자 제4회 중국 농민 풍수절이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_spring_autumn",
+     "claim_ko": "춘종추수, 추분 무렵 열매가 가장 풍성",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.gov.cn/zhengce/2018-06/22/content_5300368.htm",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-farmers-harvest/gov-cn-5300368.txt",
+       "quote": "春种秋收，春华秋实，秋分时节硕果累累，最能体现丰收。"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_minister",
+     "claim_ko": "농업농촌부 장관 한창푸 발표",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.gov.cn/zhengce/2018-06/22/content_5300368.htm",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-farmers-harvest/gov-cn-5300368.txt",
+       "quote": "在国新办举行的新闻发布会上，农业农村部部长韩长赋表示。"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_2021_events",
+     "claim_ko": "2021 공연·농민운동회·서화전",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://language.chinadaily.com.cn/a/202109/23/WS614bf256a310cdd39bc6afb1.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-farmers-harvest/chinadaily-2021.txt",
+       "quote": "全国各地组织艺术表演、农民运动会以及书画展等一系列活动庆祝第四个“中国农民丰收节”。"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_2026_ninth",
+     "claim_ko": "2026-09-23 제9회 풍수절(신화망)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.news.cn/photo/20260923/483075b36b1e4f8081addb26380e95a1/c.html",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/cn-farmers-harvest/newscn-20260923.txt",
+       "quote": "9月23日是第九个中国农民丰收节"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_2026_corn",
+     "claim_ko": "2026 헤이룽장 주행사장 옥수수 껍질 벗기기",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.news.cn/photo/20260923/483075b36b1e4f8081addb26380e95a1/c.html",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/cn-farmers-harvest/newscn-20260923.txt",
+       "quote": "人们在2026年中国农民丰收节黑龙江省主场活动现场参加扒苞米比赛。"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_hko_2026",
+     "claim_ko": "HKO(UTC+8) 2026 추분 9/23",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.hko.gov.hk/en/gts/time/calendar/text/files/T2026e.txt",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/_shared-hko-calendar/hko-T2026e.txt",
+       "quote": "2026/9/23 13 Wednesday Autumnal Equinox"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_hko_2027",
+     "claim_ko": "HKO(UTC+8) 2027 추분 9/23",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.hko.gov.hk/en/gts/time/calendar/text/files/T2027e.txt",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/_shared-hko-calendar/hko-T2027e.txt",
+       "quote": "2027/9/23 23 Thursday Autumnal Equinox"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_hko_2028",
+     "claim_ko": "HKO(UTC+8) 2028 추분 9/22",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.hko.gov.hk/en/gts/time/calendar/text/files/T2028e.txt",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/_shared-hko-calendar/hko-T2028e.txt",
+       "quote": "2028/9/22 4 Friday Autumnal Equinox"
+      }
+     ]
+    }
+   ]
+  },
+  "asia:cn-police-day": {
+   "candidate_key": "cn-police-day",
+   "source_record_path": "tools/research/workflow/batches/asia-expansion-20261012/records.json",
+   "sourceUrl": "https://paper.people.com.cn/rmrbwap/html/2021-01/10/nw.D110000renmrb_20210110_2-01.htm",
+   "claims": [
+    {
+     "claim_id": "approval",
+     "claim_ko": "2020-07-21 국무원 비복, 2021년부터 매년 1월 10일",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "chinadaily-2023",
+       "url": "https://cn.chinadaily.com.cn/a/202301/11/WS63be5013a3102ada8b22ab18.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-police-day/chinadaily-2023.txt",
+       "quote": "2020年7月21日，《国务院关于同意设立“中国人民警察节”的批复》发布，同意自2021年起，将每年1月10日设立为“中国人民警察节”。",
+       "quote_ko": "2020년 7월 21일 \"중국 인민경찰절 설립에 동의하는 국무원 비복\"이 발표돼 2021년부터 매년 1월 10일을 인민경찰절로 정했다."
+      },
+      {
+       "evidence_id": "people-2021",
+       "url": "https://paper.people.com.cn/rmrbwap/html/2021-01/10/nw.D110000renmrb_20210110_2-01.htm",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-police-day/people-2021.txt",
+       "quote": "经党中央批准、国务院批复，自2021年起，将每年1月10日设立为“中国人民警察节”。",
+       "quote_ko": "당 중앙 비준·국무원 비복으로 2021년부터 매년 1월 10일을 인민경찰절로 정했다."
+      }
+     ]
+    },
+    {
+     "claim_id": "fifth_2025",
+     "claim_ko": "2025-01-10 제5회, 공안부 경찰기 게양식",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "news-cn-2025",
+       "url": "https://www.news.cn/politics/20250110/dcec86efa1d3418aaeb8394fa3c1bba7/c.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-police-day/news-cn-2025.txt",
+       "quote": "2025年1月10日是第五个中国人民警察节",
+       "quote_ko": "2025년 1월 10일은 제5회 중국 인민경찰절이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_rituals",
+     "claim_ko": "경찰기 게양·경가·입경 선서",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.news.cn/politics/20250110/dcec86efa1d3418aaeb8394fa3c1bba7/c.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-police-day/news-cn-2025.txt",
+       "quote": "全国公安机关和广大公安民警通过升警旗、唱警歌、重温入警誓词"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_300",
+     "claim_ko": "2025 공안부 300여 명 게양식",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.news.cn/politics/20250110/dcec86efa1d3418aaeb8394fa3c1bba7/c.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-police-day/news-cn-2025.txt",
+       "quote": "1月10日上午，公安部举行了庄重的升警旗仪式，300余名干部代表整齐列队"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_flag_2020",
+     "claim_ko": "2020-08-26 경찰기 수여·훈사",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://paper.people.com.cn/rmrbwap/html/2021-01/10/nw.D110000renmrb_20210110_2-01.htm",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-police-day/people-2021.txt",
+       "quote": "习近平总书记在这里向中国人民警察队伍授旗并致训词"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_first",
+     "claim_ko": "2021 제1회",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://paper.people.com.cn/rmrbwap/html/2021-01/10/nw.D110000renmrb_20210110_2-01.htm",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-police-day/people-2021.txt",
+       "quote": "在第一个“中国人民警察节”到来之际"
+      }
+     ]
+    }
+   ]
+  },
+  "asia:cn-space-day": {
+   "candidate_key": "cn-space-day",
+   "source_record_path": "tools/research/workflow/batches/asia-expansion-20261012/records.json",
+   "sourceUrl": "https://cn.chinadaily.com.cn/a/202104/24/WS60836039a3101e7ce974b9aa.html",
+   "claims": [
+    {
+     "claim_id": "whitepaper",
+     "claim_ko": "백서: 2016년부터 매년 4월 24일을 중국 항천일로",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "zjol-whitepaper",
+       "url": "https://china.zjol.com.cn/gnxw/201612/t20161227_2431543.shtml",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-space-day/zjol-whitepaper.txt",
+       "quote": "为传承航天精神、激发创新热情，中国政府决定，自2016年起，将每年4月24日设立为“中国航天日”。",
+       "quote_ko": "항천 정신을 잇고 혁신 열정을 북돋우려 중국 정부는 2016년부터 매년 4월 24일을 중국 항천일로 정했다."
+      }
+     ]
+    },
+    {
+     "claim_id": "state_council",
+     "claim_ko": "2016년 국무원 비복, 2023년 제8회",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "chinanews-2023",
+       "url": "https://www.chinanews.com.cn/gn/2023/04-19/9992708.shtml",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-space-day/chinanews-2023.txt",
+       "quote": "2016年，国务院批复同意将每年4月24日设立为“中国航天日”。",
+       "quote_ko": "2016년 국무원이 매년 4월 24일을 중국 항천일로 정하는 데 동의했다."
+      },
+      {
+       "evidence_id": "chinanews-2023",
+       "url": "https://www.chinanews.com.cn/gn/2023/04-19/9992708.shtml",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-space-day/chinanews-2023.txt",
+       "quote": "4月24日将迎来第八个中国航天日",
+       "quote_ko": "4월 24일 제8회 중국 항천일을 맞는다"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_dfh1",
+     "claim_ko": "1970-04-24 둥팡훙 1호 발사, 2016년부터 항천일(신화사 2026)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.news.cn/politics/20260424/84e61f80d3a34e86a4128a91288a19ea/c.html",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/cn-space-day/newscn-2026.txt",
+       "quote": "1970年4月24日，我国成功发射第一颗人造地球卫星“东方红一号”。自2016年起，我国将每年4月24日设立为“中国航天日”。"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_date_reason",
+     "claim_ko": "4월 24일은 둥팡훙 1호 발사일(중국일보 2021)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://cn.chinadaily.com.cn/a/202104/24/WS60836039a3101e7ce974b9aa.html",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/cn-space-day/chinadaily-2021.txt",
+       "quote": "中国航天日设立于2016年，4月24日这一天，是新中国第一颗人造地球卫星“东方红一号”成功发射的日子。"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_host_cities",
+     "claim_ko": "베이징·시안·하얼빈·창사·푸저우 5회 주행사",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://cn.chinadaily.com.cn/a/202104/24/WS60836039a3101e7ce974b9aa.html",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/cn-space-day/chinadaily-2021.txt",
+       "quote": "迄今，已先后在北京、西安、哈尔滨、长沙、福州连续举办了五届主场活动。"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_2023_theme",
+     "claim_ko": "2023 주제 格物致知 叩问苍穹",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.chinanews.com.cn/gn/2023/04-19/9992708.shtml",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-space-day/chinanews-2023.txt",
+       "quote": "今年，“中国航天日”主题是“格物致知 叩问苍穹”"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_2023_hefei",
+     "claim_ko": "2023 허페이 개막식 예정",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.chinanews.com.cn/gn/2023/04-19/9992708.shtml",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-space-day/chinanews-2023.txt",
+       "quote": "4月24日上午，将于合肥市滨湖国际会展中心举办2023年“中国航天日”启动仪式"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_2023_400",
+     "claim_ko": "400여 건 행사 예고",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.chinanews.com.cn/gn/2023/04-19/9992708.shtml",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-space-day/chinanews-2023.txt",
+       "quote": "将举办航天开放日、科普讲堂、知识竞赛、有关交流与研讨等400项活动"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_2026_11th",
+     "claim_ko": "2026 제11회, 선저우 21호 승무원 영상",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.news.cn/politics/20260424/84e61f80d3a34e86a4128a91288a19ea/c.html",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/cn-space-day/newscn-2026.txt",
+       "quote": "今年4月24日是第十一个“中国航天日”，正在太空出差的神舟二十一号航天员乘组专门录制视频庆祝节日"
+      }
+     ]
+    }
+   ]
+  },
+  "asia:cn-arbor-day": {
+   "candidate_key": "cn-arbor-day",
+   "source_record_path": "tools/research/workflow/batches/asia-expansion-20261012/records.json",
+   "sourceUrl": "https://language.chinadaily.com.cn/a/202203/14/WS62302392a310fd2b29e50fbe.html",
+   "claims": [
+    {
+     "claim_id": "decision_1979_law_2020",
+     "claim_ko": "1979년 전인대 상무위 결정, 2020 삼림법 명시",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "chinadaily-2022",
+       "url": "https://language.chinadaily.com.cn/a/202203/14/WS62302392a310fd2b29e50fbe.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-arbor-day/chinadaily-2022.txt",
+       "quote": "1979年2月，第五届全国人大常委会第六次会议决定，每年3月12日为我国的植树节。",
+       "quote_ko": "1979년 2월 제5기 전인대 상무위 제6차 회의가 매년 3월 12일을 식수절로 정했다."
+      },
+      {
+       "evidence_id": "chinadaily-2022",
+       "url": "https://language.chinadaily.com.cn/a/202203/14/WS62302392a310fd2b29e50fbe.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-arbor-day/chinadaily-2022.txt",
+       "quote": "2020年7月1日起，新修订的《中华人民共和国森林法》正式实施，明确每年3月12日为植树节。",
+       "quote_ko": "2020년 7월 1일부터 시행된 개정 삼림법이 매년 3월 12일을 식수절로 명시했다."
+      }
+     ]
+    },
+    {
+     "claim_id": "sun_yatsen",
+     "claim_ko": "1925-03-12 쑨원 서거, 1928 국민정부가 서거일을 식수절로",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "rmzxw-2020",
+       "url": "https://www.rmzxw.com.cn/c/2020-03-12/2537121.shtml",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-arbor-day/rmzxw-2020.txt",
+       "quote": "1925年3月12日，孙中山先生逝世。1928年，为纪念孙中山先生逝世三周年，国民政府举行了植树仪式，并将其逝世的那天，即3月12日定为植树节。",
+       "quote_ko": "1925년 3월 12일 쑨원 서거. 1928년 국민정부가 서거 3주기 식수 의식을 열고 3월 12일을 식수절로 정했다."
+      },
+      {
+       "evidence_id": "thepaper",
+       "url": "https://m.thepaper.cn/newsDetail_forward_30389333",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-arbor-day/thepaper.txt",
+       "quote": "1928年4月，为纪念孙中山逝世三周年，当时的国民政府举行了植树仪式，并将孙中山逝世纪念日定为植树节，以示垂念。",
+       "quote_ko": "1928년 4월 국민정부가 쑨원 서거 3주기 식수 의식을 열고 서거 기념일을 식수절로 정했다."
+      }
+     ]
+    },
+    {
+     "claim_id": "first_april5",
+     "claim_ko": "처음엔 4월 5일(청명), 링다오양 등이 창의",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": false,
+     "quotes": [
+      {
+       "evidence_id": "rmzxw-2020",
+       "url": "https://www.rmzxw.com.cn/c/2020-03-12/2537121.shtml",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-arbor-day/rmzxw-2020.txt",
+       "quote": "中国的植树节由林学家凌道扬等创议设立，最初确定于4月5日。",
+       "quote_ko": "중국 식수절은 임학자 링다오양 등이 제안해 처음엔 4월 5일로 정했다."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_state_council_proposal",
+     "claim_ko": "1979 결의는 국무원 제안에 따름",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://m.thepaper.cn/newsDetail_forward_30389333",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-arbor-day/thepaper.txt",
+       "quote": "1979年2月，第五届全国人大常委会第六次会议根据国务院的提议，正式通过了将每年的3月12日定为植树节的决议。"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_1915_qingming",
+     "claim_ko": "1915 베이양 정부가 청명을 식수절로",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://m.thepaper.cn/newsDetail_forward_30389333",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-arbor-day/thepaper.txt",
+       "quote": "1915年7月，在孙中山的倡议下，当时的北洋政府将每年“清明”定为植树节。"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_1981_duty",
+     "claim_ko": "1981-12-13 의무 식수 결의, 법적 의무",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://language.chinadaily.com.cn/a/202203/14/WS62302392a310fd2b29e50fbe.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-arbor-day/chinadaily-2022.txt",
+       "quote": "1981年12月13日，第五届全国人民代表大会第四次会议通过了《关于开展全民义务植树运动的决议》，使植树造林、绿化祖国成为每一位适龄公民的法定义务。"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_781",
+     "claim_ko": "1982~2021 781억 그루",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://language.chinadaily.com.cn/a/202203/14/WS62302392a310fd2b29e50fbe.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-arbor-day/chinadaily-2022.txt",
+       "quote": "从1982年植树节开始至2021年，中国适龄公民参加义务植树累计植树781亿株（含折算）。"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_47th",
+     "claim_ko": "2025 제47회",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://m.thepaper.cn/newsDetail_forward_30389333",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-arbor-day/thepaper.txt",
+       "quote": "3月12日是第47个中国植树节"
+      }
+     ]
+    }
+   ]
+  },
+  "asia:hk-villain-hitting": {
+   "candidate_key": "hk-villain-hitting",
+   "source_record_path": "tools/research/workflow/batches/asia-expansion-20261012/records.json",
+   "sourceUrl": "https://www.ourchinastory.com/zh/1132",
+   "claims": [
+    {
+     "claim_id": "gooseneck",
+     "claim_ko": "매년 경칩 코즈웨이베이 어경교에 사람이 몰림",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "ourchinastory-1132",
+       "url": "https://www.ourchinastory.com/zh/1132",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-villain-hitting/ourchinastory-1132.txt",
+       "quote": "在香港銅鑼灣鵝頸橋，每年驚蟄這天都擠滿了人前來找神婆「打小人」，祈求驅走霉運",
+       "quote_ko": "홍콩 코즈웨이베이 어경교에는 매년 경칩날 신당 할머니를 찾아 \"다샤오런\"을 하려는 사람이 몰려 액운을 쫓기를 빈다"
+      },
+      {
+       "evidence_id": "hku-custom01",
+       "url": "https://cculture.hku.hk/content/hkculture/tm/custom/custom01.pdf",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-villain-hitting/hku-custom01.txt",
+       "quote": "在驚蟄前後的一星期，鵝頸橋一帶幾乎擠滿了人",
+       "quote_ko": "경칩 앞뒤 일주일 동안 어경교 일대는 사람으로 거의 꽉 찬다"
+      }
+     ]
+    },
+    {
+     "claim_id": "jingzhe_date",
+     "claim_ko": "경칩은 24절기 세 번째, 양력 3월 5일 또는 6일",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "ourchinastory-1132",
+       "url": "https://www.ourchinastory.com/zh/1132",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-villain-hitting/ourchinastory-1132.txt",
+       "quote": "驚蟄，是中國文化二十四節氣中第3個節氣，每年陽曆3月5日或6日。",
+       "quote_ko": "경칩은 24절기 중 세 번째 절기로 매년 양력 3월 5일 또는 6일이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "white_tiger",
+     "claim_ko": "제백호에서 발전 — 경칩을 \"백호개구일\"이라고도 부름",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "hku-custom01",
+       "url": "https://cculture.hku.hk/content/hkculture/tm/custom/custom01.pdf",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-villain-hitting/hku-custom01.txt",
+       "quote": "驚蟄又可以稱為「白虎開",
+       "quote_ko": "경칩은 \"백호가 입을 여는 날\"이라고도 불린다"
+      },
+      {
+       "evidence_id": "ourchinastory-1132",
+       "url": "https://www.ourchinastory.com/zh/1132",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-villain-hitting/ourchinastory-1132.txt",
+       "quote": "打小人就是祭老虎發展出來的習俗。",
+       "quote_ko": "다샤오런은 호랑이 제사에서 발전한 풍습이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "time_2009",
+     "claim_ko": "2009년 타임지가 \"아시아 최고\" 중 하나로 선정",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "hku-custom01",
+       "url": "https://cculture.hku.hk/content/hkculture/tm/custom/custom01.pdf",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-villain-hitting/hku-custom01.txt",
+       "quote": "2009 年，美國《時代》雜誌選出「打小人」為亞洲最佳",
+       "quote_ko": "2009년 미국 타임지가 \"다샤오런\"을 아시아 최고로 선정"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_daily",
+     "claim_ko": "어경교에서 거의 매일 영업, 경칩 앞뒤 성업",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.ourchinastory.com/zh/1132",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-villain-hitting/ourchinastory-1132.txt",
+       "quote": "香港鵝頸橋是世界聞名的打小人聖地，基本上每日都應市，而每年驚蟄前後，更是生意興旺"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_week",
+     "claim_ko": "경칩 앞뒤 한 주 붐빔",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://cculture.hku.hk/content/hkculture/tm/custom/custom01.pdf",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-villain-hitting/hku-custom01.txt",
+       "quote": "在驚蟄前後的一星期，鵝頸橋一帶幾乎擠滿了人"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_shoe",
+     "claim_ko": "헌 신발로 두드림(준비물)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://cculture.hku.hk/content/hkculture/tm/custom/custom01.pdf",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-villain-hitting/hku-custom01.txt",
+       "quote": "此外，亦需要磚頭一塊，和一隻舊鞋。"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_origin_unclear",
+     "claim_ko": "유래·분포 고증 어려움",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://cculture.hku.hk/content/hkculture/tm/custom/custom01.pdf",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-villain-hitting/hku-custom01.txt",
+       "quote": "「打小人」是現在流傳於香港民間的一種小型祭祀，其由來與分佈難以"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_venting",
+     "claim_ko": "원망 해소·마음 균형 해석",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://cculture.hku.hk/content/hkculture/tm/custom/custom01.pdf",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-villain-hitting/hku-custom01.txt",
+       "quote": "打小人有助消解怨氣，讓打者宣泄不滿的情緒，讓心態得"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_macau",
+     "claim_ko": "마카오 거리에도 경칩 풍습",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.ourchinastory.com/zh/1132",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-villain-hitting/ourchinastory-1132.txt",
+       "quote": "每年這天澳門街頭各處都鋪滿打小人的紙老虎"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_hko_2026",
+     "claim_ko": "HKO 2026 경칩 3/5",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.hko.gov.hk/en/gts/time/calendar/text/files/T2026e.txt",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/_shared-hko-calendar/hko-T2026e.txt",
+       "quote": "2026/3/5 17 Thursday Insects Waken"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_hko_2027",
+     "claim_ko": "HKO 2027 경칩 3/6",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.hko.gov.hk/en/gts/time/calendar/text/files/T2027e.txt",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/_shared-hko-calendar/hko-T2027e.txt",
+       "quote": "2027/3/6 29 Saturday Insects Waken"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_hko_2028",
+     "claim_ko": "HKO 2028 경칩 3/5",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.hko.gov.hk/en/gts/time/calendar/text/files/T2028e.txt",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/_shared-hko-calendar/hko-T2028e.txt",
+       "quote": "2028/3/5 10 Sunday Insects Waken"
+      }
+     ]
+    }
+   ]
+  },
+  "asia:hk-fire-dragon": {
+   "candidate_key": "hk-fire-dragon",
+   "source_record_path": "tools/research/workflow/batches/asia-expansion-20261012/records.json",
+   "sourceUrl": "https://www.ihchina.cn/project_details/14936/",
+   "claims": [
+    {
+     "claim_id": "origin_1880",
+     "claim_ko": "1880년 역병과 꿈 계시 전설",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "cache-1126",
+       "url": "https://cache.org.hk/blog/?p=1126",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-fire-dragon/cache-1126.txt",
+       "quote": "大坑火龍始於一八八零年，當時大坑區為一客家農村。",
+       "quote_ko": "다이항 불용은 1880년에 시작됐으며 당시 다이항은 객가 농촌이었다."
+      },
+      {
+       "evidence_id": "ourchinastory-4023",
+       "url": "https://www.ourchinastory.com/zh/4023",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-fire-dragon/ourchinastory-4023.txt",
+       "quote": "相傳在1880年村莊發生了一場嚴重的瘟疫，很多居民病逝。",
+       "quote_ko": "1880년 마을에 심한 역병이 돌아 많은 주민이 숨졌다고 전한다."
+      }
+     ]
+    },
+    {
+     "claim_id": "dates",
+     "claim_ko": "추석 전후 사흘 밤(음력 8/14~16)",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "ourchinastory-4023",
+       "url": "https://www.ourchinastory.com/zh/4023",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-fire-dragon/ourchinastory-4023.txt",
+       "quote": "在中秋節前後（農曆八月十四至十六日）晚上，於村中舞動火龍遊走各處",
+       "quote_ko": "추석 전후(음력 8월 14~16일) 밤에 마을에서 불용을 메고 돈다"
+      },
+      {
+       "evidence_id": "cache-1126",
+       "url": "https://cache.org.hk/blog/?p=1126",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-fire-dragon/cache-1126.txt",
+       "quote": "每逄中秋節前後三晚，都會在區內舞火龍和慶祝中秋節。",
+       "quote_ko": "추석 앞뒤 사흘 밤 지역에서 불용춤을 추며 추석을 축하한다."
+      }
+     ]
+    },
+    {
+     "claim_id": "ich_2011",
+     "claim_ko": "2011년 국가급 무형문화유산",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "ourchinastory-4023",
+       "url": "https://www.ourchinastory.com/zh/4023",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-fire-dragon/ourchinastory-4023.txt",
+       "quote": "在2011年今日（5月23日），與長洲太平清醮、大澳端午龍舟遊涌，以及香港潮人盂蘭勝會，齊齊被列為國家級非物質文化遺產。",
+       "quote_ko": "2011년 5월 23일 청차우 태평청초·타이오 단오 용선·조주인 우란승회와 함께 국가급 무형문화유산에 올랐다."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_ich_three_nights",
+     "claim_ko": "중추절 앞뒤 사흘 밤, 8/14 개광, 연속 사흘 순행",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.ihchina.cn/project_details/14936/",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/hk-fire-dragon/ihchina-14936.txt",
+       "quote": "农历八月十四晚上在供奉观音的莲花宫内为火龙进行开光仪式。之后连续三个晚上以顺时针方向巡游大坑的所有街道。"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_ich_legend_1880",
+     "claim_ko": "광서 6년(1880) 역병 전설",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.ihchina.cn/project_details/14936/",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/hk-fire-dragon/ihchina-14936.txt",
+       "quote": "相传在光绪六年（1880），大坑发生瘟疫，村民扎做一条火龙巡游社区，燃放爆竹，驱除瘟疫，由此形成舞火龙习俗。"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_ich_long_gui_tian",
+     "claim_ko": "8/16 밤 역방향 순행 후 바다로, 龍歸天",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.ihchina.cn/project_details/14936/",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/hk-fire-dragon/ihchina-14936.txt",
+       "quote": "八月十六晚上举行“游大运”仪式，火龙沿逆时针方向巡游社区一周，然后舞到海边，将之投入海中，称为“龙归天”。"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_ich_unit",
+     "claim_ko": "2011 제3차, 보호단위 대갱방중복리회",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.ihchina.cn/project_details/14936/",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/hk-fire-dragon/ihchina-14936.txt",
+       "quote": "保护单位：大坑坊众福利会"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_hk01_2026",
+     "claim_ko": "2026 일정 9/24~26 안내",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.hk01.com/食玩買/60385565/中秋好去處2026-54大活動-維園中秋燈會-舞火龍-賞月-商場-市集",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/hk-fire-dragon/hk01-2026.txt",
+       "quote": "日期：2026年9月24日至26日"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_hk01_scale",
+     "claim_ko": "67m·향 1.2만 개·300여 명",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.hk01.com/食玩買/60385565/中秋好去處2026-54大活動-維園中秋燈會-舞火龍-賞月-商場-市集",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/hk-fire-dragon/hk01-2026.txt",
+       "quote": "屆時將有300多位壯丁，舞動著一條全長67米、插滿12,000枝長壽線香的巨型火龍"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_hko_2026_l8",
+     "claim_ko": "HKO 2026 음력 8월 시작 9/11 → 8/14=9/24",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.hko.gov.hk/en/gts/time/calendar/text/files/T2026e.txt",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/_shared-hko-calendar/hko-T2026e.txt",
+       "quote": "2026/9/11 8th Lunar Month Friday"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_hko_2027_l8",
+     "claim_ko": "HKO 2027 음력 8월 시작 9/1 → 8/14=9/14",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.hko.gov.hk/en/gts/time/calendar/text/files/T2027e.txt",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/_shared-hko-calendar/hko-T2027e.txt",
+       "quote": "2027/9/1 8th Lunar Month Wednesday"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_hko_2028_l8",
+     "claim_ko": "HKO 2028 음력 8월 시작 9/19 → 8/14=10/2",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.hko.gov.hk/en/gts/time/calendar/text/files/T2028e.txt",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/_shared-hko-calendar/hko-T2028e.txt",
+       "quote": "2028/9/19 8th Lunar Month Tuesday"
+      }
+     ]
+    }
+   ]
+  },
+  "asia:id-batik-day": {
+   "candidate_key": "id-batik-day",
+   "source_record_path": "tools/research/workflow/batches/asia-expansion-20261012/records.json",
+   "sourceUrl": "https://id.wikisource.org/wiki/Keputusan_Presiden_Republik_Indonesia_Nomor_33_Tahun_2009",
+   "claims": [
+    {
+     "claim_id": "keppres",
+     "claim_ko": "대통령령: 10월 2일 바틱의 날, 공휴일 아님",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "wikisource-keppres",
+       "url": "https://id.wikisource.org/wiki/Keputusan_Presiden_Republik_Indonesia_Nomor_33_Tahun_2009",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-batik-day/wikisource-keppres.txt",
+       "quote": "Tanggal 2 Oktober ditetapkan sebagai Hari Batik Nasional.",
+       "quote_ko": "10월 2일을 국가 바틱의 날로 정한다."
+      },
+      {
+       "evidence_id": "wikisource-keppres",
+       "url": "https://id.wikisource.org/wiki/Keputusan_Presiden_Republik_Indonesia_Nomor_33_Tahun_2009",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-batik-day/wikisource-keppres.txt",
+       "quote": "Hari Batik Nasional bukan merupakan hari libur.",
+       "quote_ko": "국가 바틱의 날은 공휴일이 아니다."
+      }
+     ]
+    },
+    {
+     "claim_id": "unesco_2009",
+     "claim_ko": "2009-10-02 UNESCO 등재, 2009-11-17 서명",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "nu-batik",
+       "url": "https://www.nu.or.id/nasional/ini-sejarah-penetapan-2-oktober-sebagai-hari-batik-nasional-e6CfG",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-batik-day/nu-batik.txt",
+       "quote": "Presiden Susilo Bambang Yudhoyono menetapkan tanggal 2 Oktober sebagai Hari Batik Nasional. Hal tersebut ditetapkan melalui Surat Keputusan Presiden (Keppres) Nomor 33 Tahun 2009 yang ditandatangani pada tanggal 17 November 2009.",
+       "quote_ko": "유도요노 대통령이 2009년 11월 17일 서명한 대통령령 제33호로 10월 2일을 바틱의 날로 정했다."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_purpose",
+     "claim_ko": "보호·발전 인식 제고 목적",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://id.wikisource.org/wiki/Keputusan_Presiden_Republik_Indonesia_Nomor_33_Tahun_2009",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-batik-day/wikisource-keppres.txt",
+       "quote": "dalam rangka meningkatkan kesadaran masyarakat terhadap upaya perlindungan dan pengembangan batik Indonesia"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_intl_recognition",
+     "claim_ko": "유네스코 등재 = 국제적 인정",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://id.wikisource.org/wiki/Keputusan_Presiden_Republik_Indonesia_Nomor_33_Tahun_2009",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-batik-day/wikisource-keppres.txt",
+       "quote": "merupakan pengakuan internasional terhadap mata budaya Indonesia"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_applied_2008",
+     "claim_ko": "2008-09-04 유네스코 신청",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.nu.or.id/nasional/ini-sejarah-penetapan-2-oktober-sebagai-hari-batik-nasional-e6CfG",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-batik-day/nu-batik.txt",
+       "quote": "Bermula pada 4 September 2008, batik didaftarkan sebagai Intangible Cultural Heritage oleh Pemerintah Indonesia"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_wear_batik",
+     "claim_ko": "관공서·기업이 바틱 착용 권장",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.nu.or.id/nasional/ini-sejarah-penetapan-2-oktober-sebagai-hari-batik-nasional-e6CfG",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-batik-day/nu-batik.txt",
+       "quote": "berbagai instansi baik di pemerintahan atau swasta, mengimbau kepada seluruh pegawainya untuk mengenakan batik"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_keraton",
+     "claim_ko": "처음엔 왕궁 안에서 왕과 가족의 옷",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.nu.or.id/nasional/ini-sejarah-penetapan-2-oktober-sebagai-hari-batik-nasional-e6CfG",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-batik-day/nu-batik.txt",
+       "quote": "batik pada mulanya dikerjakan hanya terbatas dalam lingkungan keraton dan hasilnya semata-mata untuk pakaian raja dan keluarga"
+      }
+     ]
+    }
+   ]
+  },
+  "asia:id-santri-day": {
+   "candidate_key": "id-santri-day",
+   "source_record_path": "tools/research/workflow/batches/asia-expansion-20261012/records.json",
+   "sourceUrl": "https://nu.or.id/fragmen/sejarah-hari-santri-XE9hw",
+   "claims": [
+    {
+     "claim_id": "keppres_2015",
+     "claim_ko": "대통령령 2015-22, 10월 22일",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "detik-santri",
+       "url": "https://www.detik.com/jogja/berita/d-6988659/kapan-hari-santri-nasional-2023-berikut-sejarah-dan-cara-merayakannya",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-santri-day/detik-santri.txt",
+       "quote": "Hari Santri Nasional ditetapkan oleh Presiden Joko Widodo melalui Keputusan Presiden Nomor 22 Tahun 2015 yang ditandatangani pada 15 Oktober 2015 di Masjid Istiqlal, Jakarta.",
+       "quote_ko": "산트리의 날은 조코 위도도 대통령이 2015년 10월 15일 서명한 대통령령 제22호로 정했다(이스티클랄 모스크)."
+      }
+     ]
+    },
+    {
+     "claim_id": "resolusi_jihad",
+     "claim_ko": "NU 가 지하드 결의 날짜(1945-10-22)를 제안",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "detik-santri",
+       "url": "https://www.detik.com/jogja/berita/d-6988659/kapan-hari-santri-nasional-2023-berikut-sejarah-dan-cara-merayakannya",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-santri-day/detik-santri.txt",
+       "quote": "Pengurus Besar Nahdlatul Ulama mengusulkan agar Hari Santri diperingati setiap tanggal 22 Oktober karena bertepatan dengan peristiwa dicetuskannya fatwa resolusi jihad oleh KH Hasyim Asy'ari.",
+       "quote_ko": "NU 중앙집행부는 하심 아샤리의 지하드 결의 파트와가 나온 날이라 10월 22일을 제안했다."
+      },
+      {
+       "evidence_id": "nu-sejarah",
+       "url": "https://nu.or.id/fragmen/sejarah-hari-santri-XE9hw",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-santri-day/nu-sejarah.txt",
+       "quote": "Setiap tanggal 22 Oktober diperingati sebagai Hari Santri.",
+       "quote_ko": "매년 10월 22일을 산트리의 날로 기념한다."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_reason1",
+     "claim_ko": "울라마·산트리의 독립 쟁취 역할",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://nu.or.id/fragmen/sejarah-hari-santri-XE9hw",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-santri-day/nu-sejarah.txt",
+       "quote": "Pertama, ulama dan santri pondok pesantren memiliki peran besar dalam perjuangan merebut kemerdekaan Republik Indonesia"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_reason3",
+     "claim_ko": "1945-10-22 결의, 무슬림의 조국 방위 의무",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://nu.or.id/fragmen/sejarah-hari-santri-XE9hw",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-santri-day/nu-sejarah.txt",
+       "quote": "yang mewajibkan setiap muslim untuk membela tanah air"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_10_november",
+     "claim_ko": "정점은 1945-11-10(NU 관계자)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://nu.or.id/fragmen/sejarah-hari-santri-XE9hw",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-santri-day/nu-sejarah.txt",
+       "quote": "berjuang melawan pasukan kolonial, yang puncaknya pada 10 Nopember 1945"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_signed_1015",
+     "claim_ko": "2015-10-15 서명",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://nu.or.id/fragmen/sejarah-hari-santri-XE9hw",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-santri-day/nu-sejarah.txt",
+       "quote": "Keputusan Presiden (Keppres) Republik Indonesia Nomor 22 Tahun 2015 tentang Hari Santri pada 15 Oktober 2015 silam."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_proposal_2014",
+     "claim_ko": "2014-06-27 말랑 페산트렌 학생들 제안",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.detik.com/jogja/berita/d-6988659/kapan-hari-santri-nasional-2023-berikut-sejarah-dan-cara-merayakannya",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-santri-day/detik-santri.txt",
+       "quote": "Hari Santri mulanya diusulkan oleh ratusan santri Pondok Pesantren Babussalam Desa Banjarejo, Malang, Jawa Timur pada Jumat, 27 Juni 2014"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_polemic",
+     "claim_ko": "제안 초기 찬반 논란",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://nu.or.id/fragmen/sejarah-hari-santri-XE9hw",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-santri-day/nu-sejarah.txt",
+       "quote": "Usulan tersebut pada mulanya menuai polemik, banyak yang setuju, ada pula yang menolaknya."
+      }
+     ]
+    }
+   ]
+  },
+  "asia:in-hindi-diwas": {
+   "candidate_key": "in-hindi-diwas",
+   "source_record_path": "tools/research/workflow/batches/asia-expansion-20261012/records.json",
+   "sourceUrl": "https://www.drishtiias.com/hindi/daily-updates/prelims-facts/hindi-diwas-1/print/manual",
+   "claims": [
+    {
+     "claim_id": "1949_1953",
+     "claim_ko": "1949-09-14 제헌의회 공용어 채택, 첫 힌디어의 날 1953",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "navbharat-history",
+       "url": "https://navbharatlive.com/special-coverage/hindi-diwas-history-14-september-1949-rajbhasha-first-hindi-day-1953-asp28",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-hindi-diwas/navbharat-history.txt",
+       "quote": "14 सितंबर 1949 को संविधान सभा ने देवनागरी लिपि वाली हिंदी को भारत की राजभाषा घोषित किया। इसी वजह से 14 सितंबर को हिंदी दिवस मनाया जाता है। पहला हिंदी दिवस 1953 में मनाया गया।",
+       "quote_ko": "1949년 9월 14일 제헌의회가 데바나가리 문자 힌디어를 인도의 공용어로 선언했다. 그래서 9월 14일을 힌디어의 날로 기념한다. 첫 힌디어의 날은 1953년이었다."
+      },
+      {
+       "evidence_id": "drishti-2022",
+       "url": "https://www.drishtiias.com/hindi/daily-updates/prelims-facts/hindi-diwas-1/print/manual",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-hindi-diwas/drishti-2022.txt",
+       "quote": "वर्ष 1949 में भारत की संविधान सभा द्वारा हिंदी को आधिकारिक भाषा के रूप में अपनाने के दिन को चिह्नित करने के लिये भारत में प्रत्येक वर्ष 14 सितंबर को हिंदी दिवस या राष्ट्रीय हिंदी दिवस मनाया जाता है।",
+       "quote_ko": "1949년 제헌의회가 힌디어를 공용어로 채택한 날을 기리려 인도에서는 매년 9월 14일 힌디어의 날을 기념한다."
+      }
+     ]
+    },
+    {
+     "claim_id": "english_too",
+     "claim_ko": "영어도 함께 공용어로",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "navbharat-history",
+       "url": "https://navbharatlive.com/special-coverage/hindi-diwas-history-14-september-1949-rajbhasha-first-hindi-day-1953-asp28",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-hindi-diwas/navbharat-history.txt",
+       "quote": "संविधान सभा ने देवनागरी लिपि वाली हिंदी के साथ ही अंग्रेजी को भी आधिकारिक भाषा के रूप में स्वीकार किया।",
+       "quote_ko": "제헌의회는 데바나가리 힌디어와 함께 영어도 공용어로 받아들였다."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_first_1953_date",
+     "claim_ko": "첫 힌디어의 날 1953-09-14",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://navbharatlive.com/special-coverage/hindi-diwas-history-14-september-1949-rajbhasha-first-hindi-day-1953-asp28",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-hindi-diwas/navbharat-history.txt",
+       "quote": "हालांकि, पहला हिंदी दिवस 14 सितंबर 1953 को मनाया गया।"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_gandhi",
+     "claim_ko": "간디: 대중의 언어, 국어로 권고(전언)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://navbharatlive.com/special-coverage/hindi-diwas-history-14-september-1949-rajbhasha-first-hindi-day-1953-asp28",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-hindi-diwas/navbharat-history.txt",
+       "quote": "महात्मा गांधी ने कहा था कि हिंदी जनमानस की भाषा है और उन्होंने इसे देश की राष्ट्रभाषा बनाने की सिफारिश भी की थी।"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_awards",
+     "claim_ko": "라즈바샤 가우라브·키르티상",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.drishtiias.com/hindi/daily-updates/prelims-facts/hindi-diwas-1/print/manual",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-hindi-diwas/drishti-2022.txt",
+       "quote": "राजभाषा गौरव पुरस्कार और राजभाषा कीर्ति पुरस्कार हिंदी भाषा के विकास में योगदान देने वालों को प्रदान किये जाते हैं।"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_leela",
+     "claim_ko": "AI 활용 학습 앱 릴라-라즈바샤",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.drishtiias.com/hindi/daily-updates/prelims-facts/hindi-diwas-1/print/manual",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-hindi-diwas/drishti-2022.txt",
+       "quote": "लीला-राजभाषा (आर्टिफिशियल इंटेलिजेंस के माध्यम से भारतीय भाषा को सीखना)"
+      }
+     ]
+    }
+   ]
+  },
+  "asia:in-science-day": {
+   "candidate_key": "in-science-day",
+   "source_record_path": "tools/research/workflow/batches/asia-expansion-20261012/records.json",
+   "sourceUrl": "https://www.drishtiias.com/hindi/daily-updates/prelims-facts/national-science-day-2023/print/manual",
+   "claims": [
+    {
+     "claim_id": "designated_1986",
+     "claim_ko": "1986년 정부가 2/28 을 국가 과학의 날로 지정",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "drishti-2023",
+       "url": "https://www.drishtiias.com/hindi/daily-updates/prelims-facts/national-science-day-2023/print/manual",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-science-day/drishti-2023.txt",
+       "quote": "वर्ष 1986 में भारत सरकार ने \"रमन प्रभाव\" की खोज की घोषणा के उपलक्ष्य में 28 फरवरी को राष्ट्रीय विज्ञान दिवस के रूप में नामित किया था।",
+       "quote_ko": "1986년 인도 정부는 \"라만 효과\" 발견 발표를 기려 2월 28일을 국가 과학의 날로 지정했다."
+      }
+     ]
+    },
+    {
+     "claim_id": "raman_1928_1930",
+     "claim_ko": "1928 라만 효과 발견, 1930 노벨상",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "prabhatkhabar-2022",
+       "url": "https://www.prabhatkhabar.com/life-and-style/national-science-day-2022-national-science-day-being-celebrated-today-know-this-years-theme-history-and-importance-tvi",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-science-day/prabhatkhabar-2022.txt",
+       "quote": "28 फरवरी को मनाया जाने वाला राष्ट्रीय विज्ञान दिवस, वर्ष 1928 में रमन प्रभाव की खोज का प्रतीक है.",
+       "quote_ko": "2월 28일의 국가 과학의 날은 1928년 라만 효과 발견을 상징한다."
+      },
+      {
+       "evidence_id": "prabhatkhabar-2022",
+       "url": "https://www.prabhatkhabar.com/life-and-style/national-science-day-2022-national-science-day-being-celebrated-today-know-this-years-theme-history-and-importance-tvi",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-science-day/prabhatkhabar-2022.txt",
+       "quote": "वर्ष 1928 में, सीवी रमन ने रमन प्रभाव या रमन स्कैटरिंग की खोज की",
+       "quote_ko": "1928년 C. V. 라만이 라만 효과(라만 산란)를 발견했다"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_nobel_1930",
+     "claim_ko": "1930 노벨상",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.drishtiias.com/hindi/daily-updates/prelims-facts/national-science-day-2023/print/manual",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-science-day/drishti-2023.txt",
+       "quote": "भौतिक विज्ञानी सीवी रमन को रमन प्रभाव की खोज के लिये वर्ष 1930 में नोबेल पुरस्कार मिला।"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_inelastic",
+     "claim_ko": "비탄성 산란·진동수 변화",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.drishtiias.com/hindi/daily-updates/prelims-facts/national-science-day-2023/print/manual",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-science-day/drishti-2023.txt",
+       "quote": "इसका तात्पर्य किसी पदार्थ द्वारा प्रकाश के अप्रत्यास्थ प्रकीर्णन (Inelastic Scattering) से है, जो प्रकीर्णित प्रकाश की आवृत्ति में परिवर्तन का कारण बनता है।"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_simple",
+     "claim_ko": "분자에 의한 편향으로 파장 변화",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.drishtiias.com/hindi/daily-updates/prelims-facts/national-science-day-2023/print/manual",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-science-day/drishti-2023.txt",
+       "quote": "सरल शब्दों में यह प्रकाश की तरंग दैर्ध्य में परिवर्तन है जो प्रकाश की किरणों के अणुओं द्वारा विक्षेपित होने के कारण होता है।"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_theme_2023",
+     "claim_ko": "2023 주제(G20 의장국)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.drishtiias.com/hindi/daily-updates/prelims-facts/national-science-day-2023/print/manual",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-science-day/drishti-2023.txt",
+       "quote": "इस वर्ष का संस्करण भारत की G20 अध्यक्षता के आलोक में \"ग्लोबल साइंस फॉर ग्लोबल वेल-बीइंग\" की थीम के तहत मनाया जा रहा है।"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_theme_2022",
+     "claim_ko": "2022 주제",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.prabhatkhabar.com/life-and-style/national-science-day-2022-national-science-day-being-celebrated-today-know-this-years-theme-history-and-importance-tvi",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-science-day/prabhatkhabar-2022.txt",
+       "quote": "NSD 2022 का विषय सतत भविष्य के लिए विज्ञान और प्रौद्योगिकी में एकीकृत दृष्टिकोण है."
+      }
+     ]
+    }
+   ]
+  },
+  "asia:jp-shichigosan": {
+   "candidate_key": "jp-shichigosan",
+   "source_record_path": "tools/research/workflow/batches/asia-expansion-20261012/records.json",
+   "sourceUrl": "https://skywardplus.jal.co.jp/plus_one/calendar/shichigosan/",
+   "claims": [
+    {
+     "claim_id": "date",
+     "claim_ko": "11월 15일, 매년 같은 날",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "jal-shichigosan",
+       "url": "https://skywardplus.jal.co.jp/plus_one/calendar/shichigosan/",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-shichigosan/jal-shichigosan.txt",
+       "quote": "七五三は11月15日である。毎年同じ日取りで変わることはない。",
+       "quote_ko": "시치고산은 11월 15일이다. 매년 같은 날이고 바뀌지 않는다."
+      },
+      {
+       "evidence_id": "alsok",
+       "url": "https://www.alsok.co.jp/person/recommend/2054/",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-shichigosan/alsok.txt",
+       "quote": "七五三の日は、「11月15日」です。",
+       "quote_ko": "시치고산의 날은 11월 15일이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "rites",
+     "claim_ko": "3세 가미오키·5세 하카마기·7세 오비토키 의식에서 유래",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "alsok",
+       "url": "https://www.alsok.co.jp/person/recommend/2054/",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-shichigosan/alsok.txt",
+       "quote": "七五三の由来となった記念行事は、3歳「髪置の儀」5歳「袴着の儀」7歳「帯解の儀」です。",
+       "quote_ko": "시치고산의 유래가 된 의식은 3세 가미오키, 5세 하카마기, 7세 오비토키다."
+      }
+     ]
+    },
+    {
+     "claim_id": "date_theories",
+     "claim_ko": "11월 15일 유래는 여러 설: 귀숙일·도쿠마쓰 관련",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "jal-shichigosan",
+       "url": "https://skywardplus.jal.co.jp/plus_one/calendar/shichigosan/",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-shichigosan/jal-shichigosan.txt",
+       "quote": "七五三は節句ではないため、その由来には諸説ある。",
+       "quote_ko": "시치고산은 절구(명절)가 아니라 유래에 여러 설이 있다."
+      },
+      {
+       "evidence_id": "jal-shichigosan",
+       "url": "https://skywardplus.jal.co.jp/plus_one/calendar/shichigosan/",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-shichigosan/jal-shichigosan.txt",
+       "quote": "一つめは、11月15日は、鬼が出歩かないとされる「二十八宿の鬼宿日（きしゅくにち）」にあたり、婚礼以外の祝い事には吉日とされていたからというもの。",
+       "quote_ko": "첫째, 11월 15일이 귀신이 돌아다니지 않는다는 이십팔수의 귀숙일로 혼례 외 경사에 길일이었기 때문이라는 설."
+      }
+     ]
+    },
+    {
+     "claim_id": "tokumatsu_conflict",
+     "claim_ko": "도쿠마쓰 설의 내용이 출처마다 다름: 생일(JAL) vs 1681년 건강 기원 의식(목록 사이트)",
+     "verdict": "conflicting",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "jal-shichigosan",
+       "url": "https://skywardplus.jal.co.jp/plus_one/calendar/shichigosan/",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-shichigosan/jal-shichigosan.txt",
+       "quote": "江戸時代の5代将軍である徳川綱吉の長男・徳松の誕生日が、天和元（1681）年11月15日であることに由来するという説。",
+       "quote_ko": "5대 쇼군 쓰나요시의 장남 도쿠마쓰의 생일이 1681년 11월 15일이라는 데서 왔다는 설."
+      },
+      {
+       "evidence_id": "zatsuneta",
+       "url": "https://zatsuneta.com/archives/111151.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-shichigosan/zatsuneta.txt",
+       "quote": "1681年（天和元年）旧暦11月15日に館林城主である徳川徳松（江戸幕府第5代将軍である徳川綱吉の長男）の健康を祈って始まったとされる説が有力である。",
+       "quote_ko": "1681년 음력 11월 15일 다테바야시 성주 도쿠가와 도쿠마쓰의 건강을 빌며 시작됐다는 설이 유력하다."
+      }
+     ]
+    },
+    {
+     "claim_id": "chitose",
+     "claim_ko": "장수를 비는 지토세아메를 준다",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "zatsuneta",
+       "url": "https://zatsuneta.com/archives/111151.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-shichigosan/zatsuneta.txt",
+       "quote": "七五三では、親が自らの子に長寿の願いを込めた「千歳飴（ちとせあめ）」を与えて食べて祝う。",
+       "quote_ko": "시치고산에는 부모가 아이에게 장수 소원을 담은 지토세아메를 먹여 축하한다."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_ages",
+     "claim_ko": "남아 세는나이 3·5세, 여아 3·7세",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://zatsuneta.com/archives/111151.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-shichigosan/zatsuneta.txt",
+       "quote": "男の子は数えで3歳と5歳、女の子は3歳と7歳の年に、成長を祝って神社・寺院などに参詣する。"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_oct_nov",
+     "claim_ko": "오늘날 10~11월 사이에",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://zatsuneta.com/archives/111151.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-shichigosan/zatsuneta.txt",
+       "quote": "今日では11月15日にこだわらずに10月から11月の間に行われるようになっている。"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_harvest_month",
+     "claim_ko": "음력 11월 수확 감사의 달",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://zatsuneta.com/archives/111151.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-shichigosan/zatsuneta.txt",
+       "quote": "旧暦11月はその年の実りを神に感謝する月であり"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_kishuku",
+     "claim_ko": "귀숙일, 혼례 외 축하에 길일",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://skywardplus.jal.co.jp/plus_one/calendar/shichigosan/",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-shichigosan/jal-shichigosan.txt",
+       "quote": "婚礼以外の祝い事には吉日とされていたからというもの。"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_white_hair",
+     "claim_ko": "실로 만든 흰머리를 얹어 장수 기원",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.alsok.co.jp/person/recommend/2054/",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-shichigosan/alsok.txt",
+       "quote": "糸で作った綿白髪を頭に乗せて長寿を祈願していました。"
+      }
+     ]
+    }
+   ]
+  },
+  "asia:jp-keiro-no-hi": {
+   "candidate_key": "jp-keiro-no-hi",
+   "source_record_path": "tools/research/workflow/batches/asia-expansion-20261012/records.json",
+   "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+   "claims": [
+    {
+     "claim_id": "law_rule",
+     "claim_ko": "내각부: 9월 셋째 월요일, 노인을 공경하고 장수를 축하",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "cao-gaiyou",
+       "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-keiro-no-hi/cao-gaiyou.txt",
+       "quote": "多年にわたり社会につくしてきた老人を敬愛し、長寿を祝う。",
+       "quote_ko": "여러 해에 걸쳐 사회에 힘써 온 노인을 공경하고 장수를 축하한다."
+      },
+      {
+       "evidence_id": "cao-gaiyou",
+       "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-keiro-no-hi/cao-gaiyou.txt",
+       "quote": "「敬老の日」は「9月の第3月曜日」であるため9月15日から21日の間で移動します。",
+       "quote_ko": "경로의 날은 9월 셋째 월요일이라 9월 15일~21일 사이를 움직인다."
+      }
+     ]
+    },
+    {
+     "claim_id": "origin_1947",
+     "claim_ko": "1947년 노마다니촌 경로 행사 → 1966년 축일 → 2003년 셋째 월요일",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "shizuoka-city",
+       "url": "https://www.city.shizuoka.lg.jp/000_003240.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-keiro-no-hi/shizuoka-city.txt",
+       "quote": "戦後まもない1947年9月15日に、兵庫県の野間谷村（現在の多可町）で「長い間社会に貢献してきたお年寄りに敬意を表し、知識や人生経験を伝授する場」として、敬老行事が開催されました。",
+       "quote_ko": "전후 얼마 안 된 1947년 9월 15일 효고현 노마다니촌(현 다카정)에서 노인을 공경하고 경험을 전하는 자리로 경로 행사가 열렸다."
+      },
+      {
+       "evidence_id": "shizuoka-city",
+       "url": "https://www.city.shizuoka.lg.jp/000_003240.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-keiro-no-hi/shizuoka-city.txt",
+       "quote": "そして、1966年には、国民の祝日に関する法律の改正により、「敬老の日」として9月15日が祝日となりました。その後、2003年から、いわゆるハッピーマンデーとなり、9月の第3月曜日になりました。",
+       "quote_ko": "1966년 축일법 개정으로 9월 15일이 경로의 날 축일이 됐고 2003년부터 이른바 해피먼데이로 9월 셋째 월요일이 됐다."
+      }
+     ]
+    },
+    {
+     "claim_id": "village_holiday",
+     "claim_ko": "이듬해 마을 고유 축일 \"도시요리노히\", 1950 효고현 제정",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "takashimaya",
+       "url": "https://www.takashimaya.co.jp/shopping/gift/story/A18424/617097",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-keiro-no-hi/takashimaya.txt",
+       "quote": "翌年の9月15日には「としよりの日」として村独自の祝日となり、1950年（昭和25年）に兵庫県が「としよりの日」を制定。",
+       "quote_ko": "이듬해 9월 15일 \"도시요리노히(노인의 날)\"로 마을 고유 축일이 됐고 1950년 효고현이 이를 제정했다."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_1963_law",
+     "claim_ko": "1963 노인복지법 ‘노인의 날’",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.city.shizuoka.lg.jp/000_003240.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-keiro-no-hi/shizuoka-city.txt",
+       "quote": "国は、1963年に老人福祉法を制定し"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_movement",
+     "claim_ko": "9/15 노인의 날 운동 전국 확산",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.city.shizuoka.lg.jp/000_003240.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-keiro-no-hi/shizuoka-city.txt",
+       "quote": "この動きを受け、9月15日を「としよりの日」とする運動が全国的に広まり"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_2026_date",
+     "claim_ko": "2026년 9월 21일",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.takashimaya.co.jp/shopping/gift/story/A18424/617097",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-keiro-no-hi/takashimaya.txt",
+       "quote": "敬老の日は、9月の第3月曜日、祝日です。2026年は9月21日となります。"
+      }
+     ]
+    }
+   ]
+  },
+  "asia:jp-yama-no-hi": {
+   "candidate_key": "jp-yama-no-hi",
+   "source_record_path": "tools/research/workflow/batches/asia-expansion-20261012/records.json",
+   "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+   "claims": [
+    {
+     "claim_id": "purpose_date",
+     "claim_ko": "내각부: 8월 11일, 산에 친숙해지고 은혜에 감사",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "jp-keiro-no-hi/cao-gaiyou",
+       "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-keiro-no-hi/cao-gaiyou.txt",
+       "quote": "山に親しむ機会を得て、山の恩恵に感謝する。",
+       "quote_ko": "산에 친숙해질 기회를 얻고 산의 은혜에 감사한다."
+      },
+      {
+       "evidence_id": "jp-keiro-no-hi/cao-gaiyou",
+       "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-keiro-no-hi/cao-gaiyou.txt",
+       "quote": "令和２年(2020年)及び令和３年(2021年)に限り、東京オリンピック・パラリンピック競技大会の開催にあわせ、「海の日」、「スポーツの日」及び「山の日」が移動しました。",
+       "quote_ko": "2020·2021년에 한해 도쿄 올림픽·패럴림픽에 맞춰 바다의 날·스포츠의 날·산의 날이 이동했다."
+      }
+     ]
+    },
+    {
+     "claim_id": "law_2014_2016",
+     "claim_ko": "2014년 개정 축일법 성립, 2016년 시행",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "kumanichi",
+       "url": "https://kumanichi.com/articles/2024187",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-yama-no-hi/kumanichi.txt",
+       "quote": "２０１４年、８月１１日を山の日と定めた改正祝日法が成立。１６年から施行された。",
+       "quote_ko": "2014년 8월 11일을 산의 날로 정한 개정 축일법이 성립해 2016년부터 시행됐다."
+      }
+     ]
+    },
+    {
+     "claim_id": "movement",
+     "claim_ko": "2010년 4월 산악 5단체 중심 제정 운동",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "akahata-2016",
+       "url": "https://www.jcp.or.jp/akahata/aik16/2016-08-11/2016081101_05_1.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-yama-no-hi/akahata-2016.txt",
+       "quote": "山の日は運動によって実現した祝日です。２０１０年４月に山岳５団体（日本山岳協会、日本勤労者山岳連盟、日本山岳会、日本ガイド協会、日本ヒマラヤン・アドベンチャー・トラスト）が中心になって、関係省庁や地方自治体、環境団体、観光業者、山小屋関係者らに働きかけてきました。",
+       "quote_ko": "산의 날은 운동으로 실현된 축일이다. 2010년 4월 산악 5단체가 중심이 되어 관계 부처·지자체·환경단체·관광업계·산장 관계자에게 호소해 왔다."
+      }
+     ]
+    },
+    {
+     "claim_id": "10th_2026",
+     "claim_ko": "2026년 다카야마시 제10회 기념 전국대회",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "kumanichi",
+       "url": "https://kumanichi.com/articles/2024187",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-yama-no-hi/kumanichi.txt",
+       "quote": "山に親しむ機会とし、恩恵に感謝する日とされる祝日「山の日」が始まって１０年となり、岐阜県高山市で１１日、第１０回「山の日」記念全国大会の式典が開かれた。",
+       "quote_ko": "산의 날이 시작된 지 10년, 11일 기후현 다카야마시에서 제10회 산의 날 기념 전국대회 식전이 열렸다."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_first_convention",
+     "claim_ko": "2016 마쓰모토시 제1회 대회",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://kumanichi.com/articles/2024187",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-yama-no-hi/kumanichi.txt",
+       "quote": "記念全国大会は同年、初めての山の日に合わせ、長野県松本市であった第１回大会を皮切りに、全国各地で開催されている。"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_2013_league",
+     "claim_ko": "2013 초당파 의원연맹·제정 협의회",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.jcp.or.jp/akahata/aik16/2016-08-11/2016081101_05_1.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-yama-no-hi/akahata-2016.txt",
+       "quote": "同年１１月には同議連と山岳団体、自治体首長らによる全国「山の日」制定協議会ができました。"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_kumanichi_date",
+     "claim_ko": "기사 일시 2026-08-11",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://kumanichi.com/articles/2024187",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-yama-no-hi/kumanichi.txt",
+       "quote": "2026年8月11日 11:37"
+      }
+     ]
+    }
+   ]
+  },
+  "asia:jp-setsubun": {
+   "candidate_key": "jp-setsubun",
+   "source_record_path": "tools/research/workflow/batches/asia-expansion-20261012/records.json",
+   "sourceUrl": "https://www.nippon.com/ja/japan-topics/today02020/",
+   "claims": [
+    {
+     "claim_id": "nao_2025",
+     "claim_ko": "국립천문대 2025 역요항: 입춘 2월 3일 23:10, 세쓰분 2월 2일",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "nao-2025",
+       "url": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2025/rekiyou252.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-setsubun/nao-2025.txt",
+       "quote": "令和 6年 2月 1日 国立天文台発表",
+       "quote_ko": "레이와 6년(2024) 2월 1일 국립천문대 발표"
+      },
+      {
+       "evidence_id": "nao-2025",
+       "url": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2025/rekiyou252.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-setsubun/nao-2025.txt",
+       "quote": "節分\n2月02日",
+       "quote_ko": "세쓰분 2월 2일"
+      }
+     ]
+    },
+    {
+     "claim_id": "definition",
+     "claim_ko": "원래 사입(四立) 전날, 특히 입춘 전날로 정착",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "nippon-com",
+       "url": "https://www.nippon.com/ja/japan-topics/today02020/",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-setsubun/nippon-com.txt",
+       "quote": "本来は「二十四節気」の立春・立夏・立秋・立冬それぞれの前日を指すが、冬から春に移る立春は古来より1年の始まりとして重んじられていたため、特に立春の前日が「節分」として広く定着している。",
+       "quote_ko": "본래 이십사절기의 입춘·입하·입추·입동 각각의 전날이지만, 입춘이 예부터 한 해의 시작으로 중시돼 특히 입춘 전날이 세쓰분으로 정착했다."
+      }
+     ]
+    },
+    {
+     "claim_id": "moves",
+     "claim_ko": "2021년도 2월 2일, 입춘에 따라 날짜가 변한다",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "nippon-com",
+       "url": "https://www.nippon.com/ja/japan-topics/today02020/",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-setsubun/nippon-com.txt",
+       "quote": "実は2021年も節分は2月2日だった。",
+       "quote_ko": "사실 2021년에도 세쓰분은 2월 2일이었다."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_nao_2026",
+     "claim_ko": "NAO 2026 역요항 세쓰분 2/3",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2026/rekiyou262.html",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/jp-setsubun/nao-rekiyou-2026.txt",
+       "quote": "節分\n2月03日"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_nao_2026_pub",
+     "claim_ko": "2026 역요항 발표일(2025-02-03)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2026/rekiyou262.html",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/jp-setsubun/nao-rekiyou-2026.txt",
+       "quote": "令和 7年 2月 3日 国立天文台発表"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_nao_2027",
+     "claim_ko": "NAO 2027 역요항 세쓰분 2/3",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2027/rekiyou272.html",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/jp-setsubun/nao-rekiyou-2027.txt",
+       "quote": "節分\n2月03日"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_nao_2027_pub",
+     "claim_ko": "2027 역요항 발표일(2026-02-02)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2027/rekiyou272.html",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/jp-setsubun/nao-rekiyou-2027.txt",
+       "quote": "令和 8年 2月 2日 国立天文台発表"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_published_prev_year",
+     "claim_ko": "절기는 국립천문대가 전년에 관보 공표",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.nippon.com/ja/japan-topics/today02020/",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-setsubun/nippon-com.txt",
+       "quote": "二十四節気は地球と太陽の位置関係を基に、国立天文台が割り出して前年に官報で公表する。"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_beans_ehomaki",
+     "claim_ko": "슈퍼·편의점에 콩과 에호마키",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.nippon.com/ja/japan-topics/today02020/",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-setsubun/nippon-com.txt",
+       "quote": "スーパーやコンビニにはまだお豆も恵方巻もたっぷりあるはず。"
+      }
+     ]
+    }
+   ]
+  },
+  "asia:jp-seijin-no-hi": {
+   "candidate_key": "jp-seijin-no-hi",
+   "source_record_path": "tools/research/workflow/batches/asia-expansion-20261012/records.json",
+   "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+   "claims": [
+    {
+     "claim_id": "law_rule",
+     "claim_ko": "내각부: 1월 둘째 월요일, 청년을 축하하고 격려",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "jp-keiro-no-hi/cao-gaiyou",
+       "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-keiro-no-hi/cao-gaiyou.txt",
+       "quote": "1月の第2月曜日\nおとなになったことを自覚し、みずから生き抜こうとする青年を祝いはげます。",
+       "quote_ko": "1월 둘째 월요일. 어른이 됐음을 자각하고 스스로 살아가려는 청년을 축하하고 격려한다."
+      }
+     ]
+    },
+    {
+     "claim_id": "warabi_1946",
+     "claim_ko": "1946년 11월 와라비정 청년단 청년제가 시작",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "gendai",
+       "url": "https://gendai.media/articles/-/120855",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-seijin-no-hi/gendai.txt",
+       "quote": "1946年11月に、埼玉県の蕨町の青年団が、日本の復興は若者にかかっている、がんばってくれ！ との激励の気持ちを込めて「青年祭」を開催しました。",
+       "quote_ko": "1946년 11월 사이타마현 와라비정 청년단이 일본 부흥은 젊은이에게 달렸다는 격려를 담아 청년제를 열었다."
+      },
+      {
+       "evidence_id": "nippon-com",
+       "url": "https://www.nippon.com/ja/japan-topics/today1122/",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-seijin-no-hi/nippon-com.txt",
+       "quote": "1946（昭和21）年 埼玉県北足立郡蕨町（現蕨市）で「青年祭」開催。成人式の発祥とされる。",
+       "quote_ko": "1946년 사이타마현 와라비정에서 청년제 개최. 성인식의 발상으로 여겨진다."
+      }
+     ]
+    },
+    {
+     "claim_id": "history",
+     "claim_ko": "1948 축일법, 1949년부터 1월 15일, 2000년 둘째 월요일",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "gendai",
+       "url": "https://gendai.media/articles/-/120855",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-seijin-no-hi/gendai.txt",
+       "quote": "翌1949年から、1月15日は成人の日として祝日になり",
+       "quote_ko": "이듬해 1949년부터 1월 15일이 성인의 날 축일이 됐고"
+      },
+      {
+       "evidence_id": "gendai",
+       "url": "https://gendai.media/articles/-/120855",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-seijin-no-hi/gendai.txt",
+       "quote": "2000年より成人の日は1月第2月曜日へ移動",
+       "quote_ko": "2000년부터 성인의 날은 1월 둘째 월요일로 이동"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_most_municipalities",
+     "claim_ko": "대부분 시정촌 1월 초 성인식",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://gendai.media/articles/-/120855",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-seijin-no-hi/gendai.txt",
+       "quote": "全国の市区町村のほとんどが1月初頭には、対象者を招いて成人式を開催していますが"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_spread_1948",
+     "claim_ko": "청년제 확산이 1948 제정으로(기고)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://gendai.media/articles/-/120855",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-seijin-no-hi/gendai.txt",
+       "quote": "これが瞬く間に日本中に広がり、1948年に公布・施行された祝日法により"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_18_20",
+     "claim_ko": "2022 18세 성년, 18·20세 지자체별",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://gendai.media/articles/-/120855",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-seijin-no-hi/gendai.txt",
+       "quote": "さらに2022年からは18歳成人となり式典は18歳と20歳で行う市区町村に分かれているのが現状"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_renamed",
+     "claim_ko": "‘二十歳の集い’ 등으로 명칭 변경",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://gendai.media/articles/-/120855",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-seijin-no-hi/gendai.txt",
+       "quote": "従来成人式と呼ばれていた式典は「二十歳の集い」等々、いろんな呼び名に変わっていますが"
+      }
+     ]
+    }
+   ]
+  },
+  "asia:mn-naadam": {
+   "candidate_key": "mn-naadam",
+   "source_record_path": "tools/research/workflow/batches/asia-expansion-20261012/records.json",
+   "sourceUrl": "https://ich.unesco.org/en/RL/naadam-mongolian-traditional-festival-00395",
+   "claims": [
+    {
+     "claim_id": "unesco",
+     "claim_ko": "매년 7월 11~13일 전국, 세 전통 경기, 2010 등재",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "unesco-ich",
+       "url": "https://ich.unesco.org/en/RL/naadam-mongolian-traditional-festival-00395",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/mn-naadam/unesco-ich.txt",
+       "quote": "Naadam is a national festival celebrated every year from 11 to 13 July across Mongolia that focuses on three traditional games: horseracing, wrestling and archery.",
+       "quote_ko": "나담은 매년 7월 11~13일 몽골 전역에서 말타기·씨름·활쏘기 세 전통 경기를 중심으로 열리는 국가 축제다."
+      },
+      {
+       "evidence_id": "unesco-ich",
+       "url": "https://ich.unesco.org/en/RL/naadam-mongolian-traditional-festival-00395",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/mn-naadam/unesco-ich.txt",
+       "quote": "Inscribed in 2010 (5.COM) on the Representative List of the Intangible Cultural Heritage of Humanity",
+       "quote_ko": "2010년(제5차 위원회) 인류무형문화유산 대표목록 등재"
+      }
+     ]
+    },
+    {
+     "claim_id": "holiday",
+     "claim_ko": "축제 사흘이 공식 휴일",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "unescoicm",
+       "url": "https://www.unescoicm.org/en/newsletter/view/9-Mongolia-hosts-Naadam-Festival-inscribed-as-UNESCO-Intangible-Cultural-Heritage",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/mn-naadam/unescoicm.txt",
+       "quote": "the three festival days are an official holiday in Mongolia.",
+       "quote_ko": "축제 사흘은 몽골의 공식 휴일이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_nomadic",
+     "claim_ko": "유목 문명과 불가분",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://ich.unesco.org/en/RL/naadam-mongolian-traditional-festival-00395",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/mn-naadam/unesco-ich.txt",
+       "quote": "Mongolian Naadam is inseparably connected to the nomadic civilization of the Mongols"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_arts",
+     "claim_ko": "긴 노래·후미·비 비옐게·마두금",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://ich.unesco.org/en/RL/naadam-mongolian-traditional-festival-00395",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/mn-naadam/unesco-ich.txt",
+       "quote": "long song, Khöömei overtone singing, Bie biyelgee dance and Morin khuur fiddle also feature prominently during Naadam"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_titles",
+     "claim_ko": "선수·아이들 존중, 우승자 칭호, 찬가",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://ich.unesco.org/en/RL/naadam-mongolian-traditional-festival-00395",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/mn-naadam/unesco-ich.txt",
+       "quote": "Festival participants revere the sportsmen, sportswomen, and children who compete, and winners are rewarded titles for their achievements."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_transmission",
+     "claim_ko": "가족 전수, 씨름·활쏘기 훈련 체계화",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://ich.unesco.org/en/RL/naadam-mongolian-traditional-festival-00395",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/mn-naadam/unesco-ich.txt",
+       "quote": "their transmission is traditionally undertaken through home-schooling by family members, although formalized training regimens have recently developed for wrestling and archery"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_2026_first_two_days",
+     "claim_ko": "2026 나담 첫 이틀=7/11·12(주말)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://ikon.mn/n/3ohf",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/mn-naadam/ikon-3ohf.txt",
+       "quote": "Үндэсний их баяр наадмын эхний хоёр өдөр буюу долоодугаар сарын 11, 12-ны Бямба, Ням гарагт таарч байгаа."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_2026_ten_days",
+     "claim_ko": "2026 7/10~19 열흘 휴무 결정",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://ikon.mn/n/3ohf",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/mn-naadam/ikon-3ohf.txt",
+       "quote": "Ийнхүү долоодугаар сарын 10-19-ний хооронд бүх нийтээр 10 хоног амарна."
+      }
+     ]
+    }
+   ]
+  },
+  "asia:my-malaysia-day": {
+   "candidate_key": "my-malaysia-day",
+   "source_record_path": "tools/research/workflow/batches/asia-expansion-20261012/records.json",
+   "sourceUrl": "https://www.kosmo.com.my/2021/10/23/isu-ma63-hari-malaysia-antara-pindaan-dalam-perlembagaan/",
+   "claims": [
+    {
+     "claim_id": "holiday_2010",
+     "claim_ko": "2010년부터 전국 공휴일(2009 나집 발표)",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "kosmo-2021",
+       "url": "https://www.kosmo.com.my/2021/10/23/isu-ma63-hari-malaysia-antara-pindaan-dalam-perlembagaan/",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-malaysia-day/kosmo-2021.txt",
+       "quote": "Hari Malaysia mula disambut sebagai berstatus cuti umum seluruh negara pada 2010 setelah diumumkan bekas Perdana Menteri, Datuk Seri Najib Tun Razak di Parlimen pada tahun 2009.",
+       "quote_ko": "말레이시아의 날은 2009년 나집 전 총리의 의회 발표 뒤 2010년부터 전국 공휴일로 기념됐다."
+      }
+     ]
+    },
+    {
+     "claim_id": "date_shift",
+     "claim_ko": "1963-06-01 → 08-31 → 09-16 연기",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "utusansarawak-15930",
+       "url": "https://utusansarawak.com.my/?p=15930",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-malaysia-day/utusansarawak-15930.txt",
+       "quote": "pembentukan persekutuan baharu ini dirancang berlaku pada 1 Jun 1963 namun kemudiannya ditangguhkan ke 31 Ogos 1963",
+       "quote_ko": "새 연방 결성은 1963년 6월 1일로 계획됐다가 8월 31일로 연기됐다"
+      },
+      {
+       "evidence_id": "utusansarawak-15930",
+       "url": "https://utusansarawak.com.my/?p=15930",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-malaysia-day/utusansarawak-15930.txt",
+       "quote": "Hari Malaysia juga merupakan cuti am di negeri Sabah sempena hari keputeraan Yang Di-Pertua Negeri.",
+       "quote_ko": "말레이시아의 날은 사바 주지사 탄신일과 겹쳐 사바의 공휴일이기도 했다."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_four_parts",
+     "claim_ko": "말라야·사바·사라왁·싱가포르 결합",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://utusansarawak.com.my/?p=15930",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-malaysia-day/utusansarawak-15930.txt",
+       "quote": "menandakan penyertaan bersama Tanah Melayu, Borneo Utara (Sabah), Sarawak dan Singapura bagi membentuk Malaysia."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_independence_6th",
+     "claim_ko": "8/31 독립 6주년에 맞추려 연기",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://utusansarawak.com.my/?p=15930",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-malaysia-day/utusansarawak-15930.txt",
+       "quote": "bagi membolehkan ia disambut bersama-sama dengan sambutan hari kemerdekaan keenam."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_not_holiday_initially",
+     "claim_ko": "처음엔 사라왁·반도에선 휴일 아님, 2010부터 전 주",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://utusansarawak.com.my/?p=15930",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-malaysia-day/utusansarawak-15930.txt",
+       "quote": "Walaupun pada awalnya Hari Malaysia bukan merupakan cuti am di Sarawak dan Semenanjung Malaysia, namun mulai tahun 2010, Hari Malaysia diisytiharkan sebagai cuti am bagi semua negeri di Malaysia."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_cobbold_delay",
+     "claim_ko": "코볼드 보고 대기·인니·필 반대로 연기",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://utusansarawak.com.my/?p=15930",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-malaysia-day/utusansarawak-15930.txt",
+       "quote": "Tarikh perasmian pengisytiharan Persekutuan Malaysia telah ditangguhkan daripada 1 Jun 1963 ke 31 Ogos 1963 kerana menunggu Laporan Suruhanjaya Cobbold."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_london",
+     "claim_ko": "1963-07-09 런던 협정",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://utusansarawak.com.my/?p=15930",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-malaysia-day/utusansarawak-15930.txt",
+       "quote": "pada 9 Julai 1963, Perjanjian penubuhan Persekutuan Malaysia dimeterai di London"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_konfrontasi",
+     "claim_ko": "인니 대결 1966년까지",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://utusansarawak.com.my/?p=15930",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-malaysia-day/utusansarawak-15930.txt",
+       "quote": "melancarkan konfrontasi ketenteraan di bawah slogan “Ganyang Malaysia” yang berlanjutan sehingga 1966."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_ph_sabah",
+     "claim_ko": "필리핀 사바 권리 주장",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://utusansarawak.com.my/?p=15930",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-malaysia-day/utusansarawak-15930.txt",
+       "quote": "Filipina turut menuntut haknya ke atas Sabah atas hujahan perjanjian yang dimeterai antara Kesultanan Sulu dengan pihak British"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_constitution_2021",
+     "claim_ko": "2021 헌법 개정안에 명시 계획, 당시 조항 없음",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.kosmo.com.my/2021/10/23/isu-ma63-hari-malaysia-antara-pindaan-dalam-perlembagaan/",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-malaysia-day/kosmo-2021.txt",
+       "quote": "pada ketika ini, tiada langsung disebut mengenai Hari Malaysia pada 16 September dalam mana-mana klausa Perlembagaan Persekutuan."
+      }
+     ]
+    }
+   ]
+  },
+  "asia:my-kaamatan": {
+   "candidate_key": "my-kaamatan",
+   "source_record_path": "tools/research/workflow/batches/asia-expansion-20261012/records.json",
+   "sourceUrl": "https://library.sabah.gov.my/index.php/en/our-links/featured-articles/kaamatan-festival",
+   "claims": [
+    {
+     "claim_id": "dates",
+     "claim_ko": "매년 5월 30~31일 사바·라부안",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "sabah-library",
+       "url": "https://library.sabah.gov.my/index.php/en/our-links/featured-articles/kaamatan-festival",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-kaamatan/sabah-library.txt",
+       "quote": "Kaamatan annual event celebrated on 30th – 31st of May in Sabah and Federal Territory of Labuan.",
+       "quote_ko": "카아마탄은 매년 5월 30~31일 사바와 라부안 연방직할구에서 기념한다."
+      }
+     ]
+    },
+    {
+     "claim_id": "myth",
+     "claim_ko": "창조신 부부가 딸 후미노둔을 희생한 신화",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "sabah-library",
+       "url": "https://library.sabah.gov.my/index.php/en/our-links/featured-articles/kaamatan-festival",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-kaamatan/sabah-library.txt",
+       "quote": "the Creator Couple (Kinoingan & Sumundu) sacrificed their only daughter Huminodun in order to save them from severe drought and famine.",
+       "quote_ko": "창조신 부부(키노잉안·수문두)가 혹독한 가뭄과 기근에서 사람들을 구하려 외동딸 후미노둔을 희생했다."
+      }
+     ]
+    },
+    {
+     "claim_id": "unduk_ngadau",
+     "claim_ko": "운둑 응아다우 미인대회",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "sabah-library",
+       "url": "https://library.sabah.gov.my/index.php/en/our-links/featured-articles/kaamatan-festival",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-kaamatan/sabah-library.txt",
+       "quote": "One of the major highlights of Kaamatan is to witness the highly anticipated Unduk Ngadau (Harvest Beauty Queen Pageant).",
+       "quote_ko": "카아마탄의 큰 볼거리 중 하나는 운둑 응아다우(추수 미인대회)다."
+      }
+     ]
+    },
+    {
+     "claim_id": "sabah_only",
+     "claim_ko": "사바만의 공휴일, 한 달 축제 마지막 이틀",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "malaymail-2017",
+       "url": "https://www.malaymail.com/news/malaysia/2017/04/29/sabah-mulls-national-level-holiday-for-kaamatan/1366475",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-kaamatan/malaymail-2017.txt",
+       "quote": "However, Kaamatan is currently a public holiday only in Sabah and not nationwide.",
+       "quote_ko": "카아마탄은 현재 사바에서만 공휴일이고 전국 공휴일이 아니다."
+      },
+      {
+       "evidence_id": "malaymail-2017",
+       "url": "https://www.malaymail.com/news/malaysia/2017/04/29/sabah-mulls-national-level-holiday-for-kaamatan/1366475",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-kaamatan/malaymail-2017.txt",
+       "quote": "In Sabah, Kaamatan is a month-long celebration that ends on a grand note on the last two days.",
+       "quote_ko": "사바에서 카아마탄은 한 달간 이어지며 마지막 이틀에 절정을 이룬다."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_tomot",
+     "claim_ko": "카아마탄 어원 tomot(수확)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://library.sabah.gov.my/index.php/en/our-links/featured-articles/kaamatan-festival",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-kaamatan/sabah-library.txt",
+       "quote": "The word ‘Kaamatan’ derives from the root word ‘tomot’, a Kadazandusun term for “harvest”."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_new_paddy",
+     "claim_ko": "희생된 몸에서 난 새 벼를 나누고 감사",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://library.sabah.gov.my/index.php/en/our-links/featured-articles/kaamatan-festival",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-kaamatan/sabah-library.txt",
+       "quote": "Kaamatan is symbolized the sharing of the new paddy harvest (made manifest from the sacrificed body of Huminodun) and the thanksgiving to the Source of All."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_crowning",
+     "claim_ko": "운둑 응아다우 대관은 축제 끝",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://library.sabah.gov.my/index.php/en/our-links/featured-articles/kaamatan-festival",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-kaamatan/sabah-library.txt",
+       "quote": "The crowning takes place at the end of the festival."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_national_mull_2017",
+     "claim_ko": "2017 전국 공휴일 검토(부주총리)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.malaymail.com/news/malaysia/2017/04/29/sabah-mulls-national-level-holiday-for-kaamatan/1366475",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-kaamatan/malaymail-2017.txt",
+       "quote": "Pesta Kaamatan which is a harvest celebration special to Sabah is being considered for a national-level holiday"
+      }
+     ]
+    }
+   ]
+  },
+  "asia:my-gawai": {
+   "candidate_key": "my-gawai",
+   "source_record_path": "tools/research/workflow/batches/asia-expansion-20261012/records.json",
+   "sourceUrl": "https://utusansarawak.com.my/hari-gawai-dalam-sejarah-sarawak",
+   "claims": [
+    {
+     "claim_id": "first_1962",
+     "claim_ko": "영국 정부가 6월 1일을 \"사라왁의 날\"로 허락, 1962-06-01 첫 공휴일",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "utusansarawak",
+       "url": "https://utusansarawak.com.my/hari-gawai-dalam-sejarah-sarawak",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-gawai/utusansarawak.txt",
+       "quote": "kerajaan British memberi kelulusan untuk meraikan Hari Gawai pada 1 Jun setiap tahun dengan diberi nama Hari Sarawak.",
+       "quote_ko": "영국 정부가 매년 6월 1일 가와이를 \"사라왁의 날\"이라는 이름으로 기념하도록 승인했다."
+      },
+      {
+       "evidence_id": "utusansarawak",
+       "url": "https://utusansarawak.com.my/hari-gawai-dalam-sejarah-sarawak",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-gawai/utusansarawak.txt",
+       "quote": "Hari Sarawak yang diwartakan oleh kerajaan British sebagai cuti umum telah diraikan pada I Jun 1962 yang jatuh pada hari Isnin.",
+       "quote_ko": "영국 정부가 공휴일로 관보 고시한 사라왁의 날은 1962년 6월 1일 월요일에 처음 기념됐다."
+      }
+     ]
+    },
+    {
+     "claim_id": "renamed",
+     "claim_ko": "이후 \"가와이 다약의 날\"로 개칭, 매년 6월 1일",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "utusansarawak",
+       "url": "https://utusansarawak.com.my/hari-gawai-dalam-sejarah-sarawak",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-gawai/utusansarawak.txt",
+       "quote": "Akhirnya nama Hari Sarawak ditukar kepada Hari GawaiDayak, dan jatuh pada 1 Jun setiap tahun.",
+       "quote_ko": "결국 사라왁의 날은 가와이 다약의 날로 이름이 바뀌었고 매년 6월 1일이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "2026_overlap",
+     "claim_ko": "2026년 국왕 공식 탄신일과 겹쳐 6/4 대체휴일",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "bharian-2026",
+       "url": "https://www.bharian.com.my/amp/berita/nasional/2026/05/1561372/bhplus",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-gawai/bharian-2026.txt",
+       "quote": "Tarikh 4 Jun pula diisytiharkan sebagai hari kelepasan am gantian bagi sambutan Hari Gawai Dayak berikutan perayaan itu bertindih dengan Hari Keputeraan Rasmi Yang di-Pertuan Agong pada 1 Jun 2026",
+       "quote_ko": "가와이 다약이 2026년 6월 1일 국왕 공식 탄신일과 겹쳐 6월 4일을 대체 공휴일로 선포했다"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_brooke",
+     "claim_ko": "브룩 시대 크리스마스·하리라야·춘절만 인정",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://utusansarawak.com.my/hari-gawai-dalam-sejarah-sarawak",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-gawai/utusansarawak.txt",
+       "quote": "Semasa era pemerintahan Brooke, perayaan ini tidak diiktiraf sebagai hari kebesaran seperti perayaan Hari Krismas, Hari Raya dan Tahun Baharu Cina."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_post_ww2",
+     "claim_ko": "2차대전 뒤 다약 단체들의 요구",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://utusansarawak.com.my/hari-gawai-dalam-sejarah-sarawak",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-gawai/utusansarawak.txt",
+       "quote": "Perjuangan untuk menjadikan perayaan Gawai sebagai cuti umum di Sarawak mula terserlah selepas tamatnya Perang Dunia Kedua."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_shaw_padi",
+     "claim_ko": "쇼: 5월 말 벼농사 마무리 상징",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://utusansarawak.com.my/hari-gawai-dalam-sejarah-sarawak",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-gawai/utusansarawak.txt",
+       "quote": "masyarakat petani di pedalaman Sarawak telah menyempurnakan proses penanaman padi pada hujung Mei"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_dnu_name",
+     "claim_ko": "다약 국민연합은 ‘다약의 날’ 원함",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://utusansarawak.com.my/hari-gawai-dalam-sejarah-sarawak",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-gawai/utusansarawak.txt",
+       "quote": "Persatuan ini mahu agar hari itu dikenali sebagai Hari Dayak atau perayaan Hari Dayak."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_april_1964",
+     "claim_ko": "1964년 4월 주 의회 재논의",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://utusansarawak.com.my/hari-gawai-dalam-sejarah-sarawak",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-gawai/utusansarawak.txt",
+       "quote": "Isu ini dibawa sekali lagi ke Council Negeri pada April 1964."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_first_no_events",
+     "claim_ko": "첫 공휴일 정부 행사 없이 휴무만",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://utusansarawak.com.my/hari-gawai-dalam-sejarah-sarawak",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-gawai/utusansarawak.txt",
+       "quote": "Namun demikian hari pertama sambutan itu tidak disertakan dengan majlis-majlis kerajaan."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_public_holiday",
+     "claim_ko": "사라왁 공휴일",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://utusansarawak.com.my/hari-gawai-dalam-sejarah-sarawak",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-gawai/utusansarawak.txt",
+       "quote": "Hari Gawai ini juga diiktiraf sebagai cuti umum di Sarawak."
+      }
+     ]
+    }
+   ]
+  },
+  "asia:ph-heroes-day": {
+   "candidate_key": "ph-heroes-day",
+   "source_record_path": "tools/research/workflow/batches/asia-expansion-20261012/records.json",
+   "sourceUrl": "https://lawphil.net/statutes/repacts/ra2007/ra_9492_2007.html",
+   "claims": [
+    {
+     "claim_id": "ra9492",
+     "claim_ko": "공화국법 9492: National Heroes Day = Last Monday of August",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "lawphil-9492",
+       "url": "https://lawphil.net/statutes/repacts/ra2007/ra_9492_2007.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-heroes-day/lawphil-9492.txt",
+       "quote": "National Heroes Day\n-\nLast Monday of August",
+       "quote_ko": "영웅의 날 — 8월 마지막 월요일"
+      }
+     ]
+    },
+    {
+     "claim_id": "purpose",
+     "claim_ko": "알려진·알려지지 않은 모든 영웅을 기림",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "negrosnow",
+       "url": "https://negrosnowdaily.com/san-carlos-observes-national-heroes-day/",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-heroes-day/negrosnow.txt",
+       "quote": "National Heroes Day, or Araw ng mga Bayani, is celebrated annually per Republic Act 9492, which declared the last Monday of August a national holiday honoring all known and unknown heroes of the Philippines.",
+       "quote_ko": "영웅의 날(아라우 응 마가 바야니)은 공화국법 9492에 따라 8월 마지막 월요일에 알려진·알려지지 않은 모든 영웅을 기리는 국가 공휴일이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_rationalizing",
+     "claim_ko": "국경일 기념 합리화법, 행정법전 제26조 개정",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://lawphil.net/statutes/repacts/ra2007/ra_9492_2007.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-heroes-day/lawphil-9492.txt",
+       "quote": "AN ACT RATIONALIZING THE CELEBRATION OF NATIONAL HOLIDAYS AMENDING FOR THE PURPOSE SECTION 26, CHAPTER 7, BOOK I OF EXECUTIVE ORDER NO. 292"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_monday_rule",
+     "claim_ko": "수요일→그 주 월요일, 일요일→다음 월요일",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://lawphil.net/statutes/repacts/ra2007/ra_9492_2007.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-heroes-day/lawphil-9492.txt",
+       "quote": "c) In the event the holiday falls on a Wednesday, the holiday will be observed on the Monday of the week. If the holiday falls on a Sunday, the holiday will be observed on the Monday that follows:"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_san_carlos",
+     "claim_ko": "산카를로스 8/25 리살 광장 헌화",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://negrosnowdaily.com/san-carlos-observes-national-heroes-day/",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-heroes-day/negrosnow.txt",
+       "quote": "commemorated the National Heroes Day Aug. 25, with the offering of flowers and a program at Rizal Square, public plaza."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_unsung",
+     "claim_ko": "유명·무명 영웅 모두(시의원)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://negrosnowdaily.com/san-carlos-observes-national-heroes-day/",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-heroes-day/negrosnow.txt",
+       "quote": "Cabili said the National Heroes Day is for remembering both the renowned and the unsung heroes, who sacrificed for the nation’s freedom."
+      }
+     ]
+    }
+   ]
+  },
+  "asia:ph-simbang-gabi": {
+   "candidate_key": "ph-simbang-gabi",
+   "source_record_path": "tools/research/workflow/batches/asia-expansion-20261012/records.json",
+   "sourceUrl": "https://www.philstar.com/headlines/2012/12/16/886551/headlines",
+   "claims": [
+    {
+     "claim_id": "nine_days",
+     "claim_ko": "12/16~24 9일 새벽 미사, 성탄 시즌 시작",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "philstar-2012",
+       "url": "https://www.philstar.com/headlines/2012/12/16/886551/headlines",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-simbang-gabi/philstar-2012.txt",
+       "quote": "Simbang Gabi, which ironically is celebrated at dawn, is a nine-day event that runs from Dec. 16 to 24.",
+       "quote_ko": "심방가비는 역설적이게도 새벽에 드리는 9일짜리 행사로 12월 16일부터 24일까지다."
+      },
+      {
+       "evidence_id": "licas",
+       "url": "https://philippines.licas.news/?p=193068",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-simbang-gabi/licas.txt",
+       "quote": "Catholics in the Philippines on December 16 flocked to churches to commence the nine-day series of daily Masses leading up to Christmas.",
+       "quote_ko": "필리핀 가톨릭 신자들이 12월 16일 성탄까지 이어지는 9일 연속 미사를 시작하려 성당에 몰렸다."
+      }
+     ]
+    },
+    {
+     "claim_id": "origin_wish",
+     "claim_ko": "스페인 수사들이 농부를 위해 도입, 9일 개근 시 소원",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "licas",
+       "url": "https://philippines.licas.news/?p=193068",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-simbang-gabi/licas.txt",
+       "quote": "Simbang Gabi is a novena tradition that originated in the Philippines during the Spanish colonial period and was introduced by Spanish friars to allow farmers to attend Mass before heading to the fields.",
+       "quote_ko": "심방가비는 스페인 식민기 수사들이 농부가 밭에 가기 전 미사에 참석하도록 들여온 9일 기도 전통이다."
+      },
+      {
+       "evidence_id": "licas",
+       "url": "https://philippines.licas.news/?p=193068",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-simbang-gabi/licas.txt",
+       "quote": "Filipinos believe that attending all nine Masses, especially at dawn, will grant their wishes or petitions.",
+       "quote_ko": "필리핀 사람들은 아홉 번의 미사, 특히 새벽 미사에 모두 참석하면 소원이 이뤄진다고 믿는다."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_midnight_24",
+     "claim_ko": "성모 공경, 12/24 자정 미사로 절정, 미사 데 가요·아기날도",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://philippines.licas.news/?p=193068",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-simbang-gabi/licas.txt",
+       "quote": "Simbang Gabi, also known as Misa de Gallo or Aguinaldo Mass, is a Filipino Christmas tradition that honors the Blessed Virgin Mary, culminating in the midnight Mass on December 24."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_longest",
+     "claim_ko": "세계에서 가장 긴 크리스마스로 묘사",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.philstar.com/headlines/2012/12/16/886551/headlines",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-simbang-gabi/philstar-2012.txt",
+       "quote": "It marks the country’s unique Christmas celebration described as the longest in the world."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_rooster",
+     "claim_ko": "수탉 울음에서 미사 데 가요",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.philstar.com/headlines/2012/12/16/886551/headlines",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-simbang-gabi/philstar-2012.txt",
+       "quote": "The dawn Masses were soon termed as Misa de Gallo, referring to the crowing of the roosters."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_knock",
+     "claim_ko": "신부가 문 두드려 깨움",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.philstar.com/headlines/2012/12/16/886551/headlines",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-simbang-gabi/philstar-2012.txt",
+       "quote": "In the early times, parish priests would even go around town and knock on the doors of the faithful to wake them up for the Misa de Gallo."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_food",
+     "claim_ko": "비빙카·푸토 붐봉",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://philippines.licas.news/?p=193068",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-simbang-gabi/licas.txt",
+       "quote": "After the Mass, traditional Filipino delicacies such as bibingka (rice cake) and puto bumbong (sticky rice) are often enjoyed by the churchgoers."
+      }
+     ]
+    }
+   ]
+  },
+  "asia:sg-total-defence-day": {
+   "candidate_key": "sg-total-defence-day",
+   "source_record_path": "tools/research/workflow/batches/asia-expansion-20261012/records.json",
+   "sourceUrl": "https://www.concordpri.moe.edu.sg/departments/cce/total-defence-day-commemoration/",
+   "claims": [
+    {
+     "claim_id": "siren",
+     "claim_ko": "매년 2/15·9/15 18:20 사이렌, 2/15 는 총방위의 날·함락일 기념",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "sg101",
+       "url": "https://www.sg101.gov.sg/resources/archives/totaldefence-singapores-public-warning-system/",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/sg-total-defence-day/sg101.txt",
+       "quote": "Annually, the SCDF sounds the \"Important Message\" signal through the island-wide network of PWS sirens on 15 February and 15 September at 6.20 pm.",
+       "quote_ko": "매년 민방위청은 2월 15일과 9월 15일 오후 6시 20분 전국 공공경보 사이렌으로 \"중요 메시지\" 신호를 울린다."
+      },
+      {
+       "evidence_id": "sg101",
+       "url": "https://www.sg101.gov.sg/resources/archives/totaldefence-singapores-public-warning-system/",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/sg-total-defence-day/sg101.txt",
+       "quote": "15 Feb 6.20pm was to commemorate our Total Defence Day and the date Singapore fell to the invasion of Japan during WWII",
+       "quote_ko": "2월 15일 오후 6시 20분은 총방위의 날, 곧 2차 대전 중 싱가포르가 일본 침공에 함락된 날을 기념하기 위한 것이다"
+      }
+     ]
+    },
+    {
+     "claim_id": "schools",
+     "claim_ko": "학교가 매년 2/15 기념, 1942 함락",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "concordpri",
+       "url": "https://www.concordpri.moe.edu.sg/departments/cce/total-defence-day-commemoration/",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/sg-total-defence-day/concordpri.txt",
+       "quote": "Schools commemorate Total Defence Day on 15 February each year to mark the fall of Singapore to the Japanese in 1942.",
+       "quote_ko": "학교들은 1942년 싱가포르 함락을 기억하려 매년 2월 15일 총방위의 날을 기념한다."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_best_response",
+     "claim_ko": "총방위가 위협에 대한 최선의 대응임을 되새김",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.concordpri.moe.edu.sg/departments/cce/total-defence-day-commemoration/",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/sg-total-defence-day/concordpri.txt",
+       "quote": "our students reflect on the importance of Total Defence as Singapore's best all-round response to threats and challenges that confront Singapore."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_sep_purpose",
+     "claim_ko": "9/15 은 익숙해지도록 하는 훈련",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.sg101.gov.sg/resources/archives/totaldefence-singapores-public-warning-system/",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/sg-total-defence-day/sg101.txt",
+       "quote": "while the purpose of sounding the siren on 15 Sep is to familiarise members of the public by conducting the ‘exercise’ twice a year."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_app_20s",
+     "claim_ko": "SGSecure 앱 20초",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.sg101.gov.sg/resources/archives/totaldefence-singapores-public-warning-system/",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/sg-total-defence-day/sg101.txt",
+       "quote": "The signal will also sound for 20 seconds on all smartphones that have the SGSecure mobile app."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_tune_in",
+     "claim_ko": "라디오·무료 TV 켜기",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.sg101.gov.sg/resources/archives/totaldefence-singapores-public-warning-system/",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/sg-total-defence-day/sg101.txt",
+       "quote": "Once you hear the “Important Message” signal, you should tune in to any local radio station or free-to-air MediaCorp TV channel for a brief message on the PWS."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_airforce_talk",
+     "claim_ko": "학교 조회에 공군 강연",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.concordpri.moe.edu.sg/departments/cce/total-defence-day-commemoration/",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/sg-total-defence-day/concordpri.txt",
+       "quote": "For Assembly programme, we have invited th Singapore Airforce to give a talk"
+      }
+     ]
+    }
+   ]
+  },
+  "asia:th-songkran": {
+   "candidate_key": "th-songkran",
+   "source_record_path": "tools/research/workflow/batches/asia-expansion-20261012/records.json",
+   "sourceUrl": "https://thailand.prd.go.th/en/content/category/detail/id/48/iid/239093",
+   "claims": [
+    {
+     "claim_id": "unesco_2023",
+     "claim_ko": "2023-12-06 UNESCO \"태국의 송끄란\" 등재",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "prachachat",
+       "url": "https://www.prachachat.net/d-life/news-1455140",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/th-songkran/prachachat.txt",
+       "quote": "เมื่อวันที่ 6 ธันวาคม 2566 องค์การการศึกษา วิทยาศาสตร์ และวัฒนธรรมแห่งสหประชาชาติ หรือ “ยูเนสโก” ได้ประกาศขึ้นทะเบียน “สงกรานต์ในประเทศไทย”",
+       "quote_ko": "2023년 12월 6일 유네스코가 \"태국의 송끄란\"을 등재했다"
+      }
+     ]
+    },
+    {
+     "claim_id": "holiday_2569",
+     "claim_ko": "2569(2026)년 4월 13~15일 공휴일",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "thairath-2899469",
+       "url": "https://www.thairath.co.th/news/society/2899469",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/th-songkran/thairath-2899469.txt",
+       "quote": "วันจันทร์ที่ 13 เมษายน 2569 : วันสงกรานต์",
+       "quote_ko": "2026년 4월 13일(월): 송끄란"
+      },
+      {
+       "evidence_id": "thairath-2899469",
+       "url": "https://www.thairath.co.th/news/society/2899469",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/th-songkran/thairath-2899469.txt",
+       "quote": "วันพุธที่ 15 เมษายน 2569 : วันสงกรานต์",
+       "quote_ko": "2026년 4월 15일(수): 송끄란"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_three_days",
+     "claim_ko": "보통 사흘: 13 마하송끄란·14 나오·15 탈롱속(정부 홍보국)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://thailand.prd.go.th/en/content/category/detail/id/48/iid/239093",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/th-songkran/prd-239093.txt",
+       "quote": "Normally, it is celebrated for three days: 13 April, known as Maha Songkran Day, when the sun reaches Aries and the current year ends; 14 April, known as Nao Day, which marks the transition between the old year and the new year; and 15 April, known as Thaloengsok Day or the New Year."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_holiday_13_15",
+     "claim_ko": "4/13~15 사흘 공식 국가 공휴일(TAT)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.tatnews.org/2023/12/songkran-in-thailand-declared-an-unesco-intangible-cultural-heritage/",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/th-songkran/tatnews-2023.txt",
+       "quote": "Songkran in Thailand is officially observed as a three-day national holiday from 13-15 April"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_sanskrit",
+     "claim_ko": "산스크리트어 ‘이동’, 물고기자리→양자리",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://thailand.prd.go.th/en/content/category/detail/id/48/iid/239093",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/th-songkran/prd-239093.txt",
+       "quote": "The Songkran period is when the Sun moves from Pisces to Aries."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_unesco_statement",
+     "claim_ko": "유네스코 성명: 어른·조상·불상 공경, 물 붓기 의미",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.tatnews.org/2023/12/songkran-in-thailand-declared-an-unesco-intangible-cultural-heritage/",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/th-songkran/tatnews-2023.txt",
+       "quote": "Occurring in mid-April after the rice harvest, it is a time when people reunite with their families and pay their respects to older adults, ancestors, and sacred Buddha images. Pouring water is a significant act during Songkran symbolising cleansing, reverence, and good fortune."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_kasane",
+     "claim_ko": "2023-12-06 카사네 정부간위원회",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://thailand.prd.go.th/en/content/category/detail/id/48/iid/239093",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/th-songkran/prd-239093.txt",
+       "quote": "held in Kasane, Republic of Botswana, on 6 December 2023, decided to inscribe “Songkran in Thailand” on the list"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_safeguard_concerns",
+     "claim_ko": "상업화·과열·안전·물 낭비 경계",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.prachachat.net/d-life/news-1455140",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/th-songkran/prachachat.txt",
+       "quote": "การทำให้เป็นธุรกิจมากเกินไป การขยายการเฉลิมฉลองในพื้นที่สาธารณะมากเกินไป และไม่ปลอดภัย และการใช้ทรัพยากรน้ำอย่างไม่ยั่งยืน"
+      }
+     ]
+    }
+   ]
+  },
+  "asia:tw-228-peace-day": {
+   "candidate_key": "tw-228-peace-day",
+   "source_record_path": "tools/research/workflow/batches/asia-expansion-20261012/records.json",
+   "sourceUrl": "https://www.nownews.com/news/6372410",
+   "claims": [
+    {
+     "claim_id": "law_1995_1997",
+     "claim_ko": "1995년 조례로 평화기념일, 1997년 국정 공휴일",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "nownews-6372410",
+       "url": "https://www.nownews.com/news/6372410",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-228-peace-day/nownews-6372410.txt",
+       "quote": "1995年3月22日，立法院三讀通過《二二八事件處理及補償條例》，將2月28日法定為非假日的紀念日，定名為「和平紀念日」；1997年2月25日將原本不放假的2月28日改為國定假日，為中華民國第一個法定的國定假日。",
+       "quote_ko": "1995년 3월 22일 입법원이 228사건 처리·보상 조례를 3독 통과시켜 2월 28일을 쉬지 않는 법정 기념일 \"평화기념일\"로 정했고, 1997년 2월 25일 국정 공휴일로 바꿨다."
+      }
+     ]
+    },
+    {
+     "claim_id": "holiday_2026",
+     "claim_ko": "2026년 2월 28일 평화기념일은 국정 공휴일(노동부)",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "udn-9347148",
+       "url": "https://udn.com/news/story/7269/9347148",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-228-peace-day/udn-9347148.txt",
+       "quote": "勞動部指出，2026年2月28日（星期六）和平紀念日為國定假日",
+       "quote_ko": "노동부는 2026년 2월 28일(토) 평화기념일이 국정 공휴일이라고 밝혔다."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_period",
+     "claim_ko": "1947-02-27~05-16(기금회 자료)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.nownews.com/news/6372410",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-228-peace-day/nownews-6372410.txt",
+       "quote": "於二戰後不到一年時間的1947年2月27日至5月16日間發生"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_expectation",
+     "claim_ko": "50년 일본 통치 뒤 1945년 말 기대 무너짐",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.nownews.com/news/6372410",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-228-peace-day/nownews-6372410.txt",
+       "quote": "首先由於長達五十年的日本殖民統治，台灣人對中國的政治制度與社會現況，均缺乏了解，因而於1945年末期望落空。"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_trigger",
+     "claim_ko": "밀수 담배 단속 중 폭행·발포로 시민 사망",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.nownews.com/news/6372410",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-228-peace-day/nownews-6372410.txt",
+       "quote": "查緝員慌忙逃走間，竟向群眾開槍，不幸誤殺當時在自宅樓下觀熱鬧的無辜市民。"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_treason",
+     "claim_ko": "반역으로 몰아 체포·처형, 이후 조사로 문제 드러남",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.nownews.com/news/6372410",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-228-peace-day/nownews-6372410.txt",
+       "quote": "包括大部分參與者自認無叛國意圖，僅以改革台灣政治為訴求，卻遭到以「意圖顛覆政府」的罪名處置。"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_makeup_day",
+     "claim_ko": "휴일과 겹치면 보충 휴무",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://udn.com/news/story/7269/9347148",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-228-peace-day/udn-9347148.txt",
+       "quote": "至於和平紀念日如適逢勞工「例假」或「休息日」，雇主應於其他工作日給予勞工補假一天"
+      }
+     ]
+    }
+   ]
+  },
+  "asia:tw-indigenous-day": {
+   "candidate_key": "tw-indigenous-day",
+   "source_record_path": "tools/research/workflow/batches/asia-expansion-20261012/records.json",
+   "sourceUrl": "https://www.ey.gov.tw/Page/9277F759E41CCD91/7df9f14c-a512-4253-86ed-2dc602bf3232",
+   "claims": [
+    {
+     "claim_id": "ey_2016",
+     "claim_ko": "원민회 요청을 행정원이 동의, 8월 1일 명정",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "ey-7df9",
+       "url": "https://www.ey.gov.tw/Page/9277F759E41CCD91/7df9f14c-a512-4253-86ed-2dc602bf3232",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-indigenous-day/ey-7df9.txt",
+       "quote": "原住民族委員會簽請行政院明定8月1日為「原住民族日」，行政院予以同意。",
+       "quote_ko": "원주민족위원회가 8월 1일을 원주민족일로 명정해 달라고 요청했고 행정원이 동의했다."
+      },
+      {
+       "evidence_id": "ey-7df9",
+       "url": "https://www.ey.gov.tw/Page/9277F759E41CCD91/7df9f14c-a512-4253-86ed-2dc602bf3232",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-indigenous-day/ey-7df9.txt",
+       "quote": "日期：105-07-29",
+       "quote_ko": "날짜: 민국 105년(2016) 7월 29일"
+      }
+     ]
+    },
+    {
+     "claim_id": "name_1994",
+     "claim_ko": "1994-08-01 헌법 증수조문 공포로 \"산포\"→\"원주민\"",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "ey-7df9",
+       "url": "https://www.ey.gov.tw/Page/9277F759E41CCD91/7df9f14c-a512-4253-86ed-2dc602bf3232",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-indigenous-day/ey-7df9.txt",
+       "quote": "增修條文於1994年8月1日經總統公布施行，回應原住民族10年來的訴求，正式將沿用40餘年之「山胞」正名為「原住民」。",
+       "quote_ko": "증수조문이 1994년 8월 1일 총통 공포·시행돼, 원주민족의 10년 요구에 응해 40여 년 쓰던 \"산포\"를 \"원주민\"으로 정명했다."
+      },
+      {
+       "evidence_id": "newslens-45468",
+       "url": "https://www.thenewslens.com/article/45468",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-indigenous-day/newslens-45468.txt",
+       "quote": "原住民族委員會簽請行政院明定8月1日為「原住民族日」，行政院長林全上午核定予以同意。",
+       "quote_ko": "원주민족위원회의 요청을 행정원장 린취안이 오전에 핵정·동의했다."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_three_meanings",
+     "claim_ko": "자기 결정의 이름",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.ey.gov.tw/Page/9277F759E41CCD91/7df9f14c-a512-4253-86ed-2dc602bf3232",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-indigenous-day/ey-7df9.txt",
+       "quote": "首先，「原住民族」是自我決定的名稱"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_rights",
+     "claim_ko": "자치·토지 등 고유 권리",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.ey.gov.tw/Page/9277F759E41CCD91/7df9f14c-a512-4253-86ed-2dc602bf3232",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-indigenous-day/ey-7df9.txt",
+       "quote": "原住民族所爭取的，不僅是「名稱」的自我決定權，也包括自治及土地等核心的固有權利。"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_6000",
+     "claim_ko": "적어도 6천 년 전부터",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.ey.gov.tw/Page/9277F759E41CCD91/7df9f14c-a512-4253-86ed-2dc602bf3232",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-indigenous-day/ey-7df9.txt",
+       "quote": "至少六千年前，原住民族就已經在臺灣"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_1997",
+     "claim_ko": "1997 4차 개헌 ‘원주민족’ 입헌",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.ey.gov.tw/Page/9277F759E41CCD91/7df9f14c-a512-4253-86ed-2dc602bf3232",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-indigenous-day/ey-7df9.txt",
+       "quote": "其後，並於1997年第四次修憲時，進一步將具有集體權屬性的「原住民族」入憲。"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_other_countries",
+     "claim_ko": "유엔 8/9·캐나다 6/21 사례",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.ey.gov.tw/Page/9277F759E41CCD91/7df9f14c-a512-4253-86ed-2dc602bf3232",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-indigenous-day/ey-7df9.txt",
+       "quote": "加拿大定6月21日為原住民族日"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_apology_plan",
+     "claim_ko": "2016-08-01 총통 사과 예정(보도)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.thenewslens.com/article/45468",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-indigenous-day/newslens-45468.txt",
+       "quote": "總統蔡英文8月1日將代表政府向原住民族道歉"
+      }
+     ]
+    }
+   ]
+  },
+  "asia:tw-disaster-prevention-day": {
+   "candidate_key": "tw-disaster-prevention-day",
+   "source_record_path": "tools/research/workflow/batches/asia-expansion-20261012/records.json",
+   "sourceUrl": "https://www.ey.gov.tw/Page/9277F759E41CCD91/0d22e326-069d-499f-885a-de190747e9b0",
+   "claims": [
+    {
+     "claim_id": "reason",
+     "claim_ko": "1999-09-21 지진 2,455명 사망, 방재 중시 위해 9월 21일 지정",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "cna-2018",
+       "url": "https://www.cna.com.tw/news/aloc/201809160182.aspx",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-disaster-prevention-day/cna-2018.txt",
+       "quote": "民國88年9月21日南投集集發生芮氏規模7.3的淺層地震，劇烈搖晃造成全台2455人死亡、1萬1305人受傷，房屋全倒與半倒數量近8萬5000戶，為喚起國人對防災的重視，將每年9月21日訂為「國家防災日」。",
+       "quote_ko": "1999년 9월 21일 난터우 지지에서 규모 7.3 천발지진이 일어나 2,455명이 숨지고 11,305명이 다쳤으며, 방재 경각심을 위해 매년 9월 21일을 국가방재일로 정했다."
+      }
+     ]
+    },
+    {
+     "claim_id": "drill",
+     "claim_ko": "행정원장: 전국 같은 날 지진 훈련",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "ey-0d22",
+       "url": "https://www.ey.gov.tw/Page/9277F759E41CCD91/0d22e326-069d-499f-885a-de190747e9b0",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-disaster-prevention-day/ey-0d22.txt",
+       "quote": "政府已將每年9月21日訂定為「國家防災日」，全國在同一天共同辦理地震演練",
+       "quote_ko": "정부는 매년 9월 21일을 국가방재일로 정해 전국이 같은 날 지진 훈련을 한다."
+      }
+     ]
+    },
+    {
+     "claim_id": "naming_year",
+     "claim_ko": "2000년 재해방구일 설립, 2002년 개칭",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "nownews-6876428",
+       "url": "https://www.nownews.com/news/6876428",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-disaster-prevention-day/nownews-6876428.txt",
+       "quote": "行政院於 2000 年設立「災害防救日」，並於 2002 年更名為「國家防災日」",
+       "quote_ko": "행정원이 2000년 재해방구일을 만들고 2002년 국가방재일로 이름을 바꿨다."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_2024_drill",
+     "claim_ko": "2024-09-20 09:21 국가급 경보·채널 전환 훈련 예고",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.ey.gov.tw/Page/9277F759E41CCD91/0d22e326-069d-499f-885a-de190747e9b0",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-disaster-prevention-day/ey-0d22.txt",
+       "quote": "交通部中央氣象署預計在今年9月20日上午9時21分模擬大規模地震的發生，會同步向全國民眾發送「國家級警報」訊息"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_2024_year",
+     "claim_ko": "민국 113년=2024",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.ey.gov.tw/Page/9277F759E41CCD91/0d22e326-069d-499f-885a-de190747e9b0",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-disaster-prevention-day/ey-0d22.txt",
+       "quote": "今（113）年9月20日舉行的防災演習"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_three_steps",
+     "claim_ko": "엎드리고·가리고·버티기",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.nownews.com/news/6876428",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-disaster-prevention-day/nownews-6876428.txt",
+       "quote": "期盼透過國家級演練推廣「趴下、掩護、穩住」抗震三步驟"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_1935",
+     "claim_ko": "1935 신주-타이중 지진 사망 3,276명",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://www.nownews.com/news/6876428",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-disaster-prevention-day/nownews-6876428.txt",
+       "quote": "但實際上死傷最慘重的是 1935 年「新竹–臺中地震」（造成 3,276 人死亡）"
+      }
+     ]
+    }
+   ]
+  },
+  "asia:vn-doctors-day": {
+   "candidate_key": "vn-doctors-day",
+   "source_record_path": "tools/research/workflow/batches/asia-expansion-20261012/records.json",
+   "sourceUrl": "https://baovanhoa.vn/doi-song/ngay-thay-thuoc-viet-nam-207161.html",
+   "claims": [
+    {
+     "claim_id": "letter_1955",
+     "claim_ko": "1955-02-27 호찌민 서한, 1985-02-06 공식 지정",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "baovanhoa-207161",
+       "url": "https://baovanhoa.vn/doi-song/ngay-thay-thuoc-viet-nam-207161.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/vn-doctors-day/baovanhoa-207161.txt",
+       "quote": "Ngay từ năm 1955, Bộ Y tế đã lấy ngày 27.2 làm ngày truyền thống ngành. Đến ngày 6.2.1985, Hội đồng Bộ trưởng (nay là Chính phủ) chính thức quyết định lấy 27.2 hằng năm là Ngày Thầy thuốc Việt Nam",
+       "quote_ko": "1955년부터 보건부가 2월 27일을 업계 전통일로 삼았고, 1985년 2월 6일 각료회의(현 정부)가 매년 2월 27일을 베트남 의사의 날로 공식 결정했다"
+      }
+     ]
+    },
+    {
+     "claim_id": "70th",
+     "claim_ko": "2025년 70주년 기념식, 1955년 하노이 보건 간부 회의에 보낸 서한",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "daibieunhandan",
+       "url": "https://daibieunhandan.vn/chu-tich-quoc-hoi-tran-thanh-man-du-le-ky-niem-70-nam-ngay-thay-thuoc-viet-nam-10360472.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/vn-doctors-day/daibieunhandan.txt",
+       "quote": "Cách đây đúng 70 năm, ngày 27.2.1955, Chủ tịch Hồ Chí Minh đã gửi thư cho Hội nghị Cán bộ y tế được tổ chức tại Thủ đô Hà Nội.",
+       "quote_ko": "꼭 70년 전 1955년 2월 27일 호찌민 주석이 하노이에서 열린 보건 간부 회의에 편지를 보냈다."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_brothers",
+     "claim_ko": "단결·헌신, 환자를 친형제처럼",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://baovanhoa.vn/doi-song/ngay-thay-thuoc-viet-nam-207161.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/vn-doctors-day/baovanhoa-207161.txt",
+       "quote": "Trong thư, Người căn dặn đội ngũ bác sĩ, dược sĩ, y tá, hộ lý phải đoàn kết, tận tụy phục vụ nhân dân, chăm sóc người bệnh “như anh em ruột thịt”"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_luong_y",
+     "claim_ko": "편지 속 ‘lương y phải như từ mẫu’(국회 기관지)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://daibieunhandan.vn/chu-tich-quoc-hoi-tran-thanh-man-du-le-ky-niem-70-nam-ngay-thay-thuoc-viet-nam-10360472.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/vn-doctors-day/daibieunhandan.txt",
+       "quote": "Đặc biệt, trong Thư, Người căn dặn \"lương y phải như từ mẫu\" đã trở thành kim chỉ nam cho các thế hệ cán bộ y bác sĩ"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_three_principles",
+     "claim_ko": "과학·민족·대중 세 원칙, 전통·현대 의학 결합",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://baovanhoa.vn/doi-song/ngay-thay-thuoc-viet-nam-207161.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/vn-doctors-day/baovanhoa-207161.txt",
+       "quote": "Người đồng thời nhấn mạnh xây dựng nền y học dựa trên ba nguyên tắc: khoa học - dân tộc - đại chúng, kết hợp y học cổ truyền với y học hiện đại."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe2_70th_ceremony",
+     "claim_ko": "2025-02-26 저녁 국립컨벤션센터 70주년, 국회의장",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "url": "https://daibieunhandan.vn/chu-tich-quoc-hoi-tran-thanh-man-du-le-ky-niem-70-nam-ngay-thay-thuoc-viet-nam-10360472.html",
+       "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/vn-doctors-day/daibieunhandan.txt",
+       "quote": "Tối 26.2, tại Trung tâm Hội nghị quốc gia, Hà Nội, Ủy viên Bộ Chính trị, Chủ tịch Quốc hội Trần Thanh Mẫn đã dự và phát biểu tại Lễ kỷ niệm 70 năm Ngày Thầy thuốc Việt Nam"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

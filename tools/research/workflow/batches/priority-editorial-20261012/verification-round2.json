@@ -1,0 +1,2073 @@
+{
+  "ok": true,
+  "errors": [],
+  "warnings": [
+    "asia:in-hindi-diwas: 150자 미만 필드 (146/205)"
+  ],
+  "generated_at": "2026-10-12T14:25:51.593Z",
+  "scope": {
+    "pending_uids": 27,
+    "drafted": 27,
+    "unwritten": []
+  },
+  "service_items_checked": 1787,
+  "production_writes": false,
+  "vite_server_closed": true,
+  "status_counts": {
+    "ready_for_review": 26,
+    "date_support_unverified": 1
+  },
+  "proposed_count": 26,
+  "withheld": {
+    "asia:jp-setsubun": "date_support_unverified"
+  },
+  "lengths": {
+    "origin_min": 146,
+    "origin_max": 267,
+    "anecdote_min": 164,
+    "anecdote_max": 367,
+    "total_avg": 486
+  },
+  "quotes_checked": 248,
+  "quotes_matched": 248,
+  "quotes_this_batch": 147,
+  "fetch_log_entries": 47,
+  "search_log_entries": 9,
+  "hko_vs_app_table_2020_2050": [
+    {
+      "key": "chuseok",
+      "year": 2040,
+      "app_table": "09-21",
+      "hko_utc8": "09-20"
+    },
+    {
+      "key": "chubun",
+      "year": 2041,
+      "app_table": "09-23",
+      "hko_utc8": "09-22"
+    },
+    {
+      "key": "ipchun",
+      "year": 2050,
+      "app_table": "02-04",
+      "hko_utc8": "02-03"
+    }
+  ],
+  "occurrences": [
+    {
+      "2026": "2026-09-23",
+      "2027": "2027-09-23",
+      "2028": "2028-09-22",
+      "uid": "asia:cn-farmers-harvest",
+      "id": "anv-term-chubun-cn-farmers-harvest-festival",
+      "dateType": "annual-tabulated",
+      "date": "chubun",
+      "status": "ready_for_review"
+    },
+    {
+      "2026": "2026-01-10",
+      "2027": "2027-01-10",
+      "2028": "2028-01-10",
+      "uid": "asia:cn-police-day",
+      "id": "anv-fixed-01-10-chinese-peoples-police-day-cn",
+      "dateType": "annual-fixed",
+      "date": "01-10",
+      "status": "ready_for_review"
+    },
+    {
+      "2026": "2026-04-24",
+      "2027": "2027-04-24",
+      "2028": "2028-04-24",
+      "uid": "asia:cn-space-day",
+      "id": "anv-fixed-04-24-china-space-day-cn",
+      "dateType": "annual-fixed",
+      "date": "04-24",
+      "status": "ready_for_review"
+    },
+    {
+      "2026": "2026-03-12",
+      "2027": "2027-03-12",
+      "2028": "2028-03-12",
+      "uid": "asia:cn-arbor-day",
+      "id": "anv-fixed-03-12-tree-planting-day-cn",
+      "dateType": "annual-fixed",
+      "date": "03-12",
+      "status": "ready_for_review"
+    },
+    {
+      "2026": "2026-03-05",
+      "2027": "2027-03-06",
+      "2028": "2028-03-05",
+      "uid": "asia:hk-villain-hitting",
+      "id": "anv-term-gyeongchip-villain-hitting-hk",
+      "dateType": "annual-tabulated",
+      "date": "gyeongchip",
+      "status": "ready_for_review"
+    },
+    {
+      "2026": "2026-09-24",
+      "2027": "2027-09-14",
+      "2028": "2028-10-02",
+      "uid": "asia:hk-fire-dragon",
+      "id": "anv-rel-chuseok-minus1-tai-hang-fire-dragon-hk",
+      "dateType": "annual-relative-to-holiday",
+      "date": "anv-lunar-chuseok-kr:-1",
+      "status": "ready_for_review"
+    },
+    {
+      "2026": "2026-10-02",
+      "2027": "2027-10-02",
+      "2028": "2028-10-02",
+      "uid": "asia:id-batik-day",
+      "id": "anv-fixed-10-02-national-batik-day-id",
+      "dateType": "annual-fixed",
+      "date": "10-02",
+      "status": "ready_for_review"
+    },
+    {
+      "2026": "2026-10-22",
+      "2027": "2027-10-22",
+      "2028": "2028-10-22",
+      "uid": "asia:id-santri-day",
+      "id": "anv-fixed-10-22-national-santri-day-id",
+      "dateType": "annual-fixed",
+      "date": "10-22",
+      "status": "ready_for_review"
+    },
+    {
+      "2026": "2026-09-14",
+      "2027": "2027-09-14",
+      "2028": "2028-09-14",
+      "uid": "asia:in-hindi-diwas",
+      "id": "anv-fixed-09-14-hindi-diwas-in",
+      "dateType": "annual-fixed",
+      "date": "09-14",
+      "status": "ready_for_review"
+    },
+    {
+      "2026": "2026-02-28",
+      "2027": "2027-02-28",
+      "2028": "2028-02-28",
+      "uid": "asia:in-science-day",
+      "id": "anv-fixed-02-28-national-science-day-in",
+      "dateType": "annual-fixed",
+      "date": "02-28",
+      "status": "ready_for_review"
+    },
+    {
+      "2026": "2026-11-15",
+      "2027": "2027-11-15",
+      "2028": "2028-11-15",
+      "uid": "asia:jp-shichigosan",
+      "id": "anv-fixed-11-15-shichigosan-jp",
+      "dateType": "annual-fixed",
+      "date": "11-15",
+      "status": "ready_for_review"
+    },
+    {
+      "2026": "2026-09-21",
+      "2027": "2027-09-20",
+      "2028": "2028-09-18",
+      "uid": "asia:jp-keiro-no-hi",
+      "id": "anv-nth-09-3-mon-respect-for-the-aged-day-jp",
+      "dateType": "annual-nth-weekday",
+      "date": "09-3-MON",
+      "status": "ready_for_review"
+    },
+    {
+      "2026": "2026-08-11",
+      "2027": "2027-08-11",
+      "2028": "2028-08-11",
+      "uid": "asia:jp-yama-no-hi",
+      "id": "anv-fixed-08-11-mountain-day-jp",
+      "dateType": "annual-fixed",
+      "date": "08-11",
+      "status": "ready_for_review"
+    },
+    {
+      "2026": "2026-02-03",
+      "2027": "2027-02-03",
+      "2028": "2028-02-03",
+      "uid": "asia:jp-setsubun",
+      "id": "anv-rel-ipchun-minus1-setsubun-jp",
+      "dateType": "annual-relative-to-holiday",
+      "date": "anv-term-ipchun-kr:-1",
+      "status": "date_support_unverified"
+    },
+    {
+      "2026": "2026-01-12",
+      "2027": "2027-01-11",
+      "2028": "2028-01-10",
+      "uid": "asia:jp-seijin-no-hi",
+      "id": "anv-nth-01-2-mon-coming-of-age-day-jp",
+      "dateType": "annual-nth-weekday",
+      "date": "01-2-MON",
+      "status": "ready_for_review"
+    },
+    {
+      "2026": "2026-07-11",
+      "2027": "2027-07-11",
+      "2028": "2028-07-11",
+      "uid": "asia:mn-naadam",
+      "id": "anv-fixed-07-11-naadam-mn",
+      "dateType": "annual-fixed",
+      "date": "07-11",
+      "status": "ready_for_review"
+    },
+    {
+      "2026": "2026-09-16",
+      "2027": "2027-09-16",
+      "2028": "2028-09-16",
+      "uid": "asia:my-malaysia-day",
+      "id": "anv-fixed-09-16-malaysia-day-my",
+      "dateType": "annual-fixed",
+      "date": "09-16",
+      "status": "ready_for_review"
+    },
+    {
+      "2026": "2026-05-30",
+      "2027": "2027-05-30",
+      "2028": "2028-05-30",
+      "uid": "asia:my-kaamatan",
+      "id": "anv-fixed-05-30-kaamatan-my",
+      "dateType": "annual-fixed",
+      "date": "05-30",
+      "status": "ready_for_review"
+    },
+    {
+      "2026": "2026-06-01",
+      "2027": "2027-06-01",
+      "2028": "2028-06-01",
+      "uid": "asia:my-gawai",
+      "id": "anv-fixed-06-01-gawai-dayak-my",
+      "dateType": "annual-fixed",
+      "date": "06-01",
+      "status": "ready_for_review"
+    },
+    {
+      "2026": "2026-08-31",
+      "2027": "2027-08-30",
+      "2028": "2028-08-28",
+      "uid": "asia:ph-heroes-day",
+      "id": "anv-nth-08-l-mon-national-heroes-day-ph",
+      "dateType": "annual-nth-weekday",
+      "date": "08-L-MON",
+      "status": "ready_for_review"
+    },
+    {
+      "2026": "2026-12-16",
+      "2027": "2027-12-16",
+      "2028": "2028-12-16",
+      "uid": "asia:ph-simbang-gabi",
+      "id": "anv-fixed-12-16-simbang-gabi-ph",
+      "dateType": "annual-fixed",
+      "date": "12-16",
+      "status": "ready_for_review"
+    },
+    {
+      "2026": "2026-02-15",
+      "2027": "2027-02-15",
+      "2028": "2028-02-15",
+      "uid": "asia:sg-total-defence-day",
+      "id": "anv-fixed-02-15-total-defence-day-sg",
+      "dateType": "annual-fixed",
+      "date": "02-15",
+      "status": "ready_for_review"
+    },
+    {
+      "2026": "2026-04-13",
+      "2027": "2027-04-13",
+      "2028": "2028-04-13",
+      "uid": "asia:th-songkran",
+      "id": "anv-fixed-04-13-songkran-th",
+      "dateType": "annual-fixed",
+      "date": "04-13",
+      "status": "ready_for_review"
+    },
+    {
+      "2026": "2026-02-28",
+      "2027": "2027-02-28",
+      "2028": "2028-02-28",
+      "uid": "asia:tw-228-peace-day",
+      "id": "anv-fixed-02-28-peace-memorial-day-tw",
+      "dateType": "annual-fixed",
+      "date": "02-28",
+      "status": "ready_for_review"
+    },
+    {
+      "2026": "2026-08-01",
+      "2027": "2027-08-01",
+      "2028": "2028-08-01",
+      "uid": "asia:tw-indigenous-day",
+      "id": "anv-fixed-08-01-indigenous-peoples-day-tw",
+      "dateType": "annual-fixed",
+      "date": "08-01",
+      "status": "ready_for_review"
+    },
+    {
+      "2026": "2026-09-21",
+      "2027": "2027-09-21",
+      "2028": "2028-09-21",
+      "uid": "asia:tw-disaster-prevention-day",
+      "id": "anv-fixed-09-21-national-disaster-prevention-day-tw",
+      "dateType": "annual-fixed",
+      "date": "09-21",
+      "status": "ready_for_review"
+    },
+    {
+      "2026": "2026-02-27",
+      "2027": "2027-02-27",
+      "2028": "2028-02-27",
+      "uid": "asia:vn-doctors-day",
+      "id": "anv-fixed-02-27-vietnamese-doctors-day-vn",
+      "dateType": "annual-fixed",
+      "date": "02-27",
+      "status": "ready_for_review"
+    }
+  ],
+  "round1_files_sha256": {
+    "drafts.json": "17c0df2053a4c00a11c3693bc6fd8f9eff36bfb03e2fb3040048205d483e2083",
+    "evidence-map.json": "f0d6fa43d9913cfa85a20bb15fda7f2f0e60a00a65eb17b2b2d64a47bffb29f0",
+    "proposed-records.json": "2ffb7d1182b3c9cced0b91f49d225ffaecd8db9b3bcca80ba6e83c1e69411d35",
+    "progress.md": "4cf4cd7f6a3bdcd0677164829f9ed2b1d9ae287365c9fd974c08d19cbfc46a35",
+    "integration-result.json": "4c93e3ca9c302d623e4a070377c45c4d13848b9ddfe22747fc9a188d374b8045"
+  },
+  "quote_results": [
+    {
+      "uid": "asia:cn-farmers-harvest",
+      "claim_id": "established_2018",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-farmers-harvest/gov-cn-5300368.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-farmers-harvest",
+      "claim_id": "why_autumn_equinox",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-farmers-harvest/gov-cn-5300368.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-farmers-harvest",
+      "claim_id": "fourth_2021",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-farmers-harvest/chinadaily-2021.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-farmers-harvest",
+      "claim_id": "pe2_spring_autumn",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-farmers-harvest/gov-cn-5300368.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-farmers-harvest",
+      "claim_id": "pe2_minister",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-farmers-harvest/gov-cn-5300368.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-farmers-harvest",
+      "claim_id": "pe2_2021_events",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-farmers-harvest/chinadaily-2021.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-farmers-harvest",
+      "claim_id": "pe2_2026_ninth",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/cn-farmers-harvest/newscn-20260923.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-farmers-harvest",
+      "claim_id": "pe2_2026_corn",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/cn-farmers-harvest/newscn-20260923.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-farmers-harvest",
+      "claim_id": "pe2_hko_2026",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/_shared-hko-calendar/hko-T2026e.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-farmers-harvest",
+      "claim_id": "pe2_hko_2027",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/_shared-hko-calendar/hko-T2027e.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-farmers-harvest",
+      "claim_id": "pe2_hko_2028",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/_shared-hko-calendar/hko-T2028e.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-police-day",
+      "claim_id": "approval",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-police-day/chinadaily-2023.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-police-day",
+      "claim_id": "approval",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-police-day/people-2021.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-police-day",
+      "claim_id": "fifth_2025",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-police-day/news-cn-2025.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-police-day",
+      "claim_id": "pe2_rituals",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-police-day/news-cn-2025.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-police-day",
+      "claim_id": "pe2_300",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-police-day/news-cn-2025.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-police-day",
+      "claim_id": "pe2_flag_2020",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-police-day/people-2021.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-police-day",
+      "claim_id": "pe2_first",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-police-day/people-2021.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-space-day",
+      "claim_id": "whitepaper",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-space-day/zjol-whitepaper.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-space-day",
+      "claim_id": "state_council",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-space-day/chinanews-2023.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-space-day",
+      "claim_id": "state_council",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-space-day/chinanews-2023.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-space-day",
+      "claim_id": "pe2_dfh1",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/cn-space-day/newscn-2026.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-space-day",
+      "claim_id": "pe2_date_reason",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/cn-space-day/chinadaily-2021.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-space-day",
+      "claim_id": "pe2_host_cities",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/cn-space-day/chinadaily-2021.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-space-day",
+      "claim_id": "pe2_2023_theme",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-space-day/chinanews-2023.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-space-day",
+      "claim_id": "pe2_2023_hefei",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-space-day/chinanews-2023.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-space-day",
+      "claim_id": "pe2_2023_400",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-space-day/chinanews-2023.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-space-day",
+      "claim_id": "pe2_2026_11th",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/cn-space-day/newscn-2026.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-arbor-day",
+      "claim_id": "decision_1979_law_2020",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-arbor-day/chinadaily-2022.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-arbor-day",
+      "claim_id": "decision_1979_law_2020",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-arbor-day/chinadaily-2022.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-arbor-day",
+      "claim_id": "sun_yatsen",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-arbor-day/rmzxw-2020.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-arbor-day",
+      "claim_id": "sun_yatsen",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-arbor-day/thepaper.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-arbor-day",
+      "claim_id": "pe2_state_council_proposal",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-arbor-day/thepaper.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-arbor-day",
+      "claim_id": "pe2_1915_qingming",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-arbor-day/thepaper.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-arbor-day",
+      "claim_id": "pe2_1981_duty",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-arbor-day/chinadaily-2022.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-arbor-day",
+      "claim_id": "pe2_781",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-arbor-day/chinadaily-2022.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:cn-arbor-day",
+      "claim_id": "pe2_47th",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-arbor-day/thepaper.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:hk-villain-hitting",
+      "claim_id": "gooseneck",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-villain-hitting/ourchinastory-1132.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:hk-villain-hitting",
+      "claim_id": "gooseneck",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-villain-hitting/hku-custom01.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:hk-villain-hitting",
+      "claim_id": "jingzhe_date",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-villain-hitting/ourchinastory-1132.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:hk-villain-hitting",
+      "claim_id": "white_tiger",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-villain-hitting/hku-custom01.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:hk-villain-hitting",
+      "claim_id": "white_tiger",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-villain-hitting/ourchinastory-1132.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:hk-villain-hitting",
+      "claim_id": "time_2009",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-villain-hitting/hku-custom01.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:hk-villain-hitting",
+      "claim_id": "pe2_daily",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-villain-hitting/ourchinastory-1132.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:hk-villain-hitting",
+      "claim_id": "pe2_week",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-villain-hitting/hku-custom01.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:hk-villain-hitting",
+      "claim_id": "pe2_shoe",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-villain-hitting/hku-custom01.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:hk-villain-hitting",
+      "claim_id": "pe2_origin_unclear",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-villain-hitting/hku-custom01.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:hk-villain-hitting",
+      "claim_id": "pe2_venting",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-villain-hitting/hku-custom01.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:hk-villain-hitting",
+      "claim_id": "pe2_macau",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-villain-hitting/ourchinastory-1132.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:hk-villain-hitting",
+      "claim_id": "pe2_hko_2026",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/_shared-hko-calendar/hko-T2026e.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:hk-villain-hitting",
+      "claim_id": "pe2_hko_2027",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/_shared-hko-calendar/hko-T2027e.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:hk-villain-hitting",
+      "claim_id": "pe2_hko_2028",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/_shared-hko-calendar/hko-T2028e.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:hk-fire-dragon",
+      "claim_id": "origin_1880",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-fire-dragon/cache-1126.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:hk-fire-dragon",
+      "claim_id": "origin_1880",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-fire-dragon/ourchinastory-4023.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:hk-fire-dragon",
+      "claim_id": "dates",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-fire-dragon/ourchinastory-4023.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:hk-fire-dragon",
+      "claim_id": "dates",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-fire-dragon/cache-1126.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:hk-fire-dragon",
+      "claim_id": "ich_2011",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-fire-dragon/ourchinastory-4023.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:hk-fire-dragon",
+      "claim_id": "pe2_ich_three_nights",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/hk-fire-dragon/ihchina-14936.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:hk-fire-dragon",
+      "claim_id": "pe2_ich_legend_1880",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/hk-fire-dragon/ihchina-14936.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:hk-fire-dragon",
+      "claim_id": "pe2_ich_long_gui_tian",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/hk-fire-dragon/ihchina-14936.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:hk-fire-dragon",
+      "claim_id": "pe2_ich_unit",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/hk-fire-dragon/ihchina-14936.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:hk-fire-dragon",
+      "claim_id": "pe2_hk01_2026",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/hk-fire-dragon/hk01-2026.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:hk-fire-dragon",
+      "claim_id": "pe2_hk01_scale",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/hk-fire-dragon/hk01-2026.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:hk-fire-dragon",
+      "claim_id": "pe2_hko_2026_l8",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/_shared-hko-calendar/hko-T2026e.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:hk-fire-dragon",
+      "claim_id": "pe2_hko_2027_l8",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/_shared-hko-calendar/hko-T2027e.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:hk-fire-dragon",
+      "claim_id": "pe2_hko_2028_l8",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/_shared-hko-calendar/hko-T2028e.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:id-batik-day",
+      "claim_id": "keppres",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-batik-day/wikisource-keppres.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:id-batik-day",
+      "claim_id": "keppres",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-batik-day/wikisource-keppres.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:id-batik-day",
+      "claim_id": "unesco_2009",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-batik-day/nu-batik.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:id-batik-day",
+      "claim_id": "pe2_purpose",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-batik-day/wikisource-keppres.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:id-batik-day",
+      "claim_id": "pe2_intl_recognition",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-batik-day/wikisource-keppres.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:id-batik-day",
+      "claim_id": "pe2_applied_2008",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-batik-day/nu-batik.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:id-batik-day",
+      "claim_id": "pe2_wear_batik",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-batik-day/nu-batik.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:id-batik-day",
+      "claim_id": "pe2_keraton",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-batik-day/nu-batik.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:id-santri-day",
+      "claim_id": "keppres_2015",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-santri-day/detik-santri.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:id-santri-day",
+      "claim_id": "resolusi_jihad",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-santri-day/detik-santri.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:id-santri-day",
+      "claim_id": "resolusi_jihad",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-santri-day/nu-sejarah.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:id-santri-day",
+      "claim_id": "pe2_reason1",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-santri-day/nu-sejarah.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:id-santri-day",
+      "claim_id": "pe2_reason3",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-santri-day/nu-sejarah.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:id-santri-day",
+      "claim_id": "pe2_10_november",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-santri-day/nu-sejarah.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:id-santri-day",
+      "claim_id": "pe2_signed_1015",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-santri-day/nu-sejarah.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:id-santri-day",
+      "claim_id": "pe2_proposal_2014",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-santri-day/detik-santri.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:id-santri-day",
+      "claim_id": "pe2_polemic",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/id-santri-day/nu-sejarah.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:in-hindi-diwas",
+      "claim_id": "1949_1953",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-hindi-diwas/navbharat-history.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:in-hindi-diwas",
+      "claim_id": "1949_1953",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-hindi-diwas/drishti-2022.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:in-hindi-diwas",
+      "claim_id": "english_too",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-hindi-diwas/navbharat-history.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:in-hindi-diwas",
+      "claim_id": "pe2_first_1953_date",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-hindi-diwas/navbharat-history.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:in-hindi-diwas",
+      "claim_id": "pe2_gandhi",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-hindi-diwas/navbharat-history.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:in-hindi-diwas",
+      "claim_id": "pe2_awards",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-hindi-diwas/drishti-2022.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:in-hindi-diwas",
+      "claim_id": "pe2_leela",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-hindi-diwas/drishti-2022.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:in-science-day",
+      "claim_id": "designated_1986",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-science-day/drishti-2023.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:in-science-day",
+      "claim_id": "raman_1928_1930",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-science-day/prabhatkhabar-2022.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:in-science-day",
+      "claim_id": "raman_1928_1930",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-science-day/prabhatkhabar-2022.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:in-science-day",
+      "claim_id": "pe2_nobel_1930",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-science-day/drishti-2023.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:in-science-day",
+      "claim_id": "pe2_inelastic",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-science-day/drishti-2023.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:in-science-day",
+      "claim_id": "pe2_simple",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-science-day/drishti-2023.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:in-science-day",
+      "claim_id": "pe2_theme_2023",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-science-day/drishti-2023.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:in-science-day",
+      "claim_id": "pe2_theme_2022",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/in-science-day/prabhatkhabar-2022.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-shichigosan",
+      "claim_id": "date",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-shichigosan/jal-shichigosan.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-shichigosan",
+      "claim_id": "date",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-shichigosan/alsok.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-shichigosan",
+      "claim_id": "rites",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-shichigosan/alsok.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-shichigosan",
+      "claim_id": "date_theories",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-shichigosan/jal-shichigosan.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-shichigosan",
+      "claim_id": "date_theories",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-shichigosan/jal-shichigosan.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-shichigosan",
+      "claim_id": "tokumatsu_conflict",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-shichigosan/jal-shichigosan.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-shichigosan",
+      "claim_id": "tokumatsu_conflict",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-shichigosan/zatsuneta.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-shichigosan",
+      "claim_id": "chitose",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-shichigosan/zatsuneta.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-shichigosan",
+      "claim_id": "pe2_ages",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-shichigosan/zatsuneta.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-shichigosan",
+      "claim_id": "pe2_oct_nov",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-shichigosan/zatsuneta.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-shichigosan",
+      "claim_id": "pe2_harvest_month",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-shichigosan/zatsuneta.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-shichigosan",
+      "claim_id": "pe2_kishuku",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-shichigosan/jal-shichigosan.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-shichigosan",
+      "claim_id": "pe2_white_hair",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-shichigosan/alsok.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-keiro-no-hi",
+      "claim_id": "law_rule",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-keiro-no-hi/cao-gaiyou.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-keiro-no-hi",
+      "claim_id": "law_rule",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-keiro-no-hi/cao-gaiyou.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-keiro-no-hi",
+      "claim_id": "origin_1947",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-keiro-no-hi/shizuoka-city.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-keiro-no-hi",
+      "claim_id": "origin_1947",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-keiro-no-hi/shizuoka-city.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-keiro-no-hi",
+      "claim_id": "village_holiday",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-keiro-no-hi/takashimaya.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-keiro-no-hi",
+      "claim_id": "pe2_1963_law",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-keiro-no-hi/shizuoka-city.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-keiro-no-hi",
+      "claim_id": "pe2_movement",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-keiro-no-hi/shizuoka-city.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-keiro-no-hi",
+      "claim_id": "pe2_2026_date",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-keiro-no-hi/takashimaya.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-yama-no-hi",
+      "claim_id": "purpose_date",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-keiro-no-hi/cao-gaiyou.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-yama-no-hi",
+      "claim_id": "purpose_date",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-keiro-no-hi/cao-gaiyou.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-yama-no-hi",
+      "claim_id": "law_2014_2016",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-yama-no-hi/kumanichi.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-yama-no-hi",
+      "claim_id": "movement",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-yama-no-hi/akahata-2016.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-yama-no-hi",
+      "claim_id": "10th_2026",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-yama-no-hi/kumanichi.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-yama-no-hi",
+      "claim_id": "pe2_first_convention",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-yama-no-hi/kumanichi.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-yama-no-hi",
+      "claim_id": "pe2_2013_league",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-yama-no-hi/akahata-2016.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-yama-no-hi",
+      "claim_id": "pe2_kumanichi_date",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-yama-no-hi/kumanichi.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-setsubun",
+      "claim_id": "nao_2025",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-setsubun/nao-2025.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-setsubun",
+      "claim_id": "nao_2025",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-setsubun/nao-2025.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-setsubun",
+      "claim_id": "definition",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-setsubun/nippon-com.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-setsubun",
+      "claim_id": "moves",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-setsubun/nippon-com.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-setsubun",
+      "claim_id": "pe2_nao_2026",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/jp-setsubun/nao-rekiyou-2026.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-setsubun",
+      "claim_id": "pe2_nao_2026_pub",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/jp-setsubun/nao-rekiyou-2026.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-setsubun",
+      "claim_id": "pe2_nao_2027",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/jp-setsubun/nao-rekiyou-2027.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-setsubun",
+      "claim_id": "pe2_nao_2027_pub",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/jp-setsubun/nao-rekiyou-2027.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-setsubun",
+      "claim_id": "pe2_published_prev_year",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-setsubun/nippon-com.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-setsubun",
+      "claim_id": "pe2_beans_ehomaki",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-setsubun/nippon-com.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-seijin-no-hi",
+      "claim_id": "law_rule",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-keiro-no-hi/cao-gaiyou.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-seijin-no-hi",
+      "claim_id": "warabi_1946",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-seijin-no-hi/gendai.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-seijin-no-hi",
+      "claim_id": "warabi_1946",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-seijin-no-hi/nippon-com.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-seijin-no-hi",
+      "claim_id": "history",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-seijin-no-hi/gendai.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-seijin-no-hi",
+      "claim_id": "history",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-seijin-no-hi/gendai.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-seijin-no-hi",
+      "claim_id": "pe2_most_municipalities",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-seijin-no-hi/gendai.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-seijin-no-hi",
+      "claim_id": "pe2_spread_1948",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-seijin-no-hi/gendai.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-seijin-no-hi",
+      "claim_id": "pe2_18_20",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-seijin-no-hi/gendai.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:jp-seijin-no-hi",
+      "claim_id": "pe2_renamed",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-seijin-no-hi/gendai.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:mn-naadam",
+      "claim_id": "unesco",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/mn-naadam/unesco-ich.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:mn-naadam",
+      "claim_id": "unesco",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/mn-naadam/unesco-ich.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:mn-naadam",
+      "claim_id": "holiday",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/mn-naadam/unescoicm.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:mn-naadam",
+      "claim_id": "pe2_nomadic",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/mn-naadam/unesco-ich.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:mn-naadam",
+      "claim_id": "pe2_arts",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/mn-naadam/unesco-ich.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:mn-naadam",
+      "claim_id": "pe2_titles",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/mn-naadam/unesco-ich.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:mn-naadam",
+      "claim_id": "pe2_transmission",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/mn-naadam/unesco-ich.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:mn-naadam",
+      "claim_id": "pe2_2026_first_two_days",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/mn-naadam/ikon-3ohf.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:mn-naadam",
+      "claim_id": "pe2_2026_ten_days",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/mn-naadam/ikon-3ohf.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-malaysia-day",
+      "claim_id": "holiday_2010",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-malaysia-day/kosmo-2021.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-malaysia-day",
+      "claim_id": "date_shift",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-malaysia-day/utusansarawak-15930.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-malaysia-day",
+      "claim_id": "date_shift",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-malaysia-day/utusansarawak-15930.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-malaysia-day",
+      "claim_id": "pe2_four_parts",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-malaysia-day/utusansarawak-15930.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-malaysia-day",
+      "claim_id": "pe2_independence_6th",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-malaysia-day/utusansarawak-15930.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-malaysia-day",
+      "claim_id": "pe2_not_holiday_initially",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-malaysia-day/utusansarawak-15930.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-malaysia-day",
+      "claim_id": "pe2_cobbold_delay",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-malaysia-day/utusansarawak-15930.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-malaysia-day",
+      "claim_id": "pe2_london",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-malaysia-day/utusansarawak-15930.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-malaysia-day",
+      "claim_id": "pe2_konfrontasi",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-malaysia-day/utusansarawak-15930.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-malaysia-day",
+      "claim_id": "pe2_ph_sabah",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-malaysia-day/utusansarawak-15930.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-malaysia-day",
+      "claim_id": "pe2_constitution_2021",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-malaysia-day/kosmo-2021.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-kaamatan",
+      "claim_id": "dates",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-kaamatan/sabah-library.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-kaamatan",
+      "claim_id": "myth",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-kaamatan/sabah-library.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-kaamatan",
+      "claim_id": "unduk_ngadau",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-kaamatan/sabah-library.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-kaamatan",
+      "claim_id": "sabah_only",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-kaamatan/malaymail-2017.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-kaamatan",
+      "claim_id": "sabah_only",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-kaamatan/malaymail-2017.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-kaamatan",
+      "claim_id": "pe2_tomot",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-kaamatan/sabah-library.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-kaamatan",
+      "claim_id": "pe2_new_paddy",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-kaamatan/sabah-library.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-kaamatan",
+      "claim_id": "pe2_crowning",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-kaamatan/sabah-library.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-kaamatan",
+      "claim_id": "pe2_national_mull_2017",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-kaamatan/malaymail-2017.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-gawai",
+      "claim_id": "first_1962",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-gawai/utusansarawak.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-gawai",
+      "claim_id": "first_1962",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-gawai/utusansarawak.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-gawai",
+      "claim_id": "renamed",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-gawai/utusansarawak.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-gawai",
+      "claim_id": "2026_overlap",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-gawai/bharian-2026.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-gawai",
+      "claim_id": "pe2_brooke",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-gawai/utusansarawak.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-gawai",
+      "claim_id": "pe2_post_ww2",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-gawai/utusansarawak.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-gawai",
+      "claim_id": "pe2_shaw_padi",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-gawai/utusansarawak.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-gawai",
+      "claim_id": "pe2_dnu_name",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-gawai/utusansarawak.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-gawai",
+      "claim_id": "pe2_april_1964",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-gawai/utusansarawak.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-gawai",
+      "claim_id": "pe2_first_no_events",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-gawai/utusansarawak.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:my-gawai",
+      "claim_id": "pe2_public_holiday",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/my-gawai/utusansarawak.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:ph-heroes-day",
+      "claim_id": "ra9492",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-heroes-day/lawphil-9492.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:ph-heroes-day",
+      "claim_id": "purpose",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-heroes-day/negrosnow.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:ph-heroes-day",
+      "claim_id": "pe2_rationalizing",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-heroes-day/lawphil-9492.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:ph-heroes-day",
+      "claim_id": "pe2_monday_rule",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-heroes-day/lawphil-9492.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:ph-heroes-day",
+      "claim_id": "pe2_san_carlos",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-heroes-day/negrosnow.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:ph-heroes-day",
+      "claim_id": "pe2_unsung",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-heroes-day/negrosnow.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:ph-simbang-gabi",
+      "claim_id": "nine_days",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-simbang-gabi/philstar-2012.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:ph-simbang-gabi",
+      "claim_id": "nine_days",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-simbang-gabi/licas.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:ph-simbang-gabi",
+      "claim_id": "origin_wish",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-simbang-gabi/licas.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:ph-simbang-gabi",
+      "claim_id": "origin_wish",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-simbang-gabi/licas.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:ph-simbang-gabi",
+      "claim_id": "pe2_midnight_24",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-simbang-gabi/licas.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:ph-simbang-gabi",
+      "claim_id": "pe2_longest",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-simbang-gabi/philstar-2012.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:ph-simbang-gabi",
+      "claim_id": "pe2_rooster",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-simbang-gabi/philstar-2012.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:ph-simbang-gabi",
+      "claim_id": "pe2_knock",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-simbang-gabi/philstar-2012.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:ph-simbang-gabi",
+      "claim_id": "pe2_food",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/ph-simbang-gabi/licas.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:sg-total-defence-day",
+      "claim_id": "siren",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/sg-total-defence-day/sg101.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:sg-total-defence-day",
+      "claim_id": "siren",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/sg-total-defence-day/sg101.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:sg-total-defence-day",
+      "claim_id": "schools",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/sg-total-defence-day/concordpri.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:sg-total-defence-day",
+      "claim_id": "pe2_best_response",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/sg-total-defence-day/concordpri.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:sg-total-defence-day",
+      "claim_id": "pe2_sep_purpose",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/sg-total-defence-day/sg101.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:sg-total-defence-day",
+      "claim_id": "pe2_app_20s",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/sg-total-defence-day/sg101.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:sg-total-defence-day",
+      "claim_id": "pe2_tune_in",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/sg-total-defence-day/sg101.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:sg-total-defence-day",
+      "claim_id": "pe2_airforce_talk",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/sg-total-defence-day/concordpri.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:th-songkran",
+      "claim_id": "unesco_2023",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/th-songkran/prachachat.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:th-songkran",
+      "claim_id": "holiday_2569",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/th-songkran/thairath-2899469.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:th-songkran",
+      "claim_id": "holiday_2569",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/th-songkran/thairath-2899469.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:th-songkran",
+      "claim_id": "pe2_three_days",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/th-songkran/prd-239093.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:th-songkran",
+      "claim_id": "pe2_holiday_13_15",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/th-songkran/tatnews-2023.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:th-songkran",
+      "claim_id": "pe2_sanskrit",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/th-songkran/prd-239093.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:th-songkran",
+      "claim_id": "pe2_unesco_statement",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/th-songkran/tatnews-2023.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:th-songkran",
+      "claim_id": "pe2_kasane",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/th-songkran/prd-239093.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:th-songkran",
+      "claim_id": "pe2_safeguard_concerns",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/th-songkran/prachachat.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:tw-228-peace-day",
+      "claim_id": "law_1995_1997",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-228-peace-day/nownews-6372410.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:tw-228-peace-day",
+      "claim_id": "holiday_2026",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-228-peace-day/udn-9347148.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:tw-228-peace-day",
+      "claim_id": "pe2_period",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-228-peace-day/nownews-6372410.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:tw-228-peace-day",
+      "claim_id": "pe2_expectation",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-228-peace-day/nownews-6372410.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:tw-228-peace-day",
+      "claim_id": "pe2_trigger",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-228-peace-day/nownews-6372410.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:tw-228-peace-day",
+      "claim_id": "pe2_treason",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-228-peace-day/nownews-6372410.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:tw-228-peace-day",
+      "claim_id": "pe2_makeup_day",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-228-peace-day/udn-9347148.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:tw-indigenous-day",
+      "claim_id": "ey_2016",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-indigenous-day/ey-7df9.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:tw-indigenous-day",
+      "claim_id": "ey_2016",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-indigenous-day/ey-7df9.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:tw-indigenous-day",
+      "claim_id": "name_1994",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-indigenous-day/ey-7df9.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:tw-indigenous-day",
+      "claim_id": "name_1994",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-indigenous-day/newslens-45468.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:tw-indigenous-day",
+      "claim_id": "pe2_three_meanings",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-indigenous-day/ey-7df9.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:tw-indigenous-day",
+      "claim_id": "pe2_rights",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-indigenous-day/ey-7df9.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:tw-indigenous-day",
+      "claim_id": "pe2_6000",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-indigenous-day/ey-7df9.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:tw-indigenous-day",
+      "claim_id": "pe2_1997",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-indigenous-day/ey-7df9.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:tw-indigenous-day",
+      "claim_id": "pe2_other_countries",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-indigenous-day/ey-7df9.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:tw-indigenous-day",
+      "claim_id": "pe2_apology_plan",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-indigenous-day/newslens-45468.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:tw-disaster-prevention-day",
+      "claim_id": "reason",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-disaster-prevention-day/cna-2018.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:tw-disaster-prevention-day",
+      "claim_id": "drill",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-disaster-prevention-day/ey-0d22.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:tw-disaster-prevention-day",
+      "claim_id": "naming_year",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-disaster-prevention-day/nownews-6876428.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:tw-disaster-prevention-day",
+      "claim_id": "pe2_2024_drill",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-disaster-prevention-day/ey-0d22.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:tw-disaster-prevention-day",
+      "claim_id": "pe2_2024_year",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-disaster-prevention-day/ey-0d22.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:tw-disaster-prevention-day",
+      "claim_id": "pe2_three_steps",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-disaster-prevention-day/nownews-6876428.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:tw-disaster-prevention-day",
+      "claim_id": "pe2_1935",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/tw-disaster-prevention-day/nownews-6876428.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:vn-doctors-day",
+      "claim_id": "letter_1955",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/vn-doctors-day/baovanhoa-207161.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:vn-doctors-day",
+      "claim_id": "70th",
+      "scope": "origin_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/vn-doctors-day/daibieunhandan.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:vn-doctors-day",
+      "claim_id": "pe2_brothers",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/vn-doctors-day/baovanhoa-207161.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:vn-doctors-day",
+      "claim_id": "pe2_luong_y",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/vn-doctors-day/daibieunhandan.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:vn-doctors-day",
+      "claim_id": "pe2_three_principles",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/vn-doctors-day/baovanhoa-207161.txt",
+      "matched": true
+    },
+    {
+      "uid": "asia:vn-doctors-day",
+      "claim_id": "pe2_70th_ceremony",
+      "scope": "this_batch",
+      "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/vn-doctors-day/daibieunhandan.txt",
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+ "country": "PH",
+ "country_ko": "필리핀",
+ "search_language": "fil",
+ "sources": {
+  "dfa-kl": "필리핀 외교부 쿠알라룸푸르 대사관",
+  "philstar-2012": "The Philippine Star (2012-12-16)",
+  "licas": "LiCAS.news (가톨릭 매체)",
+  "pna-1174817": "Philippine News Agency",
+  "pna-www": "Philippine News Agency",
+  "inquirer-603163": "Philippine Daily Inquirer",
+  "nomadic": "Nomadic Experiences (여행 블로그, 2025)",
+  "lawphil-9492": "LawPhil (공화국법 9492호 전문)",
+  "negrosnow": "Negros Now Daily (2025)",
+  "sunstar-odilao": "SunStar Cebu",
+  "philstar-2007": "The Philippine Star (2007-01-20)"
+ },
+ "summary_ko": "필리핀은 공화국법으로 정한 영웅의 날(8월 마지막 월요일)과 가톨릭·민속 행사 — 성탄 전 9일 새벽 미사 \"심방가비\"(12/16~24), 루크반 파히야스(5/15, 쌀과자 키핑으로 집 장식), 세부 시눌로그(1월, 산토니뇨 축일) — 를 찾았다. 필리핀어 검색 결과 상당수가 영어 매체여서 원문 근거도 영어가 많다(요청문이 영어 병용 허용).",
+ "limits": "파히야스는 PNA·인콰이어러 원문이 막혀(DNS 실패·403) 여행 블로그 1곳만 읽었다. 시눌로그 \"1월 셋째 일요일\" 규칙은 검색결과(위키백과)만이고 원문 인용을 확보하지 못했다. 운다스(11/1~2)는 서비스 만성절·위령의 날과 겹칠 수 있어 조사하지 않았다.",
+ "candidates": [
+  {
+   "aliases": [
+    "National Heroes' Day (Philippines)"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": "특정 인물이 아니라 \"무명 영웅\"까지 기리는 날",
+   "candidate_key": "ph-heroes-day",
+   "name_original": "Araw ng mga Bayani",
+   "name_ko": "필리핀 영웅의 날 — 8월 마지막 월요일",
+   "date_type": "annual-nth-weekday",
+   "date_rule": "08-L-MON",
+   "date_note": "공화국법 9492호(2007) 정규 공휴일 목록 \"8월 마지막 월요일\"",
+   "app_date_support": "supported",
+   "scope": "필리핀 정규 공휴일",
+   "kind": "official_holiday",
+   "kind_group": "national_official",
+   "officiality": "official_national",
+   "meaning_ko": "이름이 알려진 영웅과 이름 없이 스러진 영웅을 함께 기리는 필리핀의 정규 공휴일로, 2007년 공화국법 9492호가 \"8월 마지막 월요일\"로 정했다. 이 법은 연휴를 늘려 국내 관광을 살리려는 이른바 \"휴일 경제학\"에 따라 여러 공휴일을 가까운 월요일로 옮겼다. 지방정부는 리살 광장 등에서 헌화식을 연다.",
+   "founder_origin": "2007 공화국법 9492호(행정법전 제26조 개정)",
+   "founder_check_level": "law_text_read",
+   "founder_check": "confirmed",
+   "claims": [
+    {
+     "claim_id": "ra9492",
+     "claim_ko": "공화국법 9492: National Heroes Day = Last Monday of August",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "lawphil-9492",
+       "quote": "National Heroes Day\n-\nLast Monday of August",
+       "quote_ko": "영웅의 날 — 8월 마지막 월요일"
+      }
+     ]
+    },
+    {
+     "claim_id": "purpose",
+     "claim_ko": "알려진·알려지지 않은 모든 영웅을 기림",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "negrosnow",
+       "quote": "National Heroes Day, or Araw ng mga Bayani, is celebrated annually per Republic Act 9492, which declared the last Monday of August a national holiday honoring all known and unknown heroes of the Philippines.",
+       "quote_ko": "영웅의 날(아라우 응 마가 바야니)은 공화국법 9492에 따라 8월 마지막 월요일에 알려진·알려지지 않은 모든 영웅을 기리는 국가 공휴일이다."
+      }
+     ]
+    }
+   ],
+   "distinct_reason": "서비스·이전 후보에 없음",
+   "uncertainty": "1931년 법(Act 3827) 기원·이전 8월 마지막 일요일 규칙은 검색결과만. \"휴일 경제학\" 설명은 검색결과 수준 — 본문은 법 조문 사실만.",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "Misa de Gallo",
+    "Misa de Aguinaldo"
+   ],
+   "search_result_only": [
+    {
+     "url": "https://kualalumpurpe.dfa.gov.ph/newsroom/press-releases/692-traditional-simbang-gabi-kicks-off-in-kuala-lumpur",
+     "note": "외교부 재외공관 보도 — 403"
+    }
+   ],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": "\"밤 미사\"라는 이름인데 새벽 4시에 간다. 9일 개근하면 소원이 이뤄진다",
+   "candidate_key": "ph-simbang-gabi",
+   "name_original": "Simbang Gabi",
+   "name_ko": "심방가비 — 성탄 전 9일 새벽 미사",
+   "date_type": "annual-fixed",
+   "date_rule": "12-16",
+   "date_note": "12월 16일 시작, 24일 자정 미사로 끝나는 9일 연속 미사(첫날로 등록)",
+   "app_date_support": "supported",
+   "scope": "필리핀 전국 가톨릭 전통(공휴일 아님)",
+   "kind": "religious_tradition",
+   "kind_group": "folk_religious",
+   "officiality": "folk_tradition",
+   "meaning_ko": "12월 16일부터 24일까지 9일 동안 이어지는 필리핀 가톨릭의 성탄 준비 미사로, 이름은 \"밤 미사\"지만 대개 새벽에 드린다. 스페인 식민 시대 수사들이 농부들이 밭에 나가기 전 미사에 올 수 있게 들여왔다고 전한다. 9일을 모두 채우면 소원이 이뤄진다는 믿음이 있고, 미사 뒤엔 쌀떡 비빙카·보랏빛 찹쌀떡 푸토 붐봉을 먹는다. \"세계에서 가장 긴 크리스마스\"의 시작으로 불린다.",
+   "founder_origin": "스페인 식민기 수사들이 도입(전승)",
+   "founder_check_level": "news_read",
+   "founder_check": "not_applicable",
+   "claims": [
+    {
+     "claim_id": "nine_days",
+     "claim_ko": "12/16~24 9일 새벽 미사, 성탄 시즌 시작",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "philstar-2012",
+       "quote": "Simbang Gabi, which ironically is celebrated at dawn, is a nine-day event that runs from Dec. 16 to 24.",
+       "quote_ko": "심방가비는 역설적이게도 새벽에 드리는 9일짜리 행사로 12월 16일부터 24일까지다."
+      },
+      {
+       "evidence_id": "licas",
+       "quote": "Catholics in the Philippines on December 16 flocked to churches to commence the nine-day series of daily Masses leading up to Christmas.",
+       "quote_ko": "필리핀 가톨릭 신자들이 12월 16일 성탄까지 이어지는 9일 연속 미사를 시작하려 성당에 몰렸다."
+      }
+     ]
+    },
+    {
+     "claim_id": "origin_wish",
+     "claim_ko": "스페인 수사들이 농부를 위해 도입, 9일 개근 시 소원",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "licas",
+       "quote": "Simbang Gabi is a novena tradition that originated in the Philippines during the Spanish colonial period and was introduced by Spanish friars to allow farmers to attend Mass before heading to the fields.",
+       "quote_ko": "심방가비는 스페인 식민기 수사들이 농부가 밭에 가기 전 미사에 참석하도록 들여온 9일 기도 전통이다."
+      },
+      {
+       "evidence_id": "licas",
+       "quote": "Filipinos believe that attending all nine Masses, especially at dawn, will grant their wishes or petitions.",
+       "quote_ko": "필리핀 사람들은 아홉 번의 미사, 특히 새벽 미사에 모두 참석하면 소원이 이뤄진다고 믿는다."
+      }
+     ]
+    }
+   ],
+   "distinct_reason": "서비스 크리스마스이브·크리스마스와 별개의 9일 전례 전통",
+   "uncertainty": "기원(1587 멕시코 기원설, 600년설)은 출처 상충 — 쓰지 말 것. 소원 성취 믿음은 민간 신앙으로만.",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "Pahiyas"
+   ],
+   "search_result_only": [
+    {
+     "url": "https://alpha.pna.gov.ph/articles/1174817",
+     "note": "PNA 2022 재개 보도 — DNS 실패, www 도 522"
+    },
+    {
+     "url": "https://newsinfo.inquirer.net/603163/lucbans-pahiyas-goes-simple-uses-actual-produce",
+     "note": "인콰이어러 2016 — 403"
+    }
+   ],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": "먹을 수 있는 쌀과자로 집을 도배한다",
+   "candidate_key": "ph-pahiyas",
+   "name_original": "Pahiyas Festival",
+   "name_ko": "파히야스 — 쌀과자로 집을 꾸미는 루크반 추수 축제",
+   "date_type": "annual-fixed",
+   "date_rule": "05-15",
+   "date_note": "매년 5월 15일(성 이시도르 농부 축일)",
+   "app_date_support": "supported",
+   "scope": "필리핀 케손주 루크반 지역 축제",
+   "kind": "folk_harvest_local",
+   "kind_group": "festival_local",
+   "officiality": "regional_festival",
+   "meaning_ko": "5월 15일 농부의 수호성인 성 이시도르(산 이시드로 라브라도르) 축일에 케손주 루크반 마을 사람들이 쌀가루로 만든 알록달록한 잎 모양 과자 \"키핑\"과 볏단·과일·채소로 집 외벽을 꾸미는 추수 축제다. 이웃끼리 장식을 겨루고, 행렬 때 사제가 지나가며 집 앞 수확물에 축복한다. 같은 날 케손주 다른 마을도 저마다 이름의 축제를 연다. 근대식 축제는 1963년부터라고 소개된다.",
+   "founder_origin": "성인 축일 + 스페인 이전 추수 의례 기원설(블로그)",
+   "founder_check_level": "blog_read",
+   "founder_check": "not_applicable",
+   "claims": [
+    {
+     "claim_id": "date_saint",
+     "claim_ko": "5월 15일, 성 이시도르 축일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "nomadic",
+       "quote": "the Pahiyas Festival happening the next day on the 15th of May, the town’s tribute to San Isidro Labrador, the patron saint of farmers.",
+       "quote_ko": "다음 날 5월 15일 열리는 파히야스 축제는 농부의 수호성인 성 이시도르에게 바치는 마을의 경의다"
+      }
+     ]
+    },
+    {
+     "claim_id": "kiping",
+     "claim_ko": "키핑·볏단·과일·채소로 집 장식, 1963 근대 축제",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "nomadic",
+       "quote": "in Lucban, where houses bloom with colorful kiping, rice stalks, fruits, and vegetables",
+       "quote_ko": "루크반에서는 집집마다 알록달록한 키핑·볏단·과일·채소가 피어난다"
+      },
+      {
+       "evidence_id": "nomadic",
+       "quote": "designs that follow customs tracing back to the first modern Pahiyas Festival in 1963",
+       "quote_ko": "1963년 첫 근대 파히야스 축제로 거슬러 올라가는 관습을 따른 장식"
+      }
+     ]
+    }
+   ],
+   "listing_only": true,
+   "uncertainty": "원문이 여행 블로그 1곳뿐 → 약한 출처(목록·블로그 수준)로 분류. 사제 축복·키핑 샹들리에(아라냐) 서술은 검색결과 수준.",
+   "confidence": "medium"
+  },
+  {
+   "aliases": [
+    "Sinulog"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": "수백 년 된 봉헌 춤을 1980년 체육 교사들이 거리 퍼레이드로 바꿨다",
+   "candidate_key": "ph-sinulog",
+   "name_original": "Sinulog Festival",
+   "name_ko": "시눌로그 — 아기 예수상(산토니뇨) 축일의 세부 춤 축제",
+   "date_type": "annual-nth-weekday",
+   "date_rule": "01-3-SUN",
+   "date_note": "1월 셋째 일요일(산토니뇨 축일) — 이 규칙은 검색결과(위키백과)만, 원문 인용 미확보",
+   "date_status": "undetermined",
+   "app_date_support": "supported",
+   "scope": "필리핀 세부시 지역 축제",
+   "kind": "religious_festival_local",
+   "kind_group": "festival_local",
+   "officiality": "regional_festival",
+   "meaning_ko": "세부시가 아기 예수상 \"산토니뇨\" 축일에 맞춰 여는 춤 행렬 축제다. 오래된 봉헌 춤 \"시눌로그\"를 바탕으로 1980년 당시 체육청소년부 지역 국장 데이비드 오딜라오 주니어가 체육 교사들과 함께 공공 축제로 만들었고, 곧 세부시(플로렌티노 솔론 시장)에 넘겨 재단이 맡게 됐다. 세부를 알리고 관광객을 모으려는 목적이었다.",
+   "founder_origin": "1980 데이비드 오딜라오 주니어(체육청소년부) → 세부시",
+   "founder_check_level": "news_read",
+   "founder_check": "confirmed",
+   "claims": [
+    {
+     "claim_id": "1980_odilao",
+     "claim_ko": "1980년 오딜라오가 체육 교사들과 축제 구상",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "sunstar-odilao",
+       "quote": "In 1980, David “Boy” Odilao Jr., then a customs collector and director of the Ministry of Sports and Youth Development (MSYD), came up with the idea of holding an activity that would show Cebu’s religious and festive side.",
+       "quote_ko": "1980년 당시 세관장이자 체육청소년부 국장 데이비드 오딜라오 주니어가 세부의 종교적·축제적 면모를 보여 줄 행사를 구상했다."
+      }
+     ]
+    },
+    {
+     "claim_id": "purpose_feast",
+     "claim_ko": "1980년 공공 축제 창설, 산토니뇨 축일에 맞춤",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "philstar-2007",
+       "quote": "In 1980, a public festival was created based on the sinulog. The objective was to put Cebu on the map and attract visitors to the city.",
+       "quote_ko": "1980년 시눌로그 춤을 바탕으로 공공 축제가 만들어졌다. 세부를 알리고 방문객을 모으는 것이 목적이었다."
+      }
+     ]
+    },
+    {
+     "claim_id": "third_sunday",
+     "claim_ko": "1월 셋째 일요일 규칙",
+     "verdict": "search_result_only",
+     "evidence": []
+    }
+   ],
+   "uncertainty": "날짜 규칙(1월 셋째 일요일) 원문 미확보 → date_status undetermined. 첫 행렬 날짜(1980-01-19/20) 상충. 필리핀스타 원문에 인코딩 깨짐(Niño).",
+   "confidence": "medium"
+  }
+ ]
+}

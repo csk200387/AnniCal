@@ -1,0 +1,80 @@
+[
+  {
+    "uid": "native:pl-topienie-marzanny",
+    "id": "anv-fixed-03-21-marzanna-pl",
+    "path": "/day/03-21/marzanna-pl",
+    "title": "마르자나 보내기(폴란드) (3월 21일) 유래와 의미 | 기념일 도감",
+    "meta_description": "폴란드의 봄맞이 풍습 ‘마르자나 보내기(Topienie Marzanny)’는 3월 21일이 대표 날짜지만, 실제 행사는 그 무렵 다른 날에도 열린다. 겨울을 상징하는 짚 인형 ‘마르자나’를 강이나 연못에 던져 겨울을 떠나보내는 풍습으로, 달력상 봄의 첫날인 3월 21…",
+    "title_has_name_and_date": true,
+    "origin_full_text": true,
+    "anecdote_full_text": true,
+    "meta_description_is_origin_prefix": true,
+    "shown_date": true,
+    "source_url": true,
+    "canonical": true,
+    "hub_links_detail": true
+  },
+  {
+    "uid": "asia:cn-farmers-harvest",
+    "id": "anv-term-chubun-cn-farmers-harvest-festival",
+    "path": "/day/09-23/chubun-cn-farmers-harvest-festival",
+    "title": "중국 농민 풍수절 (9월 23일) 유래와 의미 | 기념일 도감",
+    "meta_description": "추분은 중국이 2018년부터 지키는 ‘중국 농민 풍수절(中国农民丰收节)’이다. 중국 공산당 중앙의 비준과 국무원의 비복을 거쳐 매년 추분을 농민의 명절로 정했고, 당시 농업농촌부 장관은 국가 차원에서 처음으로 농민만을 위해 만든 명절이라고 밝혔다. 2026년에는 9월…",
+    "title_has_name_and_date": true,
+    "origin_full_text": true,
+    "anecdote_full_text": true,
+    "meta_description_is_origin_prefix": true,
+    "shown_date": true,
+    "source_url": true,
+    "canonical": true,
+    "hub_links_detail": true
+  },
+  {
+    "uid": "asia:hk-fire-dragon",
+    "id": "anv-rel-chuseok-minus1-tai-hang-fire-dragon-hk",
+    "path": "/day/09-24/tai-hang-fire-dragon-hk",
+    "title": "다이항 불용춤(홍콩) (9월 24일) 유래와 의미 | 기념일 도감",
+    "meta_description": "음력 8월 14일, 중추절 전날 밤은 홍콩 코즈웨이베이 다이항(大坑)에서 향을 촘촘히 꽂은 거대한 용을 메고 마을을 도는 ‘다이항 불용춤(大坑舞火龍)’이 시작되는 날이다. 중국 국가급 무형문화유산 소개에 따르면 이 행사는 중추절 앞뒤 사흘 밤, 곧 음력 8월 14일부…",
+    "title_has_name_and_date": true,
+    "origin_full_text": true,
+    "anecdote_full_text": true,
+    "meta_description_is_origin_prefix": true,
+    "shown_date": true,
+    "source_url": true,
+    "canonical": true,
+    "hub_links_detail": true
+  },
+  {
+    "uid": "asia:jp-yama-no-hi",
+    "id": "anv-fixed-08-11-mountain-day-jp",
+    "path": "/day/08-11/mountain-day",
+    "title": "산의 날(일본) (8월 11일) 유래와 의미 | 기념일 도감",
+    "meta_description": "8월 11일은 ‘산에 친숙해질 기회를 얻고 산의 은혜에 감사한다’는 취지의 일본 국민 축일 ‘산의 날(山の日)’이다. 2014년 국민 축일법 개정으로 정해져 2016년부터 시행됐다. 일본 내각부에 따르면 2020년과 2021년에만 도쿄 올림픽·패럴림픽 일정에 맞춰 날…",
+    "title_has_name_and_date": true,
+    "origin_full_text": true,
+    "anecdote_full_text": true,
+    "meta_description_is_origin_prefix": true,
+    "shown_date": true,
+    "source_url": true,
+    "canonical": true,
+    "hub_links_detail": true
+  },
+  {
+    "uid": "asia:jp-setsubun",
+    "id": "anv-rel-ipchun-minus1-setsubun-jp",
+    "path": "/day/02-03/setsubun",
+    "title": "세쓰분(일본) (2월 3일) 유래와 의미 | 기념일 도감",
+    "meta_description": "세쓰분(節分)의 정확한 날짜는 ‘입춘 전날’이고, 2월 3일은 그중 가장 흔한 날짜를 쓴 대표 날짜다. 입춘이 태양의 위치로 정해져 실제 세쓰분은 해마다 2월 초에서 조금씩 움직이며, 일본 국립천문대 역요항으로 2021년과 2025년에는 2월 2일이었다. 일본에서는…",
+    "title_has_name_and_date": true,
+    "origin_full_text": true,
+    "anecdote_full_text": true,
+    "meta_description_is_origin_prefix": true,
+    "shown_date": true,
+    "source_url": true,
+    "canonical": true,
+    "hub_links_detail": true
+  },
+  {
+    "separated_families_day_09_24_exists": true
+  }
+]

@@ -1,0 +1,135 @@
+[
+ {
+  "seq": 1,
+  "country": "HK",
+  "language": "zh-Hant",
+  "query": "大坑舞火龍 2026 中秋 日期 農曆八月十四至十六",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T12:17:43+00:00",
+  "result_urls": [
+   "https://www.hk01.com/食玩買/60385565/中秋好去處2026-54大活動-維園中秋燈會-舞火龍-賞月-商場-市集",
+   "https://www.stheadline.com/society/3608819"
+  ],
+  "note": "2026년 개최일 9/24~26 확인용. 요약은 발견용, 원문 수집 필요"
+ },
+ {
+  "seq": 2,
+  "country": "CN",
+  "language": "zh-Hans",
+  "query": "2026年中国农民丰收节 9月23日 秋分 第九个",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T12:17:43+00:00",
+  "result_urls": [
+   "https://www.news.cn/photo/20260923/483075b36b1e4f8081addb26380e95a1/c.html",
+   "https://cbgc.scol.com.cn/news/7988274",
+   "https://www.bjnews.com.cn/detail/1789564505189566.html"
+  ],
+  "note": "2026년 실제 개최일 확인"
+ },
+ {
+  "seq": 3,
+  "country": "ES",
+  "language": "es",
+  "query": "Ribarteme Santa Marta ataúdes 2025 procesión obispado prohibición",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T12:18:03+00:00",
+  "result_urls": [
+   "https://revistas.rcaap.pt/etnografica/article/view/44123",
+   "https://wildhunt.org/2025/08/priest-calls-coffin-procession-witchcraft-and-demands-it-be-stopped.html",
+   "https://www.laestrella.com.pa/vida-y-cultura/curiosidades/pueblo-espanol-ataudes-salen-procesion-celebrar-vida-JELE495639",
+   "https://vigoe.es/?p=408407"
+  ],
+  "note": "관 행렬 현재 중단 여부 재확인"
+ },
+ {
+  "seq": 4,
+  "country": "JP",
+  "language": "ja",
+  "query": "2028年 節分 2月3日 立春 国立天文台",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T12:18:04+00:00",
+  "result_urls": [
+   "https://eco.mtk.nao.ac.jp/koyomi/yoko/2027/rekiyou272.html",
+   "https://eco.mtk.nao.ac.jp/koyomi/yoko/2026/rekiyou262.html"
+  ],
+  "note": "2028년 공식 역요항 존재 여부 — 2027년분까지만 발표"
+ },
+ {
+  "seq": 5,
+  "country": "JP",
+  "language": "ja",
+  "query": "国立天文台 暦計算室 二十四節気 計算 2028年 立春",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T12:18:50+00:00",
+  "result_urls": [
+   "https://eco.mtk.nao.ac.jp/koyomi/yoko/2027/rekiyou272.html"
+  ],
+  "note": "2028년 暦要項 미발표 재확인(2027년판까지)"
+ },
+ {
+  "seq": 6,
+  "country": "MN",
+  "language": "mn",
+  "query": "Үндэсний их баяр наадам 2026 амралтын өдөр 7 сарын 11-15",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T12:18:50+00:00",
+  "result_urls": [
+   "https://ikon.mn/n/3ohf",
+   "https://gogo.mn/r/d362qx",
+   "https://ikon.mn/n/3occ"
+  ],
+  "note": "법정 휴일 기간·2026 휴무 확인"
+ },
+ {
+  "seq": 7,
+  "country": "CN",
+  "language": "zh-Hans",
+  "query": "中国航天日 设立 4月24日 东方红一号 1970年4月24日 发射 国家航天局",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T14:12:32+00:00",
+  "result_urls": [
+   "https://cn.chinadaily.com.cn/a/202104/24/WS60836039a3101e7ce974b9aa.html",
+   "https://www.news.cn/politics/20260424/84e61f80d3a34e86a4128a91288a19ea/c.html",
+   "https://www.chinanews.com.cn/gn/2024/04-24/10204679.shtml",
+   "https://china.zjol.com.cn/gnxw/201604/t20160424_1438375.shtml"
+  ],
+  "note": "날짜 이유(둥팡훙 1호 발사일) 원문 확보용 — 원본 배치 미인용"
+ },
+ {
+  "seq": 8,
+  "country": "HK",
+  "language": "zh-Hant",
+  "query": "大坑舞火龍 2026 9月24日 至 26日 大坑坊眾福利會 旅發局",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T14:14:59+00:00",
+  "result_urls": [
+   "https://www.ihchina.cn/project_details/14936/",
+   "https://www.hk01.com/食玩買/60385565/中秋好去處2026-54大活動-維園中秋燈會-舞火龍-賞月-商場-市集",
+   "https://www.stheadline.com/society/3608819"
+  ],
+  "note": "주최 측·공식 2026 일정 재확인 — 공식 공고 미발견, 국가무형유산 사이트 확보"
+ },
+ {
+  "seq": 9,
+  "country": "TH",
+  "language": "en",
+  "query": "UNESCO intangible cultural heritage \"Songkran in Thailand, traditional Thai New Year festival\" 13 April bathing Buddha images elders",
+  "tool": "WebSearch(standard)",
+  "executed_by": "Claude Code",
+  "logged_at": "2026-10-12T14:21:55+00:00",
+  "result_urls": [
+   "https://thailand.prd.go.th/en/content/category/detail/id/48/iid/239093",
+   "https://www.tatnews.org/2023/12/songkran-in-thailand-declared-an-unesco-intangible-cultural-heritage/",
+   "https://www.khaosodenglish.com/news/2023/12/06/songkran-soft-power-is-now-a-unesco-intangible-cultural-heritage/"
+  ],
+  "note": "송끄란 풍습(불상·어른께 물 붓기) 원문 확보 — 원본 배치 미인용"
+ }
+]

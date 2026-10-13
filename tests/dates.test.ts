@@ -119,6 +119,16 @@ describe('annual-tabulated 범위', () => {
     expect(resolveOccurrenceSafe(a, max + 1)).toBeNull()
   })
 
+  it('범위 밖 오류는 그 키의 수록 범위를 알린다 (지역 키는 2069까지)', () => {
+    const a = mk({ date: 'chubun-cn', dateType: 'annual-tabulated' })
+    expect(resolveOccurrence(a, 2069)).toBeInstanceOf(Date)
+    let err: unknown
+    try { resolveOccurrence(a, 2070) } catch (e) { err = e }
+    expect(err).toBeInstanceOf(OutOfTableRangeError)
+    expect([(err as OutOfTableRangeError).min, (err as OutOfTableRangeError).max]).toEqual([2020, 2069])
+    expect(tabulatedYearRange()).toEqual({ min: 2020, max: 2050 }) // 전역은 교집합 그대로
+  })
+
   it('범위는 모든 row 의 교집합이다', () => {
     const { min, max } = tabulatedYearRange()
     expect(min).toBeLessThan(max)

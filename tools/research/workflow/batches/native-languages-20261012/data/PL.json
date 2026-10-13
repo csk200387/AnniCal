@@ -1,0 +1,104 @@
+{
+ "country": "PL",
+ "country_ko": "폴란드",
+ "search_language": "pl",
+ "sources": {
+  "natgeo-pl": "National Geographic Polska",
+  "radiokrakow": "Radio Kraków",
+  "wroclaw-pl": "wroclaw.pl (브로츠와프 시 포털)",
+  "rmf24": "RMF24 (RMF FM 뉴스)",
+  "ox-pl-witaj-wiosno": "wiadomosci.ox.pl (체신 실레시아 지역 매체 PDF, Kadłubiec『체신 실레시아 민속문화 소사전』 인용)",
+  "eska": "ESKA.pl (라디오 ESKA 뉴스)"
+ },
+ "candidates": [
+  {
+   "candidate_key": "pl-andrzejki",
+   "name_original": "Andrzejki",
+   "name_ko": "안제이키 — 성 안드레아 전야의 연애 점치는 밤",
+   "aliases": ["wieczór andrzejkowy", "lanie wosku"],
+   "date_type": "annual-fixed",
+   "date_rule": "11-29",
+   "date_note": "11월 29일 밤~30일(성 안드레아 축일 전야). 서비스 날짜는 시작일인 11-29 로 표기. 요즘은 11월 마지막 주말에 모이는 경우도 많다고 원문이 밝힘",
+   "scope": "폴란드 전국 민속(비공식)",
+   "kind": "folklore_relationship",
+   "officiality": "folk_tradition",
+   "meaning_ko": "성 안드레아 축일 전날인 11월 29일 밤, 녹인 촛농을 열쇠 구멍으로 찬물에 부어 굳은 모양의 그림자로 미래의 배우자를 점치는 폴란드 풍습이다. 원래는 미혼 처녀들이 남편감의 이름을 알아내려던 점이었고, 대림절 금욕 직전 마지막으로 크게 노는 밤이기도 하다. 1557년 마르친 비엘스키의 기록에 이미 이 놀이가 나온다고 소개된다.",
+   "quirk": "열쇠 구멍으로 촛농을 붓고 벽에 비친 그림자를 해석한다. 사과 껍질을 뒤로 던져 이름 첫 글자를 맞히기도 한다",
+   "founder_origin": "민속. 1557년 비엘스키 기록이 첫 언급으로 소개되나 당시엔 점보다 '대림절 전 마지막 놀이'였다는 설명. 그리스어·슬라브 신앙 기원설은 가설",
+   "founder_check_level": "folklore_not_history",
+   "claims": [
+    {"claim_id": "date", "claim_ko": "11월 29일에서 30일로 넘어가는 밤", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "natgeo-pl", "quote": "Święto przypada na noc z 29 na 30 listopada.", "quote_ko": "이 날은 11월 29일에서 30일로 넘어가는 밤이다."}]},
+    {"claim_id": "wax", "claim_ko": "열쇠 구멍으로 촛농 붓기가 가장 유명", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "natgeo-pl", "quote": "Najbardziej znane pozostało chyba jednak lanie wosku ze świecy przez dziurkę od klucza.", "quote_ko": "가장 잘 알려진 것은 아마 양초 촛농을 열쇠 구멍으로 붓는 것이다."}]},
+    {"claim_id": "first_record_1557", "claim_ko": "1557년 비엘스키 기록, 당시엔 대림절 전 놀이", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "natgeo-pl", "quote": "Z zapisków Marcina Bielskiego – historyka i pisarza – wynika, że andrzejkowe zabawy były znane już w 1557 r.", "quote_ko": "역사가이자 작가인 마르친 비엘스키의 기록에 따르면 안제이키 놀이는 이미 1557년에 알려져 있었다."}]}
+   ],
+   "search_result_only": [
+    {"url": "https://www.radiokrakow.pl/audycje/kawalerze-gdzie-jestes-wielka-moc-andrzejkowych-wrozb/", "note": "HTTP 200 이지만 본문 56자(빈 본문) — 원문 확인으로 쓰지 않음"}
+   ],
+   "uncertainty": "원문 1곳(내셔널지오그래픽 폴란드)만 본문 확인. 그리스·슬라브 기원설은 가설이므로 본문에 사실로 쓰지 말 것. 서비스 날짜는 시작 밤 기준 11-29 로 잡았으나 '29~30일 밤'임을 본문에 밝혀야 한다.",
+   "confidence": "medium"
+  },
+  {
+   "candidate_key": "pl-dzien-chlopaka",
+   "name_original": "Dzień Chłopaka",
+   "name_ko": "폴란드 소년·남자친구의 날",
+   "aliases": ["Dzień Chłopca"],
+   "date_type": "annual-fixed",
+   "date_rule": "09-30",
+   "date_note": "9월 마지막 날. 원문 2곳 일치",
+   "scope": "폴란드 비공식(학교·연인·직장)",
+   "kind": "relationship",
+   "officiality": "unofficial",
+   "meaning_ko": "9월 30일 폴란드에서 여성들이 남자친구·남학생·아버지·동료 남성에게 작은 선물과 축하를 건네는 비공식 기념일이다. 3월 8일 여성의 날에 대한 '답례' 성격으로 학교에서 특히 챙긴다. 기원은 불분명하며, 폴란드 언론이 국제 남성의 날(11월 19일) 유래를 잘못 갖다 붙이는 경우가 있어 주의가 필요하다.",
+   "quirk": "공식 근거가 없는데도 학교 행사로 굳어진 '여성의 날 답례' 날",
+   "founder_origin": "미상. 원문 2곳이 모두 1999년 트리니다드토바고의 '국제 남성의 날' 기원을 갖다 붙이는데, 그것은 11월 19일의 다른 기념일이다 → 신뢰 불가",
+   "founder_check_level": "origin_unreliable_conflated",
+   "claims": [
+    {"claim_id": "date", "claim_ko": "폴란드에서 매년 9월 30일", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "wroclaw-pl", "quote": "Dzień Chłopaka to święto, które w Polsce co roku obchodzimy 30 września.", "quote_ko": "소년의 날은 폴란드에서 매년 9월 30일에 기념하는 날이다."},
+                  {"evidence_id": "rmf24", "quote": "W Polsce Dzień Chłopaka przypada 30 września.", "quote_ko": "폴란드에서 소년의 날은 9월 30일이다."}]},
+    {"claim_id": "origin_conflated", "claim_ko": "기원 설명이 국제 남성의 날(11/19, 1999 트리니다드토바고)과 뒤섞임", "verdict": "conflicting",
+     "evidence": [{"evidence_id": "wroclaw-pl", "quote": "Dzień Chłopaka pierwszy raz na świecie był celebrowany 19 listopada 1999 r.", "quote_ko": "소년의 날은 1999년 11월 19일 세계에서 처음 기념됐다."},
+                  {"evidence_id": "rmf24", "quote": "To relatywnie młode święto, ustanowione w 1999 roku z inicjatywy ONZ i grupy aktywistów w Trynidadzie i Tobago.", "quote_ko": "1999년 유엔과 트리니다드토바고 활동가들의 주도로 만들어진 비교적 새로운 기념일이다."}]}
+   ],
+   "search_result_only": [
+    {"url": "https://www.notino.pl/prezent-na-dzien-chlopca/", "note": "'여성의 날에 대한 답례'·'기원 불명확' — 상업 사이트, 원문 미수집"}
+   ],
+   "uncertainty": "기원 서술은 쓰지 말 것(원문 2곳 모두 다른 기념일과 혼동). 이전 quirky 배치 후보 '남자친구의 날'(미국, 10/3)과 대상이 겹치나 나라·날짜가 달라 별개로 판정.",
+   "related_prior_candidates": ["quirky-discovery-20261012:national-boyfriend-day"],
+   "confidence": "medium"
+  },
+  {
+   "candidate_key": "pl-topienie-marzanny",
+   "name_original": "Topienie Marzanny",
+   "name_ko": "마르자나 인형 물에 빠뜨리기 — 겨울을 익사시키는 날",
+   "aliases": ["Marzanna", "Jare Święto"],
+   "date_type": "annual-fixed",
+   "date_rule": "03-21",
+   "date_note": "현대 폴란드 학교 행사는 '달력상 봄의 첫날' 3월 21일. 원문(ESKA)이 '규칙은 아니다'라고 밝히고, 옛 의례는 춘분 무렵 며칠간이었다고 설명",
+   "scope": "폴란드 전국 학교·어린이 행사(지역별 차이 큼)",
+   "kind": "folklore_weird_behavior",
+   "officiality": "folk_tradition",
+   "meaning_ko": "봄의 첫날로 여기는 3월 21일, 폴란드 아이들이 짚과 헌 옷으로 만든 겨울의 상징 인형 '마르자나'를 강이나 연못에 던져 겨울을 쫓는 풍습이다. 마르자나는 슬라브 신앙의 겨울·죽음의 여신으로 소개된다. 다만 체신 실레시아 민속 사전은 이 지역의 3월 21일 인형 익사는 20세기 후반 텔레비전과 학교가 퍼뜨린 '2차적' 풍습이라고 지적한다.",
+   "quirk": "인형을 물에 던진 뒤 뒤돌아보거나 넘어지면 병에 걸린다는 미신이 따라붙었다",
+   "founder_origin": "슬라브 민속(봄맞이 의례). '고대 슬라브 전통'과 '20세기 후반 TV·학교로 확산된 2차 풍습' 서술이 공존 — 지역마다 다름",
+   "founder_check_level": "folklore_conflicting",
+   "claims": [
+    {"claim_id": "date_school", "claim_ko": "오늘날 주로 3월 21일 봄 첫날, 단 규칙은 아님", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "eska", "quote": "Dziś najczęściej dzieci odprowadzające kukłę marzanny można spotkać w pierwszy dzień wiosny - 21. marca, ale nie jest to regułą.", "quote_ko": "오늘날 마르자나 인형을 끌고 가는 아이들은 대개 봄의 첫날인 3월 21일에 볼 수 있지만, 규칙은 아니다."}]},
+    {"claim_id": "goddess", "claim_ko": "마르자나는 슬라브 신앙의 겨울·죽음의 여신", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "eska", "quote": "Kukła przygotowywana przez dzieci jest podobizną Marzanny, czyli starosłowiańskiej bogini zimy i śmierci.", "quote_ko": "아이들이 만드는 인형은 고대 슬라브의 겨울·죽음의 여신 마르자나의 형상이다."}]},
+    {"claim_id": "secondary_custom", "claim_ko": "체신 실레시아에선 3월 21일 익사는 20세기 후반 TV가 퍼뜨린 2차 풍습", "verdict": "conflicting",
+     "evidence": [{"evidence_id": "ox-pl-witaj-wiosno", "quote": "21 marca, w dzień początku wiosny, jest zwyczajem wtórnym, nie autentycznym, upowszechnianym od 2 poł.", "quote_ko": "3월 21일 봄의 시작일에 (인형을 익사시키는 것은) 고유하지 않은 2차적 풍습으로, 20세기 후반부터 퍼졌다."}]}
+   ],
+   "search_result_only": [
+    {"url": "https://www.se.pl/wiadomosci/polska/topienie-marzanny-aa-uYB1-UAPz-ba6p.html", "note": "15세기 첫 언급 주장 — 원문 미수집"}
+   ],
+   "uncertainty": "'고대부터 3월 21일'이라고 단정하면 안 된다. 날짜는 현대 학교 관행 기준이며 원문 스스로 '규칙 아님'이라 함. 마르자나 어원(mar=죽음)은 대중 매체 설명. 같은 3월 21일에 '땡땡이의 날(Dzień Wagarowicza)'이 겹친다(별도 후보).",
+   "confidence": "medium"
+  }
+ ],
+ "limits": "부활절 월요일 물 뿌리기(Śmigus-dyngus)와 기름진 목요일(Tłusty Czwartek, 부활절 연동·음식)은 부활절 anchor 가 없어 등록 불가라 원문 수집을 하지 않았다."
+}

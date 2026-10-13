@@ -1,0 +1,329 @@
+{
+ "country": "HK",
+ "country_ko": "홍콩",
+ "search_language": "zh-Hant",
+ "sources": {
+  "ourchinastory-1132": "當代中國 ourchinastory (홍콩 매체)",
+  "nownews-6375415": "NOWnews 今日新聞 (대만)",
+  "hku-custom01": "香港大學 中國文化 자료집 (HKU)",
+  "lcsd-2025": "康樂及文化事務署 (홍콩 레저문화서비스부)",
+  "hk01-87992": "香港01 (2017, 정부신문처 사진)",
+  "hk01-60351417": "香港01 (2026 안내)",
+  "pts-394749": "公視新聞網 PNN (대만 공영방송)",
+  "cache-1126": "CACHe 賽馬會香港非物質文化遺產公眾教育計劃",
+  "ourchinastory-4023": "當代中國 ourchinastory",
+  "gov-hk-holiday-2026": "GovHK 香港政府一站通 (2026 공중휴일표)",
+  "cityu-2026": "香港城市大學 (2026-07-01)"
+ },
+ "summary_ko": "홍콩은 민속 3건(경칩 \"다샤오런\"·청차우 빵산 축제·다이항 불용춤)과 공휴일 1건(특구 성립 기념일)을 찾았다. 셋 다 날짜가 절기·음력(경칩·불탄일·추석)에 붙어 있어 서비스의 기존 표 키를 빌릴 수 있지만 UTC+8 기준 날짜와 한국 표의 차이는 검수 필요. 다이항 불용춤과 청차우 태평청초는 2011년 중국 국가급 무형문화유산으로 등재됐다(원문).",
+ "limits": "홍콩 정부 비물질문화유산 목록 원문은 수집하지 않았다(다샤오런 등재 여부는 매체 표현만). 2026 레저문화서비스부 빵산 PDF 는 404. 천후탄(음력 3/23)·우란승회(음력 7월)는 대만 마쭈·서비스 백중과 겹쳐 조사하지 않았다.",
+ "candidates": [
+  {
+   "aliases": [
+    "打小人",
+    "祭白虎",
+    "Villain hitting"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [
+    "anv-term-gyeongchip-kr"
+   ],
+   "related_prior_candidates": [],
+   "quirk": "돈을 내고 남이 대신 미운 사람을 신발로 때려 준다",
+   "candidate_key": "hk-villain-hitting",
+   "name_original": "驚蟄打小人",
+   "name_ko": "경칩 다샤오런 — 고무신으로 \"소인배\"를 때리는 날",
+   "date_type": "annual-tabulated",
+   "date_rule": "gyeongchip",
+   "date_rule_folk": "경칩(태양 황경 345°) 당일과 전후 며칠",
+   "date_note": "경칩은 양력 3월 5일 또는 6일(원문). 서비스 gyeongchip 표는 한국 표준시 기준이라 홍콩(UTC+8)과 날짜가 다를 수 있는 해는 검수 필요. 경칩 앞뒤 일주일 내내 성업.",
+   "app_date_support": "supported_tabulated",
+   "scope": "홍콩(완차이·코즈웨이베이 鵝頸橋 고가도로 아래가 대표)·마카오·광둥 민속",
+   "kind": "folk_ritual",
+   "kind_group": "folk_religious",
+   "officiality": "folk_tradition",
+   "meaning_ko": "경칩 무렵 홍콩 코즈웨이베이 고가도로 \"어경교(鵝頸橋)\" 아래에서 할머니 무당(神婆)에게 돈을 내고, 미운 사람(소인배)의 사진이나 이름을 적은 종이 인형을 고무신으로 두들기며 주문을 외우게 하는 풍습이다. 첫 천둥에 깨어난 해충과 말썽을 막으려 백호 종이 인형에 돼지비계를 먹이던 \"제백호(祭白虎)\"에서 발전했다고 전한다. 2009년 미국 타임지가 \"아시아 최고의 것\" 가운데 하나로 꼽았다.",
+   "founder_origin": "제정자 없음(광둥계 민속). 경칩 제백호 의식에서 변형됐다는 설명(홍콩대 자료)",
+   "founder_check_level": "folklore_university_material_read",
+   "founder_check": "not_applicable",
+   "claims": [
+    {
+     "claim_id": "gooseneck",
+     "claim_ko": "매년 경칩 코즈웨이베이 어경교에 사람이 몰림",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "ourchinastory-1132",
+       "quote": "在香港銅鑼灣鵝頸橋，每年驚蟄這天都擠滿了人前來找神婆「打小人」，祈求驅走霉運",
+       "quote_ko": "홍콩 코즈웨이베이 어경교에는 매년 경칩날 신당 할머니를 찾아 \"다샤오런\"을 하려는 사람이 몰려 액운을 쫓기를 빈다"
+      },
+      {
+       "evidence_id": "hku-custom01",
+       "quote": "在驚蟄前後的一星期，鵝頸橋一帶幾乎擠滿了人",
+       "quote_ko": "경칩 앞뒤 일주일 동안 어경교 일대는 사람으로 거의 꽉 찬다"
+      }
+     ]
+    },
+    {
+     "claim_id": "jingzhe_date",
+     "claim_ko": "경칩은 24절기 세 번째, 양력 3월 5일 또는 6일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "ourchinastory-1132",
+       "quote": "驚蟄，是中國文化二十四節氣中第3個節氣，每年陽曆3月5日或6日。",
+       "quote_ko": "경칩은 24절기 중 세 번째 절기로 매년 양력 3월 5일 또는 6일이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "white_tiger",
+     "claim_ko": "제백호에서 발전 — 경칩을 \"백호개구일\"이라고도 부름",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "hku-custom01",
+       "quote": "驚蟄又可以稱為「白虎開",
+       "quote_ko": "경칩은 \"백호가 입을 여는 날\"이라고도 불린다"
+      },
+      {
+       "evidence_id": "ourchinastory-1132",
+       "quote": "打小人就是祭老虎發展出來的習俗。",
+       "quote_ko": "다샤오런은 호랑이 제사에서 발전한 풍습이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "time_2009",
+     "claim_ko": "2009년 타임지가 \"아시아 최고\" 중 하나로 선정",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "hku-custom01",
+       "quote": "2009 年，美國《時代》雜誌選出「打小人」為亞洲最佳",
+       "quote_ko": "2009년 미국 타임지가 \"다샤오런\"을 아시아 최고로 선정"
+      }
+     ]
+    }
+   ],
+   "distinct_reason": "서비스 경칩(절기) 항목과 같은 날의 홍콩 고유 민속",
+   "uncertainty": "홍콩 정부 무형유산 \"목록\" 등재 표현은 매체마다 다르다(등재/초보 등재) — 정부 원문 미확인이라 쓰지 말 것. 무당의 주문 예시는 매체 인용으로 본문 사용 주의(비하·질병 표현 포함).",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "包山節",
+    "Cheung Chau Bun Festival"
+   ],
+   "search_result_only": [
+    {
+     "url": "https://lcsd.gov.hk/en/bun/common/pdf/2025/bsc_p_chi.pdf",
+     "note": "레저문화서비스부 2025 대회 안내 PDF — 404"
+    }
+   ],
+   "related_existing_ids": [
+    "anv-lunar-buddhas-birthday-kr"
+   ],
+   "related_prior_candidates": [],
+   "quirk": "씨족끼리 빵을 빼앗던 풍습이 빵탑 등반 스포츠가 됐다. 타임지 \"세계 10대 괴짜 축제\"",
+   "candidate_key": "hk-bun-festival",
+   "name_original": "長洲太平清醮（搶包山）",
+   "name_ko": "청차우 태평청초 — 14m 빵산에 오르는 섬 축제",
+   "date_type": "annual-tabulated",
+   "date_rule": "buddhas-birthday",
+   "date_rule_folk": "2001년 이후 불탄일(음력 4/8)에 고정, 축제는 음력 4/5~4/9 전후 며칠",
+   "date_note": "2026년 5월 21~25일(음력 4/5~4/9), 빵산 오르기 결승 5월 25일 0시(원문). 2001년 이전엔 북제(北帝)에게 점괘로 날짜를 물어 정했다. 서비스 buddhas-birthday 표는 한국 기준(2026-05-24) — 홍콩 불탄 공휴일과 같은 날인지 해마다 검수 필요.",
+   "app_date_support": "supported_tabulated",
+   "scope": "홍콩 청차우섬 지역 축제(국가급 무형문화유산)",
+   "kind": "religious_festival_local",
+   "kind_group": "festival_local",
+   "officiality": "regional_festival",
+   "meaning_ko": "홍콩 청차우섬에서 해마다 불탄일 무렵 여는 도교 제례 축제로, 아이들을 공중에 띄운 듯 꾸미는 \"피우사이(飄色)\" 행렬과 평안 빵 9,000개를 매단 14m 철골 \"빵산\"을 3분 안에 기어올라 빵을 따는 시합이 유명하다. 청나라 때 역병이 돌자 주민이 북제신(北帝)상을 모시고 행렬해 병을 물리쳤다는 이야기에서 시작됐다고 전한다. 원래 날짜는 북제에게 점괘로 물어 정했지만 2001년 불탄일과 겹친 뒤로 불탄일에 고정됐다.",
+   "founder_origin": "청대 역병 퇴치 의례 전승(전설). 2011 국가급 무형유산",
+   "founder_check_level": "folklore_news_read",
+   "founder_check": "not_applicable",
+   "claims": [
+    {
+     "claim_id": "date_rule_2001",
+     "claim_ko": "예전엔 북제에게 점쳐 날짜 결정, 2001년부터 불탄일 고정. 2026년 5/21~25",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "hk01-60351417",
+       "quote": "以往舉辦日子全憑向北帝問卜決定，自2001年與佛誕撞期並向北帝請示後，節慶才正式固定於每年佛誕（農曆四月初八）舉行。",
+       "quote_ko": "예전엔 북제에게 점쳐 날을 정했으나 2001년 불탄일과 겹쳐 북제께 여쭌 뒤 매년 불탄일(음력 4/8)로 고정했다."
+      },
+      {
+       "evidence_id": "hk01-60351417",
+       "quote": "這項傳統節不但是香港極具代表性的民間活動，更是國家級非物質文化遺產。",
+       "quote_ko": "이 축제는 홍콩의 대표 민간 행사이자 국가급 무형문화유산이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "plague_origin",
+     "claim_ko": "청대 역병 때 북제신 행렬로 병을 물리쳤다는 전승",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "hk01-87992",
+       "quote": "相傳清朝時代瘟疫為患，居民於是向北帝神祈福，並奉北帝神像遊行，疫症才得以消除",
+       "quote_ko": "전하는 말로 청대에 역병이 돌자 주민이 북제신께 빌고 신상을 모시고 행렬해 병이 사라졌다"
+      }
+     ]
+    },
+    {
+     "claim_id": "bun_scramble",
+     "claim_ko": "씨족 간 빵 빼앗기 → 14m·9,000개 빵산 3분 등반 경기",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "hk01-87992",
+       "quote": "這個習俗後來發展成攀爬好手的年度「搶包山」比賽，選手會登上14米高包山，搶奪山上9,000個平安包，限時3分鐘內取得最高分數的人勝出。",
+       "quote_ko": "이 풍습이 등반 고수들의 연례 빵산 오르기 시합이 돼 14m 빵산에서 9,000개 평안 빵을 3분 안에 따 최고점을 낸 사람이 이긴다."
+      }
+     ]
+    },
+    {
+     "claim_id": "time_weird",
+     "claim_ko": "타임지 세계 10대 괴짜 축제",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "hk01-87992",
+       "quote": "「搶包山」被《時代雜誌》評選為世界10大古怪節日之一。",
+       "quote_ko": "빵산 오르기는 타임지가 꼽은 세계 10대 괴짜 축제 중 하나다."
+      }
+     ]
+    }
+   ],
+   "distinct_reason": "같은 불탄일이지만 석가탄신과 무관한 도교 북제 제례·지역 축제(원문: \"兩者並無關係\")",
+   "uncertainty": "1978년 붕괴 사고 중단·2005년 재개는 검색결과만. 날짜 근거는 홍콩01 한 매체(두 기사). 주 행사일(행렬=불탄일, 결승=다음 날 0시)을 등록 시 구분해야 함.",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "Tai Hang Fire Dragon Dance"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [
+    "anv-lunar-chuseok-kr"
+   ],
+   "related_prior_candidates": [],
+   "quirk": "역병을 쫓으려고 향불 용을 메고 돈다 — 140년 넘게 이어진 \"방역 축제\"",
+   "candidate_key": "hk-fire-dragon",
+   "name_original": "大坑舞火龍",
+   "name_ko": "다이항 불용춤 — 향 7만 개 꽂은 용이 추석 밤을 도는 축제",
+   "date_type": "annual-tabulated",
+   "date_rule": "chuseok",
+   "date_rule_folk": "음력 8월 14~16일 사흘 밤(추석 전후)",
+   "date_note": "서비스 chuseok 표(음력 8/15, 한국 기준)를 가운데 날로 쓸 수 있으나 사흘 행사. 중국 음력과 한국 음력이 어긋나는 해는 검수 필요.",
+   "app_date_support": "supported_tabulated",
+   "scope": "홍콩 코즈웨이베이 다이항(大坑) 지역 축제(국가급 무형문화유산)",
+   "kind": "folk_ritual_local",
+   "kind_group": "festival_local",
+   "officiality": "regional_festival",
+   "meaning_ko": "추석 전후 음력 8월 14~16일 밤, 향을 빽빽이 꽂은 거대한 짚 용을 수백 명이 메고 홍콩 다이항 골목을 돌며 폭죽을 터뜨리는 축제다. 1880년 객가 마을이던 다이항에 태풍 뒤 역병이 돌자, 마을 원로가 꿈에 부처의 계시를 받아 추석에 불용을 메고 돌았더니 병이 그쳤다는 전설에서 시작됐다. 2011년 청차우 태평청초 등과 함께 중국 국가급 무형문화유산에 올랐다.",
+   "founder_origin": "1880년 역병 전설(구전). 2011 국가급 무형유산",
+   "founder_check_level": "folklore_heritage_project_read",
+   "founder_check": "not_applicable",
+   "claims": [
+    {
+     "claim_id": "origin_1880",
+     "claim_ko": "1880년 역병과 꿈 계시 전설",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "cache-1126",
+       "quote": "大坑火龍始於一八八零年，當時大坑區為一客家農村。",
+       "quote_ko": "다이항 불용은 1880년에 시작됐으며 당시 다이항은 객가 농촌이었다."
+      },
+      {
+       "evidence_id": "ourchinastory-4023",
+       "quote": "相傳在1880年村莊發生了一場嚴重的瘟疫，很多居民病逝。",
+       "quote_ko": "1880년 마을에 심한 역병이 돌아 많은 주민이 숨졌다고 전한다."
+      }
+     ]
+    },
+    {
+     "claim_id": "dates",
+     "claim_ko": "추석 전후 사흘 밤(음력 8/14~16)",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "ourchinastory-4023",
+       "quote": "在中秋節前後（農曆八月十四至十六日）晚上，於村中舞動火龍遊走各處",
+       "quote_ko": "추석 전후(음력 8월 14~16일) 밤에 마을에서 불용을 메고 돈다"
+      },
+      {
+       "evidence_id": "cache-1126",
+       "quote": "每逄中秋節前後三晚，都會在區內舞火龍和慶祝中秋節。",
+       "quote_ko": "추석 앞뒤 사흘 밤 지역에서 불용춤을 추며 추석을 축하한다."
+      }
+     ]
+    },
+    {
+     "claim_id": "ich_2011",
+     "claim_ko": "2011년 국가급 무형문화유산",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "ourchinastory-4023",
+       "quote": "在2011年今日（5月23日），與長洲太平清醮、大澳端午龍舟遊涌，以及香港潮人盂蘭勝會，齊齊被列為國家級非物質文化遺產。",
+       "quote_ko": "2011년 5월 23일 청차우 태평청초·타이오 단오 용선·조주인 우란승회와 함께 국가급 무형문화유산에 올랐다."
+      }
+     ]
+    }
+   ],
+   "distinct_reason": "같은 음력 8/15 무렵이지만 홍콩 한 동네의 역병 퇴치 의례 축제",
+   "uncertainty": "역병·꿈 계시 이야기는 구전 전설 — 사실로 단정 금지(뱀을 죽였다는 세부는 출처별 차이). 향 개수·용 길이 수치는 이번 원문에서 인용 안 함(제목의 \"7만\" 은 쓰지 말 것).",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "HKSAR Establishment Day",
+    "七一"
+   ],
+   "search_result_only": [
+    {
+     "url": "https://www.cityu.edu.hk/zh-hk/media/news/2026/07/01/flag-raising-ceremony",
+     "note": "시티대 2026 승기식(29주년) — 본문이 비어 수집 실패"
+    }
+   ],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": null,
+   "candidate_key": "hk-sar-establishment-day",
+   "name_original": "香港特別行政區成立紀念日",
+   "name_ko": "홍콩 특별행정구 성립 기념일",
+   "date_type": "annual-fixed",
+   "date_rule": "07-01",
+   "date_note": "매년 7월 1일 공중휴일",
+   "app_date_support": "supported",
+   "scope": "홍콩 공중휴일",
+   "kind": "official_holiday",
+   "kind_group": "national_official",
+   "officiality": "official_national",
+   "meaning_ko": "1997년 7월 1일 홍콩 주권이 영국에서 중국으로 넘어가 특별행정구가 세워진 날을 기념하는 홍콩의 공중휴일이다. 정부·대학 등이 국기 게양식을 연다. 2026년이 29주년이다.",
+   "founder_origin": "공중휴일 조례(원문 미수집)",
+   "founder_check_level": "official_holiday_list_read",
+   "founder_check": "partial",
+   "claims": [
+    {
+     "claim_id": "holiday_list",
+     "claim_ko": "홍콩 정부 2026 공중휴일표에 7월 1일 특구 성립 기념일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "gov-hk-holiday-2026",
+       "quote": "香港特別行政區成立紀念日\n7月1日",
+       "quote_ko": "홍콩 특별행정구 성립 기념일 7월 1일"
+      }
+     ]
+    }
+   ],
+   "uncertainty": "정부 휴일표 1곳만 원문 → 단일 출처. \"반환/회귀\" 표현은 정치적 함의가 있어 본문은 사실(주권 이양·특구 성립)만. 이번 조사는 휴일 지위만 확인.",
+   "confidence": "high"
+  }
+ ]
+}

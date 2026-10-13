@@ -1,0 +1,41 @@
+{
+ "country": "PL",
+ "country_ko": "폴란드",
+ "search_language": "pl",
+ "sources": {
+  "dzieje-pl": "dzieje.pl (폴란드 역사 포털, 문화유산부 산하 역사기관 운영)",
+  "eska-2025": "ESKA.pl (2025)",
+  "ox-pl-witaj-wiosno": "wiadomosci.ox.pl (체신 실레시아 지역 매체 PDF)"
+ },
+ "candidates": [
+  {
+   "candidate_key": "pl-dzien-wagarowicza",
+   "name_original": "Dzień Wagarowicza",
+   "name_ko": "땡땡이의 날 — 봄 첫날 학생들이 수업을 빼먹는 날",
+   "aliases": ["wagary"],
+   "date_type": "annual-fixed",
+   "date_rule": "03-21",
+   "date_note": "달력상 봄의 첫날 3월 21일",
+   "scope": "폴란드(리투아니아 학생도) 비공식 학생 풍습 — 공식 휴교일 아님",
+   "kind": "weird_behavior",
+   "officiality": "unofficial",
+   "meaning_ko": "3월 21일 봄의 첫날, 폴란드 학생들이 암묵적으로 수업을 빼먹고 시내 약속 장소에 모여 노는 '땡땡이의 날'이다. 공산 정권 시절엔 이날이 기념 강연과 마르자나 인형 익사 정도였는데, 1980년대 중반부터 수업 빼먹기가 불문율 같은 전통이 됐고 반체제 해프닝 단체 '오렌지 대안'도 이날을 활용했다. 공식 휴교일이 아니라서 학교들은 분장 대회·운동회로 학생을 붙잡아 둔다.",
+   "quirk": "'공식적으로 인정되지 않은 결석'이 기념일 이름이다",
+   "founder_origin": "제정자 없음. 1980년대 중반부터 확산(dzieje.pl)",
+   "founder_check_level": "original_read_history_portal",
+   "claims": [
+    {"claim_id": "date", "claim_ko": "달력상 봄 첫날 3월 21일", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "eska-2025", "quote": "Dzień wagarowicza przypada w pierwszy dzień wiosny kalendarzowej, czyli 21 marca.", "quote_ko": "땡땡이의 날은 달력상 봄의 첫날인 3월 21일이다."}]},
+    {"claim_id": "mid_1980s", "claim_ko": "1980년대 중반부터 수업 빼먹기가 불문율 전통이 됨", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "dzieje-pl", "quote": "Dopiero w połowie lat 80. XX wieku, coraz częstszą, niepisaną i nieformalną tradycją było unikanie zajęć lekcyjnych", "quote_ko": "20세기 80년대 중반에야 수업을 피하는 것이 점점 흔한, 불문율의 비공식 전통이 됐다"}]},
+    {"claim_id": "secondary_note", "claim_ko": "체신 지역 매체도 같은 날 학생 땡땡이 풍습을 언급", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "ox-pl-witaj-wiosno", "quote": "W niektórych krajach, zwłaszcza w Polsce, istnieje zwyczaj obchodzenia tzw. \"Dnia Wagarowicza\" przez uczniów", "quote_ko": "일부 나라, 특히 폴란드에는 학생들이 이른바 '땡땡이의 날'을 지내는 풍습이 있다"}]}
+   ],
+   "search_result_only": [
+    {"url": "https://study.gov.pl/news/everything-you-should-know-about-polish-spring-tradition", "note": "정부 유학 포털 영문 소개 — 원문 미수집"}
+   ],
+   "uncertainty": "'vagari(라틴어)' 어원 설명은 출처마다 철자가 달라 쓰지 말 것. 공식 휴교일 아님은 검색결과·eska 제목 수준. 같은 날 마르자나 익사(pl-topienie-marzanny)와 함께 다룰지 편집 판단 필요.",
+   "confidence": "high"
+  }
+ ]
+}

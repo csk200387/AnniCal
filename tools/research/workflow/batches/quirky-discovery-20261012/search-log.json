@@ -1,0 +1,274 @@
+[
+ {
+  "query": "\"Hoodie Hoo Day\" February 20 yell winter",
+  "lang": "en",
+  "candidate_key": "hoodie-hoo-day",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "존재·2/20·Wellcat 확인"
+ },
+ {
+  "query": "\"Yell Fudge at the Cobras in North America Day\" June 2",
+  "lang": "en",
+  "candidate_key": "yell-fudge-cobras-day",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "관련 결과 0건"
+ },
+ {
+  "query": "\"Yell Fudge\" cobras holiday Wellcat June",
+  "lang": "en",
+  "candidate_key": "yell-fudge-cobras-day",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "Goodreads 블로그 1건(날짜 없음)"
+ },
+ {
+  "query": "\"Put a Pillow on Your Fridge Day\" May 29",
+  "lang": "en",
+  "candidate_key": "put-a-pillow-on-your-fridge-day",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "timeanddate·학생신문"
+ },
+ {
+  "query": "\"Plan Your Epitaph Day\" November 2",
+  "lang": "en",
+  "candidate_key": "plan-your-epitaph-day",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "11/2 vs 4/6"
+ },
+ {
+  "query": "\"Answer Your Cat's Question Day\" January 22",
+  "lang": "en",
+  "candidate_key": "answer-your-cats-questions-day",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "1/22"
+ },
+ {
+  "query": "\"Ask a Stupid Question Day\" September 28 origin teachers",
+  "lang": "en",
+  "candidate_key": "ask-a-stupid-question-day",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "유래 상충"
+ },
+ {
+  "query": "\"Bubble Wrap Appreciation Day\" last Monday January radio station",
+  "lang": "en",
+  "candidate_key": "bubble-wrap-appreciation-day",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "NPR 2013"
+ },
+ {
+  "query": "\"Caps Lock Day\" October 22 Derek Arnold",
+  "lang": "en",
+  "candidate_key": "caps-lock-day",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "10/22·6/28"
+ },
+ {
+  "query": "\"Mean Girls Day\" October 3 \"what day it was\" fans celebrate",
+  "lang": "en",
+  "candidate_key": "mean-girls-day",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "CBS·TIME"
+ },
+ {
+  "query": "\"It's gonna be May\" April 30 meme Justin Timberlake annual",
+  "lang": "en",
+  "candidate_key": "its-gonna-be-may",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "Spotify newsroom"
+ },
+ {
+  "query": "\"Revenge of the Sixth\" May 6 Star Wars Sith day",
+  "lang": "en",
+  "candidate_key": "revenge-of-the-sixth",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "5/5 vs 5/6"
+ },
+ {
+  "query": "\"Blue Monday\" most depressing day formula Cliff Arnall Sky Travel pseudoscience",
+  "lang": "en",
+  "candidate_key": "blue-monday",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "EBSCO"
+ },
+ {
+  "query": "\"Galentine's Day\" February 13 Parks and Recreation Leslie Knope origin",
+  "lang": "en",
+  "candidate_key": "galentines-day",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "Mental Floss·History"
+ },
+ {
+  "query": "\"Tell a Lie Day\" April 4",
+  "lang": "en",
+  "candidate_key": "tell-a-lie-day",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "Christian Post"
+ },
+ {
+  "query": "\"National Boyfriend Day\" October 3 origin",
+  "lang": "en",
+  "candidate_key": "national-boyfriend-day",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "위키백과"
+ },
+ {
+  "query": "Earth Wind Fire \"September\" 21st \"do you remember\" day meme annual",
+  "lang": "en",
+  "candidate_key": "earth-wind-fire-day",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "NPR·LA 시의회"
+ },
+ {
+  "query": "10월 24일 사과데이 둘이 사과 화해하는 날",
+  "lang": "ko",
+  "candidate_key": "apple-day-kr",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "서울신문 2013"
+ },
+ {
+  "query": "10월 4일 천사데이 1004 이색 기념일",
+  "lang": "ko",
+  "candidate_key": "cheonsa-day-kr",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "코메디닷컴 칼럼"
+ },
+ {
+  "query": "2月22日 忍者の日 ニンニンニン 日本忍者協議会",
+  "lang": "ja",
+  "candidate_key": "ninja-day-jp",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "Time Out·미에현"
+ },
+ {
+  "query": "7月26日 幽霊の日 東海道四谷怪談 初演",
+  "lang": "ja",
+  "candidate_key": "yurei-day-jp",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "목록 사이트"
+ },
+ {
+  "query": "8月2日 パンツの日 由来 記念日",
+  "lang": "ja",
+  "candidate_key": "pants-day-jp",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "목록 사이트"
+ },
+ {
+  "query": "9月4日 くしの日 苦死 美容週間振興協議会",
+  "lang": "ja",
+  "candidate_key": "kushi-day-jp",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "\"苦死\" 미발견"
+ },
+ {
+  "query": "5月9日 告白の日 由来 こくはく 語呂合わせ",
+  "lang": "ja",
+  "candidate_key": "kokuhaku-day-jp",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "AXE"
+ },
+ {
+  "query": "11月22日 いい夫婦の日 1988年 余暇開発センター",
+  "lang": "ja",
+  "candidate_key": "ii-fufu-day-jp",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "1988"
+ },
+ {
+  "query": "\"No Socks Day\" May 8 origin",
+  "lang": "en",
+  "candidate_key": "no-socks-day",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "목록 사이트 위주"
+ },
+ {
+  "query": "\"Tau Day\" June 28 Michael Hartl Tau Manifesto",
+  "lang": "en",
+  "candidate_key": "tau-day",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "tauday.com"
+ },
+ {
+  "query": "\"World Introvert Day\" January 2 Felicitas Heyne",
+  "lang": "en",
+  "candidate_key": "world-introvert-day",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "블로그 날짜 상충"
+ },
+ {
+  "query": "\"National Ugly Christmas Sweater Day\" third Friday December origin",
+  "lang": "en",
+  "candidate_key": "ugly-christmas-sweater-day",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "Dictionary.com"
+ },
+ {
+  "query": "\"International Geocaching Day\" third Saturday August Geocaching HQ",
+  "lang": "en",
+  "candidate_key": "international-geocaching-day",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "운영사 블로그"
+ },
+ {
+  "query": "\"Superstition Day\" OR \"National Superstition Day\" date origin",
+  "lang": "en",
+  "candidate_key": "defy-superstition-day",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "\"Superstition Day\" 없음 → Defy Superstition Day 발견"
+ },
+ {
+  "query": "変な記念日 面白い記念日 一覧 語呂合わせ 意外",
+  "lang": "ja",
+  "candidate_key": null,
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "탐색용 — ふとんの日 단서"
+ },
+ {
+  "query": "황당한 이색 기념일 모음 말장난 날짜 한국 인터넷",
+  "lang": "ko",
+  "candidate_key": null,
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "탐색용 — 대부분 음식 마케팅, 신규 단서 적음"
+ },
+ {
+  "query": "2月10日 ふとんの日 全日本寝具寝装品協会 語呂合わせ",
+  "lang": "ja",
+  "candidate_key": "futon-day-jp",
+  "tool": "WebSearch(standard)",
+  "result": "search_result_only",
+  "note": "2/10→10/10 변경"
+ }
+]

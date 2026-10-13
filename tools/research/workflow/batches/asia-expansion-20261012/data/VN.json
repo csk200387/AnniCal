@@ -1,0 +1,262 @@
+{
+ "country": "VN",
+ "country_ko": "베트남",
+ "search_language": "vi",
+ "sources": {
+  "vtcnews": "VTC News",
+  "lsvn": "Luật sư Việt Nam (베트남 변호사협회 기관지)",
+  "baophapluat": "Báo Pháp luật Việt Nam (법무부 기관지)",
+  "hatinh-gov": "Cổng TTĐT tỉnh Hà Tĩnh (하띤성 정부 포털, 2026)",
+  "tapchitoaan": "Tạp chí Tòa án nhân dân (인민법원 잡지, 2026)",
+  "cantho-gov": "Cổng phổ biến giáo dục pháp luật TP Cần Thơ (껀터시 법률보급 포털)",
+  "nongnghiep": "Báo Nông nghiệp và Môi trường",
+  "daibieunhandan": "Báo Đại biểu Nhân dân (국회 기관지, 2025)",
+  "baovanhoa-207161": "Báo Văn hóa (문화체육관광부 기관지)"
+ },
+ "summary_ko": "베트남은 음력 민속(부엌신 옹따오 승천일 12/23)·음력 국가 공휴일(훙왕 제사일 3/10)·직업/여성 기념일(의사의 날 2/27, 여성의 날 10/20)을 찾았다. 설(뗏)·중추·단오는 서비스 설날·추석·단오와 같은 음력 명절이라 신규로 세지 않았다. 베트남 음력은 UTC+7 기준이라 한국 음력과 하루·한 달 어긋나는 해가 있어 한국 표를 그대로 빌릴 수 없다.",
+ "limits": "훙왕 제사일의 UNESCO 등재(2012, 훙왕 신앙)는 이번 원문에서 확인하지 않았다. 스승의 날(11/20)은 검색하지 않았다. 여성의 날 두 번째 원문(농업환경신문)은 403.",
+ "candidates": [
+  {
+   "aliases": [
+    "Tết ông Táo",
+    "Táo quân"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": "신에게 바치는 교통수단이 살아 있는 잉어. 종이 옷에 바지는 없다",
+   "candidate_key": "vn-ong-tao",
+   "name_original": "Ngày ông Công ông Táo (23 tháng Chạp)",
+   "name_ko": "옹꽁옹따오 — 부엌신이 잉어 타고 하늘에 보고하러 가는 날",
+   "date_type": null,
+   "date_rule": null,
+   "date_rule_folk": "베트남 음력 12월(섣달) 23일",
+   "date_note": "베트남 음력 표 없음 → 앱 날짜 미지원. 설(뗏) 일주일 전.",
+   "app_date_support": "unsupported",
+   "scope": "베트남 전국 민속(공휴일 아님). 북부는 잉어 방생, 남부는 종이 말 태우기",
+   "kind": "folk_lunar",
+   "kind_group": "folk_religious",
+   "officiality": "folk_tradition",
+   "meaning_ko": "섣달 23일, 집안을 지키는 부엌신(옹따오)이 하늘로 올라가 옥황상제에게 한 해 동안 집안의 잘잘못을 보고한다고 믿어 제사를 지내고, 신이 타고 갈 \"잉어\"를 강이나 호수에 놓아주는 베트남 풍습이다. 잉어가 용문을 넘어 용이 된다는 이야기에서 왔다. 부엌신은 두 남자와 한 여자로 그려져 바지 없는 종이 모자·옷·신 세 벌을 사서 올린다. 최근엔 비닐봉지째 던지는 환경 문제로 \"잉어를 그냥 버리지 말라\"는 당부가 나온다.",
+   "founder_origin": "중국 조왕 신앙이 북속 시기 전래·베트남화했다는 설(연대 확정 불가, 원문 스스로 \"정확히 정하기 어렵다\")",
+   "founder_check_level": "folklore_media_read",
+   "founder_check": "not_applicable",
+   "claims": [
+    {
+     "claim_id": "belief",
+     "claim_ko": "섣달 23일 옹따오가 천정에 올라 옥황상제께 보고",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "lsvn",
+       "quote": "Theo quan niệm truyền thống, vào ngày 23 tháng Chạp, ông Táo sẽ bay lên thiên đình báo cáo với Ngọc Hoàng tất cả những chuyện tốt xấu của gia chủ trong năm.",
+       "quote_ko": "전통 관념에 따르면 섣달 23일 옹따오는 천정에 날아올라 옥황상제에게 집주인의 한 해 좋고 나쁜 일을 모두 보고한다."
+      }
+     ]
+    },
+    {
+     "claim_id": "three_figures",
+     "claim_ko": "두 남자 한 여자, 바지 없는 종이 의관 세 벌",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "lsvn",
+       "quote": "người Việt thường mua sắm ba bộ mũ, áo, hia bằng giấy (không có quần)",
+       "quote_ko": "베트남 사람들은 종이 모자·옷·장화 세 벌(바지 없음)을 산다"
+      }
+     ]
+    },
+    {
+     "claim_id": "carp",
+     "claim_ko": "잉어 방생은 등용문(어변성룡) 이야기와 연결, 연대 불명",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "lsvn",
+       "quote": "Con cá chép vàng gắn với tích truyện “vượt vũ môn” để hóa thành rồng",
+       "quote_ko": "황금 잉어는 \"용문을 넘어\" 용이 된다는 이야기와 연결된다"
+      },
+      {
+       "evidence_id": "lsvn",
+       "quote": "Thật khó xác định một cách chính xác về niên đại của tục thờ cúng ông Công/ông Táo và tục thả cá chép vàng.",
+       "quote_ko": "옹꽁옹따오 숭배와 잉어 방생 풍습의 연대를 정확히 정하기는 어렵다."
+      }
+     ]
+    },
+    {
+     "claim_id": "north_south",
+     "claim_ko": "북부는 잉어 방생, 남부는 종이 말·그림 태우기",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "baophapluat",
+       "quote": "Việc thả cá chép để đưa ông Táo về trời ở miền Bắc hoặc đốt ngựa giấy, tranh giấy ở miền Nam chỉ là xưa bày ra vậy nên ngày nay làm theo thôi.",
+       "quote_ko": "북부의 잉어 방생, 남부의 종이 말·그림 태우기는 옛사람이 만든 것을 오늘날 따르는 것일 뿐이다."
+      }
+     ]
+    }
+   ],
+   "distinct_reason": "한국에는 서비스 항목 없음(조왕 신앙 관련 날짜 없음). 중국 소년(小年, 12/23~24) 부엌신 제사와 기원이 같을 수 있으나 베트남 고유 풍습(잉어 방생)으로 기록",
+   "uncertainty": "중국 조왕제(小年)와 같은 기원의 풍습 — 중국 후보로 따로 세면 중복이 되므로 이 기록 하나로만 둘 것. 전설(쫑까오·티니 이야기)은 전설로만.",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "Ngày Giỗ Tổ",
+    "Hung Kings Commemoration Day"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": "국가 공휴일 가운데 음력으로 정한 시조 제삿날",
+   "candidate_key": "vn-hung-kings",
+   "name_original": "Giỗ Tổ Hùng Vương",
+   "name_ko": "훙왕 제사일 — 건국 시조 훙왕을 기리는 베트남 공휴일",
+   "date_type": null,
+   "date_rule": null,
+   "date_rule_folk": "음력 3월 10일",
+   "date_note": "2026년은 양력 4월 26일(일), 27일 대체휴일(하띤성·인민법원 잡지 원문). 베트남 음력 표 없음 → 앱 미지원.",
+   "app_date_support": "unsupported",
+   "scope": "베트남 국가 공휴일(노동법 2019 제112조)",
+   "kind": "official_holiday_lunar",
+   "kind_group": "national_official",
+   "officiality": "official_national",
+   "meaning_ko": "베트남 민족의 시조로 여겨지는 전설 속 훙왕(Hùng Vương)들을 기리는 날로 음력 3월 10일이다. 2019년 노동법 제112조가 정한 유급 공휴일 가운데 유일하게 음력 날짜로 정해진 하루 휴일이며, 2026년에는 양력 4월 26일 일요일이라 27일에 대체 휴무했다.",
+   "founder_origin": "노동법(현행 2019년 제112조)으로 공휴일. 훙왕은 전설상의 왕조",
+   "founder_check_level": "official_portal_read",
+   "founder_check": "confirmed",
+   "claims": [
+    {
+     "claim_id": "labor_code",
+     "claim_ko": "노동법 2019 제112조: 훙왕 제사일 1일, 음력 3/10",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "tapchitoaan",
+       "quote": "Theo Điều 112 Bộ luật Lao động năm 2019, người lao động được nghỉ làm, hưởng nguyên lương vào các dịp lễ, tết gồm: Tết Dương lịch 1 ngày, Tết Âm lịch 5 ngày, Ngày Chiến thắng 30/4 một ngày, Ngày Quốc tế Lao động 1/5 một ngày, Quốc khánh 2/9 hai ngày và Giỗ Tổ Hùng Vương 1 ngày vào mùng 10/3 âm lị",
+       "quote_ko": "노동법 2019 제112조에 따라 근로자는 양력설 1일, 음력설 5일, 승전일 4/30, 노동절 5/1, 국경일 9/2 이틀, 그리고 음력 3월 10일 훙왕 제사일 1일을 유급으로 쉰다"
+      }
+     ]
+    },
+    {
+     "claim_id": "2026",
+     "claim_ko": "2026년은 4월 26일 일요일, 27일 대체휴일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "hatinh-gov",
+       "quote": "năm 2026 ngày Giỗ Tổ Hùng Vương rơi vào chủ nhật (26/4 dương lịch). Do trùng với ngày nghỉ cuối tuần, người lao động được nghỉ bù vào thứ hai (27/4).",
+       "quote_ko": "2026년 훙왕 제사일은 일요일(양력 4/26)이라 근로자는 월요일(4/27)에 대체 휴무한다."
+      }
+     ]
+    }
+   ],
+   "uncertainty": "훙왕은 전설상 왕조 — 역사로 단정 금지. 공휴일 지정 연도(2007 개정 노동법)는 검색결과만. 인용문은 원문 줄 끝에서 잘린 형태 그대로(\"âm lị\").",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "20/10"
+   ],
+   "search_result_only": [
+    {
+     "url": "https://nongnghiepmoitruong.vn/nguon-goc-va-y-nghia-ngay-phu-nu-viet-nam-20-10-d305548.html",
+     "note": "두 번째 원문 — 403"
+    }
+   ],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": "한 해에 \"여성의 날\"이 두 번(3/8·10/20) 있는 나라",
+   "candidate_key": "vn-womens-day",
+   "name_original": "Ngày Phụ nữ Việt Nam (20/10)",
+   "name_ko": "베트남 여성의 날 — 10월 20일",
+   "date_type": "annual-fixed",
+   "date_rule": "10-20",
+   "date_note": "매년 10월 20일(공휴일 아님)",
+   "app_date_support": "supported",
+   "scope": "베트남 전국 기념일(비휴일). 꽃·선물 문화",
+   "kind": "official_relationship",
+   "kind_group": "relationship",
+   "officiality": "official_observance_not_holiday",
+   "meaning_ko": "1930년 10월 20일 \"반제(反帝) 여성회\"(현 베트남 여성연맹)가 창립된 날로, 베트남 공산당이 이날을 단체의 전통일이자 베트남 여성을 기리는 \"베트남 여성의 날\"로 정했다. 3월 8일 세계 여성의 날과 별도로, 이날 베트남에서는 남성들이 어머니·아내·동료 여성에게 꽃과 선물을 건네는 문화가 크다.",
+   "founder_origin": "1930 반제여성회 창립 → 공산당이 전통일로 지정(지정 연도 원문 없음)",
+   "founder_check_level": "local_gov_portal_read",
+   "founder_check": "partial",
+   "claims": [
+    {
+     "claim_id": "founding",
+     "claim_ko": "1930-10-20 반제여성회(현 여성회) 창립, 당이 기념일로 지정",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "cantho-gov",
+       "quote": "Vào ngày 20 tháng 10 năm 1930, Hội Phụ nữ phản đế Việt Nam (nay đổi tên là Hội Phụ nữ Việt Nam) chính thức được thành lập, để đánh dấu sự kiện này.",
+       "quote_ko": "1930년 10월 20일 베트남 반제여성회(현 베트남 여성회)가 정식 창립됐다."
+      },
+      {
+       "evidence_id": "cantho-gov",
+       "quote": "Đảng cộng sản Việt Nam đã quyết định chọn ngày 20 tháng 10 hằng năm làm ngày truyền thống của tổ chức này, đồng thời cũng xem đây là ngày kỉ niệm và tôn vinh phụ nữ Việt Nam, lấy tên là \"Ngày Phụ nữ Việt Nam\".",
+       "quote_ko": "베트남 공산당은 매년 10월 20일을 이 단체의 전통일이자 베트남 여성을 기리는 날 \"베트남 여성의 날\"로 정했다."
+      }
+     ]
+    }
+   ],
+   "distinct_reason": "세계 여성의 날(3/8)과 다른 베트남 고유 날짜",
+   "uncertainty": "원문 1곳(껀터시 법률보급 포털)만 → 단일 출처. 같은 글 안에서 단체명을 \"여성연합회\"와 \"반제여성회\"로 혼용. 꽃 선물 문화 서술은 이번 인용 밖(검색결과 수준) — 본문은 사실 부분만.",
+   "confidence": "medium"
+  },
+  {
+   "aliases": [
+    "27/2"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": null,
+   "candidate_key": "vn-doctors-day",
+   "name_original": "Ngày Thầy thuốc Việt Nam (27/2)",
+   "name_ko": "베트남 의사의 날 — 2월 27일",
+   "date_type": "annual-fixed",
+   "date_rule": "02-27",
+   "date_note": "1955년부터 보건부 전통일, 1985-02-06 각료회의 결정으로 공식화",
+   "app_date_support": "supported",
+   "scope": "베트남 전국 직업 기념일(공휴일 아님)",
+   "kind": "official_occupation",
+   "kind_group": "occupation_culture",
+   "officiality": "official_observance_not_holiday",
+   "meaning_ko": "1955년 2월 27일 호찌민 주석이 전국 보건 간부들에게 \"환자를 친형제처럼 돌보라\"는 편지를 보낸 날을 기리는 베트남 의료인의 날이다. 보건부가 1955년부터 이날을 전통일로 삼았고, 1985년 2월 6일 각료회의(현 정부)가 매년 2월 27일을 \"베트남 의사의 날\"로 공식 결정했다. 2025년 70주년 기념식이 국회의장 참석 아래 하노이에서 열렸다.",
+   "founder_origin": "1955 호찌민 서한 → 1985-02-06 각료회의 결정",
+   "founder_check_level": "official_media_read",
+   "founder_check": "confirmed",
+   "claims": [
+    {
+     "claim_id": "letter_1955",
+     "claim_ko": "1955-02-27 호찌민 서한, 1985-02-06 공식 지정",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "baovanhoa-207161",
+       "quote": "Ngay từ năm 1955, Bộ Y tế đã lấy ngày 27.2 làm ngày truyền thống ngành. Đến ngày 6.2.1985, Hội đồng Bộ trưởng (nay là Chính phủ) chính thức quyết định lấy 27.2 hằng năm là Ngày Thầy thuốc Việt Nam",
+       "quote_ko": "1955년부터 보건부가 2월 27일을 업계 전통일로 삼았고, 1985년 2월 6일 각료회의(현 정부)가 매년 2월 27일을 베트남 의사의 날로 공식 결정했다"
+      }
+     ]
+    },
+    {
+     "claim_id": "70th",
+     "claim_ko": "2025년 70주년 기념식, 1955년 하노이 보건 간부 회의에 보낸 서한",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "daibieunhandan",
+       "quote": "Cách đây đúng 70 năm, ngày 27.2.1955, Chủ tịch Hồ Chí Minh đã gửi thư cho Hội nghị Cán bộ y tế được tổ chức tại Thủ đô Hà Nội.",
+       "quote_ko": "꼭 70년 전 1955년 2월 27일 호찌민 주석이 하노이에서 열린 보건 간부 회의에 편지를 보냈다."
+      }
+     ]
+    }
+   ],
+   "distinct_reason": "미국 의사의 날(3/30) 등이 서비스에 있는지 별도 확인 필요 — 나라·날짜 다름",
+   "uncertainty": "\"양의는 자애로운 어머니와 같다(Lương y như từ mẫu)\" 문구의 서한 원문 여부는 원문 미확인 — 쓰지 말 것.",
+   "confidence": "high"
+  }
+ ]
+}

@@ -1,0 +1,197 @@
+{
+ "country": "SG",
+ "country_ko": "싱가포르",
+ "search_language": "en+zh-Hans",
+ "sources": {
+  "sg101": "SG101 (싱가포르 정부 국가교육 포털)",
+  "scdf-2016": "SCDF 싱가포르 민방위청 (2016)",
+  "concordpri": "Concord Primary School (MOE 학교)",
+  "roots-nhb": "Roots.gov.sg (국가유산청 NHB 무형유산 목록)",
+  "iias": "IIAS The Newsletter 99 (2024, 학술 소식지)",
+  "tampines-memo": "Tampines Primary School",
+  "lilbutmighty-2027": "Lil' But Mighty (교육 블로그, MOE 2027 학사일정 정리)"
+ },
+ "summary_ko": "싱가포르는 1942년 영국군 항복 시각(오후 6시 20분)에 전국 사이렌이 울리는 총방위의 날(2/15), 음력 9월 초 9~10일 이어지는 도교 구황야탄(국가유산청 무형유산 목록), 학교가 쉬는 교사의 날(대개 9월 첫 금요일)을 찾았다. 서비스에 이미 인종 화합의 날(7/21)이 있다. 타이푸삼은 말레이시아 기록(my-thaipusam)으로 일원화했다.",
+ "limits": "영어·중국어 검색 각각 수행(말레이·타밀어 검색은 안 함). 어린이날은 10월 첫째/둘째 금요일로 해마다 달라 후보로 만들지 않았다. MOE 공식 학사일정 원문 미수집(학교 PDF 404).",
+ "candidates": [
+  {
+   "aliases": [
+    "TDD",
+    "全面防卫日"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": "항복 시각에 맞춰 온 섬에 사이렌이 울린다",
+   "candidate_key": "sg-total-defence-day",
+   "name_original": "Total Defence Day",
+   "name_ko": "총방위의 날 — 함락 시각 오후 6시 20분에 울리는 사이렌",
+   "date_type": "annual-fixed",
+   "date_rule": "02-15",
+   "date_note": "매년 2월 15일, 사이렌 18:20(일부 해 예외 가능 — 2026년 다른 시각 보도는 검색결과만)",
+   "app_date_support": "supported",
+   "scope": "싱가포르 국가 기념일(공휴일 아님). 학교 기념 행사",
+   "kind": "official_memorial",
+   "kind_group": "national_official",
+   "officiality": "official_observance_not_holiday",
+   "meaning_ko": "1942년 2월 15일 싱가포르가 일본군에 함락된 날을 기억하며 \"모두가 함께 나라를 지킨다\"는 총방위 정신을 되새기는 싱가포르의 날이다. 매년 이날 오후 6시 20분, 영국군이 항복한 그 시각에 맞춰 전국 공공경보 사이렌이 \"중요 메시지\" 신호를 울린다. 학교들은 조회·대피 훈련을 하고, 일부 학교는 전쟁 시절을 체험하라며 죽 같은 소박한 배식을 한다.",
+   "founder_origin": "총방위(1984 도입) 개념의 기념일 — 지정 연도 원문 미확인",
+   "founder_check_level": "gov_portal_read",
+   "founder_check": "partial",
+   "claims": [
+    {
+     "claim_id": "siren",
+     "claim_ko": "매년 2/15·9/15 18:20 사이렌, 2/15 는 총방위의 날·함락일 기념",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "sg101",
+       "quote": "Annually, the SCDF sounds the \"Important Message\" signal through the island-wide network of PWS sirens on 15 February and 15 September at 6.20 pm.",
+       "quote_ko": "매년 민방위청은 2월 15일과 9월 15일 오후 6시 20분 전국 공공경보 사이렌으로 \"중요 메시지\" 신호를 울린다."
+      },
+      {
+       "evidence_id": "sg101",
+       "quote": "15 Feb 6.20pm was to commemorate our Total Defence Day and the date Singapore fell to the invasion of Japan during WWII",
+       "quote_ko": "2월 15일 오후 6시 20분은 총방위의 날, 곧 2차 대전 중 싱가포르가 일본 침공에 함락된 날을 기념하기 위한 것이다"
+      }
+     ]
+    },
+    {
+     "claim_id": "schools",
+     "claim_ko": "학교가 매년 2/15 기념, 1942 함락",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "concordpri",
+       "quote": "Schools commemorate Total Defence Day on 15 February each year to mark the fall of Singapore to the Japanese in 1942.",
+       "quote_ko": "학교들은 1942년 싱가포르 함락을 기억하려 매년 2월 15일 총방위의 날을 기념한다."
+      }
+     ]
+    }
+   ],
+   "distinct_reason": "서비스 인종 화합의 날(7/21)과 별개 학교 기념일",
+   "uncertainty": "총방위의 날 첫 지정 연도(1998년 학교 기념 시작설 등)는 미확인. 2026년 사이렌 시각 변경 보도는 위키백과(검색결과)만.",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "九皇大帝诞",
+    "Nine Emperor Gods Festival"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": "신을 \"바다에서 모셔 와 바다로 돌려보낸다\"",
+   "candidate_key": "sg-nine-emperor-gods",
+   "name_original": "九皇爷诞 (Nine Emperor Gods Festival)",
+   "name_ko": "구황야탄 — 아홉 황제 신을 바다에서 맞고 보내는 9일 재계 축제",
+   "date_type": null,
+   "date_rule": null,
+   "date_rule_folk": "음력 8월 말 ~ 9월 9일(또는 10일), 최소 9~10일",
+   "date_note": "음력 9/1 키 없음 → 앱 날짜 미지원.",
+   "app_date_support": "unsupported",
+   "scope": "싱가포르·말레이시아·태국(푸껫) 화인 사원 종교 축제",
+   "kind": "religious_festival",
+   "kind_group": "folk_religious",
+   "officiality": "religious_festival",
+   "meaning_ko": "음력 8월 말부터 9월 9일 무렵까지 아홉 황제 신(북두칠성과 보좌성)을 모시는 도교 축제로, 신도들은 그 기간 채식·금욕 같은 재계를 지킨다. 핵심은 신을 바닷가·강가에서 맞이하고 마지막 날 다시 바다로 보내는 의식으로, 싱가포르에서는 이스트코스트 공원·창이 해변 등에서 열린다. 100년 넘은 후강 두무궁·펑산궁 등 섬 곳곳의 사원이 주최하며 국가유산청 무형유산 목록에 올라 있다.",
+   "founder_origin": "화인 도교 전통(19세기 말~20세기 초 페낭 경유 전래설)",
+   "founder_check_level": "government_ich_inventory_read",
+   "founder_check": "not_applicable",
+   "claims": [
+    {
+     "claim_id": "nhb_dates",
+     "claim_ko": "음력 8월 말~9월 9/10일, 최소 9~10일, 재계",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "roots-nhb",
+       "quote": "Starting from around the end of the eighth lunar month to the ninth or tenth day of the ninth lunar month, the Nine Emperor Gods Festival lasts for at least nine to ten days, and involves a personal regime of abstinence for the devotees and practitioners alike.",
+       "quote_ko": "음력 8월 말 무렵부터 9월 9~10일까지 최소 9~10일 이어지며 신도와 수행자가 재계를 지킨다."
+      }
+     ]
+    },
+    {
+     "claim_id": "sea_rituals",
+     "claim_ko": "맞이·배웅 의식이 주로 바닷가에서",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "roots-nhb",
+       "quote": "The key rituals are the receiving and sending-off ceremonies for the Nine Emperor Gods. These take place mainly by the sea, or in earlier times, along rivers and canals.",
+       "quote_ko": "핵심 의식은 아홉 황제 신을 맞이하고 배웅하는 것으로, 주로 바닷가에서, 예전엔 강·운하를 따라 열렸다."
+      }
+     ]
+    },
+    {
+     "claim_id": "old_temples",
+     "claim_ko": "100년 넘은 후강 두무궁·펑산궁",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "roots-nhb",
+       "quote": "The two oldest temples hosting the celebrations, being more than a hundred years old, are the Hougang Dou Mu Gong (Tou Mu Kung) (后",
+       "quote_ko": "축제를 여는 가장 오래된 두 사원은 100년이 넘은 후강 두무궁과 (펑산궁)이다"
+      }
+     ]
+    }
+   ],
+   "distinct_reason": "한국 중양절(9/9)과 같은 날 끝나지만 별개 신앙의 축제. 말레이시아·태국에서도 열려 국가별 중복 계상 금지 — 싱가포르 기록 하나로",
+   "uncertainty": "원문 1곳(국가유산청)만 인용 — IIAS 소식지는 읽었으나 인용 안 함. 페낭 향 전래 연대(1902/1921)는 검색결과만.",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "教师节"
+   ],
+   "search_result_only": [
+    {
+     "url": "https://tampinespri.moe.edu.sg/files/tpps-51-2023%20-%20memo%20sep%202023.pdf",
+     "note": "2023 이동 안내 학교 공문 — 404"
+    }
+   ],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": null,
+   "candidate_key": "sg-teachers-day",
+   "name_original": "Teachers' Day (Singapore)",
+   "name_ko": "싱가포르 교사의 날 — 9월 학교 방학 전 금요일",
+   "date_type": "annual-nth-weekday",
+   "date_rule": "09-1-FRI",
+   "date_note": "대개 9월 첫째 금요일(학교 휴일), 2027년 9/3. 2023년엔 대선 투표일과 겹쳐 9/11(월)로 옮김(검색결과). MOE 가 해마다 정함",
+   "date_status": "conflict",
+   "app_date_support": "supported",
+   "scope": "싱가포르 학교 휴일(MOE 학사일정)",
+   "kind": "occupation_school",
+   "kind_group": "occupation_culture",
+   "officiality": "official_observance_not_holiday",
+   "meaning_ko": "싱가포르 교육부(MOE) 학사일정에 따라 대개 9월 첫째 금요일을 \"교사의 날\" 학교 휴일로 쉬고 바로 이어 9월 방학이 시작된다. 학생들이 전날 학교에서 선생님께 감사 행사를 연다. 법정 공휴일이 아니라 학사일정상의 휴일이라 선거 등 사정으로 날짜가 옮겨진 해도 있다.",
+   "founder_origin": "MOE 학사일정(제정 연도 미확인)",
+   "founder_check_level": "blog_read",
+   "founder_check": "unverified",
+   "claims": [
+    {
+     "claim_id": "2027",
+     "claim_ko": "2027년 교사의 날 9월 3일(금), 다음 날 9월 방학",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "lilbutmighty-2027",
+       "quote": "Friday, 3 September 2027\nThe September school holidays begin the following day, on 4 September.",
+       "quote_ko": "2027년 9월 3일 금요일. 다음 날 9월 4일부터 9월 방학."
+      }
+     ]
+    },
+    {
+     "claim_id": "2023_exception",
+     "claim_ko": "2023년 9/11 로 이동",
+     "verdict": "search_result_only",
+     "evidence": []
+    }
+   ],
+   "listing_only": true,
+   "uncertainty": "교육 블로그 1곳(MOE 일정 정리)만 → 약한 출처. \"첫째 금요일\"은 관행이지 규칙 아님 — 날짜 상충으로 분류. 스승의 날 성격 기념일이 여러 나라에 있어 서비스 반영 우선순위 낮음.",
+   "confidence": "low"
+  }
+ ]
+}

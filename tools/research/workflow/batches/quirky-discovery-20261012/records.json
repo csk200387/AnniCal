@@ -1,0 +1,3652 @@
+{
+ "_note": "발견 조사 기록. 승인·반영 상태가 아님. 서비스 파일 미수정.",
+ "batch_id": "quirky-discovery-20261012",
+ "researched_at": "2026-10-12",
+ "owner": "Claude Code (Opus 5.5)",
+ "kinds": {
+  "weird_behavior": "이상한 행동",
+  "pun_meme": "말장난·밈",
+  "relationship": "관계",
+  "object_hobby": "물건·취미",
+  "superstition": "미신"
+ },
+ "statuses": {
+  "documented_unofficial": "비공식이지만 언론·단체·백과 원문 1곳 이상 또는 독립 원문 2곳에서 존재·날짜 확인",
+  "discovered_unverified": "기념일 목록 사이트·약한 출처 원문만 읽음(단일 목록 출처 포함). 존재는 보이나 독립 확인 부족",
+  "date_conflict": "존재는 확인했지만 출처끼리 날짜가 갈림",
+  "blocked": "원문을 못 읽음(검색결과만 확인) 또는 날짜 미확정",
+  "duplicate": "서비스 1,756건에 이미 있는 항목"
+ },
+ "records": [
+  {
+   "candidate_key": "hoodie-hoo-day",
+   "kind": "weird_behavior",
+   "discovery_status": "documented_unofficial",
+   "name_ko": "후디 후 데이",
+   "name_original": "Hoodie Hoo Day",
+   "aliases": [],
+   "date_type": "annual-fixed",
+   "date_rule": "02-20",
+   "date_note": null,
+   "scope": "미국(펜실베이니아 등 지역 행사)",
+   "meaning": "정오에 밖에 나가 두 손을 흔들며 \"후디 후!\"라고 외쳐 겨울을 쫓는 날",
+   "why_quirky": "아무 근거 없는 주문 같은 외침으로 계절을 쫓는다는 설정 자체가 장난",
+   "founder_origin": "펜실베이니아 중부의 한 부부가 만든 날(신문), Wellcat.com 이 만든 날(출판사 달력). 두 설명은 같은 제작자로 보이나 부부 이름(Ruth·Thomas Roy)은 검색결과만 확인",
+   "founder_origin_check": "partial_original",
+   "officiality": "공식 지정 없음. 지역 상공회의소가 2014년부터 행사 개최",
+   "confidence": "high",
+   "caution": null,
+   "claims": [
+    {
+     "claim_id": "existence_date",
+     "claim": "2월 20일, 요일과 무관하게 열리는 날",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "hoodie-hoo-day/observer-reporter-2017",
+       "quote": "The day is celebrated Feb. 20, regardless of the day of the week"
+      }
+     ]
+    },
+    {
+     "claim_id": "fabricated",
+     "claim": "신문이 \"완전히 지어낸 기념일\"이라고 표현",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "hoodie-hoo-day/observer-reporter-2017",
+       "quote": "A thoroughly fabricated holiday, the brainchild of a central Pennsylvania couple, Hoodie Hoo Day is designed to ward off winter and its many ills."
+      }
+     ]
+    },
+    {
+     "claim_id": "ritual",
+     "claim": "정오에 밖에 나가 손을 흔들며 외친다",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "hoodie-hoo-day/pearson-calendar",
+       "quote": "The tradition involves going outside at noon on February 20th and waving your hands above your head while yelling"
+      }
+     ]
+    },
+    {
+     "claim_id": "creator",
+     "claim": "Wellcat.com 이 만들었다",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "hoodie-hoo-day/pearson-calendar",
+       "quote": "National Hoodie-Hoo Day is a special day created by a company called Wellcat.com to help people get rid of the blues of winter in the northern hemisphere."
+      }
+     ]
+    },
+    {
+     "claim_id": "local_event",
+     "claim": "몬밸리 지역 상공회의소가 2014년 행사 시작",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "hoodie-hoo-day/observer-reporter-2017",
+       "quote": "the Mon Valley Regional Chamber of Commerce started this wonderful silliness in 2014"
+      }
+     ]
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://wnep.com/article/news/local/schuylkill-county/hoodie-hoo-day-spring-winter-schuylkill-county/523-d519641e-3f10-4743-bb47-00b5abfc22aa",
+     "note": "스퀼킬 카운티 전통 보도. 원문 403 → 검색결과만 확인"
+    }
+   ],
+   "prior_research_mentions": [],
+   "kind_label": "이상한 행동",
+   "discovery_status_label": "비공식이지만 언론·단체·백과 원문 1곳 이상 또는 독립 원문 2곳에서 존재·날짜 확인",
+   "evidence": [
+    {
+     "evidence_id": "hoodie-hoo-day/observer-reporter-2017",
+     "url": "https://cs.observer-reporter.com/opinion/2017/feb/26/hoodie-hoo-a-fun-break-from-pennsylvania-winter/",
+     "source_type": "news",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:15:25+00:00",
+     "local_raw_path": "evidence/hoodie-hoo-day/observer-reporter-2017.html",
+     "local_text_path": "evidence/hoodie-hoo-day/observer-reporter-2017.txt",
+     "sha256": "25f74f5ed91a4306bd1f7e45185dd8c3c8b43caea9a4fc001c752e94f743632e",
+     "cited": true
+    },
+    {
+     "evidence_id": "hoodie-hoo-day/pearson-calendar",
+     "url": "https://www.pearsoncanadaschool.com/special-days-calendar/hoodie-hoo-day.html",
+     "source_type": "publisher_calendar",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:15:27+00:00",
+     "local_raw_path": "evidence/hoodie-hoo-day/pearson-calendar.html",
+     "local_text_path": "evidence/hoodie-hoo-day/pearson-calendar.txt",
+     "sha256": "6315bb6049a22559e0f2f8e8b9cf4d4918e773b08d575319fb3b0ced9c01746f",
+     "cited": true
+    },
+    {
+     "evidence_id": "hoodie-hoo-day/wnep",
+     "url": "https://wnep.com/article/news/local/schuylkill-county/hoodie-hoo-day-spring-winter-schuylkill-county/523-d519641e-3f10-4743-bb47-00b5abfc22aa",
+     "source_type": "news",
+     "read_status": "not_read",
+     "access_status": "blocked",
+     "http_status": null,
+     "error": "HTTPError: 403 HTTP Error 403: Forbidden",
+     "accessed_at": "2026-10-11T23:15:32+00:00",
+     "local_raw_path": null,
+     "local_text_path": null,
+     "sha256": null,
+     "cited": false
+    }
+   ],
+   "source_urls": [
+    "https://cs.observer-reporter.com/opinion/2017/feb/26/hoodie-hoo-a-fun-break-from-pennsylvania-winter/",
+    "https://www.pearsoncanadaschool.com/special-days-calendar/hoodie-hoo-day.html",
+    "https://wnep.com/article/news/local/schuylkill-county/hoodie-hoo-day-spring-winter-schuylkill-county/523-d519641e-3f10-4743-bb47-00b5abfc22aa",
+    "https://wnep.com/article/news/local/schuylkill-county/hoodie-hoo-day-spring-winter-schuylkill-county/523-d519641e-3f10-4743-bb47-00b5abfc22aa"
+   ],
+   "original_read": "yes",
+   "single_listing_source": false,
+   "listing_sources_only": false,
+   "duplicate_check": {
+    "existing_id": null,
+    "verdict": "new_not_in_service_1756",
+    "related_existing": []
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "plan-your-epitaph-day",
+   "kind": "weird_behavior",
+   "discovery_status": "date_conflict",
+   "name_ko": "내 묘비명 미리 쓰는 날",
+   "name_original": "Plan Your Epitaph Day",
+   "aliases": [],
+   "date_type": "annual-fixed",
+   "date_rule": "11-02",
+   "date_note": "11-02(Checkiday) vs 04-06·11-02 두 번(National Today). 단일 날짜 미확정",
+   "scope": "미국 비공식",
+   "meaning": "살아 있을 때 자기 묘비에 남길 한 줄을 미리 써 보는 날",
+   "why_quirky": "죽음을 가볍게 연습해 보는 엉뚱한 과제",
+   "founder_origin": "제정자 Lance Hardie 설은 검색결과만 확인(원문 미확보). 2001년 대학 라디오는 \"누군가 선포했다\"고만 함",
+   "founder_origin_check": "search_result_only",
+   "officiality": "공식 지정 없음",
+   "confidence": "medium",
+   "caution": "죽음 소재. 추모·상실 맥락과 섞지 말고 가벼운 글쓰기 놀이로만 소개",
+   "claims": [
+    {
+     "claim_id": "date_nov2",
+     "claim": "매년 11월 2일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "plan-your-epitaph-day/checkiday",
+       "quote": "annually on November 2nd"
+      }
+     ]
+    },
+    {
+     "claim_id": "date_apr6",
+     "claim": "4월 6일과 11월 2일 두 번",
+     "verdict": "conflicting",
+     "evidence": [
+      {
+       "evidence_id": "plan-your-epitaph-day/nationaltoday",
+       "quote": "Observed on April 6 and November 2 every year"
+      }
+     ]
+    },
+    {
+     "claim_id": "existence_2001",
+     "claim": "2001년 대학 라디오가 이 날을 소개",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "plan-your-epitaph-day/ufl-recess-2001",
+       "quote": "some provocative soul has proclaimed today Plan Your Epitaph Day"
+      }
+     ]
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://thebluepaper.com/?p=28450",
+     "note": "Lance Hardie·저서 언급(검색 요약). 원문 미수집"
+    }
+   ],
+   "prior_research_mentions": [],
+   "kind_label": "이상한 행동",
+   "discovery_status_label": "존재는 확인했지만 출처끼리 날짜가 갈림",
+   "evidence": [
+    {
+     "evidence_id": "plan-your-epitaph-day/checkiday",
+     "url": "https://www.checkiday.com/3ce46e075a82cee8774f7e4215c8b786/plan-your-epitaph-day",
+     "source_type": "listing",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:15:35+00:00",
+     "local_raw_path": "evidence/plan-your-epitaph-day/checkiday.html",
+     "local_text_path": "evidence/plan-your-epitaph-day/checkiday.txt",
+     "sha256": "c178fdd540f0fd53c929a8cdfdc361321e5ec4505e8d09fee29ca4e55da0702b",
+     "cited": true
+    },
+    {
+     "evidence_id": "plan-your-epitaph-day/nationaltoday",
+     "url": "https://nationaltoday.com/plan-your-epitaph-day/",
+     "source_type": "listing",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:15:47+00:00",
+     "local_raw_path": "evidence/plan-your-epitaph-day/nationaltoday.html",
+     "local_text_path": "evidence/plan-your-epitaph-day/nationaltoday.txt",
+     "sha256": "33e7c4232c621b0db8c1fdc3f6fdb52233ba77bc47347ab8cea6d51fd3f8fbf1",
+     "cited": true
+    },
+    {
+     "evidence_id": "plan-your-epitaph-day/ufl-recess-2001",
+     "url": "https://recess.ufl.edu/holidays/2001/plan-your-epitaph-day",
+     "source_type": "university_radio",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:15:43+00:00",
+     "local_raw_path": "evidence/plan-your-epitaph-day/ufl-recess-2001.html",
+     "local_text_path": "evidence/plan-your-epitaph-day/ufl-recess-2001.txt",
+     "sha256": "9423dc8b58ca5212d9bf3144ba724ab30868aa893ba24d06a5c07550e5ad32e9",
+     "cited": true
+    }
+   ],
+   "source_urls": [
+    "https://www.checkiday.com/3ce46e075a82cee8774f7e4215c8b786/plan-your-epitaph-day",
+    "https://nationaltoday.com/plan-your-epitaph-day/",
+    "https://recess.ufl.edu/holidays/2001/plan-your-epitaph-day",
+    "https://thebluepaper.com/?p=28450"
+   ],
+   "original_read": "yes",
+   "single_listing_source": false,
+   "listing_sources_only": false,
+   "duplicate_check": {
+    "existing_id": null,
+    "verdict": "new_not_in_service_1756",
+    "related_existing": []
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "tell-a-lie-day",
+   "kind": "weird_behavior",
+   "discovery_status": "documented_unofficial",
+   "name_ko": "거짓말하는 날",
+   "name_original": "Tell a Lie Day",
+   "aliases": [],
+   "date_type": "annual-fixed",
+   "date_rule": "04-04",
+   "date_note": null,
+   "scope": "미국 비공식",
+   "meaning": "해 없는 거짓말 하나쯤 해 보라는 날(만우절 사흘 뒤)",
+   "why_quirky": "정직의 날과 반대로 거짓말을 \"기념\"한다",
+   "founder_origin": "만든 사람이 밝혀진 적 없다(Christian Post)",
+   "founder_origin_check": "unknown_stated_by_source",
+   "officiality": "공식 지정 없음",
+   "confidence": "medium",
+   "caution": "거짓말 장려로 읽힐 수 있음. 사기·허위정보 연상 피하고 무해한 장난 범위로 한정",
+   "claims": [
+    {
+     "claim_id": "existence_date_creator",
+     "claim": "매년 4월 4일이며 만든 사람은 밝혀지지 않았다",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "tell-a-lie-day/christianpost",
+       "quote": "Tell A Lie Day, otherwise known as National Tell a Lie Day, is April 4 every year, but the unscrupulous creator of the holiday has never been found."
+      }
+     ]
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://www.timeanddate.com/holidays/fun/tell-a-lie-day",
+     "note": "원문 403 → 검색결과만 확인"
+    }
+   ],
+   "prior_research_mentions": [],
+   "kind_label": "이상한 행동",
+   "discovery_status_label": "비공식이지만 언론·단체·백과 원문 1곳 이상 또는 독립 원문 2곳에서 존재·날짜 확인",
+   "evidence": [
+    {
+     "evidence_id": "tell-a-lie-day/christianpost",
+     "url": "https://www.christianpost.com/news/tell-a-lie-day-today-but-should-you-celebrate.html",
+     "source_type": "news",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:15:49+00:00",
+     "local_raw_path": "evidence/tell-a-lie-day/christianpost.html",
+     "local_text_path": "evidence/tell-a-lie-day/christianpost.txt",
+     "sha256": "84cd6b7fb9824285492752a46b408e04da327f83fb0935ded342531ee66bf9fd",
+     "cited": true
+    },
+    {
+     "evidence_id": "tell-a-lie-day/timeanddate",
+     "url": "https://www.timeanddate.com/holidays/fun/tell-a-lie-day",
+     "source_type": "listing",
+     "read_status": "not_read",
+     "access_status": "blocked",
+     "http_status": null,
+     "error": "HTTPError: 403 HTTP Error 403: Forbidden",
+     "accessed_at": "2026-10-11T23:15:50+00:00",
+     "local_raw_path": null,
+     "local_text_path": null,
+     "sha256": null,
+     "cited": false
+    }
+   ],
+   "source_urls": [
+    "https://www.christianpost.com/news/tell-a-lie-day-today-but-should-you-celebrate.html",
+    "https://www.timeanddate.com/holidays/fun/tell-a-lie-day",
+    "https://www.timeanddate.com/holidays/fun/tell-a-lie-day"
+   ],
+   "original_read": "yes",
+   "single_listing_source": false,
+   "listing_sources_only": false,
+   "duplicate_check": {
+    "existing_id": null,
+    "verdict": "new_not_in_service_1756",
+    "related_existing": []
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "ask-a-stupid-question-day",
+   "kind": "weird_behavior",
+   "discovery_status": "date_conflict",
+   "name_ko": "바보 같은 질문 하는 날",
+   "name_original": "Ask a Stupid Question Day",
+   "aliases": [],
+   "date_type": "annual-fixed",
+   "date_rule": "09-28",
+   "date_note": "기본 09-28. 위키백과: 원래 9월 마지막 수업일, 1982년 제정 시 9월 30일. 9월 마지막 수업일 규칙은 현재 dateType 으로 표현 불가",
+   "scope": "미국에서 시작, 영국·인도 보도",
+   "meaning": "\"바보 같은\" 질문도 마음껏 하자는 날",
+   "why_quirky": "질문 부끄러움을 깨려는 교실 장난에서 굳어진 날",
+   "founder_origin": "유래 상충: 1982년 플린트 저널 사서 David Larzelere 창안(위키백과) vs 1980년대 교사들(아일랜드 지역지)",
+   "founder_origin_check": "conflicting",
+   "officiality": "공식 지정 없음",
+   "confidence": "medium",
+   "caution": null,
+   "claims": [
+    {
+     "claim_id": "date_default",
+     "claim": "기본 날짜 9월 28일, 원래는 9월 마지막 수업일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "ask-a-stupid-question-day/wikipedia",
+       "quote": "although its default date is September 28."
+      }
+     ]
+    },
+    {
+     "claim_id": "date_1982",
+     "claim": "1982년 제정 당시 9월 30일",
+     "verdict": "conflicting",
+     "evidence": [
+      {
+       "evidence_id": "ask-a-stupid-question-day/wikipedia",
+       "quote": "establishing the holiday on September 30."
+      }
+     ]
+    },
+    {
+     "claim_id": "origin_librarian",
+     "claim": "1982년 사서 David Larzelere 창안",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "ask-a-stupid-question-day/wikipedia",
+       "quote": "In 1982, the holiday was created by librarian David Larzelere"
+      }
+     ]
+    },
+    {
+     "claim_id": "origin_teachers",
+     "claim": "교사들이 학생 질문을 독려하려 시작",
+     "verdict": "conflicting",
+     "evidence": [
+      {
+       "evidence_id": "ask-a-stupid-question-day/leinsterleader",
+       "quote": "Its origin came from teachers who tried to encourage students to ask any type of question"
+      }
+     ]
+    },
+    {
+     "claim_id": "date_928",
+     "claim": "9월 28일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "ask-a-stupid-question-day/leinsterleader",
+       "quote": "the 28 of September, is known as"
+      }
+     ]
+    }
+   ],
+   "search_result_only": [],
+   "prior_research_mentions": [],
+   "kind_label": "이상한 행동",
+   "discovery_status_label": "존재는 확인했지만 출처끼리 날짜가 갈림",
+   "evidence": [
+    {
+     "evidence_id": "ask-a-stupid-question-day/leinsterleader",
+     "url": "https://www.leinsterleader.ie/news/when-is-ask-a-stupid-question-day-7039097",
+     "source_type": "news",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:15:52+00:00",
+     "local_raw_path": "evidence/ask-a-stupid-question-day/leinsterleader.html",
+     "local_text_path": "evidence/ask-a-stupid-question-day/leinsterleader.txt",
+     "sha256": "0ec10abe39a26e503ac383bad5d3abe6443dd641488ca5e6680f0772d9690b32",
+     "cited": true
+    },
+    {
+     "evidence_id": "ask-a-stupid-question-day/wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ask_a_Stupid_Question_Day",
+     "source_type": "encyclopedia",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:15:51+00:00",
+     "local_raw_path": "evidence/ask-a-stupid-question-day/wikipedia.html",
+     "local_text_path": "evidence/ask-a-stupid-question-day/wikipedia.txt",
+     "sha256": "91406f78de801b40590c7a192e34a2eadb6e48819ce94a0f08e87981b60f7b57",
+     "cited": true
+    }
+   ],
+   "source_urls": [
+    "https://www.leinsterleader.ie/news/when-is-ask-a-stupid-question-day-7039097",
+    "https://en.wikipedia.org/wiki/Ask_a_Stupid_Question_Day"
+   ],
+   "original_read": "yes",
+   "single_listing_source": false,
+   "listing_sources_only": false,
+   "duplicate_check": {
+    "existing_id": null,
+    "verdict": "new_not_in_service_1756",
+    "related_existing": []
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "no-socks-day",
+   "kind": "weird_behavior",
+   "discovery_status": "discovered_unverified",
+   "name_ko": "양말 안 신는 날",
+   "name_original": "No Socks Day",
+   "aliases": [],
+   "date_type": "annual-fixed",
+   "date_rule": "05-08",
+   "date_note": null,
+   "scope": "미국 비공식",
+   "meaning": "하루 양말을 벗고 맨발·샌들로 지내는 날",
+   "why_quirky": "양말을 \"벗는 것\"을 기념한다",
+   "founder_origin": "Ruth & Thomas Roy(Wellcat Holidays) — 목록 사이트 1곳의 표기",
+   "founder_origin_check": "single_listing",
+   "officiality": "공식 지정 없음",
+   "confidence": "low",
+   "caution": null,
+   "claims": [
+    {
+     "claim_id": "date",
+     "claim": "매년 5월 8일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "no-socks-day/daysoftheyear",
+       "quote": "Every May 8th"
+      }
+     ]
+    },
+    {
+     "claim_id": "founder",
+     "claim": "Ruth & Thomas Roy(Wellcat Holidays) 창안",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "no-socks-day/daysoftheyear",
+       "quote": "Ruth & Thomas Roy (Wellcat Holidays)"
+      }
+     ]
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://bossierpress.com/at-the-library-this-week-will-knock-your-socks-off",
+     "note": "도서관 칼럼(검색 요약). 원문 404"
+    }
+   ],
+   "prior_research_mentions": [],
+   "kind_label": "이상한 행동",
+   "discovery_status_label": "기념일 목록 사이트·약한 출처 원문만 읽음(단일 목록 출처 포함). 존재는 보이나 독립 확인 부족",
+   "evidence": [
+    {
+     "evidence_id": "no-socks-day/bossierpress",
+     "url": "https://bossierpress.com/at-the-library-this-week-will-knock-your-socks-off",
+     "source_type": "news",
+     "read_status": "not_read",
+     "access_status": "blocked",
+     "http_status": null,
+     "error": "HTTPError: 404 HTTP Error 404: Not Found",
+     "accessed_at": "2026-10-11T23:15:55+00:00",
+     "local_raw_path": null,
+     "local_text_path": null,
+     "sha256": null,
+     "cited": false
+    },
+    {
+     "evidence_id": "no-socks-day/daysoftheyear",
+     "url": "https://www.daysoftheyear.com/days/no-socks-day/",
+     "source_type": "listing",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:15:53+00:00",
+     "local_raw_path": "evidence/no-socks-day/daysoftheyear.html",
+     "local_text_path": "evidence/no-socks-day/daysoftheyear.txt",
+     "sha256": "58d89b2c1160e48a3bc189e95d3b0aa198220e8c6c10155adea9ffa29565db83",
+     "cited": true
+    }
+   ],
+   "source_urls": [
+    "https://bossierpress.com/at-the-library-this-week-will-knock-your-socks-off",
+    "https://www.daysoftheyear.com/days/no-socks-day/",
+    "https://bossierpress.com/at-the-library-this-week-will-knock-your-socks-off"
+   ],
+   "original_read": "yes",
+   "single_listing_source": true,
+   "listing_sources_only": true,
+   "duplicate_check": {
+    "existing_id": null,
+    "verdict": "new_not_in_service_1756",
+    "related_existing": [
+     {
+      "id": "anv-fixed-05-09-lost-sock-memorial-day-us",
+      "name": "잃어버린 양말 추모의 날",
+      "date": "05-09",
+      "category": "history"
+     }
+    ]
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "yell-fudge-cobras-day",
+   "kind": "weird_behavior",
+   "discovery_status": "blocked",
+   "name_ko": "북미 코브라에게 \"퍼지!\"라고 외치는 날",
+   "name_original": "Yell \"Fudge\" at the Cobras in North America Day",
+   "aliases": [],
+   "date_type": null,
+   "date_rule": null,
+   "date_note": "날짜 미확정 — 원문을 못 읽었고 검색 요약도 날짜를 주지 않음. 조사자가 기억한 6월 2일은 근거 없음으로 기록하지 않음",
+   "scope": "미국 비공식(추정)",
+   "meaning": "북미에 없는 코브라를 \"퍼지\"라고 외쳐 쫓는다는 부조리 설정",
+   "why_quirky": "존재하지 않는 위협을 엉뚱한 단어로 쫓는다",
+   "founder_origin": "Tom·Ruth Roy(Wellcat) 창안 — 검색결과만 확인",
+   "founder_origin_check": "search_result_only",
+   "officiality": "공식 지정 없음",
+   "confidence": "low",
+   "caution": null,
+   "claims": [
+    {
+     "claim_id": "existence",
+     "claim": "Goodreads 블로그가 Daily Beast 기사를 인용해 소개(검색 요약)",
+     "verdict": "search_result_only",
+     "evidence": []
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://www.goodreads.com/author_blog_posts/22593455-for-the-love-of-what-by-artemis-crow",
+     "note": "1차 검색 0건, 2차 검색에서 발견. 원문 수집 타임아웃 → 재시도하지 않음"
+    }
+   ],
+   "prior_research_mentions": [],
+   "kind_label": "이상한 행동",
+   "discovery_status_label": "원문을 못 읽음(검색결과만 확인) 또는 날짜 미확정",
+   "evidence": [
+    {
+     "evidence_id": "yell-fudge-cobras-day/goodreads-artemis-crow",
+     "url": "https://www.goodreads.com/author_blog_posts/22593455-for-the-love-of-what-by-artemis-crow",
+     "source_type": "blog",
+     "read_status": "not_read",
+     "access_status": "blocked",
+     "http_status": null,
+     "error": "TimeoutError:  The read operation timed out",
+     "accessed_at": "2026-10-11T23:18:08+00:00",
+     "local_raw_path": null,
+     "local_text_path": null,
+     "sha256": null,
+     "cited": false
+    }
+   ],
+   "source_urls": [
+    "https://www.goodreads.com/author_blog_posts/22593455-for-the-love-of-what-by-artemis-crow",
+    "https://www.goodreads.com/author_blog_posts/22593455-for-the-love-of-what-by-artemis-crow"
+   ],
+   "original_read": "no — 검색결과만 확인",
+   "single_listing_source": false,
+   "listing_sources_only": false,
+   "duplicate_check": {
+    "existing_id": null,
+    "verdict": "new_not_in_service_1756",
+    "related_existing": []
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "answer-your-cats-questions-day",
+   "kind": "weird_behavior",
+   "discovery_status": "documented_unofficial",
+   "name_ko": "고양이 질문에 답하는 날",
+   "name_original": "Answer Your Cat's Questions Day",
+   "aliases": [],
+   "date_type": "annual-fixed",
+   "date_rule": "01-22",
+   "date_note": null,
+   "scope": "미국 비공식",
+   "meaning": "고양이가 던지는 \"질문\"을 상상해 답해 주는 날",
+   "why_quirky": "말 못 하는 고양이와 문답을 한다는 설정",
+   "founder_origin": "Ruth·Thomas Roy(wellcat.com) 창안설은 검색결과만 확인",
+   "founder_origin_check": "search_result_only",
+   "officiality": "공식 지정 없음. 동물보호단체가 소개",
+   "confidence": "medium",
+   "caution": null,
+   "claims": [
+    {
+     "claim_id": "date",
+     "claim": "1월 22일(2022년 기준 소개)",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "answer-your-cats-questions-day/nevada-humane",
+       "quote": "This year it is celebrated on January 22, 2022!"
+      }
+     ]
+    },
+    {
+     "claim_id": "activity",
+     "claim": "고양이와 시간을 보내며 질문을 상상해 본다",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "answer-your-cats-questions-day/nevada-humane",
+       "quote": "So sit down, spend some quality time with your cat, and get to wondering what questions they might be inquiring."
+      }
+     ]
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://www.timeanddate.com/holidays/fun/answer-your-cats-questions-day",
+     "note": "원문 403 → 검색결과만 확인"
+    }
+   ],
+   "prior_research_mentions": [],
+   "kind_label": "이상한 행동",
+   "discovery_status_label": "비공식이지만 언론·단체·백과 원문 1곳 이상 또는 독립 원문 2곳에서 존재·날짜 확인",
+   "evidence": [
+    {
+     "evidence_id": "answer-your-cats-questions-day/nevada-humane",
+     "url": "https://nevadahumanesociety.org/insights/answer-your-cats-questions/",
+     "source_type": "organization",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:42+00:00",
+     "local_raw_path": "evidence/answer-your-cats-questions-day/nevada-humane.html",
+     "local_text_path": "evidence/answer-your-cats-questions-day/nevada-humane.txt",
+     "sha256": "77e1d6cf3389e801d934f18675027a4808b775020826d81af524bd6f02666dff",
+     "cited": true
+    },
+    {
+     "evidence_id": "answer-your-cats-questions-day/timeanddate",
+     "url": "https://www.timeanddate.com/holidays/fun/answer-your-cats-questions-day",
+     "source_type": "listing",
+     "read_status": "not_read",
+     "access_status": "blocked",
+     "http_status": null,
+     "error": "HTTPError: 403 HTTP Error 403: Forbidden",
+     "accessed_at": "2026-10-11T23:16:44+00:00",
+     "local_raw_path": null,
+     "local_text_path": null,
+     "sha256": null,
+     "cited": false
+    }
+   ],
+   "source_urls": [
+    "https://nevadahumanesociety.org/insights/answer-your-cats-questions/",
+    "https://www.timeanddate.com/holidays/fun/answer-your-cats-questions-day",
+    "https://www.timeanddate.com/holidays/fun/answer-your-cats-questions-day"
+   ],
+   "original_read": "yes",
+   "single_listing_source": false,
+   "listing_sources_only": false,
+   "duplicate_check": {
+    "existing_id": null,
+    "verdict": "new_not_in_service_1756",
+    "related_existing": [
+     {
+      "id": "anv-fixed-08-08-international-cat-day-global",
+      "name": "세계 고양이의 날",
+      "date": "08-08",
+      "category": "animal"
+     },
+     {
+      "id": "anv-fixed-08-17-black-cat-appreciation-day-us",
+      "name": "검은 고양이 감사의 날 (Black Cat Appreciation Day)",
+      "date": "08-17",
+      "category": "animal"
+     },
+     {
+      "id": "anv-fixed-09-09-korean-cat-day-kr",
+      "name": "한국 고양이의 날",
+      "date": "09-09",
+      "category": "animal"
+     },
+     {
+      "id": "anv-fixed-10-16-feral-cat-day-us",
+      "name": "길고양이의 날 (National Feral Cat Day)",
+      "date": "10-16",
+      "category": "animal"
+     },
+     {
+      "id": "anv-fixed-10-29-cat-day-us",
+      "name": "고양이의 날 (National Cat Day)",
+      "date": "10-29",
+      "category": "animal"
+     },
+     {
+      "id": "anv-fixed-12-15-cat-herders-day-global",
+      "name": "고양이 몰이꾼의 날 (Cat Herders Day)",
+      "date": "12-15",
+      "category": "animal"
+     }
+    ]
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "caps-lock-day",
+   "kind": "pun_meme",
+   "discovery_status": "date_conflict",
+   "name_ko": "캡스록의 날",
+   "name_original": "International Caps Lock Day",
+   "aliases": [],
+   "date_type": "annual-fixed",
+   "date_rule": "10-22",
+   "date_note": "원래 10-22(2000년). 06-28 은 빌리 메이스 사망일을 기려 나중에 덧붙은 두 번째 날",
+   "scope": "국제(인터넷)",
+   "meaning": "하루 종일 대문자로만 타이핑하는 날",
+   "why_quirky": "키보드 키 하나를 기념하는 인터넷 패러디",
+   "founder_origin": "Derek Arnold 가 2000년 패러디로 제안",
+   "founder_origin_check": "original_read",
+   "officiality": "공식 지정 없음",
+   "confidence": "high",
+   "caution": null,
+   "claims": [
+    {
+     "claim_id": "origin_date",
+     "claim": "2000년 Derek Arnold 가 10월 22일로 상상한 패러디 기념일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "caps-lock-day/thenextweb-2010",
+       "quote": "International Caps Lock Day is a parodic holiday that was first imagined in 2000 by Derek Arnold, who deemed that on October 22, everyone across the world should type only in Caps Lock."
+      }
+     ]
+    },
+    {
+     "claim_id": "two_dates",
+     "claim": "10월 22일과 6월 28일 두 번 기념",
+     "verdict": "conflicting",
+     "evidence": [
+      {
+       "evidence_id": "caps-lock-day/nationaldaycalendar",
+       "quote": "we recognize this day twice a year; October 22nd and June 28th."
+      }
+     ]
+    },
+    {
+     "claim_id": "june28_reason",
+     "claim": "6월 28일은 빌리 메이스 사망일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "caps-lock-day/nationaldaycalendar",
+       "quote": "This June 28 day commemorates the day Billy Mays died on June 28, 2009."
+      }
+     ]
+    }
+   ],
+   "search_result_only": [],
+   "prior_research_mentions": [],
+   "kind_label": "말장난·밈",
+   "discovery_status_label": "존재는 확인했지만 출처끼리 날짜가 갈림",
+   "evidence": [
+    {
+     "evidence_id": "caps-lock-day/nationaldaycalendar",
+     "url": "https://www.nationaldaycalendar.com/international/international-caps-lock-day-june-28-or-october-22",
+     "source_type": "listing",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:15:57+00:00",
+     "local_raw_path": "evidence/caps-lock-day/nationaldaycalendar.html",
+     "local_text_path": "evidence/caps-lock-day/nationaldaycalendar.txt",
+     "sha256": "6797412b14b11e7d0bd98d608abb81c5d521569ba44fda3252e0a1c7bd0ac915",
+     "cited": true
+    },
+    {
+     "evidence_id": "caps-lock-day/thenextweb-2010",
+     "url": "https://thenextweb.com/news/today-is-international-caps-lock-day-but-what-is-it",
+     "source_type": "news",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:15:56+00:00",
+     "local_raw_path": "evidence/caps-lock-day/thenextweb-2010.html",
+     "local_text_path": "evidence/caps-lock-day/thenextweb-2010.txt",
+     "sha256": "4d130b8411161013d13f56b93f1d5bff522c523658b9193e80b02b07f4cd0627",
+     "cited": true
+    }
+   ],
+   "source_urls": [
+    "https://www.nationaldaycalendar.com/international/international-caps-lock-day-june-28-or-october-22",
+    "https://thenextweb.com/news/today-is-international-caps-lock-day-but-what-is-it"
+   ],
+   "original_read": "yes",
+   "single_listing_source": false,
+   "listing_sources_only": false,
+   "duplicate_check": {
+    "existing_id": null,
+    "verdict": "new_not_in_service_1756",
+    "related_existing": []
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "mean-girls-day",
+   "kind": "pun_meme",
+   "discovery_status": "documented_unofficial",
+   "name_ko": "퀸카로 살아남는 법(Mean Girls)의 날",
+   "name_original": "Mean Girls Day",
+   "aliases": [],
+   "date_type": "annual-fixed",
+   "date_rule": "10-03",
+   "date_note": null,
+   "scope": "국제(팬덤·SNS)",
+   "meaning": "영화 속 \"오늘은 10월 3일이야\" 대사를 따라 분홍 옷과 짤을 나누는 날",
+   "why_quirky": "영화 대사 한 줄이 기념일이 됨",
+   "founder_origin": "2004년 영화 대사에서 유래, 팬들이 SNS로 기념(제정자 없음)",
+   "founder_origin_check": "original_read",
+   "officiality": "공식 지정 없음",
+   "confidence": "high",
+   "caution": null,
+   "claims": [
+    {
+     "claim_id": "date",
+     "claim": "10월 3일은 팬들에게 특별한 날",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "mean-girls-day/cbsnews-2018",
+       "quote": "October 3 is a special day for"
+      }
+     ]
+    },
+    {
+     "claim_id": "origin",
+     "claim": "남자 주인공이 날짜를 묻자 10월 3일이라고 답한 장면",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "mean-girls-day/time",
+       "quote": "He asked her what day it was, and she replied"
+      }
+     ]
+    },
+    {
+     "claim_id": "unofficial",
+     "claim": "비공식적으로 National Mean Girls Day 로 불림",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "mean-girls-day/time",
+       "quote": "unofficially known as National Mean Girls Day"
+      }
+     ]
+    }
+   ],
+   "search_result_only": [],
+   "prior_research_mentions": [],
+   "kind_label": "말장난·밈",
+   "discovery_status_label": "비공식이지만 언론·단체·백과 원문 1곳 이상 또는 독립 원문 2곳에서 존재·날짜 확인",
+   "evidence": [
+    {
+     "evidence_id": "mean-girls-day/cbsnews-2018",
+     "url": "https://www.cbsnews.com/newyork/news/mean-girls-day-2018/",
+     "source_type": "news",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:15:58+00:00",
+     "local_raw_path": "evidence/mean-girls-day/cbsnews-2018.html",
+     "local_text_path": "evidence/mean-girls-day/cbsnews-2018.txt",
+     "sha256": "c5603e3e7a90530ecdd04eee49ccd299d8366c94385ba9554567321fb5532402",
+     "cited": true
+    },
+    {
+     "evidence_id": "mean-girls-day/time",
+     "url": "https://time.com/3457797/mean-girls-day-october-3/",
+     "source_type": "news",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:00+00:00",
+     "local_raw_path": "evidence/mean-girls-day/time.html",
+     "local_text_path": "evidence/mean-girls-day/time.txt",
+     "sha256": "fd65e0d1082d342ad399048d901ebd34c6d2b39c8cfd5f92720ef5b7c3e14451",
+     "cited": true
+    }
+   ],
+   "source_urls": [
+    "https://www.cbsnews.com/newyork/news/mean-girls-day-2018/",
+    "https://time.com/3457797/mean-girls-day-october-3/"
+   ],
+   "original_read": "yes",
+   "single_listing_source": false,
+   "listing_sources_only": false,
+   "duplicate_check": {
+    "existing_id": null,
+    "verdict": "new_not_in_service_1756",
+    "related_existing": []
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "its-gonna-be-may",
+   "kind": "pun_meme",
+   "discovery_status": "documented_unofficial",
+   "name_ko": "\"잇츠 고나 비 메이\" 데이",
+   "name_original": "It's Gonna Be May (Day)",
+   "aliases": [],
+   "date_type": "annual-fixed",
+   "date_rule": "04-30",
+   "date_note": null,
+   "scope": "국제(인터넷 밈)",
+   "meaning": "엔싱크 \"It's Gonna Be Me\"의 \"Me\"가 \"May\"로 들리는 걸 4월 30일마다 올리는 밈",
+   "why_quirky": "잘못 들은 가사(몬더그린) 하나로 매년 반복되는 날",
+   "founder_origin": "2012년 텀블러 밈에서 시작(제정자 없음)",
+   "founder_origin_check": "original_read",
+   "officiality": "공식 지정 없음",
+   "confidence": "high",
+   "caution": null,
+   "claims": [
+    {
+     "claim_id": "annual_spike",
+     "claim": "2012년 밈 이후 매년 이날 스트리밍이 급증",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "its-gonna-be-may/spotify-newsroom",
+       "quote": "Thanks to a 2012 meme gone viral, on this day each year, the *NSYNC song"
+      }
+     ]
+    },
+    {
+     "claim_id": "unofficial",
+     "claim": "비공식 기념일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "its-gonna-be-may/spotify-newsroom",
+       "quote": "seen the meme of this unofficial holiday"
+      }
+     ]
+    },
+    {
+     "claim_id": "origin",
+     "claim": "2012년 1월 텀블러에서 시작, 4월 30일 카운트다운으로 굳음",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "its-gonna-be-may/meme-com",
+       "quote": "Starting on Tumblr in January 2012, the misheard lyric turned into a yearly countdown to April 30th"
+      }
+     ]
+    }
+   ],
+   "search_result_only": [],
+   "prior_research_mentions": [],
+   "kind_label": "말장난·밈",
+   "discovery_status_label": "비공식이지만 언론·단체·백과 원문 1곳 이상 또는 독립 원문 2곳에서 존재·날짜 확인",
+   "evidence": [
+    {
+     "evidence_id": "its-gonna-be-may/meme-com",
+     "url": "https://meme.com/memes/its-gonna-be-may",
+     "source_type": "meme_database",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:07+00:00",
+     "local_raw_path": "evidence/its-gonna-be-may/meme-com.html",
+     "local_text_path": "evidence/its-gonna-be-may/meme-com.txt",
+     "sha256": "ef0ac3a0399147c8fc7cfcade177566a7147c92ac3b086a6d145662a56cd0a85",
+     "cited": true
+    },
+    {
+     "evidence_id": "its-gonna-be-may/spotify-newsroom",
+     "url": "https://newsroom.spotify.com/tag/its-gonna-be-may",
+     "source_type": "company_newsroom",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:02+00:00",
+     "local_raw_path": "evidence/its-gonna-be-may/spotify-newsroom.html",
+     "local_text_path": "evidence/its-gonna-be-may/spotify-newsroom.txt",
+     "sha256": "534b2f7a5b8add966cda99835b12dccce850013febca96e92f859b1ea294af3d",
+     "cited": true
+    }
+   ],
+   "source_urls": [
+    "https://meme.com/memes/its-gonna-be-may",
+    "https://newsroom.spotify.com/tag/its-gonna-be-may"
+   ],
+   "original_read": "yes",
+   "single_listing_source": false,
+   "listing_sources_only": false,
+   "duplicate_check": {
+    "existing_id": null,
+    "verdict": "new_not_in_service_1756",
+    "related_existing": []
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "revenge-of-the-sixth",
+   "kind": "pun_meme",
+   "discovery_status": "duplicate",
+   "name_ko": "시스의 복수 데이",
+   "name_original": "Revenge of the Sixth / Revenge of the Fifth",
+   "aliases": [
+    "Revenge of the Fifth",
+    "시스 데이"
+   ],
+   "date_type": "annual-fixed",
+   "date_rule": "05-06",
+   "date_note": "05-06(Sixth, 디즈니 스토어 2025) vs 05-05(Fifth, 팬 다수). 팬 사이에서도 갈림",
+   "scope": "국제(스타워즈 팬덤)",
+   "meaning": "스타워즈 데이 다음 날, 악역(시스)을 기리는 날",
+   "why_quirky": "\"Sith\"와 \"Sixth/Fifth\" 발음 말장난",
+   "founder_origin": "팬 문화에서 생김. 디즈니 스토어는 2025년 \"첫\" Revenge of the Sixth Day 진행",
+   "founder_origin_check": "original_read",
+   "officiality": "공식 기념일 아님(상업 행사 있음)",
+   "confidence": "high",
+   "caution": null,
+   "claims": [
+    {
+     "claim_id": "disney_may6",
+     "claim": "디즈니 스토어가 5월 6일 첫 Revenge of the Sixth Day 진행",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "revenge-of-the-sixth/disneyparksblog",
+       "quote": "Disney Store is honoring the occasion by hosting its first ever Revenge of the Sixth Day; celebrate the day on Tuesday, May 6"
+      }
+     ]
+    },
+    {
+     "claim_id": "fans_may5",
+     "claim": "팬들은 5월 5일을 Revenge of the Fifth 로 기념",
+     "verdict": "conflicting",
+     "evidence": [
+      {
+       "evidence_id": "revenge-of-the-sixth/meaww",
+       "quote": "fans celebrate May 5, as"
+      }
+     ]
+    },
+    {
+     "claim_id": "debate",
+     "claim": "Fifth 냐 Sixth 냐 팬 논쟁",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "revenge-of-the-sixth/meaww",
+       "quote": "there has been a constant debate between fans on what works better: Revenge of the Fifth or Sixth, since the latter comes closer to Sith."
+      }
+     ]
+    }
+   ],
+   "search_result_only": [],
+   "prior_research_mentions": [
+    "tools/namuwiki/output/namuwiki_calendar.json: \"시스 데이\" 5월 5일(발견용 행)"
+   ],
+   "kind_label": "말장난·밈",
+   "discovery_status_label": "서비스 1,756건에 이미 있는 항목",
+   "evidence": [
+    {
+     "evidence_id": "revenge-of-the-sixth/disneyparksblog",
+     "url": "https://disneyparksblog.com/products/celebrate-star-wars-revenge-of-the-sith/",
+     "source_type": "company_blog",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:08+00:00",
+     "local_raw_path": "evidence/revenge-of-the-sixth/disneyparksblog.html",
+     "local_text_path": "evidence/revenge-of-the-sixth/disneyparksblog.txt",
+     "sha256": "a847eba778a10c184ef6dd8e217c746c31405204eff490f9c400e8cab55b342c",
+     "cited": true
+    },
+    {
+     "evidence_id": "revenge-of-the-sixth/meaww",
+     "url": "https://meaww.com/revenge-of-the-fifth-star-wars-may-5-sixth-fans-argue-makes-more-sense-sith-episode-three-day",
+     "source_type": "news",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:10+00:00",
+     "local_raw_path": "evidence/revenge-of-the-sixth/meaww.html",
+     "local_text_path": "evidence/revenge-of-the-sixth/meaww.txt",
+     "sha256": "e2e1f8b76edada51e7071c6b77eb34dca68061d577a99fff425b44ecfcb2806e",
+     "cited": true
+    }
+   ],
+   "source_urls": [
+    "https://disneyparksblog.com/products/celebrate-star-wars-revenge-of-the-sith/",
+    "https://meaww.com/revenge-of-the-fifth-star-wars-may-5-sixth-fans-argue-makes-more-sense-sith-episode-three-day"
+   ],
+   "original_read": "yes",
+   "single_listing_source": false,
+   "listing_sources_only": false,
+   "duplicate_check": {
+    "existing_id": "anv-fixed-05-05-sith-day-global",
+    "verdict": "duplicate_of_existing",
+    "note": "기존 \"시스 데이\"(05-05, culture)가 같은 팬 기념일의 Fifth 판. 05-06(Sixth)은 날짜 변형 — 신규 아님, 기존 항목 본문에 변형 언급 여부만 검토 대상",
+    "related_existing": [
+     {
+      "id": "anv-fixed-05-04-star-wars-day-global",
+      "name": "스타워즈 데이",
+      "date": "05-04",
+      "category": "culture"
+     }
+    ]
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "blue-monday",
+   "kind": "pun_meme",
+   "discovery_status": "documented_unofficial",
+   "name_ko": "블루 먼데이(가장 우울한 날이라는 PR 공식)",
+   "name_original": "Blue Monday",
+   "aliases": [],
+   "date_type": "annual-nth-weekday",
+   "date_rule": "01-3-MON",
+   "date_note": "1월 셋째 월요일(EBSCO). 해마다 날짜가 바뀜",
+   "scope": "영국에서 시작, 국제 확산",
+   "meaning": "\"1년 중 가장 우울한 날\"이라고 주장하는 날 — 여행사 홍보용 사이비 공식에서 나옴",
+   "why_quirky": "과학처럼 포장된 근거 없는 날이라는 점 자체가 이야깃거리",
+   "founder_origin": "2005년 Cliff Arnall 이 Sky Travel 홍보 의뢰로 만든 공식",
+   "founder_origin_check": "original_read",
+   "officiality": "공식 지정 없음. 의사과학으로 반박됨",
+   "confidence": "medium",
+   "caution": "정신건강 소재. \"가장 우울한 날\"을 사실처럼 쓰지 말고 반박된 PR 공식임을 먼저 밝힐 것",
+   "claims": [
+    {
+     "claim_id": "debunked",
+     "claim": "1월 셋째 월요일이 가장 우울하다는 반박된 의사과학",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "blue-monday/ebsco",
+       "quote": "Blue Monday is a debunked pseudoscientific theory suggesting that the third Monday of January is the most depressing day of the year."
+      }
+     ]
+    },
+    {
+     "claim_id": "pr_origin",
+     "claim": "Sky Travel 의 홍보 의뢰에서 출발",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "blue-monday/ebsco",
+       "quote": "he was approached by a British television network called Sky Travel to participate in a unique public relations endeavor."
+      }
+     ]
+    },
+    {
+     "claim_id": "year",
+     "claim": "2005년 공개",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "blue-monday/ebsco",
+       "quote": "who first went public with his supposed findings in 2005"
+      }
+     ]
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://www.brusselstimes.com/1400713/blue-monday-why-today-is-not-the-most-depressing-day-of-the-year",
+     "note": "원문 수집 시 본문 19자(빈 페이지) → 미확인"
+    }
+   ],
+   "prior_research_mentions": [],
+   "kind_label": "말장난·밈",
+   "discovery_status_label": "비공식이지만 언론·단체·백과 원문 1곳 이상 또는 독립 원문 2곳에서 존재·날짜 확인",
+   "evidence": [
+    {
+     "evidence_id": "blue-monday/brusselstimes",
+     "url": "https://www.brusselstimes.com/1400713/blue-monday-why-today-is-not-the-most-depressing-day-of-the-year",
+     "source_type": "news",
+     "read_status": "not_read",
+     "access_status": "blocked_empty_body",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:12+00:00",
+     "local_raw_path": "evidence/blue-monday/brusselstimes.html",
+     "local_text_path": "evidence/blue-monday/brusselstimes.txt",
+     "sha256": "b2fd7373fc4068095f4240de9b2a7d2bab60af1ca837e6b476bd5c0af92d82c8",
+     "cited": false
+    },
+    {
+     "evidence_id": "blue-monday/ebsco",
+     "url": "https://www.ebsco.com/research-starters/science/blue-monday-pseudoscience",
+     "source_type": "reference",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:13+00:00",
+     "local_raw_path": "evidence/blue-monday/ebsco.html",
+     "local_text_path": "evidence/blue-monday/ebsco.txt",
+     "sha256": "e9efb5dafb798725be7531da0b76facf3124a74ccc7ab1547ca7ad227d0f37d4",
+     "cited": true
+    }
+   ],
+   "source_urls": [
+    "https://www.brusselstimes.com/1400713/blue-monday-why-today-is-not-the-most-depressing-day-of-the-year",
+    "https://www.ebsco.com/research-starters/science/blue-monday-pseudoscience",
+    "https://www.brusselstimes.com/1400713/blue-monday-why-today-is-not-the-most-depressing-day-of-the-year"
+   ],
+   "original_read": "yes",
+   "single_listing_source": false,
+   "listing_sources_only": false,
+   "duplicate_check": {
+    "existing_id": null,
+    "verdict": "new_not_in_service_1756",
+    "related_existing": []
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "earth-wind-fire-day",
+   "kind": "pun_meme",
+   "discovery_status": "documented_unofficial",
+   "name_ko": "어스 윈드 앤 파이어 데이(9월 21일 밈)",
+   "name_original": "Earth, Wind & Fire Day",
+   "aliases": [],
+   "date_type": "annual-fixed",
+   "date_rule": "09-21",
+   "date_note": null,
+   "scope": "국제(인터넷 밈), 미국 LA 시의회 선언",
+   "meaning": "\"Do you remember the 21st night of September?\" 가사 때문에 매년 9월 21일 노래를 트는 날",
+   "why_quirky": "작사가 본인은 \"21일에 의미 없음, 그냥 발음이 좋아서\"라고 함",
+   "founder_origin": "1978년 노래 가사에서 유래. 2019년 LA 시의회가 선언",
+   "founder_origin_check": "original_read",
+   "officiality": "LA 시의회 선언(지역). 국가 공식 아님",
+   "confidence": "high",
+   "caution": null,
+   "claims": [
+    {
+     "claim_id": "meme_day",
+     "claim": "NPR 이 9월 21일을 Earth, Wind and Fire Day 로 소개",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "earth-wind-fire-day/cfpublic-npr-2022",
+       "quote": "Happy Earth, Wind and Fire Day."
+      }
+     ]
+    },
+    {
+     "claim_id": "no_meaning",
+     "claim": "21일에는 의미가 없다(작사가)",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "earth-wind-fire-day/cfpublic-npr-2022",
+       "quote": "There is no significance beyond it just sang better than any of the other dates."
+      }
+     ]
+    },
+    {
+     "claim_id": "la_council",
+     "claim": "LA 시의회가 9월 21일을 선언",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "earth-wind-fire-day/wsvn",
+       "quote": "the City Council declared September 21"
+      }
+     ]
+    }
+   ],
+   "search_result_only": [],
+   "prior_research_mentions": [],
+   "kind_label": "말장난·밈",
+   "discovery_status_label": "비공식이지만 언론·단체·백과 원문 1곳 이상 또는 독립 원문 2곳에서 존재·날짜 확인",
+   "evidence": [
+    {
+     "evidence_id": "earth-wind-fire-day/cfpublic-npr-2022",
+     "url": "https://www.cfpublic.org/2022-09-21/do-you-remember-its-earth-wind-and-fire-day",
+     "source_type": "public_radio",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:14+00:00",
+     "local_raw_path": "evidence/earth-wind-fire-day/cfpublic-npr-2022.html",
+     "local_text_path": "evidence/earth-wind-fire-day/cfpublic-npr-2022.txt",
+     "sha256": "dc466b016dfa24ac42a9423d67d15d2652d4d25c46420d4f8899c388ecc7d022",
+     "cited": true
+    },
+    {
+     "evidence_id": "earth-wind-fire-day/wsvn",
+     "url": "https://wsvn.com/entertainment/los-angeles-declared-september-21-earth-wind-fire-day/",
+     "source_type": "news",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:15+00:00",
+     "local_raw_path": "evidence/earth-wind-fire-day/wsvn.html",
+     "local_text_path": "evidence/earth-wind-fire-day/wsvn.txt",
+     "sha256": "3d2c267e6ba9528a0ee1bc41342f516793151d8c2a4afe388a694c6c39d0c545",
+     "cited": true
+    }
+   ],
+   "source_urls": [
+    "https://www.cfpublic.org/2022-09-21/do-you-remember-its-earth-wind-and-fire-day",
+    "https://wsvn.com/entertainment/los-angeles-declared-september-21-earth-wind-fire-day/"
+   ],
+   "original_read": "yes",
+   "single_listing_source": false,
+   "listing_sources_only": false,
+   "duplicate_check": {
+    "existing_id": null,
+    "verdict": "new_not_in_service_1756",
+    "related_existing": []
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "tau-day",
+   "kind": "pun_meme",
+   "discovery_status": "documented_unofficial",
+   "name_ko": "타우의 날",
+   "name_original": "Tau Day",
+   "aliases": [],
+   "date_type": "annual-fixed",
+   "date_rule": "06-28",
+   "date_note": null,
+   "scope": "국제(수학 애호가)",
+   "meaning": "원주율 π 대신 τ(=2π≈6.28)를 쓰자며 6/28을 기념하는 날",
+   "why_quirky": "파이의 날에 맞선 \"안티 파이\" 숫자 말장난",
+   "founder_origin": "2010년 Michael Hartl 이 Tau Manifesto 와 함께 창안",
+   "founder_origin_check": "original_read",
+   "officiality": "공식 지정 없음",
+   "confidence": "high",
+   "caution": null,
+   "claims": [
+    {
+     "claim_id": "founding_date",
+     "claim": "2010년 Hartl 의 Tau Manifesto 와 함께 시작, 매년 6월 28일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "tau-day/tauday",
+       "quote": "Founded in 2010 with the publication of The Tau Manifesto by Michael Hartl, Tau Day takes place annually on June 28 (6/28 in the American calendar system)."
+      }
+     ]
+    },
+    {
+     "claim_id": "independent",
+     "claim": "사이언티픽 아메리칸 블로그가 2010년 선언문을 소개",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "tau-day/sciam-blog",
+       "quote": "In his popular 2010"
+      }
+     ]
+    }
+   ],
+   "search_result_only": [],
+   "prior_research_mentions": [],
+   "kind_label": "말장난·밈",
+   "discovery_status_label": "비공식이지만 언론·단체·백과 원문 1곳 이상 또는 독립 원문 2곳에서 존재·날짜 확인",
+   "evidence": [
+    {
+     "evidence_id": "tau-day/sciam-blog",
+     "url": "https://www.scientificamerican.com/blog/observations/the-tao-of-tau/",
+     "source_type": "magazine_blog",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:17+00:00",
+     "local_raw_path": "evidence/tau-day/sciam-blog.html",
+     "local_text_path": "evidence/tau-day/sciam-blog.txt",
+     "sha256": "bc8d235bb569f7e859007fbe02035a17cd5577a4b284affbc0e494c494a1c9ca",
+     "cited": true
+    },
+    {
+     "evidence_id": "tau-day/tauday",
+     "url": "https://tauday.com/",
+     "source_type": "founder_site",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:17+00:00",
+     "local_raw_path": "evidence/tau-day/tauday.html",
+     "local_text_path": "evidence/tau-day/tauday.txt",
+     "sha256": "0628bbdbba13b1e0ff9271b32b5f68848e74c964ebd2b1bfe1aa9eb8ba13617a",
+     "cited": true
+    }
+   ],
+   "source_urls": [
+    "https://www.scientificamerican.com/blog/observations/the-tao-of-tau/",
+    "https://tauday.com/"
+   ],
+   "original_read": "yes",
+   "single_listing_source": false,
+   "listing_sources_only": false,
+   "duplicate_check": {
+    "existing_id": null,
+    "verdict": "new_not_in_service_1756",
+    "related_existing": [
+     {
+      "id": "anv-fixed-03-14-pi-day",
+      "name": "세계 파이(π)의 날",
+      "date": "03-14",
+      "category": "food"
+     }
+    ]
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "ninja-day-jp",
+   "kind": "pun_meme",
+   "discovery_status": "documented_unofficial",
+   "name_ko": "닌자의 날(일본)",
+   "name_original": "忍者の日",
+   "aliases": [],
+   "date_type": "annual-fixed",
+   "date_rule": "02-22",
+   "date_note": null,
+   "scope": "일본",
+   "meaning": "2월 22일을 \"닌닌닌\"으로 읽어 닌자를 기리는 날",
+   "why_quirky": "숫자 2를 닌자 말버릇 \"닌\"으로 읽는 말장난",
+   "founder_origin": "일본닌자협의회(2015 발족)가 이날 행사. 일본기념일협회 인정 연도(2014/2015)는 검색결과에서 상충",
+   "founder_origin_check": "partial_original",
+   "officiality": "민간·지자체 협의회 행사. 국가 공식 아님",
+   "confidence": "high",
+   "caution": null,
+   "claims": [
+    {
+     "claim_id": "pun_date",
+     "claim": "2월 22일 \"닌닌닌\" 말장난",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "ninja-day-jp/timeout-jp",
+       "quote": "2月22日「ニンニンニン」と語呂を合わせた忍者の日に"
+      }
+     ]
+    },
+    {
+     "claim_id": "council",
+     "claim": "전년 발족한 일본닌자협의회의 행사",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "ninja-day-jp/timeout-jp",
+       "quote": "昨年発足した日本忍者協議会によるこの取り組みは"
+      }
+     ]
+    },
+    {
+     "claim_id": "government_event",
+     "claim": "미에현이 2월 22일 닌자의 날 행사 공지",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "ninja-day-jp/pref-mie",
+       "quote": "2月22日「忍者の日」に合わせ"
+      }
+     ]
+    }
+   ],
+   "search_result_only": [],
+   "prior_research_mentions": [],
+   "kind_label": "말장난·밈",
+   "discovery_status_label": "비공식이지만 언론·단체·백과 원문 1곳 이상 또는 독립 원문 2곳에서 존재·날짜 확인",
+   "evidence": [
+    {
+     "evidence_id": "ninja-day-jp/pref-mie",
+     "url": "https://www.pref.mie.lg.jp/TOPICS/m0031100533.htm",
+     "source_type": "government",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:20+00:00",
+     "local_raw_path": "evidence/ninja-day-jp/pref-mie.html",
+     "local_text_path": "evidence/ninja-day-jp/pref-mie.txt",
+     "sha256": "ba3577901e42bb553d28cd091ab701737eefa766d635fbe9afa8b561c8abd8bc",
+     "cited": true
+    },
+    {
+     "evidence_id": "ninja-day-jp/timeout-jp",
+     "url": "https://www.timeout.jp/tokyo/ja/blog/2%E6%9C%8822%E6%97%A5%E5%BF%8D%E8%80%85%E3%81%AE%E6%97%A5%E3%81%AB-%E5%BF%8D%E8%80%85%E5%85%83%E5%B9%B4%E5%AE%A3%E8%A8%80%E3%81%8C%E7%99%BA%E8%A1%A8-022216",
+     "source_type": "magazine",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:18+00:00",
+     "local_raw_path": "evidence/ninja-day-jp/timeout-jp.html",
+     "local_text_path": "evidence/ninja-day-jp/timeout-jp.txt",
+     "sha256": "f0275daee02361aaac64d06715451c83f04454f45d7e6b14a49670dd5b342ff5",
+     "cited": true
+    }
+   ],
+   "source_urls": [
+    "https://www.pref.mie.lg.jp/TOPICS/m0031100533.htm",
+    "https://www.timeout.jp/tokyo/ja/blog/2%E6%9C%8822%E6%97%A5%E5%BF%8D%E8%80%85%E3%81%AE%E6%97%A5%E3%81%AB-%E5%BF%8D%E8%80%85%E5%85%83%E5%B9%B4%E5%AE%A3%E8%A8%80%E3%81%8C%E7%99%BA%E8%A1%A8-022216"
+   ],
+   "original_read": "yes",
+   "single_listing_source": false,
+   "listing_sources_only": false,
+   "duplicate_check": {
+    "existing_id": null,
+    "verdict": "new_not_in_service_1756",
+    "related_existing": [
+     {
+      "id": "anv-fixed-12-05-ninja-day-global",
+      "name": "세계 닌자의 날 (International Ninja Day)",
+      "date": "12-05",
+      "category": "culture"
+     }
+    ]
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "cheonsa-day-kr",
+   "kind": "pun_meme",
+   "discovery_status": "discovered_unverified",
+   "name_ko": "천사데이",
+   "name_original": "천사데이(1004)",
+   "aliases": [],
+   "date_type": "annual-fixed",
+   "date_rule": "10-04",
+   "date_note": null,
+   "scope": "한국",
+   "meaning": "10월 4일=1004=천사, 남을 돕는 날",
+   "why_quirky": "숫자 발음 말장난",
+   "founder_origin": "동두천 \"희망지킴이 천사운동본부\"가 2003년부터 행사(칼럼 1건). 날 자체의 최초 제정자는 미확인",
+   "founder_origin_check": "single_news_column",
+   "officiality": "공식 지정 없음",
+   "confidence": "low",
+   "caution": null,
+   "claims": [
+    {
+     "claim_id": "pun",
+     "claim": "1004 발음에서 따온 천사데이",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "cheonsa-day-kr/kormedi",
+       "quote": "1004의 발음을 따온"
+      }
+     ]
+    },
+    {
+     "claim_id": "event",
+     "claim": "2003년부터 매년 행사",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "cheonsa-day-kr/kormedi",
+       "quote": "2003년부터 매년 뜻깊은 행사를 펼치고 있습니다"
+      }
+     ]
+    }
+   ],
+   "search_result_only": [],
+   "prior_research_mentions": [
+    "tools/namuwiki/output/namuwiki_calendar.json: 천사데이(발견용 행)",
+    "tools/research/jp-blog-raw.txt: 일본 10/4 천사의 날(별개)"
+   ],
+   "kind_label": "말장난·밈",
+   "discovery_status_label": "기념일 목록 사이트·약한 출처 원문만 읽음(단일 목록 출처 포함). 존재는 보이나 독립 확인 부족",
+   "evidence": [
+    {
+     "evidence_id": "cheonsa-day-kr/kormedi",
+     "url": "https://kormedi.com/200641/",
+     "source_type": "news_column",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:28+00:00",
+     "local_raw_path": "evidence/cheonsa-day-kr/kormedi.html",
+     "local_text_path": "evidence/cheonsa-day-kr/kormedi.txt",
+     "sha256": "066b9e4ffc740568c6884fa1358dc026f61513fabee0eb3dc15a3318c90ce521",
+     "cited": true
+    }
+   ],
+   "source_urls": [
+    "https://kormedi.com/200641/"
+   ],
+   "original_read": "yes",
+   "single_listing_source": false,
+   "listing_sources_only": false,
+   "duplicate_check": {
+    "existing_id": null,
+    "verdict": "new_not_in_service_1756",
+    "related_existing": []
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "apple-day-kr",
+   "kind": "relationship",
+   "discovery_status": "documented_unofficial",
+   "name_ko": "애플데이(사과데이)",
+   "name_original": "애플데이",
+   "aliases": [],
+   "date_type": "annual-fixed",
+   "date_rule": "10-24",
+   "date_note": null,
+   "scope": "한국",
+   "meaning": "둘(2)이 사(4)과하고 화해하자며 사과를 건네는 날",
+   "why_quirky": "\"사과(謝過)\"와 \"사과(沙果)\" 동음 말장난",
+   "founder_origin": "2002년 학교폭력대책 국민협의회 마련(대학 기고문은 \"~했다고 한다\"로 전함)",
+   "founder_origin_check": "secondary_hearsay",
+   "officiality": "공식 지정 없음",
+   "confidence": "medium",
+   "caution": null,
+   "claims": [
+    {
+     "claim_id": "date_pun",
+     "claim": "10월 24일을 둘이 사과하고 화해하는 날로 정함",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "apple-day-kr/seoul-2013",
+       "quote": "애플데이는 사과철인 10월의 24일을"
+      }
+     ]
+    },
+    {
+     "claim_id": "year",
+     "claim": "2002년 제정",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "apple-day-kr/seoul-2013",
+       "quote": "2002년 제정됐다"
+      }
+     ]
+    },
+    {
+     "claim_id": "body",
+     "claim": "학교폭력대책 국민협의회가 마련(전언)",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "apple-day-kr/syu",
+       "quote": "2002년에 학교폭력대책 국민협의회에서 사제 간과 친구 간에 애정과 화해가 담긴 사과(沙果)와 편지를 교환하여 따뜻한 학교를 만들자는 취지로 마련했다고 한다."
+      }
+     ]
+    }
+   ],
+   "search_result_only": [],
+   "prior_research_mentions": [
+    "tools/namuwiki/output/namuwiki_calendar.json: 사과데이(발견용 행)"
+   ],
+   "kind_label": "관계",
+   "discovery_status_label": "비공식이지만 언론·단체·백과 원문 1곳 이상 또는 독립 원문 2곳에서 존재·날짜 확인",
+   "evidence": [
+    {
+     "evidence_id": "apple-day-kr/seoul-2013",
+     "url": "https://m.go.seoul.co.kr/news/2013/10/25/20131025012024",
+     "source_type": "news",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:27+00:00",
+     "local_raw_path": "evidence/apple-day-kr/seoul-2013.html",
+     "local_text_path": "evidence/apple-day-kr/seoul-2013.txt",
+     "sha256": "f41d53bdba5c98e91f15421bbd464780a7a061357056477c0a185244e6c46ea7",
+     "cited": true
+    },
+    {
+     "evidence_id": "apple-day-kr/syu",
+     "url": "https://www.syu.ac.kr/grad/?p=43747",
+     "source_type": "university_column",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:28+00:00",
+     "local_raw_path": "evidence/apple-day-kr/syu.html",
+     "local_text_path": "evidence/apple-day-kr/syu.txt",
+     "sha256": "b29cbf05001a9d5e523537be0a5a2611b7248ffbe05c6938e4471b7123fd5f39",
+     "cited": true
+    }
+   ],
+   "source_urls": [
+    "https://m.go.seoul.co.kr/news/2013/10/25/20131025012024",
+    "https://www.syu.ac.kr/grad/?p=43747"
+   ],
+   "original_read": "yes",
+   "single_listing_source": false,
+   "listing_sources_only": false,
+   "duplicate_check": {
+    "existing_id": null,
+    "verdict": "new_not_in_service_1756",
+    "related_existing": []
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "galentines-day",
+   "kind": "relationship",
+   "discovery_status": "documented_unofficial",
+   "name_ko": "갤런타인데이",
+   "name_original": "Galentine's Day",
+   "aliases": [],
+   "date_type": "annual-fixed",
+   "date_rule": "02-13",
+   "date_note": null,
+   "scope": "미국에서 시작, 국제",
+   "meaning": "밸런타인데이 전날 여자 친구들끼리 우정을 챙기는 날",
+   "why_quirky": "TV 시트콤 속 가짜 기념일이 현실로 넘어옴",
+   "founder_origin": "2010년 2월 11일 방영 \"Parks and Recreation\" 시즌2 16화에서 탄생",
+   "founder_origin_check": "original_read",
+   "officiality": "공식 지정 없음",
+   "confidence": "high",
+   "caution": null,
+   "claims": [
+    {
+     "claim_id": "origin",
+     "claim": "2010년 2월 11일 방영 시즌2 16화에서 탄생",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "galentines-day/mentalfloss",
+       "quote": "was conceived in the 16th episode of season 2 of Parks and Recreation, which aired on February 11, 2010."
+      }
+     ]
+    },
+    {
+     "claim_id": "date",
+     "claim": "현실에서 매년 2월 13일 기념",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "galentines-day/history-com",
+       "quote": "Real women celebrate the once-fictional holiday every February 13."
+      }
+     ]
+    }
+   ],
+   "search_result_only": [],
+   "prior_research_mentions": [],
+   "kind_label": "관계",
+   "discovery_status_label": "비공식이지만 언론·단체·백과 원문 1곳 이상 또는 독립 원문 2곳에서 존재·날짜 확인",
+   "evidence": [
+    {
+     "evidence_id": "galentines-day/history-com",
+     "url": "https://www.history.com/articles/what-is-galentines-day",
+     "source_type": "magazine",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:31+00:00",
+     "local_raw_path": "evidence/galentines-day/history-com.html",
+     "local_text_path": "evidence/galentines-day/history-com.txt",
+     "sha256": "9365653543077c64ecfc34ee2063127906b6b206cbff96cbffc53525cc1f8b12",
+     "cited": true
+    },
+    {
+     "evidence_id": "galentines-day/mentalfloss",
+     "url": "https://www.mentalfloss.com/holidays/the-unexpected-origins-of-galentines-day",
+     "source_type": "magazine",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:30+00:00",
+     "local_raw_path": "evidence/galentines-day/mentalfloss.html",
+     "local_text_path": "evidence/galentines-day/mentalfloss.txt",
+     "sha256": "b2ebb45e05bfd131316d6a03af55c9b4f434f92d8d5f731f6f70b4106aca8884",
+     "cited": true
+    }
+   ],
+   "source_urls": [
+    "https://www.history.com/articles/what-is-galentines-day",
+    "https://www.mentalfloss.com/holidays/the-unexpected-origins-of-galentines-day"
+   ],
+   "original_read": "yes",
+   "single_listing_source": false,
+   "listing_sources_only": false,
+   "duplicate_check": {
+    "existing_id": null,
+    "verdict": "new_not_in_service_1756",
+    "related_existing": []
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "national-boyfriend-day",
+   "kind": "relationship",
+   "discovery_status": "documented_unofficial",
+   "name_ko": "남자친구의 날",
+   "name_original": "National Boyfriend Day",
+   "aliases": [],
+   "date_type": "annual-fixed",
+   "date_rule": "10-03",
+   "date_note": null,
+   "scope": "국제(SNS)",
+   "meaning": "남자친구에게 고마움을 표하는 날",
+   "why_quirky": "출처 없이 SNS 해시태그로 커진 날",
+   "founder_origin": "2014년 10월 4일쯤 시작으로 추정, 2016년 3월 트윗 급증(위키백과). 제정자 없음",
+   "founder_origin_check": "original_read_unknown_founder",
+   "officiality": "공식 지정 없음",
+   "confidence": "medium",
+   "caution": null,
+   "claims": [
+    {
+     "claim_id": "date",
+     "claim": "매년 10월 3일 비공식 행사",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "national-boyfriend-day/wikipedia",
+       "quote": "National Boyfriend Day is an unofficial event celebrated annually on October 3 in many countries."
+      }
+     ]
+    },
+    {
+     "claim_id": "origin",
+     "claim": "2014년경 시작 추정, 2016년 3월 확산",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "national-boyfriend-day/wikipedia",
+       "quote": "is thought to have originated around October 4, 2014, but it only gained widespread popularity in March 2016"
+      }
+     ]
+    }
+   ],
+   "search_result_only": [],
+   "prior_research_mentions": [],
+   "kind_label": "관계",
+   "discovery_status_label": "비공식이지만 언론·단체·백과 원문 1곳 이상 또는 독립 원문 2곳에서 존재·날짜 확인",
+   "evidence": [
+    {
+     "evidence_id": "national-boyfriend-day/wikipedia",
+     "url": "https://en.wikipedia.org/wiki/National_Boyfriend_Day",
+     "source_type": "encyclopedia",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:35+00:00",
+     "local_raw_path": "evidence/national-boyfriend-day/wikipedia.html",
+     "local_text_path": "evidence/national-boyfriend-day/wikipedia.txt",
+     "sha256": "a75915fb30cdc7e37af4a04812114ea0d33f74fc66d93b9cf32192affb2a9579",
+     "cited": true
+    }
+   ],
+   "source_urls": [
+    "https://en.wikipedia.org/wiki/National_Boyfriend_Day"
+   ],
+   "original_read": "yes",
+   "single_listing_source": false,
+   "listing_sources_only": false,
+   "duplicate_check": {
+    "existing_id": null,
+    "verdict": "new_not_in_service_1756",
+    "related_existing": [
+     {
+      "id": "anv-fixed-08-01-girlfriends-day-us",
+      "name": "여자친구들의 날 (National Girlfriends Day)",
+      "date": "08-01",
+      "category": "campaign"
+     }
+    ]
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "kokuhaku-day-jp",
+   "kind": "relationship",
+   "discovery_status": "discovered_unverified",
+   "name_ko": "고백의 날(일본)",
+   "name_original": "告白の日",
+   "aliases": [],
+   "date_type": "annual-fixed",
+   "date_rule": "05-09",
+   "date_note": null,
+   "scope": "일본",
+   "meaning": "5·9를 \"고쿠(はく)\"로 읽어 좋아하는 사람에게 고백하자는 날",
+   "why_quirky": "날짜 말장난 + 화장품 브랜드 기념일",
+   "founder_origin": "유니레버 재팬(AXE)이 제정 — 목록 사이트 1곳",
+   "founder_origin_check": "single_listing",
+   "officiality": "기업 제정. 공식 지정 아님",
+   "confidence": "low",
+   "caution": null,
+   "claims": [
+    {
+     "claim_id": "founder_pun",
+     "claim": "AXE 유니레버 재팬이 こ(5)く(9)はく 말장난으로 제정",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "kokuhaku-day-jp/netlab-0509",
+       "quote": "男性用化粧品AXEを手がけるユニリーバ・ジャパン株式会社が【こ(5)く(9)はく】の語呂合わせにちなんで5月9日に記念日を制定しております。"
+      }
+     ]
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://bestcalendar.jp/dates/kinenbi/2273",
+     "note": "원문 503 → 검색결과만 확인"
+    },
+    {
+     "url": "https://tabi-mag.jp/day0509/",
+     "note": "원문 403 → 검색결과만 확인"
+    }
+   ],
+   "prior_research_mentions": [],
+   "kind_label": "관계",
+   "discovery_status_label": "기념일 목록 사이트·약한 출처 원문만 읽음(단일 목록 출처 포함). 존재는 보이나 독립 확인 부족",
+   "evidence": [
+    {
+     "evidence_id": "kokuhaku-day-jp/bestcalendar",
+     "url": "https://bestcalendar.jp/dates/kinenbi/2273",
+     "source_type": "listing",
+     "read_status": "not_read",
+     "access_status": "blocked",
+     "http_status": null,
+     "error": "HTTPError: 503 HTTP Error 503: Service Unavailable",
+     "accessed_at": "2026-10-11T23:16:35+00:00",
+     "local_raw_path": null,
+     "local_text_path": null,
+     "sha256": null,
+     "cited": false
+    },
+    {
+     "evidence_id": "kokuhaku-day-jp/netlab-0509",
+     "url": "https://netlab.click/todayis/0509",
+     "source_type": "listing",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:17:58+00:00",
+     "local_raw_path": "evidence/kokuhaku-day-jp/netlab-0509.html",
+     "local_text_path": "evidence/kokuhaku-day-jp/netlab-0509.txt",
+     "sha256": "87b02c7396f4b825e97130178e1fcc5a9cbae9528bb9dcc05584aee9197bcfe3",
+     "cited": true
+    },
+    {
+     "evidence_id": "kokuhaku-day-jp/nissyoku",
+     "url": "https://news.nissyoku.co.jp/today/641616",
+     "source_type": "news",
+     "read_status": "not_read",
+     "access_status": "read_no_relevant_text",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:17:57+00:00",
+     "local_raw_path": "evidence/kokuhaku-day-jp/nissyoku.html",
+     "local_text_path": "evidence/kokuhaku-day-jp/nissyoku.txt",
+     "sha256": "0340569d69f4689613e534a7245dc190be068e956d5c96ac84d89ac310e032ce",
+     "cited": false
+    },
+    {
+     "evidence_id": "kokuhaku-day-jp/tabi-mag",
+     "url": "https://tabi-mag.jp/day0509/",
+     "source_type": "listing",
+     "read_status": "not_read",
+     "access_status": "blocked",
+     "http_status": null,
+     "error": "HTTPError: 403 HTTP Error 403: Forbidden",
+     "accessed_at": "2026-10-11T23:16:37+00:00",
+     "local_raw_path": null,
+     "local_text_path": null,
+     "sha256": null,
+     "cited": false
+    }
+   ],
+   "source_urls": [
+    "https://bestcalendar.jp/dates/kinenbi/2273",
+    "https://netlab.click/todayis/0509",
+    "https://news.nissyoku.co.jp/today/641616",
+    "https://tabi-mag.jp/day0509/",
+    "https://bestcalendar.jp/dates/kinenbi/2273",
+    "https://tabi-mag.jp/day0509/"
+   ],
+   "original_read": "yes",
+   "single_listing_source": true,
+   "listing_sources_only": true,
+   "duplicate_check": {
+    "existing_id": null,
+    "verdict": "new_not_in_service_1756",
+    "related_existing": [
+     {
+      "id": "anv-fixed-09-17-confession-day-kr",
+      "name": "고백데이",
+      "date": "09-17",
+      "category": "romance"
+     }
+    ]
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "ii-fufu-day-jp",
+   "kind": "relationship",
+   "discovery_status": "discovered_unverified",
+   "name_ko": "좋은 부부의 날(일본)",
+   "name_original": "いい夫婦の日",
+   "aliases": [],
+   "date_type": "annual-fixed",
+   "date_rule": "11-22",
+   "date_note": null,
+   "scope": "일본",
+   "meaning": "11·22를 \"이이 후후(좋은 부부)\"로 읽어 부부를 챙기는 날",
+   "why_quirky": "숫자 말장난",
+   "founder_origin": "1988년 여가개발센터(현 일본생산성본부) 제정 — 목록 사이트 1곳",
+   "founder_origin_check": "single_listing",
+   "officiality": "민간 제정",
+   "confidence": "medium",
+   "caution": null,
+   "claims": [
+    {
+     "claim_id": "founder",
+     "claim": "여가개발센터 제정",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "ii-fufu-day-jp/bestcalendar",
+       "quote": "制定：余暇開発センター（現：日本生産性本部・余暇創研）"
+      }
+     ]
+    },
+    {
+     "claim_id": "year",
+     "claim": "1988년",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "ii-fufu-day-jp/bestcalendar",
+       "quote": "1988年（昭和63年）"
+      }
+     ]
+    }
+   ],
+   "search_result_only": [],
+   "prior_research_mentions": [
+    "tools/research/jp-anniversaries.md: 11/22 좋은 부부의 날(과거 발견 표)"
+   ],
+   "kind_label": "관계",
+   "discovery_status_label": "기념일 목록 사이트·약한 출처 원문만 읽음(단일 목록 출처 포함). 존재는 보이나 독립 확인 부족",
+   "evidence": [
+    {
+     "evidence_id": "ii-fufu-day-jp/bestcalendar",
+     "url": "https://bestcalendar.jp/articles/4844",
+     "source_type": "listing",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:37+00:00",
+     "local_raw_path": "evidence/ii-fufu-day-jp/bestcalendar.html",
+     "local_text_path": "evidence/ii-fufu-day-jp/bestcalendar.txt",
+     "sha256": "292d9c6260db04a6c1f6fc3546b15161e8aab580310439615c37e809de3c1e28",
+     "cited": true
+    }
+   ],
+   "source_urls": [
+    "https://bestcalendar.jp/articles/4844"
+   ],
+   "original_read": "yes",
+   "single_listing_source": true,
+   "listing_sources_only": true,
+   "duplicate_check": {
+    "existing_id": null,
+    "verdict": "new_not_in_service_1756",
+    "related_existing": [
+     {
+      "id": "gov-26",
+      "name": "부부의 날",
+      "date": "05-21",
+      "category": "general"
+     }
+    ]
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "world-introvert-day",
+   "kind": "relationship",
+   "discovery_status": "discovered_unverified",
+   "name_ko": "세계 내향인의 날",
+   "name_original": "World Introvert Day",
+   "aliases": [],
+   "date_type": "annual-fixed",
+   "date_rule": "01-02",
+   "date_note": null,
+   "scope": "국제 비공식",
+   "meaning": "연말 모임에 지친 내향인이 쉬어 가는 날",
+   "why_quirky": "사교 피로를 이유로 만든 성격 유형 기념일",
+   "founder_origin": "심리학자 Felicitas Heyne 창안, 첫 기념 2011년 1월 2일(목록 사이트). 블로그 글 날짜는 검색결과에서 상충",
+   "founder_origin_check": "single_listing",
+   "officiality": "공식 지정 없음",
+   "confidence": "medium",
+   "caution": "성격 유형을 놀림감으로 쓰지 말 것",
+   "claims": [
+    {
+     "claim_id": "first",
+     "claim": "첫 세계 내향인의 날은 2011년 1월 2일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "world-introvert-day/nationaldaycalendar",
+       "quote": "The first World Introvert Day was held on January 2, 2011."
+      }
+     ]
+    },
+    {
+     "claim_id": "founder",
+     "claim": "Felicitas Heyne 창안",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "world-introvert-day/nationaldaycalendar",
+       "quote": "The day was created by psychologist and author, Felicitas Heyne."
+      }
+     ]
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://www.theweek.in/leisure/society/2024/01/02/on-world-introvert-day-a-look-at-5-famous-introverts.amp.html",
+     "note": "HTTP 200 이지만 Access Denied 안내문뿐 → 미확인"
+    }
+   ],
+   "prior_research_mentions": [],
+   "kind_label": "관계",
+   "discovery_status_label": "기념일 목록 사이트·약한 출처 원문만 읽음(단일 목록 출처 포함). 존재는 보이나 독립 확인 부족",
+   "evidence": [
+    {
+     "evidence_id": "world-introvert-day/nationaldaycalendar",
+     "url": "https://www.nationaldaycalendar.com/international/world-introvert-day-january-2",
+     "source_type": "listing",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:41+00:00",
+     "local_raw_path": "evidence/world-introvert-day/nationaldaycalendar.html",
+     "local_text_path": "evidence/world-introvert-day/nationaldaycalendar.txt",
+     "sha256": "62d8c17c31bfd0545f9da849e4a82225435e99fbe3365ba37c04b9b7364145c8",
+     "cited": true
+    },
+    {
+     "evidence_id": "world-introvert-day/theweek-2024",
+     "url": "https://www.theweek.in/leisure/society/2024/01/02/on-world-introvert-day-a-look-at-5-famous-introverts.amp.html",
+     "source_type": "news",
+     "read_status": "not_read",
+     "access_status": "blocked_access_denied_page",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:42+00:00",
+     "local_raw_path": "evidence/world-introvert-day/theweek-2024.html",
+     "local_text_path": "evidence/world-introvert-day/theweek-2024.txt",
+     "sha256": "a1ca1768b146474f12035eaaa9c001ab8d0ae1ebde392a7eabceff27d49dc936",
+     "cited": false
+    }
+   ],
+   "source_urls": [
+    "https://www.nationaldaycalendar.com/international/world-introvert-day-january-2",
+    "https://www.theweek.in/leisure/society/2024/01/02/on-world-introvert-day-a-look-at-5-famous-introverts.amp.html",
+    "https://www.theweek.in/leisure/society/2024/01/02/on-world-introvert-day-a-look-at-5-famous-introverts.amp.html"
+   ],
+   "original_read": "yes",
+   "single_listing_source": true,
+   "listing_sources_only": true,
+   "duplicate_check": {
+    "existing_id": null,
+    "verdict": "new_not_in_service_1756",
+    "related_existing": []
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "bubble-wrap-appreciation-day",
+   "kind": "object_hobby",
+   "discovery_status": "documented_unofficial",
+   "name_ko": "뽁뽁이 감사의 날",
+   "name_original": "Bubble Wrap Appreciation Day",
+   "aliases": [],
+   "date_type": "annual-nth-weekday",
+   "date_rule": "01-L-MON",
+   "date_note": null,
+   "scope": "미국 비공식",
+   "meaning": "포장용 에어캡(뽁뽁이)을 터뜨리며 감사하는 날",
+   "why_quirky": "포장재를 기념하는 날",
+   "founder_origin": "라디오 방송국이 생방송 중 마이크 포장을 뜯은 데서 시작했다는 설명은 도서관 블로그 1곳뿐(방송국명 없음)",
+   "founder_origin_check": "single_source_unverified",
+   "officiality": "공식 지정 없음",
+   "confidence": "high",
+   "caution": null,
+   "claims": [
+    {
+     "claim_id": "npr_2013",
+     "claim": "NPR 이 2013년 1월 28일(1월 마지막 월요일) 이날을 언급",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "bubble-wrap-appreciation-day/npr-2013",
+       "quote": "on National Bubble Wrap Appreciation Day."
+      },
+      {
+       "evidence_id": "bubble-wrap-appreciation-day/npr-2013",
+       "quote": "January 28, 2013"
+      }
+     ]
+    },
+    {
+     "claim_id": "rule",
+     "claim": "매년 1월 마지막 월요일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "bubble-wrap-appreciation-day/bellevue-library",
+       "quote": "is always on the last Monday in January of every year."
+      }
+     ]
+    },
+    {
+     "claim_id": "radio_origin",
+     "claim": "라디오 방송국 유래설",
+     "verdict": "single_source_unverified",
+     "evidence": [
+      {
+       "evidence_id": "bubble-wrap-appreciation-day/bellevue-library",
+       "quote": "This unofficial holiday began when a radio station unwrapped microphones on the air and listeners loved it!"
+      }
+     ]
+    }
+   ],
+   "search_result_only": [],
+   "prior_research_mentions": [],
+   "kind_label": "물건·취미",
+   "discovery_status_label": "비공식이지만 언론·단체·백과 원문 1곳 이상 또는 독립 원문 2곳에서 존재·날짜 확인",
+   "evidence": [
+    {
+     "evidence_id": "bubble-wrap-appreciation-day/bellevue-library",
+     "url": "https://library.bellevue.edu/articles/tag/nationalbubblewrapappreciationday",
+     "source_type": "library_blog",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:45+00:00",
+     "local_raw_path": "evidence/bubble-wrap-appreciation-day/bellevue-library.html",
+     "local_text_path": "evidence/bubble-wrap-appreciation-day/bellevue-library.txt",
+     "sha256": "a42df892e047bb0b5d0910ab9f62138fb9786be807ac6b4ffbf5d3ee1d852412",
+     "cited": true
+    },
+    {
+     "evidence_id": "bubble-wrap-appreciation-day/npr-2013",
+     "url": "https://www.npr.org/transcripts/170442218",
+     "source_type": "public_radio",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:44+00:00",
+     "local_raw_path": "evidence/bubble-wrap-appreciation-day/npr-2013.html",
+     "local_text_path": "evidence/bubble-wrap-appreciation-day/npr-2013.txt",
+     "sha256": "10de71942f0ea80c5a2956f666dbf0f64dcd22dda1a21a8e266093ed32a55c6f",
+     "cited": true
+    }
+   ],
+   "source_urls": [
+    "https://library.bellevue.edu/articles/tag/nationalbubblewrapappreciationday",
+    "https://www.npr.org/transcripts/170442218"
+   ],
+   "original_read": "yes",
+   "single_listing_source": false,
+   "listing_sources_only": false,
+   "duplicate_check": {
+    "existing_id": null,
+    "verdict": "new_not_in_service_1756",
+    "related_existing": []
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "ugly-christmas-sweater-day",
+   "kind": "object_hobby",
+   "discovery_status": "duplicate",
+   "name_ko": "촌스러운 크리스마스 스웨터의 날",
+   "name_original": "National Ugly Christmas Sweater Day",
+   "aliases": [],
+   "date_type": "annual-nth-weekday",
+   "date_rule": "12-3-FRI",
+   "date_note": null,
+   "scope": "미국 비공식",
+   "meaning": "일부러 촌스러운 크리스마스 스웨터를 입는 날",
+   "why_quirky": "못생김을 경쟁하는 옷 기념일",
+   "founder_origin": "2011년 시작, 2012년 공식 사이트 개설(Dictionary.com). 밴쿠버 유래·시장 선언설은 검색결과만 확인",
+   "founder_origin_check": "original_read",
+   "officiality": "공식 지정 없음",
+   "confidence": "medium",
+   "caution": null,
+   "claims": [
+    {
+     "claim_id": "rule",
+     "claim": "매년 12월 셋째 금요일, 비공식",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "ugly-christmas-sweater-day/dictionary-com",
+       "quote": "The humorous, unofficial holiday of National Ugly Christmas Sweater Day falls on the third Friday of December every year."
+      }
+     ]
+    },
+    {
+     "claim_id": "start",
+     "claim": "2011년 시작",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "ugly-christmas-sweater-day/dictionary-com",
+       "quote": "And so National Ugly Christmas Sweater Day was started in 2011."
+      }
+     ]
+    }
+   ],
+   "search_result_only": [],
+   "prior_research_mentions": [],
+   "kind_label": "물건·취미",
+   "discovery_status_label": "서비스 1,756건에 이미 있는 항목",
+   "evidence": [
+    {
+     "evidence_id": "ugly-christmas-sweater-day/dictionary-com",
+     "url": "https://www.dictionary.com/e/pop-culture/national-ugly-christmas-sweater-day/",
+     "source_type": "reference",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:47+00:00",
+     "local_raw_path": "evidence/ugly-christmas-sweater-day/dictionary-com.html",
+     "local_text_path": "evidence/ugly-christmas-sweater-day/dictionary-com.txt",
+     "sha256": "82083fc6ed53bd46190fa7a92f80a296bf2f36bbfbe62f55460a95494b98efb6",
+     "cited": true
+    }
+   ],
+   "source_urls": [
+    "https://www.dictionary.com/e/pop-culture/national-ugly-christmas-sweater-day/"
+   ],
+   "original_read": "yes",
+   "single_listing_source": false,
+   "listing_sources_only": false,
+   "duplicate_check": {
+    "existing_id": "anv-fixed-12-18-ugly-christmas-sweater-day-global",
+    "verdict": "duplicate_of_existing",
+    "note": "기존 \"못생긴 크리스마스 스웨터의 날\"(culture)과 같은 날. 단 기존 항목은 annual-fixed 12-18 인데 원문 규칙은 12월 셋째 금요일 — 2027년 12-17·2028년 12-15 와 어긋남. 기존 항목 날짜 규칙 재검증 대상(이번 작업에서 수정 안 함)",
+    "related_existing": []
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "international-geocaching-day",
+   "kind": "object_hobby",
+   "discovery_status": "documented_unofficial",
+   "name_ko": "국제 지오캐싱의 날",
+   "name_original": "International Geocaching Day",
+   "aliases": [],
+   "date_type": "annual-nth-weekday",
+   "date_rule": "08-3-SAT",
+   "date_note": null,
+   "scope": "국제(취미 커뮤니티)",
+   "meaning": "GPS로 숨겨진 상자를 찾는 지오캐싱 취미의 날",
+   "why_quirky": "전 세계 \"보물찾기\" 취미의 기념일",
+   "founder_origin": "2011년 Geocaching.com 운영사가 첫 개최",
+   "founder_origin_check": "organizer_original",
+   "officiality": "운영 기업 제정. 공식 지정 아님",
+   "confidence": "high",
+   "caution": null,
+   "claims": [
+    {
+     "claim_id": "first",
+     "claim": "2011년 8월 셋째 토요일이 첫 국제 지오캐싱의 날",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "international-geocaching-day/geocaching-blog-2011",
+       "quote": "This is the third Saturday of August, which will be the first International Geocaching Day!"
+      }
+     ]
+    },
+    {
+     "claim_id": "rule",
+     "claim": "매년 8월 셋째 토요일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "international-geocaching-day/geocaching-blog-2012",
+       "quote": "Each year, Geocaching.com celebrates International Geocaching Day on the third Saturday in August"
+      }
+     ]
+    }
+   ],
+   "search_result_only": [],
+   "prior_research_mentions": [],
+   "kind_label": "물건·취미",
+   "discovery_status_label": "비공식이지만 언론·단체·백과 원문 1곳 이상 또는 독립 원문 2곳에서 존재·날짜 확인",
+   "evidence": [
+    {
+     "evidence_id": "international-geocaching-day/geocaching-blog-2011",
+     "url": "https://www.geocaching.com/blog/?p=4841",
+     "source_type": "organizer",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:50+00:00",
+     "local_raw_path": "evidence/international-geocaching-day/geocaching-blog-2011.html",
+     "local_text_path": "evidence/international-geocaching-day/geocaching-blog-2011.txt",
+     "sha256": "a1cb0998eaf30288141a5b047d07c782e3ef55a475182846ab712ef57b7218eb",
+     "cited": true
+    },
+    {
+     "evidence_id": "international-geocaching-day/geocaching-blog-2012",
+     "url": "https://www.geocaching.com/blog/?p=11388",
+     "source_type": "organizer",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:52+00:00",
+     "local_raw_path": "evidence/international-geocaching-day/geocaching-blog-2012.html",
+     "local_text_path": "evidence/international-geocaching-day/geocaching-blog-2012.txt",
+     "sha256": "cb4e5cbd9cac1dbbe666d976499df13284ec99667a60a97295075f45e6146b6e",
+     "cited": true
+    }
+   ],
+   "source_urls": [
+    "https://www.geocaching.com/blog/?p=4841",
+    "https://www.geocaching.com/blog/?p=11388"
+   ],
+   "original_read": "yes",
+   "single_listing_source": false,
+   "listing_sources_only": false,
+   "duplicate_check": {
+    "existing_id": null,
+    "verdict": "new_not_in_service_1756",
+    "related_existing": []
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "kushi-day-jp",
+   "kind": "object_hobby",
+   "discovery_status": "discovered_unverified",
+   "name_ko": "빗의 날(일본)",
+   "name_original": "くしの日",
+   "aliases": [],
+   "date_type": "annual-fixed",
+   "date_rule": "09-04",
+   "date_note": null,
+   "scope": "일본",
+   "meaning": "9·4를 \"구시(빗)\"로 읽어 빗을 아끼자는 날",
+   "why_quirky": "숫자 말장난",
+   "founder_origin": "1978년 미용 관계자 제정, 미용주간 실행위원회 실시(목록 사이트 2곳). \"9·4=苦死\" 연관은 원문에 없어 기록하지 않음",
+   "founder_origin_check": "listing_sites_only",
+   "officiality": "민간 제정",
+   "confidence": "low",
+   "caution": null,
+   "claims": [
+    {
+     "claim_id": "founder_year",
+     "claim": "1978년 미용 관계자 제정",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "kushi-day-jp/zatsuneta",
+       "quote": "美容関係者らが1978年（昭和53年）に制定。"
+      }
+     ]
+    },
+    {
+     "claim_id": "pun",
+     "claim": "く(9)し(4) 말장난",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "kushi-day-jp/zatsuneta",
+       "quote": "日付は「く（9）し（4）」と読む語呂合わせと"
+      }
+     ]
+    },
+    {
+     "claim_id": "year_2",
+     "claim": "1978년(두 번째 목록)",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "kushi-day-jp/bestcalendar",
+       "quote": "1978年（昭和53年）"
+      }
+     ]
+    }
+   ],
+   "search_result_only": [],
+   "prior_research_mentions": [],
+   "kind_label": "물건·취미",
+   "discovery_status_label": "기념일 목록 사이트·약한 출처 원문만 읽음(단일 목록 출처 포함). 존재는 보이나 독립 확인 부족",
+   "evidence": [
+    {
+     "evidence_id": "kushi-day-jp/bestcalendar",
+     "url": "https://bestcalendar.jp/dates/kinenbi/3635",
+     "source_type": "listing",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:24+00:00",
+     "local_raw_path": "evidence/kushi-day-jp/bestcalendar.html",
+     "local_text_path": "evidence/kushi-day-jp/bestcalendar.txt",
+     "sha256": "e5ac30690771769ab1546c143653d205d00cef336666b7b49e79e24b8019bb94",
+     "cited": true
+    },
+    {
+     "evidence_id": "kushi-day-jp/zatsuneta",
+     "url": "https://zatsuneta.com/archives/109042.html",
+     "source_type": "listing",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:24+00:00",
+     "local_raw_path": "evidence/kushi-day-jp/zatsuneta.html",
+     "local_text_path": "evidence/kushi-day-jp/zatsuneta.txt",
+     "sha256": "42f71763fc5782a6f1b7ee45c7932ce61c9c8bd9664d4d862f233d30a8d6262f",
+     "cited": true
+    }
+   ],
+   "source_urls": [
+    "https://bestcalendar.jp/dates/kinenbi/3635",
+    "https://zatsuneta.com/archives/109042.html"
+   ],
+   "original_read": "yes",
+   "single_listing_source": false,
+   "listing_sources_only": true,
+   "duplicate_check": {
+    "existing_id": null,
+    "verdict": "new_not_in_service_1756",
+    "related_existing": []
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "pants-day-jp",
+   "kind": "object_hobby",
+   "discovery_status": "discovered_unverified",
+   "name_ko": "팬티의 날(일본)",
+   "name_original": "パンツの日",
+   "aliases": [],
+   "date_type": "annual-fixed",
+   "date_rule": "08-02",
+   "date_note": null,
+   "scope": "일본",
+   "meaning": "8·2를 \"판츠\"로 읽는 속옷의 날",
+   "why_quirky": "속옷을 기념하는 말장난 날",
+   "founder_origin": "제정자 여럿: 1984년 이소가이 포백공업(상품명 유래)·오구란(말장난), 2020년 와코루 등록(목록 사이트 2곳)",
+   "founder_origin_check": "listing_sites_only",
+   "officiality": "기업 제정·일본기념일협회 등록(와코루). 공식 지정 아님",
+   "confidence": "low",
+   "caution": null,
+   "claims": [
+    {
+     "claim_id": "founder_1984",
+     "claim": "1984년 이소가이 포백공업 제정, 상품명 유래",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "pants-day-jp/bestcalendar",
+       "quote": "1984年（昭和59年）"
+      },
+      {
+       "evidence_id": "pants-day-jp/bestcalendar",
+       "quote": "ブランド「シルビー802」の商品名から"
+      }
+     ]
+    },
+    {
+     "claim_id": "pun",
+     "claim": "パン(8)ツ(2) 말장난",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "pants-day-jp/bestcalendar",
+       "quote": "オグラン（語呂合わせ「パン8ツ2」）"
+      }
+     ]
+    },
+    {
+     "claim_id": "wacoal",
+     "claim": "2020년 와코루 기념일 등록",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "pants-day-jp/zatsuneta-wacoal",
+       "quote": "記念日は2020年（令和2年）に一般社団法人・日本記念日協会により認定・登録された。"
+      }
+     ]
+    }
+   ],
+   "search_result_only": [],
+   "prior_research_mentions": [
+    "tools/research/jp-blog-raw.txt: 8/2 팬츠의 날(발견용)",
+    "tools/namuwiki/output/namuwiki_calendar.json: 팬티의 날(발견용)"
+   ],
+   "kind_label": "물건·취미",
+   "discovery_status_label": "기념일 목록 사이트·약한 출처 원문만 읽음(단일 목록 출처 포함). 존재는 보이나 독립 확인 부족",
+   "evidence": [
+    {
+     "evidence_id": "pants-day-jp/bestcalendar",
+     "url": "https://bestcalendar.jp/dates/kinenbi/3173",
+     "source_type": "listing",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:20+00:00",
+     "local_raw_path": "evidence/pants-day-jp/bestcalendar.html",
+     "local_text_path": "evidence/pants-day-jp/bestcalendar.txt",
+     "sha256": "660b0a8aebd2c98839b1c9954eb513e370df1c549240cb317854901ace7c2a88",
+     "cited": true
+    },
+    {
+     "evidence_id": "pants-day-jp/zatsuneta-wacoal",
+     "url": "https://zatsuneta.com/archives/10802g7.html",
+     "source_type": "listing",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:24+00:00",
+     "local_raw_path": "evidence/pants-day-jp/zatsuneta-wacoal.html",
+     "local_text_path": "evidence/pants-day-jp/zatsuneta-wacoal.txt",
+     "sha256": "c1f454ea3ae965fa1d87c06f3ccb70bd7f35dacdb7ddfc435e41f0a9df9ac43c",
+     "cited": true
+    }
+   ],
+   "source_urls": [
+    "https://bestcalendar.jp/dates/kinenbi/3173",
+    "https://zatsuneta.com/archives/10802g7.html"
+   ],
+   "original_read": "yes",
+   "single_listing_source": false,
+   "listing_sources_only": true,
+   "duplicate_check": {
+    "existing_id": null,
+    "verdict": "new_not_in_service_1756",
+    "related_existing": [
+     {
+      "id": "anv-fixed-08-05-underwear-day-us",
+      "name": "속옷의 날 (National Underwear Day)",
+      "date": "08-05",
+      "category": "culture"
+     }
+    ]
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "futon-day-jp",
+   "kind": "object_hobby",
+   "discovery_status": "date_conflict",
+   "name_ko": "이불의 날(일본)",
+   "name_original": "ふとんの日",
+   "aliases": [],
+   "date_type": "annual-fixed",
+   "date_rule": "10-10",
+   "date_note": "1997년 02-10 으로 시작, 2010년 10-10 으로 변경(목록 사이트). 02-10 을 계속 쓰는 목록도 있음",
+   "scope": "일본",
+   "meaning": "\"후(2)톤(10)\" 말장난으로 이불을 알리는 날",
+   "why_quirky": "10월 10일은 10이 두 개(후타츠)라서 \"후톤\"이라는 이중 말장난",
+   "founder_origin": "1997년 전일본침장구협회 제정(목록 사이트 2곳)",
+   "founder_origin_check": "listing_sites_only",
+   "officiality": "업계 단체 제정",
+   "confidence": "low",
+   "caution": null,
+   "claims": [
+    {
+     "claim_id": "founding",
+     "claim": "1997년 협회 제정, ふ(2)と(10)ん 말장난",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "futon-day-jp/zatsuneta-0210",
+       "quote": "全日本寝装具協会が1997年（平成9年）に制定。"
+      },
+      {
+       "evidence_id": "futon-day-jp/zatsuneta-0210",
+       "quote": "日付は「ふ（2）と（10）ん」と読む語呂合わせから。"
+      }
+     ]
+    },
+    {
+     "claim_id": "changed",
+     "claim": "2010년 10월 10일로 변경",
+     "verdict": "conflicting",
+     "evidence": [
+      {
+       "evidence_id": "futon-day-jp/bestcalendar-1010",
+       "quote": "10月10日（2010年に変更）"
+      },
+      {
+       "evidence_id": "futon-day-jp/bestcalendar-1010",
+       "quote": "1997年（2月10日として）"
+      }
+     ]
+    }
+   ],
+   "search_result_only": [],
+   "prior_research_mentions": [],
+   "kind_label": "물건·취미",
+   "discovery_status_label": "존재는 확인했지만 출처끼리 날짜가 갈림",
+   "evidence": [
+    {
+     "evidence_id": "futon-day-jp/bestcalendar-1010",
+     "url": "https://bestcalendar.jp/articles/131623",
+     "source_type": "listing",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:18:33+00:00",
+     "local_raw_path": "evidence/futon-day-jp/bestcalendar-1010.html",
+     "local_text_path": "evidence/futon-day-jp/bestcalendar-1010.txt",
+     "sha256": "045d55247df2a0e706c2abc95d4911280c0f3e2f8696d642bbb4d5c23b392663",
+     "cited": true
+    },
+    {
+     "evidence_id": "futon-day-jp/zatsuneta-0210",
+     "url": "https://zatsuneta.com/archives/102105.html",
+     "source_type": "listing",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:18:33+00:00",
+     "local_raw_path": "evidence/futon-day-jp/zatsuneta-0210.html",
+     "local_text_path": "evidence/futon-day-jp/zatsuneta-0210.txt",
+     "sha256": "3fa7dfa3c38490b94eab3913f1101c6d61b7785b1e8a3abb83c9a8f74052657c",
+     "cited": true
+    }
+   ],
+   "source_urls": [
+    "https://bestcalendar.jp/articles/131623",
+    "https://zatsuneta.com/archives/102105.html"
+   ],
+   "original_read": "yes",
+   "single_listing_source": false,
+   "listing_sources_only": true,
+   "duplicate_check": {
+    "existing_id": null,
+    "verdict": "new_not_in_service_1756",
+    "related_existing": [
+     {
+      "id": "anv-fixed-09-11-make-your-bed-day-us",
+      "name": "이불 정리하는 날 (National Make Your Bed Day)",
+      "date": "09-11",
+      "category": "general"
+     }
+    ]
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "defy-superstition-day",
+   "kind": "superstition",
+   "discovery_status": "documented_unofficial",
+   "name_ko": "미신에 맞서는 날",
+   "name_original": "Defy Superstition Day",
+   "aliases": [],
+   "date_type": "annual-fixed",
+   "date_rule": "09-13",
+   "date_note": null,
+   "scope": "미국 비공식",
+   "meaning": "13이라는 불길한 숫자 등 미신을 일부러 깨 보는 날",
+   "why_quirky": "미신을 \"기념\"이 아니라 \"반항\"한다",
+   "founder_origin": "1987년경 델라웨어대 수학자 Tom Fernsler 창안설(\"some credit\" — 원문도 단정 안 함)",
+   "founder_origin_check": "hedged_by_source",
+   "officiality": "공식 지정 없음",
+   "confidence": "medium",
+   "caution": "사다리 밑 걷기 등 위험 행동을 권하지 말 것",
+   "claims": [
+    {
+     "claim_id": "date",
+     "claim": "9월 13일 기념",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "defy-superstition-day/whatsupnewp",
+       "quote": "The origins of the Sept. 13"
+      }
+     ]
+    },
+    {
+     "claim_id": "origin",
+     "claim": "1987년경 Tom Fernsler 창안설",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "defy-superstition-day/whatsupnewp",
+       "quote": "some credit its creation around 1987 to Tom Fernsler, a now-retired University of Delaware mathematician."
+      }
+     ]
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://www.awarenessdays.com/awareness-days-calendar/national-defy-superstition-day/",
+     "note": "원문 403 → 검색결과만 확인"
+    }
+   ],
+   "prior_research_mentions": [],
+   "kind_label": "미신",
+   "discovery_status_label": "비공식이지만 언론·단체·백과 원문 1곳 이상 또는 독립 원문 2곳에서 존재·날짜 확인",
+   "evidence": [
+    {
+     "evidence_id": "defy-superstition-day/awarenessdays",
+     "url": "https://www.awarenessdays.com/awareness-days-calendar/national-defy-superstition-day/",
+     "source_type": "listing",
+     "read_status": "not_read",
+     "access_status": "blocked",
+     "http_status": null,
+     "error": "HTTPError: 403 HTTP Error 403: Forbidden",
+     "accessed_at": "2026-10-11T23:16:54+00:00",
+     "local_raw_path": null,
+     "local_text_path": null,
+     "sha256": null,
+     "cited": false
+    },
+    {
+     "evidence_id": "defy-superstition-day/whatsupnewp",
+     "url": "https://whatsupnewp.com/?p=492135",
+     "source_type": "news",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:54+00:00",
+     "local_raw_path": "evidence/defy-superstition-day/whatsupnewp.html",
+     "local_text_path": "evidence/defy-superstition-day/whatsupnewp.txt",
+     "sha256": "a52e3d60694e2a3e42a8468d94f622b7b4ea6089b5770650029a1543c5d4b3ba",
+     "cited": true
+    }
+   ],
+   "source_urls": [
+    "https://www.awarenessdays.com/awareness-days-calendar/national-defy-superstition-day/",
+    "https://whatsupnewp.com/?p=492135",
+    "https://www.awarenessdays.com/awareness-days-calendar/national-defy-superstition-day/"
+   ],
+   "original_read": "yes",
+   "single_listing_source": false,
+   "listing_sources_only": false,
+   "duplicate_check": {
+    "existing_id": null,
+    "verdict": "new_not_in_service_1756",
+    "related_existing": []
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "yurei-day-jp",
+   "kind": "superstition",
+   "discovery_status": "discovered_unverified",
+   "name_ko": "유령의 날(일본)",
+   "name_original": "幽霊の日",
+   "aliases": [],
+   "date_type": "annual-fixed",
+   "date_rule": "07-26",
+   "date_note": null,
+   "scope": "일본",
+   "meaning": "괴담 가부키 \"도카이도 요쓰야 괴담\" 초연일(1825)을 유령의 날로 부름",
+   "why_quirky": "유령을 기념하는 날",
+   "founder_origin": "유래(1825년 초연일)는 목록 사이트 2곳 일치. 누가 정했는지는 원문에 없음(\"とされています\")",
+   "founder_origin_check": "listing_sites_only_no_founder",
+   "officiality": "제정자 미상",
+   "confidence": "low",
+   "caution": null,
+   "claims": [
+    {
+     "claim_id": "premiere",
+     "claim": "1825년 이날 에도 나카무라좌에서 초연",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "yurei-day-jp/zatsuneta",
+       "quote": "1825年（文政8年）のこの日、江戸の中村座で"
+      }
+     ]
+    },
+    {
+     "claim_id": "naming",
+     "claim": "초연일에 맞춰 유령의 날로 여겨짐",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "yurei-day-jp/bestcalendar",
+       "quote": "その初演日にちなみ、7月26日は「幽霊の日」とされています。"
+      }
+     ]
+    }
+   ],
+   "search_result_only": [],
+   "prior_research_mentions": [
+    "tools/research/jp-blog-raw.txt: 7/26 유령의 날(발견용)",
+    "tools/namuwiki/output/namuwiki_calendar.json: 일본 유령의 날(발견용)"
+   ],
+   "kind_label": "미신",
+   "discovery_status_label": "기념일 목록 사이트·약한 출처 원문만 읽음(단일 목록 출처 포함). 존재는 보이나 독립 확인 부족",
+   "evidence": [
+    {
+     "evidence_id": "yurei-day-jp/bestcalendar",
+     "url": "https://bestcalendar.jp/dates/kinenbi/3100",
+     "source_type": "listing",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:58+00:00",
+     "local_raw_path": "evidence/yurei-day-jp/bestcalendar.html",
+     "local_text_path": "evidence/yurei-day-jp/bestcalendar.txt",
+     "sha256": "1503adc324c6ae813a449b637feb1b99aea18c026ac10997f5e4015966a238af",
+     "cited": true
+    },
+    {
+     "evidence_id": "yurei-day-jp/zatsuneta",
+     "url": "https://zatsuneta.com/archives/107263.html",
+     "source_type": "listing",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:16:58+00:00",
+     "local_raw_path": "evidence/yurei-day-jp/zatsuneta.html",
+     "local_text_path": "evidence/yurei-day-jp/zatsuneta.txt",
+     "sha256": "2239df44085db3a6b5a3bfbde3e97defe26094d7a5a04ba0e70255981fe7f884",
+     "cited": true
+    }
+   ],
+   "source_urls": [
+    "https://bestcalendar.jp/dates/kinenbi/3100",
+    "https://zatsuneta.com/archives/107263.html"
+   ],
+   "original_read": "yes",
+   "single_listing_source": false,
+   "listing_sources_only": true,
+   "duplicate_check": {
+    "existing_id": null,
+    "verdict": "new_not_in_service_1756",
+    "related_existing": []
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "put-a-pillow-on-your-fridge-day",
+   "kind": "superstition",
+   "discovery_status": "discovered_unverified",
+   "name_ko": "냉장고 위에 베개 올리는 날",
+   "name_original": "Put a Pillow on Your Fridge Day",
+   "aliases": [],
+   "date_type": "annual-fixed",
+   "date_rule": "05-29",
+   "date_note": null,
+   "scope": "미국·유럽 비공식(학생신문 표현)",
+   "meaning": "냉장고 위에 베개를 올려 두면 행운이 온다는 날",
+   "why_quirky": "근거 없는 행운 의식",
+   "founder_origin": "\"1900년대 초 식료품 창고에 침실 천을 넣던 풍습\" 설은 학생신문 1곳의 주장, 확인 안 됨. 같은 기사가 \"왜 5월 29일인지 아무도 모른다\"고 씀",
+   "founder_origin_check": "single_source_unverified",
+   "officiality": "공식 지정 없음",
+   "confidence": "low",
+   "caution": null,
+   "claims": [
+    {
+     "claim_id": "ritual",
+     "claim": "냉장고 위에 베개를 올리면 행운이 온다고 함",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "put-a-pillow-on-your-fridge-day/manualredeye",
+       "quote": "You put a pillow on top of your refrigerator, and it supposedly brings good luck."
+      }
+     ]
+    },
+    {
+     "claim_id": "date_unknown_reason",
+     "claim": "왜 5월 29일인지 아무도 모름",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "put-a-pillow-on-your-fridge-day/manualredeye",
+       "quote": "No one has been able to discern why May 29 was chosen as put a pillow on your fridge day"
+      }
+     ]
+    },
+    {
+     "claim_id": "folk_origin",
+     "claim": "1900년대 초 풍습 유래설",
+     "verdict": "single_source_unverified",
+     "evidence": [
+      {
+       "evidence_id": "put-a-pillow-on-your-fridge-day/manualredeye",
+       "quote": "This holiday can be traced back to the early 1900s where families believed that putting a piece of cloth from their bedroom"
+      }
+     ]
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://www.timeanddate.com/holidays/fun/put-a-pillow-on-your-fridge-day",
+     "note": "\"만들어진 기념일\", 유래 미상(검색 요약). 원문 403"
+    }
+   ],
+   "prior_research_mentions": [],
+   "kind_label": "미신",
+   "discovery_status_label": "기념일 목록 사이트·약한 출처 원문만 읽음(단일 목록 출처 포함). 존재는 보이나 독립 확인 부족",
+   "evidence": [
+    {
+     "evidence_id": "put-a-pillow-on-your-fridge-day/manualredeye",
+     "url": "https://manualredeye.com/83042/news/put-a-pillow-on-your-fridge-day",
+     "source_type": "school_newspaper",
+     "read_status": "original_read",
+     "access_status": "body_read_http_200",
+     "http_status": 200,
+     "error": null,
+     "accessed_at": "2026-10-11T23:15:33+00:00",
+     "local_raw_path": "evidence/put-a-pillow-on-your-fridge-day/manualredeye.html",
+     "local_text_path": "evidence/put-a-pillow-on-your-fridge-day/manualredeye.txt",
+     "sha256": "f3aa088b547c39e8f3a7cf9d8768d75441149b3afac3b23b475c0595a8926409",
+     "cited": true
+    },
+    {
+     "evidence_id": "put-a-pillow-on-your-fridge-day/timeanddate",
+     "url": "https://www.timeanddate.com/holidays/fun/put-a-pillow-on-your-fridge-day",
+     "source_type": "listing",
+     "read_status": "not_read",
+     "access_status": "blocked",
+     "http_status": null,
+     "error": "HTTPError: 403 HTTP Error 403: Forbidden",
+     "accessed_at": "2026-10-11T23:15:33+00:00",
+     "local_raw_path": null,
+     "local_text_path": null,
+     "sha256": null,
+     "cited": false
+    }
+   ],
+   "source_urls": [
+    "https://manualredeye.com/83042/news/put-a-pillow-on-your-fridge-day",
+    "https://www.timeanddate.com/holidays/fun/put-a-pillow-on-your-fridge-day",
+    "https://www.timeanddate.com/holidays/fun/put-a-pillow-on-your-fridge-day"
+   ],
+   "original_read": "yes",
+   "single_listing_source": false,
+   "listing_sources_only": false,
+   "duplicate_check": {
+    "existing_id": null,
+    "verdict": "new_not_in_service_1756",
+    "related_existing": []
+   },
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false,
+    "note": "서비스 반영 미실행"
+   }
+  },
+  {
+   "candidate_key": "existing:anv-fixed-05-09-lost-sock-memorial-day-us",
+   "kind": null,
+   "kind_label": "기존 항목",
+   "discovery_status": "duplicate",
+   "discovery_status_label": "서비스 1,756건에 이미 있는 항목",
+   "name_ko": "잃어버린 양말 추모의 날",
+   "name_original": "Lost Sock Memorial Day",
+   "date_rule": "05-09",
+   "date_type": "annual-fixed",
+   "claims": [],
+   "evidence": [],
+   "search_result_only": [],
+   "duplicate_check": {
+    "existing_id": "anv-fixed-05-09-lost-sock-memorial-day-us",
+    "existing_category": "history",
+    "verdict": "duplicate_of_existing"
+   },
+   "note": "검색 전에 후보로 떠올렸으나 서비스에 이미 있음 — 신규 후보에서 제외 (현재 카테고리 history, quirky 아님)"
+  },
+  {
+   "candidate_key": "existing:anv-fixed-08-06-wiggle-your-toes-day-us",
+   "kind": null,
+   "kind_label": "기존 항목",
+   "discovery_status": "duplicate",
+   "discovery_status_label": "서비스 1,756건에 이미 있는 항목",
+   "name_ko": "발가락 꼼지락거리는 날",
+   "name_original": "Wiggle Your Toes Day",
+   "date_rule": "08-06",
+   "date_type": "annual-fixed",
+   "claims": [],
+   "evidence": [],
+   "search_result_only": [],
+   "duplicate_check": {
+    "existing_id": "anv-fixed-08-06-wiggle-your-toes-day-us",
+    "existing_category": "campaign",
+    "verdict": "duplicate_of_existing"
+   },
+   "note": "검색 전에 후보로 떠올렸으나 서비스에 이미 있음 — 신규 후보에서 제외 (현재 카테고리 campaign, quirky 아님)"
+  },
+  {
+   "candidate_key": "existing:anv-fixed-08-08-sneak-zucchini-day-us",
+   "kind": null,
+   "kind_label": "기존 항목",
+   "discovery_status": "duplicate",
+   "discovery_status_label": "서비스 1,756건에 이미 있는 항목",
+   "name_ko": "몰래 주키니 선물하는 날",
+   "name_original": "Sneak Some Zucchini onto Your Neighbor’s Porch Day",
+   "date_rule": "08-08",
+   "date_type": "annual-fixed",
+   "claims": [],
+   "evidence": [],
+   "search_result_only": [],
+   "duplicate_check": {
+    "existing_id": "anv-fixed-08-08-sneak-zucchini-day-us",
+    "existing_category": "food",
+    "verdict": "duplicate_of_existing"
+   },
+   "note": "검색 전에 후보로 떠올렸으나 서비스에 이미 있음 — 신규 후보에서 제외 (현재 카테고리 food, quirky 아님)"
+  },
+  {
+   "candidate_key": "existing:anv-fixed-12-23-festivus-us",
+   "kind": null,
+   "kind_label": "기존 항목",
+   "discovery_status": "duplicate",
+   "discovery_status_label": "서비스 1,756건에 이미 있는 항목",
+   "name_ko": "페스티버스 (Festivus)",
+   "name_original": "Festivus",
+   "date_rule": "12-23",
+   "date_type": "annual-fixed",
+   "claims": [],
+   "evidence": [],
+   "search_result_only": [],
+   "duplicate_check": {
+    "existing_id": "anv-fixed-12-23-festivus-us",
+    "existing_category": "food",
+    "verdict": "duplicate_of_existing"
+   },
+   "note": "검색 전에 후보로 떠올렸으나 서비스에 이미 있음 — 신규 후보에서 제외 (현재 카테고리 food, quirky 아님)"
+  },
+  {
+   "candidate_key": "existing:anv-fixed-10-09-leif-erikson-day-us",
+   "kind": null,
+   "kind_label": "기존 항목",
+   "discovery_status": "duplicate",
+   "discovery_status_label": "서비스 1,756건에 이미 있는 항목",
+   "name_ko": "레이프 에릭손의 날 (National Leif Erikson Day)",
+   "name_original": "Leif Erikson Day",
+   "date_rule": "10-09",
+   "date_type": "annual-fixed",
+   "claims": [],
+   "evidence": [],
+   "search_result_only": [],
+   "duplicate_check": {
+    "existing_id": "anv-fixed-10-09-leif-erikson-day-us",
+    "existing_category": "history",
+    "verdict": "duplicate_of_existing"
+   },
+   "note": "검색 전에 후보로 떠올렸으나 서비스에 이미 있음 — 신규 후보에서 제외 (현재 카테고리 history, quirky 아님)"
+  },
+  {
+   "candidate_key": "existing:anv-fixed-05-25-towel-day",
+   "kind": null,
+   "kind_label": "기존 항목",
+   "discovery_status": "duplicate",
+   "discovery_status_label": "서비스 1,756건에 이미 있는 항목",
+   "name_ko": "타월의 날 (Towel Day)",
+   "name_original": "Towel Day",
+   "date_rule": "05-25",
+   "date_type": "annual-fixed",
+   "claims": [],
+   "evidence": [],
+   "search_result_only": [],
+   "duplicate_check": {
+    "existing_id": "anv-fixed-05-25-towel-day",
+    "existing_category": "general",
+    "verdict": "duplicate_of_existing"
+   },
+   "note": "검색 전에 후보로 떠올렸으나 서비스에 이미 있음 — 신규 후보에서 제외 (현재 카테고리 general, quirky 아님)"
+  },
+  {
+   "candidate_key": "existing:anv-fixed-09-22-hobbit-day-global",
+   "kind": null,
+   "kind_label": "기존 항목",
+   "discovery_status": "duplicate",
+   "discovery_status_label": "서비스 1,756건에 이미 있는 항목",
+   "name_ko": "호빗의 날 (Hobbit Day)",
+   "name_original": "Hobbit Day",
+   "date_rule": "09-22",
+   "date_type": "annual-fixed",
+   "claims": [],
+   "evidence": [],
+   "search_result_only": [],
+   "duplicate_check": {
+    "existing_id": "anv-fixed-09-22-hobbit-day-global",
+    "existing_category": "culture",
+    "verdict": "duplicate_of_existing"
+   },
+   "note": "검색 전에 후보로 떠올렸으나 서비스에 이미 있음 — 신규 후보에서 제외 (현재 카테고리 culture, quirky 아님)"
+  },
+  {
+   "candidate_key": "existing:anv-fixed-08-17-black-cat-appreciation-day-us",
+   "kind": null,
+   "kind_label": "기존 항목",
+   "discovery_status": "duplicate",
+   "discovery_status_label": "서비스 1,756건에 이미 있는 항목",
+   "name_ko": "검은 고양이 감사의 날 (Black Cat Appreciation Day)",
+   "name_original": "Black Cat Appreciation Day",
+   "date_rule": "08-17",
+   "date_type": "annual-fixed",
+   "claims": [],
+   "evidence": [],
+   "search_result_only": [],
+   "duplicate_check": {
+    "existing_id": "anv-fixed-08-17-black-cat-appreciation-day-us",
+    "existing_category": "animal",
+    "verdict": "duplicate_of_existing"
+   },
+   "note": "검색 전에 후보로 떠올렸으나 서비스에 이미 있음 — 신규 후보에서 제외 (현재 카테고리 animal, quirky 아님)"
+  },
+  {
+   "candidate_key": "existing:anv-fixed-02-29-bachelors-day-ie",
+   "kind": null,
+   "kind_label": "기존 항목",
+   "discovery_status": "duplicate",
+   "discovery_status_label": "서비스 1,756건에 이미 있는 항목",
+   "name_ko": "윤일 청혼의 날 (Bachelor’s Day)",
+   "name_original": "Bachelor’s Day / Leap Day proposal",
+   "date_rule": "02-29",
+   "date_type": "annual-fixed",
+   "claims": [],
+   "evidence": [],
+   "search_result_only": [],
+   "duplicate_check": {
+    "existing_id": "anv-fixed-02-29-bachelors-day-ie",
+    "existing_category": "romance",
+    "verdict": "duplicate_of_existing"
+   },
+   "note": "검색 전에 후보로 떠올렸으나 서비스에 이미 있음 — 신규 후보에서 제외 (현재 카테고리 romance, quirky 아님)"
+  },
+  {
+   "candidate_key": "existing:anv-fixed-04-23-talk-like-shakespeare-day-us",
+   "kind": null,
+   "kind_label": "기존 항목",
+   "discovery_status": "duplicate",
+   "discovery_status_label": "서비스 1,756건에 이미 있는 항목",
+   "name_ko": "셰익스피어처럼 말하는 날",
+   "name_original": "Talk Like Shakespeare Day",
+   "date_rule": "04-23",
+   "date_type": "annual-fixed",
+   "claims": [],
+   "evidence": [],
+   "search_result_only": [],
+   "duplicate_check": {
+    "existing_id": "anv-fixed-04-23-talk-like-shakespeare-day-us",
+    "existing_category": "culture",
+    "verdict": "duplicate_of_existing"
+   },
+   "note": "검색 전에 후보로 떠올렸으나 서비스에 이미 있음 — 신규 후보에서 제외 (현재 카테고리 culture, quirky 아님)"
+  },
+  {
+   "candidate_key": "existing:anv-fixed-12-08-time-traveler-day-global",
+   "kind": null,
+   "kind_label": "기존 항목",
+   "discovery_status": "duplicate",
+   "discovery_status_label": "서비스 1,756건에 이미 있는 항목",
+   "name_ko": "타임트래블러인 척하는 날",
+   "name_original": "Pretend to Be a Time Traveler Day",
+   "date_rule": "12-08",
+   "date_type": "annual-fixed",
+   "claims": [],
+   "evidence": [],
+   "search_result_only": [],
+   "duplicate_check": {
+    "existing_id": "anv-fixed-12-08-time-traveler-day-global",
+    "existing_category": "quirky",
+    "verdict": "duplicate_of_existing"
+   },
+   "note": "검색 전에 후보로 떠올렸으나 서비스에 이미 있음 — 신규 후보에서 제외"
+  },
+  {
+   "candidate_key": "existing:anv-fixed-09-19-talk-like-a-pirate-day-global",
+   "kind": null,
+   "kind_label": "기존 항목",
+   "discovery_status": "duplicate",
+   "discovery_status_label": "서비스 1,756건에 이미 있는 항목",
+   "name_ko": "세계 해적처럼 말하기의 날",
+   "name_original": "Talk Like a Pirate Day",
+   "date_rule": "09-19",
+   "date_type": "annual-fixed",
+   "claims": [],
+   "evidence": [],
+   "search_result_only": [],
+   "duplicate_check": {
+    "existing_id": "anv-fixed-09-19-talk-like-a-pirate-day-global",
+    "existing_category": "quirky",
+    "verdict": "duplicate_of_existing"
+   },
+   "note": "검색 전에 후보로 떠올렸으나 서비스에 이미 있음 — 신규 후보에서 제외"
+  },
+  {
+   "candidate_key": "existing:anv-fixed-12-05-ninja-day-global",
+   "kind": null,
+   "kind_label": "기존 항목",
+   "discovery_status": "duplicate",
+   "discovery_status_label": "서비스 1,756건에 이미 있는 항목",
+   "name_ko": "세계 닌자의 날 (International Ninja Day)",
+   "name_original": "International Ninja Day",
+   "date_rule": "12-05",
+   "date_type": "annual-fixed",
+   "claims": [],
+   "evidence": [],
+   "search_result_only": [],
+   "duplicate_check": {
+    "existing_id": "anv-fixed-12-05-ninja-day-global",
+    "existing_category": "culture",
+    "verdict": "duplicate_of_existing"
+   },
+   "note": "검색 전에 후보로 떠올렸으나 서비스에 이미 있음 — 신규 후보에서 제외 (현재 카테고리 culture, quirky 아님)"
+  }
+ ]
+}

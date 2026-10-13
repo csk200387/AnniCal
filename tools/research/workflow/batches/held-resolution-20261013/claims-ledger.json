@@ -1,0 +1,366 @@
+[
+  {
+    "uid": "native:pl-topienie-marzanny",
+    "claim_ko": "3/21 가장 흔하나 규칙 아님",
+    "path": "tools/research/workflow/batches/native-languages-20261012/evidence/pl-topienie-marzanny/eska.txt",
+    "quote": "Dziś najczęściej dzieci odprowadzające kukłę marzanny można spotkać w pierwszy dzień wiosny - 21. marca, ale nie jest to regułą.",
+    "literal_match": true
+  },
+  {
+    "uid": "native:pl-topienie-marzanny",
+    "claim_ko": "현재: 학생·교사 인솔·강/연못·놀이",
+    "path": "tools/research/workflow/batches/native-languages-20261012/evidence/pl-topienie-marzanny/eska.txt",
+    "quote": "Najczęściej biorą w nim udział dzieci szkolne, które przygotowują barwnie przystrojoną kukłę, by później, pod opieką nauczycieli, udać się nad rzekę lub staw, gdzie lalka jest wrzucana do wody. Obecnie jest to traktowane bardziej jako zabawa",
+    "literal_match": true
+  },
+  {
+    "uid": "native:pl-topienie-marzanny",
+    "claim_ko": "겨울과 죽음의 여신",
+    "path": "tools/research/workflow/batches/native-languages-20261012/evidence/pl-topienie-marzanny/eska.txt",
+    "quote": "starosłowiańskiej bogini zimy i śmierci",
+    "literal_match": true
+  },
+  {
+    "uid": "native:pl-topienie-marzanny",
+    "claim_ko": "과거: 짚·천·리본, 노래와 함께 마을 밖으로",
+    "path": "tools/research/workflow/batches/native-languages-20261012/evidence/pl-topienie-marzanny/eska.txt",
+    "quote": "Kukłę wykonywano ze słomy, owijano płótnem i dekorowano kolorowymi wstążkami. Rytuał mógł różnić się w zależności od regionu, ale zasadnicze elementy były takie same - marzannę wyprowadzano ze wsi przy wtórze pieśni.",
+    "literal_match": true
+  },
+  {
+    "uid": "native:pl-topienie-marzanny",
+    "claim_ko": "형상 파괴=겨울의 힘 제거 믿음",
+    "path": "tools/research/workflow/batches/native-languages-20261012/evidence/pl-topienie-marzanny/eska.txt",
+    "quote": "Zniszczenie podobizny bogini było jednoznaczne z odebraniem jej mocy i usunięciem wywołanych przez nią efektów, czyli zimy.",
+    "literal_match": true
+  },
+  {
+    "uid": "native:pl-topienie-marzanny",
+    "claim_ko": "사순절 넷째 주일",
+    "path": "tools/research/workflow/batches/held-resolution-20261013/evidence/pl-topienie-marzanny/orpeg-topienie-marzanny.txt",
+    "quote": "W czwartą niedzielę postu wiosna",
+    "literal_match": true
+  },
+  {
+    "uid": "native:pl-topienie-marzanny",
+    "claim_ko": "죽음의 주일·인형을 내가 태우거나 물에",
+    "path": "tools/research/workflow/batches/held-resolution-20261013/evidence/pl-topienie-marzanny/orpeg-topienie-marzanny.txt",
+    "quote": "zimy, nazywano w Polsce śmiertelną, czarną lub białą. Wynoszono\nwtedy ze wsi kukłę, która uosabiała ową zimę. Palono ją lub topiono,",
+    "literal_match": true
+  },
+  {
+    "uid": "native:pl-topienie-marzanny",
+    "claim_ko": "체신: 베스키디 밖 미지, 3/21 2차적 풍습",
+    "path": "tools/research/workflow/batches/native-languages-20261012/evidence/pl-topienie-marzanny/ox-pl-witaj-wiosno.txt",
+    "quote": "Poza Beskidami zwyczaj\nchodzenia z marzanną, kukłą symbolizującą zimę, martwotę, na ziemi cieszyńskiej nie był znany, a jej topienie\n21 marca, w dzień początku wiosny, jest zwyczajem wtórnym, nie autentycznym, upowszechnianym od 2 poł.\nXX wieku przez telewizję i podchwyconym przez szkoły",
+    "literal_match": true
+  },
+  {
+    "uid": "native:pl-topienie-marzanny",
+    "claim_ko": "다른 날 실례: 2025-03-23 루블린 야외박물관 보도",
+    "path": "tools/research/workflow/batches/held-resolution-20261013/evidence/pl-topienie-marzanny/radio-lublin-2025.txt",
+    "quote": "23 marca 2025 / 13:58",
+    "literal_match": true
+  },
+  {
+    "uid": "native:pl-topienie-marzanny",
+    "claim_ko": "다른 날 실례: 루블린 재현 행사",
+    "path": "tools/research/workflow/batches/held-resolution-20261013/evidence/pl-topienie-marzanny/radio-lublin-2025.txt",
+    "quote": "W lubelskim skansenie przypomniano dawne tradycje związane z przyjściem wiosny i topieniem Marzanny.",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:cn-farmers-harvest",
+    "claim_ko": "2018 제정·당중앙 비준·국무원 비복·국가 차원 첫 농민 명절",
+    "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-farmers-harvest/gov-cn-5300368.txt",
+    "quote": "经党中央批准、国务院批复，自2018年起，将每年农历秋分设立为‘中国农民丰收节’，这是第一个在国家层面专门为农民设立的节日。",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:cn-farmers-harvest",
+    "claim_ko": "추분 선택 이유·남북 아우름",
+    "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-farmers-harvest/gov-cn-5300368.txt",
+    "quote": "春种秋收，春华秋实，秋分时节硕果累累，最能体现丰收。",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:cn-farmers-harvest",
+    "claim_ko": "남북 겸고",
+    "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-farmers-harvest/gov-cn-5300368.txt",
+    "quote": "兼顾南北方",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:cn-farmers-harvest",
+    "claim_ko": "2021 제4회 활동",
+    "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/cn-farmers-harvest/chinadaily-2021.txt",
+    "quote": "全国各地组织艺术表演、农民运动会以及书画展等一系列活动庆祝第四个“中国农民丰收节”。",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:cn-farmers-harvest",
+    "claim_ko": "2026-09-23 제9회",
+    "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/cn-farmers-harvest/newscn-20260923.txt",
+    "quote": "9月23日是第九个中国农民丰收节",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:cn-farmers-harvest",
+    "claim_ko": "2026 헤이룽장 옥수수 껍질 벗기기",
+    "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/cn-farmers-harvest/newscn-20260923.txt",
+    "quote": "人们在2026年中国农民丰收节黑龙江省主场活动现场参加扒苞米比赛。",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:cn-farmers-harvest",
+    "claim_ko": "HKO 2041 추분 9/22",
+    "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/_shared-hko-calendar/hko-T2041e.txt",
+    "quote": "2041/9/22 27 Sunday Autumnal Equinox",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:hk-fire-dragon",
+    "claim_ko": "광서6년 1880 역병 전설",
+    "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/hk-fire-dragon/ihchina-14936.txt",
+    "quote": "相传在光绪六年（1880），大坑发生瘟疫，村民扎做一条火龙巡游社区，燃放爆竹，驱除瘟疫，由此形成舞火龙习俗。",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:hk-fire-dragon",
+    "claim_ko": "중추절 앞뒤 사흘 밤",
+    "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/hk-fire-dragon/ihchina-14936.txt",
+    "quote": "活动在中秋节前后三个晚上举行。",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:hk-fire-dragon",
+    "claim_ko": "8/14 연화궁 개광, 사흘 순행",
+    "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/hk-fire-dragon/ihchina-14936.txt",
+    "quote": "农历八月十四晚上在供奉观音的莲花宫内为火龙进行开光仪式。之后连续三个晚上以顺时针方向巡游大坑的所有街道。",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:hk-fire-dragon",
+    "claim_ko": "8/16 역방향·바다·龙归天(전통 서술)",
+    "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/hk-fire-dragon/ihchina-14936.txt",
+    "quote": "八月十六晚上举行“游大运”仪式，火龙沿逆时针方向巡游社区一周，然后舞到海边，将之投入海中，称为“龙归天”。",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:hk-fire-dragon",
+    "claim_ko": "근년 소각로(2022 당대중국)",
+    "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/hk-fire-dragon/ourchinastory-4023.txt",
+    "quote": "近年為切合環保，以免污染海水，改為將火龍送往焚化爐",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:hk-fire-dragon",
+    "claim_ko": "근년 소각로(마리끌레르 대만)",
+    "path": "tools/research/workflow/batches/held-resolution-20261013/evidence/hk-fire-dragon/marieclaire-75190.txt",
+    "quote": "如今為避免汙染環境，改送入焚化爐內",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:hk-fire-dragon",
+    "claim_ko": "2011 제3차·보호단위",
+    "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/hk-fire-dragon/ihchina-14936.txt",
+    "quote": "公布时间：2011(第三批)",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:hk-fire-dragon",
+    "claim_ko": "보호단위 대갱방중복리회",
+    "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/hk-fire-dragon/ihchina-14936.txt",
+    "quote": "保护单位：大坑坊众福利会",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:hk-fire-dragon",
+    "claim_ko": "2026 일정",
+    "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/hk-fire-dragon/hk01-2026.txt",
+    "quote": "日期：2026年9月24日至26日",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:hk-fire-dragon",
+    "claim_ko": "2026 규모",
+    "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/hk-fire-dragon/hk01-2026.txt",
+    "quote": "屆時將有300多位壯丁，舞動著一條全長67米、插滿12,000枝長壽線香的巨型火龍",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:hk-fire-dragon",
+    "claim_ko": "HKO 2040 음력 8/14 = 9/19",
+    "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/_shared-hko-calendar/hko-T2040e.txt",
+    "quote": "2040/9/19 14 Wednesday",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:jp-yama-no-hi",
+    "claim_ko": "법 조문 山の日 八月十一日",
+    "path": "tools/research/workflow/batches/held-resolution-20261013/evidence/jp-yama-no-hi/egov-law-323AC1000000178.txt",
+    "quote": "山の日\n八月十一日",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:jp-yama-no-hi",
+    "claim_ko": "취지",
+    "path": "tools/research/workflow/batches/held-resolution-20261013/evidence/jp-yama-no-hi/egov-law-323AC1000000178.txt",
+    "quote": "山に親しむ機会を得て、山の恩恵に感謝する。",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:jp-yama-no-hi",
+    "claim_ko": "2014 개정·2016 시행",
+    "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-yama-no-hi/kumanichi.txt",
+    "quote": "２０１４年、８月１１日を山の日と定めた改正祝日法が成立。１６年から施行された。",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:jp-yama-no-hi",
+    "claim_ko": "2020 8/10",
+    "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-keiro-no-hi/cao-gaiyou.txt",
+    "quote": "山の日 ８月１０日",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:jp-yama-no-hi",
+    "claim_ko": "2021 8/8 및 8/9 대체휴일",
+    "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-keiro-no-hi/cao-gaiyou.txt",
+    "quote": "山の日 ８月８日（※）\n（※）国民の祝日に関する法律（昭和23年法律第178号）第3条第2項の規定に基づき、8月9日は休日となりました。",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:jp-yama-no-hi",
+    "claim_ko": "올림픽·패럴림픽 맞춤 이동",
+    "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-keiro-no-hi/cao-gaiyou.txt",
+    "quote": "令和２年(2020年)及び令和３年(2021年)に限り、東京オリンピック・パラリンピック競技大会の開催にあわせ、「海の日」、「スポーツの日」及び「山の日」が移動しました。",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:jp-yama-no-hi",
+    "claim_ko": "2010 산악 5단체",
+    "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-yama-no-hi/akahata-2016.txt",
+    "quote": "２０１０年４月に山岳５団体（日本山岳協会、日本勤労者山岳連盟、日本山岳会、日本ガイド協会、日本ヒマラヤン・アドベンチャー・トラスト）が中心になって、関係省庁や地方自治体、環境団体、観光業者、山小屋関係者らに働きかけてきました。",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:jp-yama-no-hi",
+    "claim_ko": "2013 의원연맹·협의회",
+    "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-yama-no-hi/akahata-2016.txt",
+    "quote": "同年１１月には同議連と山岳団体、自治体首長らによる全国「山の日」制定協議会ができました。",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:jp-yama-no-hi",
+    "claim_ko": "6월 첫 일요일 후보→오봉 전 11일",
+    "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-yama-no-hi/akahata-2016.txt",
+    "quote": "山岳団体は、夏山シーズン前の６月第１日曜日を候補にしていました。",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:jp-yama-no-hi",
+    "claim_ko": "기업·학교 영향 적고 공휴일 없는 달, 오봉 전 11일",
+    "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-yama-no-hi/akahata-2016.txt",
+    "quote": "企業や学校への影響が少なく祝日のない月ということなどから、お盆休み前の１１日に落ち着きました。",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:jp-yama-no-hi",
+    "claim_ko": "2016 마쓰모토 제1회",
+    "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-yama-no-hi/kumanichi.txt",
+    "quote": "記念全国大会は同年、初めての山の日に合わせ、長野県松本市であった第１回大会を皮切りに、全国各地で開催されている。",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:jp-yama-no-hi",
+    "claim_ko": "10년·다카야마 제10회",
+    "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-yama-no-hi/kumanichi.txt",
+    "quote": "祝日「山の日」が始まって１０年となり、岐阜県高山市で１１日、第１０回「山の日」記念全国大会の式典が開かれた。",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:jp-yama-no-hi",
+    "claim_ko": "기사 일시",
+    "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-yama-no-hi/kumanichi.txt",
+    "quote": "2026年8月11日 11:37",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:jp-setsubun",
+    "claim_ko": "정의: 입춘 전날",
+    "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-setsubun/nippon-com.txt",
+    "quote": "節分は「立春の前日」です。",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:jp-setsubun",
+    "claim_ko": "네 절기 전날 → 입춘 전날 정착",
+    "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-setsubun/nippon-com.txt",
+    "quote": "本来は「二十四節気」の立春・立夏・立秋・立冬それぞれの前日を指すが、冬から春に移る立春は古来より1年の始まりとして重んじられていたため、特に立春の前日が「節分」として広く定着している。",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:jp-setsubun",
+    "claim_ko": "국립천문대 계산·전년 관보",
+    "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-setsubun/nippon-com.txt",
+    "quote": "二十四節気は地球と太陽の位置関係を基に、国立天文台が割り出して前年に官報で公表する。",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:jp-setsubun",
+    "claim_ko": "2025 입춘 2/3 23:10 → 세쓰분 2/2",
+    "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-setsubun/nippon-com.txt",
+    "quote": "立春は太陽と地球の位置関係で決まるもので、2025年は2月3日午後11時10分。つまり、節分は今日2月2日です！",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:jp-setsubun",
+    "claim_ko": "NAO 2025 역요항 세쓰분 2/2",
+    "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-setsubun/nao-2025.txt",
+    "quote": "節分\n2月02日",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:jp-setsubun",
+    "claim_ko": "NAO 2021 역요항 세쓰분 2/2",
+    "path": "tools/research/workflow/batches/held-resolution-20261013/evidence/jp-setsubun/nao-rekiyou-2021.txt",
+    "quote": "節分\n2月02日",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:jp-setsubun",
+    "claim_ko": "NAO 2026 역요항 세쓰분 2/3",
+    "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/jp-setsubun/nao-rekiyou-2026.txt",
+    "quote": "節分\n2月03日",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:jp-setsubun",
+    "claim_ko": "NAO 2027 역요항 세쓰분 2/3",
+    "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/jp-setsubun/nao-rekiyou-2027.txt",
+    "quote": "節分\n2月03日",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:jp-setsubun",
+    "claim_ko": "2021~2057 4년마다 2/2",
+    "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-setsubun/nippon-com.txt",
+    "quote": "2021年から2057年までは4年ごとに2月2日が節分となり",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:jp-setsubun",
+    "claim_ko": "콩·에호마키",
+    "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-setsubun/nippon-com.txt",
+    "quote": "スーパーやコンビニにはまだお豆も恵方巻もたっぷりあるはず。",
+    "literal_match": true
+  },
+  {
+    "uid": "asia:jp-setsubun",
+    "claim_ko": "福は内",
+    "path": "tools/research/workflow/batches/asia-expansion-20261012/evidence/jp-setsubun/nippon-com.txt",
+    "quote": "「福は内！」と言ってみよう。",
+    "literal_match": true
+  }
+]

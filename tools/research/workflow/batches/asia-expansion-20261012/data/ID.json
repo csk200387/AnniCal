@@ -1,0 +1,280 @@
+{
+ "country": "ID",
+ "country_ko": "인도네시아",
+ "search_language": "id",
+ "sources": {
+  "antara-400962": "ANTARA News Bali (국영 통신)",
+  "bisnis-2026": "Bisnis.com",
+  "kompastv-2026": "Kompas TV (2026-03)",
+  "wikisource-keppres": "Wikisumber (대통령령 2009-33 전문 전재)",
+  "nu-batik": "NU Online (나흐들라툴 울라마, 2023)",
+  "antara-wanokaka": "ANTARA News NTT (2019-02-26)",
+  "detik-pasola": "detikBali",
+  "rri-pasola": "RRI (인도네시아 공영 라디오)",
+  "nu-sejarah": "NU Online (2021)",
+  "detik-santri": "detikJogja (2023)"
+ },
+ "summary_ko": "인도네시아는 발리 힌두 새해 녜삐(침묵의 날, 공항까지 24시간 폐쇄), 바틱의 날(10/2), 산트리(이슬람 기숙학교 학생)의 날(10/22), 숨바섬 파솔라(바다 지렁이 냘레의 출현으로 날짜를 정하는 기마 창 던지기)를 찾았다. 녜삐·파솔라는 사카력·관찰로 날짜가 정해져 앱 규칙으로 표현할 수 없다.",
+ "limits": "이슬람 명절(르바란·이둘 아드하)·카르티니의 날(4/21)은 조사하지 않았다. 녜삐 국가 공휴일 근거(3부 장관 공동결정)는 원문 미수집. 파솔라는 Marapu 신앙 의례로 부상·사망 사고 보도가 있어 편집 주의.",
+ "candidates": [
+  {
+   "aliases": [
+    "Nyepi",
+    "Catur Brata Penyepian"
+   ],
+   "search_result_only": [
+    {
+     "url": "https://ekonomi.bisnis.com/read/20260318/98/1961254/bandara-ngurah-rai-ditutup-sementara-jelang-nyepi-buka-lagi-jumat-20-maret",
+     "note": "2026 폐쇄 일정(3/19 06:00~3/20 06:00) — 403"
+    }
+   ],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": "국제공항이 종교 명절에 하루 통째로 문을 닫는다",
+   "candidate_key": "id-nyepi",
+   "name_original": "Hari Raya Nyepi (Tahun Baru Saka)",
+   "name_ko": "녜삐 — 발리 섬 전체가 24시간 멈추는 침묵의 새해",
+   "date_type": null,
+   "date_rule": null,
+   "date_rule_folk": "발리 사카력 새해(대개 3월). 2025년 3/29(사카 1947), 2026년 3/19(사카 1948)",
+   "date_note": "사카력 표 없음 → 앱 날짜 미지원.",
+   "app_date_support": "unsupported",
+   "scope": "인도네시아 국가 공휴일, 발리 힌두 의례(섬 전체 교통 정지)",
+   "kind": "religious_new_year",
+   "kind_group": "folk_religious",
+   "officiality": "official_religious_holiday",
+   "meaning_ko": "발리 힌두교의 사카력 새해 첫날로, 불·노동·외출·오락을 금하는 \"네 가지 금계(Catur Brata Penyepian)\"를 지키며 하루 종일 침묵한다. 이날 발리 응우라라이 국제공항은 해마다 24시간 운항을 멈춰 2026년엔 국내외 440편이 결항했고, 항구와 버스 터미널도 닫는다. 마을 경비대(페찰랑)가 거리를 순찰한다.",
+   "founder_origin": "발리 힌두 사카력 전통",
+   "founder_check_level": "news_read",
+   "founder_check": "not_applicable",
+   "claims": [
+    {
+     "claim_id": "airport_closed",
+     "claim_ko": "응우라라이 공항 24시간 운항 중단(매년), 440편",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "antara-400962",
+       "quote": "Pengelola Bandara I Gusti Ngurah Rai mengumumkan penghentian operasional penerbangan selama 24 jam pada Hari Raya Nyepi.",
+       "quote_ko": "응우라라이 공항 운영사는 녜삐 날 24시간 운항 중단을 발표했다."
+      },
+      {
+       "evidence_id": "antara-400962",
+       "quote": "Penghentian sementara operasional bandara selama Hari Raya Nyepi sendiri sudah rutin dilaksanakan di Bandara I Gusti Ngurah Rai sehingga umat Hindu di Pulau Dewata dapat melaksanakan rangkaian Catur Brata Penyepian dengan khidmat.",
+       "quote_ko": "녜삐 기간 공항 운항 중단은 발리 힌두교도가 네 가지 금계를 경건히 지키도록 매년 해 오는 일이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "2026_saka1948",
+     "claim_ko": "2026년 녜삐=사카 1948년, 항공·선박·버스 정지",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "kompastv-2026",
+       "quote": "Sejumlah layanan transportasi, mulai dari penerbangan, penyeberangan hingga terminal bus, akan dihentikan sementara untuk menghormati pelaksanaan Catur Brata Penyepian.",
+       "quote_ko": "항공·여객선·버스 터미널까지 여러 교통 서비스가 네 가지 금계를 존중해 일시 중단된다."
+      },
+      {
+       "evidence_id": "kompastv-2026",
+       "quote": "Hari Raya Nyepi 2026 atau Tahun Baru Saka 1948",
+       "quote_ko": "녜삐 2026, 곧 사카력 1948년 새해"
+      }
+     ]
+    }
+   ],
+   "uncertainty": "네 가지 금계의 구체 내용(불·노동·외출·오락)은 이번 원문 인용 밖 — 검수 시 원문 추가. 국가 공휴일 근거 문서 미수집. 앞날 오고오고(Ogoh-ogoh) 행렬은 조사 안 함.",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "National Batik Day"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": "전 국민 \"바틱 입는 날\"",
+   "candidate_key": "id-batik-day",
+   "name_original": "Hari Batik Nasional",
+   "name_ko": "인도네시아 바틱의 날 — 10월 2일",
+   "date_type": "annual-fixed",
+   "date_rule": "10-02",
+   "date_note": "대통령령 2009년 제33호, 공휴일 아님",
+   "app_date_support": "supported",
+   "scope": "인도네시아 국가 지정 기념일(공휴일 아님). 관공서·회사 바틱 착용",
+   "kind": "official_culture",
+   "kind_group": "occupation_culture",
+   "officiality": "official_observance_not_holiday",
+   "meaning_ko": "2009년 10월 2일 유네스코가 인도네시아 바틱(밀랍 염색)을 인류무형유산에 올린 날을 기념해, 수실로 밤방 유도요노 대통령이 같은 해 11월 17일 대통령령 제33호로 정한 날이다. 대통령령은 이날이 공휴일이 아니라고 명시하며, 관공서와 회사가 직원들에게 바틱 차림을 권한다.",
+   "founder_origin": "2009-11-17 대통령령 제33호(유도요노)",
+   "founder_check_level": "decree_text_read",
+   "founder_check": "confirmed",
+   "claims": [
+    {
+     "claim_id": "keppres",
+     "claim_ko": "대통령령: 10월 2일 바틱의 날, 공휴일 아님",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "wikisource-keppres",
+       "quote": "Tanggal 2 Oktober ditetapkan sebagai Hari Batik Nasional.",
+       "quote_ko": "10월 2일을 국가 바틱의 날로 정한다."
+      },
+      {
+       "evidence_id": "wikisource-keppres",
+       "quote": "Hari Batik Nasional bukan merupakan hari libur.",
+       "quote_ko": "국가 바틱의 날은 공휴일이 아니다."
+      }
+     ]
+    },
+    {
+     "claim_id": "unesco_2009",
+     "claim_ko": "2009-10-02 UNESCO 등재, 2009-11-17 서명",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "nu-batik",
+       "quote": "Presiden Susilo Bambang Yudhoyono menetapkan tanggal 2 Oktober sebagai Hari Batik Nasional. Hal tersebut ditetapkan melalui Surat Keputusan Presiden (Keppres) Nomor 33 Tahun 2009 yang ditandatangani pada tanggal 17 November 2009.",
+       "quote_ko": "유도요노 대통령이 2009년 11월 17일 서명한 대통령령 제33호로 10월 2일을 바틱의 날로 정했다."
+      }
+     ]
+    }
+   ],
+   "uncertainty": "대통령령 전문은 위키문헌 전재본(정부 관보 원본 미수집). 바틱 원산 논쟁(말레이시아 등)은 쓰지 말 것.",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "Hari Santri"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": null,
+   "candidate_key": "id-santri-day",
+   "name_original": "Hari Santri Nasional",
+   "name_ko": "인도네시아 산트리의 날 — 이슬람 기숙학교 학생을 기리는 날",
+   "date_type": "annual-fixed",
+   "date_rule": "10-22",
+   "date_note": "대통령령 2015년 제22호",
+   "app_date_support": "supported",
+   "scope": "인도네시아 국가 지정 기념일(공휴일 아님)",
+   "kind": "official_religious_memorial",
+   "kind_group": "national_official",
+   "officiality": "official_observance_not_holiday",
+   "meaning_ko": "1945년 10월 22일 이슬람 지도자 하심 아샤리가 독립 직후 식민 세력에 맞서 싸우자는 \"지하드 결의(Resolusi Jihad)\"를 낸 날을 기려, 2015년 조코 위도도 대통령이 대통령령 제22호로 정한 \"산트리(이슬람 기숙학교 학생)의 날\"이다. 나흐들라툴 울라마(NU)가 이 날짜를 제안했다.",
+   "founder_origin": "2015 대통령령 제22호(조코 위도도), NU 제안",
+   "founder_check_level": "news_read",
+   "founder_check": "confirmed",
+   "claims": [
+    {
+     "claim_id": "keppres_2015",
+     "claim_ko": "대통령령 2015-22, 10월 22일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "detik-santri",
+       "quote": "Hari Santri Nasional ditetapkan oleh Presiden Joko Widodo melalui Keputusan Presiden Nomor 22 Tahun 2015 yang ditandatangani pada 15 Oktober 2015 di Masjid Istiqlal, Jakarta.",
+       "quote_ko": "산트리의 날은 조코 위도도 대통령이 2015년 10월 15일 서명한 대통령령 제22호로 정했다(이스티클랄 모스크)."
+      }
+     ]
+    },
+    {
+     "claim_id": "resolusi_jihad",
+     "claim_ko": "NU 가 지하드 결의 날짜(1945-10-22)를 제안",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "detik-santri",
+       "quote": "Pengurus Besar Nahdlatul Ulama mengusulkan agar Hari Santri diperingati setiap tanggal 22 Oktober karena bertepatan dengan peristiwa dicetuskannya fatwa resolusi jihad oleh KH Hasyim Asy'ari.",
+       "quote_ko": "NU 중앙집행부는 하심 아샤리의 지하드 결의 파트와가 나온 날이라 10월 22일을 제안했다."
+      },
+      {
+       "evidence_id": "nu-sejarah",
+       "quote": "Setiap tanggal 22 Oktober diperingati sebagai Hari Santri.",
+       "quote_ko": "매년 10월 22일을 산트리의 날로 기념한다."
+      }
+     ]
+    }
+   ],
+   "uncertainty": "서명 장소 서술(이스티클랄)은 detik 표현이고 다른 매체는 선포식 장소로 씀 — 본문엔 \"2015년 대통령령\"까지만. \"지하드\"는 맥락 설명 없이 쓰면 오해 소지.",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "Nyale",
+    "Pasola Sumba"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": "시합 날짜를 바다 지렁이의 출현이 정한다",
+   "candidate_key": "id-pasola",
+   "name_original": "Pasola",
+   "name_ko": "파솔라 — 바다 지렁이가 날짜를 정하는 숨바섬 기마 창 시합",
+   "date_type": null,
+   "date_rule": null,
+   "date_rule_folk": "매년 2~3월, 라토(관습 지도자)들이 달의 위상과 바다 지렁이(nyale) 출현을 보고 결정. 라모야는 2월, 와노카카·서라우야는 3월",
+   "date_note": "관찰로 정해 규칙 없음 → 앱 날짜 미지원.",
+   "app_date_support": "unsupported",
+   "scope": "인도네시아 동누사텡가라주 숨바섬 서부 지역 의례(마라푸 신앙)",
+   "kind": "folk_ritual_local",
+   "kind_group": "festival_local",
+   "officiality": "regional_tradition",
+   "meaning_ko": "숨바섬 서부에서 모내기 철 시작 무렵 두 편의 기마 무사 수백 명이 말을 달리며 무딘 나무창을 던지는 의례 시합이다. 시합은 해변에 바다 지렁이 \"냘레\"가 떠오른 뒤에만 열 수 있어, 관습 지도자 \"라토\"들이 달의 밝고 어두운 주기와 자연의 징조를 보고 날짜를 정하고, 지렁이가 통통하면 풍년의 징조로 본다. 지렁이를 부르는 라토가 바다에서 돌아와야 주민들이 바다로 뛰어들어 지렁이를 줍는다.",
+   "founder_origin": "마라푸 신앙 전승(기원 설화)",
+   "founder_check_level": "news_read",
+   "founder_check": "not_applicable",
+   "claims": [
+    {
+     "claim_id": "date_by_rato",
+     "claim_ko": "라토가 달 주기·자연 징조로 날짜 결정, 2월 라모야·3월 와노카카",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "detik-pasola",
+       "quote": "Tanggal pasti dalam pelaksanaan Pasola ditentukan oleh para rato berdasarkan perhitungan bulan gelap dan bulan terang dan juga dengan melihat tanda-tanda alam.",
+       "quote_ko": "파솔라의 정확한 날짜는 라토들이 어두운 달·밝은 달 계산과 자연의 징조를 보고 정한다."
+      },
+      {
+       "evidence_id": "detik-pasola",
+       "quote": "Tradisi Pasola dilaksanakan sekali dalam setahun yakni pada awal musim tanam, tepatnya pada Februari di Kecamatan Lamboya dan Maret di Kecamatan Wanokaka dan Laboya Barat/Gaura.",
+       "quote_ko": "파솔라는 1년에 한 번 파종기 초, 라모야는 2월, 와노카카·서라보야는 3월에 열린다."
+      }
+     ]
+    },
+    {
+     "claim_id": "nyale_first",
+     "claim_ko": "냘레를 얻은 뒤에만 파솔라 가능",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "detik-pasola",
+       "quote": "Pasola hanya dapat dilaksanakan setelah mendapat cacing nyale tersebut.",
+       "quote_ko": "파솔라는 냘레 지렁이를 얻은 뒤에만 열 수 있다."
+      },
+      {
+       "evidence_id": "rri-pasola",
+       "quote": "Tahap pertama diawali dengan musyawarah para rato atau tetua adat untuk menentukan waktu pelaksanaan berdasarkan tanda-tanda alam, khususnya kemunculan nyale.",
+       "quote_ko": "첫 단계는 라토(장로)들이 자연의 징조, 특히 냘레 출현을 보고 시기를 정하는 회의다."
+      }
+     ]
+    },
+    {
+     "claim_id": "calling_nyale",
+     "claim_ko": "2019 와노카카, 라토가 냘레를 부른 뒤 주민 입수",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "antara-wanokaka",
+       "quote": "\"Masyarakat sekitar baru diizinkan turun ke laut untuk memungut Nyale setelah dua Rato yang memanggil nyale itu naik ke darat atau wilayah pesisir,\" jelasnya.",
+       "quote_ko": "\"냘레를 부르는 라토 두 명이 뭍으로 올라온 뒤에야 주민들이 바다에 들어가 냘레를 주울 수 있다\"고 말했다."
+      }
+     ]
+    }
+   ],
+   "uncertainty": "창 시합에서 피를 흘리면 풍요라는 해석·사상자 보도는 편집 시 신중. 날짜 산정(초승달 후 며칠)은 매체마다 다름(검색결과) — 쓰지 말 것.",
+   "confidence": "high"
+  }
+ ]
+}

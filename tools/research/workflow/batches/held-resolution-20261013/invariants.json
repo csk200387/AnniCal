@@ -1,0 +1,64 @@
+{
+  "baseline_total": 1810,
+  "after_total": 1815,
+  "unique_ids": 1815,
+  "added_ids_exact": true,
+  "removed_ids": [],
+  "baseline_objects_unchanged": true,
+  "baseline_routes_unchanged": true,
+  "routes_total": 1815,
+  "routes_added": [
+    "anv-fixed-03-21-marzanna-pl",
+    "anv-fixed-08-11-mountain-day-jp",
+    "anv-rel-chuseok-minus1-tai-hang-fire-dragon-hk",
+    "anv-rel-ipchun-minus1-setsubun-jp",
+    "anv-term-chubun-cn-farmers-harvest-festival"
+  ],
+  "url_unique": true,
+  "separated_families_day": {
+    "slug": "separated-families-day",
+    "urlDate": "09-24"
+  },
+  "observances_existing_38_unchanged": true,
+  "observances_keys": 41,
+  "observances_added": [
+    "chubun-cn",
+    "lunar-08-14-hk",
+    "yama-no-hi-jp"
+  ],
+  "regional_years": {
+    "chubun-cn": [
+      "2020",
+      "2069",
+      50
+    ],
+    "lunar-08-14-hk": [
+      "2020",
+      "2069",
+      50
+    ],
+    "yama-no-hi-jp": [
+      "2020",
+      "2069",
+      50
+    ]
+  },
+  "baseline_sha256_observances": "e65f2c14d0c69b8bfdb696c42a2005198ee42900cc13f29ebbd16d7a415ec027",
+  "related_existing_by_keyword": {
+    "anv-fixed-03-21-marzanna-pl": [],
+    "anv-fixed-08-11-mountain-day-jp": [
+      "anv-fixed-02-10-umbrella-day-global",
+      "anv-fixed-04-18-international-day-for-monuments-and-sites-global",
+      "anv-fixed-04-26-world-ip-day-global",
+      "anv-fixed-09-04-intellectual-property-day-kr",
+      "anv-fixed-10-18-mountain-day-kr",
+      "anv-fixed-12-11-mountain-day-global",
+      "anv-rel-thanksgiving-1-native-american-heritage-day-us",
+      "gov-128"
+    ],
+    "anv-rel-chuseok-minus1-tai-hang-fire-dragon-hk": [],
+    "anv-rel-ipchun-minus1-setsubun-jp": [],
+    "anv-term-chubun-cn-farmers-harvest-festival": []
+  },
+  "ok": true
+}

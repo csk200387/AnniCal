@@ -1,0 +1,435 @@
+{
+ "scope": 59,
+ "local_added": 59,
+ "held": 0,
+ "pending_editorial": 0,
+ "baseline_total": 1756,
+ "after_total": 1815,
+ "baseline_records_unchanged": true,
+ "baseline_routes_unchanged": true,
+ "literal_quotes_checked": 560,
+ "literal_quote_failures": 0,
+ "prerender_detail_pages_checked": 59,
+ "verify": "npm run verify passed (held-resolution 2026-10-13): 23 files, 198 tests",
+ "og_fonts_rebuilt": true,
+ "og_version": "4",
+ "commit": null,
+ "published": false,
+ "held_uids": [],
+ "pending_uids": [],
+ "added": [
+  {
+   "id": "anv-fixed-02-23-rotary-world-understanding-peace-day",
+   "name": "세계 이해와 평화의 날(로터리)",
+   "path": "/day/02-23/rotary-world-understanding-peace-day",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-07-16-world-snake-day-global",
+   "name": "세계 뱀의 날",
+   "path": "/day/07-16/world-snake-day",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-07-19-myanmar-martyrs-day",
+   "name": "순국자의 날(미얀마)",
+   "path": "/day/07-19/myanmar-martyrs-day",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-08-24-ukraine-independence-day",
+   "name": "우크라이나 독립기념일",
+   "path": "/day/08-24/ukraine-independence-day",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-08-24-pluto-demoted-day",
+   "name": "명왕성 강등의 날",
+   "path": "/day/08-24/pluto-demoted-day",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-08-31-international-overdose-awareness-day",
+   "name": "국제 약물 과다복용 인식의 날",
+   "path": "/day/08-31/international-overdose-awareness-day",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-08-31-international-day-people-of-african-descent-global",
+   "name": "국제 아프리카계 사람들의 날",
+   "path": "/day/08-31/international-day-people-of-african-descent",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-10-27-film-day-kr",
+   "name": "영화의 날(한국)",
+   "path": "/day/10-27/film-day",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-11-26-india-constitution-day",
+   "name": "인도 헌법의 날",
+   "path": "/day/11-26/india-constitution-day",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-12-19-goa-liberation-day",
+   "name": "고아 해방의 날(인도)",
+   "path": "/day/12-19/goa-liberation-day",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-02-20-hoodie-hoo-day-us",
+   "name": "후디 후 데이",
+   "path": "/day/02-20/hoodie-hoo-day",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-10-03-mean-girls-day-global",
+   "name": "퀸카로 살아남는 법의 날",
+   "path": "/day/10-03/mean-girls-day",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-04-30-its-gonna-be-may-day-global",
+   "name": "잇츠 고나 비 메이 데이",
+   "path": "/day/04-30/its-gonna-be-may-day",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-09-21-earth-wind-and-fire-day-global",
+   "name": "어스 윈드 앤 파이어 데이",
+   "path": "/day/09-21/earth-wind-and-fire-day",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-06-28-tau-day-global",
+   "name": "타우의 날",
+   "path": "/day/06-28/tau-day",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-02-22-ninja-day-jp",
+   "name": "닌자의 날(일본)",
+   "path": "/day/02-22/ninja-day",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-10-24-apple-day-kr",
+   "name": "애플데이",
+   "path": "/day/10-24/apple-day",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-02-13-galentines-day-global",
+   "name": "갤런타인데이",
+   "path": "/day/02-13/galentines-day",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-nth-01-l-mon-bubble-wrap-appreciation-day-us",
+   "name": "뽁뽁이 감사의 날",
+   "path": "/day/01-26/bubble-wrap-appreciation-day",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-10-31-dia-do-saci-br",
+   "name": "사치의 날(브라질)",
+   "path": "/day/10-31/dia-do-saci-br",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-06-13-santo-antonio-day-br",
+   "name": "산투 안토니우의 날(브라질)",
+   "path": "/day/06-13/santo-antonio-day-br",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-06-27-siebenschlaefertag-de",
+   "name": "일곱 잠꾸러기의 날(독일)",
+   "path": "/day/06-27/siebenschlaefertag",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-04-23-german-beer-day-de",
+   "name": "독일 맥주의 날",
+   "path": "/day/04-23/german-beer-day",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-nth-08-l-wed-la-tomatina-es",
+   "name": "라 토마티나(스페인)",
+   "path": "/day/08-26/la-tomatina",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-07-29-ribarteme-santa-marta-es",
+   "name": "리바르테메 산타 마르타 순례(스페인)",
+   "path": "/day/07-29/ribarteme-santa-marta",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-11-25-sainte-catherine-fr",
+   "name": "생트카트린 축일(프랑스)",
+   "path": "/day/11-25/sainte-catherine",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-nth-03-1-sun-grandmothers-day-fr",
+   "name": "할머니의 날(프랑스)",
+   "path": "/day/03-01/grandmothers-day",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-09-30-boys-day-pl",
+   "name": "소년·남자친구의 날(폴란드)",
+   "path": "/day/09-30/boys-day-pl",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-03-17-nai-khanom-tom-day-th",
+   "name": "나이카놈똠의 날(태국)",
+   "path": "/day/03-17/nai-khanom-tom-day-th",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-05-06-hidirellez-tr",
+   "name": "흐드렐레즈(튀르키예)",
+   "path": "/day/05-06/hidirellez-tr",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-05-20-520-day-tw",
+   "name": "520 데이(대만)",
+   "path": "/day/05-20/520-day-tw",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-01-10-chinese-peoples-police-day-cn",
+   "name": "중국 인민경찰절",
+   "path": "/day/01-10/chinese-peoples-police-day",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-04-24-china-space-day-cn",
+   "name": "중국 항천일",
+   "path": "/day/04-24/china-space-day",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-03-12-tree-planting-day-cn",
+   "name": "중국 식수절",
+   "path": "/day/03-12/tree-planting-day",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-term-gyeongchip-villain-hitting-hk",
+   "name": "경칩 다샤오런(홍콩)",
+   "path": "/day/03-05/gyeongchip-villain-hitting-hk",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-10-02-national-batik-day-id",
+   "name": "바틱의 날(인도네시아)",
+   "path": "/day/10-02/national-batik-day-id",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-10-22-national-santri-day-id",
+   "name": "산트리의 날(인도네시아)",
+   "path": "/day/10-22/national-santri-day-id",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-09-14-hindi-diwas-in",
+   "name": "힌디어의 날(인도)",
+   "path": "/day/09-14/hindi-diwas",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-02-28-national-science-day-in",
+   "name": "국가 과학의 날(인도)",
+   "path": "/day/02-28/national-science-day",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-11-15-shichigosan-jp",
+   "name": "시치고산(일본)",
+   "path": "/day/11-15/shichigosan",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-nth-09-3-mon-respect-for-the-aged-day-jp",
+   "name": "경로의 날(일본)",
+   "path": "/day/09-21/respect-for-the-aged-day",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-nth-01-2-mon-coming-of-age-day-jp",
+   "name": "성인의 날(일본)",
+   "path": "/day/01-12/coming-of-age-day",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-07-11-naadam-mn",
+   "name": "나담(몽골)",
+   "path": "/day/07-11/naadam-mn",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-09-16-malaysia-day-my",
+   "name": "말레이시아의 날",
+   "path": "/day/09-16/malaysia-day-my",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-05-30-kaamatan-my",
+   "name": "카아마탄(말레이시아 사바)",
+   "path": "/day/05-30/kaamatan-my",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-06-01-gawai-dayak-my",
+   "name": "가와이 다약(말레이시아 사라왁)",
+   "path": "/day/06-01/gawai-dayak-my",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-nth-08-l-mon-national-heroes-day-ph",
+   "name": "영웅의 날(필리핀)",
+   "path": "/day/08-31/national-heroes-day-ph",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-12-16-simbang-gabi-ph",
+   "name": "심방가비(필리핀)",
+   "path": "/day/12-16/simbang-gabi-ph",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-02-15-total-defence-day-sg",
+   "name": "총방위의 날(싱가포르)",
+   "path": "/day/02-15/total-defence-day-sg",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-04-13-songkran-th",
+   "name": "송끄란(태국)",
+   "path": "/day/04-13/songkran-th",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-02-28-peace-memorial-day-tw",
+   "name": "228 평화기념일(대만)",
+   "path": "/day/02-28/peace-memorial-day-tw",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-08-01-indigenous-peoples-day-tw",
+   "name": "원주민족일(대만)",
+   "path": "/day/08-01/indigenous-peoples-day-tw",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-09-21-national-disaster-prevention-day-tw",
+   "name": "국가방재일(대만)",
+   "path": "/day/09-21/national-disaster-prevention-day-tw",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-02-27-vietnamese-doctors-day-vn",
+   "name": "의사의 날(베트남)",
+   "path": "/day/02-27/vietnamese-doctors-day-vn",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-03-21-marzanna-pl",
+   "name": "마르자나 보내기(폴란드)",
+   "path": "/day/03-21/marzanna-pl",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-term-chubun-cn-farmers-harvest-festival",
+   "name": "중국 농민 풍수절",
+   "path": "/day/09-23/chubun-cn-farmers-harvest-festival",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-rel-chuseok-minus1-tai-hang-fire-dragon-hk",
+   "name": "다이항 불용춤(홍콩)",
+   "path": "/day/09-24/tai-hang-fire-dragon-hk",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-fixed-08-11-mountain-day-jp",
+   "name": "산의 날(일본)",
+   "path": "/day/08-11/mountain-day",
+   "prerender_text_verified": true
+  },
+  {
+   "id": "anv-rel-ipchun-minus1-setsubun-jp",
+   "name": "세쓰분(일본)",
+   "path": "/day/02-03/setsubun",
+   "prerender_text_verified": true
+  }
+ ],
+ "rounds": [
+  {
+   "round": 1,
+   "added": 31,
+   "held": 1
+  },
+  {
+   "round": 2,
+   "added": 23,
+   "held": 4
+  },
+  {
+   "round": 3,
+   "added": 5,
+   "held": 0,
+   "batch": "held-resolution-20261013",
+   "basis": "사용자 승인(마르자나·세쓰분 대표일 본문 정책, 지역 날짜표 3키 2020~2069)"
+  }
+ ],
+ "scope_processed": 59,
+ "previous_snapshot_2026_10_13_0033": {
+  "local_added": 54,
+  "held": 5,
+  "after_total": 1810,
+  "verify": "npm run verify passed: 23 files, 191 tests",
+  "held_uids": [
+   "native:pl-topienie-marzanny",
+   "asia:cn-farmers-harvest",
+   "asia:hk-fire-dragon",
+   "asia:jp-yama-no-hi",
+   "asia:jp-setsubun"
+  ],
+  "prerender_detail_pages_checked": 54,
+  "literal_quotes_checked": 508
+ },
+ "held_resolution": {
+  "batch": "tools/research/workflow/batches/held-resolution-20261013",
+  "resolved_uids": [
+   "native:pl-topienie-marzanny",
+   "asia:cn-farmers-harvest",
+   "asia:hk-fire-dragon",
+   "asia:jp-yama-no-hi",
+   "asia:jp-setsubun"
+  ],
+  "baseline_total": 1810,
+  "baseline_records_unchanged": true,
+  "baseline_routes_unchanged": true,
+  "observances_existing_38_unchanged": true,
+  "observances_added_keys": [
+   "chubun-cn",
+   "lunar-08-14-hk",
+   "yama-no-hi-jp"
+  ],
+  "representative_date_policy": {
+   "anv-fixed-03-21-marzanna-pl": "03-21 대표 날짜, 실제 행사는 다른 날에도",
+   "anv-rel-ipchun-minus1-setsubun-jp": "02-03 대표 날짜, 정확한 날은 입춘 전날 — 실제 발생일 검증 완료로 기록하지 않음"
+  },
+  "note_fonts": "build_fonts.py 재생성 결과 바이트 동일(새 글리프 없음), og:static 6장 바이트 동일. OG_VERSION 4는 HEAD(배포) 2 이후 미배포 값이라 추가 상향 없음."
+ }
+}

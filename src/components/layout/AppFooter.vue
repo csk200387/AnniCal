@@ -12,7 +12,11 @@ const year = new Date().getFullYear()
         <nav class="footer-links" aria-label="하단 메뉴"><RouterLink to="/">오늘의 발견</RouterLink><RouterLink to="/calendar">기념일 달력</RouterLink><RouterLink to="/birthday">내 생일은?</RouterLink><RouterLink to="/together">우리의 날</RouterLink><RouterLink to="/popular">인기 순위</RouterLink><RouterLink to="/export">캘린더 연동 ↗</RouterLink></nav>
       </div>
       <div class="footer-wordmark" aria-hidden="true">every day matters.</div>
-      <div class="footer-bottom"><span>© {{ year }} ANNICAL · 기념일 도감</span><span>A LITTLE REASON TO CELEBRATE. EVERY SINGLE DAY.</span></div>
+      <div class="footer-bottom">
+        <span>© {{ year }} ANNICAL · 기념일 도감</span>
+        <span>A LITTLE REASON TO CELEBRATE. EVERY SINGLE DAY.</span>
+        <span>Contact <a href="mailto:annical.kr@gmail.com" class="hover:text-accent-600">annical.kr@gmail.com</a></span>
+      </div>
     </div>
   </footer>
 </template>

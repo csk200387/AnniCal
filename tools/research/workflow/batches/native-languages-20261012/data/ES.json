@@ -1,0 +1,125 @@
+{
+ "country": "ES",
+ "country_ko": "스페인",
+ "search_language": "es",
+ "sources": {
+  "spain-info": "Spain.info (스페인 관광청 공식 사이트)",
+  "valenciabonita": "Valencia Bonita (발렌시아 지역 매체, 2024)",
+  "eldebate-2024": "El Debate (2024, Europa Press 사진)",
+  "festivalesdeespana": "Festivales de España (축제 일정 사이트, 2026 편)"
+ },
+ "candidates": [
+  {
+   "candidate_key": "es-la-tomatina",
+   "name_original": "La Tomatina de Buñol",
+   "name_ko": "라 토마티나 — 부뇰 토마토 던지기 축제",
+   "aliases": ["Tomatina"],
+   "date_type": "annual-nth-weekday",
+   "date_rule": "08-L-WED",
+   "date_note": "8월 마지막 수요일(원문 2곳 일치). 2026-08-26, 2027-08-25, 2028-08-30",
+   "scope": "발렌시아주 부뇰 지역 축제(국제관광축제 지정)",
+   "kind": "local_festival_weird_behavior",
+   "officiality": "regional_festival",
+   "meaning_ko": "8월 마지막 수요일 발렌시아 근교 소도시 부뇰에서 트럭으로 실어 온 토마토를 서로 던지는 축제다. 1945년 거인 인형 행렬 중 젊은이들의 몸싸움이 채소 가게 토마토 투척으로 번진 것이 시작으로 전해지며, 2002년 스페인 관광청이 '국제 관광 관심 축제'로 지정했다. 전투 전에 비누칠한 장대 끝의 하몽을 따는 '팔로 하본' 놀이가 먼저 열린다.",
+   "quirk": "1950년대 금지됐을 때 주민들이 토마토를 관에 넣고 장송곡을 연주하는 '토마토 장례식' 시위를 벌였다",
+   "founder_origin": "1945년 젊은이들의 즉흥 다툼(공식 사이트 버전으로 소개됨). 기원 버전이 여럿이라 '전해진다'로 쓸 것",
+   "founder_check_level": "original_read_multiple_versions",
+   "claims": [
+    {"claim_id": "date_rule", "claim_ko": "매년 8월 마지막 수요일", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "spain-info", "quote": "El último miércoles del mes de agosto se celebra en la localidad de Buñol la Tomatina.", "quote_ko": "8월 마지막 수요일 부뇰에서 토마티나가 열린다."},
+                  {"evidence_id": "valenciabonita", "quote": "La Tomatina de Buñol se celebra el último miércoles de agosto de cada año.", "quote_ko": "부뇰의 토마티나는 매년 8월 마지막 수요일에 열린다."}]},
+    {"claim_id": "origin_1945", "claim_ko": "1945년 젊은이들의 다툼에서 시작", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "spain-info", "quote": "El origen de esta multitudinaria \"batalla” de tomates se remonta a una pelea juvenil sucedida en el año 1945", "quote_ko": "이 대규모 토마토 '전투'의 기원은 1945년 젊은이들의 다툼으로 거슬러 올라간다"}]},
+    {"claim_id": "declared_2002", "claim_ko": "2002년 국제관광관심축제 지정", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "valenciabonita", "quote": "Desde 2002 es Fiesta de Interés Turístico Internacional, declarada por la Secretaría General de Turismo.", "quote_ko": "2002년부터 관광청이 지정한 국제 관광 관심 축제다."}]},
+    {"claim_id": "continuity", "claim_ko": "매년 끊김 없이 열렸나: 관광청 '한 해도 거르지 않음' vs 지역 매체 '1950년대 금지'", "verdict": "conflicting",
+     "evidence": [{"evidence_id": "spain-info", "quote": "desde entonces, no ha dejado de celebrarse ningún año.", "quote_ko": "그 이후로 한 해도 거르지 않고 열렸다."},
+                  {"evidence_id": "valenciabonita", "quote": "La Tomatina fue prohibida a principios de los 50 (1956)", "quote_ko": "토마티나는 50년대 초(1956년)에 금지됐다"}]}
+   ],
+   "search_result_only": [
+    {"url": "https://www.americatv.com.pe/noticias/internacionales/espana-mayor-guerra-tomates-mundo-cumple-70-anos-n195343", "note": "1950~1957 금지 — 원문 미수집"}
+   ],
+   "uncertainty": "'매년 개최'와 '1950년대 금지'가 상충 — 본문에 '중단 없이'를 쓰지 말 것. 2020·2021 팬데믹 취소 여부 미확인. 이름은 음식이지만 축제/행동 항목으로 분류해야 음식 과잉을 피한다.",
+   "confidence": "high"
+  },
+  {
+   "candidate_key": "es-ribarteme-ataudes",
+   "name_original": "Romería de Santa Marta de Ribarteme",
+   "name_ko": "리바르테메 산타 마르타 순례 — 살아 있는 사람이 관에 실려 가는 행렬",
+   "aliases": ["procesión de los ataúdes", "cadaleitos"],
+   "date_type": "annual-fixed",
+   "date_rule": "07-29",
+   "date_note": "성녀 마르타 축일. 원문 2곳 모두 7월 29일",
+   "scope": "갈리시아 폰테베드라주 아스 네베스 마을(갈리시아 관광 관심 축제)",
+   "kind": "local_festival_weird_behavior",
+   "officiality": "regional_tradition",
+   "meaning_ko": "7월 29일 성녀 마르타 축일에 갈리시아 아스 네베스 마을에서 죽을 고비를 넘긴 사람들이 자기 장례식 때 입을 옷을 입고 관에 누워 가족 어깨에 실려 행렬하는 순례다. '부활한 이들의 수호성인' 마르타에게 살아남은 것을 감사하거나 치유를 비는 의미이며, 1700년 문헌이 첫 기록으로 소개된다. 최근 교구가 관 행렬을 중단시켜 주민과 갈등을 빚고 있다.",
+   "quirk": "산 사람이 자기 장례식을 미리 치르듯 관에 실려 마을을 돈다",
+   "founder_origin": "민간 신앙. 첫 문헌 기록 1700년(엘 데바테)",
+   "founder_check_level": "original_read_news",
+   "claims": [
+    {"claim_id": "date_ritual", "claim_ko": "7월 29일, 장례 옷차림으로 관에 실려 행렬", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "eldebate-2024", "quote": "los devotos, vestidos con las ropas que desean llevar en su entierro, son transportados en ataúdes en procesión, como muestra de gratitud por haber sobrevivido a una enfermedad grave.", "quote_ko": "신자들은 장례 때 입고 싶은 옷을 입고 관에 실려 행렬하며, 중병에서 살아난 데 감사를 표한다."},
+                  {"evidence_id": "eldebate-2024", "quote": "se celebra el 29 de julio y cada año atrae a miles de curiosos.", "quote_ko": "7월 29일에 열리며 해마다 수천 명의 구경꾼이 모인다."}]},
+    {"claim_id": "first_record_1700", "claim_ko": "첫 역사 기록 1700년", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "eldebate-2024", "quote": "La primera referencia histórica de esta celebración data del año 1700", "quote_ko": "이 축제의 첫 역사적 언급은 1700년이다"}]},
+    {"claim_id": "suppression", "claim_ko": "최근 주교 결정으로 관 행렬 중단, 주민 반발", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "festivalesdeespana", "quote": "La decisión episcopal ha llevado en ediciones recientes a la supresión de los ataúdes durante la procesión", "quote_ko": "주교의 결정으로 최근 행사에서는 행렬 중 관이 빠졌다"}]}
+   ],
+   "search_result_only": [
+    {"url": "https://www.articulo14.es/sociedad/las-fiestas-patronales-mas-raras-de-espana-de-muertos-que-resucitan-a-saltos-sobre-bebes-20250710.html", "note": "원문 403 — 우회 안 함, 대체 출처(El Debate) 사용"},
+    {"url": "https://scielo.pt/pdf/etn/v28n1/0873-6561-etn-28-01-25.pdf", "note": "학술 PDF — 전송 중단(IncompleteRead) 1회 재시도 후 blocked"},
+    {"url": "https://wildhunt.org/?p=2175286", "note": "사제가 '주술'이라 비판했다는 영어 기사 — 원문 미수집"}
+   ],
+   "uncertainty": "관 행렬 자체는 최근 중단 상태일 수 있다 — 등록하더라도 '현재 관 행렬은 교구 결정으로 중단'을 함께 써야 한다. 갈리시아 관광 관심 축제 지정 연도 미확인.",
+   "confidence": "medium"
+  },
+  {
+   "candidate_key": "es-el-colacho",
+   "name_original": "El Colacho (Castrillo de Murcia)",
+   "name_ko": "엘 콜라초 — 아기 뛰어넘기 축제",
+   "aliases": ["salto del Colacho"],
+   "date_type": null,
+   "date_rule": null,
+   "date_note": "성체축일(Corpus Christi) 연동 = 부활절 기준 이동일 → 규칙 미지원. 날짜 원문도 미확인",
+   "scope": "부르고스주 카스트리요 데 무르시아 마을",
+   "kind": "local_festival_weird_behavior",
+   "officiality": "regional_tradition",
+   "meaning_ko": "성체축일 무렵 붉은·노란 옷의 가면 쓴 남자가 꽃 제단 위에 눕힌 아기들을 뛰어넘어 악을 쫓는다는 마을 축제다(검색결과 요약 기준). 원문을 읽지 않아 확인 수준은 검색결과뿐이다.",
+   "quirk": "사람이 아기들 위를 뛰어넘는다",
+   "founder_origin": "미확인",
+   "founder_check_level": "search_result_only",
+   "claims": [],
+   "search_result_only": [
+    {"url": "https://www.casasrurales.net/blog?p=3329", "note": "성체축일·아기 뛰어넘기 — 원문 미수집"}
+   ],
+   "uncertainty": "원문 미독. 부활절 연동 이동일이라 날짜 표현도 불가.",
+   "rule_support": "unsupported_easter_relative",
+   "confidence": "low"
+  },
+  {
+   "candidate_key": "es-santos-inocentes",
+   "name_original": "Día de los Santos Inocentes (inocentadas)",
+   "name_ko": "산토스 이노센테스의 날 — 스페인판 만우절",
+   "aliases": ["inocentadas"],
+   "date_type": "annual-fixed",
+   "date_rule": "12-28",
+   "date_note": "기존 서비스 12-28 항목과 같은 축일",
+   "scope": "스페인·라틴아메리카",
+   "kind": "prank",
+   "officiality": "religious_feast_folk_custom",
+   "meaning_ko": "기존 '죄 없는 아기 순교자들 축일'(12-28)의 anecdote 가 이미 스페인·중남미의 장난 풍습과 가짜 기사를 다룬다. 같은 축일·같은 날의 지역 풍습이라 새 항목이 아니라 중복으로 분리했다.",
+   "quirk": "",
+   "founder_origin": "",
+   "founder_check_level": "duplicate",
+   "claims": [],
+   "search_result_only": [
+    {"url": "https://www.elcaribe.com.do/destacado/dia-de-los-santos-inocentes-origen-significado-y-por-que-se-celebra-el-28-de-diciembre/", "note": "유래 해설 — 원문 미수집(중복이라 수집 생략)"}
+   ],
+   "duplicate_of": "anv-fixed-12-28-holy-innocents-day-global",
+   "uncertainty": "",
+   "confidence": "high"
+  }
+ ],
+ "limits": "카스카모라스(바사, 9월)는 날짜가 고정 하루인지 원문 미확인이라 기록하지 않았다. 산 조르디(04-23)는 서비스에 이미 있어(anv-fixed-04-23-sant-jordi-day-es) 조사 대상에서 뺐다."
+}

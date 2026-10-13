@@ -1,0 +1,4018 @@
+{
+ "_note": "주장별 근거. path 는 repo 루트 기준 상대경로. origin_batch=원본 배치 record 의 인용(이번에 본문 대조), this_batch=이번 배치에서 새로 붙인 인용. used=본문에 쓴 주장인지.",
+ "items": {
+  "contact:rotary-peace-day": {
+   "candidate_key": "rotary-peace-day",
+   "source_record_path": "tools/research/workflow/batches/contact-expansion-20261012/records.json",
+   "sourceUrl": "https://www.rotary5340.org/Stories/rotary-s-world-understanding-and-peace-day",
+   "claims": [
+    {
+     "claim_id": "existence_date",
+     "claim_ko": "매년 2월 23일 기념한다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "rotary-peace-day/rotary5340",
+       "url": "https://www.rotary5340.org/Stories/rotary-s-world-understanding-and-peace-day",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/rotary-peace-day/rotary5340.txt",
+       "quote": "World Understanding and Peace Day is observed every year on February 23, marking a pivotal moment in history—the founding of Rotary International.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "date_reason",
+     "claim_ko": "1905년 2월 23일 시카고에서 폴 해리스가 연 첫 로터리 모임을 기린다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "rotary-peace-day/rotary5340",
+       "url": "https://www.rotary5340.org/Stories/rotary-s-world-understanding-and-peace-day",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/rotary-peace-day/rotary5340.txt",
+       "quote": "This day commemorates the very first Rotary meeting, initiated by Paul Harris in Chicago on February 23, 1905.",
+       "quote_ko": null
+      },
+      {
+       "evidence_id": "rotary-peace-day/minnesota-proclamation-1984",
+       "url": "https://www.lrl.mn.gov/archive/sos/film/pdf/35062.pdf",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/rotary-peace-day/minnesota-proclamation-1984.txt",
+       "quote": "Rotary International traces its beginnings to the organization of the first Rotary Club\non February 23. 1905: and",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "establishing_body",
+     "claim_ko": "국제로터리가 이 날을 선언했다(1984년 기록).",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "rotary-peace-day/minnesota-proclamation-1984",
+       "url": "https://www.lrl.mn.gov/archive/sos/film/pdf/35062.pdf",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/rotary-peace-day/minnesota-proclamation-1984.txt",
+       "quote": "To commemorate the birth of Rotary and its intemational activities, Rotary\nIntemational has declared February 23, 1984, to he World Understanding and Peace Day;",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "establishment_year",
+     "claim_ko": "최초 제정 연도.",
+     "verdict": "unverified",
+     "scope": "origin_batch",
+     "used": false,
+     "quotes": []
+    },
+    {
+     "claim_id": "month",
+     "claim_ko": "로터리 달력에서 2월은 세계 이해의 달이다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "rotary-peace-day/rotary7080",
+       "url": "https://rotary7080.org/stories/february-is-peace-and-conflict-prevention-resolution-month",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/rotary-peace-day/rotary7080.txt",
+       "quote": "The month of February is very special in the Rotary calendar since it is designated World Understanding Month. The month also includes the anniversary of the first meeting of Rotary held on February 23, 1905, now designated World Understanding and Peace Day…",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "harris",
+     "claim_ko": "변호사 해리스는 정치·종교 분열을 넘는 친목·봉사 모임을 구상했고 미국 밖으로 확장하며 국제로터리라는 이름을 썼다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "rotary-peace-day/rotary5340",
+       "url": "https://www.rotary5340.org/Stories/rotary-s-world-understanding-and-peace-day",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/rotary-peace-day/rotary5340.txt",
+       "quote": "Harris, an attorney, envisioned a professional group that would rise above political and religious divisions, focusing instead on fellowship and community service.",
+       "quote_ko": null
+      },
+      {
+       "evidence_id": "rotary-peace-day/rotary5340",
+       "url": "https://www.rotary5340.org/Stories/rotary-s-world-understanding-and-peace-day",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/rotary-peace-day/rotary5340.txt",
+       "quote": "This initial gathering laid the foundation for what would become Rotary International, a name adopted as the organization expanded beyond the United States to embrace a global mission.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "reminder",
+     "claim_ko": "이 날은 국가·공동체 간 평화와 상호 이해의 필요를 되새기는 날로 소개된다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": false,
+     "quotes": [
+      {
+       "evidence_id": "rotary-peace-day/rotary5340",
+       "url": "https://www.rotary5340.org/Stories/rotary-s-world-understanding-and-peace-day",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/rotary-peace-day/rotary5340.txt",
+       "quote": "serves as a reminder of the ongoing need for peace and mutual understanding among all nations and communities.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_members_1984",
+     "claim_ko": "1984년 선포문: 회원 100만 명 가까이, 클럽 2만 곳 이상",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.lrl.mn.gov/archive/sos/film/pdf/35062.pdf",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/rotary-peace-day/minnesota-proclamation-1984.txt",
+       "quote": "Rotary International now had nearly 1,000,000 Rotarians in over 20,000 Rotary clubs"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_month_title",
+     "claim_ko": "지구 자료 제목은 2월을 평화와 분쟁 예방·해결의 달로 표기",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://rotary7080.org/stories/february-is-peace-and-conflict-prevention-resolution-month",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/rotary-peace-day/rotary7080.txt",
+       "quote": "February is Peace and Conflict Prevention/Resolution Month"
+      }
+     ]
+    }
+   ]
+  },
+  "contact:world-snake-day": {
+   "candidate_key": "world-snake-day",
+   "source_record_path": "tools/research/workflow/batches/contact-expansion-20261012/records.json",
+   "sourceUrl": "https://zoo.nikolaev.ua/en/news/vsesvitnij_den_zmij8457",
+   "claims": [
+    {
+     "claim_id": "existence_date",
+     "claim_ko": "매년 7월 16일 뱀과 생태계 속 역할을 알리고 두려움을 덜기 위해 기념한다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "world-snake-day/nikolaev-zoo",
+       "url": "https://zoo.nikolaev.ua/en/news/vsesvitnij_den_zmij8457",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/world-snake-day/nikolaev-zoo.txt",
+       "quote": "World Snake Day is celebrated annually on July 16. The purpose of this day is to raise awareness of snakes and their role in the ecosystem, to help people learn more about these reptiles, to draw attention to these extraordinary creatures and to dispel fears associated with them.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "delhi_2023",
+     "claim_ko": "2023년 7월 16일 뉴델리 국립동물공원이 세계 뱀의 날 행사를 열었다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "world-snake-day/newsonair-delhi-zoo",
+       "url": "https://www.newsonair.gov.in/national-zoological-park-in-new-delhi-celebrates-world-snake-day/",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/world-snake-day/newsonair-delhi-zoo.txt",
+       "quote": "July 16, 2023 9:03 PM | National Zoological Park in New Delhi celebrates World Snake Day",
+       "quote_ko": null
+      },
+      {
+       "evidence_id": "world-snake-day/newsonair-delhi-zoo",
+       "url": "https://www.newsonair.gov.in/national-zoological-park-in-new-delhi-celebrates-world-snake-day/",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/world-snake-day/newsonair-delhi-zoo.txt",
+       "quote": "The purpose of World Snake Day celebration is to protect snakes by raising awareness about snakes of India, and importance of snakes in the ecosystem.",
+       "quote_ko": null
+      },
+      {
+       "evidence_id": "world-snake-day/newsonair-delhi-zoo",
+       "url": "https://www.newsonair.gov.in/national-zoological-park-in-new-delhi-celebrates-world-snake-day/",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/world-snake-day/newsonair-delhi-zoo.txt",
+       "quote": "A reptile house walk was also conducted and visitors interacted with the snake keepers.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "fear",
+     "claim_ko": "대부분 사람에게 위험하지 않은데도 두려움 때문에 죽임을 당한다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "world-snake-day/nikolaev-zoo",
+       "url": "https://zoo.nikolaev.ua/en/news/vsesvitnij_den_zmij8457",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/world-snake-day/nikolaev-zoo.txt",
+       "quote": "Unfortunately, snakes are very often killed out of fear, although most species are not dangerous to humans.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "establishing_body",
+     "claim_ko": "제정 주체.",
+     "verdict": "unverified",
+     "scope": "origin_batch",
+     "used": false,
+     "quotes": []
+    },
+    {
+     "claim_id": "establishment_year",
+     "claim_ko": "제정 연도.",
+     "verdict": "unverified",
+     "scope": "origin_batch",
+     "used": false,
+     "quotes": []
+    }
+   ]
+  },
+  "contact:myanmar-martyrs-day": {
+   "candidate_key": "myanmar-martyrs-day",
+   "source_record_path": "tools/research/workflow/batches/contact-expansion-20261012/records.json",
+   "sourceUrl": "https://www.news4jax.com/news/world/2024/07/19/strife-torn-myanmar-marks-77th-anniversary-of-the-assassination-of-independence-hero-gen-aung-san/",
+   "claims": [
+    {
+     "claim_id": "existence_date",
+     "claim_ko": "미얀마는 매년 순국자의 날을 기념하며, 1947년 7월 19일 내각 회의 중 아웅산 등 9명이 암살된 일을 기린다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "myanmar-martyrs-day/aljazeera-2013",
+       "url": "https://www.aljazeera.com/news/2013/7/19/myanmar-honours-slain-democracy-activists",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/aljazeera-2013.txt",
+       "quote": "Myanmar has marked its annual Martyr’s Day in Yangon",
+       "quote_ko": null
+      },
+      {
+       "evidence_id": "myanmar-martyrs-day/aljazeera-2013",
+       "url": "https://www.aljazeera.com/news/2013/7/19/myanmar-honours-slain-democracy-activists",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/aljazeera-2013.txt",
+       "quote": "to mark the moment at 10:37am when General Aung San and eight others were assassinated at a Cabinet meeting on July 19, 1947.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "victims",
+     "claim_ko": "아웅산은 32세였고 각료 6명, 관리 2명과 함께 숨졌으며, 사후 6개월이 안 돼 독립이 이뤄졌다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "myanmar-martyrs-day/ap-news4jax-2024",
+       "url": "https://www.news4jax.com/news/world/2024/07/19/strife-torn-myanmar-marks-77th-anniversary-of-the-assassination-of-independence-hero-gen-aung-san/",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/ap-news4jax-2024.txt",
+       "quote": "Aung San, who led the independence struggle against Britain, was 32 years old when he was gunned down along with six Cabinet ministers and two other officials 77 years ago. He is considered the architect of Myanmar’s independence from Britain, which was achieved less than six months after his death.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "u_saw",
+     "claim_ko": "정적 우 소 전 총리가 모의 혐의로 재판받고 교수형에 처해졌다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "myanmar-martyrs-day/ap-news4jax-2024",
+       "url": "https://www.news4jax.com/news/world/2024/07/19/strife-torn-myanmar-marks-77th-anniversary-of-the-assassination-of-independence-hero-gen-aung-san/",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/ap-news4jax-2024.txt",
+       "quote": "A political rival, former Prime Minister U Saw, was tried and hanged for plotting the attack.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "ritual",
+     "claim_ko": "사건 시각 10시 37분에 사이렌·경적이 울리고, 쉐다곤 파고다 근처 순국자 묘역에서 주요 추모식이 열린다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "myanmar-martyrs-day/ap-news4jax-2024",
+       "url": "https://www.news4jax.com/news/world/2024/07/19/strife-torn-myanmar-marks-77th-anniversary-of-the-assassination-of-independence-hero-gen-aung-san/",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/ap-news4jax-2024.txt",
+       "quote": "In Yangon, neighborhoods heard wailing sirens and car horns bellowed out for one minute at 10:37 a.m., the time of the 1947 attack.",
+       "quote_ko": null
+      },
+      {
+       "evidence_id": "myanmar-martyrs-day/ap-news4jax-2024",
+       "url": "https://www.news4jax.com/news/world/2024/07/19/strife-torn-myanmar-marks-77th-anniversary-of-the-assassination-of-independence-hero-gen-aung-san/",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/ap-news4jax-2024.txt",
+       "quote": "main ceremony at the Martyrs’ Mausoleum near the foot of the towering Shwedagon Pagoda in Yangon.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "siren_history",
+     "claim_ko": "국영 라디오의 추모 사이렌은 군정 시기 오랫동안 중단됐고, 2013년 시민들이 휴대전화 사이렌 소리로 대신했다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "myanmar-martyrs-day/aljazeera-2013",
+       "url": "https://www.aljazeera.com/news/2013/7/19/myanmar-honours-slain-democracy-activists",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/aljazeera-2013.txt",
+       "quote": "State-owned radio stations used to broadcast sirens in Aung San’s honour but the custom was stopped for many years",
+       "quote_ko": null
+      },
+      {
+       "evidence_id": "myanmar-martyrs-day/aljazeera-2013",
+       "url": "https://www.aljazeera.com/news/2013/7/19/myanmar-honours-slain-democracy-activists",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/aljazeera-2013.txt",
+       "quote": "many people played siren-like ring tones downloaded to their mobile phones",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "suu_kyi",
+     "claim_ko": "아웅산은 아웅산 수치의 아버지다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "myanmar-martyrs-day/ap-news4jax-2024",
+       "url": "https://www.news4jax.com/news/world/2024/07/19/strife-torn-myanmar-marks-77th-anniversary-of-the-assassination-of-independence-hero-gen-aung-san/",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/ap-news4jax-2024.txt",
+       "quote": "including Gen. Aung San, the father of the country’s ousted leader, Aung San Suu Kyi.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "establishment_year",
+     "claim_ko": "국가 추모일 지정 연도·법령.",
+     "verdict": "unverified",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": []
+    },
+    {
+     "claim_id": "pe_lower_profile",
+     "claim_ko": "2021년 군부 장악 이후 묘역 추모식 위상 하락",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.news4jax.com/news/world/2024/07/19/strife-torn-myanmar-marks-77th-anniversary-of-the-assassination-of-independence-hero-gen-aung-san/",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/ap-news4jax-2024.txt",
+       "quote": "the main ceremony at the mausoleum has had a lower profile since the 2021 military takeover."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_2024_absent",
+     "claim_ko": "2024년 수치·민아웅흘라잉 모두 불참",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.news4jax.com/news/world/2024/07/19/strife-torn-myanmar-marks-77th-anniversary-of-the-assassination-of-independence-hero-gen-aung-san/",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/ap-news4jax-2024.txt",
+       "quote": "Neither Suu Kyi, who is imprisoned, nor Senior Gen. Min Aung Hlaing, the current head of the army-led government, attended this year’s main ceremony"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_brother_wreath",
+     "claim_ko": "수치의 오빠 아웅산우 헌화",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.news4jax.com/news/world/2024/07/19/strife-torn-myanmar-marks-77th-anniversary-of-the-assassination-of-independence-hero-gen-aung-san/",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/ap-news4jax-2024.txt",
+       "quote": "Aung San Oo, laid a wreath in front of their father’s tomb"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_2013_rejected",
+     "claim_ko": "2013년 정부가 교통사고 우려로 전국 사이렌 재개 거부",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.aljazeera.com/news/2013/7/19/myanmar-honours-slain-democracy-activists",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/myanmar-martyrs-day/aljazeera-2013.txt",
+       "quote": "the government rejected the idea saying it could cause traffic accidents."
+      }
+     ]
+    }
+   ]
+  },
+  "contact:ukraine-independence-day": {
+   "candidate_key": "ukraine-independence-day",
+   "source_record_path": "tools/research/workflow/batches/contact-expansion-20261012/records.json",
+   "sourceUrl": "https://global.espreso.tv/ukraine-celebrates-independence-day-national-holidays-history",
+   "claims": [
+    {
+     "claim_id": "existence_date",
+     "claim_ko": "1992년 2월 20일 최고라다 결의로 8월 24일을 독립기념일로 정해 매년 국가 공휴일로 기념한다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "ukraine-independence-day/espreso-holidays",
+       "url": "https://global.espreso.tv/ukraine-celebrates-independence-day-national-holidays-history",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/espreso-holidays.txt",
+       "quote": "On February 20, 1992, the Verkhovna Rada of Ukraine adopted a resolution \"On the Independence Day of Ukraine\":",
+       "quote_ko": null
+      },
+      {
+       "evidence_id": "ukraine-independence-day/espreso-holidays",
+       "url": "https://global.espreso.tv/ukraine-celebrates-independence-day-national-holidays-history",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/espreso-holidays.txt",
+       "quote": "1. To consider August 24 as the Independence Day of Ukraine and celebrate it annually as a public national holiday of Ukraine.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "act",
+     "claim_ko": "1991년 8월 24일 최고라다가 독립 선포법을 채택했고 12월 1일 국민투표로 확인됐다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "ukraine-independence-day/espreso-holidays",
+       "url": "https://global.espreso.tv/ukraine-celebrates-independence-day-national-holidays-history",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/espreso-holidays.txt",
+       "quote": "On August 24, 1991, the Verkhovna Rada of the Ukrainian SSR adopted the Act of Proclamation of Independence of Ukraine, and on December 1, 1991, it was confirmed by the people at the All-Ukrainian referendum.",
+       "quote_ko": null
+      },
+      {
+       "evidence_id": "ukraine-independence-day/enrs",
+       "url": "https://enrs.eu/news/independence-day-of-ukraine",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/enrs.txt",
+       "quote": "Ukrainian Independence Day on 24 August commemorates the announcement of the Act of Declaration of Independence in 1991.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "july16",
+     "claim_ko": "처음에는 1990년 7월 16일 주권선언에 맞춰 7월 16일을 기념일로 정했으나 1992년 결의로 폐지됐다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "ukraine-independence-day/espreso-holidays",
+       "url": "https://global.espreso.tv/ukraine-celebrates-independence-day-national-holidays-history",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/espreso-holidays.txt",
+       "quote": "On the same day, the parliament decided that the Independence Day of Ukraine will be celebrated on July 16.",
+       "quote_ko": null
+      },
+      {
+       "evidence_id": "ukraine-independence-day/espreso-holidays",
+       "url": "https://global.espreso.tv/ukraine-celebrates-independence-day-national-holidays-history",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/espreso-holidays.txt",
+       "quote": "2. The resolution of the Verkhovna Rada of the Ukrainian SSR \"On the Day of Proclamation of Independence of Ukraine\" dated July 16, 1990 shall be considered as having lost its validity.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "coup",
+     "claim_ko": "선포법은 실패한 모스크바 쿠데타 직후 채택됐고 영토가 나눌 수 없고 불가침이라 규정했다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "ukraine-independence-day/msu-soviethistory-act",
+       "url": "https://soviethistory.msu.edu/1991/ukrainian-independence/ukrainian-independence-texts/ukrainian-rada-declares-independence/",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/msu-soviethistory-act.txt",
+       "quote": "Adopted on August 24, 1991, in the wake of the failed Moscow coup,",
+       "quote_ko": null
+      },
+      {
+       "evidence_id": "ukraine-independence-day/enrs",
+       "url": "https://enrs.eu/news/independence-day-of-ukraine",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/enrs.txt",
+       "quote": "The territory of Ukraine is indivisible and inviolable.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "martial_law",
+     "claim_ko": "2022년에는 계엄령으로 추가 휴무가 없었다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "ukraine-independence-day/espreso-holidays",
+       "url": "https://global.espreso.tv/ukraine-celebrates-independence-day-national-holidays-history",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/espreso-holidays.txt",
+       "quote": "In 2022, due to martial law, Ukrainians will not have an additional day off on Independence Day.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_1755",
+     "claim_ko": "선포법 채택 시각 17시 55분",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://enrs.eu/news/independence-day-of-ukraine",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/enrs.txt",
+       "quote": "On August 24, 1991 at 17:55 the Verkhovna Rada of Ukraine accepted"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_labor_code_1991",
+     "claim_ko": "1991-06-18 노동법 공휴일 목록에 7월 16일 독립기념일",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://global.espreso.tv/ukraine-celebrates-independence-day-national-holidays-history",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/espreso-holidays.txt",
+       "quote": "On June 18, 1991, appropriate changes were made to Article 73 of the Labor Code of the Ukrainian SSR"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_first_1992",
+     "claim_ko": "1992년부터 공식 기념",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://global.espreso.tv/ukraine-celebrates-independence-day-national-holidays-history",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/ukraine-independence-day/espreso-holidays.txt",
+       "quote": "Independence Day was officially celebrated in 1992."
+      }
+     ]
+    }
+   ]
+  },
+  "contact:pluto-demoted-day": {
+   "candidate_key": "pluto-demoted-day",
+   "source_record_path": "tools/research/workflow/batches/contact-expansion-20261012/records.json",
+   "sourceUrl": "https://www.syfy.com/syfy-wire/pluto-demoted-day-13-years-later-do-we-want-our-former-ninth-planet-back",
+   "claims": [
+    {
+     "claim_id": "existence_date",
+     "claim_ko": "매년 8월 24일, 2006년 IAU의 명왕성 재분류를 기념한다.",
+     "verdict": "supported_secondary",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "pluto-demoted-day/nationaltoday",
+       "url": "https://nationaltoday.com/pluto-demoted-day/",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/pluto-demoted-day/nationaltoday.txt",
+       "quote": "Every August 24",
+       "quote_ko": null
+      },
+      {
+       "evidence_id": "pluto-demoted-day/nationaltoday",
+       "url": "https://nationaltoday.com/pluto-demoted-day/",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/pluto-demoted-day/nationaltoday.txt",
+       "quote": "Pluto Demoted Day on August 24 commemorates the 2006 decision by the International Astronomical Union to reclassify Pluto as a dwarf planet.",
+       "quote_ko": null
+      },
+      {
+       "evidence_id": "pluto-demoted-day/syfy-2019",
+       "url": "https://www.syfy.com/syfy-wire/pluto-demoted-day-13-years-later-do-we-want-our-former-ninth-planet-back",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/pluto-demoted-day/syfy-2019.txt",
+       "quote": "Pluto never actually got kicked out of the solar system, but on this day in 2006, the International Astronomical Union decided to take away its planet status.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "iau_event",
+     "claim_ko": "2006년 8월 24일 프라하 IAU 총회에서 행성 정의 결의가 통과돼 태양계 행성은 8개가 됐다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "pluto-demoted-day/iauarchive-eso-iau0603",
+       "url": "https://iauarchive.eso.org/news/pressreleases/detail/iau0603/",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/pluto-demoted-day/iauarchive-eso-iau0603.txt",
+       "quote": "24 August 2006, Prague",
+       "quote_ko": null
+      },
+      {
+       "evidence_id": "pluto-demoted-day/iauarchive-eso-iau0603",
+       "url": "https://iauarchive.eso.org/news/pressreleases/detail/iau0603/",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/pluto-demoted-day/iauarchive-eso-iau0603.txt",
+       "quote": "This means that the Solar System consists of eight \"planets\" Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "vote",
+     "claim_ko": "결의 6A는 찬성 237, 반대 157, 기권 17로 통과됐다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "pluto-demoted-day/iauarchive-eso-iau0603",
+       "url": "https://iauarchive.eso.org/news/pressreleases/detail/iau0603/",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/pluto-demoted-day/iauarchive-eso-iau0603.txt",
+       "quote": "Resolution 6A: \"Definition of Pluto-class objects\" was passed with 237 votes in favour, 157 against and 17 abstentions.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "dwarf",
+     "claim_ko": "첫 왜소행성은 세레스·명왕성·2003 UB313이며, 왜소행성은 궤도 주변을 정리하지 못한 천체다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "pluto-demoted-day/iauarchive-eso-iau0603",
+       "url": "https://iauarchive.eso.org/news/pressreleases/detail/iau0603/",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/pluto-demoted-day/iauarchive-eso-iau0603.txt",
+       "quote": "The first members of the \"dwarf planet\" category are Ceres, Pluto and 2003 UB313 (temporary name).",
+       "quote_ko": null
+      },
+      {
+       "evidence_id": "pluto-demoted-day/iauarchive-eso-iau0603",
+       "url": "https://iauarchive.eso.org/news/pressreleases/detail/iau0603/",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/pluto-demoted-day/iauarchive-eso-iau0603.txt",
+       "quote": "(c) has not cleared the neighbourhood around its orbit",
+       "quote_ko": null
+      },
+      {
+       "evidence_id": "pluto-demoted-day/iauarchive-eso-iau0603",
+       "url": "https://iauarchive.eso.org/news/pressreleases/detail/iau0603/",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/pluto-demoted-day/iauarchive-eso-iau0603.txt",
+       "quote": "Pluto is a \"dwarf planet\" by the above definition and is recognized as the prototype of a new category of trans-Neptunian objects.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "establishing_body",
+     "claim_ko": "기념일 제정 주체·연도.",
+     "verdict": "unverified",
+     "scope": "origin_batch",
+     "used": false,
+     "quotes": []
+    },
+    {
+     "claim_id": "pe_eris",
+     "claim_ko": "왜소행성 분류에 세레스·에리스 포함(사이파이)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.syfy.com/syfy-wire/pluto-demoted-day-13-years-later-do-we-want-our-former-ninth-planet-back",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/pluto-demoted-day/syfy-2019.txt",
+       "quote": "which also included Ceres and Eris"
+      }
+     ]
+    }
+   ]
+  },
+  "contact:overdose-awareness-day": {
+   "candidate_key": "overdose-awareness-day",
+   "source_record_path": "tools/research/workflow/batches/contact-expansion-20261012/records.json",
+   "sourceUrl": "https://www.overdoseday.com/about/",
+   "claims": [
+    {
+     "claim_id": "existence_date",
+     "claim_ko": "매년 8월 31일 열린다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "overdose-awareness-day/penington",
+       "url": "https://www.penington.org.au/overdose/overdose-projects-campaigns/international-overdose-awareness-day/",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/overdose-awareness-day/penington.txt",
+       "quote": "Every August 31, International Overdose Awareness Day (IOAD) unites a global community to take action on overdose.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "origin_2001",
+     "claim_ko": "2001년 멜버른 구세군 주사기 교환소의 바비큐 모임에서 시작됐다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "overdose-awareness-day/penington",
+       "url": "https://www.penington.org.au/overdose/overdose-projects-campaigns/international-overdose-awareness-day/",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/overdose-awareness-day/penington.txt",
+       "quote": "International Overdose Awareness Day started in 2001 as a BBQ and social gathering of local people impacted by overdose at The Salvation Army needle exchange in Melbourne, Australia.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "penington",
+     "claim_ko": "2012년부터 페닝턴 연구소가 이끌며 세계적 행동의 날로 키웠다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "overdose-awareness-day/penington",
+       "url": "https://www.penington.org.au/overdose/overdose-projects-campaigns/international-overdose-awareness-day/",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/overdose-awareness-day/penington.txt",
+       "quote": "Since 2012, Penington Institute has been quietly leading International Overdose Awareness Day, transforming a single event into a global day of action.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "activities",
+     "claim_ko": "추모·교육·근거 기반 예방책 모색, 예방을 추모와 함께 핵심 목표로 채택.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "overdose-awareness-day/penington",
+       "url": "https://www.penington.org.au/overdose/overdose-projects-campaigns/international-overdose-awareness-day/",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/overdose-awareness-day/penington.txt",
+       "quote": "Through events – both in person and online – communities honour lives lost, educate their families, friends and peers and explore evidence-based overdose prevention solutions.",
+       "quote_ko": null
+      },
+      {
+       "evidence_id": "overdose-awareness-day/ioad-about",
+       "url": "https://www.overdoseday.com/about/",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/overdose-awareness-day/ioad-about.txt",
+       "quote": "IOAD adopts overdose prevention as a core campaign ambition, alongside remembrance.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "scale",
+     "claim_ko": "2026년 25주년, 매년 40개국 이상 1,000건 이상의 행사.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "overdose-awareness-day/ioad-about",
+       "url": "https://www.overdoseday.com/about/",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/overdose-awareness-day/ioad-about.txt",
+       "quote": "In 2026, IOAD reaches its 25th year anniversary of sparking conversations about overdose and driving life-saving action. Thousands of voices, 1,000+ events, 40+ countries now join the campaign every year.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "founder_person",
+     "claim_ko": "창시 개인(Sally J. Finn 등) — 자료마다 다름.",
+     "verdict": "unverified",
+     "scope": "origin_batch",
+     "used": false,
+     "quotes": []
+    },
+    {
+     "claim_id": "date_reason",
+     "claim_ko": "8월 31일을 고른 이유.",
+     "verdict": "unverified",
+     "scope": "origin_batch",
+     "used": false,
+     "quotes": []
+    },
+    {
+     "claim_id": "pe_taboo",
+     "claim_ko": "금기인 과다복용을 열린 대화로 다룸",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.penington.org.au/overdose/overdose-projects-campaigns/international-overdose-awareness-day/",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/overdose-awareness-day/penington.txt",
+       "quote": "IOAD confronts the taboo subject of overdose with open and honest discussion"
+      }
+     ]
+    }
+   ]
+  },
+  "contact:african-descent-day": {
+   "candidate_key": "african-descent-day",
+   "source_record_path": "tools/research/workflow/batches/contact-expansion-20261012/records.json",
+   "sourceUrl": "https://www.un.org/en/observances/african-descent-day",
+   "claims": [
+    {
+     "claim_id": "existence_date",
+     "claim_ko": "UN 총회가 8월 31일을 국제 아프리카계 사람들의 날로 선포했다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "african-descent-day/a-res-75-170-pdf",
+       "url": "https://documents.un.org/api/symbol/access?s=A/RES/75/170&l=en&t=pdf",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/african-descent-day/a-res-75-170-pdf.txt",
+       "quote": "1. Decides to proclaim 31 August as the International Day for People of\nAfrican Descent, in order to promote greater recognition and respect for the diverse\nheritage, culture and contribution of people of African descent to the development of\nsocieties, and to promote respect for human rights and fundamental freedoms of\npeople of African descent;",
+       "quote_ko": null
+      },
+      {
+       "evidence_id": "african-descent-day/un-observance",
+       "url": "https://www.un.org/en/observances/african-descent-day",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/african-descent-day/un-observance.txt",
+       "quote": "International Day for People of African Descent\n31 August",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "adoption",
+     "claim_ko": "결의는 2020년 12월 16일 채택됐다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "african-descent-day/a-res-75-170-pdf",
+       "url": "https://documents.un.org/api/symbol/access?s=A/RES/75/170&l=en&t=pdf",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/african-descent-day/a-res-75-170-pdf.txt",
+       "quote": "Resolution adopted by the General Assembly\non 16 December 2020",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "date_reason",
+     "claim_ko": "1920년 8월 31일 뉴욕에서 제1회 세계 흑인 민족 국제대회가 끝나고 마커스 가비가 이끈 논의로 권리 선언이 공포됐다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "african-descent-day/a-res-75-170-pdf",
+       "url": "https://documents.un.org/api/symbol/access?s=A/RES/75/170&l=en&t=pdf",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/african-descent-day/a-res-75-170-pdf.txt",
+       "quote": "Recalling that, on 31 August 1920, the first International Convention o f the\nNegro Peoples of the World ended in New York, and as a result of the discussions led\nby Marcus Garvey, the Declaration of Rights of the Negro Peoples of the World was\npromulgated,",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "theme_2026",
+     "claim_ko": "2026년 주제와 제2차 국제 10년(2025~2034).",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "african-descent-day/un-observance",
+       "url": "https://www.un.org/en/observances/african-descent-day",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/african-descent-day/un-observance.txt",
+       "quote": "The 2026 International Day for People of African Descent is being observed under the theme “Expanding the Human Rights of People of African Descent” within the framework of the Second International Decade for People of African Descent (2025–2034).",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "first_observance",
+     "claim_ko": "첫 기념(2021년)·결의 주도국(코스타리카).",
+     "verdict": "unverified",
+     "scope": "origin_batch",
+     "used": false,
+     "quotes": []
+    },
+    {
+     "claim_id": "pe_decade_end",
+     "claim_ko": "첫 국제 10년은 2024년 종료",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.un.org/en/observances/african-descent-day",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/african-descent-day/un-observance.txt",
+       "quote": "The year 2024 marked the conclusion of the International Decade"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_2026_topics",
+     "claim_ko": "2026 논의: 문화재 반환 배상적 정의·청년 인권·더반 25주년",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.un.org/en/observances/african-descent-day",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/african-descent-day/un-observance.txt",
+       "quote": "This year's discussions examine reparatory justice through the return of cultural artefacts, the human rights situation of youth of African descent, and the 25th anniversary of the Durban Declaration and Programme of Action"
+      }
+     ]
+    }
+   ]
+  },
+  "contact:korea-film-day": {
+   "candidate_key": "korea-film-day",
+   "source_record_path": "tools/research/workflow/batches/contact-expansion-20261012/records.json",
+   "sourceUrl": "https://theme.archives.go.kr/next/koreaOfRecord/Dansungsa.do",
+   "claims": [
+    {
+     "claim_id": "existence_date",
+     "claim_ko": "1919년 10월 27일 의리적 구토 개봉을 기념해 매년 10월 27일을 영화의 날로 제정했다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "korea-film-day/archives-dansungsa",
+       "url": "https://theme.archives.go.kr/next/koreaOfRecord/Dansungsa.do",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/archives-dansungsa.txt",
+       "quote": "한편, 최초의 한국 영화 ‘의리적 구토’가 단성사에서 처음 개봉된 1919년 10월 27일을 기념하여 이후 매년 10월 27일을 ‘영화의 날’로 제정하였다.",
+       "quote_ko": null
+      },
+      {
+       "evidence_id": "korea-film-day/jjan-2023",
+       "url": "https://www.jjan.kr/article/20231020580031",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/jjan-2023.txt",
+       "quote": "이 날이 '영화의 날'이 된 이유는 1919년 10월 27일에 한국 최초의 영화 <의리적 구토>가 <단성사>란 극장에서 상영되었기 때문이다.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "film",
+     "claim_ko": "한국인이 국내 자본으로 만든 첫 영화로, 김도산 극본·연출의 연쇄극이었다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "korea-film-day/archives-dansungsa",
+       "url": "https://theme.archives.go.kr/next/koreaOfRecord/Dansungsa.do",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/archives-dansungsa.txt",
+       "quote": "1919년 10월 27일 단성사는 최초로 한국인에 의해 국내 자본으로 만들어진 '의리적 구토'를 상영했다. 김도산 극본·연출의 이 영화는 연극에 영화 장면을 삽입한 ‘연쇄극’ 형태인데",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "box_office",
+     "claim_ko": "연극보다 비싼 입장료에도 10만 관객이 들었다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "korea-film-day/archives-dansungsa",
+       "url": "https://theme.archives.go.kr/next/koreaOfRecord/Dansungsa.do",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/archives-dansungsa.txt",
+       "quote": "연극 관람료가 40전 하던 것에 비하면 비싼 가격이었음에도 10만 관객이 들 정도로 흥행에 성공하였다.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "dispute",
+     "claim_ko": "연쇄극이라 최초 영화로 보기 어렵다는 시각과 같은 날 먼저 상영된 경성전시의 경을 최초로 봐야 한다는 주장이 있다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "korea-film-day/jjan-2023",
+       "url": "https://www.jjan.kr/article/20231020580031",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/jjan-2023.txt",
+       "quote": "하지만 <의리적 구토>란 작품은 연극 공연 사이에 보여지는 연쇄극 형태의 영화이기 때문에 최초의 한국영화로 보기에는 다소 무리가 있으며 오히려 같은 날 <의리적 구토>에 앞서 먼저 상영된 <경성전시의 경>이 최초의 한국영화여야 한다는 주장들이 있다.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "event_2024",
+     "claim_ko": "2024년 한국영화인총연합회·영화진흥위원회가 105주년 영화의 날 기념 세미나·시상식을 열었다(행사일 10월 30일).",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "korea-film-day/seoul-2024-award",
+       "url": "https://m.go.seoul.co.kr/news/2024/11/01/20241101500084",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/seoul-2024-award.txt",
+       "quote": "(사)한국영화인총연합회(이사장 양윤호), 영화진흥위원회(위원장 한상준)가 공동 주최한 ‘한국영화 105주년 영화의 날 기념 세미나 & 시상식’",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "centenary",
+     "claim_ko": "2019년이 100번째 영화의 생일이었다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "korea-film-day/weeklykhan-2019-stamp",
+       "url": "https://weekly.khan.co.kr/article/201910251752371",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/weeklykhan-2019-stamp.txt",
+       "quote": "10월 27일은 영화의 생일이다. 그것도 100번째다.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "establishment",
+     "claim_ko": "제정 주체·연도(1963년설).",
+     "verdict": "unverified",
+     "scope": "origin_batch",
+     "used": false,
+     "quotes": []
+    },
+    {
+     "claim_id": "pe_outdoor_scenes",
+     "claim_ko": "한강철교·장충단 등 익숙한 야외 장면 삽입",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://theme.archives.go.kr/next/koreaOfRecord/Dansungsa.do",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/archives-dansungsa.txt",
+       "quote": "한강철교, 장충단, 청량리, 남대문정거장, 노량진 등 사람들에게 익숙한 공간의 야외 장면들이 삽입되는 연출이 큰 흥미를 불러일으켰다"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_1918_cinema",
+     "claim_ko": "1918년 박승필 인수 후 최초의 상설영화관",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://theme.archives.go.kr/next/koreaOfRecord/Dansungsa.do",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/archives-dansungsa.txt",
+       "quote": "이때부터 최초의 상설영화관으로 바뀌게 되었다"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_stamp_2019",
+     "claim_ko": "2019 한국영화 100년 기념우표",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://weekly.khan.co.kr/article/201910251752371",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/korea-film-day/weeklykhan-2019-stamp.txt",
+       "quote": "우정사업본부는 10월 25일 한국영화 탄생 100년을 맞아 기념우표 1종 총 82만장을 발행했다."
+      }
+     ]
+    }
+   ]
+  },
+  "contact:india-constitution-day": {
+   "candidate_key": "india-constitution-day",
+   "source_record_path": "tools/research/workflow/batches/contact-expansion-20261012/records.json",
+   "sourceUrl": "https://embassyofindiabamako.gov.in/news_detail/?newsid=76",
+   "claims": [
+    {
+     "claim_id": "existence_date",
+     "claim_ko": "인도 정부가 1949년 헌법 채택일인 11월 26일을 매년 헌법의 날로 지키기로 했다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "india-constitution-day/embassy-bamako",
+       "url": "https://embassyofindiabamako.gov.in/news_detail/?newsid=76",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/india-constitution-day/embassy-bamako.txt",
+       "quote": "Government of India declares 26th day of November each year as Constitution Day.",
+       "quote_ko": null
+      },
+      {
+       "evidence_id": "india-constitution-day/embassy-bamako",
+       "url": "https://embassyofindiabamako.gov.in/news_detail/?newsid=76",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/india-constitution-day/embassy-bamako.txt",
+       "quote": "This was the day when the Constitution of India was adopted in 1949.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "notification",
+     "claim_ko": "2015년 11월 19일 사회정의·권한강화부 관보 고시.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "india-constitution-day/embassy-bamako",
+       "url": "https://embassyofindiabamako.gov.in/news_detail/?newsid=76",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/india-constitution-day/embassy-bamako.txt",
+       "quote": "Please refer to Gazette Notification No. F.No. 19022/11/2015.VI (E) dated November 19, 2015 notified by the Ministry of Social Justice and Empowerment, Government of India.",
+       "quote_ko": null
+      },
+      {
+       "evidence_id": "india-constitution-day/barandbench-2015",
+       "url": "https://www.barandbench.com/news/november-26-to-be-celebrated-as-constitution-day",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/india-constitution-day/barandbench-2015.txt",
+       "quote": "The Ministry of Social Justice and Empowerment has published a gazette notification declaring November 26 as Constitution Day.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "law_day",
+     "claim_ko": "이전에는 같은 날을 법의 날로 기념했다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "india-constitution-day/barandbench-2015",
+       "url": "https://www.barandbench.com/news/november-26-to-be-celebrated-as-constitution-day",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/india-constitution-day/barandbench-2015.txt",
+       "quote": "Until this year, the same day has been celebrated as Law Day, to commemorate the adoption of the Constitution of India by the Constituent Assembly.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "hindi_name",
+     "claim_ko": "힌디어 명칭 Samvidhan Divas.",
+     "verdict": "unverified",
+     "scope": "origin_batch",
+     "used": false,
+     "quotes": []
+    }
+   ]
+  },
+  "contact:goa-liberation-day": {
+   "candidate_key": "goa-liberation-day",
+   "source_record_path": "tools/research/workflow/batches/contact-expansion-20261012/records.json",
+   "sourceUrl": "https://dip.goa.gov.in/cm-extends-greetings-on-goa-liberation-day/",
+   "claims": [
+    {
+     "claim_id": "existence_date",
+     "claim_ko": "고아는 1961년 12월 19일 450년의 포르투갈 통치에서 벗어났고, 주정부는 이를 해방의 날로 기념한다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "goa-liberation-day/dip-cm-greetings",
+       "url": "https://dip.goa.gov.in/cm-extends-greetings-on-goa-liberation-day/",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/goa-liberation-day/dip-cm-greetings.txt",
+       "quote": "Chief Minister Dr. Pramod Sawant has extended his whole-hearted greetings and good wishes to the people of Goa on the historic occasion of Liberation Day of the beautiful State of Goa, which attained freedom from 450 years of Portuguese rule on December 19, 1961.",
+       "quote_ko": null
+      },
+      {
+       "evidence_id": "goa-liberation-day/governor-2025-pdf",
+       "url": "https://www.goa.gov.in/wp-content/uploads/2025/12/GOVERNOR-GREETS-PEOPLE.pdf",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/goa-liberation-day/governor-2025-pdf.txt",
+       "quote": "19 December 1961 is the most significant day in\nGoan history, marking the liberation of Goa from Portuguese rule and its integration\ninto the Indian Union.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "date_rule",
+     "claim_ko": "2026년 고아주 공휴일 목록에 12월 19일 고아 해방의 날이 있다(관보 인용 2차 자료).",
+     "verdict": "supported_secondary",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "goa-liberation-day/thecurrentindia-2026",
+       "url": "https://www.thecurrentindia.com/?p=21310",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/goa-liberation-day/thecurrentindia-2026.txt",
+       "quote": "The Government of Goa has officially released its list of public holidays for 2026 through the Goa Gazette (Series II No. 28, dated 9 October 2025).",
+       "quote_ko": null
+      },
+      {
+       "evidence_id": "goa-liberation-day/thecurrentindia-2026",
+       "url": "https://www.thecurrentindia.com/?p=21310",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/goa-liberation-day/thecurrentindia-2026.txt",
+       "quote": "Goa Liberation Day\n19 Dec 2026",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "vijay",
+     "claim_ko": "1961년 12월 비자이 작전, 36시간 만에 끝났다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "goa-liberation-day/governor-2025-pdf",
+       "url": "https://www.goa.gov.in/wp-content/uploads/2025/12/GOVERNOR-GREETS-PEOPLE.pdf",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/goa-liberation-day/governor-2025-pdf.txt",
+       "quote": "The turning point arrived in December 1961, with the historic \"Operation\nVijay\"",
+       "quote_ko": null
+      },
+      {
+       "evidence_id": "goa-liberation-day/governor-2025-pdf",
+       "url": "https://www.goa.gov.in/wp-content/uploads/2025/12/GOVERNOR-GREETS-PEOPLE.pdf",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/goa-liberation-day/governor-2025-pdf.txt",
+       "quote": "The operation lasted only for 36 hours",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "lok_bhavan",
+     "claim_ko": "2025년 해방의 날에 라지 바반을 로크 바반으로 부르겠다고 발표했다.",
+     "verdict": "supported",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "goa-liberation-day/governor-2025-pdf",
+       "url": "https://www.goa.gov.in/wp-content/uploads/2025/12/GOVERNOR-GREETS-PEOPLE.pdf",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/goa-liberation-day/governor-2025-pdf.txt",
+       "quote": "I am pleased to declare that Raj Bhavan, Goa, will be known as Lok\nBhavan, Goa.",
+       "quote_ko": null
+      },
+      {
+       "evidence_id": "goa-liberation-day/governor-2025-pdf",
+       "url": "https://www.goa.gov.in/wp-content/uploads/2025/12/GOVERNOR-GREETS-PEOPLE.pdf",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/goa-liberation-day/governor-2025-pdf.txt",
+       "quote": "\"Lok Bhavan,\" means People's House",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "establishment_year",
+     "claim_ko": "주 기념일·공휴일 지정 연도.",
+     "verdict": "unverified",
+     "scope": "origin_batch",
+     "used": false,
+     "quotes": []
+    },
+    {
+     "claim_id": "pe_same_independence",
+     "claim_ko": "주지사: 고아도 같은 독립을 누려야 한다는 선언",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.goa.gov.in/wp-content/uploads/2025/12/GOVERNOR-GREETS-PEOPLE.pdf",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/goa-liberation-day/governor-2025-pdf.txt",
+       "quote": "action. It was a declaration that the people of Goa deserved the same independence"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_15_martyrs",
+     "claim_ko": "순국자 15명 유족 예우",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://dip.goa.gov.in/cm-extends-greetings-on-goa-liberation-day/",
+       "path": "tools/research/workflow/batches/contact-expansion-20261012/evidence/goa-liberation-day/dip-cm-greetings.txt",
+       "quote": "HCM stated that the Government honoured and felicitated the families of 15 martyrs"
+      }
+     ]
+    }
+   ]
+  },
+  "quirky:hoodie-hoo-day": {
+   "candidate_key": "hoodie-hoo-day",
+   "source_record_path": "tools/research/workflow/batches/quirky-discovery-20261012/records.json",
+   "sourceUrl": "https://cs.observer-reporter.com/opinion/2017/feb/26/hoodie-hoo-a-fun-break-from-pennsylvania-winter/",
+   "claims": [
+    {
+     "claim_id": "existence_date",
+     "claim_ko": "2월 20일, 요일과 무관하게 열리는 날",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "hoodie-hoo-day/observer-reporter-2017",
+       "url": "https://cs.observer-reporter.com/opinion/2017/feb/26/hoodie-hoo-a-fun-break-from-pennsylvania-winter/",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/hoodie-hoo-day/observer-reporter-2017.txt",
+       "quote": "The day is celebrated Feb. 20, regardless of the day of the week",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "fabricated",
+     "claim_ko": "신문이 \"완전히 지어낸 기념일\"이라고 표현",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "hoodie-hoo-day/observer-reporter-2017",
+       "url": "https://cs.observer-reporter.com/opinion/2017/feb/26/hoodie-hoo-a-fun-break-from-pennsylvania-winter/",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/hoodie-hoo-day/observer-reporter-2017.txt",
+       "quote": "A thoroughly fabricated holiday, the brainchild of a central Pennsylvania couple, Hoodie Hoo Day is designed to ward off winter and its many ills.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "ritual",
+     "claim_ko": "정오에 밖에 나가 손을 흔들며 외친다",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "hoodie-hoo-day/pearson-calendar",
+       "url": "https://www.pearsoncanadaschool.com/special-days-calendar/hoodie-hoo-day.html",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/hoodie-hoo-day/pearson-calendar.txt",
+       "quote": "The tradition involves going outside at noon on February 20th and waving your hands above your head while yelling",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "creator",
+     "claim_ko": "Wellcat.com 이 만들었다",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "hoodie-hoo-day/pearson-calendar",
+       "url": "https://www.pearsoncanadaschool.com/special-days-calendar/hoodie-hoo-day.html",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/hoodie-hoo-day/pearson-calendar.txt",
+       "quote": "National Hoodie-Hoo Day is a special day created by a company called Wellcat.com to help people get rid of the blues of winter in the northern hemisphere.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "local_event",
+     "claim_ko": "몬밸리 지역 상공회의소가 2014년 행사 시작",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "hoodie-hoo-day/observer-reporter-2017",
+       "url": "https://cs.observer-reporter.com/opinion/2017/feb/26/hoodie-hoo-a-fun-break-from-pennsylvania-winter/",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/hoodie-hoo-day/observer-reporter-2017.txt",
+       "quote": "the Mon Valley Regional Chamber of Commerce started this wonderful silliness in 2014",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_three_times",
+     "claim_ko": "정오 카운트다운에 손 흔들며 세 번 외침",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://cs.observer-reporter.com/opinion/2017/feb/26/hoodie-hoo-a-fun-break-from-pennsylvania-winter/",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/hoodie-hoo-day/observer-reporter-2017.txt",
+       "quote": "wave their hands above their heads and shout “Hoodie Hoo” three times"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_turnout",
+     "claim_ko": "2014 첫 행사 약 100명, 2015 날씨로 취소",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://cs.observer-reporter.com/opinion/2017/feb/26/hoodie-hoo-a-fun-break-from-pennsylvania-winter/",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/hoodie-hoo-day/observer-reporter-2017.txt",
+       "quote": "The kickoff event went reasonably well, drawing about 100 celebrants, but the 2015 Hoodie Hoo had to be canceled because of harsh weather."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_charleroi",
+     "claim_ko": "행사 장소 찰러로이",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://cs.observer-reporter.com/opinion/2017/feb/26/hoodie-hoo-a-fun-break-from-pennsylvania-winter/",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/hoodie-hoo-day/observer-reporter-2017.txt",
+       "quote": "But in Charleroi, George and Abe had to share second billing."
+      }
+     ]
+    }
+   ]
+  },
+  "quirky:mean-girls-day": {
+   "candidate_key": "mean-girls-day",
+   "source_record_path": "tools/research/workflow/batches/quirky-discovery-20261012/records.json",
+   "sourceUrl": "https://time.com/3457797/mean-girls-day-october-3/",
+   "claims": [
+    {
+     "claim_id": "date",
+     "claim_ko": "10월 3일은 팬들에게 특별한 날",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "mean-girls-day/cbsnews-2018",
+       "url": "https://www.cbsnews.com/newyork/news/mean-girls-day-2018/",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/mean-girls-day/cbsnews-2018.txt",
+       "quote": "October 3 is a special day for",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "origin",
+     "claim_ko": "남자 주인공이 날짜를 묻자 10월 3일이라고 답한 장면",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "mean-girls-day/time",
+       "url": "https://time.com/3457797/mean-girls-day-october-3/",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/mean-girls-day/time.txt",
+       "quote": "He asked her what day it was, and she replied",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "unofficial",
+     "claim_ko": "비공식적으로 National Mean Girls Day 로 불림",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "mean-girls-day/time",
+       "url": "https://time.com/3457797/mean-girls-day-october-3/",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/mean-girls-day/time.txt",
+       "quote": "unofficially known as National Mean Girls Day",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_first_spoke",
+     "claim_ko": "케이디가 짝사랑 상대와 처음 대화한 날(2004 영화)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.cbsnews.com/newyork/news/mean-girls-day-2018/",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/mean-girls-day/cbsnews-2018.txt",
+       "quote": "It's the day that Lindsay Lohan's character, Cady Heron, first spoke with her crush, Aaron Samuels, in the 2004 movie."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_broadway_2018",
+     "claim_ko": "2018 브로드웨이 뮤지컬 무료 공연(추첨 당첨 팬)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.cbsnews.com/newyork/news/mean-girls-day-2018/",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/mean-girls-day/cbsnews-2018.txt",
+       "quote": "there will be a free performance of the Broadway musical comedy at the August Wilson Theater for fans who won an advanced lottery."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_social_media",
+     "claim_ko": "팬들이 주로 SNS에서 기념",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://time.com/3457797/mean-girls-day-october-3/",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/mean-girls-day/time.txt",
+       "quote": "Most fans celebrate this occasion — unofficially known as National Mean Girls Day — on social media."
+      }
+     ]
+    }
+   ]
+  },
+  "quirky:its-gonna-be-may": {
+   "candidate_key": "its-gonna-be-may",
+   "source_record_path": "tools/research/workflow/batches/quirky-discovery-20261012/records.json",
+   "sourceUrl": "https://newsroom.spotify.com/tag/its-gonna-be-may",
+   "claims": [
+    {
+     "claim_id": "annual_spike",
+     "claim_ko": "2012년 밈 이후 매년 이날 스트리밍이 급증",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "its-gonna-be-may/spotify-newsroom",
+       "url": "https://newsroom.spotify.com/tag/its-gonna-be-may",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/its-gonna-be-may/spotify-newsroom.txt",
+       "quote": "Thanks to a 2012 meme gone viral, on this day each year, the *NSYNC song",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "unofficial",
+     "claim_ko": "비공식 기념일",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "its-gonna-be-may/spotify-newsroom",
+       "url": "https://newsroom.spotify.com/tag/its-gonna-be-may",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/its-gonna-be-may/spotify-newsroom.txt",
+       "quote": "seen the meme of this unofficial holiday",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "origin",
+     "claim_ko": "2012년 1월 텀블러에서 시작, 4월 30일 카운트다운으로 굳음",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "its-gonna-be-may/meme-com",
+       "url": "https://meme.com/memes/its-gonna-be-may",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/its-gonna-be-may/meme-com.txt",
+       "quote": "Starting on Tumblr in January 2012, the misheard lyric turned into a yearly countdown to April 30th",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_obama_2014",
+     "claim_ko": "2014-04-30 오바마 게시, 재생 101%·191% 증가",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://newsroom.spotify.com/tag/its-gonna-be-may",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/its-gonna-be-may/spotify-newsroom.txt",
+       "quote": "That very same day, streams of the song spiked 101% from the daily average. The next day, May 1, 2014, streams rocketed 191%."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_mondegreen",
+     "claim_ko": "팀버레이크의 me 발음이 May 로 들림",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://meme.com/memes/its-gonna-be-may",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/its-gonna-be-may/meme-com.txt",
+       "quote": "built around Justin Timberlake's pronunciation of the word \"me\" in the NSYNC song \"It's Gonna Be Me,\" which sounds like \"May.\""
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_maytag_2019",
+     "claim_ko": "2019 랜스 배스 메이택 협찬 트윗",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://meme.com/memes/its-gonna-be-may",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/its-gonna-be-may/meme-com.txt",
+       "quote": "Lance Bass's 2019 sponsored tweet turning the meme into #ItsGonnaBeMaytag for a Maytag brand campaign."
+      }
+     ]
+    }
+   ]
+  },
+  "quirky:earth-wind-fire-day": {
+   "candidate_key": "earth-wind-fire-day",
+   "source_record_path": "tools/research/workflow/batches/quirky-discovery-20261012/records.json",
+   "sourceUrl": "https://wsvn.com/entertainment/los-angeles-declared-september-21-earth-wind-fire-day/",
+   "claims": [
+    {
+     "claim_id": "meme_day",
+     "claim_ko": "NPR 이 9월 21일을 Earth, Wind and Fire Day 로 소개",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "earth-wind-fire-day/cfpublic-npr-2022",
+       "url": "https://www.cfpublic.org/2022-09-21/do-you-remember-its-earth-wind-and-fire-day",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/earth-wind-fire-day/cfpublic-npr-2022.txt",
+       "quote": "Happy Earth, Wind and Fire Day.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "no_meaning",
+     "claim_ko": "21일에는 의미가 없다(작사가)",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "earth-wind-fire-day/cfpublic-npr-2022",
+       "url": "https://www.cfpublic.org/2022-09-21/do-you-remember-its-earth-wind-and-fire-day",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/earth-wind-fire-day/cfpublic-npr-2022.txt",
+       "quote": "There is no significance beyond it just sang better than any of the other dates.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "la_council",
+     "claim_ko": "LA 시의회가 9월 21일을 선언",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "earth-wind-fire-day/wsvn",
+       "url": "https://wsvn.com/entertainment/los-angeles-declared-september-21-earth-wind-fire-day/",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/earth-wind-fire-day/wsvn.txt",
+       "quote": "the City Council declared September 21",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_la_hometown",
+     "claim_ko": "LA를 고향으로 삼아 지정(시의원)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://wsvn.com/entertainment/los-angeles-declared-september-21-earth-wind-fire-day/",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/earth-wind-fire-day/wsvn.txt",
+       "quote": "They made Los Angeles their home, and so we decided in the city of LA, September 21 will be ‘Earth, Wind & Fire Day,'"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_wsvn_date",
+     "claim_ko": "LA 선언 보도 2019-09-21",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://wsvn.com/entertainment/los-angeles-declared-september-21-earth-wind-fire-day/",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/earth-wind-fire-day/wsvn.txt",
+       "quote": "September 21, 2019"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_members_cert",
+     "claim_ko": "존슨·베일리·화이트 증서, 창립자 2016 사망",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://wsvn.com/entertainment/los-angeles-declared-september-21-earth-wind-fire-day/",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/earth-wind-fire-day/wsvn.txt",
+       "quote": "The founder of the group, Maurice White, died in 2016."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_chart",
+     "claim_ko": "핫100 33곡, 그래미 6회",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://wsvn.com/entertainment/los-angeles-declared-september-21-earth-wind-fire-day/",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/earth-wind-fire-day/wsvn.txt",
+       "quote": "Thirty-three of their songs appeared on the Billboard’s Hot 100 chart, and the band has won six Grammys."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_willis_2014",
+     "claim_ko": "작사가 앨리 윌리스 2014 NPR 인터뷰",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.cfpublic.org/2022-09-21/do-you-remember-its-earth-wind-and-fire-day",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/earth-wind-fire-day/cfpublic-npr-2022.txt",
+       "quote": "One of the songwriters, Allee Willis, spoke to NPR in 2014."
+      }
+     ]
+    }
+   ]
+  },
+  "quirky:tau-day": {
+   "candidate_key": "tau-day",
+   "source_record_path": "tools/research/workflow/batches/quirky-discovery-20261012/records.json",
+   "sourceUrl": "https://tauday.com/",
+   "claims": [
+    {
+     "claim_id": "founding_date",
+     "claim_ko": "2010년 Hartl 의 Tau Manifesto 와 함께 시작, 매년 6월 28일",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "tau-day/tauday",
+       "url": "https://tauday.com/",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/tau-day/tauday.txt",
+       "quote": "Founded in 2010 with the publication of The Tau Manifesto by Michael Hartl, Tau Day takes place annually on June 28 (6/28 in the American calendar system).",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "independent",
+     "claim_ko": "사이언티픽 아메리칸 블로그가 2010년 선언문을 소개",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "tau-day/sciam-blog",
+       "url": "https://www.scientificamerican.com/blog/observations/the-tao-of-tau/",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/tau-day/sciam-blog.txt",
+       "quote": "In his popular 2010",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_palais",
+     "claim_ko": "선언문은 팔레의 2001년 글에서 영감",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.scientificamerican.com/blog/observations/the-tao-of-tau/",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/tau-day/sciam-blog.txt",
+       "quote": "In his popular 2010 “Tau Manifesto,” inspired by Bob Palais’ 2001 essay “Pi Is Wrong,”"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_mit",
+     "claim_ko": "MIT 가 파이의 날 6시 28분에 합격 발표",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.scientificamerican.com/blog/observations/the-tao-of-tau/",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/tau-day/sciam-blog.txt",
+       "quote": "MIT now announces admissions decisions on Pi Day (3/14) at Tau Time (6:28)"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_languages",
+     "claim_ko": "구글 계산기·프로그래밍 언어 지원, 8개 언어판",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://tauday.com/",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/tau-day/tauday.txt",
+       "quote": "being featured in the official Google calculator, and being supported by a large number of computer programming languages (including Microsoft .NET, Java, Rust, and Python)"
+      }
+     ]
+    }
+   ]
+  },
+  "quirky:ninja-day-jp": {
+   "candidate_key": "ninja-day-jp",
+   "source_record_path": "tools/research/workflow/batches/quirky-discovery-20261012/records.json",
+   "sourceUrl": "https://www.pref.mie.lg.jp/TOPICS/m0031100533.htm",
+   "claims": [
+    {
+     "claim_id": "pun_date",
+     "claim_ko": "2월 22일 \"닌닌닌\" 말장난",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "ninja-day-jp/timeout-jp",
+       "url": "https://www.timeout.jp/tokyo/ja/blog/2%E6%9C%8822%E6%97%A5%E5%BF%8D%E8%80%85%E3%81%AE%E6%97%A5%E3%81%AB-%E5%BF%8D%E8%80%85%E5%85%83%E5%B9%B4%E5%AE%A3%E8%A8%80%E3%81%8C%E7%99%BA%E8%A1%A8-022216",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/ninja-day-jp/timeout-jp.txt",
+       "quote": "2月22日「ニンニンニン」と語呂を合わせた忍者の日に",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "council",
+     "claim_ko": "전년 발족한 일본닌자협의회의 행사",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "ninja-day-jp/timeout-jp",
+       "url": "https://www.timeout.jp/tokyo/ja/blog/2%E6%9C%8822%E6%97%A5%E5%BF%8D%E8%80%85%E3%81%AE%E6%97%A5%E3%81%AB-%E5%BF%8D%E8%80%85%E5%85%83%E5%B9%B4%E5%AE%A3%E8%A8%80%E3%81%8C%E7%99%BA%E8%A1%A8-022216",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/ninja-day-jp/timeout-jp.txt",
+       "quote": "昨年発足した日本忍者協議会によるこの取り組みは",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "government_event",
+     "claim_ko": "미에현이 2월 22일 닌자의 날 행사 공지",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "ninja-day-jp/pref-mie",
+       "url": "https://www.pref.mie.lg.jp/TOPICS/m0031100533.htm",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/ninja-day-jp/pref-mie.txt",
+       "quote": "2月22日「忍者の日」に合わせ",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_council_members",
+     "claim_ko": "이가시 중심 전국 지자체 가입, 관광·문화 진흥 목적",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.timeout.jp/tokyo/ja/blog/2%E6%9C%8822%E6%97%A5%E5%BF%8D%E8%80%85%E3%81%AE%E6%97%A5%E3%81%AB-%E5%BF%8D%E8%80%85%E5%85%83%E5%B9%B4%E5%AE%A3%E8%A8%80%E3%81%8C%E7%99%BA%E8%A1%A8-022216",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/ninja-day-jp/timeout-jp.txt",
+       "quote": "伊賀流忍者の発祥の地、三重県伊賀市を中心に忍者にゆかりのある全国の自治体などが加盟。"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_ninja_gannen",
+     "claim_ko": "닌자 원년 선언, 2030년까지 팬 1억 명 목표",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.timeout.jp/tokyo/ja/blog/2%E6%9C%8822%E6%97%A5%E5%BF%8D%E8%80%85%E3%81%AE%E6%97%A5%E3%81%AB-%E5%BF%8D%E8%80%85%E5%85%83%E5%B9%B4%E5%AE%A3%E8%A8%80%E3%81%8C%E7%99%BA%E8%A1%A8-022216",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/ninja-day-jp/timeout-jp.txt",
+       "quote": "2030年までに、世界中で1億人の忍者ファン獲得を目標に"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_mie_terrace",
+     "claim_ko": "미에 테라스·시가 홍보관 연계 행사",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.pref.mie.lg.jp/TOPICS/m0031100533.htm",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/ninja-day-jp/pref-mie.txt",
+       "quote": "滋賀県情報発信拠点「ここ滋賀」とともに、忍者をテーマとした「日本橋ニンニン忍者フェスタ」を開催します。"
+      }
+     ]
+    }
+   ]
+  },
+  "quirky:apple-day-kr": {
+   "candidate_key": "apple-day-kr",
+   "source_record_path": "tools/research/workflow/batches/quirky-discovery-20261012/records.json",
+   "sourceUrl": "https://m.go.seoul.co.kr/news/2013/10/25/20131025012024",
+   "claims": [
+    {
+     "claim_id": "date_pun",
+     "claim_ko": "10월 24일을 둘이 사과하고 화해하는 날로 정함",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "apple-day-kr/seoul-2013",
+       "url": "https://m.go.seoul.co.kr/news/2013/10/25/20131025012024",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/apple-day-kr/seoul-2013.txt",
+       "quote": "애플데이는 사과철인 10월의 24일을",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "year",
+     "claim_ko": "2002년 제정",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "apple-day-kr/seoul-2013",
+       "url": "https://m.go.seoul.co.kr/news/2013/10/25/20131025012024",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/apple-day-kr/seoul-2013.txt",
+       "quote": "2002년 제정됐다",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "body",
+     "claim_ko": "학교폭력대책 국민협의회가 마련(전언)",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "apple-day-kr/syu",
+       "url": "https://www.syu.ac.kr/grad/?p=43747",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/apple-day-kr/syu.txt",
+       "quote": "2002년에 학교폭력대책 국민협의회에서 사제 간과 친구 간에 애정과 화해가 담긴 사과(沙果)와 편지를 교환하여 따뜻한 학교를 만들자는 취지로 마련했다고 한다.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_homonym",
+     "claim_ko": "謝過를 沙果로 전하는 장치",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.syu.ac.kr/grad/?p=43747",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/apple-day-kr/syu.txt",
+       "quote": "서로 꺼내기 어려운 사과(謝過)를 맛있는 사과(沙果)를 건네며 자연스럽게 사과할 수 있는 장을 마련해 주는 장치인 것이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_2013_event",
+     "claim_ko": "2013 남산 한옥마을 애플데이 행사",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://m.go.seoul.co.kr/news/2013/10/25/20131025012024",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/apple-day-kr/seoul-2013.txt",
+       "quote": "24일 서울 중구 남산 한옥마을 광장에서 열린 ‘애플데이’ 행사를 찾은 어린이들이 사과를 들어 보이고 있다."
+      }
+     ]
+    }
+   ]
+  },
+  "quirky:galentines-day": {
+   "candidate_key": "galentines-day",
+   "source_record_path": "tools/research/workflow/batches/quirky-discovery-20261012/records.json",
+   "sourceUrl": "https://www.history.com/articles/what-is-galentines-day",
+   "claims": [
+    {
+     "claim_id": "origin",
+     "claim_ko": "2010년 2월 11일 방영 시즌2 16화에서 탄생",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "galentines-day/mentalfloss",
+       "url": "https://www.mentalfloss.com/holidays/the-unexpected-origins-of-galentines-day",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/galentines-day/mentalfloss.txt",
+       "quote": "was conceived in the 16th episode of season 2 of Parks and Recreation, which aired on February 11, 2010.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "date",
+     "claim_ko": "현실에서 매년 2월 13일 기념",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "galentines-day/history-com",
+       "url": "https://www.history.com/articles/what-is-galentines-day",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/galentines-day/history-com.txt",
+       "quote": "Real women celebrate the once-fictional holiday every February 13.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_friendship",
+     "claim_ko": "연애 대신 여성 간 우정을 기림",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.history.com/articles/what-is-galentines-day",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/galentines-day/history-com.txt",
+       "quote": "Whereas Valentine’s Day is associated with romantic love, Galentine’s Day honors female friendship."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_breakfast",
+     "claim_ko": "밸런타인 전날 여성들을 모아 아침",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.mentalfloss.com/holidays/the-unexpected-origins-of-galentines-day",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/galentines-day/mentalfloss.txt",
+       "quote": "on the day before Valentine’s Day, Leslie throws her annual “Galentine’s Day” celebration and gathers the women in her life together for breakfast."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_first_documented",
+     "claim_ko": "이름 붙인 첫 기록은 드라마, 모임 자체는 이전부터",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.mentalfloss.com/holidays/the-unexpected-origins-of-galentines-day",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/galentines-day/mentalfloss.txt",
+       "quote": "While Parks and Recreation was the first documented source to name Galentine’s Day, women have certainly always gathered together to celebrate Valentine’s Day with each other."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_best_day",
+     "claim_ko": "극 중 ‘1년 중 최고의 날’",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.mentalfloss.com/holidays/the-unexpected-origins-of-galentines-day",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/galentines-day/mentalfloss.txt",
+       "quote": "Oh, it’s only the best day of the year,"
+      }
+     ]
+    }
+   ]
+  },
+  "quirky:bubble-wrap-appreciation-day": {
+   "candidate_key": "bubble-wrap-appreciation-day",
+   "source_record_path": "tools/research/workflow/batches/quirky-discovery-20261012/records.json",
+   "sourceUrl": "https://library.bellevue.edu/articles/tag/nationalbubblewrapappreciationday",
+   "claims": [
+    {
+     "claim_id": "npr_2013",
+     "claim_ko": "NPR 이 2013년 1월 28일(1월 마지막 월요일) 이날을 언급",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "bubble-wrap-appreciation-day/npr-2013",
+       "url": "https://www.npr.org/transcripts/170442218",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/bubble-wrap-appreciation-day/npr-2013.txt",
+       "quote": "on National Bubble Wrap Appreciation Day.",
+       "quote_ko": null
+      },
+      {
+       "evidence_id": "bubble-wrap-appreciation-day/npr-2013",
+       "url": "https://www.npr.org/transcripts/170442218",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/bubble-wrap-appreciation-day/npr-2013.txt",
+       "quote": "January 28, 2013",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "rule",
+     "claim_ko": "매년 1월 마지막 월요일",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "bubble-wrap-appreciation-day/bellevue-library",
+       "url": "https://library.bellevue.edu/articles/tag/nationalbubblewrapappreciationday",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/bubble-wrap-appreciation-day/bellevue-library.txt",
+       "quote": "is always on the last Monday in January of every year.",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "radio_origin",
+     "claim_ko": "라디오 방송국 유래설",
+     "verdict": "single_source_unverified",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "bubble-wrap-appreciation-day/bellevue-library",
+       "url": "https://library.bellevue.edu/articles/tag/nationalbubblewrapappreciationday",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/bubble-wrap-appreciation-day/bellevue-library.txt",
+       "quote": "This unofficial holiday began when a radio station unwrapped microphones on the air and listeners loved it!",
+       "quote_ko": null
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_npr_popping",
+     "claim_ko": "NPR: 터뜨리는 소리·감촉, 웨딩드레스·헬멧 사례",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.npr.org/transcripts/170442218",
+       "path": "tools/research/workflow/batches/quirky-discovery-20261012/evidence/bubble-wrap-appreciation-day/npr-2013.txt",
+       "quote": "So on this day we can contemplate the bride who wore a bubble wrap wedding gown and the football players who took the field in bubble wrap helmets."
+      }
+     ]
+    }
+   ]
+  },
+  "native:br-dia-do-saci": {
+   "candidate_key": "br-dia-do-saci",
+   "source_record_path": "tools/research/workflow/batches/native-languages-20261012/records.json",
+   "sourceUrl": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2004/lei-11669-13.01.2004.html",
+   "claims": [
+    {
+     "claim_id": "state_law",
+     "claim_ko": "상파울루주 법이 매년 10월 31일을 사치의 날로 지정",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "alesp-lei-11669",
+       "url": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2004/lei-11669-13.01.2004.html",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/br-dia-do-saci/alesp-lei-11669.txt",
+       "quote": "Artigo 1º - Fica Instituído o \"Dia do Saci\", a ser comemorado, anualmente, no dia 31 de outubro.",
+       "quote_ko": "제1조 — 매년 10월 31일에 기념하는 '사치의 날'을 제정한다."
+      },
+      {
+       "evidence_id": "alesp-lei-11669",
+       "url": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2004/lei-11669-13.01.2004.html",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/br-dia-do-saci/alesp-lei-11669.txt",
+       "quote": "LEI Nº 11.669, DE 13 DE JANEIRO DE 2004",
+       "quote_ko": "2004년 1월 13일 법률 제11.669호"
+      }
+     ]
+    },
+    {
+     "claim_id": "anti_halloween",
+     "claim_ko": "핼러윈의 '문화 침략'에 맞서려고 만듦, Sosaci 2003년 창립",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "estado-de-minas-2020",
+       "url": "https://www.em.com.br/app/noticia/nacional/2020/10/29/interna_nacional,1199456/como-o-dia-do-saci-quer-rivalizar-com-o-halloween-no-brasil.shtml",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/br-dia-do-saci/estado-de-minas-2020.txt",
+       "quote": "um dos criadores da Sociedade de Observadores de Saci (Sosaci), instituição fundada em 2003",
+       "quote_ko": "2003년 설립된 사치 관찰자 협회(Sosaci)의 창립자 중 한 명"
+      },
+      {
+       "evidence_id": "estado-de-minas-2020",
+       "url": "https://www.em.com.br/app/noticia/nacional/2020/10/29/interna_nacional,1199456/como-o-dia-do-saci-quer-rivalizar-com-o-halloween-no-brasil.shtml",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/br-dia-do-saci/estado-de-minas-2020.txt",
+       "quote": "Incomodado com a, nas suas palavras, \"invasão cultural representada pelo Halloween no Brasil\"",
+       "quote_ko": "그의 표현대로 '브라질에서 핼러윈이 대표하는 문화 침략'이 불편해서"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_municipal_2003",
+     "claim_ko": "2003년 상루이스두파라이칭가 행사·시 조례",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.em.com.br/app/noticia/nacional/2020/10/29/interna_nacional,1199456/como-o-dia-do-saci-quer-rivalizar-com-o-halloween-no-brasil.shtml",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/br-dia-do-saci/estado-de-minas-2020.txt",
+       "quote": "Criaram um evento em São Luiz do Paraitinga, no interior paulista, e mobilizaram para que a cidade instituísse, desde aquele mesmo ano de 2003, uma lei municipal"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_saci_look",
+     "claim_ko": "외다리·파이프·빨간 두건",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.em.com.br/app/noticia/nacional/2020/10/29/interna_nacional,1199456/como-o-dia-do-saci-quer-rivalizar-com-o-halloween-no-brasil.shtml",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/br-dia-do-saci/estado-de-minas-2020.txt",
+       "quote": "de uma perna só, cachimbo na boca e carapuça vermelha na cabeça"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_same_day_reason",
+     "claim_ko": "같은 날로 잡아 미국 명절과 부딪치게 함(파이바)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.opovo.com.br/noticias/curiosidades/2018/10/31-de-outubro-31-10-dia-do-saci-ou-dia-das-bruxas.html",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/br-dia-do-saci/opovo-2018.txt",
+       "quote": "A ideia que fosse no mesmo dia foi pra criar um conflito e ir de encontro com a data americana."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_consumism",
+     "claim_ko": "비판 대상은 핼러윈 철 과소비",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.opovo.com.br/noticias/curiosidades/2018/10/31-de-outubro-31-10-dia-do-saci-ou-dia-das-bruxas.html",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/br-dia-do-saci/opovo-2018.txt",
+       "quote": "a crítica é apenas ao grande consumismo que acontece na época do Halloween"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_municipal_not_holiday",
+     "claim_ko": "일부 시 조례로 지정, 공휴일 아님",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.opovo.com.br/noticias/curiosidades/2018/10/31-de-outubro-31-10-dia-do-saci-ou-dia-das-bruxas.html",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/br-dia-do-saci/opovo-2018.txt",
+       "quote": "Em alguns municípios brasileiros o Dia do Saci é decretado por lei, não configura feriado."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_16th_2018",
+     "claim_ko": "2018년 16번째 축제",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.opovo.com.br/noticias/curiosidades/2018/10/31-de-outubro-31-10-dia-do-saci-ou-dia-das-bruxas.html",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/br-dia-do-saci/opovo-2018.txt",
+       "quote": "Neste ano, a 16ª festa aconteceu entre os dias 26 e 28 de outubro no município"
+      }
+     ]
+    }
+   ]
+  },
+  "native:br-santo-antonio-casamenteiro": {
+   "candidate_key": "br-santo-antonio-casamenteiro",
+   "source_record_path": "tools/research/workflow/batches/native-languages-20261012/records.json",
+   "sourceUrl": "https://tvtnews.com.br/?p=752468",
+   "claims": [
+    {
+     "claim_id": "date_matchmaker",
+     "claim_ko": "6월 13일, 중매 성인, 6월 축제 시작",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "tvtnews",
+       "url": "https://tvtnews.com.br/?p=752468",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/br-santo-antonio-casamenteiro/tvtnews.txt",
+       "quote": "A data marca o início oficial das Festas Juninas",
+       "quote_ko": "이날은 6월 축제의 공식 시작을 알린다"
+      },
+      {
+       "evidence_id": "oimparcial-2025",
+       "url": "https://oimparcial.com.br/noticias/2025/06/dia-de-santo-antonio-confira-simpatias-para-encontrar-um-amor/",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/br-santo-antonio-casamenteiro/oimparcial-2025.txt",
+       "quote": "Conhecido como o “santo casamenteiro”, Santo Antônio é reverenciado por sua habilidade de unir casais",
+       "quote_ko": "'중매 성인'으로 알려진 성 안토니오는 연인을 맺어 주는 능력으로 공경받는다"
+      }
+     ]
+    },
+    {
+     "claim_id": "upside_down",
+     "claim_ko": "성인상을 거꾸로 세우고 소원을 비는 주술",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "oimparcial-2025",
+       "url": "https://oimparcial.com.br/noticias/2025/06/dia-de-santo-antonio-confira-simpatias-para-encontrar-um-amor/",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/br-santo-antonio-casamenteiro/oimparcial-2025.txt",
+       "quote": "Coloque uma imagem do santo de cabeça para baixo e faça um pedido",
+       "quote_ko": "성인상을 거꾸로 세워 두고 소원을 빌어라"
+      }
+     ]
+    },
+    {
+     "claim_id": "dowry_story",
+     "claim_ko": "지참금 없는 처녀를 도왔다는 민간 전승에서 별명 유래",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "tvtnews",
+       "url": "https://tvtnews.com.br/?p=752468",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/br-santo-antonio-casamenteiro/tvtnews.txt",
+       "quote": "A fama de Santo Antônio como casamenteiro vem de tradições populares e histórias atribuídas à sua vida.",
+       "quote_ko": "성 안토니오의 중매 명성은 민간 전통과 그의 생애에 덧붙여진 이야기에서 나왔다."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_lisbon_dowry",
+     "claim_ko": "리스본 출신, 지참금 없는 젊은이 결혼 도움(전승)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://tvtnews.com.br/?p=752468",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/br-santo-antonio-casamenteiro/tvtnews.txt",
+       "quote": "ele teria ajudado jovens sem dote a se casarem, doando recursos ou mediando uniões."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_simpatias",
+     "claim_ko": "가톨릭 기원 민간 주술이 바뀌며 상징 의식으로 남음",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://tvtnews.com.br/?p=752468",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/br-santo-antonio-casamenteiro/tvtnews.txt",
+       "quote": "De origem católica, essas práticas foram adaptadas ao longo do tempo e permanecem vivas entre pessoas de diferentes regiões e faixas etárias"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_quermesses",
+     "claim_ko": "카루아루·캄피나그란지·상파울루 미사 뒤 바자회",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://tvtnews.com.br/?p=752468",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/br-santo-antonio-casamenteiro/tvtnews.txt",
+       "quote": "Em cidades como Caruaru (PE), Campina Grande (PB) e São Paulo (SP), as celebrações são grandes, incluindo missas seguidas das quermesses"
+      }
+     ]
+    }
+   ]
+  },
+  "native:de-siebenschlaefertag": {
+   "candidate_key": "de-siebenschlaefertag",
+   "source_record_path": "tools/research/workflow/batches/native-languages-20261012/records.json",
+   "sourceUrl": "https://ms-aktuell.de/welt/23062026-siebenschlaefertag-bauernregel-brauchtum/",
+   "claims": [
+    {
+     "claim_id": "date",
+     "claim_ko": "6월 27일이 지벤슐래퍼타크",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "ms-aktuell-2026",
+       "url": "https://ms-aktuell.de/welt/23062026-siebenschlaefertag-bauernregel-brauchtum/",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/de-siebenschlaefertag/ms-aktuell-2026.txt",
+       "quote": "Am 27. Juni ist Siebenschläfertag.",
+       "quote_ko": "6월 27일은 지벤슐래퍼타크다."
+      }
+     ]
+    },
+    {
+     "claim_id": "legend",
+     "claim_ko": "에페소스 일곱 잠꾸러기 전설에서 유래(전설)",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "ms-aktuell-2026",
+       "url": "https://ms-aktuell.de/welt/23062026-siebenschlaefertag-bauernregel-brauchtum/",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/de-siebenschlaefertag/ms-aktuell-2026.txt",
+       "quote": "Der Siebenschläfertag erinnert an die Sieben Schläfer von Ephesus.",
+       "quote_ko": "지벤슐래퍼타크는 에페소스의 일곱 잠꾸러기를 기린다."
+      }
+     ]
+    },
+    {
+     "claim_id": "dwd_coin",
+     "claim_ko": "독일 기상청 대변인: 적중률 55~70%, '동전을 던져도 된다'",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "t-online",
+       "url": "https://www.t-online.de/leben/id_73839886/siebenschlaefertag-was-bedeutet-das-fuer-das-wetter-.html",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/de-siebenschlaefertag/t-online.txt",
+       "quote": "\"Sie können auch eine Münze werfen\", so der DWD-Sprecher.",
+       "quote_ko": "\"동전을 던져도 됩니다\"라고 독일 기상청 대변인이 말했다."
+      }
+     ]
+    },
+    {
+     "claim_id": "calendar_shift",
+     "claim_ko": "그레고리력 개혁 이전 속담이라 원래 날은 7월 7일 무렵",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "t-online",
+       "url": "https://www.t-online.de/leben/id_73839886/siebenschlaefertag-was-bedeutet-das-fuer-das-wetter-.html",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/de-siebenschlaefertag/t-online.txt",
+       "quote": "Der historische Siebenschläfertag ist mit zehntägiger Verschiebung rechnerisch am 7. Juli anzusetzen.",
+       "quote_ko": "역사적 지벤슐래퍼타크는 열흘 차이를 반영하면 계산상 7월 7일이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_legend_detail",
+     "claim_ko": "박해 피해 에페소스 동굴, 여러 세대 뒤 깨어남(전설)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://ms-aktuell.de/welt/23062026-siebenschlaefertag-bauernregel-brauchtum/",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/de-siebenschlaefertag/ms-aktuell-2026.txt",
+       "quote": "Dort wurden sie eingemauert und sollen erst viele Generationen später wieder erwacht sein."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_animal",
+     "claim_ko": "같은 이름 설치류와 무관",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://ms-aktuell.de/welt/23062026-siebenschlaefertag-bauernregel-brauchtum/",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/de-siebenschlaefertag/ms-aktuell-2026.txt",
+       "quote": "Mit dem gleichnamigen Nagetier hat der Siebenschläfertag ursprünglich nichts zu tun."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_lostag",
+     "claim_ko": "교회 기념일에서 민간 Lostag 로",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://ms-aktuell.de/welt/23062026-siebenschlaefertag-bauernregel-brauchtum/",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/de-siebenschlaefertag/ms-aktuell-2026.txt",
+       "quote": "Der Siebenschläfertag war lange vor allem ein kirchlicher Gedenktag und wurde später als Lostag im Volksglauben wichtig."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_60_70",
+     "claim_ko": "6월 말~7월 초 며칠, 60~70%",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.t-online.de/leben/id_73839886/siebenschlaefertag-was-bedeutet-das-fuer-das-wetter-.html",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/de-siebenschlaefertag/t-online.txt",
+       "quote": "Denn hier kann sich mit einer Wahrscheinlichkeit von 60 bis 70 Prozent in der Atmosphäre eine Strömungslage verfes"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_coin_context",
+     "claim_ko": "7주 지속 확률 55~70%, 동전 발언",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.t-online.de/leben/id_73839886/siebenschlaefertag-was-bedeutet-das-fuer-das-wetter-.html",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/de-siebenschlaefertag/t-online.txt",
+       "quote": "Die Chance, dass das Wetter für die kommenden sieben Wochen so wie am 27. Juni bleibt, liege zwischen 55 und 70 Prozent."
+      }
+     ]
+    }
+   ]
+  },
+  "native:de-tag-des-deutschen-bieres": {
+   "candidate_key": "de-tag-des-deutschen-bieres",
+   "source_record_path": "tools/research/workflow/batches/native-languages-20261012/records.json",
+   "sourceUrl": "https://www.deutsche-handwerks-zeitung.de/?p=88554",
+   "claims": [
+    {
+     "claim_id": "annual_date",
+     "claim_ko": "매년 4월 23일, 1516년 순수령 반포를 기념",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "dhz",
+       "url": "https://www.deutsche-handwerks-zeitung.de/?p=88554",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/de-tag-des-deutschen-bieres/dhz.txt",
+       "quote": "Am 23. April findet jährlich der Tag des Deutschen Bieres statt. Damit wird die Verkündung des Reinheitsgebotes für Bier vom 23. April 1516 gefeiert.",
+       "quote_ko": "매년 4월 23일 독일 맥주의 날이 열린다. 1516년 4월 23일 맥주 순수령 반포를 기념한다."
+      }
+     ]
+    },
+    {
+     "claim_id": "industry",
+     "claim_ko": "독일양조협회가 이날에 맞춰 발표",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "brauer-bund-pm-2023",
+       "url": "https://brauer-bund.de/wp-content/uploads/2023/04/DBB-PM-Zahl-der-Hobbybrauer-steigt.pdf",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/de-tag-des-deutschen-bieres/brauer-bund-pm-2023.txt",
+       "quote": "Wie der Deutsche Brauer-Bund (DBB) anlässlich des „Tages des Deutschen Bieres“ am 23.",
+       "quote_ko": "독일양조협회(DBB)가 4월 23일 '독일 맥주의 날'을 맞아 밝힌 바에 따르면"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_oldest_law",
+     "claim_ko": "가장 오래된 식품법, 두 공작 반포",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.deutsche-handwerks-zeitung.de/?p=88554",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/de-tag-des-deutschen-bieres/dhz.txt",
+       "quote": "Das älteste Lebensmittelgesetz hat Geburtstag: Am 23. April 1516 haben die Herzöge Wilhelm IV. und sein Bruder Ludwig X. das Reinheitsgebot für Bier erlassen."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_ingolstadt_purpose",
+     "claim_ko": "잉골슈타트 반포, 기본 식품 공급 목적",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.deutsche-handwerks-zeitung.de/?p=88554",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/de-tag-des-deutschen-bieres/dhz.txt",
+       "quote": "Ziel der Herzöge war es, die Bevölkerung mit einem hochwertigen Grundnahrungsmittel zu versorgen"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_ingolstadt",
+     "claim_ko": "잉골슈타트에서 공동 통치 공작들이 반포",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.deutsche-handwerks-zeitung.de/?p=88554",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/de-tag-des-deutschen-bieres/dhz.txt",
+       "quote": "in Ingolstadt wurde das deutsche Reinheitsgebot von den beiden damals gemeinsam regierenden Herzögen Wilhelm IV. und seinem Bruder Ludwig"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_40_sorts",
+     "claim_ko": "40가지 넘는 맥주 종류",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.deutsche-handwerks-zeitung.de/?p=88554",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/de-tag-des-deutschen-bieres/dhz.txt",
+       "quote": "über 40 Biersorten gibt es laut dem Verband der Privaten Brauereien"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_hobby_2023",
+     "claim_ko": "취미 양조인 8년 새 3배 넘게",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://brauer-bund.de/wp-content/uploads/2023/04/DBB-PM-Zahl-der-Hobbybrauer-steigt.pdf",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/de-tag-des-deutschen-bieres/brauer-bund-pm-2023.txt",
+       "quote": "Hobbybrauer in Deutschland innerhalb von nur acht Jahren mehr als verdreifacht."
+      }
+     ]
+    }
+   ]
+  },
+  "native:es-la-tomatina": {
+   "candidate_key": "es-la-tomatina",
+   "source_record_path": "tools/research/workflow/batches/native-languages-20261012/records.json",
+   "sourceUrl": "https://www.spain.info/es/agenda/la-tomatina/",
+   "claims": [
+    {
+     "claim_id": "date_rule",
+     "claim_ko": "매년 8월 마지막 수요일",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "spain-info",
+       "url": "https://www.spain.info/es/agenda/la-tomatina/",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/es-la-tomatina/spain-info.txt",
+       "quote": "El último miércoles del mes de agosto se celebra en la localidad de Buñol la Tomatina.",
+       "quote_ko": "8월 마지막 수요일 부뇰에서 토마티나가 열린다."
+      },
+      {
+       "evidence_id": "valenciabonita",
+       "url": "https://www.valenciabonita.es/2024/08/26/historia-tomatina-bunol/",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/es-la-tomatina/valenciabonita.txt",
+       "quote": "La Tomatina de Buñol se celebra el último miércoles de agosto de cada año.",
+       "quote_ko": "부뇰의 토마티나는 매년 8월 마지막 수요일에 열린다."
+      }
+     ]
+    },
+    {
+     "claim_id": "origin_1945",
+     "claim_ko": "1945년 젊은이들의 다툼에서 시작",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "spain-info",
+       "url": "https://www.spain.info/es/agenda/la-tomatina/",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/es-la-tomatina/spain-info.txt",
+       "quote": "El origen de esta multitudinaria \"batalla” de tomates se remonta a una pelea juvenil sucedida en el año 1945",
+       "quote_ko": "이 대규모 토마토 '전투'의 기원은 1945년 젊은이들의 다툼으로 거슬러 올라간다"
+      }
+     ]
+    },
+    {
+     "claim_id": "declared_2002",
+     "claim_ko": "2002년 국제관광관심축제 지정",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "valenciabonita",
+       "url": "https://www.valenciabonita.es/2024/08/26/historia-tomatina-bunol/",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/es-la-tomatina/valenciabonita.txt",
+       "quote": "Desde 2002 es Fiesta de Interés Turístico Internacional, declarada por la Secretaría General de Turismo.",
+       "quote_ko": "2002년부터 관광청이 지정한 국제 관광 관심 축제다."
+      }
+     ]
+    },
+    {
+     "claim_id": "continuity",
+     "claim_ko": "매년 끊김 없이 열렸나: 관광청 '한 해도 거르지 않음' vs 지역 매체 '1950년대 금지'",
+     "verdict": "conflicting",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "spain-info",
+       "url": "https://www.spain.info/es/agenda/la-tomatina/",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/es-la-tomatina/spain-info.txt",
+       "quote": "desde entonces, no ha dejado de celebrarse ningún año.",
+       "quote_ko": "그 이후로 한 해도 거르지 않고 열렸다."
+      },
+      {
+       "evidence_id": "valenciabonita",
+       "url": "https://www.valenciabonita.es/2024/08/26/historia-tomatina-bunol/",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/es-la-tomatina/valenciabonita.txt",
+       "quote": "La Tomatina fue prohibida a principios de los 50 (1956)",
+       "quote_ko": "토마티나는 50년대 초(1956년)에 금지됐다"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_one_hour_squashed",
+     "claim_ko": "한 시간, 다치지 않게 으깬 토마토",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.valenciabonita.es/2024/08/26/historia-tomatina-bunol/",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/es-la-tomatina/valenciabonita.txt",
+       "quote": "transcurre a lo largo de una hora en las principales calles de la ciudad de Buñol, que actúan como recinto cerrado. El tomate, que además de maduro, tiene que estar previamente estrujado para no hacer daño"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_palo_jabon",
+     "claim_ko": "비누칠 장대 끝 하몽",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.spain.info/es/agenda/la-tomatina/",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/es-la-tomatina/spain-info.txt",
+       "quote": "Antes del combate, se levanta un enorme palo cubierto de jabón en cuyo extremo se coloca un jamón."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_aforo_2013",
+     "claim_ko": "2013 안전 이유 인원 제한",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.valenciabonita.es/2024/08/26/historia-tomatina-bunol/",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/es-la-tomatina/valenciabonita.txt",
+       "quote": "en 2013, el año donde «reinó» el Rey Tomate que de nuevo protagoniza el cartel, el Ayuntamiento decidió regular el aforo por motivos de seguridad."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_entierro_1957",
+     "claim_ko": "1957 토마토 장례식 시위",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.valenciabonita.es/2024/08/26/historia-tomatina-bunol/",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/es-la-tomatina/valenciabonita.txt",
+       "quote": "Protesta que hubo en Buñol en 1957 para que la fiesta volviese (entierro del tomate)."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_tve_1983",
+     "claim_ko": "1983 TVE 보도로 전국에 알려짐",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.valenciabonita.es/2024/08/26/historia-tomatina-bunol/",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/es-la-tomatina/valenciabonita.txt",
+       "quote": "La fiesta comenzó a ser popular en el resto de España gracias al reportaje de Javier Basilio, emitido en el programa de Televisión Española Informe semanal en 1983"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_gigantes",
+     "claim_ko": "거인 인형 행렬 구경 중 시작(공식 사이트 버전)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.valenciabonita.es/2024/08/26/historia-tomatina-bunol/",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/es-la-tomatina/valenciabonita.txt",
+       "quote": "para presenciar el desfile de gigantes y cabezudos y otros actos de la fiesta"
+      }
+     ]
+    }
+   ]
+  },
+  "native:es-ribarteme-ataudes": {
+   "candidate_key": "es-ribarteme-ataudes",
+   "source_record_path": "tools/research/workflow/batches/native-languages-20261012/records.json",
+   "sourceUrl": "https://www.eldebate.com/espana/galicia/pontevedra/20240707/procesion-ataudes-vestidos-como-funeral-asi-festividades-singulares-galicia_210878.html",
+   "claims": [
+    {
+     "claim_id": "date_ritual",
+     "claim_ko": "7월 29일, 장례 옷차림으로 관에 실려 행렬",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "eldebate-2024",
+       "url": "https://www.eldebate.com/espana/galicia/pontevedra/20240707/procesion-ataudes-vestidos-como-funeral-asi-festividades-singulares-galicia_210878.html",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/es-ribarteme-ataudes/eldebate-2024.txt",
+       "quote": "los devotos, vestidos con las ropas que desean llevar en su entierro, son transportados en ataúdes en procesión, como muestra de gratitud por haber sobrevivido a una enfermedad grave.",
+       "quote_ko": "신자들은 장례 때 입고 싶은 옷을 입고 관에 실려 행렬하며, 중병에서 살아난 데 감사를 표한다."
+      },
+      {
+       "evidence_id": "eldebate-2024",
+       "url": "https://www.eldebate.com/espana/galicia/pontevedra/20240707/procesion-ataudes-vestidos-como-funeral-asi-festividades-singulares-galicia_210878.html",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/es-ribarteme-ataudes/eldebate-2024.txt",
+       "quote": "se celebra el 29 de julio y cada año atrae a miles de curiosos.",
+       "quote_ko": "7월 29일에 열리며 해마다 수천 명의 구경꾼이 모인다."
+      }
+     ]
+    },
+    {
+     "claim_id": "first_record_1700",
+     "claim_ko": "첫 역사 기록 1700년",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "eldebate-2024",
+       "url": "https://www.eldebate.com/espana/galicia/pontevedra/20240707/procesion-ataudes-vestidos-como-funeral-asi-festividades-singulares-galicia_210878.html",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/es-ribarteme-ataudes/eldebate-2024.txt",
+       "quote": "La primera referencia histórica de esta celebración data del año 1700",
+       "quote_ko": "이 축제의 첫 역사적 언급은 1700년이다"
+      }
+     ]
+    },
+    {
+     "claim_id": "suppression",
+     "claim_ko": "최근 주교 결정으로 관 행렬 중단, 주민 반발",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "festivalesdeespana",
+       "url": "https://www.festivalesdeespana.com/festival/romeria-de-santa-marta-de-ribarteme-as-neves",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/es-ribarteme-ataudes/festivalesdeespana.txt",
+       "quote": "La decisión episcopal ha llevado en ediciones recientes a la supresión de los ataúdes durante la procesión",
+       "quote_ko": "주교의 결정으로 최근 행사에서는 행렬 중 관이 빠졌다"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_interes_turistico",
+     "claim_ko": "갈리시아 관광 관심 축제, 7월 29일",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.eldebate.com/espana/galicia/pontevedra/20240707/procesion-ataudes-vestidos-como-funeral-asi-festividades-singulares-galicia_210878.html",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/es-ribarteme-ataudes/eldebate-2024.txt",
+       "quote": "Declarada fiesta de interés turístico de Galicia, debido a su singularidad y valor cultural, se celebra el 29 de julio"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_1700_detail",
+     "claim_ko": "1700년 주교의 예배당 수리 요청 문서",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.eldebate.com/espana/galicia/pontevedra/20240707/procesion-ataudes-vestidos-como-funeral-asi-festividades-singulares-galicia_210878.html",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/es-ribarteme-ataudes/eldebate-2024.txt",
+       "quote": "La primera referencia histórica de esta celebración data del año 1700, con una mención escrita en la que el Obispo Anselmo Gómez de la Torre solicitó al abad de Ribaterme reparar la capilla original"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_last_2019",
+     "claim_ko": "교회 승인 아래 마지막 관 행렬 2019, 이후 금지(민족지 연구)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://revistas.rcaap.pt/etnografica/article/view/44123",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/es-ribarteme-ataudes/etnografica-44123.txt",
+       "quote": "En este artículo pretendo describir etnográficamente este rito realizado por última, con el beneplácito de la iglesia, en 2019."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_2023_partial",
+     "claim_ko": "3년 공백(팬데믹 2·신부 반대 1) 뒤 2023 부분 재개",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.laestrella.com.pa/vida-y-cultura/curiosidades/pueblo-espanol-ataudes-salen-procesion-celebrar-vida-JELE495639",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/es-ribarteme-ataudes/laestrella-efe.txt",
+       "quote": "Después de tres años sin celebrarse -dos por la pandemia y otro por la negativa del cura-"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_2023_road",
+     "claim_ko": "관이 성당 아닌 도로에서 출발",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.laestrella.com.pa/vida-y-cultura/curiosidades/pueblo-espanol-ataudes-salen-procesion-celebrar-vida-JELE495639",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/es-ribarteme-ataudes/laestrella-efe.txt",
+       "quote": "Antes salían desde dentro de la iglesia, pero ahora lo hacen desde la carretera, sin ni siquiera tener contacto con el atrio."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_2023_date",
+     "claim_ko": "EFE 기사 날짜 2023-07-29",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.laestrella.com.pa/vida-y-cultura/curiosidades/pueblo-espanol-ataudes-salen-procesion-celebrar-vida-JELE495639",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/es-ribarteme-ataudes/laestrella-efe.txt",
+       "quote": "29/07/2023 18:23"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_2025_denied",
+     "claim_ko": "2025년 관 탑승 불허 사례",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://wildhunt.org/2025/08/priest-calls-coffin-procession-witchcraft-and-demands-it-be-stopped.html",
+       "path": "tools/research/workflow/batches/priority-editorial-20261012/evidence/es-ribarteme-ataudes/wildhunt-2025.txt",
+       "quote": "Though denied permission to ride inside a coffin"
+      }
+     ]
+    }
+   ]
+  },
+  "native:fr-catherinettes": {
+   "candidate_key": "fr-catherinettes",
+   "source_record_path": "tools/research/workflow/batches/native-languages-20261012/records.json",
+   "sourceUrl": "https://www.slate.fr/story/256803/tradition-catherinettes-fete-sainte-catherine-25-novembre-filles-femmes-celibataires-mariage",
+   "claims": [
+    {
+     "claim_id": "date_fixed",
+     "claim_ko": "매년 11월 25일 고정",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "icalendrier",
+       "url": "https://icalendrier.fr/fetes/sainte-catherine",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/fr-catherinettes/icalendrier.txt",
+       "quote": "La date est fixe, elle a lieu le 25 novembre de chaque année.",
+       "quote_ko": "날짜는 고정이며 매년 11월 25일이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "who_hat",
+     "claim_ko": "25세 이상 미혼 여성을 카트리네트라 부르고 초록·노랑 모자를 준다",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "slate-2023",
+       "url": "https://www.slate.fr/story/256803/tradition-catherinettes-fete-sainte-catherine-25-novembre-filles-femmes-celibataires-mariage-sexisme-stigmatisation",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/fr-catherinettes/slate-2023.txt",
+       "quote": "on n'a plus célébré que les 25 ans et plus, en les appelant les catherinettes si elles étaient toujours célibataires et en leur offrant un chapeau vert et jaune.",
+       "quote_ko": "점차 25세 이상만 축하하게 되었고, 여전히 미혼이면 카트리네트라 부르며 초록·노랑 모자를 선물했다."
+      }
+     ]
+    },
+    {
+     "claim_id": "origin_period",
+     "claim_ko": "기원 시점: 중세(민족학자) vs 16세기(지역 뉴스)",
+     "verdict": "conflicting",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "slate-2023",
+       "url": "https://www.slate.fr/story/256803/tradition-catherinettes-fete-sainte-catherine-25-novembre-filles-femmes-celibataires-mariage-sexisme-stigmatisation",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/fr-catherinettes/slate-2023.txt",
+       "quote": "La tradition des catherinettes est fêtée en France depuis le Moyen Âge.",
+       "quote_ko": "카트리네트 전통은 프랑스에서 중세부터 기념되어 왔다."
+      },
+      {
+       "evidence_id": "macommune-origine",
+       "url": "https://www.macommune.info/les-catherninettes-dou-vient-cette-tradition-153449",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/fr-catherinettes/macommune-origine.txt",
+       "quote": "Depuis le XVIe siècle, le 25 novembre, on fête les Catherinettes",
+       "quote_ko": "16세기부터 11월 25일에 카트리네트를 축하한다"
+      }
+     ]
+    },
+    {
+     "claim_id": "regional_scope",
+     "claim_ko": "북부·그랑테스트·누벨아키텐 일부에서 여전히 살아 있는 지역 전통",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "slate-2023",
+       "url": "https://www.slate.fr/story/256803/tradition-catherinettes-fete-sainte-catherine-25-novembre-filles-femmes-celibataires-mariage-sexisme-stigmatisation",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/fr-catherinettes/slate-2023.txt",
+       "quote": "Sauf dans le nord de la France, mais aussi dans certaines localités du Grand-Est et de la Nouvelle-Aquitaine, où la tradition des catherinettes non mariées est toujours vivace.",
+       "quote_ko": "다만 프랑스 북부, 그리고 그랑테스트·누벨아키텐 일부 지역에서는 미혼 카트리네트 전통이 여전히 살아 있다."
+      }
+     ]
+    },
+    {
+     "claim_id": "patron_milliners",
+     "claim_ko": "성녀 카트린은 재봉사·모자 장인의 수호성인",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "slate-2023",
+       "url": "https://www.slate.fr/story/256803/tradition-catherinettes-fete-sainte-catherine-25-novembre-filles-femmes-celibataires-mariage-sexisme-stigmatisation",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/fr-catherinettes/slate-2023.txt",
+       "quote": "sainte Catherine est également la patronne des couturières et des modistes.",
+       "quote_ko": "성녀 카트린은 재봉사와 모자 장인의 수호성인이기도 하다."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_coiffer",
+     "claim_ko": "성녀상 머리 장식을 갈며 결혼 기원",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.macommune.info/les-catherninettes-dou-vient-cette-tradition-153449",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/fr-catherinettes/macommune-origine.txt",
+       "quote": "En effet, la tradition voulait que les jeunes femmes renouvellent la coiffure de la statue de la sainte dans les églises."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_colors_clash",
+     "claim_ko": "어울리지 않는 초록·노랑",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.macommune.info/les-catherninettes-dou-vient-cette-tradition-153449",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/fr-catherinettes/macommune-origine.txt",
+       "quote": "portent un chapeau de couleurs qui ne s'accordent pas, le vert et le jaune"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_stigma",
+     "claim_ko": "미혼 표시 모자는 즐거움~수치의 낙인",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.slate.fr/story/256803/tradition-catherinettes-fete-sainte-catherine-25-novembre-filles-femmes-celibataires-mariage-sexisme-stigmatisation",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/fr-catherinettes/slate-2023.txt",
+       "quote": "une stigmatisation qui pouvait être vécue de bien des façons, allant de l'amusement à la honte"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_critique",
+     "claim_ko": "성별 낙인·미혼 압박으로 불편",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.slate.fr/story/256803/tradition-catherinettes-fete-sainte-catherine-25-novembre-filles-femmes-celibataires-mariage-sexisme-stigmatisation",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/fr-catherinettes/slate-2023.txt",
+       "quote": "Entre stigmatisation de genre, hétérocentrisme, références inappropriées à la vie conjugale auprès de très jeunes enfants et pression voire humiliation sur les célibataires, la Sainte-Catherine a de quoi mettre mal à l'aise."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_shift_girls",
+     "claim_ko": "미혼이 부끄럽지 않게 되며 어린 소녀의 날로, 소년은 성 니콜라",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.slate.fr/story/256803/tradition-catherinettes-fete-sainte-catherine-25-novembre-filles-femmes-celibataires-mariage-sexisme-stigmatisation",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/fr-catherinettes/slate-2023.txt",
+       "quote": "Comme il n'est plus honteux aujourd'hui d'être célibataire, il y a eu un glissement de la Sainte-Catherine vers les petites filles."
+      }
+     ]
+    }
+   ]
+  },
+  "native:fr-fete-des-grands-meres": {
+   "candidate_key": "fr-fete-des-grands-meres",
+   "source_record_path": "tools/research/workflow/batches/native-languages-20261012/records.json",
+   "sourceUrl": "https://www.laposte.fr/fetes-des-grands-meres",
+   "claims": [
+    {
+     "claim_id": "date_rule",
+     "claim_ko": "매년 3월 첫째 일요일",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "icalendrier",
+       "url": "https://icalendrier.fr/fetes/fete-des-grands-meres",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/fr-fete-des-grands-meres/icalendrier.txt",
+       "quote": "La date est variable, chaque année elle a lieu le 1er dimanche de mars.",
+       "quote_ko": "날짜는 해마다 바뀌며 매년 3월 첫째 일요일이다."
+      },
+      {
+       "evidence_id": "laposte",
+       "url": "https://www.laposte.fr/fetes-des-grands-meres",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/fr-fete-des-grands-meres/laposte.txt",
+       "quote": "En France la date de la Fête des grands-mères est fixée au premier dimanche du mois de mars.",
+       "quote_ko": "프랑스에서 할머니의 날은 3월 첫째 일요일로 정해져 있다."
+      }
+     ]
+    },
+    {
+     "claim_id": "founder_1987",
+     "claim_ko": "1987년 카페 그랑메르가 만들었다",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "icalendrier",
+       "url": "https://icalendrier.fr/fetes/fete-des-grands-meres",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/fr-fete-des-grands-meres/icalendrier.txt",
+       "quote": "elle a été créée en 1987 par une marque de l'industrie agroalimentaire, le café Grand'Mère",
+       "quote_ko": "1987년 식품업계 브랜드인 카페 그랑메르가 만들었다"
+      }
+     ]
+    },
+    {
+     "claim_id": "awareness_1997",
+     "claim_ko": "1997년 인지도 83%, 브랜드 연결 6%",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "icalendrier",
+       "url": "https://icalendrier.fr/fetes/fete-des-grands-meres",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/fr-fete-des-grands-meres/icalendrier.txt",
+       "quote": "en 1997, 83% des personnes interrogées connaissaient la fête, mais seulement 6% d'entre elles l'associaient à la marque",
+       "quote_ko": "1997년 응답자의 83%가 이 날을 알았지만 그중 6%만 브랜드와 연결 지었다"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_laposte_1987",
+     "claim_ko": "1987 르네 모니에, 홍보 목적(라포스트)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.laposte.fr/fetes-des-grands-meres",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/fr-fete-des-grands-meres/laposte.txt",
+       "quote": "Créée en 1987 par René Monnier le fondateur de la célèbre marque de café « Grand’Mère », cette célébration avait alors pour but de promouvoir l’enseigne et booster ses ventes."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_dates_2026_2028",
+     "claim_ko": "2026-03-01, 2027-03-07, 2028-03-05",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.laposte.fr/fetes-des-grands-meres",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/fr-fete-des-grands-meres/laposte.txt",
+       "quote": "- Date Fête des grands-mères 2028 : dimanche 5 mars 2028 ;"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_association",
+     "claim_ko": "1987 비영리 협회, 크래프트 푸드 주도",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://icalendrier.fr/fetes/fete-des-grands-meres",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/fr-fete-des-grands-meres/icalendrier.txt",
+       "quote": "Cette association, initiative de Kraft Food (devenu Mondelēz Int.)"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_school_gifts",
+     "claim_ko": "어린이들이 학교 선생님과 선물 제작",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.laposte.fr/fetes-des-grands-meres",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/fr-fete-des-grands-meres/laposte.txt",
+       "quote": "Les jeunes enfants pourront, sans doute, compter sur leurs maîtresses d’école pour confectionner des objets"
+      }
+     ]
+    }
+   ]
+  },
+  "native:pl-dzien-chlopaka": {
+   "candidate_key": "pl-dzien-chlopaka",
+   "source_record_path": "tools/research/workflow/batches/native-languages-20261012/records.json",
+   "sourceUrl": "https://www.wroclaw.pl/dla-mieszkanca/dzien-chlopaka-kiedy-wypada-propozycje-prezentow",
+   "claims": [
+    {
+     "claim_id": "date",
+     "claim_ko": "폴란드에서 매년 9월 30일",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "wroclaw-pl",
+       "url": "https://www.wroclaw.pl/dla-mieszkanca/dzien-chlopaka-kiedy-wypada-propozycje-prezentow",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/pl-dzien-chlopaka/wroclaw-pl.txt",
+       "quote": "Dzień Chłopaka to święto, które w Polsce co roku obchodzimy 30 września.",
+       "quote_ko": "소년의 날은 폴란드에서 매년 9월 30일에 기념하는 날이다."
+      },
+      {
+       "evidence_id": "rmf24",
+       "url": "https://www.rmf24.pl/fakty/polska/news-kiedy-wypada-dzien-chlopaka-jaki-prezent-bedzie-najlepszy,nId,5508202",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/pl-dzien-chlopaka/rmf24.txt",
+       "quote": "W Polsce Dzień Chłopaka przypada 30 września.",
+       "quote_ko": "폴란드에서 소년의 날은 9월 30일이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "origin_conflated",
+     "claim_ko": "기원 설명이 국제 남성의 날(11/19, 1999 트리니다드토바고)과 뒤섞임",
+     "verdict": "conflicting",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "wroclaw-pl",
+       "url": "https://www.wroclaw.pl/dla-mieszkanca/dzien-chlopaka-kiedy-wypada-propozycje-prezentow",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/pl-dzien-chlopaka/wroclaw-pl.txt",
+       "quote": "Dzień Chłopaka pierwszy raz na świecie był celebrowany 19 listopada 1999 r.",
+       "quote_ko": "소년의 날은 1999년 11월 19일 세계에서 처음 기념됐다."
+      },
+      {
+       "evidence_id": "rmf24",
+       "url": "https://www.rmf24.pl/fakty/polska/news-kiedy-wypada-dzien-chlopaka-jaki-prezent-bedzie-najlepszy,nId,5508202",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/pl-dzien-chlopaka/rmf24.txt",
+       "quote": "To relatywnie młode święto, ustanowione w 1999 roku z inicjatywy ONZ i grupy aktywistów w Trynidadzie i Tobago.",
+       "quote_ko": "1999년 유엔과 트리니다드토바고 활동가들의 주도로 만들어진 비교적 새로운 기념일이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_counterpart_women",
+     "claim_ko": "3월 8일 여성의 날에 대응하는 날",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.rmf24.pl/fakty/polska/news-kiedy-wypada-dzien-chlopaka-jaki-prezent-bedzie-najlepszy,nId,5508202",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/pl-dzien-chlopaka/rmf24.txt",
+       "quote": "Dzień Chłopaka to odpowiednik obchodzonego 8 marca Dnia Kobiet."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_who_receives",
+     "claim_ko": "파트너·아버지·동료가 선물과 축하를 받음",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.wroclaw.pl/dla-mieszkanca/dzien-chlopaka-kiedy-wypada-propozycje-prezentow",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/pl-dzien-chlopaka/wroclaw-pl.txt",
+       "quote": "Tego dnia partnerzy, ojcowie i koledzy otrzymują prezenty oraz życzenia od kobiet."
+      }
+     ]
+    }
+   ]
+  },
+  "native:pl-topienie-marzanny": {
+   "candidate_key": "pl-topienie-marzanny",
+   "source_record_path": "tools/research/workflow/batches/native-languages-20261012/records.json",
+   "sourceUrl": "https://www.eska.pl/wiadomosci/topienie-marzanny-kiedy-sie-odbywa-skad-wzial-sie-zwyczaj-i-co-oznacza-poznajcie-odpowiedzi-aa-wjXt-5ZuC-nV8f.html",
+   "claims": [
+    {
+     "claim_id": "date_school",
+     "claim_ko": "오늘날 주로 3월 21일 봄 첫날, 단 규칙은 아님",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "eska",
+       "url": "https://www.eska.pl/wiadomosci/topienie-marzanny-kiedy-sie-odbywa-skad-wzial-sie-zwyczaj-i-co-oznacza-poznajcie-odpowiedzi-aa-8dQb-upUW-GRZW.html",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/pl-topienie-marzanny/eska.txt",
+       "quote": "Dziś najczęściej dzieci odprowadzające kukłę marzanny można spotkać w pierwszy dzień wiosny - 21. marca, ale nie jest to regułą.",
+       "quote_ko": "오늘날 마르자나 인형을 끌고 가는 아이들은 대개 봄의 첫날인 3월 21일에 볼 수 있지만, 규칙은 아니다."
+      }
+     ]
+    },
+    {
+     "claim_id": "goddess",
+     "claim_ko": "마르자나는 슬라브 신앙의 겨울·죽음의 여신",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "eska",
+       "url": "https://www.eska.pl/wiadomosci/topienie-marzanny-kiedy-sie-odbywa-skad-wzial-sie-zwyczaj-i-co-oznacza-poznajcie-odpowiedzi-aa-8dQb-upUW-GRZW.html",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/pl-topienie-marzanny/eska.txt",
+       "quote": "Kukła przygotowywana przez dzieci jest podobizną Marzanny, czyli starosłowiańskiej bogini zimy i śmierci.",
+       "quote_ko": "아이들이 만드는 인형은 고대 슬라브의 겨울·죽음의 여신 마르자나의 형상이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "secondary_custom",
+     "claim_ko": "체신 실레시아에선 3월 21일 익사는 20세기 후반 TV가 퍼뜨린 2차 풍습",
+     "verdict": "conflicting",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "ox-pl-witaj-wiosno",
+       "url": "https://wiadomosci.ox.pl/witaj-wiosno-witej-jor,86704/pdf",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/pl-topienie-marzanny/ox-pl-witaj-wiosno.txt",
+       "quote": "21 marca, w dzień początku wiosny, jest zwyczajem wtórnym, nie autentycznym, upowszechnianym od 2 poł.",
+       "quote_ko": "3월 21일 봄의 시작일에 (인형을 익사시키는 것은) 고유하지 않은 2차적 풍습으로, 20세기 후반부터 퍼졌다."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_school_teachers",
+     "claim_ko": "학생들이 교사 인솔로 물가에 던짐, 지금은 놀이",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.eska.pl/wiadomosci/topienie-marzanny-kiedy-sie-odbywa-skad-wzial-sie-zwyczaj-i-co-oznacza-poznajcie-odpowiedzi-aa-8dQb-upUW-GRZW.html",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/pl-topienie-marzanny/eska.txt",
+       "quote": "Najczęściej biorą w nim udział dzieci szkolne, które przygotowują barwnie przystrojoną kukłę, by później, pod opieką nauczycieli, udać się nad rzekę lub staw, gdzie lalka jest wrzucana do wody."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_straw_ribbons",
+     "claim_ko": "짚·천·리본, 노래하며 마을 밖으로",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.eska.pl/wiadomosci/topienie-marzanny-kiedy-sie-odbywa-skad-wzial-sie-zwyczaj-i-co-oznacza-poznajcie-odpowiedzi-aa-8dQb-upUW-GRZW.html",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/pl-topienie-marzanny/eska.txt",
+       "quote": "Kukłę wykonywano ze słomy, owijano płótnem i dekorowano kolorowymi wstążkami."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_power",
+     "claim_ko": "형상 파괴로 겨울의 힘 제거 믿음",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.eska.pl/wiadomosci/topienie-marzanny-kiedy-sie-odbywa-skad-wzial-sie-zwyczaj-i-co-oznacza-poznajcie-odpowiedzi-aa-8dQb-upUW-GRZW.html",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/pl-topienie-marzanny/eska.txt",
+       "quote": "Zniszczenie podobizny bogini było jednoznaczne z odebraniem jej mocy i usunięciem wywołanych przez nią efektów, czyli zimy."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_cieszyn_unknown",
+     "claim_ko": "체신 지역엔 원래 마르자나 풍습 없음",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://wiadomosci.ox.pl/witaj-wiosno-witej-jor,86704/pdf",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/pl-topienie-marzanny/ox-pl-witaj-wiosno.txt",
+       "quote": "na ziemi cieszyńskiej nie był znany, a jej topienie"
+      }
+     ]
+    }
+   ]
+  },
+  "native:th-nai-khanom-tom": {
+   "candidate_key": "th-nai-khanom-tom",
+   "source_record_path": "tools/research/workflow/batches/native-languages-20261012/records.json",
+   "sourceUrl": "https://www.thairath.co.th/news/881791",
+   "claims": [
+    {
+     "claim_id": "date",
+     "claim_ko": "매년 3월 17일을 '나이카놈똠, 무에타이 스승의 날'로 삼는다",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "thairath",
+       "url": "https://www.thairath.co.th/news/881791",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/th-nai-khanom-tom/thairath.txt",
+       "quote": "เราจึงถือเอาวันที่ 17 มีนาคม เป็น “วันนายขนมต้ม บรมครูมวยไทย” มาตราบจนทุกวันนี้",
+       "quote_ko": "그래서 우리는 3월 17일을 '나이카놈똠, 무에타이 스승의 날'로 삼아 오늘에 이른다"
+      }
+     ]
+    },
+    {
+     "claim_id": "boxing_day",
+     "claim_ko": "3월 17일을 무에타이의 날로 정한 적이 있다",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "gotoknow-710282",
+       "url": "https://www.gotoknow.org/posts/710282",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/th-nai-khanom-tom/gotoknow-710282.txt",
+       "quote": "ได้เคยมีการจัดให้วันที่ 17 มีนาคม เป็นวันมวยไทยเพื่อเป็นเกียรติประวัติต่อนักมวยไทย",
+       "quote_ko": "3월 17일을 무에타이의 날로 정해 태국 권투가들을 기린 적이 있다"
+      }
+     ]
+    },
+    {
+     "claim_id": "legend_status",
+     "claim_ko": "태국 연대기에 처음 나오나 다른 기록엔 없다(전설)",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "gotoknow-710282",
+       "url": "https://www.gotoknow.org/posts/710282",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/th-nai-khanom-tom/gotoknow-710282.txt",
+       "quote": "เรื่องราวของนายขนมต้ม ปรากฏครั้งแรกในพระราชพงศาวดาร ฉบับสมเด็จพระพนรัตน์ วัดพระเชตุพน ฉบับตัวเขียน",
+       "quote_ko": "나이카놈똠 이야기는 왓포 솜뎃 프라 파나랏 판 왕실 연대기 필사본에 처음 나타난다"
+      },
+      {
+       "evidence_id": "gotoknow-710282",
+       "url": "https://www.gotoknow.org/posts/710282",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/th-nai-khanom-tom/gotoknow-710282.txt",
+       "quote": "แต่เมื่อเปรียบเทียบกับหลักฐานอื่นๆ แล้ว ไม่ปรากฏพบเรื่องราวของนายขนมต้มแต่อย่างใด",
+       "quote_ko": "그러나 다른 사료와 비교하면 나이카놈똠 이야기는 전혀 보이지 않는다"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_shwedagon_2317",
+     "claim_ko": "불기 2317년 3월 17일 쉐다곤 첨탑 우산 봉헌",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.thairath.co.th/news/881791",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/th-nai-khanom-tom/thairath.txt",
+       "quote": "พร้อมทั้งการทำพิธียกฉัตรใหญ่ขึ้นไว้บนยอดเจดีย์เป็นปฐมฤกษ์ เมื่อวันที่ 17 มีนาคม พ.ศ.2317"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_pow_ayutthaya",
+     "claim_ko": "두 번째 아유타야 함락 때의 포로",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.thairath.co.th/news/881791",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/th-nai-khanom-tom/thairath.txt",
+       "quote": "เชลยศึกจากกรุงศรีอยุธยาแตก ครั้งที่ 2"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_ten_wins",
+     "claim_ko": "버마 권투가 10명 연승(연대기 일화)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.thairath.co.th/news/881791",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/th-nai-khanom-tom/thairath.txt",
+       "quote": "ปรากฏว่า นายขนมต้มสามารถชกเอาชนะนักมวยพม่าได้ติดต่อถึง 10 คนด้วยกัน"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_freedom",
+     "claim_ko": "보상 사양, 포로 석방 요청(칼럼 서술)",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.thairath.co.th/news/881791",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/th-nai-khanom-tom/thairath.txt",
+       "quote": "แต่นายขนมต้มปฏิเสธและทูลขอให้พระองค์ทรงปลดปล่อยตนและเชลยศึกคนไทยทั้งหมดให้เป็นอิสรภาพกลับบ้านเกิด"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_doubt",
+     "claim_ko": "실존하지 않았다는 시각도",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.gotoknow.org/posts/710282",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/th-nai-khanom-tom/gotoknow-710282.txt",
+       "quote": "บ้างก็ว่าไม่มีจริง"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_2017_event",
+     "claim_ko": "2017-03-17 아유타야 중앙경기장 대회",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.thairath.co.th/news/881791",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/th-nai-khanom-tom/thairath.txt",
+       "quote": "ในวันศุกร์ที่ 17 มีนาคม 60 นี้ ที่เวทีมวยชั่วคราวสนามกีฬากลางอยุธยา"
+      }
+     ]
+    }
+   ]
+  },
+  "native:tr-hidirellez": {
+   "candidate_key": "tr-hidirellez",
+   "source_record_path": "tools/research/workflow/batches/native-languages-20261012/records.json",
+   "sourceUrl": "https://ich.unesco.org/en/RL/spring-celebration-of-hdrellez-01284",
+   "claims": [
+    {
+     "claim_id": "date_unesco",
+     "claim_ko": "매년 5월 6일(UNESCO), 2017년 대표목록 등재",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "unesco-ich",
+       "url": "https://ich.unesco.org/en/RL/spring-celebration-of-hdrellez-01284",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/tr-hidirellez/unesco-ich.txt",
+       "quote": "The Spring Celebration ‘Hidrellez’ takes place annually on 6 May",
+       "quote_ko": "봄맞이 축제 흐드렐레즈는 매년 5월 6일에 열린다"
+      },
+      {
+       "evidence_id": "unesco-ich",
+       "url": "https://ich.unesco.org/en/RL/spring-celebration-of-hdrellez-01284",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/tr-hidirellez/unesco-ich.txt",
+       "quote": "Inscribed in 2017 (12.COM) on the Representative List of the Intangible Cultural Heritage of Humanity",
+       "quote_ko": "2017년(제12차 위원회) 인류무형문화유산 대표목록에 등재"
+      }
+     ]
+    },
+    {
+     "claim_id": "night_5_6",
+     "claim_ko": "5월 5일에서 6일로 넘어가는 밤에 기념",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "medyascope-2026",
+       "url": "https://medyascope.tv/2026/05/05/hidirellez-nedir-hidirellez-rituelleri-nelerdir/",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/tr-hidirellez/medyascope-2026.txt",
+       "quote": "Hıdırellez, her yıl 5 Mayıs’ı 6 Mayıs’a bağlayan gece kutlanan, baharın gelişini simgeleyen köklü bir gelenektir.",
+       "quote_ko": "흐드렐레즈는 매년 5월 5일에서 6일로 넘어가는 밤에 기념하는, 봄의 도래를 상징하는 오랜 전통이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "rose_wish",
+     "claim_ko": "소원을 종이에 그려 장미나무 가지에 묶거나 밑에 묻는다",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "haberturk",
+       "url": "https://www.haberturk.com/asirlardir-kutlanan-renkli-bulusma-hidirellez-2667297",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/tr-hidirellez/haberturk.txt",
+       "quote": "Hıdırellez öncesindeki günün akşamı vatandaşlar ev, araba, çocuk gibi dileklerini bir kağıda çizerek gül ağacının dalına bağlıyor",
+       "quote_ko": "흐드렐레즈 전날 저녁 사람들은 집·차·아이 같은 소원을 종이에 그려 장미나무 가지에 묶는다"
+      }
+     ]
+    },
+    {
+     "claim_id": "season_split",
+     "claim_ko": "5/6~11/7 '흐즈르의 날들(여름)', 11/8~5/5 '카슴의 날들(겨울)'",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "medyascope-2026",
+       "url": "https://medyascope.tv/2026/05/05/hidirellez-nedir-hidirellez-rituelleri-nelerdir/",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/tr-hidirellez/medyascope-2026.txt",
+       "quote": "6 Mayıs’tan 7 Kasım’a kadar olan dönem “Hızır günleri” yani yaz, 8 Kasım’dan 5 Mayıs’a kadar olan dönem ise “Kasım günleri” yani kış olarak kabul ediliyor.",
+       "quote_ko": "5월 6일부터 11월 7일까지는 '흐즈르의 날들' 즉 여름, 11월 8일부터 5월 5일까지는 '카슴의 날들' 즉 겨울로 여겨진다."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_protectors",
+     "claim_ko": "흐즈르·일리야스=땅·물의 수호자, 어려운 이 도움",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://ich.unesco.org/en/RL/spring-celebration-of-hdrellez-01284",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/tr-hidirellez/unesco-ich.txt",
+       "quote": "which are believed to be the protectors of earth and water and the helpers of individuals, families and communities in need of them"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_coins",
+     "claim_ko": "풍요 기원 동전 묻기",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.haberturk.com/asirlardir-kutlanan-renkli-bulusma-hidirellez-2667297",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/tr-hidirellez/haberturk.txt",
+       "quote": "Bereket getireceğine inanıldığı için gül ağacının dibine para da gömülüyor."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_rituals",
+     "claim_ko": "모닥불·물로 씻기 등 의례",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://medyascope.tv/2026/05/05/hidirellez-nedir-hidirellez-rituelleri-nelerdir/",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/tr-hidirellez/medyascope-2026.txt",
+       "quote": "En yaygın ritüeller arasında gül ağacına dilek bırakmak, ateşten atlamak, suyla arınmak, sağlık bilekliği takmak ve bereket kesesi hazırlamak yer alır."
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_regions_names",
+     "claim_ko": "이라크·시리아·발칸, 여러 이름",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://www.haberturk.com/asirlardir-kutlanan-renkli-bulusma-hidirellez-2667297",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/tr-hidirellez/haberturk.txt",
+       "quote": "Irak, Suriye ve Balkan ülkelerinde de kutlandığını"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_joint_nm",
+     "claim_ko": "공동 등재국 북마케도니아",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://ich.unesco.org/en/RL/spring-celebration-of-hdrellez-01284",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/tr-hidirellez/unesco-ich.txt",
+       "quote": "North Macedonia"
+      }
+     ]
+    }
+   ]
+  },
+  "native:tw-520": {
+   "candidate_key": "tw-520",
+   "source_record_path": "tools/research/workflow/batches/native-languages-20261012/records.json",
+   "sourceUrl": "https://news.pts.org.tw/article/479653",
+   "claims": [
+    {
+     "claim_id": "pun_date",
+     "claim_ko": "5월 20일이 '사랑해'와 발음이 비슷해 혼인신고 인기일",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "ltn",
+       "url": "https://news.ltn.com.tw/news/life/breakingnews/5443802",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/tw-520/ltn.txt",
+       "quote": "5月20日諧音「我愛你」，成為不少新人心中最具紀念意義的浪漫日子",
+       "quote_ko": "5월 20일은 발음이 '사랑해'와 같아 많은 신혼부부에게 가장 기념할 만한 낭만적인 날이 됐다"
+      }
+     ]
+    },
+    {
+     "claim_id": "2020_record",
+     "claim_ko": "2020-05-20 전국 6,007쌍 혼인신고(내정부 통계)",
+     "verdict": "supported_by_original",
+     "scope": "origin_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": "pts-news",
+       "url": "https://news.pts.org.tw/article/479653",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/tw-520/pts-news.txt",
+       "quote": "內政部統計，全台當天共有6007對新人辦理結婚",
+       "quote_ko": "내정부 통계에 따르면 그날 전국에서 6,007쌍이 혼인 신고를 했다"
+      },
+      {
+       "evidence_id": "pts-news",
+       "url": "https://news.pts.org.tw/article/479653",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/tw-520/pts-news.txt",
+       "quote": "2020520的諧音，剛好是「愛你愛你我愛你」",
+       "quote_ko": "2020520의 발음은 마침 '사랑해 사랑해 나는 너를 사랑해'와 같다"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_same_sex_209",
+     "claim_ko": "2020: 이성 5,798·동성 209쌍, 동성혼 1주년",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://news.pts.org.tw/article/479653",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/tw-520/pts-news.txt",
+       "quote": "包括異性婚姻5798對和同性婚姻209對"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_five_year_high",
+     "claim_ko": "최근 5년 최다",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://news.pts.org.tw/article/479653",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/tw-520/pts-news.txt",
+       "quote": "不過今年是近五年來人數最多的一次"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_tainan_2026",
+     "claim_ko": "2026-05-20 타이난 308쌍, 포토존·선물",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://news.ltn.com.tw/news/life/breakingnews/5443802",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/tw-520/ltn.txt",
+       "quote": "台南市今（20）日共有308對新人選在這天完成結婚登記，為迎接這「甜蜜時刻」，各戶政事務所精心打造浪漫拍照區"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_ltn_date",
+     "claim_ko": "자유시보 기사 2026-05-20",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://news.ltn.com.tw/news/life/breakingnews/5443802",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/tw-520/ltn.txt",
+       "quote": "2026/05/20 19:53"
+      }
+     ]
+    },
+    {
+     "claim_id": "pe_tongyun",
+     "claim_ko": "동성혼 1주년",
+     "verdict": "supported_by_original",
+     "scope": "this_batch",
+     "used": true,
+     "quotes": [
+      {
+       "evidence_id": null,
+       "url": "https://news.pts.org.tw/article/479653",
+       "path": "tools/research/workflow/batches/native-languages-20261012/evidence/tw-520/pts-news.txt",
+       "quote": "尤其今年剛好適逢同婚周年"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

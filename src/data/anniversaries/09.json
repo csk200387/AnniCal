@@ -2527,6 +2527,28 @@
     "sourceUrl": "https://ko.wikipedia.org/wiki/추분"
   },
   {
+    "id": "anv-term-chubun-cn-farmers-harvest-festival",
+    "date": "chubun-cn",
+    "dateType": "annual-tabulated",
+    "name": "중국 농민 풍수절",
+    "category": "career",
+    "tags": [
+      "직업 & 감사"
+    ],
+    "storytelling": {
+      "origin": "추분은 중국이 2018년부터 지키는 ‘중국 농민 풍수절(中国农民丰收节)’이다. 중국 공산당 중앙의 비준과 국무원의 비복을 거쳐 매년 추분을 농민의 명절로 정했고, 당시 농업농촌부 장관은 국가 차원에서 처음으로 농민만을 위해 만든 명절이라고 밝혔다. 2026년에는 9월 23일에 제9회 풍수절 행사가 각지에서 열렸다.",
+      "anecdote": "한창푸 당시 농업농촌부 장관은 추분을 고른 이유로, 봄에 심고 가을에 거두는데 추분 무렵 열매가 가장 풍성해 수확을 잘 보여 주고 넓은 나라의 남북을 두루 아우를 수 있다는 점을 들었다. 2021년 제4회 때는 각지에서 공연과 농민 운동회, 서화전이 열렸고, 2026년 헤이룽장성 주행사장에서는 옥수수 껍질 벗기기 시합이 열렸다. 추분은 태양의 위치로 정해져 날짜가 해마다 조금씩 움직이고, 중국 표준시(UTC+8)로 따지면 한국과 날짜가 갈리는 해도 있다. 중국 표준시와 같은 시간대를 쓰는 홍콩천문대 연표로 2041년 추분은 9월 22일로, 한국 절기표의 9월 23일보다 하루 이르다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "가을의 한가운데, 수확한 사람이 주인공인 날"
+      }
+    ],
+    "sourceUrl": "https://www.gov.cn/zhengce/2018-06/22/content_5300368.htm"
+  },
+  {
     "id": "anv-fixed-09-24-punctuation-day-us",
     "date": "09-24",
     "dateType": "annual-fixed",
@@ -2569,6 +2591,28 @@
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/celebrations/national-cherries-jubilee-day-september-24"
+  },
+  {
+    "id": "anv-rel-chuseok-minus1-tai-hang-fire-dragon-hk",
+    "date": "lunar-08-14-hk",
+    "dateType": "annual-tabulated",
+    "name": "다이항 불용춤(홍콩)",
+    "category": "culture",
+    "tags": [
+      "문화 & 예술"
+    ],
+    "storytelling": {
+      "origin": "음력 8월 14일, 중추절 전날 밤은 홍콩 코즈웨이베이 다이항(大坑)에서 향을 촘촘히 꽂은 거대한 용을 메고 마을을 도는 ‘다이항 불용춤(大坑舞火龍)’이 시작되는 날이다. 중국 국가급 무형문화유산 소개에 따르면 이 행사는 중추절 앞뒤 사흘 밤, 곧 음력 8월 14일부터 16일까지 열린다. 14일 밤 관음을 모신 연화궁에서 새로 만든 용에 개광 의식을 한 뒤 사흘 밤 연이어 마을 거리를 돈다. 2026년 일정은 9월 24일부터 26일까지로 안내됐다.",
+      "anecdote": "전설에 따르면 청나라 광서 6년(1880년) 객가 마을이던 다이항에 역병이 돌자 주민들이 불용을 엮어 마을을 돌고 폭죽을 터뜨려 역병을 쫓았고, 이것이 풍습으로 굳었다. 무형유산 소개는 마지막 16일 밤 용이 반대 방향으로 마을을 한 바퀴 돈 뒤 바다에 던져지며 이를 ‘용이 하늘로 돌아간다(龍歸天)’고 부른다고 적었는데, 근년에는 바다 오염을 피하려고 소각로로 보낸다는 보도도 있다. 다이항 주민복리회가 전승을 맡고 있으며 2011년 국가급 무형문화유산 제3차 목록에 올랐다. 2026년 행사 안내는 길이 67m 용에 장수 향 1만 2천 개를 꽂고 300여 명이 함께 춤춘다고 소개했다. 날짜는 홍콩 음력을 따르므로 한국 추석과 하루 어긋나는 해도 있다. 홍콩천문대 연표로 2040년 음력 8월 14일은 9월 19일인데, 한국 추석의 전날은 9월 20일이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "달이 차오르는 사흘, 향불 용이 골목을 지나간다"
+      }
+    ],
+    "sourceUrl": "https://www.ihchina.cn/project_details/14936/"
   },
   {
     "id": "anv-fixed-09-25-comic-book-day-us",
@@ -3311,5 +3355,137 @@
     },
     "memes": [],
     "sourceUrl": "https://en.wikipedia.org/wiki/International_Translation_Day"
+  },
+  {
+    "id": "anv-fixed-09-21-earth-wind-and-fire-day-global",
+    "date": "09-21",
+    "dateType": "annual-fixed",
+    "name": "어스 윈드 앤 파이어 데이",
+    "category": "culture",
+    "storytelling": {
+      "origin": "9월 21일은 미국 밴드 어스 윈드 앤 파이어(Earth, Wind & Fire)의 히트곡 ‘September’ 첫 가사 ‘Do you remember the 21st night of September?’ 덕분에 이 노래를 찾아 듣는 날로 불리는 ‘어스 윈드 앤 파이어 데이’다. 2019년 미국 로스앤젤레스 시의회가 9월 21일을 ‘Earth, Wind & Fire Day’로 선언했고, 미국 공영라디오 NPR도 이날을 같은 이름으로 소개했다. LA의 도시 기념일 선언과 음악 팬들의 온라인 기념 관행을 구분할 필요가 있다.",
+      "anecdote": "가사 속 날짜에 특별한 의미가 있었던 것은 아니라고 작사가가 설명했다. 공동 작사가 앨리 윌리스는 2014년 NPR 인터뷰에서 21일이 다른 어떤 날짜보다 노래에 잘 붙었다는 것 말고는 의미가 없다고 말했다. 로스앤젤레스 시의원 마퀴스 해리스도슨은 밴드가 LA를 고향으로 삼았기 때문에 이날을 지정했다고 설명했고, 시의회는 멤버 랄프 존슨, 필립 베일리, 버딘 화이트에게 기념 증서를 건넸다. 밴드를 만든 모리스 화이트는 2016년 세상을 떠났다. 2019년 CNN 보도는 당시까지 이 밴드의 노래 33곡이 빌보드 핫100에 올랐고 그래미상을 여섯 번 받았다고 소개했다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "Do you remember? 오늘이 바로 그 21일 밤"
+      }
+    ],
+    "sourceUrl": "https://wsvn.com/entertainment/los-angeles-declared-september-21-earth-wind-fire-day/",
+    "tags": [
+      "문화 & 예술"
+    ]
+  },
+  {
+    "id": "anv-fixed-09-30-boys-day-pl",
+    "date": "09-30",
+    "dateType": "annual-fixed",
+    "name": "소년·남자친구의 날(폴란드)",
+    "category": "general",
+    "storytelling": {
+      "origin": "9월 30일은 폴란드에서 남자친구와 남학생, 아버지, 남성 동료에게 선물과 축하를 건네는 ‘젠 흐워파카(Dzień Chłopaka)’다. 브로츠와프시 생활 정보 페이지는 매년 이날을 기념한다고 안내한다. RMF24는 3월 8일 여성의 날에 대응하는 날로 소개하며, 학생·청소년·대학생 등 비교적 젊은 남성이 주로 챙긴다고 설명한다. 최초 제정 시기와 주체는 저장 자료만으로 확정하기 어렵다.",
+      "anecdote": "브로츠와프시 생활 정보 페이지는 이날 파트너, 아버지, 동료가 선물과 축하를 받는다고 소개한다. 다만 같은 페이지의 기원 설명은 9월 30일 날짜를 안내한 뒤 첫 개최를 1999년 11월 19일로 적고 국제 남성의 날과 연결한다. 이 내용만으로 폴란드의 9월 30일 기념일이 언제 시작됐는지는 알 수 없어, 제정 연도와 주체는 본문에서 단정하지 않는다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "3월 8일에 받은 마음, 9월 30일에 돌려주기"
+      }
+    ],
+    "sourceUrl": "https://www.wroclaw.pl/dla-mieszkanca/dzien-chlopaka-kiedy-wypada-propozycje-prezentow",
+    "tags": [
+      "일반"
+    ]
+  },
+  {
+    "id": "anv-fixed-09-14-hindi-diwas-in",
+    "date": "09-14",
+    "dateType": "annual-fixed",
+    "name": "힌디어의 날(인도)",
+    "category": "culture",
+    "storytelling": {
+      "origin": "9월 14일은 인도의 ‘힌디어의 날(Hindi Diwas)’이다. 1949년 9월 14일 인도 제헌의회가 데바나가리 문자로 쓰는 힌디어를 인도 연방의 공용어(라즈바샤)로 정한 날을 기념한다. 힌디어 신문 나브바라트는 첫 힌디어의 날이 1953년 9월 14일에 열렸다고 전한다.",
+      "anecdote": "힌디어 신문 나브바라트는 마하트마 간디가 힌디어를 대중의 언어라고 부르며 나라의 국어로 삼자고 권했다고 소개한다. 시험 시사 해설 매체 드리슈티는 힌디어 발전을 위한 ‘라즈바샤 가우라브상’과 ‘라즈바샤 키르티상’, 자기주도 학습 도구 ‘릴라-라즈바샤’를 정부의 힌디어 진흥 사례로 소개한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "데바나가리로 써 보는 오늘의 첫 문장"
+      }
+    ],
+    "sourceUrl": "https://www.drishtiias.com/hindi/daily-updates/prelims-facts/hindi-diwas-1/print/manual",
+    "tags": [
+      "문화 & 예술"
+    ]
+  },
+  {
+    "id": "anv-nth-09-3-mon-respect-for-the-aged-day-jp",
+    "date": "09-3-MON",
+    "dateType": "annual-nth-weekday",
+    "name": "경로의 날(일본)",
+    "category": "holiday",
+    "storytelling": {
+      "origin": "9월 셋째 월요일은 오랫동안 사회에 이바지해 온 노인을 공경하고 장수를 축하하는 일본의 국민 축일 ‘경로의 날(敬老の日)’이다. 1966년 축일법 개정으로 9월 15일이 경로의 날이 됐고, 2003년부터 이른바 ‘해피 먼데이’ 제도로 9월 셋째 월요일로 옮겨져 해마다 9월 15~21일 사이에 온다. 2026년에는 9월 21일이었다.",
+      "anecdote": "시작은 한 마을의 경로 행사였다. 시즈오카시에 따르면 패전 직후인 1947년 9월 15일 효고현 노마다니촌(지금의 다카정)에서 오랫동안 사회에 공헌한 노인에게 경의를 표하고 지식과 삶의 경험을 전해 듣는 자리로 경로 행사가 열렸다. 다카시마야 자료는 이듬해 9월 15일이 마을 고유의 ‘도시요리노히(노인의 날)’ 휴일이 됐고 1950년 효고현도 이날을 정했다고 전한다. 9월 15일을 노인의 날로 하자는 운동이 전국으로 퍼지자 일본 정부는 1963년 노인복지법에 ‘노인의 날’을 두었고, 3년 뒤 국민 축일이 됐다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "한 마을의 경로잔치가 온 나라의 휴일로"
+      }
+    ],
+    "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+    "tags": [
+      "공휴일"
+    ]
+  },
+  {
+    "id": "anv-fixed-09-16-malaysia-day-my",
+    "date": "09-16",
+    "dateType": "annual-fixed",
+    "name": "말레이시아의 날",
+    "category": "holiday",
+    "storytelling": {
+      "origin": "9월 16일은 1963년 말라야 연방과 북보르네오(사바), 사라왁, 싱가포르가 합쳐 말레이시아 연방을 이룬 날을 기리는 ‘말레이시아의 날(Hari Malaysia)’이다. Kosmo의 2021년 보도에 따르면 나집 라작 당시 총리가 2009년 의회에서 발표한 뒤 2010년부터 전국 공휴일이 됐다. 말라야의 8월 31일 독립기념일과는 다른 날이다.",
+      "anecdote": "Utusan Sarawak은 연방 결성이 처음에는 1963년 6월 1일로 계획됐다가 8월 31일로 미뤄졌으며, 최종 출범일은 9월 16일이었다고 설명한다. 연방 결성 협정은 그해 7월 9일 런던에서 체결됐다. 이 매체는 인도네시아의 군사적 대결이 1966년까지 이어졌고, 필리핀은 사바에 대한 권리를 주장했으며, 참여 예정이던 브루나이는 반란을 겪은 뒤 참여를 철회했다고 전한다. Kosmo는 2021년 정부가 당시 헌법 조항에 없던 ‘말레이시아의 날’을 헌법 개정안에 명시할 계획이라고 보도했다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "독립기념일과 생일이 따로 있는 나라"
+      }
+    ],
+    "sourceUrl": "https://www.kosmo.com.my/2021/10/23/isu-ma63-hari-malaysia-antara-pindaan-dalam-perlembagaan/",
+    "tags": [
+      "공휴일"
+    ]
+  },
+  {
+    "id": "anv-fixed-09-21-national-disaster-prevention-day-tw",
+    "date": "09-21",
+    "dateType": "annual-fixed",
+    "name": "국가방재일(대만)",
+    "category": "campaign",
+    "storytelling": {
+      "origin": "9월 21일은 대만의 ‘국가방재일(國家防災日)’이다. 1999년 9월 21일 난터우현 지지(集集)에서 발생한 ‘921 대지진’의 희생자를 기억하고 국민의 방재 의식을 높이는 날이다. 행정원은 매년 이날을 국가방재일로 정했다고 설명한다. NOWnews는 2000년대 초 ‘재해방구일(災害防救日)’이라는 이름을 거쳐 지금의 이름이 됐다고 소개한다.",
+      "anecdote": "행정원은 2024년 9월 12일 발표에서 그해 9월 20일 오전 9시 21분 대규모 지진을 가정한 ‘국가급 경보’를 전국 휴대전화에 보낼 계획이라고 밝혔다. TV 채널을 공영방송으로 자동 전환해 재난 안내를 전하는 훈련도 예고했다. 기념일인 9월 21일과 해당 연도의 훈련 실시 예정일은 구분해야 한다. NOWnews는 국가급 훈련을 통해 ‘엎드리고, 가리고, 버티기’라는 세 단계 지진 대응 요령을 알린다고 설명한다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "엎드리고, 가리고, 버티기를 몸에 익히는 날"
+      }
+    ],
+    "sourceUrl": "https://www.ey.gov.tw/Page/9277F759E41CCD91/0d22e326-069d-499f-885a-de190747e9b0",
+    "tags": [
+      "국제 캠페인 & 보건"
+    ]
   }
 ]

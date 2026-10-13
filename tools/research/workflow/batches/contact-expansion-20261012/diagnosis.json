@@ -1,0 +1,2603 @@
+{
+  "generated_at": "2026-10-11T22:44:36.645Z",
+  "production_items": 1756,
+  "years": {
+    "2026": {
+      "unresolved": [
+        "anv-fixed-02-29-fujiq-day-jp",
+        "anv-fixed-02-29-bachelors-day-ie"
+      ],
+      "histogram": {
+        "0": 0,
+        "1": 0,
+        "2": 49,
+        "3": 87
+      },
+      "sparse_le2": [
+        {
+          "date": "01-01",
+          "count": 2,
+          "nonFood": 2,
+          "items": [
+            "holiday:신정",
+            "campaign:세계 평화의 날(가톨릭)"
+          ]
+        },
+        {
+          "date": "01-06",
+          "count": 2,
+          "nonFood": 0,
+          "items": [
+            "food:쇼트브레드의 날",
+            "food:콩의 날"
+          ]
+        },
+        {
+          "date": "01-07",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "culture:보블헤드의 날",
+            "food:튀김(텐푸라)의 날"
+          ]
+        },
+        {
+          "date": "01-17",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "history:밀주업자의 날",
+            "food:핫 버터드 럼의 날"
+          ]
+        },
+        {
+          "date": "01-18",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "culture:곰돌이 푸의 날",
+            "food:베이징덕의 날"
+          ]
+        },
+        {
+          "date": "01-19",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:팝콘의 날",
+            "romance:핫데이(찜질방 데이)"
+          ]
+        },
+        {
+          "date": "01-23",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "culture:손글씨의 날",
+            "food:파이(디저트)의 날"
+          ]
+        },
+        {
+          "date": "01-27",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:초콜릿 케이크의 날",
+            "history:국제 홀로코스트 희생자 추모의 날"
+          ]
+        },
+        {
+          "date": "01-29",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:콘칩의 날",
+            "quirky:퍼즐의 날"
+          ]
+        },
+        {
+          "date": "01-30",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "animal:씨앗 교환의 날",
+            "food:크루아상의 날"
+          ]
+        },
+        {
+          "date": "02-02",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "animal:성촉절 (Groundhog Day)",
+            "food:헤븐리 해시의 날"
+          ]
+        },
+        {
+          "date": "02-07",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "general:친구에게 카드 보내는 날",
+            "food:페투치네 알프레도의 날"
+          ]
+        },
+        {
+          "date": "02-12",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "history:에이브러햄 링컨 탄생일",
+            "food:플럼 푸딩의 날"
+          ]
+        },
+        {
+          "date": "02-13",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:토르텔리니의 날",
+            "culture:세계 라디오의 날"
+          ]
+        },
+        {
+          "date": "02-16",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "quirky:무뚝뚝한 사람에게 친절 베푸는 날",
+            "food:아몬드의 날"
+          ]
+        },
+        {
+          "date": "02-19",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:초콜릿 민트의 날",
+            "animal:우수 (雨水)"
+          ]
+        },
+        {
+          "date": "02-20",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "romance:반려동물 사랑의 날",
+            "food:체리파이의 날"
+          ]
+        },
+        {
+          "date": "02-21",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:스티키 번의 날",
+            "campaign:국제 모국어의 날"
+          ]
+        },
+        {
+          "date": "02-23",
+          "count": 2,
+          "nonFood": 0,
+          "items": [
+            "food:도그 비스킷의 날",
+            "food:바나나 브레드의 날"
+          ]
+        },
+        {
+          "date": "02-26",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "general:동화 들려주는 날",
+            "food:피스타치오의 날"
+          ]
+        },
+        {
+          "date": "03-17",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "culture:성 패트릭의 날 (St. Patrick's Day)",
+            "food:콘비프와 양배추의 날"
+          ]
+        },
+        {
+          "date": "03-24",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:초콜릿 건포도의 날 (Chocolate Covered Raisin Day)",
+            "campaign:결핵예방의 날"
+          ]
+        },
+        {
+          "date": "06-24",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:프랄린의 날 (National Pralines Day)",
+            "academic:전자정부의 날"
+          ]
+        },
+        {
+          "date": "07-02",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "academic:세계 UFO의 날",
+            "food:아니제트의 날"
+          ]
+        },
+        {
+          "date": "07-06",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:프라이드치킨의 날 (National Fried Chicken Day)",
+            "romance:국제 키스의 날"
+          ]
+        },
+        {
+          "date": "07-13",
+          "count": 2,
+          "nonFood": 0,
+          "items": [
+            "food:감자튀김의 날 (National French Fry Day)",
+            "food:콩과 소시지의 날"
+          ]
+        },
+        {
+          "date": "07-16",
+          "count": 2,
+          "nonFood": 0,
+          "items": [
+            "food:콘 프리터의 날",
+            "food:퍼스널 셰프의 날"
+          ]
+        },
+        {
+          "date": "07-19",
+          "count": 2,
+          "nonFood": 0,
+          "items": [
+            "food:다이키리의 날 (National Daiquiri Day)",
+            "food:아이스크림의 날 (National Ice Cream Day)"
+          ]
+        },
+        {
+          "date": "08-13",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "campaign:세계 왼손잡이의 날 (International Lefthanders Day)",
+            "food:필레미뇽의 날"
+          ]
+        },
+        {
+          "date": "08-24",
+          "count": 2,
+          "nonFood": 0,
+          "items": [
+            "food:와플의 날 (National Waffle Day)",
+            "food:피치파이의 날"
+          ]
+        },
+        {
+          "date": "08-28",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "sports:대학 컬러의 날 (National College Colors Day)",
+            "food:체리 턴오버의 날"
+          ]
+        },
+        {
+          "date": "08-30",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:구운 마시멜로의 날",
+            "campaign:세계 강제실종 희생자의 날"
+          ]
+        },
+        {
+          "date": "08-31",
+          "count": 2,
+          "nonFood": 0,
+          "items": [
+            "food:트레일 믹스의 날 (National Trail Mix Day)",
+            "food:야채의 날 (野菜の日)"
+          ]
+        },
+        {
+          "date": "09-02",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "history:시랜드 공국 수립일",
+            "food:블루베리 아이스바의 날"
+          ]
+        },
+        {
+          "date": "09-03",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "general:방송의 날",
+            "food:웰시 레어빗의 날"
+          ]
+        },
+        {
+          "date": "09-06",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "culture:책 읽는 날 (National Read A Book Day)",
+            "food:커피 아이스크림의 날"
+          ]
+        },
+        {
+          "date": "09-20",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "romance:아내에게 감사하는 날",
+            "food:펀치의 날 (National Punch Day)"
+          ]
+        },
+        {
+          "date": "09-24",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "general:문장부호의 날 (National Punctuation Day)",
+            "food:체리 주빌레의 날"
+          ]
+        },
+        {
+          "date": "09-29",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "career:손주의 탄생을 함께하는 날",
+            "food:커피의 날 (National Coffee Day)"
+          ]
+        },
+        {
+          "date": "10-03",
+          "count": 2,
+          "nonFood": 2,
+          "items": [
+            "holiday:개천절",
+            "academic:테키(기술 애호가)의 날 (National Techies Day)"
+          ]
+        },
+        {
+          "date": "10-18",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:초콜릿 컵케이크의 날",
+            "animal:산의 날"
+          ]
+        },
+        {
+          "date": "10-20",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:브랜디 과일의 날",
+            "career:약사 보조원의 날 (National Pharmacy Technician Day)"
+          ]
+        },
+        {
+          "date": "10-28",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "general:교정의 날",
+            "food:초콜릿의 날 (National Chocolate Day)"
+          ]
+        },
+        {
+          "date": "11-09",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "general:소방의 날",
+            "food:스크래플의 날 (National Scrapple Day)"
+          ]
+        },
+        {
+          "date": "11-13",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:인디언 푸딩의 날",
+            "campaign:세계 친절의 날"
+          ]
+        },
+        {
+          "date": "12-08",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:브라우니의 날",
+            "quirky:타임트래블러인 척하는 날"
+          ]
+        },
+        {
+          "date": "12-19",
+          "count": 2,
+          "nonFood": 0,
+          "items": [
+            "food:오트밀 머핀의 날",
+            "food:하드캔디의 날"
+          ]
+        },
+        {
+          "date": "12-24",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:에그노그의 날",
+            "general:크리스마스 이브 (Christmas Eve)"
+          ]
+        },
+        {
+          "date": "12-27",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "general:원자력 안전 및 진흥의 날",
+            "food:프루트케이크의 날"
+          ]
+        }
+      ],
+      "nonfood_le1": [
+        {
+          "date": "01-03",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "01-06",
+          "count": 2,
+          "nonFood": 0
+        },
+        {
+          "date": "01-07",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "01-12",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "01-17",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "01-18",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "01-19",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "01-22",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "01-23",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "01-27",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "01-29",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "01-30",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-02",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-07",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-09",
+          "count": 4,
+          "nonFood": 1
+        },
+        {
+          "date": "02-12",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-13",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-16",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-18",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "02-19",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-20",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-21",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-23",
+          "count": 2,
+          "nonFood": 0
+        },
+        {
+          "date": "02-25",
+          "count": 3,
+          "nonFood": 0
+        },
+        {
+          "date": "02-26",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-27",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "03-06",
+          "count": 4,
+          "nonFood": 1
+        },
+        {
+          "date": "03-07",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "03-17",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "03-24",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "03-26",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "03-28",
+          "count": 4,
+          "nonFood": 1
+        },
+        {
+          "date": "06-17",
+          "count": 5,
+          "nonFood": 1
+        },
+        {
+          "date": "06-22",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "06-24",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "07-02",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "07-03",
+          "count": 4,
+          "nonFood": 1
+        },
+        {
+          "date": "07-05",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "07-06",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "07-13",
+          "count": 2,
+          "nonFood": 0
+        },
+        {
+          "date": "07-16",
+          "count": 2,
+          "nonFood": 0
+        },
+        {
+          "date": "07-19",
+          "count": 2,
+          "nonFood": 0
+        },
+        {
+          "date": "07-23",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "07-27",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "07-29",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "08-03",
+          "count": 3,
+          "nonFood": 0
+        },
+        {
+          "date": "08-13",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "08-18",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "08-24",
+          "count": 2,
+          "nonFood": 0
+        },
+        {
+          "date": "08-28",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "08-30",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "08-31",
+          "count": 2,
+          "nonFood": 0
+        },
+        {
+          "date": "09-02",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "09-03",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "09-05",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "09-06",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "09-20",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "09-24",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "09-29",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "10-18",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "10-20",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "10-28",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "11-08",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "11-09",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "11-13",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "11-22",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "11-23",
+          "count": 5,
+          "nonFood": 1
+        },
+        {
+          "date": "11-26",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "12-08",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "12-19",
+          "count": 2,
+          "nonFood": 0
+        },
+        {
+          "date": "12-24",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "12-27",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "12-30",
+          "count": 3,
+          "nonFood": 1
+        }
+      ]
+    },
+    "2027": {
+      "unresolved": [
+        "anv-fixed-02-29-fujiq-day-jp",
+        "anv-fixed-02-29-bachelors-day-ie"
+      ],
+      "histogram": {
+        "0": 0,
+        "1": 1,
+        "2": 54,
+        "3": 79
+      },
+      "sparse_le2": [
+        {
+          "date": "01-01",
+          "count": 2,
+          "nonFood": 2,
+          "items": [
+            "holiday:신정",
+            "campaign:세계 평화의 날(가톨릭)"
+          ]
+        },
+        {
+          "date": "01-06",
+          "count": 2,
+          "nonFood": 0,
+          "items": [
+            "food:쇼트브레드의 날",
+            "food:콩의 날"
+          ]
+        },
+        {
+          "date": "01-07",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "culture:보블헤드의 날",
+            "food:튀김(텐푸라)의 날"
+          ]
+        },
+        {
+          "date": "01-17",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "history:밀주업자의 날",
+            "food:핫 버터드 럼의 날"
+          ]
+        },
+        {
+          "date": "01-18",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "culture:곰돌이 푸의 날",
+            "food:베이징덕의 날"
+          ]
+        },
+        {
+          "date": "01-19",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:팝콘의 날",
+            "romance:핫데이(찜질방 데이)"
+          ]
+        },
+        {
+          "date": "01-23",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "culture:손글씨의 날",
+            "food:파이(디저트)의 날"
+          ]
+        },
+        {
+          "date": "01-27",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:초콜릿 케이크의 날",
+            "history:국제 홀로코스트 희생자 추모의 날"
+          ]
+        },
+        {
+          "date": "01-29",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:콘칩의 날",
+            "quirky:퍼즐의 날"
+          ]
+        },
+        {
+          "date": "01-30",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "animal:씨앗 교환의 날",
+            "food:크루아상의 날"
+          ]
+        },
+        {
+          "date": "02-02",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "animal:성촉절 (Groundhog Day)",
+            "food:헤븐리 해시의 날"
+          ]
+        },
+        {
+          "date": "02-12",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "history:에이브러햄 링컨 탄생일",
+            "food:플럼 푸딩의 날"
+          ]
+        },
+        {
+          "date": "02-13",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:토르텔리니의 날",
+            "culture:세계 라디오의 날"
+          ]
+        },
+        {
+          "date": "02-16",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "quirky:무뚝뚝한 사람에게 친절 베푸는 날",
+            "food:아몬드의 날"
+          ]
+        },
+        {
+          "date": "02-17",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "quirky:무작위 친절의 날 (Random Acts of Kindness Day)",
+            "food:양배추의 날"
+          ]
+        },
+        {
+          "date": "02-19",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:초콜릿 민트의 날",
+            "animal:우수 (雨水)"
+          ]
+        },
+        {
+          "date": "02-20",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "romance:반려동물 사랑의 날",
+            "food:체리파이의 날"
+          ]
+        },
+        {
+          "date": "02-23",
+          "count": 2,
+          "nonFood": 0,
+          "items": [
+            "food:도그 비스킷의 날",
+            "food:바나나 브레드의 날"
+          ]
+        },
+        {
+          "date": "02-26",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "general:동화 들려주는 날",
+            "food:피스타치오의 날"
+          ]
+        },
+        {
+          "date": "03-24",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:초콜릿 건포도의 날 (Chocolate Covered Raisin Day)",
+            "campaign:결핵예방의 날"
+          ]
+        },
+        {
+          "date": "03-29",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "quirky:동네 가게의 날 (Mom and Pop Business Owners Day)",
+            "food:레몬 시폰 케이크의 날"
+          ]
+        },
+        {
+          "date": "05-24",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "quirky:보물찾기의 날 (National Scavenger Hunt Day)",
+            "food:에스카르고의 날"
+          ]
+        },
+        {
+          "date": "06-19",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:마티니의 날 (National Martini Day)",
+            "culture:플립플롭의 날 (National Flip Flop Day)"
+          ]
+        },
+        {
+          "date": "06-24",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:프랄린의 날 (National Pralines Day)",
+            "academic:전자정부의 날"
+          ]
+        },
+        {
+          "date": "07-02",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "academic:세계 UFO의 날",
+            "food:아니제트의 날"
+          ]
+        },
+        {
+          "date": "07-06",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:프라이드치킨의 날 (National Fried Chicken Day)",
+            "romance:국제 키스의 날"
+          ]
+        },
+        {
+          "date": "07-08",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:아몬드 초콜릿의 날",
+            "general:방위산업의 날"
+          ]
+        },
+        {
+          "date": "07-13",
+          "count": 2,
+          "nonFood": 0,
+          "items": [
+            "food:감자튀김의 날 (National French Fry Day)",
+            "food:콩과 소시지의 날"
+          ]
+        },
+        {
+          "date": "07-16",
+          "count": 2,
+          "nonFood": 0,
+          "items": [
+            "food:콘 프리터의 날",
+            "food:퍼스널 셰프의 날"
+          ]
+        },
+        {
+          "date": "07-19",
+          "count": 1,
+          "nonFood": 0,
+          "items": [
+            "food:다이키리의 날 (National Daiquiri Day)"
+          ]
+        },
+        {
+          "date": "07-28",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:밀크초콜릿의 날 (National Milk Chocolate Day)",
+            "campaign:세계 간염의 날"
+          ]
+        },
+        {
+          "date": "08-13",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "campaign:세계 왼손잡이의 날 (International Lefthanders Day)",
+            "food:필레미뇽의 날"
+          ]
+        },
+        {
+          "date": "08-24",
+          "count": 2,
+          "nonFood": 0,
+          "items": [
+            "food:와플의 날 (National Waffle Day)",
+            "food:피치파이의 날"
+          ]
+        },
+        {
+          "date": "08-27",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "quirky:그냥 그런 날 (National Just Because Day)",
+            "food:포 드 크렘의 날"
+          ]
+        },
+        {
+          "date": "08-28",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "sports:대학 컬러의 날 (National College Colors Day)",
+            "food:체리 턴오버의 날"
+          ]
+        },
+        {
+          "date": "08-30",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:구운 마시멜로의 날",
+            "campaign:세계 강제실종 희생자의 날"
+          ]
+        },
+        {
+          "date": "08-31",
+          "count": 2,
+          "nonFood": 0,
+          "items": [
+            "food:트레일 믹스의 날 (National Trail Mix Day)",
+            "food:야채의 날 (野菜の日)"
+          ]
+        },
+        {
+          "date": "09-02",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "history:시랜드 공국 수립일",
+            "food:블루베리 아이스바의 날"
+          ]
+        },
+        {
+          "date": "09-03",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "general:방송의 날",
+            "food:웰시 레어빗의 날"
+          ]
+        },
+        {
+          "date": "09-20",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "romance:아내에게 감사하는 날",
+            "food:펀치의 날 (National Punch Day)"
+          ]
+        },
+        {
+          "date": "09-29",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "career:손주의 탄생을 함께하는 날",
+            "food:커피의 날 (National Coffee Day)"
+          ]
+        },
+        {
+          "date": "10-03",
+          "count": 2,
+          "nonFood": 2,
+          "items": [
+            "holiday:개천절",
+            "academic:테키(기술 애호가)의 날 (National Techies Day)"
+          ]
+        },
+        {
+          "date": "10-18",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:초콜릿 컵케이크의 날",
+            "animal:산의 날"
+          ]
+        },
+        {
+          "date": "10-19",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "academic:바탕화면 정리하는 날",
+            "food:해산물 비스크의 날"
+          ]
+        },
+        {
+          "date": "10-20",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:브랜디 과일의 날",
+            "career:약사 보조원의 날 (National Pharmacy Technician Day)"
+          ]
+        },
+        {
+          "date": "10-27",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:아메리칸 비어의 날 (National American Beer Day)",
+            "culture:독서의 날 (読書の日)"
+          ]
+        },
+        {
+          "date": "10-28",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "general:교정의 날",
+            "food:초콜릿의 날 (National Chocolate Day)"
+          ]
+        },
+        {
+          "date": "11-07",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "animal:반려견 림프종 인식의 날",
+            "food:비터스윗 초콜릿 아몬드의 날"
+          ]
+        },
+        {
+          "date": "11-09",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "general:소방의 날",
+            "food:스크래플의 날 (National Scrapple Day)"
+          ]
+        },
+        {
+          "date": "11-13",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:인디언 푸딩의 날",
+            "campaign:세계 친절의 날"
+          ]
+        },
+        {
+          "date": "11-28",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "quirky:세계 아우라 인식의 날 (International Aura Awareness Day)",
+            "food:프렌치토스트의 날 (National French Toast Day)"
+          ]
+        },
+        {
+          "date": "12-08",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:브라우니의 날",
+            "quirky:타임트래블러인 척하는 날"
+          ]
+        },
+        {
+          "date": "12-19",
+          "count": 2,
+          "nonFood": 0,
+          "items": [
+            "food:오트밀 머핀의 날",
+            "food:하드캔디의 날"
+          ]
+        },
+        {
+          "date": "12-24",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:에그노그의 날",
+            "general:크리스마스 이브 (Christmas Eve)"
+          ]
+        },
+        {
+          "date": "12-27",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "general:원자력 안전 및 진흥의 날",
+            "food:프루트케이크의 날"
+          ]
+        }
+      ],
+      "nonfood_le1": [
+        {
+          "date": "01-03",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "01-06",
+          "count": 2,
+          "nonFood": 0
+        },
+        {
+          "date": "01-07",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "01-12",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "01-17",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "01-18",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "01-19",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "01-22",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "01-23",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "01-27",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "01-29",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "01-30",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-02",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-09",
+          "count": 4,
+          "nonFood": 1
+        },
+        {
+          "date": "02-12",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-13",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-16",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-17",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-18",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "02-19",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-20",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-23",
+          "count": 2,
+          "nonFood": 0
+        },
+        {
+          "date": "02-25",
+          "count": 3,
+          "nonFood": 0
+        },
+        {
+          "date": "02-26",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-27",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "03-05",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "03-07",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "03-24",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "03-27",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "03-28",
+          "count": 4,
+          "nonFood": 1
+        },
+        {
+          "date": "03-29",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "05-24",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "06-17",
+          "count": 5,
+          "nonFood": 1
+        },
+        {
+          "date": "06-19",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "06-22",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "06-24",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "07-02",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "07-05",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "07-06",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "07-08",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "07-13",
+          "count": 2,
+          "nonFood": 0
+        },
+        {
+          "date": "07-16",
+          "count": 2,
+          "nonFood": 0
+        },
+        {
+          "date": "07-19",
+          "count": 1,
+          "nonFood": 0
+        },
+        {
+          "date": "07-23",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "07-27",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "07-28",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "07-29",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "08-03",
+          "count": 3,
+          "nonFood": 0
+        },
+        {
+          "date": "08-07",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "08-13",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "08-18",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "08-24",
+          "count": 2,
+          "nonFood": 0
+        },
+        {
+          "date": "08-27",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "08-28",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "08-30",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "08-31",
+          "count": 2,
+          "nonFood": 0
+        },
+        {
+          "date": "09-02",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "09-03",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "09-05",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "09-20",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "09-29",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "10-18",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "10-19",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "10-20",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "10-27",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "10-28",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "11-07",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "11-09",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "11-13",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "11-22",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "11-23",
+          "count": 5,
+          "nonFood": 1
+        },
+        {
+          "date": "11-27",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "11-28",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "12-08",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "12-19",
+          "count": 2,
+          "nonFood": 0
+        },
+        {
+          "date": "12-24",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "12-27",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "12-30",
+          "count": 3,
+          "nonFood": 1
+        }
+      ]
+    },
+    "2028": {
+      "unresolved": [],
+      "histogram": {
+        "0": 0,
+        "1": 1,
+        "2": 51,
+        "3": 83
+      },
+      "sparse_le2": [
+        {
+          "date": "01-01",
+          "count": 2,
+          "nonFood": 2,
+          "items": [
+            "holiday:신정",
+            "campaign:세계 평화의 날(가톨릭)"
+          ]
+        },
+        {
+          "date": "01-05",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "animal:조류의 날",
+            "food:휘핑크림의 날"
+          ]
+        },
+        {
+          "date": "01-07",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "culture:보블헤드의 날",
+            "food:튀김(텐푸라)의 날"
+          ]
+        },
+        {
+          "date": "01-17",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "history:밀주업자의 날",
+            "food:핫 버터드 럼의 날"
+          ]
+        },
+        {
+          "date": "01-18",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "culture:곰돌이 푸의 날",
+            "food:베이징덕의 날"
+          ]
+        },
+        {
+          "date": "01-19",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:팝콘의 날",
+            "romance:핫데이(찜질방 데이)"
+          ]
+        },
+        {
+          "date": "01-23",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "culture:손글씨의 날",
+            "food:파이(디저트)의 날"
+          ]
+        },
+        {
+          "date": "01-29",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:콘칩의 날",
+            "quirky:퍼즐의 날"
+          ]
+        },
+        {
+          "date": "01-30",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "animal:씨앗 교환의 날",
+            "food:크루아상의 날"
+          ]
+        },
+        {
+          "date": "02-02",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "animal:성촉절 (Groundhog Day)",
+            "food:헤븐리 해시의 날"
+          ]
+        },
+        {
+          "date": "02-07",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "general:친구에게 카드 보내는 날",
+            "food:페투치네 알프레도의 날"
+          ]
+        },
+        {
+          "date": "02-12",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "history:에이브러햄 링컨 탄생일",
+            "food:플럼 푸딩의 날"
+          ]
+        },
+        {
+          "date": "02-13",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:토르텔리니의 날",
+            "culture:세계 라디오의 날"
+          ]
+        },
+        {
+          "date": "02-16",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "quirky:무뚝뚝한 사람에게 친절 베푸는 날",
+            "food:아몬드의 날"
+          ]
+        },
+        {
+          "date": "02-17",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "quirky:무작위 친절의 날 (Random Acts of Kindness Day)",
+            "food:양배추의 날"
+          ]
+        },
+        {
+          "date": "02-19",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:초콜릿 민트의 날",
+            "animal:우수 (雨水)"
+          ]
+        },
+        {
+          "date": "02-20",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "romance:반려동물 사랑의 날",
+            "food:체리파이의 날"
+          ]
+        },
+        {
+          "date": "02-21",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:스티키 번의 날",
+            "campaign:국제 모국어의 날"
+          ]
+        },
+        {
+          "date": "02-23",
+          "count": 2,
+          "nonFood": 0,
+          "items": [
+            "food:도그 비스킷의 날",
+            "food:바나나 브레드의 날"
+          ]
+        },
+        {
+          "date": "02-26",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "general:동화 들려주는 날",
+            "food:피스타치오의 날"
+          ]
+        },
+        {
+          "date": "03-17",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "culture:성 패트릭의 날 (St. Patrick's Day)",
+            "food:콘비프와 양배추의 날"
+          ]
+        },
+        {
+          "date": "03-29",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "quirky:동네 가게의 날 (Mom and Pop Business Owners Day)",
+            "food:레몬 시폰 케이크의 날"
+          ]
+        },
+        {
+          "date": "05-24",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "quirky:보물찾기의 날 (National Scavenger Hunt Day)",
+            "food:에스카르고의 날"
+          ]
+        },
+        {
+          "date": "06-19",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:마티니의 날 (National Martini Day)",
+            "culture:플립플롭의 날 (National Flip Flop Day)"
+          ]
+        },
+        {
+          "date": "06-24",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:프랄린의 날 (National Pralines Day)",
+            "academic:전자정부의 날"
+          ]
+        },
+        {
+          "date": "07-02",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "academic:세계 UFO의 날",
+            "food:아니제트의 날"
+          ]
+        },
+        {
+          "date": "07-08",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:아몬드 초콜릿의 날",
+            "general:방위산업의 날"
+          ]
+        },
+        {
+          "date": "07-13",
+          "count": 2,
+          "nonFood": 0,
+          "items": [
+            "food:감자튀김의 날 (National French Fry Day)",
+            "food:콩과 소시지의 날"
+          ]
+        },
+        {
+          "date": "07-19",
+          "count": 2,
+          "nonFood": 0,
+          "items": [
+            "food:다이키리의 날 (National Daiquiri Day)",
+            "food:핫도그의 날 (National Hot Dog Day)"
+          ]
+        },
+        {
+          "date": "08-24",
+          "count": 2,
+          "nonFood": 0,
+          "items": [
+            "food:와플의 날 (National Waffle Day)",
+            "food:피치파이의 날"
+          ]
+        },
+        {
+          "date": "08-27",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "quirky:그냥 그런 날 (National Just Because Day)",
+            "food:포 드 크렘의 날"
+          ]
+        },
+        {
+          "date": "08-28",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "sports:대학 컬러의 날 (National College Colors Day)",
+            "food:체리 턴오버의 날"
+          ]
+        },
+        {
+          "date": "08-30",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:구운 마시멜로의 날",
+            "campaign:세계 강제실종 희생자의 날"
+          ]
+        },
+        {
+          "date": "08-31",
+          "count": 2,
+          "nonFood": 0,
+          "items": [
+            "food:트레일 믹스의 날 (National Trail Mix Day)",
+            "food:야채의 날 (野菜の日)"
+          ]
+        },
+        {
+          "date": "09-02",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "history:시랜드 공국 수립일",
+            "food:블루베리 아이스바의 날"
+          ]
+        },
+        {
+          "date": "09-06",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "culture:책 읽는 날 (National Read A Book Day)",
+            "food:커피 아이스크림의 날"
+          ]
+        },
+        {
+          "date": "09-20",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "romance:아내에게 감사하는 날",
+            "food:펀치의 날 (National Punch Day)"
+          ]
+        },
+        {
+          "date": "09-24",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "general:문장부호의 날 (National Punctuation Day)",
+            "food:체리 주빌레의 날"
+          ]
+        },
+        {
+          "date": "09-29",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "career:손주의 탄생을 함께하는 날",
+            "food:커피의 날 (National Coffee Day)"
+          ]
+        },
+        {
+          "date": "10-18",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:초콜릿 컵케이크의 날",
+            "animal:산의 날"
+          ]
+        },
+        {
+          "date": "10-19",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "academic:바탕화면 정리하는 날",
+            "food:해산물 비스크의 날"
+          ]
+        },
+        {
+          "date": "10-20",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:브랜디 과일의 날",
+            "career:약사 보조원의 날 (National Pharmacy Technician Day)"
+          ]
+        },
+        {
+          "date": "10-27",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:아메리칸 비어의 날 (National American Beer Day)",
+            "culture:독서의 날 (読書の日)"
+          ]
+        },
+        {
+          "date": "10-28",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "general:교정의 날",
+            "food:초콜릿의 날 (National Chocolate Day)"
+          ]
+        },
+        {
+          "date": "11-09",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "general:소방의 날",
+            "food:스크래플의 날 (National Scrapple Day)"
+          ]
+        },
+        {
+          "date": "11-13",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:인디언 푸딩의 날",
+            "campaign:세계 친절의 날"
+          ]
+        },
+        {
+          "date": "11-26",
+          "count": 1,
+          "nonFood": 0,
+          "items": [
+            "food:케이크의 날 (National Cake Day)"
+          ]
+        },
+        {
+          "date": "11-28",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "quirky:세계 아우라 인식의 날 (International Aura Awareness Day)",
+            "food:프렌치토스트의 날 (National French Toast Day)"
+          ]
+        },
+        {
+          "date": "12-08",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:브라우니의 날",
+            "quirky:타임트래블러인 척하는 날"
+          ]
+        },
+        {
+          "date": "12-19",
+          "count": 2,
+          "nonFood": 0,
+          "items": [
+            "food:오트밀 머핀의 날",
+            "food:하드캔디의 날"
+          ]
+        },
+        {
+          "date": "12-24",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "food:에그노그의 날",
+            "general:크리스마스 이브 (Christmas Eve)"
+          ]
+        },
+        {
+          "date": "12-27",
+          "count": 2,
+          "nonFood": 1,
+          "items": [
+            "general:원자력 안전 및 진흥의 날",
+            "food:프루트케이크의 날"
+          ]
+        }
+      ],
+      "nonfood_le1": [
+        {
+          "date": "01-03",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "01-05",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "01-06",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "01-07",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "01-12",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "01-17",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "01-18",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "01-19",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "01-22",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "01-23",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "01-29",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "01-30",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-02",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-07",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-09",
+          "count": 4,
+          "nonFood": 1
+        },
+        {
+          "date": "02-12",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-13",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-16",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-17",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-18",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "02-19",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-20",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-21",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-23",
+          "count": 2,
+          "nonFood": 0
+        },
+        {
+          "date": "02-25",
+          "count": 3,
+          "nonFood": 0
+        },
+        {
+          "date": "02-26",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "02-27",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "03-06",
+          "count": 4,
+          "nonFood": 1
+        },
+        {
+          "date": "03-07",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "03-17",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "03-26",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "03-27",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "03-28",
+          "count": 4,
+          "nonFood": 1
+        },
+        {
+          "date": "03-29",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "05-24",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "06-17",
+          "count": 5,
+          "nonFood": 1
+        },
+        {
+          "date": "06-19",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "06-22",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "06-24",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "07-02",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "07-03",
+          "count": 4,
+          "nonFood": 1
+        },
+        {
+          "date": "07-05",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "07-08",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "07-13",
+          "count": 2,
+          "nonFood": 0
+        },
+        {
+          "date": "07-16",
+          "count": 3,
+          "nonFood": 0
+        },
+        {
+          "date": "07-19",
+          "count": 2,
+          "nonFood": 0
+        },
+        {
+          "date": "07-23",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "07-27",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "08-03",
+          "count": 3,
+          "nonFood": 0
+        },
+        {
+          "date": "08-13",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "08-18",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "08-24",
+          "count": 2,
+          "nonFood": 0
+        },
+        {
+          "date": "08-27",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "08-28",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "08-30",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "08-31",
+          "count": 2,
+          "nonFood": 0
+        },
+        {
+          "date": "09-02",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "09-05",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "09-06",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "09-20",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "09-24",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "09-29",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "10-18",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "10-19",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "10-20",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "10-27",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "10-28",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "11-08",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "11-09",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "11-13",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "11-22",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "11-26",
+          "count": 1,
+          "nonFood": 0
+        },
+        {
+          "date": "11-27",
+          "count": 3,
+          "nonFood": 1
+        },
+        {
+          "date": "11-28",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "12-08",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "12-19",
+          "count": 2,
+          "nonFood": 0
+        },
+        {
+          "date": "12-24",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "12-27",
+          "count": 2,
+          "nonFood": 1
+        },
+        {
+          "date": "12-30",
+          "count": 3,
+          "nonFood": 1
+        }
+      ]
+    }
+  }
+}

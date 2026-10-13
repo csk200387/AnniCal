@@ -1,0 +1,915 @@
+[
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "02-24-estonia",
+  "name_ko": "에스토니아 독립기념일",
+  "name_original": "Independence Day of Estonia",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "에스토니아",
+  "status": "evidenced"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "02-24-scn2a",
+  "name_ko": "국제 SCN2A 인식의 날",
+  "name_original": "International SCN2A Awareness Day",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "국제 / FamilieSCN2A Foundation 캠페인",
+  "status": "evidenced"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "05-26-sorry2",
+  "name_ko": "호주 국가 사과의 날",
+  "name_original": "National Sorry Day",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "호주",
+  "status": "evidenced"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "05-26-paper2",
+  "name_ko": "미국 종이비행기의 날",
+  "name_original": "National Paper Airplane Day",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "미국; 교육기관의 참여 사례 확인",
+  "status": "evidenced"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "06-16-remittances",
+  "name_ko": "국제 가족 송금의 날",
+  "name_original": "International Day of Family Remittances",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "국제 / UN",
+  "status": "evidenced"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "06-16-african",
+  "name_ko": "아프리카 어린이의 날",
+  "name_original": "Day of the African Child",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "아프리카 / African Union 및 회원국",
+  "status": "evidenced"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "02-24-mexico-flag",
+  "name_ko": "멕시코 국기의 날",
+  "name_original": "Día de la Bandera",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "멕시코 (검색 단계 잠정값)",
+  "status": "blocked"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "02-24-existing",
+  "name_ko": "토르티야 칩의 날",
+  "name_original": "National Tortilla Chip Day",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "미국 (기존 데이터 표기)",
+  "status": "rejected_duplicate"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "05-26-existing",
+  "name_ko": "블루베리 치즈케이크의 날",
+  "name_original": "National Blueberry Cheesecake Day",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "미국 (기존 데이터 표기)",
+  "status": "rejected_duplicate"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "06-16-existing",
+  "name_ko": "퍼지의 날",
+  "name_original": "National Fudge Day",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "미국 (기존 데이터 표기)",
+  "status": "rejected_duplicate"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "07-09-world-misophonia-awareness-day",
+  "name_ko": "세계 미소포니아 인식의 날",
+  "name_original": "World Misophonia Awareness Day",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "국제 시민사회 캠페인; soQuiet와 여러 나라 연구·옹호 단체 참여",
+  "status": "evidenced"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "07-09-argentina-independence-day",
+  "name_ko": "아르헨티나 독립기념일",
+  "name_original": "Día de la Independencia de la República Argentina",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "아르헨티나",
+  "status": "evidenced"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "07-21-belgian-national-day",
+  "name_ko": "벨기에 국경일",
+  "name_original": "Belgian National Day",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "벨기에",
+  "status": "evidenced"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "07-21-singapore-racial-harmony-day",
+  "name_ko": "싱가포르 인종 화합의 날",
+  "name_original": "Racial Harmony Day",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "싱가포르; 학교 교육 중심",
+  "status": "evidenced"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "08-17-black-cat-appreciation-day",
+  "name_ko": "검은 고양이 감사의 날",
+  "name_original": "Black Cat Appreciation Day",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "미국 동물보호단체·입양 캠페인에서 확인; FOUR PAWS 미국 사이트 참여",
+  "status": "evidenced"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "08-17-national-nonprofit-day-us",
+  "name_ko": "미국 비영리단체의 날",
+  "name_original": "National Nonprofit Day",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "미국 비영리단체·자선단체 캠페인",
+  "status": "evidenced"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "anv-fixed-07-09-sugar-cookie-day-us-duplicate-lead",
+  "name_ko": "슈가쿠키의 날",
+  "name_original": "슈가쿠키의 날 (National Sugar Cookie Day)",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "미국; 기존 데이터의 범위",
+  "status": "rejected_duplicate"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "anv-fixed-07-21-junk-food-day-us-duplicate-lead",
+  "name_ko": "정크푸드의 날",
+  "name_original": "정크푸드의 날 (National Junk Food Day)",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "미국; 기존 데이터의 범위",
+  "status": "rejected_duplicate"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "anv-fixed-08-17-thrift-shop-day-us-duplicate-lead",
+  "name_ko": "중고 상점의 날",
+  "name_original": "중고 상점의 날 (National Thrift Shop Day)",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "미국; 기존 데이터의 범위",
+  "status": "rejected_duplicate"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "10-07-cotton",
+  "name_ko": "세계 면화의 날",
+  "name_original": "World Cotton Day",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "국제",
+  "status": "evidenced"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "10-07-decent",
+  "name_ko": "세계 양질의 일자리의 날",
+  "name_original": "World Day for Decent Work",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "국제",
+  "status": "evidenced"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "11-29-palestine",
+  "name_ko": "팔레스타인 민중과의 국제 연대의 날",
+  "name_original": "International Day of Solidarity with the Palestinian People",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "국제",
+  "status": "evidenced"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "11-29-jaguar",
+  "name_ko": "국제 재규어의 날",
+  "name_original": "International Jaguar Day",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "국제; 재규어 서식 국가 중심",
+  "status": "evidenced"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "12-16-reconciliation",
+  "name_ko": "남아프리카공화국 화해의 날",
+  "name_original": "Day of Reconciliation",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "남아프리카공화국",
+  "status": "evidenced"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "12-16-victory",
+  "name_ko": "방글라데시 승리의 날",
+  "name_original": "Victory Day (Bijoy Dibosh)",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "방글라데시",
+  "status": "evidenced"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "12-25-governance",
+  "name_ko": "인도 좋은 거버넌스의 날",
+  "name_original": "Good Governance Day",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "인도",
+  "status": "evidenced"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "12-25-constitution",
+  "name_ko": "대만 헌법 시행 기념일",
+  "name_original": "行憲紀念日 / Constitution Day",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "대만",
+  "status": "evidenced"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "12-25-christmas-alias",
+  "name_ko": "성탄절",
+  "name_original": "Christmas Day",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "국제",
+  "status": "rejected_duplicate"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "jp-fujiq-day-02-29",
+  "name_ko": "후지큐의 날",
+  "name_original": "富士急の日",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "일본·후지큐 그룹",
+  "status": "evidenced"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "ie-bachelors-day-02-29",
+  "name_ko": "윤일 청혼의 날",
+  "name_original": "Bachelor’s Day",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "아일랜드 민간 전통",
+  "status": "evidenced"
+ },
+ {
+  "batch": "2026-10-11-sparse-birthdays",
+  "candidate_key": "rare-disease-day-leap-date-correction",
+  "name_ko": "세계 희귀질환의 날 — 윤년 날짜 수정 과제",
+  "name_original": "Rare Disease Day",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "국제 환자 주도 캠페인",
+  "status": "evidenced"
+ },
+ {
+  "batch": "contact-expansion-20261012",
+  "candidate_key": "fuji-day-jp",
+  "name_ko": "후지산의 날 (富士山の日)",
+  "name_original": "富士山の日",
+  "aliases": [],
+  "date_rule": "02-23",
+  "scope": "일본 시즈오카현 (현 조례)",
+  "status": "evidenced"
+ },
+ {
+  "batch": "contact-expansion-20261012",
+  "candidate_key": "rotary-peace-day",
+  "name_ko": "세계 이해와 평화의 날 (World Understanding and Peace Day)",
+  "name_original": "World Understanding and Peace Day",
+  "aliases": [
+   "Rotary World Understanding and Peace Day"
+  ],
+  "date_rule": "02-23",
+  "scope": "국제 — 국제로터리(Rotary International) 조직 내 기념일",
+  "status": "evidenced"
+ },
+ {
+  "batch": "contact-expansion-20261012",
+  "candidate_key": "montenegro-statehood-day",
+  "name_ko": "몬테네그로 국가성립 기념일 (Statehood Day)",
+  "name_original": "Statehood Day",
+  "aliases": [],
+  "date_rule": "07-13",
+  "scope": "몬테네그로",
+  "status": "evidenced"
+ },
+ {
+  "batch": "contact-expansion-20261012",
+  "candidate_key": "world-snake-day",
+  "name_ko": "세계 뱀의 날 (World Snake Day)",
+  "name_original": "World Snake Day",
+  "aliases": [],
+  "date_rule": "07-16",
+  "scope": "국제 — 동물원 등 참여 확인(우크라이나·인도)",
+  "status": "evidenced"
+ },
+ {
+  "batch": "contact-expansion-20261012",
+  "candidate_key": "myanmar-martyrs-day",
+  "name_ko": "미얀마 순국자의 날 (Martyrs' Day)",
+  "name_original": "Martyrs' Day",
+  "aliases": [],
+  "date_rule": "07-19",
+  "scope": "미얀마",
+  "status": "evidenced"
+ },
+ {
+  "batch": "contact-expansion-20261012",
+  "candidate_key": "ukraine-independence-day",
+  "name_ko": "우크라이나 독립기념일 (Independence Day of Ukraine)",
+  "name_original": "Independence Day of Ukraine",
+  "aliases": [],
+  "date_rule": "08-24",
+  "scope": "우크라이나",
+  "status": "evidenced"
+ },
+ {
+  "batch": "contact-expansion-20261012",
+  "candidate_key": "pluto-demoted-day",
+  "name_ko": "명왕성 강등의 날 (Pluto Demoted Day)",
+  "name_original": "Pluto Demoted Day",
+  "aliases": [],
+  "date_rule": "08-24",
+  "scope": "비공식 — 영어권 기념일 달력·매체",
+  "status": "evidenced"
+ },
+ {
+  "batch": "contact-expansion-20261012",
+  "candidate_key": "overdose-awareness-day",
+  "name_ko": "국제 약물 과다복용 인식의 날 (International Overdose Awareness Day)",
+  "name_original": "International Overdose Awareness Day",
+  "aliases": [
+   "IOAD"
+  ],
+  "date_rule": "08-31",
+  "scope": "국제 — 40여 개국 행사(주최 측 집계)",
+  "status": "evidenced"
+ },
+ {
+  "batch": "contact-expansion-20261012",
+  "candidate_key": "african-descent-day",
+  "name_ko": "국제 아프리카계 사람들의 날 (International Day for People of African Descent)",
+  "name_original": "International Day for People of African Descent",
+  "aliases": [],
+  "date_rule": "08-31",
+  "scope": "국제 (UN)",
+  "status": "evidenced"
+ },
+ {
+  "batch": "contact-expansion-20261012",
+  "candidate_key": "world-gorilla-day",
+  "name_ko": "세계 고릴라의 날 (World Gorilla Day)",
+  "name_original": "World Gorilla Day",
+  "aliases": [],
+  "date_rule": "09-24",
+  "scope": "국제 — 동물원·보전단체 참여",
+  "status": "evidenced"
+ },
+ {
+  "batch": "contact-expansion-20261012",
+  "candidate_key": "korea-film-day",
+  "name_ko": "영화의 날 (한국)",
+  "name_original": "영화의 날",
+  "aliases": [
+   "한국영화의 날"
+  ],
+  "date_rule": "10-27",
+  "scope": "대한민국 — 영화계 기념일",
+  "status": "evidenced"
+ },
+ {
+  "batch": "contact-expansion-20261012",
+  "candidate_key": "india-constitution-day",
+  "name_ko": "인도 헌법의 날 (Constitution Day)",
+  "name_original": "Constitution Day (India)",
+  "aliases": [],
+  "date_rule": "11-26",
+  "scope": "인도",
+  "status": "evidenced"
+ },
+ {
+  "batch": "contact-expansion-20261012",
+  "candidate_key": "goa-liberation-day",
+  "name_ko": "고아 해방의 날 (Goa Liberation Day)",
+  "name_original": "Goa Liberation Day",
+  "aliases": [
+   "Liberation Day of Goa"
+  ],
+  "date_rule": "12-19",
+  "scope": "인도 고아주",
+  "status": "evidenced"
+ },
+ {
+  "batch": "contact-expansion-20261012",
+  "candidate_key": "world-rock-day-br",
+  "name_ko": "세계 록의 날 (Dia Mundial do Rock)",
+  "name_original": "Dia Mundial do Rock",
+  "aliases": [],
+  "date_rule": "07-13",
+  "scope": "주로 브라질",
+  "status": "review"
+ },
+ {
+  "batch": "contact-expansion-20261012",
+  "candidate_key": "japan-first-flight-day",
+  "name_ko": "일본인 첫 비행의 날 (日本人初飛行の日)",
+  "name_original": "日本人初飛行の日",
+  "aliases": [
+   "日本初飛行の日"
+  ],
+  "date_rule": "12-19",
+  "scope": "일본",
+  "status": "blocked"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "hoodie-hoo-day",
+  "name_ko": "후디 후 데이",
+  "name_original": "Hoodie Hoo Day",
+  "aliases": [],
+  "date_rule": "02-20",
+  "scope": "미국(펜실베이니아 등 지역 행사)",
+  "status": "documented_unofficial"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "plan-your-epitaph-day",
+  "name_ko": "내 묘비명 미리 쓰는 날",
+  "name_original": "Plan Your Epitaph Day",
+  "aliases": [],
+  "date_rule": "11-02",
+  "scope": "미국 비공식",
+  "status": "date_conflict"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "tell-a-lie-day",
+  "name_ko": "거짓말하는 날",
+  "name_original": "Tell a Lie Day",
+  "aliases": [],
+  "date_rule": "04-04",
+  "scope": "미국 비공식",
+  "status": "documented_unofficial"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "ask-a-stupid-question-day",
+  "name_ko": "바보 같은 질문 하는 날",
+  "name_original": "Ask a Stupid Question Day",
+  "aliases": [],
+  "date_rule": "09-28",
+  "scope": "미국에서 시작, 영국·인도 보도",
+  "status": "date_conflict"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "no-socks-day",
+  "name_ko": "양말 안 신는 날",
+  "name_original": "No Socks Day",
+  "aliases": [],
+  "date_rule": "05-08",
+  "scope": "미국 비공식",
+  "status": "discovered_unverified"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "yell-fudge-cobras-day",
+  "name_ko": "북미 코브라에게 \"퍼지!\"라고 외치는 날",
+  "name_original": "Yell \"Fudge\" at the Cobras in North America Day",
+  "aliases": [],
+  "date_rule": null,
+  "scope": "미국 비공식(추정)",
+  "status": "blocked"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "answer-your-cats-questions-day",
+  "name_ko": "고양이 질문에 답하는 날",
+  "name_original": "Answer Your Cat's Questions Day",
+  "aliases": [],
+  "date_rule": "01-22",
+  "scope": "미국 비공식",
+  "status": "documented_unofficial"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "caps-lock-day",
+  "name_ko": "캡스록의 날",
+  "name_original": "International Caps Lock Day",
+  "aliases": [],
+  "date_rule": "10-22",
+  "scope": "국제(인터넷)",
+  "status": "date_conflict"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "mean-girls-day",
+  "name_ko": "퀸카로 살아남는 법(Mean Girls)의 날",
+  "name_original": "Mean Girls Day",
+  "aliases": [],
+  "date_rule": "10-03",
+  "scope": "국제(팬덤·SNS)",
+  "status": "documented_unofficial"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "its-gonna-be-may",
+  "name_ko": "\"잇츠 고나 비 메이\" 데이",
+  "name_original": "It's Gonna Be May (Day)",
+  "aliases": [],
+  "date_rule": "04-30",
+  "scope": "국제(인터넷 밈)",
+  "status": "documented_unofficial"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "revenge-of-the-sixth",
+  "name_ko": "시스의 복수 데이",
+  "name_original": "Revenge of the Sixth / Revenge of the Fifth",
+  "aliases": [
+   "Revenge of the Fifth",
+   "시스 데이"
+  ],
+  "date_rule": "05-06",
+  "scope": "국제(스타워즈 팬덤)",
+  "status": "duplicate"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "blue-monday",
+  "name_ko": "블루 먼데이(가장 우울한 날이라는 PR 공식)",
+  "name_original": "Blue Monday",
+  "aliases": [],
+  "date_rule": "01-3-MON",
+  "scope": "영국에서 시작, 국제 확산",
+  "status": "documented_unofficial"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "earth-wind-fire-day",
+  "name_ko": "어스 윈드 앤 파이어 데이(9월 21일 밈)",
+  "name_original": "Earth, Wind & Fire Day",
+  "aliases": [],
+  "date_rule": "09-21",
+  "scope": "국제(인터넷 밈), 미국 LA 시의회 선언",
+  "status": "documented_unofficial"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "tau-day",
+  "name_ko": "타우의 날",
+  "name_original": "Tau Day",
+  "aliases": [],
+  "date_rule": "06-28",
+  "scope": "국제(수학 애호가)",
+  "status": "documented_unofficial"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "ninja-day-jp",
+  "name_ko": "닌자의 날(일본)",
+  "name_original": "忍者の日",
+  "aliases": [],
+  "date_rule": "02-22",
+  "scope": "일본",
+  "status": "documented_unofficial"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "cheonsa-day-kr",
+  "name_ko": "천사데이",
+  "name_original": "천사데이(1004)",
+  "aliases": [],
+  "date_rule": "10-04",
+  "scope": "한국",
+  "status": "discovered_unverified"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "apple-day-kr",
+  "name_ko": "애플데이(사과데이)",
+  "name_original": "애플데이",
+  "aliases": [],
+  "date_rule": "10-24",
+  "scope": "한국",
+  "status": "documented_unofficial"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "galentines-day",
+  "name_ko": "갤런타인데이",
+  "name_original": "Galentine's Day",
+  "aliases": [],
+  "date_rule": "02-13",
+  "scope": "미국에서 시작, 국제",
+  "status": "documented_unofficial"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "national-boyfriend-day",
+  "name_ko": "남자친구의 날",
+  "name_original": "National Boyfriend Day",
+  "aliases": [],
+  "date_rule": "10-03",
+  "scope": "국제(SNS)",
+  "status": "documented_unofficial"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "kokuhaku-day-jp",
+  "name_ko": "고백의 날(일본)",
+  "name_original": "告白の日",
+  "aliases": [],
+  "date_rule": "05-09",
+  "scope": "일본",
+  "status": "discovered_unverified"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "ii-fufu-day-jp",
+  "name_ko": "좋은 부부의 날(일본)",
+  "name_original": "いい夫婦の日",
+  "aliases": [],
+  "date_rule": "11-22",
+  "scope": "일본",
+  "status": "discovered_unverified"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "world-introvert-day",
+  "name_ko": "세계 내향인의 날",
+  "name_original": "World Introvert Day",
+  "aliases": [],
+  "date_rule": "01-02",
+  "scope": "국제 비공식",
+  "status": "discovered_unverified"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "bubble-wrap-appreciation-day",
+  "name_ko": "뽁뽁이 감사의 날",
+  "name_original": "Bubble Wrap Appreciation Day",
+  "aliases": [],
+  "date_rule": "01-L-MON",
+  "scope": "미국 비공식",
+  "status": "documented_unofficial"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "ugly-christmas-sweater-day",
+  "name_ko": "촌스러운 크리스마스 스웨터의 날",
+  "name_original": "National Ugly Christmas Sweater Day",
+  "aliases": [],
+  "date_rule": "12-3-FRI",
+  "scope": "미국 비공식",
+  "status": "duplicate"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "international-geocaching-day",
+  "name_ko": "국제 지오캐싱의 날",
+  "name_original": "International Geocaching Day",
+  "aliases": [],
+  "date_rule": "08-3-SAT",
+  "scope": "국제(취미 커뮤니티)",
+  "status": "documented_unofficial"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "kushi-day-jp",
+  "name_ko": "빗의 날(일본)",
+  "name_original": "くしの日",
+  "aliases": [],
+  "date_rule": "09-04",
+  "scope": "일본",
+  "status": "discovered_unverified"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "pants-day-jp",
+  "name_ko": "팬티의 날(일본)",
+  "name_original": "パンツの日",
+  "aliases": [],
+  "date_rule": "08-02",
+  "scope": "일본",
+  "status": "discovered_unverified"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "futon-day-jp",
+  "name_ko": "이불의 날(일본)",
+  "name_original": "ふとんの日",
+  "aliases": [],
+  "date_rule": "10-10",
+  "scope": "일본",
+  "status": "date_conflict"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "defy-superstition-day",
+  "name_ko": "미신에 맞서는 날",
+  "name_original": "Defy Superstition Day",
+  "aliases": [],
+  "date_rule": "09-13",
+  "scope": "미국 비공식",
+  "status": "documented_unofficial"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "yurei-day-jp",
+  "name_ko": "유령의 날(일본)",
+  "name_original": "幽霊の日",
+  "aliases": [],
+  "date_rule": "07-26",
+  "scope": "일본",
+  "status": "discovered_unverified"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "put-a-pillow-on-your-fridge-day",
+  "name_ko": "냉장고 위에 베개 올리는 날",
+  "name_original": "Put a Pillow on Your Fridge Day",
+  "aliases": [],
+  "date_rule": "05-29",
+  "scope": "미국·유럽 비공식(학생신문 표현)",
+  "status": "discovered_unverified"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "existing:anv-fixed-05-09-lost-sock-memorial-day-us",
+  "name_ko": "잃어버린 양말 추모의 날",
+  "name_original": "Lost Sock Memorial Day",
+  "aliases": [],
+  "date_rule": "05-09",
+  "scope": null,
+  "status": "duplicate"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "existing:anv-fixed-08-06-wiggle-your-toes-day-us",
+  "name_ko": "발가락 꼼지락거리는 날",
+  "name_original": "Wiggle Your Toes Day",
+  "aliases": [],
+  "date_rule": "08-06",
+  "scope": null,
+  "status": "duplicate"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "existing:anv-fixed-08-08-sneak-zucchini-day-us",
+  "name_ko": "몰래 주키니 선물하는 날",
+  "name_original": "Sneak Some Zucchini onto Your Neighbor’s Porch Day",
+  "aliases": [],
+  "date_rule": "08-08",
+  "scope": null,
+  "status": "duplicate"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "existing:anv-fixed-12-23-festivus-us",
+  "name_ko": "페스티버스 (Festivus)",
+  "name_original": "Festivus",
+  "aliases": [],
+  "date_rule": "12-23",
+  "scope": null,
+  "status": "duplicate"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "existing:anv-fixed-10-09-leif-erikson-day-us",
+  "name_ko": "레이프 에릭손의 날 (National Leif Erikson Day)",
+  "name_original": "Leif Erikson Day",
+  "aliases": [],
+  "date_rule": "10-09",
+  "scope": null,
+  "status": "duplicate"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "existing:anv-fixed-05-25-towel-day",
+  "name_ko": "타월의 날 (Towel Day)",
+  "name_original": "Towel Day",
+  "aliases": [],
+  "date_rule": "05-25",
+  "scope": null,
+  "status": "duplicate"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "existing:anv-fixed-09-22-hobbit-day-global",
+  "name_ko": "호빗의 날 (Hobbit Day)",
+  "name_original": "Hobbit Day",
+  "aliases": [],
+  "date_rule": "09-22",
+  "scope": null,
+  "status": "duplicate"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "existing:anv-fixed-08-17-black-cat-appreciation-day-us",
+  "name_ko": "검은 고양이 감사의 날 (Black Cat Appreciation Day)",
+  "name_original": "Black Cat Appreciation Day",
+  "aliases": [],
+  "date_rule": "08-17",
+  "scope": null,
+  "status": "duplicate"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "existing:anv-fixed-02-29-bachelors-day-ie",
+  "name_ko": "윤일 청혼의 날 (Bachelor’s Day)",
+  "name_original": "Bachelor’s Day / Leap Day proposal",
+  "aliases": [],
+  "date_rule": "02-29",
+  "scope": null,
+  "status": "duplicate"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "existing:anv-fixed-04-23-talk-like-shakespeare-day-us",
+  "name_ko": "셰익스피어처럼 말하는 날",
+  "name_original": "Talk Like Shakespeare Day",
+  "aliases": [],
+  "date_rule": "04-23",
+  "scope": null,
+  "status": "duplicate"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "existing:anv-fixed-12-08-time-traveler-day-global",
+  "name_ko": "타임트래블러인 척하는 날",
+  "name_original": "Pretend to Be a Time Traveler Day",
+  "aliases": [],
+  "date_rule": "12-08",
+  "scope": null,
+  "status": "duplicate"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "existing:anv-fixed-09-19-talk-like-a-pirate-day-global",
+  "name_ko": "세계 해적처럼 말하기의 날",
+  "name_original": "Talk Like a Pirate Day",
+  "aliases": [],
+  "date_rule": "09-19",
+  "scope": null,
+  "status": "duplicate"
+ },
+ {
+  "batch": "quirky-discovery-20261012",
+  "candidate_key": "existing:anv-fixed-12-05-ninja-day-global",
+  "name_ko": "세계 닌자의 날 (International Ninja Day)",
+  "name_original": "International Ninja Day",
+  "aliases": [],
+  "date_rule": "12-05",
+  "scope": null,
+  "status": "duplicate"
+ }
+]

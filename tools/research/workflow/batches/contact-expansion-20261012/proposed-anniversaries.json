@@ -1,0 +1,300 @@
+{
+  "_note": "검수 전 초안. 서비스 JSON 에 반영하지 않았고 승인되지 않았다. 반영 전 독립 검수·사람 승인·generate_slugs 실행 필요. id 는 제안값이며 slug/urlDate 는 생성기가 정한다.",
+  "batch_id": "contact-expansion-20261012",
+  "items": [
+    {
+      "candidate_key": "fuji-day-jp",
+      "research_status": "evidenced",
+      "review_decision": "pending",
+      "anniversary": {
+        "id": "anv-fixed-02-23-mount-fuji-day-jp",
+        "date": "02-23",
+        "dateType": "annual-fixed",
+        "name": "후지산의 날 (富士山の日)",
+        "category": "animal",
+        "tags": [
+          "동물 & 자연"
+        ],
+        "storytelling": {
+          "origin": "2월 23일은 일본 시즈오카현이 조례로 정한 '후지산의 날'이다. 시즈오카현은 2009년 12월 25일 '시즈오카현 후지산의 날 조례'를 공포하고 같은 날부터 시행했다. 조례 제1조는 현민이 후지산을 더 깊이 이해하고 관심을 가지며, 후지산을 후세에 물려주기를 기약하는 날로 삼는다고 목적을 밝힌다.",
+          "anecdote": "조례가 기준으로 삼는 '후지산 헌장'은 1998년 11월 18일 시즈오카현과 이웃 야마나시현이 함께 만든 것이다. 시즈오카현은 이 날을 계기로 후지산 환경 보전 활동과 세계문화유산 등록 노력에 대한 현민의 이해를 높여, 후지산을 후세에 물려주기 위한 현민 운동을 넓히겠다고 밝혔다."
+        },
+        "memes": [],
+        "sourceUrl": "https://www.pref.shizuoka.jp/kankosports/kanko/mtfuji/1002778/1019312.html"
+      }
+    },
+    {
+      "candidate_key": "rotary-peace-day",
+      "research_status": "evidenced",
+      "review_decision": "pending",
+      "anniversary": {
+        "id": "anv-fixed-02-23-rotary-world-understanding-peace-day",
+        "date": "02-23",
+        "dateType": "annual-fixed",
+        "name": "세계 이해와 평화의 날 (World Understanding and Peace Day)",
+        "category": "campaign",
+        "tags": [
+          "국제 캠페인 & 보건"
+        ],
+        "storytelling": {
+          "origin": "2월 23일은 국제 봉사단체 로터리가 기념하는 '세계 이해와 평화의 날'이다. 1905년 2월 23일 미국 시카고에서 변호사 폴 해리스의 주도로 열린 첫 로터리 모임을 기리며, 로터리 지구 자료는 매년 이날을 기념한다고 설명한다. 1984년 미국 미네소타 주지사 선포문에는 국제로터리가 그해 2월 23일을 이 날로 선언했다고 적혀 있다. 처음 제정된 해는 확인되지 않았다.",
+          "anecdote": "로터리 달력에서 2월은 '세계 이해의 달'로 지정돼 있고, 이 날도 그 달에 들어 있다. 해리스는 정치·종교적 분열을 넘어 친목과 지역 봉사에 힘쓰는 전문직 모임을 구상했다. 시카고의 첫 모임이 미국 밖으로 넓어지면서 단체는 '국제로터리'라는 이름을 쓰게 됐고, 이 날은 그 출발과 함께 국가 간 평화와 상호 이해의 필요를 되새기는 날로 소개된다."
+        },
+        "memes": [],
+        "sourceUrl": "https://www.rotary5340.org/Stories/rotary-s-world-understanding-and-peace-day"
+      }
+    },
+    {
+      "candidate_key": "montenegro-statehood-day",
+      "research_status": "evidenced",
+      "review_decision": "pending",
+      "anniversary": {
+        "id": "anv-fixed-07-13-montenegro-statehood-day",
+        "date": "07-13",
+        "dateType": "annual-fixed",
+        "name": "몬테네그로 국가성립 기념일 (Statehood Day)",
+        "category": "history",
+        "tags": [
+          "역사 & 추모"
+        ],
+        "storytelling": {
+          "origin": "7월 13일은 몬테네그로의 국가성립 기념일이다. 1878년 7월 13일 베를린 회의에서 몬테네그로가 독립국으로 인정받은 일을 기리며, 1941년 같은 날 점령에 맞서 일어난 봉기도 함께 기억한다. 몬테네그로 정부 자료는 이 봉기를 인민해방투쟁의 시작이자 점령된 유럽에서 처음 일어난 전국적 봉기로 소개한다. 기념일을 법으로 정한 연도는 확인되지 않았다.",
+          "anecdote": "베를린 회의는 1878년 6월 13일 오스만 제국·러시아·오스트리아-헝가리·독일·영국·프랑스·이탈리아 대표가 모여 시작했고, 한 달 뒤인 7월 13일 끝났다. 몬테네그로의 국가 지위는 1918년 세르비아와 합쳐지며 사라졌는데, 정부 자료는 베를린 회의의 성과가 2006년 5월 21일 독립을 되찾는 토대가 됐다고 설명한다."
+        },
+        "memes": [],
+        "sourceUrl": "https://www.gov.me/en/digital-museum/13-july-symbol-of-montenegrin-statehood"
+      }
+    },
+    {
+      "candidate_key": "world-snake-day",
+      "research_status": "evidenced",
+      "review_decision": "pending",
+      "anniversary": {
+        "id": "anv-fixed-07-16-world-snake-day-global",
+        "date": "07-16",
+        "dateType": "annual-fixed",
+        "name": "세계 뱀의 날 (World Snake Day)",
+        "category": "animal",
+        "tags": [
+          "동물 & 자연"
+        ],
+        "storytelling": {
+          "origin": "7월 16일은 뱀과 뱀이 생태계에서 맡는 역할을 알리는 '세계 뱀의 날'이다. 우크라이나 미콜라이우 동물원은 매년 이날을 기념한다고 소개하며, 뱀에 대해 더 알리고 뱀에 얽힌 두려움을 덜어 주는 것을 목적으로 든다. 누가 언제 처음 정했는지, 왜 7월 16일인지는 확인되지 않았다.",
+          "anecdote": "미콜라이우 동물원은 대부분의 뱀이 사람에게 위험하지 않은데도 두려움 때문에 죽임을 당하는 일이 많다고 설명한다. 2023년 7월 16일 인도 뉴델리 국립동물공원은 이날을 맞아 파충류관 산책 프로그램을 열어 관람객이 사육사와 이야기를 나누게 했다. 동물원이 밝힌 행사 목적은 인도의 뱀과 생태계에서 뱀이 갖는 중요성을 알려 뱀을 보호하는 것이었다."
+        },
+        "memes": [],
+        "sourceUrl": "https://zoo.nikolaev.ua/en/news/vsesvitnij_den_zmij8457"
+      }
+    },
+    {
+      "candidate_key": "myanmar-martyrs-day",
+      "research_status": "evidenced",
+      "review_decision": "pending",
+      "anniversary": {
+        "id": "anv-fixed-07-19-myanmar-martyrs-day",
+        "date": "07-19",
+        "dateType": "annual-fixed",
+        "name": "미얀마 순국자의 날 (Martyrs' Day)",
+        "category": "history",
+        "tags": [
+          "역사 & 추모"
+        ],
+        "storytelling": {
+          "origin": "7월 19일은 미얀마가 해마다 독립 영웅들을 추모하는 '순국자의 날'이다. 1947년 7월 19일 오전 10시 37분, 영국으로부터의 독립운동을 이끌던 아웅산 장군이 내각 회의 도중 각료 6명, 다른 관리 2명과 함께 총격으로 숨진 사건을 기린다. 아웅산은 당시 32세였고, 미얀마는 그가 숨진 지 6개월이 안 돼 독립을 이뤘다.",
+          "anecdote": "양곤에서는 사건 시각인 오전 10시 37분에 사이렌과 자동차 경적이 울리고, 쉐다곤 파고다 인근 순국자 묘역에서 주요 추모식이 열린다. 국영 라디오가 내보내던 추모 사이렌은 군사정권 시기 오랫동안 끊겼고, 2013년에는 시민들이 휴대전화로 사이렌 소리를 틀어 그 순간을 기렸다. 암살을 모의한 정적 우 소 전 총리는 재판을 거쳐 교수형에 처해졌다. 아웅산은 아웅산 수치의 아버지다."
+        },
+        "memes": [],
+        "sourceUrl": "https://www.news4jax.com/news/world/2024/07/19/strife-torn-myanmar-marks-77th-anniversary-of-the-assassination-of-independence-hero-gen-aung-san/"
+      }
+    },
+    {
+      "candidate_key": "ukraine-independence-day",
+      "research_status": "evidenced",
+      "review_decision": "pending",
+      "anniversary": {
+        "id": "anv-fixed-08-24-ukraine-independence-day",
+        "date": "08-24",
+        "dateType": "annual-fixed",
+        "name": "우크라이나 독립기념일 (Independence Day of Ukraine)",
+        "category": "history",
+        "tags": [
+          "역사 & 추모"
+        ],
+        "storytelling": {
+          "origin": "8월 24일은 우크라이나의 독립기념일이다. 1991년 8월 24일 당시 우크라이나 소비에트 사회주의 공화국 최고라다(의회)가 '우크라이나 독립 선포법'을 채택한 날로, 선포는 같은 해 12월 1일 국민투표로 확인됐다. 최고라다는 1992년 2월 20일 결의로 8월 24일을 독립기념일로 정하고 매년 국가 공휴일로 기념하기로 했다.",
+          "anecdote": "처음 독립기념일은 7월 16일이었다. 1990년 7월 16일 국가주권선언을 채택하면서 의회가 이날을 기념일로 정했지만, 1992년 결의로 8월 24일로 옮기고 이전 결정을 폐지했다. 선포법은 모스크바의 쿠데타가 실패한 직후 채택됐고, 우크라이나 영토는 나눌 수 없고 침범할 수 없다고 밝혔다. 2022년에는 계엄령에 따라 독립기념일에도 추가 휴무가 주어지지 않았다."
+        },
+        "memes": [],
+        "sourceUrl": "https://global.espreso.tv/ukraine-celebrates-independence-day-national-holidays-history"
+      }
+    },
+    {
+      "candidate_key": "pluto-demoted-day",
+      "research_status": "evidenced",
+      "review_decision": "pending",
+      "anniversary": {
+        "id": "anv-fixed-08-24-pluto-demoted-day",
+        "date": "08-24",
+        "dateType": "annual-fixed",
+        "name": "명왕성 강등의 날 (Pluto Demoted Day)",
+        "category": "academic",
+        "tags": [
+          "학술 & 기술"
+        ],
+        "storytelling": {
+          "origin": "8월 24일은 2006년 국제천문연맹(IAU)이 명왕성을 행성에서 왜소행성으로 다시 분류한 일을 돌아보는 비공식 기념일 '명왕성 강등의 날'이다. 그해 8월 24일 체코 프라하에서 열린 IAU 총회가 행성의 정의를 정하는 결의를 통과시키면서 태양계 행성은 수성부터 해왕성까지 8개가 됐다. 이 기념일을 누가 처음 만들었는지는 확인되지 않았다.",
+          "anecdote": "새 정의에서 왜소행성은 태양을 돌고 스스로의 중력으로 거의 둥근 모양을 이루지만, 궤도 주변의 다른 천체를 정리하지 못한 천체다. 처음 왜소행성으로 꼽힌 것은 세레스, 명왕성, 임시 이름 '2003 UB313'이었다. 명왕성 관련 결의 6A는 찬성 237표, 반대 157표, 기권 17표로 통과됐고, IAU는 명왕성을 해왕성 바깥 천체의 새 분류를 대표하는 원형으로 인정했다."
+        },
+        "memes": [],
+        "sourceUrl": "https://iauarchive.eso.org/news/pressreleases/detail/iau0603/"
+      }
+    },
+    {
+      "candidate_key": "overdose-awareness-day",
+      "research_status": "evidenced",
+      "review_decision": "pending",
+      "anniversary": {
+        "id": "anv-fixed-08-31-international-overdose-awareness-day",
+        "date": "08-31",
+        "dateType": "annual-fixed",
+        "name": "국제 약물 과다복용 인식의 날 (International Overdose Awareness Day)",
+        "category": "campaign",
+        "tags": [
+          "국제 캠페인 & 보건"
+        ],
+        "storytelling": {
+          "origin": "8월 31일은 약물 과다복용으로 세상을 떠난 이들을 추모하고 예방을 함께 고민하는 '국제 약물 과다복용 인식의 날'이다. 2001년 호주 멜버른의 구세군 주사기 교환소에서 과다복용을 겪은 지역 주민들이 모인 바비큐 모임에서 시작됐고, 2012년부터 호주 비영리단체 페닝턴 연구소가 이끌며 전 세계가 함께하는 행동의 날로 키웠다.",
+          "anecdote": "이날 행사에서는 세상을 떠난 이들을 기리고, 가족·친구·동료에게 과다복용을 알리며, 근거에 기반한 예방책을 찾는다. 처음에는 추모 중심이었지만 이후 과다복용 예방을 추모와 함께 캠페인의 핵심 목표로 내걸었다. 주최 측은 2026년이 캠페인 25주년이며, 해마다 40개국 이상에서 1,000건이 넘는 행사가 열린다고 밝힌다."
+        },
+        "memes": [],
+        "sourceUrl": "https://www.penington.org.au/overdose/overdose-projects-campaigns/international-overdose-awareness-day/"
+      }
+    },
+    {
+      "candidate_key": "african-descent-day",
+      "research_status": "evidenced",
+      "review_decision": "pending",
+      "anniversary": {
+        "id": "anv-fixed-08-31-international-day-people-of-african-descent-global",
+        "date": "08-31",
+        "dateType": "annual-fixed",
+        "name": "국제 아프리카계 사람들의 날 (International Day for People of African Descent)",
+        "category": "campaign",
+        "tags": [
+          "국제 캠페인 & 보건"
+        ],
+        "storytelling": {
+          "origin": "8월 31일은 유엔이 정한 '국제 아프리카계 사람들의 날'이다. 유엔 총회는 2020년 12월 16일 결의 75/170을 채택해 이날을 선포했다. 아프리카계 사람들의 다양한 유산과 문화, 사회 발전에 대한 기여를 더 널리 인정하고 존중하며, 이들의 인권과 기본적 자유를 존중하도록 하는 것이 목적이다.",
+          "anecdote": "날짜는 1920년 8월 31일에서 왔다. 결의문은 이날 뉴욕에서 제1회 '세계 흑인 민족 국제대회'가 막을 내렸고, 마커스 가비가 이끈 논의의 결과로 '세계 흑인 민족 권리 선언'이 공포됐다고 적는다. 2026년 기념일은 '제2차 아프리카계 사람들을 위한 국제 10년(2025~2034)' 안에서 '아프리카계 사람들의 인권 확장'을 주제로 열렸다."
+        },
+        "memes": [],
+        "sourceUrl": "https://www.un.org/en/observances/african-descent-day"
+      }
+    },
+    {
+      "candidate_key": "world-gorilla-day",
+      "research_status": "evidenced",
+      "review_decision": "pending",
+      "anniversary": {
+        "id": "anv-fixed-09-24-world-gorilla-day-global",
+        "date": "09-24",
+        "dateType": "annual-fixed",
+        "name": "세계 고릴라의 날 (World Gorilla Day)",
+        "category": "animal",
+        "tags": [
+          "동물 & 자연"
+        ],
+        "storytelling": {
+          "origin": "9월 24일은 고릴라를 기리고 야생 고릴라 보전에 힘을 모으는 '세계 고릴라의 날'이다. 1967년 이날 영장류학자 다이앤 포시가 르완다 숲에 마운틴고릴라를 연구하는 카리소케 연구센터를 세웠고, 50주년이던 2017년 미국 동물원 컨소시엄이 이날을 첫 '세계 고릴라의 날'로 지정했다. 지금은 다이앤 포시 고릴라 기금이 카리소케를 운영한다.",
+          "anecdote": "휴대전화 같은 소형 전자기기에 꼭 필요한 콜탄은 콩고민주공화국 동부, 고릴라 서식지 한가운데의 숲에서 채굴된다. 그래서 고릴라 기금의 세계 고릴라의 날 안내에는 낡은 휴대전화를 재활용해 콜탄 수요를 줄이자는 캠페인 참여도 함께 실려 있다. 포시는 1985년 비룽가 산지의 외딴 오두막에서 살해당했다."
+        },
+        "memes": [],
+        "sourceUrl": "https://gorillafund.org/?p=50275"
+      }
+    },
+    {
+      "candidate_key": "korea-film-day",
+      "research_status": "evidenced",
+      "review_decision": "pending",
+      "anniversary": {
+        "id": "anv-fixed-10-27-film-day-kr",
+        "date": "10-27",
+        "dateType": "annual-fixed",
+        "name": "영화의 날 (한국)",
+        "category": "culture",
+        "tags": [
+          "문화 & 예술"
+        ],
+        "storytelling": {
+          "origin": "10월 27일은 한국의 '영화의 날'이다. 1919년 10월 27일 서울 단성사에서 한국인이 국내 자본으로 만든 첫 영화로 꼽히는 '의리적 구토'가 처음 상영된 것을 기념해, 이후 매년 이날을 영화의 날로 정했다. 누가 몇 년에 처음 정했는지는 이번에 확인한 자료에 나오지 않는다. 2019년이 한국 영화 100주년이었다.",
+          "anecdote": "'의리적 구토'는 김도산이 극본과 연출을 맡았고, 연극 중간에 영화 장면을 끼워 넣은 '연쇄극'이었다. 연극보다 비싼 입장료에도 10만 관객이 들었다고 한다. 연쇄극이라 최초의 한국 영화로 보기 어렵다는 시각도 있어, 같은 날 먼저 상영된 기록영화 '경성전시의 경'을 최초로 봐야 한다는 주장도 나온다. 2024년에는 한국영화인총연합회와 영화진흥위원회가 '한국영화 105주년 영화의 날 기념 세미나 & 시상식'을 열었다."
+        },
+        "memes": [],
+        "sourceUrl": "https://theme.archives.go.kr/next/koreaOfRecord/Dansungsa.do"
+      }
+    },
+    {
+      "candidate_key": "india-constitution-day",
+      "research_status": "evidenced",
+      "review_decision": "pending",
+      "anniversary": {
+        "id": "anv-fixed-11-26-india-constitution-day",
+        "date": "11-26",
+        "dateType": "annual-fixed",
+        "name": "인도 헌법의 날 (Constitution Day)",
+        "category": "history",
+        "tags": [
+          "역사 & 추모"
+        ],
+        "storytelling": {
+          "origin": "11월 26일은 인도의 '헌법의 날'이다. 1949년 이날 인도 제헌의회가 헌법을 채택한 것을 기념한다. 인도 정부는 2015년 11월 19일 사회정의·권한강화부의 관보 고시로 매년 11월 26일을 헌법의 날로 지키기로 했다.",
+          "anecdote": "관보 고시 전에도 11월 26일은 제헌의회의 헌법 채택을 기념하는 '법의 날(Law Day)'로 지켜졌다. 2015년 고시로 같은 날이 헌법의 날이라는 이름으로 정부 차원에서 기념되기 시작했고, 말리 주재 인도대사관 같은 재외공관도 관보 번호와 함께 이 결정을 안내했다."
+        },
+        "memes": [],
+        "sourceUrl": "https://embassyofindiabamako.gov.in/news_detail/?newsid=76"
+      }
+    },
+    {
+      "candidate_key": "goa-liberation-day",
+      "research_status": "evidenced",
+      "review_decision": "pending",
+      "anniversary": {
+        "id": "anv-fixed-12-19-goa-liberation-day",
+        "date": "12-19",
+        "dateType": "annual-fixed",
+        "name": "고아 해방의 날 (Goa Liberation Day)",
+        "category": "history",
+        "tags": [
+          "역사 & 추모"
+        ],
+        "storytelling": {
+          "origin": "12월 19일은 인도 고아주의 '해방의 날'이다. 고아는 1961년 12월 19일 450년에 걸친 포르투갈 통치에서 벗어나 인도 연방에 편입됐다. 고아 주정부는 2024년과 2025년 이날을 맞아 주총리와 주지사 명의의 기념 메시지를 냈고, 주지사는 이 날을 고아 역사에서 가장 중요한 날이라고 불렀다.",
+          "anecdote": "전환점은 1961년 12월 인도군의 '비자이 작전'이었다. 고아 주지사는 육·해·공군이 고아·다만·디우를 식민 통치에서 해방하려고 나선 이 작전이 36시간 만에 끝났다고 설명했다. 2025년 해방의 날에는 주지사 관저 '라지 바반'을 식민지 시대 용어에서 벗어난다는 뜻에서 '국민의 집'이라는 뜻의 '로크 바반'으로 부르겠다고 발표했다."
+        },
+        "memes": [],
+        "sourceUrl": "https://dip.goa.gov.in/cm-extends-greetings-on-goa-liberation-day/"
+      }
+    },
+    {
+      "candidate_key": "world-rock-day-br",
+      "research_status": "review",
+      "review_decision": "pending",
+      "anniversary": {
+        "id": "anv-fixed-07-13-world-rock-day-br",
+        "date": "07-13",
+        "dateType": "annual-fixed",
+        "name": "세계 록의 날 (Dia Mundial do Rock)",
+        "category": "culture",
+        "tags": [
+          "문화 & 예술"
+        ],
+        "storytelling": {
+          "origin": "7월 13일은 브라질에서 주로 기념하는 '세계 록의 날(Dia Mundial do Rock)'이다. 이름과 달리 국제적으로 공인된 날은 아니며, 1985년 7월 13일 영국 런던과 미국 필라델피아에서 동시에 열린 자선 공연 '라이브 에이드'에서 유래했다고 소개된다. 브라질에서는 1990년 무렵부터 자리 잡았다.",
+          "anecdote": "브라질 방송사 반데이란치스(Band)의 보도에 따르면 라이브 에이드 무대에 선 필 콜린스가 이날을 '세계 록의 날'로 기억하고 싶다고 말했지만 국제적으로 공식화되지는 않았고, 이후 브라질의 록 전문 라디오들이 1990년 무렵부터 이날을 널리 알렸다. 라이브 에이드는 에티오피아 기근 구호 기금을 모으기 위한 공연이었다."
+        },
+        "memes": [],
+        "sourceUrl": "https://www.band.com.br/entretenimento/por-que-13-de-julho-e-o-dia-mundial-do-rock-saiba-a-origem-da-data-202607091318"
+      }
+    }
+  ]
+}

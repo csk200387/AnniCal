@@ -1,0 +1,301 @@
+{
+ "country": "MY",
+ "country_ko": "말레이시아",
+ "search_language": "ms",
+ "sources": {
+  "utusansarawak": "Utusan Sarawak (2024)",
+  "borneopost-2014": "The Borneo Post",
+  "bharian-2026": "Berita Harian (2026-05)",
+  "sabah-library": "Perpustakaan Negeri Sabah (사바주립도서관)",
+  "malaymail-2017": "Malay Mail (2017)",
+  "kosmo-2021": "Kosmo! (2021)",
+  "utusansarawak-15930": "Utusan Sarawak",
+  "malaysiakini-115334": "Malaysiakini",
+  "says-2026": "SAYS (2026-01)",
+  "bernama-2516486": "Bernama"
+ },
+ "summary_ko": "말레이시아는 연방 공휴일 말레이시아의 날(9/16)과 보르네오 두 주의 추수 축제 — 사바 카아마탄(5/30~31)·사라왁 가와이 다약(6/1) — 그리고 타밀 힌두 축제 타이푸삼을 찾았다. 타이푸삼은 싱가포르·인도에서도 지내지만 이 기록 하나로만 둔다(국가별 중복 계상 금지).",
+ "limits": "하리라야(이드) 등 이슬람 명절과 디파발리는 조사하지 않았다. 타이푸삼 날짜는 타밀력(타이 달 + 푸삼 별자리)이라 해마다 바뀌고 2026년 날짜도 검색결과끼리 상충(2/1 다수, 2/5 일부)했다. 베르나마 원문은 시간 초과.",
+ "candidates": [
+  {
+   "aliases": [
+    "Malaysia Day",
+    "16 September"
+   ],
+   "search_result_only": [
+    {
+     "url": "https://testastro.malaysiakini.com/news/115334-public-holiday-for-sept-16",
+     "note": "2009 발표 보도 — 401"
+    }
+   ],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": "나라의 \"생일\"(9/16)과 독립기념일(8/31)이 따로 있다",
+   "candidate_key": "my-malaysia-day",
+   "name_original": "Hari Malaysia",
+   "name_ko": "말레이시아의 날 — 1963년 연방 결성 기념일",
+   "date_type": "annual-fixed",
+   "date_rule": "09-16",
+   "date_note": "2010년부터 전국 공휴일(그 전엔 사바만 휴일)",
+   "app_date_support": "supported",
+   "scope": "말레이시아 연방 공휴일",
+   "kind": "official_holiday",
+   "kind_group": "national_official",
+   "officiality": "official_national",
+   "meaning_ko": "1963년 9월 16일 말라야 연방에 북보르네오(사바)·사라왁·싱가포르가 합쳐져 말레이시아 연방이 출범한 날을 기념하는 공휴일이다(싱가포르는 1965년 분리). 원래 6월 1일, 다시 8월 31일 독립기념일에 맞추려다 인도네시아·필리핀의 반발과 콥볼드 위원회 조사 때문에 9월 16일로 미뤄졌다. 2009년 나집 총리가 의회에서 발표해 2010년부터 전국 공휴일이 됐다.",
+   "founder_origin": "2009 나집 총리 의회 발표 → 2010 전국 공휴일",
+   "founder_check_level": "news_read",
+   "founder_check": "confirmed",
+   "claims": [
+    {
+     "claim_id": "holiday_2010",
+     "claim_ko": "2010년부터 전국 공휴일(2009 나집 발표)",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "kosmo-2021",
+       "quote": "Hari Malaysia mula disambut sebagai berstatus cuti umum seluruh negara pada 2010 setelah diumumkan bekas Perdana Menteri, Datuk Seri Najib Tun Razak di Parlimen pada tahun 2009.",
+       "quote_ko": "말레이시아의 날은 2009년 나집 전 총리의 의회 발표 뒤 2010년부터 전국 공휴일로 기념됐다."
+      }
+     ]
+    },
+    {
+     "claim_id": "date_shift",
+     "claim_ko": "1963-06-01 → 08-31 → 09-16 연기",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "utusansarawak-15930",
+       "quote": "pembentukan persekutuan baharu ini dirancang berlaku pada 1 Jun 1963 namun kemudiannya ditangguhkan ke 31 Ogos 1963",
+       "quote_ko": "새 연방 결성은 1963년 6월 1일로 계획됐다가 8월 31일로 연기됐다"
+      },
+      {
+       "evidence_id": "utusansarawak-15930",
+       "quote": "Hari Malaysia juga merupakan cuti am di negeri Sabah sempena hari keputeraan Yang Di-Pertua Negeri.",
+       "quote_ko": "말레이시아의 날은 사바 주지사 탄신일과 겹쳐 사바의 공휴일이기도 했다."
+      }
+     ]
+    }
+   ],
+   "uncertainty": "독립기념일 아님(8/31 은 별도). 연방 헌법에 \"말레이시아의 날\" 명시 개정 여부는 2021년 시점 계획만 확인.",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "Harvest Festival (Sabah)",
+    "Tadau Kaamatan"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": "추수 감사제의 꽃이 \"벼의 여신을 닮은\" 미인대회",
+   "candidate_key": "my-kaamatan",
+   "name_original": "Pesta Kaamatan",
+   "name_ko": "카아마탄 — 볍씨 신 후미노둔에게 감사하는 사바 추수 축제",
+   "date_type": "annual-fixed",
+   "date_rule": "05-30",
+   "date_note": "5월 30~31일(사바·라부안 공휴일). 한 달간 이어져 마지막 이틀이 절정",
+   "app_date_support": "supported",
+   "scope": "말레이시아 사바주·라부안 공휴일(카다잔두순·무룻 등)",
+   "kind": "folk_harvest",
+   "kind_group": "folk_religious",
+   "officiality": "official_regional",
+   "meaning_ko": "5월 30~31일 사바주의 카다잔두순·무룻 사람들이 한 해 첫 벼 수확을 나누며 감사하는 추수 축제다. 가뭄과 기근에서 사람들을 구하려 창조신 부부가 외동딸 후미노둔을 희생했고 그 몸에서 벼가 났다는 신화를 기린다. 후미노둔의 아름다움을 기리는 미인대회 \"운둑 응아다우\"가 하이라이트이며 사바에선 한 달 내내 축제가 이어진다.",
+   "founder_origin": "카다잔두순 전통(신화)",
+   "founder_check_level": "state_library_read",
+   "founder_check": "not_applicable",
+   "claims": [
+    {
+     "claim_id": "dates",
+     "claim_ko": "매년 5월 30~31일 사바·라부안",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "sabah-library",
+       "quote": "Kaamatan annual event celebrated on 30th – 31st of May in Sabah and Federal Territory of Labuan.",
+       "quote_ko": "카아마탄은 매년 5월 30~31일 사바와 라부안 연방직할구에서 기념한다."
+      }
+     ]
+    },
+    {
+     "claim_id": "myth",
+     "claim_ko": "창조신 부부가 딸 후미노둔을 희생한 신화",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "sabah-library",
+       "quote": "the Creator Couple (Kinoingan & Sumundu) sacrificed their only daughter Huminodun in order to save them from severe drought and famine.",
+       "quote_ko": "창조신 부부(키노잉안·수문두)가 혹독한 가뭄과 기근에서 사람들을 구하려 외동딸 후미노둔을 희생했다."
+      }
+     ]
+    },
+    {
+     "claim_id": "unduk_ngadau",
+     "claim_ko": "운둑 응아다우 미인대회",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "sabah-library",
+       "quote": "One of the major highlights of Kaamatan is to witness the highly anticipated Unduk Ngadau (Harvest Beauty Queen Pageant).",
+       "quote_ko": "카아마탄의 큰 볼거리 중 하나는 운둑 응아다우(추수 미인대회)다."
+      }
+     ]
+    },
+    {
+     "claim_id": "sabah_only",
+     "claim_ko": "사바만의 공휴일, 한 달 축제 마지막 이틀",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "malaymail-2017",
+       "quote": "However, Kaamatan is currently a public holiday only in Sabah and not nationwide.",
+       "quote_ko": "카아마탄은 현재 사바에서만 공휴일이고 전국 공휴일이 아니다."
+      },
+      {
+       "evidence_id": "malaymail-2017",
+       "quote": "In Sabah, Kaamatan is a month-long celebration that ends on a grand note on the last two days.",
+       "quote_ko": "사바에서 카아마탄은 한 달간 이어지며 마지막 이틀에 절정을 이룬다."
+      }
+     ]
+    }
+   ],
+   "uncertainty": "공휴일 지정 연도 미확인. 신화는 신화로만. 첫날(5/30)로 등록하면 이틀 행사임을 본문에 밝힐 것.",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "Gawai",
+    "Hari Sarawak (1962)"
+   ],
+   "search_result_only": [
+    {
+     "url": "https://www.theborneopost.com/2014/06/01/a-state-of-happy-people/",
+     "note": "1962 다약 지도자 주도 기원 — 403"
+    }
+   ],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": "처음엔 \"다약의 날\"이 아니라 \"사라왁의 날\"이라는 이름으로 허락받았다",
+   "candidate_key": "my-gawai",
+   "name_original": "Hari Gawai Dayak",
+   "name_ko": "가와이 다약 — 사라왁 다약족의 추수 감사 축일",
+   "date_type": "annual-fixed",
+   "date_rule": "06-01",
+   "date_note": "매년 6월 1일(사라왁 공휴일). 2026년은 국왕 공식 탄신일과 겹쳐 6/4 대체휴일",
+   "app_date_support": "supported",
+   "scope": "말레이시아 사라왁주 공휴일(이반·비다유 등 다약 공동체)",
+   "kind": "folk_harvest",
+   "kind_group": "folk_religious",
+   "officiality": "official_regional",
+   "meaning_ko": "6월 1일 사라왁의 다약 사람들이 벼 수확을 마치고 감사하는 축일이다. 영국 식민 정부가 다약 지도자들의 요구로 1962년 6월 1일 처음 \"사라왁의 날\"이라는 이름으로 공휴일을 허락했고, 말레이시아 결성 뒤 1964년 주 의회 논의를 거쳐 \"가와이 다약의 날\"로 이름이 바뀌었다. 브룩 왕가 시절엔 크리스마스·하리라야·춘절과 달리 공식 명절로 인정받지 못했다.",
+   "founder_origin": "1962 영국 식민 정부 공휴일(Hari Sarawak) → 1964 이후 Hari Gawai Dayak 개칭",
+   "founder_check_level": "news_read",
+   "founder_check": "partial",
+   "claims": [
+    {
+     "claim_id": "first_1962",
+     "claim_ko": "영국 정부가 6월 1일을 \"사라왁의 날\"로 허락, 1962-06-01 첫 공휴일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "utusansarawak",
+       "quote": "kerajaan British memberi kelulusan untuk meraikan Hari Gawai pada 1 Jun setiap tahun dengan diberi nama Hari Sarawak.",
+       "quote_ko": "영국 정부가 매년 6월 1일 가와이를 \"사라왁의 날\"이라는 이름으로 기념하도록 승인했다."
+      },
+      {
+       "evidence_id": "utusansarawak",
+       "quote": "Hari Sarawak yang diwartakan oleh kerajaan British sebagai cuti umum telah diraikan pada I Jun 1962 yang jatuh pada hari Isnin.",
+       "quote_ko": "영국 정부가 공휴일로 관보 고시한 사라왁의 날은 1962년 6월 1일 월요일에 처음 기념됐다."
+      }
+     ]
+    },
+    {
+     "claim_id": "renamed",
+     "claim_ko": "이후 \"가와이 다약의 날\"로 개칭, 매년 6월 1일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "utusansarawak",
+       "quote": "Akhirnya nama Hari Sarawak ditukar kepada Hari GawaiDayak, dan jatuh pada 1 Jun setiap tahun.",
+       "quote_ko": "결국 사라왁의 날은 가와이 다약의 날로 이름이 바뀌었고 매년 6월 1일이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "2026_overlap",
+     "claim_ko": "2026년 국왕 공식 탄신일과 겹쳐 6/4 대체휴일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "bharian-2026",
+       "quote": "Tarikh 4 Jun pula diisytiharkan sebagai hari kelepasan am gantian bagi sambutan Hari Gawai Dayak berikutan perayaan itu bertindih dengan Hari Keputeraan Rasmi Yang di-Pertuan Agong pada 1 Jun 2026",
+       "quote_ko": "가와이 다약이 2026년 6월 1일 국왕 공식 탄신일과 겹쳐 6월 4일을 대체 공휴일로 선포했다"
+      }
+     ]
+    }
+   ],
+   "uncertainty": "개칭 정확한 해(1964/1965)는 원문이 \"1964년 4월 의회 논의 후 결국\"으로만 씀 — 연도 단정 금지. 6월 1~2일 이틀 휴일로 쓰는 매체도 있음.",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "தைப்பூசம்",
+    "Thaipoosam"
+   ],
+   "search_result_only": [
+    {
+     "url": "https://web11.bernama.com/en/news.php?id=2516486",
+     "note": "베르나마 2026 보도(2/1, 바투 동굴 인파) — 시간 초과"
+    }
+   ],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": "같은 나라 안에서도 주에 따라 쉬는 날이 다르다",
+   "candidate_key": "my-thaipusam",
+   "name_original": "Thaipusam",
+   "name_ko": "타이푸삼 — 바투 동굴 272계단을 카와디 지고 오르는 타밀 힌두 축제",
+   "date_type": null,
+   "date_rule": null,
+   "date_rule_folk": "타밀력 타이(Thai) 달, 달이 푸삼(Pusam) 별자리에 있는 날(대개 보름 무렵, 양력 1~2월)",
+   "date_note": "2026년 2월 1일(일)(원문). 타밀력 표 없음 → 앱 날짜 미지원. 2026 날짜는 검색결과끼리 상충(2/5 표기 사이트 있음).",
+   "app_date_support": "unsupported",
+   "scope": "말레이시아 일부 주 공휴일(전국 아님). 싱가포르·인도 타밀나두·스리랑카 타밀 공동체도 기념",
+   "kind": "religious_festival",
+   "kind_group": "folk_religious",
+   "officiality": "official_religious_holiday",
+   "meaning_ko": "타밀력 \"타이\" 달 푸삼 별 아래 보름 무렵, 무루간 신에게 서원을 갚으려 쇠꼬챙이를 몸에 꽂거나 장식 틀 \"카와디\"를 지고 행렬하는 타밀 힌두 축제다. 쿠알라룸푸르 근교 바투 동굴이 가장 유명해 해마다 엄청난 인파가 몰린다. 말레이시아에선 전국 공휴일이 아니라 주별로 지정해 2026년엔 7개 주가 쉬지 않았다.",
+   "founder_origin": "힌두 무루간 신앙 전통",
+   "founder_check_level": "news_read",
+   "founder_check": "not_applicable",
+   "claims": [
+    {
+     "claim_id": "2026_date",
+     "claim_ko": "2026년 타이푸삼은 2월 1일(일)",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "says-2026",
+       "quote": "The Thaipusam celebration for 2026 is scheduled to fall on Sunday, 1 February 2026",
+       "quote_ko": "2026년 타이푸삼은 2026년 2월 1일 일요일이다"
+      }
+     ]
+    },
+    {
+     "claim_id": "state_holiday",
+     "claim_ko": "전국 공휴일 아님, 주정부가 지정",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "says-2026",
+       "quote": "Thaipusam is not gazetted as a nationwide public holiday. Instead, it falls under the jurisdiction of individual state governments to designate it as a state public holiday.",
+       "quote_ko": "타이푸삼은 전국 공휴일로 고시되지 않았고 각 주정부가 주 공휴일로 지정한다."
+      }
+     ]
+    }
+   ],
+   "distinct_reason": "싱가포르·인도에서도 같은 축제 → 국가별로 따로 세지 않고 이 기록 하나로",
+   "uncertainty": "원문 1곳(SAYS)만 → 단일 출처. 카와디·몸 꿰기 의례 서술은 이번 인용 밖(검색결과·일반 설명) — 검수 시 원문 추가. \"272계단\"은 원문 미확인이라 본문에 쓰지 말 것(이름 요약에서만 표현 — 등록 전 삭제 권장).",
+   "confidence": "medium"
+  }
+ ]
+}

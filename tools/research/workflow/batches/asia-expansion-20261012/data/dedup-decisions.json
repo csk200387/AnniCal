@@ -1,0 +1,117 @@
+{
+ "contact:korea-film-day": {
+  "verdict": "new",
+  "ref": null,
+  "note": "자동 스캔이 일본 '영화의 날'(12-01)·미국 드라이브인 영화의 날을 힌트로 냈으나 나라·날짜·유래가 다른 한국 영화계 기념일(10-27)."
+ },
+ "contact:world-snake-day": {
+  "verdict": "new",
+  "ref": null,
+  "note": "서비스 '뱀의 날'(anv-fixed-02-01-serpent-day-global, 02-01)과 날짜·명칭이 다른 별개 캠페인(07-16). 검수 시 두 항목의 관계 확인 권장."
+ },
+ "contact:fuji-day-jp": {
+  "verdict": "new",
+  "ref": null,
+  "note": "서비스 '후지큐의 날'(02-29, 기업)과 별개. 시즈오카현 조례 기념일."
+ },
+ "quirky:ninja-day-jp": {
+  "verdict": "new",
+  "ref": null,
+  "note": "서비스 '세계 닌자의 날'(12-05, International Ninja Day)과 날짜·제정 주체가 다른 일본 국내 2·22 말장난 기념일."
+ },
+ "quirky:ugly-christmas-sweater-day": {
+  "verdict": "service_duplicate",
+  "ref": "anv-fixed-12-18-ugly-christmas-sweater-day-global",
+  "note": "원본 판정 유지. 단 서비스 항목은 12-18 고정, 원문 규칙은 12월 셋째 금요일 — 서비스 날짜 재검증 필요(원본 기록 note)."
+ },
+ "quirky:revenge-of-the-sixth": {
+  "verdict": "service_duplicate",
+  "ref": "anv-fixed-05-05-sith-day-global",
+  "note": "원본 판정 유지(같은 팬 기념일의 Fifth/Sixth 변형)."
+ },
+ "native:es-santos-inocentes": {
+  "verdict": "service_duplicate",
+  "ref": "anv-fixed-12-28-holy-innocents-day-global",
+  "note": "원본 판정 유지(같은 축일의 지역 장난 풍습)."
+ },
+ "native:fr-fete-des-grands-meres": {
+  "verdict": "new",
+  "ref": null,
+  "note": "미국 조부모의 날(09-2-SUN)과 대상 겹치나 나라·날짜·기원 다름(원본 판정 유지)."
+ },
+ "native:pl-dzien-chlopaka": {
+  "verdict": "new",
+  "ref": null,
+  "note": "quirky:national-boyfriend-day(10-03, 미국·SNS)와 대상 겹치나 나라·날짜 다름(원본 판정 유지)."
+ },
+ "native:tw-520": {
+  "verdict": "new",
+  "ref": null,
+  "note": "중화권 공통 말장난. 이번 아시아 배치의 중국 520 은 이 후보의 prior_duplicate 로 처리."
+ },
+ "quirky:existing:anv-fixed-05-09-lost-sock-memorial-day-us": {
+  "verdict": "service_duplicate",
+  "ref": "anv-fixed-05-09-lost-sock-memorial-day-us",
+  "note": "quirky 배치가 검색 전 후보로 떠올렸다가 서비스에 있어 제외한 기록(원본 판정 유지). 자동 스캔의 셰익스피어·해적 '말하기' 토큰 겹침은 별개 항목."
+ },
+ "quirky:existing:anv-fixed-08-06-wiggle-your-toes-day-us": {
+  "verdict": "service_duplicate",
+  "ref": "anv-fixed-08-06-wiggle-your-toes-day-us",
+  "note": "quirky 배치가 검색 전 후보로 떠올렸다가 서비스에 있어 제외한 기록(원본 판정 유지). 자동 스캔의 셰익스피어·해적 '말하기' 토큰 겹침은 별개 항목."
+ },
+ "quirky:existing:anv-fixed-08-08-sneak-zucchini-day-us": {
+  "verdict": "service_duplicate",
+  "ref": "anv-fixed-08-08-sneak-zucchini-day-us",
+  "note": "quirky 배치가 검색 전 후보로 떠올렸다가 서비스에 있어 제외한 기록(원본 판정 유지). 자동 스캔의 셰익스피어·해적 '말하기' 토큰 겹침은 별개 항목."
+ },
+ "quirky:existing:anv-fixed-12-23-festivus-us": {
+  "verdict": "service_duplicate",
+  "ref": "anv-fixed-12-23-festivus-us",
+  "note": "quirky 배치가 검색 전 후보로 떠올렸다가 서비스에 있어 제외한 기록(원본 판정 유지). 자동 스캔의 셰익스피어·해적 '말하기' 토큰 겹침은 별개 항목."
+ },
+ "quirky:existing:anv-fixed-10-09-leif-erikson-day-us": {
+  "verdict": "service_duplicate",
+  "ref": "anv-fixed-10-09-leif-erikson-day-us",
+  "note": "quirky 배치가 검색 전 후보로 떠올렸다가 서비스에 있어 제외한 기록(원본 판정 유지). 자동 스캔의 셰익스피어·해적 '말하기' 토큰 겹침은 별개 항목."
+ },
+ "quirky:existing:anv-fixed-05-25-towel-day": {
+  "verdict": "service_duplicate",
+  "ref": "anv-fixed-05-25-towel-day",
+  "note": "quirky 배치가 검색 전 후보로 떠올렸다가 서비스에 있어 제외한 기록(원본 판정 유지). 자동 스캔의 셰익스피어·해적 '말하기' 토큰 겹침은 별개 항목."
+ },
+ "quirky:existing:anv-fixed-09-22-hobbit-day-global": {
+  "verdict": "service_duplicate",
+  "ref": "anv-fixed-09-22-hobbit-day-global",
+  "note": "quirky 배치가 검색 전 후보로 떠올렸다가 서비스에 있어 제외한 기록(원본 판정 유지). 자동 스캔의 셰익스피어·해적 '말하기' 토큰 겹침은 별개 항목."
+ },
+ "quirky:existing:anv-fixed-08-17-black-cat-appreciation-day-us": {
+  "verdict": "service_duplicate",
+  "ref": "anv-fixed-08-17-black-cat-appreciation-day-us",
+  "note": "quirky 배치가 검색 전 후보로 떠올렸다가 서비스에 있어 제외한 기록(원본 판정 유지). 자동 스캔의 셰익스피어·해적 '말하기' 토큰 겹침은 별개 항목."
+ },
+ "quirky:existing:anv-fixed-02-29-bachelors-day-ie": {
+  "verdict": "service_duplicate",
+  "ref": "anv-fixed-02-29-bachelors-day-ie",
+  "note": "quirky 배치가 검색 전 후보로 떠올렸다가 서비스에 있어 제외한 기록(원본 판정 유지). 자동 스캔의 셰익스피어·해적 '말하기' 토큰 겹침은 별개 항목."
+ },
+ "quirky:existing:anv-fixed-04-23-talk-like-shakespeare-day-us": {
+  "verdict": "service_duplicate",
+  "ref": "anv-fixed-04-23-talk-like-shakespeare-day-us",
+  "note": "quirky 배치가 검색 전 후보로 떠올렸다가 서비스에 있어 제외한 기록(원본 판정 유지). 자동 스캔의 셰익스피어·해적 '말하기' 토큰 겹침은 별개 항목."
+ },
+ "quirky:existing:anv-fixed-12-08-time-traveler-day-global": {
+  "verdict": "service_duplicate",
+  "ref": "anv-fixed-12-08-time-traveler-day-global",
+  "note": "quirky 배치가 검색 전 후보로 떠올렸다가 서비스에 있어 제외한 기록(원본 판정 유지). 자동 스캔의 셰익스피어·해적 '말하기' 토큰 겹침은 별개 항목."
+ },
+ "quirky:existing:anv-fixed-09-19-talk-like-a-pirate-day-global": {
+  "verdict": "service_duplicate",
+  "ref": "anv-fixed-09-19-talk-like-a-pirate-day-global",
+  "note": "quirky 배치가 검색 전 후보로 떠올렸다가 서비스에 있어 제외한 기록(원본 판정 유지). 자동 스캔의 셰익스피어·해적 '말하기' 토큰 겹침은 별개 항목."
+ },
+ "quirky:existing:anv-fixed-12-05-ninja-day-global": {
+  "verdict": "service_duplicate",
+  "ref": "anv-fixed-12-05-ninja-day-global",
+  "note": "quirky 배치가 검색 전 후보로 떠올렸다가 서비스에 있어 제외한 기록(원본 판정 유지). 자동 스캔의 셰익스피어·해적 '말하기' 토큰 겹침은 별개 항목."
+ }
+}

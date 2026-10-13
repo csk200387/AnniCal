@@ -1,0 +1,3204 @@
+{
+ "_note": "신규 후보는 독립 검수·반영 승인 전 단계다. 서비스 데이터에 반영되지 않았다.",
+ "batch_id": "native-languages-20261012",
+ "researched_at": "2026-10-12",
+ "owner": "Claude Code (Opus 5.5)",
+ "statuses": {
+  "new_candidate": "신규 후보(원문 확인)",
+  "new_candidate_single_source": "신규 후보(단일 출처 미검증)",
+  "hold_rule_unsupported": "보류 — 날짜 규칙 미지원(부활절·음력 표 없음)",
+  "search_result_only": "검색결과만 확인(원문 미확인)",
+  "prior_candidate": "이전 배치 후보와 동일",
+  "duplicate": "기존 서비스에 이미 등록",
+  "blocked": "원문 차단·근거 부족"
+ },
+ "officiality_labels": {
+  "official_state_law": "공식(주 법률)",
+  "official_cabinet_resolution": "공식(내각 결의)",
+  "official_national": "공식(국정 기념일)",
+  "official_observance_not_holiday": "공식(기념일, 공휴일 아님)",
+  "regional_tradition": "지역 전통",
+  "regional_festival": "지역 축제",
+  "folk_tradition": "민속 전통",
+  "folk_tradition_unesco_listed": "민속 전통(UNESCO 무형유산)",
+  "religious_feast_folk_custom": "종교 축일의 민간 풍습",
+  "folk_business_custom": "민속·상업 풍습",
+  "commercial": "상업 기원",
+  "industry": "업계 기념일",
+  "industry_folk": "업계·전설",
+  "unofficial": "비공식",
+  "unverified": "미확인"
+ },
+ "country_limits": [
+  {
+   "country": "BR",
+   "country_ko": "브라질",
+   "limits": "빵지케이주의 날(8/17, Senac MG 제정)은 음식이라 과잉 방지 원칙에 따라 후보로 올리지 않았다. Dia do Sogro·Dia do Fico 는 검색결과가 없었다. 브라질의 애인의 날(Dia dos Namorados, 06-12)은 기존 서비스 06-12 '애인의 날'과 겹쳐 조사하지 않았다."
+  },
+  {
+   "country": "DE",
+   "country_ko": "독일",
+   "limits": "독일어 '기이한 기념일' 목록(kuriose Gedenktage)은 검색결과가 업계 기념일 위주였다. Vatertag/Herrentag(예수 승천일=부활절+39일)는 조사하지 않았다 — 부활절 연동이라 어차피 규칙 미지원."
+  },
+  {
+   "country": "ES",
+   "country_ko": "스페인",
+   "limits": "카스카모라스(바사, 9월)는 날짜가 고정 하루인지 원문 미확인이라 기록하지 않았다. 산 조르디(04-23)는 서비스에 이미 있어(anv-fixed-04-23-sant-jordi-day-es) 조사 대상에서 뺐다."
+  },
+  {
+   "country": "FR",
+   "country_ko": "프랑스",
+   "limits": "프랑스어 일반 탐색 검색(#3)은 지역 축제(Hareng roi, fête de l'Ours 등)만 돌려줘 고정 기념일 후보로 이어지지 않았다. Fête des voisins(이웃의 날)는 날짜가 매년 주최 측 공지라 이번 배치에서 조사하지 않았다."
+  },
+  {
+   "country": "PL",
+   "country_ko": "폴란드",
+   "limits": "부활절 월요일 물 뿌리기(Śmigus-dyngus)와 기름진 목요일(Tłusty Czwartek, 부활절 연동·음식)은 부활절 anchor 가 없어 등록 불가라 원문 수집을 하지 않았다."
+  },
+  {
+   "country": "TH",
+   "country_ko": "태국",
+   "limits": "러이끄라통·송끄란 등 불교력·태음력 연동 축일은 서비스 표(observances.json)에 없어 등록 불가라 조사하지 않았다. 아동의 날(1월 둘째 토요일)·코끼리의 날(3/13)은 시간상 조사하지 못했다. 태국 정부 홍보청 공식 페이지는 404 였다."
+  },
+  {
+   "country": "TR",
+   "country_ko": "튀르키예",
+   "limits": "이슬람력 기념일(카딜 밤 등)은 음력(히즈라력) 표가 없어 조사하지 않았다. 튀르키예어 '이색 기념일' 일반 탐색은 하지 못했다(검색 3회 모두 특정 주제)."
+  },
+  {
+   "country": "TW",
+   "country_ko": "대만",
+   "limits": "중원보도(음력 7/15)는 서비스에 한국 백중(baekjung) 키가 있으나 한·중 음력이 드물게 하루 어긋날 수 있고 대만 표가 없어 조사하지 않았다. 마조 탄신(음력 3/23)·토지공 생일(음력 2/2)도 표가 없어 제외. 칠석(음력 7/7)은 기존 chilseok 와 같은 날이라 제외."
+  }
+ ],
+ "records": [
+  {
+   "candidate_key": "br-dia-do-saci",
+   "country": "BR",
+   "country_ko": "브라질",
+   "search_language": "pt",
+   "name_original": "Dia do Saci",
+   "name_ko": "사치의 날 — 브라질 민담 요정으로 핼러윈에 맞서는 날",
+   "aliases": [
+    "Dia do Saci-Pererê"
+   ],
+   "date_type": "annual-fixed",
+   "date_rule": "10-31",
+   "date_note": "상파울루주 법 제1조 '매년 10월 31일'",
+   "rule_support": "supported",
+   "scope": "상파울루주 법정 기념일(2004) + 일부 시 조례. 공휴일 아님. 연방법 여부는 출처 상충으로 미확인",
+   "kind": "folklore_counter_holiday",
+   "officiality": "official_state_law",
+   "officiality_label": "공식(주 법률)",
+   "meaning_ko": "외다리에 빨간 모자를 쓰고 파이프를 문 장난꾸러기 요정 '사치'를 기리는 브라질의 날로, 핼러윈과 같은 10월 31일이다. 미국 핼러윈이 '문화 침략'이라고 본 언론인 모우자르 베네지투 등이 2003년 '사치 관찰자 협회(Sosaci)'를 만들어 시작했고, 2004년 상파울루주가 법으로 지정했다. 같은 날 핼러윈 호박을 사치가 훔쳐 간다는 농담이 따라붙는다.",
+   "quirk": "외국 명절에 맞불을 놓으려고 자국 요정의 날을 같은 날짜에 법으로 만들었다. 협회 이름이 '사치 관찰자 협회'",
+   "founder_origin": "2003년 Sosaci(사치 관찰자 협회)·상루이스두파라이칭가 시 조례 → 2004-01-13 상파울루주 법 11.669(발의 Afonso Lobato)",
+   "founder_check_level": "official_law_text_read",
+   "claims": [
+    {
+     "claim_id": "state_law",
+     "claim_ko": "상파울루주 법이 매년 10월 31일을 사치의 날로 지정",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "alesp-lei-11669",
+       "quote": "Artigo 1º - Fica Instituído o \"Dia do Saci\", a ser comemorado, anualmente, no dia 31 de outubro.",
+       "quote_ko": "제1조 — 매년 10월 31일에 기념하는 '사치의 날'을 제정한다."
+      },
+      {
+       "evidence_id": "alesp-lei-11669",
+       "quote": "LEI Nº 11.669, DE 13 DE JANEIRO DE 2004",
+       "quote_ko": "2004년 1월 13일 법률 제11.669호"
+      }
+     ]
+    },
+    {
+     "claim_id": "anti_halloween",
+     "claim_ko": "핼러윈의 '문화 침략'에 맞서려고 만듦, Sosaci 2003년 창립",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "estado-de-minas-2020",
+       "quote": "um dos criadores da Sociedade de Observadores de Saci (Sosaci), instituição fundada em 2003",
+       "quote_ko": "2003년 설립된 사치 관찰자 협회(Sosaci)의 창립자 중 한 명"
+      },
+      {
+       "evidence_id": "estado-de-minas-2020",
+       "quote": "Incomodado com a, nas suas palavras, \"invasão cultural representada pelo Halloween no Brasil\"",
+       "quote_ko": "그의 표현대로 '브라질에서 핼러윈이 대표하는 문화 침략'이 불편해서"
+      }
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "evidence_id": "estado-de-minas-2020",
+     "url": "https://www.em.com.br/app/noticia/nacional/2020/10/29/interna_nacional,1199456/como-o-dia-do-saci-quer-rivalizar-com-o-halloween-no-brasil.shtml",
+     "final_url": "https://www.em.com.br/app/noticia/nacional/2020/10/29/interna_nacional,1199456/como-o-dia-do-saci-quer-rivalizar-com-o-halloween-no-brasil.shtml",
+     "source_org": "Estado de Minas (2020, BBC News Brasil 인용)",
+     "accessed_at": "2026-10-12T00:58:46+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "2b2d1426feec1fd8c4e9d557141950e385f45e1207ecbe189f55b0dcb6742d56",
+     "local_raw_path": "evidence/br-dia-do-saci/estado-de-minas-2020.html",
+     "local_text_path": "evidence/br-dia-do-saci/estado-de-minas-2020.txt"
+    },
+    {
+     "evidence_id": "opovo-2018",
+     "url": "https://www.opovo.com.br/noticias/curiosidades/2018/10/31-de-outubro-31-10-dia-do-saci-ou-dia-das-bruxas.html",
+     "final_url": "https://www.opovo.com.br/noticias/curiosidades/2018/10/31-de-outubro-31-10-dia-do-saci-ou-dia-das-bruxas.html",
+     "source_org": "O Povo (2018)",
+     "accessed_at": "2026-10-12T00:58:47+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "ed31ff6a31de24f56747ec38bb75b21ff632fecb04ea54da51908e560453f059",
+     "local_raw_path": "evidence/br-dia-do-saci/opovo-2018.html",
+     "local_text_path": "evidence/br-dia-do-saci/opovo-2018.txt"
+    },
+    {
+     "evidence_id": "alesp-lei-11669",
+     "url": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2004/lei-11669-13.01.2004.html",
+     "final_url": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2004/lei-11669-13.01.2004.html",
+     "source_org": "상파울루주 의회(ALESP) 법령 원문 — Lei nº 11.669/2004",
+     "accessed_at": "2026-10-12T00:58:49+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "b8c279b216d3b223ea6ddb88b53b542f6ad7a613abc922180c923d9aaf46ec65",
+     "local_raw_path": "evidence/br-dia-do-saci/alesp-lei-11669.html",
+     "local_text_path": "evidence/br-dia-do-saci/alesp-lei-11669.txt"
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://www.moneytimes.com.br/halloween-feriado-no-exterior-e-dia-do-saci-no-brasil-conheca-origem-da-data/",
+     "note": "연방법 2.762/2003 주장 — 다른 출처는 하원 법안 보관(폐기)이라 함. 미확인"
+    }
+   ],
+   "source_urls": [
+    "https://www.em.com.br/app/noticia/nacional/2020/10/29/interna_nacional,1199456/como-o-dia-do-saci-quer-rivalizar-com-o-halloween-no-brasil.shtml",
+    "https://www.opovo.com.br/noticias/curiosidades/2018/10/31-de-outubro-31-10-dia-do-saci-ou-dia-das-bruxas.html",
+    "https://www.al.sp.gov.br/repositorio/legislacao/lei/2004/lei-11669-13.01.2004.html"
+   ],
+   "original_read": true,
+   "read_source_orgs": [
+    "Estado de Minas (2020, BBC News Brasil 인용)",
+    "O Povo (2018)",
+    "상파울루주 의회(ALESP) 법령 원문 — Lei nº 11.669/2004"
+   ],
+   "cited_source_orgs": [
+    "Estado de Minas (2020, BBC News Brasil 인용)",
+    "상파울루주 의회(ALESP) 법령 원문 — Lei nº 11.669/2004"
+   ],
+   "single_source_unverified": false,
+   "duplicate_check": {
+    "verdict": "new",
+    "duplicate_of": null,
+    "prior_candidate_of": null,
+    "related_existing_ids": [
+     "anv-fixed-10-31-halloween-global"
+    ],
+    "related_prior_candidates": []
+   },
+   "status": "new_candidate",
+   "status_label": "신규 후보(원문 확인)",
+   "confidence": "high",
+   "uncertainty": "'연방 기념일'이라고 쓰면 안 된다 — 확인된 것은 상파울루주 법뿐. 기존 핼러윈(10-31) 항목과 같은 날이지만 대상·나라·취지가 다른 별개.",
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false
+   }
+  },
+  {
+   "candidate_key": "br-santo-antonio-casamenteiro",
+   "country": "BR",
+   "country_ko": "브라질",
+   "search_language": "pt",
+   "name_original": "Dia de Santo Antônio (santo casamenteiro)",
+   "name_ko": "산투 안토니우 축일 — 중매 성인을 거꾸로 세우는 날",
+   "aliases": [
+    "Santo Antônio casamenteiro"
+   ],
+   "date_type": "annual-fixed",
+   "date_rule": "06-13",
+   "date_note": "가톨릭 성 안토니오(파도바/리스본) 축일. 브라질 6월 축제(페스타 주니나) 시작일로 소개",
+   "rule_support": "supported",
+   "scope": "브라질 전국 민간 풍습(포르투갈에도 같은 성인 축일 풍습 있으나 이번 조사 범위 밖)",
+   "kind": "relationship_folk_custom",
+   "officiality": "religious_feast_folk_custom",
+   "officiality_label": "종교 축일의 민간 풍습",
+   "meaning_ko": "6월 13일 성 안토니오 축일은 브라질에서 '중매 성인'의 날로 통하며 6월 축제의 문을 연다. 결혼 지참금이 없는 처녀들을 도왔다는 이야기에서 중매 성인이란 별명이 생겼다고 전해진다. 짝을 찾는 사람이 성인상을 거꾸로 세워 두고 '애인을 찾아 줄 때까지 이대로'라고 비는 민간 주술(심파치아)이 유명하다.",
+   "quirk": "성인에게 부탁하면서 동시에 거꾸로 매달거나 냉장고에 넣어 '협박'하는 민간 주술",
+   "founder_origin": "가톨릭 축일 + 민간 주술. 중매 성인 별명은 '전해지는' 일화(언론이 tradições populares 로 표현)",
+   "founder_check_level": "folklore_not_history",
+   "claims": [
+    {
+     "claim_id": "date_matchmaker",
+     "claim_ko": "6월 13일, 중매 성인, 6월 축제 시작",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "tvtnews",
+       "quote": "A data marca o início oficial das Festas Juninas",
+       "quote_ko": "이날은 6월 축제의 공식 시작을 알린다"
+      },
+      {
+       "evidence_id": "oimparcial-2025",
+       "quote": "Conhecido como o “santo casamenteiro”, Santo Antônio é reverenciado por sua habilidade de unir casais",
+       "quote_ko": "'중매 성인'으로 알려진 성 안토니오는 연인을 맺어 주는 능력으로 공경받는다"
+      }
+     ]
+    },
+    {
+     "claim_id": "upside_down",
+     "claim_ko": "성인상을 거꾸로 세우고 소원을 비는 주술",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "oimparcial-2025",
+       "quote": "Coloque uma imagem do santo de cabeça para baixo e faça um pedido",
+       "quote_ko": "성인상을 거꾸로 세워 두고 소원을 빌어라"
+      }
+     ]
+    },
+    {
+     "claim_id": "dowry_story",
+     "claim_ko": "지참금 없는 처녀를 도왔다는 민간 전승에서 별명 유래",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "tvtnews",
+       "quote": "A fama de Santo Antônio como casamenteiro vem de tradições populares e histórias atribuídas à sua vida.",
+       "quote_ko": "성 안토니오의 중매 명성은 민간 전통과 그의 생애에 덧붙여진 이야기에서 나왔다."
+      }
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "evidence_id": "diariodonordeste",
+     "url": "https://diariodonordeste.verdesmares.com.br/ultima-hora/pais/dia-de-santo-antonio-conheca-a-historia-e-veja-simpatias-de-amor-para-a-data-1.3243281",
+     "final_url": null,
+     "source_org": "미기재",
+     "accessed_at": "2026-10-12T00:58:53+00:00",
+     "http_status": null,
+     "access_status": "blocked",
+     "error": "HTTPError: 403 HTTP Error 403: Forbidden",
+     "read_status": "not_read",
+     "override_note": null,
+     "sha256": null,
+     "local_raw_path": null,
+     "local_text_path": null
+    },
+    {
+     "evidence_id": "tvtnews",
+     "url": "https://tvtnews.com.br/?p=752468",
+     "final_url": "https://tvtnews.com.br/13-de-junho-e-dia-de-santo-antonio-casamenteiro/",
+     "source_org": "TVT News",
+     "accessed_at": "2026-10-12T00:58:53+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "384d3162c59a1abdfa4b8c246996ec06f4aee573fc0f833a65d2963a018b4e99",
+     "local_raw_path": "evidence/br-santo-antonio-casamenteiro/tvtnews.html",
+     "local_text_path": "evidence/br-santo-antonio-casamenteiro/tvtnews.txt"
+    },
+    {
+     "evidence_id": "oimparcial-2025",
+     "url": "https://oimparcial.com.br/noticias/2025/06/dia-de-santo-antonio-confira-simpatias-para-encontrar-um-amor/",
+     "final_url": "https://oimparcial.com.br/noticias/2025/06/dia-de-santo-antonio-confira-simpatias-para-encontrar-um-amor/",
+     "source_org": "O Imparcial (2025)",
+     "accessed_at": "2026-10-12T00:59:12+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "30a2e7a1a0a0f69199fb493205edc473f4c3b83fc8d5aab0c08ce59fc14ee390",
+     "local_raw_path": "evidence/br-santo-antonio-casamenteiro/oimparcial-2025.html",
+     "local_text_path": "evidence/br-santo-antonio-casamenteiro/oimparcial-2025.txt"
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://diariodonordeste.verdesmares.com.br/ultima-hora/pais/dia-de-santo-antonio-conheca-a-historia-e-veja-simpatias-de-amor-para-a-data-1.3243281",
+     "note": "원문 403 — 우회 안 함, 대체 출처 사용"
+    }
+   ],
+   "source_urls": [
+    "https://tvtnews.com.br/?p=752468",
+    "https://oimparcial.com.br/noticias/2025/06/dia-de-santo-antonio-confira-simpatias-para-encontrar-um-amor/"
+   ],
+   "original_read": true,
+   "read_source_orgs": [
+    "O Imparcial (2025)",
+    "TVT News"
+   ],
+   "cited_source_orgs": [
+    "O Imparcial (2025)",
+    "TVT News"
+   ],
+   "single_source_unverified": false,
+   "duplicate_check": {
+    "verdict": "new",
+    "duplicate_of": null,
+    "prior_candidate_of": null,
+    "related_existing_ids": [],
+    "related_prior_candidates": []
+   },
+   "status": "new_candidate",
+   "status_label": "신규 후보(원문 확인)",
+   "confidence": "medium",
+   "uncertainty": "주술 세부(물컵·카샤사·옷장·냉장고)는 매체마다 다른 민간 변형이다. 성인 생애 일화는 전승이므로 사실로 단정하지 말 것. 근거가 대중 매체 2곳뿐.",
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false
+   }
+  },
+  {
+   "candidate_key": "br-dia-da-sogra",
+   "country": "BR",
+   "country_ko": "브라질",
+   "search_language": "pt",
+   "name_original": "Dia da Sogra",
+   "name_ko": "브라질 장모·시어머니의 날",
+   "aliases": [
+    "Dia Nacional da Sogra"
+   ],
+   "date_type": "annual-fixed",
+   "date_rule": "04-28",
+   "date_note": "같은 매체 2개 기사가 4월 28일로 일치. 제정 주체·법령 미확인",
+   "rule_support": "supported",
+   "scope": "브라질 비공식",
+   "kind": "relationship",
+   "officiality": "unofficial",
+   "officiality_label": "비공식",
+   "meaning_ko": "배우자의 어머니(sogra)를 기리는 브라질의 4월 28일이다. 정작 '거의 아무도 이날이 있는지, 어떻게 생겼는지 모른다'고 지역 언론이 쓸 만큼 유래가 불분명하다. 영국인 노동자가 '코브라'를 '소그라'로 잘못 발음해 대통령 조찬에 뱀을 데려갔다는 기원담이 돌지만 언론 스스로 '전설'이라 부르는 우스개다.",
+   "quirk": "기원담이 '뱀(cobra)↔장모(sogra)' 말장난 우스개",
+   "founder_origin": "미상. 코브라/소그라 전설은 근거 없는 우스개(원문이 lenda 로 표기)",
+   "founder_check_level": "founder_unknown_single_outlet",
+   "claims": [
+    {
+     "claim_id": "date",
+     "claim_ko": "브라질에서 4월 28일이 장모의 날",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "oimparcial-2019",
+       "quote": "No Brasil, no dia 28 de abril, é comemorado o dia da sogra",
+       "quote_ko": "브라질에서는 4월 28일에 장모의 날을 기념한다"
+      }
+     ]
+    },
+    {
+     "claim_id": "unknown_origin",
+     "claim_ko": "거의 아무도 존재와 유래를 모른다",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "oimparcial-2019",
+       "quote": "quase ninguém sabe da existência desse dia e nem como ele surgiu.",
+       "quote_ko": "거의 아무도 이날의 존재도, 어떻게 생겼는지도 모른다."
+      }
+     ]
+    },
+    {
+     "claim_id": "legend",
+     "claim_ko": "코브라를 '소그라'라고 부른 영국인 노동자 전설(우스개)",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "oimparcial-2020",
+       "quote": "O homem não conseguia pronunciar a palavra cobra, acabava chamando de “sogra”.",
+       "quote_ko": "그 남자는 '코브라'를 발음하지 못해 '소그라'라고 불렀다."
+      }
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "evidence_id": "oimparcial-2019",
+     "url": "https://oimparcial.com.br/entretenimento-e-cultura/2019/04/sogra-um-dia-so-para-elas/",
+     "final_url": "https://oimparcial.com.br/entretenimento-e-cultura/2019/04/sogra-um-dia-so-para-elas/",
+     "source_org": "O Imparcial (2019)",
+     "accessed_at": "2026-10-12T00:58:56+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "94c4b4a9d43575f84bce775ad4fb6cde8b58ada8aac6ac1ce72c2ed4fc1607eb",
+     "local_raw_path": "evidence/br-dia-da-sogra/oimparcial-2019.html",
+     "local_text_path": "evidence/br-dia-da-sogra/oimparcial-2019.txt"
+    },
+    {
+     "evidence_id": "oimparcial-2020",
+     "url": "https://oimparcial.com.br/entretenimento-e-cultura/2020/04/dia-da-sogra-saiba-mais-sobre-esse-dia-tao-especial/",
+     "final_url": "https://oimparcial.com.br/entretenimento-e-cultura/2020/04/dia-da-sogra-saiba-mais-sobre-esse-dia-tao-especial/",
+     "source_org": "O Imparcial (2020)",
+     "accessed_at": "2026-10-12T00:58:58+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "11ea554bc7c4de70a650809b9a6d33a558e5140f9f4593a9536d3d9e0ff73cc3",
+     "local_raw_path": "evidence/br-dia-da-sogra/oimparcial-2020.html",
+     "local_text_path": "evidence/br-dia-da-sogra/oimparcial-2020.txt"
+    }
+   ],
+   "search_result_only": [],
+   "source_urls": [
+    "https://oimparcial.com.br/entretenimento-e-cultura/2019/04/sogra-um-dia-so-para-elas/",
+    "https://oimparcial.com.br/entretenimento-e-cultura/2020/04/dia-da-sogra-saiba-mais-sobre-esse-dia-tao-especial/"
+   ],
+   "original_read": true,
+   "read_source_orgs": [
+    "O Imparcial (2019)",
+    "O Imparcial (2020)"
+   ],
+   "cited_source_orgs": [
+    "O Imparcial (2019)",
+    "O Imparcial (2020)"
+   ],
+   "single_source_unverified": true,
+   "duplicate_check": {
+    "verdict": "new",
+    "duplicate_of": null,
+    "prior_candidate_of": null,
+    "related_existing_ids": [
+     "anv-nth-10-4-sun-mother-in-law-day-us"
+    ],
+    "related_prior_candidates": []
+   },
+   "status": "new_candidate_single_source",
+   "status_label": "신규 후보(단일 출처 미검증)",
+   "confidence": "low",
+   "uncertainty": "원문 2건이 같은 매체(O Imparcial, 마라냥주)라 독립 출처 1곳에 해당 — '단일 출처 미검증'. 제정자 미상. 기존 미국 시어머니·장모님의 날(10-4-SUN)과 대상은 같지만 날짜·나라가 다른 별개.",
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false
+   }
+  },
+  {
+   "candidate_key": "de-weiberfastnacht",
+   "country": "DE",
+   "country_ko": "독일",
+   "search_language": "de",
+   "name_original": "Weiberfastnacht",
+   "name_ko": "여자들의 카니발 날(바이버파스트나흐트) — 넥타이 자르는 날",
+   "aliases": [
+    "Altweiberfastnacht",
+    "Schmotziger Donnerstag"
+   ],
+   "date_type": null,
+   "date_rule": null,
+   "date_note": "재의 수요일 전 목요일 = 부활절 일요일 52일 전(원문: 2026년 2월 12일). 서비스 데이터에 부활절 기준 anchor 가 없어 현재 dateType 으로 표현 불가 → 규칙 미지원. 특정 연도 날짜를 고정일로 만들지 않음",
+   "rule_support": "unsupported_easter_relative",
+   "scope": "라인란트(쾰른·본·뒤셀도르프·아헨) 중심 카니발 지역. 공휴일 아님",
+   "kind": "weird_behavior",
+   "officiality": "regional_tradition",
+   "officiality_label": "지역 전통",
+   "meaning_ko": "카니발 거리 축제가 시작되는 재의 수요일 전 목요일, 라인란트에서 하루 동안 여성이 도시를 '접수'하는 날이다. 분장한 여성들이 시청을 점거하고, 남성 권력의 상징인 넥타이를 가위로 잘라 버린다. 본 보이얼 지역 세탁부 여성들이 1824년 '보이얼 여성위원회'를 만든 것이 시작으로 전해진다.",
+   "quirk": "넥타이를 매고 출근한 남자는 가위에 넥타이를 잃는다. 시장이 시청 열쇠를 넘기는 장면이 생중계된다",
+   "founder_origin": "1824년 본-보이얼 세탁부들의 'Altes Beueler Damenkomitee' (wissen.de: '아마도'로 유보). 넥타이 자르기 시작 시점은 같은 t-online 기사 안에서도 1824년설과 20세기 중반설이 공존",
+   "founder_check_level": "conflicting_sources",
+   "claims": [
+    {
+     "claim_id": "date_rule",
+     "claim_ko": "재의 수요일 전 목요일 = 부활절 52일 전, 공휴일 아님",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "t-online",
+       "quote": "Im Rheinland findet Weiberfastnacht immer am Donnerstag vor Aschermittwoch statt. Das ist der 52. Tag vor Ostersonntag. 2026 ist der Termin der 12. Februar. Dabei handelt es sich nicht um einen offiziellen Feiertag.",
+       "quote_ko": "라인란트에서 바이버파스트나흐트는 항상 재의 수요일 전 목요일이다. 부활절 일요일 52일 전이다. 2026년은 2월 12일이다. 공식 공휴일은 아니다."
+      }
+     ]
+    },
+    {
+     "claim_id": "beuel_1824",
+     "claim_ko": "1824년 보이얼 세탁부 여성들이 여성위원회를 만들었다(아마도)",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "wissen-de",
+       "quote": "Wahrscheinlich reicht die Geschichte der Weiberfastnacht bis ins 19. Jahrhundert zurück und hat ihren Ursprung im Bonner Stadtteil Beuel.",
+       "quote_ko": "바이버파스트나흐트의 역사는 아마 19세기로 거슬러 올라가며 본의 보이얼 지역에서 비롯됐다."
+      },
+      {
+       "evidence_id": "wissen-de",
+       "quote": "Das \"Alte Beueler Damenkomitee\" war geboren",
+       "quote_ko": "'옛 보이얼 여성위원회'가 탄생했다"
+      }
+     ]
+    },
+    {
+     "claim_id": "tie_origin",
+     "claim_ko": "넥타이 자르기 풍습 시작: 1824년설 vs 20세기 중반 확산설",
+     "verdict": "conflicting",
+     "evidence": [
+      {
+       "evidence_id": "t-online",
+       "quote": "Der Karnevalsbrauch des Krawattenabschneidens geht zurück auf das Jahr 1824.",
+       "quote_ko": "넥타이를 자르는 카니발 풍습은 1824년으로 거슬러 올라간다."
+      },
+      {
+       "evidence_id": "t-online",
+       "quote": "Der Brauch, den Männern an Weiberfastnacht die Krawatten abzuschneiden, hat sich erst in der Mitte des 20. Jahrhunderts in größeren Teilen der Gesellschaft eingebürgert.",
+       "quote_ko": "바이버파스트나흐트에 남자의 넥타이를 자르는 풍습은 20세기 중반에야 사회 전반에 자리 잡았다."
+      }
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "evidence_id": "wissen-de",
+     "url": "https://www.wissen.de/weiberfastnacht-jecke-frauen-die-macht",
+     "final_url": "https://www.wissen.de/weiberfastnacht-jecke-frauen-die-macht",
+     "source_org": "wissen.de (독일 지식 포털)",
+     "accessed_at": "2026-10-12T00:55:06+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "2b52ab24934ffb83dbc208fa43b7bd5c4cf63d2fe1a35e96e6fafd85622aa3fc",
+     "local_raw_path": "evidence/de-weiberfastnacht/wissen-de.html",
+     "local_text_path": "evidence/de-weiberfastnacht/wissen-de.txt"
+    },
+    {
+     "evidence_id": "t-online",
+     "url": "https://www.t-online.de/leben/familie/familie-und-beruf/id_80446404/weiberfastnacht-2025-datum-tradition-bedeutung.html",
+     "final_url": "https://www.t-online.de/leben/familie/familie-und-beruf/id_80446404/weiberfastnacht-2026-datum-tradition-bedeutung.html",
+     "source_org": "t-online (독일 포털 뉴스)",
+     "accessed_at": "2026-10-12T00:55:10+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "d2051f992a78411cd30bdfb0dddad09ecbdacbbf0f2bf40c612c17b105c6d2c1",
+     "local_raw_path": "evidence/de-weiberfastnacht/t-online.html",
+     "local_text_path": "evidence/de-weiberfastnacht/t-online.txt"
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://www.stuttgarter-zeitung.de/wissen/fuenfte-jahreszeit-warum-heisst-es-weiberfastnacht-79044773.html",
+     "note": "명칭 유래 — 원문 미수집"
+    }
+   ],
+   "source_urls": [
+    "https://www.wissen.de/weiberfastnacht-jecke-frauen-die-macht",
+    "https://www.t-online.de/leben/familie/familie-und-beruf/id_80446404/weiberfastnacht-2025-datum-tradition-bedeutung.html"
+   ],
+   "original_read": true,
+   "read_source_orgs": [
+    "t-online (독일 포털 뉴스)",
+    "wissen.de (독일 지식 포털)"
+   ],
+   "cited_source_orgs": [
+    "t-online (독일 포털 뉴스)",
+    "wissen.de (독일 지식 포털)"
+   ],
+   "single_source_unverified": false,
+   "duplicate_check": {
+    "verdict": "new",
+    "duplicate_of": null,
+    "prior_candidate_of": null,
+    "related_existing_ids": [],
+    "related_prior_candidates": []
+   },
+   "status": "hold_rule_unsupported",
+   "status_label": "보류 — 날짜 규칙 미지원(부활절·음력 표 없음)",
+   "confidence": "high",
+   "uncertainty": "넥타이 풍습의 시작 연도는 같은 기사 안에서도 상충 — '1824년 보이얼 여성 모임'만 기원으로 쓰고 넥타이는 '20세기 중반 확산'으로만 쓸 것. 부활절 연동이라 부활절 anchor 또는 표가 생기기 전엔 등록 불가.",
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false
+   }
+  },
+  {
+   "candidate_key": "de-siebenschlaefertag",
+   "country": "DE",
+   "country_ko": "독일",
+   "search_language": "de",
+   "name_original": "Siebenschläfertag",
+   "name_ko": "일곱 잠꾸러기의 날(지벤슐래퍼타크) — 여름 날씨 점치는 날",
+   "aliases": [
+    "Siebenschläfer"
+   ],
+   "date_type": "annual-fixed",
+   "date_rule": "06-27",
+   "date_note": "현행 6월 27일. 그레고리력 개혁(1582) 이전 속담이라 원래 뜻한 날은 7월 7일 무렵이라는 해설이 있음",
+   "rule_support": "supported",
+   "scope": "독일어권 민간 날씨 속담(Lostag)",
+   "kind": "folklore_weather",
+   "officiality": "folk_tradition",
+   "officiality_label": "민속 전통",
+   "meaning_ko": "'이날 날씨가 7주 동안 간다'는 농가 속담이 붙은 6월 27일이다. 박해를 피해 에페소스 동굴에 갇힌 일곱 그리스도인 청년이 수백 년 잠들었다 깨어났다는 전설에서 이름이 왔고, 겨울잠이 긴 동물 '겨울잠쥐(Siebenschläfer)'와는 이름만 같다. 독일 기상청은 속담이 맞을 확률을 55~70%로 보며 '동전을 던져도 된다'고 했다.",
+   "quirk": "속담이 그레고리력 개혁 전에 생겨서 계산상 '진짜' 지벤슐래퍼 날은 7월 7일 무렵이라는 달력 어긋남",
+   "founder_origin": "에페소스의 일곱 잠꾸러기 전설(민간전승, 역사적 사실 아님) + 농가 속담",
+   "founder_check_level": "folklore_not_history",
+   "claims": [
+    {
+     "claim_id": "date",
+     "claim_ko": "6월 27일이 지벤슐래퍼타크",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "ms-aktuell-2026",
+       "quote": "Am 27. Juni ist Siebenschläfertag.",
+       "quote_ko": "6월 27일은 지벤슐래퍼타크다."
+      }
+     ]
+    },
+    {
+     "claim_id": "legend",
+     "claim_ko": "에페소스 일곱 잠꾸러기 전설에서 유래(전설)",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "ms-aktuell-2026",
+       "quote": "Der Siebenschläfertag erinnert an die Sieben Schläfer von Ephesus.",
+       "quote_ko": "지벤슐래퍼타크는 에페소스의 일곱 잠꾸러기를 기린다."
+      }
+     ]
+    },
+    {
+     "claim_id": "dwd_coin",
+     "claim_ko": "독일 기상청 대변인: 적중률 55~70%, '동전을 던져도 된다'",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "t-online",
+       "quote": "\"Sie können auch eine Münze werfen\", so der DWD-Sprecher.",
+       "quote_ko": "\"동전을 던져도 됩니다\"라고 독일 기상청 대변인이 말했다."
+      }
+     ]
+    },
+    {
+     "claim_id": "calendar_shift",
+     "claim_ko": "그레고리력 개혁 이전 속담이라 원래 날은 7월 7일 무렵",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "t-online",
+       "quote": "Der historische Siebenschläfertag ist mit zehntägiger Verschiebung rechnerisch am 7. Juli anzusetzen.",
+       "quote_ko": "역사적 지벤슐래퍼타크는 열흘 차이를 반영하면 계산상 7월 7일이다."
+      }
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "evidence_id": "ms-aktuell-2026",
+     "url": "https://ms-aktuell.de/welt/23062026-siebenschlaefertag-bauernregel-brauchtum/",
+     "final_url": "https://ms-aktuell.de/welt/23062026-siebenschlaefertag-bauernregel-brauchtum/",
+     "source_org": "ms-aktuell.de (2026-06-23 기사)",
+     "accessed_at": "2026-10-12T00:55:12+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "736f976894bb6a70be9c391583fe32552fcd2437e9912cb4d7757597f7fce176",
+     "local_raw_path": "evidence/de-siebenschlaefertag/ms-aktuell-2026.html",
+     "local_text_path": "evidence/de-siebenschlaefertag/ms-aktuell-2026.txt"
+    },
+    {
+     "evidence_id": "t-online",
+     "url": "https://www.t-online.de/leben/id_73839886/siebenschlaefertag-was-bedeutet-das-fuer-das-wetter-.html",
+     "final_url": "https://www.t-online.de/leben/alltagswissen/id_73839886/siebenschlaefertag-bleibt-das-wetter-so-bauernregeln-.html",
+     "source_org": "t-online (독일 포털 뉴스)",
+     "accessed_at": "2026-10-12T00:55:14+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "7ba32a189df8c1310c827318085b3742e588e7f19a709dd0392ec5b32816a56d",
+     "local_raw_path": "evidence/de-siebenschlaefertag/t-online.html",
+     "local_text_path": "evidence/de-siebenschlaefertag/t-online.txt"
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://www.echo24.de/service/wetter/siebenschlaefertag-bedeutung-sommer-vorhersage-prognose-bauernregel-legende-christentum-glaube-siebenschlaefer-90826557.html",
+     "note": "전설 연도(446 vs 448) 상충 — 원문 미수집"
+    }
+   ],
+   "source_urls": [
+    "https://ms-aktuell.de/welt/23062026-siebenschlaefertag-bauernregel-brauchtum/",
+    "https://www.t-online.de/leben/id_73839886/siebenschlaefertag-was-bedeutet-das-fuer-das-wetter-.html"
+   ],
+   "original_read": true,
+   "read_source_orgs": [
+    "ms-aktuell.de (2026-06-23 기사)",
+    "t-online (독일 포털 뉴스)"
+   ],
+   "cited_source_orgs": [
+    "ms-aktuell.de (2026-06-23 기사)",
+    "t-online (독일 포털 뉴스)"
+   ],
+   "single_source_unverified": false,
+   "duplicate_check": {
+    "verdict": "new",
+    "duplicate_of": null,
+    "prior_candidate_of": null,
+    "related_existing_ids": [],
+    "related_prior_candidates": []
+   },
+   "status": "new_candidate",
+   "status_label": "신규 후보(원문 확인)",
+   "confidence": "high",
+   "uncertainty": "전설의 깨어난 연도(446/448)와 문헌화 시기는 검색결과에서 상충 — 본문에 연도를 쓰지 말 것. 적중률 수치는 기사마다 55~70%, 60~70%로 다름.",
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false
+   }
+  },
+  {
+   "candidate_key": "de-tag-des-deutschen-bieres",
+   "country": "DE",
+   "country_ko": "독일",
+   "search_language": "de",
+   "name_original": "Tag des Deutschen Bieres",
+   "name_ko": "독일 맥주의 날 — 맥주 순수령 반포일",
+   "aliases": [
+    "Tag des Bieres"
+   ],
+   "date_type": "annual-fixed",
+   "date_rule": "04-23",
+   "date_note": "1516년 4월 23일 바이에른 맥주 순수령 반포일",
+   "rule_support": "supported",
+   "scope": "독일 전국, 업계(독일양조협회) 기념일",
+   "kind": "law_food_culture",
+   "officiality": "industry",
+   "officiality_label": "업계 기념일",
+   "meaning_ko": "1516년 4월 23일 바이에른 공작 빌헬름 4세와 루트비히 10세가 잉골슈타트에서 맥주 순수령(Reinheitsgebot)을 반포한 날을 기리는 독일 양조업계의 기념일이다. 맥주를 몰트·홉·효모·물로만 만든다는 규정이 '세계에서 가장 오래된 식품법'으로 홍보된다. 음식 항목이지만 날짜 이유가 법령 반포일이라는 점이 일반 음식의 날과 다르다.",
+   "quirk": "식품 '법'의 생일을 맥주로 축하하는 날",
+   "founder_origin": "독일양조협회(Deutscher Brauer-Bund) 행사. 1994년부터라는 검색결과는 원문 미확인",
+   "founder_check_level": "date_reason_read_founding_year_search_only",
+   "claims": [
+    {
+     "claim_id": "annual_date",
+     "claim_ko": "매년 4월 23일, 1516년 순수령 반포를 기념",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "dhz",
+       "quote": "Am 23. April findet jährlich der Tag des Deutschen Bieres statt. Damit wird die Verkündung des Reinheitsgebotes für Bier vom 23. April 1516 gefeiert.",
+       "quote_ko": "매년 4월 23일 독일 맥주의 날이 열린다. 1516년 4월 23일 맥주 순수령 반포를 기념한다."
+      }
+     ]
+    },
+    {
+     "claim_id": "industry",
+     "claim_ko": "독일양조협회가 이날에 맞춰 발표",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "brauer-bund-pm-2023",
+       "quote": "Wie der Deutsche Brauer-Bund (DBB) anlässlich des „Tages des Deutschen Bieres“ am 23.",
+       "quote_ko": "독일양조협회(DBB)가 4월 23일 '독일 맥주의 날'을 맞아 밝힌 바에 따르면"
+      }
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "evidence_id": "dhz",
+     "url": "https://www.deutsche-handwerks-zeitung.de/?p=88554",
+     "final_url": "https://www.deutsche-handwerks-zeitung.de/deutschland-feiert-sein-reinheitsgebot-88554/",
+     "source_org": "Deutsche Handwerks Zeitung (2012)",
+     "accessed_at": "2026-10-12T00:55:16+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "12f3aae22bc08524f200a5f7dc192f73932e3ceda631b732ff9eff8d96d6f81d",
+     "local_raw_path": "evidence/de-tag-des-deutschen-bieres/dhz.html",
+     "local_text_path": "evidence/de-tag-des-deutschen-bieres/dhz.txt"
+    },
+    {
+     "evidence_id": "brauer-bund-pm-2023",
+     "url": "https://brauer-bund.de/wp-content/uploads/2023/04/DBB-PM-Zahl-der-Hobbybrauer-steigt.pdf",
+     "final_url": "https://brauer-bund.de/wp-content/uploads/2023/04/DBB-PM-Zahl-der-Hobbybrauer-steigt.pdf",
+     "source_org": "Deutscher Brauer-Bund 보도자료(2023, PDF)",
+     "accessed_at": "2026-10-12T00:55:20+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "9c066c10e96ddaef8957c0ce6bcb9730fd9d490d930ad546fe8ce5565cba22de",
+     "local_raw_path": "evidence/de-tag-des-deutschen-bieres/brauer-bund-pm-2023.pdf",
+     "local_text_path": "evidence/de-tag-des-deutschen-bieres/brauer-bund-pm-2023.txt"
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://www.feiertage-deutschland.de/aktionstage/tag-des-deutschen-bieres/",
+     "note": "1994년부터 — 원문 미수집"
+    }
+   ],
+   "source_urls": [
+    "https://www.deutsche-handwerks-zeitung.de/?p=88554",
+    "https://brauer-bund.de/wp-content/uploads/2023/04/DBB-PM-Zahl-der-Hobbybrauer-steigt.pdf"
+   ],
+   "original_read": true,
+   "read_source_orgs": [
+    "Deutsche Handwerks Zeitung (2012)",
+    "Deutscher Brauer-Bund 보도자료(2023, PDF)"
+   ],
+   "cited_source_orgs": [
+    "Deutsche Handwerks Zeitung (2012)",
+    "Deutscher Brauer-Bund 보도자료(2023, PDF)"
+   ],
+   "single_source_unverified": false,
+   "duplicate_check": {
+    "verdict": "new",
+    "duplicate_of": null,
+    "prior_candidate_of": null,
+    "related_existing_ids": [
+     "anv-fixed-04-07-beer-day-us"
+    ],
+    "related_prior_candidates": []
+   },
+   "status": "new_candidate",
+   "status_label": "신규 후보(원문 확인)",
+   "confidence": "medium",
+   "uncertainty": "제정 연도(1994)는 검색결과 요약만. 맥주(음식) 항목이고 같은 4/23에 세계 책의 날·산 조르디·유엔 스페인어의 날이 이미 있다. 기존 '맥주의 날'(04-07, 미국 금주법 완화일)과는 날짜·유래가 다른 별개.",
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false
+   }
+  },
+  {
+   "candidate_key": "es-la-tomatina",
+   "country": "ES",
+   "country_ko": "스페인",
+   "search_language": "es",
+   "name_original": "La Tomatina de Buñol",
+   "name_ko": "라 토마티나 — 부뇰 토마토 던지기 축제",
+   "aliases": [
+    "Tomatina"
+   ],
+   "date_type": "annual-nth-weekday",
+   "date_rule": "08-L-WED",
+   "date_note": "8월 마지막 수요일(원문 2곳 일치). 2026-08-26, 2027-08-25, 2028-08-30",
+   "rule_support": "supported",
+   "scope": "발렌시아주 부뇰 지역 축제(국제관광축제 지정)",
+   "kind": "local_festival_weird_behavior",
+   "officiality": "regional_festival",
+   "officiality_label": "지역 축제",
+   "meaning_ko": "8월 마지막 수요일 발렌시아 근교 소도시 부뇰에서 트럭으로 실어 온 토마토를 서로 던지는 축제다. 1945년 거인 인형 행렬 중 젊은이들의 몸싸움이 채소 가게 토마토 투척으로 번진 것이 시작으로 전해지며, 2002년 스페인 관광청이 '국제 관광 관심 축제'로 지정했다. 전투 전에 비누칠한 장대 끝의 하몽을 따는 '팔로 하본' 놀이가 먼저 열린다.",
+   "quirk": "1950년대 금지됐을 때 주민들이 토마토를 관에 넣고 장송곡을 연주하는 '토마토 장례식' 시위를 벌였다",
+   "founder_origin": "1945년 젊은이들의 즉흥 다툼(공식 사이트 버전으로 소개됨). 기원 버전이 여럿이라 '전해진다'로 쓸 것",
+   "founder_check_level": "original_read_multiple_versions",
+   "claims": [
+    {
+     "claim_id": "date_rule",
+     "claim_ko": "매년 8월 마지막 수요일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "spain-info",
+       "quote": "El último miércoles del mes de agosto se celebra en la localidad de Buñol la Tomatina.",
+       "quote_ko": "8월 마지막 수요일 부뇰에서 토마티나가 열린다."
+      },
+      {
+       "evidence_id": "valenciabonita",
+       "quote": "La Tomatina de Buñol se celebra el último miércoles de agosto de cada año.",
+       "quote_ko": "부뇰의 토마티나는 매년 8월 마지막 수요일에 열린다."
+      }
+     ]
+    },
+    {
+     "claim_id": "origin_1945",
+     "claim_ko": "1945년 젊은이들의 다툼에서 시작",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "spain-info",
+       "quote": "El origen de esta multitudinaria \"batalla” de tomates se remonta a una pelea juvenil sucedida en el año 1945",
+       "quote_ko": "이 대규모 토마토 '전투'의 기원은 1945년 젊은이들의 다툼으로 거슬러 올라간다"
+      }
+     ]
+    },
+    {
+     "claim_id": "declared_2002",
+     "claim_ko": "2002년 국제관광관심축제 지정",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "valenciabonita",
+       "quote": "Desde 2002 es Fiesta de Interés Turístico Internacional, declarada por la Secretaría General de Turismo.",
+       "quote_ko": "2002년부터 관광청이 지정한 국제 관광 관심 축제다."
+      }
+     ]
+    },
+    {
+     "claim_id": "continuity",
+     "claim_ko": "매년 끊김 없이 열렸나: 관광청 '한 해도 거르지 않음' vs 지역 매체 '1950년대 금지'",
+     "verdict": "conflicting",
+     "evidence": [
+      {
+       "evidence_id": "spain-info",
+       "quote": "desde entonces, no ha dejado de celebrarse ningún año.",
+       "quote_ko": "그 이후로 한 해도 거르지 않고 열렸다."
+      },
+      {
+       "evidence_id": "valenciabonita",
+       "quote": "La Tomatina fue prohibida a principios de los 50 (1956)",
+       "quote_ko": "토마티나는 50년대 초(1956년)에 금지됐다"
+      }
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "evidence_id": "spain-info",
+     "url": "https://www.spain.info/es/agenda/la-tomatina/",
+     "final_url": "https://www.spain.info/es/agenda/la-tomatina/",
+     "source_org": "Spain.info (스페인 관광청 공식 사이트)",
+     "accessed_at": "2026-10-12T00:56:45+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "f458c920c61e48a7b31855befa0e8e3aa65ff24510ec99a6f0f39a8d51260534",
+     "local_raw_path": "evidence/es-la-tomatina/spain-info.html",
+     "local_text_path": "evidence/es-la-tomatina/spain-info.txt"
+    },
+    {
+     "evidence_id": "valenciabonita",
+     "url": "https://www.valenciabonita.es/2024/08/26/historia-tomatina-bunol/",
+     "final_url": "https://www.valenciabonita.es/2024/08/26/historia-tomatina-bunol/",
+     "source_org": "Valencia Bonita (발렌시아 지역 매체, 2024)",
+     "accessed_at": "2026-10-12T00:56:51+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "c56a48544775ba107f3701b336b334a3c205777991d34c1b81113ec699130254",
+     "local_raw_path": "evidence/es-la-tomatina/valenciabonita.html",
+     "local_text_path": "evidence/es-la-tomatina/valenciabonita.txt"
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://www.americatv.com.pe/noticias/internacionales/espana-mayor-guerra-tomates-mundo-cumple-70-anos-n195343",
+     "note": "1950~1957 금지 — 원문 미수집"
+    }
+   ],
+   "source_urls": [
+    "https://www.spain.info/es/agenda/la-tomatina/",
+    "https://www.valenciabonita.es/2024/08/26/historia-tomatina-bunol/"
+   ],
+   "original_read": true,
+   "read_source_orgs": [
+    "Spain.info (스페인 관광청 공식 사이트)",
+    "Valencia Bonita (발렌시아 지역 매체, 2024)"
+   ],
+   "cited_source_orgs": [
+    "Spain.info (스페인 관광청 공식 사이트)",
+    "Valencia Bonita (발렌시아 지역 매체, 2024)"
+   ],
+   "single_source_unverified": false,
+   "duplicate_check": {
+    "verdict": "new",
+    "duplicate_of": null,
+    "prior_candidate_of": null,
+    "related_existing_ids": [],
+    "related_prior_candidates": []
+   },
+   "status": "new_candidate",
+   "status_label": "신규 후보(원문 확인)",
+   "confidence": "high",
+   "uncertainty": "'매년 개최'와 '1950년대 금지'가 상충 — 본문에 '중단 없이'를 쓰지 말 것. 2020·2021 팬데믹 취소 여부 미확인. 이름은 음식이지만 축제/행동 항목으로 분류해야 음식 과잉을 피한다.",
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false
+   }
+  },
+  {
+   "candidate_key": "es-ribarteme-ataudes",
+   "country": "ES",
+   "country_ko": "스페인",
+   "search_language": "es",
+   "name_original": "Romería de Santa Marta de Ribarteme",
+   "name_ko": "리바르테메 산타 마르타 순례 — 살아 있는 사람이 관에 실려 가는 행렬",
+   "aliases": [
+    "procesión de los ataúdes",
+    "cadaleitos"
+   ],
+   "date_type": "annual-fixed",
+   "date_rule": "07-29",
+   "date_note": "성녀 마르타 축일. 원문 2곳 모두 7월 29일",
+   "rule_support": "supported",
+   "scope": "갈리시아 폰테베드라주 아스 네베스 마을(갈리시아 관광 관심 축제)",
+   "kind": "local_festival_weird_behavior",
+   "officiality": "regional_tradition",
+   "officiality_label": "지역 전통",
+   "meaning_ko": "7월 29일 성녀 마르타 축일에 갈리시아 아스 네베스 마을에서 죽을 고비를 넘긴 사람들이 자기 장례식 때 입을 옷을 입고 관에 누워 가족 어깨에 실려 행렬하는 순례다. '부활한 이들의 수호성인' 마르타에게 살아남은 것을 감사하거나 치유를 비는 의미이며, 1700년 문헌이 첫 기록으로 소개된다. 최근 교구가 관 행렬을 중단시켜 주민과 갈등을 빚고 있다.",
+   "quirk": "산 사람이 자기 장례식을 미리 치르듯 관에 실려 마을을 돈다",
+   "founder_origin": "민간 신앙. 첫 문헌 기록 1700년(엘 데바테)",
+   "founder_check_level": "original_read_news",
+   "claims": [
+    {
+     "claim_id": "date_ritual",
+     "claim_ko": "7월 29일, 장례 옷차림으로 관에 실려 행렬",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "eldebate-2024",
+       "quote": "los devotos, vestidos con las ropas que desean llevar en su entierro, son transportados en ataúdes en procesión, como muestra de gratitud por haber sobrevivido a una enfermedad grave.",
+       "quote_ko": "신자들은 장례 때 입고 싶은 옷을 입고 관에 실려 행렬하며, 중병에서 살아난 데 감사를 표한다."
+      },
+      {
+       "evidence_id": "eldebate-2024",
+       "quote": "se celebra el 29 de julio y cada año atrae a miles de curiosos.",
+       "quote_ko": "7월 29일에 열리며 해마다 수천 명의 구경꾼이 모인다."
+      }
+     ]
+    },
+    {
+     "claim_id": "first_record_1700",
+     "claim_ko": "첫 역사 기록 1700년",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "eldebate-2024",
+       "quote": "La primera referencia histórica de esta celebración data del año 1700",
+       "quote_ko": "이 축제의 첫 역사적 언급은 1700년이다"
+      }
+     ]
+    },
+    {
+     "claim_id": "suppression",
+     "claim_ko": "최근 주교 결정으로 관 행렬 중단, 주민 반발",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "festivalesdeespana",
+       "quote": "La decisión episcopal ha llevado en ediciones recientes a la supresión de los ataúdes durante la procesión",
+       "quote_ko": "주교의 결정으로 최근 행사에서는 행렬 중 관이 빠졌다"
+      }
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "evidence_id": "articulo14",
+     "url": "https://www.articulo14.es/sociedad/las-fiestas-patronales-mas-raras-de-espana-de-muertos-que-resucitan-a-saltos-sobre-bebes-20250710.html",
+     "final_url": null,
+     "source_org": "미기재",
+     "accessed_at": "2026-10-12T00:56:55+00:00",
+     "http_status": null,
+     "access_status": "blocked",
+     "error": "HTTPError: 403 HTTP Error 403: Forbidden",
+     "read_status": "not_read",
+     "override_note": null,
+     "sha256": null,
+     "local_raw_path": null,
+     "local_text_path": null
+    },
+    {
+     "evidence_id": "eldebate-2024",
+     "url": "https://www.eldebate.com/espana/galicia/pontevedra/20240707/procesion-ataudes-vestidos-como-funeral-asi-festividades-singulares-galicia_210878.html",
+     "final_url": "https://www.eldebate.com/espana/galicia/pontevedra/20240707/procesion-ataudes-vestidos-como-funeral-asi-festividades-singulares-galicia_210878.html",
+     "source_org": "El Debate (2024, Europa Press 사진)",
+     "accessed_at": "2026-10-12T00:57:16+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "65972e4da4fcf3fcc8262c5c7457482c4632c8e4fa3ad1e56dc18214de42a358",
+     "local_raw_path": "evidence/es-ribarteme-ataudes/eldebate-2024.html",
+     "local_text_path": "evidence/es-ribarteme-ataudes/eldebate-2024.txt"
+    },
+    {
+     "evidence_id": "festivalesdeespana",
+     "url": "https://www.festivalesdeespana.com/festival/romeria-de-santa-marta-de-ribarteme-as-neves",
+     "final_url": "https://www.festivalesdeespana.com/festival/romeria-de-santa-marta-de-ribarteme-as-neves",
+     "source_org": "Festivales de España (축제 일정 사이트, 2026 편)",
+     "accessed_at": "2026-10-12T00:57:17+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "cc7a18062efcfcc661cccd60d4f86037eed2aa4f4f410d93236c4ec6a805866f",
+     "local_raw_path": "evidence/es-ribarteme-ataudes/festivalesdeespana.html",
+     "local_text_path": "evidence/es-ribarteme-ataudes/festivalesdeespana.txt"
+    },
+    {
+     "evidence_id": "scielo-etnografica",
+     "url": "https://scielo.pt/pdf/etn/v28n1/0873-6561-etn-28-01-25.pdf",
+     "final_url": null,
+     "source_org": "미기재",
+     "accessed_at": "2026-10-12T00:57:30+00:00",
+     "http_status": null,
+     "access_status": "blocked",
+     "error": "IncompleteRead:  IncompleteRead(130813 bytes read, 1233273 more expected)",
+     "read_status": "not_read",
+     "override_note": null,
+     "sha256": null,
+     "local_raw_path": null,
+     "local_text_path": null
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://www.articulo14.es/sociedad/las-fiestas-patronales-mas-raras-de-espana-de-muertos-que-resucitan-a-saltos-sobre-bebes-20250710.html",
+     "note": "원문 403 — 우회 안 함, 대체 출처(El Debate) 사용"
+    },
+    {
+     "url": "https://scielo.pt/pdf/etn/v28n1/0873-6561-etn-28-01-25.pdf",
+     "note": "학술 PDF — 전송 중단(IncompleteRead) 1회 재시도 후 blocked"
+    },
+    {
+     "url": "https://wildhunt.org/?p=2175286",
+     "note": "사제가 '주술'이라 비판했다는 영어 기사 — 원문 미수집"
+    }
+   ],
+   "source_urls": [
+    "https://www.eldebate.com/espana/galicia/pontevedra/20240707/procesion-ataudes-vestidos-como-funeral-asi-festividades-singulares-galicia_210878.html",
+    "https://www.festivalesdeespana.com/festival/romeria-de-santa-marta-de-ribarteme-as-neves"
+   ],
+   "original_read": true,
+   "read_source_orgs": [
+    "El Debate (2024, Europa Press 사진)",
+    "Festivales de España (축제 일정 사이트, 2026 편)"
+   ],
+   "cited_source_orgs": [
+    "El Debate (2024, Europa Press 사진)",
+    "Festivales de España (축제 일정 사이트, 2026 편)"
+   ],
+   "single_source_unverified": false,
+   "duplicate_check": {
+    "verdict": "new",
+    "duplicate_of": null,
+    "prior_candidate_of": null,
+    "related_existing_ids": [],
+    "related_prior_candidates": []
+   },
+   "status": "new_candidate",
+   "status_label": "신규 후보(원문 확인)",
+   "confidence": "medium",
+   "uncertainty": "관 행렬 자체는 최근 중단 상태일 수 있다 — 등록하더라도 '현재 관 행렬은 교구 결정으로 중단'을 함께 써야 한다. 갈리시아 관광 관심 축제 지정 연도 미확인.",
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false
+   }
+  },
+  {
+   "candidate_key": "es-el-colacho",
+   "country": "ES",
+   "country_ko": "스페인",
+   "search_language": "es",
+   "name_original": "El Colacho (Castrillo de Murcia)",
+   "name_ko": "엘 콜라초 — 아기 뛰어넘기 축제",
+   "aliases": [
+    "salto del Colacho"
+   ],
+   "date_type": null,
+   "date_rule": null,
+   "date_note": "성체축일(Corpus Christi) 연동 = 부활절 기준 이동일 → 규칙 미지원. 날짜 원문도 미확인",
+   "rule_support": "unsupported_easter_relative",
+   "scope": "부르고스주 카스트리요 데 무르시아 마을",
+   "kind": "local_festival_weird_behavior",
+   "officiality": "regional_tradition",
+   "officiality_label": "지역 전통",
+   "meaning_ko": "성체축일 무렵 붉은·노란 옷의 가면 쓴 남자가 꽃 제단 위에 눕힌 아기들을 뛰어넘어 악을 쫓는다는 마을 축제다(검색결과 요약 기준). 원문을 읽지 않아 확인 수준은 검색결과뿐이다.",
+   "quirk": "사람이 아기들 위를 뛰어넘는다",
+   "founder_origin": "미확인",
+   "founder_check_level": "search_result_only",
+   "claims": [],
+   "evidence": [],
+   "search_result_only": [
+    {
+     "url": "https://www.casasrurales.net/blog?p=3329",
+     "note": "성체축일·아기 뛰어넘기 — 원문 미수집"
+    }
+   ],
+   "source_urls": [],
+   "original_read": false,
+   "read_source_orgs": [],
+   "cited_source_orgs": [],
+   "single_source_unverified": false,
+   "duplicate_check": {
+    "verdict": "new",
+    "duplicate_of": null,
+    "prior_candidate_of": null,
+    "related_existing_ids": [],
+    "related_prior_candidates": []
+   },
+   "status": "hold_rule_unsupported",
+   "status_label": "보류 — 날짜 규칙 미지원(부활절·음력 표 없음)",
+   "confidence": "low",
+   "uncertainty": "원문 미독. 부활절 연동 이동일이라 날짜 표현도 불가.",
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false
+   }
+  },
+  {
+   "candidate_key": "es-santos-inocentes",
+   "country": "ES",
+   "country_ko": "스페인",
+   "search_language": "es",
+   "name_original": "Día de los Santos Inocentes (inocentadas)",
+   "name_ko": "산토스 이노센테스의 날 — 스페인판 만우절",
+   "aliases": [
+    "inocentadas"
+   ],
+   "date_type": "annual-fixed",
+   "date_rule": "12-28",
+   "date_note": "기존 서비스 12-28 항목과 같은 축일",
+   "rule_support": "supported",
+   "scope": "스페인·라틴아메리카",
+   "kind": "prank",
+   "officiality": "religious_feast_folk_custom",
+   "officiality_label": "종교 축일의 민간 풍습",
+   "meaning_ko": "기존 '죄 없는 아기 순교자들 축일'(12-28)의 anecdote 가 이미 스페인·중남미의 장난 풍습과 가짜 기사를 다룬다. 같은 축일·같은 날의 지역 풍습이라 새 항목이 아니라 중복으로 분리했다.",
+   "quirk": "",
+   "founder_origin": "",
+   "founder_check_level": "duplicate",
+   "claims": [],
+   "evidence": [],
+   "search_result_only": [
+    {
+     "url": "https://www.elcaribe.com.do/destacado/dia-de-los-santos-inocentes-origen-significado-y-por-que-se-celebra-el-28-de-diciembre/",
+     "note": "유래 해설 — 원문 미수집(중복이라 수집 생략)"
+    }
+   ],
+   "source_urls": [],
+   "original_read": false,
+   "read_source_orgs": [],
+   "cited_source_orgs": [],
+   "single_source_unverified": false,
+   "duplicate_check": {
+    "verdict": "duplicate",
+    "duplicate_of": "anv-fixed-12-28-holy-innocents-day-global",
+    "prior_candidate_of": null,
+    "related_existing_ids": [],
+    "related_prior_candidates": []
+   },
+   "status": "duplicate",
+   "status_label": "기존 서비스에 이미 등록",
+   "confidence": "high",
+   "uncertainty": "",
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false
+   }
+  },
+  {
+   "candidate_key": "fr-catherinettes",
+   "country": "FR",
+   "country_ko": "프랑스",
+   "search_language": "fr",
+   "name_original": "Sainte-Catherine / fête des Catherinettes",
+   "name_ko": "카트린 축일 — 카트리네트(25세 미혼 여성)의 날",
+   "aliases": [
+    "coiffer sainte Catherine",
+    "Catherinettes"
+   ],
+   "date_type": "annual-fixed",
+   "date_rule": "11-25",
+   "date_note": "성녀 카트린 축일. 원문이 '날짜는 고정'이라고 명시",
+   "rule_support": "supported",
+   "scope": "프랑스 북부·동부 일부 지역 전통(대표: 오트손 브줄 장터), 파리 패션업계 행사",
+   "kind": "relationship",
+   "officiality": "regional_tradition",
+   "officiality_label": "지역 전통",
+   "meaning_ko": "11월 25일 성녀 카트린 축일에 25세가 되도록 결혼하지 않은 여성(카트리네트)이 노랑·초록 모자를 쓰고 축하받는 프랑스 전통이다. '카트린 성녀의 머리를 손질한다(coiffer sainte Catherine)'는 표현이 지금도 '노처녀가 된다'는 뜻의 관용구로 남았다. 성녀 카트린은 재봉사·모자 장인의 수호성인이라 패션업계 행사로도 이어진다.",
+   "quirk": "미혼 여성에게 우스꽝스러운 색 조합 모자를 씌우는 날. 오늘날엔 성차별 논란과 '자립한 여성의 축제'라는 해석이 공존한다",
+   "founder_origin": "제정자 없음(민속). '16세기부터'(지역 뉴스)·'중세부터'(CNRS 민족학자)로 출처마다 기원 시점이 다르다 — 단정 금지",
+   "founder_check_level": "origin_period_conflicting_sources",
+   "claims": [
+    {
+     "claim_id": "date_fixed",
+     "claim_ko": "매년 11월 25일 고정",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "icalendrier",
+       "quote": "La date est fixe, elle a lieu le 25 novembre de chaque année.",
+       "quote_ko": "날짜는 고정이며 매년 11월 25일이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "who_hat",
+     "claim_ko": "25세 이상 미혼 여성을 카트리네트라 부르고 초록·노랑 모자를 준다",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "slate-2023",
+       "quote": "on n'a plus célébré que les 25 ans et plus, en les appelant les catherinettes si elles étaient toujours célibataires et en leur offrant un chapeau vert et jaune.",
+       "quote_ko": "점차 25세 이상만 축하하게 되었고, 여전히 미혼이면 카트리네트라 부르며 초록·노랑 모자를 선물했다."
+      }
+     ]
+    },
+    {
+     "claim_id": "origin_period",
+     "claim_ko": "기원 시점: 중세(민족학자) vs 16세기(지역 뉴스)",
+     "verdict": "conflicting",
+     "evidence": [
+      {
+       "evidence_id": "slate-2023",
+       "quote": "La tradition des catherinettes est fêtée en France depuis le Moyen Âge.",
+       "quote_ko": "카트리네트 전통은 프랑스에서 중세부터 기념되어 왔다."
+      },
+      {
+       "evidence_id": "macommune-origine",
+       "quote": "Depuis le XVIe siècle, le 25 novembre, on fête les Catherinettes",
+       "quote_ko": "16세기부터 11월 25일에 카트리네트를 축하한다"
+      }
+     ]
+    },
+    {
+     "claim_id": "regional_scope",
+     "claim_ko": "북부·그랑테스트·누벨아키텐 일부에서 여전히 살아 있는 지역 전통",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "slate-2023",
+       "quote": "Sauf dans le nord de la France, mais aussi dans certaines localités du Grand-Est et de la Nouvelle-Aquitaine, où la tradition des catherinettes non mariées est toujours vivace.",
+       "quote_ko": "다만 프랑스 북부, 그리고 그랑테스트·누벨아키텐 일부 지역에서는 미혼 카트리네트 전통이 여전히 살아 있다."
+      }
+     ]
+    },
+    {
+     "claim_id": "patron_milliners",
+     "claim_ko": "성녀 카트린은 재봉사·모자 장인의 수호성인",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "slate-2023",
+       "quote": "sainte Catherine est également la patronne des couturières et des modistes.",
+       "quote_ko": "성녀 카트린은 재봉사와 모자 장인의 수호성인이기도 하다."
+      }
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "evidence_id": "macommune-origine",
+     "url": "https://www.macommune.info/les-catherninettes-dou-vient-cette-tradition-153449",
+     "final_url": "https://www.macommune.info/les-catherninettes-dou-vient-cette-tradition-153449/",
+     "source_org": "macommune.info (프랑슈콩테 지역 뉴스)",
+     "accessed_at": "2026-10-12T00:53:35+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "c91e48cf7dc23f238f210f9637050a3a64f1f13f3e5d595785e7562dc8b3fd91",
+     "local_raw_path": "evidence/fr-catherinettes/macommune-origine.html",
+     "local_text_path": "evidence/fr-catherinettes/macommune-origine.txt"
+    },
+    {
+     "evidence_id": "slate-2023",
+     "url": "https://www.slate.fr/story/256803/tradition-catherinettes-fete-sainte-catherine-25-novembre-filles-femmes-celibataires-mariage-sexisme-stigmatisation",
+     "final_url": "https://www.slate.fr/story/256803/tradition-catherinettes-fete-sainte-catherine-25-novembre-filles-femmes-celibataires-mariage-sexisme-stigmatisation",
+     "source_org": "Slate.fr (2023, CNRS 민족학자 Anne Monjaret 인터뷰)",
+     "accessed_at": "2026-10-12T00:53:41+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "fbb78f75a14d5904d2e998b4a1f76a7b152e802377a7049829b964f7d83f1524",
+     "local_raw_path": "evidence/fr-catherinettes/slate-2023.html",
+     "local_text_path": "evidence/fr-catherinettes/slate-2023.txt"
+    },
+    {
+     "evidence_id": "icalendrier",
+     "url": "https://icalendrier.fr/fetes/sainte-catherine",
+     "final_url": "https://icalendrier.fr/fetes/sainte-catherine",
+     "source_org": "iCalendrier.fr (달력 사이트)",
+     "accessed_at": "2026-10-12T00:53:41+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "b1eddb14119cd4e64b517ae782d216f6d9edb0f951409c681977cfea640d6ce2",
+     "local_raw_path": "evidence/fr-catherinettes/icalendrier.html",
+     "local_text_path": "evidence/fr-catherinettes/icalendrier.txt"
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://www.macommune.info/les-catherinettes-se-fetent-le-25-novembre-a-vesoul-110488",
+     "note": "브줄 모자 대회 규정(25세·노랑초록) — 원문 미수집"
+    },
+    {
+     "url": "https://fr.aleteia.org/2013/11/25/25-novembre-les-catherinettes-coiffent-sainte-catherine/",
+     "note": "가톨릭 매체 해설 — 원문 미수집"
+    }
+   ],
+   "source_urls": [
+    "https://www.macommune.info/les-catherninettes-dou-vient-cette-tradition-153449",
+    "https://www.slate.fr/story/256803/tradition-catherinettes-fete-sainte-catherine-25-novembre-filles-femmes-celibataires-mariage-sexisme-stigmatisation",
+    "https://icalendrier.fr/fetes/sainte-catherine"
+   ],
+   "original_read": true,
+   "read_source_orgs": [
+    "Slate.fr (2023, CNRS 민족학자 Anne Monjaret 인터뷰)",
+    "iCalendrier.fr (달력 사이트)",
+    "macommune.info (프랑슈콩테 지역 뉴스)"
+   ],
+   "cited_source_orgs": [
+    "Slate.fr (2023, CNRS 민족학자 Anne Monjaret 인터뷰)",
+    "iCalendrier.fr (달력 사이트)",
+    "macommune.info (프랑슈콩테 지역 뉴스)"
+   ],
+   "single_source_unverified": false,
+   "duplicate_check": {
+    "verdict": "new",
+    "duplicate_of": null,
+    "prior_candidate_of": null,
+    "related_existing_ids": [],
+    "related_prior_candidates": []
+   },
+   "status": "new_candidate",
+   "status_label": "신규 후보(원문 확인)",
+   "confidence": "high",
+   "uncertainty": "노랑·초록의 상징(희망·가족 vs 신앙·지식)은 출처마다 다르다. 기원 세기도 상충. 같은 날이 '여성폭력 추방의 날'이라 성차별 논란이 있음을 함께 적어야 한다.",
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false
+   }
+  },
+  {
+   "candidate_key": "fr-fete-des-grands-meres",
+   "country": "FR",
+   "country_ko": "프랑스",
+   "search_language": "fr",
+   "name_original": "Fête des grands-mères",
+   "name_ko": "프랑스 할머니의 날",
+   "aliases": [
+    "Fête des Grand'mères",
+    "fête des mamies"
+   ],
+   "date_type": "annual-nth-weekday",
+   "date_rule": "03-1-SUN",
+   "date_note": "3월 첫째 일요일. 원문 3곳 중 2곳(icalendrier·La Poste)이 2026-03-01, 2027-03-07, 2028-03-05 를 제시",
+   "rule_support": "supported",
+   "scope": "프랑스 전국(비공식·상업 기원)",
+   "kind": "relationship_commercial",
+   "officiality": "commercial",
+   "officiality_label": "상업 기원",
+   "meaning_ko": "3월 첫째 일요일에 손주가 할머니에게 감사를 전하는 프랑스의 날이다. 1987년 커피 브랜드 '카페 그랑메르(할머니 커피)'가 홍보용으로 만들었고, 1999년 무렵까지 브랜드와 같은 철자 'Grand'mères'를 썼다. 상업 발명품이었지만 학교 공모전을 타고 퍼져 1997년 조사에선 83%가 알았으나 브랜드와 연결 짓는 사람은 6%뿐이었다.",
+   "quirk": "커피 브랜드 이름이 그대로 기념일이 된 사례. 지금 프랑스 사람 대부분은 상업 기원을 모른다",
+   "founder_origin": "1987년 카페 그랑메르(창업자 René Monnier) 기획 → 같은 해 설립된 비영리 협회 'Fête des grand-mères'가 운영",
+   "founder_check_level": "original_read_secondary_site",
+   "claims": [
+    {
+     "claim_id": "date_rule",
+     "claim_ko": "매년 3월 첫째 일요일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "icalendrier",
+       "quote": "La date est variable, chaque année elle a lieu le 1er dimanche de mars.",
+       "quote_ko": "날짜는 해마다 바뀌며 매년 3월 첫째 일요일이다."
+      },
+      {
+       "evidence_id": "laposte",
+       "quote": "En France la date de la Fête des grands-mères est fixée au premier dimanche du mois de mars.",
+       "quote_ko": "프랑스에서 할머니의 날은 3월 첫째 일요일로 정해져 있다."
+      }
+     ]
+    },
+    {
+     "claim_id": "founder_1987",
+     "claim_ko": "1987년 카페 그랑메르가 만들었다",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "icalendrier",
+       "quote": "elle a été créée en 1987 par une marque de l'industrie agroalimentaire, le café Grand'Mère",
+       "quote_ko": "1987년 식품업계 브랜드인 카페 그랑메르가 만들었다"
+      }
+     ]
+    },
+    {
+     "claim_id": "awareness_1997",
+     "claim_ko": "1997년 인지도 83%, 브랜드 연결 6%",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "icalendrier",
+       "quote": "en 1997, 83% des personnes interrogées connaissaient la fête, mais seulement 6% d'entre elles l'associaient à la marque",
+       "quote_ko": "1997년 응답자의 83%가 이 날을 알았지만 그중 6%만 브랜드와 연결 지었다"
+      }
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "evidence_id": "europe1",
+     "url": "https://www.europe1.fr/societe/fete-des-grands-meres-depuis-quand-celebre-t-on-les-mamies-en-france-4233757",
+     "final_url": null,
+     "source_org": "Europe 1",
+     "accessed_at": "2026-10-12T00:53:43+00:00",
+     "http_status": null,
+     "access_status": "blocked",
+     "error": "HTTPError: 403 HTTP Error 403: Forbidden",
+     "read_status": "not_read",
+     "override_note": null,
+     "sha256": null,
+     "local_raw_path": null,
+     "local_text_path": null
+    },
+    {
+     "evidence_id": "icalendrier",
+     "url": "https://icalendrier.fr/fetes/fete-des-grands-meres",
+     "final_url": "https://icalendrier.fr/fetes/fete-des-grands-meres",
+     "source_org": "iCalendrier.fr (달력 사이트)",
+     "accessed_at": "2026-10-12T00:53:43+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "513d0e056cfe88a48870acf5f64b693f7f4c97af97fccc74d53ccda4d82f1bd9",
+     "local_raw_path": "evidence/fr-fete-des-grands-meres/icalendrier.html",
+     "local_text_path": "evidence/fr-fete-des-grands-meres/icalendrier.txt"
+    },
+    {
+     "evidence_id": "laposte",
+     "url": "https://www.laposte.fr/fetes-des-grands-meres",
+     "final_url": "https://www.laposte.fr/modeles-lettres/fetes-des-grands-meres",
+     "source_org": "La Poste (프랑스 우정공사)",
+     "accessed_at": "2026-10-12T00:53:44+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "ccaebcb86235b907a9210c9d0f3a82a41f47cffa0b76774276ae50245f21194d",
+     "local_raw_path": "evidence/fr-fete-des-grands-meres/laposte.html",
+     "local_text_path": "evidence/fr-fete-des-grands-meres/laposte.txt"
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://www.europe1.fr/societe/fete-des-grands-meres-depuis-quand-celebre-t-on-les-mamies-en-france-4233757",
+     "note": "1987 기원 — 원문 403 차단, 우회하지 않음"
+    },
+    {
+     "url": "https://franco.wiki/fr/F%C3%AAte_des_grands-m%C3%A8res.html",
+     "note": "처음엔 3월 마지막 토요일이었다는 주장 — 다른 출처 없음, 미검증"
+    }
+   ],
+   "source_urls": [
+    "https://icalendrier.fr/fetes/fete-des-grands-meres",
+    "https://www.laposte.fr/fetes-des-grands-meres"
+   ],
+   "original_read": true,
+   "read_source_orgs": [
+    "La Poste (프랑스 우정공사)",
+    "iCalendrier.fr (달력 사이트)"
+   ],
+   "cited_source_orgs": [
+    "La Poste (프랑스 우정공사)",
+    "iCalendrier.fr (달력 사이트)"
+   ],
+   "single_source_unverified": false,
+   "duplicate_check": {
+    "verdict": "new",
+    "duplicate_of": null,
+    "prior_candidate_of": null,
+    "related_existing_ids": [
+     "anv-nth-09-2-sun-grandparents-day-us"
+    ],
+    "related_prior_candidates": []
+   },
+   "status": "new_candidate",
+   "status_label": "신규 후보(원문 확인)",
+   "confidence": "medium",
+   "uncertainty": "1987년 기원은 iCalendrier(달력 사이트) 원문 1곳만 읽음. 첫 회 날짜(3월 마지막 토요일설)는 미검증. 기존 서비스의 미국 조부모의 날(09-2-SUN)과 대상은 겹치지만 날짜·나라·상업 기원이 다른 별개 기념일로 판단.",
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false
+   }
+  },
+  {
+   "candidate_key": "pl-dzien-wagarowicza",
+   "country": "PL",
+   "country_ko": "폴란드",
+   "search_language": "pl",
+   "name_original": "Dzień Wagarowicza",
+   "name_ko": "땡땡이의 날 — 봄 첫날 학생들이 수업을 빼먹는 날",
+   "aliases": [
+    "wagary"
+   ],
+   "date_type": "annual-fixed",
+   "date_rule": "03-21",
+   "date_note": "달력상 봄의 첫날 3월 21일",
+   "rule_support": "supported",
+   "scope": "폴란드(리투아니아 학생도) 비공식 학생 풍습 — 공식 휴교일 아님",
+   "kind": "weird_behavior",
+   "officiality": "unofficial",
+   "officiality_label": "비공식",
+   "meaning_ko": "3월 21일 봄의 첫날, 폴란드 학생들이 암묵적으로 수업을 빼먹고 시내 약속 장소에 모여 노는 '땡땡이의 날'이다. 공산 정권 시절엔 이날이 기념 강연과 마르자나 인형 익사 정도였는데, 1980년대 중반부터 수업 빼먹기가 불문율 같은 전통이 됐고 반체제 해프닝 단체 '오렌지 대안'도 이날을 활용했다. 공식 휴교일이 아니라서 학교들은 분장 대회·운동회로 학생을 붙잡아 둔다.",
+   "quirk": "'공식적으로 인정되지 않은 결석'이 기념일 이름이다",
+   "founder_origin": "제정자 없음. 1980년대 중반부터 확산(dzieje.pl)",
+   "founder_check_level": "original_read_history_portal",
+   "claims": [
+    {
+     "claim_id": "date",
+     "claim_ko": "달력상 봄 첫날 3월 21일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "eska-2025",
+       "quote": "Dzień wagarowicza przypada w pierwszy dzień wiosny kalendarzowej, czyli 21 marca.",
+       "quote_ko": "땡땡이의 날은 달력상 봄의 첫날인 3월 21일이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "mid_1980s",
+     "claim_ko": "1980년대 중반부터 수업 빼먹기가 불문율 전통이 됨",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "dzieje-pl",
+       "quote": "Dopiero w połowie lat 80. XX wieku, coraz częstszą, niepisaną i nieformalną tradycją było unikanie zajęć lekcyjnych",
+       "quote_ko": "20세기 80년대 중반에야 수업을 피하는 것이 점점 흔한, 불문율의 비공식 전통이 됐다"
+      }
+     ]
+    },
+    {
+     "claim_id": "secondary_note",
+     "claim_ko": "체신 지역 매체도 같은 날 학생 땡땡이 풍습을 언급",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "ox-pl-witaj-wiosno",
+       "quote": "W niektórych krajach, zwłaszcza w Polsce, istnieje zwyczaj obchodzenia tzw. \"Dnia Wagarowicza\" przez uczniów",
+       "quote_ko": "일부 나라, 특히 폴란드에는 학생들이 이른바 '땡땡이의 날'을 지내는 풍습이 있다"
+      }
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "evidence_id": "dzieje-pl",
+     "url": "https://dzieje.pl/node/125000",
+     "final_url": "https://dzieje.pl/rozmaitosci-historyczne/pomaranczowe-swieto-wiosny",
+     "source_org": "dzieje.pl (폴란드 역사 포털, 문화유산부 산하 역사기관 운영)",
+     "accessed_at": "2026-10-12T01:02:06+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "45dcc5586959b8c63e6638a8ce5da53f54ab243d115feec145c4dfdf6f7fc1d0",
+     "local_raw_path": "evidence/pl-dzien-wagarowicza/dzieje-pl.html",
+     "local_text_path": "evidence/pl-dzien-wagarowicza/dzieje-pl.txt"
+    },
+    {
+     "evidence_id": "eska-2025",
+     "url": "https://www.eska.pl/wiadomosci/dzien-wagarowicza-2025-kiedy-przypada-i-czy-jest-wolny-od-zajec-aa-7TBi-TeWL-uCFe.html",
+     "final_url": "https://www.eska.pl/news/edukacja/dzien-wagarowicza-2025-kiedy-przypada-i-czy-jest-wolny-od-zajec-aa-7TBi-TeWL-uCFe.html",
+     "source_org": "ESKA.pl (2025)",
+     "accessed_at": "2026-10-12T01:02:09+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "433f2397ff566b12177602250ec7286871fb8cb046afa94de9921fd9286ae1c6",
+     "local_raw_path": "evidence/pl-dzien-wagarowicza/eska-2025.html",
+     "local_text_path": "evidence/pl-dzien-wagarowicza/eska-2025.txt"
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://study.gov.pl/news/everything-you-should-know-about-polish-spring-tradition",
+     "note": "정부 유학 포털 영문 소개 — 원문 미수집"
+    }
+   ],
+   "source_urls": [
+    "https://dzieje.pl/node/125000",
+    "https://www.eska.pl/wiadomosci/dzien-wagarowicza-2025-kiedy-przypada-i-czy-jest-wolny-od-zajec-aa-7TBi-TeWL-uCFe.html"
+   ],
+   "original_read": true,
+   "read_source_orgs": [
+    "ESKA.pl (2025)",
+    "dzieje.pl (폴란드 역사 포털, 문화유산부 산하 역사기관 운영)"
+   ],
+   "cited_source_orgs": [
+    "ESKA.pl (2025)",
+    "dzieje.pl (폴란드 역사 포털, 문화유산부 산하 역사기관 운영)"
+   ],
+   "single_source_unverified": false,
+   "duplicate_check": {
+    "verdict": "new",
+    "duplicate_of": null,
+    "prior_candidate_of": null,
+    "related_existing_ids": [],
+    "related_prior_candidates": []
+   },
+   "status": "new_candidate",
+   "status_label": "신규 후보(원문 확인)",
+   "confidence": "high",
+   "uncertainty": "'vagari(라틴어)' 어원 설명은 출처마다 철자가 달라 쓰지 말 것. 공식 휴교일 아님은 검색결과·eska 제목 수준. 같은 날 마르자나 익사(pl-topienie-marzanny)와 함께 다룰지 편집 판단 필요.",
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false
+   }
+  },
+  {
+   "candidate_key": "pl-andrzejki",
+   "country": "PL",
+   "country_ko": "폴란드",
+   "search_language": "pl",
+   "name_original": "Andrzejki",
+   "name_ko": "안제이키 — 성 안드레아 전야의 연애 점치는 밤",
+   "aliases": [
+    "wieczór andrzejkowy",
+    "lanie wosku"
+   ],
+   "date_type": "annual-fixed",
+   "date_rule": "11-29",
+   "date_note": "11월 29일 밤~30일(성 안드레아 축일 전야). 서비스 날짜는 시작일인 11-29 로 표기. 요즘은 11월 마지막 주말에 모이는 경우도 많다고 원문이 밝힘",
+   "rule_support": "supported",
+   "scope": "폴란드 전국 민속(비공식)",
+   "kind": "folklore_relationship",
+   "officiality": "folk_tradition",
+   "officiality_label": "민속 전통",
+   "meaning_ko": "성 안드레아 축일 전날인 11월 29일 밤, 녹인 촛농을 열쇠 구멍으로 찬물에 부어 굳은 모양의 그림자로 미래의 배우자를 점치는 폴란드 풍습이다. 원래는 미혼 처녀들이 남편감의 이름을 알아내려던 점이었고, 대림절 금욕 직전 마지막으로 크게 노는 밤이기도 하다. 1557년 마르친 비엘스키의 기록에 이미 이 놀이가 나온다고 소개된다.",
+   "quirk": "열쇠 구멍으로 촛농을 붓고 벽에 비친 그림자를 해석한다. 사과 껍질을 뒤로 던져 이름 첫 글자를 맞히기도 한다",
+   "founder_origin": "민속. 1557년 비엘스키 기록이 첫 언급으로 소개되나 당시엔 점보다 '대림절 전 마지막 놀이'였다는 설명. 그리스어·슬라브 신앙 기원설은 가설",
+   "founder_check_level": "folklore_not_history",
+   "claims": [
+    {
+     "claim_id": "date",
+     "claim_ko": "11월 29일에서 30일로 넘어가는 밤",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "natgeo-pl",
+       "quote": "Święto przypada na noc z 29 na 30 listopada.",
+       "quote_ko": "이 날은 11월 29일에서 30일로 넘어가는 밤이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "wax",
+     "claim_ko": "열쇠 구멍으로 촛농 붓기가 가장 유명",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "natgeo-pl",
+       "quote": "Najbardziej znane pozostało chyba jednak lanie wosku ze świecy przez dziurkę od klucza.",
+       "quote_ko": "가장 잘 알려진 것은 아마 양초 촛농을 열쇠 구멍으로 붓는 것이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "first_record_1557",
+     "claim_ko": "1557년 비엘스키 기록, 당시엔 대림절 전 놀이",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "natgeo-pl",
+       "quote": "Z zapisków Marcina Bielskiego – historyka i pisarza – wynika, że andrzejkowe zabawy były znane już w 1557 r.",
+       "quote_ko": "역사가이자 작가인 마르친 비엘스키의 기록에 따르면 안제이키 놀이는 이미 1557년에 알려져 있었다."
+      }
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "evidence_id": "natgeo-pl",
+     "url": "https://www.national-geographic.pl/historia/andrzejki-slowianskie-korzenie-tradycji-wrozenia/",
+     "final_url": "https://www.national-geographic.pl/historia/andrzejki-slowianskie-korzenie-tradycji-wrozenia/",
+     "source_org": "National Geographic Polska",
+     "accessed_at": "2026-10-12T01:00:27+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "0049d844b5e3542b191d527ec3a8baeacb7324d6212fd764d5e06120f25c9bea",
+     "local_raw_path": "evidence/pl-andrzejki/natgeo-pl.html",
+     "local_text_path": "evidence/pl-andrzejki/natgeo-pl.txt"
+    },
+    {
+     "evidence_id": "radiokrakow",
+     "url": "https://www.radiokrakow.pl/audycje/kawalerze-gdzie-jestes-wielka-moc-andrzejkowych-wrozb/",
+     "final_url": "https://www.radiokrakow.pl/audycje/kawalerze-gdzie-jestes-wielka-moc-andrzejkowych-wrozb/",
+     "source_org": "Radio Kraków",
+     "accessed_at": "2026-10-12T01:00:29+00:00",
+     "http_status": 200,
+     "access_status": "blocked_empty_body",
+     "error": null,
+     "read_status": "not_read",
+     "override_note": null,
+     "sha256": "3df5036907960ed7b0735a2d9763fa70fecfca12c320fd01124cc373f0951ce4",
+     "local_raw_path": "evidence/pl-andrzejki/radiokrakow.html",
+     "local_text_path": "evidence/pl-andrzejki/radiokrakow.txt"
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://www.radiokrakow.pl/audycje/kawalerze-gdzie-jestes-wielka-moc-andrzejkowych-wrozb/",
+     "note": "HTTP 200 이지만 본문 56자(빈 본문) — 원문 확인으로 쓰지 않음"
+    }
+   ],
+   "source_urls": [
+    "https://www.national-geographic.pl/historia/andrzejki-slowianskie-korzenie-tradycji-wrozenia/"
+   ],
+   "original_read": true,
+   "read_source_orgs": [
+    "National Geographic Polska"
+   ],
+   "cited_source_orgs": [
+    "National Geographic Polska"
+   ],
+   "single_source_unverified": true,
+   "duplicate_check": {
+    "verdict": "new",
+    "duplicate_of": null,
+    "prior_candidate_of": null,
+    "related_existing_ids": [],
+    "related_prior_candidates": []
+   },
+   "status": "new_candidate_single_source",
+   "status_label": "신규 후보(단일 출처 미검증)",
+   "confidence": "medium",
+   "uncertainty": "원문 1곳(내셔널지오그래픽 폴란드)만 본문 확인. 그리스·슬라브 기원설은 가설이므로 본문에 사실로 쓰지 말 것. 서비스 날짜는 시작 밤 기준 11-29 로 잡았으나 '29~30일 밤'임을 본문에 밝혀야 한다.",
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false
+   }
+  },
+  {
+   "candidate_key": "pl-dzien-chlopaka",
+   "country": "PL",
+   "country_ko": "폴란드",
+   "search_language": "pl",
+   "name_original": "Dzień Chłopaka",
+   "name_ko": "폴란드 소년·남자친구의 날",
+   "aliases": [
+    "Dzień Chłopca"
+   ],
+   "date_type": "annual-fixed",
+   "date_rule": "09-30",
+   "date_note": "9월 마지막 날. 원문 2곳 일치",
+   "rule_support": "supported",
+   "scope": "폴란드 비공식(학교·연인·직장)",
+   "kind": "relationship",
+   "officiality": "unofficial",
+   "officiality_label": "비공식",
+   "meaning_ko": "9월 30일 폴란드에서 여성들이 남자친구·남학생·아버지·동료 남성에게 작은 선물과 축하를 건네는 비공식 기념일이다. 3월 8일 여성의 날에 대한 '답례' 성격으로 학교에서 특히 챙긴다. 기원은 불분명하며, 폴란드 언론이 국제 남성의 날(11월 19일) 유래를 잘못 갖다 붙이는 경우가 있어 주의가 필요하다.",
+   "quirk": "공식 근거가 없는데도 학교 행사로 굳어진 '여성의 날 답례' 날",
+   "founder_origin": "미상. 원문 2곳이 모두 1999년 트리니다드토바고의 '국제 남성의 날' 기원을 갖다 붙이는데, 그것은 11월 19일의 다른 기념일이다 → 신뢰 불가",
+   "founder_check_level": "origin_unreliable_conflated",
+   "claims": [
+    {
+     "claim_id": "date",
+     "claim_ko": "폴란드에서 매년 9월 30일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "wroclaw-pl",
+       "quote": "Dzień Chłopaka to święto, które w Polsce co roku obchodzimy 30 września.",
+       "quote_ko": "소년의 날은 폴란드에서 매년 9월 30일에 기념하는 날이다."
+      },
+      {
+       "evidence_id": "rmf24",
+       "quote": "W Polsce Dzień Chłopaka przypada 30 września.",
+       "quote_ko": "폴란드에서 소년의 날은 9월 30일이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "origin_conflated",
+     "claim_ko": "기원 설명이 국제 남성의 날(11/19, 1999 트리니다드토바고)과 뒤섞임",
+     "verdict": "conflicting",
+     "evidence": [
+      {
+       "evidence_id": "wroclaw-pl",
+       "quote": "Dzień Chłopaka pierwszy raz na świecie był celebrowany 19 listopada 1999 r.",
+       "quote_ko": "소년의 날은 1999년 11월 19일 세계에서 처음 기념됐다."
+      },
+      {
+       "evidence_id": "rmf24",
+       "quote": "To relatywnie młode święto, ustanowione w 1999 roku z inicjatywy ONZ i grupy aktywistów w Trynidadzie i Tobago.",
+       "quote_ko": "1999년 유엔과 트리니다드토바고 활동가들의 주도로 만들어진 비교적 새로운 기념일이다."
+      }
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "evidence_id": "wroclaw-pl",
+     "url": "https://www.wroclaw.pl/dla-mieszkanca/dzien-chlopaka-kiedy-wypada-propozycje-prezentow",
+     "final_url": "https://www.wroclaw.pl/dla-mieszkanca/dzien-chlopaka-we-wroclawiu-propozycje-prezentow-i-zyczenia",
+     "source_org": "wroclaw.pl (브로츠와프 시 포털)",
+     "accessed_at": "2026-10-12T01:00:29+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "6dadd78d9f81b849af0fbbf774e5663e175e652c5badcdc38b3b841a8022545a",
+     "local_raw_path": "evidence/pl-dzien-chlopaka/wroclaw-pl.html",
+     "local_text_path": "evidence/pl-dzien-chlopaka/wroclaw-pl.txt"
+    },
+    {
+     "evidence_id": "rmf24",
+     "url": "https://www.rmf24.pl/fakty/polska/news-kiedy-wypada-dzien-chlopaka-jaki-prezent-bedzie-najlepszy,nId,5508202",
+     "final_url": "https://www.rmf24.pl/fakty/polska/news-kiedy-wypada-dzien-chlopaka-jaki-prezent-bedzie-najlepszy,nId,5508202",
+     "source_org": "RMF24 (RMF FM 뉴스)",
+     "accessed_at": "2026-10-12T01:00:31+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "355459e28acac0505b6cebc81747e65a54d7c1a5601e7483af4611ad8442a56d",
+     "local_raw_path": "evidence/pl-dzien-chlopaka/rmf24.html",
+     "local_text_path": "evidence/pl-dzien-chlopaka/rmf24.txt"
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://www.notino.pl/prezent-na-dzien-chlopca/",
+     "note": "'여성의 날에 대한 답례'·'기원 불명확' — 상업 사이트, 원문 미수집"
+    }
+   ],
+   "source_urls": [
+    "https://www.wroclaw.pl/dla-mieszkanca/dzien-chlopaka-kiedy-wypada-propozycje-prezentow",
+    "https://www.rmf24.pl/fakty/polska/news-kiedy-wypada-dzien-chlopaka-jaki-prezent-bedzie-najlepszy,nId,5508202"
+   ],
+   "original_read": true,
+   "read_source_orgs": [
+    "RMF24 (RMF FM 뉴스)",
+    "wroclaw.pl (브로츠와프 시 포털)"
+   ],
+   "cited_source_orgs": [
+    "RMF24 (RMF FM 뉴스)",
+    "wroclaw.pl (브로츠와프 시 포털)"
+   ],
+   "single_source_unverified": false,
+   "duplicate_check": {
+    "verdict": "new",
+    "duplicate_of": null,
+    "prior_candidate_of": null,
+    "related_existing_ids": [],
+    "related_prior_candidates": [
+     "quirky-discovery-20261012:national-boyfriend-day"
+    ]
+   },
+   "status": "new_candidate",
+   "status_label": "신규 후보(원문 확인)",
+   "confidence": "medium",
+   "uncertainty": "기원 서술은 쓰지 말 것(원문 2곳 모두 다른 기념일과 혼동). 이전 quirky 배치 후보 '남자친구의 날'(미국, 10/3)과 대상이 겹치나 나라·날짜가 달라 별개로 판정.",
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false
+   }
+  },
+  {
+   "candidate_key": "pl-topienie-marzanny",
+   "country": "PL",
+   "country_ko": "폴란드",
+   "search_language": "pl",
+   "name_original": "Topienie Marzanny",
+   "name_ko": "마르자나 인형 물에 빠뜨리기 — 겨울을 익사시키는 날",
+   "aliases": [
+    "Marzanna",
+    "Jare Święto"
+   ],
+   "date_type": "annual-fixed",
+   "date_rule": "03-21",
+   "date_note": "현대 폴란드 학교 행사는 '달력상 봄의 첫날' 3월 21일. 원문(ESKA)이 '규칙은 아니다'라고 밝히고, 옛 의례는 춘분 무렵 며칠간이었다고 설명",
+   "rule_support": "supported",
+   "scope": "폴란드 전국 학교·어린이 행사(지역별 차이 큼)",
+   "kind": "folklore_weird_behavior",
+   "officiality": "folk_tradition",
+   "officiality_label": "민속 전통",
+   "meaning_ko": "봄의 첫날로 여기는 3월 21일, 폴란드 아이들이 짚과 헌 옷으로 만든 겨울의 상징 인형 '마르자나'를 강이나 연못에 던져 겨울을 쫓는 풍습이다. 마르자나는 슬라브 신앙의 겨울·죽음의 여신으로 소개된다. 다만 체신 실레시아 민속 사전은 이 지역의 3월 21일 인형 익사는 20세기 후반 텔레비전과 학교가 퍼뜨린 '2차적' 풍습이라고 지적한다.",
+   "quirk": "인형을 물에 던진 뒤 뒤돌아보거나 넘어지면 병에 걸린다는 미신이 따라붙었다",
+   "founder_origin": "슬라브 민속(봄맞이 의례). '고대 슬라브 전통'과 '20세기 후반 TV·학교로 확산된 2차 풍습' 서술이 공존 — 지역마다 다름",
+   "founder_check_level": "folklore_conflicting",
+   "claims": [
+    {
+     "claim_id": "date_school",
+     "claim_ko": "오늘날 주로 3월 21일 봄 첫날, 단 규칙은 아님",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "eska",
+       "quote": "Dziś najczęściej dzieci odprowadzające kukłę marzanny można spotkać w pierwszy dzień wiosny - 21. marca, ale nie jest to regułą.",
+       "quote_ko": "오늘날 마르자나 인형을 끌고 가는 아이들은 대개 봄의 첫날인 3월 21일에 볼 수 있지만, 규칙은 아니다."
+      }
+     ]
+    },
+    {
+     "claim_id": "goddess",
+     "claim_ko": "마르자나는 슬라브 신앙의 겨울·죽음의 여신",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "eska",
+       "quote": "Kukła przygotowywana przez dzieci jest podobizną Marzanny, czyli starosłowiańskiej bogini zimy i śmierci.",
+       "quote_ko": "아이들이 만드는 인형은 고대 슬라브의 겨울·죽음의 여신 마르자나의 형상이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "secondary_custom",
+     "claim_ko": "체신 실레시아에선 3월 21일 익사는 20세기 후반 TV가 퍼뜨린 2차 풍습",
+     "verdict": "conflicting",
+     "evidence": [
+      {
+       "evidence_id": "ox-pl-witaj-wiosno",
+       "quote": "21 marca, w dzień początku wiosny, jest zwyczajem wtórnym, nie autentycznym, upowszechnianym od 2 poł.",
+       "quote_ko": "3월 21일 봄의 시작일에 (인형을 익사시키는 것은) 고유하지 않은 2차적 풍습으로, 20세기 후반부터 퍼졌다."
+      }
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "evidence_id": "ox-pl-witaj-wiosno",
+     "url": "https://wiadomosci.ox.pl/witaj-wiosno-witej-jor,86704/pdf",
+     "final_url": "https://wiadomosci.ox.pl/witaj-wiosno-witej-jor,86704/pdf",
+     "source_org": "wiadomosci.ox.pl (체신 실레시아 지역 매체 PDF, Kadłubiec『체신 실레시아 민속문화 소사전』 인용)",
+     "accessed_at": "2026-10-12T01:00:33+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "eeb7154800d01e0638a1a0d4fca9f8877a38144a72245cb624a642da15af7394",
+     "local_raw_path": "evidence/pl-topienie-marzanny/ox-pl-witaj-wiosno.pdf",
+     "local_text_path": "evidence/pl-topienie-marzanny/ox-pl-witaj-wiosno.txt"
+    },
+    {
+     "evidence_id": "eska",
+     "url": "https://www.eska.pl/wiadomosci/topienie-marzanny-kiedy-sie-odbywa-skad-wzial-sie-zwyczaj-i-co-oznacza-poznajcie-odpowiedzi-aa-8dQb-upUW-GRZW.html",
+     "final_url": "https://www.eska.pl/wiadomosci/topienie-marzanny-kiedy-sie-odbywa-skad-wzial-sie-zwyczaj-i-co-oznacza-poznajcie-odpowiedzi-aa-8dQb-upUW-GRZW.html",
+     "source_org": "ESKA.pl (라디오 ESKA 뉴스)",
+     "accessed_at": "2026-10-12T01:00:35+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "88d4c89c9a5482c6d5f4d103b406bf148df5d6c05052aa950deb5d86c7fc107c",
+     "local_raw_path": "evidence/pl-topienie-marzanny/eska.html",
+     "local_text_path": "evidence/pl-topienie-marzanny/eska.txt"
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://www.se.pl/wiadomosci/polska/topienie-marzanny-aa-uYB1-UAPz-ba6p.html",
+     "note": "15세기 첫 언급 주장 — 원문 미수집"
+    }
+   ],
+   "source_urls": [
+    "https://wiadomosci.ox.pl/witaj-wiosno-witej-jor,86704/pdf",
+    "https://www.eska.pl/wiadomosci/topienie-marzanny-kiedy-sie-odbywa-skad-wzial-sie-zwyczaj-i-co-oznacza-poznajcie-odpowiedzi-aa-8dQb-upUW-GRZW.html"
+   ],
+   "original_read": true,
+   "read_source_orgs": [
+    "ESKA.pl (라디오 ESKA 뉴스)",
+    "wiadomosci.ox.pl (체신 실레시아 지역 매체 PDF, Kadłubiec『체신 실레시아 민속문화 소사전』 인용)"
+   ],
+   "cited_source_orgs": [
+    "ESKA.pl (라디오 ESKA 뉴스)",
+    "wiadomosci.ox.pl (체신 실레시아 지역 매체 PDF, Kadłubiec『체신 실레시아 민속문화 소사전』 인용)"
+   ],
+   "single_source_unverified": false,
+   "duplicate_check": {
+    "verdict": "new",
+    "duplicate_of": null,
+    "prior_candidate_of": null,
+    "related_existing_ids": [],
+    "related_prior_candidates": []
+   },
+   "status": "new_candidate",
+   "status_label": "신규 후보(원문 확인)",
+   "confidence": "medium",
+   "uncertainty": "'고대부터 3월 21일'이라고 단정하면 안 된다. 날짜는 현대 학교 관행 기준이며 원문 스스로 '규칙 아님'이라 함. 마르자나 어원(mar=죽음)은 대중 매체 설명. 같은 3월 21일에 '땡땡이의 날(Dzień Wagarowicza)'이 겹친다(별도 후보).",
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false
+   }
+  },
+  {
+   "candidate_key": "th-wan-khru",
+   "country": "TH",
+   "country_ko": "태국",
+   "search_language": "th",
+   "name_original": "วันครู",
+   "name_ko": "태국 스승의 날(완크루)",
+   "aliases": [
+    "Wan Khru",
+    "Teachers' Day (Thailand)"
+   ],
+   "date_type": "annual-fixed",
+   "date_rule": "01-16",
+   "date_note": "1945(불기 2488)년 교원법 관보 공포일. 1956(2499)년 11월 21일 내각 결의로 지정",
+   "rule_support": "supported",
+   "scope": "태국 전국 공식 기념일(학교 휴교)",
+   "kind": "occupation",
+   "officiality": "official_cabinet_resolution",
+   "officiality_label": "공식(내각 결의)",
+   "meaning_ko": "1월 16일은 태국의 스승의 날로, 1945년(불기 2488년) 교원법이 관보에 공포된 날을 기념한다. 1956년 피분송크람 총리가 교원회의(쿠루사파) 연설에서 스승을 기리는 날을 제안했고, 같은 해 11월 21일 내각 결의로 날짜가 정해졌다. 학생이 꽃을 바쳐 절하는 '와이크루(스승께 절하기)' 의식과는 다른 날이다.",
+   "quirk": "태국은 불기(佛紀)를 써서 원문 연도가 543년 앞선다(2488 = 1945)",
+   "founder_origin": "1956(2499)년 내각 결의, 제안자 피분송크람 총리",
+   "founder_check_level": "original_read_news_official_page_blocked",
+   "claims": [
+    {
+     "claim_id": "cabinet_date",
+     "claim_ko": "2499년 11월 21일 내각 결의로 1월 16일 지정, 2488년 교원법 관보 공포일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "khaosod",
+       "quote": "ย้อนไปวันที่ 21 พฤศจิกายน พ.ศ. 2499 คณะรัฐมนตรีมีมติกำหนดให้ วันที่ 16 มกราคม ของทุกปีเป็นวันครูแห่งประเทศไทย โดยตรงกับวันที่ประกาศพระราชบัญญัติครูในราชกิจจานุเบกษา เมื่อปี พ.ศ. 2488",
+       "quote_ko": "불기 2499년 11월 21일 내각은 매년 1월 16일을 태국 스승의 날로 정했는데, 이는 불기 2488년 교원법이 관보에 공포된 날과 같다."
+      }
+     ]
+    },
+    {
+     "claim_id": "phibun",
+     "claim_ko": "2499년 피분송크람 총리가 쿠루사파 총회에서 제안",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "khaosod",
+       "quote": "พ.ศ. 2499 ในที่ประชุมสามัญคุรุสภาประจำปี จอมพล ป. พิบูลสงคราม นายกรัฐมนตรีและประธานกรรมการอำนวยการคุรุสภากิตติมศักดิ์ ได้กล่าวคำปราศรัยต่อที่ประชุมครูทั่วประเทศว่า",
+       "quote_ko": "불기 2499년 쿠루사파 정기총회에서 피분송크람 원수(총리 겸 쿠루사파 명예위원장)가 전국 교사들 앞에서 연설하기를"
+      }
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "evidence_id": "prd-go-th",
+     "url": "https://www.prd.go.th/th/content/category/detail/id/31/iid/466119",
+     "final_url": null,
+     "source_org": "태국 정부 홍보청(PRD)",
+     "accessed_at": "2026-10-12T01:03:06+00:00",
+     "http_status": null,
+     "access_status": "blocked",
+     "error": "HTTPError: 404 HTTP Error 404: Not Found",
+     "read_status": "not_read",
+     "override_note": null,
+     "sha256": null,
+     "local_raw_path": null,
+     "local_text_path": null
+    },
+    {
+     "evidence_id": "khaosod",
+     "url": "https://www.khaosod.co.th/lifestyle/news_2084989",
+     "final_url": "https://www.khaosod.co.th/lifestyle/news_2084989",
+     "source_org": "Khaosod (카오솟 신문, '루파이못' 칼럼)",
+     "accessed_at": "2026-10-12T01:03:07+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "d08d3e0441c7be73b6ae91c6d111c63ba082e5ae6248a881c66c516103b3fca4",
+     "local_raw_path": "evidence/th-wan-khru/khaosod.html",
+     "local_text_path": "evidence/th-wan-khru/khaosod.txt"
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://www.prd.go.th/th/content/category/detail/id/31/iid/466119",
+     "note": "정부 홍보청 공식 페이지 — 404, 우회 안 함. 첫 행사 2500(1957)년·제70회(2569) 주장은 검색결과만"
+    }
+   ],
+   "source_urls": [
+    "https://www.khaosod.co.th/lifestyle/news_2084989"
+   ],
+   "original_read": true,
+   "read_source_orgs": [
+    "Khaosod (카오솟 신문, '루파이못' 칼럼)"
+   ],
+   "cited_source_orgs": [
+    "Khaosod (카오솟 신문, '루파이못' 칼럼)"
+   ],
+   "single_source_unverified": true,
+   "duplicate_check": {
+    "verdict": "new",
+    "duplicate_of": null,
+    "prior_candidate_of": null,
+    "related_existing_ids": [
+     "anv-fixed-05-15-teachers-day-kr"
+    ],
+    "related_prior_candidates": []
+   },
+   "status": "new_candidate_single_source",
+   "status_label": "신규 후보(단일 출처 미검증)",
+   "confidence": "medium",
+   "uncertainty": "공식(정부) 원문은 404 로 못 읽음 — 근거는 일간지 칼럼 1곳. 와이크루(6월 목요일 등 학교별)와 혼동 금지. 학교 휴교 여부는 미확인이라 본문에 쓰지 말 것.",
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false
+   }
+  },
+  {
+   "candidate_key": "th-nai-khanom-tom",
+   "country": "TH",
+   "country_ko": "태국",
+   "search_language": "th",
+   "name_original": "วันนายขนมต้ม บรมครูมวยไทย",
+   "name_ko": "나이카놈똠의 날 — 무에타이 스승의 날",
+   "aliases": [
+    "วันมวยไทย",
+    "วันนักมวย",
+    "Nai Khanom Tom Day"
+   ],
+   "date_type": "annual-fixed",
+   "date_rule": "03-17",
+   "date_note": "1774(불기 2317)년 3월 17일 버마 쉐다곤 탑 산개(傘蓋) 봉헌일과 전설을 연결. 검색 질의의 '2월 6일설'은 근거 없음",
+   "rule_support": "supported",
+   "scope": "태국 무에타이계·아유타야 등 지역 행사(공휴일 아님)",
+   "kind": "folklore_sport_occupation",
+   "officiality": "industry_folk",
+   "officiality_label": "업계·전설",
+   "meaning_ko": "3월 17일은 아유타야 함락 뒤 포로로 끌려간 태국 권투가 '나이 카놈똠'이 버마 왕 앞에서 버마 권투가 10명을 연달아 이겼다는 이야기를 기려 무에타이계가 '무에타이 스승의 날'로 삼은 날이다. 이야기는 태국 왕실 연대기 필사본에 처음 나오지만 버마·몬 쪽 기록에는 보이지 않는다는 지적이 있어 전설로 다뤄야 한다. 날짜는 같은 해 쉐다곤 탑 봉헌일에서 왔다.",
+   "quirk": "이름이 '카놈똠(태국 떡의 일종)'이라 '떡 아저씨'로 읽힌다 — 단 이름 뜻 해석은 이번 원문에서 확인 안 함",
+   "founder_origin": "태국 왕실 연대기 필사본의 일화(전설). 무에타이계가 기념일로 채택 — 채택 주체·연도 미확인",
+   "founder_check_level": "folklore_not_history",
+   "claims": [
+    {
+     "claim_id": "date",
+     "claim_ko": "매년 3월 17일을 '나이카놈똠, 무에타이 스승의 날'로 삼는다",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "thairath",
+       "quote": "เราจึงถือเอาวันที่ 17 มีนาคม เป็น “วันนายขนมต้ม บรมครูมวยไทย” มาตราบจนทุกวันนี้",
+       "quote_ko": "그래서 우리는 3월 17일을 '나이카놈똠, 무에타이 스승의 날'로 삼아 오늘에 이른다"
+      }
+     ]
+    },
+    {
+     "claim_id": "boxing_day",
+     "claim_ko": "3월 17일을 무에타이의 날로 정한 적이 있다",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "gotoknow-710282",
+       "quote": "ได้เคยมีการจัดให้วันที่ 17 มีนาคม เป็นวันมวยไทยเพื่อเป็นเกียรติประวัติต่อนักมวยไทย",
+       "quote_ko": "3월 17일을 무에타이의 날로 정해 태국 권투가들을 기린 적이 있다"
+      }
+     ]
+    },
+    {
+     "claim_id": "legend_status",
+     "claim_ko": "태국 연대기에 처음 나오나 다른 기록엔 없다(전설)",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "gotoknow-710282",
+       "quote": "เรื่องราวของนายขนมต้ม ปรากฏครั้งแรกในพระราชพงศาวดาร ฉบับสมเด็จพระพนรัตน์ วัดพระเชตุพน ฉบับตัวเขียน",
+       "quote_ko": "나이카놈똠 이야기는 왓포 솜뎃 프라 파나랏 판 왕실 연대기 필사본에 처음 나타난다"
+      },
+      {
+       "evidence_id": "gotoknow-710282",
+       "quote": "แต่เมื่อเปรียบเทียบกับหลักฐานอื่นๆ แล้ว ไม่ปรากฏพบเรื่องราวของนายขนมต้มแต่อย่างใด",
+       "quote_ko": "그러나 다른 사료와 비교하면 나이카놈똠 이야기는 전혀 보이지 않는다"
+      }
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "evidence_id": "thairath",
+     "url": "https://www.thairath.co.th/news/881791",
+     "final_url": "https://www.thairath.co.th/content/881791",
+     "source_org": "Thairath (타이랏 신문, 2017)",
+     "accessed_at": "2026-10-12T01:03:09+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "ec433229b750a4283fdcce4fc34d4c9fdd6c8e5a0e50223433970879903e26ef",
+     "local_raw_path": "evidence/th-nai-khanom-tom/thairath.html",
+     "local_text_path": "evidence/th-nai-khanom-tom/thairath.txt"
+    },
+    {
+     "evidence_id": "gotoknow-710282",
+     "url": "https://www.gotoknow.org/posts/710282",
+     "final_url": "https://www.gotoknow.org/posts/710282",
+     "source_org": "GotoKnow (태국 교육 블로그 플랫폼 — 개인 글)",
+     "accessed_at": "2026-10-12T01:03:10+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "7f672fbcc541cd4e64917abb927dde330c5ced54d49953e2d9e2248608cac047",
+     "local_raw_path": "evidence/th-nai-khanom-tom/gotoknow-710282.html",
+     "local_text_path": "evidence/th-nai-khanom-tom/gotoknow-710282.txt"
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://www.thaipost.net/sport-news/756785/",
+     "note": "사무이섬 재단의 2025-03-17 와이크루 행사 — 원문 미수집"
+    }
+   ],
+   "source_urls": [
+    "https://www.thairath.co.th/news/881791",
+    "https://www.gotoknow.org/posts/710282"
+   ],
+   "original_read": true,
+   "read_source_orgs": [
+    "GotoKnow (태국 교육 블로그 플랫폼 — 개인 글)",
+    "Thairath (타이랏 신문, 2017)"
+   ],
+   "cited_source_orgs": [
+    "GotoKnow (태국 교육 블로그 플랫폼 — 개인 글)",
+    "Thairath (타이랏 신문, 2017)"
+   ],
+   "single_source_unverified": false,
+   "duplicate_check": {
+    "verdict": "new",
+    "duplicate_of": null,
+    "prior_candidate_of": null,
+    "related_existing_ids": [],
+    "related_prior_candidates": []
+   },
+   "status": "new_candidate",
+   "status_label": "신규 후보(원문 확인)",
+   "confidence": "medium",
+   "uncertainty": "전설을 역사로 단정하지 말 것('10명 연승'은 연대기 일화). gotoknow 는 개인 블로그 글이다. 공식 지정 주체·연도 미확인. 2월 6일설은 검색결과에서도 근거 없음.",
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false
+   }
+  },
+  {
+   "candidate_key": "tr-hidirellez",
+   "country": "TR",
+   "country_ko": "튀르키예",
+   "search_language": "tr",
+   "name_original": "Hıdırellez",
+   "name_ko": "흐드렐레즈 — 장미나무에 소원을 거는 봄맞이 밤",
+   "aliases": [
+    "Hıdrellez",
+    "Kakava (로마니 공동체)"
+   ],
+   "date_type": "annual-fixed",
+   "date_rule": "05-06",
+   "date_note": "5월 5일 밤~6일. UNESCO 공식 페이지가 '매년 5월 6일'로 명시",
+   "rule_support": "supported",
+   "scope": "튀르키예 전국 민속(발칸·이라크·시리아에도). UNESCO 인류무형유산(2017, 튀르키예·북마케도니아 공동)",
+   "kind": "folklore_wish_ritual",
+   "officiality": "folk_tradition_unesco_listed",
+   "officiality_label": "민속 전통(UNESCO 무형유산)",
+   "meaning_ko": "5월 5일에서 6일로 넘어가는 밤, 땅의 수호자 흐즈르와 물의 수호자 일리야스가 장미나무 아래서 만난다는 믿음에 따라 소원을 종이에 그려 장미나무 가지에 묶거나 뿌리 밑에 묻는 튀르키예의 봄맞이 풍습이다. 모닥불을 뛰어넘어 액운을 털고, 이날부터 11월 초까지를 '흐즈르의 날들(여름)'로 친다. 2017년 튀르키예·북마케도니아 공동으로 유네스코 인류무형유산에 올랐다.",
+   "quirk": "원하는 집·차·아기를 종이에 그려서 장미나무에 걸어 둔다",
+   "founder_origin": "민간 신앙(흐즈르·일리야스 만남 전설 — 역사적 사실 아님). UNESCO 등재 2017(12.COM)",
+   "founder_check_level": "official_unesco_page_read",
+   "claims": [
+    {
+     "claim_id": "date_unesco",
+     "claim_ko": "매년 5월 6일(UNESCO), 2017년 대표목록 등재",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "unesco-ich",
+       "quote": "The Spring Celebration ‘Hidrellez’ takes place annually on 6 May",
+       "quote_ko": "봄맞이 축제 흐드렐레즈는 매년 5월 6일에 열린다"
+      },
+      {
+       "evidence_id": "unesco-ich",
+       "quote": "Inscribed in 2017 (12.COM) on the Representative List of the Intangible Cultural Heritage of Humanity",
+       "quote_ko": "2017년(제12차 위원회) 인류무형문화유산 대표목록에 등재"
+      }
+     ]
+    },
+    {
+     "claim_id": "night_5_6",
+     "claim_ko": "5월 5일에서 6일로 넘어가는 밤에 기념",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "medyascope-2026",
+       "quote": "Hıdırellez, her yıl 5 Mayıs’ı 6 Mayıs’a bağlayan gece kutlanan, baharın gelişini simgeleyen köklü bir gelenektir.",
+       "quote_ko": "흐드렐레즈는 매년 5월 5일에서 6일로 넘어가는 밤에 기념하는, 봄의 도래를 상징하는 오랜 전통이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "rose_wish",
+     "claim_ko": "소원을 종이에 그려 장미나무 가지에 묶거나 밑에 묻는다",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "haberturk",
+       "quote": "Hıdırellez öncesindeki günün akşamı vatandaşlar ev, araba, çocuk gibi dileklerini bir kağıda çizerek gül ağacının dalına bağlıyor",
+       "quote_ko": "흐드렐레즈 전날 저녁 사람들은 집·차·아이 같은 소원을 종이에 그려 장미나무 가지에 묶는다"
+      }
+     ]
+    },
+    {
+     "claim_id": "season_split",
+     "claim_ko": "5/6~11/7 '흐즈르의 날들(여름)', 11/8~5/5 '카슴의 날들(겨울)'",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "medyascope-2026",
+       "quote": "6 Mayıs’tan 7 Kasım’a kadar olan dönem “Hızır günleri” yani yaz, 8 Kasım’dan 5 Mayıs’a kadar olan dönem ise “Kasım günleri” yani kış olarak kabul ediliyor.",
+       "quote_ko": "5월 6일부터 11월 7일까지는 '흐즈르의 날들' 즉 여름, 11월 8일부터 5월 5일까지는 '카슴의 날들' 즉 겨울로 여겨진다."
+      }
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "evidence_id": "medyascope-2026",
+     "url": "https://medyascope.tv/2026/05/05/hidirellez-nedir-hidirellez-rituelleri-nelerdir/",
+     "final_url": "https://medyascope.tv/2026/05/05/hidirellez-nedir-hidirellez-rituelleri-nelerdir/",
+     "source_org": "Medyascope (2026-05-05)",
+     "accessed_at": "2026-10-12T01:02:12+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "356dad2d5b70796c52e407ac424b9d54bff6ad605aa3143cb74998479323912e",
+     "local_raw_path": "evidence/tr-hidirellez/medyascope-2026.html",
+     "local_text_path": "evidence/tr-hidirellez/medyascope-2026.txt"
+    },
+    {
+     "evidence_id": "unesco-ich",
+     "url": "https://ich.unesco.org/en/RL/spring-celebration-of-hdrellez-01284",
+     "final_url": "https://ich.unesco.org/en/RL/spring-celebration-of-hdrellez-01284",
+     "source_org": "UNESCO 무형유산 공식 페이지(영어, 공식 보조 출처)",
+     "accessed_at": "2026-10-12T01:02:13+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "fdb33b7b322b9ad2c3fc39405a93a9dbe56410cd0fbc038f13c53b12530371ba",
+     "local_raw_path": "evidence/tr-hidirellez/unesco-ich.html",
+     "local_text_path": "evidence/tr-hidirellez/unesco-ich.txt"
+    },
+    {
+     "evidence_id": "haberturk",
+     "url": "https://www.haberturk.com/asirlardir-kutlanan-renkli-bulusma-hidirellez-2667297",
+     "final_url": "https://www.haberturk.com/asirlardir-kutlanan-renkli-bulusma-hidirellez-2667297",
+     "source_org": "Habertürk",
+     "accessed_at": "2026-10-12T01:02:16+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "3a2aad51f62343b482d2bc1c0e1fc7dd9e0c7245b4cd9c0925df25d834db30c2",
+     "local_raw_path": "evidence/tr-hidirellez/haberturk.html",
+     "local_text_path": "evidence/tr-hidirellez/haberturk.txt"
+    }
+   ],
+   "search_result_only": [],
+   "source_urls": [
+    "https://medyascope.tv/2026/05/05/hidirellez-nedir-hidirellez-rituelleri-nelerdir/",
+    "https://ich.unesco.org/en/RL/spring-celebration-of-hdrellez-01284",
+    "https://www.haberturk.com/asirlardir-kutlanan-renkli-bulusma-hidirellez-2667297"
+   ],
+   "original_read": true,
+   "read_source_orgs": [
+    "Habertürk",
+    "Medyascope (2026-05-05)",
+    "UNESCO 무형유산 공식 페이지(영어, 공식 보조 출처)"
+   ],
+   "cited_source_orgs": [
+    "Habertürk",
+    "Medyascope (2026-05-05)",
+    "UNESCO 무형유산 공식 페이지(영어, 공식 보조 출처)"
+   ],
+   "single_source_unverified": false,
+   "duplicate_check": {
+    "verdict": "new",
+    "duplicate_of": null,
+    "prior_candidate_of": null,
+    "related_existing_ids": [],
+    "related_prior_candidates": []
+   },
+   "status": "new_candidate",
+   "status_label": "신규 후보(원문 확인)",
+   "confidence": "high",
+   "uncertainty": "'흐즈르·일리야스가 만난다'는 신앙 서술이므로 사실처럼 쓰지 말 것. 서비스 날짜를 05-06 으로 하되 '5일 밤부터'를 본문에 밝혀야 한다.",
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false
+   }
+  },
+  {
+   "candidate_key": "tr-ogretmenler-gunu",
+   "country": "TR",
+   "country_ko": "튀르키예",
+   "search_language": "tr",
+   "name_original": "24 Kasım Öğretmenler Günü",
+   "name_ko": "튀르키예 교사의 날 — 아타튀르크 '수석 교사' 취임일",
+   "aliases": [
+    "Öğretmenler Günü"
+   ],
+   "date_type": "annual-fixed",
+   "date_rule": "11-24",
+   "date_note": "1928-11-24 아타튀르크가 '국민학교 수석교사(Başöğretmen)' 칭호를 받아들인 날. 1981년부터 교사의 날",
+   "rule_support": "supported",
+   "scope": "튀르키예 전국 공식 기념일(공휴일 아님)",
+   "kind": "occupation",
+   "officiality": "official_observance_not_holiday",
+   "officiality_label": "공식(기념일, 공휴일 아님)",
+   "meaning_ko": "11월 24일은 튀르키예의 교사의 날로, 1928년 문자 개혁 직후 문맹 퇴치를 위해 연 '국민학교(Millet Mektepleri)'의 수석 교사 직을 아타튀르크가 받아들인 날에서 나왔다. 아타튀르크 탄생 100주년인 1981년 군사정부가 '아타튀르크의 해'를 선포하며 이날을 교사의 날로 정했다. 세계 교사의 날(10월 5일)과 날짜가 다르다.",
+   "quirk": "국가 지도자가 '전 국민의 선생님' 직함을 맡은 날이 교사의 날이 됨",
+   "founder_origin": "1981년 9·12 군사정부('아타튀르크의 해'). 1981-02-26 관보 '교사의 날 기념 규정'(haber7) — 다른 매체는 1992 규정 등 날짜 상충(검색결과)",
+   "founder_check_level": "original_read_news_regulation_date_unverified",
+   "claims": [
+    {
+     "claim_id": "date_reason",
+     "claim_ko": "1928-11-24 아타튀르크가 국민학교 수석교사직 수락",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "haber7",
+       "quote": "Türkiye Cumhuriyeti Devleti'nin kurucusu Mustafa Kemal Atatürk 24 Kasım 1928'de \"Millet Mektepleri'nin Başöğretmenliği\"ni kabul etti.",
+       "quote_ko": "튀르키예 공화국 건국자 무스타파 케말 아타튀르크는 1928년 11월 24일 '국민학교 수석교사'직을 받아들였다."
+      }
+     ]
+    },
+    {
+     "claim_id": "since_1981",
+     "claim_ko": "1981년 군사정부가 아타튀르크의 해를 선포하며 시작",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "haber7",
+       "quote": "1981 yılı, 12 Eylül Askeri İdaresi tarafından Atatürk Yılı ilan edildi. 24 Kasım Öğretmenler Günü uygulaması da bu yıl başlatıldı.",
+       "quote_ko": "1981년 9·12 군사정부가 '아타튀르크의 해'를 선포했고 11월 24일 교사의 날도 이해 시작됐다."
+      }
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "evidence_id": "haber7",
+     "url": "https://www.haber7.com/guncel/haber/3480126-24-kasim-ogretmenler-gunu-nasil-ortaya-cikti-ilk-ne-zaman-kutlandi",
+     "final_url": "https://www.haber7.com/guncel/haber/3480126-24-kasim-ogretmenler-gunu-nasil-ortaya-cikti-ilk-ne-zaman-kutlandi",
+     "source_org": "Haber 7",
+     "accessed_at": "2026-10-12T01:03:02+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "c3365993c2fb71c4d7fac3364952c917910256455266cbad600f5cf9f4aaa3df",
+     "local_raw_path": "evidence/tr-ogretmenler-gunu/haber7.html",
+     "local_text_path": "evidence/tr-ogretmenler-gunu/haber7.txt"
+    },
+    {
+     "evidence_id": "milliyet-tatil",
+     "url": "https://www.milliyet.com.tr/gundem/24-kasim-tatil-mi-ogretmenler-gunu-resmi-tatiller-arasinda-var-mi-6355651",
+     "final_url": "https://www.milliyet.com.tr/gundem/24-kasim-tatil-mi-ogretmenler-gunu-resmi-tatiller-arasinda-var-mi-6355651",
+     "source_org": "Milliyet",
+     "accessed_at": "2026-10-12T01:03:03+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "d6af1b75b9b7ea6af5171fe79a198098d26d3e595af2bd66ba20bac9aba8dc48",
+     "local_raw_path": "evidence/tr-ogretmenler-gunu/milliyet-tatil.html",
+     "local_text_path": "evidence/tr-ogretmenler-gunu/milliyet-tatil.txt"
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://www.sozcu.com.tr/ogretmenler-gunu-ne-zaman-wp651347",
+     "note": "결정일 1981-11-24 주장 — 원문 미수집, haber7(1981-02-26 관보 규정)과 상충"
+    },
+    {
+     "url": "https://www.milliyet.com.tr/gundem/24-kasim-tatil-mi-ogretmenler-gunu-resmi-tatiller-arasinda-var-mi-6355651",
+     "note": "원문 수집했으나 '공휴일 아님' 문장을 본문에서 직접 확인 못 함 — 공휴일 여부는 검색결과 수준"
+    }
+   ],
+   "source_urls": [
+    "https://www.haber7.com/guncel/haber/3480126-24-kasim-ogretmenler-gunu-nasil-ortaya-cikti-ilk-ne-zaman-kutlandi",
+    "https://www.milliyet.com.tr/gundem/24-kasim-tatil-mi-ogretmenler-gunu-resmi-tatiller-arasinda-var-mi-6355651"
+   ],
+   "original_read": true,
+   "read_source_orgs": [
+    "Haber 7",
+    "Milliyet"
+   ],
+   "cited_source_orgs": [
+    "Haber 7"
+   ],
+   "single_source_unverified": true,
+   "duplicate_check": {
+    "verdict": "new",
+    "duplicate_of": null,
+    "prior_candidate_of": null,
+    "related_existing_ids": [
+     "anv-fixed-05-15-teachers-day-kr",
+     "anv-fixed-05-03-teacher-appreciation-day-us"
+    ],
+    "related_prior_candidates": []
+   },
+   "status": "new_candidate_single_source",
+   "status_label": "신규 후보(단일 출처 미검증)",
+   "confidence": "medium",
+   "uncertainty": "규정 공포일(1981-02-26 vs 1992 규정)은 출처 상충 — 본문엔 '1981년부터'만 쓸 것. 공휴일 아님은 검색결과 수준.",
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false
+   }
+  },
+  {
+   "candidate_key": "tr-turk-kahvesi-gunu",
+   "country": "TR",
+   "country_ko": "튀르키예",
+   "search_language": "tr",
+   "name_original": "Dünya Türk Kahvesi Günü",
+   "name_ko": "세계 튀르키예 커피의 날",
+   "aliases": [],
+   "date_type": "annual-fixed",
+   "date_rule": "12-05",
+   "date_note": "검색결과상 12월 5일(2013년 UNESCO 무형유산 등재와 연결). 원문 본문 미확인",
+   "rule_support": "supported",
+   "scope": "튀르키예 및 해외 홍보 행사",
+   "kind": "food_culture",
+   "officiality": "unverified",
+   "officiality_label": "미확인",
+   "meaning_ko": "12월 5일을 '세계 튀르키예 커피의 날'로 부른다는 검색결과가 있으나, 선포 주체가 'UNESCO'라는 기사와 '워싱턴 시장이 재단 요청으로 선포'라는 기사로 갈린다. 원문 본문을 확보하지 못해 확인 수준은 검색결과뿐이다.",
+   "quirk": "",
+   "founder_origin": "상충: UNESCO 2013 선포설 vs 2013 무형유산 등재 기념설 vs 워싱턴 시장 선포설",
+   "founder_check_level": "search_result_only_conflicting",
+   "claims": [],
+   "evidence": [
+    {
+     "evidence_id": "cumhuriyet",
+     "url": "https://www.cumhuriyet.com.tr/yasam/5-aralik-dunya-turk-kahvesi-gunu-nedir-5-aralik-dunya-turk-kahvesi-2276058",
+     "final_url": "https://www.cumhuriyet.com.tr/yasam/5-aralik-dunya-turk-kahvesi-gunu-nedir-5-aralik-dunya-turk-kahvesi-2276058",
+     "source_org": "Cumhuriyet",
+     "accessed_at": "2026-10-12T01:02:22+00:00",
+     "http_status": 200,
+     "access_status": "http_200_no_article_body",
+     "error": null,
+     "read_status": "not_read",
+     "override_note": "HTTP 200 이지만 본문 1,722자 중 기사 본문 없이 메뉴·제목뿐 — 원문 확인으로 쓰지 않음",
+     "sha256": "c5baf7b9ff6e0885ea5b4088ab3b84cc28b7154efa545a17d1ff7f079cc4f4ee",
+     "local_raw_path": "evidence/tr-turk-kahvesi-gunu/cumhuriyet.html",
+     "local_text_path": "evidence/tr-turk-kahvesi-gunu/cumhuriyet.txt"
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://www.cumhuriyet.com.tr/yasam/5-aralik-dunya-turk-kahvesi-gunu-nedir-5-aralik-dunya-turk-kahvesi-2276058",
+     "note": "HTTP 200 이나 기사 본문 없음 — 원문 미확인"
+    },
+    {
+     "url": "https://www.webtekno.com/times-meydaninda-turk-kahvesi-tanitildi-h103047.html",
+     "note": "워싱턴 시장 선포설 — 원문 미수집"
+    }
+   ],
+   "source_urls": [],
+   "original_read": false,
+   "read_source_orgs": [],
+   "cited_source_orgs": [],
+   "single_source_unverified": false,
+   "duplicate_check": {
+    "verdict": "new",
+    "duplicate_of": null,
+    "prior_candidate_of": null,
+    "related_existing_ids": [
+     "anv-fixed-10-01-international-coffee-day-global"
+    ],
+    "related_prior_candidates": []
+   },
+   "status": "search_result_only",
+   "status_label": "검색결과만 확인(원문 미확인)",
+   "confidence": "low",
+   "uncertainty": "선포 주체 상충, 원문 미확보. 음식(음료) 항목이라 우선순위 낮음.",
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false
+   }
+  },
+  {
+   "candidate_key": "tw-520",
+   "country": "TW",
+   "country_ko": "대만",
+   "search_language": "zh-Hant",
+   "name_original": "520（我愛你）",
+   "name_ko": "520 — '사랑해' 숫자 말장난의 날",
+   "aliases": [
+    "5·20 情人節",
+    "網路情人節"
+   ],
+   "date_type": "annual-fixed",
+   "date_rule": "05-20",
+   "date_note": "5월 20일. 연도 숫자까지 겹친 2020-05-20(2020520)은 특별히 많았음",
+   "rule_support": "supported",
+   "scope": "대만(중화권 공통) 비공식 — 혼인신고·고백 수요",
+   "kind": "wordplay_relationship",
+   "officiality": "unofficial",
+   "officiality_label": "비공식",
+   "meaning_ko": "중국어로 520(우·얼·링)의 발음이 '워 아이 니(我愛你, 사랑해)'와 비슷하다는 말장난에서 생긴 날로, 대만에서는 이날 혼인신고하는 커플이 몰린다. 대만 공영방송은 2020년 5월 20일 하루에만 전국 6,007쌍이 혼인신고했고, '2020520'이 '애니애니워애니(사랑해 사랑해 나는 너를 사랑해)'로도 읽혀 최근 5년 중 가장 많았다고 보도했다. 호적사무소들은 포토존과 선물을 마련한다.",
+   "quirk": "숫자 발음 말장난만으로 혼인신고일이 몰리는 날. 연도 숫자까지 말장난에 끼워 넣는다",
+   "founder_origin": "제정자 없음(인터넷·대중문화 말장난). 기원 미상",
+   "founder_check_level": "origin_unknown_pun",
+   "claims": [
+    {
+     "claim_id": "pun_date",
+     "claim_ko": "5월 20일이 '사랑해'와 발음이 비슷해 혼인신고 인기일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "ltn",
+       "quote": "5月20日諧音「我愛你」，成為不少新人心中最具紀念意義的浪漫日子",
+       "quote_ko": "5월 20일은 발음이 '사랑해'와 같아 많은 신혼부부에게 가장 기념할 만한 낭만적인 날이 됐다"
+      }
+     ]
+    },
+    {
+     "claim_id": "2020_record",
+     "claim_ko": "2020-05-20 전국 6,007쌍 혼인신고(내정부 통계)",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "pts-news",
+       "quote": "內政部統計，全台當天共有6007對新人辦理結婚",
+       "quote_ko": "내정부 통계에 따르면 그날 전국에서 6,007쌍이 혼인 신고를 했다"
+      },
+      {
+       "evidence_id": "pts-news",
+       "quote": "2020520的諧音，剛好是「愛你愛你我愛你」",
+       "quote_ko": "2020520의 발음은 마침 '사랑해 사랑해 나는 너를 사랑해'와 같다"
+      }
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "evidence_id": "pts-news",
+     "url": "https://news.pts.org.tw/article/479653",
+     "final_url": "https://news.pts.org.tw/article/479653",
+     "source_org": "公視新聞網 PNN (대만 공영방송, 2020-05-21)",
+     "accessed_at": "2026-10-12T01:05:02+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "6c466894861c47a3e81ed43e1ec9528314895ae8b3895ce53cc56cbb146f9102",
+     "local_raw_path": "evidence/tw-520/pts-news.html",
+     "local_text_path": "evidence/tw-520/pts-news.txt"
+    },
+    {
+     "evidence_id": "ltn",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5443802",
+     "final_url": "https://news.ltn.com.tw/news/life/breakingnews/5443802",
+     "source_org": "自由時報 (리버티 타임스)",
+     "accessed_at": "2026-10-12T01:05:02+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "f9472df897578d62f22cd85f82afb990dbe96ff8337c8cdd1b8c9ecadf6d19e8",
+     "local_raw_path": "evidence/tw-520/ltn.html",
+     "local_text_path": "evidence/tw-520/ltn.txt"
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://vocus.cc/article/646bcba4fd89780001afef95",
+     "note": "말장난 창안자 불명 — 블로그, 원문 미수집"
+    }
+   ],
+   "source_urls": [
+    "https://news.pts.org.tw/article/479653",
+    "https://news.ltn.com.tw/news/life/breakingnews/5443802"
+   ],
+   "original_read": true,
+   "read_source_orgs": [
+    "公視新聞網 PNN (대만 공영방송, 2020-05-21)",
+    "自由時報 (리버티 타임스)"
+   ],
+   "cited_source_orgs": [
+    "公視新聞網 PNN (대만 공영방송, 2020-05-21)",
+    "自由時報 (리버티 타임스)"
+   ],
+   "single_source_unverified": false,
+   "duplicate_check": {
+    "verdict": "new",
+    "duplicate_of": null,
+    "prior_candidate_of": null,
+    "related_existing_ids": [],
+    "related_prior_candidates": []
+   },
+   "status": "new_candidate",
+   "status_label": "신규 후보(원문 확인)",
+   "confidence": "high",
+   "uncertainty": "중화권 공통 말장난이라 대만 고유는 아니다(중국 본토에서도 기념). 기원 불명. 기존 서비스 05-14 로즈데이 등 연인 기념일과는 별개.",
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false
+   }
+  },
+  {
+   "candidate_key": "tw-teachers-day-928",
+   "country": "TW",
+   "country_ko": "대만",
+   "search_language": "zh-Hant",
+   "name_original": "教師節（孔子誕辰紀念日）",
+   "name_ko": "대만 교사절 — 공자 탄신 기념일",
+   "aliases": [
+    "至聖先師孔子誕辰紀念日",
+    "928"
+   ],
+   "date_type": "annual-fixed",
+   "date_rule": "09-28",
+   "date_note": "1952년 공자 탄신(음력 8/27)을 전문가 고증으로 양력 9월 28일로 환산해 고정",
+   "rule_support": "supported",
+   "scope": "대만 국정 기념일(2025년 법 개정으로 공휴일 복귀 보도)",
+   "kind": "occupation_history",
+   "officiality": "official_national",
+   "officiality_label": "공식(국정 기념일)",
+   "meaning_ko": "9월 28일은 대만의 교사절이자 공자 탄신 기념일이다. 원래 1931년 교사 처우 개선 운동이 6월 6일을 교사절로 외쳤고, 1939년 정부가 공자 탄신일(음력 8월 27일)로 바꾸면서 음력 날짜를 양력에 그대로 옮기는 실수를 했다고 전해진다. 1952년 고증을 거쳐 양력 9월 28일로 확정됐고, 2016년 공휴일에서 빠졌다가 2025년 법 개정으로 다시 공휴일이 됐다는 보도가 있다.",
+   "quirk": "음력 생일을 양력에 그대로 옮겼다가 고친 날. 공휴일에서 빠졌다가 9년 만에 돌아옴",
+   "founder_origin": "1931 교육자 운동(6/6) → 1939 정부 공자 탄신일 채택 → 1952 양력 9/28 확정",
+   "founder_check_level": "original_read_news",
+   "claims": [
+    {
+     "claim_id": "fixed_1952",
+     "claim_ko": "1952년 고증으로 공자 탄신을 양력 9월 28일로 환산",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "nownews",
+       "quote": "直到1952年（民國41年）國民政府遷台後，根據專家嚴謹考據曆法與推算，決定將孔子誕辰日轉換為國曆日期並設為教師節，也就是現在熟知的9月28日設為教師節，並沿用至今。",
+       "quote_ko": "1952년 국민정부가 대만으로 옮긴 뒤 전문가들이 역법을 엄밀히 고증·추산해 공자 탄신일을 양력으로 환산해 교사절로 정했고, 그것이 지금 알려진 9월 28일이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "first_june6",
+     "claim_ko": "처음엔 1931년 6월 6일(쌍육절), 1939년 음력 8/27 을 양력으로 오인",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "nownews",
+       "quote": "但當時將農曆8月27日直接當作國曆8月27日訂定",
+       "quote_ko": "그러나 당시 음력 8월 27일을 그대로 양력 8월 27일로 정했다"
+      }
+     ]
+    },
+    {
+     "claim_id": "holiday_status",
+     "claim_ko": "2016년 공휴일 삭제 → 2025년 입법원 3독 통과로 복귀",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "nownews",
+       "quote": "更在2016年被刪除國定假日，直到2025年立法院三讀通過修法後才正式恢復。",
+       "quote_ko": "2016년에는 국정 공휴일에서 삭제됐다가 2025년 입법원이 개정안을 3독 통과시킨 뒤에야 정식으로 복귀했다."
+      }
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "evidence_id": "cw",
+     "url": "https://www.cw.com.tw/article/5078422",
+     "final_url": "https://www.cw.com.tw/article/5078422",
+     "source_org": "天下雜誌 (2016)",
+     "accessed_at": "2026-10-12T01:05:03+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "306376c8c79f8932bb0eea4defc4760d65f06561b0298de82f78b499289cf451",
+     "local_raw_path": "evidence/tw-teachers-day-928/cw.html",
+     "local_text_path": "evidence/tw-teachers-day-928/cw.txt"
+    },
+    {
+     "evidence_id": "nownews",
+     "url": "https://www.nownews.com/news/6878573",
+     "final_url": "https://www.nownews.com/news/6878573",
+     "source_org": "NOWnews 今日新聞",
+     "accessed_at": "2026-10-12T01:05:03+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "64e9e45382bfa2f9588c3ed965748ca9758b496f605cd343ef5ee9ed5263da61",
+     "local_raw_path": "evidence/tw-teachers-day-928/nownews.html",
+     "local_text_path": "evidence/tw-teachers-day-928/nownews.txt"
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://www.benq.com/zh-tw/reading/mindduo/family-activities/teachers-day.html",
+     "note": "고증 연도 다르게 서술 — 원문 미수집"
+    }
+   ],
+   "source_urls": [
+    "https://www.cw.com.tw/article/5078422",
+    "https://www.nownews.com/news/6878573"
+   ],
+   "original_read": true,
+   "read_source_orgs": [
+    "NOWnews 今日新聞",
+    "天下雜誌 (2016)"
+   ],
+   "cited_source_orgs": [
+    "NOWnews 今日新聞"
+   ],
+   "single_source_unverified": true,
+   "duplicate_check": {
+    "verdict": "new",
+    "duplicate_of": null,
+    "prior_candidate_of": null,
+    "related_existing_ids": [
+     "anv-fixed-05-15-teachers-day-kr"
+    ],
+    "related_prior_candidates": []
+   },
+   "status": "new_candidate_single_source",
+   "status_label": "신규 후보(단일 출처 미검증)",
+   "confidence": "medium",
+   "uncertainty": "2025년 공휴일 복귀는 언론 1곳(NOWnews) 원문만 — 대만 법령 원문 미확인. 천하잡지(2016) 기사는 당시 '교원은 기념만 하고 쉬지 않는다'는 상황 설명이라 현재 상태와 다를 수 있다.",
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false
+   }
+  },
+  {
+   "candidate_key": "tw-weiya",
+   "country": "TW",
+   "country_ko": "대만",
+   "search_language": "zh-Hant",
+   "name_original": "尾牙",
+   "name_ko": "웨이야 — 한 해 마지막 토지신 제사·회사 송년회",
+   "aliases": [
+    "做牙",
+    "尾牙宴"
+   ],
+   "date_type": null,
+   "date_rule": null,
+   "date_note": "음력 12월 16일(臘月十六). observances.json 에 해당 키가 없어 규칙 미지원 → 보류. 2026년은 양력 2월 3일이지만 이 값을 고정일로 쓰지 않음",
+   "rule_support": "unsupported_lunar_no_table_key",
+   "scope": "대만(민남 상업 문화) 상점·회사",
+   "kind": "occupation_folk_custom",
+   "officiality": "folk_business_custom",
+   "officiality_label": "민속·상업 풍습",
+   "meaning_ko": "음력 매달 2일·16일에 상인들이 토지신(토지공)에게 올리는 제사 '쭤야(做牙)' 중 한 해 마지막 것이 음력 12월 16일 '웨이야(끝 제사)'이며, 이날 회사가 직원들에게 한 해를 마감하는 회식을 연다. 토지신에게 재물운을 비는 제사와 직장 송년회가 한 날에 겹친 대만 고유의 노동·상업 풍습이다.",
+   "quirk": "제사 이름이 그대로 회사 송년회 이름이 됐다",
+   "founder_origin": "민남·대만 상업 신앙(작야 전통). 군기 제사 '아제(牙祭)' 기원설은 검색결과만",
+   "founder_check_level": "folk_custom_news",
+   "claims": [
+    {
+     "claim_id": "date_2026",
+     "claim_ko": "음력 12월 16일이 한 해 마지막 '쭤야', 즉 웨이야(2026년은 2월 3일)",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "storm",
+       "quote": "2026 年2月3日（週二）適逢農曆臘月十六，是乙巳蛇年最後一個「做牙」的日子，也就是俗稱的「尾牙」。",
+       "quote_ko": "2026년 2월 3일(화)은 음력 섣달 16일로, 을사년 마지막 '쭤야' 날, 즉 흔히 말하는 '웨이야'다."
+      }
+     ]
+    },
+    {
+     "claim_id": "company_banquet",
+     "claim_ko": "회사가 직원에게 잔치를 열고 토지신에게 감사하는 날",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "storm",
+       "quote": "這一天不僅是公司行號宴請員工的日子，更是向「地方財神」土地公表達感謝",
+       "quote_ko": "이날은 회사가 직원에게 잔치를 베푸는 날일 뿐 아니라 '동네 재물신' 토지공에게 감사를 표하는 날이다"
+      }
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "evidence_id": "storm",
+     "url": "https://www.storm.mg/lifestyle/11100061",
+     "final_url": "https://www.storm.mg/lifestyle/11100061",
+     "source_org": "風傳媒 (2026)",
+     "accessed_at": "2026-10-12T01:05:09+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "ad8577d8f0b41b29ad11393ec812844dbebe671a2ba3a43738604844777d3082",
+     "local_raw_path": "evidence/tw-weiya/storm.html",
+     "local_text_path": "evidence/tw-weiya/storm.txt"
+    },
+    {
+     "evidence_id": "nownews",
+     "url": "https://www.nownews.com/news/6782124",
+     "final_url": "https://www.nownews.com/news/6782124",
+     "source_org": "NOWnews 今日新聞",
+     "accessed_at": "2026-10-12T01:05:10+00:00",
+     "http_status": 200,
+     "access_status": "body_read_http_200",
+     "error": null,
+     "read_status": "original_read",
+     "override_note": null,
+     "sha256": "f9a020050134209ce8c66caf9286cd839662db7f830ad80c4a90d095f25bda9c",
+     "local_raw_path": "evidence/tw-weiya/nownews.html",
+     "local_text_path": "evidence/tw-weiya/nownews.txt"
+    }
+   ],
+   "search_result_only": [
+    {
+     "url": "https://www.edh.tw/article/29367",
+     "note": "닭머리 방향(해고 암시) 금기 목차만 — 원문 미수집, 미확인"
+    }
+   ],
+   "source_urls": [
+    "https://www.storm.mg/lifestyle/11100061",
+    "https://www.nownews.com/news/6782124"
+   ],
+   "original_read": true,
+   "read_source_orgs": [
+    "NOWnews 今日新聞",
+    "風傳媒 (2026)"
+   ],
+   "cited_source_orgs": [
+    "風傳媒 (2026)"
+   ],
+   "single_source_unverified": true,
+   "duplicate_check": {
+    "verdict": "new",
+    "duplicate_of": null,
+    "prior_candidate_of": null,
+    "related_existing_ids": [],
+    "related_prior_candidates": []
+   },
+   "status": "hold_rule_unsupported",
+   "status_label": "보류 — 날짜 규칙 미지원(부활절·음력 표 없음)",
+   "confidence": "medium",
+   "uncertainty": "음력 고정 → 서비스 표에 키가 없어 등록하려면 observances 표 추가가 필요(이번 배치에서 금지). 닭머리를 해고할 직원 쪽으로 둔다는 금기는 미확인이라 쓰지 말 것.",
+   "review": {
+    "decision": "pending",
+    "reviewer": null
+   },
+   "application": {
+    "applied": false
+   }
+  }
+ ]
+}

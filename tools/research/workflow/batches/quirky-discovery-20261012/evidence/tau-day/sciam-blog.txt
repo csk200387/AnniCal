@@ -1,0 +1,118 @@
+The Tao of Tau | Scientific American
+Skip to main content
+Scientific American
+October Issue
+Newsletters
+Podcasts
+Games
+Explore
+Biology
+Chemistry
+Environment
+Health
+Math
+Mind & Brain
+Technology
+Social Sciences
+Space & Physics
+Latest News
+Issue Archive
+Special Reports
+Videos
+Books
+SubscribeSign In
+October Issue
+Newsletters
+Podcasts
+Games
+Explore
+Biology
+Chemistry
+Environment
+Health
+Math
+Mind & Brain
+Technology
+Social Sciences
+Space & Physics
+Latest News
+Issue Archive
+Special Reports
+Videos
+Books
+June 27, 2017 Add Us On GoogleAdd SciAm
+The Tao of Tau
+There are plenty of arguments for why the lesser known Greek letter should be as popular as its more famous cousin
+By Elizabeth Landau
+Love math? Sign up for our weekly newsletter Proof Positive
+Enter your email
+I agree my information will be processed in accordance with the Scientific American Inc. Privacy Policy. We leverage third party services to both verify and deliver email. By providing your email address, you also consent to having the email address shared with third parties for those purposes.Sign Up
+This article was published in Scientific American’s former blog network and reflects the views of the author, not necessarily those of Scientific American
+“It is lamentable that there’s no famous dessert named ‘tau,’” Michael Hartl told me recently at a sunny, stylish café in Venice, California. He reluctantly admitted that pi, the constant approximately equal to 3.14, has this one advantage over tau, a number he introduced to replace it.
+Pastry puns aside, Hartl has achieved minor internet fame for arguing that tau is superior to its vastly better known cousin. In his popular 2010 “Tau Manifesto,” inspired by Bob Palais’ 2001 essay “Pi Is Wrong,” Hartl posits that pi, the ratio of a circle’s circumference to its diameter, creates unnecessary complications in many formulas. A more appropriate number to work with when it comes to circles would be 2pi, or about 6.28. He named that number tau, and declared June 28 (6/28) to be Tau Day.
+“The circle constant ought to be defined in terms of radius,” Hartl told me over the chatter of other café patrons. “By choosing to define the circle constant in terms of the diameter, you introduce this factor of 2.”
+On supporting science journalism
+If you're enjoying this article, consider supporting our award-winning journalism by subscribing. By purchasing a subscription you are helping to ensure the future of impactful stories about the discoveries and ideas shaping our world today.
+Full disclosure: pi is my favorite number and the one I am most known for writing about (i.e. while on staff at CNN in 2009, 2010, 2011, 2012, 2013 and 2014). To obliterate the use of pi, first introduced as a symbol with its present meaning by William Jones in 1706, would upend more than 300 years of mathematical notation. But I respect how deeply Hartl has thought about tau and the benefits it carries. For instance: a quarter circle is “tau/4” radians instead of the current “pi/2” radians, which could be seen as a more simple and elegant way to define sections of circles. (The lengthy manifesto has more in-depth pro-tau discussions, and there is also a “Pi Manifesto” rebuttal.)
+Hartl chose tau to represent 2pi because it nicely ties in with the Greek word “tornos,” meaning “turn,” and “looks like a pi with one leg instead of two.” But he is not the first to turn to the letter tau to represent an influential idea. Since I first read the manifesto, I’ve noticed that this Greek letter has popped up in several unrelated but groundbreaking scientific discoveries, as well as formulas that engineers commonly use today. In fact, the colorful threads of tau form an intricate fabric of cutting edge-scientific inquiry.
+Tau Protein
+In 1975, Marc Kirschner was interested in microtubules, tiny tubes that help give structure to cells. While exploring these small formations in pig brain cells, Kirschner and his graduate students at Princeton University isolated a protein no one had described before. His student Murray Weingarten led the discovery paper, but Kirschner chose the name for it: Tau.
+The researchers realized that the protein acts like a glue that holds together the microtubules, whose building blocks are another protein called tubulin. But in 1975, they had no idea of the implications for neurology. Other scientists later discovered that polymers made of tau form neurofibrillary tangles, structures found in the brain cells of patients with Alzheimer’s disease, prefrontal dementias and other neurodegenerative conditions. The collection of diseases associated with these tangles is now called “tauopathies.”
+Interest has soared in exploring tau’s role in these diseases. It is now one of the two most important biomarkers for identifying Alzheimer’s pathology, and many researchers hope it will be a clue to treatment, too.
+Kirschner, now at Harvard, has been asked many times about his reasons for the name.
+“I was looking for something that evoked tubulin—so, the Greek letter for T—and I wanted a name that didn’t presuppose that I understood at that time exactly how it worked,” he said. While we know a lot more about tau now than we did 42 years, we still don’t know everything—so, “it’s OK that that the name seems to evoke some amount of mystery,” he said.
+Tau Lepton
+The same year that Kirschner’s group published their tau protein discovery, 1975, researchers at the Stanford Linear Accelerator Center (now called the SLAC National Accelerator Laboratory), in a group led by the late physicist Martin Perl, were on the road to a groundbreaking discovery of their own. Coincidentally, it would be called the tau lepton.
+“Right now the tau protein is probably more famous than the tau lepton, although I’m sure for many years it was the other way around,” Kirschner said. It was, for the record, the tau lepton that netted Perl the 1995 Nobel Prize in physics.
+A lepton is a type of elementary particle that does not feel the strong force, the interactions that hold protons and neutrons together in the nucleus of the atom. Electrons, negatively charged particles orbiting the nucleus, are perhaps the most famous leptons. By the 1970s, scientists had additionally identified charged leptons called muons, and neutral leptons called electron neutrinos and muon neutrinos.
+Then, at SLAC, indications of a new lepton emerged. It was more than 3,500 times more massive than an electron, and decayed in about 10-13 seconds. At first, the team called it the U particle, where U stood for “unknown,” Gary J. Feldman, now a physics professor at Harvard, wrote in 1993. But once they figured out it was a heavy lepton, Feldman reminded Perl that it should have a real name.
+“Everyone felt that a lower case Greek letter was called for, in analogy with the µ,” Feldman wrote, referring to the muon particle. “The problem was that most good Greek letters were already in use.”
+The group eventually narrowed down their search to lambda and tau. Lambda had never been used as the name for a specific particle. But tau could stand for “triton,” the Greek word for “third,” reflecting this particle’s status as the third charged lepton. Counting against it: Tau had previously been used as part of the name for a particular decay of a particle called a kaon. When the scientists asked their secretary which would be more aesthetic, she chose tau. “I remember this as the final piece of evidence that caused us to adopt tau as the name,” Feldman wrote. Perl then introduced the name in 1977 at a physics conference in the French Alps, and it has stuck ever since.
+The story wasn’t over, though, because physics is full of symmetry. The Standard Model of Physics predicted that each charged lepton had a neutral counterpart: A tau lepton couldn’t exist if there weren’t also a tau neutrino. In 2000, a group at Fermilab led by Byron Lundberg used the Tevatron accelerator to find the elusive particle. Slamming protons into a block of tungsten yielded 100 trillion neutrinos, just nine of which were tau neutrinos (and while there’s no pastry called tau, the tau neutrino was discovered at an experiment called Direct Observation of Nu Tau—a.k.a. DONUT).
+Lundberg, for his part, hasn’t thought much about the name tau—it would be all the same to him if tau had been chosen from a dartboard with Greek letters, he said. “In our business, there are so many designations for particles…you just call it what it’s called.”
+Other Uses
+The letter tau has many other uses in physics. Equations that need to differentiate time as measured by an observer, “coordinate time,” use tau to represent a movement through time as measured with respect to a moving object, called “proper time.” Proper time is independent of a stationary onlooker’s clock. Einstein used the letter tau in his 1905 special relativity paper, describing how two synchronized clocks should show different times if one moves at some appreciable fraction of the speed of light and then returns. In this case, tau would be the time by which the traveling clock has slowed.
+Tau is also used in some contexts to represent the golden ratio, defined as half of 1 + the square root of 5. This number, about 1.618, has shown up all over art and nature, including in defining the shapes of nautilus shells and plants with spiral forms in their leaves or petals. According to Wolfram MathWorld, the tau usage comes from the Greek word “tome,” meaning “to cut.” But the more common Greek letter for the same number is phi, as an homage to the Greek sculptor Phidias who used the golden ratio in many works.
+Perhaps the greatest conflict with introducing a number called tau is that, in engineering, tau also stands for “torque,” a rotational force. Torque involves circular motion, which must involve a circle constant, so those formulas would get hairier if each 2pi got replaced with tau, too. But Hartl, who holds a Ph.D. in theoretical physics, effortlessly listed several examples where the same letter stands for two different things in a single equation.
+“I think people underestimate how good physicists, engineers and mathematicians are at dealing with that kind of notational ambiguity,” Hartl said.
+Tau as 2pi
+Tau as the ratio of circumference to radius hasn’t been in the nerd zeitgeist for nearly as long as these other, more official usages of the Greek letter (and there are others, like Tau Ceti and all of the other stars that have Tau as part of their names). So far the American Mathematical Society has not changed its pi-ous ways, and pi is still largely the constant that professionals and students alike use for undertaking calculations involving circles. Hartl is serious enough to give tau talks and update his website with an annual “State of the Tau.” But he has no intention of making tau advocacy a full-time job, and doesn’t want it to be his only legacy (he is the founder of Learn Enough to Be Dangerous and author of the Ruby on Rails Tutorial).
+Still, the tau movement has sparked tangible interest. MIT now announces admissions decisions on Pi Day (3/14) at Tau Time (6:28), and a beer has emerged called “Key Lime Tau.” The popular web comics XKCD and Saturday Morning Breakfast Cereal have both featured tau. If you type “tau/2” into Google, you’ll get a calculator with the correct response: “3.14159265359.”
+Unlike the taus of science, Hartl ultimately considers the number tau a social hack. It taps into the natural human desire to one-up other people and rise in a dominance hierarchy, he said. A “manifesto” about math, spanning more than 8,000 words and attacking a beloved number associated with tasty treats on March 14, is ample ammunition for geeks to outgeek each other.
+“I’m sure it would not have been as well received if I hadn’t baked those ingredients into the cake...”
+“...or the pie!” we said together.
+Rights & Permissions
+Elizabeth Landau is a science writer and communications specialist living in Washington, D.C. She holds a Master of Arts degree in journalism from Columbia University and an undergraduate degree in anthropology from Princeton University, where she picked up a lot of funny nicknames.More by Elizabeth Landau
+Subscribe to Support Independent Journalism
+Great science journalism requires human expertise, time, effort and creativity. And it costs money. That’s why I and the journalists here at Scientific American hope you’ll join our community.
+When you subscribe, you are supporting staff and freelance journalists who are passionate about telling science stories that are true, important and compelling. Our editors and reporters are often experts in their fields, which means they understand the nuances of big discoveries and can untangle the breakthroughs from the hype. With a subscription, you are also supporting rigorous fact-checking to ensure the words we publish are precise and accurate. And you’re supporting original illustrations, graphics and photos that bring you closer to an advanced laboratory, an ice sheet in Antarctica or a space mission in orbit. You’re helping us craft other types of high-quality journalism as well: Our newsletters are carefully written, edited and curated by staffers you have or will come to know and love. Our Science Quickly podcast is based on original reporting, collaboration with editors and scientists and exacting production.
+Subscriptions keep this engine running so we can continue to deliver thoughtful, rigorous and independent science journalism to you. In an era of viral misinformation, this work is crucial. If you value what we do, I hope you’ll consider joining us as a subscriber
+Thank you,
+Jeanna Bryner, Editor in Chief, Scientific AmericanSubscribe
+Subscribe to Scientific American to learn and share the most exciting discoveries, innovations and ideas shaping our world today.Subscription PlansGive a Gift Subscription
+Explore SciAm
+Latest Issue
+News
+Opinion
+Newsletters
+Podcasts
+Games
+Travel
+Company
+About
+Press Room
+FAQs
+Contact Us
+Standards & Ethics
+International Editions
+Advertise
+More
+Accessibility
+Terms of Use
+Privacy Policy
+US State Privacy Rights
+Use of cookies/Do not sell my data
+Return & Refund Policy
+Scientific American is affiliated with LabX Media Group, which owns or has commercial relations with other B2B and B2C brands (many of them can be found at www.labxmediagroup.com). Scientific American maintains a strict policy of editorial independence in reporting developments in science to our readers.
+© 2026 SCIENTIFIC AMERICAN INC.
+ALL RIGHTS RESERVED.

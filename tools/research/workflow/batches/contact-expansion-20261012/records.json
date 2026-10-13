@@ -1,0 +1,2629 @@
+{
+  "_note": "신규 후보 조사 기록. 서비스 데이터 아님. evidenced 는 근거 확보 상태일 뿐 검수·승인·반영 아님.",
+  "batch_id": "contact-expansion-20261012",
+  "researched_at": "2026-10-12",
+  "records": [
+    {
+      "candidate_key": "fuji-day-jp",
+      "track": "new_candidate",
+      "status": "evidenced",
+      "owner": "Claude Code (Opus 5.5)",
+      "existing_id": null,
+      "proposed_id": "anv-fixed-02-23-mount-fuji-day-jp",
+      "name_ko": "후지산의 날 (富士山の日)",
+      "name_original": "富士山の日",
+      "aliases": [],
+      "scope_country_or_region": "일본 시즈오카현 (현 조례)",
+      "officiality": "지방자치단체 조례로 정한 기념일. 공휴일 여부는 조사하지 않음.",
+      "date_type": "annual-fixed",
+      "date_rule": "02-23",
+      "occurrences_checked": [],
+      "category_reason": "기존 \"산의 날\"(10-18)·\"세계 산의 날\"이 animal(동물 & 자연)에 있어 같은 축으로 둠. culture 도 가능 — 검수자 판단.",
+      "duplicate_of": null,
+      "distinct_from_similar_reason": "",
+      "claims": [
+        {
+          "claim_id": "existence_date",
+          "type": "existence+date",
+          "claim": "시즈오카현 조례가 2월 23일을 후지산의 날로 정한다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "fuji-day-jp/shizuoka-shushi",
+              "quote": "第2条富士山の日は、2月23日とする。"
+            }
+          ]
+        },
+        {
+          "claim_id": "establishing_body",
+          "type": "establishing_body",
+          "claim": "시즈오카현이 조례를 제정했다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "fuji-day-jp/shizuoka-index",
+              "quote": "2月23日を「富士山の日」とする条例を制定しました。"
+            }
+          ]
+        },
+        {
+          "claim_id": "establishment_year",
+          "type": "establishment_year",
+          "claim": "조례는 2009년 12월 25일(헤이세이 21년) 공포·시행됐다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "fuji-day-jp/shizuoka-shushi",
+              "quote": "条例（平成21年12月25日静岡県条例第72号）"
+            },
+            {
+              "evidence_id": "fuji-day-jp/shizuoka-shushi",
+              "quote": "この条例は、公布の日から施行する。"
+            }
+          ]
+        },
+        {
+          "claim_id": "purpose",
+          "type": "purpose",
+          "claim": "현민이 후지산에 대한 이해와 관심을 깊게 하고 후세에 물려주기를 기약하는 날이다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "fuji-day-jp/shizuoka-shushi",
+              "quote": "第1条県民が、世界に誇るべき国民の財産であり、豊かな恵みをもたらしている富士山について理解と関心を深め"
+            },
+            {
+              "evidence_id": "fuji-day-jp/shizuoka-shushi",
+              "quote": "富士山を後世に引き継ぐことを期する日として、富士山の日を設ける。"
+            }
+          ]
+        },
+        {
+          "claim_id": "charter",
+          "type": "detail",
+          "claim": "후지산 헌장은 1998년 11월 18일 시즈오카현과 야마나시현이 공동 제정했다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "fuji-day-jp/shizuoka-shushi",
+              "quote": "富士山憲章（平成10年11月18日に静岡県と山梨県とが共同して制定したものをいう。）"
+            }
+          ]
+        },
+        {
+          "claim_id": "campaign",
+          "type": "detail",
+          "claim": "현은 이를 계기로 환경보전·세계문화유산 등록 노력에 대한 이해를 높여 현민 운동을 촉진하겠다고 했다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "fuji-day-jp/shizuoka-shushi",
+              "quote": "今後は、「富士山の日」の制定を契機として、富士山環境保全活動や富士山世界文化遺産登録等の取組に対する県民の理解を深めることなどにより、富士山を後世に引き継ぐための県民運動の促進に努めます。"
+            }
+          ]
+        },
+        {
+          "claim_id": "date_reason",
+          "type": "date_reason",
+          "claim": "2·2·3(ふ·じ·さん) 말맞춤이 날짜 유래라는 설.",
+          "verdict": "unverified",
+          "evidence": []
+        },
+        {
+          "claim_id": "yamanashi",
+          "type": "scope",
+          "claim": "야마나시현도 같은 날을 조례로 정했다는 설.",
+          "verdict": "blocked",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "fuji-day-jp/shizuoka-shushi",
+          "url": "https://www.pref.shizuoka.jp/kankosports/kanko/mtfuji/1002778/1019312.html",
+          "final_url": "https://www.pref.shizuoka.jp/kankosports/kanko/mtfuji/1002778/1019312.html",
+          "publisher": "静岡県 (시즈오카현청)",
+          "title": "「富士山の日」制定趣旨、条例",
+          "source_type": "government_ordinance",
+          "accessed_at": "2026-10-11T22:46:42+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/fuji-day-jp/shizuoka-shushi.txt",
+          "local_raw_path": "evidence/fuji-day-jp/shizuoka-shushi.html",
+          "sha256": "511e79cff5e8579a59d2cecc5d5b42ddfb6213d07702f7b5373bf9066702bf24",
+          "limitations": "시즈오카현 조례만 확인. 야마나시현 조례는 원문 미확보."
+        },
+        {
+          "evidence_id": "fuji-day-jp/shizuoka-index",
+          "url": "https://www.pref.shizuoka.jp/kankosports/kanko/mtfuji/1002778/index.html",
+          "final_url": "https://www.pref.shizuoka.jp/kankosports/kanko/mtfuji/1002778/index.html",
+          "publisher": "静岡県 (시즈오카현청)",
+          "title": "富士山の日",
+          "source_type": "government",
+          "accessed_at": "2026-10-11T22:46:42+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/fuji-day-jp/shizuoka-index.txt",
+          "local_raw_path": "evidence/fuji-day-jp/shizuoka-index.html",
+          "sha256": "7bd2aefc53bb846edf27ac701a84de92be645da4dd7b56278329894cc777e193",
+          "limitations": "행사 안내 목록 페이지. 핵심 문장 1개만 사용."
+        }
+      ],
+      "failed_access_attempts": [
+        {
+          "url": "https://www.pref.yamanashi.jp/documents/64486/fujisannohi2015.pdf",
+          "label": "yamanashi-2015-pdf",
+          "accessed_at": "2026-10-11T22:57:53+00:00",
+          "access_status": "blocked",
+          "error": "HTTPError: 404 HTTP Error 404: Not Found"
+        }
+      ],
+      "unverified_fields": [
+        "날짜 선택 이유(말맞춤 설) — 현 공식 원문에 없음",
+        "야마나시현 조례 — PDF 404",
+        "공휴일 여부"
+      ],
+      "draft": {
+        "origin": "2월 23일은 일본 시즈오카현이 조례로 정한 '후지산의 날'이다. 시즈오카현은 2009년 12월 25일 '시즈오카현 후지산의 날 조례'를 공포하고 같은 날부터 시행했다. 조례 제1조는 현민이 후지산을 더 깊이 이해하고 관심을 가지며, 후지산을 후세에 물려주기를 기약하는 날로 삼는다고 목적을 밝힌다.",
+        "anecdote": "조례가 기준으로 삼는 '후지산 헌장'은 1998년 11월 18일 시즈오카현과 이웃 야마나시현이 함께 만든 것이다. 시즈오카현은 이 날을 계기로 후지산 환경 보전 활동과 세계문화유산 등록 노력에 대한 현민의 이해를 높여, 후지산을 후세에 물려주기 위한 현민 운동을 넓히겠다고 밝혔다.",
+        "category": "animal",
+        "tags": [
+          "동물 & 자연"
+        ],
+        "sourceUrl": "https://www.pref.shizuoka.jp/kankosports/kanko/mtfuji/1002778/1019312.html",
+        "memes": []
+      },
+      "review": {
+        "reviewer": "",
+        "reviewed_at": "",
+        "decision": "pending",
+        "checks": {
+          "existence": false,
+          "date_rule": false,
+          "scope": false,
+          "claims_vs_original": false,
+          "duplicates": false,
+          "schema": false
+        },
+        "notes": ""
+      },
+      "blocked_reason": "",
+      "resume_condition": "",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null
+      },
+      "application": {
+        "commit": null,
+        "verification_result": null,
+        "published_url": null
+      }
+    },
+    {
+      "candidate_key": "rotary-peace-day",
+      "track": "new_candidate",
+      "status": "evidenced",
+      "owner": "Claude Code (Opus 5.5)",
+      "existing_id": null,
+      "proposed_id": "anv-fixed-02-23-rotary-world-understanding-peace-day",
+      "name_ko": "세계 이해와 평화의 날 (World Understanding and Peace Day)",
+      "name_original": "World Understanding and Peace Day",
+      "aliases": [
+        "Rotary World Understanding and Peace Day"
+      ],
+      "scope_country_or_region": "국제 — 국제로터리(Rotary International) 조직 내 기념일",
+      "officiality": "민간 국제 봉사단체 지정. UN·국가 지정 아님.",
+      "date_type": "annual-fixed",
+      "date_rule": "02-23",
+      "occurrences_checked": [],
+      "category_reason": "국제 캠페인 성격(평화·상호이해). 기존 평화 관련 항목은 campaign/history 혼재.",
+      "duplicate_of": null,
+      "distinct_from_similar_reason": "UN \"세계 평화의 날\"(09-21)·가톨릭 \"세계 평화의 날\"(01-01)과 제정 주체(로터리)·날짜·유래(1905년 첫 모임)가 다름.",
+      "claims": [
+        {
+          "claim_id": "existence_date",
+          "type": "existence+date",
+          "claim": "매년 2월 23일 기념한다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "rotary-peace-day/rotary5340",
+              "quote": "World Understanding and Peace Day is observed every year on February 23, marking a pivotal moment in history—the founding of Rotary International."
+            }
+          ]
+        },
+        {
+          "claim_id": "date_reason",
+          "type": "date_reason",
+          "claim": "1905년 2월 23일 시카고에서 폴 해리스가 연 첫 로터리 모임을 기린다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "rotary-peace-day/rotary5340",
+              "quote": "This day commemorates the very first Rotary meeting, initiated by Paul Harris in Chicago on February 23, 1905."
+            },
+            {
+              "evidence_id": "rotary-peace-day/minnesota-proclamation-1984",
+              "quote": "Rotary International traces its beginnings to the organization of the first Rotary Club\non February 23. 1905: and"
+            }
+          ]
+        },
+        {
+          "claim_id": "establishing_body",
+          "type": "establishing_body",
+          "claim": "국제로터리가 이 날을 선언했다(1984년 기록).",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "rotary-peace-day/minnesota-proclamation-1984",
+              "quote": "To commemorate the birth of Rotary and its intemational activities, Rotary\nIntemational has declared February 23, 1984, to he World Understanding and Peace Day;"
+            }
+          ]
+        },
+        {
+          "claim_id": "establishment_year",
+          "type": "establishment_year",
+          "claim": "최초 제정 연도.",
+          "verdict": "unverified",
+          "evidence": []
+        },
+        {
+          "claim_id": "month",
+          "type": "detail",
+          "claim": "로터리 달력에서 2월은 세계 이해의 달이다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "rotary-peace-day/rotary7080",
+              "quote": "The month of February is very special in the Rotary calendar since it is designated World Understanding Month. The month also includes the anniversary of the first meeting of Rotary held on February 23, 1905, now designated World Understanding and Peace Day…"
+            }
+          ]
+        },
+        {
+          "claim_id": "harris",
+          "type": "detail",
+          "claim": "변호사 해리스는 정치·종교 분열을 넘는 친목·봉사 모임을 구상했고 미국 밖으로 확장하며 국제로터리라는 이름을 썼다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "rotary-peace-day/rotary5340",
+              "quote": "Harris, an attorney, envisioned a professional group that would rise above political and religious divisions, focusing instead on fellowship and community service."
+            },
+            {
+              "evidence_id": "rotary-peace-day/rotary5340",
+              "quote": "This initial gathering laid the foundation for what would become Rotary International, a name adopted as the organization expanded beyond the United States to embrace a global mission."
+            }
+          ]
+        },
+        {
+          "claim_id": "reminder",
+          "type": "purpose",
+          "claim": "이 날은 국가·공동체 간 평화와 상호 이해의 필요를 되새기는 날로 소개된다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "rotary-peace-day/rotary5340",
+              "quote": "serves as a reminder of the ongoing need for peace and mutual understanding among all nations and communities."
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "rotary-peace-day/rotary5340",
+          "url": "https://www.rotary5340.org/Stories/rotary-s-world-understanding-and-peace-day",
+          "final_url": "https://www.rotary5340.org/Stories/rotary-s-world-understanding-and-peace-day",
+          "publisher": "Rotary International District 5340",
+          "title": "Rotary's World Understanding and Peace Day",
+          "source_type": "organization_district",
+          "accessed_at": "2026-10-11T22:54:06+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/rotary-peace-day/rotary5340.txt",
+          "local_raw_path": "evidence/rotary-peace-day/rotary5340.html",
+          "sha256": "9a0d9518bc3c74af58f663848d384cf6751bccb0a9030859ce107b381043f212",
+          "limitations": "rotary.org 본부 원문이 아니라 로터리 지구 사이트."
+        },
+        {
+          "evidence_id": "rotary-peace-day/rotary7080",
+          "url": "https://rotary7080.org/stories/february-is-peace-and-conflict-prevention-resolution-month",
+          "final_url": "https://rotary7080.org/stories/february-is-peace-and-conflict-prevention-resolution-month",
+          "publisher": "Rotary District 7080",
+          "title": "February is Peace and Conflict Prevention/Resolution Month",
+          "source_type": "organization_district",
+          "accessed_at": "2026-10-11T22:57:54+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/rotary-peace-day/rotary7080.txt",
+          "local_raw_path": "evidence/rotary-peace-day/rotary7080.html",
+          "sha256": "a8dd5b2b24809144ca66a47ade3dc775f4bc73df9608a87c70bb361749667be8",
+          "limitations": "로터리 지구 사이트. 게시 연도 표기 없음."
+        },
+        {
+          "evidence_id": "rotary-peace-day/minnesota-proclamation-1984",
+          "url": "https://www.lrl.mn.gov/archive/sos/film/pdf/35062.pdf",
+          "final_url": "https://www.lrl.mn.gov/archive/sos/film/pdf/35062.pdf",
+          "publisher": "State of Minnesota, Office of the Governor (Minnesota Legislative Reference Library 보관)",
+          "title": "Proclamation: Rotary World Understanding and Peace Day (1984)",
+          "source_type": "government_proclamation_scan",
+          "accessed_at": "2026-10-11T22:46:42+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/rotary-peace-day/minnesota-proclamation-1984.txt",
+          "local_raw_path": "evidence/rotary-peace-day/minnesota-proclamation-1984.pdf",
+          "sha256": "886a003143a993af90a9c1bdb1ea929441516ccd1726a62b22ec66ee6c7187f4",
+          "limitations": "OCR 텍스트라 철자 오류(Intemational, to he 등)가 원문 그대로 남아 있음. 1984년 한 해 선포."
+        }
+      ],
+      "failed_access_attempts": [],
+      "unverified_fields": [
+        "최초 제정 연도(1984년 이전일 수 있음)",
+        "rotary.org 본부 공식 문서(Rotary Code of Policies) 원문"
+      ],
+      "draft": {
+        "origin": "2월 23일은 국제 봉사단체 로터리가 기념하는 '세계 이해와 평화의 날'이다. 1905년 2월 23일 미국 시카고에서 변호사 폴 해리스의 주도로 열린 첫 로터리 모임을 기리며, 로터리 지구 자료는 매년 이날을 기념한다고 설명한다. 1984년 미국 미네소타 주지사 선포문에는 국제로터리가 그해 2월 23일을 이 날로 선언했다고 적혀 있다. 처음 제정된 해는 확인되지 않았다.",
+        "anecdote": "로터리 달력에서 2월은 '세계 이해의 달'로 지정돼 있고, 이 날도 그 달에 들어 있다. 해리스는 정치·종교적 분열을 넘어 친목과 지역 봉사에 힘쓰는 전문직 모임을 구상했다. 시카고의 첫 모임이 미국 밖으로 넓어지면서 단체는 '국제로터리'라는 이름을 쓰게 됐고, 이 날은 그 출발과 함께 국가 간 평화와 상호 이해의 필요를 되새기는 날로 소개된다.",
+        "category": "campaign",
+        "tags": [
+          "국제 캠페인 & 보건"
+        ],
+        "sourceUrl": "https://www.rotary5340.org/Stories/rotary-s-world-understanding-and-peace-day",
+        "memes": []
+      },
+      "review": {
+        "reviewer": "",
+        "reviewed_at": "",
+        "decision": "pending",
+        "checks": {
+          "existence": false,
+          "date_rule": false,
+          "scope": false,
+          "claims_vs_original": false,
+          "duplicates": false,
+          "schema": false
+        },
+        "notes": ""
+      },
+      "blocked_reason": "",
+      "resume_condition": "",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null
+      },
+      "application": {
+        "commit": null,
+        "verification_result": null,
+        "published_url": null
+      }
+    },
+    {
+      "candidate_key": "montenegro-statehood-day",
+      "track": "new_candidate",
+      "status": "evidenced",
+      "owner": "Claude Code (Opus 5.5)",
+      "existing_id": null,
+      "proposed_id": "anv-fixed-07-13-montenegro-statehood-day",
+      "name_ko": "몬테네그로 국가성립 기념일 (Statehood Day)",
+      "name_original": "Statehood Day",
+      "aliases": [],
+      "scope_country_or_region": "몬테네그로",
+      "officiality": "몬테네그로 정부가 기념하는 국가 기념일. 공휴일 지정 법령·연도 미확인.",
+      "date_type": "annual-fixed",
+      "date_rule": "07-13",
+      "occurrences_checked": [],
+      "category_reason": "기존 외국 국경일 다수(에스토니아·아르헨티나·벨기에)가 history.",
+      "duplicate_of": null,
+      "distinct_from_similar_reason": "",
+      "claims": [
+        {
+          "claim_id": "existence_date",
+          "type": "existence+date+date_reason",
+          "claim": "몬테네그로는 7월 13일 국가성립 기념일을 기념하며, 1878년 7월 13일 베를린 회의에서 독립국으로 인정받은 일을 기린다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "montenegro-statehood-day/govme-digital-museum",
+              "quote": "Montenegro celebrates its Statehood Day on 13 July, commemorating the country's recognition as an independent state at the Berlin Congress on 13 July 1878."
+            }
+          ]
+        },
+        {
+          "claim_id": "uprising",
+          "type": "date_reason",
+          "claim": "1941년 7월 13일 봉기는 인민해방투쟁의 시작이자 점령된 유럽 최초의 전국적 봉기였다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "montenegro-statehood-day/govme-digital-museum",
+              "quote": "The uprising on 13 July 1941, marked the beginning of the People's Liberation Struggle,"
+            },
+            {
+              "evidence_id": "montenegro-statehood-day/govme-digital-museum",
+              "quote": "This uprising stood as the first nationwide rebellion in occupied Europe."
+            },
+            {
+              "evidence_id": "montenegro-statehood-day/govme-becic-2022",
+              "quote": "This date marks the recognition of our independence 146 years ago at the Berlin Congress and the courage of our small country, which 83 years ago, through an uprising against fascism, demonstrated its greatness."
+            }
+          ]
+        },
+        {
+          "claim_id": "congress",
+          "type": "detail",
+          "claim": "베를린 회의는 1878년 6월 13일 7개 강국 대표로 시작해 7월 13일 끝났다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "montenegro-statehood-day/govme-digital-museum",
+              "quote": "The Berlin Congress commenced on 13 June 1878, with representatives from the Ottoman Empire, Russia, Austria-Hungary, Germany, Great Britain, France, and Italy."
+            },
+            {
+              "evidence_id": "montenegro-statehood-day/govme-digital-museum",
+              "quote": "The Congress concluded its work on 13 July 1878."
+            }
+          ]
+        },
+        {
+          "claim_id": "1918_2006",
+          "type": "detail",
+          "claim": "국가 지위는 1918년 세르비아와 합쳐지며 폐지됐고, 2006년 5월 21일 독립을 회복했다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "montenegro-statehood-day/govme-digital-museum",
+              "quote": "Montenegro's statehood had been abolished in 1918 when it joined Serbia,"
+            },
+            {
+              "evidence_id": "montenegro-statehood-day/govme-digital-museum",
+              "quote": "This momentous event laid the foundation for Montenegro to regain its independence on 21 May 2006,"
+            }
+          ]
+        },
+        {
+          "claim_id": "establishment_year",
+          "type": "establishment_year",
+          "claim": "국가 기념일 지정 연도·법령.",
+          "verdict": "unverified",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "montenegro-statehood-day/govme-digital-museum",
+          "url": "https://www.gov.me/en/digital-museum/13-july-symbol-of-montenegrin-statehood",
+          "final_url": "https://www.gov.me/en/digital-museum/13-july-symbol-of-montenegrin-statehood",
+          "publisher": "Government of Montenegro (gov.me)",
+          "title": "13 July - Symbol of Montenegrin statehood",
+          "source_type": "government",
+          "accessed_at": "2026-10-11T22:52:04+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/montenegro-statehood-day/govme-digital-museum.txt",
+          "local_raw_path": "evidence/montenegro-statehood-day/govme-digital-museum.html",
+          "sha256": "7ca150feac37123dcc406989eddebcdf63398936cdc8ff666a40980622efbe9d",
+          "limitations": "공휴일 지정 법령·연도는 이 페이지에 없음."
+        },
+        {
+          "evidence_id": "montenegro-statehood-day/govme-becic-2022",
+          "url": "https://www.gov.me/en/article/deputy-prime-minister-becics-statehood-day-congratulations",
+          "final_url": "https://www.gov.me/en/article/deputy-prime-minister-becics-statehood-day-congratulations",
+          "publisher": "Government of Montenegro (gov.me)",
+          "title": "Deputy Prime Minister Bečić's Statehood Day congratulations (2024-07-13)",
+          "source_type": "government_statement",
+          "accessed_at": "2026-10-11T22:52:06+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/montenegro-statehood-day/govme-becic-2022.txt",
+          "local_raw_path": "evidence/montenegro-statehood-day/govme-becic-2022.html",
+          "sha256": "19c7b93efab22528a6409f8c73b8bba4b9fdb3b761c6ea100cee6b2b815d95b9",
+          "limitations": "정치인 축사. 사실 근거는 연도 계산 부분만 사용."
+        }
+      ],
+      "failed_access_attempts": [],
+      "unverified_fields": [
+        "기념일 지정 법령·연도",
+        "공휴일(휴무일) 여부"
+      ],
+      "draft": {
+        "origin": "7월 13일은 몬테네그로의 국가성립 기념일이다. 1878년 7월 13일 베를린 회의에서 몬테네그로가 독립국으로 인정받은 일을 기리며, 1941년 같은 날 점령에 맞서 일어난 봉기도 함께 기억한다. 몬테네그로 정부 자료는 이 봉기를 인민해방투쟁의 시작이자 점령된 유럽에서 처음 일어난 전국적 봉기로 소개한다. 기념일을 법으로 정한 연도는 확인되지 않았다.",
+        "anecdote": "베를린 회의는 1878년 6월 13일 오스만 제국·러시아·오스트리아-헝가리·독일·영국·프랑스·이탈리아 대표가 모여 시작했고, 한 달 뒤인 7월 13일 끝났다. 몬테네그로의 국가 지위는 1918년 세르비아와 합쳐지며 사라졌는데, 정부 자료는 베를린 회의의 성과가 2006년 5월 21일 독립을 되찾는 토대가 됐다고 설명한다.",
+        "category": "history",
+        "tags": [
+          "역사 & 추모"
+        ],
+        "sourceUrl": "https://www.gov.me/en/digital-museum/13-july-symbol-of-montenegrin-statehood",
+        "memes": []
+      },
+      "review": {
+        "reviewer": "",
+        "reviewed_at": "",
+        "decision": "pending",
+        "checks": {
+          "existence": false,
+          "date_rule": false,
+          "scope": false,
+          "claims_vs_original": false,
+          "duplicates": false,
+          "schema": false
+        },
+        "notes": ""
+      },
+      "blocked_reason": "",
+      "resume_condition": "",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null
+      },
+      "application": {
+        "commit": null,
+        "verification_result": null,
+        "published_url": null
+      }
+    },
+    {
+      "candidate_key": "world-snake-day",
+      "track": "new_candidate",
+      "status": "evidenced",
+      "owner": "Claude Code (Opus 5.5)",
+      "existing_id": null,
+      "proposed_id": "anv-fixed-07-16-world-snake-day-global",
+      "name_ko": "세계 뱀의 날 (World Snake Day)",
+      "name_original": "World Snake Day",
+      "aliases": [],
+      "scope_country_or_region": "국제 — 동물원 등 참여 확인(우크라이나·인도)",
+      "officiality": "비공식 인식 개선의 날. 제정 주체·연도 미확인.",
+      "date_type": "annual-fixed",
+      "date_rule": "07-16",
+      "occurrences_checked": [],
+      "category_reason": "동물 주제.",
+      "duplicate_of": null,
+      "distinct_from_similar_reason": "기존 \"뱀의 날\"(anv-fixed-02-01-serpent-day-global, 2월 1일, nationaldaycalendar National Serpent Day 출처)과 날짜·원명이 다른 별개 기념일. 주제가 겹쳐 검수자가 병존 여부를 판단해야 함.",
+      "claims": [
+        {
+          "claim_id": "existence_date",
+          "type": "existence+date+purpose",
+          "claim": "매년 7월 16일 뱀과 생태계 속 역할을 알리고 두려움을 덜기 위해 기념한다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "world-snake-day/nikolaev-zoo",
+              "quote": "World Snake Day is celebrated annually on July 16. The purpose of this day is to raise awareness of snakes and their role in the ecosystem, to help people learn more about these reptiles, to draw attention to these extraordinary creatures and to dispel fears associated with them."
+            }
+          ]
+        },
+        {
+          "claim_id": "delhi_2023",
+          "type": "existence+date",
+          "claim": "2023년 7월 16일 뉴델리 국립동물공원이 세계 뱀의 날 행사를 열었다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "world-snake-day/newsonair-delhi-zoo",
+              "quote": "July 16, 2023 9:03 PM | National Zoological Park in New Delhi celebrates World Snake Day"
+            },
+            {
+              "evidence_id": "world-snake-day/newsonair-delhi-zoo",
+              "quote": "The purpose of World Snake Day celebration is to protect snakes by raising awareness about snakes of India, and importance of snakes in the ecosystem."
+            },
+            {
+              "evidence_id": "world-snake-day/newsonair-delhi-zoo",
+              "quote": "A reptile house walk was also conducted and visitors interacted with the snake keepers."
+            }
+          ]
+        },
+        {
+          "claim_id": "fear",
+          "type": "detail",
+          "claim": "대부분 사람에게 위험하지 않은데도 두려움 때문에 죽임을 당한다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "world-snake-day/nikolaev-zoo",
+              "quote": "Unfortunately, snakes are very often killed out of fear, although most species are not dangerous to humans."
+            }
+          ]
+        },
+        {
+          "claim_id": "establishing_body",
+          "type": "establishing_body",
+          "claim": "제정 주체.",
+          "verdict": "unverified",
+          "evidence": []
+        },
+        {
+          "claim_id": "establishment_year",
+          "type": "establishment_year",
+          "claim": "제정 연도.",
+          "verdict": "unverified",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "world-snake-day/nikolaev-zoo",
+          "url": "https://zoo.nikolaev.ua/en/news/vsesvitnij_den_zmij8457",
+          "final_url": "https://zoo.nikolaev.ua/en/news/vsesvitnij_den_zmij8457",
+          "publisher": "Mykolaiv Zoo (Ukraine)",
+          "title": "World Snake Day",
+          "source_type": "zoo",
+          "accessed_at": "2026-10-11T22:54:03+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/world-snake-day/nikolaev-zoo.txt",
+          "local_raw_path": "evidence/world-snake-day/nikolaev-zoo.html",
+          "sha256": "bf3fc08dc9e2bef301d3c8628a0e9ee2fff9dd7f05b788c95179d60da92d6c0c",
+          "limitations": "제정 주체·연도 언급 없음."
+        },
+        {
+          "evidence_id": "world-snake-day/newsonair-delhi-zoo",
+          "url": "https://www.newsonair.gov.in/national-zoological-park-in-new-delhi-celebrates-world-snake-day/",
+          "final_url": "https://newsonair.gov.in/national-zoological-park-in-new-delhi-celebrates-world-snake-day/",
+          "publisher": "Akashvani News / All India Radio (newsonair.gov.in)",
+          "title": "National Zoological Park in New Delhi celebrates World Snake Day (2023-07-16)",
+          "source_type": "public_broadcaster_news",
+          "accessed_at": "2026-10-11T22:53:56+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/world-snake-day/newsonair-delhi-zoo.txt",
+          "local_raw_path": "evidence/world-snake-day/newsonair-delhi-zoo.html",
+          "sha256": "a532f5224acd7fc3b36454a392899725c8a201add46762ca67bf2f6af12470a2",
+          "limitations": "2023년 한 해 행사 보도."
+        }
+      ],
+      "failed_access_attempts": [
+        {
+          "url": "https://littlerockzoo.com/world-snake-day-2024/",
+          "label": "littlerockzoo-2024",
+          "accessed_at": "2026-10-11T22:53:58+00:00",
+          "access_status": "blocked",
+          "error": "HTTPError: 404 HTTP Error 404: Not Found"
+        }
+      ],
+      "unverified_fields": [
+        "제정 주체",
+        "제정 연도",
+        "7월 16일 선택 이유"
+      ],
+      "draft": {
+        "origin": "7월 16일은 뱀과 뱀이 생태계에서 맡는 역할을 알리는 '세계 뱀의 날'이다. 우크라이나 미콜라이우 동물원은 매년 이날을 기념한다고 소개하며, 뱀에 대해 더 알리고 뱀에 얽힌 두려움을 덜어 주는 것을 목적으로 든다. 누가 언제 처음 정했는지, 왜 7월 16일인지는 확인되지 않았다.",
+        "anecdote": "미콜라이우 동물원은 대부분의 뱀이 사람에게 위험하지 않은데도 두려움 때문에 죽임을 당하는 일이 많다고 설명한다. 2023년 7월 16일 인도 뉴델리 국립동물공원은 이날을 맞아 파충류관 산책 프로그램을 열어 관람객이 사육사와 이야기를 나누게 했다. 동물원이 밝힌 행사 목적은 인도의 뱀과 생태계에서 뱀이 갖는 중요성을 알려 뱀을 보호하는 것이었다.",
+        "category": "animal",
+        "tags": [
+          "동물 & 자연"
+        ],
+        "sourceUrl": "https://zoo.nikolaev.ua/en/news/vsesvitnij_den_zmij8457",
+        "memes": []
+      },
+      "review": {
+        "reviewer": "",
+        "reviewed_at": "",
+        "decision": "pending",
+        "checks": {
+          "existence": false,
+          "date_rule": false,
+          "scope": false,
+          "claims_vs_original": false,
+          "duplicates": false,
+          "schema": false
+        },
+        "notes": ""
+      },
+      "blocked_reason": "",
+      "resume_condition": "",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null
+      },
+      "application": {
+        "commit": null,
+        "verification_result": null,
+        "published_url": null
+      }
+    },
+    {
+      "candidate_key": "myanmar-martyrs-day",
+      "track": "new_candidate",
+      "status": "evidenced",
+      "owner": "Claude Code (Opus 5.5)",
+      "existing_id": null,
+      "proposed_id": "anv-fixed-07-19-myanmar-martyrs-day",
+      "name_ko": "미얀마 순국자의 날 (Martyrs' Day)",
+      "name_original": "Martyrs' Day",
+      "aliases": [],
+      "scope_country_or_region": "미얀마",
+      "officiality": "매년 열리는 국가 추모일. 법정 공휴일 여부·지정 연도 미확인.",
+      "date_type": "annual-fixed",
+      "date_rule": "07-19",
+      "occurrences_checked": [],
+      "category_reason": "추모일.",
+      "duplicate_of": null,
+      "distinct_from_similar_reason": "",
+      "claims": [
+        {
+          "claim_id": "existence_date",
+          "type": "existence+date",
+          "claim": "미얀마는 매년 순국자의 날을 기념하며, 1947년 7월 19일 내각 회의 중 아웅산 등 9명이 암살된 일을 기린다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "myanmar-martyrs-day/aljazeera-2013",
+              "quote": "Myanmar has marked its annual Martyr’s Day in Yangon"
+            },
+            {
+              "evidence_id": "myanmar-martyrs-day/aljazeera-2013",
+              "quote": "to mark the moment at 10:37am when General Aung San and eight others were assassinated at a Cabinet meeting on July 19, 1947."
+            }
+          ]
+        },
+        {
+          "claim_id": "victims",
+          "type": "detail",
+          "claim": "아웅산은 32세였고 각료 6명, 관리 2명과 함께 숨졌으며, 사후 6개월이 안 돼 독립이 이뤄졌다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "myanmar-martyrs-day/ap-news4jax-2024",
+              "quote": "Aung San, who led the independence struggle against Britain, was 32 years old when he was gunned down along with six Cabinet ministers and two other officials 77 years ago. He is considered the architect of Myanmar’s independence from Britain, which was achieved less than six months after his death."
+            }
+          ]
+        },
+        {
+          "claim_id": "u_saw",
+          "type": "detail",
+          "claim": "정적 우 소 전 총리가 모의 혐의로 재판받고 교수형에 처해졌다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "myanmar-martyrs-day/ap-news4jax-2024",
+              "quote": "A political rival, former Prime Minister U Saw, was tried and hanged for plotting the attack."
+            }
+          ]
+        },
+        {
+          "claim_id": "ritual",
+          "type": "detail",
+          "claim": "사건 시각 10시 37분에 사이렌·경적이 울리고, 쉐다곤 파고다 근처 순국자 묘역에서 주요 추모식이 열린다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "myanmar-martyrs-day/ap-news4jax-2024",
+              "quote": "In Yangon, neighborhoods heard wailing sirens and car horns bellowed out for one minute at 10:37 a.m., the time of the 1947 attack."
+            },
+            {
+              "evidence_id": "myanmar-martyrs-day/ap-news4jax-2024",
+              "quote": "main ceremony at the Martyrs’ Mausoleum near the foot of the towering Shwedagon Pagoda in Yangon."
+            }
+          ]
+        },
+        {
+          "claim_id": "siren_history",
+          "type": "detail",
+          "claim": "국영 라디오의 추모 사이렌은 군정 시기 오랫동안 중단됐고, 2013년 시민들이 휴대전화 사이렌 소리로 대신했다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "myanmar-martyrs-day/aljazeera-2013",
+              "quote": "State-owned radio stations used to broadcast sirens in Aung San’s honour but the custom was stopped for many years"
+            },
+            {
+              "evidence_id": "myanmar-martyrs-day/aljazeera-2013",
+              "quote": "many people played siren-like ring tones downloaded to their mobile phones"
+            }
+          ]
+        },
+        {
+          "claim_id": "suu_kyi",
+          "type": "detail",
+          "claim": "아웅산은 아웅산 수치의 아버지다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "myanmar-martyrs-day/ap-news4jax-2024",
+              "quote": "including Gen. Aung San, the father of the country’s ousted leader, Aung San Suu Kyi."
+            }
+          ]
+        },
+        {
+          "claim_id": "establishment_year",
+          "type": "establishment_year",
+          "claim": "국가 추모일 지정 연도·법령.",
+          "verdict": "unverified",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "myanmar-martyrs-day/aljazeera-2013",
+          "url": "https://www.aljazeera.com/news/2013/7/19/myanmar-honours-slain-democracy-activists",
+          "final_url": "https://www.aljazeera.com/news/2013/7/19/myanmar-honours-slain-democracy-activists",
+          "publisher": "Al Jazeera",
+          "title": "Myanmar honours slain democracy activists (2013-07-19)",
+          "source_type": "news",
+          "accessed_at": "2026-10-11T22:53:20+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/myanmar-martyrs-day/aljazeera-2013.txt",
+          "local_raw_path": "evidence/myanmar-martyrs-day/aljazeera-2013.html",
+          "sha256": "4d270dbf6cdaffc535798d1e3c6a2a30725b53d4c8dbe740d7dcc60ab193dfac",
+          "limitations": "제목·리드에 1947년 희생자를 민주화 운동가로 표현하는 등 표현이 부정확. 수치·시각 사실만 사용."
+        },
+        {
+          "evidence_id": "myanmar-martyrs-day/ap-news4jax-2024",
+          "url": "https://www.news4jax.com/news/world/2024/07/19/strife-torn-myanmar-marks-77th-anniversary-of-the-assassination-of-independence-hero-gen-aung-san/",
+          "final_url": "https://www.news4jax.com/news/world/2024/07/19/strife-torn-myanmar-marks-77th-anniversary-of-the-assassination-of-independence-hero-gen-aung-san/",
+          "publisher": "Associated Press (News4JAX 게재본)",
+          "title": "Strife-torn Myanmar marks 77th anniversary of the assassination of independence hero Gen. Aung San (2024-07-19)",
+          "source_type": "news_wire",
+          "accessed_at": "2026-10-11T22:53:21+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/myanmar-martyrs-day/ap-news4jax-2024.txt",
+          "local_raw_path": "evidence/myanmar-martyrs-day/ap-news4jax-2024.html",
+          "sha256": "3caad9816dae58562b34ce3b545371c283b34987feb0cf76375359e39251f02a",
+          "limitations": "AP 기사의 지역 방송사 게재본."
+        }
+      ],
+      "failed_access_attempts": [],
+      "unverified_fields": [
+        "추모일 지정 연도·법령",
+        "공휴일 여부",
+        "미얀마어 정식 명칭 — 수집 원문에 없어 미기재"
+      ],
+      "draft": {
+        "origin": "7월 19일은 미얀마가 해마다 독립 영웅들을 추모하는 '순국자의 날'이다. 1947년 7월 19일 오전 10시 37분, 영국으로부터의 독립운동을 이끌던 아웅산 장군이 내각 회의 도중 각료 6명, 다른 관리 2명과 함께 총격으로 숨진 사건을 기린다. 아웅산은 당시 32세였고, 미얀마는 그가 숨진 지 6개월이 안 돼 독립을 이뤘다.",
+        "anecdote": "양곤에서는 사건 시각인 오전 10시 37분에 사이렌과 자동차 경적이 울리고, 쉐다곤 파고다 인근 순국자 묘역에서 주요 추모식이 열린다. 국영 라디오가 내보내던 추모 사이렌은 군사정권 시기 오랫동안 끊겼고, 2013년에는 시민들이 휴대전화로 사이렌 소리를 틀어 그 순간을 기렸다. 암살을 모의한 정적 우 소 전 총리는 재판을 거쳐 교수형에 처해졌다. 아웅산은 아웅산 수치의 아버지다.",
+        "category": "history",
+        "tags": [
+          "역사 & 추모"
+        ],
+        "sourceUrl": "https://www.news4jax.com/news/world/2024/07/19/strife-torn-myanmar-marks-77th-anniversary-of-the-assassination-of-independence-hero-gen-aung-san/",
+        "memes": []
+      },
+      "review": {
+        "reviewer": "",
+        "reviewed_at": "",
+        "decision": "pending",
+        "checks": {
+          "existence": false,
+          "date_rule": false,
+          "scope": false,
+          "claims_vs_original": false,
+          "duplicates": false,
+          "schema": false
+        },
+        "notes": ""
+      },
+      "blocked_reason": "",
+      "resume_condition": "",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null
+      },
+      "application": {
+        "commit": null,
+        "verification_result": null,
+        "published_url": null
+      }
+    },
+    {
+      "candidate_key": "ukraine-independence-day",
+      "track": "new_candidate",
+      "status": "evidenced",
+      "owner": "Claude Code (Opus 5.5)",
+      "existing_id": null,
+      "proposed_id": "anv-fixed-08-24-ukraine-independence-day",
+      "name_ko": "우크라이나 독립기념일 (Independence Day of Ukraine)",
+      "name_original": "Independence Day of Ukraine",
+      "aliases": [],
+      "scope_country_or_region": "우크라이나",
+      "officiality": "국가 공휴일(1992년 2월 20일 최고라다 결의). 법령 원문 사이트 접근 실패, 결의 인용 보도로 확인.",
+      "date_type": "annual-fixed",
+      "date_rule": "08-24",
+      "occurrences_checked": [],
+      "category_reason": "기존 외국 독립기념일과 같은 축.",
+      "duplicate_of": null,
+      "distinct_from_similar_reason": "서비스·기존 research 의 다른 독립기념일(에스토니아·미국·아르헨티나)과 나라가 다름. 나무위키 발견 행의 \"우크라이나 단결의 날\"(02-16)과도 별개.",
+      "claims": [
+        {
+          "claim_id": "existence_date",
+          "type": "existence+date+establishment",
+          "claim": "1992년 2월 20일 최고라다 결의로 8월 24일을 독립기념일로 정해 매년 국가 공휴일로 기념한다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "ukraine-independence-day/espreso-holidays",
+              "quote": "On February 20, 1992, the Verkhovna Rada of Ukraine adopted a resolution \"On the Independence Day of Ukraine\":"
+            },
+            {
+              "evidence_id": "ukraine-independence-day/espreso-holidays",
+              "quote": "1. To consider August 24 as the Independence Day of Ukraine and celebrate it annually as a public national holiday of Ukraine."
+            }
+          ]
+        },
+        {
+          "claim_id": "act",
+          "type": "date_reason",
+          "claim": "1991년 8월 24일 최고라다가 독립 선포법을 채택했고 12월 1일 국민투표로 확인됐다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "ukraine-independence-day/espreso-holidays",
+              "quote": "On August 24, 1991, the Verkhovna Rada of the Ukrainian SSR adopted the Act of Proclamation of Independence of Ukraine, and on December 1, 1991, it was confirmed by the people at the All-Ukrainian referendum."
+            },
+            {
+              "evidence_id": "ukraine-independence-day/enrs",
+              "quote": "Ukrainian Independence Day on 24 August commemorates the announcement of the Act of Declaration of Independence in 1991."
+            }
+          ]
+        },
+        {
+          "claim_id": "july16",
+          "type": "detail",
+          "claim": "처음에는 1990년 7월 16일 주권선언에 맞춰 7월 16일을 기념일로 정했으나 1992년 결의로 폐지됐다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "ukraine-independence-day/espreso-holidays",
+              "quote": "On the same day, the parliament decided that the Independence Day of Ukraine will be celebrated on July 16."
+            },
+            {
+              "evidence_id": "ukraine-independence-day/espreso-holidays",
+              "quote": "2. The resolution of the Verkhovna Rada of the Ukrainian SSR \"On the Day of Proclamation of Independence of Ukraine\" dated July 16, 1990 shall be considered as having lost its validity."
+            }
+          ]
+        },
+        {
+          "claim_id": "coup",
+          "type": "detail",
+          "claim": "선포법은 실패한 모스크바 쿠데타 직후 채택됐고 영토가 나눌 수 없고 불가침이라 규정했다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "ukraine-independence-day/msu-soviethistory-act",
+              "quote": "Adopted on August 24, 1991, in the wake of the failed Moscow coup,"
+            },
+            {
+              "evidence_id": "ukraine-independence-day/enrs",
+              "quote": "The territory of Ukraine is indivisible and inviolable."
+            }
+          ]
+        },
+        {
+          "claim_id": "martial_law",
+          "type": "detail",
+          "claim": "2022년에는 계엄령으로 추가 휴무가 없었다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "ukraine-independence-day/espreso-holidays",
+              "quote": "In 2022, due to martial law, Ukrainians will not have an additional day off on Independence Day."
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "ukraine-independence-day/espreso-holidays",
+          "url": "https://global.espreso.tv/ukraine-celebrates-independence-day-national-holidays-history",
+          "final_url": "https://global.espreso.tv/ukraine-celebrates-independence-day-national-holidays-history",
+          "publisher": "Espreso Global (우크라이나 언론)",
+          "title": "Ukraine celebrates Independence Day: national holiday's history",
+          "source_type": "news",
+          "accessed_at": "2026-10-11T22:53:14+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/ukraine-independence-day/espreso-holidays.txt",
+          "local_raw_path": "evidence/ukraine-independence-day/espreso-holidays.html",
+          "sha256": "5703e7dfecb31a036ec07fdd12250f4a63b0c57288f5da65395d622843db7623",
+          "limitations": "1992년 최고라다 결의문을 인용한 보도. 법령 원문(zakon.rada.gov.ua)은 접근 실패."
+        },
+        {
+          "evidence_id": "ukraine-independence-day/enrs",
+          "url": "https://enrs.eu/news/independence-day-of-ukraine",
+          "final_url": "https://enrs.eu/news/independence-day-of-ukraine",
+          "publisher": "European Network Remembrance and Solidarity (ENRS)",
+          "title": "Independence Day of Ukraine",
+          "source_type": "intergovernmental_memory_network",
+          "accessed_at": "2026-10-11T22:53:16+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/ukraine-independence-day/enrs.txt",
+          "local_raw_path": "evidence/ukraine-independence-day/enrs.html",
+          "sha256": "d9f5b873070516ddbb0cbfae1faf101024c123079c6ddd7e5c9bdeec15635f0b",
+          "limitations": "선포법 영어 번역 인용 포함."
+        },
+        {
+          "evidence_id": "ukraine-independence-day/msu-soviethistory-act",
+          "url": "https://soviethistory.msu.edu/1991/ukrainian-independence/ukrainian-independence-texts/ukrainian-rada-declares-independence/",
+          "final_url": "https://soviethistory.msu.edu/1991/ukrainian-independence/ukrainian-independence-texts/ukrainian-rada-declares-independence/",
+          "publisher": "Michigan State University, Seventeen Moments in Soviet History",
+          "title": "Ukrainian Rada Declares Independence (August 24, 1991)",
+          "source_type": "academic_primary_source_archive",
+          "accessed_at": "2026-10-11T22:53:18+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/ukraine-independence-day/msu-soviethistory-act.txt",
+          "local_raw_path": "evidence/ukraine-independence-day/msu-soviethistory-act.html",
+          "sha256": "1ca9137f0040c9067f0c1c523f8d075dd212dce217e91a370c878edc0e76ee1f",
+          "limitations": "선포법 원문(ВВР 1991 №38 ст.502)의 영어 번역."
+        }
+      ],
+      "failed_access_attempts": [
+        {
+          "url": "https://static.rada.gov.ua/site/postanova_eng/Rres_Declaration_Independence_rev12.htm",
+          "label": "rada-resolution",
+          "accessed_at": "2026-10-11T22:46:50+00:00",
+          "access_status": "blocked",
+          "error": "HTTPError: 404 HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://zakon.rada.gov.ua/laws/show/1427-12",
+          "label": "zakon-1427-12",
+          "accessed_at": "2026-10-11T22:47:10+00:00",
+          "access_status": "blocked",
+          "error": "URLError:  <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>"
+        },
+        {
+          "url": "https://zakon.rada.gov.ua/laws/show/322-08#n1219",
+          "label": "zakon-322-08-kzpp73",
+          "accessed_at": "2026-10-11T22:47:15+00:00",
+          "access_status": "blocked",
+          "error": "URLError:  <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>"
+        }
+      ],
+      "unverified_fields": [
+        "법령 원문(zakon.rada.gov.ua) 직접 확인 — SSL 종료로 접근 실패, 우회하지 않음",
+        "2023년 이후 휴무 여부"
+      ],
+      "draft": {
+        "origin": "8월 24일은 우크라이나의 독립기념일이다. 1991년 8월 24일 당시 우크라이나 소비에트 사회주의 공화국 최고라다(의회)가 '우크라이나 독립 선포법'을 채택한 날로, 선포는 같은 해 12월 1일 국민투표로 확인됐다. 최고라다는 1992년 2월 20일 결의로 8월 24일을 독립기념일로 정하고 매년 국가 공휴일로 기념하기로 했다.",
+        "anecdote": "처음 독립기념일은 7월 16일이었다. 1990년 7월 16일 국가주권선언을 채택하면서 의회가 이날을 기념일로 정했지만, 1992년 결의로 8월 24일로 옮기고 이전 결정을 폐지했다. 선포법은 모스크바의 쿠데타가 실패한 직후 채택됐고, 우크라이나 영토는 나눌 수 없고 침범할 수 없다고 밝혔다. 2022년에는 계엄령에 따라 독립기념일에도 추가 휴무가 주어지지 않았다.",
+        "category": "history",
+        "tags": [
+          "역사 & 추모"
+        ],
+        "sourceUrl": "https://global.espreso.tv/ukraine-celebrates-independence-day-national-holidays-history",
+        "memes": []
+      },
+      "review": {
+        "reviewer": "",
+        "reviewed_at": "",
+        "decision": "pending",
+        "checks": {
+          "existence": false,
+          "date_rule": false,
+          "scope": false,
+          "claims_vs_original": false,
+          "duplicates": false,
+          "schema": false
+        },
+        "notes": ""
+      },
+      "blocked_reason": "",
+      "resume_condition": "",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null
+      },
+      "application": {
+        "commit": null,
+        "verification_result": null,
+        "published_url": null
+      }
+    },
+    {
+      "candidate_key": "pluto-demoted-day",
+      "track": "new_candidate",
+      "status": "evidenced",
+      "owner": "Claude Code (Opus 5.5)",
+      "existing_id": null,
+      "proposed_id": "anv-fixed-08-24-pluto-demoted-day",
+      "name_ko": "명왕성 강등의 날 (Pluto Demoted Day)",
+      "name_original": "Pluto Demoted Day",
+      "aliases": [],
+      "scope_country_or_region": "비공식 — 영어권 기념일 달력·매체",
+      "officiality": "비공식 이색 기념일. 제정 주체 미확인. 기념 대상 사건은 IAU 원문으로 확인.",
+      "date_type": "annual-fixed",
+      "date_rule": "08-24",
+      "occurrences_checked": [],
+      "category_reason": "천문학 주제.",
+      "duplicate_of": null,
+      "distinct_from_similar_reason": "서비스·기존 research 에 명왕성·IAU 관련 항목 없음.",
+      "claims": [
+        {
+          "claim_id": "existence_date",
+          "type": "existence+date",
+          "claim": "매년 8월 24일, 2006년 IAU의 명왕성 재분류를 기념한다.",
+          "verdict": "supported_secondary",
+          "evidence": [
+            {
+              "evidence_id": "pluto-demoted-day/nationaltoday",
+              "quote": "Every August 24"
+            },
+            {
+              "evidence_id": "pluto-demoted-day/nationaltoday",
+              "quote": "Pluto Demoted Day on August 24 commemorates the 2006 decision by the International Astronomical Union to reclassify Pluto as a dwarf planet."
+            },
+            {
+              "evidence_id": "pluto-demoted-day/syfy-2019",
+              "quote": "Pluto never actually got kicked out of the solar system, but on this day in 2006, the International Astronomical Union decided to take away its planet status."
+            }
+          ]
+        },
+        {
+          "claim_id": "iau_event",
+          "type": "date_reason",
+          "claim": "2006년 8월 24일 프라하 IAU 총회에서 행성 정의 결의가 통과돼 태양계 행성은 8개가 됐다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "pluto-demoted-day/iauarchive-eso-iau0603",
+              "quote": "24 August 2006, Prague"
+            },
+            {
+              "evidence_id": "pluto-demoted-day/iauarchive-eso-iau0603",
+              "quote": "This means that the Solar System consists of eight \"planets\" Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune."
+            }
+          ]
+        },
+        {
+          "claim_id": "vote",
+          "type": "detail",
+          "claim": "결의 6A는 찬성 237, 반대 157, 기권 17로 통과됐다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "pluto-demoted-day/iauarchive-eso-iau0603",
+              "quote": "Resolution 6A: \"Definition of Pluto-class objects\" was passed with 237 votes in favour, 157 against and 17 abstentions."
+            }
+          ]
+        },
+        {
+          "claim_id": "dwarf",
+          "type": "detail",
+          "claim": "첫 왜소행성은 세레스·명왕성·2003 UB313이며, 왜소행성은 궤도 주변을 정리하지 못한 천체다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "pluto-demoted-day/iauarchive-eso-iau0603",
+              "quote": "The first members of the \"dwarf planet\" category are Ceres, Pluto and 2003 UB313 (temporary name)."
+            },
+            {
+              "evidence_id": "pluto-demoted-day/iauarchive-eso-iau0603",
+              "quote": "(c) has not cleared the neighbourhood around its orbit"
+            },
+            {
+              "evidence_id": "pluto-demoted-day/iauarchive-eso-iau0603",
+              "quote": "Pluto is a \"dwarf planet\" by the above definition and is recognized as the prototype of a new category of trans-Neptunian objects."
+            }
+          ]
+        },
+        {
+          "claim_id": "establishing_body",
+          "type": "establishing_body",
+          "claim": "기념일 제정 주체·연도.",
+          "verdict": "unverified",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "pluto-demoted-day/nationaltoday",
+          "url": "https://nationaltoday.com/pluto-demoted-day/",
+          "final_url": "https://nationaltoday.com/pluto-demoted-day/",
+          "publisher": "National Today",
+          "title": "Pluto Demoted Day",
+          "source_type": "commercial_calendar",
+          "accessed_at": "2026-10-11T22:57:24+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/pluto-demoted-day/nationaltoday.txt",
+          "local_raw_path": "evidence/pluto-demoted-day/nationaltoday.html",
+          "sha256": "85ead4ee3e169fc65c7c90dff5476866fccd3979e55a1aa01021109a82781419",
+          "limitations": "상업 기념일 달력. 존재·날짜 근거로만 사용, 홍보성 문단은 사용 안 함."
+        },
+        {
+          "evidence_id": "pluto-demoted-day/syfy-2019",
+          "url": "https://www.syfy.com/syfy-wire/pluto-demoted-day-13-years-later-do-we-want-our-former-ninth-planet-back",
+          "final_url": "https://www.syfy.com/syfy-wire/pluto-demoted-day-13-years-later-do-we-want-our-former-ninth-planet-back",
+          "publisher": "SYFY WIRE (NBCUniversal)",
+          "title": "Pluto Demoted Day, 13 years later",
+          "source_type": "media",
+          "accessed_at": "2026-10-11T22:57:21+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/pluto-demoted-day/syfy-2019.txt",
+          "local_raw_path": "evidence/pluto-demoted-day/syfy-2019.html",
+          "sha256": "cb06763f1d37d494eca0d17efdb130c932b7cecc74bb74e66a4c59b5217fe240",
+          "limitations": "대중매체 기사. 기념일 제정 주체 언급 없음."
+        },
+        {
+          "evidence_id": "pluto-demoted-day/iauarchive-eso-iau0603",
+          "url": "https://iauarchive.eso.org/news/pressreleases/detail/iau0603/",
+          "final_url": "https://iauarchive.eso.org/news/pressreleases/detail/iau0603/",
+          "publisher": "International Astronomical Union (ESO 호스팅 IAU 아카이브)",
+          "title": "iau0603 — IAU 2006 General Assembly: Result of the IAU Resolution votes",
+          "source_type": "scientific_body_press_release",
+          "accessed_at": "2026-10-11T22:57:18+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/pluto-demoted-day/iauarchive-eso-iau0603.txt",
+          "local_raw_path": "evidence/pluto-demoted-day/iauarchive-eso-iau0603.html",
+          "sha256": "ce1c6a13e62d47130dce490e01d05817d45090d85f00e63cd607dadd3c3a2b8f",
+          "limitations": "iau.org 현행 주소는 404, 공식 아카이브 사본 사용."
+        }
+      ],
+      "failed_access_attempts": [
+        {
+          "url": "https://www.timeanddate.com/holidays/fun/pluto-demoted-day",
+          "label": "timeanddate",
+          "accessed_at": "2026-10-11T22:55:11+00:00",
+          "access_status": "blocked",
+          "error": "HTTPError: 403 HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.iau.org/news/pressreleases/detail/iau0603",
+          "label": "iau0603",
+          "accessed_at": "2026-10-11T22:55:11+00:00",
+          "access_status": "blocked",
+          "error": "HTTPError: 404 HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.iau.org/news/pressreleases/detail/iau0603/",
+          "label": "iau0603-slash",
+          "accessed_at": "2026-10-11T22:57:03+00:00",
+          "access_status": "blocked",
+          "error": "HTTPError: 404 HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.nationaldaycalendar.com/national-day/pluto-demoted-day-august-24",
+          "label": "nationaldaycalendar",
+          "accessed_at": "2026-10-11T22:57:04+00:00",
+          "access_status": "blocked",
+          "error": "HTTPError: 404 HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://blogs.coventry.ac.uk/uncovered/?p=12273",
+          "label": "coventry-blog",
+          "accessed_at": "2026-10-11T22:57:20+00:00",
+          "access_status": "blocked",
+          "error": "URLError:  <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+        }
+      ],
+      "unverified_fields": [
+        "기념일 제정 주체·최초 연도",
+        "nationaldaycalendar 등록 여부(해당 URL 404)"
+      ],
+      "draft": {
+        "origin": "8월 24일은 2006년 국제천문연맹(IAU)이 명왕성을 행성에서 왜소행성으로 다시 분류한 일을 돌아보는 비공식 기념일 '명왕성 강등의 날'이다. 그해 8월 24일 체코 프라하에서 열린 IAU 총회가 행성의 정의를 정하는 결의를 통과시키면서 태양계 행성은 수성부터 해왕성까지 8개가 됐다. 이 기념일을 누가 처음 만들었는지는 확인되지 않았다.",
+        "anecdote": "새 정의에서 왜소행성은 태양을 돌고 스스로의 중력으로 거의 둥근 모양을 이루지만, 궤도 주변의 다른 천체를 정리하지 못한 천체다. 처음 왜소행성으로 꼽힌 것은 세레스, 명왕성, 임시 이름 '2003 UB313'이었다. 명왕성 관련 결의 6A는 찬성 237표, 반대 157표, 기권 17표로 통과됐고, IAU는 명왕성을 해왕성 바깥 천체의 새 분류를 대표하는 원형으로 인정했다.",
+        "category": "academic",
+        "tags": [
+          "학술 & 기술"
+        ],
+        "sourceUrl": "https://iauarchive.eso.org/news/pressreleases/detail/iau0603/",
+        "memes": []
+      },
+      "review": {
+        "reviewer": "",
+        "reviewed_at": "",
+        "decision": "pending",
+        "checks": {
+          "existence": false,
+          "date_rule": false,
+          "scope": false,
+          "claims_vs_original": false,
+          "duplicates": false,
+          "schema": false
+        },
+        "notes": ""
+      },
+      "blocked_reason": "",
+      "resume_condition": "",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null
+      },
+      "application": {
+        "commit": null,
+        "verification_result": null,
+        "published_url": null
+      }
+    },
+    {
+      "candidate_key": "overdose-awareness-day",
+      "track": "new_candidate",
+      "status": "evidenced",
+      "owner": "Claude Code (Opus 5.5)",
+      "existing_id": null,
+      "proposed_id": "anv-fixed-08-31-international-overdose-awareness-day",
+      "name_ko": "국제 약물 과다복용 인식의 날 (International Overdose Awareness Day)",
+      "name_original": "International Overdose Awareness Day",
+      "aliases": [
+        "IOAD"
+      ],
+      "scope_country_or_region": "국제 — 40여 개국 행사(주최 측 집계)",
+      "officiality": "민간 비영리단체 주도 캠페인. UN 지정일로 확인하지 않음.",
+      "date_type": "annual-fixed",
+      "date_rule": "08-31",
+      "occurrences_checked": [],
+      "category_reason": "보건 인식 개선.",
+      "duplicate_of": null,
+      "distinct_from_similar_reason": "",
+      "claims": [
+        {
+          "claim_id": "existence_date",
+          "type": "existence+date",
+          "claim": "매년 8월 31일 열린다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "overdose-awareness-day/penington",
+              "quote": "Every August 31, International Overdose Awareness Day (IOAD) unites a global community to take action on overdose."
+            }
+          ]
+        },
+        {
+          "claim_id": "origin_2001",
+          "type": "establishment_year",
+          "claim": "2001년 멜버른 구세군 주사기 교환소의 바비큐 모임에서 시작됐다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "overdose-awareness-day/penington",
+              "quote": "International Overdose Awareness Day started in 2001 as a BBQ and social gathering of local people impacted by overdose at The Salvation Army needle exchange in Melbourne, Australia."
+            }
+          ]
+        },
+        {
+          "claim_id": "penington",
+          "type": "establishing_body",
+          "claim": "2012년부터 페닝턴 연구소가 이끌며 세계적 행동의 날로 키웠다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "overdose-awareness-day/penington",
+              "quote": "Since 2012, Penington Institute has been quietly leading International Overdose Awareness Day, transforming a single event into a global day of action."
+            }
+          ]
+        },
+        {
+          "claim_id": "activities",
+          "type": "detail",
+          "claim": "추모·교육·근거 기반 예방책 모색, 예방을 추모와 함께 핵심 목표로 채택.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "overdose-awareness-day/penington",
+              "quote": "Through events – both in person and online – communities honour lives lost, educate their families, friends and peers and explore evidence-based overdose prevention solutions."
+            },
+            {
+              "evidence_id": "overdose-awareness-day/ioad-about",
+              "quote": "IOAD adopts overdose prevention as a core campaign ambition, alongside remembrance."
+            }
+          ]
+        },
+        {
+          "claim_id": "scale",
+          "type": "detail",
+          "claim": "2026년 25주년, 매년 40개국 이상 1,000건 이상의 행사.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "overdose-awareness-day/ioad-about",
+              "quote": "In 2026, IOAD reaches its 25th year anniversary of sparking conversations about overdose and driving life-saving action. Thousands of voices, 1,000+ events, 40+ countries now join the campaign every year."
+            }
+          ]
+        },
+        {
+          "claim_id": "founder_person",
+          "type": "establishing_body",
+          "claim": "창시 개인(Sally J. Finn 등) — 자료마다 다름.",
+          "verdict": "unverified",
+          "evidence": []
+        },
+        {
+          "claim_id": "date_reason",
+          "type": "date_reason",
+          "claim": "8월 31일을 고른 이유.",
+          "verdict": "unverified",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "overdose-awareness-day/penington",
+          "url": "https://www.penington.org.au/overdose/overdose-projects-campaigns/international-overdose-awareness-day/",
+          "final_url": "https://www.penington.org.au/overdose/overdose-projects-campaigns/international-overdose-awareness-day/",
+          "publisher": "Penington Institute",
+          "title": "International Overdose Awareness Day",
+          "source_type": "organizer",
+          "accessed_at": "2026-10-11T22:46:44+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/overdose-awareness-day/penington.txt",
+          "local_raw_path": "evidence/overdose-awareness-day/penington.html",
+          "sha256": "d256b9681ab482c453bedd363ec0c43fb49a7410ddec7c0bd70f426e73b7ed2b",
+          "limitations": "창시 개인 이름은 나오지 않음."
+        },
+        {
+          "evidence_id": "overdose-awareness-day/ioad-about",
+          "url": "https://www.overdoseday.com/about/",
+          "final_url": "https://www.overdoseday.com/about-the-campaign/",
+          "publisher": "International Overdose Awareness Day (Penington Institute 운영)",
+          "title": "About the campaign",
+          "source_type": "organizer",
+          "accessed_at": "2026-10-11T22:47:23+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/overdose-awareness-day/ioad-about.txt",
+          "local_raw_path": "evidence/overdose-awareness-day/ioad-about.html",
+          "sha256": "ce130fb12efca204e49407dd4beb16057901482379bee205c7af53ca3cda7036",
+          "limitations": "연도별 연표가 텍스트에서 연도 표기 없이 추출됨."
+        }
+      ],
+      "failed_access_attempts": [],
+      "unverified_fields": [
+        "최초 창시 개인",
+        "8월 31일 선택 이유",
+        "상징색·리본(주최 측 원문 미확인)"
+      ],
+      "draft": {
+        "origin": "8월 31일은 약물 과다복용으로 세상을 떠난 이들을 추모하고 예방을 함께 고민하는 '국제 약물 과다복용 인식의 날'이다. 2001년 호주 멜버른의 구세군 주사기 교환소에서 과다복용을 겪은 지역 주민들이 모인 바비큐 모임에서 시작됐고, 2012년부터 호주 비영리단체 페닝턴 연구소가 이끌며 전 세계가 함께하는 행동의 날로 키웠다.",
+        "anecdote": "이날 행사에서는 세상을 떠난 이들을 기리고, 가족·친구·동료에게 과다복용을 알리며, 근거에 기반한 예방책을 찾는다. 처음에는 추모 중심이었지만 이후 과다복용 예방을 추모와 함께 캠페인의 핵심 목표로 내걸었다. 주최 측은 2026년이 캠페인 25주년이며, 해마다 40개국 이상에서 1,000건이 넘는 행사가 열린다고 밝힌다.",
+        "category": "campaign",
+        "tags": [
+          "국제 캠페인 & 보건"
+        ],
+        "sourceUrl": "https://www.penington.org.au/overdose/overdose-projects-campaigns/international-overdose-awareness-day/",
+        "memes": []
+      },
+      "review": {
+        "reviewer": "",
+        "reviewed_at": "",
+        "decision": "pending",
+        "checks": {
+          "existence": false,
+          "date_rule": false,
+          "scope": false,
+          "claims_vs_original": false,
+          "duplicates": false,
+          "schema": false
+        },
+        "notes": ""
+      },
+      "blocked_reason": "",
+      "resume_condition": "",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null
+      },
+      "application": {
+        "commit": null,
+        "verification_result": null,
+        "published_url": null
+      }
+    },
+    {
+      "candidate_key": "african-descent-day",
+      "track": "new_candidate",
+      "status": "evidenced",
+      "owner": "Claude Code (Opus 5.5)",
+      "existing_id": null,
+      "proposed_id": "anv-fixed-08-31-international-day-people-of-african-descent-global",
+      "name_ko": "국제 아프리카계 사람들의 날 (International Day for People of African Descent)",
+      "name_original": "International Day for People of African Descent",
+      "aliases": [],
+      "scope_country_or_region": "국제 (UN)",
+      "officiality": "UN 총회 결의 A/RES/75/170 (2020-12-16 채택) 공식 국제 기념일.",
+      "date_type": "annual-fixed",
+      "date_rule": "08-31",
+      "occurrences_checked": [],
+      "category_reason": "UN 국제 기념일·인권. 기존 노예무역 추모일 2건은 history — 검수자가 축 결정.",
+      "duplicate_of": null,
+      "distinct_from_similar_reason": "\"아프리카 어린이의 날\"(06-16, AU), \"노예제 및 대서양 노예무역 희생자 국제 추모의 날\"(03-25), \"노예제 폐지를 위한 국제 기념일\"(12-02)과 결의·날짜·대상이 다름. 별도 UN 결의(75/170).",
+      "claims": [
+        {
+          "claim_id": "existence_date",
+          "type": "existence+date+establishment",
+          "claim": "UN 총회가 8월 31일을 국제 아프리카계 사람들의 날로 선포했다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "african-descent-day/a-res-75-170-pdf",
+              "quote": "1. Decides to proclaim 31 August as the International Day for People of\nAfrican Descent, in order to promote greater recognition and respect for the diverse\nheritage, culture and contribution of people of African descent to the development of\nsocieties, and to promote respect for human rights and fundamental freedoms of\npeople of African descent;"
+            },
+            {
+              "evidence_id": "african-descent-day/un-observance",
+              "quote": "International Day for People of African Descent\n31 August"
+            }
+          ]
+        },
+        {
+          "claim_id": "adoption",
+          "type": "establishment_year",
+          "claim": "결의는 2020년 12월 16일 채택됐다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "african-descent-day/a-res-75-170-pdf",
+              "quote": "Resolution adopted by the General Assembly\non 16 December 2020"
+            }
+          ]
+        },
+        {
+          "claim_id": "date_reason",
+          "type": "date_reason",
+          "claim": "1920년 8월 31일 뉴욕에서 제1회 세계 흑인 민족 국제대회가 끝나고 마커스 가비가 이끈 논의로 권리 선언이 공포됐다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "african-descent-day/a-res-75-170-pdf",
+              "quote": "Recalling that, on 31 August 1920, the first International Convention o f the\nNegro Peoples of the World ended in New York, and as a result of the discussions led\nby Marcus Garvey, the Declaration of Rights of the Negro Peoples of the World was\npromulgated,"
+            }
+          ]
+        },
+        {
+          "claim_id": "theme_2026",
+          "type": "detail",
+          "claim": "2026년 주제와 제2차 국제 10년(2025~2034).",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "african-descent-day/un-observance",
+              "quote": "The 2026 International Day for People of African Descent is being observed under the theme “Expanding the Human Rights of People of African Descent” within the framework of the Second International Decade for People of African Descent (2025–2034)."
+            }
+          ]
+        },
+        {
+          "claim_id": "first_observance",
+          "type": "establishment_year",
+          "claim": "첫 기념(2021년)·결의 주도국(코스타리카).",
+          "verdict": "unverified",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "african-descent-day/un-observance",
+          "url": "https://www.un.org/en/observances/african-descent-day",
+          "final_url": "https://www.un.org/en/observances/african-descent-day",
+          "publisher": "United Nations",
+          "title": "International Day for People of African Descent",
+          "source_type": "un_official",
+          "accessed_at": "2026-10-11T22:47:08+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/african-descent-day/un-observance.txt",
+          "local_raw_path": "evidence/african-descent-day/un-observance.html",
+          "sha256": "49c48d7eeee41303bcfa4139d081fe17fb6e21fd6e74be0a20e4a584a60c6489",
+          "limitations": "결의 연도·날짜 유래는 이 페이지에 없음(결의문으로 확인)."
+        },
+        {
+          "evidence_id": "african-descent-day/a-res-75-170-pdf",
+          "url": "https://documents.un.org/api/symbol/access?s=A/RES/75/170&l=en&t=pdf",
+          "final_url": "https://documents.un.org/doc/undoc/gen/n20/370/85/pdf/n2037085.pdf",
+          "publisher": "United Nations General Assembly (documents.un.org)",
+          "title": "A/RES/75/170 International Day for People of African Descent",
+          "source_type": "un_resolution",
+          "accessed_at": "2026-10-11T22:47:47+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/african-descent-day/a-res-75-170-pdf.txt",
+          "local_raw_path": "evidence/african-descent-day/a-res-75-170-pdf.pdf",
+          "sha256": "a53f028ac604ebb86433b146e27a8fbb5f6ffe974e18ce718e146427b16c95bc",
+          "limitations": "pdftotext 추출본. 원문 줄바꿈·띄어쓰기(o f) 그대로."
+        }
+      ],
+      "failed_access_attempts": [
+        {
+          "url": "https://digitallibrary.un.org/record/3896428?ln=en",
+          "label": "un-digitallibrary",
+          "accessed_at": "2026-10-11T22:46:48+00:00",
+          "access_status": "blocked_empty_body",
+          "error": "HTTP 202 본문 1자"
+        },
+        {
+          "url": "https://digitallibrary.un.org/record/3896428/files/A_RES_75_170-EN.pdf",
+          "label": "a-res-75-170-en",
+          "accessed_at": "2026-10-11T22:47:35+00:00",
+          "access_status": "blocked_empty_body",
+          "error": "HTTP 202 본문 1자"
+        },
+        {
+          "url": "https://docs.un.org/en/A/RES/75/170",
+          "label": "undocs-a-res-75-170",
+          "accessed_at": "2026-10-11T22:47:36+00:00",
+          "access_status": "blocked_empty_body",
+          "error": "HTTP 200 본문 80자"
+        }
+      ],
+      "unverified_fields": [
+        "첫 기념 연도(2021년설)",
+        "결의 주도국"
+      ],
+      "draft": {
+        "origin": "8월 31일은 유엔이 정한 '국제 아프리카계 사람들의 날'이다. 유엔 총회는 2020년 12월 16일 결의 75/170을 채택해 이날을 선포했다. 아프리카계 사람들의 다양한 유산과 문화, 사회 발전에 대한 기여를 더 널리 인정하고 존중하며, 이들의 인권과 기본적 자유를 존중하도록 하는 것이 목적이다.",
+        "anecdote": "날짜는 1920년 8월 31일에서 왔다. 결의문은 이날 뉴욕에서 제1회 '세계 흑인 민족 국제대회'가 막을 내렸고, 마커스 가비가 이끈 논의의 결과로 '세계 흑인 민족 권리 선언'이 공포됐다고 적는다. 2026년 기념일은 '제2차 아프리카계 사람들을 위한 국제 10년(2025~2034)' 안에서 '아프리카계 사람들의 인권 확장'을 주제로 열렸다.",
+        "category": "campaign",
+        "tags": [
+          "국제 캠페인 & 보건"
+        ],
+        "sourceUrl": "https://www.un.org/en/observances/african-descent-day",
+        "memes": []
+      },
+      "review": {
+        "reviewer": "",
+        "reviewed_at": "",
+        "decision": "pending",
+        "checks": {
+          "existence": false,
+          "date_rule": false,
+          "scope": false,
+          "claims_vs_original": false,
+          "duplicates": false,
+          "schema": false
+        },
+        "notes": ""
+      },
+      "blocked_reason": "",
+      "resume_condition": "",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null
+      },
+      "application": {
+        "commit": null,
+        "verification_result": null,
+        "published_url": null
+      }
+    },
+    {
+      "candidate_key": "world-gorilla-day",
+      "track": "new_candidate",
+      "status": "evidenced",
+      "owner": "Claude Code (Opus 5.5)",
+      "existing_id": null,
+      "proposed_id": "anv-fixed-09-24-world-gorilla-day-global",
+      "name_ko": "세계 고릴라의 날 (World Gorilla Day)",
+      "name_original": "World Gorilla Day",
+      "aliases": [],
+      "scope_country_or_region": "국제 — 동물원·보전단체 참여",
+      "officiality": "민간 보전 캠페인. 2017년 미국 동물원 컨소시엄 지정(Fossey Fund 발표).",
+      "date_type": "annual-fixed",
+      "date_rule": "09-24",
+      "occurrences_checked": [],
+      "category_reason": "동물 보전.",
+      "duplicate_of": null,
+      "distinct_from_similar_reason": "서비스·기존 research 후보에 고릴라 항목 없음. 나무위키 발견 행(09-24 \"세계 고릴라의 날\")은 미검증 발견 자료일 뿐이며 이번 조사로 원문을 처음 확보.",
+      "claims": [
+        {
+          "claim_id": "existence",
+          "type": "existence",
+          "claim": "매년 열리는 고릴라 보전 행사다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "world-gorilla-day/gorillafund-p50275",
+              "quote": "World Gorilla Day is an annual event celebrating gorillas and empowering global communities to take action for gorilla conservation."
+            }
+          ]
+        },
+        {
+          "claim_id": "date",
+          "type": "date",
+          "claim": "9월 24일에 기념한다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "world-gorilla-day/gorillafund-p50275",
+              "quote": "join the World Gorilla Day celebration on September 24"
+            }
+          ]
+        },
+        {
+          "claim_id": "date_reason",
+          "type": "date_reason",
+          "claim": "1967년 9월 24일(2017년 9월 24일로부터 50년 전) 다이앤 포시가 카리소케 연구센터를 세웠다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "world-gorilla-day/gorillafund-p23349",
+              "quote": "September 24, 2017, marks 50 years since pioneering scientist Dian Fossey established the Karisoke Research Center in the remote Rwandan forests to study the little-known mountain gorillas."
+            }
+          ]
+        },
+        {
+          "claim_id": "establishment",
+          "type": "establishing_body+establishment_year",
+          "claim": "2017년 미국 동물원 컨소시엄이 첫 세계 고릴라의 날로 지정했다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "world-gorilla-day/gorillafund-p23349",
+              "quote": "a consortium of zoos in the United States have designated Sept. 24 as the first “World Gorilla Day,”"
+            },
+            {
+              "evidence_id": "world-gorilla-day/gorillafund-p50275",
+              "quote": "2017 was the inaugural year for World Gorilla Day and it also marked the 50th anniversary of the Karisoke Research Center, operated by the Dian Fossey Gorilla Fund."
+            }
+          ]
+        },
+        {
+          "claim_id": "coltan",
+          "type": "detail",
+          "claim": "콜탄은 콩고민주공화국 동부 고릴라 서식지에서 채굴되며, 휴대전화 재활용이 수요를 줄인다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "world-gorilla-day/gorillafund-p50275",
+              "quote": "Coltan is a critical component of cell phones and other small electronics and is mined in the forests of the eastern Democratic Republic of Congo—right in the middle of gorilla habitat."
+            },
+            {
+              "evidence_id": "world-gorilla-day/gorillafund-p50275",
+              "quote": "Recycling old cell phones helps reduce the demand for coltan and protects gorilla habitat in Africa."
+            }
+          ]
+        },
+        {
+          "claim_id": "fossey",
+          "type": "detail",
+          "claim": "포시는 1985년 비룽가 산지 오두막에서 살해됐다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "world-gorilla-day/gorillafund-p23349",
+              "quote": "It also took her life, as she was killed in her remote cabin in the Virunga mountains in 1985."
+            }
+          ]
+        },
+        {
+          "claim_id": "operator",
+          "type": "detail",
+          "claim": "현재 다이앤 포시 고릴라 기금이 카리소케 연구센터를 운영한다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "world-gorilla-day/gorillafund-p23349",
+              "quote": "Today, the Dian Fossey Gorilla Fund operates the Karisoke Research Center"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "world-gorilla-day/gorillafund-p23349",
+          "url": "https://gorillafund.org/?p=23349",
+          "final_url": "https://gorillafund.org/uncategorized/dian-fossey-gorilla-fund-celebrates-50-years-saving-gorillas-2/",
+          "publisher": "Dian Fossey Gorilla Fund",
+          "title": "Dian Fossey Gorilla Fund Celebrates 50 Years of Saving Gorillas (2017)",
+          "source_type": "organizer",
+          "accessed_at": "2026-10-11T22:52:08+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/world-gorilla-day/gorillafund-p23349.txt",
+          "local_raw_path": "evidence/world-gorilla-day/gorillafund-p23349.html",
+          "sha256": "27553b61608f4b23227cf4869f1894e00acca569242a6a8d1b0c01b33082749b",
+          "limitations": "2017년 보도자료."
+        },
+        {
+          "evidence_id": "world-gorilla-day/gorillafund-p50275",
+          "url": "https://gorillafund.org/?p=50275",
+          "final_url": "https://gorillafund.org/get-involved/other-ways-to-help/world-gorilla-day/",
+          "publisher": "Dian Fossey Gorilla Fund",
+          "title": "World Gorilla Day",
+          "source_type": "organizer",
+          "accessed_at": "2026-10-11T22:53:24+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/world-gorilla-day/gorillafund-p50275.txt",
+          "local_raw_path": "evidence/world-gorilla-day/gorillafund-p50275.html",
+          "sha256": "0bea36df3cc4681a27ae2827c66bacd442798ff4206925a6fa25a09bf7c996b2",
+          "limitations": "페이지 안에 2023년 캠페인 문구가 남아 있어 갱신 시점이 섞여 있음."
+        }
+      ],
+      "failed_access_attempts": [],
+      "unverified_fields": [
+        "컨소시엄 구성 동물원 명단"
+      ],
+      "draft": {
+        "origin": "9월 24일은 고릴라를 기리고 야생 고릴라 보전에 힘을 모으는 '세계 고릴라의 날'이다. 1967년 이날 영장류학자 다이앤 포시가 르완다 숲에 마운틴고릴라를 연구하는 카리소케 연구센터를 세웠고, 50주년이던 2017년 미국 동물원 컨소시엄이 이날을 첫 '세계 고릴라의 날'로 지정했다. 지금은 다이앤 포시 고릴라 기금이 카리소케를 운영한다.",
+        "anecdote": "휴대전화 같은 소형 전자기기에 꼭 필요한 콜탄은 콩고민주공화국 동부, 고릴라 서식지 한가운데의 숲에서 채굴된다. 그래서 고릴라 기금의 세계 고릴라의 날 안내에는 낡은 휴대전화를 재활용해 콜탄 수요를 줄이자는 캠페인 참여도 함께 실려 있다. 포시는 1985년 비룽가 산지의 외딴 오두막에서 살해당했다.",
+        "category": "animal",
+        "tags": [
+          "동물 & 자연"
+        ],
+        "sourceUrl": "https://gorillafund.org/?p=50275",
+        "memes": []
+      },
+      "review": {
+        "reviewer": "",
+        "reviewed_at": "",
+        "decision": "pending",
+        "checks": {
+          "existence": false,
+          "date_rule": false,
+          "scope": false,
+          "claims_vs_original": false,
+          "duplicates": false,
+          "schema": false
+        },
+        "notes": ""
+      },
+      "blocked_reason": "",
+      "resume_condition": "",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null
+      },
+      "application": {
+        "commit": null,
+        "verification_result": null,
+        "published_url": null
+      }
+    },
+    {
+      "candidate_key": "korea-film-day",
+      "track": "new_candidate",
+      "status": "evidenced",
+      "owner": "Claude Code (Opus 5.5)",
+      "existing_id": null,
+      "proposed_id": "anv-fixed-10-27-film-day-kr",
+      "name_ko": "영화의 날 (한국)",
+      "name_original": "영화의 날",
+      "aliases": [
+        "한국영화의 날"
+      ],
+      "scope_country_or_region": "대한민국 — 영화계 기념일",
+      "officiality": "영화계가 기념하는 날. 법정기념일 여부·제정 연도·제정 주체 미확인.",
+      "date_type": "annual-fixed",
+      "date_rule": "10-27",
+      "occurrences_checked": [],
+      "category_reason": "영화.",
+      "duplicate_of": null,
+      "distinct_from_similar_reason": "기존 \"영화의 날 (映画の日)\"(anv-fixed-12-01-movie-day-jp, 12월 1일)은 일본 기념일, \"무비데이\"(11-14)는 한국 14일 시리즈 — 날짜·나라·유래가 다름.",
+      "claims": [
+        {
+          "claim_id": "existence_date",
+          "type": "existence+date+date_reason",
+          "claim": "1919년 10월 27일 의리적 구토 개봉을 기념해 매년 10월 27일을 영화의 날로 제정했다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "korea-film-day/archives-dansungsa",
+              "quote": "한편, 최초의 한국 영화 ‘의리적 구토’가 단성사에서 처음 개봉된 1919년 10월 27일을 기념하여 이후 매년 10월 27일을 ‘영화의 날’로 제정하였다."
+            },
+            {
+              "evidence_id": "korea-film-day/jjan-2023",
+              "quote": "이 날이 '영화의 날'이 된 이유는 1919년 10월 27일에 한국 최초의 영화 <의리적 구토>가 <단성사>란 극장에서 상영되었기 때문이다."
+            }
+          ]
+        },
+        {
+          "claim_id": "film",
+          "type": "detail",
+          "claim": "한국인이 국내 자본으로 만든 첫 영화로, 김도산 극본·연출의 연쇄극이었다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "korea-film-day/archives-dansungsa",
+              "quote": "1919년 10월 27일 단성사는 최초로 한국인에 의해 국내 자본으로 만들어진 '의리적 구토'를 상영했다. 김도산 극본·연출의 이 영화는 연극에 영화 장면을 삽입한 ‘연쇄극’ 형태인데"
+            }
+          ]
+        },
+        {
+          "claim_id": "box_office",
+          "type": "detail",
+          "claim": "연극보다 비싼 입장료에도 10만 관객이 들었다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "korea-film-day/archives-dansungsa",
+              "quote": "연극 관람료가 40전 하던 것에 비하면 비싼 가격이었음에도 10만 관객이 들 정도로 흥행에 성공하였다."
+            }
+          ]
+        },
+        {
+          "claim_id": "dispute",
+          "type": "detail",
+          "claim": "연쇄극이라 최초 영화로 보기 어렵다는 시각과 같은 날 먼저 상영된 경성전시의 경을 최초로 봐야 한다는 주장이 있다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "korea-film-day/jjan-2023",
+              "quote": "하지만 <의리적 구토>란 작품은 연극 공연 사이에 보여지는 연쇄극 형태의 영화이기 때문에 최초의 한국영화로 보기에는 다소 무리가 있으며 오히려 같은 날 <의리적 구토>에 앞서 먼저 상영된 <경성전시의 경>이 최초의 한국영화여야 한다는 주장들이 있다."
+            }
+          ]
+        },
+        {
+          "claim_id": "event_2024",
+          "type": "detail",
+          "claim": "2024년 한국영화인총연합회·영화진흥위원회가 105주년 영화의 날 기념 세미나·시상식을 열었다(행사일 10월 30일).",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "korea-film-day/seoul-2024-award",
+              "quote": "(사)한국영화인총연합회(이사장 양윤호), 영화진흥위원회(위원장 한상준)가 공동 주최한 ‘한국영화 105주년 영화의 날 기념 세미나 & 시상식’"
+            }
+          ]
+        },
+        {
+          "claim_id": "centenary",
+          "type": "detail",
+          "claim": "2019년이 100번째 영화의 생일이었다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "korea-film-day/weeklykhan-2019-stamp",
+              "quote": "10월 27일은 영화의 생일이다. 그것도 100번째다."
+            }
+          ]
+        },
+        {
+          "claim_id": "establishment",
+          "type": "establishing_body+establishment_year",
+          "claim": "제정 주체·연도(1963년설).",
+          "verdict": "unverified",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "korea-film-day/archives-dansungsa",
+          "url": "https://theme.archives.go.kr/next/koreaOfRecord/Dansungsa.do",
+          "final_url": "https://theme.archives.go.kr/next/koreaOfRecord/Dansungsa.do",
+          "publisher": "국가기록원 (National Archives of Korea)",
+          "title": "한국의 기록 — 단성사",
+          "source_type": "government_archive",
+          "accessed_at": "2026-10-11T22:52:12+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/korea-film-day/archives-dansungsa.txt",
+          "local_raw_path": "evidence/korea-film-day/archives-dansungsa.html",
+          "sha256": "7d7810c024a654f572dc5cdbf30236a29ef4775c797cc719adf9d62ef5a022ff",
+          "limitations": "영화의 날 제정 연도·제정 주체는 적혀 있지 않음."
+        },
+        {
+          "evidence_id": "korea-film-day/jjan-2023",
+          "url": "https://www.jjan.kr/article/20231020580031",
+          "final_url": "https://www.jjan.kr/article/20231020580031",
+          "publisher": "전북일보 (jjan.kr)",
+          "title": "영화의 날 관련 기고 (2023-10-20)",
+          "source_type": "news_column",
+          "accessed_at": "2026-10-11T22:53:55+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/korea-film-day/jjan-2023.txt",
+          "local_raw_path": "evidence/korea-film-day/jjan-2023.html",
+          "sha256": "2e8fd87b7de2252fd9f5692446c47a1a553ae9448f3c40292999bcc1be623f4b",
+          "limitations": "외부 기고. 최초 영화 논쟁 소개 근거로만 사용."
+        },
+        {
+          "evidence_id": "korea-film-day/weeklykhan-2019-stamp",
+          "url": "https://weekly.khan.co.kr/article/201910251752371",
+          "final_url": "https://weekly.khan.co.kr/article/201910251752371",
+          "publisher": "주간경향",
+          "title": "한국영화 탄생 100주년 우표로 기념한다 (2019)",
+          "source_type": "news",
+          "accessed_at": "2026-10-11T22:53:55+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/korea-film-day/weeklykhan-2019-stamp.txt",
+          "local_raw_path": "evidence/korea-film-day/weeklykhan-2019-stamp.html",
+          "sha256": "f1ab8d812b074a26f66ab1ebe0d86f2e669d879ba891f96bac8c7081e3504c7a",
+          "limitations": "100주년 기사."
+        },
+        {
+          "evidence_id": "korea-film-day/seoul-2024-award",
+          "url": "https://m.go.seoul.co.kr/news/2024/11/01/20241101500084",
+          "final_url": "https://m.go.seoul.co.kr/news/2024/11/01/20241101500084",
+          "publisher": "서울신문 (go.seoul.co.kr)",
+          "title": "한국영화 105주년 영화의 날 기념 세미나 & 시상식 공로패 기사 (2024-11-01)",
+          "source_type": "news",
+          "accessed_at": "2026-10-11T22:53:55+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/korea-film-day/seoul-2024-award.txt",
+          "local_raw_path": "evidence/korea-film-day/seoul-2024-award.html",
+          "sha256": "5694539ef26eba789a045b4b940989dbf66167145593cde898e3f2d22d52c43e",
+          "limitations": "2024년 행사는 10월 30일 개최 — 기념일 날짜와 행사일이 다를 수 있음."
+        }
+      ],
+      "failed_access_attempts": [],
+      "unverified_fields": [
+        "제정 연도(1963년설 근거 미확보)",
+        "제정 주체",
+        "법정기념일 여부 — 그룹 레이블 \"법정기념일\" 부여 금지"
+      ],
+      "draft": {
+        "origin": "10월 27일은 한국의 '영화의 날'이다. 1919년 10월 27일 서울 단성사에서 한국인이 국내 자본으로 만든 첫 영화로 꼽히는 '의리적 구토'가 처음 상영된 것을 기념해, 이후 매년 이날을 영화의 날로 정했다. 누가 몇 년에 처음 정했는지는 이번에 확인한 자료에 나오지 않는다. 2019년이 한국 영화 100주년이었다.",
+        "anecdote": "'의리적 구토'는 김도산이 극본과 연출을 맡았고, 연극 중간에 영화 장면을 끼워 넣은 '연쇄극'이었다. 연극보다 비싼 입장료에도 10만 관객이 들었다고 한다. 연쇄극이라 최초의 한국 영화로 보기 어렵다는 시각도 있어, 같은 날 먼저 상영된 기록영화 '경성전시의 경'을 최초로 봐야 한다는 주장도 나온다. 2024년에는 한국영화인총연합회와 영화진흥위원회가 '한국영화 105주년 영화의 날 기념 세미나 & 시상식'을 열었다.",
+        "category": "culture",
+        "tags": [
+          "문화 & 예술"
+        ],
+        "sourceUrl": "https://theme.archives.go.kr/next/koreaOfRecord/Dansungsa.do",
+        "memes": []
+      },
+      "review": {
+        "reviewer": "",
+        "reviewed_at": "",
+        "decision": "pending",
+        "checks": {
+          "existence": false,
+          "date_rule": false,
+          "scope": false,
+          "claims_vs_original": false,
+          "duplicates": false,
+          "schema": false
+        },
+        "notes": ""
+      },
+      "blocked_reason": "",
+      "resume_condition": "",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null
+      },
+      "application": {
+        "commit": null,
+        "verification_result": null,
+        "published_url": null
+      }
+    },
+    {
+      "candidate_key": "india-constitution-day",
+      "track": "new_candidate",
+      "status": "evidenced",
+      "owner": "Claude Code (Opus 5.5)",
+      "existing_id": null,
+      "proposed_id": "anv-fixed-11-26-india-constitution-day",
+      "name_ko": "인도 헌법의 날 (Constitution Day)",
+      "name_original": "Constitution Day (India)",
+      "aliases": [],
+      "scope_country_or_region": "인도",
+      "officiality": "인도 정부 관보 고시(2015-11-19, 사회정의·권한강화부).",
+      "date_type": "annual-fixed",
+      "date_rule": "11-26",
+      "occurrences_checked": [],
+      "category_reason": "헌법 채택 기념.",
+      "duplicate_of": null,
+      "distinct_from_similar_reason": "\"인도 좋은 거버넌스의 날\"(12-25), \"미국 헌법의 날 및 시민권의 날\"(09-17), \"대만 행헌기념일\"(12-25), 한국 \"제헌절\"(07-17)과 나라·날짜가 다름.",
+      "claims": [
+        {
+          "claim_id": "existence_date",
+          "type": "existence+date+date_reason",
+          "claim": "인도 정부가 1949년 헌법 채택일인 11월 26일을 매년 헌법의 날로 지키기로 했다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "india-constitution-day/embassy-bamako",
+              "quote": "Government of India declares 26th day of November each year as Constitution Day."
+            },
+            {
+              "evidence_id": "india-constitution-day/embassy-bamako",
+              "quote": "This was the day when the Constitution of India was adopted in 1949."
+            }
+          ]
+        },
+        {
+          "claim_id": "notification",
+          "type": "establishing_body+establishment_year",
+          "claim": "2015년 11월 19일 사회정의·권한강화부 관보 고시.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "india-constitution-day/embassy-bamako",
+              "quote": "Please refer to Gazette Notification No. F.No. 19022/11/2015.VI (E) dated November 19, 2015 notified by the Ministry of Social Justice and Empowerment, Government of India."
+            },
+            {
+              "evidence_id": "india-constitution-day/barandbench-2015",
+              "quote": "The Ministry of Social Justice and Empowerment has published a gazette notification declaring November 26 as Constitution Day."
+            }
+          ]
+        },
+        {
+          "claim_id": "law_day",
+          "type": "detail",
+          "claim": "이전에는 같은 날을 법의 날로 기념했다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "india-constitution-day/barandbench-2015",
+              "quote": "Until this year, the same day has been celebrated as Law Day, to commemorate the adoption of the Constitution of India by the Constituent Assembly."
+            }
+          ]
+        },
+        {
+          "claim_id": "hindi_name",
+          "type": "detail",
+          "claim": "힌디어 명칭 Samvidhan Divas.",
+          "verdict": "unverified",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "india-constitution-day/embassy-bamako",
+          "url": "https://embassyofindiabamako.gov.in/news_detail/?newsid=76",
+          "final_url": "https://www.embassyofindiabamako.gov.in/news_detail/?newsid=76",
+          "publisher": "Embassy of India, Bamako (Ministry of External Affairs 재외공관)",
+          "title": "Government of India declares 26th day of November each year as Constitution Day",
+          "source_type": "government",
+          "accessed_at": "2026-10-11T22:53:27+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/india-constitution-day/embassy-bamako.txt",
+          "local_raw_path": "evidence/india-constitution-day/embassy-bamako.html",
+          "sha256": "489fe319f0881ec645733cb148f1e20c64fd0f585ee4648d3d7dff28b1eb3e72",
+          "limitations": "관보 원문이 아니라 재외공관 안내. 관보 번호만 인용됨."
+        },
+        {
+          "evidence_id": "india-constitution-day/barandbench-2015",
+          "url": "https://www.barandbench.com/news/november-26-to-be-celebrated-as-constitution-day",
+          "final_url": "https://www.barandbench.com/news/november-26-to-be-celebrated-as-constitution-day",
+          "publisher": "Bar & Bench",
+          "title": "November 26 to now be celebrated as Constitution Day (2015)",
+          "source_type": "legal_news",
+          "accessed_at": "2026-10-11T22:53:29+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/india-constitution-day/barandbench-2015.txt",
+          "local_raw_path": "evidence/india-constitution-day/barandbench-2015.html",
+          "sha256": "1910394a5737de671e8384bc49a313d454b36e73052e37f4ebf4383f5d264b31",
+          "limitations": "짧은 법률 뉴스."
+        }
+      ],
+      "failed_access_attempts": [
+        {
+          "url": "https://dsel.education.gov.in/nkpa",
+          "label": "dsel-nkpa",
+          "accessed_at": "2026-10-11T22:52:13+00:00",
+          "access_status": "blocked_empty_body",
+          "error": "HTTP 200 본문 1자"
+        }
+      ],
+      "unverified_fields": [
+        "관보 원문",
+        "힌디어 명칭(Samvidhan Divas) — 수집 원문에 없음, 본문 미사용",
+        "암베드카르 탄생 125주년과의 관련성"
+      ],
+      "draft": {
+        "origin": "11월 26일은 인도의 '헌법의 날'이다. 1949년 이날 인도 제헌의회가 헌법을 채택한 것을 기념한다. 인도 정부는 2015년 11월 19일 사회정의·권한강화부의 관보 고시로 매년 11월 26일을 헌법의 날로 지키기로 했다.",
+        "anecdote": "관보 고시 전에도 11월 26일은 제헌의회의 헌법 채택을 기념하는 '법의 날(Law Day)'로 지켜졌다. 2015년 고시로 같은 날이 헌법의 날이라는 이름으로 정부 차원에서 기념되기 시작했고, 말리 주재 인도대사관 같은 재외공관도 관보 번호와 함께 이 결정을 안내했다.",
+        "category": "history",
+        "tags": [
+          "역사 & 추모"
+        ],
+        "sourceUrl": "https://embassyofindiabamako.gov.in/news_detail/?newsid=76",
+        "memes": []
+      },
+      "review": {
+        "reviewer": "",
+        "reviewed_at": "",
+        "decision": "pending",
+        "checks": {
+          "existence": false,
+          "date_rule": false,
+          "scope": false,
+          "claims_vs_original": false,
+          "duplicates": false,
+          "schema": false
+        },
+        "notes": ""
+      },
+      "blocked_reason": "",
+      "resume_condition": "",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null
+      },
+      "application": {
+        "commit": null,
+        "verification_result": null,
+        "published_url": null
+      }
+    },
+    {
+      "candidate_key": "goa-liberation-day",
+      "track": "new_candidate",
+      "status": "evidenced",
+      "owner": "Claude Code (Opus 5.5)",
+      "existing_id": null,
+      "proposed_id": "anv-fixed-12-19-goa-liberation-day",
+      "name_ko": "고아 해방의 날 (Goa Liberation Day)",
+      "name_original": "Goa Liberation Day",
+      "aliases": [
+        "Liberation Day of Goa"
+      ],
+      "scope_country_or_region": "인도 고아주",
+      "officiality": "고아 주정부가 기념하는 주 기념일. 주 공휴일 지정은 2차 자료로만 확인.",
+      "date_type": "annual-fixed",
+      "date_rule": "12-19",
+      "occurrences_checked": [],
+      "category_reason": "탈식민 해방 기념.",
+      "duplicate_of": null,
+      "distinct_from_similar_reason": "서비스·기존 research 에 고아/인도 해방 관련 항목 없음. 유사어 \"해방\"은 광복절(08-15) 등 무관 항목.",
+      "claims": [
+        {
+          "claim_id": "existence_date",
+          "type": "existence+date_reason",
+          "claim": "고아는 1961년 12월 19일 450년의 포르투갈 통치에서 벗어났고, 주정부는 이를 해방의 날로 기념한다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "goa-liberation-day/dip-cm-greetings",
+              "quote": "Chief Minister Dr. Pramod Sawant has extended his whole-hearted greetings and good wishes to the people of Goa on the historic occasion of Liberation Day of the beautiful State of Goa, which attained freedom from 450 years of Portuguese rule on December 19, 1961."
+            },
+            {
+              "evidence_id": "goa-liberation-day/governor-2025-pdf",
+              "quote": "19 December 1961 is the most significant day in\nGoan history, marking the liberation of Goa from Portuguese rule and its integration\ninto the Indian Union."
+            }
+          ]
+        },
+        {
+          "claim_id": "date_rule",
+          "type": "date",
+          "claim": "2026년 고아주 공휴일 목록에 12월 19일 고아 해방의 날이 있다(관보 인용 2차 자료).",
+          "verdict": "supported_secondary",
+          "evidence": [
+            {
+              "evidence_id": "goa-liberation-day/thecurrentindia-2026",
+              "quote": "The Government of Goa has officially released its list of public holidays for 2026 through the Goa Gazette (Series II No. 28, dated 9 October 2025)."
+            },
+            {
+              "evidence_id": "goa-liberation-day/thecurrentindia-2026",
+              "quote": "Goa Liberation Day\n19 Dec 2026"
+            }
+          ]
+        },
+        {
+          "claim_id": "vijay",
+          "type": "detail",
+          "claim": "1961년 12월 비자이 작전, 36시간 만에 끝났다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "goa-liberation-day/governor-2025-pdf",
+              "quote": "The turning point arrived in December 1961, with the historic \"Operation\nVijay\""
+            },
+            {
+              "evidence_id": "goa-liberation-day/governor-2025-pdf",
+              "quote": "The operation lasted only for 36 hours"
+            }
+          ]
+        },
+        {
+          "claim_id": "lok_bhavan",
+          "type": "detail",
+          "claim": "2025년 해방의 날에 라지 바반을 로크 바반으로 부르겠다고 발표했다.",
+          "verdict": "supported",
+          "evidence": [
+            {
+              "evidence_id": "goa-liberation-day/governor-2025-pdf",
+              "quote": "I am pleased to declare that Raj Bhavan, Goa, will be known as Lok\nBhavan, Goa."
+            },
+            {
+              "evidence_id": "goa-liberation-day/governor-2025-pdf",
+              "quote": "\"Lok Bhavan,\" means People's House"
+            }
+          ]
+        },
+        {
+          "claim_id": "establishment_year",
+          "type": "establishment_year",
+          "claim": "주 기념일·공휴일 지정 연도.",
+          "verdict": "unverified",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "goa-liberation-day/dip-cm-greetings",
+          "url": "https://dip.goa.gov.in/cm-extends-greetings-on-goa-liberation-day/",
+          "final_url": "https://dip.goa.gov.in/cm-extends-greetings-on-goa-liberation-day/",
+          "publisher": "Department of Information and Publicity, Government of Goa",
+          "title": "CM extends greetings on Goa Liberation Day",
+          "source_type": "government_press_release",
+          "accessed_at": "2026-10-11T22:52:21+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/goa-liberation-day/dip-cm-greetings.txt",
+          "local_raw_path": "evidence/goa-liberation-day/dip-cm-greetings.html",
+          "sha256": "5f755eeca055337223435ac9c70b946c292929931e31fe790bd4c364d3905cbc",
+          "limitations": "게시 연도가 본문 텍스트에 없음(같은 내용 PDF가 2024년 12월 18일자)."
+        },
+        {
+          "evidence_id": "goa-liberation-day/cm-2024-pdf",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2024/12/CM-LIBERATION-DAY.pdf",
+          "final_url": "https://www.goa.gov.in/wp-content/uploads/2024/12/CM-LIBERATION-DAY.pdf",
+          "publisher": "Government of Goa (goa.gov.in)",
+          "title": "CM extends greetings on Goa Liberation Day (2024-12-18 PDF)",
+          "source_type": "government_press_release",
+          "accessed_at": "2026-10-11T22:52:30+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/goa-liberation-day/cm-2024-pdf.txt",
+          "local_raw_path": "evidence/goa-liberation-day/cm-2024-pdf.pdf",
+          "sha256": "c42649b2f9806784bcffdb7ab7a3d70cd7ac34f0e75cf2232f26e7b164438a3a",
+          "limitations": "날짜 줄이 \"Panjim, 18, 2024\"로 월 표기 누락(파일 경로는 2024/12)."
+        },
+        {
+          "evidence_id": "goa-liberation-day/governor-2025-pdf",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2025/12/GOVERNOR-GREETS-PEOPLE.pdf",
+          "final_url": "https://www.goa.gov.in/wp-content/uploads/2025/12/GOVERNOR-GREETS-PEOPLE.pdf",
+          "publisher": "Government of Goa (goa.gov.in)",
+          "title": "Governor greets people of Goa on Liberation Day (2025-12-18)",
+          "source_type": "government_press_release",
+          "accessed_at": "2026-10-11T22:52:27+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/goa-liberation-day/governor-2025-pdf.txt",
+          "local_raw_path": "evidence/goa-liberation-day/governor-2025-pdf.pdf",
+          "sha256": "4ed9b9a4271a743e36df9d71359341af5f9b502f46881868ba728afb83fce57c",
+          "limitations": "주지사 메시지."
+        },
+        {
+          "evidence_id": "goa-liberation-day/thecurrentindia-2026",
+          "url": "https://www.thecurrentindia.com/?p=21310",
+          "final_url": "https://www.thecurrentindia.com/govt/goa-public-holidays-2026/",
+          "publisher": "The Current India (thecurrentindia.com)",
+          "title": "Official List Of Goa Public Holidays 2026",
+          "source_type": "secondary_news",
+          "accessed_at": "2026-10-11T22:53:30+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/goa-liberation-day/thecurrentindia-2026.txt",
+          "local_raw_path": "evidence/goa-liberation-day/thecurrentindia-2026.html",
+          "sha256": "5a3e045f3140bccd612bfc0a125dba43b23cc9883a654611d26724197681bca6",
+          "limitations": "고아 관보(Series II No. 28)를 인용한 2차 자료. 관보 원문 미확보."
+        }
+      ],
+      "failed_access_attempts": [],
+      "unverified_fields": [
+        "고아 관보 원문(공휴일 지정)",
+        "기념일 지정 연도"
+      ],
+      "draft": {
+        "origin": "12월 19일은 인도 고아주의 '해방의 날'이다. 고아는 1961년 12월 19일 450년에 걸친 포르투갈 통치에서 벗어나 인도 연방에 편입됐다. 고아 주정부는 2024년과 2025년 이날을 맞아 주총리와 주지사 명의의 기념 메시지를 냈고, 주지사는 이 날을 고아 역사에서 가장 중요한 날이라고 불렀다.",
+        "anecdote": "전환점은 1961년 12월 인도군의 '비자이 작전'이었다. 고아 주지사는 육·해·공군이 고아·다만·디우를 식민 통치에서 해방하려고 나선 이 작전이 36시간 만에 끝났다고 설명했다. 2025년 해방의 날에는 주지사 관저 '라지 바반'을 식민지 시대 용어에서 벗어난다는 뜻에서 '국민의 집'이라는 뜻의 '로크 바반'으로 부르겠다고 발표했다.",
+        "category": "history",
+        "tags": [
+          "역사 & 추모"
+        ],
+        "sourceUrl": "https://dip.goa.gov.in/cm-extends-greetings-on-goa-liberation-day/",
+        "memes": []
+      },
+      "review": {
+        "reviewer": "",
+        "reviewed_at": "",
+        "decision": "pending",
+        "checks": {
+          "existence": false,
+          "date_rule": false,
+          "scope": false,
+          "claims_vs_original": false,
+          "duplicates": false,
+          "schema": false
+        },
+        "notes": ""
+      },
+      "blocked_reason": "",
+      "resume_condition": "",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null
+      },
+      "application": {
+        "commit": null,
+        "verification_result": null,
+        "published_url": null
+      }
+    },
+    {
+      "candidate_key": "world-rock-day-br",
+      "track": "new_candidate",
+      "status": "review",
+      "owner": "Claude Code (Opus 5.5)",
+      "existing_id": null,
+      "proposed_id": "anv-fixed-07-13-world-rock-day-br",
+      "name_ko": "세계 록의 날 (Dia Mundial do Rock)",
+      "name_original": "Dia Mundial do Rock",
+      "aliases": [],
+      "scope_country_or_region": "주로 브라질",
+      "officiality": "비공식 대중문화 기념일. 국제적 공인 없음(보도).",
+      "date_type": "annual-fixed",
+      "date_rule": "07-13",
+      "occurrences_checked": [],
+      "category_reason": "음악.",
+      "duplicate_of": null,
+      "distinct_from_similar_reason": "",
+      "claims": [
+        {
+          "claim_id": "existence_date",
+          "type": "existence+date+scope",
+          "claim": "매년 7월 13일, 주로 브라질에서 1990년 무렵부터 기념한다.",
+          "verdict": "supported_secondary",
+          "evidence": [
+            {
+              "evidence_id": "world-rock-day-br/band-2026",
+              "quote": "Todos os anos, em 13 de julho, fãs de música celebram o chamado Dia Mundial do Rock. Apesar do nome sugerir uma comemoração global, a data é reconhecida e comemorada principalmente no Brasil, onde se consolidou a partir de 1990."
+            }
+          ]
+        },
+        {
+          "claim_id": "live_aid",
+          "type": "date_reason",
+          "claim": "1985년 7월 13일 라이브 에이드에서 유래했다.",
+          "verdict": "supported_secondary",
+          "evidence": [
+            {
+              "evidence_id": "world-rock-day-br/band-2026",
+              "quote": "A origem da celebração remonta ao histórico Live Aid, festival beneficente realizado em 13 de julho de 1985."
+            }
+          ]
+        },
+        {
+          "claim_id": "collins",
+          "type": "establishing_body",
+          "claim": "필 콜린스가 이날을 세계 록의 날로 기억하자고 말했고, 브라질 록 라디오들이 1990년 무렵부터 홍보했다.",
+          "verdict": "conflicting",
+          "evidence": [
+            {
+              "evidence_id": "world-rock-day-br/band-2026",
+              "quote": "Durante o Live Aid, o cantor e baterista Phil Collins declarou que gostaria que o dia 13 de julho fosse lembrado como o \"Dia Mundial do Rock\". A sugestão, no entanto, nunca foi oficializada internacionalmente."
+            },
+            {
+              "evidence_id": "world-rock-day-br/band-2026",
+              "quote": "Anos depois, emissoras de rádio brasileiras especializadas em rock passaram a promover a data, especialmente a partir de 1990."
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "world-rock-day-br/band-2026",
+          "url": "https://www.band.com.br/entretenimento/por-que-13-de-julho-e-o-dia-mundial-do-rock-saiba-a-origem-da-data-202607091318",
+          "final_url": "https://www.band.com.br/entretenimento/por-que-13-de-julho-e-o-dia-mundial-do-rock-saiba-a-origem-da-data",
+          "publisher": "Band (Grupo Bandeirantes)",
+          "title": "Por que 13 de julho é o Dia Mundial do Rock? (2026-07-09)",
+          "source_type": "news",
+          "accessed_at": "2026-10-11T22:55:13+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/world-rock-day-br/band-2026.txt",
+          "local_raw_path": "evidence/world-rock-day-br/band-2026.html",
+          "sha256": "a5f07bd2d732e83451e3785fee748b0b7a84fae59787fcb8e732e99f97f8f59b",
+          "limitations": "O Imparcial 기사와 본문이 동일 — 독립 출처 아님."
+        },
+        {
+          "evidence_id": "world-rock-day-br/oimparcial-2026",
+          "url": "https://oimparcial.com.br/noticias/2026/07/dia-mundial-do-rock-como-o-historico-live-aid-virou-uma-tradicao-brasileira/",
+          "final_url": "https://oimparcial.com.br/noticias/2026/07/dia-mundial-do-rock-como-o-historico-live-aid-virou-uma-tradicao-brasileira/",
+          "publisher": "O Imparcial",
+          "title": "Dia Mundial do Rock: como o histórico Live Aid virou uma tradição brasileira (2026-07)",
+          "source_type": "news",
+          "accessed_at": "2026-10-11T22:55:20+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/world-rock-day-br/oimparcial-2026.txt",
+          "local_raw_path": "evidence/world-rock-day-br/oimparcial-2026.html",
+          "sha256": "0cb3162573a1c3d895d1e2371a3f135b4a749e191f957e02650f53edd0820f74",
+          "limitations": "Band 기사와 동일 배포문. 독립 근거로 계산하지 않음."
+        }
+      ],
+      "failed_access_attempts": [
+        {
+          "url": "https://www.preparaenem.com/datas-comemorativas/13-de-julho-dia-mundial-do-rock.htm",
+          "label": "preparaenem",
+          "accessed_at": "2026-10-11T22:55:41+00:00",
+          "access_status": "blocked",
+          "error": "URLError:  <urlopen error timed out>"
+        }
+      ],
+      "unverified_fields": [
+        "독립된 두 번째 출처(Band·O Imparcial 은 같은 배포문)",
+        "필 콜린스 발언의 1차 기록",
+        "상파울루 라디오 89 FM·97 FM 창시설(검색 요약에서만 봄)"
+      ],
+      "draft": {
+        "origin": "7월 13일은 브라질에서 주로 기념하는 '세계 록의 날(Dia Mundial do Rock)'이다. 이름과 달리 국제적으로 공인된 날은 아니며, 1985년 7월 13일 영국 런던과 미국 필라델피아에서 동시에 열린 자선 공연 '라이브 에이드'에서 유래했다고 소개된다. 브라질에서는 1990년 무렵부터 자리 잡았다.",
+        "anecdote": "브라질 방송사 반데이란치스(Band)의 보도에 따르면 라이브 에이드 무대에 선 필 콜린스가 이날을 '세계 록의 날'로 기억하고 싶다고 말했지만 국제적으로 공식화되지는 않았고, 이후 브라질의 록 전문 라디오들이 1990년 무렵부터 이날을 널리 알렸다. 라이브 에이드는 에티오피아 기근 구호 기금을 모으기 위한 공연이었다.",
+        "category": "culture",
+        "tags": [
+          "문화 & 예술"
+        ],
+        "sourceUrl": "https://www.band.com.br/entretenimento/por-que-13-de-julho-e-o-dia-mundial-do-rock-saiba-a-origem-da-data-202607091318",
+        "memes": []
+      },
+      "review": {
+        "reviewer": "",
+        "reviewed_at": "",
+        "decision": "pending",
+        "checks": {
+          "existence": false,
+          "date_rule": false,
+          "scope": false,
+          "claims_vs_original": false,
+          "duplicates": false,
+          "schema": false
+        },
+        "notes": "존재·날짜 근거가 사실상 단일 배포문이고 기원 설명이 매체마다 다름. 독립 출처 1건 이상 확보 전 반영 보류 권고."
+      },
+      "blocked_reason": "",
+      "resume_condition": "",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null
+      },
+      "application": {
+        "commit": null,
+        "verification_result": null,
+        "published_url": null
+      }
+    },
+    {
+      "candidate_key": "japan-first-flight-day",
+      "track": "new_candidate",
+      "status": "blocked",
+      "owner": "Claude Code (Opus 5.5)",
+      "existing_id": null,
+      "proposed_id": null,
+      "name_ko": "일본인 첫 비행의 날 (日本人初飛行の日)",
+      "name_original": "日本人初飛行の日",
+      "aliases": [
+        "日本初飛行の日"
+      ],
+      "scope_country_or_region": "일본",
+      "officiality": "기념일 목록 사이트 등재. 제정 주체 미확인.",
+      "date_type": "annual-fixed",
+      "date_rule": "12-19",
+      "occurrences_checked": [],
+      "category_reason": "항공.",
+      "duplicate_of": null,
+      "distinct_from_similar_reason": "",
+      "claims": [
+        {
+          "claim_id": "event",
+          "type": "date_reason",
+          "claim": "1910년 12월 19일 요요기 연병장에서 도쿠가와 요시토시가 일본 첫 비행에 성공했다(사건 자체).",
+          "verdict": "supported_secondary",
+          "evidence": [
+            {
+              "evidence_id": "japan-first-flight-day/zatsuneta",
+              "quote": "1910年（明治43年）のこの日、東京・代々木錬兵場（現：代々木公園）で陸軍軍人（工兵大尉）徳川好敏（とくがわ よしとし、1884～1963年）が日本初飛行に成功した。"
+            }
+          ]
+        },
+        {
+          "claim_id": "existence",
+          "type": "existence+establishing_body",
+          "claim": "기념일로서 제정 주체·반복 기념 근거.",
+          "verdict": "unverified",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "japan-first-flight-day/zatsuneta",
+          "url": "https://zatsuneta.com/archives/112191.html",
+          "final_url": "https://zatsuneta.com/archives/112191.html",
+          "publisher": "雑学ネタ帳 (zatsuneta.com)",
+          "title": "日本人初飛行の日（12月19日 記念日）",
+          "source_type": "list_site",
+          "accessed_at": "2026-10-11T23:00:55+00:00",
+          "access_status": "body_read_http_200",
+          "local_evidence_path": "evidence/japan-first-flight-day/zatsuneta.txt",
+          "local_raw_path": "evidence/japan-first-flight-day/zatsuneta.html",
+          "sha256": "a09ad44906afc08c833d43c37bca21b1cf284411c89b818c5a16f01ce1a97813",
+          "limitations": "기념일 목록 사이트. 제정 주체 언급 없음."
+        }
+      ],
+      "failed_access_attempts": [],
+      "unverified_fields": [
+        "기념일 제정 주체",
+        "공공기관·단체의 반복 기념 근거"
+      ],
+      "draft": {
+        "origin": "",
+        "anecdote": "",
+        "category": "academic",
+        "tags": [
+          "학술 & 기술"
+        ],
+        "sourceUrl": null,
+        "memes": []
+      },
+      "review": {
+        "reviewer": "",
+        "reviewed_at": "",
+        "decision": "pending",
+        "checks": {
+          "existence": false,
+          "date_rule": false,
+          "scope": false,
+          "claims_vs_original": false,
+          "duplicates": false,
+          "schema": false
+        },
+        "notes": ""
+      },
+      "blocked_reason": "확보한 근거가 기념일 목록 사이트 1건뿐이고 제정 주체·반복 기념 행사를 확인하지 못함. 사건(1910년 첫 비행)은 사실이어도 \"기념일\"로서의 존재 근거가 부족.",
+      "resume_condition": "일본기념일협회 등록·지자체/항공 단체의 매년 행사 등 1차 근거 확보 시 재검토.",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null
+      },
+      "application": {
+        "commit": null,
+        "verification_result": null,
+        "published_url": null
+      }
+    }
+  ]
+}

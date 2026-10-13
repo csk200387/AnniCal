@@ -1,0 +1,1864 @@
+{
+  "ok": true,
+  "errors": [],
+  "generated_at": "2026-10-11T23:27:11.584Z",
+  "production_items_checked": 1756,
+  "production_writes": false,
+  "vite_server_closed": true,
+  "record_count": 44,
+  "candidate_count": 29,
+  "unique_new_candidates": 28,
+  "status_counts": {
+    "documented_unofficial": 15,
+    "date_conflict": 4,
+    "discovered_unverified": 9,
+    "blocked": 1,
+    "duplicate": 15
+  },
+  "kind_counts": {
+    "이상한 행동": 7,
+    "말장난·밈": 8,
+    "관계": 6,
+    "물건·취미": 5,
+    "미신": 3
+  },
+  "kind_status_counts": {
+    "이상한 행동 / documented_unofficial": 3,
+    "이상한 행동 / date_conflict": 2,
+    "이상한 행동 / discovered_unverified": 1,
+    "이상한 행동 / blocked": 1,
+    "말장난·밈 / date_conflict": 1,
+    "말장난·밈 / documented_unofficial": 6,
+    "말장난·밈 / discovered_unverified": 1,
+    "관계 / documented_unofficial": 3,
+    "관계 / discovered_unverified": 3,
+    "물건·취미 / documented_unofficial": 2,
+    "물건·취미 / discovered_unverified": 2,
+    "물건·취미 / date_conflict": 1,
+    "미신 / documented_unofficial": 1,
+    "미신 / discovered_unverified": 2
+  },
+  "confidence_counts": {
+    "high": 10,
+    "medium": 10,
+    "low": 9
+  },
+  "with_prior_discovery_mention": [
+    "cheonsa-day-kr",
+    "apple-day-kr",
+    "ii-fufu-day-jp",
+    "pants-day-jp",
+    "yurei-day-jp"
+  ],
+  "quotes_checked": 81,
+  "quotes_matched": 81,
+  "fetch_attempts": 61,
+  "fetch_body_read": 51,
+  "fetch_failed": [
+    {
+      "key": "hoodie-hoo-day",
+      "url": "https://wnep.com/article/news/local/schuylkill-county/hoodie-hoo-day-spring-winter-schuylkill-county/523-d519641e-3f10-4743-bb47-00b5abfc22aa",
+      "status": "blocked",
+      "error": "HTTPError: 403 HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "put-a-pillow-on-your-fridge-day",
+      "url": "https://www.timeanddate.com/holidays/fun/put-a-pillow-on-your-fridge-day",
+      "status": "blocked",
+      "error": "HTTPError: 403 HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "tell-a-lie-day",
+      "url": "https://www.timeanddate.com/holidays/fun/tell-a-lie-day",
+      "status": "blocked",
+      "error": "HTTPError: 403 HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "no-socks-day",
+      "url": "https://bossierpress.com/at-the-library-this-week-will-knock-your-socks-off",
+      "status": "blocked",
+      "error": "HTTPError: 404 HTTP Error 404: Not Found"
+    },
+    {
+      "key": "blue-monday",
+      "url": "https://www.brusselstimes.com/1400713/blue-monday-why-today-is-not-the-most-depressing-day-of-the-year",
+      "status": "blocked_empty_body",
+      "error": null
+    },
+    {
+      "key": "kokuhaku-day-jp",
+      "url": "https://bestcalendar.jp/dates/kinenbi/2273",
+      "status": "blocked",
+      "error": "HTTPError: 503 HTTP Error 503: Service Unavailable"
+    },
+    {
+      "key": "kokuhaku-day-jp",
+      "url": "https://tabi-mag.jp/day0509/",
+      "status": "blocked",
+      "error": "HTTPError: 403 HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "answer-your-cats-questions-day",
+      "url": "https://www.timeanddate.com/holidays/fun/answer-your-cats-questions-day",
+      "status": "blocked",
+      "error": "HTTPError: 403 HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "defy-superstition-day",
+      "url": "https://www.awarenessdays.com/awareness-days-calendar/national-defy-superstition-day/",
+      "status": "blocked",
+      "error": "HTTPError: 403 HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "yell-fudge-cobras-day",
+      "url": "https://www.goodreads.com/author_blog_posts/22593455-for-the-love-of-what-by-artemis-crow",
+      "status": "blocked",
+      "error": "TimeoutError:  The read operation timed out"
+    }
+  ],
+  "fetch_status_overrides": [
+    {
+      "id": "blue-monday/brusselstimes",
+      "access_status": "blocked_empty_body"
+    },
+    {
+      "id": "kokuhaku-day-jp/nissyoku",
+      "access_status": "read_no_relevant_text"
+    },
+    {
+      "id": "world-introvert-day/theweek-2024",
+      "access_status": "blocked_access_denied_page"
+    }
+  ],
+  "occurrences": [
+    {
+      "candidate_key": "hoodie-hoo-day",
+      "date_type": "annual-fixed",
+      "rule": "02-20",
+      "year": 2026,
+      "occurrence": "2026-02-20"
+    },
+    {
+      "candidate_key": "hoodie-hoo-day",
+      "date_type": "annual-fixed",
+      "rule": "02-20",
+      "year": 2027,
+      "occurrence": "2027-02-20"
+    },
+    {
+      "candidate_key": "hoodie-hoo-day",
+      "date_type": "annual-fixed",
+      "rule": "02-20",
+      "year": 2028,
+      "occurrence": "2028-02-20"
+    },
+    {
+      "candidate_key": "plan-your-epitaph-day",
+      "date_type": "annual-fixed",
+      "rule": "11-02",
+      "year": 2026,
+      "occurrence": "2026-11-02"
+    },
+    {
+      "candidate_key": "plan-your-epitaph-day",
+      "date_type": "annual-fixed",
+      "rule": "11-02",
+      "year": 2027,
+      "occurrence": "2027-11-02"
+    },
+    {
+      "candidate_key": "plan-your-epitaph-day",
+      "date_type": "annual-fixed",
+      "rule": "11-02",
+      "year": 2028,
+      "occurrence": "2028-11-02"
+    },
+    {
+      "candidate_key": "tell-a-lie-day",
+      "date_type": "annual-fixed",
+      "rule": "04-04",
+      "year": 2026,
+      "occurrence": "2026-04-04"
+    },
+    {
+      "candidate_key": "tell-a-lie-day",
+      "date_type": "annual-fixed",
+      "rule": "04-04",
+      "year": 2027,
+      "occurrence": "2027-04-04"
+    },
+    {
+      "candidate_key": "tell-a-lie-day",
+      "date_type": "annual-fixed",
+      "rule": "04-04",
+      "year": 2028,
+      "occurrence": "2028-04-04"
+    },
+    {
+      "candidate_key": "ask-a-stupid-question-day",
+      "date_type": "annual-fixed",
+      "rule": "09-28",
+      "year": 2026,
+      "occurrence": "2026-09-28"
+    },
+    {
+      "candidate_key": "ask-a-stupid-question-day",
+      "date_type": "annual-fixed",
+      "rule": "09-28",
+      "year": 2027,
+      "occurrence": "2027-09-28"
+    },
+    {
+      "candidate_key": "ask-a-stupid-question-day",
+      "date_type": "annual-fixed",
+      "rule": "09-28",
+      "year": 2028,
+      "occurrence": "2028-09-28"
+    },
+    {
+      "candidate_key": "no-socks-day",
+      "date_type": "annual-fixed",
+      "rule": "05-08",
+      "year": 2026,
+      "occurrence": "2026-05-08"
+    },
+    {
+      "candidate_key": "no-socks-day",
+      "date_type": "annual-fixed",
+      "rule": "05-08",
+      "year": 2027,
+      "occurrence": "2027-05-08"
+    },
+    {
+      "candidate_key": "no-socks-day",
+      "date_type": "annual-fixed",
+      "rule": "05-08",
+      "year": 2028,
+      "occurrence": "2028-05-08"
+    },
+    {
+      "candidate_key": "answer-your-cats-questions-day",
+      "date_type": "annual-fixed",
+      "rule": "01-22",
+      "year": 2026,
+      "occurrence": "2026-01-22"
+    },
+    {
+      "candidate_key": "answer-your-cats-questions-day",
+      "date_type": "annual-fixed",
+      "rule": "01-22",
+      "year": 2027,
+      "occurrence": "2027-01-22"
+    },
+    {
+      "candidate_key": "answer-your-cats-questions-day",
+      "date_type": "annual-fixed",
+      "rule": "01-22",
+      "year": 2028,
+      "occurrence": "2028-01-22"
+    },
+    {
+      "candidate_key": "caps-lock-day",
+      "date_type": "annual-fixed",
+      "rule": "10-22",
+      "year": 2026,
+      "occurrence": "2026-10-22"
+    },
+    {
+      "candidate_key": "caps-lock-day",
+      "date_type": "annual-fixed",
+      "rule": "10-22",
+      "year": 2027,
+      "occurrence": "2027-10-22"
+    },
+    {
+      "candidate_key": "caps-lock-day",
+      "date_type": "annual-fixed",
+      "rule": "10-22",
+      "year": 2028,
+      "occurrence": "2028-10-22"
+    },
+    {
+      "candidate_key": "mean-girls-day",
+      "date_type": "annual-fixed",
+      "rule": "10-03",
+      "year": 2026,
+      "occurrence": "2026-10-03"
+    },
+    {
+      "candidate_key": "mean-girls-day",
+      "date_type": "annual-fixed",
+      "rule": "10-03",
+      "year": 2027,
+      "occurrence": "2027-10-03"
+    },
+    {
+      "candidate_key": "mean-girls-day",
+      "date_type": "annual-fixed",
+      "rule": "10-03",
+      "year": 2028,
+      "occurrence": "2028-10-03"
+    },
+    {
+      "candidate_key": "its-gonna-be-may",
+      "date_type": "annual-fixed",
+      "rule": "04-30",
+      "year": 2026,
+      "occurrence": "2026-04-30"
+    },
+    {
+      "candidate_key": "its-gonna-be-may",
+      "date_type": "annual-fixed",
+      "rule": "04-30",
+      "year": 2027,
+      "occurrence": "2027-04-30"
+    },
+    {
+      "candidate_key": "its-gonna-be-may",
+      "date_type": "annual-fixed",
+      "rule": "04-30",
+      "year": 2028,
+      "occurrence": "2028-04-30"
+    },
+    {
+      "candidate_key": "blue-monday",
+      "date_type": "annual-nth-weekday",
+      "rule": "01-3-MON",
+      "year": 2026,
+      "occurrence": "2026-01-19"
+    },
+    {
+      "candidate_key": "blue-monday",
+      "date_type": "annual-nth-weekday",
+      "rule": "01-3-MON",
+      "year": 2027,
+      "occurrence": "2027-01-18"
+    },
+    {
+      "candidate_key": "blue-monday",
+      "date_type": "annual-nth-weekday",
+      "rule": "01-3-MON",
+      "year": 2028,
+      "occurrence": "2028-01-17"
+    },
+    {
+      "candidate_key": "earth-wind-fire-day",
+      "date_type": "annual-fixed",
+      "rule": "09-21",
+      "year": 2026,
+      "occurrence": "2026-09-21"
+    },
+    {
+      "candidate_key": "earth-wind-fire-day",
+      "date_type": "annual-fixed",
+      "rule": "09-21",
+      "year": 2027,
+      "occurrence": "2027-09-21"
+    },
+    {
+      "candidate_key": "earth-wind-fire-day",
+      "date_type": "annual-fixed",
+      "rule": "09-21",
+      "year": 2028,
+      "occurrence": "2028-09-21"
+    },
+    {
+      "candidate_key": "tau-day",
+      "date_type": "annual-fixed",
+      "rule": "06-28",
+      "year": 2026,
+      "occurrence": "2026-06-28"
+    },
+    {
+      "candidate_key": "tau-day",
+      "date_type": "annual-fixed",
+      "rule": "06-28",
+      "year": 2027,
+      "occurrence": "2027-06-28"
+    },
+    {
+      "candidate_key": "tau-day",
+      "date_type": "annual-fixed",
+      "rule": "06-28",
+      "year": 2028,
+      "occurrence": "2028-06-28"
+    },
+    {
+      "candidate_key": "ninja-day-jp",
+      "date_type": "annual-fixed",
+      "rule": "02-22",
+      "year": 2026,
+      "occurrence": "2026-02-22"
+    },
+    {
+      "candidate_key": "ninja-day-jp",
+      "date_type": "annual-fixed",
+      "rule": "02-22",
+      "year": 2027,
+      "occurrence": "2027-02-22"
+    },
+    {
+      "candidate_key": "ninja-day-jp",
+      "date_type": "annual-fixed",
+      "rule": "02-22",
+      "year": 2028,
+      "occurrence": "2028-02-22"
+    },
+    {
+      "candidate_key": "cheonsa-day-kr",
+      "date_type": "annual-fixed",
+      "rule": "10-04",
+      "year": 2026,
+      "occurrence": "2026-10-04"
+    },
+    {
+      "candidate_key": "cheonsa-day-kr",
+      "date_type": "annual-fixed",
+      "rule": "10-04",
+      "year": 2027,
+      "occurrence": "2027-10-04"
+    },
+    {
+      "candidate_key": "cheonsa-day-kr",
+      "date_type": "annual-fixed",
+      "rule": "10-04",
+      "year": 2028,
+      "occurrence": "2028-10-04"
+    },
+    {
+      "candidate_key": "apple-day-kr",
+      "date_type": "annual-fixed",
+      "rule": "10-24",
+      "year": 2026,
+      "occurrence": "2026-10-24"
+    },
+    {
+      "candidate_key": "apple-day-kr",
+      "date_type": "annual-fixed",
+      "rule": "10-24",
+      "year": 2027,
+      "occurrence": "2027-10-24"
+    },
+    {
+      "candidate_key": "apple-day-kr",
+      "date_type": "annual-fixed",
+      "rule": "10-24",
+      "year": 2028,
+      "occurrence": "2028-10-24"
+    },
+    {
+      "candidate_key": "galentines-day",
+      "date_type": "annual-fixed",
+      "rule": "02-13",
+      "year": 2026,
+      "occurrence": "2026-02-13"
+    },
+    {
+      "candidate_key": "galentines-day",
+      "date_type": "annual-fixed",
+      "rule": "02-13",
+      "year": 2027,
+      "occurrence": "2027-02-13"
+    },
+    {
+      "candidate_key": "galentines-day",
+      "date_type": "annual-fixed",
+      "rule": "02-13",
+      "year": 2028,
+      "occurrence": "2028-02-13"
+    },
+    {
+      "candidate_key": "national-boyfriend-day",
+      "date_type": "annual-fixed",
+      "rule": "10-03",
+      "year": 2026,
+      "occurrence": "2026-10-03"
+    },
+    {
+      "candidate_key": "national-boyfriend-day",
+      "date_type": "annual-fixed",
+      "rule": "10-03",
+      "year": 2027,
+      "occurrence": "2027-10-03"
+    },
+    {
+      "candidate_key": "national-boyfriend-day",
+      "date_type": "annual-fixed",
+      "rule": "10-03",
+      "year": 2028,
+      "occurrence": "2028-10-03"
+    },
+    {
+      "candidate_key": "kokuhaku-day-jp",
+      "date_type": "annual-fixed",
+      "rule": "05-09",
+      "year": 2026,
+      "occurrence": "2026-05-09"
+    },
+    {
+      "candidate_key": "kokuhaku-day-jp",
+      "date_type": "annual-fixed",
+      "rule": "05-09",
+      "year": 2027,
+      "occurrence": "2027-05-09"
+    },
+    {
+      "candidate_key": "kokuhaku-day-jp",
+      "date_type": "annual-fixed",
+      "rule": "05-09",
+      "year": 2028,
+      "occurrence": "2028-05-09"
+    },
+    {
+      "candidate_key": "ii-fufu-day-jp",
+      "date_type": "annual-fixed",
+      "rule": "11-22",
+      "year": 2026,
+      "occurrence": "2026-11-22"
+    },
+    {
+      "candidate_key": "ii-fufu-day-jp",
+      "date_type": "annual-fixed",
+      "rule": "11-22",
+      "year": 2027,
+      "occurrence": "2027-11-22"
+    },
+    {
+      "candidate_key": "ii-fufu-day-jp",
+      "date_type": "annual-fixed",
+      "rule": "11-22",
+      "year": 2028,
+      "occurrence": "2028-11-22"
+    },
+    {
+      "candidate_key": "world-introvert-day",
+      "date_type": "annual-fixed",
+      "rule": "01-02",
+      "year": 2026,
+      "occurrence": "2026-01-02"
+    },
+    {
+      "candidate_key": "world-introvert-day",
+      "date_type": "annual-fixed",
+      "rule": "01-02",
+      "year": 2027,
+      "occurrence": "2027-01-02"
+    },
+    {
+      "candidate_key": "world-introvert-day",
+      "date_type": "annual-fixed",
+      "rule": "01-02",
+      "year": 2028,
+      "occurrence": "2028-01-02"
+    },
+    {
+      "candidate_key": "bubble-wrap-appreciation-day",
+      "date_type": "annual-nth-weekday",
+      "rule": "01-L-MON",
+      "year": 2026,
+      "occurrence": "2026-01-26"
+    },
+    {
+      "candidate_key": "bubble-wrap-appreciation-day",
+      "date_type": "annual-nth-weekday",
+      "rule": "01-L-MON",
+      "year": 2027,
+      "occurrence": "2027-01-25"
+    },
+    {
+      "candidate_key": "bubble-wrap-appreciation-day",
+      "date_type": "annual-nth-weekday",
+      "rule": "01-L-MON",
+      "year": 2028,
+      "occurrence": "2028-01-31"
+    },
+    {
+      "candidate_key": "international-geocaching-day",
+      "date_type": "annual-nth-weekday",
+      "rule": "08-3-SAT",
+      "year": 2026,
+      "occurrence": "2026-08-15"
+    },
+    {
+      "candidate_key": "international-geocaching-day",
+      "date_type": "annual-nth-weekday",
+      "rule": "08-3-SAT",
+      "year": 2027,
+      "occurrence": "2027-08-21"
+    },
+    {
+      "candidate_key": "international-geocaching-day",
+      "date_type": "annual-nth-weekday",
+      "rule": "08-3-SAT",
+      "year": 2028,
+      "occurrence": "2028-08-19"
+    },
+    {
+      "candidate_key": "kushi-day-jp",
+      "date_type": "annual-fixed",
+      "rule": "09-04",
+      "year": 2026,
+      "occurrence": "2026-09-04"
+    },
+    {
+      "candidate_key": "kushi-day-jp",
+      "date_type": "annual-fixed",
+      "rule": "09-04",
+      "year": 2027,
+      "occurrence": "2027-09-04"
+    },
+    {
+      "candidate_key": "kushi-day-jp",
+      "date_type": "annual-fixed",
+      "rule": "09-04",
+      "year": 2028,
+      "occurrence": "2028-09-04"
+    },
+    {
+      "candidate_key": "pants-day-jp",
+      "date_type": "annual-fixed",
+      "rule": "08-02",
+      "year": 2026,
+      "occurrence": "2026-08-02"
+    },
+    {
+      "candidate_key": "pants-day-jp",
+      "date_type": "annual-fixed",
+      "rule": "08-02",
+      "year": 2027,
+      "occurrence": "2027-08-02"
+    },
+    {
+      "candidate_key": "pants-day-jp",
+      "date_type": "annual-fixed",
+      "rule": "08-02",
+      "year": 2028,
+      "occurrence": "2028-08-02"
+    },
+    {
+      "candidate_key": "futon-day-jp",
+      "date_type": "annual-fixed",
+      "rule": "10-10",
+      "year": 2026,
+      "occurrence": "2026-10-10"
+    },
+    {
+      "candidate_key": "futon-day-jp",
+      "date_type": "annual-fixed",
+      "rule": "10-10",
+      "year": 2027,
+      "occurrence": "2027-10-10"
+    },
+    {
+      "candidate_key": "futon-day-jp",
+      "date_type": "annual-fixed",
+      "rule": "10-10",
+      "year": 2028,
+      "occurrence": "2028-10-10"
+    },
+    {
+      "candidate_key": "defy-superstition-day",
+      "date_type": "annual-fixed",
+      "rule": "09-13",
+      "year": 2026,
+      "occurrence": "2026-09-13"
+    },
+    {
+      "candidate_key": "defy-superstition-day",
+      "date_type": "annual-fixed",
+      "rule": "09-13",
+      "year": 2027,
+      "occurrence": "2027-09-13"
+    },
+    {
+      "candidate_key": "defy-superstition-day",
+      "date_type": "annual-fixed",
+      "rule": "09-13",
+      "year": 2028,
+      "occurrence": "2028-09-13"
+    },
+    {
+      "candidate_key": "yurei-day-jp",
+      "date_type": "annual-fixed",
+      "rule": "07-26",
+      "year": 2026,
+      "occurrence": "2026-07-26"
+    },
+    {
+      "candidate_key": "yurei-day-jp",
+      "date_type": "annual-fixed",
+      "rule": "07-26",
+      "year": 2027,
+      "occurrence": "2027-07-26"
+    },
+    {
+      "candidate_key": "yurei-day-jp",
+      "date_type": "annual-fixed",
+      "rule": "07-26",
+      "year": 2028,
+      "occurrence": "2028-07-26"
+    },
+    {
+      "candidate_key": "put-a-pillow-on-your-fridge-day",
+      "date_type": "annual-fixed",
+      "rule": "05-29",
+      "year": 2026,
+      "occurrence": "2026-05-29"
+    },
+    {
+      "candidate_key": "put-a-pillow-on-your-fridge-day",
+      "date_type": "annual-fixed",
+      "rule": "05-29",
+      "year": 2027,
+      "occurrence": "2027-05-29"
+    },
+    {
+      "candidate_key": "put-a-pillow-on-your-fridge-day",
+      "date_type": "annual-fixed",
+      "rule": "05-29",
+      "year": 2028,
+      "occurrence": "2028-05-29"
+    }
+  ],
+  "duplicate_audit": [
+    {
+      "candidate_key": "hoodie-hoo-day",
+      "tokens": [
+        "hoodie",
+        "hoo"
+      ],
+      "service_name_or_id_hits": [
+        "anv-fixed-02-15-international-childhood-cancer-day-global | 국제 소아암의 날",
+        "anv-fixed-04-04-school-librarian-day-us | 학교 사서의 날",
+        "anv-fixed-05-04-bike-to-school-day-us | 자전거 통학의 날 (National Bike To School Day)",
+        "anv-fixed-05-11-school-nurse-day-us | 학교 보건교사의 날"
+      ],
+      "service_same_date": [
+        "romance | 반려동물 사랑의 날",
+        "food | 체리파이의 날"
+      ],
+      "prior_batch_record_hits": [
+        "contact-expansion-20261012/records.json: montenegro-statehood-day"
+      ],
+      "prior_discovery_mentions": [],
+      "related_existing": []
+    },
+    {
+      "candidate_key": "plan-your-epitaph-day",
+      "tokens": [
+        "plan",
+        "epitaph"
+      ],
+      "service_name_or_id_hits": [
+        "anv-fixed-03-12-plant-a-flower-day-global | 꽃 심는 날 (National Plant a Flower Day)",
+        "anv-fixed-05-26-national-paper-airplane-day-us | 종이비행기의 날 (National Paper Airplane Day)"
+      ],
+      "service_same_date": [
+        "career | 교통 안내원의 날 (Traffic Directors Day)",
+        "food | 데빌드 에그의 날 (National Deviled Egg Day)",
+        "academic | 수소의 날",
+        "culture | 위령의 날",
+        "general | 112의 날"
+      ],
+      "prior_batch_record_hits": [
+        "2026-10-11-sparse-birthdays/records.json: 05-26-paper2",
+        "2026-10-11-sparse-birthdays/group-a/records.json: 05-26-paper2"
+      ],
+      "prior_discovery_mentions": [],
+      "related_existing": []
+    },
+    {
+      "candidate_key": "tell-a-lie-day",
+      "tokens": [
+        "tell",
+        "lie"
+      ],
+      "service_name_or_id_hits": [
+        "anv-fixed-02-05-nutella-day-global | 세계 누텔라의 날",
+        "anv-fixed-02-13-tortellini-day-it | 토르텔리니의 날",
+        "anv-fixed-02-26-tell-a-fairy-tale-day-global | 동화 들려주는 날",
+        "anv-fixed-03-14-learn-about-butterflies-day-global | 나비를 배우는 날",
+        "anv-fixed-04-06-sorry-charlie-day-us | '미안해, 찰리' 날",
+        "anv-fixed-04-27-tell-a-story-day-us | 이야기를 들려주는 날",
+        "anv-fixed-08-12-julienne-fries-day-us | 쥘리엔 프라이의 날",
+        "anv-fixed-08-12-separated-families-day-private-kr | 이산가족의 날(민간)",
+        "anv-fixed-08-16-tell-a-joke-day-us | 농담하는 날 (National Tell a Joke Day)",
+        "anv-fixed-09-04-intellectual-property-day-kr | 지식재산의 날",
+        "anv-rel-chuseok-minus1-separated-families-day-kr | 이산가족의 날",
+        "anv-fixed-09-25-math-storytelling-day-global | 수학 이야기의 날 (Math Story Telling Day)"
+      ],
+      "service_same_date": [
+        "quirky | 돌아서 걷는 날",
+        "career | 언론인을 안아주는 날",
+        "food | 치킨 코르동 블루의 날",
+        "career | 학교 사서의 날"
+      ],
+      "prior_batch_record_hits": [],
+      "prior_discovery_mentions": [],
+      "related_existing": []
+    },
+    {
+      "candidate_key": "ask-a-stupid-question-day",
+      "tokens": [
+        "ask",
+        "stupid",
+        "question"
+      ],
+      "service_name_or_id_hits": [
+        "anv-fixed-02-01-baked-alaska-day-us | 베이크드 알래스카의 날"
+      ],
+      "service_same_date": [
+        "food | 딸기 크림파이의 날",
+        "quirky | 좋은 이웃의 날 (National Good Neighbor Day)",
+        "campaign | 국제 정보 접근의 날"
+      ],
+      "prior_batch_record_hits": [],
+      "prior_discovery_mentions": [],
+      "related_existing": []
+    },
+    {
+      "candidate_key": "no-socks-day",
+      "tokens": [
+        "socks"
+      ],
+      "service_name_or_id_hits": [],
+      "service_same_date": [
+        "general | 어버이날",
+        "food | 코카콜라의 날 (National Have A Coke Day)",
+        "food | 코코넛 크림 파이의 날",
+        "campaign | 세계 적십자의 날"
+      ],
+      "prior_batch_record_hits": [],
+      "prior_discovery_mentions": [],
+      "related_existing": [
+        "anv-fixed-05-09-lost-sock-memorial-day-us"
+      ]
+    },
+    {
+      "candidate_key": "yell-fudge-cobras-day",
+      "tokens": [
+        "yell",
+        "fudge",
+        "cobras",
+        "north",
+        "america"
+      ],
+      "service_name_or_id_hits": [
+        "anv-fixed-01-13-korean-american-day-us | 미주 한인의 날(한국계 미국인의 날)",
+        "anv-fixed-01-15-north-korea-hangul-day-kp | 조선글날(북한)",
+        "anv-fixed-03-02-read-across-america-day-us | 미국 책 읽기의 날 (Read Across America Day)",
+        "anv-fixed-04-14-pan-american-day-us | 팬 아메리칸 데이",
+        "anv-fixed-05-12-nutty-fudge-day-us | 너티 퍼지의 날",
+        "anv-fixed-05-14-underground-america-day-us | 언더그라운드 아메리카의 날",
+        "anv-fixed-06-16-fudge-day-us | 퍼지의 날 (National Fudge Day)",
+        "anv-fixed-07-17-yellow-pig-day-us | 옐로 피그 데이 (National Yellow Pig Day)",
+        "anv-fixed-07-22-penuche-fudge-day-us | 페누체 퍼지의 날",
+        "anv-fixed-07-25-hot-fudge-sundae-day-us | 핫퍼지 선데이의 날",
+        "anv-fixed-09-23-great-american-pot-pie-day-us | 아메리칸 팟파이의 날",
+        "anv-fixed-10-06-german-american-day-us | 독일계 미국인의 날 (National German-American Day)",
+        "anv-fixed-10-27-american-beer-day-us | 아메리칸 비어의 날 (National American Beer Day)",
+        "anv-nth-10-2-mon-native-american-day-us | 원주민의 날 (Native American Day)",
+        "anv-fixed-11-19-great-american-smokeout-us | 담배 끊는 날 (Great American Smokeout)",
+        "anv-fixed-11-20-peanut-butter-fudge-day-us | 피넛버터 퍼지의 날",
+        "anv-rel-thanksgiving-1-native-american-heritage-day-us | 원주민 유산의 날 (National Native American Heritage Day)",
+        "anv-fixed-12-12-wreaths-across-america-day-us | 미국 참전용사 리스 헌화의 날"
+      ],
+      "service_same_date": [],
+      "prior_batch_record_hits": [
+        "2026-10-11-sparse-birthdays/records.json: 06-16-existing",
+        "2026-10-11-sparse-birthdays/group-a/records.json: 06-16-existing"
+      ],
+      "prior_discovery_mentions": [],
+      "related_existing": []
+    },
+    {
+      "candidate_key": "answer-your-cats-questions-day",
+      "tokens": [
+        "answer",
+        "cat",
+        "questions"
+      ],
+      "service_name_or_id_hits": [
+        "anv-fixed-01-01-world-day-of-peace-catholic | 세계 평화의 날(가톨릭)",
+        "anv-fixed-01-15-year-end-tax-settlement-simplification-kr | 연말정산 간소화 서비스 개시일",
+        "anv-fixed-01-24-international-day-of-education-global | 국제 교육의 날",
+        "anv-fixed-02-22-child-sexual-abuse-eradication-day-kr | 아동성폭력 추방의 날",
+        "anv-fixed-04-19-education-and-sharing-day-us | 교육과 나눔의 날",
+        "anv-fixed-05-09-moscato-day-us | 모스카토의 날",
+        "anv-fixed-05-17-world-telecommunication-information-society-day-global | 세계 정보사회의 날",
+        "anv-fixed-06-17-world-day-to-combat-desertification-global | 사막화 방지의 날",
+        "anv-fixed-06-06-higher-education-day-us | 고등교육의 날",
+        "anv-fixed-06-25-catfish-day-us | 메기의 날 (National Catfish Day)",
+        "anv-fixed-07-22-rat-catchers-day-us | 쥐잡이의 날 (National Rat Catcher's Day)",
+        "anv-fixed-08-08-international-cat-day-global | 세계 고양이의 날",
+        "anv-fixed-08-17-black-cat-appreciation-day-us | 검은 고양이 감사의 날 (Black Cat Appreciation Day)",
+        "anv-fixed-08-18-mail-order-catalog-day-us | 우편 주문 카탈로그의 날",
+        "anv-fixed-08-21-won-buddhism-legal-authentication-day-kr | 원불교 법인절",
+        "anv-fixed-09-09-korean-cat-day-kr | 한국 고양이의 날",
+        "anv-fixed-10-10-software-education-day-kr | 소프트웨어 교육의 날",
+        "anv-fixed-10-16-feral-cat-day-us | 길고양이의 날 (National Feral Cat Day)",
+        "anv-fixed-10-17-day-for-eradicating-poverty-global | 세계 빈곤퇴치의 날 (International Day for the Eradication of Poverty)",
+        "anv-fixed-10-29-cat-day-us | 고양이의 날 (National Cat Day)",
+        "anv-fixed-11-18-educational-support-professionals-day-us | 교육지원 전문가의 날",
+        "anv-fixed-12-02-special-education-day-global | 특수교육의 날 (Special Education Day)",
+        "anv-fixed-12-15-cat-herders-day-global | 고양이 몰이꾼의 날 (Cat Herders Day)"
+      ],
+      "service_same_date": [
+        "food | 블론드 브라우니의 날",
+        "quirky | 생명 축하의 날",
+        "food | 카레의 날 (カレーの日)"
+      ],
+      "prior_batch_record_hits": [
+        "2026-10-11-sparse-birthdays/records.json: 08-17-black-cat-appreciation-day",
+        "2026-10-11-sparse-birthdays/group-b/records.json: 08-17-black-cat-appreciation-day"
+      ],
+      "prior_discovery_mentions": [],
+      "related_existing": [
+        "anv-fixed-08-08-international-cat-day-global",
+        "anv-fixed-08-17-black-cat-appreciation-day-us",
+        "anv-fixed-09-09-korean-cat-day-kr",
+        "anv-fixed-10-16-feral-cat-day-us",
+        "anv-fixed-10-29-cat-day-us",
+        "anv-fixed-12-15-cat-herders-day-global"
+      ]
+    },
+    {
+      "candidate_key": "caps-lock-day",
+      "tokens": [
+        "caps",
+        "lock"
+      ],
+      "service_name_or_id_hits": [],
+      "service_same_date": [
+        "food | 견과류의 날 (National Nut Day)",
+        "culture | 색의 날 (National Color Day)",
+        "sports | 합기도의 날"
+      ],
+      "prior_batch_record_hits": [],
+      "prior_discovery_mentions": [],
+      "related_existing": []
+    },
+    {
+      "candidate_key": "mean-girls-day",
+      "tokens": [
+        "mean",
+        "girls"
+      ],
+      "service_name_or_id_hits": [
+        "anv-fixed-03-10-women-girls-hiv-aids-awareness-day-us | 여성·소녀 HIV/AIDS 인식의 날"
+      ],
+      "service_same_date": [
+        "holiday | 개천절",
+        "academic | 테키(기술 애호가)의 날 (National Techies Day)"
+      ],
+      "prior_batch_record_hits": [],
+      "prior_discovery_mentions": [],
+      "related_existing": []
+    },
+    {
+      "candidate_key": "its-gonna-be-may",
+      "tokens": [
+        "gonna",
+        "may"
+      ],
+      "service_name_or_id_hits": [
+        "anv-fixed-05-05-cinco-de-mayo-global | 싱코 데 마요 (Cinco de Mayo)",
+        "anv-fixed-05-19-may-ray-day-us | 메이 레이의 날",
+        "anv-fixed-09-16-mayflower-day-global | 메이플라워호의 날"
+      ],
+      "service_same_date": [
+        "food | 건포도의 날 (National Raisin Day)",
+        "general | 리빌딩 데이",
+        "culture | 벅스 버니의 날",
+        "campaign | 사르코이드증 인식의 날",
+        "food | 오트밀 쿠키의 날",
+        "animal | 유기동물 입양의 날",
+        "quirky | 정직의 날 (National Honesty Day)",
+        "career | 헤어스타일리스트 감사의 날",
+        "campaign | 후각의 날 (National Sense of Smell Day)",
+        "culture | 국제 재즈의 날"
+      ],
+      "prior_batch_record_hits": [],
+      "prior_discovery_mentions": [],
+      "related_existing": []
+    },
+    {
+      "candidate_key": "blue-monday",
+      "tokens": [
+        "blue",
+        "monday"
+      ],
+      "service_name_or_id_hits": [
+        "anv-fixed-01-04-thank-god-its-monday-day-us | 먼데이 감사의 날",
+        "anv-fixed-01-28-blueberry-pancake-day-global | 블루베리 팬케이크의 날",
+        "anv-fixed-03-10-blueberry-popover-day-global | 블루베리 포포버의 날",
+        "anv-fixed-04-28-blueberry-pie-day-us | 블루베리 파이의 날",
+        "anv-fixed-05-26-blueberry-cheesecake-day-us | 블루베리 치즈케이크의 날",
+        "anv-nth-05-1-mon-melanoma-monday-us | 멜라노마 먼데이 (피부암 인식의 날)",
+        "anv-fixed-07-11-blueberry-muffin-day-us | 블루베리 머핀의 날",
+        "anv-fixed-09-02-blueberry-popsicle-day-us | 블루베리 아이스바의 날",
+        "anv-rel-thanksgiving-4-cyber-monday-global | 사이버먼데이 (Cyber Monday)"
+      ],
+      "service_same_date": [],
+      "prior_batch_record_hits": [
+        "2026-10-11-sparse-birthdays/records.json: 05-26-existing",
+        "2026-10-11-sparse-birthdays/group-a/records.json: 05-26-existing"
+      ],
+      "prior_discovery_mentions": [],
+      "related_existing": []
+    },
+    {
+      "candidate_key": "earth-wind-fire-day",
+      "tokens": [
+        "earth",
+        "wind",
+        "fire"
+      ],
+      "service_name_or_id_hits": [
+        "anv-fixed-01-26-cultural-property-fire-prevention-day-jp | 문화재 방화(防火)의 날(일본)",
+        "anv-fixed-04-12-big-wind-day-us | 빅 윈드의 날 (National Big Wind Day)",
+        "anv-fixed-04-22-earth-day-global | 지구의 날 (World Earth Day)",
+        "anv-fixed-05-04-international-firefighters-day-global | 국제 소방관의 날",
+        "anv-fixed-06-15-global-wind-day-global | 세계 풍력의 날",
+        "anv-fixed-07-15-pet-fire-safety-day-us | 반려동물 화재 안전의 날",
+        "anv-fixed-08-23-ride-with-the-wind-day-us | 바람과 함께 달리는 날",
+        "anv-fixed-10-01-fire-pup-day-us | 소방견 강아지의 날 (National Fire Pup Day)",
+        "anv-fixed-11-09-firefighting-day-kr | 소방의 날"
+      ],
+      "service_same_date": [
+        "campaign | 세계 알츠하이머의 날 (World's Alzheimer's Day)",
+        "history | 세계 평화의 날 (International Day of Peace)",
+        "food | 피칸 쿠키의 날",
+        "campaign | 치매극복의 날"
+      ],
+      "prior_batch_record_hits": [],
+      "prior_discovery_mentions": [],
+      "related_existing": []
+    },
+    {
+      "candidate_key": "tau-day",
+      "tokens": [
+        "tau"
+      ],
+      "service_name_or_id_hits": [],
+      "service_same_date": [
+        "general | 보험 인식의 날",
+        "general | 철도의 날",
+        "culture | 폴 버니언의 날",
+        "history | 6·25전쟁 납북자 기억의 날"
+      ],
+      "prior_batch_record_hits": [],
+      "prior_discovery_mentions": [],
+      "related_existing": [
+        "anv-fixed-03-14-pi-day"
+      ]
+    },
+    {
+      "candidate_key": "ninja-day-jp",
+      "tokens": [
+        "忍者の日"
+      ],
+      "service_name_or_id_hits": [],
+      "service_same_date": [
+        "food | 고구마 요리의 날",
+        "food | 마가리타의 날",
+        "culture | 리한나의 날(바베이도스)",
+        "quirky | 황일절(스타크래프트 밈)",
+        "quirky | 대머리의 날(일본)",
+        "campaign | 아동성폭력 추방의 날",
+        "general | 일본 다케시마의 날"
+      ],
+      "prior_batch_record_hits": [],
+      "prior_discovery_mentions": [],
+      "related_existing": [
+        "anv-fixed-12-05-ninja-day-global"
+      ]
+    },
+    {
+      "candidate_key": "cheonsa-day-kr",
+      "tokens": [
+        "천사데이",
+        "1004"
+      ],
+      "service_name_or_id_hits": [],
+      "service_same_date": [
+        "animal | 동물보호의 날",
+        "sports | 골프의 날 (National Golf Day)",
+        "food | 보드카의 날 (National Vodka Day)",
+        "food | 타코의 날 (National Taco Day)"
+      ],
+      "prior_batch_record_hits": [],
+      "prior_discovery_mentions": [
+        "tools/namuwiki/output/namuwiki_calendar.json: 천사데이(발견용 행)",
+        "tools/research/jp-blog-raw.txt: 일본 10/4 천사의 날(별개)"
+      ],
+      "related_existing": []
+    },
+    {
+      "candidate_key": "apple-day-kr",
+      "tokens": [
+        "애플데이"
+      ],
+      "service_name_or_id_hits": [],
+      "service_same_date": [
+        "general | 국제연합일",
+        "general | 변화를 만드는 날 (National Make A Difference Day)",
+        "food | 볼로냐 소시지의 날",
+        "campaign | 세계 개발정보의 날 (World Development Information Day)",
+        "food | 음식의 날 (National Food Day)"
+      ],
+      "prior_batch_record_hits": [],
+      "prior_discovery_mentions": [
+        "tools/namuwiki/output/namuwiki_calendar.json: 사과데이(발견용 행)"
+      ],
+      "related_existing": []
+    },
+    {
+      "candidate_key": "galentines-day",
+      "tokens": [
+        "galentine"
+      ],
+      "service_name_or_id_hits": [],
+      "service_same_date": [
+        "food | 토르텔리니의 날",
+        "culture | 세계 라디오의 날"
+      ],
+      "prior_batch_record_hits": [],
+      "prior_discovery_mentions": [],
+      "related_existing": []
+    },
+    {
+      "candidate_key": "national-boyfriend-day",
+      "tokens": [
+        "boyfriend"
+      ],
+      "service_name_or_id_hits": [],
+      "service_same_date": [
+        "holiday | 개천절",
+        "academic | 테키(기술 애호가)의 날 (National Techies Day)"
+      ],
+      "prior_batch_record_hits": [],
+      "prior_discovery_mentions": [],
+      "related_existing": [
+        "anv-fixed-08-01-girlfriends-day-us"
+      ]
+    },
+    {
+      "candidate_key": "kokuhaku-day-jp",
+      "tokens": [
+        "告白の日"
+      ],
+      "service_name_or_id_hits": [],
+      "service_same_date": [
+        "food | 모스카토의 날",
+        "food | 버터스카치 브라우니의 날",
+        "campaign | 여성 건강검진의 날",
+        "history | 잃어버린 양말 추모의 날"
+      ],
+      "prior_batch_record_hits": [],
+      "prior_discovery_mentions": [],
+      "related_existing": [
+        "anv-fixed-09-17-confession-day-kr"
+      ]
+    },
+    {
+      "candidate_key": "ii-fufu-day-jp",
+      "tokens": [
+        "いい夫婦の日"
+      ],
+      "service_name_or_id_hits": [],
+      "service_same_date": [
+        "food | 크랜베리 렐리시의 날",
+        "food | 김치의 날"
+      ],
+      "prior_batch_record_hits": [],
+      "prior_discovery_mentions": [
+        "tools/research/jp-anniversaries.md: 11/22 좋은 부부의 날(과거 발견 표)"
+      ],
+      "related_existing": [
+        "gov-26"
+      ]
+    },
+    {
+      "candidate_key": "world-introvert-day",
+      "tokens": [
+        "introvert"
+      ],
+      "service_name_or_id_hits": [],
+      "service_same_date": [
+        "food | 뷔페의 날",
+        "culture | 세계 SF의 날",
+        "food | 크림퍼프(슈크림)의 날",
+        "sports | 퍼스널 트레이너의 날"
+      ],
+      "prior_batch_record_hits": [],
+      "prior_discovery_mentions": [],
+      "related_existing": []
+    },
+    {
+      "candidate_key": "bubble-wrap-appreciation-day",
+      "tokens": [
+        "bubble",
+        "wrap",
+        "appreciation"
+      ],
+      "service_name_or_id_hits": [
+        "anv-fixed-01-08-bubble-bath-day-global | 거품 목욕의 날",
+        "anv-fixed-01-21-squirrel-appreciation-day-global | 다람쥐 감사의 날",
+        "anv-fixed-03-04-employee-appreciation-day-global | 직원 감사의 날 (Employee Appreciation Day)",
+        "anv-fixed-03-28-weed-appreciation-day-global | 잡초의 날 (Weed Appreciation Day)",
+        "anv-fixed-03-30-manatee-appreciation-day-global | 매너티의 날 (Manatee Appreciation Day)",
+        "anv-fixed-04-17-bat-appreciation-day-us | 박쥐 감사의 날",
+        "anv-fixed-04-18-lineman-appreciation-day-us | 전기 기술자 감사의 날",
+        "anv-fixed-04-30-hairstylist-appreciation-day-us | 헤어스타일리스트 감사의 날",
+        "anv-fixed-05-03-teacher-appreciation-day-us | 교사 감사의 날 (National Teacher Appreciation Day)",
+        "anv-fixed-05-06-military-spouse-appreciation-day-us | 군인 배우자 감사의 날",
+        "anv-fixed-05-06-provider-appreciation-day-us | 돌봄 제공자 감사의 날",
+        "anv-fixed-06-21-daylight-appreciation-day-us | 일광 감사의 날 (National Daylight Appreciation Day)",
+        "anv-fixed-07-10-collector-car-appreciation-day-us | 클래식카 애호가의 날",
+        "anv-nth-07-l-fri-system-administrator-appreciation-day-global | 시스템 관리자의 날 (SysAdmin Day)",
+        "anv-fixed-08-17-black-cat-appreciation-day-us | 검은 고양이 감사의 날 (Black Cat Appreciation Day)",
+        "anv-fixed-09-20-wife-appreciation-day-us | 아내에게 감사하는 날",
+        "anv-fixed-09-22-elephant-appreciation-day-global | 코끼리 감사의 날 (Elephant Appreciation Day)",
+        "anv-fixed-10-11-clergy-appreciation-day-global | 성직자 감사의 날"
+      ],
+      "service_same_date": [],
+      "prior_batch_record_hits": [
+        "2026-10-11-sparse-birthdays/records.json: 08-17-black-cat-appreciation-day",
+        "2026-10-11-sparse-birthdays/group-b/records.json: 08-17-black-cat-appreciation-day"
+      ],
+      "prior_discovery_mentions": [],
+      "related_existing": []
+    },
+    {
+      "candidate_key": "international-geocaching-day",
+      "tokens": [
+        "geocaching"
+      ],
+      "service_name_or_id_hits": [],
+      "service_same_date": [],
+      "prior_batch_record_hits": [],
+      "prior_discovery_mentions": [],
+      "related_existing": []
+    },
+    {
+      "candidate_key": "kushi-day-jp",
+      "tokens": [
+        "くしの日"
+      ],
+      "service_name_or_id_hits": [],
+      "service_same_date": [
+        "academic | 지식재산의 날",
+        "general | 고향사랑의 날",
+        "quirky | 게으른 엄마의 날",
+        "food | 마카다미아의 날 (National Macadamia Nut Day)",
+        "career | 상사를 안아주는 날",
+        "career | 신문 배달원의 날",
+        "animal | 야생동물의 날 (National Wildlife Day)",
+        "sports | 태권도의 날"
+      ],
+      "prior_batch_record_hits": [],
+      "prior_discovery_mentions": [],
+      "related_existing": []
+    },
+    {
+      "candidate_key": "pants-day-jp",
+      "tokens": [
+        "パンツの日"
+      ],
+      "service_name_or_id_hits": [],
+      "service_same_date": [
+        "food | 아이스크림 샌드위치의 날",
+        "campaign | 어린이의 날 (National Kids Day)",
+        "general | 자매의 날 (National Sisters Day)",
+        "quirky | 친구의 날 (National Friendship Day)",
+        "culture | 컬러링북의 날"
+      ],
+      "prior_batch_record_hits": [],
+      "prior_discovery_mentions": [
+        "tools/research/jp-blog-raw.txt: 8/2 팬츠의 날(발견용)",
+        "tools/namuwiki/output/namuwiki_calendar.json: 팬티의 날(발견용)"
+      ],
+      "related_existing": [
+        "anv-fixed-08-05-underwear-day-us"
+      ]
+    },
+    {
+      "candidate_key": "futon-day-jp",
+      "tokens": [
+        "ふとんの日"
+      ],
+      "service_name_or_id_hits": [],
+      "service_same_date": [
+        "food | 엔젤 푸드 케이크의 날",
+        "general | 체스의 날 (National Chess Day)",
+        "animal | 코스튬 교환의 날",
+        "campaign | 세계 정신건강의 날 (World Mental Health Day)",
+        "general | 센토의 날 (銭湯の日)",
+        "campaign | 임산부의 날",
+        "campaign | 정신건강의 날",
+        "career | 여성어업인의 날",
+        "quirky | 모에의 날(일본)",
+        "campaign | 세계 사형폐지의 날",
+        "academic | 소프트웨어 교육의 날"
+      ],
+      "prior_batch_record_hits": [],
+      "prior_discovery_mentions": [],
+      "related_existing": [
+        "anv-fixed-09-11-make-your-bed-day-us"
+      ]
+    },
+    {
+      "candidate_key": "defy-superstition-day",
+      "tokens": [
+        "defy",
+        "superstition"
+      ],
+      "service_name_or_id_hits": [],
+      "service_same_date": [
+        "campaign | 세계 패혈증의 날",
+        "food | 땅콩의 날 (National Peanut Day)",
+        "animal | 반려동물 추모의 날 (National Pet Memorial Day)",
+        "animal | 사냥개를 안아주는 날",
+        "food | 아이가 주방을 차지하는 날",
+        "academic | 프로그래머의 날 (National Programmers Day)",
+        "history | 대한민국 법원의 날"
+      ],
+      "prior_batch_record_hits": [],
+      "prior_discovery_mentions": [],
+      "related_existing": []
+    },
+    {
+      "candidate_key": "yurei-day-jp",
+      "tokens": [
+        "幽霊の日"
+      ],
+      "service_name_or_id_hits": [],
+      "service_same_date": [
+        "career | 고모·삼촌의 날",
+        "food | 베이글 축제의 날",
+        "food | 커피 밀크셰이크의 날",
+        "culture | 에스페란토의 날"
+      ],
+      "prior_batch_record_hits": [],
+      "prior_discovery_mentions": [
+        "tools/research/jp-blog-raw.txt: 7/26 유령의 날(발견용)",
+        "tools/namuwiki/output/namuwiki_calendar.json: 일본 유령의 날(발견용)"
+      ],
+      "related_existing": []
+    },
+    {
+      "candidate_key": "put-a-pillow-on-your-fridge-day",
+      "tokens": [
+        "put",
+        "pillow",
+        "fridge"
+      ],
+      "service_name_or_id_hits": [
+        "anv-fixed-02-08-clean-out-your-computer-day-us | 컴퓨터 정리의 날",
+        "anv-fixed-11-30-computer-security-day-global | 컴퓨터 보안의 날 (Computer Security Day)"
+      ],
+      "service_same_date": [
+        "sports | 에베레스트 첫 등정 기념일",
+        "food | 코코뱅의 날",
+        "academic | 클립의 날 (National Paperclip Day)",
+        "food | 곤약의 날 (こんにゃくの日)",
+        "history | 해외 파병용사의 날",
+        "academic | 의료기기의 날",
+        "general | 복자 윤지충 바오로와 123위 동료 순교자 기념일",
+        "campaign | 국제 유엔 평화유지군의 날"
+      ],
+      "prior_batch_record_hits": [],
+      "prior_discovery_mentions": [],
+      "related_existing": []
+    }
+  ],
+  "quote_results": [
+    {
+      "candidate_key": "hoodie-hoo-day",
+      "claim_id": "existence_date",
+      "evidence_id": "hoodie-hoo-day/observer-reporter-2017",
+      "matched": true
+    },
+    {
+      "candidate_key": "hoodie-hoo-day",
+      "claim_id": "fabricated",
+      "evidence_id": "hoodie-hoo-day/observer-reporter-2017",
+      "matched": true
+    },
+    {
+      "candidate_key": "hoodie-hoo-day",
+      "claim_id": "ritual",
+      "evidence_id": "hoodie-hoo-day/pearson-calendar",
+      "matched": true
+    },
+    {
+      "candidate_key": "hoodie-hoo-day",
+      "claim_id": "creator",
+      "evidence_id": "hoodie-hoo-day/pearson-calendar",
+      "matched": true
+    },
+    {
+      "candidate_key": "hoodie-hoo-day",
+      "claim_id": "local_event",
+      "evidence_id": "hoodie-hoo-day/observer-reporter-2017",
+      "matched": true
+    },
+    {
+      "candidate_key": "plan-your-epitaph-day",
+      "claim_id": "date_nov2",
+      "evidence_id": "plan-your-epitaph-day/checkiday",
+      "matched": true
+    },
+    {
+      "candidate_key": "plan-your-epitaph-day",
+      "claim_id": "date_apr6",
+      "evidence_id": "plan-your-epitaph-day/nationaltoday",
+      "matched": true
+    },
+    {
+      "candidate_key": "plan-your-epitaph-day",
+      "claim_id": "existence_2001",
+      "evidence_id": "plan-your-epitaph-day/ufl-recess-2001",
+      "matched": true
+    },
+    {
+      "candidate_key": "tell-a-lie-day",
+      "claim_id": "existence_date_creator",
+      "evidence_id": "tell-a-lie-day/christianpost",
+      "matched": true
+    },
+    {
+      "candidate_key": "ask-a-stupid-question-day",
+      "claim_id": "date_default",
+      "evidence_id": "ask-a-stupid-question-day/wikipedia",
+      "matched": true
+    },
+    {
+      "candidate_key": "ask-a-stupid-question-day",
+      "claim_id": "date_1982",
+      "evidence_id": "ask-a-stupid-question-day/wikipedia",
+      "matched": true
+    },
+    {
+      "candidate_key": "ask-a-stupid-question-day",
+      "claim_id": "origin_librarian",
+      "evidence_id": "ask-a-stupid-question-day/wikipedia",
+      "matched": true
+    },
+    {
+      "candidate_key": "ask-a-stupid-question-day",
+      "claim_id": "origin_teachers",
+      "evidence_id": "ask-a-stupid-question-day/leinsterleader",
+      "matched": true
+    },
+    {
+      "candidate_key": "ask-a-stupid-question-day",
+      "claim_id": "date_928",
+      "evidence_id": "ask-a-stupid-question-day/leinsterleader",
+      "matched": true
+    },
+    {
+      "candidate_key": "no-socks-day",
+      "claim_id": "date",
+      "evidence_id": "no-socks-day/daysoftheyear",
+      "matched": true
+    },
+    {
+      "candidate_key": "no-socks-day",
+      "claim_id": "founder",
+      "evidence_id": "no-socks-day/daysoftheyear",
+      "matched": true
+    },
+    {
+      "candidate_key": "answer-your-cats-questions-day",
+      "claim_id": "date",
+      "evidence_id": "answer-your-cats-questions-day/nevada-humane",
+      "matched": true
+    },
+    {
+      "candidate_key": "answer-your-cats-questions-day",
+      "claim_id": "activity",
+      "evidence_id": "answer-your-cats-questions-day/nevada-humane",
+      "matched": true
+    },
+    {
+      "candidate_key": "caps-lock-day",
+      "claim_id": "origin_date",
+      "evidence_id": "caps-lock-day/thenextweb-2010",
+      "matched": true
+    },
+    {
+      "candidate_key": "caps-lock-day",
+      "claim_id": "two_dates",
+      "evidence_id": "caps-lock-day/nationaldaycalendar",
+      "matched": true
+    },
+    {
+      "candidate_key": "caps-lock-day",
+      "claim_id": "june28_reason",
+      "evidence_id": "caps-lock-day/nationaldaycalendar",
+      "matched": true
+    },
+    {
+      "candidate_key": "mean-girls-day",
+      "claim_id": "date",
+      "evidence_id": "mean-girls-day/cbsnews-2018",
+      "matched": true
+    },
+    {
+      "candidate_key": "mean-girls-day",
+      "claim_id": "origin",
+      "evidence_id": "mean-girls-day/time",
+      "matched": true
+    },
+    {
+      "candidate_key": "mean-girls-day",
+      "claim_id": "unofficial",
+      "evidence_id": "mean-girls-day/time",
+      "matched": true
+    },
+    {
+      "candidate_key": "its-gonna-be-may",
+      "claim_id": "annual_spike",
+      "evidence_id": "its-gonna-be-may/spotify-newsroom",
+      "matched": true
+    },
+    {
+      "candidate_key": "its-gonna-be-may",
+      "claim_id": "unofficial",
+      "evidence_id": "its-gonna-be-may/spotify-newsroom",
+      "matched": true
+    },
+    {
+      "candidate_key": "its-gonna-be-may",
+      "claim_id": "origin",
+      "evidence_id": "its-gonna-be-may/meme-com",
+      "matched": true
+    },
+    {
+      "candidate_key": "revenge-of-the-sixth",
+      "claim_id": "disney_may6",
+      "evidence_id": "revenge-of-the-sixth/disneyparksblog",
+      "matched": true
+    },
+    {
+      "candidate_key": "revenge-of-the-sixth",
+      "claim_id": "fans_may5",
+      "evidence_id": "revenge-of-the-sixth/meaww",
+      "matched": true
+    },
+    {
+      "candidate_key": "revenge-of-the-sixth",
+      "claim_id": "debate",
+      "evidence_id": "revenge-of-the-sixth/meaww",
+      "matched": true
+    },
+    {
+      "candidate_key": "blue-monday",
+      "claim_id": "debunked",
+      "evidence_id": "blue-monday/ebsco",
+      "matched": true
+    },
+    {
+      "candidate_key": "blue-monday",
+      "claim_id": "pr_origin",
+      "evidence_id": "blue-monday/ebsco",
+      "matched": true
+    },
+    {
+      "candidate_key": "blue-monday",
+      "claim_id": "year",
+      "evidence_id": "blue-monday/ebsco",
+      "matched": true
+    },
+    {
+      "candidate_key": "earth-wind-fire-day",
+      "claim_id": "meme_day",
+      "evidence_id": "earth-wind-fire-day/cfpublic-npr-2022",
+      "matched": true
+    },
+    {
+      "candidate_key": "earth-wind-fire-day",
+      "claim_id": "no_meaning",
+      "evidence_id": "earth-wind-fire-day/cfpublic-npr-2022",
+      "matched": true
+    },
+    {
+      "candidate_key": "earth-wind-fire-day",
+      "claim_id": "la_council",
+      "evidence_id": "earth-wind-fire-day/wsvn",
+      "matched": true
+    },
+    {
+      "candidate_key": "tau-day",
+      "claim_id": "founding_date",
+      "evidence_id": "tau-day/tauday",
+      "matched": true
+    },
+    {
+      "candidate_key": "tau-day",
+      "claim_id": "independent",
+      "evidence_id": "tau-day/sciam-blog",
+      "matched": true
+    },
+    {
+      "candidate_key": "ninja-day-jp",
+      "claim_id": "pun_date",
+      "evidence_id": "ninja-day-jp/timeout-jp",
+      "matched": true
+    },
+    {
+      "candidate_key": "ninja-day-jp",
+      "claim_id": "council",
+      "evidence_id": "ninja-day-jp/timeout-jp",
+      "matched": true
+    },
+    {
+      "candidate_key": "ninja-day-jp",
+      "claim_id": "government_event",
+      "evidence_id": "ninja-day-jp/pref-mie",
+      "matched": true
+    },
+    {
+      "candidate_key": "cheonsa-day-kr",
+      "claim_id": "pun",
+      "evidence_id": "cheonsa-day-kr/kormedi",
+      "matched": true
+    },
+    {
+      "candidate_key": "cheonsa-day-kr",
+      "claim_id": "event",
+      "evidence_id": "cheonsa-day-kr/kormedi",
+      "matched": true
+    },
+    {
+      "candidate_key": "apple-day-kr",
+      "claim_id": "date_pun",
+      "evidence_id": "apple-day-kr/seoul-2013",
+      "matched": true
+    },
+    {
+      "candidate_key": "apple-day-kr",
+      "claim_id": "year",
+      "evidence_id": "apple-day-kr/seoul-2013",
+      "matched": true
+    },
+    {
+      "candidate_key": "apple-day-kr",
+      "claim_id": "body",
+      "evidence_id": "apple-day-kr/syu",
+      "matched": true
+    },
+    {
+      "candidate_key": "galentines-day",
+      "claim_id": "origin",
+      "evidence_id": "galentines-day/mentalfloss",
+      "matched": true
+    },
+    {
+      "candidate_key": "galentines-day",
+      "claim_id": "date",
+      "evidence_id": "galentines-day/history-com",
+      "matched": true
+    },
+    {
+      "candidate_key": "national-boyfriend-day",
+      "claim_id": "date",
+      "evidence_id": "national-boyfriend-day/wikipedia",
+      "matched": true
+    },
+    {
+      "candidate_key": "national-boyfriend-day",
+      "claim_id": "origin",
+      "evidence_id": "national-boyfriend-day/wikipedia",
+      "matched": true
+    },
+    {
+      "candidate_key": "kokuhaku-day-jp",
+      "claim_id": "founder_pun",
+      "evidence_id": "kokuhaku-day-jp/netlab-0509",
+      "matched": true
+    },
+    {
+      "candidate_key": "ii-fufu-day-jp",
+      "claim_id": "founder",
+      "evidence_id": "ii-fufu-day-jp/bestcalendar",
+      "matched": true
+    },
+    {
+      "candidate_key": "ii-fufu-day-jp",
+      "claim_id": "year",
+      "evidence_id": "ii-fufu-day-jp/bestcalendar",
+      "matched": true
+    },
+    {
+      "candidate_key": "world-introvert-day",
+      "claim_id": "first",
+      "evidence_id": "world-introvert-day/nationaldaycalendar",
+      "matched": true
+    },
+    {
+      "candidate_key": "world-introvert-day",
+      "claim_id": "founder",
+      "evidence_id": "world-introvert-day/nationaldaycalendar",
+      "matched": true
+    },
+    {
+      "candidate_key": "bubble-wrap-appreciation-day",
+      "claim_id": "npr_2013",
+      "evidence_id": "bubble-wrap-appreciation-day/npr-2013",
+      "matched": true
+    },
+    {
+      "candidate_key": "bubble-wrap-appreciation-day",
+      "claim_id": "npr_2013",
+      "evidence_id": "bubble-wrap-appreciation-day/npr-2013",
+      "matched": true
+    },
+    {
+      "candidate_key": "bubble-wrap-appreciation-day",
+      "claim_id": "rule",
+      "evidence_id": "bubble-wrap-appreciation-day/bellevue-library",
+      "matched": true
+    },
+    {
+      "candidate_key": "bubble-wrap-appreciation-day",
+      "claim_id": "radio_origin",
+      "evidence_id": "bubble-wrap-appreciation-day/bellevue-library",
+      "matched": true
+    },
+    {
+      "candidate_key": "ugly-christmas-sweater-day",
+      "claim_id": "rule",
+      "evidence_id": "ugly-christmas-sweater-day/dictionary-com",
+      "matched": true
+    },
+    {
+      "candidate_key": "ugly-christmas-sweater-day",
+      "claim_id": "start",
+      "evidence_id": "ugly-christmas-sweater-day/dictionary-com",
+      "matched": true
+    },
+    {
+      "candidate_key": "international-geocaching-day",
+      "claim_id": "first",
+      "evidence_id": "international-geocaching-day/geocaching-blog-2011",
+      "matched": true
+    },
+    {
+      "candidate_key": "international-geocaching-day",
+      "claim_id": "rule",
+      "evidence_id": "international-geocaching-day/geocaching-blog-2012",
+      "matched": true
+    },
+    {
+      "candidate_key": "kushi-day-jp",
+      "claim_id": "founder_year",
+      "evidence_id": "kushi-day-jp/zatsuneta",
+      "matched": true
+    },
+    {
+      "candidate_key": "kushi-day-jp",
+      "claim_id": "pun",
+      "evidence_id": "kushi-day-jp/zatsuneta",
+      "matched": true
+    },
+    {
+      "candidate_key": "kushi-day-jp",
+      "claim_id": "year_2",
+      "evidence_id": "kushi-day-jp/bestcalendar",
+      "matched": true
+    },
+    {
+      "candidate_key": "pants-day-jp",
+      "claim_id": "founder_1984",
+      "evidence_id": "pants-day-jp/bestcalendar",
+      "matched": true
+    },
+    {
+      "candidate_key": "pants-day-jp",
+      "claim_id": "founder_1984",
+      "evidence_id": "pants-day-jp/bestcalendar",
+      "matched": true
+    },
+    {
+      "candidate_key": "pants-day-jp",
+      "claim_id": "pun",
+      "evidence_id": "pants-day-jp/bestcalendar",
+      "matched": true
+    },
+    {
+      "candidate_key": "pants-day-jp",
+      "claim_id": "wacoal",
+      "evidence_id": "pants-day-jp/zatsuneta-wacoal",
+      "matched": true
+    },
+    {
+      "candidate_key": "futon-day-jp",
+      "claim_id": "founding",
+      "evidence_id": "futon-day-jp/zatsuneta-0210",
+      "matched": true
+    },
+    {
+      "candidate_key": "futon-day-jp",
+      "claim_id": "founding",
+      "evidence_id": "futon-day-jp/zatsuneta-0210",
+      "matched": true
+    },
+    {
+      "candidate_key": "futon-day-jp",
+      "claim_id": "changed",
+      "evidence_id": "futon-day-jp/bestcalendar-1010",
+      "matched": true
+    },
+    {
+      "candidate_key": "futon-day-jp",
+      "claim_id": "changed",
+      "evidence_id": "futon-day-jp/bestcalendar-1010",
+      "matched": true
+    },
+    {
+      "candidate_key": "defy-superstition-day",
+      "claim_id": "date",
+      "evidence_id": "defy-superstition-day/whatsupnewp",
+      "matched": true
+    },
+    {
+      "candidate_key": "defy-superstition-day",
+      "claim_id": "origin",
+      "evidence_id": "defy-superstition-day/whatsupnewp",
+      "matched": true
+    },
+    {
+      "candidate_key": "yurei-day-jp",
+      "claim_id": "premiere",
+      "evidence_id": "yurei-day-jp/zatsuneta",
+      "matched": true
+    },
+    {
+      "candidate_key": "yurei-day-jp",
+      "claim_id": "naming",
+      "evidence_id": "yurei-day-jp/bestcalendar",
+      "matched": true
+    },
+    {
+      "candidate_key": "put-a-pillow-on-your-fridge-day",
+      "claim_id": "ritual",
+      "evidence_id": "put-a-pillow-on-your-fridge-day/manualredeye",
+      "matched": true
+    },
+    {
+      "candidate_key": "put-a-pillow-on-your-fridge-day",
+      "claim_id": "date_unknown_reason",
+      "evidence_id": "put-a-pillow-on-your-fridge-day/manualredeye",
+      "matched": true
+    },
+    {
+      "candidate_key": "put-a-pillow-on-your-fridge-day",
+      "claim_id": "folk_origin",
+      "evidence_id": "put-a-pillow-on-your-fridge-day/manualredeye",
+      "matched": true
+    }
+  ]
+}

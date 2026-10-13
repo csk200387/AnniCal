@@ -1,0 +1,1262 @@
+{
+  "ok": true,
+  "errors": [],
+  "generated_at": "2026-10-11T23:08:56.827Z",
+  "production_items_checked": 1756,
+  "production_writes": false,
+  "vite_server_closed": true,
+  "record_count": 15,
+  "status_counts": {
+    "evidenced": 13,
+    "review": 1,
+    "blocked": 1,
+    "rejected": 0
+  },
+  "proposed_count": 14,
+  "quotes_checked": 101,
+  "quotes_matched": 101,
+  "fetch_attempts": 52,
+  "fetch_ok": 37,
+  "fetch_failed": [
+    {
+      "key": "african-descent-day",
+      "url": "https://digitallibrary.un.org/record/3896428?ln=en",
+      "status": "blocked_empty_body",
+      "error": null
+    },
+    {
+      "key": "ukraine-independence-day",
+      "url": "https://static.rada.gov.ua/site/postanova_eng/Rres_Declaration_Independence_rev12.htm",
+      "status": "blocked",
+      "error": "HTTPError: 404 HTTP Error 404: Not Found"
+    },
+    {
+      "key": "ukraine-independence-day",
+      "url": "https://zakon.rada.gov.ua/laws/show/1427-12",
+      "status": "blocked",
+      "error": "URLError:  <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>"
+    },
+    {
+      "key": "ukraine-independence-day",
+      "url": "https://zakon.rada.gov.ua/laws/show/322-08#n1219",
+      "status": "blocked",
+      "error": "URLError:  <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>"
+    },
+    {
+      "key": "african-descent-day",
+      "url": "https://digitallibrary.un.org/record/3896428/files/A_RES_75_170-EN.pdf",
+      "status": "blocked_empty_body",
+      "error": null
+    },
+    {
+      "key": "african-descent-day",
+      "url": "https://docs.un.org/en/A/RES/75/170",
+      "status": "blocked_empty_body",
+      "error": null
+    },
+    {
+      "key": "india-constitution-day",
+      "url": "https://dsel.education.gov.in/nkpa",
+      "status": "blocked_empty_body",
+      "error": null
+    },
+    {
+      "key": "world-snake-day",
+      "url": "https://littlerockzoo.com/world-snake-day-2024/",
+      "status": "blocked",
+      "error": "HTTPError: 404 HTTP Error 404: Not Found"
+    },
+    {
+      "key": "pluto-demoted-day",
+      "url": "https://www.timeanddate.com/holidays/fun/pluto-demoted-day",
+      "status": "blocked",
+      "error": "HTTPError: 403 HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "pluto-demoted-day",
+      "url": "https://www.iau.org/news/pressreleases/detail/iau0603",
+      "status": "blocked",
+      "error": "HTTPError: 404 HTTP Error 404: Not Found"
+    },
+    {
+      "key": "world-rock-day-br",
+      "url": "https://www.preparaenem.com/datas-comemorativas/13-de-julho-dia-mundial-do-rock.htm",
+      "status": "blocked",
+      "error": "URLError:  <urlopen error timed out>"
+    },
+    {
+      "key": "pluto-demoted-day",
+      "url": "https://www.iau.org/news/pressreleases/detail/iau0603/",
+      "status": "blocked",
+      "error": "HTTPError: 404 HTTP Error 404: Not Found"
+    },
+    {
+      "key": "pluto-demoted-day",
+      "url": "https://www.nationaldaycalendar.com/national-day/pluto-demoted-day-august-24",
+      "status": "blocked",
+      "error": "HTTPError: 404 HTTP Error 404: Not Found"
+    },
+    {
+      "key": "pluto-demoted-day",
+      "url": "https://blogs.coventry.ac.uk/uncovered/?p=12273",
+      "status": "blocked",
+      "error": "URLError:  <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "key": "fuji-day-jp",
+      "url": "https://www.pref.yamanashi.jp/documents/64486/fujisannohi2015.pdf",
+      "status": "blocked",
+      "error": "HTTPError: 404 HTTP Error 404: Not Found"
+    }
+  ],
+  "draft_lengths": [
+    {
+      "id": "anv-fixed-02-23-mount-fuji-day-jp",
+      "origin": 167,
+      "anecdote": 157
+    },
+    {
+      "id": "anv-fixed-02-23-rotary-world-understanding-peace-day",
+      "origin": 208,
+      "anecdote": 194
+    },
+    {
+      "id": "anv-fixed-07-13-montenegro-statehood-day",
+      "origin": 197,
+      "anecdote": 180
+    },
+    {
+      "id": "anv-fixed-07-16-world-snake-day-global",
+      "origin": 157,
+      "anecdote": 193
+    },
+    {
+      "id": "anv-fixed-07-19-myanmar-martyrs-day",
+      "origin": 184,
+      "anecdote": 213
+    },
+    {
+      "id": "anv-fixed-08-24-ukraine-independence-day",
+      "origin": 184,
+      "anecdote": 204
+    },
+    {
+      "id": "anv-fixed-08-24-pluto-demoted-day",
+      "origin": 191,
+      "anecdote": 210
+    },
+    {
+      "id": "anv-fixed-08-31-international-overdose-awareness-day",
+      "origin": 183,
+      "anecdote": 180
+    },
+    {
+      "id": "anv-fixed-08-31-international-day-people-of-african-descent-global",
+      "origin": 168,
+      "anecdote": 194
+    },
+    {
+      "id": "anv-fixed-09-24-world-gorilla-day-global",
+      "origin": 190,
+      "anecdote": 167
+    },
+    {
+      "id": "anv-fixed-10-27-film-day-kr",
+      "origin": 180,
+      "anecdote": 235
+    },
+    {
+      "id": "anv-fixed-11-26-india-constitution-day",
+      "origin": 126,
+      "anecdote": 151
+    },
+    {
+      "id": "anv-fixed-12-19-goa-liberation-day",
+      "origin": 169,
+      "anecdote": 188
+    },
+    {
+      "id": "anv-fixed-07-13-world-rock-day-br",
+      "origin": 174,
+      "anecdote": 178
+    }
+  ],
+  "occurrences": [
+    {
+      "candidate_key": "fuji-day-jp",
+      "year": 2026,
+      "occurrence": "2026-02-23"
+    },
+    {
+      "candidate_key": "fuji-day-jp",
+      "year": 2027,
+      "occurrence": "2027-02-23"
+    },
+    {
+      "candidate_key": "fuji-day-jp",
+      "year": 2028,
+      "occurrence": "2028-02-23"
+    },
+    {
+      "candidate_key": "rotary-peace-day",
+      "year": 2026,
+      "occurrence": "2026-02-23"
+    },
+    {
+      "candidate_key": "rotary-peace-day",
+      "year": 2027,
+      "occurrence": "2027-02-23"
+    },
+    {
+      "candidate_key": "rotary-peace-day",
+      "year": 2028,
+      "occurrence": "2028-02-23"
+    },
+    {
+      "candidate_key": "montenegro-statehood-day",
+      "year": 2026,
+      "occurrence": "2026-07-13"
+    },
+    {
+      "candidate_key": "montenegro-statehood-day",
+      "year": 2027,
+      "occurrence": "2027-07-13"
+    },
+    {
+      "candidate_key": "montenegro-statehood-day",
+      "year": 2028,
+      "occurrence": "2028-07-13"
+    },
+    {
+      "candidate_key": "world-snake-day",
+      "year": 2026,
+      "occurrence": "2026-07-16"
+    },
+    {
+      "candidate_key": "world-snake-day",
+      "year": 2027,
+      "occurrence": "2027-07-16"
+    },
+    {
+      "candidate_key": "world-snake-day",
+      "year": 2028,
+      "occurrence": "2028-07-16"
+    },
+    {
+      "candidate_key": "myanmar-martyrs-day",
+      "year": 2026,
+      "occurrence": "2026-07-19"
+    },
+    {
+      "candidate_key": "myanmar-martyrs-day",
+      "year": 2027,
+      "occurrence": "2027-07-19"
+    },
+    {
+      "candidate_key": "myanmar-martyrs-day",
+      "year": 2028,
+      "occurrence": "2028-07-19"
+    },
+    {
+      "candidate_key": "ukraine-independence-day",
+      "year": 2026,
+      "occurrence": "2026-08-24"
+    },
+    {
+      "candidate_key": "ukraine-independence-day",
+      "year": 2027,
+      "occurrence": "2027-08-24"
+    },
+    {
+      "candidate_key": "ukraine-independence-day",
+      "year": 2028,
+      "occurrence": "2028-08-24"
+    },
+    {
+      "candidate_key": "pluto-demoted-day",
+      "year": 2026,
+      "occurrence": "2026-08-24"
+    },
+    {
+      "candidate_key": "pluto-demoted-day",
+      "year": 2027,
+      "occurrence": "2027-08-24"
+    },
+    {
+      "candidate_key": "pluto-demoted-day",
+      "year": 2028,
+      "occurrence": "2028-08-24"
+    },
+    {
+      "candidate_key": "overdose-awareness-day",
+      "year": 2026,
+      "occurrence": "2026-08-31"
+    },
+    {
+      "candidate_key": "overdose-awareness-day",
+      "year": 2027,
+      "occurrence": "2027-08-31"
+    },
+    {
+      "candidate_key": "overdose-awareness-day",
+      "year": 2028,
+      "occurrence": "2028-08-31"
+    },
+    {
+      "candidate_key": "african-descent-day",
+      "year": 2026,
+      "occurrence": "2026-08-31"
+    },
+    {
+      "candidate_key": "african-descent-day",
+      "year": 2027,
+      "occurrence": "2027-08-31"
+    },
+    {
+      "candidate_key": "african-descent-day",
+      "year": 2028,
+      "occurrence": "2028-08-31"
+    },
+    {
+      "candidate_key": "world-gorilla-day",
+      "year": 2026,
+      "occurrence": "2026-09-24"
+    },
+    {
+      "candidate_key": "world-gorilla-day",
+      "year": 2027,
+      "occurrence": "2027-09-24"
+    },
+    {
+      "candidate_key": "world-gorilla-day",
+      "year": 2028,
+      "occurrence": "2028-09-24"
+    },
+    {
+      "candidate_key": "korea-film-day",
+      "year": 2026,
+      "occurrence": "2026-10-27"
+    },
+    {
+      "candidate_key": "korea-film-day",
+      "year": 2027,
+      "occurrence": "2027-10-27"
+    },
+    {
+      "candidate_key": "korea-film-day",
+      "year": 2028,
+      "occurrence": "2028-10-27"
+    },
+    {
+      "candidate_key": "india-constitution-day",
+      "year": 2026,
+      "occurrence": "2026-11-26"
+    },
+    {
+      "candidate_key": "india-constitution-day",
+      "year": 2027,
+      "occurrence": "2027-11-26"
+    },
+    {
+      "candidate_key": "india-constitution-day",
+      "year": 2028,
+      "occurrence": "2028-11-26"
+    },
+    {
+      "candidate_key": "goa-liberation-day",
+      "year": 2026,
+      "occurrence": "2026-12-19"
+    },
+    {
+      "candidate_key": "goa-liberation-day",
+      "year": 2027,
+      "occurrence": "2027-12-19"
+    },
+    {
+      "candidate_key": "goa-liberation-day",
+      "year": 2028,
+      "occurrence": "2028-12-19"
+    },
+    {
+      "candidate_key": "world-rock-day-br",
+      "year": 2026,
+      "occurrence": "2026-07-13"
+    },
+    {
+      "candidate_key": "world-rock-day-br",
+      "year": 2027,
+      "occurrence": "2027-07-13"
+    },
+    {
+      "candidate_key": "world-rock-day-br",
+      "year": 2028,
+      "occurrence": "2028-07-13"
+    },
+    {
+      "candidate_key": "japan-first-flight-day",
+      "year": 2026,
+      "occurrence": "2026-12-19"
+    },
+    {
+      "candidate_key": "japan-first-flight-day",
+      "year": 2027,
+      "occurrence": "2027-12-19"
+    },
+    {
+      "candidate_key": "japan-first-flight-day",
+      "year": 2028,
+      "occurrence": "2028-12-19"
+    }
+  ],
+  "per_date_simulation": [
+    {
+      "date": "02-23",
+      "year": 2026,
+      "existing": 2,
+      "existing_non_food": 0,
+      "candidates_evidenced": 2,
+      "candidates_review": 0
+    },
+    {
+      "date": "02-23",
+      "year": 2027,
+      "existing": 2,
+      "existing_non_food": 0,
+      "candidates_evidenced": 2,
+      "candidates_review": 0
+    },
+    {
+      "date": "02-23",
+      "year": 2028,
+      "existing": 2,
+      "existing_non_food": 0,
+      "candidates_evidenced": 2,
+      "candidates_review": 0
+    },
+    {
+      "date": "07-13",
+      "year": 2026,
+      "existing": 2,
+      "existing_non_food": 0,
+      "candidates_evidenced": 1,
+      "candidates_review": 1
+    },
+    {
+      "date": "07-13",
+      "year": 2027,
+      "existing": 2,
+      "existing_non_food": 0,
+      "candidates_evidenced": 1,
+      "candidates_review": 1
+    },
+    {
+      "date": "07-13",
+      "year": 2028,
+      "existing": 2,
+      "existing_non_food": 0,
+      "candidates_evidenced": 1,
+      "candidates_review": 1
+    },
+    {
+      "date": "07-16",
+      "year": 2026,
+      "existing": 2,
+      "existing_non_food": 0,
+      "candidates_evidenced": 1,
+      "candidates_review": 0
+    },
+    {
+      "date": "07-16",
+      "year": 2027,
+      "existing": 2,
+      "existing_non_food": 0,
+      "candidates_evidenced": 1,
+      "candidates_review": 0
+    },
+    {
+      "date": "07-16",
+      "year": 2028,
+      "existing": 3,
+      "existing_non_food": 0,
+      "candidates_evidenced": 1,
+      "candidates_review": 0
+    },
+    {
+      "date": "07-19",
+      "year": 2026,
+      "existing": 2,
+      "existing_non_food": 0,
+      "candidates_evidenced": 1,
+      "candidates_review": 0
+    },
+    {
+      "date": "07-19",
+      "year": 2027,
+      "existing": 1,
+      "existing_non_food": 0,
+      "candidates_evidenced": 1,
+      "candidates_review": 0
+    },
+    {
+      "date": "07-19",
+      "year": 2028,
+      "existing": 2,
+      "existing_non_food": 0,
+      "candidates_evidenced": 1,
+      "candidates_review": 0
+    },
+    {
+      "date": "08-24",
+      "year": 2026,
+      "existing": 2,
+      "existing_non_food": 0,
+      "candidates_evidenced": 2,
+      "candidates_review": 0
+    },
+    {
+      "date": "08-24",
+      "year": 2027,
+      "existing": 2,
+      "existing_non_food": 0,
+      "candidates_evidenced": 2,
+      "candidates_review": 0
+    },
+    {
+      "date": "08-24",
+      "year": 2028,
+      "existing": 2,
+      "existing_non_food": 0,
+      "candidates_evidenced": 2,
+      "candidates_review": 0
+    },
+    {
+      "date": "08-31",
+      "year": 2026,
+      "existing": 2,
+      "existing_non_food": 0,
+      "candidates_evidenced": 2,
+      "candidates_review": 0
+    },
+    {
+      "date": "08-31",
+      "year": 2027,
+      "existing": 2,
+      "existing_non_food": 0,
+      "candidates_evidenced": 2,
+      "candidates_review": 0
+    },
+    {
+      "date": "08-31",
+      "year": 2028,
+      "existing": 2,
+      "existing_non_food": 0,
+      "candidates_evidenced": 2,
+      "candidates_review": 0
+    },
+    {
+      "date": "09-24",
+      "year": 2026,
+      "existing": 2,
+      "existing_non_food": 1,
+      "candidates_evidenced": 1,
+      "candidates_review": 0
+    },
+    {
+      "date": "09-24",
+      "year": 2027,
+      "existing": 3,
+      "existing_non_food": 2,
+      "candidates_evidenced": 1,
+      "candidates_review": 0
+    },
+    {
+      "date": "09-24",
+      "year": 2028,
+      "existing": 2,
+      "existing_non_food": 1,
+      "candidates_evidenced": 1,
+      "candidates_review": 0
+    },
+    {
+      "date": "10-27",
+      "year": 2026,
+      "existing": 3,
+      "existing_non_food": 2,
+      "candidates_evidenced": 1,
+      "candidates_review": 0
+    },
+    {
+      "date": "10-27",
+      "year": 2027,
+      "existing": 2,
+      "existing_non_food": 1,
+      "candidates_evidenced": 1,
+      "candidates_review": 0
+    },
+    {
+      "date": "10-27",
+      "year": 2028,
+      "existing": 2,
+      "existing_non_food": 1,
+      "candidates_evidenced": 1,
+      "candidates_review": 0
+    },
+    {
+      "date": "11-26",
+      "year": 2026,
+      "existing": 3,
+      "existing_non_food": 1,
+      "candidates_evidenced": 1,
+      "candidates_review": 0
+    },
+    {
+      "date": "11-26",
+      "year": 2027,
+      "existing": 7,
+      "existing_non_food": 6,
+      "candidates_evidenced": 1,
+      "candidates_review": 0
+    },
+    {
+      "date": "11-26",
+      "year": 2028,
+      "existing": 1,
+      "existing_non_food": 0,
+      "candidates_evidenced": 1,
+      "candidates_review": 0
+    },
+    {
+      "date": "12-19",
+      "year": 2026,
+      "existing": 2,
+      "existing_non_food": 0,
+      "candidates_evidenced": 1,
+      "candidates_review": 0
+    },
+    {
+      "date": "12-19",
+      "year": 2027,
+      "existing": 2,
+      "existing_non_food": 0,
+      "candidates_evidenced": 1,
+      "candidates_review": 0
+    },
+    {
+      "date": "12-19",
+      "year": 2028,
+      "existing": 2,
+      "existing_non_food": 0,
+      "candidates_evidenced": 1,
+      "candidates_review": 0
+    }
+  ],
+  "duplicate_audit": [
+    {
+      "candidate_key": "fuji-day-jp",
+      "tokens": [
+        "富士山の日",
+        "후지산"
+      ],
+      "service_name_or_id_hits": [],
+      "service_same_date": [
+        {
+          "id": "anv-fixed-02-23-dog-biscuit-day-us",
+          "name": "도그 비스킷의 날",
+          "category": "food"
+        },
+        {
+          "id": "anv-fixed-02-23-banana-bread-day-us",
+          "name": "바나나 브레드의 날",
+          "category": "food"
+        }
+      ],
+      "prior_research_hits": [],
+      "namuwiki_discovery_leads": [],
+      "distinct_from_similar_reason": null
+    },
+    {
+      "candidate_key": "rotary-peace-day",
+      "tokens": [
+        "understanding",
+        "peace",
+        "rotary",
+        "이해와",
+        "평화"
+      ],
+      "service_name_or_id_hits": [
+        {
+          "id": "anv-fixed-01-01-world-day-of-peace-catholic",
+          "name": "세계 평화의 날(가톨릭)",
+          "date": "01-01"
+        },
+        {
+          "id": "anv-fixed-04-29-peace-rose-day-us",
+          "name": "평화의 장미 날",
+          "date": "04-29"
+        },
+        {
+          "id": "anv-fixed-05-29-international-day-of-un-peacekeepers-global",
+          "name": "국제 유엔 평화유지군의 날",
+          "date": "05-29"
+        },
+        {
+          "id": "anv-fixed-09-15-greenpeace-day-global",
+          "name": "그린피스의 날 (Greenpeace Day)",
+          "date": "09-15"
+        },
+        {
+          "id": "anv-fixed-09-21-international-day-of-peace-global",
+          "name": "세계 평화의 날 (International Day of Peace)",
+          "date": "09-21"
+        },
+        {
+          "id": "anv-fixed-09-22-international-day-of-radiant-peace-global",
+          "name": "세계 찬란한 평화의 날",
+          "date": "09-22"
+        },
+        {
+          "id": "anv-fixed-11-10-world-science-day-for-peace-and-development-global",
+          "name": "평화와 발전을 위한 세계 과학의 날",
+          "date": "11-10"
+        },
+        {
+          "id": "anv-fixed-12-31-universal-hour-of-peace-global",
+          "name": "세계 평화의 시간 (Universal Hour of Peace)",
+          "date": "12-31"
+        }
+      ],
+      "service_same_date": [
+        {
+          "id": "anv-fixed-02-23-dog-biscuit-day-us",
+          "name": "도그 비스킷의 날",
+          "category": "food"
+        },
+        {
+          "id": "anv-fixed-02-23-banana-bread-day-us",
+          "name": "바나나 브레드의 날",
+          "category": "food"
+        }
+      ],
+      "prior_research_hits": [],
+      "namuwiki_discovery_leads": [],
+      "distinct_from_similar_reason": "UN \"세계 평화의 날\"(09-21)·가톨릭 \"세계 평화의 날\"(01-01)과 제정 주체(로터리)·날짜·유래(1905년 첫 모임)가 다름."
+    },
+    {
+      "candidate_key": "montenegro-statehood-day",
+      "tokens": [
+        "statehood",
+        "몬테네그로",
+        "국가성립"
+      ],
+      "service_name_or_id_hits": [],
+      "service_same_date": [
+        {
+          "id": "anv-fixed-07-13-french-fry-day-us",
+          "name": "감자튀김의 날 (National French Fry Day)",
+          "category": "food"
+        },
+        {
+          "id": "anv-fixed-07-13-beans-n-franks-day-us",
+          "name": "콩과 소시지의 날",
+          "category": "food"
+        }
+      ],
+      "prior_research_hits": [],
+      "namuwiki_discovery_leads": [],
+      "distinct_from_similar_reason": null
+    },
+    {
+      "candidate_key": "world-snake-day",
+      "tokens": [
+        "snake"
+      ],
+      "service_name_or_id_hits": [],
+      "service_same_date": [
+        {
+          "id": "anv-fixed-07-16-corn-fritters-day-us",
+          "name": "콘 프리터의 날",
+          "category": "food"
+        },
+        {
+          "id": "anv-fixed-07-16-personal-chefs-day-us",
+          "name": "퍼스널 셰프의 날",
+          "category": "food"
+        }
+      ],
+      "prior_research_hits": [],
+      "namuwiki_discovery_leads": [],
+      "distinct_from_similar_reason": "기존 \"뱀의 날\"(anv-fixed-02-01-serpent-day-global, 2월 1일, nationaldaycalendar National Serpent Day 출처)과 날짜·원명이 다른 별개 기념일. 주제가 겹쳐 검수자가 병존 여부를 판단해야 함."
+    },
+    {
+      "candidate_key": "myanmar-martyrs-day",
+      "tokens": [
+        "martyrs",
+        "미얀마",
+        "순국자"
+      ],
+      "service_name_or_id_hits": [
+        {
+          "id": "anv-fixed-05-29-blessed-yun-ji-chung-paul-123-companion-martyrs-kr",
+          "name": "복자 윤지충 바오로와 123위 동료 순교자 기념일",
+          "date": "05-29"
+        }
+      ],
+      "service_same_date": [
+        {
+          "id": "anv-fixed-07-19-daiquiri-day-us",
+          "name": "다이키리의 날 (National Daiquiri Day)",
+          "category": "food"
+        }
+      ],
+      "prior_research_hits": [],
+      "namuwiki_discovery_leads": [],
+      "distinct_from_similar_reason": null
+    },
+    {
+      "candidate_key": "ukraine-independence-day",
+      "tokens": [
+        "independence",
+        "ukraine",
+        "우크라이나",
+        "독립"
+      ],
+      "service_name_or_id_hits": [
+        {
+          "id": "anv-fixed-02-24-estonia-independence-day",
+          "name": "에스토니아 독립기념일 (Estonian Independence Day)",
+          "date": "02-24"
+        },
+        {
+          "id": "anv-fixed-07-04-independence-day-us",
+          "name": "미국 독립기념일 (Independence Day)",
+          "date": "07-04"
+        },
+        {
+          "id": "anv-fixed-07-09-argentina-independence-day",
+          "name": "아르헨티나 독립기념일 (Argentine Independence Day)",
+          "date": "07-09"
+        },
+        {
+          "id": "gov-52",
+          "name": "학생독립운동 기념일",
+          "date": "11-03"
+        }
+      ],
+      "service_same_date": [
+        {
+          "id": "anv-fixed-08-24-waffle-day-us",
+          "name": "와플의 날 (National Waffle Day)",
+          "category": "food"
+        },
+        {
+          "id": "anv-fixed-08-24-peach-pie-day-us",
+          "name": "피치파이의 날",
+          "category": "food"
+        }
+      ],
+      "prior_research_hits": [
+        {
+          "file": "2026-10-11-sparse-birthdays/records.json",
+          "candidate_key": "02-24-estonia",
+          "name_ko": "에스토니아 독립기념일",
+          "date": "02-24",
+          "status": "evidenced"
+        },
+        {
+          "file": "2026-10-11-sparse-birthdays/records.json",
+          "candidate_key": "07-09-argentina-independence-day",
+          "name_ko": "아르헨티나 독립기념일",
+          "date": "07-09",
+          "status": "evidenced"
+        },
+        {
+          "file": "2026-10-11-sparse-birthdays/group-a/records.json",
+          "candidate_key": "02-24-estonia",
+          "name_ko": "에스토니아 독립기념일",
+          "date": "02-24",
+          "status": "evidenced"
+        },
+        {
+          "file": "2026-10-11-sparse-birthdays/group-b/records.json",
+          "candidate_key": "07-09-argentina-independence-day",
+          "name_ko": "아르헨티나 독립기념일",
+          "date": "07-09",
+          "status": "evidenced"
+        }
+      ],
+      "namuwiki_discovery_leads": [],
+      "distinct_from_similar_reason": "서비스·기존 research 의 다른 독립기념일(에스토니아·미국·아르헨티나)과 나라가 다름. 나무위키 발견 행의 \"우크라이나 단결의 날\"(02-16)과도 별개."
+    },
+    {
+      "candidate_key": "pluto-demoted-day",
+      "tokens": [
+        "pluto",
+        "demoted",
+        "명왕성",
+        "강등"
+      ],
+      "service_name_or_id_hits": [],
+      "service_same_date": [
+        {
+          "id": "anv-fixed-08-24-waffle-day-us",
+          "name": "와플의 날 (National Waffle Day)",
+          "category": "food"
+        },
+        {
+          "id": "anv-fixed-08-24-peach-pie-day-us",
+          "name": "피치파이의 날",
+          "category": "food"
+        }
+      ],
+      "prior_research_hits": [],
+      "namuwiki_discovery_leads": [],
+      "distinct_from_similar_reason": "서비스·기존 research 에 명왕성·IAU 관련 항목 없음."
+    },
+    {
+      "candidate_key": "overdose-awareness-day",
+      "tokens": [
+        "overdose",
+        "ioad",
+        "약물",
+        "과다복용"
+      ],
+      "service_name_or_id_hits": [],
+      "service_same_date": [
+        {
+          "id": "anv-fixed-08-31-trail-mix-day-us",
+          "name": "트레일 믹스의 날 (National Trail Mix Day)",
+          "category": "food"
+        },
+        {
+          "id": "anv-fixed-08-31-vegetable-day-jp",
+          "name": "야채의 날 (野菜の日)",
+          "category": "food"
+        }
+      ],
+      "prior_research_hits": [],
+      "namuwiki_discovery_leads": [],
+      "distinct_from_similar_reason": null
+    },
+    {
+      "candidate_key": "african-descent-day",
+      "tokens": [
+        "african",
+        "descent",
+        "아프리카계",
+        "사람들"
+      ],
+      "service_name_or_id_hits": [
+        {
+          "id": "anv-fixed-06-13-kitchen-klutzes-day-us",
+          "name": "부엌 서투른 사람들의 날",
+          "date": "06-13"
+        },
+        {
+          "id": "anv-fixed-06-16-day-of-the-african-child",
+          "name": "아프리카 어린이의 날 (Day of the African Child)",
+          "date": "06-16"
+        }
+      ],
+      "service_same_date": [
+        {
+          "id": "anv-fixed-08-31-trail-mix-day-us",
+          "name": "트레일 믹스의 날 (National Trail Mix Day)",
+          "category": "food"
+        },
+        {
+          "id": "anv-fixed-08-31-vegetable-day-jp",
+          "name": "야채의 날 (野菜の日)",
+          "category": "food"
+        }
+      ],
+      "prior_research_hits": [
+        {
+          "file": "2026-10-11-sparse-birthdays/records.json",
+          "candidate_key": "06-16-african",
+          "name_ko": "아프리카 어린이의 날",
+          "date": "06-16",
+          "status": "evidenced"
+        },
+        {
+          "file": "2026-10-11-sparse-birthdays/group-a/records.json",
+          "candidate_key": "06-16-african",
+          "name_ko": "아프리카 어린이의 날",
+          "date": "06-16",
+          "status": "evidenced"
+        }
+      ],
+      "namuwiki_discovery_leads": [],
+      "distinct_from_similar_reason": "\"아프리카 어린이의 날\"(06-16, AU), \"노예제 및 대서양 노예무역 희생자 국제 추모의 날\"(03-25), \"노예제 폐지를 위한 국제 기념일\"(12-02)과 결의·날짜·대상이 다름. 별도 UN 결의(75/170)."
+    },
+    {
+      "candidate_key": "world-gorilla-day",
+      "tokens": [
+        "gorilla",
+        "고릴라"
+      ],
+      "service_name_or_id_hits": [],
+      "service_same_date": [
+        {
+          "id": "anv-fixed-09-24-punctuation-day-us",
+          "name": "문장부호의 날 (National Punctuation Day)",
+          "category": "general"
+        },
+        {
+          "id": "anv-fixed-09-24-cherries-jubilee-day-us",
+          "name": "체리 주빌레의 날",
+          "category": "food"
+        }
+      ],
+      "prior_research_hits": [],
+      "namuwiki_discovery_leads": [
+        "세계 고릴라의 날: 고릴라 보존의 처참한 현실에 대한 인식을 높이기 위해 제정했으며, 영장류학자 다이앤 포시가 카리소케 연구센터를 세운 날이기도"
+      ],
+      "distinct_from_similar_reason": "서비스·기존 research 후보에 고릴라 항목 없음. 나무위키 발견 행(09-24 \"세계 고릴라의 날\")은 미검증 발견 자료일 뿐이며 이번 조사로 원문을 처음 확보."
+    },
+    {
+      "candidate_key": "korea-film-day",
+      "tokens": [
+        "영화",
+        "한국영화",
+        "한국"
+      ],
+      "service_name_or_id_hits": [
+        {
+          "id": "anv-fixed-01-13-korean-american-day-us",
+          "name": "미주 한인의 날(한국계 미국인의 날)",
+          "date": "01-13"
+        },
+        {
+          "id": "gov-59",
+          "name": "한국수어의 날",
+          "date": "02-03"
+        },
+        {
+          "id": "anv-fixed-06-06-drive-in-movie-day-us",
+          "name": "드라이브인 영화의 날",
+          "date": "06-06"
+        },
+        {
+          "id": "anv-fixed-09-09-korean-cat-day-kr",
+          "name": "한국 고양이의 날",
+          "date": "09-09"
+        },
+        {
+          "id": "anv-fixed-12-01-movie-day-jp",
+          "name": "영화의 날 (映画の日)",
+          "date": "12-01"
+        }
+      ],
+      "service_same_date": [
+        {
+          "id": "anv-fixed-10-27-american-beer-day-us",
+          "name": "아메리칸 비어의 날 (National American Beer Day)",
+          "category": "food"
+        },
+        {
+          "id": "anv-fixed-10-27-reading-day-jp",
+          "name": "독서의 날 (読書の日)",
+          "category": "culture"
+        }
+      ],
+      "prior_research_hits": [],
+      "namuwiki_discovery_leads": [],
+      "distinct_from_similar_reason": "기존 \"영화의 날 (映画の日)\"(anv-fixed-12-01-movie-day-jp, 12월 1일)은 일본 기념일, \"무비데이\"(11-14)는 한국 14일 시리즈 — 날짜·나라·유래가 다름."
+    },
+    {
+      "candidate_key": "india-constitution-day",
+      "tokens": [
+        "constitution",
+        "india",
+        "인도",
+        "헌법"
+      ],
+      "service_name_or_id_hits": [
+        {
+          "id": "anv-fixed-07-17-constitution-day-kr",
+          "name": "제헌절",
+          "date": "07-17"
+        },
+        {
+          "id": "anv-fixed-08-19-world-humanitarian-day-global",
+          "name": "세계 인도주의의 날",
+          "date": "08-19"
+        },
+        {
+          "id": "anv-fixed-09-17-constitution-citizenship-day-us",
+          "name": "미국 헌법의 날 및 시민권의 날 (Constitution Day and Citizenship Day)",
+          "date": "09-17"
+        },
+        {
+          "id": "anv-fixed-11-13-indian-pudding-day-us",
+          "name": "인디언 푸딩의 날",
+          "date": "11-13"
+        },
+        {
+          "id": "anv-fixed-12-25-india-good-governance-day",
+          "name": "인도 좋은 거버넌스의 날 (Good Governance Day)",
+          "date": "12-25"
+        },
+        {
+          "id": "anv-fixed-12-25-taiwan-constitution-day",
+          "name": "대만 행헌기념일 (Constitution Day)",
+          "date": "12-25"
+        }
+      ],
+      "service_same_date": [
+        {
+          "id": "anv-fixed-11-26-cake-day-us",
+          "name": "케이크의 날 (National Cake Day)",
+          "category": "food"
+        }
+      ],
+      "prior_research_hits": [
+        {
+          "file": "2026-10-11-sparse-birthdays/records.json",
+          "candidate_key": "12-25-governance",
+          "name_ko": "인도 좋은 거버넌스의 날",
+          "date": "12-25",
+          "status": "evidenced"
+        },
+        {
+          "file": "2026-10-11-sparse-birthdays/records.json",
+          "candidate_key": "12-25-constitution",
+          "name_ko": "대만 헌법 시행 기념일",
+          "date": "12-25",
+          "status": "evidenced"
+        },
+        {
+          "file": "2026-10-11-sparse-birthdays/group-c/records.json",
+          "candidate_key": "12-25-governance",
+          "name_ko": "인도 좋은 거버넌스의 날",
+          "date": "12-25",
+          "status": "evidenced"
+        },
+        {
+          "file": "2026-10-11-sparse-birthdays/group-c/records.json",
+          "candidate_key": "12-25-constitution",
+          "name_ko": "대만 헌법 시행 기념일",
+          "date": "12-25",
+          "status": "evidenced"
+        }
+      ],
+      "namuwiki_discovery_leads": [],
+      "distinct_from_similar_reason": "\"인도 좋은 거버넌스의 날\"(12-25), \"미국 헌법의 날 및 시민권의 날\"(09-17), \"대만 행헌기념일\"(12-25), 한국 \"제헌절\"(07-17)과 나라·날짜가 다름."
+    },
+    {
+      "candidate_key": "goa-liberation-day",
+      "tokens": [
+        "goa",
+        "liberation",
+        "고아",
+        "해방"
+      ],
+      "service_name_or_id_hits": [
+        {
+          "id": "anv-fixed-08-15-liberation-day-kr",
+          "name": "광복절",
+          "date": "08-15"
+        },
+        {
+          "id": "anv-fixed-12-01-bifocals-monitor-liberation-day-us",
+          "name": "모니터 앞 다초점 안경 해방의 날",
+          "date": "12-01"
+        }
+      ],
+      "service_same_date": [
+        {
+          "id": "anv-fixed-12-19-oatmeal-muffin-day-us",
+          "name": "오트밀 머핀의 날",
+          "category": "food"
+        },
+        {
+          "id": "anv-fixed-12-19-hard-candy-day-us",
+          "name": "하드캔디의 날",
+          "category": "food"
+        }
+      ],
+      "prior_research_hits": [],
+      "namuwiki_discovery_leads": [],
+      "distinct_from_similar_reason": "서비스·기존 research 에 고아/인도 해방 관련 항목 없음. 유사어 \"해방\"은 광복절(08-15) 등 무관 항목."
+    },
+    {
+      "candidate_key": "world-rock-day-br",
+      "tokens": [
+        "rock"
+      ],
+      "service_name_or_id_hits": [
+        {
+          "id": "anv-fixed-06-02-rocky-road-day-us",
+          "name": "로키 로드의 날",
+          "date": "06-02"
+        },
+        {
+          "id": "anv-fixed-12-02-rockefeller-center-tree-lighting-us",
+          "name": "록펠러 센터 트리 점등 행사",
+          "date": "12-02"
+        }
+      ],
+      "service_same_date": [
+        {
+          "id": "anv-fixed-07-13-french-fry-day-us",
+          "name": "감자튀김의 날 (National French Fry Day)",
+          "category": "food"
+        },
+        {
+          "id": "anv-fixed-07-13-beans-n-franks-day-us",
+          "name": "콩과 소시지의 날",
+          "category": "food"
+        }
+      ],
+      "prior_research_hits": [],
+      "namuwiki_discovery_leads": [],
+      "distinct_from_similar_reason": null
+    },
+    {
+      "candidate_key": "japan-first-flight-day",
+      "tokens": [
+        "日本人初飛行の日",
+        "日本初飛行の日",
+        "일본인",
+        "비행"
+      ],
+      "service_name_or_id_hits": [
+        {
+          "id": "anv-fixed-05-26-national-paper-airplane-day-us",
+          "name": "종이비행기의 날 (National Paper Airplane Day)",
+          "date": "05-26"
+        }
+      ],
+      "service_same_date": [
+        {
+          "id": "anv-fixed-12-19-oatmeal-muffin-day-us",
+          "name": "오트밀 머핀의 날",
+          "category": "food"
+        },
+        {
+          "id": "anv-fixed-12-19-hard-candy-day-us",
+          "name": "하드캔디의 날",
+          "category": "food"
+        }
+      ],
+      "prior_research_hits": [
+        {
+          "file": "2026-10-11-sparse-birthdays/records.json",
+          "candidate_key": "05-26-paper2",
+          "name_ko": "미국 종이비행기의 날",
+          "date": "05-26",
+          "status": "evidenced"
+        },
+        {
+          "file": "2026-10-11-sparse-birthdays/group-a/records.json",
+          "candidate_key": "05-26-paper2",
+          "name_ko": "미국 종이비행기의 날",
+          "date": "05-26",
+          "status": "evidenced"
+        }
+      ],
+      "namuwiki_discovery_leads": [],
+      "distinct_from_similar_reason": null
+    }
+  ]
+}

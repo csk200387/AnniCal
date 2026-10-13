@@ -24,7 +24,8 @@ export class OutOfTableRangeError extends Error {
  *
  * 음력 명절(설날·추석)은 양력과 규칙적인 관계가 없고, 24절기는 태양 황경으로
  * 정의돼 천문 계산이 필요하다. 둘 다 런타임에서 계산하는 대신 미리 뽑아 둔다.
- * 표는 tools/observances/generate_observances.py 가 만든다.
+ * 표는 tools/observances/generate_observances.py 가 만든다(한국 KST, 2020~2050).
+ * 중국·홍콩·일본 현지 날짜 3키(2020~2069)는 generate_regional.py 가 더한다.
  */
 const observances = observancesJson as Record<string, Record<string, string>>
 
@@ -73,7 +74,9 @@ function resolveTabulated(key: string, year: number): Date {
   }
   const md = row[String(year)]
   if (!md) {
-    throw new OutOfTableRangeError(key, year, observanceYears.min, observanceYears.max)
+    // 키마다 범위가 다를 수 있다(지역 키는 2069까지). 전역 교집합이 아니라 그 키의 범위를 알린다.
+    const ys = Object.keys(row).map(Number)
+    throw new OutOfTableRangeError(key, year, Math.min(...ys), Math.max(...ys))
   }
   const [mm, dd] = md.split('-').map(Number)
   return new Date(year, mm - 1, dd)

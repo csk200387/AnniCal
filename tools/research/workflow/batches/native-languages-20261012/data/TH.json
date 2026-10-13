@@ -1,0 +1,72 @@
+{
+ "country": "TH",
+ "country_ko": "태국",
+ "search_language": "th",
+ "sources": {
+  "prd-go-th": "태국 정부 홍보청(PRD)",
+  "khaosod": "Khaosod (카오솟 신문, '루파이못' 칼럼)",
+  "thairath": "Thairath (타이랏 신문, 2017)",
+  "gotoknow-710282": "GotoKnow (태국 교육 블로그 플랫폼 — 개인 글)"
+ },
+ "candidates": [
+  {
+   "candidate_key": "th-wan-khru",
+   "name_original": "วันครู",
+   "name_ko": "태국 스승의 날(완크루)",
+   "aliases": ["Wan Khru", "Teachers' Day (Thailand)"],
+   "date_type": "annual-fixed",
+   "date_rule": "01-16",
+   "date_note": "1945(불기 2488)년 교원법 관보 공포일. 1956(2499)년 11월 21일 내각 결의로 지정",
+   "scope": "태국 전국 공식 기념일(학교 휴교)",
+   "kind": "occupation",
+   "officiality": "official_cabinet_resolution",
+   "meaning_ko": "1월 16일은 태국의 스승의 날로, 1945년(불기 2488년) 교원법이 관보에 공포된 날을 기념한다. 1956년 피분송크람 총리가 교원회의(쿠루사파) 연설에서 스승을 기리는 날을 제안했고, 같은 해 11월 21일 내각 결의로 날짜가 정해졌다. 학생이 꽃을 바쳐 절하는 '와이크루(스승께 절하기)' 의식과는 다른 날이다.",
+   "quirk": "태국은 불기(佛紀)를 써서 원문 연도가 543년 앞선다(2488 = 1945)",
+   "founder_origin": "1956(2499)년 내각 결의, 제안자 피분송크람 총리",
+   "founder_check_level": "original_read_news_official_page_blocked",
+   "claims": [
+    {"claim_id": "cabinet_date", "claim_ko": "2499년 11월 21일 내각 결의로 1월 16일 지정, 2488년 교원법 관보 공포일", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "khaosod", "quote": "ย้อนไปวันที่ 21 พฤศจิกายน พ.ศ. 2499 คณะรัฐมนตรีมีมติกำหนดให้ วันที่ 16 มกราคม ของทุกปีเป็นวันครูแห่งประเทศไทย โดยตรงกับวันที่ประกาศพระราชบัญญัติครูในราชกิจจานุเบกษา เมื่อปี พ.ศ. 2488", "quote_ko": "불기 2499년 11월 21일 내각은 매년 1월 16일을 태국 스승의 날로 정했는데, 이는 불기 2488년 교원법이 관보에 공포된 날과 같다."}]},
+    {"claim_id": "phibun", "claim_ko": "2499년 피분송크람 총리가 쿠루사파 총회에서 제안", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "khaosod", "quote": "พ.ศ. 2499 ในที่ประชุมสามัญคุรุสภาประจำปี จอมพล ป. พิบูลสงคราม นายกรัฐมนตรีและประธานกรรมการอำนวยการคุรุสภากิตติมศักดิ์ ได้กล่าวคำปราศรัยต่อที่ประชุมครูทั่วประเทศว่า", "quote_ko": "불기 2499년 쿠루사파 정기총회에서 피분송크람 원수(총리 겸 쿠루사파 명예위원장)가 전국 교사들 앞에서 연설하기를"}]}
+   ],
+   "search_result_only": [
+    {"url": "https://www.prd.go.th/th/content/category/detail/id/31/iid/466119", "note": "정부 홍보청 공식 페이지 — 404, 우회 안 함. 첫 행사 2500(1957)년·제70회(2569) 주장은 검색결과만"}
+   ],
+   "uncertainty": "공식(정부) 원문은 404 로 못 읽음 — 근거는 일간지 칼럼 1곳. 와이크루(6월 목요일 등 학교별)와 혼동 금지. 학교 휴교 여부는 미확인이라 본문에 쓰지 말 것.",
+   "related_existing_ids": ["anv-fixed-05-15-teachers-day-kr"],
+   "confidence": "medium"
+  },
+  {
+   "candidate_key": "th-nai-khanom-tom",
+   "name_original": "วันนายขนมต้ม บรมครูมวยไทย",
+   "name_ko": "나이카놈똠의 날 — 무에타이 스승의 날",
+   "aliases": ["วันมวยไทย", "วันนักมวย", "Nai Khanom Tom Day"],
+   "date_type": "annual-fixed",
+   "date_rule": "03-17",
+   "date_note": "1774(불기 2317)년 3월 17일 버마 쉐다곤 탑 산개(傘蓋) 봉헌일과 전설을 연결. 검색 질의의 '2월 6일설'은 근거 없음",
+   "scope": "태국 무에타이계·아유타야 등 지역 행사(공휴일 아님)",
+   "kind": "folklore_sport_occupation",
+   "officiality": "industry_folk",
+   "meaning_ko": "3월 17일은 아유타야 함락 뒤 포로로 끌려간 태국 권투가 '나이 카놈똠'이 버마 왕 앞에서 버마 권투가 10명을 연달아 이겼다는 이야기를 기려 무에타이계가 '무에타이 스승의 날'로 삼은 날이다. 이야기는 태국 왕실 연대기 필사본에 처음 나오지만 버마·몬 쪽 기록에는 보이지 않는다는 지적이 있어 전설로 다뤄야 한다. 날짜는 같은 해 쉐다곤 탑 봉헌일에서 왔다.",
+   "quirk": "이름이 '카놈똠(태국 떡의 일종)'이라 '떡 아저씨'로 읽힌다 — 단 이름 뜻 해석은 이번 원문에서 확인 안 함",
+   "founder_origin": "태국 왕실 연대기 필사본의 일화(전설). 무에타이계가 기념일로 채택 — 채택 주체·연도 미확인",
+   "founder_check_level": "folklore_not_history",
+   "claims": [
+    {"claim_id": "date", "claim_ko": "매년 3월 17일을 '나이카놈똠, 무에타이 스승의 날'로 삼는다", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "thairath", "quote": "เราจึงถือเอาวันที่ 17 มีนาคม เป็น “วันนายขนมต้ม บรมครูมวยไทย” มาตราบจนทุกวันนี้", "quote_ko": "그래서 우리는 3월 17일을 '나이카놈똠, 무에타이 스승의 날'로 삼아 오늘에 이른다"}]},
+    {"claim_id": "boxing_day", "claim_ko": "3월 17일을 무에타이의 날로 정한 적이 있다", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "gotoknow-710282", "quote": "ได้เคยมีการจัดให้วันที่ 17 มีนาคม เป็นวันมวยไทยเพื่อเป็นเกียรติประวัติต่อนักมวยไทย", "quote_ko": "3월 17일을 무에타이의 날로 정해 태국 권투가들을 기린 적이 있다"}]},
+    {"claim_id": "legend_status", "claim_ko": "태국 연대기에 처음 나오나 다른 기록엔 없다(전설)", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "gotoknow-710282", "quote": "เรื่องราวของนายขนมต้ม ปรากฏครั้งแรกในพระราชพงศาวดาร ฉบับสมเด็จพระพนรัตน์ วัดพระเชตุพน ฉบับตัวเขียน", "quote_ko": "나이카놈똠 이야기는 왓포 솜뎃 프라 파나랏 판 왕실 연대기 필사본에 처음 나타난다"},
+                  {"evidence_id": "gotoknow-710282", "quote": "แต่เมื่อเปรียบเทียบกับหลักฐานอื่นๆ แล้ว ไม่ปรากฏพบเรื่องราวของนายขนมต้มแต่อย่างใด", "quote_ko": "그러나 다른 사료와 비교하면 나이카놈똠 이야기는 전혀 보이지 않는다"}]}
+   ],
+   "search_result_only": [
+    {"url": "https://www.thaipost.net/sport-news/756785/", "note": "사무이섬 재단의 2025-03-17 와이크루 행사 — 원문 미수집"}
+   ],
+   "uncertainty": "전설을 역사로 단정하지 말 것('10명 연승'은 연대기 일화). gotoknow 는 개인 블로그 글이다. 공식 지정 주체·연도 미확인. 2월 6일설은 검색결과에서도 근거 없음.",
+   "confidence": "medium"
+  }
+ ],
+ "limits": "러이끄라통·송끄란 등 불교력·태음력 연동 축일은 서비스 표(observances.json)에 없어 등록 불가라 조사하지 않았다. 아동의 날(1월 둘째 토요일)·코끼리의 날(3/13)은 시간상 조사하지 못했다. 태국 정부 홍보청 공식 페이지는 404 였다."
+}

@@ -1,0 +1,102 @@
+{
+ "country": "TR",
+ "country_ko": "튀르키예",
+ "search_language": "tr",
+ "sources": {
+  "medyascope-2026": "Medyascope (2026-05-05)",
+  "unesco-ich": "UNESCO 무형유산 공식 페이지(영어, 공식 보조 출처)",
+  "haberturk": "Habertürk",
+  "cumhuriyet": "Cumhuriyet",
+  "haber7": "Haber 7",
+  "milliyet-tatil": "Milliyet"
+ },
+ "read_status_overrides": {
+  "cumhuriyet": {"access_status": "http_200_no_article_body", "note": "HTTP 200 이지만 본문 1,722자 중 기사 본문 없이 메뉴·제목뿐 — 원문 확인으로 쓰지 않음"}
+ },
+ "candidates": [
+  {
+   "candidate_key": "tr-hidirellez",
+   "name_original": "Hıdırellez",
+   "name_ko": "흐드렐레즈 — 장미나무에 소원을 거는 봄맞이 밤",
+   "aliases": ["Hıdrellez", "Kakava (로마니 공동체)"],
+   "date_type": "annual-fixed",
+   "date_rule": "05-06",
+   "date_note": "5월 5일 밤~6일. UNESCO 공식 페이지가 '매년 5월 6일'로 명시",
+   "scope": "튀르키예 전국 민속(발칸·이라크·시리아에도). UNESCO 인류무형유산(2017, 튀르키예·북마케도니아 공동)",
+   "kind": "folklore_wish_ritual",
+   "officiality": "folk_tradition_unesco_listed",
+   "meaning_ko": "5월 5일에서 6일로 넘어가는 밤, 땅의 수호자 흐즈르와 물의 수호자 일리야스가 장미나무 아래서 만난다는 믿음에 따라 소원을 종이에 그려 장미나무 가지에 묶거나 뿌리 밑에 묻는 튀르키예의 봄맞이 풍습이다. 모닥불을 뛰어넘어 액운을 털고, 이날부터 11월 초까지를 '흐즈르의 날들(여름)'로 친다. 2017년 튀르키예·북마케도니아 공동으로 유네스코 인류무형유산에 올랐다.",
+   "quirk": "원하는 집·차·아기를 종이에 그려서 장미나무에 걸어 둔다",
+   "founder_origin": "민간 신앙(흐즈르·일리야스 만남 전설 — 역사적 사실 아님). UNESCO 등재 2017(12.COM)",
+   "founder_check_level": "official_unesco_page_read",
+   "claims": [
+    {"claim_id": "date_unesco", "claim_ko": "매년 5월 6일(UNESCO), 2017년 대표목록 등재", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "unesco-ich", "quote": "The Spring Celebration ‘Hidrellez’ takes place annually on 6 May", "quote_ko": "봄맞이 축제 흐드렐레즈는 매년 5월 6일에 열린다"},
+                  {"evidence_id": "unesco-ich", "quote": "Inscribed in 2017 (12.COM) on the Representative List of the Intangible Cultural Heritage of Humanity", "quote_ko": "2017년(제12차 위원회) 인류무형문화유산 대표목록에 등재"}]},
+    {"claim_id": "night_5_6", "claim_ko": "5월 5일에서 6일로 넘어가는 밤에 기념", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "medyascope-2026", "quote": "Hıdırellez, her yıl 5 Mayıs’ı 6 Mayıs’a bağlayan gece kutlanan, baharın gelişini simgeleyen köklü bir gelenektir.", "quote_ko": "흐드렐레즈는 매년 5월 5일에서 6일로 넘어가는 밤에 기념하는, 봄의 도래를 상징하는 오랜 전통이다."}]},
+    {"claim_id": "rose_wish", "claim_ko": "소원을 종이에 그려 장미나무 가지에 묶거나 밑에 묻는다", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "haberturk", "quote": "Hıdırellez öncesindeki günün akşamı vatandaşlar ev, araba, çocuk gibi dileklerini bir kağıda çizerek gül ağacının dalına bağlıyor", "quote_ko": "흐드렐레즈 전날 저녁 사람들은 집·차·아이 같은 소원을 종이에 그려 장미나무 가지에 묶는다"}]},
+    {"claim_id": "season_split", "claim_ko": "5/6~11/7 '흐즈르의 날들(여름)', 11/8~5/5 '카슴의 날들(겨울)'", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "medyascope-2026", "quote": "6 Mayıs’tan 7 Kasım’a kadar olan dönem “Hızır günleri” yani yaz, 8 Kasım’dan 5 Mayıs’a kadar olan dönem ise “Kasım günleri” yani kış olarak kabul ediliyor.", "quote_ko": "5월 6일부터 11월 7일까지는 '흐즈르의 날들' 즉 여름, 11월 8일부터 5월 5일까지는 '카슴의 날들' 즉 겨울로 여겨진다."}]}
+   ],
+   "search_result_only": [],
+   "uncertainty": "'흐즈르·일리야스가 만난다'는 신앙 서술이므로 사실처럼 쓰지 말 것. 서비스 날짜를 05-06 으로 하되 '5일 밤부터'를 본문에 밝혀야 한다.",
+   "confidence": "high"
+  },
+  {
+   "candidate_key": "tr-ogretmenler-gunu",
+   "name_original": "24 Kasım Öğretmenler Günü",
+   "name_ko": "튀르키예 교사의 날 — 아타튀르크 '수석 교사' 취임일",
+   "aliases": ["Öğretmenler Günü"],
+   "date_type": "annual-fixed",
+   "date_rule": "11-24",
+   "date_note": "1928-11-24 아타튀르크가 '국민학교 수석교사(Başöğretmen)' 칭호를 받아들인 날. 1981년부터 교사의 날",
+   "scope": "튀르키예 전국 공식 기념일(공휴일 아님)",
+   "kind": "occupation",
+   "officiality": "official_observance_not_holiday",
+   "meaning_ko": "11월 24일은 튀르키예의 교사의 날로, 1928년 문자 개혁 직후 문맹 퇴치를 위해 연 '국민학교(Millet Mektepleri)'의 수석 교사 직을 아타튀르크가 받아들인 날에서 나왔다. 아타튀르크 탄생 100주년인 1981년 군사정부가 '아타튀르크의 해'를 선포하며 이날을 교사의 날로 정했다. 세계 교사의 날(10월 5일)과 날짜가 다르다.",
+   "quirk": "국가 지도자가 '전 국민의 선생님' 직함을 맡은 날이 교사의 날이 됨",
+   "founder_origin": "1981년 9·12 군사정부('아타튀르크의 해'). 1981-02-26 관보 '교사의 날 기념 규정'(haber7) — 다른 매체는 1992 규정 등 날짜 상충(검색결과)",
+   "founder_check_level": "original_read_news_regulation_date_unverified",
+   "claims": [
+    {"claim_id": "date_reason", "claim_ko": "1928-11-24 아타튀르크가 국민학교 수석교사직 수락", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "haber7", "quote": "Türkiye Cumhuriyeti Devleti'nin kurucusu Mustafa Kemal Atatürk 24 Kasım 1928'de \"Millet Mektepleri'nin Başöğretmenliği\"ni kabul etti.", "quote_ko": "튀르키예 공화국 건국자 무스타파 케말 아타튀르크는 1928년 11월 24일 '국민학교 수석교사'직을 받아들였다."}]},
+    {"claim_id": "since_1981", "claim_ko": "1981년 군사정부가 아타튀르크의 해를 선포하며 시작", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "haber7", "quote": "1981 yılı, 12 Eylül Askeri İdaresi tarafından Atatürk Yılı ilan edildi. 24 Kasım Öğretmenler Günü uygulaması da bu yıl başlatıldı.", "quote_ko": "1981년 9·12 군사정부가 '아타튀르크의 해'를 선포했고 11월 24일 교사의 날도 이해 시작됐다."}]}
+   ],
+   "search_result_only": [
+    {"url": "https://www.sozcu.com.tr/ogretmenler-gunu-ne-zaman-wp651347", "note": "결정일 1981-11-24 주장 — 원문 미수집, haber7(1981-02-26 관보 규정)과 상충"},
+    {"url": "https://www.milliyet.com.tr/gundem/24-kasim-tatil-mi-ogretmenler-gunu-resmi-tatiller-arasinda-var-mi-6355651", "note": "원문 수집했으나 '공휴일 아님' 문장을 본문에서 직접 확인 못 함 — 공휴일 여부는 검색결과 수준"}
+   ],
+   "uncertainty": "규정 공포일(1981-02-26 vs 1992 규정)은 출처 상충 — 본문엔 '1981년부터'만 쓸 것. 공휴일 아님은 검색결과 수준.",
+   "related_existing_ids": ["anv-fixed-05-15-teachers-day-kr", "anv-fixed-05-03-teacher-appreciation-day-us"],
+   "confidence": "medium"
+  },
+  {
+   "candidate_key": "tr-turk-kahvesi-gunu",
+   "name_original": "Dünya Türk Kahvesi Günü",
+   "name_ko": "세계 튀르키예 커피의 날",
+   "aliases": [],
+   "date_type": "annual-fixed",
+   "date_rule": "12-05",
+   "date_note": "검색결과상 12월 5일(2013년 UNESCO 무형유산 등재와 연결). 원문 본문 미확인",
+   "scope": "튀르키예 및 해외 홍보 행사",
+   "kind": "food_culture",
+   "officiality": "unverified",
+   "meaning_ko": "12월 5일을 '세계 튀르키예 커피의 날'로 부른다는 검색결과가 있으나, 선포 주체가 'UNESCO'라는 기사와 '워싱턴 시장이 재단 요청으로 선포'라는 기사로 갈린다. 원문 본문을 확보하지 못해 확인 수준은 검색결과뿐이다.",
+   "quirk": "",
+   "founder_origin": "상충: UNESCO 2013 선포설 vs 2013 무형유산 등재 기념설 vs 워싱턴 시장 선포설",
+   "founder_check_level": "search_result_only_conflicting",
+   "claims": [],
+   "search_result_only": [
+    {"url": "https://www.cumhuriyet.com.tr/yasam/5-aralik-dunya-turk-kahvesi-gunu-nedir-5-aralik-dunya-turk-kahvesi-2276058", "note": "HTTP 200 이나 기사 본문 없음 — 원문 미확인"},
+    {"url": "https://www.webtekno.com/times-meydaninda-turk-kahvesi-tanitildi-h103047.html", "note": "워싱턴 시장 선포설 — 원문 미수집"}
+   ],
+   "uncertainty": "선포 주체 상충, 원문 미확보. 음식(음료) 항목이라 우선순위 낮음.",
+   "related_existing_ids": ["anv-fixed-10-01-international-coffee-day-global"],
+   "confidence": "low"
+  }
+ ],
+ "limits": "이슬람력 기념일(카딜 밤 등)은 음력(히즈라력) 표가 없어 조사하지 않았다. 튀르키예어 '이색 기념일' 일반 탐색은 하지 못했다(검색 3회 모두 특정 주제)."
+}

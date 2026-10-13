@@ -1,0 +1,193 @@
+{
+  "_note": "검색은 후보 발견용이다. 검색 요약은 어떤 주장의 근거로도 쓰지 않았다. 근거는 fetch-log.json 의 저장 원문뿐이다.",
+  "search_tool": "Claude Code WebSearch (standard)",
+  "searched_at": "2026-10-12",
+  "queries": [
+    {
+      "query": "富士山の日 2月23日 静岡県 条例 制定",
+      "candidate": "fuji-day-jp",
+      "discovery_note": "pref.shizuoka.jp 조례 페이지 발견"
+    },
+    {
+      "query": "Rotary World Understanding and Peace Day February 23 anniversary of Rotary founding",
+      "candidate": "rotary-peace-day",
+      "discovery_note": "로터리 지구·1984 미네소타 선포문 발견"
+    },
+    {
+      "query": "International Overdose Awareness Day 31 August history Penington Institute started 2001",
+      "candidate": "overdose-awareness-day",
+      "discovery_note": "penington.org.au 발견"
+    },
+    {
+      "query": "International Day for People of African Descent 31 August General Assembly resolution 75/170",
+      "candidate": "african-descent-day",
+      "discovery_note": "UN 디지털 도서관 레코드 발견(본문 202 응답) → documents.un.org PDF로 확보"
+    },
+    {
+      "query": "World Snake Day July 16 zoo awareness",
+      "candidate": "world-snake-day",
+      "discovery_note": "동물원·AIR 기사 발견"
+    },
+    {
+      "query": "Ukraine Independence Day 24 August 1991 Act of Declaration of Independence official",
+      "candidate": "ukraine-independence-day",
+      "discovery_note": "rada.gov.ua(접근 실패)·MSU·ENRS 발견"
+    },
+    {
+      "query": "rotary.org \"World Understanding and Peace Day\" 23 February",
+      "candidate": "rotary-peace-day",
+      "discovery_note": "rotary.org 원문 결과 없음"
+    },
+    {
+      "query": "Myanmar Martyrs' Day July 19 Aung San 1947 commemoration",
+      "candidate": "myanmar-martyrs-day",
+      "discovery_note": "Al Jazeera·Irrawaddy 등 발견"
+    },
+    {
+      "query": "Montenegro Statehood Day 13 July Berlin Congress 1878 uprising 1941 public holiday",
+      "candidate": "montenegro-statehood-day",
+      "discovery_note": "gov.me 발견"
+    },
+    {
+      "query": "\"Dia Mundial do Rock\" 13 de julho Live Aid origem gov.br",
+      "candidate": "world-rock-day-br",
+      "discovery_note": "정부 자료 없음, 언론만"
+    },
+    {
+      "query": "December 19 observance international day",
+      "candidate": "(12-19 탐색)",
+      "discovery_note": "UN 지정일 없음, 고아 해방의 날 단서"
+    },
+    {
+      "query": "12월 19일 기념일 제정",
+      "candidate": "(12-19 탐색)",
+      "discovery_note": "한국 기념일 단서 없음"
+    },
+    {
+      "query": "World Gorilla Day September 24 Dian Fossey Karisoke 1967 established 2017",
+      "candidate": "world-gorilla-day",
+      "discovery_note": "gorillafund.org 발견"
+    },
+    {
+      "query": "영화의 날 10월 27일 의리적 구토 단성사 1919 제정 1963",
+      "candidate": "korea-film-day",
+      "discovery_note": "국가기록원 테마 페이지 발견, 1963년 근거 없음"
+    },
+    {
+      "query": "Constitution Day Samvidhan Divas 26 November notified 2015 PIB",
+      "candidate": "india-constitution-day",
+      "discovery_note": "PIB 원문 결과 없음"
+    },
+    {
+      "query": "日本初飛行の日 12月19日 代々木練兵場 徳川好敏 記念日",
+      "candidate": "japan-first-flight-day",
+      "discovery_note": "목록 사이트만 발견"
+    },
+    {
+      "query": "Goa Liberation Day 19 December 1961 official Government of Goa",
+      "candidate": "goa-liberation-day",
+      "discovery_note": "dip.goa.gov.in·goa.gov.in PDF 발견"
+    },
+    {
+      "query": "gov.me \"13 July\" symbol of Montenegrin statehood digital museum",
+      "candidate": "montenegro-statehood-day",
+      "discovery_note": "gov.me 디지털 박물관 페이지"
+    },
+    {
+      "query": "Goa government list of public holidays 2026 \"Goa Liberation Day\" 19 December notification",
+      "candidate": "goa-liberation-day",
+      "discovery_note": "관보 원문 미발견, 2차 목록만"
+    },
+    {
+      "query": "\"World Gorilla Day\" gorillafund.org 2025 September 24",
+      "candidate": "world-gorilla-day",
+      "discovery_note": "gorillafund ?p=50275 발견"
+    },
+    {
+      "query": "\"영화의 날\" 기념식 한국영화인총연합회 10월 27일 제정 1963년",
+      "candidate": "korea-film-day",
+      "discovery_note": "서울신문 2024 행사 기사 발견, 제정 연도 근거 없음"
+    },
+    {
+      "query": "Constitution Day 26 November gazette notification Ministry of Social Justice 19 November 2015",
+      "candidate": "india-constitution-day",
+      "discovery_note": "주말리 인도대사관·Bar & Bench 발견"
+    },
+    {
+      "query": "Ukraine Independence Day 24 August official site president.gov.ua OR mfa.gov.ua OR uinp.gov.ua",
+      "candidate": "ukraine-independence-day",
+      "discovery_note": "공식 사이트 결과 없음, Espreso 발견"
+    },
+    {
+      "query": "Martyrs' Day Myanmar 19 July 10:37 Secretariat Aung San six ministers",
+      "candidate": "myanmar-martyrs-day",
+      "discovery_note": "AP(News4JAX) 발견"
+    },
+    {
+      "query": "\"Pluto Demoted Day\" August 24 nationaldaycalendar",
+      "candidate": "pluto-demoted-day",
+      "discovery_note": "nationaldaycalendar 결과 없음, 달력 사이트들"
+    },
+    {
+      "query": "IAU 2006 General Assembly resolution definition of planet Pluto 24 August 2006 press release",
+      "candidate": "pluto-demoted-day",
+      "discovery_note": "iau0603 발견(현 주소 404)"
+    },
+    {
+      "query": "\"7월 13일\" OR \"8월 24일\" OR \"12월 19일\" \"의 날\" 제정 기념일 협회 한국",
+      "candidate": "(한국 맥락 탐색)",
+      "discovery_note": "해당 날짜 한국 기념일 단서 없음"
+    },
+    {
+      "query": "Dia Mundial do Rock 13 de julho Live Aid 1985 origem Brasil rádios 89 FM",
+      "candidate": "world-rock-day-br",
+      "discovery_note": "89 FM·97 FM 창시설은 단일 출처"
+    },
+    {
+      "query": "iau.org news release iau0603 \"Result of the IAU Resolution votes\"",
+      "candidate": "pluto-demoted-day",
+      "discovery_note": "iauarchive.eso.org 사본 발견"
+    },
+    {
+      "query": "nationaldaycalendar.com \"Pluto Demoted Day\"",
+      "candidate": "pluto-demoted-day",
+      "discovery_note": "nationaltoday·syfy 발견"
+    },
+    {
+      "query": "my.rotary.org OR rotary.org \"World Understanding and Peace Day\" Rotary Code of Policies",
+      "candidate": "rotary-peace-day",
+      "discovery_note": "rotary.org 결과 없음, 지구 7080 발견"
+    },
+    {
+      "query": "山梨県 富士山の日条例 2月23日 平成23年",
+      "candidate": "fuji-day-jp",
+      "discovery_note": "야마나시 PDF 링크 발견(접근 시 404)"
+    }
+  ],
+  "leads_not_pursued": [
+    {
+      "lead": "02-23 일본 천황탄생일",
+      "why_not_pursued": "한국 사용자 맥락·정치적 민감성 대비 우선순위 낮음, 이번 배치에서 원문 수집 안 함"
+    },
+    {
+      "lead": "02-23 러시아 조국 수호자의 날(나무위키 발견 행)",
+      "why_not_pursued": "군 기념일·정치적 맥락, 이번 배치 범위 밖"
+    },
+    {
+      "lead": "08-31 말레이시아·트리니다드토바고·키르기스스탄 독립기념일",
+      "why_not_pursued": "08-31에 이미 근거 확보 후보 2건, 다음 배치 후보"
+    },
+    {
+      "lead": "01-06 주현절(공현절)",
+      "why_not_pursued": "한국 가톨릭은 1월 2~8일 사이 주일로 옮겨 지내는 등 나라·교회별로 날짜 규칙이 달라 annual-fixed 판정 불가, 별도 조사 필요"
+    },
+    {
+      "lead": "08-24 International Strange Music Day",
+      "why_not_pursued": "시간 내 원문 미수집"
+    },
+    {
+      "lead": "신문의 날(04-07)·잡지의 날(11-01) 등 한국 문화 기념일",
+      "why_not_pursued": "빈약 날짜가 아니어서 이번 배치에서 제외, 다음 한국 맥락 배치 후보"
+    }
+  ]
+}

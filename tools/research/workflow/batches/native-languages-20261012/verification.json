@@ -1,0 +1,53 @@
+{
+  "research_run": "Claude Code",
+  "research_session_id": "a4a78c25-259e-4926-a534-3bc6f4a0ca89",
+  "research_interrupted": true,
+  "interruption": "usage_limit_reached / HTTP 429",
+  "resume_reset_message": "10:10am Asia/Seoul (CLI message; no automatic resume scheduled)",
+  "record_count": 24,
+  "country_counts": {
+    "BR": 3,
+    "DE": 3,
+    "ES": 4,
+    "FR": 2,
+    "PL": 4,
+    "TH": 2,
+    "TR": 3,
+    "TW": 3
+  },
+  "status_counts": {
+    "new_candidate": 14,
+    "new_candidate_single_source": 5,
+    "hold_rule_unsupported": 3,
+    "duplicate": 1,
+    "search_result_only": 1
+  },
+  "search_count": 25,
+  "search_country_counts": {
+    "FR": 3,
+    "DE": 3,
+    "ES": 4,
+    "BR": 3,
+    "PL": 4,
+    "TR": 3,
+    "TH": 2,
+    "TW": 3
+  },
+  "native_language_log_matches": true,
+  "unique_keys": true,
+  "raw_hashes_checked": 45,
+  "protected_files_checked": 2354,
+  "protected_files_changed": [],
+  "claim_quotes_checked": 76,
+  "claim_quotes_matched": 75,
+  "issues": [
+    {
+      "candidate": "pl-dzien-wagarowicza",
+      "claim": "secondary_note",
+      "issue": "missing_evidence_reference",
+      "evidence": "ox-pl-witaj-wiosno"
+    }
+  ],
+  "independent_fact_review_completed": false,
+  "production_writes": false
+}

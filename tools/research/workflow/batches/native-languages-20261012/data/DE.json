@@ -1,0 +1,106 @@
+{
+ "country": "DE",
+ "country_ko": "독일",
+ "search_language": "de",
+ "sources": {
+  "wissen-de": "wissen.de (독일 지식 포털)",
+  "t-online": "t-online (독일 포털 뉴스)",
+  "ms-aktuell-2026": "ms-aktuell.de (2026-06-23 기사)",
+  "dhz": "Deutsche Handwerks Zeitung (2012)",
+  "brauer-bund-pm-2023": "Deutscher Brauer-Bund 보도자료(2023, PDF)"
+ },
+ "candidates": [
+  {
+   "candidate_key": "de-weiberfastnacht",
+   "name_original": "Weiberfastnacht",
+   "name_ko": "여자들의 카니발 날(바이버파스트나흐트) — 넥타이 자르는 날",
+   "aliases": ["Altweiberfastnacht", "Schmotziger Donnerstag"],
+   "date_type": null,
+   "date_rule": null,
+   "date_note": "재의 수요일 전 목요일 = 부활절 일요일 52일 전(원문: 2026년 2월 12일). 서비스 데이터에 부활절 기준 anchor 가 없어 현재 dateType 으로 표현 불가 → 규칙 미지원. 특정 연도 날짜를 고정일로 만들지 않음",
+   "scope": "라인란트(쾰른·본·뒤셀도르프·아헨) 중심 카니발 지역. 공휴일 아님",
+   "kind": "weird_behavior",
+   "officiality": "regional_tradition",
+   "meaning_ko": "카니발 거리 축제가 시작되는 재의 수요일 전 목요일, 라인란트에서 하루 동안 여성이 도시를 '접수'하는 날이다. 분장한 여성들이 시청을 점거하고, 남성 권력의 상징인 넥타이를 가위로 잘라 버린다. 본 보이얼 지역 세탁부 여성들이 1824년 '보이얼 여성위원회'를 만든 것이 시작으로 전해진다.",
+   "quirk": "넥타이를 매고 출근한 남자는 가위에 넥타이를 잃는다. 시장이 시청 열쇠를 넘기는 장면이 생중계된다",
+   "founder_origin": "1824년 본-보이얼 세탁부들의 'Altes Beueler Damenkomitee' (wissen.de: '아마도'로 유보). 넥타이 자르기 시작 시점은 같은 t-online 기사 안에서도 1824년설과 20세기 중반설이 공존",
+   "founder_check_level": "conflicting_sources",
+   "claims": [
+    {"claim_id": "date_rule", "claim_ko": "재의 수요일 전 목요일 = 부활절 52일 전, 공휴일 아님", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "t-online", "quote": "Im Rheinland findet Weiberfastnacht immer am Donnerstag vor Aschermittwoch statt. Das ist der 52. Tag vor Ostersonntag. 2026 ist der Termin der 12. Februar. Dabei handelt es sich nicht um einen offiziellen Feiertag.", "quote_ko": "라인란트에서 바이버파스트나흐트는 항상 재의 수요일 전 목요일이다. 부활절 일요일 52일 전이다. 2026년은 2월 12일이다. 공식 공휴일은 아니다."}]},
+    {"claim_id": "beuel_1824", "claim_ko": "1824년 보이얼 세탁부 여성들이 여성위원회를 만들었다(아마도)", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "wissen-de", "quote": "Wahrscheinlich reicht die Geschichte der Weiberfastnacht bis ins 19. Jahrhundert zurück und hat ihren Ursprung im Bonner Stadtteil Beuel.", "quote_ko": "바이버파스트나흐트의 역사는 아마 19세기로 거슬러 올라가며 본의 보이얼 지역에서 비롯됐다."},
+                  {"evidence_id": "wissen-de", "quote": "Das \"Alte Beueler Damenkomitee\" war geboren", "quote_ko": "'옛 보이얼 여성위원회'가 탄생했다"}]},
+    {"claim_id": "tie_origin", "claim_ko": "넥타이 자르기 풍습 시작: 1824년설 vs 20세기 중반 확산설", "verdict": "conflicting",
+     "evidence": [{"evidence_id": "t-online", "quote": "Der Karnevalsbrauch des Krawattenabschneidens geht zurück auf das Jahr 1824.", "quote_ko": "넥타이를 자르는 카니발 풍습은 1824년으로 거슬러 올라간다."},
+                  {"evidence_id": "t-online", "quote": "Der Brauch, den Männern an Weiberfastnacht die Krawatten abzuschneiden, hat sich erst in der Mitte des 20. Jahrhunderts in größeren Teilen der Gesellschaft eingebürgert.", "quote_ko": "바이버파스트나흐트에 남자의 넥타이를 자르는 풍습은 20세기 중반에야 사회 전반에 자리 잡았다."}]}
+   ],
+   "search_result_only": [
+    {"url": "https://www.stuttgarter-zeitung.de/wissen/fuenfte-jahreszeit-warum-heisst-es-weiberfastnacht-79044773.html", "note": "명칭 유래 — 원문 미수집"}
+   ],
+   "uncertainty": "넥타이 풍습의 시작 연도는 같은 기사 안에서도 상충 — '1824년 보이얼 여성 모임'만 기원으로 쓰고 넥타이는 '20세기 중반 확산'으로만 쓸 것. 부활절 연동이라 부활절 anchor 또는 표가 생기기 전엔 등록 불가.",
+   "rule_support": "unsupported_easter_relative",
+   "confidence": "high"
+  },
+  {
+   "candidate_key": "de-siebenschlaefertag",
+   "name_original": "Siebenschläfertag",
+   "name_ko": "일곱 잠꾸러기의 날(지벤슐래퍼타크) — 여름 날씨 점치는 날",
+   "aliases": ["Siebenschläfer"],
+   "date_type": "annual-fixed",
+   "date_rule": "06-27",
+   "date_note": "현행 6월 27일. 그레고리력 개혁(1582) 이전 속담이라 원래 뜻한 날은 7월 7일 무렵이라는 해설이 있음",
+   "scope": "독일어권 민간 날씨 속담(Lostag)",
+   "kind": "folklore_weather",
+   "officiality": "folk_tradition",
+   "meaning_ko": "'이날 날씨가 7주 동안 간다'는 농가 속담이 붙은 6월 27일이다. 박해를 피해 에페소스 동굴에 갇힌 일곱 그리스도인 청년이 수백 년 잠들었다 깨어났다는 전설에서 이름이 왔고, 겨울잠이 긴 동물 '겨울잠쥐(Siebenschläfer)'와는 이름만 같다. 독일 기상청은 속담이 맞을 확률을 55~70%로 보며 '동전을 던져도 된다'고 했다.",
+   "quirk": "속담이 그레고리력 개혁 전에 생겨서 계산상 '진짜' 지벤슐래퍼 날은 7월 7일 무렵이라는 달력 어긋남",
+   "founder_origin": "에페소스의 일곱 잠꾸러기 전설(민간전승, 역사적 사실 아님) + 농가 속담",
+   "founder_check_level": "folklore_not_history",
+   "claims": [
+    {"claim_id": "date", "claim_ko": "6월 27일이 지벤슐래퍼타크", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "ms-aktuell-2026", "quote": "Am 27. Juni ist Siebenschläfertag.", "quote_ko": "6월 27일은 지벤슐래퍼타크다."}]},
+    {"claim_id": "legend", "claim_ko": "에페소스 일곱 잠꾸러기 전설에서 유래(전설)", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "ms-aktuell-2026", "quote": "Der Siebenschläfertag erinnert an die Sieben Schläfer von Ephesus.", "quote_ko": "지벤슐래퍼타크는 에페소스의 일곱 잠꾸러기를 기린다."}]},
+    {"claim_id": "dwd_coin", "claim_ko": "독일 기상청 대변인: 적중률 55~70%, '동전을 던져도 된다'", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "t-online", "quote": "\"Sie können auch eine Münze werfen\", so der DWD-Sprecher.", "quote_ko": "\"동전을 던져도 됩니다\"라고 독일 기상청 대변인이 말했다."}]},
+    {"claim_id": "calendar_shift", "claim_ko": "그레고리력 개혁 이전 속담이라 원래 날은 7월 7일 무렵", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "t-online", "quote": "Der historische Siebenschläfertag ist mit zehntägiger Verschiebung rechnerisch am 7. Juli anzusetzen.", "quote_ko": "역사적 지벤슐래퍼타크는 열흘 차이를 반영하면 계산상 7월 7일이다."}]}
+   ],
+   "search_result_only": [
+    {"url": "https://www.echo24.de/service/wetter/siebenschlaefertag-bedeutung-sommer-vorhersage-prognose-bauernregel-legende-christentum-glaube-siebenschlaefer-90826557.html", "note": "전설 연도(446 vs 448) 상충 — 원문 미수집"}
+   ],
+   "uncertainty": "전설의 깨어난 연도(446/448)와 문헌화 시기는 검색결과에서 상충 — 본문에 연도를 쓰지 말 것. 적중률 수치는 기사마다 55~70%, 60~70%로 다름.",
+   "confidence": "high"
+  },
+  {
+   "candidate_key": "de-tag-des-deutschen-bieres",
+   "name_original": "Tag des Deutschen Bieres",
+   "name_ko": "독일 맥주의 날 — 맥주 순수령 반포일",
+   "aliases": ["Tag des Bieres"],
+   "date_type": "annual-fixed",
+   "date_rule": "04-23",
+   "date_note": "1516년 4월 23일 바이에른 맥주 순수령 반포일",
+   "scope": "독일 전국, 업계(독일양조협회) 기념일",
+   "kind": "law_food_culture",
+   "officiality": "industry",
+   "meaning_ko": "1516년 4월 23일 바이에른 공작 빌헬름 4세와 루트비히 10세가 잉골슈타트에서 맥주 순수령(Reinheitsgebot)을 반포한 날을 기리는 독일 양조업계의 기념일이다. 맥주를 몰트·홉·효모·물로만 만든다는 규정이 '세계에서 가장 오래된 식품법'으로 홍보된다. 음식 항목이지만 날짜 이유가 법령 반포일이라는 점이 일반 음식의 날과 다르다.",
+   "quirk": "식품 '법'의 생일을 맥주로 축하하는 날",
+   "founder_origin": "독일양조협회(Deutscher Brauer-Bund) 행사. 1994년부터라는 검색결과는 원문 미확인",
+   "founder_check_level": "date_reason_read_founding_year_search_only",
+   "claims": [
+    {"claim_id": "annual_date", "claim_ko": "매년 4월 23일, 1516년 순수령 반포를 기념", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "dhz", "quote": "Am 23. April findet jährlich der Tag des Deutschen Bieres statt. Damit wird die Verkündung des Reinheitsgebotes für Bier vom 23. April 1516 gefeiert.", "quote_ko": "매년 4월 23일 독일 맥주의 날이 열린다. 1516년 4월 23일 맥주 순수령 반포를 기념한다."}]},
+    {"claim_id": "industry", "claim_ko": "독일양조협회가 이날에 맞춰 발표", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "brauer-bund-pm-2023", "quote": "Wie der Deutsche Brauer-Bund (DBB) anlässlich des „Tages des Deutschen Bieres“ am 23.", "quote_ko": "독일양조협회(DBB)가 4월 23일 '독일 맥주의 날'을 맞아 밝힌 바에 따르면"}]}
+   ],
+   "search_result_only": [
+    {"url": "https://www.feiertage-deutschland.de/aktionstage/tag-des-deutschen-bieres/", "note": "1994년부터 — 원문 미수집"}
+   ],
+   "uncertainty": "제정 연도(1994)는 검색결과 요약만. 맥주(음식) 항목이고 같은 4/23에 세계 책의 날·산 조르디·유엔 스페인어의 날이 이미 있다. 기존 '맥주의 날'(04-07, 미국 금주법 완화일)과는 날짜·유래가 다른 별개.",
+   "related_existing_ids": ["anv-fixed-04-07-beer-day-us"],
+   "confidence": "medium"
+  }
+ ],
+ "limits": "독일어 '기이한 기념일' 목록(kuriose Gedenktage)은 검색결과가 업계 기념일 위주였다. Vatertag/Herrentag(예수 승천일=부활절+39일)는 조사하지 않았다 — 부활절 연동이라 어차피 규칙 미지원."
+}

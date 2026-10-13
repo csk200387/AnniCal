@@ -1,0 +1,461 @@
+{
+ "country": "CN",
+ "country_ko": "중국",
+ "search_language": "zh-Hans",
+ "sources": {
+  "gov-cn-5300368": "中国政府网 (중국 정부 포털, 2018-06-22 신화사 전재)",
+  "gov-cn-5300385": "中国政府网 정책해설 (2018-06-22)",
+  "chinadaily-2021": "中国日报 China Daily 双语 (2021-09-23)",
+  "people-2021": "人民日报 (2021-01-10)",
+  "news-cn-2025": "新华网 (2025)",
+  "chinadaily-2023": "中国日报网 每日一词 (2023-01-11)",
+  "zjol-whitepaper": "《2016中国的航天》白皮书 (국무원 신문판공실, 저장온라인 전재)",
+  "chinanews-2023": "中国新闻网 (2023-04-19, 央视 기사)",
+  "chinanews-2025": "中国新闻网 (2025-03-01)",
+  "ihchina": "中国非物质文化遗产网 (중국 무형문화유산망)",
+  "mydrivers": "快科技 mydrivers (东方早报 인용 기사)",
+  "chinadaily-2022": "中国日报 双语 (2022-03-14)",
+  "rmzxw-2020": "人民政协网 (2020-03-12)",
+  "thepaper": "澎湃新闻 (2025)"
+ },
+ "summary_ko": "중국은 국무원 비준으로 새로 생긴 직업·산업 기념일(인민경찰절·항천일·농민풍수절)과 법정 식수절, 민속 명절 용대두(음력 2/2), 인터넷 문화에서 생긴 광군절(11/11)을 찾았다. 춘절·중추절·단오·칠석·중양은 서비스의 설날·추석·단오·칠석·중양절과 같은 음력 명절이라 신규로 세지 않았다. 520은 이전 native 배치 대만 후보(tw-520)와 같은 중화권 말장난이라 prior_candidate 로 남겼다.",
+ "limits": "광군절은 원문 1곳(쾌과기)만 읽음 — 중국일보 2014 기사 404. 520 은 이번에 별도 검색하지 않았다(이전 후보 대조만). 국무원 비복 원문(gov.cn 정책 문서)은 직접 수집하지 않고 정부 포털 전재 기사·백서로 대신했다.",
+ "candidates": [
+  {
+   "aliases": [
+    "丰收节",
+    "Chinese Farmers' Harvest Festival"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [
+    "anv-term-chubun-kr"
+   ],
+   "related_prior_candidates": [],
+   "quirk": "절기(추분)를 날짜로 삼은 현대 국가 기념일",
+   "candidate_key": "cn-farmers-harvest",
+   "name_original": "中国农民丰收节",
+   "name_ko": "중국 농민 풍수절 — 추분에 여는 농민의 명절",
+   "date_type": "annual-tabulated",
+   "date_rule": "chubun",
+   "date_rule_folk": "매년 추분(태양 황경 180°)",
+   "date_note": "원문 \"每年农历秋分\". 서비스 chubun 표는 한국 표준시 기준 — 중국(UTC+8)과 추분 날짜가 어긋나는 해가 있는지 검수 시 확인 필요. 2021년은 9월 23일(원문).",
+   "app_date_support": "supported_tabulated",
+   "scope": "중국 전국, 국가 차원 기념일(공휴일 아님)",
+   "kind": "official_occupation",
+   "kind_group": "occupation_culture",
+   "officiality": "official_observance_not_holiday",
+   "meaning_ko": "2018년 당 중앙 비준·국무원 비복으로 생긴, 국가 차원에서 처음 농민을 위해 만든 명절이다. 날짜를 추분으로 잡은 이유를 농업농촌부 장관은 \"봄에 심고 가을에 거두는데 추분 무렵 열매가 가장 풍성해 수확을 잘 보여 주고, 남북 지방을 모두 아우른다\"고 설명했다. 각지에서 공연·농민운동회·서화전 등이 열린다.",
+   "founder_origin": "2018 당 중앙 비준·국무원 비복(농업농촌부 발표)",
+   "founder_check_level": "official_portal_read",
+   "founder_check": "confirmed",
+   "claims": [
+    {
+     "claim_id": "established_2018",
+     "claim_ko": "2018년부터 매년 추분을 중국 농민 풍수절로 설립, 국가 차원 첫 농민 명절",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "gov-cn-5300368",
+       "quote": "经党中央批准、国务院批复，自2018年起，将每年农历秋分设立为‘中国农民丰收节’，这是第一个在国家层面专门为农民设立的节日。",
+       "quote_ko": "당 중앙 비준·국무원 비복으로 2018년부터 매년 추분을 중국 농민 풍수절로 정했다. 국가 차원에서 농민을 위해 만든 첫 명절이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "why_autumn_equinox",
+     "claim_ko": "추분을 고른 이유: 수확을 가장 잘 보여 주고 남북을 아우름",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "gov-cn-5300368",
+       "quote": "将秋分定为“中国农民丰收节”，兼顾南北方，既便于城乡群众参与，也利于展示农业丰收成果。",
+       "quote_ko": "추분을 풍수절로 정하면 남북을 아우르고 도농 주민 참여와 수확 성과 전시에 유리하다."
+      }
+     ]
+    },
+    {
+     "claim_id": "fourth_2021",
+     "claim_ko": "2021년 9월 23일 추분이 제4회",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "chinadaily-2021",
+       "quote": "9月23日是农历秋分，也是第四个“中国农民丰收节”。",
+       "quote_ko": "9월 23일은 추분이자 제4회 중국 농민 풍수절이다."
+      }
+     ]
+    }
+   ],
+   "distinct_reason": "서비스 추분(절기) 항목과 같은 날이지만 중국 정부가 정한 별개 농민 기념일",
+   "uncertainty": "\"农历秋分\" 표기는 원문 그대로(추분은 태양력 절기). 서비스 chubun 표를 쓰려면 UTC+8 기준 추분일과의 차이를 2020~2050 범위에서 검증해야 한다(이번에 계산 안 함).",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "Chinese People's Police Day",
+    "110警察节"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": "1월 10일(110 = 중국 경찰 긴급번호와 같은 숫자)이라는 해석이 돌지만 원문 확인 안 됨",
+   "candidate_key": "cn-police-day",
+   "name_original": "中国人民警察节",
+   "name_ko": "중국 인민경찰절",
+   "date_type": "annual-fixed",
+   "date_rule": "01-10",
+   "date_note": "2021년부터 매년 1월 10일",
+   "app_date_support": "supported",
+   "scope": "중국 전국, 국가 차원 직업 기념일",
+   "kind": "official_occupation",
+   "kind_group": "occupation_culture",
+   "officiality": "official_observance_not_holiday",
+   "meaning_ko": "2020년 7월 21일 국무원 비복으로 2021년부터 매년 1월 10일로 정한 중국 경찰의 날이다. 국가 차원에서 경찰 대오를 위해 만든 기념일로, 공안부가 경찰기 게양식을 열고 경찰가를 부르며 입경 선서를 되새긴다. 2026년이 제6회다.",
+   "founder_origin": "2020-07-21 국무원 비복",
+   "founder_check_level": "official_media_read",
+   "founder_check": "confirmed",
+   "claims": [
+    {
+     "claim_id": "approval",
+     "claim_ko": "2020-07-21 국무원 비복, 2021년부터 매년 1월 10일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "chinadaily-2023",
+       "quote": "2020年7月21日，《国务院关于同意设立“中国人民警察节”的批复》发布，同意自2021年起，将每年1月10日设立为“中国人民警察节”。",
+       "quote_ko": "2020년 7월 21일 \"중국 인민경찰절 설립에 동의하는 국무원 비복\"이 발표돼 2021년부터 매년 1월 10일을 인민경찰절로 정했다."
+      },
+      {
+       "evidence_id": "people-2021",
+       "quote": "经党中央批准、国务院批复，自2021年起，将每年1月10日设立为“中国人民警察节”。",
+       "quote_ko": "당 중앙 비준·국무원 비복으로 2021년부터 매년 1월 10일을 인민경찰절로 정했다."
+      }
+     ]
+    },
+    {
+     "claim_id": "fifth_2025",
+     "claim_ko": "2025-01-10 제5회, 공안부 경찰기 게양식",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "news-cn-2025",
+       "quote": "2025年1月10日是第五个中国人民警察节",
+       "quote_ko": "2025년 1월 10일은 제5회 중국 인민경찰절이다."
+      }
+     ]
+    }
+   ],
+   "uncertainty": "1월 10일을 고른 이유(110 신고번호 연상)는 이번 원문에서 확인 못 함 — 쓰지 말 것.",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "China Space Day"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": null,
+   "candidate_key": "cn-space-day",
+   "name_original": "中国航天日",
+   "name_ko": "중국 항천일 — 첫 인공위성 둥팡훙 1호 발사일",
+   "date_type": "annual-fixed",
+   "date_rule": "04-24",
+   "date_note": "2016년부터 매년 4월 24일",
+   "app_date_support": "supported",
+   "scope": "중국 전국, 국가 기념일(공휴일 아님)",
+   "kind": "official_science",
+   "kind_group": "occupation_culture",
+   "officiality": "official_observance_not_holiday",
+   "meaning_ko": "중국 정부가 2016년부터 매년 4월 24일로 정한 우주개발 기념일이다. 1970년 4월 24일 중국 첫 인공위성 \"둥팡훙(东方红) 1호\"가 발사된 날에서 따왔다고 알려져 있다. 국가항천국이 해마다 주제를 정하고 전시·과학 강연·시설 개방 등 수백 건의 행사를 연다.",
+   "founder_origin": "2016 국무원 비복(《2016中国的航天》 백서에 명시)",
+   "founder_check_level": "official_whitepaper_read",
+   "founder_check": "confirmed",
+   "claims": [
+    {
+     "claim_id": "whitepaper",
+     "claim_ko": "백서: 2016년부터 매년 4월 24일을 중국 항천일로",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "zjol-whitepaper",
+       "quote": "为传承航天精神、激发创新热情，中国政府决定，自2016年起，将每年4月24日设立为“中国航天日”。",
+       "quote_ko": "항천 정신을 잇고 혁신 열정을 북돋우려 중국 정부는 2016년부터 매년 4월 24일을 중국 항천일로 정했다."
+      }
+     ]
+    },
+    {
+     "claim_id": "state_council",
+     "claim_ko": "2016년 국무원 비복, 2023년 제8회",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "chinanews-2023",
+       "quote": "2016年，国务院批复同意将每年4月24日设立为“中国航天日”。",
+       "quote_ko": "2016년 국무원이 매년 4월 24일을 중국 항천일로 정하는 데 동의했다."
+      },
+      {
+       "evidence_id": "chinanews-2023",
+       "quote": "4月24日将迎来第八个中国航天日",
+       "quote_ko": "4월 24일 제8회 중국 항천일을 맞는다"
+      }
+     ]
+    }
+   ],
+   "uncertainty": "둥팡훙 1호 발사일(1970-04-24)이 날짜 이유라는 문장은 이번 수집 원문에서 인용하지 못했다(검색결과 요약 수준) — 검수 시 원문 1곳 추가 필요. 비복일 3월 8일설은 단일 출처.",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "Arbor Day (China)",
+    "3·12植树节"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [
+    "gov-9"
+   ],
+   "related_prior_candidates": [],
+   "quirk": "나라를 세운 인물의 기일이 나무 심는 날이 됐다",
+   "candidate_key": "cn-arbor-day",
+   "name_original": "植树节",
+   "name_ko": "중국 식수절 — 쑨원 서거일에 나무 심는 날",
+   "date_type": "annual-fixed",
+   "date_rule": "03-12",
+   "date_note": "1979년 결정, 2020년 개정 삼림법에 명시",
+   "app_date_support": "supported",
+   "scope": "중국 전국 법정 기념일(공휴일 아님)",
+   "kind": "official_nature",
+   "kind_group": "nature_animal",
+   "officiality": "official_observance_not_holiday",
+   "meaning_ko": "매년 3월 12일 중국의 법정 식수절이다. 1979년 2월 전인대 상무위원회가 3월 12일을 식수절로 정했고, 2020년 개정 삼림법에도 명시됐다. 3월 12일은 1925년 쑨원이 세상을 떠난 날로, 1928년 국민정부가 서거 3주기에 식수 의식을 열며 이날을 식수절로 삼은 것이 뿌리다. 1981년부터 적령 시민의 \"의무 식수\"가 법적 의무가 됐다.",
+   "founder_origin": "1928 국민정부(쑨원 서거일) → 1979 전인대 상무위 결정 → 2020 삼림법",
+   "founder_check_level": "official_media_read",
+   "founder_check": "confirmed",
+   "claims": [
+    {
+     "claim_id": "decision_1979_law_2020",
+     "claim_ko": "1979년 전인대 상무위 결정, 2020 삼림법 명시",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "chinadaily-2022",
+       "quote": "1979年2月，第五届全国人大常委会第六次会议决定，每年3月12日为我国的植树节。",
+       "quote_ko": "1979년 2월 제5기 전인대 상무위 제6차 회의가 매년 3월 12일을 식수절로 정했다."
+      },
+      {
+       "evidence_id": "chinadaily-2022",
+       "quote": "2020年7月1日起，新修订的《中华人民共和国森林法》正式实施，明确每年3月12日为植树节。",
+       "quote_ko": "2020년 7월 1일부터 시행된 개정 삼림법이 매년 3월 12일을 식수절로 명시했다."
+      }
+     ]
+    },
+    {
+     "claim_id": "sun_yatsen",
+     "claim_ko": "1925-03-12 쑨원 서거, 1928 국민정부가 서거일을 식수절로",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "rmzxw-2020",
+       "quote": "1925年3月12日，孙中山先生逝世。1928年，为纪念孙中山先生逝世三周年，国民政府举行了植树仪式，并将其逝世的那天，即3月12日定为植树节。",
+       "quote_ko": "1925년 3월 12일 쑨원 서거. 1928년 국민정부가 서거 3주기 식수 의식을 열고 3월 12일을 식수절로 정했다."
+      },
+      {
+       "evidence_id": "thepaper",
+       "quote": "1928年4月，为纪念孙中山逝世三周年，当时的国民政府举行了植树仪式，并将孙中山逝世纪念日定为植树节，以示垂念。",
+       "quote_ko": "1928년 4월 국민정부가 쑨원 서거 3주기 식수 의식을 열고 서거 기념일을 식수절로 정했다."
+      }
+     ]
+    },
+    {
+     "claim_id": "first_april5",
+     "claim_ko": "처음엔 4월 5일(청명), 링다오양 등이 창의",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "rmzxw-2020",
+       "quote": "中国的植树节由林学家凌道扬等创议设立，最初确定于4月5日。",
+       "quote_ko": "중국 식수절은 임학자 링다오양 등이 제안해 처음엔 4월 5일로 정했다."
+      }
+     ]
+    }
+   ],
+   "distinct_reason": "한국 식목일(04-05)과 나라·날짜가 다른 중국 법정 식수절. 대만은 같은 3/12 를 植樹節로 지키나 이번 조사 범위 밖",
+   "uncertainty": "\"邓小平의 제안\" 서술은 1곳(인민정협망)만. 1928년 결정이 4월이었다는 점과 날짜(3/12) 확정 시점 표기가 매체마다 조금씩 다름.",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "龙抬头",
+    "春龙节",
+    "春耕节"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": "한 달 동안 머리를 안 깎다가 이날 일제히 이발소로 몰린다",
+   "candidate_key": "cn-longtaitou",
+   "name_original": "二月二（龙抬头）",
+   "name_ko": "용대두 — 음력 2월 2일 용이 고개 드는 날",
+   "date_type": null,
+   "date_rule": null,
+   "date_rule_folk": "음력 2월 2일",
+   "date_note": "서비스 observances 표에 음력 2/2 키 없음 → 앱 날짜 미지원. 특정 해 양력일을 고정일로 쓰지 않음.",
+   "app_date_support": "unsupported",
+   "scope": "중국 북방 중심 민속 명절(공휴일 아님)",
+   "kind": "folk_lunar",
+   "kind_group": "folk_religious",
+   "officiality": "folk_tradition",
+   "meaning_ko": "음력 2월 2일, 동쪽 하늘의 \"청룡\" 별자리 머리(각수)가 지평선 위로 떠오를 무렵이라 \"용이 고개를 든다\"고 부르는 중국 민속 명절이다. 이날 이발하면 운이 트인다고 해 \"용머리를 깎는다\"고 하며, 민간에는 \"정월엔 이발하지 않는다\"는 속설이 있었다. 만두를 \"용의 귀\", 국수를 \"용 수염\"이라 부르며 먹는다.",
+   "founder_origin": "제정자 없음. 당대 무렵 기원, 원대 《析津志》에 \"용대두\" 기록, 이발 풍습은 청대 형성(신화망)",
+   "founder_check_level": "folklore_media_read",
+   "founder_check": "not_applicable",
+   "claims": [
+    {
+     "claim_id": "haircut",
+     "claim_ko": "이발이 대표 풍습, 청대 형성",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "news-cn-2025",
+       "quote": "二月初二我国民间有很多习俗，其中，最具代表性的要数理发了，这个习俗形成于清代。",
+       "quote_ko": "음력 2월 2일 여러 민간 풍습 중 가장 대표적인 것은 이발이며, 이 풍습은 청대에 형성됐다."
+      }
+     ]
+    },
+    {
+     "claim_id": "no_haircut_first_month",
+     "claim_ko": "\"정월 이발 금지\" 민간 풍습 뒤 2월 2일 이발",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "chinanews-2025",
+       "quote": "民间曾经流传着“正月不理发”的习俗，“二月二”理发是希望精神百倍迎接未来的日子。",
+       "quote_ko": "민간에 \"정월엔 이발하지 않는다\"는 풍습이 있었고, 2월 2일 이발은 기운차게 앞날을 맞으려는 바람이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "astronomy",
+     "claim_ko": "각수(용머리)가 동쪽 지평선에서 떠오르는 천상",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "chinanews-2025",
+       "quote": "“二月二，龙抬头”反映的就是春耕前后，角宿从东方地平线缓缓升起的天象。",
+       "quote_ko": "\"이월 이일 용대두\"는 봄갈이 무렵 각수가 동쪽 지평선에서 서서히 떠오르는 천상을 반영한다."
+      }
+     ]
+    },
+    {
+     "claim_id": "xijinzhi",
+     "claim_ko": "원대 《析津志》 기록",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "chinanews-2025",
+       "quote": "《析津志》载：“二月二日，谓之龙抬头。",
+       "quote_ko": "《석진지》에 \"2월 2일을 용대두라 한다\"고 적혀 있다."
+      }
+     ]
+    }
+   ],
+   "uncertainty": "\"정월에 이발하면 외삼촌이 죽는다\" 속설의 기원(청 초 체발령 설 등)은 정설 없음 — 쓰지 말 것. 무형유산망 글은 체발 역사 일반론이라 인용 안 함. 한국 민속의 음력 2/1 머슴날·영등과는 다른 날.",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "双11",
+    "Singles' Day"
+   ],
+   "search_result_only": [
+    {
+     "url": "https://language.chinadaily.com.cn/2014-11/13/content_18907297.htm",
+     "note": "중국일보 2014 해설 — 수집 시 404"
+    },
+    {
+     "url": "https://studycli.org/ja/chinese-holidays/singles-day/",
+     "note": "난징대 기원설을 신중히 보라는 언급(검색결과)"
+    }
+   ],
+   "related_existing_ids": [
+    "anv-fixed-11-11-pepero-day-kr"
+   ],
+   "related_prior_candidates": [],
+   "quirk": "솔로들의 자조 농담이 하루 거래액 수백억 위안의 쇼핑 축제가 됐다",
+   "candidate_key": "cn-singles-day",
+   "name_original": "光棍节（双十一）",
+   "name_ko": "광군절 — 1이 넷 늘어선 솔로의 날, 지금은 쇼핑의 날",
+   "date_type": "annual-fixed",
+   "date_rule": "11-11",
+   "date_note": "11월 11일",
+   "app_date_support": "supported",
+   "scope": "중국 대륙 비공식(인터넷·대학 문화 → 전자상거래 할인 행사)",
+   "kind": "pun_commercial",
+   "kind_group": "quirky_unofficial",
+   "officiality": "unofficial",
+   "meaning_ko": "11월 11일에 늘어선 네 개의 \"1\"을 혼자인 \"막대기(光棍, 솔로)\"로 본 장난에서 생긴 중국의 솔로의 날이다. 1993년 난징대 남학생들의 기숙사 농담이 시작이라는 이야기가 널리 퍼져 있다. 2009년 타오바오몰이 27개 브랜드와 할인 행사를 열면서 세계 최대 규모의 온라인 쇼핑의 날 \"솽스이(双十一)\"로 변했다.",
+   "founder_origin": "1993 난징대 기숙사 농담설(보도 인용, 확인 불가) → 2009 타오바오몰 첫 판촉",
+   "founder_check_level": "single_news_origin_reported",
+   "founder_check": "partial",
+   "claims": [
+    {
+     "claim_id": "origin_story",
+     "claim_ko": "1993 난징대 남학생 농담에서 기원(보도 인용)",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "mydrivers",
+       "quote": "据报道，它起源于1993年南京大学几个男生在宿舍里的一句玩笑话，将四个1看做四个“光棍”。",
+       "quote_ko": "보도에 따르면 1993년 난징대 몇몇 남학생의 기숙사 농담에서 시작해 1 네 개를 네 명의 솔로로 봤다."
+      }
+     ]
+    },
+    {
+     "claim_id": "taobao_2009",
+     "claim_ko": "2009-11-11 타오바오몰 27개 점포 첫 광군절 판촉",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "mydrivers",
+       "quote": "这一天，淘宝商城联合了27家店铺，首次以光棍节的名义，举办了一个促销活动，单日成交额超过5000万元。",
+       "quote_ko": "이날 타오바오몰이 27개 점포와 처음 광군절 이름으로 판촉 행사를 열어 하루 거래액이 5천만 위안을 넘었다."
+      }
+     ]
+    }
+   ],
+   "distinct_reason": "같은 11-11 숫자 모양 말장난이지만 한국 빼빼로데이와 대상(솔로)·나라가 다른 별개 기념일",
+   "uncertainty": "원문 1곳(쾌과기, 동방조보 인용)만 읽음 → 단일 출처. \"1993년 난징대\" 기원은 보도 인용이며 사실 확정 아님.",
+   "confidence": "medium"
+  },
+  {
+   "aliases": [
+    "5·20",
+    "网络情人节"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": null,
+   "candidate_key": "cn-520",
+   "name_original": "520（网络情人节）",
+   "name_ko": "520 — \"사랑해\" 숫자 말장난의 날(중국 대륙)",
+   "date_type": "annual-fixed",
+   "date_rule": "05-20",
+   "date_note": "5월 20일",
+   "app_date_support": "supported",
+   "scope": "중화권 공통 비공식",
+   "kind": "wordplay_relationship",
+   "kind_group": "relationship",
+   "officiality": "unofficial",
+   "meaning_ko": "520(우얼링)이 \"我爱你(사랑해)\"와 비슷하게 들리는 말장난의 날. 이전 native-languages 배치 tw-520 기록이 \"중화권 공통, 중국 본토에서도 기념\"이라고 이미 적고 있어 국가만 바꾼 신규로 세지 않는다.",
+   "founder_origin": "이전 후보 참조",
+   "founder_check_level": "prior_candidate",
+   "founder_check": "not_applicable",
+   "claims": [],
+   "prior_candidate_of": "native:tw-520",
+   "distinct_reason": "같은 말장난 기념일을 번역명·국가만 바꾼 것 → prior_candidate",
+   "uncertainty": "이번 배치에서 별도 검색·원문 수집 안 함. 근거는 이전 기록 참조.",
+   "confidence": "high"
+  }
+ ]
+}

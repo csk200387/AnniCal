@@ -1,0 +1,39 @@
+{
+ "_note": "이전 배치 원본은 수정하지 않는다. 원문 재검토 결과와 정정 제안만 기록한다. 적용 여부는 검수자 판단.",
+ "generated_by": "Claude Code (Opus 5.5), asia-expansion-20261012",
+ "corrections": [
+  {
+   "target": "native-languages-20261012/records.json · pl-dzien-wagarowicza · claims.secondary_note",
+   "severity": "medium",
+   "kind": "evidence_link_missing",
+   "problem": "claim 이 evidence_id 'ox-pl-witaj-wiosno' 를 인용하지만 이 기록의 evidence 목록에 해당 항목이 없다. 원문 파일은 다른 후보 폴더 evidence/pl-topienie-marzanny/ox-pl-witaj-wiosno.{pdf,txt} 에 있다.",
+   "original_review": "PDF 원본 SHA256 eeb7154800d01e0638a1a0d4fca9f8877a38144a72245cb624a642da15af7394 재계산 일치. txt 33행에 인용문 'W niektórych krajach, zwłaszcza w Polsce, istnieje zwyczaj obchodzenia tzw. \"Dnia Wagarowicza\" przez uczniów' 이 그대로 있다. 발행일 20.03.2024, 'Witaj Wiosno! Witej jor!'(체신 실레지아 방언 병기) — 인용 자체는 원문과 일치한다.",
+   "root_cause": "native-languages scripts/build_records.py 가 fetch-log 의 candidate_key 가 같은 항목만 evidence 로 모은다. 다른 후보 키로 받은 원문을 인용하면 연결이 빠진다.",
+   "proposal": "pl-dzien-wagarowicza.evidence 에 {evidence_id:'ox-pl-witaj-wiosno', url:'https://wiadomosci.ox.pl/witaj-wiosno-witej-jor,86704/pdf', local_raw_path:'evidence/pl-topienie-marzanny/ox-pl-witaj-wiosno.pdf', local_text_path:'evidence/pl-topienie-marzanny/ox-pl-witaj-wiosno.txt', sha256:'eeb71548…7394', accessed_at:'2026-10-12T01:00:33+00:00', source_org:'wiadomosci.ox.pl (체신 실레지아 지역 뉴스, 2024-03-20)'} 를 교차 참조로 추가. 판정(new_candidate)은 이미 다른 독립 출처 2곳(dzieje.pl·ESKA)으로 성립하므로 바뀌지 않는다. 이번 배치 build_records.py 는 claim 이 가리키는 다른 후보 폴더 근거도 찾아 연결하도록 고쳤다."
+  },
+  {
+   "target": "native-languages-20261012/records.json · th-wan-khru · scope",
+   "severity": "low",
+   "kind": "internal_inconsistency",
+   "problem": "scope 가 '태국 전국 공식 기념일(학교 휴교)' 인데 같은 기록 uncertainty 는 '학교 휴교 여부는 미확인이라 본문에 쓰지 말 것' 이라 한다. 인용(카오솟)에는 휴교 언급이 없다.",
+   "original_review": "evidence/th-wan-khru/khaosod.txt 에서 내각 결의·교원법 문장은 확인. 휴교 문장은 인용되지 않았다.",
+   "proposal": "scope 를 '태국 전국 공식 기념일(내각 결의). 휴교 여부 미확인' 으로 고친다."
+  },
+  {
+   "target": "quirky-discovery-20261012/records.json · answer-your-cats-questions-day · claims.date",
+   "severity": "low",
+   "kind": "recurrence_from_single_year",
+   "problem": "매년 1월 22일이라는 반복 규칙의 근거 인용이 'This year it is celebrated on January 22, 2022!' 한 해 표현뿐이다.",
+   "original_review": "인용 문자열은 저장 본문과 일치. 반복 여부 문장은 인용되지 않았다.",
+   "proposal": "status 는 유지하되 date_note 에 '연례 반복은 2022년 한 해 표기에서 추정' 을 남기고, 검수 시 다른 연도 자료 1건 확인."
+  },
+  {
+   "target": "native-languages-20261012/records.json · tw-teachers-day-928 · claims.first_june6",
+   "severity": "info",
+   "kind": "quote_scope",
+   "problem": "claim_ko 는 '1931년 6월 6일 + 1939년 음력 오인' 두 사실을 묶었는데 인용은 음력 오인 문장만 있다.",
+   "original_review": "같은 근거 nownews.txt 에 '源自於1931年（民國20年）…6月6日' 문장이 실제로 있어 사실 자체는 원문 지지됨.",
+   "proposal": "인용 1개('最早教師節其實並不在這天，而是在6月6日！源自於1931年（民國20年）')를 추가해 주장과 인용 범위를 맞춘다."
+  }
+ ]
+}

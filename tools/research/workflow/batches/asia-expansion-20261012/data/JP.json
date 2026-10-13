@@ -1,0 +1,575 @@
+{
+ "country": "JP",
+ "country_ko": "일본",
+ "search_language": "ja",
+ "sources": {
+  "jal-shichigosan": "JAL SKYWARD+ (일본항공 기내지 웹)",
+  "zatsuneta": "雑学ネタ帳 (기념일 목록 사이트)",
+  "alsok": "ALSOK (경비회사 생활 칼럼)",
+  "cao-gaiyou": "内閣府 (일본 내각부) 국민의 축일 안내",
+  "shizuoka-city": "静岡市 (시즈오카시청)",
+  "takashimaya": "高島屋 (다카시마야 백화점 기프트 칼럼)",
+  "nao-2025": "国立天文台 暦計算室 (국립천문대 역요항)",
+  "nippon-com": "nippon.com (니폰닷컴, 일본 공익재단 운영 매체)",
+  "kumanichi": "熊本日日新聞 (교도통신 전재, 2026-08-11)",
+  "akahata-2016": "しんぶん赤旗 (일본공산당 기관지 사설, 2016-08-11)",
+  "jbc-2026": "JBC 칼럼 (생활정보 블로그, 2026-07-07)",
+  "waraku": "和樂web (쇼가쿠칸 일본문화 매체)",
+  "gendai": "現代ビジネス (고단샤)",
+  "nact": "国立新美術館 아트커먼스 (전시 정보)",
+  "allabout": "All About (생활 정보 매체)"
+ },
+ "summary_ko": "일본은 축일법이 정한 국민의 축일(경로의 날·산의 날·성인의 날)과 민속 연중행사(시치고산·세쓰분·도요 축일 장어)를 함께 조사했다. 이전 배치가 일본 기념일협회 등록형 말장난 기념일 9건을 이미 다뤄 이번엔 공식·민속 축으로 넓혔다. 히나마쓰리는 서비스의 \"복숭아의 날(桃の日, 03-03)\" 본문이 같은 명절을 설명하고 있어 중복으로 분류했다.",
+ "limits": "오봉(お盆)·다나바타(七夕)는 서비스의 백중·칠석과 같은 기원 명절이라 별도 신규로 세지 않고 조사하지 않았다. 일본 축일법 원문(e-Gov)은 수집하지 않고 내각부 안내 페이지로 대신했다.",
+ "candidates": [
+  {
+   "aliases": [
+    "しちごさん",
+    "Shichi-Go-San"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": "\"천년 사탕\"이라는 이름의 긴 사탕을 장수 부적처럼 먹인다",
+   "candidate_key": "jp-shichigosan",
+   "name_original": "七五三",
+   "name_ko": "시치고산 — 3·5·7살 아이의 성장 참배",
+   "date_type": "annual-fixed",
+   "date_rule": "11-15",
+   "date_rule_folk": null,
+   "date_note": "11월 15일이 전통 날짜이나 오늘날 10~12월 사이 가족 편의로 참배하는 경우가 많다(원문).",
+   "app_date_support": "supported",
+   "scope": "일본 전국 민속·신사 참배 풍습(공휴일 아님)",
+   "kind": "folk_rite_of_passage",
+   "kind_group": "folk_religious",
+   "officiality": "folk_tradition",
+   "meaning_ko": "11월 15일 세 살·다섯 살·일곱 살 아이에게 나들이옷을 입혀 신사에 데려가 성장을 감사하고 장수를 비는 일본의 연중행사다. 세 살에 머리를 기르기 시작하는 가미오키, 다섯 살 남자아이가 처음 하카마를 입는 하카마기, 일곱 살 여자아이가 끈 대신 띠를 매는 오비토키 의식에서 비롯됐다. 아이에게 장수를 비는 가늘고 긴 홍백 사탕 \"지토세아메\"를 준다.",
+   "founder_origin": "제정자 없음(민속). 11월 15일 유래는 도쿠가와 도쿠마쓰(쓰나요시 장남) 기원설·귀숙일설·수확 감사설 등 여러 설",
+   "founder_check_level": "folklore_multiple_theories",
+   "founder_check": "not_applicable",
+   "claims": [
+    {
+     "claim_id": "date",
+     "claim_ko": "11월 15일, 매년 같은 날",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "jal-shichigosan",
+       "quote": "七五三は11月15日である。毎年同じ日取りで変わることはない。",
+       "quote_ko": "시치고산은 11월 15일이다. 매년 같은 날이고 바뀌지 않는다."
+      },
+      {
+       "evidence_id": "alsok",
+       "quote": "七五三の日は、「11月15日」です。",
+       "quote_ko": "시치고산의 날은 11월 15일이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "rites",
+     "claim_ko": "3세 가미오키·5세 하카마기·7세 오비토키 의식에서 유래",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "alsok",
+       "quote": "七五三の由来となった記念行事は、3歳「髪置の儀」5歳「袴着の儀」7歳「帯解の儀」です。",
+       "quote_ko": "시치고산의 유래가 된 의식은 3세 가미오키, 5세 하카마기, 7세 오비토키다."
+      }
+     ]
+    },
+    {
+     "claim_id": "date_theories",
+     "claim_ko": "11월 15일 유래는 여러 설: 귀숙일·도쿠마쓰 관련",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "jal-shichigosan",
+       "quote": "七五三は節句ではないため、その由来には諸説ある。",
+       "quote_ko": "시치고산은 절구(명절)가 아니라 유래에 여러 설이 있다."
+      },
+      {
+       "evidence_id": "jal-shichigosan",
+       "quote": "一つめは、11月15日は、鬼が出歩かないとされる「二十八宿の鬼宿日（きしゅくにち）」にあたり、婚礼以外の祝い事には吉日とされていたからというもの。",
+       "quote_ko": "첫째, 11월 15일이 귀신이 돌아다니지 않는다는 이십팔수의 귀숙일로 혼례 외 경사에 길일이었기 때문이라는 설."
+      }
+     ]
+    },
+    {
+     "claim_id": "tokumatsu_conflict",
+     "claim_ko": "도쿠마쓰 설의 내용이 출처마다 다름: 생일(JAL) vs 1681년 건강 기원 의식(목록 사이트)",
+     "verdict": "conflicting",
+     "evidence": [
+      {
+       "evidence_id": "jal-shichigosan",
+       "quote": "江戸時代の5代将軍である徳川綱吉の長男・徳松の誕生日が、天和元（1681）年11月15日であることに由来するという説。",
+       "quote_ko": "5대 쇼군 쓰나요시의 장남 도쿠마쓰의 생일이 1681년 11월 15일이라는 데서 왔다는 설."
+      },
+      {
+       "evidence_id": "zatsuneta",
+       "quote": "1681年（天和元年）旧暦11月15日に館林城主である徳川徳松（江戸幕府第5代将軍である徳川綱吉の長男）の健康を祈って始まったとされる説が有力である。",
+       "quote_ko": "1681년 음력 11월 15일 다테바야시 성주 도쿠가와 도쿠마쓰의 건강을 빌며 시작됐다는 설이 유력하다."
+      }
+     ]
+    },
+    {
+     "claim_id": "chitose",
+     "claim_ko": "장수를 비는 지토세아메를 준다",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "zatsuneta",
+       "quote": "七五三では、親が自らの子に長寿の願いを込めた「千歳飴（ちとせあめ）」を与えて食べて祝う。",
+       "quote_ko": "시치고산에는 부모가 아이에게 장수 소원을 담은 지토세아메를 먹여 축하한다."
+      }
+     ]
+    }
+   ],
+   "uncertainty": "도쿠마쓰 설은 출처끼리 \"생일\"과 \"건강 기원 의식\"으로 갈린다 — 본문에는 \"여러 설\" 수준으로만. 1681년 음력 날짜를 양력 11-15 로 동일시하지 말 것. 근거가 기내지·기업 칼럼·목록 사이트로 학술 자료는 없음.",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "けいろうのひ",
+    "Respect for the Aged Day",
+    "としよりの日"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [
+    "gov-41",
+    "anv-nth-09-2-sun-grandparents-day-us"
+   ],
+   "related_prior_candidates": [],
+   "quirk": "한 마을 경로잔치가 20년 만에 국가 공휴일이 됐다",
+   "candidate_key": "jp-keiro-no-hi",
+   "name_original": "敬老の日",
+   "name_ko": "경로의 날(일본) — 9월 셋째 월요일",
+   "date_type": "annual-nth-weekday",
+   "date_rule": "09-3-MON",
+   "date_note": "2002년까지 9월 15일, 2003년부터 9월 셋째 월요일(해피먼데이). 2026년 9월 21일.",
+   "app_date_support": "supported",
+   "scope": "일본 국민의 축일(공휴일)",
+   "kind": "official_holiday",
+   "kind_group": "national_official",
+   "officiality": "official_national",
+   "meaning_ko": "오랫동안 사회에 기여한 노인을 공경하고 장수를 축하하는 일본의 국민 축일로 9월 셋째 월요일이다. 1947년 9월 15일 효고현 노마다니촌(현 다카정)이 연 경로회가 시작으로 꼽히며, 이 운동이 전국으로 퍼져 1966년 축일법 개정으로 9월 15일이 \"경로의 날\"이 됐다. 2003년부터 월요일로 옮겨져 날짜가 해마다 9월 15~21일 사이로 움직인다.",
+   "founder_origin": "1947 효고현 노마다니촌 경로회(촌장 가도와키 마사오) → 1966 축일법 개정으로 국민 축일",
+   "founder_check_level": "official_page_and_local_gov_read",
+   "founder_check": "confirmed",
+   "claims": [
+    {
+     "claim_id": "law_rule",
+     "claim_ko": "내각부: 9월 셋째 월요일, 노인을 공경하고 장수를 축하",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "cao-gaiyou",
+       "quote": "多年にわたり社会につくしてきた老人を敬愛し、長寿を祝う。",
+       "quote_ko": "여러 해에 걸쳐 사회에 힘써 온 노인을 공경하고 장수를 축하한다."
+      },
+      {
+       "evidence_id": "cao-gaiyou",
+       "quote": "「敬老の日」は「9月の第3月曜日」であるため9月15日から21日の間で移動します。",
+       "quote_ko": "경로의 날은 9월 셋째 월요일이라 9월 15일~21일 사이를 움직인다."
+      }
+     ]
+    },
+    {
+     "claim_id": "origin_1947",
+     "claim_ko": "1947년 노마다니촌 경로 행사 → 1966년 축일 → 2003년 셋째 월요일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "shizuoka-city",
+       "quote": "戦後まもない1947年9月15日に、兵庫県の野間谷村（現在の多可町）で「長い間社会に貢献してきたお年寄りに敬意を表し、知識や人生経験を伝授する場」として、敬老行事が開催されました。",
+       "quote_ko": "전후 얼마 안 된 1947년 9월 15일 효고현 노마다니촌(현 다카정)에서 노인을 공경하고 경험을 전하는 자리로 경로 행사가 열렸다."
+      },
+      {
+       "evidence_id": "shizuoka-city",
+       "quote": "そして、1966年には、国民の祝日に関する法律の改正により、「敬老の日」として9月15日が祝日となりました。その後、2003年から、いわゆるハッピーマンデーとなり、9月の第3月曜日になりました。",
+       "quote_ko": "1966년 축일법 개정으로 9월 15일이 경로의 날 축일이 됐고 2003년부터 이른바 해피먼데이로 9월 셋째 월요일이 됐다."
+      }
+     ]
+    },
+    {
+     "claim_id": "village_holiday",
+     "claim_ko": "이듬해 마을 고유 축일 \"도시요리노히\", 1950 효고현 제정",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "takashimaya",
+       "quote": "翌年の9月15日には「としよりの日」として村独自の祝日となり、1950年（昭和25年）に兵庫県が「としよりの日」を制定。",
+       "quote_ko": "이듬해 9월 15일 \"도시요리노히(노인의 날)\"로 마을 고유 축일이 됐고 1950년 효고현이 이를 제정했다."
+      }
+     ]
+    }
+   ],
+   "distinct_reason": "한국 노인의 날(10-02)·미국 조부모의 날과 나라·날짜가 다른 별개 공휴일",
+   "uncertainty": "축일화 연도를 1965년으로 쓴 매체도 있음(검색결과). 원문 2곳(시즈오카시·다카시마야)은 1966년. 9월 15일을 고른 이유(농한기설 등)는 쓰지 말 것.",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "やまのひ",
+    "Mountain Day"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [
+    "anv-fixed-10-18-mountain-day-kr"
+   ],
+   "related_prior_candidates": [],
+   "quirk": "산악회 운동으로 생긴 공휴일. 2020·2021년엔 올림픽 때문에 날짜가 옮겨졌다",
+   "candidate_key": "jp-yama-no-hi",
+   "name_original": "山の日",
+   "name_ko": "산의 날(일본) — 2016년 생긴 국민 축일",
+   "date_type": "annual-fixed",
+   "date_rule": "08-11",
+   "date_note": "2020·2021년만 도쿄 올림픽 특별조치로 이동(내각부). 나머지 해는 8월 11일.",
+   "app_date_support": "supported",
+   "scope": "일본 국민의 축일(공휴일)",
+   "kind": "official_holiday",
+   "kind_group": "national_official",
+   "officiality": "official_national",
+   "meaning_ko": "\"산에 친숙해질 기회를 얻고 산의 은혜에 감사한다\"는 취지로 2014년 축일법 개정으로 정해져 2016년부터 시행된 일본의 국민 축일이다. 2010년 산악 5단체가 제정 운동을 시작했고 초당파 의원연맹과 협의회가 뒤를 이었다. 첫해 나가노현 가미코치에서 제1회 기념 전국대회가 열렸고, 10년째인 2026년엔 기후현 다카야마시에서 열렸다.",
+   "founder_origin": "2010 산악 5단체 운동 → 2014년 축일법 개정 성립 → 2016 시행",
+   "founder_check_level": "official_page_and_news_read",
+   "founder_check": "confirmed",
+   "claims": [
+    {
+     "claim_id": "purpose_date",
+     "claim_ko": "내각부: 8월 11일, 산에 친숙해지고 은혜에 감사",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "jp-keiro-no-hi/cao-gaiyou",
+       "quote": "山に親しむ機会を得て、山の恩恵に感謝する。",
+       "quote_ko": "산에 친숙해질 기회를 얻고 산의 은혜에 감사한다."
+      },
+      {
+       "evidence_id": "jp-keiro-no-hi/cao-gaiyou",
+       "quote": "令和２年(2020年)及び令和３年(2021年)に限り、東京オリンピック・パラリンピック競技大会の開催にあわせ、「海の日」、「スポーツの日」及び「山の日」が移動しました。",
+       "quote_ko": "2020·2021년에 한해 도쿄 올림픽·패럴림픽에 맞춰 바다의 날·스포츠의 날·산의 날이 이동했다."
+      }
+     ]
+    },
+    {
+     "claim_id": "law_2014_2016",
+     "claim_ko": "2014년 개정 축일법 성립, 2016년 시행",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "kumanichi",
+       "quote": "２０１４年、８月１１日を山の日と定めた改正祝日法が成立。１６年から施行された。",
+       "quote_ko": "2014년 8월 11일을 산의 날로 정한 개정 축일법이 성립해 2016년부터 시행됐다."
+      }
+     ]
+    },
+    {
+     "claim_id": "movement",
+     "claim_ko": "2010년 4월 산악 5단체 중심 제정 운동",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "akahata-2016",
+       "quote": "山の日は運動によって実現した祝日です。２０１０年４月に山岳５団体（日本山岳協会、日本勤労者山岳連盟、日本山岳会、日本ガイド協会、日本ヒマラヤン・アドベンチャー・トラスト）が中心になって、関係省庁や地方自治体、環境団体、観光業者、山小屋関係者らに働きかけてきました。",
+       "quote_ko": "산의 날은 운동으로 실현된 축일이다. 2010년 4월 산악 5단체가 중심이 되어 관계 부처·지자체·환경단체·관광업계·산장 관계자에게 호소해 왔다."
+      }
+     ]
+    },
+    {
+     "claim_id": "10th_2026",
+     "claim_ko": "2026년 다카야마시 제10회 기념 전국대회",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "kumanichi",
+       "quote": "山に親しむ機会とし、恩恵に感謝する日とされる祝日「山の日」が始まって１０年となり、岐阜県高山市で１１日、第１０回「山の日」記念全国大会の式典が開かれた。",
+       "quote_ko": "산의 날이 시작된 지 10년, 11일 기후현 다카야마시에서 제10회 산의 날 기념 전국대회 식전이 열렸다."
+      }
+     ]
+    }
+   ],
+   "distinct_reason": "한국 산의 날(10-18)·유엔 세계 산의 날과 나라·날짜가 다른 일본 공휴일",
+   "uncertainty": "8월 12일(일본항공 123편 추락일)을 피해 11일로 했다는 설·\"8은 능선, 11은 나무\" 말장난은 법에 없는 설명(검색결과) — 본문에 사실로 쓰지 말 것. 아카하타는 정당 기관지 사설이라 운동 경과 사실만 인용.",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "せつぶん",
+    "豆まき"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [
+    "anv-term-ipchun-kr"
+   ],
+   "related_prior_candidates": [],
+   "quirk": "\"2월 3일\"로 외우지만 천문 계산 때문에 2월 2일로 당겨지는 해가 있다",
+   "candidate_key": "jp-setsubun",
+   "name_original": "節分",
+   "name_ko": "세쓰분 — 입춘 전날 콩을 뿌려 귀신을 쫓는 날",
+   "date_type": "annual-relative-to-holiday",
+   "date_rule": "anv-term-ipchun-kr:-1",
+   "date_rule_folk": "입춘(태양 황경 315°)의 전날",
+   "date_note": "입춘이 2월 3일인 해(2021·2025)는 2월 2일, 대부분 2월 3일. 한국·일본 모두 UTC+9 라 서비스 입춘 표(observances.ipchun)와 같은 날. 표 범위 2020~2050.",
+   "app_date_support": "supported",
+   "scope": "일본 전국 민속 행사(공휴일 아님)",
+   "kind": "folk_seasonal",
+   "kind_group": "folk_religious",
+   "officiality": "folk_tradition",
+   "meaning_ko": "입춘 전날 \"귀신은 밖으로, 복은 안으로\"를 외치며 볶은 콩을 뿌려 액을 쫓는 일본의 절기 행사다. 세쓰분은 원래 입춘·입하·입추·입동 각각의 전날을 뜻했지만 한 해의 시작으로 여긴 입춘 전날만 남았다. 입춘이 천문 계산으로 정해져 날짜가 2월 3일에 고정되지 않는다 — 2021년과 2025년엔 2월 2일이었다.",
+   "founder_origin": "제정자 없음(절기 풍습). 날짜는 국립천문대 역요항이 정하는 입춘의 전날",
+   "founder_check_level": "official_almanac_read",
+   "founder_check": "not_applicable",
+   "claims": [
+    {
+     "claim_id": "nao_2025",
+     "claim_ko": "국립천문대 2025 역요항: 입춘 2월 3일 23:10, 세쓰분 2월 2일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "nao-2025",
+       "quote": "令和 6年 2月 1日 国立天文台発表",
+       "quote_ko": "레이와 6년(2024) 2월 1일 국립천문대 발표"
+      },
+      {
+       "evidence_id": "nao-2025",
+       "quote": "節分\n2月02日",
+       "quote_ko": "세쓰분 2월 2일"
+      }
+     ]
+    },
+    {
+     "claim_id": "definition",
+     "claim_ko": "원래 사입(四立) 전날, 특히 입춘 전날로 정착",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "nippon-com",
+       "quote": "本来は「二十四節気」の立春・立夏・立秋・立冬それぞれの前日を指すが、冬から春に移る立春は古来より1年の始まりとして重んじられていたため、特に立春の前日が「節分」として広く定着している。",
+       "quote_ko": "본래 이십사절기의 입춘·입하·입추·입동 각각의 전날이지만, 입춘이 예부터 한 해의 시작으로 중시돼 특히 입춘 전날이 세쓰분으로 정착했다."
+      }
+     ]
+    },
+    {
+     "claim_id": "moves",
+     "claim_ko": "2021년도 2월 2일, 입춘에 따라 날짜가 변한다",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "nippon-com",
+       "quote": "実は2021年も節分は2月2日だった。",
+       "quote_ko": "사실 2021년에도 세쓰분은 2월 2일이었다."
+      }
+     ]
+    }
+   ],
+   "distinct_reason": "서비스 입춘(절기)과 다른, 그 전날의 일본 액막이 풍습. anchor 로 입춘 항목을 사용",
+   "uncertainty": "콩 뿌리기·에호마키(恵方巻) 풍습의 기원 연대는 이번에 원문 확인 안 함. 2월 3일 고정일로 등록하면 2025년 등에서 틀린다.",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "どようのうしのひ",
+    "うなぎの日"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": "광고 문구 하나가 국민 풍습이 됐다는 전설(사실 미확인)",
+   "candidate_key": "jp-doyo-ushi",
+   "name_original": "土用の丑の日",
+   "name_ko": "도요 축일 — 한여름 장어 먹는 날",
+   "date_type": null,
+   "date_rule": null,
+   "date_rule_folk": "여름 도요(입추 전 약 18일) 기간 중 십이지 축(丑)일. 해에 따라 2번(二の丑)",
+   "date_note": "2026년 여름 축일은 7월 26일(원문). 간지 일진과 절기 기간을 함께 써야 해 현재 dateType 으로 표현 불가.",
+   "app_date_support": "unsupported",
+   "scope": "일본 전국 식문화 풍습(공휴일 아님)",
+   "kind": "food_folk_commercial",
+   "kind_group": "folk_religious",
+   "officiality": "folk_tradition",
+   "meaning_ko": "입추 직전 약 18일의 \"여름 도요\" 기간 가운데 십이지의 소(丑)에 해당하는 날, 더위를 이기려 장어구이를 먹는 일본 풍습이다. 장어집이 에도 시대 학자 히라가 겐나이에게 상담해 \"본일 도요 축일\" 벽보를 붙였더니 대박이 났다는 이야기가 가장 유명하지만, 여러 매체가 \"여러 설\"이라고 단서를 단다. 축일에 \"う\"로 시작하는 음식을 먹으면 좋다는 속설도 함께 전한다.",
+   "founder_origin": "히라가 겐나이 고안설(전설, 사료 미확인) · \"う\"자 음식 속설",
+   "founder_check_level": "legend_only",
+   "founder_check": "unverified",
+   "claims": [
+    {
+     "claim_id": "date_2026",
+     "claim_ko": "2026년 여름 도요 축일은 7월 26일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "jbc-2026",
+       "quote": "2026年の夏の土用の丑の日は7月26日（日）です。",
+       "quote_ko": "2026년 여름 도요 축일은 7월 26일(일)이다."
+      }
+     ]
+    },
+    {
+     "claim_id": "gennai_legend",
+     "claim_ko": "히라가 겐나이 고안설 — 여러 설",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "waraku",
+       "quote": "「土用の丑の日」にうなぎを食べるのは、江戸時代に本草学、地質学者、発明などあらゆる分野で才能を発揮した平賀源内（ひらがげんない）が推奨したという説があります。",
+       "quote_ko": "도요 축일에 장어를 먹는 것은 에도 시대 다재다능한 히라가 겐나이가 권했다는 설이 있다."
+      },
+      {
+       "evidence_id": "waraku",
+       "quote": "それ以来、「土用の丑の日」にはうなぎを食べる風習が根付いたといわれています（諸説あり）。",
+       "quote_ko": "그 후 도요 축일에 장어를 먹는 풍습이 자리 잡았다고 한다(여러 설 있음)."
+      }
+     ]
+    },
+    {
+     "claim_id": "u_foods",
+     "claim_ko": "\"う\"자 음식으로 액을 쫓는 풍습",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "jbc-2026",
+       "quote": "「う」のつく食べ物（うどん・瓜・梅干し・うなぎ）で厄を払う風習など、複数の由来があります。",
+       "quote_ko": "\"う\"로 시작하는 음식(우동·오이·우메보시·장어)으로 액을 쫓는 풍습 등 여러 유래가 있다."
+      }
+     ]
+    },
+    {
+     "claim_id": "doyo_official_period",
+     "claim_ko": "국립천문대가 도요 시작일을 잡절로 발표",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "jp-setsubun/nao-2025",
+       "quote": "土用\n297度\n1月17日",
+       "quote_ko": "도요 297도 1월 17일(겨울 도요 시작, 2025년)"
+      }
+     ]
+    }
+   ],
+   "uncertainty": "히라가 겐나이 설은 전설로만 다룰 것(두 매체 모두 \"설\"). 날짜 근거는 생활정보 블로그 1곳 — 다른 해 날짜는 간지 계산 필요. 음식 항목이 과다한 서비스 사정상 우선순위 낮음.",
+   "confidence": "medium"
+  },
+  {
+   "aliases": [
+    "せいじんのひ",
+    "Coming of Age Day"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [
+    "gov-27"
+   ],
+   "related_prior_candidates": [],
+   "quirk": "패전 직후 동네 청년단 축제가 전국 성인식의 원형이 됐다",
+   "candidate_key": "jp-seijin-no-hi",
+   "name_original": "成人の日",
+   "name_ko": "성인의 날(일본) — 1월 둘째 월요일",
+   "date_type": "annual-nth-weekday",
+   "date_rule": "01-2-MON",
+   "date_note": "1949~1999년 1월 15일, 2000년부터 1월 둘째 월요일.",
+   "app_date_support": "supported",
+   "scope": "일본 국민의 축일(공휴일). 지자체별 성인식",
+   "kind": "official_holiday",
+   "kind_group": "national_official",
+   "officiality": "official_national",
+   "meaning_ko": "\"어른이 됐음을 자각하고 스스로 살아가려는 청년을 축하하고 격려한다\"는 일본의 국민 축일로 1월 둘째 월요일이다. 지자체마다 성인식을 여는데, 그 원형은 패전 이듬해인 1946년 11월 사이타마현 와라비정 청년단이 연 \"청년제\"로 알려져 있다. 1948년 축일법으로 1월 15일이 성인의 날이 됐고 2000년부터 월요일로 옮겨졌다.",
+   "founder_origin": "1946 와라비정 청년단 \"청년제\" 발상설 → 1948 축일법(1월 15일) → 2000 둘째 월요일",
+   "founder_check_level": "official_page_and_magazine_read",
+   "founder_check": "confirmed",
+   "claims": [
+    {
+     "claim_id": "law_rule",
+     "claim_ko": "내각부: 1월 둘째 월요일, 청년을 축하하고 격려",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "jp-keiro-no-hi/cao-gaiyou",
+       "quote": "1月の第2月曜日\nおとなになったことを自覚し、みずから生き抜こうとする青年を祝いはげます。",
+       "quote_ko": "1월 둘째 월요일. 어른이 됐음을 자각하고 스스로 살아가려는 청년을 축하하고 격려한다."
+      }
+     ]
+    },
+    {
+     "claim_id": "warabi_1946",
+     "claim_ko": "1946년 11월 와라비정 청년단 청년제가 시작",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "gendai",
+       "quote": "1946年11月に、埼玉県の蕨町の青年団が、日本の復興は若者にかかっている、がんばってくれ！ との激励の気持ちを込めて「青年祭」を開催しました。",
+       "quote_ko": "1946년 11월 사이타마현 와라비정 청년단이 일본 부흥은 젊은이에게 달렸다는 격려를 담아 청년제를 열었다."
+      },
+      {
+       "evidence_id": "nippon-com",
+       "quote": "1946（昭和21）年 埼玉県北足立郡蕨町（現蕨市）で「青年祭」開催。成人式の発祥とされる。",
+       "quote_ko": "1946년 사이타마현 와라비정에서 청년제 개최. 성인식의 발상으로 여겨진다."
+      }
+     ]
+    },
+    {
+     "claim_id": "history",
+     "claim_ko": "1948 축일법, 1949년부터 1월 15일, 2000년 둘째 월요일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "gendai",
+       "quote": "翌1949年から、1月15日は成人の日として祝日になり",
+       "quote_ko": "이듬해 1949년부터 1월 15일이 성인의 날 축일이 됐고"
+      },
+      {
+       "evidence_id": "gendai",
+       "quote": "2000年より成人の日は1月第2月曜日へ移動",
+       "quote_ko": "2000년부터 성인의 날은 1월 둘째 월요일로 이동"
+      }
+     ]
+    }
+   ],
+   "distinct_reason": "한국 성년의 날(5월 셋째 월요일)과 나라·날짜가 다른 일본 공휴일",
+   "uncertainty": "청년제 날짜를 11월 22일로 특정하는 자료가 있으나(nippon.com 은 날짜 페이지에 실렸을 뿐 본문에 일자 없음) 확인 안 함. 2022년 성년 18세 변경에 따른 식전 대상 혼재는 지자체별.",
+   "confidence": "high"
+  },
+  {
+   "aliases": [
+    "雛祭り",
+    "上巳の節句",
+    "桃の節句"
+   ],
+   "search_result_only": [],
+   "related_existing_ids": [],
+   "related_prior_candidates": [],
+   "quirk": null,
+   "candidate_key": "jp-hinamatsuri",
+   "name_original": "ひな祭り（桃の節句）",
+   "name_ko": "히나마쓰리 — 3월 3일 여자아이의 명절",
+   "date_type": "annual-fixed",
+   "date_rule": "03-03",
+   "date_note": "상사(上巳)는 원래 3월 초 뱀날, 현재 3월 3일",
+   "app_date_support": "supported",
+   "scope": "일본 전국 민속 명절(공휴일 아님)",
+   "kind": "folk_seasonal",
+   "kind_group": "folk_religious",
+   "officiality": "folk_tradition",
+   "meaning_ko": "여자아이의 건강한 성장을 비는 3월 3일 명절. 서비스의 \"복숭아의 날(桃の日)\" 항목 본문이 히나마쓰리(모모노셋쿠)를 그대로 설명하고 있어 별도 신규로 세지 않는다.",
+   "founder_origin": "중국 상사절 유래(전시 해설)",
+   "founder_check_level": "duplicate",
+   "founder_check": "not_applicable",
+   "claims": [
+    {
+     "claim_id": "origin",
+     "claim_ko": "중국 상사절에서 유래, 3월 3일",
+     "verdict": "supported_by_original",
+     "evidence": [
+      {
+       "evidence_id": "nact",
+       "quote": "女子の健やかな成長を願う節句祝いの「ひな祭り」ですが、もとは中国の「上巳節(じょうしせつ)」に由来しています。",
+       "quote_ko": "여자아이의 건강한 성장을 비는 히나마쓰리는 원래 중국의 상사절에서 유래했다."
+      }
+     ]
+    }
+   ],
+   "duplicate_of": "anv-fixed-03-03-peach-day-jp",
+   "distinct_reason": "서비스 03-03 \"복숭아의 날 (桃の日)\" origin 이 \"3월 3일 히나마츠리를 모모노셋쿠라 부르는 데서 온 이름\"으로 같은 명절을 다룸 → 의미 중복",
+   "uncertainty": "서비스 항목 이름이 \"복숭아의 날\"이라 검색 노출 관점에선 히나마쓰리 별칭 보강 검토 가능(서비스 수정은 이번 범위 밖).",
+   "confidence": "high"
+  }
+ ]
+}

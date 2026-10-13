@@ -1,0 +1,82 @@
+{
+ "country": "FR",
+ "country_ko": "프랑스",
+ "search_language": "fr",
+ "sources": {
+  "macommune-origine": "macommune.info (프랑슈콩테 지역 뉴스)",
+  "slate-2023": "Slate.fr (2023, CNRS 민족학자 Anne Monjaret 인터뷰)",
+  "icalendrier": "iCalendrier.fr (달력 사이트)",
+  "europe1": "Europe 1",
+  "laposte": "La Poste (프랑스 우정공사)"
+ },
+ "candidates": [
+  {
+   "candidate_key": "fr-catherinettes",
+   "name_original": "Sainte-Catherine / fête des Catherinettes",
+   "name_ko": "카트린 축일 — 카트리네트(25세 미혼 여성)의 날",
+   "aliases": ["coiffer sainte Catherine", "Catherinettes"],
+   "date_type": "annual-fixed",
+   "date_rule": "11-25",
+   "date_note": "성녀 카트린 축일. 원문이 '날짜는 고정'이라고 명시",
+   "scope": "프랑스 북부·동부 일부 지역 전통(대표: 오트손 브줄 장터), 파리 패션업계 행사",
+   "kind": "relationship",
+   "officiality": "regional_tradition",
+   "meaning_ko": "11월 25일 성녀 카트린 축일에 25세가 되도록 결혼하지 않은 여성(카트리네트)이 노랑·초록 모자를 쓰고 축하받는 프랑스 전통이다. '카트린 성녀의 머리를 손질한다(coiffer sainte Catherine)'는 표현이 지금도 '노처녀가 된다'는 뜻의 관용구로 남았다. 성녀 카트린은 재봉사·모자 장인의 수호성인이라 패션업계 행사로도 이어진다.",
+   "quirk": "미혼 여성에게 우스꽝스러운 색 조합 모자를 씌우는 날. 오늘날엔 성차별 논란과 '자립한 여성의 축제'라는 해석이 공존한다",
+   "founder_origin": "제정자 없음(민속). '16세기부터'(지역 뉴스)·'중세부터'(CNRS 민족학자)로 출처마다 기원 시점이 다르다 — 단정 금지",
+   "founder_check_level": "origin_period_conflicting_sources",
+   "claims": [
+    {"claim_id": "date_fixed", "claim_ko": "매년 11월 25일 고정", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "icalendrier", "quote": "La date est fixe, elle a lieu le 25 novembre de chaque année.", "quote_ko": "날짜는 고정이며 매년 11월 25일이다."}]},
+    {"claim_id": "who_hat", "claim_ko": "25세 이상 미혼 여성을 카트리네트라 부르고 초록·노랑 모자를 준다", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "slate-2023", "quote": "on n'a plus célébré que les 25 ans et plus, en les appelant les catherinettes si elles étaient toujours célibataires et en leur offrant un chapeau vert et jaune.", "quote_ko": "점차 25세 이상만 축하하게 되었고, 여전히 미혼이면 카트리네트라 부르며 초록·노랑 모자를 선물했다."}]},
+    {"claim_id": "origin_period", "claim_ko": "기원 시점: 중세(민족학자) vs 16세기(지역 뉴스)", "verdict": "conflicting",
+     "evidence": [{"evidence_id": "slate-2023", "quote": "La tradition des catherinettes est fêtée en France depuis le Moyen Âge.", "quote_ko": "카트리네트 전통은 프랑스에서 중세부터 기념되어 왔다."},
+                  {"evidence_id": "macommune-origine", "quote": "Depuis le XVIe siècle, le 25 novembre, on fête les Catherinettes", "quote_ko": "16세기부터 11월 25일에 카트리네트를 축하한다"}]},
+    {"claim_id": "regional_scope", "claim_ko": "북부·그랑테스트·누벨아키텐 일부에서 여전히 살아 있는 지역 전통", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "slate-2023", "quote": "Sauf dans le nord de la France, mais aussi dans certaines localités du Grand-Est et de la Nouvelle-Aquitaine, où la tradition des catherinettes non mariées est toujours vivace.", "quote_ko": "다만 프랑스 북부, 그리고 그랑테스트·누벨아키텐 일부 지역에서는 미혼 카트리네트 전통이 여전히 살아 있다."}]},
+    {"claim_id": "patron_milliners", "claim_ko": "성녀 카트린은 재봉사·모자 장인의 수호성인", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "slate-2023", "quote": "sainte Catherine est également la patronne des couturières et des modistes.", "quote_ko": "성녀 카트린은 재봉사와 모자 장인의 수호성인이기도 하다."}]}
+   ],
+   "search_result_only": [
+    {"url": "https://www.macommune.info/les-catherinettes-se-fetent-le-25-novembre-a-vesoul-110488", "note": "브줄 모자 대회 규정(25세·노랑초록) — 원문 미수집"},
+    {"url": "https://fr.aleteia.org/2013/11/25/25-novembre-les-catherinettes-coiffent-sainte-catherine/", "note": "가톨릭 매체 해설 — 원문 미수집"}
+   ],
+   "uncertainty": "노랑·초록의 상징(희망·가족 vs 신앙·지식)은 출처마다 다르다. 기원 세기도 상충. 같은 날이 '여성폭력 추방의 날'이라 성차별 논란이 있음을 함께 적어야 한다.",
+   "confidence": "high"
+  },
+  {
+   "candidate_key": "fr-fete-des-grands-meres",
+   "name_original": "Fête des grands-mères",
+   "name_ko": "프랑스 할머니의 날",
+   "aliases": ["Fête des Grand'mères", "fête des mamies"],
+   "date_type": "annual-nth-weekday",
+   "date_rule": "03-1-SUN",
+   "date_note": "3월 첫째 일요일. 원문 3곳 중 2곳(icalendrier·La Poste)이 2026-03-01, 2027-03-07, 2028-03-05 를 제시",
+   "scope": "프랑스 전국(비공식·상업 기원)",
+   "kind": "relationship_commercial",
+   "officiality": "commercial",
+   "meaning_ko": "3월 첫째 일요일에 손주가 할머니에게 감사를 전하는 프랑스의 날이다. 1987년 커피 브랜드 '카페 그랑메르(할머니 커피)'가 홍보용으로 만들었고, 1999년 무렵까지 브랜드와 같은 철자 'Grand'mères'를 썼다. 상업 발명품이었지만 학교 공모전을 타고 퍼져 1997년 조사에선 83%가 알았으나 브랜드와 연결 짓는 사람은 6%뿐이었다.",
+   "quirk": "커피 브랜드 이름이 그대로 기념일이 된 사례. 지금 프랑스 사람 대부분은 상업 기원을 모른다",
+   "founder_origin": "1987년 카페 그랑메르(창업자 René Monnier) 기획 → 같은 해 설립된 비영리 협회 'Fête des grand-mères'가 운영",
+   "founder_check_level": "original_read_secondary_site",
+   "claims": [
+    {"claim_id": "date_rule", "claim_ko": "매년 3월 첫째 일요일", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "icalendrier", "quote": "La date est variable, chaque année elle a lieu le 1er dimanche de mars.", "quote_ko": "날짜는 해마다 바뀌며 매년 3월 첫째 일요일이다."},
+                  {"evidence_id": "laposte", "quote": "En France la date de la Fête des grands-mères est fixée au premier dimanche du mois de mars.", "quote_ko": "프랑스에서 할머니의 날은 3월 첫째 일요일로 정해져 있다."}]},
+    {"claim_id": "founder_1987", "claim_ko": "1987년 카페 그랑메르가 만들었다", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "icalendrier", "quote": "elle a été créée en 1987 par une marque de l'industrie agroalimentaire, le café Grand'Mère", "quote_ko": "1987년 식품업계 브랜드인 카페 그랑메르가 만들었다"}]},
+    {"claim_id": "awareness_1997", "claim_ko": "1997년 인지도 83%, 브랜드 연결 6%", "verdict": "supported_by_original",
+     "evidence": [{"evidence_id": "icalendrier", "quote": "en 1997, 83% des personnes interrogées connaissaient la fête, mais seulement 6% d'entre elles l'associaient à la marque", "quote_ko": "1997년 응답자의 83%가 이 날을 알았지만 그중 6%만 브랜드와 연결 지었다"}]}
+   ],
+   "search_result_only": [
+    {"url": "https://www.europe1.fr/societe/fete-des-grands-meres-depuis-quand-celebre-t-on-les-mamies-en-france-4233757", "note": "1987 기원 — 원문 403 차단, 우회하지 않음"},
+    {"url": "https://franco.wiki/fr/F%C3%AAte_des_grands-m%C3%A8res.html", "note": "처음엔 3월 마지막 토요일이었다는 주장 — 다른 출처 없음, 미검증"}
+   ],
+   "uncertainty": "1987년 기원은 iCalendrier(달력 사이트) 원문 1곳만 읽음. 첫 회 날짜(3월 마지막 토요일설)는 미검증. 기존 서비스의 미국 조부모의 날(09-2-SUN)과 대상은 겹치지만 날짜·나라·상업 기원이 다른 별개 기념일로 판단.",
+   "related_existing_ids": ["anv-nth-09-2-sun-grandparents-day-us"],
+   "confidence": "medium"
+  }
+ ],
+ "limits": "프랑스어 일반 탐색 검색(#3)은 지역 축제(Hareng roi, fête de l'Ours 등)만 돌려줘 고정 기념일 후보로 이어지지 않았다. Fête des voisins(이웃의 날)는 날짜가 매년 주최 측 공지라 이번 배치에서 조사하지 않았다."
+}
