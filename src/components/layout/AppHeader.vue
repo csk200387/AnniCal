@@ -4,6 +4,7 @@ import { RouterLink, useRoute } from 'vue-router'
 import dayjs from 'dayjs'
 import AnnicalMark from '@/components/common/AnnicalMark.vue'
 import { useNow } from '@/composables/useNow'
+import { primaryNavigation } from './navigation'
 
 const { today } = useNow()
 const route = useRoute()
@@ -71,12 +72,7 @@ onBeforeUnmount(() => {
           :style="indicatorStyle"
           aria-hidden="true"
         />
-        <RouterLink to="/" exact-active-class="is-active"><span>오늘의</span> <span>발견</span></RouterLink>
-        <RouterLink to="/calendar" active-class="is-active"><span>기념일</span> <span>달력</span></RouterLink>
-        <RouterLink to="/birthday" active-class="is-active"><span>내</span> <span>생일은?</span></RouterLink>
-        <RouterLink to="/together" active-class="is-active"><span>우리의</span> <span>날</span></RouterLink>
-        <RouterLink to="/popular" active-class="is-active"><span>인기</span> <span>순위</span></RouterLink>
-        <RouterLink to="/export" active-class="is-active"><span>캘린더</span> <span>연동 <span class="header-nav-arrow" aria-hidden="true">↗</span></span></RouterLink>
+        <RouterLink v-for="item in primaryNavigation" :key="item.name" :to="item.to" active-class="is-active"><span>{{ item.lines[0] }}</span> <span>{{ item.lines[1] }}<span v-if="item.name === 'export'" class="header-nav-arrow" aria-hidden="true"> ↗</span></span></RouterLink>
       </nav>
       <div class="header-today"><span class="live-dot" /><span>{{ todayLabel }}</span><span class="header-today-label">좋은 하루예요!</span></div>
     </div>
