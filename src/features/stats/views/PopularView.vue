@@ -295,7 +295,11 @@ const isPending = computed(
                 /></span>
                 <span class="popular-podium-body"
                   ><span class="popular-podium-category"
-                    >{{ entry.category?.label ?? '기념일' }} · {{ entry.date }}</span
+                    ><i
+                      class="category-dot popular-dot"
+                      :data-color="entry.category?.colorToken"
+                      aria-hidden="true"
+                    />{{ entry.category?.label ?? '기념일' }} · {{ entry.date }}</span
                   ><strong>{{ displayName(entry.anniversary.name) }}</strong
                   ><span class="popular-podium-footer"
                     ><span
@@ -323,7 +327,11 @@ const isPending = computed(
                   ></template
                 ><template #title>{{ displayName(entry.anniversary.name) }}</template
                 ><template #detail
-                  >{{ entry.category?.label ?? '기념일' }} · {{ entry.date }}</template
+                  ><i
+                    class="category-dot popular-dot"
+                    :data-color="entry.category?.colorToken"
+                    aria-hidden="true"
+                  />{{ entry.category?.label ?? '기념일' }} · {{ entry.date }}</template
                 ><template #suffix
                   ><span class="popular-views"
                     ><strong>{{ countFormat.format(entry.views) }}</strong

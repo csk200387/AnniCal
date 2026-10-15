@@ -24,6 +24,7 @@
 .popular-podium-footer { display: flex; justify-content: space-between; align-items: center; gap: var(--space-3); margin-top: auto; padding-top: var(--space-4); border-top: 1px solid var(--stroke-weak); font-size: var(--text-t6); font-variant-numeric: tabular-nums; }
 .popular-podium-footer small { display: block; color: var(--fg-subtle); font-size: var(--text-t2); }
 .popular-rest { margin-top: var(--space-8); }
+.popular-dot { display: inline-block; width: 6px; height: 6px; margin-right: var(--space-2); border-radius: var(--radius-full); vertical-align: middle; }
 .popular-rest-rank { display: block; min-width: 44px; font-size: var(--text-t11); color: var(--fg-subtle); font-variant-numeric: tabular-nums; letter-spacing: -.04em; }
 .popular-views strong { display: block; font-size: var(--text-t6); font-weight: var(--weight-medium); font-variant-numeric: tabular-nums; }
 .popular-views small { display: block; font-size: var(--text-t2); color: var(--fg-subtle); }
