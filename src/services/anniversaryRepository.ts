@@ -8,9 +8,7 @@ import groupsJson from '@/data/groups.json'
  * 월별 분할 데이터(01..12.json)를 동적 import 로 로드.
  * Vite 가 각 월 파일을 별도 async 청크로 코드 분할한다.
  */
-const monthFiles = import.meta.glob<{ default: Anniversary[] }>(
-  '../data/anniversaries/*.json',
-)
+const monthFiles = import.meta.glob<{ default: Anniversary[] }>('../data/anniversaries/*.json')
 
 /** 월 번호(1~12) → 그 달 파일을 가져오는 로더. */
 const loaderByMonth = new Map<number, () => Promise<{ default: Anniversary[] }>>()

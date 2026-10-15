@@ -28,15 +28,10 @@ const LD_ID = 'ld-page'
 
 // 라우트에 메타가 없을 때 쓰는 홈 기준 기본값.
 const DEFAULT_DESCRIPTION =
-  '오늘은 무슨 날? 세계 곳곳의 특이한 기념일과 이색 기념일을 ' +
-  '월별로 모아 매일 큐레이션해요.'
+  '오늘은 무슨 날? 세계 곳곳의 특이한 기념일과 이색 기념일을 ' + '월별로 모아 매일 큐레이션해요.'
 
 // name= 또는 property= 기준으로 <meta> 를 찾아 없으면 만들고 content 를 갱신.
-function upsertMeta(
-  selectorAttr: 'name' | 'property',
-  key: string,
-  content: string,
-): void {
+function upsertMeta(selectorAttr: 'name' | 'property', key: string, content: string): void {
   const selector = `meta[${selectorAttr}="${key}"]`
   let el = document.head.querySelector<HTMLMetaElement>(selector)
   if (!el) {
@@ -115,15 +110,16 @@ export function applyRouteMeta(to: RouteLocationNormalized): void {
  * `displayDate` 는 그 해 실제 발생일의 MM-DD 다. canonical 주소는 path 의 고정
  * urlDate 를 그대로 쓰고(색인 유지), 사람이 읽는 문구에만 실제 날짜를 쓴다.
  */
-export function applyAnniversaryMeta(
-  anv: Anniversary,
-  path: string,
-  displayDate?: string,
-): void {
+export function applyAnniversaryMeta(anv: Anniversary, path: string, displayDate?: string): void {
   const urlDate = path.split('/')[2] ?? ''
   const shown = displayDate ?? urlDate
   const description = anniversaryDescription(anv, urlDate, shown)
-  const url = applyPageMeta(anniversaryTitle(anv, urlDate, shown), description, path, ogImageUrl({ kind: 'detail', date: urlDate, slug: path.split('/')[3] ?? '' }))
+  const url = applyPageMeta(
+    anniversaryTitle(anv, urlDate, shown),
+    description,
+    path,
+    ogImageUrl({ kind: 'detail', date: urlDate, slug: path.split('/')[3] ?? '' }),
+  )
   upsertMeta('property', 'og:type', 'article')
   upsertJsonLd(anniversaryJsonLd(anv, urlDate, url, description, shown))
 }
@@ -145,7 +141,12 @@ export function applyNotFoundMeta(path: string): void {
 /** 날짜 허브 페이지 — CollectionPage/Breadcrumb JSON-LD. */
 export function applyDateHubMeta(urlDate: string, items: Anniversary[]): void {
   const description = dateHubDescription(urlDate, items)
-  const url = applyPageMeta(dateHubTitle(urlDate), description, `/day/${urlDate}`, ogImageUrl({ kind: 'hub', date: urlDate }))
+  const url = applyPageMeta(
+    dateHubTitle(urlDate),
+    description,
+    `/day/${urlDate}`,
+    ogImageUrl({ kind: 'hub', date: urlDate }),
+  )
   upsertMeta('property', 'og:type', 'website')
   upsertJsonLd(dateHubJsonLd(urlDate, url, description))
 }

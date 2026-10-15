@@ -24,7 +24,9 @@ const GLOBAL_RATE_LIMIT = 3000
 const RATE_WINDOW_SECONDS = 60
 
 class RateLimitError extends Error {
-  constructor(readonly retryAfter: number) { super('RATE_LIMITED') }
+  constructor(readonly retryAfter: number) {
+    super('RATE_LIMITED')
+  }
 }
 // Googlebot 은 evergreen Chromium 으로 페이지를 렌더링하므로 trackPage() 가 그대로
 // 실행된다. 그런데 렌더 사이에 쿠키를 유지하지 않아 크롤 1회가 신규 방문자 1명으로
@@ -117,7 +119,10 @@ function redisConfig(): { url: string; token: string } | null {
   return url && token ? { url: url.replace(/\/$/, ''), token } : null
 }
 
-async function redisCommand(config: { url: string; token: string }, command: RedisCommand): Promise<unknown> {
+async function redisCommand(
+  config: { url: string; token: string },
+  command: RedisCommand,
+): Promise<unknown> {
   const response = await fetch(config.url, {
     method: 'POST',
     headers: {
@@ -270,7 +275,11 @@ function monthlyKey(month: string): string {
   return `${KEYS.anniversaryViews}:month:${month}`
 }
 
-async function readMonthlyRanking(config: { url: string; token: string }, month: string, currentMonth: string) {
+async function readMonthlyRanking(
+  config: { url: string; token: string },
+  month: string,
+  currentMonth: string,
+) {
   const results = await redisPipeline(config, [
     ['ZREVRANGE', monthlyKey(month), 0, RANKING_LIMIT - 1, 'WITHSCORES'],
     ['GET', KEYS.monthlyStartedOn],
@@ -309,9 +318,7 @@ async function recordPageView(
 ): Promise<StatsSnapshot> {
   const day = seoulDay()
   // 쿠키의 무작위 값조차 Redis 키나 값으로 그대로 보내지 않는다.
-  const visitorFingerprint = createHash('sha256')
-    .update(`annical:v1:${visitorId}`)
-    .digest('hex')
+  const visitorFingerprint = createHash('sha256').update(`annical:v1:${visitorId}`).digest('hex')
   const result = await redisCommand(config, [
     'EVAL',
     RECORD_SCRIPT,
@@ -334,7 +341,9 @@ async function recordPageView(
   if (!Array.isArray(result)) throw new Error('INVALID_REDIS_RESPONSE')
   if (result[0] === -1) {
     const retry = Number(result[1])
-    throw new RateLimitError(Number.isFinite(retry) ? Math.max(1, Math.min(60, Math.ceil(retry))) : 60)
+    throw new RateLimitError(
+      Number.isFinite(retry) ? Math.max(1, Math.min(60, Math.ceil(retry))) : 60,
+    )
   }
   if (result.length !== 6) throw new Error('INVALID_REDIS_RESPONSE')
   return snapshotFromResults(result, anniversaryId)
@@ -366,7 +375,13 @@ export default async function handler(req: IncomingMessage, res: ServerResponse)
   const queryId = url.searchParams.get('id')
   const month = url.searchParams.get('month')
   const currentMonth = seoulDay().slice(0, 7)
-  if (month !== null && (method !== 'GET' || url.searchParams.has('id') || !/^20\d{2}-(0[1-9]|1[0-2])$/.test(month) || month > currentMonth)) {
+  if (
+    month !== null &&
+    (method !== 'GET' ||
+      url.searchParams.has('id') ||
+      !/^20\d{2}-(0[1-9]|1[0-2])$/.test(month) ||
+      month > currentMonth)
+  ) {
     writeJson(res, 400, { error: 'Invalid ranking month' })
     return
   }
@@ -377,20 +392,27 @@ export default async function handler(req: IncomingMessage, res: ServerResponse)
 
   try {
     if (method === 'GET') {
-      const snapshot = month !== null
-        ? await readMonthlyRanking(config, month, currentMonth)
-        : await readSnapshot(config, queryId)
+      const snapshot =
+        month !== null
+          ? await readMonthlyRanking(config, month, currentMonth)
+          : await readSnapshot(config, queryId)
       res.setHeader('Cache-Control', 'public, s-maxage=15, stale-while-revalidate=30')
       writeJson(res, 200, snapshot)
       return
     }
 
-    if (String(req.headers['content-type'] ?? '').split(';')[0]?.trim().toLowerCase() !== 'application/json') {
+    if (
+      String(req.headers['content-type'] ?? '')
+        .split(';')[0]
+        ?.trim()
+        .toLowerCase() !== 'application/json'
+    ) {
       writeJson(res, 415, { error: 'Content-Type must be application/json' })
       return
     }
     const body = await readJsonObject(req, MAX_BODY_BYTES, ['eventId', 'anniversaryId'])
-    if (body.anniversaryId != null && typeof body.anniversaryId !== 'string') throw new Error('INVALID_INPUT')
+    if (body.anniversaryId != null && typeof body.anniversaryId !== 'string')
+      throw new Error('INVALID_INPUT')
     const eventId = typeof body?.eventId === 'string' ? body.eventId : ''
     const anniversaryId =
       typeof body?.anniversaryId === 'string' && body.anniversaryId ? body.anniversaryId : null
@@ -399,7 +421,10 @@ export default async function handler(req: IncomingMessage, res: ServerResponse)
       writeJson(res, 400, { error: 'Invalid eventId' })
       return
     }
-    if (anniversaryId && (!ID_RE.test(anniversaryId) || !VALID_ANNIVERSARY_IDS.has(anniversaryId))) {
+    if (
+      anniversaryId &&
+      (!ID_RE.test(anniversaryId) || !VALID_ANNIVERSARY_IDS.has(anniversaryId))
+    ) {
       writeJson(res, 400, { error: 'Unknown anniversary' })
       return
     }
@@ -427,7 +452,8 @@ export default async function handler(req: IncomingMessage, res: ServerResponse)
     }
     const reason = error instanceof Error ? error.message : ''
     if (reason === 'BODY_TOO_LARGE') writeJson(res, 413, { error: 'Request body too large' })
-    else if (reason === 'INVALID_INPUT' || error instanceof SyntaxError) writeJson(res, 400, { error: 'Invalid request' })
+    else if (reason === 'INVALID_INPUT' || error instanceof SyntaxError)
+      writeJson(res, 400, { error: 'Invalid request' })
     else writeJson(res, 503, { error: 'Statistics unavailable' })
   }
 }

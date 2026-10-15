@@ -14,9 +14,10 @@ const anniversaries: Anniversary[] = readdirSync(DATA_DIR)
   .sort()
   .flatMap((f) => JSON.parse(readFileSync(join(DATA_DIR, f), 'utf-8')) as Anniversary[])
 
-const routes = JSON.parse(
-  readFileSync(join(ROOT, 'src/data/routes.json'), 'utf-8'),
-) as Record<string, { slug: string; urlDate: string }>
+const routes = JSON.parse(readFileSync(join(ROOT, 'src/data/routes.json'), 'utf-8')) as Record<
+  string,
+  { slug: string; urlDate: string }
+>
 
 registerAnchors(anniversaries)
 
@@ -31,7 +32,9 @@ describe('데이터셋 ↔ routes.json', () => {
     const missingRoutes = [...dataIds].filter((id) => !routeIds.has(id))
     const orphanRoutes = [...routeIds].filter((id) => !dataIds.has(id))
 
-    expect(missingRoutes, 'routes.json 에 없는 기념일 — generate_slugs.py 를 실행하세요').toEqual([])
+    expect(missingRoutes, 'routes.json 에 없는 기념일 — generate_slugs.py 를 실행하세요').toEqual(
+      [],
+    )
     expect(orphanRoutes, '데이터에 없는 route').toEqual([])
   })
 
@@ -76,7 +79,8 @@ describe('날짜 규칙', () => {
         // 윤일만 평년의 합법적인 부재다. 규칙 자체는 윤년에도 반드시 검증한다.
         const leapOnly = a.dateType === 'annual-fixed' && a.date === '02-29'
         const d = resolveOccurrence(a, leapOnly ? 2028 : 2026)
-        if (leapOnly && resolveOccurrenceSafe(a, 2026) !== null) failures.push(`${a.id}: 평년 윤일 발생`)
+        if (leapOnly && resolveOccurrenceSafe(a, 2026) !== null)
+          failures.push(`${a.id}: 평년 윤일 발생`)
         if (Number.isNaN(d.getTime())) failures.push(`${a.id}: NaN`)
       } catch (e) {
         failures.push(`${a.id}: ${e instanceof Error ? e.message : e}`)
@@ -160,9 +164,13 @@ describe('카테고리 색', () => {
   // 색 배정은 categories.json 의 colorToken 한 곳, 실제 색값은 ui.css 의 [data-color] 규칙이다.
   // 오타가 나면 그 카테고리 점만 기본색으로 떨어지는데, 화면으로는 알아채기 어렵다.
   it('모든 colorToken 에 대응하는 ui.css 규칙이 있다', () => {
-    const categories = JSON.parse(readFileSync(join(ROOT, 'src/data/categories.json'), 'utf-8')) as { id: string; colorToken: string }[]
+    const categories = JSON.parse(
+      readFileSync(join(ROOT, 'src/data/categories.json'), 'utf-8'),
+    ) as { id: string; colorToken: string }[]
     const css = readFileSync(join(ROOT, 'src/assets/ui.css'), 'utf-8')
-    const missing = categories.filter((c) => !css.includes(`[data-color='${c.colorToken}']`)).map((c) => `${c.id}:${c.colorToken}`)
+    const missing = categories
+      .filter((c) => !css.includes(`[data-color='${c.colorToken}']`))
+      .map((c) => `${c.id}:${c.colorToken}`)
     expect(missing).toEqual([])
   })
 })

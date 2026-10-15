@@ -5,7 +5,20 @@
 // 프리렌더도 이 파일을 쓰므로 import 없이 둔다.
 
 export const WEEKDAY_KO = ['일', '월', '화', '수', '목', '금', '토'] as const
-export const MONTH_EN = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'] as const
+export const MONTH_EN = [
+  'JAN',
+  'FEB',
+  'MAR',
+  'APR',
+  'MAY',
+  'JUN',
+  'JUL',
+  'AUG',
+  'SEP',
+  'OCT',
+  'NOV',
+  'DEC',
+] as const
 export const countFormat = new Intl.NumberFormat('ko-KR')
 
 /** (5, 10) → "05-10". urlDate·발생일 색인의 키 형식이다. */

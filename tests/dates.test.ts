@@ -13,16 +13,8 @@ import {
   resolveOccurrenceSafe,
   tabulatedYearRange,
 } from '@/utils/dateUtils'
-import {
-  isValidUrlDate,
-  shiftUrlDate,
-  allUrlDates,
-} from '@/utils/anniversaryRoutes'
-import {
-  msUntilNextSiteMidnight,
-  nowInSiteZone,
-  todayInSiteZone,
-} from '@/utils/clock'
+import { isValidUrlDate, shiftUrlDate, allUrlDates } from '@/utils/anniversaryRoutes'
+import { msUntilNextSiteMidnight, nowInSiteZone, todayInSiteZone } from '@/utils/clock'
 
 function mk(overrides: Partial<Anniversary>): Anniversary {
   return {
@@ -73,10 +65,16 @@ describe('윤일 고정 기념일', () => {
   })
   it('다가오는 실제 윤일까지 평년과 2100년을 건너뛴다', () => {
     const a = mk({ date: '02-29' })
-    expect(daysUntil(a, new Date(2026, 1, 28))).toBe(dayjs('2028-02-29').diff(dayjs('2026-02-28'), 'day'))
+    expect(daysUntil(a, new Date(2026, 1, 28))).toBe(
+      dayjs('2028-02-29').diff(dayjs('2026-02-28'), 'day'),
+    )
     expect(daysUntil(a, new Date(2028, 1, 29))).toBe(0)
-    expect(daysUntil(a, new Date(2028, 2, 1))).toBe(dayjs('2032-02-29').diff(dayjs('2028-03-01'), 'day'))
-    expect(daysUntil(a, new Date(2096, 2, 1))).toBe(dayjs('2104-02-29').diff(dayjs('2096-03-01'), 'day'))
+    expect(daysUntil(a, new Date(2028, 2, 1))).toBe(
+      dayjs('2032-02-29').diff(dayjs('2028-03-01'), 'day'),
+    )
+    expect(daysUntil(a, new Date(2096, 2, 1))).toBe(
+      dayjs('2104-02-29').diff(dayjs('2096-03-01'), 'day'),
+    )
   })
 })
 
@@ -102,8 +100,12 @@ describe('N번째 요일', () => {
   })
 
   it('해석할 수 없는 규칙은 예외', () => {
-    expect(() => resolveOccurrence(mk({ date: '13-9-XXX', dateType: 'annual-nth-weekday' }), 2026)).toThrow()
-    expect(resolveOccurrenceSafe(mk({ date: '13-9-XXX', dateType: 'annual-nth-weekday' }), 2026)).toBeNull()
+    expect(() =>
+      resolveOccurrence(mk({ date: '13-9-XXX', dateType: 'annual-nth-weekday' }), 2026),
+    ).toThrow()
+    expect(
+      resolveOccurrenceSafe(mk({ date: '13-9-XXX', dateType: 'annual-nth-weekday' }), 2026),
+    ).toBeNull()
   })
 })
 
@@ -123,9 +125,15 @@ describe('annual-tabulated 범위', () => {
     const a = mk({ date: 'chubun-cn', dateType: 'annual-tabulated' })
     expect(resolveOccurrence(a, 2069)).toBeInstanceOf(Date)
     let err: unknown
-    try { resolveOccurrence(a, 2070) } catch (e) { err = e }
+    try {
+      resolveOccurrence(a, 2070)
+    } catch (e) {
+      err = e
+    }
     expect(err).toBeInstanceOf(OutOfTableRangeError)
-    expect([(err as OutOfTableRangeError).min, (err as OutOfTableRangeError).max]).toEqual([2020, 2069])
+    expect([(err as OutOfTableRangeError).min, (err as OutOfTableRangeError).max]).toEqual([
+      2020, 2069,
+    ])
     expect(tabulatedYearRange()).toEqual({ min: 2020, max: 2050 }) // 전역은 교집합 그대로
   })
 
@@ -147,7 +155,9 @@ describe('anchor 재귀 가드', () => {
 
   it('없는 anchor 는 예외', () => {
     registerAnchors([])
-    expect(resolveOccurrenceSafe(mk({ date: 'ghost:1', dateType: 'annual-relative-to-holiday' }), 2026)).toBeNull()
+    expect(
+      resolveOccurrenceSafe(mk({ date: 'ghost:1', dateType: 'annual-relative-to-holiday' }), 2026),
+    ).toBeNull()
   })
 })
 
@@ -196,12 +206,19 @@ describe('오늘 기준 계산', () => {
 
   it('계산 불가면 null 을 돌려준다 (0 이나 NaN 이 아니라)', () => {
     registerAnchors([])
-    expect(daysUntil(mk({ date: 'ghost:1', dateType: 'annual-relative-to-holiday' }), new Date(2026, 0, 1))).toBeNull()
+    expect(
+      daysUntil(
+        mk({ date: 'ghost:1', dateType: 'annual-relative-to-holiday' }),
+        new Date(2026, 0, 1),
+      ),
+    ).toBeNull()
   })
 
   it('occursOn 은 계산 실패를 false 로 흡수한다', () => {
     registerAnchors([])
-    expect(occursOn(mk({ date: 'ghost:1', dateType: 'annual-relative-to-holiday' }), 2026, 1, 1)).toBe(false)
+    expect(
+      occursOn(mk({ date: 'ghost:1', dateType: 'annual-relative-to-holiday' }), 2026, 1, 1),
+    ).toBe(false)
   })
 })
 

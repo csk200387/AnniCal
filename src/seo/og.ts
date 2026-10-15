@@ -14,9 +14,13 @@ export type OgQuery =
 export function ogImageUrl(query: OgQuery | StaticPage): string {
   if (typeof query === 'string') return `${SITE_URL}/og/${query}.png?v=${OG_VERSION}`
   // 실제 발생일이 해마다 바뀌므로 연도도 CDN URL에 넣는다.
-  const normalized = query.kind === 'together' ? query : { ...query, year: query.year ?? todayInSiteZone().getFullYear() }
+  const normalized =
+    query.kind === 'together'
+      ? query
+      : { ...query, year: query.year ?? todayInSiteZone().getFullYear() }
   const params = new URLSearchParams()
-  for (const [key, value] of Object.entries(normalized)) if (value !== undefined) params.set(key, String(value))
+  for (const [key, value] of Object.entries(normalized))
+    if (value !== undefined) params.set(key, String(value))
   params.set('v', OG_VERSION)
   return `${SITE_URL}/api/og?${params}`
 }

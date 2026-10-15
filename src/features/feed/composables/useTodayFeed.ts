@@ -22,16 +22,19 @@ export function useTodayFeed(upcomingWindowDays: number) {
   // 오늘과 앞뒤 달이면 "오늘 + 다가오는 N일"은 확정된다. 나머지 달은
   // 첫 화면을 막지 않고 뒤이어 받는다 — 홈에서 달력·내보내기로 넘어갈 때
   // 이미 도착해 있게 된다.
-  const { loading, error, retry } = useMonths(() => {
-    const now = today.value
-    const end = new Date(now)
-    end.setDate(end.getDate() + upcomingWindowDays)
-    return [...new Set([...monthsCovering(now.getMonth() + 1), ...monthsCovering(end.getMonth() + 1)])]
-  }, { prefetchAll: true })
-
-  const todays = computed<Anniversary[]>(() =>
-    store.items.filter((a) => isToday(a, today.value)),
+  const { loading, error, retry } = useMonths(
+    () => {
+      const now = today.value
+      const end = new Date(now)
+      end.setDate(end.getDate() + upcomingWindowDays)
+      return [
+        ...new Set([...monthsCovering(now.getMonth() + 1), ...monthsCovering(end.getMonth() + 1)]),
+      ]
+    },
+    { prefetchAll: true },
   )
+
+  const todays = computed<Anniversary[]>(() => store.items.filter((a) => isToday(a, today.value)))
 
   const upcoming = computed(() => {
     const from = today.value

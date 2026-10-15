@@ -18,7 +18,11 @@ export function useFeedMotion() {
 
   const vReveal: ObjectDirective<HTMLElement> = {
     mounted(el) {
-      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window)) return
+      if (
+        window.matchMedia('(prefers-reduced-motion: reduce)').matches ||
+        !('IntersectionObserver' in window)
+      )
+        return
       pending.add(el)
       el.classList.add('reveal-pending')
       observer?.observe(el)
@@ -34,14 +38,17 @@ export function useFeedMotion() {
     syncPreference()
     preference.addEventListener('change', syncPreference)
     if (!('IntersectionObserver' in window)) return
-    observer = new IntersectionObserver((entries) => {
-      for (const entry of entries) {
-        if (!entry.isIntersecting) continue
-        entry.target.classList.remove('reveal-pending')
-        observer?.unobserve(entry.target)
-        pending.delete(entry.target as HTMLElement)
-      }
-    }, { threshold: 0.08 })
+    observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (!entry.isIntersecting) continue
+          entry.target.classList.remove('reveal-pending')
+          observer?.unobserve(entry.target)
+          pending.delete(entry.target as HTMLElement)
+        }
+      },
+      { threshold: 0.08 },
+    )
     pending.forEach((el) => observer?.observe(el))
   })
 

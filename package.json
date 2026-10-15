@@ -13,7 +13,9 @@
     "check:slugs": "python3 tools/slugs/generate_slugs.py --check",
     "type-check": "vue-tsc --noEmit -p tsconfig.app.json && npm run type-check:api",
     "type-check:api": "tsc -p api/tsconfig.json --noEmit",
-    "verify": "npm run check:slugs && npm run build && npm run type-check:api && npm run test",
+    "format": "prettier --write \"src/**/*.{ts,vue}\" \"api/**/*.ts\" \"server/**/*.ts\" \"tests/**/*.ts\" \"tools/{og,prerender}/**/*.{ts,mjs}\" \"*.config.ts\"",
+    "format:check": "prettier --check \"src/**/*.{ts,vue}\" \"api/**/*.ts\" \"server/**/*.ts\" \"tests/**/*.ts\" \"tools/{og,prerender}/**/*.{ts,mjs}\" \"*.config.ts\"",
+    "verify": "npm run format:check && npm run check:slugs && npm run build && npm run type-check:api && npm run test",
     "og:static": "node tools/og/run.mjs static",
     "og:samples": "node tools/og/run.mjs samples"
   },
@@ -32,6 +34,7 @@
     "@tailwindcss/vite": "^4.0.0",
     "@types/node": "^22.10.0",
     "@vitejs/plugin-vue": "^5.2.1",
+    "prettier": "^3.9.10",
     "tailwindcss": "^4.0.0",
     "typescript": "~5.7.2",
     "vite": "^6.0.3",

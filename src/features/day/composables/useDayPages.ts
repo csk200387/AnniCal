@@ -4,12 +4,7 @@ import { ALL_MONTHS, monthsCovering } from '@/services/anniversaryRepository'
 import { useMonths } from '@/composables/useMonths'
 import { useNow } from '@/composables/useNow'
 import type { Anniversary } from '@/types/anniversary'
-import {
-  idForPath,
-  isValidUrlDate,
-  koreanUrlDate,
-  routeForId,
-} from '@/utils/anniversaryRoutes'
+import { idForPath, isValidUrlDate, koreanUrlDate, routeForId } from '@/utils/anniversaryRoutes'
 import { formatKoreanMonthDay, resolveOccurrenceSafe } from '@/utils/dateUtils'
 import { monthDayKey } from '@/utils/format'
 
@@ -23,10 +18,15 @@ import { monthDayKey } from '@/utils/format'
  * 않고 뒤에서 마저 받아 온다.
  */
 function useDayMonths(urlDate: ComputedRef<string>) {
-  return useMonths(() => {
-    const month = Number(urlDate.value.slice(0, 2))
-    return Number.isInteger(month) && month >= 1 && month <= 12 ? monthsCovering(month) : ALL_MONTHS
-  }, { prefetchAll: true })
+  return useMonths(
+    () => {
+      const month = Number(urlDate.value.slice(0, 2))
+      return Number.isInteger(month) && month >= 1 && month <= 12
+        ? monthsCovering(month)
+        : ALL_MONTHS
+    },
+    { prefetchAll: true },
+  )
 }
 
 /** 화면이 구분해서 그려야 하는 네 가지 상태. */
@@ -52,10 +52,7 @@ export interface DayDetail {
 /** 관련 문서 링크 최대 건수. */
 const RELATED_LIMIT = 6
 
-export function useDayDetail(
-  urlDate: ComputedRef<string>,
-  slug: ComputedRef<string>,
-): DayDetail {
+export function useDayDetail(urlDate: ComputedRef<string>, slug: ComputedRef<string>): DayDetail {
   const store = useAnniversariesStore()
   const { ready, error, retry } = useDayMonths(urlDate)
   const { today } = useNow()
@@ -83,9 +80,7 @@ export function useDayDetail(
     return a ? formatKoreanMonthDay(a, today.value.getFullYear()) : null
   })
 
-  const dateDrifts = computed(
-    () => !!actualUrlDate.value && actualUrlDate.value !== urlDate.value,
-  )
+  const dateDrifts = computed(() => !!actualUrlDate.value && actualUrlDate.value !== urlDate.value)
 
   // "같은 날의 다른 기념일" 은 URL 의 고정 날짜가 아니라 올해 실제로 같은 날에
   // 일어나는 것들이어야 한다. 그래야 2027년에 어머니의 날(5/9) 페이지가
@@ -162,9 +157,7 @@ export function useDateHub(urlDate: ComputedRef<string>): DateHub {
   const anniversaries = computed(() => {
     if (!isValid.value) return []
     const [mm, dd] = urlDate.value.split('-').map(Number)
-    return store
-      .onBirthdayDate(today.value.getFullYear(), mm, dd)
-      .filter((a) => routeForId(a.id))
+    return store.onBirthdayDate(today.value.getFullYear(), mm, dd).filter((a) => routeForId(a.id))
   })
 
   const state = computed<PageState>(() => {

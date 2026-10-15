@@ -16,6 +16,8 @@ describe('site footer contact', () => {
     app.use(router)
     const html = await renderToString(app)
     const bottom = html.slice(html.indexOf('class="footer-bottom"'))
-    expect(bottom).toMatch(/Contact\s*<a[^>]*href="mailto:annical\.kr@gmail\.com"[^>]*>annical\.kr@gmail\.com<\/a>/)
+    expect(bottom).toMatch(
+      /Contact\s*<a[^>]*href="mailto:annical\.kr@gmail\.com"[^>]*>annical\.kr@gmail\.com<\/a>/,
+    )
   })
 })

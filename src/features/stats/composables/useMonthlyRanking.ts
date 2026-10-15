@@ -14,15 +14,25 @@ export function useMonthlyRanking(month: Ref<string>) {
     controller?.abort()
     data.value = null
     failed.value = false
-    if (!/^20\d{2}-(0[1-9]|1[0-2])$/.test(month.value)) { loading.value = false; return }
+    if (!/^20\d{2}-(0[1-9]|1[0-2])$/.test(month.value)) {
+      loading.value = false
+      return
+    }
     controller = new AbortController()
     loading.value = true
     try {
-      const response = await fetch(`/api/stats?month=${encodeURIComponent(month.value)}`, { signal: controller.signal })
+      const response = await fetch(`/api/stats?month=${encodeURIComponent(month.value)}`, {
+        signal: controller.signal,
+      })
       if (!response.ok) throw new Error('Monthly ranking unavailable')
-      const raw = await response.json() as MonthlyRanking
-      if (raw.month !== month.value || !Array.isArray(raw.ranking) || typeof raw.currentMonth !== 'string'
-        || (raw.trackingStartedOn !== null && typeof raw.trackingStartedOn !== 'string')) throw new Error('Invalid ranking')
+      const raw = (await response.json()) as MonthlyRanking
+      if (
+        raw.month !== month.value ||
+        !Array.isArray(raw.ranking) ||
+        typeof raw.currentMonth !== 'string' ||
+        (raw.trackingStartedOn !== null && typeof raw.trackingStartedOn !== 'string')
+      )
+        throw new Error('Invalid ranking')
       if (requestVersion === version) data.value = raw
     } catch {
       if (requestVersion === version) failed.value = true
@@ -31,6 +41,9 @@ export function useMonthlyRanking(month: Ref<string>) {
     }
   }
   watch(month, refresh, { immediate: true })
-  onScopeDispose(() => { ++version; controller?.abort() })
+  onScopeDispose(() => {
+    ++version
+    controller?.abort()
+  })
   return { data, loading, failed, refresh }
 }

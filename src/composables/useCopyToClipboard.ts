@@ -21,7 +21,14 @@ async function writeClipboard(text: string): Promise<boolean> {
   container.appendChild(ta)
   ta.select()
   ta.setSelectionRange(0, value.length)
-  try { return document.execCommand('copy') } catch { return false } finally { ta.remove(); previousFocus?.focus({ preventScroll: true }) }
+  try {
+    return document.execCommand('copy')
+  } catch {
+    return false
+  } finally {
+    ta.remove()
+    previousFocus?.focus({ preventScroll: true })
+  }
 }
 
 /**

@@ -17,7 +17,14 @@ export default defineConfig({
     tailwindcss(),
     Sitemap({
       hostname: SITE_URL,
-      dynamicRoutes: ['/calendar', '/birthday', '/together', '/popular', '/export', ...targets.map((t) => t.path)],
+      dynamicRoutes: [
+        '/calendar',
+        '/birthday',
+        '/together',
+        '/popular',
+        '/export',
+        ...targets.map((t) => t.path),
+      ],
       // HTML 파일 자동 탐색에도 내부 rewrite 대상은 사이트맵에서 제외한다.
       exclude: ['/_pages/birthday', '/_pages/together'],
       // 라우트별로 다르게 준다. 특히 lastmod 를 빌드 시각으로 통일하면

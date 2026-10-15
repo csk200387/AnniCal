@@ -17,6 +17,16 @@ import m12 from './12.json' with { type: 'json' }
 import type { Anniversary } from '../../types/anniversary.js'
 
 export const allAnniversaries = [
-  ...m01, ...m02, ...m03, ...m04, ...m05, ...m06,
-  ...m07, ...m08, ...m09, ...m10, ...m11, ...m12,
+  ...m01,
+  ...m02,
+  ...m03,
+  ...m04,
+  ...m05,
+  ...m06,
+  ...m07,
+  ...m08,
+  ...m09,
+  ...m10,
+  ...m11,
+  ...m12,
 ] as Anniversary[]

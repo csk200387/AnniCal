@@ -19,7 +19,11 @@ export function useMonths(
     // 첫 화면을 막지 않고 나머지 달을 뒤이어 받는다. 다른 화면으로 넘어갈 때 이미 와 있게 된다.
     if (prefetchAll) void store.ensureAll()
   }
-  watch(() => toValue(months), () => void load(), { immediate: true })
+  watch(
+    () => toValue(months),
+    () => void load(),
+    { immediate: true },
+  )
 
   const ready = computed(() => store.hasMonths(toValue(months)))
   return {

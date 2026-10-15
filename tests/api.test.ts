@@ -139,9 +139,7 @@ describe('필터 동작', () => {
 // 그룹은 category 와 달리 tags 에 레이블로 들어 있고, URL 로는 ASCII id 를 받는다.
 // 카테고리와 OR 로 합쳐지는 것이 핵심이라 그 경계를 못 박아 둔다.
 describe('groups 필터', () => {
-  const statutoryCount = allAnniversaries.filter((a) =>
-    a.tags.includes('법정기념일'),
-  ).length
+  const statutoryCount = allAnniversaries.filter((a) => a.tags.includes('법정기념일')).length
 
   it('groups=statutory 는 법정기념일만 담는다', () => {
     expect(statutoryCount).toBeGreaterThan(0)
@@ -152,9 +150,7 @@ describe('groups 필터', () => {
 
   it('카테고리와 그룹은 OR 로 합쳐진다', () => {
     const onlyCat = veventCount(call('GET', '/api/calendar?categories=romance').body)
-    const both = veventCount(
-      call('GET', '/api/calendar?categories=romance&groups=statutory').body,
-    )
+    const both = veventCount(call('GET', '/api/calendar?categories=romance&groups=statutory').body)
     // romance 에는 법정기념일이 없으므로 정확히 합만큼 늘어난다.
     expect(both).toBe(onlyCat + statutoryCount)
     expect(both).toBeLessThan(allAnniversaries.length)
@@ -182,7 +178,6 @@ describe('groups 필터', () => {
   })
 })
 
-
 it('조합이 캐시 한도를 넘어도 메모리 예산·본문·ETag를 유지한다', () => {
   const spy = vi.spyOn(BoundedCache.prototype, 'set')
   try {
@@ -197,7 +192,10 @@ it('조합이 캐시 한도를 넘어도 메모리 예산·본문·ETag를 유�
     const again = call('GET', '/api/calendar?categories=holiday')
     expect(again.body).toBe(original.body)
     expect(again.headers.etag).toBe(original.headers.etag)
-    expect(call('GET', '/api/calendar?categories=holiday', { 'if-none-match': original.headers.etag }).status).toBe(304)
+    expect(
+      call('GET', '/api/calendar?categories=holiday', { 'if-none-match': original.headers.etag })
+        .status,
+    ).toBe(304)
   } finally {
     spy.mockRestore()
   }

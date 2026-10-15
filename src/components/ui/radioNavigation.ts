@@ -8,10 +8,13 @@ export function radioIndex(key: string, index: number, count: number): number | 
   return null
 }
 export function navigateRadios(event: KeyboardEvent) {
-  if (!(event.currentTarget instanceof HTMLElement) || !(event.target instanceof HTMLElement)) return
-  const buttons = Array.from(event.currentTarget.querySelectorAll<HTMLButtonElement>('button[role="radio"]:not(:disabled)'))
+  if (!(event.currentTarget instanceof HTMLElement) || !(event.target instanceof HTMLElement))
+    return
+  const buttons = Array.from(
+    event.currentTarget.querySelectorAll<HTMLButtonElement>('button[role="radio"]:not(:disabled)'),
+  )
   const target = event.target
-  const index = buttons.findIndex(button => button === target || button.contains(target))
+  const index = buttons.findIndex((button) => button === target || button.contains(target))
   if (index < 0) return
   const next = radioIndex(event.key, index, buttons.length)
   if (next === null) return

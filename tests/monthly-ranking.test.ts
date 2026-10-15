@@ -13,26 +13,50 @@ describe('월별 순위 탐색', () => {
 
   it('늦게 도착한 이번 달 응답이 선택한 지난달 결과를 덮지 않는다', async () => {
     const resolvers: Array<(response: Response) => void> = []
-    vi.stubGlobal('fetch', vi.fn(() => new Promise<Response>(resolve => resolvers.push(resolve))))
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(() => new Promise<Response>((resolve) => resolvers.push(resolve))),
+    )
     const scope = effectScope()
     const month = ref('2026-09')
     const ranking = scope.run(() => useMonthlyRanking(month))!
     month.value = '2026-08'
     await nextTick()
-    const response = (month: string) => new Response(JSON.stringify({ month, currentMonth: '2026-09', trackingStartedOn: '2026-08-01', ranking: [] }))
+    const response = (month: string) =>
+      new Response(
+        JSON.stringify({
+          month,
+          currentMonth: '2026-09',
+          trackingStartedOn: '2026-08-01',
+          ranking: [],
+        }),
+      )
     resolvers[1]!(response('2026-08'))
     await vi.waitFor(() => expect(ranking.data.value?.month).toBe('2026-08'))
     resolvers[0]!(response('2026-09'))
-    await new Promise(resolve => setTimeout(resolve, 0))
+    await new Promise((resolve) => setTimeout(resolve, 0))
     expect(ranking.data.value?.month).toBe('2026-08')
     expect(ranking.failed.value).toBe(false)
     scope.stop()
   })
 
   it('집계 장애를 빈 순위로 처리하지 않고 재시도할 수 있다', async () => {
-    vi.stubGlobal('fetch', vi.fn()
-      .mockResolvedValueOnce(new Response('{}', { status: 503 }))
-      .mockResolvedValueOnce(new Response(JSON.stringify({ month: '2026-09', currentMonth: '2026-09', trackingStartedOn: '2026-09-14', ranking: [] }))))
+    vi.stubGlobal(
+      'fetch',
+      vi
+        .fn()
+        .mockResolvedValueOnce(new Response('{}', { status: 503 }))
+        .mockResolvedValueOnce(
+          new Response(
+            JSON.stringify({
+              month: '2026-09',
+              currentMonth: '2026-09',
+              trackingStartedOn: '2026-09-14',
+              ranking: [],
+            }),
+          ),
+        ),
+    )
     const scope = effectScope()
     const ranking = scope.run(() => useMonthlyRanking(ref('2026-09')))!
     await vi.waitFor(() => expect(ranking.failed.value).toBe(true))

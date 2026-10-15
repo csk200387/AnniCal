@@ -16,13 +16,23 @@ import { renderOg } from '../server/og/render'
 import handler from '../api/og'
 
 const parse = (s: string) => parseOgQuery(new URLSearchParams(s), 2026)
-const pizza = allAnniversaries.find(a => a.date === '10-11' && a.name.includes('소시지'))!
+const pizza = allAnniversaries.find((a) => a.date === '10-11' && a.name.includes('소시지'))!
 async function call(method: string, query: string, headers: Record<string, string> = {}) {
   const reply = { status: 0, headers: {} as Record<string, string>, body: Buffer.alloc(0) }
-  await handler({ method, url: `/api/og?${query}`, headers } as never, {
-    set statusCode(n: number) { reply.status = n }, setHeader(k: string, v: string) { reply.headers[k.toLowerCase()] = String(v) },
-    end(body?: Buffer) { reply.body = body ?? Buffer.alloc(0) },
-  } as never)
+  await handler(
+    { method, url: `/api/og?${query}`, headers } as never,
+    {
+      set statusCode(n: number) {
+        reply.status = n
+      },
+      setHeader(k: string, v: string) {
+        reply.headers[k.toLowerCase()] = String(v)
+      },
+      end(body?: Buffer) {
+        reply.body = body ?? Buffer.alloc(0)
+      },
+    } as never,
+  )
   return reply
 }
 
@@ -35,8 +45,14 @@ describe('OG 입력 allowlist', () => {
     expect(parse('kind=detail&date=10-11&slug=../x')).toBe(404)
   })
   it('잘못된 날짜/연도/마일스톤을 거절한다', () => {
-    for (const q of ['kind=hub&date=02-31', 'kind=birthday&date=10-11&year=2051', 'kind=birthday&date=10-11&year=abcd',
-      'kind=together&date=2025-02-29&m=d100', 'kind=together&date=2026-06-21&m=y51']) expect(parse(q)).toBe(404)
+    for (const q of [
+      'kind=hub&date=02-31',
+      'kind=birthday&date=10-11&year=2051',
+      'kind=birthday&date=10-11&year=abcd',
+      'kind=together&date=2025-02-29&m=d100',
+      'kind=together&date=2026-06-21&m=y51',
+    ])
+      expect(parse(q)).toBe(404)
     expect(parse('kind=hub&date=02-29')).not.toBe(404)
   })
   it('구버전도 현재 렌더·캐시 키로 정규화하고 잘못된 버전 형식은 400', () => {
@@ -52,17 +68,31 @@ describe('OG 입력 allowlist', () => {
     expect(parse(`${query}&v=1&v=2`)).toBe(400)
   })
   it('임의 키·중복·긴 쿼리는 거절한다', () => {
-    for (const q of ['kind=hub&date=10-11&nonce=x', 'kind=hub&date=10-11&date=10-12', 'kind=hub&date=10-11&pick=x', 'x='.padEnd(600, 'x')]) expect(parse(q)).toBe(400)
+    for (const q of [
+      'kind=hub&date=10-11&nonce=x',
+      'kind=hub&date=10-11&date=10-12',
+      'kind=hub&date=10-11&pick=x',
+      'x='.padEnd(600, 'x'),
+    ])
+      expect(parse(q)).toBe(400)
   })
   it('pick은 실제 해당 연도·날짜에 발생해야 한다', () => {
     expect(parse(`kind=birthday&date=10-11&pick=${pizza.id}`)).not.toBe(404)
     expect(parse(`kind=birthday&date=10-12&pick=${pizza.id}`)).toBe(404)
-    const md = allAnniversaries.find(a => a.dateType === 'annual-nth-weekday' && a.date === '05-2-SUN')!
-    expect(parseOgQuery(new URLSearchParams(`kind=birthday&date=05-09&year=2027&pick=${md.id}`), 2027)).not.toBe(404)
-    expect(parseOgQuery(new URLSearchParams(`kind=birthday&date=05-10&year=2027&pick=${md.id}`), 2027)).toBe(404)
+    const md = allAnniversaries.find(
+      (a) => a.dateType === 'annual-nth-weekday' && a.date === '05-2-SUN',
+    )!
+    expect(
+      parseOgQuery(new URLSearchParams(`kind=birthday&date=05-09&year=2027&pick=${md.id}`), 2027),
+    ).not.toBe(404)
+    expect(
+      parseOgQuery(new URLSearchParams(`kind=birthday&date=05-10&year=2027&pick=${md.id}`), 2027),
+    ).toBe(404)
   })
   it('비고정 상세 이미지의 표시 날짜와 CDN URL을 연도별로 분리한다', () => {
-    const md = allAnniversaries.find(a => a.dateType === 'annual-nth-weekday' && a.date === '05-2-SUN')!
+    const md = allAnniversaries.find(
+      (a) => a.dateType === 'annual-nth-weekday' && a.date === '05-2-SUN',
+    )!
     const r = routes[md.id as keyof typeof routes]
     const query = { kind: 'detail' as const, date: r.urlDate, slug: r.slug, year: 2027 }
     const out = parse(new URL(ogImageUrl(query)).search.slice(1))
@@ -71,7 +101,9 @@ describe('OG 입력 allowlist', () => {
     expect(parse('kind=hub&date=10-11&year=9999')).toBe(404)
   })
   it('함께 카드의 범위 밖 연도에는 고정일만 받는다', () => {
-    const md = allAnniversaries.find(a => a.dateType === 'annual-nth-weekday' && a.date === '05-2-SUN')!
+    const md = allAnniversaries.find(
+      (a) => a.dateType === 'annual-nth-weekday' && a.date === '05-2-SUN',
+    )!
     expect(parse(`kind=together&date=2051-05-14&m=y25&pick=${md.id}`)).toBe(404)
   })
   it('pick 생략은 폴백 카드이며 연도를 정규화한다', () => {
@@ -81,13 +113,15 @@ describe('OG 입력 allowlist', () => {
   })
   it('URL 생성은 버전과 인코딩을 공유한다', () => {
     expect(ogImageUrl('birthday')).toContain(`/og/birthday.png?v=${OG_VERSION}`)
-    expect(new URL(ogImageUrl({ kind: 'hub', date: '10-11' })).searchParams.get('v')).toBe(OG_VERSION)
+    expect(new URL(ogImageUrl({ kind: 'hub', date: '10-11' })).searchParams.get('v')).toBe(
+      OG_VERSION,
+    )
   })
 })
 
 function templateStrings(node: Element): string[] {
   const children = node.props.children
-  return typeof children === 'string' ? [children] : children?.flatMap(templateStrings) ?? []
+  return typeof children === 'string' ? [children] : (children?.flatMap(templateStrings) ?? [])
 }
 const cardFrom = (query: string) => {
   const result = parse(query)
@@ -101,11 +135,26 @@ describe('OG 문구·레이아웃', () => {
     expect(displayName(nested)).toBe(nested)
     expect(ogDisplayName('동지 (冬至)')).toBe('동지')
     expect(ogDisplayName('카레의 날 (カレーの日)')).toBe('카레의 날')
-    for (const title of ['크리스마스 (기독교탄신일)', '우리의 날 (English (한글) Day)', '파이(π)의 날', '결승일 (2026)', '이름 (Unbalanced (Name)', '(Original Name)']) expect(ogDisplayName(title)).toBe(title)
-    const anv = allAnniversaries.find(a => a.name === nested)!
+    for (const title of [
+      '크리스마스 (기독교탄신일)',
+      '우리의 날 (English (한글) Day)',
+      '파이(π)의 날',
+      '결승일 (2026)',
+      '이름 (Unbalanced (Name)',
+      '(Original Name)',
+    ])
+      expect(ogDisplayName(title)).toBe(title)
+    const anv = allAnniversaries.find((a) => a.name === nested)!
     const r = routes[anv.id as keyof typeof routes]
-    for (const query of [`kind=detail&date=${r.urlDate}&slug=${r.slug}`, `kind=birthday&date=11-15&pick=${anv.id}`, `kind=together&date=2026-11-15&m=y1&pick=${anv.id}`]) expect(cardFrom(query).title).toBe('번트팬의 날')
-    expect(templateStrings(ogTemplate({ ...pageCard('home'), title: nested }))).toContain('번트팬의 날')
+    for (const query of [
+      `kind=detail&date=${r.urlDate}&slug=${r.slug}`,
+      `kind=birthday&date=11-15&pick=${anv.id}`,
+      `kind=together&date=2026-11-15&m=y1&pick=${anv.id}`,
+    ])
+      expect(cardFrom(query).title).toBe('번트팬의 날')
+    expect(templateStrings(ogTemplate({ ...pageCard('home'), title: nested }))).toContain(
+      '번트팬의 날',
+    )
   })
   it('페이지 부제는 제목 아래에 있고 빈 날짜·라벨 행과 홈 문구 반복이 없다', () => {
     for (const page of Object.keys(copy.pages) as (keyof typeof copy.pages)[]) {
@@ -113,35 +162,50 @@ describe('OG 문구·레이아웃', () => {
       const strings = templateStrings(ogTemplate(card))
       expect(strings).not.toContain('')
       expect(strings.indexOf(card.lead)).toBeGreaterThan(strings.indexOf(card.title))
-      expect(strings.filter(s => s === '기념일 도감')).toHaveLength(1) // 우표만
+      expect(strings.filter((s) => s === '기념일 도감')).toHaveLength(1) // 우표만
     }
     const strings = templateStrings(ogTemplate(pageCard('home')))
-    expect(strings.filter(s => s === '평범한 하루에, 기념할 이유 하나.')).toHaveLength(1)
+    expect(strings.filter((s) => s === '평범한 하루에, 기념할 이유 하나.')).toHaveLength(1)
     expect(strings).toContain('세계 곳곳의 특이한 기념일, 매일 하나씩')
   })
   it('허브는 이름 3개와 나머지 개수, 날짜·이야기 수를 표시한다', () => {
     const items = itemsOnDate(2026, '11-11')
     expect(items.length).toBeGreaterThanOrEqual(4)
     const card = cardFrom('kind=hub&date=11-11')
-    expect(card.lead).toBe(items.slice(0, 3).map(a => ogDisplayName(a.name)).join(' · ') + ` 외 ${items.length - 3}개`)
+    expect(card.lead).toBe(
+      items
+        .slice(0, 3)
+        .map((a) => ogDisplayName(a.name))
+        .join(' · ') + ` 외 ${items.length - 3}개`,
+    )
     expect(card.label).toBe(`${items.length}개의 이야기`)
     const strings = templateStrings(ogTemplate(card))
     expect(strings.indexOf(hubLines(card.lead)[0])).toBeGreaterThan(strings.indexOf(card.title))
-    expect(strings).toContain('11월 11일'); expect(strings).toContain(card.label)
+    expect(strings).toContain('11월 11일')
+    expect(strings).toContain(card.label)
     const empty = cardFrom('kind=hub&date=02-29&year=2026')
     expect(empty).toMatchObject({ lead: '아직 이름 붙지 않은 하루', label: '0개의 이야기' })
   })
   it('긴 허브 목록도 두 줄 안에 넣고 외 N개를 보존한다', () => {
-    for (const lead of ['짧은 이름 · 다른 이름', '가'.repeat(120) + ' 외 12개', '가나다 '.repeat(25) + '외 4개']) {
+    for (const lead of [
+      '짧은 이름 · 다른 이름',
+      '가'.repeat(120) + ' 외 12개',
+      '가나다 '.repeat(25) + '외 4개',
+    ]) {
       const lines = hubLines(lead)
       expect(lines.length).toBeLessThanOrEqual(2)
-      expect(lines.every(line => Array.from(line).length <= 30)).toBe(true)
+      expect(lines.every((line) => Array.from(line).length <= 30)).toBe(true)
       const suffix = lead.match(/ 외 \d+개$/)?.[0]
       if (suffix) expect(lines.at(-1)).toMatch(new RegExp(`${suffix}$`))
     }
   })
   it('카드 종류에 맞는 우표 단어를 쓴다', () => {
-    for (const [query, word] of [['kind=birthday&date=10-11', '생일'], ['kind=together&date=2026-06-21&m=d100', '우리'], ['kind=hub&date=11-11', '하루']]) expect(templateStrings(ogTemplate(cardFrom(query)))).toContain(word)
+    for (const [query, word] of [
+      ['kind=birthday&date=10-11', '생일'],
+      ['kind=together&date=2026-06-21&m=d100', '우리'],
+      ['kind=hub&date=11-11', '하루'],
+    ])
+      expect(templateStrings(ogTemplate(cardFrom(query)))).toContain(word)
     expect(templateStrings(ogTemplate(pageCard('home')))).toContain('하루')
     expect(templateStrings(ogTemplate(pageCard('birthday')))).toContain('생일')
     expect(templateStrings(ogTemplate(pageCard('together')))).toContain('우리')
@@ -152,7 +216,8 @@ it('샘플은 저장소 tmp가 기본이고 --out으로 경로를 재정의한�
   expect(samplesOutputDir([], '/repo')).toBe(resolve('/repo', 'tmp/og-samples'))
   expect(samplesOutputDir(['--out', '/scratch/samples'], '/repo')).toBe('/scratch/samples')
   expect(samplesOutputDir(['--out', 'review'], '/repo')).toBe('/repo/review')
-  for (const args of [['--out'], ['--out', ''], ['--out', '--bad'], ['--bad'], ['--out', 'a', 'b']]) expect(() => samplesOutputDir(args)).toThrow('Usage:')
+  for (const args of [['--out'], ['--out', ''], ['--out', '--bad'], ['--bad'], ['--out', 'a', 'b']])
+    expect(() => samplesOutputDir(args)).toThrow('Usage:')
 })
 
 // TTF cmap format 4/12를 직접 읽는다. 테스트에 별도 폰트/파이썬 의존성을 추가하지 않는다.
@@ -168,14 +233,20 @@ function fontCmap(font: Buffer): Set<number> {
     const format = font.readUInt16BE(at)
     if (format === 12) {
       for (let g = 0; g < font.readUInt32BE(at + 12); g++) {
-        const pos = at + 16 + g * 12, start = font.readUInt32BE(pos), end = font.readUInt32BE(pos + 4), glyph = font.readUInt32BE(pos + 8)
+        const pos = at + 16 + g * 12,
+          start = font.readUInt32BE(pos),
+          end = font.readUInt32BE(pos + 4),
+          glyph = font.readUInt32BE(pos + 8)
         for (let c = start; c <= end; c++) if (glyph + c - start !== 0) codes.add(c)
       }
     } else if (format === 4) {
       const n = font.readUInt16BE(at + 6) / 2
       for (let g = 0; g < n; g++) {
-        const end = font.readUInt16BE(at + 14 + g * 2), start = font.readUInt16BE(at + 16 + n * 2 + g * 2)
-        const delta = font.readInt16BE(at + 16 + n * 4 + g * 2), rangeAt = at + 16 + n * 6 + g * 2, range = font.readUInt16BE(rangeAt)
+        const end = font.readUInt16BE(at + 14 + g * 2),
+          start = font.readUInt16BE(at + 16 + n * 2 + g * 2)
+        const delta = font.readInt16BE(at + 16 + n * 4 + g * 2),
+          rangeAt = at + 16 + n * 6 + g * 2,
+          range = font.readUInt16BE(rangeAt)
         for (let c = start; c <= end && c !== 65535; c++) {
           const base = range ? font.readUInt16BE(rangeAt + range + (c - start) * 2) : c
           const glyph = range && base === 0 ? 0 : (base + delta) & 65535
@@ -196,19 +267,26 @@ describe('서브셋 글리프', () => {
     const date = new Date(Date.UTC(2024, 0, 1 + day)).toISOString().slice(5, 10)
     cards.push(cardFrom(`kind=hub&date=${date}&year=2024`))
   }
-  const text = allAnniversaries.flatMap(a => [ogDisplayName(a.name), ...a.tags]).join('') + categories.map(c => c.label).join('') + copy.fixed.join('') + Object.values(copy.pages).flat().join('') + cards.flatMap(card => templateStrings(ogTemplate(card))).join('') + Array.from({ length: 95 }, (_, i) => String.fromCharCode(32 + i)).join('')
-  for (const file of ['NotoSerifKR-700.ttf', 'NotoSansKR-500.ttf', 'NotoSansKR-700.ttf']) it(`${file}: 모든 이름·문구를 포함한다`, () => {
-    const cmap = fontCmap(readFileSync(`server/og/fonts/${file}`))
-    const missing = [...new Set(Array.from(text))].filter(c => !cmap.has(c.codePointAt(0)!))
-    expect(missing, 'tools/og/build_fonts.py 를 다시 실행하세요').toEqual([])
-  })
+  const text =
+    allAnniversaries.flatMap((a) => [ogDisplayName(a.name), ...a.tags]).join('') +
+    categories.map((c) => c.label).join('') +
+    copy.fixed.join('') +
+    Object.values(copy.pages).flat().join('') +
+    cards.flatMap((card) => templateStrings(ogTemplate(card))).join('') +
+    Array.from({ length: 95 }, (_, i) => String.fromCharCode(32 + i)).join('')
+  for (const file of ['NotoSerifKR-700.ttf', 'NotoSansKR-500.ttf', 'NotoSansKR-700.ttf'])
+    it(`${file}: 모든 이름·문구를 포함한다`, () => {
+      const cmap = fontCmap(readFileSync(`server/og/fonts/${file}`))
+      const missing = [...new Set(Array.from(text))].filter((c) => !cmap.has(c.codePointAt(0)!))
+      expect(missing, 'tools/og/build_fonts.py 를 다시 실행하세요').toEqual([])
+    })
 })
 
 it('제목은 긴 이름도 2줄로 제한한다', () => {
   for (const a of allAnniversaries) {
     const { lines, size } = titleLines(ogDisplayName(a.name))
     expect(lines.length).toBeLessThanOrEqual(2)
-    expect(lines.every(line => Array.from(line).length * size <= 870)).toBe(true)
+    expect(lines.every((line) => Array.from(line).length * size <= 870)).toBe(true)
   }
   expect(titleLines('가'.repeat(100)).lines[1]).toContain('…')
 })
@@ -220,14 +298,18 @@ it('렌더 스모크: PNG 시그니처와 1200×630', async () => {
 it('GET/HEAD/ETag와 메서드·오류 응답', async () => {
   const query = `kind=birthday&date=10-11&year=2026&pick=${pizza.id}`
   const full = await call('GET', query)
-  expect(full.status).toBe(200); expect(full.headers['content-type']).toBe('image/png')
+  expect(full.status).toBe(200)
+  expect(full.headers['content-type']).toBe('image/png')
   expect(full.headers['cache-control']).toContain('s-maxage=31536000')
   expect((await call('GET', query, { 'if-none-match': full.headers.etag })).status).toBe(304)
   const head = await call('HEAD', query)
-  expect(head.body.length).toBe(0); expect(Number(head.headers['content-length'])).toBe(full.body.length)
+  expect(head.body.length).toBe(0)
+  expect(Number(head.headers['content-length'])).toBe(full.body.length)
   expect((await call('POST', query)).status).toBe(405)
   const old = await call('GET', `${query}&v=1`)
-  expect(old.status).toBe(200); expect(old.headers.etag).toBe(full.headers.etag); expect(old.body).toEqual(full.body)
+  expect(old.status).toBe(200)
+  expect(old.headers.etag).toBe(full.headers.etag)
+  expect(old.body).toEqual(full.body)
   expect((await call('HEAD', `${query}&v=old00001`)).headers.etag).toBe(full.headers.etag)
   expect((await call('GET', `${query}&v=BAD`)).status).toBe(400)
   expect((await call('GET', 'kind=hub&date=02-31')).body.length).toBe(0)

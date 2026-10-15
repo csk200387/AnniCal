@@ -23,34 +23,68 @@ const title = computed(() => displayName(props.anniversary.name))
 </script>
 
 <template>
-  <article class="today-story" :class="index === 0 ? 'today-story--featured' : 'today-story--compact'"
-    :data-color="category?.colorToken">
+  <article
+    class="today-story"
+    :class="index === 0 ? 'today-story--featured' : 'today-story--compact'"
+    :data-color="category?.colorToken"
+  >
     <div class="story-art" aria-hidden="true">
-      <AnniversaryStamp :category="anniversary.category" :date-label="dateLabel"
-        :serial="String(index + 1).padStart(2, '0')" />
+      <AnniversaryStamp
+        :category="anniversary.category"
+        :date-label="dateLabel"
+        :serial="String(index + 1).padStart(2, '0')"
+      />
       <CategorySymbol class="story-mini-symbol" :category="anniversary.category" />
     </div>
     <div class="story-body">
       <div class="story-meta">
         <span>{{ category?.label ?? '기념일' }}</span>
-        <span v-if="index === 0" class="story-selection">{{ selectionLabel ?? '오늘의 첫 이야기' }}</span>
+        <span v-if="index === 0" class="story-selection">{{
+          selectionLabel ?? '오늘의 첫 이야기'
+        }}</span>
       </div>
       <h3>
         <RouterLink v-if="path" :to="path" :aria-label="anniversary.name">{{ title }}</RouterLink>
         <template v-else>{{ title }}</template>
       </h3>
-      <p>{{ anniversary.storytelling.origin || anniversary.storytelling.anecdote || '이 날에 담긴 이야기를 만나보세요.' }}</p>
+      <p>
+        {{
+          anniversary.storytelling.origin ||
+          anniversary.storytelling.anecdote ||
+          '이 날에 담긴 이야기를 만나보세요.'
+        }}
+      </p>
       <div class="story-footer">
         <RouterLink v-if="path" :to="path" class="story-read" :aria-label="`${title} 이야기 읽기`">
           이야기 읽기 <span aria-hidden="true">↗</span>
         </RouterLink>
-        <a v-else-if="isExternalUrl(anniversary.sourceUrl)" :href="anniversary.sourceUrl!"
-          target="_blank" :rel="EXTERNAL_LINK_REL" class="story-read">출처 보기 ↗</a>
+        <a
+          v-else-if="isExternalUrl(anniversary.sourceUrl)"
+          :href="anniversary.sourceUrl!"
+          target="_blank"
+          :rel="EXTERNAL_LINK_REL"
+          class="story-read"
+          >출처 보기 ↗</a
+        >
         <span v-else />
-        <button type="button" class="round-icon-button" :aria-label="`${anniversary.name} 공유`"
-          @click="$emit('share', anniversary)">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
-            <path d="M12 15V3m-4 4 4-4 4 4M6 11H4v9h16v-9h-2" stroke-linecap="round" stroke-linejoin="round" />
+        <button
+          type="button"
+          class="round-icon-button"
+          :aria-label="`${anniversary.name} 공유`"
+          @click="$emit('share', anniversary)"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.6"
+            aria-hidden="true"
+          >
+            <path
+              d="M12 15V3m-4 4 4-4 4 4M6 11H4v9h16v-9h-2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
           </svg>
         </button>
       </div>

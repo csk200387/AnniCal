@@ -5,7 +5,13 @@ import type { Anniversary } from '../types/anniversary.js'
 import observancesJson from '../data/observances.json' with { type: 'json' }
 
 const DOW_MAP: Record<string, number> = {
-  SUN: 0, MON: 1, TUE: 2, WED: 3, THU: 4, FRI: 5, SAT: 6,
+  SUN: 0,
+  MON: 1,
+  TUE: 2,
+  WED: 3,
+  THU: 4,
+  FRI: 5,
+  SAT: 6,
 }
 
 /** anchor 참조 사슬의 최대 깊이. 이보다 깊으면 데이터가 잘못된 것이다. */
@@ -13,7 +19,12 @@ const MAX_ANCHOR_DEPTH = 8
 
 /** 표에 수록되지 않은 연도를 물었을 때. 호출부가 "모름"과 "오류"를 구분하도록. */
 export class OutOfTableRangeError extends Error {
-  constructor(readonly key: string, readonly year: number, readonly min: number, readonly max: number) {
+  constructor(
+    readonly key: string,
+    readonly year: number,
+    readonly min: number,
+    readonly max: number,
+  ) {
     super(`annual-tabulated: "${key}" 는 ${min}~${max}년만 수록돼 있어 ${year}년을 알 수 없습니다`)
     this.name = 'OutOfTableRangeError'
   }
@@ -183,7 +194,9 @@ export function resolveOccurrence(anv: Anniversary, year: number, _depth = 0): D
       )
     }
     const { anchor, offsetDays } = resolveAnchor(anv.date)
-    return dayjs(resolveOccurrence(anchor, year, _depth + 1)).add(offsetDays, 'day').toDate()
+    return dayjs(resolveOccurrence(anchor, year, _depth + 1))
+      .add(offsetDays, 'day')
+      .toDate()
   }
   if (anv.dateType === 'annual-tabulated') {
     return resolveTabulated(anv.date, year)
@@ -202,9 +215,16 @@ export function resolveOccurrenceSafe(anv: Anniversary, year: number): Date | nu
 }
 
 /** 생일 탐색은 평년에도 윤일로 정해진 고정 기념일을 보여주는 별도 정책이다. */
-export function occursOnBirthday(anv: Anniversary, year: number, month: number, day: number): boolean {
-  return (month === 2 && day === 29 && anv.dateType === 'annual-fixed' && anv.date === '02-29')
-    || occursOn(anv, year, month, day)
+export function occursOnBirthday(
+  anv: Anniversary,
+  year: number,
+  month: number,
+  day: number,
+): boolean {
+  return (
+    (month === 2 && day === 29 && anv.dateType === 'annual-fixed' && anv.date === '02-29') ||
+    occursOn(anv, year, month, day)
+  )
 }
 
 /** 매년 반복되는 타입인지. */
@@ -244,7 +264,9 @@ export function daysUntil(anv: Anniversary, from: Date = new Date()): number | n
   const occurrence = isRecurring(anv)
     ? nextOccurrenceSafe(anv, from)
     : resolveOccurrenceSafe(anv, from.getFullYear())
-  return occurrence ? dayjs(occurrence).startOf('day').diff(dayjs(from).startOf('day'), 'day') : null
+  return occurrence
+    ? dayjs(occurrence).startOf('day').diff(dayjs(from).startOf('day'), 'day')
+    : null
 }
 
 /** 한국식 날짜 표기 ("3월 14일"). 계산 불가면 null. */
@@ -266,12 +288,7 @@ export function formatKoreanMonthDay(
  * - annual-floating / one-time: 연/월/일 모두 비교
  * month 는 1~12.
  */
-export function occursOn(
-  anv: Anniversary,
-  year: number,
-  month: number,
-  day: number,
-): boolean {
+export function occursOn(anv: Anniversary, year: number, month: number, day: number): boolean {
   if (
     anv.dateType === 'annual-fixed' ||
     anv.dateType === 'annual-nth-weekday' ||
@@ -280,10 +297,7 @@ export function occursOn(
   ) {
     const occ = resolveOccurrenceSafe(anv, year)
     return (
-      !!occ &&
-      occ.getFullYear() === year &&
-      occ.getMonth() + 1 === month &&
-      occ.getDate() === day
+      !!occ && occ.getFullYear() === year && occ.getMonth() + 1 === month && occ.getDate() === day
     )
   }
   const d = dayjs(anv.date)

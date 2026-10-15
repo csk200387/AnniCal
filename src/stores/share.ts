@@ -47,5 +47,16 @@ export const useShareStore = defineStore('share', () => {
     together.value = null
   }
 
-  return { isOpen, anniversary, dDay, birthday, together, hasOpened, open, openBirthday, openTogether, close }
+  return {
+    isOpen,
+    anniversary,
+    dDay,
+    birthday,
+    together,
+    hasOpened,
+    open,
+    openBirthday,
+    openTogether,
+    close,
+  }
 })

@@ -5,19 +5,48 @@ import { koreanDate } from '../src/utils/format.js'
 import { ogDisplayName } from './og/text.js'
 import { ogImageUrl } from '../src/seo/og.js'
 import { PAGE_META } from '../src/seo/pages.js'
-import { milestoneDate, milestoneLabel, togetherPath, validStart } from '../src/features/together/milestones.js'
+import {
+  milestoneDate,
+  milestoneLabel,
+  togetherPath,
+  validStart,
+} from '../src/features/together/milestones.js'
 import { todayInSiteZone } from '../src/utils/clock.js'
 import { parseOgQuery } from './og/query.js'
 
-const byId = new Map(allAnniversaries.map(a => [a.id, a]))
-export interface ShareMeta { page: 'birthday' | 'together'; title: string; description: string; image: string; path: string }
-export const escapeHtml = (value: string): string => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;')
+const byId = new Map(allAnniversaries.map((a) => [a.id, a]))
+export interface ShareMeta {
+  page: 'birthday' | 'together'
+  title: string
+  description: string
+  image: string
+  path: string
+}
+export const escapeHtml = (value: string): string =>
+  value
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;')
 export function shareMeta(params: URLSearchParams, today = todayInSiteZone()): ShareMeta {
   const page = params.get('page') === 'together' ? 'together' : 'birthday'
-  const fallback: ShareMeta = { page, title: ogDisplayName(PAGE_META[page].title), description: PAGE_META[page].description, image: ogImageUrl(page), path: `/${page}` }
-  const allowed = page === 'birthday' ? ['page', 'date', 'year', 'pick'] : ['page', 'start', 'm', 'pick']
-  if (params.toString().length > 512 || !['birthday', 'together'].includes(params.get('page') ?? '')) return fallback
-  for (const key of params.keys()) if (!allowed.includes(key) || params.getAll(key).length !== 1) return fallback
+  const fallback: ShareMeta = {
+    page,
+    title: ogDisplayName(PAGE_META[page].title),
+    description: PAGE_META[page].description,
+    image: ogImageUrl(page),
+    path: `/${page}`,
+  }
+  const allowed =
+    page === 'birthday' ? ['page', 'date', 'year', 'pick'] : ['page', 'start', 'm', 'pick']
+  if (
+    params.toString().length > 512 ||
+    !['birthday', 'together'].includes(params.get('page') ?? '')
+  )
+    return fallback
+  for (const key of params.keys())
+    if (!allowed.includes(key) || params.getAll(key).length !== 1) return fallback
   const og = new URLSearchParams({ kind: page })
   const pick = params.get('pick')
   if (pick !== null) og.set('pick', pick)
@@ -26,15 +55,18 @@ export function shareMeta(params: URLSearchParams, today = todayInSiteZone()): S
     const date = params.get('date') ?? ''
     og.set('date', date)
     if (params.has('year')) og.set('year', params.get('year')!)
-    const query = new URLSearchParams(params); query.delete('page')
+    const query = new URLSearchParams(params)
+    query.delete('page')
     path = `/birthday?${query}`
     lead = `내 생일 ${koreanDate(date)}`
   } else {
-    const start = params.get('start'), m = params.get('m') ?? ''
+    const start = params.get('start'),
+      m = params.get('m') ?? ''
     if (!validStart(start, today)) return fallback
     const date = milestoneDate(start, m)
     if (!date) return fallback
-    og.set('date', date); og.set('m', m)
+    og.set('date', date)
+    og.set('m', m)
     path = togetherPath({ start, m, date }, pick ?? undefined)
     lead = `우리 ${milestoneLabel(m)} ${koreanDate(date.slice(5))}`
   }
@@ -44,11 +76,14 @@ export function shareMeta(params: URLSearchParams, today = todayInSiteZone()): S
   const title = `${lead}은 ${anv ? ogDisplayName(anv.name) : '어떤 날일까?'}`
   const origin = anv?.storytelling.origin?.trim()
   // 첫 문장이 너무 길어도 검색/공유 앱의 설명 길이를 넘기지 않는다.
-  const description = origin ? truncate(origin.match(/^.*?[.!?。](?:\s|$)/)?.[0] ?? origin) : `${lead}에 담긴 이야기를 기념일 도감에서 만나보세요.`
+  const description = origin
+    ? truncate(origin.match(/^.*?[.!?。](?:\s|$)/)?.[0] ?? origin)
+    : `${lead}에 담긴 이야기를 기념일 도감에서 만나보세요.`
   return { page, title, description, image: ogImageUrl(parsed.query), path }
 }
 export function shareMetaHtml(meta: ShareMeta): string {
-  const title = `${meta.title} | ${SITE_NAME}`, canonical = `${SITE_URL}/${meta.page}`
+  const title = `${meta.title} | ${SITE_NAME}`,
+    canonical = `${SITE_URL}/${meta.page}`
   const esc = escapeHtml
   return `<!doctype html><html lang="ko"><head><meta charset="utf-8" />
 <title>${esc(title)}</title><meta name="description" content="${esc(meta.description)}" />

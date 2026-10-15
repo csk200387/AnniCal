@@ -54,14 +54,18 @@ beforeAll(() => registerAnchors(anniversaries))
 describe('반복 규칙', () => {
   it('윤일 일정은 첫 실제 윤일 DTSTART와 연간 반복 규칙을 가진다', () => {
     const a = mk({ id: 'leap-fixed', date: '02-29' })
-    for (const [year, first] of [[2026, '20280229'], [2028, '20280229'], [2100, '21040229']] as const) {
+    for (const [year, first] of [
+      [2026, '20280229'],
+      [2028, '20280229'],
+      [2100, '21040229'],
+    ] as const) {
       const result = buildCalendarDetailed([a], { stamp: STAMP, year })
       expect(result.skipped).toEqual([])
       expect(result.count).toBe(1)
       const block = eventFor(result.ics, a.id)
       expect(block).toContain(`DTSTART;VALUE=DATE:${first}`)
       expect(block).toContain('RRULE:FREQ=YEARLY')
-      expect(block.filter(l => l.startsWith('RDATE'))).toEqual([])
+      expect(block.filter((l) => l.startsWith('RDATE'))).toEqual([])
       expect(block).toContain(`DTEND;VALUE=DATE:${first.slice(0, 4)}0301`)
     }
   })
@@ -77,7 +81,10 @@ describe('반복 규칙', () => {
       expect(block.length, `${a.id} 의 VEVENT 가 없다`).toBeGreaterThan(0)
 
       // 규칙으로 표현할 수 없는 타입에 RRULE 이 붙으면 안 된다.
-      expect(block.filter((l) => l.startsWith('RRULE:')), `${a.id} 에 RRULE`).toEqual([])
+      expect(
+        block.filter((l) => l.startsWith('RRULE:')),
+        `${a.id} 에 RRULE`,
+      ).toEqual([])
 
       const start = block.find((l) => l.startsWith('DTSTART'))!.split(':')[1]
       const rdateLine = block.find((l) => l.startsWith('RDATE'))
@@ -98,7 +105,10 @@ describe('반복 규칙', () => {
     const block = eventFor(ics, bf!.id)
 
     expect(block.find((l) => l.startsWith('DTSTART'))).toBe('DTSTART;VALUE=DATE:20261127')
-    const rdates = block.find((l) => l.startsWith('RDATE'))!.split(':')[1].split(',')
+    const rdates = block
+      .find((l) => l.startsWith('RDATE'))!
+      .split(':')[1]
+      .split(',')
     expect(rdates[0]).toBe('20271126') // 넷째 목요일 다음날 — 11-27 이 아니다
     expect(rdates[1]).toBe('20281124')
   })
@@ -117,7 +127,10 @@ describe('반복 규칙', () => {
     expect(seollal).toBeDefined()
     const { ics } = buildCalendarDetailed([seollal!], { stamp: STAMP, year: 2026 })
     const block = eventFor(ics, seollal!.id)
-    const rdates = block.find((l) => l.startsWith('RDATE'))!.split(':')[1].split(',')
+    const rdates = block
+      .find((l) => l.startsWith('RDATE'))!
+      .split(':')[1]
+      .split(',')
     expect(rdates[0]).toBe('20270207') // 2027 설날 — 2026(02-17)과 열흘 넘게 다르다
   })
 })
@@ -134,7 +147,8 @@ describe('주입 방어', () => {
   }
 
   it('CRLF 로 새 속성·이벤트를 만들 수 없다', () => {
-    const payload = 'a\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:fake\r\nATTENDEE:mailto:x@y.z\r\nBEGIN:VALARM'
+    const payload =
+      'a\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:fake\r\nATTENDEE:mailto:x@y.z\r\nBEGIN:VALARM'
     const { ics } = buildCalendarDetailed(
       [mk({ id: 'crlf-x', name: payload, storytelling: { origin: payload, anecdote: '' } })],
       { stamp: STAMP, year: 2026 },
@@ -143,10 +157,10 @@ describe('주입 방어', () => {
   })
 
   it('단독 CR 도 이스케이프한다', () => {
-    const { ics } = buildCalendarDetailed(
-      [mk({ id: 'cr-x', name: 'a\rATTENDEE:mailto:x@y.z' })],
-      { stamp: STAMP, year: 2026 },
-    )
+    const { ics } = buildCalendarDetailed([mk({ id: 'cr-x', name: 'a\rATTENDEE:mailto:x@y.z' })], {
+      stamp: STAMP,
+      year: 2026,
+    })
     expect(structure(ics).attendee).toBe(0)
   })
 
@@ -163,7 +177,10 @@ describe('주입 방어', () => {
         stamp: STAMP,
         year: 2026,
       })
-      expect(eventFor(ics, 'url-x').filter((l) => l.startsWith('URL:')), bad).toEqual([])
+      expect(
+        eventFor(ics, 'url-x').filter((l) => l.startsWith('URL:')),
+        bad,
+      ).toEqual([])
     }
   })
 })

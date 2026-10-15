@@ -7,7 +7,13 @@ import { nextOccurrenceSafe, resolveOccurrence, tabulatedYearRange } from './dat
 import type { Anniversary } from '../types/anniversary.js'
 
 const DOW_TO_ICS: Record<string, string> = {
-  SUN: 'SU', MON: 'MO', TUE: 'TU', WED: 'WE', THU: 'TH', FRI: 'FR', SAT: 'SA',
+  SUN: 'SU',
+  MON: 'MO',
+  TUE: 'TU',
+  WED: 'WE',
+  THU: 'TH',
+  FRI: 'FR',
+  SAT: 'SA',
 }
 
 /** 반복 일정을 몇 년치까지 펼칠지. RDATE 로 나열하는 타입에 적용된다. */
@@ -20,13 +26,15 @@ const RDATE_YEARS = 10
  * 논리 줄이 끊겨 `ATTENDEE:` 나 `BEGIN:VALARM` 같은 속성을 데이터로 주입할 수 있다.
  */
 function esc(s: string): string {
-  return s
-    .replace(/\\/g, '\\\\')
-    .replace(/;/g, '\\;')
-    .replace(/,/g, '\\,')
-    .replace(/\r\n|\r|\n/g, '\\n')
-    // 남은 제어문자는 값에 쓸 수 없다(RFC 5545 CONTROL). 조용히 제거한다.
-    .replace(/[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]/g, '')
+  return (
+    s
+      .replace(/\\/g, '\\\\')
+      .replace(/;/g, '\\;')
+      .replace(/,/g, '\\,')
+      .replace(/\r\n|\r|\n/g, '\\n')
+      // 남은 제어문자는 값에 쓸 수 없다(RFC 5545 CONTROL). 조용히 제거한다.
+      .replace(/[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]/g, '')
+  )
 }
 
 /**
@@ -169,9 +177,10 @@ function eventLines(anv: Anniversary, year: number, stamp: string): EventBuildRe
 
   let start: Date
   try {
-    const first = anv.dateType === 'annual-fixed'
-      ? nextOccurrenceSafe(anv, new Date(year, 0, 1))
-      : resolveOccurrence(anv, year)
+    const first =
+      anv.dateType === 'annual-fixed'
+        ? nextOccurrenceSafe(anv, new Date(year, 0, 1))
+        : resolveOccurrence(anv, year)
     if (!first) return { lines: null, skipped: `date '${anv.date}' 의 다음 발생일이 없음` }
     start = first
   } catch (e) {
@@ -285,9 +294,6 @@ export function buildCalendarDetailed(
 }
 
 /** 문자열만 필요한 호출부용 얇은 래퍼. */
-export function buildCalendar(
-  items: Anniversary[],
-  opts: BuildCalendarOptions = {},
-): string {
+export function buildCalendar(items: Anniversary[], opts: BuildCalendarOptions = {}): string {
   return buildCalendarDetailed(items, opts).ics
 }

@@ -116,7 +116,8 @@ canonical과 기존 상세 URL의 `urlDate`·slug는 바뀌지 않는다.
 npm run og:static   # public/og/*.png 생성 (저장소에 포함)
 npm run og:samples  # tmp/og-samples/에 샘플 6장 (gitignored)
 npm run og:samples -- --out /path/to/review  # 출력 폴더 지정
-npm run verify     # slug 검사·빌드·API 타입 검사·전체 테스트
+npm run format     # Prettier 로 서식 맞추기 (규칙: docs/CONVENTIONS.md)
+npm run verify     # 서식 검사·slug 검사·빌드·API 타입 검사·전체 테스트
 ```
 
 폰트는 Noto Serif KR 700과 Noto Sans KR 500/700의 정적 서브셋이다.

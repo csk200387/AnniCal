@@ -34,7 +34,10 @@ interface FeedbackBody {
   website?: unknown
 }
 
-interface RedisEnvelope { result?: unknown; error?: string }
+interface RedisEnvelope {
+  result?: unknown
+  error?: string
+}
 
 function base64Url(value: string | Buffer): string {
   return Buffer.from(value).toString('base64url')
@@ -74,7 +77,7 @@ async function githubInstallationToken(): Promise<string> {
     body: JSON.stringify({ repositories: [repository[1]], permissions: { issues: 'write' } }),
   })
   if (!response.ok) throw new Error('GITHUB_UNAVAILABLE')
-  const result = await response.json() as { token?: unknown }
+  const result = (await response.json()) as { token?: unknown }
   if (typeof result.token !== 'string' || !result.token) throw new Error('GITHUB_UNAVAILABLE')
   return result.token
 }
@@ -106,7 +109,7 @@ async function checkRateLimit(req: IncomingMessage): Promise<boolean> {
       ['EXPIRE', `annical:feedback:v1:rate:${fingerprint}`, RATE_WINDOW_SECONDS, 'NX'],
     ]),
   })
-  const payload = await response.json() as RedisEnvelope[]
+  const payload = (await response.json()) as RedisEnvelope[]
   if (!response.ok || !Array.isArray(payload) || payload.some((item) => item.error)) {
     throw new Error('RATE_LIMIT_UNAVAILABLE')
   }
@@ -144,7 +147,8 @@ async function createIssue(body: FeedbackBody): Promise<number> {
 
   if (!anniversary || !route || !Object.hasOwn(TYPE_META, type)) throw new Error('INVALID_INPUT')
   if (message.length < 20 || message.length > MAX_MESSAGE_LENGTH) throw new Error('INVALID_INPUT')
-  if (sourceUrl.length > MAX_SOURCE_LENGTH || !validSourceUrl(sourceUrl)) throw new Error('INVALID_INPUT')
+  if (sourceUrl.length > MAX_SOURCE_LENGTH || !validSourceUrl(sourceUrl))
+    throw new Error('INVALID_INPUT')
 
   const meta = TYPE_META[type]
   const pageUrl = `https://www.annical.me/day/${route.urlDate}/${route.slug}`
@@ -182,7 +186,7 @@ async function createIssue(body: FeedbackBody): Promise<number> {
     }),
   })
   if (!response.ok) throw new Error('GITHUB_UNAVAILABLE')
-  const result = await response.json() as { number?: unknown }
+  const result = (await response.json()) as { number?: unknown }
   const issueNumber = Number(result.number)
   if (!Number.isInteger(issueNumber) || issueNumber < 1) throw new Error('GITHUB_UNAVAILABLE')
   return issueNumber
@@ -195,21 +199,33 @@ export default async function handler(req: IncomingMessage, res: ServerResponse)
     writeJson(res, 405, { error: 'Method Not Allowed' })
     return
   }
-  if (String(req.headers['content-type'] ?? '').split(';')[0]?.trim().toLowerCase() !== 'application/json') {
+  if (
+    String(req.headers['content-type'] ?? '')
+      .split(';')[0]
+      ?.trim()
+      .toLowerCase() !== 'application/json'
+  ) {
     writeJson(res, 415, { error: 'Content-Type must be application/json' })
     return
   }
 
   try {
-    const body = await readJsonObject(req, MAX_BODY_BYTES, ['anniversaryId', 'type', 'message', 'sourceUrl', 'website'])
-    if (Object.values(body).some((value) => typeof value !== 'string')) throw new Error('INVALID_INPUT')
+    const body = await readJsonObject(req, MAX_BODY_BYTES, [
+      'anniversaryId',
+      'type',
+      'message',
+      'sourceUrl',
+      'website',
+    ])
+    if (Object.values(body).some((value) => typeof value !== 'string'))
+      throw new Error('INVALID_INPUT')
     if (!Object.hasOwn(TYPE_META, cleanText(body.type))) throw new Error('INVALID_INPUT')
     // 화면에는 보이지 않는 허니팟. 봇에는 성공처럼 답하되 실제 Issue는 만들지 않는다.
     if (cleanText(body.website)) {
       writeJson(res, 202, { accepted: true })
       return
     }
-    if (!await checkRateLimit(req)) {
+    if (!(await checkRateLimit(req))) {
       res.setHeader('Retry-After', String(RATE_WINDOW_SECONDS))
       writeJson(res, 429, { error: 'Too many requests' })
       return
@@ -219,7 +235,8 @@ export default async function handler(req: IncomingMessage, res: ServerResponse)
   } catch (error) {
     const reason = error instanceof Error ? error.message : ''
     if (reason === 'BODY_TOO_LARGE') writeJson(res, 413, { error: 'Request body too large' })
-    else if (reason === 'INVALID_INPUT' || error instanceof SyntaxError) writeJson(res, 400, { error: 'Invalid feedback' })
+    else if (reason === 'INVALID_INPUT' || error instanceof SyntaxError)
+      writeJson(res, 400, { error: 'Invalid feedback' })
     else writeJson(res, 503, { error: 'Feedback service unavailable' })
   }
 }

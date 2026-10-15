@@ -47,9 +47,12 @@ const esc = (s: string): string =>
 /** 이미지 메타는 정적 페이지와 상세/허브가 같은 규칙으로 갱신한다. */
 function imageMeta(html: string, image: string, alt: string): string {
   for (const [attr, key, value] of [
-    ['property', 'og:image', image], ['property', 'og:image:width', '1200'],
-    ['property', 'og:image:height', '630'], ['property', 'og:image:alt', alt],
-    ['name', 'twitter:image', image], ['name', 'twitter:image:alt', alt],
+    ['property', 'og:image', image],
+    ['property', 'og:image:width', '1200'],
+    ['property', 'og:image:height', '630'],
+    ['property', 'og:image:alt', alt],
+    ['name', 'twitter:image', image],
+    ['name', 'twitter:image:alt', alt],
   ]) {
     const re = new RegExp(`<meta\\s+${attr}="${key}"[^>]*>`)
     const tag = `<meta ${attr}="${key}" content="${esc(value)}" />`
@@ -85,38 +88,53 @@ export function detailBody(
   }
   const story = [
     anv.storytelling.origin?.trim()
-      ? `<section><h2>유래</h2><p>${esc(anv.storytelling.origin)}</p></section>` : '',
+      ? `<section><h2>유래</h2><p>${esc(anv.storytelling.origin)}</p></section>`
+      : '',
     anv.storytelling.anecdote?.trim()
-      ? `<section><h2>이야깃거리</h2><p>${esc(anv.storytelling.anecdote)}</p></section>` : '',
+      ? `<section><h2>이야깃거리</h2><p>${esc(anv.storytelling.anecdote)}</p></section>`
+      : '',
   ].join('')
   const quotes = anv.memes.length
     ? `<aside>${anv.memes.map((m) => `<blockquote>${esc(m.caption)}</blockquote>`).join('')}</aside>`
     : ''
   const tags = anv.tags.length
-    ? `<ul>${anv.tags.map((t) => `<li>${esc(t)}</li>`).join('')}</ul>` : ''
+    ? `<ul>${anv.tags.map((t) => `<li>${esc(t)}</li>`).join('')}</ul>`
+    : ''
   const source = isHttpUrl(anv.sourceUrl)
-    ? `<p>출처 <a href="${esc(anv.sourceUrl)}" rel="${EXTERNAL_REL}">${esc(anv.sourceUrl)}</a></p>` : ''
+    ? `<p>출처 <a href="${esc(anv.sourceUrl)}" rel="${EXTERNAL_REL}">${esc(anv.sourceUrl)}</a></p>`
+    : ''
   const hub = `/day/${escPath(displayDate)}`
   const dateLabel = formatKoreanMonthDay(anv, year) ?? koreanDate(displayDate)
   const others = sameDay.length
-    ? `<section><h2>${koreanDate(displayDate)}의 다른 기념일</h2><ul>${sameDay.map(link).join('')}</ul></section>` : ''
+    ? `<section><h2>${koreanDate(displayDate)}의 다른 기념일</h2><ul>${sameDay.map(link).join('')}</ul></section>`
+    : ''
 
-  return `<nav><a href="/">홈</a> / <a href="${hub}">${koreanDate(displayDate)}</a></nav>` +
+  return (
+    `<nav><a href="/">홈</a> / <a href="${hub}">${koreanDate(displayDate)}</a></nav>` +
     `<article><h1>${esc(anv.name)}</h1><p>${esc(dateLabel)}</p>` +
     `${story}${quotes}${tags}${source}</article>${others}` +
     `<p><a href="${hub}">${koreanDate(displayDate)}은 무슨 날인지 전부 보기</a></p>`
+  )
 }
 
 /** 날짜 허브 본문. */
-function hubBody(urlDate: string, items: Anniversary[],
-                 routes: Record<string, { slug: string; urlDate: string }>): string {
-  const rows = items.map((a) => {
-    const r = routes[a.id]
-    if (!r) return ''
-    const lead = a.storytelling.origin?.trim()
-    return `<li><a href="/day/${escPath(r.urlDate)}/${escPath(r.slug)}"><h2>${esc(a.name)}</h2></a>` +
-      (lead ? `<p>${esc(lead)}</p>` : '') + '</li>'
-  }).join('')
+function hubBody(
+  urlDate: string,
+  items: Anniversary[],
+  routes: Record<string, { slug: string; urlDate: string }>,
+): string {
+  const rows = items
+    .map((a) => {
+      const r = routes[a.id]
+      if (!r) return ''
+      const lead = a.storytelling.origin?.trim()
+      return (
+        `<li><a href="/day/${escPath(r.urlDate)}/${escPath(r.slug)}"><h2>${esc(a.name)}</h2></a>` +
+        (lead ? `<p>${esc(lead)}</p>` : '') +
+        '</li>'
+      )
+    })
+    .join('')
 
   // 366일 고리를 따라 이동한다. 비윤년 Date 산술을 쓰던 시절엔 02-29 가 03-01 로
   // normalize 돼 다음 날이 03-02 가 됐다.
@@ -125,12 +143,14 @@ function hubBody(urlDate: string, items: Anniversary[],
     return p ? `<a href="/day/${escPath(p)}">${koreanDate(p)}</a>` : ''
   }
 
-  return `<nav><a href="/">홈</a> / ${koreanDate(urlDate)}</nav>` +
+  return (
+    `<nav><a href="/">홈</a> / ${koreanDate(urlDate)}</nav>` +
     `<h1>${koreanDate(urlDate)}은 무슨 날?</h1>` +
     (items.length
       ? `<p>${koreanDate(urlDate)}에 있는 기념일 ${items.length}개를 모았어요.</p><ul>${rows}</ul>`
       : `<p>${koreanDate(urlDate)}에 등록된 기념일이 아직 없어요.</p>`) +
     `<nav>${shift(-1)} · <a href="/calendar">달력 전체</a> · ${shift(1)}</nav>`
+  )
 }
 
 /**
@@ -170,23 +190,44 @@ export function prerender(): Plugin {
       for (const page of Object.keys(PAGE_META) as StaticPage[]) {
         const meta = PAGE_META[page]
         const path = page === 'home' ? '/' : `/${page}`
-        let html = shell.replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(meta.title + ' | ' + SITE_NAME)}</title>`)
-          .replace(/<link rel="canonical"[^>]*>/, `<link rel="canonical" href="${SITE_URL}${path}" />`)
-          .replace(/<meta property="og:url"[^>]*>/, `<meta property="og:url" content="${SITE_URL}${path}" />`)
+        let html = shell
+          .replace(
+            /<title>[\s\S]*?<\/title>/,
+            `<title>${esc(meta.title + ' | ' + SITE_NAME)}</title>`,
+          )
+          .replace(
+            /<link rel="canonical"[^>]*>/,
+            `<link rel="canonical" href="${SITE_URL}${path}" />`,
+          )
+          .replace(
+            /<meta property="og:url"[^>]*>/,
+            `<meta property="og:url" content="${SITE_URL}${path}" />`,
+          )
         for (const [attr, key, value] of [
-          ['name', 'description', meta.description], ['name', 'keywords', meta.keywords],
-          ['property', 'og:title', meta.title + ' | ' + SITE_NAME], ['property', 'og:description', meta.description],
-          ['name', 'twitter:title', meta.title + ' | ' + SITE_NAME], ['name', 'twitter:description', meta.description],
-        ]) html = html.replace(new RegExp(`<meta\\s+${attr}="${key}"[^>]*>`), `<meta ${attr}="${key}" content="${esc(value)}" />`)
+          ['name', 'description', meta.description],
+          ['name', 'keywords', meta.keywords],
+          ['property', 'og:title', meta.title + ' | ' + SITE_NAME],
+          ['property', 'og:description', meta.description],
+          ['name', 'twitter:title', meta.title + ' | ' + SITE_NAME],
+          ['name', 'twitter:description', meta.description],
+        ])
+          html = html.replace(
+            new RegExp(`<meta\\s+${attr}="${key}"[^>]*>`),
+            `<meta ${attr}="${key}" content="${esc(value)}" />`,
+          )
         html = imageMeta(html, ogImageUrl(page), meta.title)
         if (page !== 'home') {
-          html = html.replace('<div id="app"></div>', `<div id="app"><h1>${esc(meta.title)}</h1><p>${esc(meta.description)}</p><nav><a href="/calendar">기념일 달력</a> · <a href="/birthday">내 생일은?</a> · <a href="/together">우리의 날</a></nav></div>`)
+          html = html.replace(
+            '<div id="app"></div>',
+            `<div id="app"><h1>${esc(meta.title)}</h1><p>${esc(meta.description)}</p><nav><a href="/calendar">기념일 달력</a> · <a href="/birthday">내 생일은?</a> · <a href="/together">우리의 날</a></nav></div>`,
+          )
         }
         // Vercel 은 rewrite 전에 파일시스템을 확인하므로 공유 경로에 파일을 두면
         // 봇 UA rewrite 가 실행되지 않는다. 일반 요청만 /_pages HTML 로 rewrite 한다.
-        const file = page === 'birthday' || page === 'together'
-          ? join(outDir, '_pages', `${page}.html`)
-          : join(outDir, page === 'home' ? '' : page, 'index.html')
+        const file =
+          page === 'birthday' || page === 'together'
+            ? join(outDir, '_pages', `${page}.html`)
+            : join(outDir, page === 'home' ? '' : page, 'index.html')
         mkdirSync(dirname(file), { recursive: true })
         writeFileSync(file, html, 'utf-8')
       }
@@ -220,22 +261,52 @@ export function prerender(): Plugin {
 
         let html = shell
           .replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(fullTitle)}</title>`)
-          .replace(/<meta\s+name="description"[\s\S]*?\/>/, `<meta name="description" content="${esc(description)}" />`)
+          .replace(
+            /<meta\s+name="description"[\s\S]*?\/>/,
+            `<meta name="description" content="${esc(description)}" />`,
+          )
           // keywords 는 구글·네이버 모두 랭킹에 쓰지 않는다. 상세 페이지에서는 뺀다.
           .replace(/<meta\s+name="keywords"[\s\S]*?\/>/, '')
           .replace(/<link rel="canonical"[^>]*>/, `<link rel="canonical" href="${esc(url)}" />`)
-          .replace(/<meta property="og:type"[^>]*>/, `<meta property="og:type" content="${isDetail ? 'article' : 'website'}" />`)
-          .replace(/<meta property="og:title"[\s\S]*?\/>/, `<meta property="og:title" content="${esc(fullTitle)}" />`)
-          .replace(/<meta\s+property="og:description"[\s\S]*?\/>/, `<meta property="og:description" content="${esc(description)}" />`)
-          .replace(/<meta property="og:url"[^>]*>/, `<meta property="og:url" content="${esc(url)}" />`)
-          .replace(/<meta name="twitter:title"[\s\S]*?\/>/, `<meta name="twitter:title" content="${esc(fullTitle)}" />`)
-          .replace(/<meta\s+name="twitter:description"[\s\S]*?\/>/, `<meta name="twitter:description" content="${esc(description)}" />`)
-          .replace('</head>', `  <script type="application/ld+json" id="ld-page">${jsonLd(t, url, description)}</script>\n  </head>`)
+          .replace(
+            /<meta property="og:type"[^>]*>/,
+            `<meta property="og:type" content="${isDetail ? 'article' : 'website'}" />`,
+          )
+          .replace(
+            /<meta property="og:title"[\s\S]*?\/>/,
+            `<meta property="og:title" content="${esc(fullTitle)}" />`,
+          )
+          .replace(
+            /<meta\s+property="og:description"[\s\S]*?\/>/,
+            `<meta property="og:description" content="${esc(description)}" />`,
+          )
+          .replace(
+            /<meta property="og:url"[^>]*>/,
+            `<meta property="og:url" content="${esc(url)}" />`,
+          )
+          .replace(
+            /<meta name="twitter:title"[\s\S]*?\/>/,
+            `<meta name="twitter:title" content="${esc(fullTitle)}" />`,
+          )
+          .replace(
+            /<meta\s+name="twitter:description"[\s\S]*?\/>/,
+            `<meta name="twitter:description" content="${esc(description)}" />`,
+          )
+          .replace(
+            '</head>',
+            `  <script type="application/ld+json" id="ld-page">${jsonLd(t, url, description)}</script>\n  </head>`,
+          )
           .replace('<div id="app"></div>', `<div id="app">${body}</div>`)
 
-        html = imageMeta(html, ogImageUrl(isDetail
-          ? { kind: 'detail', date: t.urlDate, slug: routes[t.anniversary!.id].slug }
-          : { kind: 'hub', date: t.urlDate }), title)
+        html = imageMeta(
+          html,
+          ogImageUrl(
+            isDetail
+              ? { kind: 'detail', date: t.urlDate, slug: routes[t.anniversary!.id].slug }
+              : { kind: 'hub', date: t.urlDate },
+          ),
+          title,
+        )
 
         const file = resolve(outDir, t.path.replace(/^\//, ''), 'index.html')
         if (file !== join(outRoot, 'index.html') && !file.startsWith(outRoot + sep)) {
@@ -255,7 +326,10 @@ export function prerender(): Plugin {
       // 모든 경로를 index.html 로 rewrite 해서 없는 페이지도 200 을 냈고,
       // 검색엔진이 그것들을 정상 페이지로 색인할 수 있었다.
       const notFoundHtml = imageMeta(shell, `${SITE_URL}/og-cover.png`, '페이지를 찾을 수 없어요')
-        .replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(`페이지를 찾을 수 없어요 | ${SITE_NAME}`)}</title>`)
+        .replace(
+          /<title>[\s\S]*?<\/title>/,
+          `<title>${esc(`페이지를 찾을 수 없어요 | ${SITE_NAME}`)}</title>`,
+        )
         .replace(/<link rel="canonical"[^>]*>/, '')
         .replace('</head>', '  <meta name="robots" content="noindex, follow" />\n  </head>')
         .replace(
@@ -267,7 +341,9 @@ export function prerender(): Plugin {
       writeFileSync(join(outDir, '404.html'), notFoundHtml, 'utf-8')
 
       const detail = targets.filter((t) => t.kind === 'detail').length
-      this.info?.(`프리렌더: 상세 ${detail}개 + 날짜 허브 ${targets.length - detail}개 = ${targets.length}개 (+ 404.html)`)
+      this.info?.(
+        `프리렌더: 상세 ${detail}개 + 날짜 허브 ${targets.length - detail}개 = ${targets.length}개 (+ 404.html)`,
+      )
     },
   }
 }

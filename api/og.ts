@@ -11,12 +11,23 @@ let queue: Promise<unknown> = Promise.resolve()
 export default async function handler(req: IncomingMessage, res: ServerResponse): Promise<void> {
   const method = (req.method ?? 'GET').toUpperCase()
   if (method !== 'GET' && method !== 'HEAD') {
-    res.statusCode = 405; res.setHeader('Allow', 'GET, HEAD'); res.end(); return
+    res.statusCode = 405
+    res.setHeader('Allow', 'GET, HEAD')
+    res.end()
+    return
   }
   const url = new URL(req.url ?? '/', 'http://localhost')
-  if (url.search.length > 512) { res.statusCode = 400; res.end(); return }
+  if (url.search.length > 512) {
+    res.statusCode = 400
+    res.end()
+    return
+  }
   const parsed = parseOgQuery(url.searchParams)
-  if (typeof parsed === 'number') { res.statusCode = parsed; res.end(); return }
+  if (typeof parsed === 'number') {
+    res.statusCode = parsed
+    res.end()
+    return
+  }
   try {
     const job = queue.then(async () => {
       let entry = cache.get(parsed.key)
@@ -31,13 +42,22 @@ export default async function handler(req: IncomingMessage, res: ServerResponse)
     const entry = await job
     res.setHeader('Content-Type', 'image/png')
     res.setHeader('X-Content-Type-Options', 'nosniff')
-    res.setHeader('Cache-Control', 'public, max-age=86400, s-maxage=31536000, stale-while-revalidate=604800')
+    res.setHeader(
+      'Cache-Control',
+      'public, max-age=86400, s-maxage=31536000, stale-while-revalidate=604800',
+    )
     res.setHeader('ETag', entry.etag)
-    if (req.headers['if-none-match'] === entry.etag) { res.statusCode = 304; res.end(); return }
+    if (req.headers['if-none-match'] === entry.etag) {
+      res.statusCode = 304
+      res.end()
+      return
+    }
     res.statusCode = 200
     res.setHeader('Content-Length', String(entry.body.byteLength))
     res.end(method === 'HEAD' ? undefined : entry.body)
   } catch {
-    res.statusCode = 500; res.setHeader('Cache-Control', 'no-store'); res.end()
+    res.statusCode = 500
+    res.setHeader('Cache-Control', 'no-store')
+    res.end()
   }
 }

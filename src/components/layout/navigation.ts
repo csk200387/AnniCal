@@ -9,8 +9,8 @@ export const primaryNavigation = [
 ] as const
 
 export function pageTransitionFor(to: unknown, from: unknown): 'route-forward' | 'route-back' {
-  const toIndex = primaryNavigation.findIndex(item => item.name === to)
-  const fromIndex = primaryNavigation.findIndex(item => item.name === from)
+  const toIndex = primaryNavigation.findIndex((item) => item.name === to)
+  const fromIndex = primaryNavigation.findIndex((item) => item.name === from)
   // 상세 화면에서 메뉴로 돌아올 때도 같은 가로축을 유지한다.
   if (fromIndex < 0 && toIndex >= 0) return 'route-back'
   return toIndex >= 0 && toIndex < fromIndex ? 'route-back' : 'route-forward'

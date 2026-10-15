@@ -31,9 +31,7 @@ import { BoundedCache } from '../server/boundedCache.js'
 // 요청마다 1,400개 Map 을 다시 만들 이유가 없다.
 registerAnchors(allAnniversaries)
 
-const VALID_CATEGORIES = new Set(
-  (categoriesJson as Array<{ id: string }>).map((c) => c.id),
-)
+const VALID_CATEGORIES = new Set((categoriesJson as Array<{ id: string }>).map((c) => c.id))
 
 // 그룹은 tags 에 레이블로 들어 있다(src/types/group.ts). URL 에는 ASCII id 를
 // 받고 여기서 레이블로 되돌린다 — 한글을 쿼리로 받으면 인코딩 표기가 갈려
@@ -60,8 +58,7 @@ const BUILD_TIME = (() => {
   const parsed = t ? Number(t) : NaN
   return Number.isFinite(parsed) ? new Date(parsed) : new Date(0)
 })()
-const BUILD_ID =
-  process.env.VERCEL_GIT_COMMIT_SHA ?? process.env.VERCEL_DEPLOYMENT_ID ?? 'dev'
+const BUILD_ID = process.env.VERCEL_GIT_COMMIT_SHA ?? process.env.VERCEL_DEPLOYMENT_ID ?? 'dev'
 
 // 필터 조합이 늘어나도 보관 문자열 비용 8 MiB·32개 안에서 LRU로 퇴출한다.
 const cache = new BoundedCache<{ body: string; etag: string }>(32, 8 * 1024 * 1024)
@@ -159,8 +156,10 @@ export default function handler(req: IncomingMessage, res: ServerResponse): void
     })
     entry = { body, etag: `"${BUILD_ID}-${cacheKey}-${body.length}"` }
     // UTF-16 문자열과 UTF-8 표현 중 큰 쪽으로 계산하고 메타데이터 여유를 둔다.
-    const bytes = Math.max(body.length * 2, Buffer.byteLength(body))
-      + (cacheKey.length + entry.etag.length) * 2 + 256
+    const bytes =
+      Math.max(body.length * 2, Buffer.byteLength(body)) +
+      (cacheKey.length + entry.etag.length) * 2 +
+      256
     cache.set(cacheKey, entry, bytes)
   }
 

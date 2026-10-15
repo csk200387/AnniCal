@@ -253,7 +253,9 @@ export function buildSitemapMeta(targets: PrerenderTarget[]): SitemapMeta {
       changefreq[t.path] = 'monthly'
     } else {
       // 허브는 그 날짜에 걸린 기념일들이 담긴 파일 중 가장 최근 것을 따른다.
-      const files = [...new Set((t.items ?? []).map((a) => fileOf.get(a.id)).filter(Boolean))] as string[]
+      const files = [
+        ...new Set((t.items ?? []).map((a) => fileOf.get(a.id)).filter(Boolean)),
+      ] as string[]
       const dates = files.map(changedAt)
       lastmod[t.path] = dates.length
         ? new Date(Math.max(...dates.map((d) => d.getTime())))
@@ -274,10 +276,9 @@ export function buildSitemapMeta(targets: PrerenderTarget[]): SitemapMeta {
   }
 
   // 생일 도구는 기념일 데이터뿐 아니라 페이지 콘텐츠의 수정일도 반영한다.
-  lastmod['/birthday'] = new Date(Math.max(
-    lastmod['/birthday'].getTime(),
-    changedAt('src/features/birthday').getTime(),
-  ))
+  lastmod['/birthday'] = new Date(
+    Math.max(lastmod['/birthday'].getTime(), changedAt('src/features/birthday').getTime()),
+  )
 
   return { lastmod, priority, changefreq }
 }

@@ -3,10 +3,17 @@ export class BoundedCache<T> {
   private entries = new Map<string, { value: T; bytes: number }>()
   private bytes = 0
 
-  constructor(private maxEntries: number, private maxBytes: number) {}
+  constructor(
+    private maxEntries: number,
+    private maxBytes: number,
+  ) {}
 
-  get size(): number { return this.entries.size }
-  get retainedBytes(): number { return this.bytes }
+  get size(): number {
+    return this.entries.size
+  }
+  get retainedBytes(): number {
+    return this.bytes
+  }
 
   get(key: string): T | undefined {
     const entry = this.entries.get(key)

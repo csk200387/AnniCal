@@ -115,18 +115,13 @@ export function useCalendarExport() {
 
   /** 선택한 그룹의 레이블 — 항목의 tags 와 대조할 값. */
   const selectedGroupLabels = computed(
-    () =>
-      new Set(
-        store.groups.filter((g) => selectedGroups.value.has(g.id)).map((g) => g.label),
-      ),
+    () => new Set(store.groups.filter((g) => selectedGroups.value.has(g.id)).map((g) => g.label)),
   )
 
   // 카테고리 OR 그룹. 둘 중 하나라도 걸리면 포함한다.
   const selectedItems = computed(() =>
     store.items.filter(
-      (a) =>
-        selected.value.has(a.category) ||
-        a.tags.some((t) => selectedGroupLabels.value.has(t)),
+      (a) => selected.value.has(a.category) || a.tags.some((t) => selectedGroupLabels.value.has(t)),
     ),
   )
   const selectedCount = computed(() => selectedItems.value.length)
@@ -174,20 +169,14 @@ export function useCalendarExport() {
   // 0개 선택은 전체 선택과 반드시 구분해야 한다. 예전에는 둘 다 빈 쿼리를 내보냈고,
   // 파라미터가 없는 요청을 API 가 "전체"로 해석해서 — 카테고리를 모두 해제한
   // 사용자가 1,400건 전체를 구독하게 됐다. 이제 0개면 URL 자체를 만들지 않는다.
-  const hasSelection = computed(
-    () => selected.value.size > 0 || selectedGroups.value.size > 0,
-  )
+  const hasSelection = computed(() => selected.value.size > 0 || selectedGroups.value.size > 0)
 
   const feedHttpUrl = computed<string | null>(() => {
     if (!hasSelection.value) return null
     if (allSelected.value) return `${SITE_URL}/api/calendar`
     const params = new URLSearchParams()
-    const cats = categoryOptions.value
-      .filter((o) => selected.value.has(o.id))
-      .map((o) => o.id)
-    const grps = groupOptions.value
-      .filter((o) => selectedGroups.value.has(o.id))
-      .map((o) => o.id)
+    const cats = categoryOptions.value.filter((o) => selected.value.has(o.id)).map((o) => o.id)
+    const grps = groupOptions.value.filter((o) => selectedGroups.value.has(o.id)).map((o) => o.id)
     if (cats.length) params.set('categories', cats.join(','))
     if (grps.length) params.set('groups', grps.join(','))
     return `${SITE_URL}/api/calendar?${params.toString()}`

@@ -24,16 +24,36 @@ const perforations = Array.from({ length: 12 }, (_, index) => 17 + index * 13)
         </template>
       </g>
       <path d="M73 22h91v134H73z" stroke="currentColor" stroke-opacity=".35" />
-      <text x="118" y="39" text-anchor="middle" fill="currentColor" font-size="9" letter-spacing="2">ANNICAL</text>
+      <text
+        x="118"
+        y="39"
+        text-anchor="middle"
+        fill="currentColor"
+        font-size="9"
+        letter-spacing="2"
+      >
+        ANNICAL
+      </text>
       <CategorySymbol :category="category" x="86" y="53" width="65" height="65" />
       <path d="M88 127h60" stroke="currentColor" stroke-opacity=".25" />
-      <text x="118" y="145" text-anchor="middle" fill="currentColor" font-size="12" letter-spacing="2">{{ dateLabel }}</text>
+      <text
+        x="118"
+        y="145"
+        text-anchor="middle"
+        fill="currentColor"
+        font-size="12"
+        letter-spacing="2"
+      >
+        {{ dateLabel }}
+      </text>
     </g>
     <g class="stamp-postmark" stroke="currentColor" stroke-opacity=".45" stroke-width="1">
       <circle cx="193" cy="119" r="23" />
       <circle cx="193" cy="119" r="18" />
       <path d="M214 110q10-6 22 0m-22 9q10-6 22 0m-22 9q10-6 22 0" />
     </g>
-    <text x="193" y="123" text-anchor="middle" fill="currentColor" font-size="10">{{ serial }}</text>
+    <text x="193" y="123" text-anchor="middle" fill="currentColor" font-size="10">
+      {{ serial }}
+    </text>
   </svg>
 </template>

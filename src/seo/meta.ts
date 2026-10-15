@@ -67,8 +67,7 @@ export function anniversaryDescription(
   urlDate: string,
   displayDate: string = urlDate,
 ): string {
-  const body =
-    anv.storytelling.origin?.trim() || anv.storytelling.anecdote?.trim() || ''
+  const body = anv.storytelling.origin?.trim() || anv.storytelling.anecdote?.trim() || ''
   return truncate(body || `${koreanDate(displayDate)}은 ${anv.name}입니다.`)
 }
 
@@ -79,9 +78,7 @@ export function dateHubTitle(urlDate: string): string {
 export function dateHubDescription(urlDate: string, items: Anniversary[]): string {
   if (!items.length) return `${koreanDate(urlDate)}의 기념일을 확인해 보세요.`
   return truncate(
-    `${koreanDate(urlDate)}의 기념일 ${items.length}개 — ${items
-      .map((a) => a.name)
-      .join(', ')}.`,
+    `${koreanDate(urlDate)}의 기념일 ${items.length}개 — ${items.map((a) => a.name).join(', ')}.`,
   )
 }
 
@@ -125,11 +122,7 @@ export function anniversaryJsonLd(
   }
 }
 
-export function dateHubJsonLd(
-  urlDate: string,
-  url: string,
-  description: string,
-): unknown {
+export function dateHubJsonLd(urlDate: string, url: string, description: string): unknown {
   return {
     '@context': 'https://schema.org',
     '@graph': [

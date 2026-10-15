@@ -21,8 +21,10 @@ export function shareMessageFor(
   const [month, day] = fixedDate
     ? fixedDate.split('-').map(Number)
     : [occurrence ? occurrence.getMonth() + 1 : null, occurrence?.getDate() ?? null]
-  const isToday = (birthday?.year ?? occurrence?.getFullYear()) === today.getFullYear()
-    && month === today.getMonth() + 1 && day === today.getDate()
+  const isToday =
+    (birthday?.year ?? occurrence?.getFullYear()) === today.getFullYear() &&
+    month === today.getMonth() + 1 &&
+    day === today.getDate()
   const dateLabel = month && day ? `${month}월${day}일` : '이날'
   return isToday
     ? `오늘은 무슨 날? ${name}.\nAnnical에서 자세한 정보를 알아보세요.`

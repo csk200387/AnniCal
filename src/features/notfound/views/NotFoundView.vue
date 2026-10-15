@@ -15,9 +15,22 @@ onMounted(() => applyNotFoundMeta(route.fullPath))
 </script>
 
 <template>
-  <div class="home-page"><div class="article-shell tool-container">
-    <ResultState large :level="1" asset="✳" title="찾는 페이지가 없어요" description="주소가 바뀌었거나 잘못 입력했을 수 있어요. 오늘의 기념일부터 다시 둘러보는 건 어때요?">
-      <template #actions><UiButton to="/" icon="arrow">오늘의 기념일 보기</UiButton><UiButton to="/calendar" variant="outline" icon="next">달력에서 찾아보기</UiButton></template>
-    </ResultState>
-  </div></div>
+  <div class="home-page">
+    <div class="article-shell tool-container">
+      <ResultState
+        large
+        :level="1"
+        asset="✳"
+        title="찾는 페이지가 없어요"
+        description="주소가 바뀌었거나 잘못 입력했을 수 있어요. 오늘의 기념일부터 다시 둘러보는 건 어때요?"
+      >
+        <template #actions
+          ><UiButton to="/" icon="arrow">오늘의 기념일 보기</UiButton
+          ><UiButton to="/calendar" variant="outline" icon="next"
+            >달력에서 찾아보기</UiButton
+          ></template
+        >
+      </ResultState>
+    </div>
+  </div>
 </template>

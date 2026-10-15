@@ -56,7 +56,8 @@ export const useAnniversariesStore = defineStore('anniversaries', () => {
       index = new Map()
       for (const a of source) {
         const d = resolveOccurrenceSafe(a, year)
-        const key = d && d.getFullYear() === year ? monthDayKey(d.getMonth() + 1, d.getDate()) : null
+        const key =
+          d && d.getFullYear() === year ? monthDayKey(d.getMonth() + 1, d.getDate()) : null
         if (!key) continue
         const bucket = index.get(key)
         if (bucket) bucket.push(a)
@@ -74,7 +75,7 @@ export const useAnniversariesStore = defineStore('anniversaries', () => {
 
   /** 실제 발생일 색인과 달리 생일 탐색은 평년의 02-29도 허용한다. */
   function onBirthdayDate(year: number, month: number, day: number): Anniversary[] {
-    return items.value.filter(a => occursOnBirthday(a, year, month, day))
+    return items.value.filter((a) => occursOnBirthday(a, year, month, day))
   }
 
   /** 검색용으로 미리 소문자화해 둔 문자열. 입력할 때마다 다시 만들지 않는다. */
@@ -89,10 +90,7 @@ export const useAnniversariesStore = defineStore('anniversaries', () => {
   async function ensureCategories() {
     // 카테고리와 그룹은 둘 다 정적 JSON 이라 한 번에 받아 둔다.
     if (!categoriesPromise) {
-      categoriesPromise = Promise.all([
-        categoryRepository.findAll(),
-        groupRepository.findAll(),
-      ])
+      categoriesPromise = Promise.all([categoryRepository.findAll(), groupRepository.findAll()])
     }
     const [c, g] = await categoriesPromise
     categories.value = c

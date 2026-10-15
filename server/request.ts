@@ -36,16 +36,18 @@ export async function readJsonObject(
   }
   if (!body || typeof body !== 'object' || Array.isArray(body)) throw new Error('INVALID_INPUT')
   const object = body as Record<string, unknown>
-  if (Object.keys(object).some((key) => !allowedKeys.includes(key))) throw new Error('INVALID_INPUT')
+  if (Object.keys(object).some((key) => !allowedKeys.includes(key)))
+    throw new Error('INVALID_INPUT')
   return object
 }
 
 function clientNetwork(req: IncomingMessage): string {
   // Vercel이 덮어쓰는 헤더만 신뢰한다. 다른 호스팅에서는 소켓 주소를 쓴다.
   const forwarded = req.headers['x-forwarded-for']
-  const address = process.env.VERCEL === '1' && typeof forwarded === 'string'
-    ? forwarded.trim()
-    : req.socket?.remoteAddress ?? ''
+  const address =
+    process.env.VERCEL === '1' && typeof forwarded === 'string'
+      ? forwarded.trim()
+      : (req.socket?.remoteAddress ?? '')
   if (isIP(address) === 4) return address
   if (isIP(address) !== 6) return 'unknown'
 
@@ -62,9 +64,14 @@ function clientNetwork(req: IncomingMessage): string {
     return [words[6]! >> 8, words[6]! & 255, words[7]! >> 8, words[7]! & 255].join('.')
   }
   // IPv6 임시 주소를 바꿔도 같은 /64에서는 제한을 공유한다.
-  return `${words.slice(0, 4).map((word) => word.toString(16)).join(':')}::/64`
+  return `${words
+    .slice(0, 4)
+    .map((word) => word.toString(16))
+    .join(':')}::/64`
 }
 
 export function requesterFingerprint(req: IncomingMessage, secret: string, scope: string): string {
-  return createHmac('sha256', secret).update(`${scope}:${clientNetwork(req)}`).digest('hex')
+  return createHmac('sha256', secret)
+    .update(`${scope}:${clientNetwork(req)}`)
+    .digest('hex')
 }

@@ -1,7 +1,15 @@
 <script setup lang="ts">
 import PageHero from '@/components/ui/PageHero.vue'
 import '@/assets/discovery.css'
-defineProps<{ kicker: string; titleId: string; description: string; results?: boolean; resultsId?: string; busy?: boolean; hasFeature?: boolean }>()
+defineProps<{
+  kicker: string
+  titleId: string
+  description: string
+  results?: boolean
+  resultsId?: string
+  busy?: boolean
+  hasFeature?: boolean
+}>()
 </script>
 <template>
   <div class="tool-container discovery-tool">
@@ -12,7 +20,12 @@ defineProps<{ kicker: string; titleId: string; description: string; results?: bo
       <template #aside><slot name="form" /></template>
     </PageHero>
     <slot name="notice" />
-    <section v-if="results" class="tool-section discovery-results" :aria-labelledby="resultsId" :aria-busy="busy">
+    <section
+      v-if="results"
+      class="tool-section discovery-results"
+      :aria-labelledby="resultsId"
+      :aria-busy="busy"
+    >
       <slot name="resultsHeader" />
       <slot name="highlight" />
       <slot name="status" />

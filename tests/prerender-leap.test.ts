@@ -4,8 +4,14 @@ import { buildTargets } from '../tools/prerender/routes'
 import { detailBody } from '../tools/prerender/plugin'
 
 const leap: Anniversary = {
-  id: 'test-leap', date: '02-29', dateType: 'annual-fixed', name: '윤일 테스트',
-  category: 'general', tags: [], memes: [], sourceUrl: null,
+  id: 'test-leap',
+  date: '02-29',
+  dateType: 'annual-fixed',
+  name: '윤일 테스트',
+  category: 'general',
+  tags: [],
+  memes: [],
+  sourceUrl: null,
   storytelling: { origin: '', anecdote: '' },
 }
 const routes = { [leap.id]: { urlDate: '02-29', slug: 'test-leap' } }
@@ -19,10 +25,12 @@ describe('윤일 프리렌더', () => {
   })
   it('평년에도 윤일 상세·2월 29일 허브는 남기고 3월 1일로 밀지 않는다', () => {
     const targets = buildTargets([leap], routes, 2026)
-    expect(targets.find(t => t.path === '/day/02-29/test-leap')?.displayDate).toBe('02-29')
+    expect(targets.find((t) => t.path === '/day/02-29/test-leap')?.displayDate).toBe('02-29')
     // 2월 29일 허브는 평년에도 윤일 기념일을 소개한다(3월 1일로 밀지는 않는다).
-    expect(targets.find(t => t.path === '/day/02-29')?.items).toEqual([leap])
-    expect(targets.find(t => t.path === '/day/03-01')?.items).toEqual([])
-    expect(buildTargets([leap], routes, 2028).find(t => t.path === '/day/02-29')?.items).toEqual([leap])
+    expect(targets.find((t) => t.path === '/day/02-29')?.items).toEqual([leap])
+    expect(targets.find((t) => t.path === '/day/03-01')?.items).toEqual([])
+    expect(buildTargets([leap], routes, 2028).find((t) => t.path === '/day/02-29')?.items).toEqual([
+      leap,
+    ])
   })
 })

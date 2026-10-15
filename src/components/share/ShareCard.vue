@@ -22,9 +22,7 @@ const store = useAnniversariesStore()
 const category = computed(() => store.categoryById.get(props.anniversary.category))
 
 // 피드 카드와 같은 규칙 — 뒤에 붙은 원어 괄호는 떼고 보여준다.
-const displayName = computed(() =>
-  anniversaryDisplayName(props.anniversary.name),
-)
+const displayName = computed(() => anniversaryDisplayName(props.anniversary.name))
 
 /** 제목 길이에 맞춘 본문 크기. 540px 안에서 두 줄을 넘기지 않게 한다. */
 const titleSize = computed(() => {
@@ -75,14 +73,10 @@ const holesX = Array.from({ length: 13 }, (_, i) => 18 + i * 14)
   -->
   <div
     class="share-card relative overflow-hidden bg-paper-200 text-ink-700"
-    style="width: 540px; height: 540px;"
+    style="width: 540px; height: 540px"
   >
     <!-- 배경: 사이트 곳곳에 쓰는 링 장식 ─────────── -->
-    <svg
-      class="absolute inset-0 h-full w-full"
-      viewBox="0 0 540 540"
-      aria-hidden="true"
-    >
+    <svg class="absolute inset-0 h-full w-full" viewBox="0 0 540 540" aria-hidden="true">
       <circle cx="470" cy="470" r="150" fill="none" stroke="#8b2c2c" stroke-opacity="0.16" />
       <circle cx="470" cy="470" r="206" fill="none" stroke="#8b2c2c" stroke-opacity="0.09" />
       <circle cx="470" cy="470" r="272" fill="none" stroke="#2f2c28" stroke-opacity="0.05" />
@@ -118,27 +112,46 @@ const holesX = Array.from({ length: 13 }, (_, i) => 18 + i * 14)
             </g>
             <rect x="18" y="20" width="174" height="115" stroke="#6f2222" stroke-opacity="0.35" />
             <text
-              x="105" y="38" text-anchor="middle" fill="#6f2222"
-              font-size="8.5" letter-spacing="2.4"
-            >ANNICAL</text>
+              x="105"
+              y="38"
+              text-anchor="middle"
+              fill="#6f2222"
+              font-size="8.5"
+              letter-spacing="2.4"
+            >
+              ANNICAL
+            </text>
             <CategorySymbol
               :category="anniversary.category"
-              x="76" y="48" width="58" height="58"
+              x="76"
+              y="48"
+              width="58"
+              height="58"
               style="color: #6f2222"
             />
             <path d="M32 116h146" stroke="#6f2222" stroke-opacity="0.25" />
             <text
-              x="105" y="131" text-anchor="middle" fill="#6f2222"
-              font-size="11" letter-spacing="1.6"
-            >{{ dateEn || dateKo }}</text>
+              x="105"
+              y="131"
+              text-anchor="middle"
+              fill="#6f2222"
+              font-size="11"
+              letter-spacing="1.6"
+            >
+              {{ dateEn || dateKo }}
+            </text>
           </g>
         </svg>
       </header>
 
       <!-- 중앙: 카테고리 + 제목 + 날짜 -->
       <div class="mt-auto">
-        <p v-if="together" class="mb-3 text-[16px] font-semibold text-accent-600">우리 {{ milestoneLabel(together.m) }},</p>
-        <p v-else-if="birthday" class="mb-3 text-[16px] font-semibold text-accent-600">내 생일과 같은 날,</p>
+        <p v-if="together" class="mb-3 text-[16px] font-semibold text-accent-600">
+          우리 {{ milestoneLabel(together.m) }},
+        </p>
+        <p v-else-if="birthday" class="mb-3 text-[16px] font-semibold text-accent-600">
+          내 생일과 같은 날,
+        </p>
         <div class="flex items-center gap-3">
           <span class="flex items-center gap-2 text-[11px] tracking-[0.12em] text-ink-500">
             <span class="inline-block h-1.5 w-1.5 rounded-full bg-accent-500" aria-hidden="true" />
@@ -147,12 +160,13 @@ const holesX = Array.from({ length: 13 }, (_, i) => 18 + i * 14)
           <span
             v-if="dDayBadge"
             class="rounded-full bg-accent-600 px-3 py-1 text-[11px] font-semibold tracking-[-0.01em] text-paper-50"
-          >{{ dDayBadge }}</span>
+            >{{ dDayBadge }}</span
+          >
         </div>
 
         <h1
           class="mt-4 font-bold leading-[1.24] tracking-[-0.055em] text-ink-700"
-          style="word-break: keep-all;"
+          style="word-break: keep-all"
           :style="{ fontSize: titleSize }"
         >
           {{ displayName }}
@@ -171,13 +185,19 @@ const holesX = Array.from({ length: 13 }, (_, i) => 18 + i * 14)
 
       <footer
         class="mt-9 flex items-end justify-between border-t pt-4"
-        style="border-color: #e3ddd1;"
+        style="border-color: #e3ddd1"
       >
         <span class="text-[12px] font-medium tracking-[-0.02em] text-ink-500">
           {{ siteLabel }}{{ together ? '/together' : birthday ? '/birthday' : '' }}
         </span>
         <span class="text-[9.5px] tracking-[0.22em] text-ink-400 tabular-nums">
-          {{ together ? `${together.date} · 우리의 날` : birthday ? `네 생일은 무슨 날? · ${birthday.year}년 기준` : `CAPTURED · ${todayStamp}` }}
+          {{
+            together
+              ? `${together.date} · 우리의 날`
+              : birthday
+                ? `네 생일은 무슨 날? · ${birthday.year}년 기준`
+                : `CAPTURED · ${todayStamp}`
+          }}
         </span>
       </footer>
     </div>

@@ -3,11 +3,13 @@ import { pageTransitionFor, primaryNavigation } from '../src/components/layout/n
 
 describe('primary navigation transitions', () => {
   it('slides in menu order for every pair, including 우리의 날', () => {
-    expect(primaryNavigation.map(item => item.name)).toContain('together')
+    expect(primaryNavigation.map((item) => item.name)).toContain('together')
     for (const [fromIndex, from] of primaryNavigation.entries()) {
       for (const [toIndex, to] of primaryNavigation.entries()) {
         if (toIndex === fromIndex) continue
-        expect(pageTransitionFor(to.name, from.name)).toBe(toIndex > fromIndex ? 'route-forward' : 'route-back')
+        expect(pageTransitionFor(to.name, from.name)).toBe(
+          toIndex > fromIndex ? 'route-forward' : 'route-back',
+        )
       }
     }
   })

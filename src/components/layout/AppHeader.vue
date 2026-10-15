@@ -22,7 +22,9 @@ const indicatorStyle = computed(() => ({
   transform: `translate3d(${indicatorX.value}px, ${indicatorY.value}px, 0)`,
 }))
 
-function updateScroll() { scrolled.value = window.scrollY > 32 }
+function updateScroll() {
+  scrolled.value = window.scrollY > 32
+}
 function updateNavIndicator() {
   void nextTick(() => {
     const nav = navRef.value
@@ -72,9 +74,25 @@ onBeforeUnmount(() => {
           :style="indicatorStyle"
           aria-hidden="true"
         />
-        <RouterLink v-for="item in primaryNavigation" :key="item.name" :to="item.to" active-class="is-active"><span>{{ item.lines[0] }}</span> <span>{{ item.lines[1] }}<span v-if="item.name === 'export'" class="header-nav-arrow" aria-hidden="true"> ↗</span></span></RouterLink>
+        <RouterLink
+          v-for="item in primaryNavigation"
+          :key="item.name"
+          :to="item.to"
+          active-class="is-active"
+          ><span>{{ item.lines[0] }}</span
+          >{{ ' '
+          }}<span
+            >{{ item.lines[1]
+            }}<span v-if="item.name === 'export'" class="header-nav-arrow" aria-hidden="true">
+              ↗</span
+            ></span
+          ></RouterLink
+        >
       </nav>
-      <div class="header-today"><span class="live-dot" /><span>{{ todayLabel }}</span><span class="header-today-label">좋은 하루예요!</span></div>
+      <div class="header-today">
+        <span class="live-dot" /><span>{{ todayLabel }}</span
+        ><span class="header-today-label">좋은 하루예요!</span>
+      </div>
     </div>
   </header>
 </template>

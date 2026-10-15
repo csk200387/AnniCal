@@ -4,11 +4,17 @@ import { writeFile, unlink } from 'node:fs/promises'
 import { fileURLToPath } from 'node:url'
 const target = new URL(`../../server/og/.runner-${process.pid}.mjs`, import.meta.url)
 try {
-  const result = await build({ configFile: false, logLevel: 'error', build: {
-    target: 'node22', ssr: fileURLToPath(new URL('./generate.ts', import.meta.url)), write: false,
-    rollupOptions: { output: { format: 'es' } },
-  } })
-  await writeFile(target, result.output.find(item => item.type === 'chunk' && item.isEntry).code)
+  const result = await build({
+    configFile: false,
+    logLevel: 'error',
+    build: {
+      target: 'node22',
+      ssr: fileURLToPath(new URL('./generate.ts', import.meta.url)),
+      write: false,
+      rollupOptions: { output: { format: 'es' } },
+    },
+  })
+  await writeFile(target, result.output.find((item) => item.type === 'chunk' && item.isEntry).code)
   await import(target.href)
 } finally {
   await unlink(target).catch(() => {})

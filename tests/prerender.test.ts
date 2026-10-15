@@ -5,7 +5,12 @@ import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { resolveConfig } from 'vite'
 import { safeJsonLd } from '@/seo/meta'
-import { shiftUrlDate, ORDINAL_DATES, displayDateFor, DISPLAY_YEAR } from '../tools/prerender/routes'
+import {
+  shiftUrlDate,
+  ORDINAL_DATES,
+  displayDateFor,
+  DISPLAY_YEAR,
+} from '../tools/prerender/routes'
 import { registerAnchors } from '@/utils/dateUtils'
 import type { Anniversary } from '@/types/anniversary'
 
@@ -64,8 +69,14 @@ describe('366일 고리', () => {
 describe('표시 날짜는 실제 발생일을 따른다', () => {
   it('N번째 요일 기념일은 DISPLAY_YEAR 의 실제 날짜를 쓴다', () => {
     const mothersDay = {
-      id: 'md', date: '05-2-SUN', dateType: 'annual-nth-weekday',
-      name: 'M', category: 'general', tags: [], memes: [], sourceUrl: null,
+      id: 'md',
+      date: '05-2-SUN',
+      dateType: 'annual-nth-weekday',
+      name: 'M',
+      category: 'general',
+      tags: [],
+      memes: [],
+      sourceUrl: null,
       storytelling: { origin: '', anecdote: '' },
     } as Anniversary
     registerAnchors([mothersDay])
@@ -79,8 +90,14 @@ describe('표시 날짜는 실제 발생일을 따른다', () => {
   it('계산 불가면 URL 날짜로 물러선다', () => {
     registerAnchors([])
     const broken = {
-      id: 'b', date: 'ghost:1', dateType: 'annual-relative-to-holiday',
-      name: 'B', category: 'general', tags: [], memes: [], sourceUrl: null,
+      id: 'b',
+      date: 'ghost:1',
+      dateType: 'annual-relative-to-holiday',
+      name: 'B',
+      category: 'general',
+      tags: [],
+      memes: [],
+      sourceUrl: null,
       storytelling: { origin: '', anecdote: '' },
     } as Anniversary
     expect(displayDateFor(broken, '07-04')).toBe('07-04')
@@ -90,16 +107,15 @@ describe('표시 날짜는 실제 발생일을 따른다', () => {
 // dist 가 있을 때만 — 테스트가 빌드를 강제하지 않도록.
 describe.runIf(existsSync(join(DIST, 'index.html')))('빌드 산출물', () => {
   it('모든 허브 366개가 만들어졌다', () => {
-    const missing = ORDINAL_DATES.filter(
-      (d) => !existsSync(join(DIST, 'day', d, 'index.html')),
-    )
+    const missing = ORDINAL_DATES.filter((d) => !existsSync(join(DIST, 'day', d, 'index.html')))
     expect(missing).toEqual([])
   })
 
   it('상세 페이지에 본문이 박혀 있다 (JS 없이 읽히도록)', () => {
-    const routes = JSON.parse(
-      readFileSync(join(ROOT, 'src/data/routes.json'), 'utf-8'),
-    ) as Record<string, { slug: string; urlDate: string }>
+    const routes = JSON.parse(readFileSync(join(ROOT, 'src/data/routes.json'), 'utf-8')) as Record<
+      string,
+      { slug: string; urlDate: string }
+    >
     const [, r] = Object.entries(routes)[0]
     const html = readFileSync(join(DIST, 'day', r.urlDate, r.slug, 'index.html'), 'utf-8')
     expect(html).toContain('<article>')
@@ -164,16 +180,23 @@ describe.runIf(existsSync(join(DIST, 'index.html')))('빌드 산출물', () => {
       if (p.includes(':')) return false // 동적 — 아래에서 따로 검사
       return !existsSync(join(DIST, p.slice(1), 'index.html'))
     })
-    expect(uncovered, 'vercel.json rewrites 에 추가하거나 프리렌더하세요 (dist 가 낡았을 수도 있다 — npm run build 먼저)').toEqual([])
+    expect(
+      uncovered,
+      'vercel.json rewrites 에 추가하거나 프리렌더하세요 (dist 가 낡았을 수도 있다 — npm run build 먼저)',
+    ).toEqual([])
 
     // 동적 경로: routes.json 전건과 허브 366개가 모두 파일로 있어야 한다.
-    const routes = JSON.parse(
-      readFileSync(join(ROOT, 'src/data/routes.json'), 'utf-8'),
-    ) as Record<string, { slug: string; urlDate: string }>
+    const routes = JSON.parse(readFileSync(join(ROOT, 'src/data/routes.json'), 'utf-8')) as Record<
+      string,
+      { slug: string; urlDate: string }
+    >
     const missingDetail = Object.values(routes).filter(
       (r) => !existsSync(join(DIST, 'day', r.urlDate, r.slug, 'index.html')),
     )
-    expect(missingDetail, 'routes.json 에 있는데 dist 에 없다 — npm run build 를 먼저 실행하세요').toEqual([])
+    expect(
+      missingDetail,
+      'routes.json 에 있는데 dist 에 없다 — npm run build 를 먼저 실행하세요',
+    ).toEqual([])
   })
 
   it('2월 29일 허브의 이웃 링크가 2/28 과 3/1 이다', () => {
@@ -189,9 +212,10 @@ describe.runIf(existsSync(join(DIST, 'index.html')))('페이지별 OG 메타', (
     const { PAGE_META } = await import('../src/seo/pages')
     const { ogImageUrl } = await import('../src/seo/og')
     for (const page of Object.keys(PAGE_META) as Array<keyof typeof PAGE_META>) {
-      const file = page === 'birthday' || page === 'together'
-        ? join(DIST, '_pages', `${page}.html`)
-        : join(DIST, page === 'home' ? '' : page, 'index.html')
+      const file =
+        page === 'birthday' || page === 'together'
+          ? join(DIST, '_pages', `${page}.html`)
+          : join(DIST, page === 'home' ? '' : page, 'index.html')
       const html = readFileSync(file, 'utf-8')
       const image = ogImageUrl(page).replace(/&/g, '&amp;')
       expect(html).toContain(`property="og:image" content="${image}"`)
@@ -201,15 +225,24 @@ describe.runIf(existsSync(join(DIST, 'index.html')))('페이지별 OG 메타', (
       expect(html).toContain('og:image:height" content="630')
       expect(html).toContain('twitter:image:alt')
       expect(html).toMatch(/<script\b[^>]*src="\/assets\/[^\"]+"/)
-      if (page !== 'home') { expect(html).toContain('<h1>'); expect(html).toContain(`rel="canonical" href="https://www.annical.me/${page}"`) }
+      if (page !== 'home') {
+        expect(html).toContain('<h1>')
+        expect(html).toContain(`rel="canonical" href="https://www.annical.me/${page}"`)
+      }
     }
   })
   it('상세·허브는 각자의 동적 이미지 URL을 쓴다', async () => {
     const { ogImageUrl } = await import('../src/seo/og')
-    const routes = JSON.parse(readFileSync(join(ROOT, 'src/data/routes.json'), 'utf-8')) as Record<string, { slug: string; urlDate: string }>
+    const routes = JSON.parse(readFileSync(join(ROOT, 'src/data/routes.json'), 'utf-8')) as Record<
+      string,
+      { slug: string; urlDate: string }
+    >
     for (const r of Object.values(routes)) {
       const html = readFileSync(join(DIST, 'day', r.urlDate, r.slug, 'index.html'), 'utf-8')
-      const image = ogImageUrl({ kind: 'detail', date: r.urlDate, slug: r.slug }).replace(/&/g, '&amp;')
+      const image = ogImageUrl({ kind: 'detail', date: r.urlDate, slug: r.slug }).replace(
+        /&/g,
+        '&amp;',
+      )
       expect(html).toContain(`property="og:image" content="${image}"`)
       expect(html).toContain(`name="twitter:image" content="${image}"`)
     }

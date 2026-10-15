@@ -40,12 +40,8 @@ export function useMonthCalendar() {
   // 음력·절기는 표에 있는 연도만 답할 수 있다. 표 밖으로 나가면 그 항목들이
   // 조용히 빠지므로, 이동을 막고 화면에 이유를 알린다.
   const yearRange = tabulatedYearRange()
-  const canGoPrev = computed(
-    () => cursor.value.subtract(1, 'month').year() >= yearRange.min,
-  )
-  const canGoNext = computed(
-    () => cursor.value.add(1, 'month').year() <= yearRange.max,
-  )
+  const canGoPrev = computed(() => cursor.value.subtract(1, 'month').year() >= yearRange.min)
+  const canGoNext = computed(() => cursor.value.add(1, 'month').year() <= yearRange.max)
   /** 그 달로 커서를 옮겨도 되는지 — 표에 있는 연도 안인지. */
   function isMonthInRange(d: Dayjs): boolean {
     return d.year() >= yearRange.min && d.year() <= yearRange.max

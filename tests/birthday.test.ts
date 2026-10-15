@@ -19,7 +19,9 @@ describe('생일 선택과 공유', () => {
   it('공유 링크에 날짜·기준 연도·선택한 기념일을 보존한다', () => {
     const context = { date: '05-10', year: 2026 }
     const url = new URL(birthdayPath(context, 'test&item'), 'https://www.annical.me')
-    expect(parseBirthday(url.searchParams.get('date'), url.searchParams.get('year'), 2027)).toEqual(context)
+    expect(parseBirthday(url.searchParams.get('date'), url.searchParams.get('year'), 2027)).toEqual(
+      context,
+    )
     expect(url.searchParams.get('pick')).toBe('test&item')
   })
 
@@ -27,12 +29,19 @@ describe('생일 선택과 공유', () => {
     setActivePinia(createPinia())
     const store = useAnniversariesStore()
     await store.ensureAll()
-    const mothersDay = store.items.find(a => a.dateType === 'annual-nth-weekday' && a.date === '05-2-SUN')!
+    const mothersDay = store.items.find(
+      (a) => a.dateType === 'annual-nth-weekday' && a.date === '05-2-SUN',
+    )!
     expect(mothersDay).toBeDefined()
     expect(store.onDate(2026, 5, 10)).toContain(mothersDay)
     expect(store.onDate(2027, 5, 10)).not.toContain(mothersDay)
     expect(store.onDate(2027, 5, 9)).toContain(mothersDay)
-    const leapDay = { ...mothersDay, id: 'test-leap', date: '02-29', dateType: 'annual-fixed' as const }
+    const leapDay = {
+      ...mothersDay,
+      id: 'test-leap',
+      date: '02-29',
+      dateType: 'annual-fixed' as const,
+    }
     store.items = [...store.items, leapDay]
     expect(store.onDate(2026, 2, 29)).not.toContain(leapDay)
     expect(store.onDate(2028, 2, 29)).toContain(leapDay)

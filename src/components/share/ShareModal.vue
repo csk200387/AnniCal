@@ -152,7 +152,8 @@ const isSharing = ref(false)
 async function handleAppShare() {
   if (!shareUrl.value || isSharing.value) return
   if (!canNativeShare) {
-    errorMsg.value = '이 환경에서는 공유 메뉴를 지원하지 않아요. 휴대폰 브라우저에서 https://www.annical.me로 접속해 주세요.'
+    errorMsg.value =
+      '이 환경에서는 공유 메뉴를 지원하지 않아요. 휴대폰 브라우저에서 https://www.annical.me로 접속해 주세요.'
     return
   }
   isSharing.value = true
@@ -161,8 +162,14 @@ async function handleAppShare() {
     // Invoke directly in the tap handler so mobile browsers retain user activation.
     await navigator.share({
       // Some apps prepend title to copied text. Send only text, with the link last.
-      text: [anniversary.value ? shareMessageFor(anniversary.value, birthday.value, undefined, together.value) : '', shareUrl.value]
-        .filter(Boolean).join('\n'),
+      text: [
+        anniversary.value
+          ? shareMessageFor(anniversary.value, birthday.value, undefined, together.value)
+          : '',
+        shareUrl.value,
+      ]
+        .filter(Boolean)
+        .join('\n'),
     })
   } catch (error) {
     if (!(error instanceof Error && error.name === 'AbortError')) {
@@ -215,7 +222,12 @@ watch(
     sharePath.value = null
     const { pathForId } = await loadRoutes()
     // 로딩 중에 닫거나 다른 기념일로 바뀌었으면 늦게 도착한 결과는 버린다.
-    if (shareStore.isOpen && shareStore.anniversary?.id === anv.id && !shareStore.birthday && !shareStore.together) {
+    if (
+      shareStore.isOpen &&
+      shareStore.anniversary?.id === anv.id &&
+      !shareStore.birthday &&
+      !shareStore.together
+    ) {
       sharePath.value = pathForId(anv.id)
     }
   },
@@ -295,8 +307,7 @@ async function generatePng(): Promise<string | null> {
     completeGenerationProgress()
     return dataUrl
   } catch (e) {
-    errorMsg.value =
-      e instanceof Error ? e.message : '이미지 생성에 실패했어요.'
+    errorMsg.value = e instanceof Error ? e.message : '이미지 생성에 실패했어요.'
     resetGenerationProgress()
     return null
   }
@@ -314,24 +325,36 @@ async function handleDownload() {
   a.click()
   a.remove()
 }
-
 </script>
 
 <template>
   <Teleport to="body">
     <Transition name="share-dialog">
       <div v-if="isOpen && anniversary" class="share-backdrop" @click="onBackdropClick">
-        <div ref="dialogRef" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="share-title" class="home-page share-dialog">
+        <div
+          ref="dialogRef"
+          tabindex="-1"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="share-title"
+          class="home-page share-dialog"
+        >
           <span class="share-handle" aria-hidden="true" />
           <!-- 헤더 -->
           <header class="flex items-start justify-between gap-4">
             <div>
               <p class="section-kicker"><span /> SHARE</p>
-              <h2 id="share-title" class="mt-3 text-2xl font-semibold tracking-[-0.05em] text-ink-700">
-                {{ together ? '우리의 발견' : birthday ? '내 생일의 발견' : '공유하기' }}<span class="heading-dot">.</span>
+              <h2
+                id="share-title"
+                class="mt-3 text-2xl font-semibold tracking-[-0.05em] text-ink-700"
+              >
+                {{ together ? '우리의 발견' : birthday ? '내 생일의 발견' : '공유하기'
+                }}<span class="heading-dot">.</span>
               </h2>
             </div>
-            <UiButton variant="ghost" size="s" class="share-close" aria-label="닫기" @click="close">×</UiButton>
+            <UiButton variant="ghost" size="s" class="share-close" aria-label="닫기" @click="close"
+              >×</UiButton
+            >
           </header>
 
           <!-- 미리보기 -->
@@ -365,22 +388,44 @@ async function handleDownload() {
 
           <div class="share-actions">
             <!-- SEED 위계: 핵심 액션 하나만 brand 단색, 보조 액션 둘은 weak 로 나란히. -->
-            <UiButton block variant="brand" :disabled="!shareUrl || isSharing" :loading="isSharing" icon="arrow" @click="handleAppShare">공유하기</UiButton>
+            <UiButton
+              block
+              variant="brand"
+              :disabled="!shareUrl || isSharing"
+              :loading="isSharing"
+              icon="arrow"
+              @click="handleAppShare"
+              >공유하기</UiButton
+            >
             <div class="share-actions-secondary">
-              <UiButton block class="share-download" variant="weak" :disabled="isGenerating" :aria-busy="isGenerating" @pointerenter="warmUpImage" @focus="warmUpImage" @click="handleDownload">
-                <span v-if="isGenerating" class="share-progress" :style="{ width: `${generationProgress}%` }" aria-hidden="true" />
-                <span class="share-download-label">{{ isGenerating ? `만드는 중 · ${Math.round(generationProgress)}%` : '이미지 저장 ↓' }}</span>
+              <UiButton
+                block
+                class="share-download"
+                variant="weak"
+                :disabled="isGenerating"
+                :aria-busy="isGenerating"
+                @pointerenter="warmUpImage"
+                @focus="warmUpImage"
+                @click="handleDownload"
+              >
+                <span
+                  v-if="isGenerating"
+                  class="share-progress"
+                  :style="{ width: `${generationProgress}%` }"
+                  aria-hidden="true"
+                />
+                <span class="share-download-label">{{
+                  isGenerating ? `만드는 중 · ${Math.round(generationProgress)}%` : '이미지 저장 ↓'
+                }}</span>
               </UiButton>
-              <UiButton block variant="weak" :disabled="!shareUrl" @click="copyLink">{{ copied ? '복사했어요' : '링크 복사' }}</UiButton>
+              <UiButton block variant="weak" :disabled="!shareUrl" @click="copyLink">{{
+                copied ? '복사했어요' : '링크 복사'
+              }}</UiButton>
             </div>
             <p class="sr-only" role="status">{{ copied ? '공유 링크를 복사했어요.' : '' }}</p>
           </div>
 
-          <p
-            v-if="errorMsg"
-            role="alert"
-            class="text-center text-xs text-accent-600"
-          >
+          <p v-if="errorMsg" role="alert" class="text-center text-xs text-accent-600">
             {{ errorMsg }}
           </p>
         </div>

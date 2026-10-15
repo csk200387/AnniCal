@@ -26,9 +26,7 @@ export interface AnniversaryRoute {
 const routes = routesJson as Record<string, AnniversaryRoute>
 
 /** (urlDate, slug) → id 역방향 조회. 라우트 파라미터로 기념일을 찾을 때 쓴다. */
-const idByPathKey = new Map(
-  Object.entries(routes).map(([id, r]) => [`${r.urlDate}/${r.slug}`, id]),
-)
+const idByPathKey = new Map(Object.entries(routes).map(([id, r]) => [`${r.urlDate}/${r.slug}`, id]))
 
 /**
  * 달력에 실재하는 366개 "MM-DD" 를 1월 1일부터 순서대로.
