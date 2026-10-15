@@ -1,6 +1,6 @@
 import type { Anniversary } from '@/types/anniversary'
 import { milestoneLabel, type TogetherContext } from '@/features/together/milestones'
-import { displayName } from '@/seo/meta'
+import { displayName, koreanDate } from './format'
 import type { BirthdayContext } from '@/features/birthday/birthday'
 import { todayInSiteZone } from './clock'
 import { resolveOccurrenceSafe } from './dateUtils'
@@ -13,8 +13,7 @@ export function shareMessageFor(
 ): string {
   const name = displayName(anv.name)
   if (together) {
-    const [m, d] = together.date.slice(5).split('-').map(Number)
-    return `우리 ${milestoneLabel(together.m)}은 ${m}월 ${d}일, ${name}이래.\n기념일 도감에서 그날의 이야기를 함께 알아보세요.`
+    return `우리 ${milestoneLabel(together.m)}은 ${koreanDate(together.date.slice(5))}, ${name}이래.\n기념일 도감에서 그날의 이야기를 함께 알아보세요.`
   }
   const occurrence = resolveOccurrenceSafe(anv, birthday?.year ?? today.getFullYear())
   // Preserve fixed dates (including February 29) instead of rolling them into March.

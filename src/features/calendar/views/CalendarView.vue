@@ -6,9 +6,11 @@ import { RouterLink } from 'vue-router'
 import { useMonthCalendar } from '../composables/useMonthCalendar'
 import CategoryBadge from '@/components/common/CategoryBadge.vue'
 import type { Anniversary } from '@/types/anniversary'
+import type { CategoryColor } from '@/types/category'
 import { useShareStore } from '@/stores/share'
+import { useAnniversariesStore } from '@/stores/anniversaries'
 import { daysUntil, formatKoreanMonthDay } from '@/utils/dateUtils'
-import { primaryColorForTags } from '@/utils/tagPalette'
+import { MONTH_EN, WEEKDAY_KO, displayName } from '@/utils/format'
 import { pathFor } from '@/utils/anniversaryRoutes'
 
 import PageHero from '@/components/ui/PageHero.vue'
@@ -32,6 +34,7 @@ function chooseDate(date: Dayjs, event: MouseEvent) {
   if (event.detail > 0) void revealSelection()
 }
 const shareStore = useShareStore()
+const store = useAnniversariesStore()
 const {
   cursor,
   monthLabel,
@@ -40,7 +43,7 @@ const {
   selectedAnniversaries,
   searchQuery,
   searchResults,
-  isLoading,
+  loading,
   error,
   retry,
   canGoPrev,
@@ -76,12 +79,9 @@ onBeforeUnmount(() => document.removeEventListener('pointerdown', onDocPointerDo
 const weekdayLabels = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT']
 const selectedHumanDate = computed(() => {
   const d = selectedDate.value
-  const wd = ['일', '월', '화', '수', '목', '금', '토'][d.day()]
-  return `${d.month() + 1}월 ${d.date()}일 · ${wd}요일`
+  return `${d.month() + 1}월 ${d.date()}일 · ${WEEKDAY_KO[d.day()]}요일`
 })
-const selectedMonthEn = computed(() =>
-  ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'][selectedDate.value.month()],
-)
+const selectedMonthEn = computed(() => MONTH_EN[selectedDate.value.month()])
 const selectedWeekdayEn = computed(() => weekdayLabels[selectedDate.value.day()])
 const monthStoryCount = computed(() =>
   weeks.value
@@ -89,6 +89,15 @@ const monthStoryCount = computed(() =>
     .filter((cell) => cell.isCurrentMonth)
     .reduce((sum, cell) => sum + cell.anniversaries.length, 0),
 )
+
+const colorOf = (anv: Anniversary) => store.categoryById.get(anv.category)?.colorToken
+
+/** 범례 — 색마다 그 색을 쓰는 카테고리를 모은다. categories.json 의 colorToken 에서 만들어지므로 점 색과 어긋날 수 없다. */
+const legend = computed(() => {
+  const byColor = new Map<CategoryColor, string[]>()
+  for (const c of store.categories) byColor.set(c.colorToken, [...(byColor.get(c.colorToken) ?? []), c.label.split(' & ')[0]])
+  return byColor
+})
 
 function handleShare(anv: Anniversary) {
   const d = daysUntil(anv)
@@ -128,7 +137,7 @@ function handleShare(anv: Anniversary) {
             <ul v-if="searchResults.length">
               <li v-for="anv in searchResults" :key="anv.id">
                 <button type="button" @click="goToAnniversary(anv, $event)">
-                  <span>{{ anv.name }}</span><span>{{ resultDate(anv) }}</span>
+                  <span>{{ displayName(anv.name) }}</span><span>{{ resultDate(anv) }}</span>
                 </button>
               </li>
             </ul>
@@ -137,7 +146,7 @@ function handleShare(anv: Anniversary) {
         </div>
       </div>
 
-      <SkeletonRows v-if="isLoading && !error" :rows="3" variant="card" label="기념일을 불러오는 중이에요" />
+      <SkeletonRows v-if="loading" :rows="3" variant="card" label="기념일을 불러오는 중이에요" />
       <template v-else-if="!error">
         <div class="calendar-layout">
           <section ref="calendarRoot" class="month-card" aria-label="월간 달력">
@@ -164,13 +173,13 @@ function handleShare(anv: Anniversary) {
                 <time :datetime="cell.date.format('YYYY-MM-DD')">{{ cell.date.date() }}</time>
                 <template v-if="cell.anniversaries.length">
                   <div class="cell-dots" aria-hidden="true">
-                    <i v-for="anv in cell.anniversaries.slice(0, 4)" :key="anv.id" class="cell-dot" :class="primaryColorForTags(anv.tags).dot" />
+                    <i v-for="anv in cell.anniversaries.slice(0, 4)" :key="anv.id" class="cell-dot category-dot" :data-color="colorOf(anv)" />
                     <span v-if="cell.anniversaries.length > 4" class="cell-more">+{{ cell.anniversaries.length - 4 }}</span>
                   </div>
                   <div class="cell-events">
                     <span v-for="anv in cell.anniversaries.slice(0, 2)" :key="anv.id">
-                      <i class="cell-dot" :class="primaryColorForTags(anv.tags).dot" />
-                      <span>{{ anv.name }}</span>
+                      <i class="cell-dot category-dot" :data-color="colorOf(anv)" />
+                      <span>{{ displayName(anv.name) }}</span>
                     </span>
                     <span v-if="cell.anniversaries.length > 2" class="cell-more">+{{ cell.anniversaries.length - 2 }} more</span>
                   </div>
@@ -197,8 +206,8 @@ function handleShare(anv: Anniversary) {
               <ol v-if="selectedAnniversaries.length" class="day-panel-list" aria-label="선택한 날짜의 기념일 목록" tabindex="0">
                 <li v-for="anv in selectedAnniversaries" :key="anv.id">
                   <CategoryBadge :category-id="anv.category" />
-                  <RouterLink v-if="pathFor(anv)" :to="pathFor(anv)!">{{ anv.name }}</RouterLink>
-                  <h3 v-else>{{ anv.name }}</h3>
+                  <RouterLink v-if="pathFor(anv)" :to="pathFor(anv)!">{{ displayName(anv.name) }}</RouterLink>
+                  <h3 v-else>{{ displayName(anv.name) }}</h3>
                   <p>{{ anv.storytelling.origin }}</p>
                   <UiButton variant="ghost" size="s" icon="arrow" @click="handleShare(anv)">공유하기</UiButton>
                 </li>
@@ -209,11 +218,7 @@ function handleShare(anv: Anniversary) {
         </div>
 
         <ChipGroup class="calendar-legend" label="달력 색상 범례">
-          <UiChip static><i class="bg-amber-700" aria-hidden="true" />음식 &amp; 디저트</UiChip>
-          <UiChip static><i class="bg-fuchsia-700" aria-hidden="true" />문화 &amp; 예술</UiChip>
-          <UiChip static><i class="bg-sky-700" aria-hidden="true" />국제 캠페인</UiChip>
-          <UiChip static><i class="bg-emerald-700" aria-hidden="true" />동물 &amp; 자연</UiChip>
-          <UiChip static><i class="bg-rose-700" aria-hidden="true" />역사 &amp; 공휴일</UiChip>
+          <UiChip v-for="[color, labels] in legend" :key="color" static><i class="category-dot" :data-color="color" aria-hidden="true" />{{ labels.join(' · ') }}</UiChip>
         </ChipGroup>
       </template>
     </div>

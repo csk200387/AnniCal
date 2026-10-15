@@ -6,9 +6,7 @@ import type { CategoryId } from '@/types/category'
 const props = defineProps<{ categoryId: CategoryId }>()
 
 const store = useAnniversariesStore()
-const category = computed(() =>
-  store.categories.find((c) => c.id === props.categoryId),
-)
+const category = computed(() => store.categoryById.get(props.categoryId))
 </script>
 
 <template>

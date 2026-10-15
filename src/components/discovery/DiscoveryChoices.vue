@@ -4,7 +4,7 @@ import ListGroup from '@/components/ui/ListGroup.vue'
 import ListRow from '@/components/ui/ListRow.vue'
 import ChipGroup from '@/components/ui/ChipGroup.vue'
 import UiChip from '@/components/ui/UiChip.vue'
-import { displayName } from '@/seo/meta'
+import { displayName } from '@/utils/format'
 defineProps<{ items: Anniversary[]; modelValue: string; label: string; year?: number; featureId: string }>()
 const emit = defineEmits<{ 'update:modelValue': [value: string] }>()
 </script>

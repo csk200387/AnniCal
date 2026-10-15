@@ -10,11 +10,7 @@ import {
   groupRepository,
 } from '@/services/anniversaryRepository'
 import { occursOnBirthday, registerAnchors, resolveOccurrenceSafe } from '@/utils/dateUtils'
-
-/** "MM-DD" 키. 연도별 발생일 색인의 키로 쓴다. */
-function monthDayKey(d: Date): string {
-  return `${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
-}
+import { monthDayKey } from '@/utils/format'
 
 export const useAnniversariesStore = defineStore('anniversaries', () => {
   // 기념일 데이터는 로드 후 변경되지 않는다. 깊은 ref 로 감싸면 1,400개 객체와
@@ -23,16 +19,24 @@ export const useAnniversariesStore = defineStore('anniversaries', () => {
   const items = shallowRef<Anniversary[]>([])
   const categories = shallowRef<Category[]>([])
   const groups = shallowRef<Group[]>([])
-  const isLoading = shallowRef(false)
   const error = shallowRef<string | null>(null)
 
   /** 지금까지 받아 온 달. 화면마다 필요한 만큼만 채워 나간다. */
   const loadedMonths = shallowRef<ReadonlySet<number>>(new Set())
   const isComplete = computed(() => loadedMonths.value.size === ALL_MONTHS.length)
-  /** 한 달치라도 들어왔는지 — 화면이 "로딩 중"과 "빈 결과"를 구분할 때 쓴다. */
-  const hasData = computed(() => loadedMonths.value.size > 0)
+
+  /**
+   * 이 달들이 모두 들어왔는가. 화면의 "로딩 중" 판정은 이것으로 한다.
+   *
+   * 예전에는 어느 달이든 받는 동안 켜지는 전역 플래그를 썼다. 그러면 필요한 달을
+   * 이미 가진 화면도 뒤에서 나머지 달을 받는 동안 스켈레톤으로 돌아갔다.
+   */
+  function hasMonths(months: readonly number[]): boolean {
+    return months.every((m) => loadedMonths.value.has(m))
+  }
 
   const byId = computed(() => new Map(items.value.map((a) => [a.id, a])))
+  const categoryById = computed(() => new Map(categories.value.map((c) => [c.id, c])))
 
   /**
    * 연도별 발생일 색인 — { "MM-DD" → 그날 일어나는 기념일들 }.
@@ -52,7 +56,7 @@ export const useAnniversariesStore = defineStore('anniversaries', () => {
       index = new Map()
       for (const a of source) {
         const d = resolveOccurrenceSafe(a, year)
-        const key = d && d.getFullYear() === year ? monthDayKey(d) : null
+        const key = d && d.getFullYear() === year ? monthDayKey(d.getMonth() + 1, d.getDate()) : null
         if (!key) continue
         const bucket = index.get(key)
         if (bucket) bucket.push(a)
@@ -65,8 +69,7 @@ export const useAnniversariesStore = defineStore('anniversaries', () => {
 
   /** (year, month, day) 에 일어나는 기념일들. 색인 조회라 상수 시간이다. */
   function onDate(year: number, month: number, day: number): Anniversary[] {
-    const key = `${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`
-    return occurrenceIndex.value(year).get(key) ?? []
+    return occurrenceIndex.value(year).get(monthDayKey(month, day)) ?? []
   }
 
   /** 실제 발생일 색인과 달리 생일 탐색은 평년의 02-29도 허용한다. */
@@ -110,7 +113,6 @@ export const useAnniversariesStore = defineStore('anniversaries', () => {
       return
     }
 
-    isLoading.value = true
     error.value = null
     try {
       const [fetched] = await Promise.all([
@@ -128,19 +130,12 @@ export const useAnniversariesStore = defineStore('anniversaries', () => {
       triggerRef(items)
     } catch (e) {
       error.value = e instanceof Error ? e.message : 'Unknown error'
-    } finally {
-      isLoading.value = false
     }
   }
 
   /** 전체 12개월. 달력·내보내기처럼 정말 전부가 필요한 화면만 부른다. */
   function ensureAll(): Promise<void> {
     return ensureMonths(ALL_MONTHS)
-  }
-
-  /** 기존 호출부 호환 — 전체 로드. */
-  function load(): Promise<void> {
-    return ensureAll()
   }
 
   /** 로드 실패 후 재시도. 실패한 달은 캐시에 남지 않으므로 다시 시도된다. */
@@ -153,18 +148,17 @@ export const useAnniversariesStore = defineStore('anniversaries', () => {
     items,
     categories,
     groups,
-    isLoading,
     error,
     loadedMonths,
     isComplete,
-    hasData,
+    hasMonths,
     byId,
+    categoryById,
     onDate,
     onBirthdayDate,
     searchIndex,
     ensureMonths,
     ensureAll,
-    load,
     retry,
   }
 })

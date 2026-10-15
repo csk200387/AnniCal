@@ -1,6 +1,7 @@
 // 봇 전용 결과 HTML. 임의 텍스트를 반영하지 않고 검증된 카드 문구만 사용한다.
 import { allAnniversaries } from '../src/data/anniversaries/all.js'
-import { SITE_NAME, SITE_URL, koreanDate, truncate } from '../src/seo/meta.js'
+import { SITE_NAME, SITE_URL, truncate } from '../src/seo/meta.js'
+import { koreanDate } from '../src/utils/format.js'
 import { ogDisplayName } from './og/text.js'
 import { ogImageUrl } from '../src/seo/og.js'
 import { PAGE_META } from '../src/seo/pages.js'

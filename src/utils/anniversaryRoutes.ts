@@ -15,6 +15,7 @@
 // 이 파일이 제공하는 것은 "주소 ↔ id" 변환뿐이다. 날짜 질문은 dateUtils 에게.
 import routesJson from '@/data/routes.json'
 import type { Anniversary } from '@/types/anniversary'
+import { koreanDate, monthDayKey } from '@/utils/format'
 
 export interface AnniversaryRoute {
   slug: string
@@ -42,7 +43,7 @@ const ORDINAL_DATES: string[] = (() => {
   for (let m = 1; m <= 12; m += 1) {
     const daysInMonth = new Date(2024, m, 0).getDate() // 2024 = 윤년
     for (let d = 1; d <= daysInMonth; d += 1) {
-      out.push(`${String(m).padStart(2, '0')}-${String(d).padStart(2, '0')}`)
+      out.push(monthDayKey(m, d))
     }
   }
   return out
@@ -101,7 +102,5 @@ export function shiftUrlDate(urlDate: string, days: number): string | null {
 
 /** "03-22" → "3월 22일". 유효하지 않으면 null. */
 export function koreanUrlDate(urlDate: string): string | null {
-  if (!isValidUrlDate(urlDate)) return null
-  const [mm, dd] = urlDate.split('-').map(Number)
-  return `${mm}월 ${dd}일`
+  return isValidUrlDate(urlDate) ? koreanDate(urlDate) : null
 }

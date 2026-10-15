@@ -66,15 +66,6 @@ export const anniversaryRepository = {
     const chunks = await Promise.all(unique.map(loadMonth))
     return chunks.flat()
   },
-
-  async findAll(): Promise<Anniversary[]> {
-    return this.findByMonths(ALL_MONTHS)
-  },
-
-  async findById(id: string): Promise<Anniversary | null> {
-    const all = await this.findAll()
-    return all.find((a) => a.id === id) ?? null
-  },
 }
 
 export const categoryRepository = {

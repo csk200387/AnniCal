@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, onMounted, watch } from 'vue'
+import { computed, watch } from 'vue'
 import { storeToRefs } from 'pinia'
 import { useRoute, useRouter } from 'vue-router'
 import { useAnniversariesStore } from '@/stores/anniversaries'
@@ -7,6 +7,9 @@ import { useStatsStore } from '@/stores/stats'
 import { formatKoreanMonthDay } from '@/utils/dateUtils'
 import { pathForId } from '@/utils/anniversaryRoutes'
 import { useNow } from '@/composables/useNow'
+import { useMonths } from '@/composables/useMonths'
+import { ALL_MONTHS } from '@/services/anniversaryRepository'
+import { countFormat, displayName } from '@/utils/format'
 import { useMonthlyRanking } from '../composables/useMonthlyRanking'
 import { monthKey, monthLabel, shiftMonth } from '../months'
 import PageHero from '@/components/ui/PageHero.vue'
@@ -25,7 +28,7 @@ import '@/assets/popular.css'
 const anniversaries = useAnniversariesStore()
 const stats = useStatsStore()
 const { snapshot, isLoading: statsLoading, isUnavailable } = storeToRefs(stats)
-const number = new Intl.NumberFormat('ko-KR')
+const { loading: dataLoading, error: dataError, retry: retryData } = useMonths(ALL_MONTHS)
 const route = useRoute()
 const router = useRouter()
 const { today } = useNow()
@@ -38,22 +41,18 @@ const { data: monthly, loading: monthLoading, failed: monthFailed, refresh: refr
 const periodLabel = computed(() => isAllTime.value ? '누적' : selectedMonth.value ? monthLabel(selectedMonth.value) : '월별')
 const noHistory = computed(() => !!monthly.value && (!monthly.value.trackingStartedOn || monthly.value.month < monthly.value.trackingStartedOn.slice(0, 7)))
 const partialMonth = computed(() => !!monthly.value?.trackingStartedOn && monthly.value.trackingStartedOn.startsWith(selectedMonth.value) && !monthly.value.trackingStartedOn.endsWith('-01'))
-const unavailable = computed(() => anniversaries.error || (isAllTime.value ? isUnavailable.value : monthFailed.value))
+const unavailable = computed(() => dataError.value || (isAllTime.value ? isUnavailable.value : monthFailed.value))
 function selectPeriod(month: string) {
   if (month) void router.push({ path: '/popular', query: { month } })
 }
 function retry() {
-  void anniversaries.ensureAll()
+  void retryData()
   if (isAllTime.value) void stats.refresh()
   else void refreshMonth()
 }
 
-onMounted(async () => {
-  await anniversaries.ensureAll()
-})
 watch(isAllTime, (value) => { if (value) void stats.refresh() }, { immediate: true })
 
-const categoryById = computed(() => new Map(anniversaries.categories.map((category) => [category.id, category])))
 const entries = computed(() =>
   (isAllTime.value ? snapshot.value?.ranking ?? [] : monthly.value?.ranking ?? []).flatMap((ranked, index) => {
     const anniversary = anniversaries.byId.get(ranked.id)
@@ -65,12 +64,12 @@ const entries = computed(() =>
       anniversary,
       path,
       date: formatKoreanMonthDay(anniversary, selectedMonth.value ? Number(selectedMonth.value.slice(0, 4)) : undefined) ?? '날짜 미정',
-      category: categoryById.value.get(anniversary.category),
+      category: anniversaries.categoryById.get(anniversary.category),
     }]
   }),
 )
 const totalRankedViews = computed(() => entries.value.reduce((sum, entry) => sum + entry.views, 0))
-const isPending = computed(() => ((isAllTime.value ? statsLoading.value : monthLoading.value) || anniversaries.isLoading) && !unavailable.value)
+const isPending = computed(() => ((isAllTime.value ? statsLoading.value : monthLoading.value) || dataLoading.value) && !unavailable.value)
 </script>
 
 <template>
@@ -79,7 +78,7 @@ const isPending = computed(() => ((isAllTime.value ? statsLoading.value : monthL
       <PageHero :kicker="`READERS’ FAVORITES · ${isAllTime ? 'ALL TIME' : 'MONTHLY'}`" title-id="popular-title" description="매달 어떤 이야기가 사랑받았을까요? 그달에 읽힌 횟수로 관심도 순위를 모았어요. 지난달의 발견도 다시 만나보세요.">
         <template #title>가장 많이 발견된<br /><span class="popular-title-accent">기념일 이야기</span><span class="heading-dot">.</span></template>
         <template #footer>
-          <dl class="popular-summary"><div><dt>{{ periodLabel }} 순위에 오른 이야기</dt><dd>{{ isPending || unavailable || !validPeriod ? '—' : number.format(entries.length) }}<small>개</small></dd></div><div><dt>상위 이야기 읽음 합계</dt><dd>{{ isPending || unavailable || !validPeriod ? '—' : number.format(totalRankedViews) }}<small>회</small></dd></div></dl>
+          <dl class="popular-summary"><div><dt>{{ periodLabel }} 순위에 오른 이야기</dt><dd>{{ isPending || unavailable || !validPeriod ? '—' : countFormat.format(entries.length) }}<small>개</small></dd></div><div><dt>상위 이야기 읽음 합계</dt><dd>{{ isPending || unavailable || !validPeriod ? '—' : countFormat.format(totalRankedViews) }}<small>회</small></dd></div></dl>
         </template>
       </PageHero>
       <section class="tool-section ranking-board" aria-labelledby="ranking-board-title" :aria-busy="isPending">
@@ -106,12 +105,12 @@ const isPending = computed(() => ((isAllTime.value ? statsLoading.value : monthL
             <li v-for="entry in entries.slice(0, 3)" :key="entry.anniversary.id">
               <RouterLink :to="entry.path" class="popular-podium-card">
                 <span class="popular-podium-art"><span class="popular-podium-rank"><span class="sr-only">순위 </span>{{ String(entry.rank).padStart(2, '0') }}<span class="sr-only">위</span></span><CategorySymbol :category="entry.anniversary.category" width="64" height="64" aria-hidden="true" /></span>
-                <span class="popular-podium-body"><span class="popular-podium-category">{{ entry.category?.label ?? '기념일' }} · {{ entry.date }}</span><strong>{{ entry.anniversary.name }}</strong><span class="popular-podium-footer"><span>{{ number.format(entry.views) }}<small>{{ isAllTime ? '누적 읽음' : '해당 월 읽음' }}</small></span><span aria-hidden="true">↗</span></span></span>
+                <span class="popular-podium-body"><span class="popular-podium-category">{{ entry.category?.label ?? '기념일' }} · {{ entry.date }}</span><strong>{{ displayName(entry.anniversary.name) }}</strong><span class="popular-podium-footer"><span>{{ countFormat.format(entry.views) }}<small>{{ isAllTime ? '누적 읽음' : '해당 월 읽음' }}</small></span><span aria-hidden="true">↗</span></span></span>
               </RouterLink>
             </li>
           </ol>
           <ListGroup v-if="entries.length > 3" as="ol" class="popular-rest" :start="entries[3].rank" label="4위부터의 관심도 순위">
-            <li v-for="entry in entries.slice(3)" :key="entry.anniversary.id"><ListRow :to="entry.path"><template #prefix><span class="popular-rest-rank"><span class="sr-only">순위 </span>{{ String(entry.rank).padStart(2, '0') }}<span class="sr-only">위</span></span></template><template #title>{{ entry.anniversary.name }}</template><template #detail>{{ entry.category?.label ?? '기념일' }} · {{ entry.date }}</template><template #suffix><span class="popular-views"><strong>{{ number.format(entry.views) }}</strong><small>{{ isAllTime ? '누적 읽음' : '해당 월 읽음' }}</small></span></template></ListRow></li>
+            <li v-for="entry in entries.slice(3)" :key="entry.anniversary.id"><ListRow :to="entry.path"><template #prefix><span class="popular-rest-rank"><span class="sr-only">순위 </span>{{ String(entry.rank).padStart(2, '0') }}<span class="sr-only">위</span></span></template><template #title>{{ displayName(entry.anniversary.name) }}</template><template #detail>{{ entry.category?.label ?? '기념일' }} · {{ entry.date }}</template><template #suffix><span class="popular-views"><strong>{{ countFormat.format(entry.views) }}</strong><small>{{ isAllTime ? '누적 읽음' : '해당 월 읽음' }}</small></span></template></ListRow></li>
           </ListGroup>
         </template>
       </section>

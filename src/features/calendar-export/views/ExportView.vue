@@ -16,7 +16,7 @@ import SkeletonRows from '@/components/ui/SkeletonRows.vue'
 
 const PREVIEW_INITIAL_COUNT = 12
 const {
-  isLoading,
+  loading,
   error,
   categoryOptions,
   groupOptions,
@@ -33,6 +33,7 @@ const {
   feedWebcalUrl,
   googleAddUrl,
   copied,
+  copyFailed,
   copyFeedUrl,
 } = useCalendarExport()
 
@@ -66,7 +67,7 @@ watch(previewItems, () => {
         <template #title>좋아하는 날들을,<br /><span class="heading-dot">한 권의 달력처럼.</span></template>
         <template #footer><dl class="export-hero-summary"><div><dt>SELECTED</dt><dd>{{ selectedCount }}<small>건</small></dd></div><div><dt>FORMAT</dt><dd>.ics</dd></div></dl></template>
       </PageHero>
-      <SkeletonRows v-if="isLoading" :rows="3" variant="card" label="기념일을 불러오는 중이에요" />
+      <SkeletonRows v-if="loading" :rows="3" variant="card" label="기념일을 불러오는 중이에요" />
       <ResultState v-else-if="error" tone="error" title="기념일을 불러오지 못했어요" :description="error" />
       <div v-else class="export-content">
         <section class="tool-section" aria-labelledby="curate-title">
@@ -93,8 +94,8 @@ watch(previewItems, () => {
             <article class="export-card">
               <p class="section-kicker"><span /> SUBSCRIPTION LINK</p><h3>새로운 날까지<br />계속 받아보기</h3><p>링크를 구독하면 새로운 기념일이 추가될 때 캘린더도 자동으로 업데이트돼요.</p>
               <div class="export-card-foot">
-                <FieldShell for="export-feed-url" label="구독 URL"><div class="export-copy"><input id="export-feed-url" :value="feedWebcalUrl ?? ''" readonly :placeholder="hasSelection ? '' : '카테고리를 선택하세요'" :disabled="!hasSelection" @focus="(e) => (e.target as HTMLInputElement).select()" /><UiButton size="s" :disabled="!hasSelection" @click="copyFeedUrl">{{ copied ? '복사됨' : '복사' }}</UiButton></div></FieldShell>
-                <p class="sr-only" role="status">{{ copied ? '구독 URL을 복사했어요.' : '' }}</p>
+                <FieldShell for="export-feed-url" label="구독 URL"><div class="export-copy"><input id="export-feed-url" :value="feedWebcalUrl ?? ''" readonly :placeholder="hasSelection ? '' : '카테고리를 선택하세요'" :disabled="!hasSelection" @focus="(e) => (e.target as HTMLInputElement).select()" /><UiButton size="s" :disabled="!hasSelection" @click="copyFeedUrl">{{ copied ? '복사됨' : copyFailed ? '복사 실패' : '복사' }}</UiButton></div></FieldShell>
+                <p class="sr-only" role="status">{{ copied ? '구독 URL을 복사했어요.' : copyFailed ? '복사하지 못했어요. 주소를 길게 눌러 직접 복사해 주세요.' : '' }}</p>
                 <div v-if="hasSelection" class="export-links"><UiButton variant="ghost" size="s" :href="googleAddUrl!" target="_blank" rel="noopener noreferrer" icon="next">Google Calendar</UiButton><UiButton variant="ghost" size="s" :href="feedWebcalUrl!" icon="next">Apple · Other</UiButton></div>
                 <p v-else class="export-note">카테고리를 하나 이상 선택하면 구독 링크가 만들어져요.</p><p class="export-note">※ 구독 피드는 배포된 사이트에서 동작해요.</p>
               </div>

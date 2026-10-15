@@ -173,6 +173,8 @@
   .ui-page-hero .hero-copy { padding: var(--space-6) 0 0; }
   .ui-page-hero .hero-copy h1 { font-size: clamp(32px, 8.4vw, 44px); line-height: 1.22; }
   .ui-page-hero .hero-topline > :last-child { display: block; }
+  /* 상세 페이지의 카테고리 점·구분선 줄은 flex 여야 보인다 — 바로 위 규칙이 block 으로 덮던 것을 되돌린다. */
+  .ui-page-hero .hero-topline > .article-meta { display: flex; }
   .ui-page-hero .hero-copy:only-child { padding-bottom: var(--space-6); }
   .ui-page-hero .hero-description { margin-top: var(--space-5); font-size: var(--text-t4); }
   .ui-list-row { padding-inline: var(--space-2); }
@@ -193,3 +195,12 @@
 .ui-chip--static:active { transform: none; }
 .ui-result--large { margin-top: var(--section-gap); padding: var(--space-16) var(--gutter); }
 .ui-result--large h1 { font-size: clamp(28px, 4vw, 40px); }
+
+/* 카테고리 색. 어느 카테고리가 어느 색인지는 categories.json 의 colorToken 한 곳에서 정한다.
+   달력 점·범례·상세 점·인기 순위 점·우표 그림이 모두 이 값을 읽는다. */
+[data-color='accent'] { --category-color: var(--color-accent-600); }
+[data-color='green'] { --category-color: var(--color-editorial-green); }
+[data-color='purple'] { --category-color: var(--color-editorial-purple); }
+[data-color='blue'] { --category-color: var(--color-editorial-blue); }
+[data-color='gold'] { --category-color: var(--color-editorial-gold); }
+.category-dot { background: var(--category-color, var(--color-accent-600)); }

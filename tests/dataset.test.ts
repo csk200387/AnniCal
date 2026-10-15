@@ -155,3 +155,14 @@ describe('데이터 값 위생', () => {
     expect(bad).toEqual([])
   })
 })
+
+describe('카테고리 색', () => {
+  // 색 배정은 categories.json 의 colorToken 한 곳, 실제 색값은 ui.css 의 [data-color] 규칙이다.
+  // 오타가 나면 그 카테고리 점만 기본색으로 떨어지는데, 화면으로는 알아채기 어렵다.
+  it('모든 colorToken 에 대응하는 ui.css 규칙이 있다', () => {
+    const categories = JSON.parse(readFileSync(join(ROOT, 'src/data/categories.json'), 'utf-8')) as { id: string; colorToken: string }[]
+    const css = readFileSync(join(ROOT, 'src/assets/ui.css'), 'utf-8')
+    const missing = categories.filter((c) => !css.includes(`[data-color='${c.colorToken}']`)).map((c) => `${c.id}:${c.colorToken}`)
+    expect(missing).toEqual([])
+  })
+})

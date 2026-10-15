@@ -11,6 +11,7 @@ import type { CategoryId } from '@/types/category'
 import { useShareStore } from '@/stores/share'
 import { useAnniversariesStore } from '@/stores/anniversaries'
 import { pathFor } from '@/utils/anniversaryRoutes'
+import { WEEKDAY_KO, displayName } from '@/utils/format'
 import AudienceStats from '@/features/stats/components/AudienceStats.vue'
 import PopularityRanking from '@/features/stats/components/PopularityRanking.vue'
 import PageHero from '@/components/ui/PageHero.vue'
@@ -19,16 +20,16 @@ import UiButton from '@/components/ui/UiButton.vue'
 import PromoCard from '@/components/ui/PromoCard.vue'
 import '@/assets/feed.css'
 
-const { todays, upcoming, today, isLoading, error } = useTodayFeed(30)
+const { todays, upcoming, today, loading, error, retry } = useTodayFeed(30)
 const { vReveal, reducedMotion } = useFeedMotion()
 const shareStore = useShareStore()
 const store = useAnniversariesStore()
 const todayValue = computed(() => dayjs(today.value))
 const dateLabel = computed(() => todayValue.value.format('YYYY.MM.DD'))
-const weekday = computed(() => ['일', '월', '화', '수', '목', '금', '토'][todayValue.value.day()])
+const weekday = computed(() => WEEKDAY_KO[todayValue.value.day()])
 const featuredStory = computed(() => todays.value[0] ?? null)
 const featuredPath = computed(() => featuredStory.value ? pathFor(featuredStory.value) : null)
-const featuredTitle = computed(() => featuredStory.value?.name.replace(/\s+\([A-Za-z][^)]*\)$/, '') ?? '')
+const featuredTitle = computed(() => (featuredStory.value ? displayName(featuredStory.value.name) : ''))
 const motionPaused = ref(false)
 const storiesRef = ref<HTMLElement | null>(null)
 const heroRef = ref<InstanceType<typeof PageHero> | null>(null)
@@ -66,7 +67,7 @@ function resetArtwork() {
 watch(motionPaused, resetArtwork)
 function handleShare(anniversary: Anniversary, dDay?: number) { shareStore.open(anniversary, dDay) }
 function upcomingDate(dDay: number) { return todayValue.value.add(dDay, 'day') }
-function categoryLabel(id: CategoryId) { return store.categories.find((category) => category.id === id)?.label ?? '기념일' }
+function categoryLabel(id: CategoryId) { return store.categoryById.get(id)?.label ?? '기념일' }
 </script>
 
 <template>
@@ -98,7 +99,7 @@ function categoryLabel(id: CategoryId) { return store.categories.find((category)
             <button v-else-if="featuredStory && !error" type="button" @click="scrollToStories">
               <strong>{{ featuredTitle }}</strong><span aria-hidden="true">↓</span>
             </button>
-            <p v-else role="status">{{ error ? '오늘의 이야기를 다시 불러와 주세요.' : isLoading ? '오늘의 이야기를 고르고 있어요…' : '오늘은 나만의 기념일을 만들어보세요.' }}</p>
+            <p v-else role="status">{{ error ? '오늘의 이야기를 다시 불러와 주세요.' : loading ? '오늘의 이야기를 고르고 있어요…' : '오늘은 나만의 기념일을 만들어보세요.' }}</p>
           </div>
           <div class="hero-actions">
             <UiButton canonical icon="arrow" @click="scrollToStories">오늘의 기념일 보기</UiButton>
@@ -116,18 +117,18 @@ function categoryLabel(id: CategoryId) { return store.categories.find((category)
 
     <div class="discovery-strip" aria-label="기념일 안내">
       <span><span class="strip-flower" aria-hidden="true">✳</span> 모든 날에는 이야기가 있어요</span>
-      <span>오늘의 기념일 <strong>{{ isLoading && !todays.length ? '—' : todays.length }}<small>개</small></strong></span>
-      <span>앞으로 30일 <strong>{{ isLoading && !upcoming.length ? '—' : upcoming.length }}<small>개의 발견</small></strong></span>
+      <span>오늘의 기념일 <strong>{{ loading ? '—' : todays.length }}<small>개</small></strong></span>
+      <span>앞으로 30일 <strong>{{ loading ? '—' : upcoming.length }}<small>개의 발견</small></strong></span>
     </div>
 
     <div class="home-container">
       <section ref="storiesRef" class="home-section today-section" tabindex="-1" aria-labelledby="today-title">
         <SectionHeader v-reveal kicker="TODAY’S DISCOVERIES" :description="`${todayValue.month() + 1}월 ${todayValue.date()}일, 알고 나면 조금 다르게 보일 오늘.`">
           <template #title><h2 id="today-title">오늘은 이런 날이에요<span class="heading-dot">.</span></h2></template>
-          <template #action><span class="date-pill">{{ String(todayValue.month() + 1).padStart(2, '0') }}.{{ String(todayValue.date()).padStart(2, '0') }} <span>{{ weekday }}요일</span></span></template>
+          <template #action><span class="date-pill">{{ todayValue.format('MM.DD') }} <span>{{ weekday }}요일</span></span></template>
         </SectionHeader>
-        <div v-if="isLoading && !todays.length" class="story-grid" role="status" aria-label="오늘의 기념일 불러오는 중"><div v-for="n in 3" :key="n" class="story-skeleton"><span /><span /><span /></div></div>
-        <div v-else-if="error" class="home-empty" role="alert"><h3>이야기를 불러오지 못했어요.</h3><p>잠시 후 다시 시도해 주세요.</p><button type="button" class="home-button home-button--dark" @click="store.retry()">다시 불러오기 ↗</button></div>
+        <div v-if="loading" class="story-grid" role="status" aria-label="오늘의 기념일 불러오는 중"><div v-for="n in 3" :key="n" class="story-skeleton"><span /><span /><span /></div></div>
+        <div v-else-if="error" class="home-empty" role="alert"><h3>이야기를 불러오지 못했어요.</h3><p>잠시 후 다시 시도해 주세요.</p><button type="button" class="home-button home-button--dark" @click="retry">다시 불러오기 ↗</button></div>
         <div v-else-if="todays.length" class="story-grid" :class="{ 'story-grid--two': todays.length === 2, 'story-grid--one': todays.length === 1 }">
           <TodayStoryCard v-for="(anniversary, index) in todays" :key="anniversary.id" v-reveal :anniversary="anniversary" :index="index" :date-label="todayValue.format('MM.DD')" :style="{ '--reveal-delay': `${Math.min(index, 2) * 75}ms` }" @share="handleShare" />
         </div>
@@ -146,7 +147,7 @@ function categoryLabel(id: CategoryId) { return store.categories.find((category)
             <ol class="upcoming-list">
               <li v-for="{ anniversary, dDay } in visibleUpcoming" :key="anniversary.id" class="upcoming-item">
                 <time :datetime="upcomingDate(dDay).format('YYYY-MM-DD')" class="upcoming-date"><span>{{ upcomingDate(dDay).month() + 1 }}월</span><strong>{{ String(upcomingDate(dDay).date()).padStart(2, '0') }}</strong></time>
-                <div class="upcoming-info"><span>{{ categoryLabel(anniversary.category) }}</span><RouterLink v-if="pathFor(anniversary)" :to="pathFor(anniversary)!">{{ anniversary.name }}</RouterLink><strong v-else>{{ anniversary.name }}</strong></div>
+                <div class="upcoming-info"><span>{{ categoryLabel(anniversary.category) }}</span><RouterLink v-if="pathFor(anniversary)" :to="pathFor(anniversary)!">{{ displayName(anniversary.name) }}</RouterLink><strong v-else>{{ displayName(anniversary.name) }}</strong></div>
                 <span class="dday-pill">D−{{ dDay }}</span>
                 <button type="button" class="round-icon-button upcoming-share" :aria-label="`${anniversary.name} 공유`" @click="handleShare(anniversary, dDay)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 15V3m-4 4 4-4 4 4M6 11H4v9h16v-9h-2" stroke-linecap="round" stroke-linejoin="round" /></svg></button>
               </li>

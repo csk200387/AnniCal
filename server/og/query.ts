@@ -1,7 +1,7 @@
 // 요청값은 렌더러에 직접 전달하지 않는다. 등록된 날짜·id만 카드 데이터로 바꾼다.
 import { allAnniversaries } from '../../src/data/anniversaries/all.js'
 import routesJson from '../../src/data/routes.json' with { type: 'json' }
-import { koreanDate } from '../../src/seo/meta.js'
+import { koreanDate } from '../../src/utils/format.js'
 import { ogDisplayName } from './text.js'
 import { OG_VERSION, type OgQuery, type StaticPage } from '../../src/seo/og.js'
 import { occursOn, occursOnBirthday, isYearSupported, registerAnchors, resolveOccurrenceSafe } from '../../src/utils/dateUtils.js'

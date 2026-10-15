@@ -1,7 +1,7 @@
-import { computed, watch, type ComputedRef } from 'vue'
-import { storeToRefs } from 'pinia'
+import { computed, type ComputedRef } from 'vue'
 import { useAnniversariesStore } from '@/stores/anniversaries'
 import { ALL_MONTHS, monthsCovering } from '@/services/anniversaryRepository'
+import { useMonths } from '@/composables/useMonths'
 import { useNow } from '@/composables/useNow'
 import type { Anniversary } from '@/types/anniversary'
 import {
@@ -11,11 +11,7 @@ import {
   routeForId,
 } from '@/utils/anniversaryRoutes'
 import { formatKoreanMonthDay, resolveOccurrenceSafe } from '@/utils/dateUtils'
-
-/** urlDate("03-22") → "3월 22일". 유효하지 않은 값은 그대로 돌려준다. */
-export function formatUrlDate(urlDate: string): string {
-  return koreanUrlDate(urlDate) ?? urlDate
-}
+import { monthDayKey } from '@/utils/format'
 
 /**
  * 이 날짜 페이지에 필요한 달만 먼저 받고, 나머지는 뒤이어 채운다.
@@ -26,22 +22,11 @@ export function formatUrlDate(urlDate: string): string {
  * "비슷한 주제의 기념일"은 전체가 있어야 잘 고를 수 있으므로, 첫 화면을 막지
  * 않고 뒤에서 마저 받아 온다.
  */
-function useLoadedStore(urlDate: ComputedRef<string>) {
-  const store = useAnniversariesStore()
-
-  function prime() {
+function useDayMonths(urlDate: ComputedRef<string>) {
+  return useMonths(() => {
     const month = Number(urlDate.value.slice(0, 2))
-    const needed = Number.isInteger(month) && month >= 1 && month <= 12
-      ? monthsCovering(month)
-      : ALL_MONTHS
-    void store.ensureMonths(needed).then(() => store.ensureAll())
-  }
-
-  // 라우트 직접 진입(프리렌더된 HTML) 시에도 데이터가 필요하므로 여기서 보장한다.
-  prime()
-  watch(urlDate, prime)
-
-  return store
+    return Number.isInteger(month) && month >= 1 && month <= 12 ? monthsCovering(month) : ALL_MONTHS
+  }, { prefetchAll: true })
 }
 
 /** 화면이 구분해서 그려야 하는 네 가지 상태. */
@@ -71,8 +56,8 @@ export function useDayDetail(
   urlDate: ComputedRef<string>,
   slug: ComputedRef<string>,
 ): DayDetail {
-  const store = useLoadedStore(urlDate)
-  const { items, hasData, isLoading, error } = storeToRefs(store)
+  const store = useAnniversariesStore()
+  const { ready, error, retry } = useDayMonths(urlDate)
   const { today } = useNow()
 
   const targetId = computed(() => idForPath(urlDate.value, slug.value))
@@ -90,8 +75,7 @@ export function useDayDetail(
 
   const actualUrlDate = computed(() => {
     const d = occurrence.value
-    if (!d) return null
-    return `${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
+    return d ? monthDayKey(d.getMonth() + 1, d.getDate()) : null
   })
 
   const actualDateLabel = computed(() => {
@@ -119,7 +103,7 @@ export function useDayDetail(
     if (!current) return []
     const excluded = new Set([current.id, ...sameDay.value.map((a) => a.id)])
     const out: Anniversary[] = []
-    for (const a of items.value) {
+    for (const a of store.items) {
       if (a.category !== current.category || excluded.has(a.id)) continue
       if (!routeForId(a.id)) continue
       out.push(a)
@@ -133,10 +117,9 @@ export function useDayDetail(
   const state = computed<PageState>(() => {
     if (!targetId.value) return 'not-found' // 매핑 자체가 없으면 데이터와 무관하게 404
     if (anniversary.value) return 'ready'
-    if (error.value) return 'error'
     // 필요한 달이 아직 안 왔으면 로딩이다. routes.json 에 매핑이 있는데 항목이
     // 안 보이는 건 "없음"이 아니라 "아직 안 옴"이다.
-    if (isLoading.value || !hasData.value) return 'loading'
+    if (!ready.value) return error.value ? 'error' : 'loading'
     return 'not-found'
   })
 
@@ -148,8 +131,8 @@ export function useDayDetail(
     actualDateLabel,
     dateDrifts,
     state,
-    error: computed(() => error.value),
-    retry: store.retry,
+    error,
+    retry,
   }
 }
 
@@ -163,8 +146,8 @@ export interface DateHub {
 }
 
 export function useDateHub(urlDate: ComputedRef<string>): DateHub {
-  const store = useLoadedStore(urlDate)
-  const { hasData, isLoading, error } = storeToRefs(store)
+  const store = useAnniversariesStore()
+  const { ready, error, retry } = useDayMonths(urlDate)
   const { today } = useNow()
 
   const isValid = computed(() => isValidUrlDate(urlDate.value))
@@ -186,17 +169,16 @@ export function useDateHub(urlDate: ComputedRef<string>): DateHub {
 
   const state = computed<PageState>(() => {
     if (!isValid.value) return 'not-found'
-    if (error.value) return 'error'
-    if (isLoading.value || !hasData.value) return 'loading'
-    return 'ready'
+    if (ready.value) return 'ready'
+    return error.value ? 'error' : 'loading'
   })
 
   return {
     anniversaries,
-    label: computed(() => formatUrlDate(urlDate.value)),
+    label: computed(() => koreanUrlDate(urlDate.value) ?? urlDate.value),
     isValid,
     state,
-    error: computed(() => error.value),
-    retry: store.retry,
+    error,
+    retry,
   }
 }

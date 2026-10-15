@@ -17,11 +17,14 @@ export type CategoryId =
   | 'campaign'
   | 'quirky'
 
+/** 카테고리 색 그룹. 실제 색값은 ui.css 의 [data-color] 규칙이 토큰으로 정한다. */
+export type CategoryColor = 'accent' | 'green' | 'purple' | 'blue' | 'gold'
+
 export interface Category {
   id: CategoryId
   label: string
   description: string
   emoji: string
-  /** Tailwind 색 토큰 키 (예: "rose", "amber"). UI 배지 컬러에 사용. */
-  colorToken: string
+  /** 달력 점·범례·우표 그림 색. 여러 카테고리가 한 색을 나눠 쓴다. */
+  colorToken: CategoryColor
 }

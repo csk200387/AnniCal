@@ -21,9 +21,9 @@ import {
   dateHubJsonLd,
   dateHubTitle,
   isHttpUrl,
-  koreanDate,
   safeJsonLd,
 } from '../../src/seo/meta'
+import { koreanDate } from '../../src/utils/format'
 import { ogImageUrl, type StaticPage } from '../../src/seo/og'
 import { PAGE_META } from '../../src/seo/pages'
 import { formatKoreanMonthDay } from '../../src/utils/dateUtils'

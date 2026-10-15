@@ -6,7 +6,7 @@ import { formatKoreanMonthDay } from '@/utils/dateUtils'
 import { useAnniversariesStore } from '@/stores/anniversaries'
 import { SITE_URL } from '@/seo/meta'
 import CategorySymbol from '@/features/feed/components/CategorySymbol.vue'
-import { displayName as anniversaryDisplayName } from '@/seo/meta'
+import { MONTH_EN, displayName as anniversaryDisplayName, koreanDate } from '@/utils/format'
 import { milestoneLabel, type TogetherContext } from '@/features/together/milestones'
 import type { BirthdayContext } from '@/features/birthday/birthday'
 
@@ -19,11 +19,9 @@ const props = defineProps<{
 }>()
 
 const store = useAnniversariesStore()
-const category = computed(() =>
-  store.categories.find((c) => c.id === props.anniversary.category),
-)
+const category = computed(() => store.categoryById.get(props.anniversary.category))
 
-// 피드 카드와 같은 규칙 — 뒤에 붙은 영문 원어명은 떼고 보여준다.
+// 피드 카드와 같은 규칙 — 뒤에 붙은 원어 괄호는 떼고 보여준다.
 const displayName = computed(() =>
   anniversaryDisplayName(props.anniversary.name),
 )
@@ -38,28 +36,18 @@ const titleSize = computed(() => {
 })
 
 const dateKo = computed(() => {
-  if (props.together) {
-    const [m, d] = props.together.date.slice(5).split('-').map(Number)
-    return `${m}월 ${d}일`
-  }
-  if (props.birthday) {
-    const [m, d] = props.birthday.date.split('-').map(Number)
-    return `${m}월 ${d}일`
-  }
+  if (props.together) return koreanDate(props.together.date.slice(5))
+  if (props.birthday) return koreanDate(props.birthday.date)
   return formatKoreanMonthDay(props.anniversary)
 })
 
 const dateEn = computed(() => {
   // 영문 약식 — "MAY 27"
-  const months = [
-    'JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN',
-    'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC',
-  ]
   // formatKoreanMonthDay 와 동일한 occurrence 사용을 위해 같은 util 활용
   const text = dateKo.value // "M월 D일" — 날짜를 계산할 수 없으면 null
   const m = text?.match(/(\d+)월\s*(\d+)일/)
   if (!m) return ''
-  return `${months[Number(m[1]) - 1]} ${m[2]}`
+  return `${MONTH_EN[Number(m[1]) - 1]} ${m[2]}`
 })
 
 /** 다가오는 기념일 배지. 오늘이면 "오늘". */

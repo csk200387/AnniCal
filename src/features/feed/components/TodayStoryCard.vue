@@ -5,6 +5,7 @@ import type { Anniversary } from '@/types/anniversary'
 import { useAnniversariesStore } from '@/stores/anniversaries'
 import { pathFor } from '@/utils/anniversaryRoutes'
 import { EXTERNAL_LINK_REL, isExternalUrl } from '@/utils/sourceUrl'
+import { displayName } from '@/utils/format'
 import AnniversaryStamp from './AnniversaryStamp.vue'
 import CategorySymbol from './CategorySymbol.vue'
 
@@ -16,14 +17,14 @@ const props = defineProps<{
 }>()
 defineEmits<{ (e: 'share', anniversary: Anniversary): void }>()
 const store = useAnniversariesStore()
-const category = computed(() => store.categories.find((item) => item.id === props.anniversary.category))
+const category = computed(() => store.categoryById.get(props.anniversary.category))
 const path = computed(() => pathFor(props.anniversary))
-const displayName = computed(() => props.anniversary.name.replace(/\s+\([A-Za-z][^)]*\)$/, ''))
+const title = computed(() => displayName(props.anniversary.name))
 </script>
 
 <template>
   <article class="today-story" :class="index === 0 ? 'today-story--featured' : 'today-story--compact'"
-    :data-category="anniversary.category">
+    :data-color="category?.colorToken">
     <div class="story-art" aria-hidden="true">
       <AnniversaryStamp :category="anniversary.category" :date-label="dateLabel"
         :serial="String(index + 1).padStart(2, '0')" />
@@ -35,12 +36,12 @@ const displayName = computed(() => props.anniversary.name.replace(/\s+\([A-Za-z]
         <span v-if="index === 0" class="story-selection">{{ selectionLabel ?? '오늘의 첫 이야기' }}</span>
       </div>
       <h3>
-        <RouterLink v-if="path" :to="path" :aria-label="anniversary.name">{{ displayName }}</RouterLink>
-        <template v-else>{{ displayName }}</template>
+        <RouterLink v-if="path" :to="path" :aria-label="anniversary.name">{{ title }}</RouterLink>
+        <template v-else>{{ title }}</template>
       </h3>
       <p>{{ anniversary.storytelling.origin || anniversary.storytelling.anecdote || '이 날에 담긴 이야기를 만나보세요.' }}</p>
       <div class="story-footer">
-        <RouterLink v-if="path" :to="path" class="story-read" :aria-label="`${displayName} 이야기 읽기`">
+        <RouterLink v-if="path" :to="path" class="story-read" :aria-label="`${title} 이야기 읽기`">
           이야기 읽기 <span aria-hidden="true">↗</span>
         </RouterLink>
         <a v-else-if="isExternalUrl(anniversary.sourceUrl)" :href="anniversary.sourceUrl!"

@@ -180,8 +180,9 @@ interface Meme {
 > 농업인의 날은 소재로는 '일반', 위안부 피해자 기림의 날은 '역사 & 추모' 지만
 > 둘 다 법정기념일이다. 정의는 `src/data/groups.json` 과 `src/types/group.ts`.
 >
-> `tags[0]` 을 건드리지 않는 것이 중요하다. 배지 색(`utils/tagPalette.ts`)과
-> SEO `articleSection`(`seo/meta.ts`)이 첫 태그만 본다.
+> `tags[0]` 을 건드리지 않는 것이 중요하다. SEO `articleSection`(`seo/meta.ts`)과
+> 인기 순위의 태그 문구가 첫 태그만 본다. 카테고리 색은 태그가 아니라
+> `categories.json` 의 `colorToken` 이 정한다.
 >
 > 내보내기 화면과 구독 피드는 그룹을 카테고리와 **OR** 로 합친다
 > (`/api/calendar?categories=food&groups=statutory`). 아래는 이전 규칙의 기록이다.

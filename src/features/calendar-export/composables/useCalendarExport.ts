@@ -1,9 +1,13 @@
-import { computed, onMounted, ref, watch } from 'vue'
+import { computed, ref, watch } from 'vue'
 import { useAnniversariesStore } from '@/stores/anniversaries'
+import { ALL_MONTHS } from '@/services/anniversaryRepository'
 import { buildCalendar } from '@/utils/ics'
 import { SITE_URL } from '@/seo/head'
 import { formatKoreanMonthDay, resolveOccurrenceSafe } from '@/utils/dateUtils'
 import { useNow } from '@/composables/useNow'
+import { useMonths } from '@/composables/useMonths'
+import { useCopyToClipboard } from '@/composables/useCopyToClipboard'
+import { displayName } from '@/utils/format'
 
 export interface CategoryOption {
   id: string
@@ -28,7 +32,7 @@ export interface CalendarPreviewItem {
 export function useCalendarExport() {
   const store = useAnniversariesStore()
   const { today } = useNow()
-  onMounted(() => store.load())
+  const { loading, error } = useMonths(ALL_MONTHS)
 
   // categories.json 순서를 유지하면서 실제 데이터가 있는 카테고리만 노출.
   const categoryOptions = computed<CategoryOption[]>(() => {
@@ -137,7 +141,7 @@ export function useCalendarExport() {
         return {
           id: anniversary.id,
           dateLabel: formatKoreanMonthDay(anniversary, year) ?? '날짜 미정',
-          name: anniversary.name,
+          name: displayName(anniversary.name),
           sortKey: occurrence
             ? (occurrence.getMonth() + 1) * 100 + occurrence.getDate()
             : Number.POSITIVE_INFINITY,
@@ -200,22 +204,15 @@ export function useCalendarExport() {
       : null,
   )
 
-  const copied = ref(false)
-  async function copyFeedUrl(): Promise<void> {
-    const url = feedWebcalUrl.value
-    if (!url) return
-    try {
-      await navigator.clipboard.writeText(url)
-      copied.value = true
-      setTimeout(() => (copied.value = false), 2000)
-    } catch {
-      // 클립보드 권한 거부 등 — 사용자가 직접 선택 복사 가능하므로 조용히 무시.
-    }
+  // 공유 모달과 같은 복사 경로 — 인앱 브라우저용 execCommand 대체 경로가 들어 있다.
+  const { copied, failed: copyFailed, copy } = useCopyToClipboard()
+  function copyFeedUrl(): void {
+    if (feedWebcalUrl.value) void copy(feedWebcalUrl.value)
   }
 
   return {
-    isLoading: computed(() => store.isLoading),
-    error: computed(() => store.error),
+    loading,
+    error,
     categoryOptions,
     groupOptions,
     isSelected,
@@ -232,6 +229,7 @@ export function useCalendarExport() {
     feedWebcalUrl,
     googleAddUrl,
     copied,
+    copyFailed,
     copyFeedUrl,
   }
 }

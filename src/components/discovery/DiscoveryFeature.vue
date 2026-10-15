@@ -4,7 +4,7 @@ import CategoryBadge from '@/components/common/CategoryBadge.vue'
 import CategorySymbol from '@/features/feed/components/CategorySymbol.vue'
 import UiButton from '@/components/ui/UiButton.vue'
 import { pathForId } from '@/utils/anniversaryRoutes'
-import { displayName } from '@/seo/meta'
+import { displayName } from '@/utils/format'
 defineProps<{ anniversary: Anniversary; featureId: string; caption: string; dateLabel?: string; title?: string; note?: string }>()
 const emit = defineEmits<{ share: [] }>()
 </script>

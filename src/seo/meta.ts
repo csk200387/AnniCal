@@ -6,6 +6,8 @@
 //
 // 타입은 alias 대신 상대경로로 가져온다 — Node 쪽 tsconfig 에는 "@/*" 가 없다.
 import type { Anniversary } from '../types/anniversary'
+// 서버 함수도 이 파일을 Node ESM 으로 실행하므로 런타임 import 에는 .js 가 필요하다.
+import { displayName, koreanDate } from '../utils/format.js'
 
 export const SITE_NAME = '기념일 도감'
 export const SITE_URL = 'https://www.annical.me'
@@ -17,12 +19,6 @@ const DESC_MAX = 150
 export function truncate(s: string, max = DESC_MAX): string {
   const t = s.replace(/\s+/g, ' ').trim()
   return t.length <= max ? t : `${t.slice(0, max - 1).trimEnd()}…`
-}
-
-/** urlDate("03-22") → "3월 22일" */
-export function koreanDate(urlDate: string): string {
-  const [mm, dd] = urlDate.split('-').map(Number)
-  return `${mm}월 ${dd}일`
 }
 
 /**
@@ -50,31 +46,6 @@ export function safeJsonLd(data: unknown): string {
 
 export function isHttpUrl(v: string | null | undefined): v is string {
   return typeof v === 'string' && /^https?:\/\//i.test(v)
-}
-
-/**
- * 제목·헤드라인에 쓸 이름.
- *
- * 데이터의 name 에는 "블랙프라이데이 (Black Friday)" 처럼 원어가 괄호로 붙은 게
- * 많은데, 제목에 날짜 괄호까지 더하면 "블랙프라이데이 (Black Friday) (11월 27일)"
- * 처럼 괄호가 겹쳐 지저분해진다. 그래서 끝에 달린 원어 괄호만 떼어낸다.
- *
- * 떼는 조건은 세 가지 — 한글이 없으면서, (1) 로마자가 3자 이상이거나
- * (2) 한자로만 이뤄졌거나 (3) 일본어 가나가 섞인 경우.
- * 절기의 "동지 (冬至)" 가 (2), 일본 기념일의 "카레의 날 (カレーの日)" 이 (3)이다.
- * "크리스마스 (기독교탄신일)" 처럼 한글이 든 괄호, "파이(π)의 날" 처럼 이름
- * 중간의 괄호, "F1 모나코 그랑프리 결승일 (2026)" 처럼 연도만 든 괄호는 남긴다.
- */
-export function displayName(name: string): string {
-  return name
-    .replace(/\s*\(([^)]+)\)$/, (whole, inner: string) => {
-      if (/[가-힣]/.test(inner)) return whole
-      const romanized = (inner.match(/[A-Za-z]/g) ?? []).length >= 3
-      const hanjaOnly = /^[\u4E00-\u9FFF]+$/.test(inner)
-      const hasKana = /[\u3040-\u30FF]/.test(inner)
-      return romanized || hanjaOnly || hasKana ? '' : whole
-    })
-    .trim()
 }
 
 // ── urlDate 와 displayDate 를 구분하는 이유 ────────────────────────────

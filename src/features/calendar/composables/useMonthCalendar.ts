@@ -1,7 +1,8 @@
-import { computed, onMounted, ref } from 'vue'
+import { computed, ref } from 'vue'
 import dayjs, { Dayjs } from 'dayjs'
 import { useAnniversariesStore } from '@/stores/anniversaries'
 import { monthsCovering } from '@/services/anniversaryRepository'
+import { useMonths } from '@/composables/useMonths'
 import { useNow } from '@/composables/useNow'
 import { resolveOccurrenceSafe, tabulatedYearRange } from '@/utils/dateUtils'
 import type { Anniversary } from '@/types/anniversary'
@@ -28,12 +29,10 @@ export function useMonthCalendar() {
   const cursor = ref<Dayjs>(dayjs(todayDate.value).startOf('month'))
   const selectedDate = ref<Dayjs>(dayjs(todayDate.value).startOf('day'))
 
-  onMounted(() => {
-    // 보이는 달과 앞뒤 달을 먼저 그리고, 검색·월 이동에 필요한 나머지는
-    // 뒤이어 받는다.
-    void store
-      .ensureMonths(monthsCovering(cursor.value.month() + 1))
-      .then(() => store.ensureAll())
+  // 보이는 달과 앞뒤 달을 먼저 그리고, 검색·월 이동에 필요한 나머지는
+  // 뒤이어 받는다.
+  const { loading, error, retry } = useMonths(() => monthsCovering(cursor.value.month() + 1), {
+    prefetchAll: true,
   })
 
   const monthLabel = computed(() => cursor.value.format('YYYY년 M월'))
@@ -158,9 +157,9 @@ export function useMonthCalendar() {
     canGoNext,
     isMonthInRange,
     outOfRangeNotice,
-    isLoading: computed(() => store.isLoading),
-    error: computed(() => store.error),
-    retry: store.retry,
+    loading,
+    error,
+    retry,
     goPrevMonth,
     goNextMonth,
     goToday,

@@ -171,16 +171,8 @@
 .feed-page .date-pill span { font-size: 12px; }
 .feed-page .section-text-link { min-height: 44px; font-size: 13px; }
 
-/* A single stamp collection, with a stable accent for each category. */
-:is(.feed-page, .hub-page) .today-story { --art-bg: var(--color-paper-200); --art-ink: var(--color-accent-600); --art-fill: var(--color-paper-300); }
-:is(.feed-page, .hub-page) .today-story[data-category='animal'],
-:is(.feed-page, .hub-page) .today-story[data-category='career'] { --art-ink: var(--color-editorial-green); }
-:is(.feed-page, .hub-page) .today-story[data-category='culture'],
-:is(.feed-page, .hub-page) .today-story[data-category='quirky'] { --art-ink: var(--color-editorial-purple); }
-:is(.feed-page, .hub-page) .today-story[data-category='academic'],
-:is(.feed-page, .hub-page) .today-story[data-category='campaign'] { --art-ink: var(--color-editorial-blue); }
-:is(.feed-page, .hub-page) .today-story[data-category='sports'],
-:is(.feed-page, .hub-page) .today-story[data-category='history'] { --art-ink: var(--color-editorial-gold); }
+/* 우표 그림의 잉크색은 카테고리 색(ui.css 의 --category-color)을 따른다. */
+:is(.feed-page, .hub-page) .today-story { --art-bg: var(--color-paper-200); --art-ink: var(--category-color, var(--color-accent-600)); --art-fill: var(--color-paper-300); }
 :is(.feed-page, .hub-page) .story-art { height: 186px; display: grid; place-items: center; }
 .anniversary-stamp { width: 250px; height: 180px; max-width: 100%; transition: transform .5s var(--home-ease); }
 .today-story:hover .anniversary-stamp { transform: rotate(-4deg) translateY(-3px); }

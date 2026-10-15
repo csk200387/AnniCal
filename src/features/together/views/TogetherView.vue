@@ -4,10 +4,11 @@ import { RouterLink, useRoute, useRouter } from 'vue-router'
 import { useAnniversariesStore } from '@/stores/anniversaries'
 import { useShareStore } from '@/stores/share'
 import { useNow } from '@/composables/useNow'
+import { useMonths } from '@/composables/useMonths'
 import { monthsCovering } from '@/services/anniversaryRepository'
 import { isYearSupported } from '@/utils/dateUtils'
 import { pathForId } from '@/utils/anniversaryRoutes'
-import { displayName } from '@/seo/meta'
+import { displayName } from '@/utils/format'
 import { isoDate, milestoneDate, milestoneLabel, milestoneWindow, togetherPath, validStart, type Milestone, type TogetherContext } from '../milestones'
 import DiscoveryToolLayout from '@/components/discovery/DiscoveryToolLayout.vue'
 import DiscoveryChoices from '@/components/discovery/DiscoveryChoices.vue'
@@ -22,10 +23,13 @@ import ListGroup from '@/components/ui/ListGroup.vue'
 import ListRow from '@/components/ui/ListRow.vue'
 import '@/assets/together.css'
 
-const route = useRoute(), router = useRouter()
-const store = useAnniversariesStore(), share = useShareStore()
+const route = useRoute()
+const router = useRouter()
+const store = useAnniversariesStore()
+const share = useShareStore()
 const { today } = useNow()
-const startInput = ref(''), formError = ref(''), loading = ref(false), loadError = ref(false)
+const startInput = ref('')
+const formError = ref('')
 const selectedId = ref('')
 const showPast = ref(false)
 const heading = ref<HTMLElement | null>(null)
@@ -39,6 +43,14 @@ const context = computed<TogetherContext | null>(() => {
 })
 const invalidLink = computed(() => (route.query.start !== undefined || route.query.m !== undefined) && (!start.value || (route.query.m !== undefined && !context.value)))
 const rows = computed(() => [timeline.value.next, ...timeline.value.later, ...timeline.value.past].filter((row): row is Milestone => !!row))
+// 타임라인의 모든 날짜와 고른 날짜를 덮는 달.
+const { loading, error, retry } = useMonths(() => {
+  if (!start.value) return []
+  const dates = rows.value.map(row => row.date)
+  if (context.value) dates.push(context.value.date)
+  return [...new Set(dates.flatMap(date => monthsCovering(Number(date.slice(5, 7)))))]
+})
+const loadError = computed(() => !!error.value)
 function items(date: string) {
   if (loading.value || loadError.value) return []
   const [year, month, day] = date.split('-').map(Number)
@@ -59,21 +71,8 @@ const dateFormatter = new Intl.DateTimeFormat('ko-KR', { year: 'numeric', month:
 const dateLabel = (date: string) => dateFormatter.format(new Date(`${date}T00:00:00Z`))
 const startLabel = computed(() => start.value ? new Intl.DateTimeFormat('ko-KR', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' }).format(new Date(`${start.value}T00:00:00Z`)) : '')
 const dDay = (days: number) => days === 0 ? '오늘' : days > 0 ? `D-${days}` : `${-days}일 전`
-let loadVersion = 0
-async function loadResults() {
-  const version = ++loadVersion
-  if (!start.value) { loading.value = false; loadError.value = false; return }
-  startInput.value = start.value
-  const dates = rows.value.map(row => row.date)
-  if (context.value) dates.push(context.value.date)
-  const months = [...new Set(dates.flatMap(date => monthsCovering(Number(date.slice(5, 7)))))]
-  loading.value = true; loadError.value = false
-  await store.ensureMonths(months)
-  if (version !== loadVersion) return
-  loadError.value = !months.every(m => store.loadedMonths.has(m))
-  loading.value = false
-}
-watch([start, rows, context], loadResults, { immediate: true })
+// 공유 링크로 들어와도 입력칸이 그 시작일을 보여 주게 맞춘다.
+watch(start, (value) => { if (value) startInput.value = value }, { immediate: true })
 watch(() => route.query.pick, pick => { selectedId.value = typeof pick === 'string' ? pick : '' }, { immediate: true })
 async function discover() {
   formError.value = ''
@@ -119,7 +118,7 @@ function openCard() { if (selected.value && context.value) share.openTogether(se
       </template>
       <template #status>
         <SkeletonRows v-if="loading" :rows="5" label="그날에 담긴 이야기를 찾고 있어요" />
-        <ResultState v-else-if="loadError" tone="error" title="기념일을 불러오지 못했어요" description="잠시 후 다시 시도해 주세요."><template #actions><UiButton icon="retry" @click="loadResults">다시 불러오기</UiButton></template></ResultState>
+        <ResultState v-else-if="loadError" tone="error" title="기념일을 불러오지 못했어요" description="잠시 후 다시 시도해 주세요."><template #actions><UiButton icon="retry" @click="retry">다시 불러오기</UiButton></template></ResultState>
         <div v-else class="together-timeline">
           <h3>다가오는 날</h3>
           <ListGroup v-if="timeline.later.length" as="ul" label="다가오는 우리의 날">
