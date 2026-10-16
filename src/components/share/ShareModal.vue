@@ -22,8 +22,8 @@ function loadImageLib(): Promise<ImageLib> {
 }
 
 // 폰트 임베딩 CSS(웹폰트 base64 인라인)는 카드 내용과 무관하게 항상 동일하므로
-// 세션 동안 한 번만 계산해 재사용한다. 이게 캡처 시간의 대부분(특히 한글
-// Noto Serif KR 임베딩)을 차지한다. 모달을 열자마자가 아니라 이미지 버튼에
+// 세션 동안 한 번만 계산해 재사용한다. 이게 캡처 시간의 대부분을 차지한다.
+// 모달을 열자마자가 아니라 이미지 버튼에
 // 손이 닿았을 때(hover/focus) 준비해, 링크만 공유하는 사람은 이 비용을 아예
 // 치르지 않게 한다.
 let fontEmbedCssCache: string | null = null
@@ -278,7 +278,7 @@ async function generatePng(): Promise<string | null> {
   errorMsg.value = null
   try {
     // 미리보기와 동일한 서체로 캡처되도록 웹폰트 로딩을 먼저 보장한다.
-    // (Fraunces·Inter·Noto Serif KR 는 Google Fonts 에서 비동기 로드됨)
+    // (Fraunces·Inter 는 자체 호스팅 웹폰트라 비동기로 로드된다)
     if (typeof document !== 'undefined' && document.fonts?.ready) {
       await document.fonts.ready
     }
