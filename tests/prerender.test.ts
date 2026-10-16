@@ -231,10 +231,12 @@ describe.runIf(existsSync(join(DIST, 'index.html')))('페이지별 OG 메타', (
       expect(html).toContain('og:image:height" content="630')
       expect(html).toContain('twitter:image:alt')
       expect(html).toMatch(/<script\b[^>]*src="\/assets\/[^\"]+"/)
-      if (page !== 'home') {
-        expect(html).toContain('<h1>')
-        expect(html).toContain(`rel="canonical" href="https://www.annical.me/${page}"`)
-      }
+      // 홈도 JS 없이 읽히는 본문과 사이트 안으로 들어가는 링크가 있어야 한다.
+      expect(html).toContain('<h1>')
+      expect(html).toMatch(/<nav><a href="\/[a-z]*">/)
+      expect(html).toContain(
+        `rel="canonical" href="https://www.annical.me/${page === 'home' ? '' : page}"`,
+      )
     }
   })
   it('상세·허브는 각자의 동적 이미지 URL을 쓴다', async () => {

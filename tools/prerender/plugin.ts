@@ -216,12 +216,29 @@ export function prerender(): Plugin {
             `<meta ${attr}="${key}" content="${esc(value)}" />`,
           )
         html = imageMeta(html, ogImageUrl(page), meta.title)
-        if (page !== 'home') {
-          html = html.replace(
-            '<div id="app"></div>',
-            `<div id="app"><h1>${esc(meta.title)}</h1><p>${esc(meta.description)}</p><nav><a href="/calendar">기념일 달력</a> · <a href="/birthday">내 생일은?</a> · <a href="/together">우리의 날</a></nav></div>`,
-          )
-        }
+        // 홈의 "오늘의 기념일"은 날마다 바뀌어 빌드 시점에 박을 수 없으므로,
+        // 날짜와 무관한 소개와 주요 링크만 넣는다. JS 를 안 돌리는 크롤러(네이버
+        // Yeti 등)가 홈에서 사이트 안으로 들어갈 길이 이것뿐이다.
+        const intro =
+          page === 'home'
+            ? `<p>${esc(meta.description)}. 기념일 ${targets.filter((t) => t.kind === 'detail').length}개의 유래와 이야깃거리를 날짜별로 정리했어요.</p>`
+            : `<p>${esc(meta.description)}</p>`
+        const nav = (
+          [
+            ['/', '오늘의 기념일'],
+            ['/calendar', '기념일 달력'],
+            ['/popular', '인기 기념일'],
+            ['/birthday', '내 생일은?'],
+            ['/together', '우리의 날'],
+          ] as const
+        )
+          .filter(([href]) => href !== path)
+          .map(([href, label]) => `<a href="${href}">${label}</a>`)
+          .join(' · ')
+        html = html.replace(
+          '<div id="app"></div>',
+          `<div id="app"><h1>${esc(meta.title)}</h1>${intro}<nav>${nav}</nav></div>`,
+        )
         // Vercel 은 rewrite 전에 파일시스템을 확인하므로 공유 경로에 파일을 두면
         // 봇 UA rewrite 가 실행되지 않는다. 일반 요청만 /_pages HTML 로 rewrite 한다.
         const file =
