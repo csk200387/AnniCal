@@ -14,19 +14,15 @@ import { monthDayKey } from '@/utils/format'
  * 기념일 하나를 보러 온 사람에게 12개 월 파일을 전부 내려보낼 이유가 없다.
  * 앞뒤 달까지 3개만 있으면 이 날짜의 목록은 확정된다(음력 명절이 최대 한 달,
  * 기준일 상대 기념일이 며칠 움직이는 것까지 이 범위가 덮는다).
- * "비슷한 주제의 기념일"은 전체가 있어야 잘 고를 수 있으므로, 첫 화면을 막지
- * 않고 뒤에서 마저 받아 온다.
+ * "비슷한 주제의 기념일"도 이 3개월에서 고른다. 예전에는 그것 때문에 나머지 달을
+ * 뒤이어 다 받았지만, 목록이 먼저 들어온 이 3개월 순서로 채워지므로 결과는
+ * 거의 같고 페이지마다 약 1MB 를 더 받았다.
  */
 function useDayMonths(urlDate: ComputedRef<string>) {
-  return useMonths(
-    () => {
-      const month = Number(urlDate.value.slice(0, 2))
-      return Number.isInteger(month) && month >= 1 && month <= 12
-        ? monthsCovering(month)
-        : ALL_MONTHS
-    },
-    { prefetchAll: true },
-  )
+  return useMonths(() => {
+    const month = Number(urlDate.value.slice(0, 2))
+    return Number.isInteger(month) && month >= 1 && month <= 12 ? monthsCovering(month) : ALL_MONTHS
+  })
 }
 
 /** 화면이 구분해서 그려야 하는 네 가지 상태. */
