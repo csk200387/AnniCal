@@ -126,7 +126,7 @@
     width: min(520px, calc(100% - 32px - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px)));
     min-width: 0;
     display: grid;
-    grid-template-columns: repeat(6, minmax(0, 1fr));
+    grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 2px;
     padding: 5px;
     border-radius: 30px;
@@ -150,12 +150,17 @@
 /* Comfortable shared navigation and icon targets, including the share dialog. */
 .site-header .brand { min-height: 44px; }
 .site-header .header-nav a { display: flex; align-items: center; justify-content: center; gap: .3em; min-height: 44px; font-size: 13px; }
+/* 데스크톱은 두 줄 이름, 모바일 하단바는 한 줄 이름(dockLabel)을 쓴다. contents 라서 데스크톱 배치는 그대로다. */
+.header-nav-label { display: contents; }
+.header-nav-dock-label { display: none; }
 .site-header .header-today { font-size: 12px; }
 .site-footer .footer-links a { display: flex; align-items: center; min-height: 44px; }
 .site-footer .footer-bottom { font-size: 12px; }
 .home-page .round-icon-button { min-width: 44px; min-height: 44px; }
 @media (max-width: 760px) {
-  .site-header .header-nav a { flex-direction: column; gap: 2px; min-height: 54px; padding: 7px 2px; font-size: 12px; line-height: 1.4; }
+  .site-header .header-nav a { min-height: 44px; padding: 0 2px; font-size: 13px; }
+  .site-header .header-nav a.is-desktop-only, .header-nav-label { display: none; }
+  .header-nav-dock-label { display: inline; }
 }
 @media (max-width: 370px) {
   .site-header { padding-left: 16px; padding-right: 16px; }
