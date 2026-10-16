@@ -78,7 +78,7 @@ export function dateHubTitle(urlDate: string): string {
 export function dateHubDescription(urlDate: string, items: Anniversary[]): string {
   if (!items.length) return `${koreanDate(urlDate)}의 기념일을 확인해 보세요.`
   return truncate(
-    `${koreanDate(urlDate)}의 기념일 ${items.length}개 — ${items.map((a) => a.name).join(', ')}.`,
+    `${koreanDate(urlDate)}의 기념일 ${items.length}개 — ${items.map((a) => displayName(a.name)).join(', ')}.`,
   )
 }
 
