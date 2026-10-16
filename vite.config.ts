@@ -22,11 +22,11 @@ export default defineConfig({
         '/birthday',
         '/together',
         '/popular',
-        '/export',
         ...targets.map((t) => t.path),
       ],
-      // HTML 파일 자동 탐색에도 내부 rewrite 대상은 사이트맵에서 제외한다.
-      exclude: ['/_pages/birthday', '/_pages/together'],
+      // HTML 파일 자동 탐색에도 내부 rewrite 대상과 검색 가치가 없는 도구
+      // 페이지(/export)는 사이트맵에서 제외한다.
+      exclude: ['/_pages/birthday', '/_pages/together', '/export'],
       // 라우트별로 다르게 준다. 특히 lastmod 를 빌드 시각으로 통일하면
       // 재배포마다 전 URL 이 "수정됨"이 되어 검색엔진이 값을 무시한다.
       lastmod,

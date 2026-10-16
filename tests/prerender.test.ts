@@ -4,7 +4,7 @@ import { readFileSync, existsSync } from 'node:fs'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { resolveConfig } from 'vite'
-import { safeJsonLd } from '@/seo/meta'
+import { dateHubDescription, safeJsonLd } from '@/seo/meta'
 import {
   shiftUrlDate,
   ORDINAL_DATES,
@@ -104,6 +104,11 @@ describe('표시 날짜는 실제 발생일을 따른다', () => {
   })
 })
 
+it('허브 설명은 원어 괄호 없이 표시 이름을 쓴다', () => {
+  const anv = { name: '대체 연료의 날 (Alternative Fuel Day)' } as Anniversary
+  expect(dateHubDescription('10-17', [anv])).toBe('10월 17일의 기념일 1개 — 대체 연료의 날.')
+})
+
 // dist 가 있을 때만 — 테스트가 빌드를 강제하지 않도록.
 describe.runIf(existsSync(join(DIST, 'index.html')))('빌드 산출물', () => {
   it('모든 허브 366개가 만들어졌다', () => {
@@ -156,6 +161,7 @@ describe.runIf(existsSync(join(DIST, 'index.html')))('빌드 산출물', () => {
       expect(sitemap).toContain(`<loc>https://www.annical.me/${page}</loc>`)
     }
     expect(sitemap).not.toContain('/_pages/')
+    expect(sitemap).not.toContain('/export</loc>')
   })
 
   it('라우터의 모든 유효 경로가 정적 파일이거나 rewrite 대상이다', () => {
