@@ -35,6 +35,11 @@ function updateNavIndicator() {
     }
     const navRect = nav.getBoundingClientRect()
     const linkRect = activeLink.getBoundingClientRect()
+    // 모바일 하단바에서 빠진 메뉴(캘린더 연동)에 있을 때는 가리킬 칸이 없다.
+    if (!linkRect.width) {
+      indicatorReady.value = false
+      return
+    }
     indicatorX.value = linkRect.left - navRect.left + nav.scrollLeft
     indicatorY.value = linkRect.top - navRect.top + nav.scrollTop
     indicatorWidth.value = linkRect.width
@@ -79,14 +84,19 @@ onBeforeUnmount(() => {
           :key="item.name"
           :to="item.to"
           active-class="is-active"
-          ><span>{{ item.lines[0] }}</span
-          >{{ ' '
-          }}<span
-            >{{ item.lines[1]
-            }}<span v-if="item.name === 'export'" class="header-nav-arrow" aria-hidden="true">
-              ↗</span
+          :class="{ 'is-desktop-only': !item.dockLabel }"
+          ><span class="header-nav-label"
+            ><span>{{ item.lines[0] }}</span
+            >{{ ' '
+            }}<span
+              >{{ item.lines[1]
+              }}<span v-if="item.name === 'export'" class="header-nav-arrow" aria-hidden="true">
+                ↗</span
+              ></span
             ></span
-          ></RouterLink
+          ><span v-if="item.dockLabel" class="header-nav-dock-label">{{
+            item.dockLabel
+          }}</span></RouterLink
         >
       </nav>
       <div class="header-today">
