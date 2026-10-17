@@ -1,0 +1,21 @@
+# 매일 자정 직후 다시 빌드한다. 프리렌더 HTML 은 빌드한 날 기준이라서다.
+# - 홈은 "오늘의 기념일" 피드를 그날 데이터로 렌더해 둔다(브라우저가 그대로 이어받는다)
+# - 날짜가 해마다 바뀌는 기념일(어머니의 날, 설날 등)의 본문·OG 이미지 year= 도 해가 바뀌면 따라간다
+# VERCEL_DEPLOY_HOOK_URL: Vercel → Settings → Git → Deploy Hooks 의 yearly-rebuild 훅(main).
+# 빌드가 끝날 때까지는 이전 배포가 그대로 나가므로 접속이 끊기지 않는다.
+name: Daily rebuild
+
+on:
+  schedule:
+    - cron: '5 15 * * *' # 매일 00:05 KST
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: curl -fsS -X POST "$HOOK"
+        env:
+          HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}

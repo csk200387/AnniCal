@@ -290,9 +290,11 @@ describe.runIf(existsSync(join(DIST, 'index.html')))('페이지별 OG 메타', (
       expect(html).toContain('og:image:height" content="630')
       expect(html).toContain('twitter:image:alt')
       expect(html).toMatch(/<script\b[^>]*src="\/assets\/[^\"]+"/)
-      // 홈도 JS 없이 읽히는 본문과 사이트 안으로 들어가는 링크가 있어야 한다.
-      expect(html).toContain('<h1>')
-      expect(html).toMatch(/<nav><a href="\/[a-z]*">/)
+      // 홈도 JS 없이 읽히는 본문과 사이트 안으로 들어가는 링크가 있어야 한다(SSR).
+      expect(html).toMatch(/<h1[\s>]/)
+      expect(html).toMatch(/<a [^>]*href="\/(calendar|popular|birthday|together)"/)
+      // 그 화면의 CSS 가 <head> 에 걸려 JS 전에도 제 모양으로 보인다.
+      expect(html).toMatch(/<link rel="stylesheet"[^>]*href="\/assets\/index-[^"]+\.css"/)
       expect(html).toContain(
         `rel="canonical" href="https://www.annical.me/${page === 'home' ? '' : page}"`,
       )

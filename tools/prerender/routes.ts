@@ -270,10 +270,11 @@ export function buildSitemap(targets: PrerenderTarget[]): Record<string, string>
   }
   const latest = (ds: Date[]): Date => new Date(Math.max(...ds.map((d) => d.getTime())))
 
-  // 정적 라우트는 기념일 데이터 전체의 최신 수정일을 따른다(홈은 그 데이터의 피드다).
+  // 정적 라우트는 기념일 데이터 전체의 최신 수정일을 따른다.
+  // 홈만은 매일 재빌드로 그날의 피드가 HTML 에 들어가므로 실제로 날마다 바뀐다.
   const anyData = latest(loadAnniversaries().map(modifiedOf))
   const lastmod: Record<string, Date> = {
-    '/': anyData,
+    '/': new Date(),
     '/calendar': anyData,
     '/popular': anyData,
     '/together': anyData,
