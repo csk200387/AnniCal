@@ -217,6 +217,10 @@ describe.runIf(existsSync(join(DIST, 'index.html')))('빌드 산출물', () => {
     }
     expect(sitemap).not.toContain('/_pages/')
     expect(sitemap).not.toContain('/export</loc>')
+    // 상세 1,815 + 허브 366 + 정적 6. lastmod 는 날짜 단위, 구글이 무시하는 태그는 없다.
+    expect(sitemap.match(/<url>/g)).toHaveLength(2187)
+    expect(sitemap.match(/<lastmod>\d{4}-\d{2}-\d{2}<\/lastmod>/g)).toHaveLength(2187)
+    expect(sitemap).not.toMatch(/changefreq|priority|xmlns:/)
   })
 
   it('라우터의 모든 유효 경로가 정적 파일이거나 rewrite 대상이다', () => {

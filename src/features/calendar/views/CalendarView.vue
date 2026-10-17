@@ -120,7 +120,7 @@ function handleShare(anv: Anniversary) {
         description="날짜를 고르면 그날의 기념일과 짧은 이야기가 같은 화면에 펼쳐져요."
       >
         <template #title
-          >{{ monthLabel }}<span class="heading-dot">,</span><br />어떤 날들이 있을까요<span
+          >{{ monthLabel }}<span class="heading-dot">,</span> <br />어떤 날들이 있을까요<span
             class="heading-dot"
             >?</span
           ></template
@@ -263,7 +263,7 @@ function handleShare(anv: Anniversary) {
               <p class="section-kicker"><span /> SELECTED DATE</p>
               <div class="day-panel-date">
                 <strong>{{ selectedDate.date() }}</strong>
-                <span>{{ selectedMonthEn }}<br />{{ selectedWeekdayEn }}</span>
+                <span>{{ selectedMonthEn }} <br />{{ selectedWeekdayEn }}</span>
               </div>
               <span class="day-panel-ring" aria-hidden="true" />
             </div>

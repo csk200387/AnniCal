@@ -128,7 +128,7 @@ function categoryLabel(id: CategoryId) {
           <span class="tiny-spark" aria-hidden="true">✳</span> 하루에 하나, 새로운 발견
         </p>
         <h1 id="hero-title">
-          평범한 하루에,<br />기념할 이유
+          평범한 하루에, <br />기념할 이유
           <span class="hero-last-word">
             하나
             <svg class="hero-underline" viewBox="0 0 160 18" fill="none" aria-hidden="true">
@@ -273,7 +273,8 @@ function categoryLabel(id: CategoryId) {
           <span class="empty-flower" aria-hidden="true">✳</span>
           <h3>아직 이름 붙이지 않은 하루예요.</h3>
           <p>
-            오늘은 나만의 기념일을 만들어보는 건 어때요?<br />아래에서 다가오는 기념일도 만나보세요.
+            오늘은 나만의 기념일을 만들어보는 건 어때요? <br />아래에서 다가오는 기념일도
+            만나보세요.
           </p>
         </div>
       </section>
@@ -370,8 +371,8 @@ function categoryLabel(id: CategoryId) {
           </div>
           <aside v-reveal class="calendar-promo">
             <p class="section-kicker">YOUR NEXT FAVORITE DAY</p>
-            <h3>좋아하는 날을<br />하나씩 찾아보세요.</h3>
-            <p>한 달의 이야기를 한눈에.<br />날짜마다 새로운 발견이 기다려요.</p>
+            <h3>좋아하는 날을 <br />하나씩 찾아보세요.</h3>
+            <p>한 달의 이야기를 한눈에. <br />날짜마다 새로운 발견이 기다려요.</p>
             <div class="mini-calendar" aria-hidden="true">
               <div class="mini-calendar-heading">
                 <strong

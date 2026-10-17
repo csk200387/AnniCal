@@ -73,7 +73,7 @@ watch(previewItems, () => {
         description="관심 있는 주제를 골라 나만의 기념일 캘린더를 만드세요. 한 번 내려받거나, 살아 있는 링크로 계속 구독할 수 있어요."
       >
         <template #title
-          >좋아하는 날들을,<br /><span class="heading-dot">한 권의 달력처럼.</span></template
+          >좋아하는 날들을, <br /><span class="heading-dot">한 권의 달력처럼.</span></template
         >
         <template #footer
           ><dl class="export-hero-summary">
@@ -150,7 +150,7 @@ watch(previewItems, () => {
           <div class="export-cards">
             <article class="export-card">
               <p class="section-kicker"><span /> .ICS DOWNLOAD</p>
-              <h3>한 번에 받아<br />직접 가져오기</h3>
+              <h3>한 번에 받아 <br />직접 가져오기</h3>
               <p>
                 Google Calendar, Apple Calendar 등 대부분의 캘린더에서 열 수 있는 표준 파일이에요.
               </p>
@@ -169,7 +169,7 @@ watch(previewItems, () => {
             </article>
             <article class="export-card">
               <p class="section-kicker"><span /> SUBSCRIPTION LINK</p>
-              <h3>새로운 날까지<br />계속 받아보기</h3>
+              <h3>새로운 날까지 <br />계속 받아보기</h3>
               <p>링크를 구독하면 새로운 기념일이 추가될 때 캘린더도 자동으로 업데이트돼요.</p>
               <div class="export-card-foot">
                 <FieldShell for="export-feed-url" label="구독 URL"
