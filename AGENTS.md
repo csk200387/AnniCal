@@ -69,6 +69,11 @@
   `datePublished`·`dateModified` 가 여기서 나온다. Vercel 은 얕은 클론이라 빌드 때
   git 으로 항목별 날짜를 구할 수 없어 전체 이력이 있는 로컬에서 미리 계산한다.
   빠뜨리면 그 항목은 파일 단위 날짜로 물러서고, `--check` 가 어긋난 항목을 알려 준다.
+- **상세 히어로의 수채화 도판은 `npm run illus` 로만 만든다.** 화풍 문장(`STYLE`)이
+  `tools/illustrations/illus.mjs` 에 고정돼 있다 — 그림마다 화풍이 다르면 도감이
+  뒤죽박죽이 된다. 사물·음식·동식물만 그리고 실존 인물·특정 역사 장면은 그리지
+  않는다. 생성한 그림은 사람이 검토한 뒤 넣는다(인기순으로 조금씩).
+  매핑은 `src/data/illustrations.json`, 파일은 `public/illustrations/` 이다.
 - **새 공개 페이지를 만들면 함께 등록한다.** 라우터(`src/router/index.ts`),
   `src/seo/pages.ts` 의 `PAGE_META`(프리렌더가 이 목록으로 페이지를 만든다), 사이트맵
   (`tools/prerender/routes.ts` 의 `buildSitemap`), 정적 OG 이미지

@@ -21,6 +21,7 @@ import UiChip from '@/components/ui/UiChip.vue'
 import ListGroup from '@/components/ui/ListGroup.vue'
 import ListRow from '@/components/ui/ListRow.vue'
 import ResultState from '@/components/ui/ResultState.vue'
+import illustrations from '@/data/illustrations.json'
 import SkeletonRows from '@/components/ui/SkeletonRows.vue'
 
 const FeedbackModal = defineAsyncComponent(
@@ -45,6 +46,14 @@ const {
 const shareStore = useShareStore()
 const statsStore = useStatsStore()
 const store = useAnniversariesStore()
+
+// 기념일 수채화 도판. 있는 기념일만 히어로 오른쪽(모바일은 제목 아래)에 싣는다.
+const illustration = computed(() => {
+  const id = anniversary.value?.id
+  return id
+    ? (illustrations as Record<string, { file: string; alt: string; credit: string }>)[id]
+    : undefined
+})
 const feedbackOpen = ref(false)
 const detailStats = computed(() => {
   const id = anniversary.value?.id
@@ -130,6 +139,20 @@ watch(
             매년 날짜가 바뀌는 기념일이에요. <strong>올해는 {{ actualDateLabel }}</strong
             >입니다.
           </p>
+          <template v-if="illustration" #aside
+            ><figure class="article-plate">
+              <img
+                :src="`/illustrations/${illustration.file}-960.webp`"
+                :srcset="`/illustrations/${illustration.file}-480.webp 480w, /illustrations/${illustration.file}-960.webp 960w`"
+                sizes="(max-width: 760px) min(calc(100vw - 80px), 420px), 420px"
+                width="960"
+                height="640"
+                :alt="illustration.alt"
+                fetchpriority="high"
+              />
+              <figcaption>{{ illustration.credit }}</figcaption>
+            </figure></template
+          >
           <template v-if="detailStats" #footer
             ><div class="article-stats" aria-label="기념일 관심도 통계">
               <span

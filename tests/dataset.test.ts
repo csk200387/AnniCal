@@ -1,6 +1,6 @@
 // 데이터셋 자체의 불변조건 — 여기가 깨지면 빌드가 성공해도 사이트가 틀린다.
 import { describe, expect, it } from 'vitest'
-import { readFileSync, readdirSync, writeFileSync } from 'node:fs'
+import { existsSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
 import { execFileSync } from 'node:child_process'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -186,5 +186,24 @@ describe('카테고리 색', () => {
       .filter((c) => !css.includes(`[data-color='${c.colorToken}']`))
       .map((c) => `${c.id}:${c.colorToken}`)
     expect(missing).toEqual([])
+  })
+})
+
+describe('illustrations.json', () => {
+  // 파일을 빠뜨리면 상세 히어로에 깨진 그림이, 없는 id 면 아무 데도 안 실리는 그림이 남는다.
+  const map = JSON.parse(
+    readFileSync(join(ROOT, 'src/data/illustrations.json'), 'utf-8'),
+  ) as Record<string, { file: string; alt: string; credit: string }>
+  it('있는 기념일만 가리키고 두 크기 파일이 다 있다', () => {
+    for (const [id, { file, alt, credit }] of Object.entries(map)) {
+      expect(routes[id], id).toBeDefined()
+      expect(alt && credit, id).toBeTruthy()
+      for (const w of [480, 960]) {
+        expect(
+          existsSync(join(ROOT, `public/illustrations/${file}-${w}.webp`)),
+          `${file}-${w}`,
+        ).toBe(true)
+      }
+    }
   })
 })
