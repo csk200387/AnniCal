@@ -80,8 +80,8 @@ const ILLUSTRATIONS = JSON.parse(
   readFileSync(new URL('../../src/data/illustrations.json', import.meta.url), 'utf-8'),
 ) as Record<string, { file: string; alt: string; credit: string }>
 
-// 수채화 도판. Vue 화면(히어로 옆)보다 크게 둔다 — mount 때 다시 그려지는 그림이 더
-// 작아야 그 시점이 새 LCP 로 잡히지 않는다.
+// 수채화 도판. 최대 440px — Vue 화면의 도판(최대 420px, article.css)보다 커야 mount
+// 때 다시 그려지는 그림이 새 LCP 로 잡히지 않고, 너무 크면 mount 전 잠깐 화면을 채운다.
 function plate(id: string): string {
   const il = ILLUSTRATIONS[id]
   if (!il) return ''
@@ -89,7 +89,7 @@ function plate(id: string): string {
   return (
     `<figure><img src="${f}-1200.webp" srcset="${f}-640.webp 640w, ${f}-1200.webp 1200w" ` +
     `sizes="100vw" width="1200" height="800" alt="${esc(il.alt)}" fetchpriority="high" ` +
-    `style="width:100%;height:auto"><figcaption>${esc(il.credit)}</figcaption></figure>`
+    `style="display:block;width:100%;max-width:440px;height:auto;margin:0 auto"><figcaption>${esc(il.credit)}</figcaption></figure>`
   )
 }
 

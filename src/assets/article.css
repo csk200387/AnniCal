@@ -42,6 +42,6 @@
 .article-aside .ui-promo .ui-button { width: 100%; white-space: normal; text-align: left; }
 
 /* 수채화 도판 — 그림마다 종이색이 조금씩 달라 가장자리를 흐려 히어로 배경에 녹인다. */
-.article-plate { margin: 0; align-self: center; }
+.article-plate { width: 100%; max-width: 420px; margin: 0; align-self: center; justify-self: center; } /* 최대폭은 프리렌더 도판(440px)보다 작게 */
 .article-plate img { display: block; width: 100%; height: auto; -webkit-mask-image: radial-gradient(ellipse 50% 50% at center, #000 62%, transparent 100%); mask-image: radial-gradient(ellipse 50% 50% at center, #000 62%, transparent 100%); }
 .article-plate figcaption { margin-top: var(--space-2); font-size: var(--text-t2); color: var(--fg-subtle); text-align: right; letter-spacing: .02em; }
