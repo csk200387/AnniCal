@@ -948,5 +948,155 @@
     "file": "zebra-day",
     "alt": "옆으로 선 얼룩말 수채화",
     "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-01-baked-alaska-day-us": {
+    "file": "baked-alaska-day",
+    "alt": "단면에 아이스크림이 보이는 베이크드 알래스카 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-02-groundhog-day-us": {
+    "file": "groundhog-day",
+    "alt": "눈 덮인 굴에서 고개를 내민 그라운드호그 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-rel-ipchun-minus1-setsubun-jp": {
+    "file": "setsubun",
+    "alt": "볶은 콩을 담은 나무 됫박과 붉은 도깨비 탈 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-term-ipchun-kr": {
+    "file": "ipchun",
+    "alt": "첫 꽃망울을 터뜨린 매화 가지 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-03-carrot-cake-day-us": {
+    "file": "carrot-cake-day",
+    "alt": "크림치즈 프로스팅을 바른 당근 케이크 한 조각 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-04-homemade-soup-day-us": {
+    "file": "homemade-soup-day",
+    "alt": "국자를 걸친 냄비 속 채소 수프 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-06-frozen-yogurt-day-us": {
+    "file": "frozen-yogurt-day",
+    "alt": "베리를 올린 프로즌 요거트 한 컵 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-06-nori-day-jp": {
+    "file": "nori-day",
+    "alt": "차곡차곡 쌓은 구운 김 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-07-fettuccine-alfredo-day-global": {
+    "file": "fettuccine-alfredo-day",
+    "alt": "포크를 곁들인 크림 페투치네 알프레도 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-08-kite-flying-day-global": {
+    "file": "kite-flying-day",
+    "alt": "가운데 구멍이 난 방패연과 얼레 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-09-bagel-day-us": {
+    "file": "bagel-day",
+    "alt": "크림치즈를 바른 베이글과 깨 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-10-umbrella-day-global": {
+    "file": "umbrella-day",
+    "alt": "나무 손잡이의 버건디 우산 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-11-peppermint-patty-day-us": {
+    "file": "peppermint-patty-day",
+    "alt": "흰 민트 속이 보이는 페퍼민트 패티 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-12-plum-pudding-day-us": {
+    "file": "plum-pudding-day",
+    "alt": "호랑가시나무 잎을 꽂은 플럼 푸딩 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-13-tortellini-day-it": {
+    "file": "tortellini-day",
+    "alt": "국물에 담긴 고리 모양 토르텔리니 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-14-ferris-wheel-day-us": {
+    "file": "ferris-wheel-day",
+    "alt": "알록달록한 곤돌라의 옛 대관람차 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-14-valentines-day-global": {
+    "file": "valentines-day",
+    "alt": "하트 모양 초콜릿 상자와 장미 한 송이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-15-world-hippo-day-global": {
+    "file": "hippo-day",
+    "alt": "물 위로 눈과 귀를 내민 하마 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-16-almond-day-us": {
+    "file": "almond-day",
+    "alt": "초록 겉껍질 속 아몬드와 깐 아몬드 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-17-cabbage-day-us": {
+    "file": "cabbage-day",
+    "alt": "반으로 자른 양배추 단면 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-lunar-seollal-kr": {
+    "file": "seollal",
+    "alt": "복주머니와 약과, 떡 한 접시 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-term-usu-kr": {
+    "file": "usu",
+    "alt": "물방울 맺힌 녹는 얼음과 버들강아지 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-21-sticky-bun-day-us": {
+    "file": "sticky-bun-day",
+    "alt": "피칸을 얹은 캐러멜 스티키 번 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-22-cook-a-sweet-potato-day-global": {
+    "file": "sweet-potato-day",
+    "alt": "속이 노랗게 익은 군고구마 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-22-margarita-day-us": {
+    "file": "margarita-day",
+    "alt": "소금 테를 두른 마가리타 한 잔 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-23-banana-bread-day-us": {
+    "file": "banana-bread-day",
+    "alt": "잘라 놓은 바나나 브레드와 바나나 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-26-pistachio-day-global": {
+    "file": "pistachio-day",
+    "alt": "껍데기가 벌어진 피스타치오 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-27-international-polar-bear-day-global": {
+    "file": "polar-bear-day",
+    "alt": "작은 얼음 조각 위에 선 북극곰 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-25-clam-chowder-day-us": {
+    "file": "clam-chowder-day",
+    "alt": "빵 그릇에 담긴 클램 차우더 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-27-strawberry-day-us": {
+    "file": "strawberry-day",
+    "alt": "잎이 달린 딸기와 반으로 자른 딸기 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
   }
 }
