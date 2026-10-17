@@ -453,8 +453,8 @@
   },
   {
     "id": "anv-fixed-11-05-men-make-dinner-day-us",
-    "date": "11-05",
-    "dateType": "annual-fixed",
+    "date": "11-1-THU",
+    "dateType": "annual-nth-weekday",
     "name": "남편이 저녁 차리는 날 (National Men Make Dinner Day)",
     "category": "food",
     "tags": [
@@ -1690,8 +1690,8 @@
   },
   {
     "id": "anv-fixed-11-19-great-american-smokeout-us",
-    "date": "11-19",
-    "dateType": "annual-fixed",
+    "date": "11-3-THU",
+    "dateType": "annual-nth-weekday",
     "name": "담배 끊는 날 (Great American Smokeout)",
     "category": "campaign",
     "tags": [
@@ -1909,8 +1909,8 @@
   },
   {
     "id": "anv-fixed-11-20-world-pancreatic-cancer-day-global",
-    "date": "11-20",
-    "dateType": "annual-fixed",
+    "date": "11-3-THU",
+    "dateType": "annual-nth-weekday",
     "name": "세계 췌장암 인식의 날",
     "category": "campaign",
     "tags": [
@@ -2414,8 +2414,8 @@
   },
   {
     "id": "anv-fixed-11-28-aura-awareness-day-global",
-    "date": "11-28",
-    "dateType": "annual-fixed",
+    "date": "11-4-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "세계 아우라 인식의 날 (International Aura Awareness Day)",
     "category": "quirky",
     "tags": [

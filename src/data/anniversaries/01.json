@@ -171,8 +171,8 @@
   },
   {
     "id": "anv-fixed-01-03-fruitcake-toss-day-us",
-    "date": "01-03",
-    "dateType": "annual-fixed",
+    "date": "01-1-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "프루트케이크 던지기의 날",
     "category": "food",
     "tags": [
@@ -193,8 +193,8 @@
   },
   {
     "id": "anv-fixed-01-04-thank-god-its-monday-day-us",
-    "date": "01-04",
-    "dateType": "annual-fixed",
+    "date": "01-1-MON",
+    "dateType": "annual-nth-weekday",
     "name": "먼데이 감사의 날",
     "category": "career",
     "tags": [
@@ -721,8 +721,8 @@
   },
   {
     "id": "anv-fixed-01-11-clean-off-your-desk-day-us",
-    "date": "01-11",
-    "dateType": "annual-fixed",
+    "date": "01-2-MON",
+    "dateType": "annual-nth-weekday",
     "name": "책상 정리의 날",
     "category": "career",
     "tags": [
@@ -1757,8 +1757,8 @@
   },
   {
     "id": "anv-fixed-01-28-have-fun-at-work-day-us",
-    "date": "01-28",
-    "dateType": "annual-fixed",
+    "date": "01-L-FRI",
+    "dateType": "annual-nth-weekday",
     "name": "일터에서 즐겁게 보내는 날",
     "category": "career",
     "tags": [
@@ -1861,8 +1861,8 @@
   },
   {
     "id": "anv-fixed-01-30-seed-swap-day-global",
-    "date": "01-30",
-    "dateType": "annual-fixed",
+    "date": "01-L-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "씨앗 교환의 날",
     "category": "animal",
     "tags": [

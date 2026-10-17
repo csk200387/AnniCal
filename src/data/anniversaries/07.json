@@ -763,8 +763,8 @@
   },
   {
     "id": "anv-fixed-07-10-collector-car-appreciation-day-us",
-    "date": "07-10",
-    "dateType": "annual-fixed",
+    "date": "07-2-FRI",
+    "dateType": "annual-nth-weekday",
     "name": "클래식카 애호가의 날",
     "category": "general",
     "tags": [
@@ -1110,8 +1110,8 @@
   },
   {
     "id": "anv-fixed-07-13-french-fry-day-us",
-    "date": "07-13",
-    "dateType": "annual-fixed",
+    "date": "07-2-FRI",
+    "dateType": "annual-nth-weekday",
     "name": "감자튀김의 날 (National French Fry Day)",
     "category": "food",
     "tags": [
@@ -1549,8 +1549,8 @@
   },
   {
     "id": "anv-fixed-07-18-woodie-wagon-day-us",
-    "date": "07-18",
-    "dateType": "annual-fixed",
+    "date": "07-3-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "우디 왜건의 날",
     "category": "general",
     "tags": [
@@ -1593,8 +1593,8 @@
   },
   {
     "id": "anv-fixed-07-18-toss-away-the-could-haves-and-should-haves-day-us",
-    "date": "07-18",
-    "dateType": "annual-fixed",
+    "date": "07-3-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "후회를 떠나보내는 날",
     "category": "quirky",
     "tags": [
@@ -1676,8 +1676,8 @@
   },
   {
     "id": "anv-fixed-07-20-get-out-of-the-dog-house-day-us",
-    "date": "07-20",
-    "dateType": "annual-fixed",
+    "date": "07-3-MON",
+    "dateType": "annual-nth-weekday",
     "name": "화해의 날 (National Get Out of the Dog House Day)",
     "category": "romance",
     "tags": [
@@ -1894,8 +1894,8 @@
   },
   {
     "id": "anv-fixed-07-23-refreshment-day-us",
-    "date": "07-23",
-    "dateType": "annual-fixed",
+    "date": "07-4-THU",
+    "dateType": "annual-nth-weekday",
     "name": "리프레시먼트의 날 (National Refreshment Day)",
     "category": "food",
     "tags": [
@@ -2092,8 +2092,8 @@
   },
   {
     "id": "anv-fixed-07-25-day-of-the-cowboy-us",
-    "date": "07-25",
-    "dateType": "annual-fixed",
+    "date": "07-4-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "카우보이의 날 (National Day of the Cowboy)",
     "category": "history",
     "tags": [
@@ -2487,8 +2487,8 @@
   },
   {
     "id": "anv-fixed-07-30-chili-dog-day-us",
-    "date": "07-30",
-    "dateType": "annual-fixed",
+    "date": "07-L-THU",
+    "dateType": "annual-nth-weekday",
     "name": "칠리도그의 날 (National Chili Dog Day)",
     "category": "food",
     "tags": [
@@ -2591,8 +2591,8 @@
   },
   {
     "id": "anv-fixed-07-31-talk-in-an-elevator-day-us",
-    "date": "07-31",
-    "dateType": "annual-fixed",
+    "date": "07-L-FRI",
+    "dateType": "annual-nth-weekday",
     "name": "엘리베이터에서 말 거는 날",
     "category": "quirky",
     "tags": [

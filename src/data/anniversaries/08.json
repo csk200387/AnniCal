@@ -23,8 +23,8 @@
   },
   {
     "id": "anv-fixed-08-01-mustard-day-us",
-    "date": "08-01",
-    "dateType": "annual-fixed",
+    "date": "08-1-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "머스터드의 날 (National Mustard Day)",
     "category": "food",
     "tags": [
@@ -45,8 +45,8 @@
   },
   {
     "id": "anv-fixed-08-01-mead-day-global",
-    "date": "08-01",
-    "dateType": "annual-fixed",
+    "date": "08-1-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "미드(꿀술)의 날",
     "category": "food",
     "tags": [
@@ -133,8 +133,8 @@
   },
   {
     "id": "anv-fixed-08-01-jamaican-patty-day-us",
-    "date": "08-01",
-    "dateType": "annual-fixed",
+    "date": "08-1-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "자메이카 패티의 날",
     "category": "food",
     "tags": [
@@ -193,8 +193,8 @@
   },
   {
     "id": "anv-fixed-08-02-kids-day-global",
-    "date": "08-02",
-    "dateType": "annual-fixed",
+    "date": "08-1-SUN",
+    "dateType": "annual-nth-weekday",
     "name": "어린이의 날 (National Kids Day)",
     "category": "campaign",
     "tags": [
@@ -215,8 +215,8 @@
   },
   {
     "id": "anv-fixed-08-02-sisters-day-us",
-    "date": "08-02",
-    "dateType": "annual-fixed",
+    "date": "08-1-SUN",
+    "dateType": "annual-nth-weekday",
     "name": "자매의 날 (National Sisters Day)",
     "category": "general",
     "tags": [
@@ -237,8 +237,8 @@
   },
   {
     "id": "anv-fixed-08-02-friendship-day-us",
-    "date": "08-02",
-    "dateType": "annual-fixed",
+    "date": "08-1-SUN",
+    "dateType": "annual-nth-weekday",
     "name": "친구의 날 (National Friendship Day)",
     "category": "quirky",
     "tags": [
@@ -347,8 +347,8 @@
   },
   {
     "id": "anv-fixed-08-04-night-out-day-us",
-    "date": "08-04",
-    "dateType": "annual-fixed",
+    "date": "08-1-TUE",
+    "dateType": "annual-nth-weekday",
     "name": "나이트 아웃 데이 (National Night Out Day)",
     "category": "campaign",
     "tags": [
@@ -643,8 +643,8 @@
   },
   {
     "id": "anv-fixed-08-08-garage-sale-day-us",
-    "date": "08-08",
-    "dateType": "annual-fixed",
+    "date": "08-2-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "마당 세일의 날 (National Garage Sale Day)",
     "category": "quirky",
     "tags": [
@@ -687,8 +687,8 @@
   },
   {
     "id": "anv-fixed-08-08-bowling-day-us",
-    "date": "08-08",
-    "dateType": "annual-fixed",
+    "date": "08-2-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "볼링의 날 (National Bowling Day)",
     "category": "sports",
     "tags": [

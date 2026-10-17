@@ -326,8 +326,8 @@
   },
   {
     "id": "anv-fixed-12-04-faux-fur-friday-global",
-    "date": "12-04",
-    "dateType": "annual-fixed",
+    "date": "12-1-FRI",
+    "dateType": "annual-nth-weekday",
     "name": "인조 모피의 날 (Faux Fur Friday)",
     "category": "campaign",
     "tags": [
@@ -1031,8 +1031,8 @@
   },
   {
     "id": "anv-fixed-12-12-shareware-day-global",
-    "date": "12-12",
-    "dateType": "annual-fixed",
+    "date": "12-2-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "세계 셰어웨어의 날 (International Shareware Day)",
     "category": "academic",
     "tags": [
@@ -1185,8 +1185,8 @@
   },
   {
     "id": "anv-fixed-12-13-worldwide-candle-lighting-day-global",
-    "date": "12-13",
-    "dateType": "annual-fixed",
+    "date": "12-2-SUN",
+    "dateType": "annual-nth-weekday",
     "name": "세계 촛불 추모의 날 (Worldwide Candle Lighting Day)",
     "category": "history",
     "tags": [
@@ -1207,8 +1207,8 @@
   },
   {
     "id": "anv-fixed-12-13-choral-day-global",
-    "date": "12-13",
-    "dateType": "annual-fixed",
+    "date": "12-2-SUN",
+    "dateType": "annual-nth-weekday",
     "name": "세계 합창의 날 (World Choral Day)",
     "category": "culture",
     "tags": [
@@ -1552,8 +1552,8 @@
   },
   {
     "id": "anv-fixed-12-17-re-gifting-day-us",
-    "date": "12-17",
-    "dateType": "annual-fixed",
+    "date": "12-3-THU",
+    "dateType": "annual-nth-weekday",
     "name": "선물 재활용의 날 (National Re-Gifting Day)",
     "category": "quirky",
     "tags": [
@@ -1574,8 +1574,8 @@
   },
   {
     "id": "anv-fixed-12-18-ugly-christmas-sweater-day-global",
-    "date": "12-18",
-    "dateType": "annual-fixed",
+    "date": "12-3-FRI",
+    "dateType": "annual-nth-weekday",
     "name": "못생긴 크리스마스 스웨터의 날",
     "category": "culture",
     "tags": [
@@ -1684,8 +1684,8 @@
   },
   {
     "id": "anv-fixed-12-18-underdog-day-global",
-    "date": "12-18",
-    "dateType": "annual-fixed",
+    "date": "12-3-FRI",
+    "dateType": "annual-nth-weekday",
     "name": "언더독의 날 (Underdog Day)",
     "category": "sports",
     "tags": [
