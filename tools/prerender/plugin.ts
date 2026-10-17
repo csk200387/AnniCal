@@ -76,6 +76,23 @@ const escPath = (s: string): string => encodeURIComponent(s)
 /** 외부 링크에 일관되게 붙이는 rel — referrer 유출과 탭 탈취를 함께 막는다. */
 const EXTERNAL_REL = 'noopener noreferrer nofollow'
 
+const ILLUSTRATIONS = JSON.parse(
+  readFileSync(new URL('../../src/data/illustrations.json', import.meta.url), 'utf-8'),
+) as Record<string, { file: string; alt: string; credit: string }>
+
+// 수채화 도판. Vue 화면(히어로 옆)보다 크게 둔다 — mount 때 다시 그려지는 그림이 더
+// 작아야 그 시점이 새 LCP 로 잡히지 않는다.
+function plate(id: string): string {
+  const il = ILLUSTRATIONS[id]
+  if (!il) return ''
+  const f = `/illustrations/${escPath(il.file)}`
+  return (
+    `<figure><img src="${f}-1200.webp" srcset="${f}-640.webp 640w, ${f}-1200.webp 1200w" ` +
+    `sizes="100vw" width="1200" height="800" alt="${esc(il.alt)}" fetchpriority="high" ` +
+    `style="width:100%;height:auto"><figcaption>${esc(il.credit)}</figcaption></figure>`
+  )
+}
+
 /** 상세 페이지 본문 — Vue 가 그리는 내용과 같은 텍스트를 같은 순서로. */
 export function detailBody(
   anv: Anniversary,
@@ -115,6 +132,7 @@ export function detailBody(
   return (
     `<nav><a href="/">홈</a> / <a href="${hub}">${koreanDate(displayDate)}</a></nav>` +
     `<article><h1>${esc(anv.name)}</h1><p>${esc(dateLabel)}</p>` +
+    plate(anv.id) +
     `${story}${quotes}${tags}${source}</article>${others}` +
     `<p><a href="${hub}">${koreanDate(displayDate)}은 무슨 날인지 전부 보기</a></p>`
   )
