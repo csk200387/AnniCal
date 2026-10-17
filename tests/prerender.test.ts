@@ -126,9 +126,9 @@ describe.runIf(existsSync(join(DIST, 'index.html')))('빌드 산출물', () => {
     expect(html).toContain('<article>')
     expect(html).toContain('application/ld+json')
     expect(html).not.toContain('<div id="app"></div>')
-    expect(html).toMatch(
-      new RegExp(`<link rel="modulepreload" crossorigin href="/assets/${r.urlDate.slice(0, 2)}-`),
-    )
+    // SSR 이 실제 화면을 렌더하고, 그 화면의 CSS 가 <head> 에 걸린다.
+    expect(html).toContain('class="article-body"')
+    expect(html).toMatch(/<link rel="stylesheet" href="\/assets\/article-[^"]+\.css"/)
   })
 
   // main.ts 는 상세 mount 전에 urlDate 의 달 하나만 기다린다. 기념일이나 그 기준일이
