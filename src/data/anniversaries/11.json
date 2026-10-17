@@ -1450,7 +1450,7 @@
     "id": "anv-fixed-11-16-button-day-us",
     "date": "11-16",
     "dateType": "annual-fixed",
-    "name": "버튼의 날 (National Button Day)",
+    "name": "단추의 날 (National Button Day)",
     "category": "history",
     "tags": [
       "역사 & 추모"
@@ -1463,7 +1463,7 @@
       {
         "type": "text",
         "url": null,
-        "caption": "버튼 하나 떨어지면 그날 하루가 묘하게 신경 쓰이는 그 작은 존재감"
+        "caption": "단추 하나 떨어지면 그날 하루가 묘하게 신경 쓰이는 그 작은 존재감"
       }
     ],
     "sourceUrl": "https://nationaldaycalendar.com/celebrations/national-button-day-november-16"
