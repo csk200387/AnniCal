@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { FEED_WINDOW_DAYS } from '@/utils/months'
 import { computed, ref, watch } from 'vue'
 import dayjs from 'dayjs'
 import { RouterLink } from 'vue-router'
@@ -20,7 +21,7 @@ import UiButton from '@/components/ui/UiButton.vue'
 import PromoCard from '@/components/ui/PromoCard.vue'
 import '@/assets/feed.css'
 
-const { todays, upcoming, today, loading, error, retry } = useTodayFeed(30)
+const { todays, upcoming, today, loading, error, retry } = useTodayFeed(FEED_WINDOW_DAYS)
 const { vReveal, reducedMotion } = useFeedMotion()
 const shareStore = useShareStore()
 const store = useAnniversariesStore()

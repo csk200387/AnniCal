@@ -89,6 +89,7 @@ export const useStatsStore = defineStore('stats', () => {
   }
 
   async function refresh(anniversaryId: string | null = null): Promise<void> {
+    if (import.meta.env.SSR) return // 빌드 때 렌더에서는 통계 API 가 없다
     const requestNumber = ++latestRequest
     isLoading.value = true
     try {
@@ -104,6 +105,7 @@ export const useStatsStore = defineStore('stats', () => {
   }
 
   async function trackPage(anniversaryId: string | null = null): Promise<void> {
+    if (import.meta.env.SSR) return // 빌드 때 렌더에서는 통계 API 가 없다
     // 브라우저의 추적 거부 의사는 존중하되, 공개된 집계값은 그대로 보여준다.
     if (navigator.doNotTrack === '1') {
       await refresh(anniversaryId)

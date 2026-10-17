@@ -43,19 +43,8 @@ function loadMonth(month: number): Promise<Anniversary[]> {
   return p
 }
 
-/**
- * 어떤 달에 "발생하는" 기념일이 들어 있을 수 있는 파일들.
- *
- * 파일은 기준연도(2026) 발생 월로 나뉘어 있지만 실제 발생일은 움직인다.
- * 음력 명절은 최대 한 달까지 밀리고(설날은 1월·2월 양쪽), 기준일 상대 기념일은
- * 며칠 차이로 달을 넘을 수 있다. 그래서 앞뒤 달을 함께 읽는다.
- * (anchor 는 항상 같은 파일에 함께 있으므로 추가로 챙길 필요가 없다.)
- */
-export function monthsCovering(month: number): number[] {
-  const prev = month === 1 ? 12 : month - 1
-  const next = month === 12 ? 1 : month + 1
-  return [prev, month, next]
-}
+// 월 계산은 첫 화면 데이터 결정(initialMonths)과 함께 utils/months.ts 에 있다.
+export { monthsCovering } from '@/utils/months'
 
 export const anniversaryRepository = {
   /** 지정한 달들만 로드해 합친다. 이미 받은 달은 캐시에서 바로 나온다. */

@@ -52,8 +52,15 @@
   주소는 영원히 `/day/05-10/...` 이지만 2027년 실제 날짜는 5월 9일이다. 화면에
   보이는 날짜·날짜 허브 소속·SEO 문구는 전부 `resolveOccurrence(anv, 연도)` 로
   그 해 실제 날짜를 구해서 쓴다. `urlDate` 를 표시에 그대로 쓰면 안 된다.
-  프리렌더 HTML 은 빌드한 해의 날짜로 박히므로 매년 1월 1일
-  `.github/workflows/yearly-rebuild.yml` 이 Vercel Deploy Hook 으로 다시 빌드한다.
+  프리렌더 HTML 은 빌드한 날 기준이라 `.github/workflows/daily-rebuild.yml` 이 매일
+  00:05 KST 에 Vercel Deploy Hook 으로 다시 빌드한다(홈 피드·해가 바뀌는 날짜).
+- **프리렌더는 Vue SSR 이다.** `tools/prerender/plugin.ts` 가 빌드 때 앱을 렌더하고
+  (`src/entry-server.ts`), 브라우저는 그 DOM 을 갈아끼우지 않고 hydrate 한다
+  (`src/main.ts`). 그래서 두 가지를 지킨다.
+  - 컴포넌트 setup·렌더 중에 `window`·`document`·`localStorage` 를 바로 쓰지 말 것 —
+    `onMounted` 안이나 `import.meta.env.SSR` 확인 뒤에. 안 그러면 빌드가 깨진다.
+  - 첫 화면 데이터는 `src/utils/months.ts` 의 `initialMonths` 하나가 정한다. 서버
+    렌더와 브라우저 hydrate 가 같은 달을 들고 시작해야 화면이 바뀌어 보이지 않는다.
 - **기념일과 그 기준일은 `urlDate` 와 같은 달 파일에 둔다.** 상세 페이지는 첫
   화면에 그 달 파일 하나만 받고 mount 한다(`src/main.ts`). 다른 달 파일에 있으면
   mount 직후 정적 본문이 스켈레톤으로 바뀐다. `tests/prerender.test.ts` 가 지킨다.
@@ -62,11 +69,11 @@
   `datePublished`·`dateModified` 가 여기서 나온다. Vercel 은 얕은 클론이라 빌드 때
   git 으로 항목별 날짜를 구할 수 없어 전체 이력이 있는 로컬에서 미리 계산한다.
   빠뜨리면 그 항목은 파일 단위 날짜로 물러서고, `--check` 가 어긋난 항목을 알려 준다.
-- **새 공개 페이지를 만들면 네 곳에 함께 등록한다.** `src/seo/pages.ts` 의
-  `PAGE_META`, 프리렌더 본문(`tools/prerender/plugin.ts`), 사이트맵
+- **새 공개 페이지를 만들면 함께 등록한다.** 라우터(`src/router/index.ts`),
+  `src/seo/pages.ts` 의 `PAGE_META`(프리렌더가 이 목록으로 페이지를 만든다), 사이트맵
   (`tools/prerender/routes.ts` 의 `buildSitemap`), 정적 OG 이미지
-  (`tools/og/generate.ts` → `npm run og:static`). 사이트맵은 프리렌더가 직접 쓰므로
-  빠뜨리면 조용히 빠진다.
+  (`tools/og/generate.ts` → `npm run og:static`). 첫 화면에 데이터가 필요하면
+  `initialMonths` 에도. 사이트맵은 프리렌더가 직접 쓰므로 빠뜨리면 조용히 빠진다.
 
 ---
 

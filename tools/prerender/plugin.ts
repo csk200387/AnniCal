@@ -1,16 +1,16 @@
-// 빌드 후 기념일 상세·날짜 허브를 정적 HTML 로 찍어내는 Vite 플러그인.
+// 빌드 후 모든 공개 페이지를 HTML 로 찍어내는 Vite 플러그인.
 //
-// 왜 필요한가: 이 앱은 CSR SPA 라 index.html 본문이 <div id="app"></div> 뿐이다.
-// 구글은 JS 를 실행해 주지만 네이버 크롤러(Yeti)는 사실상 실행하지 않아, 검색엔진에
-// 빈 페이지로 보인다. 각 기념일의 본문을 HTML 에 직접 박아두면 JS 없이도 읽힌다.
-// Vue 는 부팅하면서 #app 안을 자기 렌더 결과로 교체하므로 사용자 경험은 그대로다.
+// 왜 필요한가: 이 앱은 SPA 라 index.html 본문이 <div id="app"></div> 뿐이다. 네이버
+// 크롤러(Yeti)·AI 크롤러는 JS 를 실행하지 않아 빈 페이지로 본다. 그래서 빌드 때 앱을
+// Vue 로 직접 렌더해(src/entry-server.ts) 그 HTML 을 박아 둔다. 브라우저는 이 DOM 을
+// 이어받으므로(hydrate) 새로고침 때 화면이 바뀌어 보이지도 않는다.
 //
-// title/description 문구는 src/seo/meta.ts 의 함수를 그대로 import 해서 쓴다.
-// 정적 HTML 과 SPA 가 서로 다른 제목을 내는 사고를 막기 위함이다.
-import { mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
+// <head> 의 title/description/JSON-LD 는 여기서 채운다. 문구는 src/seo/meta.ts 의
+// 함수를 그대로 써서 정적 HTML 과 SPA 가 서로 다른 제목을 내는 사고를 막는다.
+import { mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs'
 import { dirname, join, resolve, sep } from 'node:path'
-import type { Plugin } from 'vite'
-import type { Anniversary } from '../../src/types/anniversary'
+import { pathToFileURL } from 'node:url'
+import { build, type Plugin } from 'vite'
 import {
   SITE_NAME,
   SITE_URL,
@@ -20,23 +20,13 @@ import {
   dateHubDescription,
   dateHubJsonLd,
   dateHubTitle,
-  isHttpUrl,
   safeJsonLd,
 } from '../../src/seo/meta'
-import { koreanDate } from '../../src/utils/format'
 import { ogImageUrl, type StaticPage } from '../../src/seo/og'
 import { PAGE_META } from '../../src/seo/pages'
-import { ABOUT_EMAIL, ABOUT_SECTIONS } from '../../src/features/about/content'
-import { formatKoreanMonthDay } from '../../src/utils/dateUtils'
-import {
-  buildSitemap,
-  buildTargets,
-  DISPLAY_YEAR,
-  loadLastmod,
-  loadRoutes,
-  shiftUrlDate,
-  type PrerenderTarget,
-} from './routes'
+import { initialMonths } from '../../src/utils/months'
+import { todayInSiteZone } from '../../src/utils/clock'
+import { buildSitemap, buildTargets, loadLastmod, loadRoutes, type PrerenderTarget } from './routes'
 
 /** HTML 텍스트·속성 문맥 이스케이프. 속성은 항상 큰따옴표로 감싼다. */
 const esc = (s: string): string =>
@@ -65,95 +55,24 @@ function imageMeta(html: string, image: string, alt: string): string {
 }
 
 /**
- * URL 경로 조각 이스케이프.
- *
- * slug 와 날짜는 generate_slugs.py 와 buildTargets 이 이미 검증하지만, href 로
- * 나가는 값은 한 겹 더 감싼다. 검증을 우회한 값이 링크를 깨뜨리거나 속성을
- * 탈출하지 못하게 하는 게 목적이다.
+ * 앱을 SSR 용으로 따로 빌드해 render() 를 돌려준다.
+ * 같은 vite.config 를 쓰되 이 플러그인은 SSR 빌드에서 꺼진다(apply).
  */
-const escPath = (s: string): string => encodeURIComponent(s)
-
-/** 외부 링크에 일관되게 붙이는 rel — referrer 유출과 탭 탈취를 함께 막는다. */
-const EXTERNAL_REL = 'noopener noreferrer nofollow'
-
-/** 상세 페이지 본문 — Vue 가 그리는 내용과 같은 텍스트를 같은 순서로. */
-export function detailBody(
-  anv: Anniversary,
-  displayDate: string,
-  sameDay: Anniversary[],
-  routes: Record<string, { slug: string; urlDate: string }>,
-  year = DISPLAY_YEAR,
-): string {
-  const link = (a: Anniversary) => {
-    const r = routes[a.id]
-    if (!r) return ''
-    return `<li><a href="/day/${escPath(r.urlDate)}/${escPath(r.slug)}">${esc(a.name)}</a></li>`
-  }
-  const story = [
-    anv.storytelling.origin?.trim()
-      ? `<section><h2>유래</h2><p>${esc(anv.storytelling.origin)}</p></section>`
-      : '',
-    anv.storytelling.anecdote?.trim()
-      ? `<section><h2>이야깃거리</h2><p>${esc(anv.storytelling.anecdote)}</p></section>`
-      : '',
-  ].join('')
-  const quotes = anv.memes.length
-    ? `<aside>${anv.memes.map((m) => `<blockquote>${esc(m.caption)}</blockquote>`).join('')}</aside>`
-    : ''
-  const tags = anv.tags.length
-    ? `<ul>${anv.tags.map((t) => `<li>${esc(t)}</li>`).join('')}</ul>`
-    : ''
-  const source = isHttpUrl(anv.sourceUrl)
-    ? `<p>출처 <a href="${esc(anv.sourceUrl)}" rel="${EXTERNAL_REL}">${esc(anv.sourceUrl)}</a></p>`
-    : ''
-  const hub = `/day/${escPath(displayDate)}`
-  const dateLabel = formatKoreanMonthDay(anv, year) ?? koreanDate(displayDate)
-  const others = sameDay.length
-    ? `<section><h2>${koreanDate(displayDate)}의 다른 기념일</h2><ul>${sameDay.map(link).join('')}</ul></section>`
-    : ''
-
-  return (
-    `<nav><a href="/">홈</a> / <a href="${hub}">${koreanDate(displayDate)}</a></nav>` +
-    `<article><h1>${esc(anv.name)}</h1><p>${esc(dateLabel)}</p>` +
-    `${story}${quotes}${tags}${source}</article>${others}` +
-    `<p><a href="${hub}">${koreanDate(displayDate)}은 무슨 날인지 전부 보기</a></p>`
-  )
+/** src/entry-server.ts 의 render() 결과. 앱 코드를 노드 타입 검사에 끌어오지 않으려고 따로 적는다. */
+interface Rendered {
+  html: string
+  modules: string[]
 }
 
-/** 날짜 허브 본문. */
-function hubBody(
-  urlDate: string,
-  items: Anniversary[],
-  routes: Record<string, { slug: string; urlDate: string }>,
-): string {
-  const rows = items
-    .map((a) => {
-      const r = routes[a.id]
-      if (!r) return ''
-      const lead = a.storytelling.origin?.trim()
-      return (
-        `<li><a href="/day/${escPath(r.urlDate)}/${escPath(r.slug)}"><h2>${esc(a.name)}</h2></a>` +
-        (lead ? `<p>${esc(lead)}</p>` : '') +
-        '</li>'
-      )
-    })
-    .join('')
-
-  // 366일 고리를 따라 이동한다. 비윤년 Date 산술을 쓰던 시절엔 02-29 가 03-01 로
-  // normalize 돼 다음 날이 03-02 가 됐다.
-  const shift = (n: number) => {
-    const p = shiftUrlDate(urlDate, n)
-    return p ? `<a href="/day/${escPath(p)}">${koreanDate(p)}</a>` : ''
-  }
-
-  return (
-    `<nav><a href="/">홈</a> / ${koreanDate(urlDate)}</nav>` +
-    `<h1>${koreanDate(urlDate)}은 무슨 날?</h1>` +
-    (items.length
-      ? `<p>${koreanDate(urlDate)}에 있는 기념일 ${items.length}개를 모았어요.</p><ul>${rows}</ul>`
-      : `<p>${koreanDate(urlDate)}에 등록된 기념일이 아직 없어요.</p>`) +
-    `<nav>${shift(-1)} · <a href="/calendar">달력 전체</a> · ${shift(1)}</nav>`
-  )
+async function loadRenderer(root: string): Promise<(url: string) => Promise<Rendered>> {
+  const out = join(root, 'node_modules/.annical-ssr')
+  await build({
+    root,
+    logLevel: 'warn',
+    build: { ssr: 'src/entry-server.ts', outDir: out, emptyOutDir: true, manifest: false },
+  })
+  const mod = await import(`${pathToFileURL(join(out, 'entry-server.js')).href}?t=${Date.now()}`)
+  return mod.render
 }
 
 /**
@@ -180,14 +99,36 @@ function jsonLd(t: PrerenderTarget, url: string, description: string, slug = '')
 
 export function prerender(): Plugin {
   let outDir = 'dist'
+  let root = process.cwd()
   return {
     name: 'annical-prerender',
-    apply: 'build',
+    apply: (config, env) => env.command === 'build' && !config.build?.ssr,
     configResolved(c) {
-      outDir = c.build.outDir
+      outDir = resolve(c.root, c.build.outDir)
+      root = c.root
     },
-    closeBundle() {
+    async closeBundle() {
       const shell = readFileSync(join(outDir, 'index.html'), 'utf-8')
+      const render = await loadRenderer(root)
+      // 소스 모듈 → 빌드된 CSS·JS. 페이지가 쓴 화면의 CSS 를 <head> 에 걸어야
+      // JS 가 돌기 전에도 SSR HTML 이 제 모양으로 보인다. 공용 CSS(feed.css 등)는
+      // 따로 청크로 빠지므로 import 를 따라가며 모은다. 배포물에는 남기지 않는다.
+      const manifestDir = join(outDir, '.vite')
+      const manifest = JSON.parse(
+        readFileSync(join(manifestDir, 'manifest.json'), 'utf-8'),
+      ) as Record<string, { file: string; css?: string[]; imports?: string[] }>
+      rmSync(manifestDir, { recursive: true, force: true })
+      const assetsOf = (key: string, seen = new Set<string>()): string[] => {
+        const c = manifest[key]
+        if (!c || seen.has(key)) return []
+        seen.add(key)
+        return [
+          `/${c.file}`,
+          ...(c.css ?? []).map((f) => `/${f}`),
+          ...(c.imports ?? []).flatMap((k) => assetsOf(k, seen)),
+        ]
+      }
+      const today = todayInSiteZone()
       // 월 데이터 청크('01-<hash>.js'). 상세 HTML 이 자기 달을 modulepreload 해서
       // 메인 JS → 스토어 → 월 데이터로 이어지는 요청 사슬을 기다리지 않게 한다.
       const monthChunk = new Map(
@@ -198,6 +139,31 @@ export function prerender(): Plugin {
       )
       const targets = buildTargets()
       const routes = loadRoutes()
+
+      /** shell 의 #app 을 그 경로의 SSR 결과로 채우고, 필요한 CSS·JS 를 <head> 에 건다. */
+      const withApp = async (html: string, path: string): Promise<string> => {
+        const { html: body, modules } = await render(path)
+        const files = new Set(modules.flatMap((m) => assetsOf(m)))
+        // hydrate 전에 받는 달 데이터도 HTML 에서 바로 받기 시작한다(main.ts 의 warm).
+        for (const m of initialMonths(path, today)) {
+          const f = monthChunk.get(String(m).padStart(2, '0'))
+          if (f) files.add(`/assets/${f}`)
+        }
+        const links = [...files]
+          .filter((f) => !html.includes(`"${f}"`))
+          .map((f) =>
+            f.endsWith('.css')
+              ? `  <link rel="stylesheet" href="${esc(f)}" />`
+              : f.endsWith('.js')
+                ? `  <link rel="modulepreload" crossorigin href="${esc(f)}" />`
+                : '',
+          )
+          .filter(Boolean)
+          .join('\n')
+        return html
+          .replace('</head>', `${links}\n  </head>`)
+          .replace('<div id="app"></div>', () => `<div id="app">${body}</div>`)
+      }
       // 어떤 경로도 이 밖으로 나가면 안 된다. '../..' 가 든 slug 가 저장소
       // 파일을 덮어쓰는 것을 막는 마지막 방어선이다.
       const outRoot = resolve(outDir)
@@ -232,35 +198,7 @@ export function prerender(): Plugin {
             `<meta ${attr}="${key}" content="${esc(value)}" />`,
           )
         html = imageMeta(html, ogImageUrl(page), meta.title)
-        // 홈의 "오늘의 기념일"은 날마다 바뀌어 빌드 시점에 박을 수 없으므로,
-        // 날짜와 무관한 소개와 주요 링크만 넣는다. JS 를 안 돌리는 크롤러(네이버
-        // Yeti 등)가 홈에서 사이트 안으로 들어갈 길이 이것뿐이다.
-        const intro =
-          page === 'home'
-            ? `<p>${esc(meta.description)}. 기념일 ${targets.filter((t) => t.kind === 'detail').length}개의 유래와 이야깃거리를 날짜별로 정리했어요.</p>`
-            : page === 'about'
-              ? // 소개는 본문 전체가 콘텐츠다 — 설명 한 줄이 아니라 화면과 같은 글을 넣는다.
-                ABOUT_SECTIONS.map(
-                  (s) =>
-                    `<section><h2>${esc(s.title)}</h2>${s.paragraphs.map((p) => `<p>${esc(p)}</p>`).join('')}</section>`,
-                ).join('') + `<p>연락 <a href="mailto:${ABOUT_EMAIL}">${ABOUT_EMAIL}</a></p>`
-              : `<p>${esc(meta.description)}</p>`
-        const nav = (
-          [
-            ['/', '오늘의 기념일'],
-            ['/calendar', '기념일 달력'],
-            ['/popular', '인기 기념일'],
-            ['/birthday', '내 생일은?'],
-            ['/together', '우리의 날'],
-          ] as const
-        )
-          .filter(([href]) => href !== path)
-          .map(([href, label]) => `<a href="${href}">${label}</a>`)
-          .join(' · ')
-        html = html.replace(
-          '<div id="app"></div>',
-          `<div id="app"><h1>${esc(meta.title)}</h1>${intro}<nav>${nav}</nav></div>`,
-        )
+        html = await withApp(html, path)
         // Vercel 은 rewrite 전에 파일시스템을 확인하므로 공유 경로에 파일을 두면
         // 봇 UA rewrite 가 실행되지 않는다. 일반 요청만 /_pages HTML 로 rewrite 한다.
         const file =
@@ -269,11 +207,6 @@ export function prerender(): Plugin {
             : join(outDir, page === 'home' ? '' : page, 'index.html')
         mkdirSync(dirname(file), { recursive: true })
         writeFileSync(file, html, 'utf-8')
-      }
-
-      const byDate = new Map<string, Anniversary[]>()
-      for (const t of targets) {
-        if (t.kind === 'hub') byDate.set(t.urlDate, t.items ?? [])
       }
 
       for (const t of targets) {
@@ -289,15 +222,6 @@ export function prerender(): Plugin {
           ? anniversaryDescription(t.anniversary!, t.urlDate, shown)
           : dateHubDescription(t.urlDate, t.items ?? [])
         const fullTitle = `${title} | ${SITE_NAME}`
-        const body = isDetail
-          ? detailBody(
-              t.anniversary!,
-              shown,
-              (byDate.get(shown) ?? []).filter((a) => a.id !== t.anniversary!.id),
-              routes,
-            )
-          : hubBody(t.urlDate, t.items ?? [], routes)
-
         let html = shell
           .replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(fullTitle)}</title>`)
           .replace(
@@ -335,14 +259,8 @@ export function prerender(): Plugin {
             '</head>',
             `  <script type="application/ld+json" id="ld-page" data-prerendered="${esc(t.path)}">${jsonLd(t, url, description, isDetail ? routes[t.anniversary!.id].slug : '')}</script>\n  </head>`,
           )
-          .replace(
-            '</head>',
-            isDetail && monthChunk.has(t.urlDate.slice(0, 2))
-              ? `  <link rel="modulepreload" crossorigin href="/assets/${monthChunk.get(t.urlDate.slice(0, 2))}" />\n  </head>`
-              : '</head>',
-          )
-          .replace('<div id="app"></div>', `<div id="app">${body}</div>`)
 
+        html = await withApp(html, t.path)
         html = imageMeta(
           html,
           ogImageUrl(
@@ -370,19 +288,16 @@ export function prerender(): Plugin {
       // 없는 주소는 여기로 떨어지며 HTTP 상태도 진짜 404 가 된다. 예전에는
       // 모든 경로를 index.html 로 rewrite 해서 없는 페이지도 200 을 냈고,
       // 검색엔진이 그것들을 정상 페이지로 색인할 수 있었다.
-      const notFoundHtml = imageMeta(shell, `${SITE_URL}/og-cover.png`, '페이지를 찾을 수 없어요')
-        .replace(
-          /<title>[\s\S]*?<\/title>/,
-          `<title>${esc(`페이지를 찾을 수 없어요 | ${SITE_NAME}`)}</title>`,
-        )
-        .replace(/<link rel="canonical"[^>]*>/, '')
-        .replace('</head>', '  <meta name="robots" content="noindex, follow" />\n  </head>')
-        .replace(
-          '<div id="app"></div>',
-          '<div id="app"><h1>찾는 페이지가 없어요</h1>' +
-            '<p>주소가 바뀌었거나 잘못 입력했을 수 있어요.</p>' +
-            '<nav><a href="/">오늘의 기념일</a> · <a href="/calendar">달력에서 찾아보기</a></nav></div>',
-        )
+      const notFoundHtml = await withApp(
+        imageMeta(shell, `${SITE_URL}/og-cover.png`, '페이지를 찾을 수 없어요')
+          .replace(
+            /<title>[\s\S]*?<\/title>/,
+            `<title>${esc(`페이지를 찾을 수 없어요 | ${SITE_NAME}`)}</title>`,
+          )
+          .replace(/<link rel="canonical"[^>]*>/, '')
+          .replace('</head>', '  <meta name="robots" content="noindex, follow" />\n  </head>'),
+        '/404',
+      )
       writeFileSync(join(outDir, '404.html'), notFoundHtml, 'utf-8')
 
       // 사이트맵. 프리렌더가 만든 경로가 곧 색인 대상이다 — 내부 rewrite 대상

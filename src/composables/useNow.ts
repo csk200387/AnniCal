@@ -35,6 +35,8 @@ function onVisibilityChange(): void {
 }
 
 function start(): void {
+  // 빌드 때 렌더(SSR)에서 자정 타이머를 걸면 빌드 프로세스가 끝나지 않는다.
+  if (import.meta.env.SSR) return
   scheduleNextMidnight()
   if (typeof document !== 'undefined') {
     document.addEventListener('visibilitychange', onVisibilityChange)

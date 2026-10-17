@@ -104,6 +104,7 @@ function applyPageMeta(title: string, description: string, path: string, image =
  * 라우트 meta 가 비어 있으면 홈 기준 기본값으로 폴백한다.
  */
 export function applyRouteMeta(to: RouteLocationNormalized): void {
+  if (import.meta.env.SSR) return // 프리렌더가 <head> 를 따로 채운다
   const description = to.meta.description ?? DEFAULT_DESCRIPTION
   applyPageMeta(to.meta.title ?? '', description, to.path, to.meta.ogImage)
 
@@ -121,6 +122,7 @@ export function applyRouteMeta(to: RouteLocationNormalized): void {
  * urlDate 를 그대로 쓰고(색인 유지), 사람이 읽는 문구에만 실제 날짜를 쓴다.
  */
 export function applyAnniversaryMeta(anv: Anniversary, path: string, displayDate?: string): void {
+  if (import.meta.env.SSR) return // 프리렌더가 <head> 를 따로 채운다
   const urlDate = path.split('/')[2] ?? ''
   const shown = displayDate ?? urlDate
   const description = anniversaryDescription(anv, urlDate, shown)
@@ -138,6 +140,7 @@ export function applyAnniversaryMeta(anv: Anniversary, path: string, displayDate
  * 오류 페이지를 보게 된다.
  */
 export function applyNotFoundMeta(path: string): void {
+  if (import.meta.env.SSR) return // 프리렌더가 <head> 를 따로 채운다
   applyPageMeta('페이지를 찾을 수 없어요', DEFAULT_DESCRIPTION, path)
   upsertMeta('property', 'og:type', 'website')
   upsertMeta('name', 'robots', 'noindex, follow')
@@ -146,6 +149,7 @@ export function applyNotFoundMeta(path: string): void {
 
 /** 날짜 허브 페이지 — CollectionPage/Breadcrumb JSON-LD. */
 export function applyDateHubMeta(urlDate: string, items: Anniversary[]): void {
+  if (import.meta.env.SSR) return // 프리렌더가 <head> 를 따로 채운다
   const description = dateHubDescription(urlDate, items)
   const url = applyPageMeta(
     dateHubTitle(urlDate),

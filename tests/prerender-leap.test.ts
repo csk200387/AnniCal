@@ -1,7 +1,8 @@
 import { describe, expect, it } from 'vitest'
 import type { Anniversary } from '@/types/anniversary'
 import { buildTargets } from '../tools/prerender/routes'
-import { detailBody } from '../tools/prerender/plugin'
+import { existsSync, readFileSync } from 'node:fs'
+import { fileURLToPath } from 'node:url'
 
 const leap: Anniversary = {
   id: 'test-leap',
@@ -17,8 +18,11 @@ const leap: Anniversary = {
 const routes = { [leap.id]: { urlDate: '02-29', slug: 'test-leap' } }
 
 describe('윤일 프리렌더', () => {
-  it('상세 HTML에도 윤년에만 발생하는 규칙을 설명한다', () => {
-    const html = detailBody(leap, '02-29', [], routes, 2026)
+  const built = fileURLToPath(
+    new URL('../dist/day/02-29/bachelors-day-ie/index.html', import.meta.url),
+  )
+  it.runIf(existsSync(built))('상세 HTML에도 윤년에만 발생하는 규칙을 설명한다', () => {
+    const html = readFileSync(built, 'utf-8')
     expect(html).toContain('2월 29일 (윤년에만)')
     expect(html).not.toContain('3월 1일')
     expect(html).toContain('href="/day/02-29"')

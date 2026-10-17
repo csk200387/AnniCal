@@ -1,6 +1,6 @@
 import { computed } from 'vue'
 import { useAnniversariesStore } from '@/stores/anniversaries'
-import { monthsCovering } from '@/services/anniversaryRepository'
+import { feedMonths } from '@/utils/months'
 import { useMonths } from '@/composables/useMonths'
 import { useNow } from '@/composables/useNow'
 import { isToday, daysUntil } from '@/utils/dateUtils'
@@ -22,14 +22,7 @@ export function useTodayFeed(upcomingWindowDays: number) {
   // 오늘과 앞뒤 달이면 "오늘 + 다가오는 N일"은 확정된다. 나머지 달은 받지
   // 않는다 — 예전에는 달력으로 넘어갈 때를 대비해 뒤이어 12개월(약 1MB)을 다
   // 받았는데, 홈만 보고 떠나는 사람이 그 값을 치렀다. 달력이 필요할 때 받는다.
-  const { loading, error, retry } = useMonths(() => {
-    const now = today.value
-    const end = new Date(now)
-    end.setDate(end.getDate() + upcomingWindowDays)
-    return [
-      ...new Set([...monthsCovering(now.getMonth() + 1), ...monthsCovering(end.getMonth() + 1)]),
-    ]
-  })
+  const { loading, error, retry } = useMonths(() => feedMonths(today.value, upcomingWindowDays))
 
   const todays = computed<Anniversary[]>(() => store.items.filter((a) => isToday(a, today.value)))
 

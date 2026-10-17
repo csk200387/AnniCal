@@ -188,11 +188,11 @@ npm run og:static
 │   ├── namuwiki/                     # 나무위키 데이터 수집·대조
 │   ├── og/                           # 폰트 서브셋·정적 PNG·검토 샘플 생성
 │   ├── observances/                  # observances 생성 도구
-│   ├── prerender/                    # 상세·날짜 허브 정적 HTML 생성
+│   ├── prerender/                    # 공개 페이지를 Vue SSR 로 렌더해 정적 HTML 생성
 │   ├── research/                     # 조사 자료
 │   └── slugs/                        # slug·routes.json 생성 및 검증
 ├── index.html                        # Vite HTML 진입점
-├── vite.config.ts                    # Vite·사이트맵·프리렌더 설정
+├── vite.config.ts                    # Vite·프리렌더 설정
 └── vercel.json                       # rewrite·보안 헤더 설정
 ```
 
