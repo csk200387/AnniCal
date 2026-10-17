@@ -1348,13 +1348,13 @@
     "id": "anv-fixed-05-10-world-lupus-day",
     "date": "05-10",
     "dateType": "annual-fixed",
-    "name": "세계 루퍼스의 날",
+    "name": "세계 루푸스의 날",
     "category": "campaign",
     "tags": [
       "국제 캠페인 & 보건"
     ],
     "storytelling": {
-      "origin": "2004년 세계 루퍼스 환자 단체 13개국이 공동으로 제정. 자가면역질환인 전신성 홍반성 루푸스(SLE)에 대한 인식 개선과 치료 연구 확대를 목적으로 한다. 진단이 까다롭고 증상이 사람마다 크게 달라, 오래도록 저평가된 질환이라는 문제의식이 제정의 배경에 깔려 있다.",
+      "origin": "2004년 세계 루푸스 환자 단체 13개국이 공동으로 제정. 자가면역질환인 전신성 홍반성 루푸스(SLE)에 대한 인식 개선과 치료 연구 확대를 목적으로 한다. 진단이 까다롭고 증상이 사람마다 크게 달라, 오래도록 저평가된 질환이라는 문제의식이 제정의 배경에 깔려 있다.",
       "anecdote": "셀레나 고메즈, 토니 브랙스턴 등이 공개 투병으로 잘 알려져 있다. 상징색은 보라색이며, 이 날 전 세계 랜드마크들이 보라색 조명을 켜는 'Light The World Purple' 캠페인이 열린다. 여성 환자 비율이 압도적으로 높다는 점도 이 질환의 특징으로 꼽힌다."
     },
     "memes": [
@@ -3528,7 +3528,7 @@
     "id": "anv-fixed-05-27-dont-fry-day-us",
     "date": "05-27",
     "dateType": "annual-fixed",
-    "name": "태우지 말자의 날 (National Don't Fry Day)",
+    "name": "자외선 차단의 날 (National Don't Fry Day)",
     "category": "campaign",
     "tags": [
       "국제 캠페인 & 보건"
@@ -4062,7 +4062,7 @@
     "id": "anv-nth-05-3-sat-armed-forces-day-us",
     "date": "05-3-SAT",
     "dateType": "annual-nth-weekday",
-    "name": "군의 날 (National Armed Forces Day)",
+    "name": "미국 국군의 날 (National Armed Forces Day)",
     "category": "career",
     "tags": [
       "직업 & 감사"
