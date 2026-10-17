@@ -126,7 +126,7 @@ const isPending = computed(
         description="매달 어떤 이야기가 사랑받았을까요? 그달에 읽힌 횟수로 관심도 순위를 모았어요. 지난달의 발견도 다시 만나보세요."
       >
         <template #title
-          >가장 많이 발견된<br /><span class="popular-title-accent">기념일 이야기</span
+          >가장 많이 발견된 <br /><span class="popular-title-accent">기념일 이야기</span
           ><span class="heading-dot">.</span></template
         >
         <template #footer>

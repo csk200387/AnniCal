@@ -29,6 +29,7 @@ import { PAGE_META } from '../../src/seo/pages'
 import { ABOUT_EMAIL, ABOUT_SECTIONS } from '../../src/features/about/content'
 import { formatKoreanMonthDay } from '../../src/utils/dateUtils'
 import {
+  buildSitemap,
   buildTargets,
   DISPLAY_YEAR,
   loadLastmod,
@@ -383,6 +384,17 @@ export function prerender(): Plugin {
             '<nav><a href="/">오늘의 기념일</a> · <a href="/calendar">달력에서 찾아보기</a></nav></div>',
         )
       writeFileSync(join(outDir, '404.html'), notFoundHtml, 'utf-8')
+
+      // 사이트맵. 프리렌더가 만든 경로가 곧 색인 대상이다 — 내부 rewrite 대상
+      // (/_pages/*)과 도구 페이지(/export)는 여기 없으니 따로 걸러낼 것도 없다.
+      const urls = Object.entries(buildSitemap(targets))
+        .map(([p, d]) => `<url><loc>${esc(SITE_URL + p)}</loc><lastmod>${d}</lastmod></url>`)
+        .join('')
+      writeFileSync(
+        join(outDir, 'sitemap.xml'),
+        `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls}</urlset>\n`,
+        'utf-8',
+      )
 
       const detail = targets.filter((t) => t.kind === 'detail').length
       this.info?.(

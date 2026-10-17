@@ -16,7 +16,7 @@ const year = new Date().getFullYear()
             ></RouterLink
           >
           <p class="footer-description">
-            기념일 도감<br />평범한 날짜에서 발견하는, 조금 특별한 이야기.
+            기념일 도감 <br />평범한 날짜에서 발견하는, 조금 특별한 이야기.
           </p>
         </div>
         <nav class="footer-links" aria-label="하단 메뉴">

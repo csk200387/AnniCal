@@ -178,7 +178,7 @@ function openCard() {
           <RouterLink to="/">홈</RouterLink><span aria-hidden="true">/</span><span>우리의 날</span>
         </nav></template
       >
-      <template #title>우리 N주년은<br />무슨 날<span class="heading-dot">?</span></template>
+      <template #title>우리 N주년은 <br />무슨 날<span class="heading-dot">?</span></template>
       <template #invitation
         ><p class="discovery-invitation">
           100일부터 50주년까지, 그날의 기념일을 카드로 남겨보세요.
@@ -208,8 +208,8 @@ function openCard() {
           </FieldShell>
           <UiButton type="submit" size="l" block icon="arrow">우리의 날 찾기</UiButton>
           <p id="together-rule" class="discovery-form-note">
-            시작일을 1일로 세어요. 100일은 시작일에서 99일 뒤예요.<br />2월 29일에 시작했다면 평년의
-            주년은 2월 28일이에요.
+            시작일을 1일로 세어요. 100일은 시작일에서 99일 뒤예요. <br />2월 29일에 시작했다면
+            평년의 주년은 2월 28일이에요.
           </p>
         </form>
       </template>
@@ -272,8 +272,9 @@ function openCard() {
                   ><span class="dday-pill">{{ dDay(row.daysAway) }}</span></template
                 ><template #title>{{ row.labels.join(' · ') }}</template
                 ><template #detail
-                  ><time :datetime="row.date">{{ dateLabel(row.date) }}</time
-                  ><br />{{ storySummary(row.date) }}</template
+                  ><time :datetime="row.date">{{ dateLabel(row.date) }}</time> <br />{{
+                    storySummary(row.date)
+                  }}</template
                 ><template #suffix><span aria-hidden="true">→</span></template></ListRow
               >
             </li>
@@ -299,8 +300,9 @@ function openCard() {
                     ><span class="dday-pill">{{ dDay(row.daysAway) }}</span></template
                   ><template #title>{{ row.labels.join(' · ') }}</template
                   ><template #detail
-                    ><time :datetime="row.date">{{ dateLabel(row.date) }}</time
-                    ><br />{{ storySummary(row.date) }}</template
+                    ><time :datetime="row.date">{{ dateLabel(row.date) }}</time> <br />{{
+                      storySummary(row.date)
+                    }}</template
                   ><template #suffix><span aria-hidden="true">→</span></template></ListRow
                 >
               </li></ListGroup

@@ -87,7 +87,7 @@ watch(
                 : `${label}에 등록된 기념일이 아직 없어요.`
           "
         >
-          <template #title>{{ label }}은<br />무슨 날<span class="heading-dot">?</span></template>
+          <template #title>{{ label }}은 <br />무슨 날<span class="heading-dot">?</span></template>
           <template #footer
             ><nav v-if="neighbours" aria-label="다른 날짜" class="hub-nav">
               <UiButton

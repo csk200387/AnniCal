@@ -125,7 +125,7 @@ function openCard() {
           ><span>내 생일의 발견</span>
         </nav></template
       >
-      <template #title>내 생일은<br />무슨 날<span class="heading-dot">?</span></template>
+      <template #title>내 생일은 <br />무슨 날<span class="heading-dot">?</span></template>
       <template #invitation
         ><p class="discovery-invitation">
           생일과 같은 날의 기념일을 찾아 나만의 카드로 남겨보세요.
