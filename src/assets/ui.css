@@ -8,6 +8,8 @@
 .hero-topline > :last-child { letter-spacing: .08em; }
 .hero-content { display: grid; grid-template-columns: 1.2fr 1fr; max-width: 1312px; margin: auto; min-height: 480px; align-items: center; gap: 20px; }
 .hero-copy { min-width: 0; position: relative; z-index: 2; padding: 40px 0; animation: home-enter .85s var(--home-ease) both; }
+/* 프리렌더(SSR)로 받은 첫 화면은 이미 완성돼 있으니 등장 애니메이션 없이 바로 보인다 — 투명에서 시작하면 LCP 가 0.85s 늦어진다. 사이트 안에서 이동해 온 화면만 애니메이션(main.ts 가 data-ssr 을 지운다). */
+html[data-ssr] .hero-copy { animation: none; }
 .hero-eyebrow { display: flex; align-items: center; gap: 9px; font-size: 13px; font-weight: 550; margin-bottom: 26px; }
 .tiny-spark { font-size: 24px; line-height: 1; }
 .hero-copy h1 { font-size: clamp(44px,5.1vw,76px); font-weight: 750; line-height: 1.2; letter-spacing: -.065em; }
