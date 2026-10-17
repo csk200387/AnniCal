@@ -129,24 +129,15 @@ export function prerender(): Plugin {
       const targets = buildTargets()
       const routes = loadRoutes()
 
-      /** shell 의 #app 을 그 경로의 SSR 결과로 채우고, 필요한 CSS·JS 를 <head> 에 건다. */
+      /** shell 의 #app 을 그 경로의 SSR 결과로 채우고, 그 화면의 CSS 를 <head> 에 건다. */
       const withApp = async (html: string, path: string): Promise<string> => {
         const { html: body, modules } = await render(path)
-        const files = new Set(modules.flatMap((m) => assetsOf(m)))
-        // 월 데이터는 미리 받지 않는다. 첫 화면은 이 HTML 로 이미 그려지고 데이터는
-        // hydrate 에만 필요한데, <head> 에서 같이 받으면 CSS 와 대역폭을 다퉈 첫 화면이 늦어진다.
-        // CSS 를 먼저 — 첫 화면을 그리는 데 필요한 건 CSS 뿐이고 JS 는 hydrate 용이다.
-        const links = [...files]
-          .filter((f) => !html.includes(`"${f}"`))
-          .sort((a, b) => Number(b.endsWith('.css')) - Number(a.endsWith('.css')))
-          .map((f) =>
-            f.endsWith('.css')
-              ? `  <link rel="stylesheet" href="${esc(f)}" />`
-              : f.endsWith('.js')
-                ? `  <link rel="modulepreload" crossorigin href="${esc(f)}" />`
-                : '',
-          )
-          .filter(Boolean)
+        // CSS 만 건다. 첫 화면은 이 HTML 과 CSS 로 다 그려지고, JS·월 데이터는 hydrate 에만
+        // 필요하다. 그것까지 <head> 에서 미리 받으면 CSS 와 대역폭을 다퉈 첫 화면이 늦어진다
+        // (홈 Lighthouse FCP 0.9s → 1.5~2.9s 로 측정됐다).
+        const links = [...new Set(modules.flatMap((m) => assetsOf(m)))]
+          .filter((f) => f.endsWith('.css') && !html.includes(`"${f}"`))
+          .map((f) => `  <link rel="stylesheet" href="${esc(f)}" />`)
           .join('\n')
         return html
           .replace('</head>', `${links}\n  </head>`)
