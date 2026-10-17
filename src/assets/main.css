@@ -9,6 +9,18 @@
 ─────────────────────────────────────────────────────────────── */
 @import "./tokens.css";
 
+/* 워드마크 "AnniCal" 전용 Fraunces 서브셋(4KB, 원본 latin 67KB). SSR 로 헤더가 첫 화면에
+   바로 그려지면서 이 폰트가 첫 화면 직전에 받아진다. 다른 글자에 쓰면 대체 serif 로 나온다.
+   다시 만들기: tools/og/.venv/bin/pyftsubset node_modules/@fontsource-variable/fraunces/files/fraunces-latin-opsz-normal.woff2
+   --text="AnniCal" --flavor=woff2 --layout-features='*' --output-file=src/assets/fonts/fraunces-wordmark.woff2 */
+@font-face {
+  font-family: "Fraunces Variable";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url("./fonts/fraunces-wordmark.woff2") format("woff2-variations");
+}
+
 /* ─── Editorial typography helpers (utility-friendly) ─── */
 @layer base {
   html,

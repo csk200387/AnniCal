@@ -9,12 +9,11 @@ import { todayInSiteZone } from './utils/clock'
 
 // 웹폰트는 자체 호스팅한다. 예전 Google Fonts CSS 는 다른 도메인이라 첫 화면을
 // 약 2초 막았다. 실제로 쓰는 것만 담는다: Inter 400·500·600(본문 라틴 글자 —
-// 한글은 시스템 폰트로 떨어진다), Fraunces 는 워드마크 "AnniCal" 하나뿐이라 작은
-// 크기에서 모양을 지키는 opsz 축만.
+// 한글은 시스템 폰트로 떨어진다). Fraunces 는 워드마크 "AnniCal" 하나뿐이라 그 글자만
+// 남긴 서브셋을 main.css 에서 건다.
 import '@fontsource/inter/400.css'
 import '@fontsource/inter/500.css'
 import '@fontsource/inter/600.css'
-import '@fontsource-variable/fraunces/opsz.css'
 import './assets/main.css'
 import './assets/layout.css'
 import './assets/ui.css'
