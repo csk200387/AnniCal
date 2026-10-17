@@ -32,7 +32,7 @@
 | `dateType` | ✅ | `DateType` | `annual-fixed` \| `annual-floating` \| `annual-nth-weekday` \| `annual-relative-to-holiday` \| `annual-tabulated` \| `one-time` |
 | `name` | ✅ | `string` | 한국어 표기 우선. 표기 통일(§3 주의) |
 | `category` | ✅ | `CategoryId` | `categories.json` 에 정의된 값만 §4 |
-| `tags` | ✅ | `string[]` | 3~6개 §5 |
+| `tags` | ✅ | `string[]` | `[0]`=카테고리 레이블, 뒤에 그룹 §5 |
 | `storytelling` | ✅ | `{ origin, anecdote }` | `origin` 필수, `anecdote` 는 `string \| null` §6 |
 | `memes` | ✅ | `Meme[]` | 없으면 `[]` §7 |
 | `sourceUrl` | ✅ | `string \| null` | 출처 없으면 `null` §8 |
@@ -164,35 +164,23 @@ interface Meme {
 
 ## 5. `tags` 규칙
 
-> ⚠️ 아래 목록형 규칙은 낡았다. 커밋 `4f304ba` 에서 `tags` 는 **카테고리 레이블
-> 1개**로 통일됐다(`["음식 & 디저트"]` 처럼).
->
-> **현재 규칙**: `tags[0]` 은 반드시 `category` 의 레이블이고, 그 뒤에
-> **그룹 레이블을 덧붙일 수 있다**.
->
-> ```jsonc
-> "category": "general",
-> "tags": ["일반", "법정기념일"]   // [0]=카테고리 레이블, [1..]=그룹
-> ```
->
-> 그룹은 카테고리와 교차하는 두 번째 분류축이다. `category` 는 하나만 붙는데
-> "법정기념일"처럼 소재를 가로지르는 묶음이 필요해서 도입했다 —
-> 농업인의 날은 소재로는 '일반', 위안부 피해자 기림의 날은 '역사 & 추모' 지만
-> 둘 다 법정기념일이다. 정의는 `src/data/groups.json` 과 `src/types/group.ts`.
->
-> `tags[0]` 을 건드리지 않는 것이 중요하다. SEO `articleSection`(`seo/meta.ts`)과
-> 인기 순위의 태그 문구가 첫 태그만 본다. 카테고리 색은 태그가 아니라
-> `categories.json` 의 `colorToken` 이 정한다.
->
-> 내보내기 화면과 구독 피드는 그룹을 카테고리와 **OR** 로 합친다
-> (`/api/calendar?categories=food&groups=statutory`). 아래는 이전 규칙의 기록이다.
+`tags[0]` 은 반드시 `category` 의 레이블이고, 그 뒤에 **그룹 레이블을 덧붙일 수 있다**.
 
-- ~~**3~6개**의 문자열 배열.~~
-- 한국어 키워드 중심. 검색·필터·연관 노출에 쓰인다.
-- 권장 구성: `[지역/주최]`(예: 대한민국, 글로벌, 미국) + `[성격]`(예: 법정공휴일, 비공식기념일, 축제) + `[소재]`(예: 초콜릿, 꿀벌, F1) 조합.
-- 같은 의미의 태그 표기를 통일한다(예: "글로벌"/"전세계" 혼용 지양).
+```jsonc
+"category": "general",
+"tags": ["일반", "법정기념일"]   // [0]=카테고리 레이블, [1..]=그룹
+```
 
----
+- 그룹은 카테고리와 교차하는 두 번째 분류축이다. `category` 는 하나만 붙는데
+  "법정기념일"처럼 소재를 가로지르는 묶음이 필요해서 도입했다 — 농업인의 날은
+  소재로는 '일반', 위안부 피해자 기림의 날은 '역사 & 추모' 지만 둘 다 법정기념일이다.
+  정의는 `src/data/groups.json` 과 `src/types/group.ts`.
+- `tags[0]` 을 건드리지 말 것. SEO `articleSection`(`seo/meta.ts`)과 인기 순위의
+  태그 문구가 첫 태그만 본다. 카테고리 색은 태그가 아니라 `categories.json` 의
+  `colorToken` 이 정한다.
+- 내보내기 화면과 구독 피드는 그룹을 카테고리와 **OR** 로 합친다
+  (`/api/calendar?categories=food&groups=statutory`).
+- 예전의 "3~6개 키워드" 규칙은 커밋 `4f304ba` 에서 폐기됐다.
 
 ## 5-1. `annual-tabulated` — 음력 명절과 24절기
 
@@ -231,7 +219,7 @@ interface Meme {
 - `origin` — **항상 작성**. 제정 연도·주체·목적 등 사실 위주.
 - `anecdote` — 재미 요소(통계, 뒷이야기, 밈의 맥락). 없으면 빈 문자열이 아니라 `null`.
 
-> 분량과 문체 기준은 `CLAUDE.md` 를 따른다. 이 두 필드가 상세 페이지 본문
+> 분량과 문체 기준은 `AGENTS.md` 를 따른다. 이 두 필드가 상세 페이지 본문
 > **전부**이고, `origin` 의 첫 150자가 검색결과 스니펫에 그대로 나간다.
 > 합쳐 200~300자를 목표로 하며, 첫 150자만 읽어도 무슨 날인지 완결돼야 한다.
 
@@ -260,7 +248,7 @@ interface Meme {
 ## 8. `sourceUrl` 규칙
 
 - 신뢰 출처(위키백과, 공식 사이트, 정부 부처 페이지) URL 1개.
-- 출처가 없으면 `null`. 빈 문자열 금지.
+- 출처가 없으면 `null`. 빈 문자열이나 슬러그 조각(`"fathers-day-us"`)은 금지 — 검수기가 저장을 거부한다.
 
 ---
 

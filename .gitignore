@@ -45,7 +45,6 @@ NAMUWIKI_*.md
 .write.lock
 .vercel
 
-CLAUDE.md
 .env*
 !.env.example
 
