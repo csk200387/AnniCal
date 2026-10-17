@@ -7,7 +7,7 @@
 //
 // <head> 의 title/description/JSON-LD 는 여기서 채운다. 문구는 src/seo/meta.ts 의
 // 함수를 그대로 써서 정적 HTML 과 SPA 가 서로 다른 제목을 내는 사고를 막는다.
-import { mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs'
+import { mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
 import { dirname, join, resolve, sep } from 'node:path'
 import { pathToFileURL } from 'node:url'
 import { build, type Plugin } from 'vite'
@@ -24,8 +24,6 @@ import {
 } from '../../src/seo/meta'
 import { ogImageUrl, type StaticPage } from '../../src/seo/og'
 import { PAGE_META } from '../../src/seo/pages'
-import { initialMonths } from '../../src/utils/months'
-import { todayInSiteZone } from '../../src/utils/clock'
 import { buildSitemap, buildTargets, loadLastmod, loadRoutes, type PrerenderTarget } from './routes'
 
 /** HTML 텍스트·속성 문맥 이스케이프. 속성은 항상 큰따옴표로 감싼다. */
@@ -128,15 +126,6 @@ export function prerender(): Plugin {
           ...(c.imports ?? []).flatMap((k) => assetsOf(k, seen)),
         ]
       }
-      const today = todayInSiteZone()
-      // 월 데이터 청크('01-<hash>.js'). 상세 HTML 이 자기 달을 modulepreload 해서
-      // 메인 JS → 스토어 → 월 데이터로 이어지는 요청 사슬을 기다리지 않게 한다.
-      const monthChunk = new Map(
-        readdirSync(join(outDir, 'assets')).flatMap((f) => {
-          const m = /^(\d{2})-[\w-]+\.js$/.exec(f)
-          return m ? [[m[1], f] as const] : []
-        }),
-      )
       const targets = buildTargets()
       const routes = loadRoutes()
 
@@ -144,13 +133,12 @@ export function prerender(): Plugin {
       const withApp = async (html: string, path: string): Promise<string> => {
         const { html: body, modules } = await render(path)
         const files = new Set(modules.flatMap((m) => assetsOf(m)))
-        // hydrate 전에 받는 달 데이터도 HTML 에서 바로 받기 시작한다(main.ts 의 warm).
-        for (const m of initialMonths(path, today)) {
-          const f = monthChunk.get(String(m).padStart(2, '0'))
-          if (f) files.add(`/assets/${f}`)
-        }
+        // 월 데이터는 미리 받지 않는다. 첫 화면은 이 HTML 로 이미 그려지고 데이터는
+        // hydrate 에만 필요한데, <head> 에서 같이 받으면 CSS 와 대역폭을 다퉈 첫 화면이 늦어진다.
+        // CSS 를 먼저 — 첫 화면을 그리는 데 필요한 건 CSS 뿐이고 JS 는 hydrate 용이다.
         const links = [...files]
           .filter((f) => !html.includes(`"${f}"`))
+          .sort((a, b) => Number(b.endsWith('.css')) - Number(a.endsWith('.css')))
           .map((f) =>
             f.endsWith('.css')
               ? `  <link rel="stylesheet" href="${esc(f)}" />`
