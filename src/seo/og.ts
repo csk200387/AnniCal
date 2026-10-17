@@ -3,7 +3,8 @@ import { todayInSiteZone } from '../utils/clock.js'
 
 // 디자인·폰트 변경 시 버전을 올려 CDN의 이전 이미지를 무효화한다.
 export const OG_VERSION = '4'
-export type StaticPage = 'home' | 'calendar' | 'export' | 'popular' | 'birthday' | 'together'
+export type StaticPage =
+  'home' | 'calendar' | 'export' | 'popular' | 'birthday' | 'together' | 'about'
 export type OgQuery =
   | { kind: 'detail'; date: string; slug: string; year?: number }
   | { kind: 'hub'; date: string; year?: number }

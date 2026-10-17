@@ -90,6 +90,8 @@ export function anniversaryJsonLd(
   url: string,
   description: string,
   displayDate: string = urlDate,
+  /** 날짜는 빌드 때만 안다(src/data/lastmod.json). 클라이언트는 이미지만 넘긴다. */
+  extra: { image?: string; published?: string; modified?: string } = {},
 ): unknown {
   return {
     '@context': 'https://schema.org',
@@ -101,7 +103,11 @@ export function anniversaryJsonLd(
         inLanguage: 'ko',
         mainEntityOfPage: { '@type': 'WebPage', '@id': url },
         isPartOf: { '@id': `${SITE_URL}/#website` },
+        author: { '@id': `${SITE_URL}/#org` },
         publisher: { '@id': `${SITE_URL}/#org` },
+        ...(extra.image ? { image: extra.image } : {}),
+        ...(extra.published ? { datePublished: extra.published } : {}),
+        ...(extra.modified ? { dateModified: extra.modified } : {}),
         ...(anv.tags[0] ? { articleSection: anv.tags[0] } : {}),
         ...(isHttpUrl(anv.sourceUrl) ? { citation: anv.sourceUrl } : {}),
       },

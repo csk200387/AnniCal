@@ -39,6 +39,12 @@ export const PAGE_META = {
       '처음 만난 날·사귄 날·결혼한 날부터 다가오는 100일과 N주년을 계산하고, 그날의 기념일을 카드와 링크로 함께 나눠보세요.',
     keywords: '100일 계산,주년 계산,우리의 날,커플 기념일,결혼 기념일,기념일 도감',
   },
+  about: {
+    title: '기념일 도감 소개 · 운영과 편집 방침',
+    description:
+      '기념일 도감이 무엇을 기록하는지, 본문을 어떻게 쓰고 검수하는지, 틀린 내용을 어떻게 바로잡는지 소개합니다.',
+    keywords: '기념일 도감 소개,기념일 도감,편집 방침,기념일 출처,기념일 만물상',
+  },
 } satisfies Record<StaticPage, { title: string; description: string; keywords: string }>
 export function staticPageMeta(page: StaticPage) {
   return { ...PAGE_META[page], ogImage: ogImageUrl(page) }

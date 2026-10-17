@@ -131,11 +131,39 @@ describe.runIf(existsSync(join(DIST, 'index.html')))('빌드 산출물', () => {
   it('어떤 페이지의 JSON-LD 도 script 를 탈출하지 않는다', () => {
     for (const d of ['01-01', '02-29', '12-31']) {
       const html = readFileSync(join(DIST, 'day', d, 'index.html'), 'utf-8')
-      const ld = /<script type="application\/ld\+json" id="ld-page">([\s\S]*?)<\/script>/.exec(html)
+      const ld = /<script type="application\/ld\+json" id="ld-page"[^>]*>([\s\S]*?)<\/script>/.exec(
+        html,
+      )
       expect(ld, d).toBeTruthy()
       expect(() => JSON.parse(ld![1])).not.toThrow()
       expect(ld![1]).not.toContain('<')
     }
+  })
+
+  it('상세 JSON-LD 에 lastmod.json 의 날짜와 작성자·이미지가 들어간다', async () => {
+    const { loadLastmod } = await import('../tools/prerender/routes')
+    const routes = JSON.parse(readFileSync(join(ROOT, 'src/data/routes.json'), 'utf-8')) as Record<
+      string,
+      { slug: string; urlDate: string }
+    >
+    const [id, r] = Object.entries(routes)[0]
+    const html = readFileSync(join(DIST, 'day', r.urlDate, r.slug, 'index.html'), 'utf-8')
+    const ld = JSON.parse(/id="ld-page"[^>]*>([\s\S]*?)<\/script>/.exec(html)![1])
+    const article = ld['@graph'][0]
+    expect(article.dateModified).toBe(loadLastmod()[id].modified)
+    expect(article.datePublished).toBe(loadLastmod()[id].published)
+    expect(article.author).toEqual({ '@id': 'https://www.annical.me/#org' })
+    expect(article.image).toContain('/api/og?kind=detail')
+    // 클라이언트가 첫 로드에서 이 JSON-LD 를 덮어쓰지 않도록 표시가 붙는다.
+    expect(html).toContain(`data-prerendered="/day/${r.urlDate}/${r.slug}"`)
+  })
+
+  it('lastmod.json 이 모든 기념일을 덮는다 (빠지면 python3 tools/lastmod/generate_lastmod.py)', async () => {
+    const { loadAnniversaries, loadLastmod } = await import('../tools/prerender/routes')
+    const missing = loadAnniversaries()
+      .map((a) => a.id)
+      .filter((id) => !loadLastmod()[id])
+    expect(missing).toEqual([])
   })
 
   it('404.html 이 noindex 로 만들어진다', () => {

@@ -11,6 +11,7 @@
 .article-body .section-heading { margin-bottom: var(--space-4); }
 .article-body .section-heading h2 { font-size: var(--text-t9); }
 .article-body > section > p { font-size: var(--text-t5); line-height: 1.95; color: var(--fg-muted); word-break: keep-all; overflow-wrap: anywhere; }
+.article-body > section > p + p { margin-top: var(--space-4); }
 .article-quotes { padding: var(--space-6); border-radius: var(--radius-lg); background: var(--bg-weak); }
 .article-quotes blockquote { font-size: var(--text-t4); font-style: italic; line-height: 1.8; color: var(--fg-muted); word-break: keep-all; }
 .article-quotes blockquote + blockquote { margin-top: var(--space-3); }

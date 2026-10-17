@@ -53,9 +53,19 @@ function upsertCanonical(href: string): void {
   el.setAttribute('href', href)
 }
 
-/** id 로 구분되는 JSON-LD <script> 를 없으면 만들고 있으면 갱신. */
-function upsertJsonLd(data: unknown): void {
+/**
+ * id 로 구분되는 JSON-LD <script> 를 없으면 만들고 있으면 갱신.
+ *
+ * 프리렌더 HTML 의 JSON-LD 는 빌드 때만 아는 날짜(datePublished·dateModified)를
+ * 담고 있다. 처음 들어온 그 페이지에서는 덮어쓰지 않고 그대로 둔다 — 크롤러는
+ * 언제나 이 첫 로드만 본다. 다른 페이지로 이동하면 그때부터 갱신한다.
+ */
+function upsertJsonLd(data: unknown, path: string): void {
   let el = document.getElementById(LD_ID) as HTMLScriptElement | null
+  if (el?.dataset.prerendered) {
+    if (el.dataset.prerendered === path) return
+    delete el.dataset.prerendered
+  }
   if (!el) {
     el = document.createElement('script')
     el.type = 'application/ld+json'
@@ -114,14 +124,10 @@ export function applyAnniversaryMeta(anv: Anniversary, path: string, displayDate
   const urlDate = path.split('/')[2] ?? ''
   const shown = displayDate ?? urlDate
   const description = anniversaryDescription(anv, urlDate, shown)
-  const url = applyPageMeta(
-    anniversaryTitle(anv, urlDate, shown),
-    description,
-    path,
-    ogImageUrl({ kind: 'detail', date: urlDate, slug: path.split('/')[3] ?? '' }),
-  )
+  const image = ogImageUrl({ kind: 'detail', date: urlDate, slug: path.split('/')[3] ?? '' })
+  const url = applyPageMeta(anniversaryTitle(anv, urlDate, shown), description, path, image)
   upsertMeta('property', 'og:type', 'article')
-  upsertJsonLd(anniversaryJsonLd(anv, urlDate, url, description, shown))
+  upsertJsonLd(anniversaryJsonLd(anv, urlDate, url, description, shown, { image }), path)
 }
 
 /**
@@ -148,5 +154,5 @@ export function applyDateHubMeta(urlDate: string, items: Anniversary[]): void {
     ogImageUrl({ kind: 'hub', date: urlDate }),
   )
   upsertMeta('property', 'og:type', 'website')
-  upsertJsonLd(dateHubJsonLd(urlDate, url, description))
+  upsertJsonLd(dateHubJsonLd(urlDate, url, description), `/day/${urlDate}`)
 }

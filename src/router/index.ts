@@ -54,6 +54,12 @@ const router = createRouter({
       meta: staticPageMeta('export'),
     },
     {
+      path: '/about',
+      name: 'about',
+      component: () => import('@/features/about/views/AboutView.vue'),
+      meta: staticPageMeta('about'),
+    },
+    {
       path: '/popular',
       name: 'popular',
       component: () => import('@/features/stats/views/PopularView.vue'),

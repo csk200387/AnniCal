@@ -26,10 +26,12 @@ import {
 import { koreanDate } from '../../src/utils/format'
 import { ogImageUrl, type StaticPage } from '../../src/seo/og'
 import { PAGE_META } from '../../src/seo/pages'
+import { ABOUT_EMAIL, ABOUT_SECTIONS } from '../../src/features/about/content'
 import { formatKoreanMonthDay } from '../../src/utils/dateUtils'
 import {
   buildTargets,
   DISPLAY_YEAR,
+  loadLastmod,
   loadRoutes,
   shiftUrlDate,
   type PrerenderTarget,
@@ -161,11 +163,16 @@ function hubBody(
  * 내용이 새 스크립트로 실행된다 — 외부 뉴스 요약을 데이터에 넣는 파이프라인이
  * 있어 "우리가 쓴 값만 들어간다"고 가정할 수 없다.
  */
-function jsonLd(t: PrerenderTarget, url: string, description: string): string {
+function jsonLd(t: PrerenderTarget, url: string, description: string, slug = ''): string {
   const shown = t.displayDate ?? t.urlDate
+  const dates = t.anniversary ? loadLastmod()[t.anniversary.id] : undefined
   const data =
     t.kind === 'detail' && t.anniversary
-      ? anniversaryJsonLd(t.anniversary, t.urlDate, url, description, shown)
+      ? anniversaryJsonLd(t.anniversary, t.urlDate, url, description, shown, {
+          image: ogImageUrl({ kind: 'detail', date: t.urlDate, slug }),
+          published: dates?.published,
+          modified: dates?.modified,
+        })
       : dateHubJsonLd(t.urlDate, url, description)
   return safeJsonLd(data)
 }
@@ -222,7 +229,13 @@ export function prerender(): Plugin {
         const intro =
           page === 'home'
             ? `<p>${esc(meta.description)}. 기념일 ${targets.filter((t) => t.kind === 'detail').length}개의 유래와 이야깃거리를 날짜별로 정리했어요.</p>`
-            : `<p>${esc(meta.description)}</p>`
+            : page === 'about'
+              ? // 소개는 본문 전체가 콘텐츠다 — 설명 한 줄이 아니라 화면과 같은 글을 넣는다.
+                ABOUT_SECTIONS.map(
+                  (s) =>
+                    `<section><h2>${esc(s.title)}</h2>${s.paragraphs.map((p) => `<p>${esc(p)}</p>`).join('')}</section>`,
+                ).join('') + `<p>연락 <a href="mailto:${ABOUT_EMAIL}">${ABOUT_EMAIL}</a></p>`
+              : `<p>${esc(meta.description)}</p>`
         const nav = (
           [
             ['/', '오늘의 기념일'],
@@ -311,7 +324,7 @@ export function prerender(): Plugin {
           )
           .replace(
             '</head>',
-            `  <script type="application/ld+json" id="ld-page">${jsonLd(t, url, description)}</script>\n  </head>`,
+            `  <script type="application/ld+json" id="ld-page" data-prerendered="${esc(t.path)}">${jsonLd(t, url, description, isDetail ? routes[t.anniversary!.id].slug : '')}</script>\n  </head>`,
           )
           .replace('<div id="app"></div>', `<div id="app">${body}</div>`)
 
