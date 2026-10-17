@@ -1,6 +1,7 @@
 // 데이터셋 자체의 불변조건 — 여기가 깨지면 빌드가 성공해도 사이트가 틀린다.
 import { describe, expect, it } from 'vitest'
-import { readFileSync, readdirSync } from 'node:fs'
+import { readFileSync, readdirSync, writeFileSync } from 'node:fs'
+import { execFileSync } from 'node:child_process'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import type { Anniversary } from '@/types/anniversary'
@@ -36,6 +37,19 @@ describe('데이터셋 ↔ routes.json', () => {
       [],
     )
     expect(orphanRoutes, '데이터에 없는 route').toEqual([])
+  })
+
+  // 생성기는 데이터에서 주소를 계산한다. 데이터를 고칠 때마다 다시 계산하면 색인된
+  // URL 이 조용히 바뀐다(이산가족의 날: 날짜 규칙 수정으로 09-24 → 09-23 이 될 뻔했다).
+  it('generate_slugs.py 를 돌려도 기존 주소는 그대로다', () => {
+    const path = join(ROOT, 'src/data/routes.json')
+    const before = readFileSync(path, 'utf-8')
+    try {
+      execFileSync('python3', ['tools/slugs/generate_slugs.py'], { cwd: ROOT, stdio: 'ignore' })
+      expect(readFileSync(path, 'utf-8') === before).toBe(true)
+    } finally {
+      writeFileSync(path, before)
+    }
   })
 
   it('URL (urlDate, slug) 조합이 유일하다', () => {
