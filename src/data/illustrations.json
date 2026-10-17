@@ -648,5 +648,155 @@
     "file": "gazpacho-day",
     "alt": "오이와 피망을 올린 가스파초 한 그릇 수채화",
     "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-07-cotton-candy-day-us": {
+    "file": "cotton-candy-day",
+    "alt": "종이 막대에 감은 분홍 솜사탕 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-term-daeseol-kr": {
+    "file": "daeseol",
+    "alt": "눈이 소복이 쌓인 소나무 가지 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-08-brownie-day-us": {
+    "file": "brownie-day",
+    "alt": "호두를 넣은 초콜릿 브라우니 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-08-time-traveler-day-global": {
+    "file": "time-traveler-day",
+    "alt": "톱니가 보이는 놋쇠 회중시계 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-09-pastry-day-us": {
+    "file": "pastry-day",
+    "alt": "크루아상과 데니시, 뺑 오 쇼콜라 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-128": {
+    "file": "national-heritage-day",
+    "alt": "구름과 학을 상감한 고려청자 매병 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-10-dewey-decimal-system-day-global": {
+    "file": "dewey-decimal-day",
+    "alt": "서랍 하나를 연 나무 도서 목록함 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-10-nobel-prize-day-global": {
+    "file": "nobel-prize-day",
+    "alt": "벨벳 상자에 담긴 월계수 금메달 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-12-ambrosia-day-us": {
+    "file": "ambrosia-day",
+    "alt": "귤·파인애플·코코넛을 섞은 과일 샐러드 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-12-gingerbread-house-day-global": {
+    "file": "gingerbread-house-day",
+    "alt": "아이싱과 사탕으로 꾸민 생강과자집 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-12-poinsettia-day-global": {
+    "file": "poinsettia-day",
+    "alt": "화분에 심은 빨간 포인세티아 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-12-kanji-day-jp": {
+    "file": "kanji-day",
+    "alt": "벼루에 걸쳐 둔 붓과 먹 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-12-wreaths-across-america-day-us": {
+    "file": "wreaths-day",
+    "alt": "빨간 리본을 단 상록수 화환 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-13-day-of-the-horse-us": {
+    "file": "horse-day",
+    "alt": "갈기를 늘어뜨린 밤색 말 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-13-violin-day-global": {
+    "file": "violin-day",
+    "alt": "비스듬히 놓인 바이올린과 활 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-13-cocoa-day-us": {
+    "file": "cocoa-day",
+    "alt": "마시멜로를 띄운 핫코코아 한 잔 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-14-bouillabaisse-day-us": {
+    "file": "bouillabaisse-day",
+    "alt": "홍합과 새우를 넣은 부야베스 한 그릇 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-14-monkey-day-global": {
+    "file": "monkey-day",
+    "alt": "과일을 쥐고 앉은 꼬리감는원숭이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-14-hug-day-kr": {
+    "file": "hug-day",
+    "alt": "서로 껴안은 곰 인형 두 마리 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-15-cat-herders-day-global": {
+    "file": "cat-herders-day",
+    "alt": "사방으로 흩어지는 여러 마리 고양이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-17-maple-syrup-day-us": {
+    "file": "maple-syrup-day",
+    "alt": "단풍잎과 메이플시럽 병 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-17-wright-brothers-day-global": {
+    "file": "wright-brothers-day",
+    "alt": "1903년 라이트 플라이어 복엽기 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-18-ugly-christmas-sweater-day-global": {
+    "file": "ugly-sweater-day",
+    "alt": "순록과 눈송이를 넣은 요란한 크리스마스 스웨터 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-22-winter-solstice-global": {
+    "file": "dongji",
+    "alt": "새알심을 넣은 동지 팥죽 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-24-eggnog-day-us": {
+    "file": "eggnog-day",
+    "alt": "육두구를 뿌린 에그노그 한 잔 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-25-christmas-global": {
+    "file": "christmas",
+    "alt": "장식한 크리스마스트리와 선물 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-26-candy-cane-day-us": {
+    "file": "candy-cane-day",
+    "alt": "초록 리본으로 묶은 지팡이 사탕 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-27-fruitcake-day-us": {
+    "file": "fruitcake-day",
+    "alt": "설탕 절임 과일이 박힌 프루트케이크 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-31-bosingak-bell-ringing-kr": {
+    "file": "bell-ringing",
+    "alt": "나무 당목이 걸린 커다란 범종 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-31-champagne-day-us": {
+    "file": "champagne-day",
+    "alt": "샴페인 병과 잔 두 개 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
   }
 }
