@@ -13,7 +13,14 @@ URL 구조: /day/{MM-DD}/{slug}   예) /day/03-22/world-water-day
      urlDate 는 URL 에 박히는 고정 MM-DD.
      annual-fixed 는 date 그대로, 비고정(N번째 요일/기준일 상대)은
      REFERENCE_YEAR 기준 발생일로 고정해 URL 이 매년 흔들리지 않게 한다.
-실행: python3 tools/slugs/generate_slugs.py [--check]
+
+이미 routes.json 에 있는 기념일의 주소는 다시 계산하지 않고 그대로 둔다. 위 규칙의
+입력(id·name·sourceUrl·date)은 데이터를 고치면 바뀌는데, 그때마다 색인된 URL 이
+조용히 바뀌면 안 되기 때문이다. 계산값과 달라진 항목은 "주소와 어긋남"으로 알려만 준다.
+정말 주소를 바꿔야 하면 --reslug <id> 로 그 항목만 다시 계산한다(옛 주소의 308
+리다이렉트는 vercel.json 에 따로 넣을 것).
+
+실행: python3 tools/slugs/generate_slugs.py [--check] [--reslug <id> ...]
       --check 는 파일을 쓰지 않고 검증만 (CI/빌드 전 확인용)
 """
 
@@ -170,7 +177,15 @@ def load_anniversaries() -> list[dict]:
 
 def main() -> int:
     check_only = "--check" in sys.argv
+    reslug = {a for i, a in enumerate(sys.argv) if i and sys.argv[i - 1] == "--reslug"}
     anns = load_anniversaries()
+    existing: dict[str, dict] = (
+        json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {}
+    )
+    unknown = reslug - {a["id"] for a in anns}
+    if unknown:
+        print(f"--reslug: 데이터에 없는 id {sorted(unknown)}")
+        return 1
     overrides = {k: v for k, v in
                  json.loads(OVERRIDES.read_text(encoding="utf-8")).items()
                  if not k.startswith("_")}
@@ -180,6 +195,10 @@ def main() -> int:
     source_count: defaultdict[str, int] = defaultdict(int)
 
     for a in anns:
+        if a["id"] in existing and a["id"] not in reslug:
+            slugs[a["id"]] = existing[a["id"]]["slug"]
+            source_count["기존 유지"] += 1
+            continue
         for label, fn in (("override", lambda x: overrides.get(x["id"])),
                           ("id", from_id),
                           ("paren", from_paren),
@@ -197,11 +216,17 @@ def main() -> int:
     # URL 날짜 확정 (비고정은 REFERENCE_YEAR 기준으로 고정)
     by_id = {a["id"]: a for a in anns}
     url_dates: dict[str, str] = {}
+    drift: list[tuple[str, str, str]] = []  # (id, 지금 주소, 지금 데이터로 계산한 주소)
     for a in anns:
         try:
-            url_dates[a["id"]] = resolve_url_date(a, by_id)
+            computed = resolve_url_date(a, by_id)
         except ValueError as e:
             print(f"    ! 날짜 해석 실패: {e}")
+            continue
+        kept = existing.get(a["id"]) if a["id"] not in reslug else None
+        url_dates[a["id"]] = kept["urlDate"] if kept else computed
+        if kept and kept["urlDate"] != computed:
+            drift.append((a["id"], kept["urlDate"], computed))
 
     # 검증 2: (urlDate, slug) 충돌 — URL 이 겹치는지
     url_key: defaultdict[tuple[str, str], list[str]] = defaultdict(list)
@@ -215,7 +240,7 @@ def main() -> int:
     bad_dates = [(i, d) for i, d in sorted(url_dates.items()) if not is_valid_url_date(d)]
 
     print(f"기념일 {len(anns)}건 → 슬러그 {len(slugs)}건")
-    for k in ("override", "id", "paren", "sourceUrl"):
+    for k in ("기존 유지", "override", "id", "paren", "sourceUrl"):
         print(f"  {k:>10}: {source_count[k]}")
     print(f"미해결: {len(unresolved)}")
     for a in unresolved:
@@ -230,6 +255,10 @@ def main() -> int:
     print(f"URL 날짜 오류: {len(bad_dates)}")
     for i, d in bad_dates:
         print(f"    ! {i}  →  {d!r}")
+    # 오류가 아니다 — urlDate 는 주소일 뿐이고 화면 날짜는 resolveOccurrence 가 구한다.
+    print(f"주소와 어긋남(주소 유지): {len(drift)}")
+    for i, kept, computed in drift:
+        print(f"    · {i}  /day/{kept}/…  (지금 데이터로는 {computed})")
 
     ok = (not unresolved and not collisions and not dup_ids
           and not bad_slugs and not bad_dates
