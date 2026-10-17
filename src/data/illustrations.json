@@ -48,5 +48,155 @@
     "file": "culture-day",
     "alt": "책 더미와 필름 릴, 옛 라디오 수채화",
     "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-22-ice-swim": {
+    "file": "ice-swim-day",
+    "alt": "얼어붙은 호수에 낸 네모난 수영 구멍과 나무 사다리 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-17-mulligan-day-us": {
+    "file": "mulligan-day",
+    "alt": "티에 올린 골프공과 옆에 놓인 두 번째 공 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-10-world-mental-health-day-global": {
+    "file": "mental-health-day",
+    "alt": "초록 리본 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-14-dessert-day-us": {
+    "file": "dessert-day",
+    "alt": "케이크 한 조각과 마카롱, 과일 타르트 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-12-kick-butt-day-us": {
+    "file": "kick-butt-day",
+    "alt": "끈을 단단히 묶은 낡은 운동화 한 켤레 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-10-moe-day-jp": {
+    "file": "moe-day",
+    "alt": "흙을 뚫고 올라온 작은 새싹 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-04-taco-day-us": {
+    "file": "taco-day",
+    "alt": "고기와 고수를 얹은 타코 세 개와 라임 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-16-feral-cat-day-us": {
+    "file": "feral-cat-day",
+    "alt": "왼쪽 귀 끝이 잘린 길고양이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-14-be-bald-and-be-free-day-us": {
+    "file": "be-bald-day",
+    "alt": "가발 스탠드에 벗어 둔 가발과 모자 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-13-international-day-for-disaster-risk-reduction-global": {
+    "file": "disaster-reduction-day",
+    "alt": "손전등과 물병, 구급상자를 챙긴 비상 배낭 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-17-confession-day-kr": {
+    "file": "confession-day",
+    "alt": "빨간 하트 봉랍을 찍은 편지와 장미 한 송이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-26-dumpling-day-us": {
+    "file": "dumpling-day",
+    "alt": "대나무 찜기에 담긴 만두 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-15-mushroom-day-jp": {
+    "file": "mushroom-day",
+    "alt": "표고·송이·팽이버섯 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-18-mountain-day-kr": {
+    "file": "mountain-day",
+    "alt": "단풍 든 산줄기 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-lunar-jungyangjeol-kr": {
+    "file": "jungyangjeol",
+    "alt": "노란 국화와 국화주 한 잔 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-21-hagfish-day-global": {
+    "file": "hagfish-day",
+    "alt": "S자로 몸을 구부린 먹장어 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-22-nut-day-us": {
+    "file": "nut-day",
+    "alt": "껍데기째 흩어 놓은 호두·아몬드·헤이즐넛·밤 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-22-color-day-us": {
+    "file": "color-day",
+    "alt": "물감 팬이 줄지은 수채 물감통과 붓 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-term-sanggang-kr": {
+    "file": "sanggang",
+    "alt": "서리가 내려앉은 단풍잎과 은행잎 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-23-mole-day-us": {
+    "file": "mole-day",
+    "alt": "파란 액체가 든 삼각 플라스크와 작은 저울 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-24-apple-day-kr": {
+    "file": "apple-day",
+    "alt": "빨간 사과 두 알 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-48": {
+    "file": "united-nations-day",
+    "alt": "올리브 가지 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-25-world-pasta-day-global": {
+    "file": "pasta-day",
+    "alt": "포크로 감은 토마토 스파게티 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-26-pumpkin-day-us": {
+    "file": "pumpkin-day",
+    "alt": "크기가 다른 호박 세 개 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-27-film-day-kr": {
+    "file": "film-day",
+    "alt": "나무 삼각대에 올린 옛 수동 영화 카메라 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-28-chocolate-day-us": {
+    "file": "chocolate-day",
+    "alt": "포장을 반쯤 벗긴 초콜릿과 부서진 조각 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-29-cat-day-us": {
+    "file": "cat-day",
+    "alt": "몸을 둥글게 말고 잠든 주황 고양이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-31-halloween-global": {
+    "file": "halloween",
+    "alt": "안에서 불빛이 새어 나오는 잭오랜턴 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-31-makgeolli-day-kr": {
+    "file": "makgeolli-day",
+    "alt": "노란 양은 주전자와 막걸리 한 사발 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-25-dokdo-day-kr": {
+    "file": "dokdo-day",
+    "alt": "바다 위에 솟은 독도의 동도와 서도 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
   }
 }
