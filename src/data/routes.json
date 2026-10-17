@@ -1255,6 +1255,10 @@
     "slug": "puppy-day",
     "urlDate": "03-23"
   },
+  "anv-fixed-03-23-world-meteorological-day-global": {
+    "slug": "world-meteorological-day",
+    "urlDate": "03-23"
+  },
   "anv-fixed-03-24-chocolate-covered-raisin-day-us": {
     "slug": "chocolate-covered-raisin-day",
     "urlDate": "03-24"
@@ -2573,10 +2577,6 @@
   },
   "anv-fixed-05-20-world-bee-day": {
     "slug": "world-bee-day",
-    "urlDate": "05-20"
-  },
-  "anv-fixed-05-20-world-meteorology-day-source": {
-    "slug": "world-meteorology-day-source",
     "urlDate": "05-20"
   },
   "anv-fixed-05-20-world-metrology-day-global": {

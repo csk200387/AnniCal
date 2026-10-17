@@ -16,6 +16,11 @@
       "source": "/day/05-24/monaco-grand-prix",
       "destination": "/day/05-24",
       "permanent": true
+    },
+    {
+      "source": "/day/05-20/world-meteorology-day-source",
+      "destination": "/day/05-20/world-metrology-day",
+      "permanent": true
     }
   ],
   "rewrites": [
