@@ -140,6 +140,7 @@ export function prerender(): Plugin {
           .map((f) => `  <link rel="stylesheet" href="${esc(f)}" />`)
           .join('\n')
         return html
+          .replace('<html lang="ko">', '<html lang="ko" data-ssr>')
           .replace('</head>', `${links}\n  </head>`)
           .replace('<div id="app"></div>', () => `<div id="app">${body}</div>`)
       }

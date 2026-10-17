@@ -64,4 +64,11 @@ router
   .catch(() => {
     /* 데이터를 못 받아도 앱은 떠야 한다 — 화면이 오류·재시도를 안내한다. */
   })
-  .finally(() => app.mount('#app'))
+  .finally(() => {
+    app.mount('#app')
+    // 첫 화면의 히어로는 애니메이션 없이 둔 채(ui.css 의 html[data-ssr]), 이후 이동해서
+    // 새로 그려지는 화면부터 애니메이션이 돌게 표시를 지운다.
+    for (const el of document.querySelectorAll<HTMLElement>('.hero-copy'))
+      el.style.animation = 'none'
+    document.documentElement.removeAttribute('data-ssr')
+  })
