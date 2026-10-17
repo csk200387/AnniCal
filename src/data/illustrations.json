@@ -198,5 +198,155 @@
     "file": "dokdo-day",
     "alt": "바다 위에 솟은 독도의 동도와 서도 수채화",
     "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-18-chocolate-cupcake-day-us": {
+    "file": "chocolate-cupcake-day",
+    "alt": "초콜릿 프로스팅을 얹은 초콜릿 컵케이크 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-19-seafood-bisque-day-us": {
+    "file": "seafood-bisque-day",
+    "alt": "새우를 올린 해산물 비스크 한 그릇 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-47": {
+    "file": "police-day",
+    "alt": "금빛 모표가 달린 경찰 정모 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-21-pumpkin-cheesecake-day-us": {
+    "file": "pumpkin-cheesecake-day",
+    "alt": "휘핑크림을 얹은 펌킨 치즈케이크 한 조각 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-21-reptile-awareness-day-global": {
+    "file": "reptile-awareness-day",
+    "alt": "나뭇가지 위의 초록 이구아나 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-23-boston-cream-pie-day-us": {
+    "file": "boston-cream-pie-day",
+    "alt": "단면에 커스터드가 보이는 보스턴 크림파이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-25-international-bandanna-day-global": {
+    "file": "bandanna-day",
+    "alt": "화려한 페이즐리 반다나 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-25-sourest-day-us": {
+    "file": "sourest-day",
+    "alt": "반으로 자른 레몬과 시큼한 매실 장아찌 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-26-mule-day-us": {
+    "file": "mule-day",
+    "alt": "옆으로 선 귀가 긴 노새 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-26-metrology-day-kr": {
+    "file": "metrology-day",
+    "alt": "놋쇠 저울과 추, 접이식 나무 자 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-27-american-beer-day-us": {
+    "file": "american-beer-day",
+    "alt": "거품이 소복한 황금빛 맥주 한 잔 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-27-reading-day-jp": {
+    "file": "reading-day",
+    "alt": "리본 갈피를 끼운 펼친 책과 책 더미 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-51": {
+    "file": "finance-day",
+    "alt": "도자기 돼지 저금통과 동전 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-29-oatmeal-day-us": {
+    "file": "oatmeal-day",
+    "alt": "바나나와 블루베리를 얹은 오트밀 한 그릇 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-29-hermit-day-us": {
+    "file": "hermit-day",
+    "alt": "숲속 이끼 사이 작은 돌 오두막 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-30-aviation-day-kr": {
+    "file": "aviation-day",
+    "alt": "1940년대 쌍발 프로펠러 여객기 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-30-candy-corn-day-us": {
+    "file": "candy-corn-day",
+    "alt": "노랑·주황·하양 줄무늬 캔디콘 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-30-breadstix-day-us": {
+    "file": "breadstix-day",
+    "alt": "유리컵에 꽂은 브레드스틱 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-31-caramel-apple-day-us": {
+    "file": "caramel-apple-day",
+    "alt": "땅콩을 묻힌 캐러멜 사과 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-31-japanese-tea-day-jp": {
+    "file": "japanese-tea-day",
+    "alt": "규스 찻주전자와 녹차 한 잔 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-31-magic-day-us": {
+    "file": "magic-day",
+    "alt": "토끼가 고개를 내민 실크해트와 마술봉 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-31-knock-knock-jokes-day-us": {
+    "file": "knock-knock-day",
+    "alt": "낡은 나무 문의 놋쇠 문고리 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-11-01-hanwoo-day-kr": {
+    "file": "hanwoo-day",
+    "alt": "황갈색 털의 한우 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-11-01-sushi-day-jp": {
+    "file": "sushi-day",
+    "alt": "나무 받침에 올린 참치·연어·계란 초밥 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-11-01-world-vegan-day-global": {
+    "file": "vegan-day",
+    "alt": "케일·당근·토마토·가지·래디시 채소 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-11-01-black-tea-day-jp": {
+    "file": "black-tea-day",
+    "alt": "레몬 한 조각을 곁들인 홍차 한 잔 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-118": {
+    "file": "forestry-day",
+    "alt": "새로 심은 어린 소나무 묘목과 삽 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-11-01-authors-day-us": {
+    "file": "authors-day",
+    "alt": "만년필과 손으로 쓴 원고 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-25-greasy-food-day-us": {
+    "file": "greasy-food-day",
+    "alt": "종이 바구니에 담긴 프라이드치킨과 감자튀김 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-11-02-deviled-egg-day-us": {
+    "file": "deviled-egg-day",
+    "alt": "파프리카 가루를 뿌린 데빌드 에그 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
   }
 }
