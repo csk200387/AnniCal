@@ -9,10 +9,11 @@
 
 ## 기념일 본문 보강 작업
 
-`storytelling.origin`/`anecdote` 를 쓰거나 확장할 때는 `anniversary-enrichment`
-스킬(`.claude/skills/anniversary-enrichment/SKILL.md`)을 먼저 읽을 것 — 검색 노출
-이유, 목표 분량, 등급별 작업 우선순위, 쓰지/쓰지 않을 것, 작업 후 검증 절차가
-담겨 있다.
+`storytelling.origin`/`anecdote` 를 쓰거나 고칠 때는 `anniversary-enrichment`
+스킬(`.agents/skills/anniversary-enrichment/SKILL.md`)을 먼저 읽을 것 — 검색 노출
+이유, 분량, 출처·사실 확인, 쓰지 않을 것, 지금의 우선순위, 반영·검증 절차가
+담겨 있다. 스킬은 도구 공용 위치인 `.agents/skills/` 에 두고 `.claude/skills/` 에서
+심볼릭 링크로 가리킨다.
 
 본문 원칙은 `/about`(`src/features/about/content.ts`)에 사이트의 공개 약속으로
 올라가 있다 — 법정기념일은 법령, 국제기념일은 UN 등 지정 기관의 결의를 근거로
