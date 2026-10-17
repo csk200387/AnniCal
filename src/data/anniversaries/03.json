@@ -2740,6 +2740,28 @@
     "sourceUrl": "https://nationaldaycalendar.com/celebrations/national-chip-and-dip-day-march-23"
   },
   {
+    "id": "anv-fixed-03-23-world-meteorological-day-global",
+    "date": "03-23",
+    "dateType": "annual-fixed",
+    "name": "세계 기상의 날 (World Meteorological Day)",
+    "category": "academic",
+    "tags": [
+      "학술 & 기술"
+    ],
+    "storytelling": {
+      "origin": "세계 기상의 날은 세계기상기구(WMO)가 1950년 3월 23일 국제기상기구를 이어 출범한 것을 기려, 1961년부터 매년 3월 23일에 지키는 국제기념일이다. WMO는 해마다 날씨·기후·물에 관한 주제를 하나 정해 알리는데, 2026년 주제는 '오늘 관측하고, 내일을 지킨다(Observing Today, Protecting Tomorrow)'였다.",
+      "anecdote": "한국은 1956년 WMO에 가입했다. 한때 정부 기념일이었던 '세계기상의 날'은 1973년 기념일 규정을 정비하며 과학의 날로 통합돼 법정기념일에서는 빠졌지만, 기상청은 지금도 매년 이날 기념식을 열고 지방 기상청은 기상 사진전 같은 행사를 연다. 5월 20일 '세계 측정의 날(World Metrology Day)'과 영어 이름이 비슷해 자주 헷갈리는데, 그쪽은 미터 협약을 기리는 날이다."
+    },
+    "memes": [
+      {
+        "type": "text",
+        "url": null,
+        "caption": "우산 챙길지 말지, 오늘도 기상청 앱부터 연다"
+      }
+    ],
+    "sourceUrl": "https://en.wikipedia.org/wiki/World_Meteorological_Day"
+  },
+  {
     "id": "anv-fixed-03-24-chocolate-covered-raisin-day-us",
     "date": "03-24",
     "dateType": "annual-fixed",
@@ -3500,7 +3522,7 @@
     "id": "anv-term-gyeongchip-villain-hitting-hk",
     "date": "gyeongchip",
     "dateType": "annual-tabulated",
-    "name": "경칩 다샤오런(홍콩)",
+    "name": "경칩 다샤오런(소인 때리기, 홍콩)",
     "category": "culture",
     "storytelling": {
       "origin": "경칩은 홍콩 코즈웨이베이의 고가도로 어경교(鵝頸橋) 아래에 ‘다샤오런(打小人, 소인 때리기)’을 하려는 사람들이 몰리는 대표적인 날이다. 다샤오런은 무녀(神婆)가 시비와 액운을 상징하는 종이 인형을 헌 신발로 두드리며 주문을 외우는 홍콩의 민간 풍습으로, 다리 밑에서는 거의 날마다 볼 수 있지만 경칩 앞뒤 한 주에 특히 붐빈다. 홍콩천문대 연표로 경칩은 2026년 3월 5일, 2027년 3월 6일, 2028년 3월 5일이다.",

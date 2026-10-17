@@ -1569,6 +1569,11 @@
     "modified": "2026-09-17",
     "hash": "58b8437966ff"
   },
+  "anv-fixed-03-23-world-meteorological-day-global": {
+    "published": "2026-10-18",
+    "modified": "2026-10-18",
+    "hash": "4f0e1610abfc"
+  },
   "anv-fixed-03-24-chocolate-covered-raisin-day-us": {
     "published": "2026-06-23",
     "modified": "2026-09-24",
@@ -3219,11 +3224,6 @@
     "modified": "2026-09-17",
     "hash": "8b1df645a0fb"
   },
-  "anv-fixed-05-20-world-meteorology-day-source": {
-    "published": "2026-06-23",
-    "modified": "2026-09-17",
-    "hash": "04e1af8c64ee"
-  },
   "anv-fixed-05-20-world-metrology-day-global": {
     "published": "2026-08-26",
     "modified": "2026-09-17",
@@ -3921,8 +3921,8 @@
   },
   "anv-fixed-06-18-dump-the-pump-day-us": {
     "published": "2026-06-23",
-    "modified": "2026-09-17",
-    "hash": "4f7b5754558d"
+    "modified": "2026-10-18",
+    "hash": "cfb8076ba43b"
   },
   "anv-fixed-06-18-go-fishing-day-us": {
     "published": "2026-06-23",
@@ -8261,8 +8261,8 @@
   },
   "anv-rel-chuseok-minus1-tai-hang-fire-dragon-hk": {
     "published": "2026-10-13",
-    "modified": "2026-10-13",
-    "hash": "ae75a4857a82"
+    "modified": "2026-10-18",
+    "hash": "c4489136ce3e"
   },
   "anv-rel-ipchun-minus1-setsubun-jp": {
     "published": "2026-10-13",
@@ -8371,8 +8371,8 @@
   },
   "anv-term-gyeongchip-villain-hitting-hk": {
     "published": "2026-10-13",
-    "modified": "2026-10-13",
-    "hash": "6a204435f52e"
+    "modified": "2026-10-18",
+    "hash": "05b0324eee43"
   },
   "anv-term-haji-kr": {
     "published": "2026-08-21",

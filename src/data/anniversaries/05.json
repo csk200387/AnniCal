@@ -2645,28 +2645,6 @@
     "sourceUrl": "https://nationaldaycalendar.com/celebrations/national-be-a-millionaire-day-may-20"
   },
   {
-    "id": "anv-fixed-05-20-world-meteorology-day-source",
-    "date": "05-20",
-    "dateType": "annual-fixed",
-    "name": "세계 기상학의 날 (소스 기재 5월 20일)",
-    "category": "academic",
-    "tags": [
-      "학술 & 기술"
-    ],
-    "storytelling": {
-      "origin": "기상 관측과 예보 과학의 발전을 기리는 날로, 다만 국제적으로 공인된 '세계 기상의 날'은 3월 23일(세계기상기구 창설일)이며 본 항목은 출처 데이터에 표기된 5월 20일 기준이다. 세계기상기구(WMO)는 1950년 국제기상기구를 계승해 설립된 UN 전문기구로, 193개 회원국이 기상 자료를 공유한다.",
-      "anecdote": "날짜 표기에 차이가 있을 만큼, 기상학에 대한 관심과 기념 방식이 다양하게 퍼져 있다는 점이 흥미롭다. 기상 관측은 농업·항공·재해 대응 등 여러 분야에 걸쳐 있어, 정확한 날짜보다 그 중요성 자체가 널리 공유되는 것으로 보인다. 기후위기로 기상 데이터의 가치가 더 커지면서 관련 인식도 함께 높아지고 있다."
-    },
-    "memes": [
-      {
-        "type": "text",
-        "url": null,
-        "caption": "날씨 예보 못 맞혔다고 욕먹는 건 매일이 기상학의 날"
-      }
-    ],
-    "sourceUrl": "https://en.wikipedia.org/wiki/World_Meteorological_Day"
-  },
-  {
     "id": "anv-fixed-05-20-world-bee-day",
     "date": "05-20",
     "dateType": "annual-fixed",
