@@ -31,6 +31,47 @@ const CREDIT = 'AI 생성 수채화 · 기념일 도감'
 // 도판은 최대 420px 로 보이므로 960 이면 2배 화면까지 덮는다. 종이 결이 바이트를 먹어
 // q80·1200 은 한 장 175KB 까지 갔다 — 상세 LCP 후보라 q70·960(최대 ~90KB)으로 줄였다.
 const WIDTHS = [480, 960]
+// 상세 히어로 배경(--color-paper-200). 그림의 종이색을 이 색으로 맞춰 그림이 히어로
+// 위에 바로 그린 것처럼 보이게 한다. 토큰을 바꾸면 여기와 기존 그림을 같이 바꿀 것.
+const HERO_PAPER = [0xf3, 0xed, 0xe0]
+
+/**
+ * 종이색을 HERO_PAPER 로 맞춘 PAM 파일을 만들어 경로를 돌려준다.
+ *
+ * 생성 그림의 종이는 한 장 안에서는 고르지만(가장자리 네 곳 차이 ±2) 장마다
+ * 히어로 배경과 최대 15 쯤 어긋난다. 가장자리 띠의 중앙값을 종이색으로 보고
+ * 채널마다 배율을 곱한다 — 종이는 정확히 배경색이 되고, 물감은 같은 비율로
+ * 움직여 색감이 거의 그대로다. 가장자리를 흐려 감추던 방식은 피사체(문어 다리)를
+ * 잘랐다.
+ */
+function matchPaper(source, work) {
+  const webp = join(work, 'full.webp')
+  const pam = join(work, 'full.pam')
+  execFileSync('cwebp', ['-quiet', '-lossless', source, '-o', webp])
+  execFileSync('dwebp', ['-quiet', webp, '-pam', '-o', pam])
+  const buf = readFileSync(pam)
+  const end = buf.indexOf('ENDHDR\n') + 'ENDHDR\n'.length
+  const header = buf.subarray(0, end).toString()
+  const w = Number(/WIDTH (\d+)/.exec(header)[1])
+  const h = Number(/HEIGHT (\d+)/.exec(header)[1])
+  const px = buf.subarray(end)
+
+  const band = Math.round(Math.min(w, h) * 0.03)
+  const samples = [[], [], []]
+  for (let y = 0; y < h; y++) {
+    for (let x = 0; x < w; x++) {
+      if (y >= band && y < h - band && x >= band && x < w - band) continue
+      const i = (y * w + x) * 4
+      for (let c = 0; c < 3; c++) samples[c].push(px[i + c])
+    }
+  }
+  const gain = samples.map((s, c) => HERO_PAPER[c] / s.sort((a, b) => a - b)[s.length >> 1])
+  for (let i = 0; i < px.length; i += 4) {
+    for (let c = 0; c < 3; c++) px[i + c] = Math.min(255, Math.round(px[i + c] * gain[c]))
+  }
+  writeFileSync(pam, buf)
+  return pam
+}
 
 const args = process.argv.slice(2)
 const from = args.find((a) => a.startsWith('--from='))?.slice('--from='.length)
@@ -62,9 +103,10 @@ try {
   }
   if (!existsSync(source)) throw new Error(`이미지가 없습니다: ${source}`)
 
+  const matched = matchPaper(source, work)
   for (const w of WIDTHS) {
     const out = join(root, `public/illustrations/${name}-${w}.webp`)
-    execFileSync('cwebp', ['-quiet', '-q', '70', '-resize', String(w), '0', source, '-o', out])
+    execFileSync('cwebp', ['-quiet', '-q', '70', '-resize', String(w), '0', matched, '-o', out])
   }
 } finally {
   rmSync(work, { recursive: true, force: true })
