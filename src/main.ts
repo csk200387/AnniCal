@@ -47,9 +47,13 @@ app.use(router)
 const PREFETCH_TIMEOUT_MS = 3000
 
 async function warmInitialRoute(): Promise<void> {
-  const match = /^\/day\/(\d{2})-\d{2}(?:\/|$)/.exec(router.currentRoute.value.path)
+  const match = /^\/day\/(\d{2})-\d{2}(\/|$)/.exec(router.currentRoute.value.path)
   if (!match) return
   const month = Number(match[1])
+  // 상세는 그 달 하나만 기다린다. 기념일과 그 기준일(추석·추수감사절)은 늘 urlDate 와
+  // 같은 달 파일에 있다 — 앞뒤 달은 '같은 날의 다른 기념일' 보충용이라 mount 뒤에 온다.
+  // 3개월(~150KB)을 다 기다리면 저속망에서 mount, 곧 LCP 가 0.5초쯤 밀린다.
+  const isDetail = match[2] === '/'
   if (!Number.isInteger(month) || month < 1 || month > 12) return
 
   // 스토어·리포지토리를 정적 import 하면 메인 청크로 끌려 들어와, 홈만 보는
@@ -61,7 +65,7 @@ async function warmInitialRoute(): Promise<void> {
   ])
   const store = useAnniversariesStore(pinia)
   await Promise.race([
-    store.ensureMonths(monthsCovering(month)),
+    store.ensureMonths(isDetail ? [month] : monthsCovering(month)),
     new Promise((resolve) => setTimeout(resolve, PREFETCH_TIMEOUT_MS)),
   ])
 }

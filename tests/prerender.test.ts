@@ -126,6 +126,33 @@ describe.runIf(existsSync(join(DIST, 'index.html')))('빌드 산출물', () => {
     expect(html).toContain('<article>')
     expect(html).toContain('application/ld+json')
     expect(html).not.toContain('<div id="app"></div>')
+    expect(html).toMatch(
+      new RegExp(`<link rel="modulepreload" crossorigin href="/assets/${r.urlDate.slice(0, 2)}-`),
+    )
+  })
+
+  // main.ts 는 상세 mount 전에 urlDate 의 달 하나만 기다린다. 기념일이나 그 기준일이
+  // 다른 달 파일에 있으면 mount 직후 정적 본문이 스켈레톤으로 바뀐다.
+  it('모든 기념일과 그 기준일이 urlDate 와 같은 달 파일에 있다', () => {
+    const routes = JSON.parse(readFileSync(join(ROOT, 'src/data/routes.json'), 'utf-8')) as Record<
+      string,
+      { urlDate: string }
+    >
+    const fileOf = new Map<string, string>()
+    const all: [string, Anniversary][] = []
+    for (const mm of ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12']) {
+      for (const a of JSON.parse(
+        readFileSync(join(ROOT, `src/data/anniversaries/${mm}.json`), 'utf-8'),
+      ) as Anniversary[]) {
+        fileOf.set(a.id, mm)
+        all.push([mm, a])
+      }
+    }
+    const bad = all.filter(([mm, a]) => {
+      const anchor = a.dateType === 'annual-relative-to-holiday' ? a.date.split(':')[0] : null
+      return routes[a.id]?.urlDate.slice(0, 2) !== mm || (anchor && fileOf.get(anchor) !== mm)
+    })
+    expect(bad.map(([, a]) => a.id)).toEqual([])
   })
 
   it('어떤 페이지의 JSON-LD 도 script 를 탈출하지 않는다', () => {

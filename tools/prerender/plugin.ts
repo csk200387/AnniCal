@@ -7,7 +7,7 @@
 //
 // title/description 문구는 src/seo/meta.ts 의 함수를 그대로 import 해서 쓴다.
 // 정적 HTML 과 SPA 가 서로 다른 제목을 내는 사고를 막기 위함이다.
-import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
 import { dirname, join, resolve, sep } from 'node:path'
 import type { Plugin } from 'vite'
 import type { Anniversary } from '../../src/types/anniversary'
@@ -187,6 +187,14 @@ export function prerender(): Plugin {
     },
     closeBundle() {
       const shell = readFileSync(join(outDir, 'index.html'), 'utf-8')
+      // 월 데이터 청크('01-<hash>.js'). 상세 HTML 이 자기 달을 modulepreload 해서
+      // 메인 JS → 스토어 → 월 데이터로 이어지는 요청 사슬을 기다리지 않게 한다.
+      const monthChunk = new Map(
+        readdirSync(join(outDir, 'assets')).flatMap((f) => {
+          const m = /^(\d{2})-[\w-]+\.js$/.exec(f)
+          return m ? [[m[1], f] as const] : []
+        }),
+      )
       const targets = buildTargets()
       const routes = loadRoutes()
       // 어떤 경로도 이 밖으로 나가면 안 된다. '../..' 가 든 slug 가 저장소
@@ -325,6 +333,12 @@ export function prerender(): Plugin {
           .replace(
             '</head>',
             `  <script type="application/ld+json" id="ld-page" data-prerendered="${esc(t.path)}">${jsonLd(t, url, description, isDetail ? routes[t.anniversary!.id].slug : '')}</script>\n  </head>`,
+          )
+          .replace(
+            '</head>',
+            isDetail && monthChunk.has(t.urlDate.slice(0, 2))
+              ? `  <link rel="modulepreload" crossorigin href="/assets/${monthChunk.get(t.urlDate.slice(0, 2))}" />\n  </head>`
+              : '</head>',
           )
           .replace('<div id="app"></div>', `<div id="app">${body}</div>`)
 
