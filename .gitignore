@@ -54,3 +54,6 @@ tools/og/.venv/
 
 # 조사 원문 HTML 사본은 로컬 보관 (본문 TXT·인용 원장은 커밋)
 tools/research/workflow/**/*.html
+
+# 에이전트 작업용 임시 worktree
+.claude/worktrees/
