@@ -122,8 +122,8 @@
   },
   {
     "id": "anv-fixed-04-02-love-our-children-day-us",
-    "date": "04-02",
-    "dateType": "annual-fixed",
+    "date": "04-1-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "우리 아이들을 사랑하는 날",
     "category": "campaign",
     "tags": [
@@ -584,8 +584,8 @@
   },
   {
     "id": "anv-fixed-04-06-walking-day-us",
-    "date": "04-06",
-    "dateType": "annual-fixed",
+    "date": "04-1-WED",
+    "dateType": "annual-nth-weekday",
     "name": "걷기의 날 (National Walking Day)",
     "category": "campaign",
     "tags": [
@@ -694,8 +694,8 @@
   },
   {
     "id": "anv-fixed-04-06-day-of-hope-us",
-    "date": "04-06",
-    "dateType": "annual-fixed",
+    "date": "04-1-WED",
+    "dateType": "annual-nth-weekday",
     "name": "희망의 날 (Childhelp National Day of Hope)",
     "category": "campaign",
     "tags": [
@@ -1904,8 +1904,8 @@
   },
   {
     "id": "anv-fixed-04-15-day-of-silence-us",
-    "date": "04-15",
-    "dateType": "annual-fixed",
+    "date": "04-2-FRI",
+    "dateType": "annual-nth-weekday",
     "name": "침묵의 날 (National Day of Silence)",
     "category": "campaign",
     "tags": [
@@ -1964,8 +1964,8 @@
   },
   {
     "id": "anv-fixed-04-16-auctioneers-day-us",
-    "date": "04-16",
-    "dateType": "annual-fixed",
+    "date": "04-3-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "경매인의 날",
     "category": "career",
     "tags": [
@@ -2624,8 +2624,8 @@
   },
   {
     "id": "anv-fixed-04-21-high-five-day-us",
-    "date": "04-21",
-    "dateType": "annual-fixed",
+    "date": "04-3-THU",
+    "dateType": "annual-nth-weekday",
     "name": "하이파이브의 날 (National High Five Day)",
     "category": "sports",
     "tags": [
@@ -2943,8 +2943,8 @@
   },
   {
     "id": "anv-fixed-04-24-pet-parents-day-us",
-    "date": "04-24",
-    "dateType": "annual-fixed",
+    "date": "04-L-SUN",
+    "dateType": "annual-nth-weekday",
     "name": "반려동물 부모의 날",
     "category": "animal",
     "tags": [
@@ -3130,8 +3130,8 @@
   },
   {
     "id": "anv-fixed-04-25-kiss-of-hope-day-us",
-    "date": "04-25",
-    "dateType": "annual-fixed",
+    "date": "04-L-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "희망의 키스 날",
     "category": "campaign",
     "tags": [
@@ -3557,8 +3557,8 @@
   },
   {
     "id": "anv-fixed-04-28-take-our-daughters-sons-to-work-day-us",
-    "date": "04-28",
-    "dateType": "annual-fixed",
+    "date": "04-4-THU",
+    "dateType": "annual-nth-weekday",
     "name": "자녀와 함께 출근하는 날",
     "category": "career",
     "tags": [
@@ -3579,8 +3579,8 @@
   },
   {
     "id": "anv-fixed-04-28-poem-in-your-pocket-day-us",
-    "date": "04-28",
-    "dateType": "annual-fixed",
+    "date": "04-L-THU",
+    "dateType": "annual-nth-weekday",
     "name": "주머니 속 시의 날",
     "category": "culture",
     "tags": [
@@ -3657,8 +3657,8 @@
   },
   {
     "id": "anv-fixed-04-29-arbor-day-global",
-    "date": "04-29",
-    "dateType": "annual-fixed",
+    "date": "04-L-FRI",
+    "dateType": "annual-nth-weekday",
     "name": "나무 심는 날 (National Arbor Day)",
     "category": "animal",
     "tags": [
@@ -3745,8 +3745,8 @@
   },
   {
     "id": "anv-fixed-04-29-hairball-awareness-day-us",
-    "date": "04-29",
-    "dateType": "annual-fixed",
+    "date": "04-L-FRI",
+    "dateType": "annual-nth-weekday",
     "name": "헤어볼 인식의 날",
     "category": "animal",
     "tags": [
@@ -3843,8 +3843,8 @@
   },
   {
     "id": "anv-fixed-04-30-rebuilding-day-us",
-    "date": "04-30",
-    "dateType": "annual-fixed",
+    "date": "04-L-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "리빌딩 데이",
     "category": "general",
     "tags": [
@@ -3997,8 +3997,8 @@
   },
   {
     "id": "anv-fixed-04-30-sense-of-smell-day-us",
-    "date": "04-30",
-    "dateType": "annual-fixed",
+    "date": "04-L-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "후각의 날 (National Sense of Smell Day)",
     "category": "campaign",
     "tags": [

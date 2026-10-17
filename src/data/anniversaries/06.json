@@ -545,8 +545,8 @@
   },
   {
     "id": "anv-fixed-06-03-running-day-us",
-    "date": "06-03",
-    "dateType": "annual-fixed",
+    "date": "06-1-WED",
+    "dateType": "annual-nth-weekday",
     "name": "러닝의 날 (National Running Day)",
     "category": "sports",
     "tags": [
@@ -677,8 +677,8 @@
   },
   {
     "id": "anv-fixed-06-05-doughnut-day-us",
-    "date": "06-05",
-    "dateType": "annual-fixed",
+    "date": "06-1-FRI",
+    "dateType": "annual-nth-weekday",
     "name": "도넛의 날 (National Doughnut Day)",
     "category": "food",
     "tags": [
@@ -1505,8 +1505,8 @@
   },
   {
     "id": "anv-fixed-06-13-rose-day-us",
-    "date": "06-13",
-    "dateType": "annual-fixed",
+    "date": "06-2-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "로제의 날 (National Rosé Day)",
     "category": "food",
     "tags": [
@@ -2039,8 +2039,8 @@
   },
   {
     "id": "anv-fixed-06-19-martini-day-us",
-    "date": "06-19",
-    "dateType": "annual-fixed",
+    "date": "06-3-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "마티니의 날 (National Martini Day)",
     "category": "food",
     "tags": [
@@ -2144,8 +2144,8 @@
   },
   {
     "id": "anv-fixed-06-20-international-surfing-day-global",
-    "date": "06-20",
-    "dateType": "annual-fixed",
+    "date": "06-3-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "세계 서핑의 날 (International Surfing Day)",
     "category": "sports",
     "tags": [
@@ -2644,8 +2644,8 @@
   },
   {
     "id": "anv-fixed-06-25-handshake-day-us",
-    "date": "06-25",
-    "dateType": "annual-fixed",
+    "date": "06-L-THU",
+    "dateType": "annual-nth-weekday",
     "name": "악수의 날 (National Handshake Day)",
     "category": "culture",
     "tags": [
@@ -2666,8 +2666,8 @@
   },
   {
     "id": "anv-fixed-06-25-bomb-pop-day-us",
-    "date": "06-25",
-    "dateType": "annual-fixed",
+    "date": "06-L-THU",
+    "dateType": "annual-nth-weekday",
     "name": "폭탄 모양 아이스바의 날",
     "category": "food",
     "tags": [

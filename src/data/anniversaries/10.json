@@ -227,8 +227,8 @@
   },
   {
     "id": "anv-fixed-10-02-world-smile-day-global",
-    "date": "10-02",
-    "dateType": "annual-fixed",
+    "date": "10-1-FRI",
+    "dateType": "annual-nth-weekday",
     "name": "세계 미소의 날 (World Smile Day)",
     "category": "quirky",
     "tags": [
@@ -271,8 +271,8 @@
   },
   {
     "id": "anv-fixed-10-02-manufacturing-day-us",
-    "date": "10-02",
-    "dateType": "annual-fixed",
+    "date": "10-1-FRI",
+    "dateType": "annual-nth-weekday",
     "name": "제조업의 날 (National Manufacturing Day)",
     "category": "general",
     "tags": [
@@ -403,8 +403,8 @@
   },
   {
     "id": "anv-fixed-10-04-taco-day-us",
-    "date": "10-04",
-    "dateType": "annual-fixed",
+    "date": "10-1-TUE",
+    "dateType": "annual-nth-weekday",
     "name": "타코의 날 (National Taco Day)",
     "category": "food",
     "tags": [
@@ -442,8 +442,8 @@
   },
   {
     "id": "anv-fixed-10-05-child-health-day-us",
-    "date": "10-05",
-    "dateType": "annual-fixed",
+    "date": "10-1-MON",
+    "dateType": "annual-nth-weekday",
     "name": "아동 건강의 날 (National Child Health Day)",
     "category": "campaign",
     "tags": [
@@ -640,8 +640,8 @@
   },
   {
     "id": "anv-fixed-10-08-poetry-day-us",
-    "date": "10-08",
-    "dateType": "annual-fixed",
+    "date": "10-1-THU",
+    "dateType": "annual-nth-weekday",
     "name": "시의 날 (National Poetry Day)",
     "category": "culture",
     "tags": [
@@ -833,8 +833,8 @@
   },
   {
     "id": "anv-fixed-10-10-chess-day-us",
-    "date": "10-10",
-    "dateType": "annual-fixed",
+    "date": "10-2-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "체스의 날 (National Chess Day)",
     "category": "general",
     "tags": [
@@ -855,8 +855,8 @@
   },
   {
     "id": "anv-fixed-10-10-costume-swap-day-us",
-    "date": "10-10",
-    "dateType": "annual-fixed",
+    "date": "10-2-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "코스튬 교환의 날",
     "category": "animal",
     "tags": [
@@ -1036,8 +1036,8 @@
   },
   {
     "id": "anv-fixed-10-11-clergy-appreciation-day-global",
-    "date": "10-11",
-    "dateType": "annual-fixed",
+    "date": "10-2-SUN",
+    "dateType": "annual-nth-weekday",
     "name": "성직자 감사의 날",
     "category": "career",
     "tags": [
@@ -1162,8 +1162,8 @@
   },
   {
     "id": "anv-fixed-10-12-kick-butt-day-us",
-    "date": "10-12",
-    "dateType": "annual-fixed",
+    "date": "10-2-MON",
+    "dateType": "annual-nth-weekday",
     "name": "박차고 일어나는 날 (National Kick Butt Day)",
     "category": "quirky",
     "tags": [
@@ -1310,8 +1310,8 @@
   },
   {
     "id": "anv-fixed-10-14-stop-bullying-day-us",
-    "date": "10-14",
-    "dateType": "annual-fixed",
+    "date": "10-2-WED",
+    "dateType": "annual-nth-weekday",
     "name": "괴롭힘 근절의 날 (National Stop Bullying Day)",
     "category": "campaign",
     "tags": [
@@ -1376,8 +1376,8 @@
   },
   {
     "id": "anv-fixed-10-14-take-your-parents-to-lunch-day-us",
-    "date": "10-14",
-    "dateType": "annual-fixed",
+    "date": "10-2-WED",
+    "dateType": "annual-nth-weekday",
     "name": "부모님과 점심 먹는 날",
     "category": "career",
     "tags": [
@@ -1398,8 +1398,8 @@
   },
   {
     "id": "anv-fixed-10-14-emergency-nurses-day-us",
-    "date": "10-14",
-    "dateType": "annual-fixed",
+    "date": "10-2-WED",
+    "dateType": "annual-nth-weekday",
     "name": "응급실 간호사의 날",
     "category": "career",
     "tags": [
@@ -1420,8 +1420,8 @@
   },
   {
     "id": "anv-fixed-10-14-bring-your-teddy-bear-day-us",
-    "date": "10-14",
-    "dateType": "annual-fixed",
+    "date": "10-2-WED",
+    "dateType": "annual-nth-weekday",
     "name": "테디베어와 함께하는 날",
     "category": "campaign",
     "tags": [
@@ -1442,8 +1442,8 @@
   },
   {
     "id": "anv-fixed-10-14-fossil-day-us",
-    "date": "10-14",
-    "dateType": "annual-fixed",
+    "date": "10-2-WED",
+    "dateType": "annual-nth-weekday",
     "name": "화석의 날 (National Fossil Day)",
     "category": "academic",
     "tags": [
@@ -1623,8 +1623,8 @@
   },
   {
     "id": "anv-fixed-10-15-get-smart-about-credit-day-us",
-    "date": "10-15",
-    "dateType": "annual-fixed",
+    "date": "10-3-THU",
+    "dateType": "annual-nth-weekday",
     "name": "신용을 배우는 날 (National Get Smart About Credit Day)",
     "category": "general",
     "tags": [
@@ -1898,8 +1898,8 @@
   },
   {
     "id": "anv-fixed-10-16-mammography-day-us",
-    "date": "10-16",
-    "dateType": "annual-fixed",
+    "date": "10-3-FRI",
+    "dateType": "annual-nth-weekday",
     "name": "유방촬영술의 날 (National Mammography Day)",
     "category": "campaign",
     "tags": [
@@ -2100,8 +2100,8 @@
   },
   {
     "id": "anv-fixed-10-19-clean-virtual-desktop-day-us",
-    "date": "10-19",
-    "dateType": "annual-fixed",
+    "date": "10-3-MON",
+    "dateType": "annual-nth-weekday",
     "name": "바탕화면 정리하는 날",
     "category": "academic",
     "tags": [
@@ -2188,8 +2188,8 @@
   },
   {
     "id": "anv-fixed-10-20-pharmacy-technician-day-us",
-    "date": "10-20",
-    "dateType": "annual-fixed",
+    "date": "10-3-TUE",
+    "dateType": "annual-nth-weekday",
     "name": "약사 보조원의 날 (National Pharmacy Technician Day)",
     "category": "career",
     "tags": [
@@ -2227,8 +2227,8 @@
   },
   {
     "id": "anv-fixed-10-21-hagfish-day-global",
-    "date": "10-21",
-    "dateType": "annual-fixed",
+    "date": "10-3-WED",
+    "dateType": "annual-nth-weekday",
     "name": "먹장어의 날 (Hagfish Day)",
     "category": "animal",
     "tags": [
@@ -2502,8 +2502,8 @@
   },
   {
     "id": "anv-fixed-10-24-make-a-difference-day-us",
-    "date": "10-24",
-    "dateType": "annual-fixed",
+    "date": "10-4-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "변화를 만드는 날 (National Make A Difference Day)",
     "category": "general",
     "tags": [
@@ -3014,8 +3014,8 @@
   },
   {
     "id": "anv-fixed-10-30-breadstix-day-us",
-    "date": "10-30",
-    "dateType": "annual-fixed",
+    "date": "10-L-FRI",
+    "dateType": "annual-nth-weekday",
     "name": "브레드스틱의 날 (National Breadstix Day)",
     "category": "food",
     "tags": [
@@ -3102,8 +3102,8 @@
   },
   {
     "id": "anv-fixed-10-30-frankenstein-day-us",
-    "date": "10-30",
-    "dateType": "annual-fixed",
+    "date": "10-L-FRI",
+    "dateType": "annual-nth-weekday",
     "name": "프랑켄슈타인의 날 (National Frankenstein Day)",
     "category": "culture",
     "tags": [
@@ -3427,8 +3427,8 @@
   },
   {
     "id": "anv-fixed-10-31-makgeolli-day-kr",
-    "date": "10-31",
-    "dateType": "annual-fixed",
+    "date": "10-L-THU",
+    "dateType": "annual-nth-weekday",
     "name": "막걸리의 날",
     "category": "general",
     "tags": [

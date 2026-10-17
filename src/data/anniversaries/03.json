@@ -561,8 +561,8 @@
   },
   {
     "id": "anv-fixed-03-04-employee-appreciation-day-global",
-    "date": "03-04",
-    "dateType": "annual-fixed",
+    "date": "03-1-FRI",
+    "dateType": "annual-nth-weekday",
     "name": "직원 감사의 날 (Employee Appreciation Day)",
     "category": "career",
     "tags": [
@@ -996,8 +996,8 @@
   },
   {
     "id": "anv-fixed-03-09-dietitian-nutritionist-day-global",
-    "date": "03-09",
-    "dateType": "annual-fixed",
+    "date": "03-2-WED",
+    "dateType": "annual-nth-weekday",
     "name": "영양사의 날",
     "category": "career",
     "tags": [
@@ -2127,8 +2127,8 @@
   },
   {
     "id": "anv-fixed-03-19-quilting-day-global",
-    "date": "03-19",
-    "dateType": "annual-fixed",
+    "date": "03-3-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "퀼트의 날 (Quilting Day)",
     "category": "quirky",
     "tags": [
@@ -2587,8 +2587,8 @@
   },
   {
     "id": "anv-fixed-03-22-diabetes-alert-day-global",
-    "date": "03-22",
-    "dateType": "annual-fixed",
+    "date": "03-4-TUE",
+    "dateType": "annual-nth-weekday",
     "name": "당뇨병 경고의 날 (Diabetes Alert Day)",
     "category": "campaign",
     "tags": [
@@ -3228,8 +3228,8 @@
   },
   {
     "id": "anv-fixed-03-30-manatee-appreciation-day-global",
-    "date": "03-30",
-    "dateType": "annual-fixed",
+    "date": "03-L-WED",
+    "dateType": "annual-nth-weekday",
     "name": "매너티의 날 (Manatee Appreciation Day)",
     "category": "food",
     "tags": [

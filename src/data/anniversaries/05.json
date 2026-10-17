@@ -819,8 +819,8 @@
   },
   {
     "id": "anv-fixed-05-06-space-day-us",
-    "date": "05-06",
-    "dateType": "annual-fixed",
+    "date": "05-1-FRI",
+    "dateType": "annual-nth-weekday",
     "name": "우주의 날 (National Space Day)",
     "category": "academic",
     "tags": [
@@ -967,8 +967,8 @@
   },
   {
     "id": "anv-fixed-05-07-bombshells-day-us",
-    "date": "05-07",
-    "dateType": "annual-fixed",
+    "date": "05-1-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "봄셸의 날 (National Bombshells' Day)",
     "category": "history",
     "tags": [
@@ -989,8 +989,8 @@
   },
   {
     "id": "anv-fixed-05-07-scrapbook-day-us",
-    "date": "05-07",
-    "dateType": "annual-fixed",
+    "date": "05-1-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "스크랩북의 날 (National Scrapbook Day)",
     "category": "general",
     "tags": [
@@ -1121,8 +1121,8 @@
   },
   {
     "id": "anv-fixed-05-07-homebrew-day-us",
-    "date": "05-07",
-    "dateType": "annual-fixed",
+    "date": "05-1-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "홈브루의 날 (National Homebrew Day)",
     "category": "food",
     "tags": [
@@ -1280,8 +1280,8 @@
   },
   {
     "id": "anv-fixed-05-09-womens-checkup-day-us",
-    "date": "05-09",
-    "dateType": "annual-fixed",
+    "date": "anv-nth-05-2-sun-us-mothers-day:1",
+    "dateType": "annual-relative-to-holiday",
     "name": "여성 건강검진의 날",
     "category": "campaign",
     "tags": [
@@ -1479,8 +1479,8 @@
   },
   {
     "id": "anv-fixed-05-11-receptionists-day-us",
-    "date": "05-11",
-    "dateType": "annual-fixed",
+    "date": "05-2-WED",
+    "dateType": "annual-nth-weekday",
     "name": "리셉셔니스트의 날",
     "category": "career",
     "tags": [
@@ -1501,8 +1501,8 @@
   },
   {
     "id": "anv-fixed-05-11-third-shift-workers-day-us",
-    "date": "05-11",
-    "dateType": "annual-fixed",
+    "date": "05-2-WED",
+    "dateType": "annual-nth-weekday",
     "name": "야간 근무자의 날",
     "category": "career",
     "tags": [
@@ -1903,8 +1903,8 @@
   },
   {
     "id": "anv-fixed-05-14-miniature-golf-day-us",
-    "date": "05-14",
-    "dateType": "annual-fixed",
+    "date": "05-2-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "미니 골프의 날 (National Miniature Golf Day)",
     "category": "sports",
     "tags": [
@@ -1947,8 +1947,8 @@
   },
   {
     "id": "anv-fixed-05-14-archery-day-us",
-    "date": "05-14",
-    "dateType": "annual-fixed",
+    "date": "05-2-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "양궁의 날 (National Archery Day)",
     "category": "sports",
     "tags": [
@@ -1991,8 +1991,8 @@
   },
   {
     "id": "anv-fixed-05-14-cornelia-de-lange-syndrome-awareness-day-global",
-    "date": "05-14",
-    "dateType": "annual-fixed",
+    "date": "05-2-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "코르넬리아 드 랑게 증후군 인식의 날",
     "category": "campaign",
     "tags": [
@@ -2558,8 +2558,8 @@
   },
   {
     "id": "anv-fixed-05-20-defense-transportation-day-us",
-    "date": "05-20",
-    "dateType": "annual-fixed",
+    "date": "05-3-FRI",
+    "dateType": "annual-nth-weekday",
     "name": "국방 수송의 날",
     "category": "history",
     "tags": [
@@ -2602,8 +2602,8 @@
   },
   {
     "id": "anv-fixed-05-20-endangered-species-day-global",
-    "date": "05-20",
-    "dateType": "annual-fixed",
+    "date": "05-3-FRI",
+    "dateType": "annual-nth-weekday",
     "name": "멸종위기종의 날 (National Endangered Species Day)",
     "category": "animal",
     "tags": [
@@ -2668,8 +2668,8 @@
   },
   {
     "id": "anv-fixed-05-20-bike-to-work-day-us",
-    "date": "05-20",
-    "dateType": "annual-fixed",
+    "date": "05-3-FRI",
+    "dateType": "annual-nth-weekday",
     "name": "자전거 출근의 날 (National Bike to Work Day)",
     "category": "animal",
     "tags": [
@@ -2712,8 +2712,8 @@
   },
   {
     "id": "anv-fixed-05-20-pizza-party-day-us",
-    "date": "05-20",
-    "dateType": "annual-fixed",
+    "date": "05-3-FRI",
+    "dateType": "annual-nth-weekday",
     "name": "피자 파티의 날",
     "category": "food",
     "tags": [
@@ -2920,8 +2920,8 @@
   },
   {
     "id": "anv-fixed-05-21-learn-to-swim-day-us",
-    "date": "05-21",
-    "dateType": "annual-fixed",
+    "date": "05-3-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "수영 배우는 날 (National Learn to Swim Day)",
     "category": "sports",
     "tags": [
@@ -3278,8 +3278,8 @@
   },
   {
     "id": "anv-fixed-05-25-senior-health-fitness-day-us",
-    "date": "05-25",
-    "dateType": "annual-fixed",
+    "date": "05-L-WED",
+    "dateType": "annual-nth-weekday",
     "name": "노년층 건강·체력의 날",
     "category": "campaign",
     "tags": [
@@ -3570,8 +3570,8 @@
   },
   {
     "id": "anv-fixed-05-27-heat-awareness-day-us",
-    "date": "05-27",
-    "dateType": "annual-fixed",
+    "date": "05-L-FRI",
+    "dateType": "annual-nth-weekday",
     "name": "폭염 인식의 날",
     "category": "campaign",
     "tags": [

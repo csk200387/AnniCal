@@ -544,8 +544,8 @@
   },
   {
     "id": "anv-fixed-02-08-clean-out-your-computer-day-us",
-    "date": "02-08",
-    "dateType": "annual-fixed",
+    "date": "02-2-MON",
+    "dateType": "annual-nth-weekday",
     "name": "컴퓨터 정리의 날",
     "category": "academic",
     "tags": [
@@ -1730,8 +1730,8 @@
   },
   {
     "id": "anv-fixed-02-25-chili-day-us",
-    "date": "02-25",
-    "dateType": "annual-fixed",
+    "date": "02-4-THU",
+    "dateType": "annual-nth-weekday",
     "name": "칠리의 날",
     "category": "food",
     "tags": [

@@ -484,8 +484,8 @@
   },
   {
     "id": "anv-fixed-09-04-lazy-moms-day-us",
-    "date": "09-04",
-    "dateType": "annual-fixed",
+    "date": "09-1-FRI",
+    "dateType": "annual-nth-weekday",
     "name": "게으른 엄마의 날",
     "category": "quirky",
     "tags": [
@@ -887,8 +887,8 @@
   },
   {
     "id": "anv-fixed-09-08-ants-on-a-log-day-us",
-    "date": "09-08",
-    "dateType": "annual-fixed",
+    "date": "09-2-TUE",
+    "dateType": "annual-nth-weekday",
     "name": "앤츠 온 어 로그의 날",
     "category": "food",
     "tags": [
@@ -1240,8 +1240,8 @@
   },
   {
     "id": "anv-fixed-09-13-pet-memorial-day-us",
-    "date": "09-13",
-    "dateType": "annual-fixed",
+    "date": "09-2-SUN",
+    "dateType": "annual-nth-weekday",
     "name": "반려동물 추모의 날 (National Pet Memorial Day)",
     "category": "animal",
     "tags": [
@@ -1262,8 +1262,8 @@
   },
   {
     "id": "anv-fixed-09-13-hug-your-hound-day-us",
-    "date": "09-13",
-    "dateType": "annual-fixed",
+    "date": "09-2-SUN",
+    "dateType": "annual-nth-weekday",
     "name": "사냥개를 안아주는 날",
     "category": "animal",
     "tags": [
@@ -1411,8 +1411,8 @@
   },
   {
     "id": "anv-fixed-09-15-it-professionals-day-us",
-    "date": "09-15",
-    "dateType": "annual-fixed",
+    "date": "09-3-TUE",
+    "dateType": "annual-nth-weekday",
     "name": "IT 전문가의 날 (National IT Professionals Day)",
     "category": "academic",
     "tags": [
@@ -1851,8 +1851,8 @@
   },
   {
     "id": "anv-fixed-09-18-tradesmen-day-us",
-    "date": "09-18",
-    "dateType": "annual-fixed",
+    "date": "09-3-FRI",
+    "dateType": "annual-nth-weekday",
     "name": "기술직 종사자의 날 (National Tradesmen Day)",
     "category": "career",
     "tags": [
@@ -1873,8 +1873,8 @@
   },
   {
     "id": "anv-fixed-09-18-pow-mia-recognition-day-us",
-    "date": "09-18",
-    "dateType": "annual-fixed",
+    "date": "09-3-FRI",
+    "dateType": "annual-nth-weekday",
     "name": "전쟁포로·실종자 인식의 날 (National POW/MIA Recognition Day)",
     "category": "career",
     "tags": [
@@ -1917,8 +1917,8 @@
   },
   {
     "id": "anv-fixed-09-19-puppy-mill-awareness-day-global",
-    "date": "09-19",
-    "dateType": "annual-fixed",
+    "date": "09-3-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "강아지 공장 인식의 날 (Puppy Mill Awareness Day)",
     "category": "animal",
     "tags": [
@@ -1961,8 +1961,8 @@
   },
   {
     "id": "anv-fixed-09-19-international-eat-an-apple-day-global",
-    "date": "09-19",
-    "dateType": "annual-fixed",
+    "date": "09-3-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "세계 사과 먹는 날 (International Eat An Apple Day)",
     "category": "food",
     "tags": [
@@ -2027,8 +2027,8 @@
   },
   {
     "id": "anv-fixed-09-19-responsible-dog-ownership-day-global",
-    "date": "09-19",
-    "dateType": "annual-fixed",
+    "date": "09-3-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "책임감 있는 반려견 양육의 날",
     "category": "animal",
     "tags": [
@@ -2049,8 +2049,8 @@
   },
   {
     "id": "anv-fixed-09-19-big-whopper-liar-day-us",
-    "date": "09-19",
-    "dateType": "annual-fixed",
+    "date": "09-3-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "허풍쟁이의 날 (Big Whopper Liar Day)",
     "category": "quirky",
     "tags": [
@@ -2071,8 +2071,8 @@
   },
   {
     "id": "anv-fixed-09-20-wife-appreciation-day-us",
-    "date": "09-20",
-    "dateType": "annual-fixed",
+    "date": "09-3-SUN",
+    "dateType": "annual-nth-weekday",
     "name": "아내에게 감사하는 날",
     "category": "romance",
     "tags": [
@@ -2308,8 +2308,8 @@
   },
   {
     "id": "anv-fixed-09-22-woman-road-warrior-day-us",
-    "date": "09-22",
-    "dateType": "annual-fixed",
+    "date": "09-4-TUE",
+    "dateType": "annual-nth-weekday",
     "name": "여성 출장족의 날",
     "category": "career",
     "tags": [
@@ -2726,8 +2726,8 @@
   },
   {
     "id": "anv-fixed-09-26-family-health-fitness-day-usa",
-    "date": "09-26",
-    "dateType": "annual-fixed",
+    "date": "09-L-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "가족 건강·체력의 날",
     "category": "campaign",
     "tags": [
@@ -2792,8 +2792,8 @@
   },
   {
     "id": "anv-fixed-09-26-hunting-and-fishing-day-us",
-    "date": "09-26",
-    "dateType": "annual-fixed",
+    "date": "09-4-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "수렵·낚시의 날 (National Hunting and Fishing Day)",
     "category": "animal",
     "tags": [
@@ -2874,8 +2874,8 @@
   },
   {
     "id": "anv-fixed-09-27-gold-star-mothers-day-us",
-    "date": "09-27",
-    "dateType": "annual-fixed",
+    "date": "09-L-SUN",
+    "dateType": "annual-nth-weekday",
     "name": "골드 스타 마더스 데이",
     "category": "career",
     "tags": [
@@ -3028,8 +3028,8 @@
   },
   {
     "id": "anv-fixed-09-28-good-neighbor-day-us",
-    "date": "09-28",
-    "dateType": "annual-fixed",
+    "date": "09-4-SUN",
+    "dateType": "annual-nth-weekday",
     "name": "좋은 이웃의 날 (National Good Neighbor Day)",
     "category": "quirky",
     "tags": [
@@ -3198,8 +3198,8 @@
   },
   {
     "id": "anv-fixed-09-30-womens-health-fitness-day-us",
-    "date": "09-30",
-    "dateType": "annual-fixed",
+    "date": "09-L-WED",
+    "dateType": "annual-nth-weekday",
     "name": "여성 건강·체력의 날",
     "category": "campaign",
     "tags": [
