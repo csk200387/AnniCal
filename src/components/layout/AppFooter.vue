@@ -22,7 +22,7 @@ const year = new Date().getFullYear()
         <nav class="footer-links" aria-label="하단 메뉴">
           <RouterLink v-for="item in primaryNavigation" :key="item.name" :to="item.to"
             >{{ item.lines.join(' ') }}{{ item.name === 'export' ? ' ↗' : '' }}</RouterLink
-          >
+          ><RouterLink to="/about">기념일 도감 소개</RouterLink>
         </nav>
       </div>
       <div class="footer-wordmark" aria-hidden="true">every day matters.</div>

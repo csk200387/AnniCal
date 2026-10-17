@@ -211,6 +211,29 @@ function lastChanged(relPath: string): Date {
   }
 }
 
+export interface ItemDates {
+  published: string
+  modified: string
+}
+let lastmodCache: Record<string, ItemDates> | null = null
+
+/**
+ * 기념일별 처음 실린 날·마지막으로 바뀐 날 (YYYY-MM-DD, KST).
+ * tools/lastmod/generate_lastmod.py 가 전체 git 이력에서 미리 계산한다 — 빌드
+ * 환경(Vercel)은 얕은 클론이라 여기서 직접 구하면 전 URL 이 같은 날로 수렴한다.
+ * 빠진 항목은 호출부가 파일 단위 날짜로 물러선다.
+ */
+export function loadLastmod(): Record<string, ItemDates> {
+  if (!lastmodCache) {
+    try {
+      lastmodCache = JSON.parse(readFileSync(join(ROOT, 'src/data/lastmod.json'), 'utf-8'))
+    } catch {
+      lastmodCache = {}
+    }
+  }
+  return lastmodCache!
+}
+
 export interface SitemapMeta {
   lastmod: Record<string, Date>
   priority: Record<string, number>
@@ -245,20 +268,26 @@ export function buildSitemapMeta(targets: PrerenderTarget[]): SitemapMeta {
   const priority: Record<string, number> = {}
   const changefreq: Record<string, string> = {}
 
+  // 기념일 하나의 수정일. lastmod.json 에 없으면 그 항목이 든 파일의 날짜로.
+  const dates = loadLastmod()
+  const modifiedOf = (a: Anniversary): Date => {
+    const d = dates[a.id]?.modified
+    if (d) return new Date(`${d}T00:00:00+09:00`)
+    const rel = fileOf.get(a.id)
+    return rel ? changedAt(rel) : changedAt('src/data/anniversaries')
+  }
+  const latest = (ds: Date[]): Date => new Date(Math.max(...ds.map((d) => d.getTime())))
+
   for (const t of targets) {
     if (t.kind === 'detail' && t.anniversary) {
-      const rel = fileOf.get(t.anniversary.id)
-      lastmod[t.path] = rel ? changedAt(rel) : new Date()
+      lastmod[t.path] = modifiedOf(t.anniversary)
       priority[t.path] = 0.7
       changefreq[t.path] = 'monthly'
     } else {
-      // 허브는 그 날짜에 걸린 기념일들이 담긴 파일 중 가장 최근 것을 따른다.
-      const files = [
-        ...new Set((t.items ?? []).map((a) => fileOf.get(a.id)).filter(Boolean)),
-      ] as string[]
-      const dates = files.map(changedAt)
-      lastmod[t.path] = dates.length
-        ? new Date(Math.max(...dates.map((d) => d.getTime())))
+      // 허브는 그 날짜에 걸린 기념일 중 가장 최근에 바뀐 것을 따른다.
+      const items = t.items ?? []
+      lastmod[t.path] = items.length
+        ? latest(items.map(modifiedOf))
         : changedAt(`src/data/anniversaries/${t.urlDate.slice(0, 2)}.json`)
       priority[t.path] = 0.6
       changefreq[t.path] = 'monthly'
@@ -266,14 +295,20 @@ export function buildSitemapMeta(targets: PrerenderTarget[]): SitemapMeta {
   }
 
   // 정적 라우트. 홈은 '오늘의 기념일' 피드라 매일 내용이 바뀐다.
-  lastmod['/'] = changedAt('src/data/anniversaries')
+  const anyData = latest(loadAnniversaries().map(modifiedOf))
+  lastmod['/'] = anyData
   priority['/'] = 1.0
   changefreq['/'] = 'daily'
   for (const p of ['/calendar', '/birthday', '/popular', '/export']) {
-    lastmod[p] = changedAt('src/data/anniversaries')
+    lastmod[p] = anyData
     priority[p] = 0.5
     changefreq[p] = 'weekly'
   }
+
+  // 소개는 데이터와 무관하다 — 본문 파일이 바뀐 날을 따른다.
+  lastmod['/about'] = changedAt('src/features/about')
+  priority['/about'] = 0.4
+  changefreq['/about'] = 'yearly'
 
   // 생일 도구는 기념일 데이터뿐 아니라 페이지 콘텐츠의 수정일도 반영한다.
   lastmod['/birthday'] = new Date(

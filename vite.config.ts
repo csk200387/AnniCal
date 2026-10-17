@@ -22,6 +22,7 @@ export default defineConfig({
         '/birthday',
         '/together',
         '/popular',
+        '/about',
         ...targets.map((t) => t.path),
       ],
       // HTML 파일 자동 탐색에도 내부 rewrite 대상과 검색 가치가 없는 도구

@@ -63,6 +63,7 @@ if (process.argv[2] === 'samples') {
     'popular',
     'birthday',
     'together',
+    'about',
   ] as StaticPage[]) {
     writeFileSync(`public/og/${page}.png`, await renderOg(pageCard(page)))
     console.log(`public/og/${page}.png`)
