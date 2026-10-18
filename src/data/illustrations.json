@@ -4208,5 +4208,155 @@
     "file": "elephant-day-jp",
     "alt": "귀가 큰 아기 코끼리 수채화",
     "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-01-11-clean-off-your-desk-day-us": {
+    "file": "clean-desk-day",
+    "alt": "정돈된 나무 책상과 펜꽂이, 화분 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-01-12-pharmacist-day-global": {
+    "file": "pharmacist-day",
+    "alt": "옛 약단지와 약절구, 약초 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-04-thank-a-mailman-day-us": {
+    "file": "mailman-day",
+    "alt": "편지가 가득 든 가죽 우편 가방 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-06-dentists-day-global": {
+    "file": "dentists-day",
+    "alt": "칫솔과 치과 거울, 치아 모형 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-08-proofreading-day-global": {
+    "file": "proofreading-day",
+    "alt": "빨간 교정 표시가 된 원고와 빨간 연필, 돋보기 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-19-certified-nurses-day-global": {
+    "file": "nurses-day",
+    "alt": "흰 간호사 모자와 청진기 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-30-doctors-day-global": {
+    "file": "doctors-day",
+    "alt": "청진기 위에 놓인 빨간 카네이션 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-66": {
+    "file": "fishery-day",
+    "alt": "그물과 부표를 실은 작은 나무 어선 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-12-library-workers-day-us": {
+    "file": "library-workers-day",
+    "alt": "책을 실은 도서관 북카트와 날짜 도장 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-16-auctioneers-day-us": {
+    "file": "auctioneers-day",
+    "alt": "경매 의사봉과 받침, 작은 골동 화병 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-16-pajamas-to-work-day-us": {
+    "file": "pajamas-day",
+    "alt": "줄무늬 잠옷과 슬리퍼 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-25-hug-a-plumber-day-us": {
+    "file": "plumber-day",
+    "alt": "빨간 파이프 렌치와 놋쇠 이음쇠 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-30-hairstylist-appreciation-day-us": {
+    "file": "hairstylist-day",
+    "alt": "가위와 빗, 둥근 브러시 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-04-international-firefighters-day-global": {
+    "file": "firefighters-day",
+    "alt": "놋쇠 소방 노즐과 도끼 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-15-teachers-day-kr": {
+    "file": "teachers-day-kr",
+    "alt": "분필과 함께 낡은 교탁 위에 놓인 카네이션 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-20-korea-journalists-day-kr": {
+    "file": "journalists-day",
+    "alt": "종이를 끼운 옛 타자기와 취재 수첩 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-21-memo-day-us": {
+    "file": "memo-day",
+    "alt": "코르크판에 압정으로 꽂은 메모지 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-21-waitstaff-day-us": {
+    "file": "waitstaff-day",
+    "alt": "커피 잔과 냅킨을 올린 은쟁반 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-18-construction-day-kr": {
+    "file": "construction-day",
+    "alt": "설계도 위 노란 안전모와 줄자 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-88": {
+    "file": "seafarers-day",
+    "alt": "밧줄을 걸친 배의 키 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-26-beauticians-day-us": {
+    "file": "beauticians-day",
+    "alt": "손거울과 분첩 브러시, 립스틱 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-93": {
+    "file": "miners-day",
+    "alt": "광부의 등잔과 곡괭이, 석탄 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-01-postal-worker-day-us": {
+    "file": "postal-worker-day",
+    "alt": "편지가 삐져나온 빨간 우체통 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-05-detective-day-kr": {
+    "file": "detective-day",
+    "alt": "사냥 모자와 돋보기, 파이프 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-04-newspaper-carrier-day-us": {
+    "file": "newspaper-carrier-day",
+    "alt": "현관 앞에 놓인 끈으로 묶은 신문 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-106": {
+    "file": "skilled-workers-day",
+    "alt": "가죽 공구 말이와 끌, 대패, 나무망치 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-107": {
+    "file": "coast-guard-kr",
+    "alt": "파도를 가르는 흰 해양경비정 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-10-women-fishers-day-kr": {
+    "file": "women-fishers-day",
+    "alt": "조약돌 해변 위 생선과 조개를 담은 대바구니 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-12-farmers-day-us": {
+    "file": "farmers-day-us",
+    "alt": "옛 빨간 트랙터 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-117": {
+    "file": "accounting-day",
+    "alt": "옛 계산기와 펼친 장부 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
   }
 }
