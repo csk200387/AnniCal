@@ -1693,5 +1693,155 @@
     "file": "chirashizushi-day",
     "alt": "연어알과 지단을 올린 지라시즈시 수채화",
     "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-01-world-lighthouse-day-global": {
+    "file": "lighthouse-day",
+    "alt": "작은 바위 위 빨강·흰 줄무늬 등대 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-02-world-ufo-day-global": {
+    "file": "ufo-day",
+    "alt": "빛줄기를 내린 은빛 비행접시 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-03-international-plastic-bag-free-day-global": {
+    "file": "plastic-bag-free-day",
+    "alt": "채소와 바게트를 담은 천 가방 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-04-barbecued-spareribs-day-us": {
+    "file": "spareribs-day",
+    "alt": "나무 도마 위 바비큐 스페어립 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-04-caesar-salad-day-us": {
+    "file": "caesar-salad-day",
+    "alt": "크루통과 파르메산을 올린 시저 샐러드 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-07-hiyashi-chuka-day-jp": {
+    "file": "hiyashi-chuka-day",
+    "alt": "오이·햄·지단을 올린 히야시추카 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-07-macaroni-day-us": {
+    "file": "macaroni-day",
+    "alt": "노릇한 맥앤치즈 한 그릇 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-09-sugar-cookie-day-us": {
+    "file": "sugar-cookie-day",
+    "alt": "설탕을 뿌린 슈가쿠키 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-10-natto-day-jp": {
+    "file": "natto-day",
+    "alt": "실이 늘어나는 낫토와 젓가락 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-10-pina-colada-day-us": {
+    "file": "pina-colada-day",
+    "alt": "파인애플을 꽂은 피나 콜라다 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-11-blueberry-muffin-day-us": {
+    "file": "blueberry-muffin-day",
+    "alt": "블루베리 머핀과 갈라진 단면 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-11-mojito-day-us": {
+    "file": "mojito-day",
+    "alt": "라임과 민트를 넣은 모히토 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-11-rainier-cherry-day-us": {
+    "file": "rainier-cherry-day",
+    "alt": "노랗고 붉은 레이니어 체리 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-12-different-colored-eyes-day-us": {
+    "file": "odd-eye-day",
+    "alt": "한쪽은 파랗고 한쪽은 노란 눈의 흰 고양이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-13-french-fry-day-us": {
+    "file": "french-fry-day",
+    "alt": "종이 컵에 담긴 감자튀김 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-14-tape-measure-day-us": {
+    "file": "tape-measure-day",
+    "alt": "반쯤 뽑은 줄자 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-term-chobok-kr": {
+    "file": "chobok",
+    "alt": "인삼과 대추를 넣은 삼계탕 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-nth-07-3-wed-hot-dog-day-us": {
+    "file": "hot-dog-day",
+    "alt": "머스터드와 케첩을 뿌린 핫도그 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-16-world-snake-day-global": {
+    "file": "snake-day",
+    "alt": "나뭇가지에 감긴 초록 뱀 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-20-international-moon-day-global": {
+    "file": "moon-day",
+    "alt": "분화구가 보이는 보름달 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-20-lollipop-day-us": {
+    "file": "lollipop-day",
+    "alt": "무지개 소용돌이 롤리팝 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-22-hammock-day-us": {
+    "file": "hammock-day",
+    "alt": "살짝 늘어진 그물 해먹 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-22-national-mango-day-global": {
+    "file": "mango-day",
+    "alt": "고슴도치 모양으로 칼집 낸 망고 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-term-daeseo-kr": {
+    "file": "daeseo",
+    "alt": "세모나게 자른 수박 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-25-merry-go-round-day-us": {
+    "file": "merry-go-round-day",
+    "alt": "놋쇠 기둥에 꽂힌 회전목마 말 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-term-jungbok-kr": {
+    "file": "jungbok",
+    "alt": "생강채를 곁들인 장어구이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-27-creme-brulee-day-us": {
+    "file": "creme-brulee-day",
+    "alt": "설탕 껍질을 깬 크렘 브륄레 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-29-global-tiger-day-global": {
+    "file": "tiger-day",
+    "alt": "걸어가는 시베리아 호랑이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-lunar-yudu-kr": {
+    "file": "yudu",
+    "alt": "오미자 꿀물에 띄운 수단 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-31-mutt-day-us": {
+    "file": "mutt-day",
+    "alt": "한쪽 귀만 선 믹스견 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
   }
 }
