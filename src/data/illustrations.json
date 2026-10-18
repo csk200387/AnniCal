@@ -1548,5 +1548,150 @@
     "file": "sea-day",
     "alt": "밧줄을 감은 닻 수채화",
     "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-01-barley-tea-day-jp": {
+    "file": "barley-tea-day",
+    "alt": "얼음을 띄운 보리차 주전자와 잔 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-01-olive-day-us": {
+    "file": "olive-day",
+    "alt": "초록·검정 올리브와 올리브 가지 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-83": {
+    "file": "gukak-day",
+    "alt": "열두 줄 가야금 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-06-memorial-day-kr": {
+    "file": "memorial-day-kr",
+    "alt": "흰 리본으로 묶은 흰 국화 다발 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-06-plum-day-jp": {
+    "file": "plum-day",
+    "alt": "가지에 달린 청매실 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-06-yo-yo-day-us": {
+    "file": "yoyo-day",
+    "alt": "줄 끝에 매달린 나무 요요 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-03-world-bicycle-day-global": {
+    "file": "bicycle-day",
+    "alt": "앞 바구니를 단 옛 자전거 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-04-cheese-day-us": {
+    "file": "cheese-day",
+    "alt": "한 조각 잘라 낸 치즈 바퀴 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-05-doughnut-day-us": {
+    "file": "doughnut-day",
+    "alt": "글레이즈와 스프링클을 얹은 도넛 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-08-world-oceans-day-global": {
+    "file": "oceans-day",
+    "alt": "조개껍데기와 불가사리, 산호 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-10-iced-tea-day-us": {
+    "file": "iced-tea-day",
+    "alt": "레몬과 민트를 넣은 아이스티 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-11-corn-on-the-cob-day-us": {
+    "file": "corn-on-the-cob-day",
+    "alt": "버터를 올린 통옥수수 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-13-sewing-machine-day-us": {
+    "file": "sewing-machine-day",
+    "alt": "금장식의 옛 검은 재봉틀 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-14-strawberry-shortcake-day-us": {
+    "file": "strawberry-shortcake-day",
+    "alt": "생크림과 딸기를 켜켜이 올린 쇼트케이크 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-15-lobster-day-us": {
+    "file": "lobster-day",
+    "alt": "레몬을 곁들인 붉게 익은 랍스터 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-17-apple-strudel-day-us": {
+    "file": "apple-strudel-day",
+    "alt": "사과 속이 보이는 애플 슈트루델 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-17-root-beer-day-us": {
+    "file": "root-beer-day",
+    "alt": "거품 이는 루트비어 한 잔 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-18-go-fishing-day-us": {
+    "file": "go-fishing-day",
+    "alt": "낚싯대와 루어, 고리버들 망태 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-lunar-dano-kr": {
+    "file": "dano",
+    "alt": "창포 잎 다발과 둥근 부채 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-20-international-surfing-day-global": {
+    "file": "surfing-day",
+    "alt": "세워 둔 나무 롱보드 서프보드 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-21-go-skateboarding-day-global": {
+    "file": "skateboarding-day",
+    "alt": "바퀴가 보이는 낡은 스케이트보드 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-21-world-giraffe-day-global": {
+    "file": "giraffe-day",
+    "alt": "긴 목을 뻗은 기린 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-21-world-music-day-global": {
+    "file": "music-day",
+    "alt": "비스듬히 놓인 통기타 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-term-haji-kr": {
+    "file": "haji",
+    "alt": "막 캐낸 흙 묻은 감자 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-22-onion-rings-day-us": {
+    "file": "onion-rings-day",
+    "alt": "바삭한 어니언링 더미 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-22-chocolate-eclair-day-us": {
+    "file": "eclair-day",
+    "alt": "크림이 보이는 초콜릿 에클레어 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-25-catfish-day-us": {
+    "file": "catfish-day",
+    "alt": "긴 수염의 메기 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-27-sunglasses-day-us": {
+    "file": "sunglasses-day",
+    "alt": "대모갑 무늬 선글라스 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-27-chirashizushi-day-jp": {
+    "file": "chirashizushi-day",
+    "alt": "연어알과 지단을 올린 지라시즈시 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
   }
 }
