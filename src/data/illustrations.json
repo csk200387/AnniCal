@@ -3328,5 +3328,150 @@
     "file": "lemonade-day",
     "alt": "레모네이드 수채화",
     "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-21-spumoni-day-us": {
+    "file": "spumoni-day",
+    "alt": "스푸모니 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-22-pecan-torte-day-us": {
+    "file": "pecan-torte-day",
+    "alt": "피칸 토르테 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-24-waffle-day-us": {
+    "file": "waffle-day-24",
+    "alt": "와플 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-25-whiskey-sour-day-us": {
+    "file": "whiskey-sour-day",
+    "alt": "위스키 사워 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-26-cherry-popsicle-day-us": {
+    "file": "cherry-popsicle-day",
+    "alt": "체리 아이스바 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-27-pots-de-creme-day-us": {
+    "file": "pots-de-creme-day",
+    "alt": "포 드 크렘 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-28-cherry-turnovers-day-us": {
+    "file": "cherry-turnovers-day",
+    "alt": "체리 턴오버 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-29-chop-suey-day-us": {
+    "file": "chop-suey-day",
+    "alt": "찹수이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-30-toasted-marshmallow-day-us": {
+    "file": "toasted-marshmallow-day",
+    "alt": "구운 마시멜로 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-05-cheese-pizza-day-us": {
+    "file": "cheese-pizza-day",
+    "alt": "치즈피자 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-08-ants-on-a-log-day-us": {
+    "file": "ants-on-a-log-day",
+    "alt": "앤츠 온 어 로그 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-13-peanut-day-us": {
+    "file": "peanut-day",
+    "alt": "땅콩 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-14-cream-filled-donut-day-us": {
+    "file": "cream-filled-donut-day",
+    "alt": "크림 도넛 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-15-double-cheeseburger-day-us": {
+    "file": "double-cheeseburger-day",
+    "alt": "더블 치즈버거 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-18-cheeseburger-day-us": {
+    "file": "cheeseburger-day",
+    "alt": "치즈버거 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-21-pecan-cookie-day-us": {
+    "file": "pecan-cookie-day",
+    "alt": "피칸 쿠키 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-27-corned-beef-hash-day-us": {
+    "file": "corned-beef-hash-day",
+    "alt": "콘비프 해시 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-28-strawberry-cream-pie-day-us": {
+    "file": "strawberry-cream-pie-day",
+    "alt": "딸기 크림파이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-01-homemade-cookies-day-us": {
+    "file": "homemade-cookies-day",
+    "alt": "홈메이드 쿠키 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-04-vodka-day-us": {
+    "file": "vodka-day",
+    "alt": "보드카 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-08-fluffernutter-day-us": {
+    "file": "fluffernutter-day",
+    "alt": "플러퍼너터 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-13-sweet-potato-day-jp": {
+    "file": "sweet-potato-day-24",
+    "alt": "고구마 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-16-liqueur-day-us": {
+    "file": "liqueur-day",
+    "alt": "리큐어 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-17-pasta-day-us": {
+    "file": "pasta-day-24",
+    "alt": "파스타 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-20-brandied-fruit-day-us": {
+    "file": "brandied-fruit-day",
+    "alt": "브랜디 과일 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-24-bologna-day-us": {
+    "file": "bologna-day",
+    "alt": "볼로냐 소시지 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-26-mincemeat-day-us": {
+    "file": "mincemeat-day",
+    "alt": "민스미트 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-11-01-deep-fried-clams-day-us": {
+    "file": "deep-fried-clams-day",
+    "alt": "조개튀김 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-11-01-vinegar-day-us": {
+    "file": "vinegar-day",
+    "alt": "식초 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
   }
 }
