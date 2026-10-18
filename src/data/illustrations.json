@@ -3598,5 +3598,160 @@
     "file": "pot-pie-day",
     "alt": "김이 오르는 치킨 팟파이 수채화",
     "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-03-world-wildlife-day-global": {
+    "file": "world-wildlife-day",
+    "alt": "꼬리를 감고 앉은 붉은여우 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-61": {
+    "file": "national-park-day",
+    "alt": "소나무 덮인 산등성이와 오솔길 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-13-k9-veterans-day-us": {
+    "file": "k9-veterans-day",
+    "alt": "작업용 하네스를 찬 저먼 셰퍼드 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-01-30-seed-swap-day-global": {
+    "file": "seed-swap-day",
+    "alt": "유리병과 종이봉투에 담긴 여러 씨앗 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-28-weed-appreciation-day-global": {
+    "file": "weed-appreciation-day",
+    "alt": "노란 꽃과 솜털 씨앗이 달린 민들레 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-08-zoo-lovers-day-us": {
+    "file": "zoo-lovers-day",
+    "alt": "갈기가 풍성한 수사자 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-10-farm-animals-day-us": {
+    "file": "farm-animals-day",
+    "alt": "함께 선 소와 양, 암탉 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-68": {
+    "file": "urban-farming-day",
+    "alt": "상추와 방울토마토가 자라는 나무 텃밭 상자 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-24-world-day-for-animals-in-laboratories-global": {
+    "file": "lab-animals-day",
+    "alt": "뒷발로 앉은 작은 흰 생쥐 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-nth-04-l-sat-world-veterinary-day-global": {
+    "file": "veterinary-day",
+    "alt": "청진기 옆에 얌전히 앉은 강아지 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-26-audubon-day-us": {
+    "file": "audubon-day",
+    "alt": "엉겅퀴에 앉은 황금방울새 한 쌍 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-29-arbor-day-global": {
+    "file": "arbor-day",
+    "alt": "잎이 무성한 참나무 한 그루 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-30-adopt-a-shelter-pet-day-us": {
+    "file": "adopt-a-pet-day",
+    "alt": "종이 상자에서 고개를 내민 아기 고양이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-07-start-seeing-monarchs-day-us": {
+    "file": "monarch-day",
+    "alt": "분홍 밀크위드 꽃에 앉은 제왕나비 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-20-endangered-species-day-global": {
+    "file": "endangered-species-day",
+    "alt": "바위에 엎드린 눈표범 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-30-water-a-flower-day-us": {
+    "file": "water-a-flower-day",
+    "alt": "꽃 화분에 물을 주는 물뿌리개 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-31": {
+    "file": "environment-day",
+    "alt": "물방울이 맺힌 초록 잎 하나 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-term-mangjong-kr": {
+    "file": "mangjong",
+    "alt": "짚으로 묶은 누런 보릿단 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-15-nature-photography-day-global": {
+    "file": "nature-photography-day",
+    "alt": "이끼 낀 바위 위의 필름 카메라와 고사리 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-17-world-day-to-combat-desertification-global": {
+    "file": "desertification-day",
+    "alt": "갈라진 땅에서 돋아난 새싹 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-27-orange-blossom-day-us": {
+    "file": "orange-blossom-day",
+    "alt": "흰 오렌지꽃과 작은 열매가 달린 가지 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-30-meteor-watch-day-us": {
+    "file": "meteor-watch-day",
+    "alt": "짙푸른 밤하늘을 가르는 별똥별 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-term-soseo-kr": {
+    "file": "soseo",
+    "alt": "푸른 보랏빛 수국 송이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-12-paper-bag-day-global": {
+    "file": "paper-bag-day",
+    "alt": "입구를 연 갈색 종이봉투 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-04-wildlife-day-us": {
+    "file": "wildlife-day",
+    "alt": "풀숲에 선 노루 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-09-korean-cat-day-kr": {
+    "file": "korean-cat-day",
+    "alt": "가슴이 흰 코리안 숏헤어 고등어 고양이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-26-shamu-the-whale-day-us": {
+    "file": "orca-day",
+    "alt": "물보라 위로 솟구친 범고래 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-nth-10-2-sat-world-migratory-bird-day-global": {
+    "file": "migratory-bird-day",
+    "alt": "V자로 날아가는 기러기 떼 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-11-mountain-day-global": {
+    "file": "mountain-day-global",
+    "alt": "눈 덮인 산봉우리 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-11-17-take-a-hike-day-us": {
+    "file": "take-a-hike-day",
+    "alt": "가죽 등산화와 나무 지팡이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-27-joe-day-global": {
+    "file": "joe-day",
+    "alt": "김이 오르는 블랙커피 한 잔 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
   }
 }
