@@ -2878,5 +2878,85 @@
     "file": "cherry-cobbler-day",
     "alt": "체리 코블러 수채화",
     "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-18-cheese-souffle-day-us": {
+    "file": "cheese-souffle-day",
+    "alt": "치즈 수플레 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-22-vanilla-pudding-day-us": {
+    "file": "vanilla-pudding-day",
+    "alt": "바닐라 푸딩 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-23-taffy-day-us": {
+    "file": "taffy-day",
+    "alt": "태피 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-25-wine-day-us": {
+    "file": "wine-day",
+    "alt": "와인 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-26-blueberry-cheesecake-day-us": {
+    "file": "blueberry-cheesecake-day",
+    "alt": "블루베리 치즈케이크 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-27-grape-popsicle-day-us": {
+    "file": "grape-popsicle-day",
+    "alt": "포도 아이스바 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-02-rocky-road-day-us": {
+    "file": "rocky-road-day",
+    "alt": "로키 로드 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-04-cognac-day-us": {
+    "file": "cognac-day",
+    "alt": "코냑 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-05-moonshine-day-us": {
+    "file": "moonshine-day",
+    "alt": "문샤인 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-06-applesauce-cake-day-us": {
+    "file": "applesauce-cake-day",
+    "alt": "애플소스 케이크 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-07-chocolate-ice-cream-day-us": {
+    "file": "chocolate-ice-cream-day",
+    "alt": "초콜릿 아이스크림 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-10-black-cow-day-us": {
+    "file": "black-cow-day",
+    "alt": "블랙 카우 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-10-herbs-and-spices-day-us": {
+    "file": "herbs-and-spices-day",
+    "alt": "허브와 향신료 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-12-peanut-butter-cookie-day-us": {
+    "file": "peanut-butter-cookie-day",
+    "alt": "피넛버터 쿠키 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-14-bourbon-day-us": {
+    "file": "bourbon-day",
+    "alt": "버번 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-17-cherry-tart-day-us": {
+    "file": "cherry-tart-day",
+    "alt": "체리 타르트 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
   }
 }
