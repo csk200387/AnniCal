@@ -3758,5 +3758,155 @@
     "file": "creme-de-menthe-day",
     "alt": "민트 잎과 초록빛 크렘 드 멍트 한 잔 수채화",
     "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-01-07-bobblehead-day-us": {
+    "file": "bobblehead-day",
+    "alt": "스프링 목의 강아지 보블헤드 인형 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-01-28-kazoo-day-us": {
+    "file": "kazoo-day",
+    "alt": "작은 금속 카주 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-13-world-radio-day-global": {
+    "file": "radio-day",
+    "alt": "천 스피커가 달린 옛 나무 라디오 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-03-peach-day-jp": {
+    "file": "peach-day",
+    "alt": "분홍 복숭아꽃 가지와 복숭아 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-21-fragrance-day-global": {
+    "file": "fragrance-day",
+    "alt": "분무 손잡이가 달린 유리 향수병과 장미 꽃잎 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-21-world-poetry-day-global": {
+    "file": "poetry-day",
+    "alt": "깃펜과 잉크병, 펼친 노트 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-21-world-puppetry-day-global": {
+    "file": "puppetry-day",
+    "alt": "줄에 매달린 빨간 옷의 나무 마리오네트 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-27-world-theatre-day-global": {
+    "file": "theatre-day",
+    "alt": "희극·비극 가면과 붉은 막 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-01-april-fools-day-global": {
+    "file": "april-fools-day",
+    "alt": "방울 달린 광대 모자와 장난감 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-02-international-childrens-book-day-global": {
+    "file": "childrens-book-day",
+    "alt": "그림책 더미 위에 앉은 곰 인형 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-06-tartan-day-us": {
+    "file": "tartan-day",
+    "alt": "접어 둔 빨강·초록 타탄 담요 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-09-cherish-an-antique-day-us": {
+    "file": "antique-day",
+    "alt": "놋쇠 탁상시계와 옛 찻잔, 회중시계 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-69": {
+    "file": "library-day",
+    "alt": "사다리가 걸린 도서관 책장 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-23-world-book-day-global": {
+    "file": "world-book-day",
+    "alt": "안경을 올려 둔 펼친 두꺼운 책 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-29-international-dance-day-global": {
+    "file": "dance-day",
+    "alt": "리본 달린 분홍 토슈즈 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-12-limerick-day-us": {
+    "file": "limerick-day",
+    "alt": "작은 목도리를 두르고 책 위에 앉은 부엉이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-22-buy-a-musical-instrument-day-us": {
+    "file": "musical-instrument-day",
+    "alt": "바이올린과 플루트, 탬버린 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-01-photography-day-jp": {
+    "file": "photography-day-jp",
+    "alt": "삼각대 위 옛 주름상자 카메라 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-06-drive-in-movie-day-us": {
+    "file": "drive-in-day",
+    "alt": "노을 속 야외 극장 스크린 앞 클래식 컨버터블 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-12-diary-day-jp": {
+    "file": "diary-day-jp",
+    "alt": "끈이 달린 가죽 일기장과 연필 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-19-flip-flop-day-us": {
+    "file": "flip-flop-day",
+    "alt": "모래 위 알록달록한 조리 한 켤레 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-23-pink-day-us": {
+    "file": "pink-day",
+    "alt": "분홍 작약 꽃다발 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-04-country-music-day-us": {
+    "file": "country-music-day",
+    "alt": "건초 더미에 기댄 기타와 카우보이모자 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-02-coloring-book-day-us": {
+    "file": "coloring-book-day",
+    "alt": "반쯤 칠한 컬러링북과 색연필 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-12-vinyl-record-day-us": {
+    "file": "vinyl-record-day",
+    "alt": "꺼내 놓은 LP 레코드판 더미 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-06-read-a-book-day-us": {
+    "file": "read-a-book-day",
+    "alt": "책이 엎어진 안락의자와 찻잔 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-25-comic-book-day-us": {
+    "file": "comic-book-day",
+    "alt": "알록달록한 옛 만화책 더미 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-nth-11-1-fri-fountain-pen-day-global": {
+    "file": "fountain-pen-day",
+    "alt": "금촉 만년필과 잉크병 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-13-choral-day-global": {
+    "file": "choral-day",
+    "alt": "합창 악보와 작은 종 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-29-international-cello-day-global": {
+    "file": "cello-day",
+    "alt": "세워 둔 첼로와 활 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
   }
 }
