@@ -3178,5 +3178,155 @@
     "file": "daiquiri-day",
     "alt": "다이키리 수채화",
     "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-nth-07-3-sun-ice-cream-day-us": {
+    "file": "ice-cream-day",
+    "alt": "아이스크림 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-20-hamburger-day-jp": {
+    "file": "hamburger-day-23",
+    "alt": "햄버거 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-22-penuche-fudge-day-us": {
+    "file": "penuche-fudge-day",
+    "alt": "페누체 퍼지 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-23-vanilla-ice-cream-day-us": {
+    "file": "vanilla-ice-cream-day",
+    "alt": "바닐라 아이스크림 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-24-tequila-day-us": {
+    "file": "tequila-day",
+    "alt": "테킬라 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-25-hot-fudge-sundae-day-us": {
+    "file": "hot-fudge-sundae-day",
+    "alt": "핫퍼지 선데이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-26-bagelfest-day-us": {
+    "file": "bagelfest-day",
+    "alt": "베이글 축제 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-26-coffee-milkshake-day-us": {
+    "file": "coffee-milkshake-day",
+    "alt": "커피 밀크셰이크 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-27-scotch-day-us": {
+    "file": "scotch-day",
+    "alt": "스카치 위스키 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-28-milk-chocolate-day-us": {
+    "file": "milk-chocolate-day",
+    "alt": "밀크초콜릿 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-29-chicken-wing-day-us": {
+    "file": "chicken-wing-day",
+    "alt": "치킨윙 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-29-lasagna-day-us": {
+    "file": "lasagna-day",
+    "alt": "라자냐 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-30-cheesecake-day-us": {
+    "file": "cheesecake-day",
+    "alt": "치즈케이크 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-30-chili-dog-day-us": {
+    "file": "chili-dog-day",
+    "alt": "칠리도그 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-30-umeboshi-day-jp": {
+    "file": "umeboshi-day",
+    "alt": "우메보시 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-31-raspberry-cake-day-us": {
+    "file": "raspberry-cake-day",
+    "alt": "라즈베리 케이크 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-01-mustard-day-us": {
+    "file": "mustard-day",
+    "alt": "머스터드 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-01-raspberry-cream-pie-day-us": {
+    "file": "raspberry-cream-pie-day",
+    "alt": "라즈베리 크림파이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-03-watermelon-day-us": {
+    "file": "watermelon-day",
+    "alt": "수박 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-06-root-beer-float-day-us": {
+    "file": "root-beer-float-day",
+    "alt": "루트비어 플로트 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-07-raspberries-n-cream-day-us": {
+    "file": "raspberries-n-cream-day",
+    "alt": "라즈베리 앤 크림 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-08-frozen-custard-day-us": {
+    "file": "frozen-custard-day",
+    "alt": "프로즌 커스터드 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-11-raspberry-bombe-day-us": {
+    "file": "raspberry-bombe-day",
+    "alt": "라즈베리 봄베 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-12-julienne-fries-day-us": {
+    "file": "julienne-fries-day",
+    "alt": "쥘리엔 프라이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-14-creamsicle-day-us": {
+    "file": "creamsicle-day",
+    "alt": "크림시클 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-16-rum-day-us": {
+    "file": "rum-day",
+    "alt": "럼 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-18-ice-cream-pie-day-us": {
+    "file": "ice-cream-pie-day",
+    "alt": "아이스크림 파이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-19-soft-ice-cream-day-us": {
+    "file": "soft-ice-cream-day",
+    "alt": "소프트 아이스크림 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-20-chocolate-pecan-pie-day-us": {
+    "file": "chocolate-pecan-pie-day",
+    "alt": "초콜릿 피칸파이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-20-lemonade-day-us": {
+    "file": "lemonade-day",
+    "alt": "레모네이드 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
   }
 }
