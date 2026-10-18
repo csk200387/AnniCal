@@ -4358,5 +4358,155 @@
     "file": "accounting-day",
     "alt": "옛 계산기와 펼친 장부 수채화",
     "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-11-11-korail-rail-day-kr": {
+    "file": "rail-day",
+    "alt": "멀리 뻗은 철길과 침목 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-11-11-korea-advertising-day-kr": {
+    "file": "advertising-day",
+    "alt": "옛 메가폰과 이젤 위 빈 포스터 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-11-11-korea-navy-founding-day-kr": {
+    "file": "navy-day-kr",
+    "alt": "바다 위 회색 구축함 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-06-pawnbrokers-day-us": {
+    "file": "pawnbrokers-day",
+    "alt": "전당포 상징인 금빛 공 세 개 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-23-maritime-rescue-corps-day-kr": {
+    "file": "maritime-rescue-day",
+    "alt": "부두 기둥에 걸린 구명조끼와 구명환 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-129": {
+    "file": "mining-day",
+    "alt": "돌을 실은 옛 광차와 레일 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-26-thank-you-note-day-global": {
+    "file": "thank-you-note-day",
+    "alt": "압화를 붙인 감사 카드와 봉투 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-01-04-trivia-day-us": {
+    "file": "trivia-day",
+    "alt": "퀴즈 카드와 모래시계 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-01-09-vision-board-day-us": {
+    "file": "vision-board-day",
+    "alt": "풍경 사진과 압화를 꽂은 비전보드 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-01-14-diary-day-kr": {
+    "file": "diary-day-kr",
+    "alt": "리본 갈피를 끼운 새 다이어리와 금빛 펜 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-07-send-a-card-to-a-friend-day-us": {
+    "file": "send-a-card-day",
+    "alt": "손으로 그린 꽃 카드와 우표 붙인 봉투 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-10-knit-day-jp": {
+    "file": "knit-day",
+    "alt": "털실 뭉치와 뜨개바늘, 뜨다 만 목도리 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-26-tell-a-fairy-tale-day-global": {
+    "file": "fairy-tale-day",
+    "alt": "펼친 동화책에서 솟아난 작은 성과 왕관 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-2": {
+    "file": "taxpayers-day",
+    "alt": "주판과 동전, 나무 저금통 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-13-scrabble-day-us": {
+    "file": "scrabble-day",
+    "alt": "격자판 위 나무 글자 타일 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-15": {
+    "file": "ict-day",
+    "alt": "다이얼 전화기와 위성 안테나 모형 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-16": {
+    "file": "law-day",
+    "alt": "놋쇠 정의의 저울과 법전 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-26-good-bath-day-jp": {
+    "file": "good-bath-day",
+    "alt": "김 오르는 나무 목욕통과 의자, 수건 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-02-life-insurance-day-us": {
+    "file": "life-insurance-day",
+    "alt": "작은 집 모형을 덮은 우산 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-07-scrapbook-day-us": {
+    "file": "scrapbook-day",
+    "alt": "사진과 티켓을 붙인 스크랩북 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-10-voters-day-kr": {
+    "file": "voters-day",
+    "alt": "투표지를 넣는 나무 투표함 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-12-korea-automobile-day-kr": {
+    "file": "automobile-day",
+    "alt": "1970년대 소형차 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-16-sea-monkey-day-us": {
+    "file": "sea-monkey-day",
+    "alt": "작은 수조 속 브라인슈림프 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-25-tap-dance-day-us": {
+    "file": "tap-dance-day",
+    "alt": "금속 징이 달린 검은 탭댄스 구두 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-25-towel-day": {
+    "file": "towel-day",
+    "alt": "가지런히 접은 줄무늬 수건 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-13-weed-your-garden-day-us": {
+    "file": "weed-garden-day",
+    "alt": "모종삽과 뽑아 둔 잡초, 꽃밭 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-36": {
+    "file": "railway-day",
+    "alt": "굽은 철길을 도는 증기기관차 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-30-asteroid-day-global": {
+    "file": "asteroid-day",
+    "alt": "별 사이를 떠도는 소행성 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-07-road-day-kr": {
+    "file": "road-day",
+    "alt": "초록 언덕 사이 구불구불한 시골길 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-10-collector-car-appreciation-day-us": {
+    "file": "collector-car-day",
+    "alt": "1930년대 클래식 로드스터 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
   }
 }
