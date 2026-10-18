@@ -2583,5 +2583,150 @@
     "file": "corn-dog-day",
     "alt": "콘도그 수채화",
     "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-21-strawberry-day-global": {
+    "file": "strawberry-day-19",
+    "alt": "딸기 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-22-bavarian-crepes-day-global": {
+    "file": "bavarian-crepes-day",
+    "alt": "바이에른 크레페 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-23-chip-and-dip-day-global": {
+    "file": "chip-and-dip-day",
+    "alt": "칩앤딥 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-23-melba-toast-day-global": {
+    "file": "melba-toast-day",
+    "alt": "멜바 토스트 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-24-chocolate-covered-raisin-day-us": {
+    "file": "chocolate-covered-raisin-day",
+    "alt": "초콜릿 건포도 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-25-lobster-newburg-day-global": {
+    "file": "lobster-newburg-day",
+    "alt": "랍스터 뉴버그 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-26-nougat-day-global": {
+    "file": "nougat-day",
+    "alt": "누가 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-26-spinach-day-global": {
+    "file": "spinach-day",
+    "alt": "시금치 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-29-lemon-chiffon-cake-day-global": {
+    "file": "lemon-chiffon-cake-day",
+    "alt": "레몬 시폰 케이크 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-30-turkey-neck-soup-day-global": {
+    "file": "turkey-neck-soup-day",
+    "alt": "칠면조 목 수프 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-31-clams-on-the-half-shell-day-global": {
+    "file": "clams-on-the-half-shell-day",
+    "alt": "생조개 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-31-tater-day-global": {
+    "file": "tater-day",
+    "alt": "감자 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-03-chocolate-mousse-day-us": {
+    "file": "chocolate-mousse-day",
+    "alt": "초콜릿 무스 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-04-chicken-cordon-bleu-day-us": {
+    "file": "chicken-cordon-bleu-day",
+    "alt": "치킨 코르동 블루 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-05-raisin-spice-bar-day-us": {
+    "file": "raisin-spice-bar-day",
+    "alt": "건포도 스파이스 바 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-06-caramel-popcorn-day-us": {
+    "file": "caramel-popcorn-day",
+    "alt": "캐러멜 팝콘 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-06-corned-beef-day-jp": {
+    "file": "corned-beef-day",
+    "alt": "콘비프 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-07-beer-day-us": {
+    "file": "beer-day",
+    "alt": "맥주 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-07-coffee-cake-day-us": {
+    "file": "coffee-cake-day",
+    "alt": "커피 케이크 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-09-chinese-almond-cookie-day-us": {
+    "file": "chinese-almond-cookie-day",
+    "alt": "중국식 아몬드 쿠키 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-10-cinnamon-crescent-day-us": {
+    "file": "cinnamon-crescent-day",
+    "alt": "시나몬 크루아상 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-12-licorice-day-us": {
+    "file": "licorice-day",
+    "alt": "리코리스 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-13-peach-cobbler-day-us": {
+    "file": "peach-cobbler-day",
+    "alt": "피치 코블러 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-14-pecan-day-us": {
+    "file": "pecan-day",
+    "alt": "피칸 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-15-glazed-spiral-ham-day-us": {
+    "file": "glazed-spiral-ham-day",
+    "alt": "글레이즈드 스파이럴 햄 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-17-cheeseball-day-us": {
+    "file": "cheeseball-day",
+    "alt": "치즈볼 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-18-animal-crackers-day-us": {
+    "file": "animal-crackers-day",
+    "alt": "애니멀 크래커 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-19-amaretto-day-us": {
+    "file": "amaretto-day",
+    "alt": "아마레토 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-20-lima-bean-respect-day-us": {
+    "file": "lima-bean-respect-day",
+    "alt": "리마빈 존중 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
   }
 }
