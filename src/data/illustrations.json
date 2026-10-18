@@ -2433,5 +2433,155 @@
     "file": "cherry-pie-day",
     "alt": "체리파이 수채화",
     "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-23-dog-biscuit-day-us": {
+    "file": "dog-biscuit-day",
+    "alt": "도그 비스킷 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-24-tortilla-chip-day-us": {
+    "file": "tortilla-chip-day",
+    "alt": "토르티야 칩 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-25-chili-day-us": {
+    "file": "chili-day",
+    "alt": "칠리 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-25-chocolate-covered-nut-day-us": {
+    "file": "chocolate-covered-nut-day",
+    "alt": "초콜릿 코팅 견과류 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-27-kahlua-day-us": {
+    "file": "kahlua-day",
+    "alt": "칼루아 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-28-biscuit-day-jp": {
+    "file": "biscuit-day",
+    "alt": "비스킷 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-28-chocolate-souffle-day-us": {
+    "file": "chocolate-souffle-day",
+    "alt": "초콜릿 수플레 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-01-fruit-compote-day-global": {
+    "file": "fruit-compote-day",
+    "alt": "과일 콩포트 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-01-peanut-butter-lovers-day-global": {
+    "file": "peanut-butter-lovers-day",
+    "alt": "땅콩버터 러버 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-02-banana-cream-pie-day-global": {
+    "file": "banana-cream-pie-day",
+    "alt": "바나나 크림 파이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-03-cold-cuts-day-global": {
+    "file": "cold-cuts-day",
+    "alt": "콜드컷 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-03-pancake-day-global": {
+    "file": "pancake-day-18",
+    "alt": "팬케이크 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-03-rice-triangle-day-kr": {
+    "file": "rice-triangle-day",
+    "alt": "삼각김밥 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-05-cheese-doodle-day-us": {
+    "file": "cheese-doodle-day",
+    "alt": "치즈 두들 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-06-white-chocolate-cheesecake-day-global": {
+    "file": "white-chocolate-cheesecake-day",
+    "alt": "화이트 초콜릿 치즈케이크 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-07-crown-roast-pork-day-global": {
+    "file": "crown-roast-pork-day",
+    "alt": "크라운 로스트 포크 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-08-peanut-cluster-day-global": {
+    "file": "peanut-cluster-day",
+    "alt": "땅콩 클러스터 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-09-crabmeat-day-global": {
+    "file": "crabmeat-day",
+    "alt": "게살 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-10-blueberry-popover-day-global": {
+    "file": "blueberry-popover-day",
+    "alt": "블루베리 포포버 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-11-oatmeal-nut-waffles-day-global": {
+    "file": "oatmeal-nut-waffles-day",
+    "alt": "오트밀 너트 와플 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-13-coconut-torte-day-global": {
+    "file": "coconut-torte-day",
+    "alt": "코코넛 토르테 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-15-pears-helene-day-global": {
+    "file": "pears-helene-day",
+    "alt": "푸아르 벨엘렌 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-16-artichoke-hearts-day-global": {
+    "file": "artichoke-hearts-day",
+    "alt": "아티초크 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-17-corned-beef-and-cabbage-day-global": {
+    "file": "corned-beef-and-cabbage-day",
+    "alt": "콘비프와 양배추 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-18-lacy-oatmeal-cookie-day-global": {
+    "file": "lacy-oatmeal-cookie-day",
+    "alt": "레이스 오트밀 쿠키 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-18-sloppy-joe-day-global": {
+    "file": "sloppy-joe-day",
+    "alt": "슬로피 조 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-19-chocolate-caramel-day-global": {
+    "file": "chocolate-caramel-day",
+    "alt": "초콜릿 캐러멜 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-19-poultry-day-global": {
+    "file": "poultry-day",
+    "alt": "가금류 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-20-ravioli-day-global": {
+    "file": "ravioli-day",
+    "alt": "라비올리 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-21-corn-dog-day-us": {
+    "file": "corn-dog-day",
+    "alt": "콘도그 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
   }
 }
