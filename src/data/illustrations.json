@@ -2958,5 +2958,75 @@
     "file": "cherry-tart-day",
     "alt": "체리 타르트 수채화",
     "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-19-devils-food-cake-day-us": {
+    "file": "devils-food-cake-day",
+    "alt": "데블스 푸드 케이크 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-28-brisket-day-us": {
+    "file": "brisket-day",
+    "alt": "브리스킷 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-29-coq-au-vin-day-us": {
+    "file": "coq-au-vin-day",
+    "alt": "코코뱅 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-29-konjac-day-jp": {
+    "file": "konjac-day",
+    "alt": "곤약 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-30-mint-julep-day-us": {
+    "file": "mint-julep-day",
+    "alt": "민트 줄렙 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-01-hazelnut-cake-day-us": {
+    "file": "hazelnut-cake-day",
+    "alt": "헤이즐넛 케이크 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-02-rotisserie-chicken-day-us": {
+    "file": "rotisserie-chicken-day",
+    "alt": "로티세리 치킨 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-03-chocolate-macaroons-day-us": {
+    "file": "chocolate-macaroons-day",
+    "alt": "초콜릿 마카롱 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-05-gingerbread-day-us": {
+    "file": "gingerbread-day",
+    "alt": "생강빵 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-09-strawberry-rhubarb-pie-day-us": {
+    "file": "strawberry-rhubarb-pie-day",
+    "alt": "딸기 루바브 파이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-11-german-chocolate-cake-day-us": {
+    "file": "german-chocolate-cake-day",
+    "alt": "독일식 초콜릿 케이크 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-12-jerky-day-us": {
+    "file": "jerky-day",
+    "alt": "육포 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-13-rose-day-us": {
+    "file": "rose-day-21",
+    "alt": "로제 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-16-fudge-day-us": {
+    "file": "fudge-day",
+    "alt": "퍼지 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
   }
 }
