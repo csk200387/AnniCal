@@ -4508,5 +4508,150 @@
     "file": "collector-car-day",
     "alt": "1930년대 클래식 로드스터 수채화",
     "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-18-woodie-wagon-day-us": {
+    "file": "woodie-wagon-day",
+    "alt": "서핑보드를 실은 1940년대 우디 왜건 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-22-pi-approximation-day-global": {
+    "file": "pi-approximation-day",
+    "alt": "한 조각 잘라 낸 파이와 컴퍼스 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-03-broadcasting-day-kr": {
+    "file": "broadcasting-day",
+    "alt": "스탠드 마이크와 방송 중 표시등 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-09-teddy-bear-day-us": {
+    "file": "teddy-bear-day",
+    "alt": "나비넥타이를 맨 곰 인형 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-11-make-your-bed-day-us": {
+    "file": "make-your-bed-day",
+    "alt": "이불과 베개를 가지런히 정리한 침대 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-24-punctuation-day-us": {
+    "file": "punctuation-day",
+    "alt": "물음표·느낌표·쉼표·마침표 활자 블록 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-25-tune-up-day-us": {
+    "file": "tune-up-day",
+    "alt": "렌치와 기름통을 둔 옛 자동차 엔진 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-30-mud-pack-day-us": {
+    "file": "mud-pack-day",
+    "alt": "점토 팩 그릇과 주걱, 오이 조각 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-30-personal-data-protection-day-kr": {
+    "file": "data-protection-day",
+    "alt": "서류철을 잠근 놋쇠 자물쇠 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-113": {
+    "file": "procurement-day",
+    "alt": "팔레트 위에 쌓은 나무 상자 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-02-manufacturing-day-us": {
+    "file": "manufacturing-day",
+    "alt": "맞물린 쇠 톱니바퀴 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-10-public-bath-day-jp": {
+    "file": "sento-day",
+    "alt": "목욕탕 굴뚝과 포렴 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-44": {
+    "file": "sports-day-kr",
+    "alt": "출발대와 이어달리기 배턴, 트랙 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-11-02-emergency-call-112-day-kr": {
+    "file": "emergency-112-day",
+    "alt": "벽에 걸린 빨간 비상 전화기 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-121": {
+    "file": "pedestrian-day",
+    "alt": "신호등이 선 횡단보도 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-01-day-of-giving-us": {
+    "file": "day-of-giving",
+    "alt": "두 손에 놓인 하트 모양 선물 상자 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-55": {
+    "file": "consumers-day",
+    "alt": "장바구니와 영수증 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-56": {
+    "file": "trade-day",
+    "alt": "색색 컨테이너를 실은 화물선 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-18-free-shipping-day-global": {
+    "file": "free-shipping-day",
+    "alt": "끈으로 묶은 택배 상자 더미 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-21-crossword-puzzle-day-global": {
+    "file": "crossword-day",
+    "alt": "반쯤 푼 십자말풀이와 연필 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-24-christmas-eve-global": {
+    "file": "christmas-eve",
+    "alt": "벽난로 선반에 걸린 크리스마스 양말과 촛불 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-26-boxing-day-global": {
+    "file": "boxing-day",
+    "alt": "포장을 푼 선물 상자와 리본 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-28-card-playing-day-us": {
+    "file": "card-playing-day",
+    "alt": "부채꼴로 편 카드와 칩 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-02-old-stuff-day-global": {
+    "file": "old-stuff-day",
+    "alt": "회중시계와 편지, 장난감 차가 든 옛 나무 트렁크 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-11-worship-of-tools-day-global": {
+    "file": "tools-day",
+    "alt": "망치와 드라이버, 렌치 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-12-plant-a-flower-day-global": {
+    "file": "plant-a-flower-day",
+    "alt": "막 심은 팬지 화분과 모종삽 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-13-open-an-umbrella-indoors-day-us": {
+    "file": "umbrella-indoors-day",
+    "alt": "마룻바닥에 펼쳐 둔 물방울무늬 우산 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-14-napping-day-global": {
+    "file": "napping-day",
+    "alt": "담요 위에서 잠든 고양이와 흔들의자 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-30-pencil-day-global": {
+    "file": "pencil-day",
+    "alt": "깎은 연필과 연필밥 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
   }
 }
