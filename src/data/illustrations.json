@@ -1398,5 +1398,155 @@
     "file": "jazz-day",
     "alt": "놋쇠 트럼펫과 레코드판 수채화",
     "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-02-cucumber-day-kr": {
+    "file": "cucumber-day",
+    "alt": "꽃이 달린 오이와 썬 오이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-02-duck-day-kr": {
+    "file": "duck-day",
+    "alt": "물 위의 청둥오리 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-02-truffle-day-us": {
+    "file": "truffle-day",
+    "alt": "단면이 보이는 검은 트러플 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-02-world-tuna-day-global": {
+    "file": "tuna-day",
+    "alt": "옆모습의 참다랑어 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-03-two-different-colored-shoes-day-us": {
+    "file": "mismatched-shoes-day",
+    "alt": "빨강·파랑 짝짝이 운동화 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-04-ramune-day-jp": {
+    "file": "ramune-day",
+    "alt": "유리구슬이 든 라무네 병 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-term-ipha-kr": {
+    "file": "ipha",
+    "alt": "모내기용 어린 모 한 단 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-20": {
+    "file": "childrens-day-kr",
+    "alt": "바람개비와 나무 팽이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-06-crepe-suzette-day-us": {
+    "file": "crepe-suzette-day",
+    "alt": "오렌지 버터 소스의 크레프 수제트 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-07-train-day-us": {
+    "file": "train-day",
+    "alt": "김을 내뿜는 옛 증기기관차 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-21": {
+    "file": "parents-day",
+    "alt": "리본으로 묶은 빨간 카네이션 다발 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-10-shrimp-day-us": {
+    "file": "shrimp-day",
+    "alt": "레몬을 곁들인 익힌 새우 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-10-sea-forest-day-kr": {
+    "file": "sea-forest-day",
+    "alt": "다시마 숲 사이를 헤엄치는 작은 물고기 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-10-sericulture-day-kr": {
+    "file": "sericulture-day",
+    "alt": "뽕잎 위 누에와 누에고치 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-14-rose-day-kr": {
+    "file": "rose-day",
+    "alt": "종이에 싼 빨간 장미 꽃다발 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-14-thermometer-day-jp": {
+    "file": "thermometer-day",
+    "alt": "빨간 눈금선의 유리 온도계 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-24": {
+    "file": "sejong-day",
+    "alt": "솥 모양의 앙부일구 해시계 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-17-walnut-day-us": {
+    "file": "walnut-day",
+    "alt": "껍데기를 깬 호두 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-18-international-museum-day-global": {
+    "file": "museum-day",
+    "alt": "받침대 위 고대 그리스 항아리 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-20-quiche-lorraine-day-us": {
+    "file": "quiche-day",
+    "alt": "단면이 보이는 키슈 로렌 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-20-world-bee-day": {
+    "file": "bee-day",
+    "alt": "꽃에 앉아 꽃가루를 모으는 꿀벌 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-21-strawberries-and-cream-day-us": {
+    "file": "strawberries-cream-day",
+    "alt": "크림을 부은 딸기 한 그릇 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-term-soman-kr": {
+    "file": "soman",
+    "alt": "누렇게 익어 가는 보리 이삭 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-23-world-turtle-day-global": {
+    "file": "turtle-day",
+    "alt": "헤엄치는 바다거북 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-lunar-buddhas-birthday-kr": {
+    "file": "buddhas-birthday",
+    "alt": "줄에 매단 분홍·흰 연등 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-24-escargot-day-us": {
+    "file": "escargot-day",
+    "alt": "마늘 버터를 채운 에스카르고 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-28-world-hamburger-day": {
+    "file": "hamburger-day",
+    "alt": "참깨 빵 햄버거 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-26-national-paper-airplane-day-us": {
+    "file": "paper-airplane-day",
+    "alt": "날아가는 종이비행기 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-31-macaroon-day-us": {
+    "file": "macaroon-day",
+    "alt": "코코넛 마카룬 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-29": {
+    "file": "sea-day",
+    "alt": "밧줄을 감은 닻 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
   }
 }
