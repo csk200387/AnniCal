@@ -57,3 +57,6 @@ tools/research/workflow/**/*.html
 
 # 에이전트 작업용 임시 worktree
 .claude/worktrees/
+
+# 도판 검수 결과(tools/illustrations/review.py)
+tools/illustrations/.review-marks.json
