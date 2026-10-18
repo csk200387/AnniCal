@@ -4058,5 +4058,155 @@
     "file": "richter-day",
     "alt": "종이에 지진파를 그리는 옛 지진계 수채화",
     "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-71": {
+    "file": "bicycle-day-kr",
+    "alt": "꽃바구니를 단 자전거 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-14-archery-day-us": {
+    "file": "archery-day",
+    "alt": "나무 활과 화살, 과녁 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-14-miniature-golf-day-us": {
+    "file": "mini-golf-day",
+    "alt": "미니 골프 퍼터와 작은 풍차 장애물 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-21-learn-to-swim-day-us": {
+    "file": "learn-to-swim-day",
+    "alt": "구명 튜브와 수경 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-29-everest-first-summit": {
+    "file": "everest-day",
+    "alt": "정상에 깃발이 꽂힌 히말라야 설산 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-03-running-day-us": {
+    "file": "running-day",
+    "alt": "흙먼지를 튀기는 러닝화 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-23-baseball-day-kr": {
+    "file": "baseball-day",
+    "alt": "야구 글러브와 공, 나무 배트 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-04-golf-day-us": {
+    "file": "golf-day",
+    "alt": "티 위의 골프공과 골프채 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-22-hapkido-day-kr": {
+    "file": "hapkido-day",
+    "alt": "흰 도복과 검은 띠, 봉 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-06-sport-for-development-day-global": {
+    "file": "sport-day",
+    "alt": "축구공과 농구공, 테니스 라켓 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-21-high-five-day-us": {
+    "file": "high-five-day",
+    "alt": "하이파이브하는 두 손 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-29-bachelors-day-ie": {
+    "file": "bachelors-day",
+    "alt": "금반지 상자와 세잎클로버 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-20-proposal-day-global": {
+    "file": "proposal-day",
+    "alt": "다이아몬드 반지 상자와 빨간 장미 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-23-love-letter-day-jp": {
+    "file": "love-letter-day",
+    "alt": "하트 스티커를 붙인 분홍 편지봉투 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-12-red-rose-day-us": {
+    "file": "red-rose-day",
+    "alt": "긴 줄기의 빨간 장미 한 송이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-14-silver-day-kr": {
+    "file": "silver-day",
+    "alt": "작은 접시 위 은반지 한 쌍과 은목걸이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-14-green-day-kr": {
+    "file": "green-day",
+    "alt": "풀밭 돗자리 위 초록 병과 허브 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-14-photo-day-kr": {
+    "file": "photo-day",
+    "alt": "즉석카메라와 흩어진 즉석사진 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-11-14-movie-day-kr": {
+    "file": "movie-day",
+    "alt": "영화표 두 장과 팝콘, 음료 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-11-14-letter-day-kr": {
+    "file": "letter-day",
+    "alt": "봉랍을 찍은 편지와 말린 꽃 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-14-money-day-kr": {
+    "file": "money-day",
+    "alt": "금화가 쏟아지는 가죽 지갑 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-01-26-spouses-day-global": {
+    "file": "spouses-day",
+    "alt": "쟁반 위 나란한 머그잔 두 개와 토스트 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-03-wife-day-kr": {
+    "file": "wife-day",
+    "alt": "리본으로 묶은 튤립 꽃다발 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-12-lovers-day-jp": {
+    "file": "lovers-day",
+    "alt": "리본을 두른 사진 액자 두 개 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-nth-10-3-sat-sweetest-day-us": {
+    "file": "sweetest-day",
+    "alt": "하트 상자에서 쏟아지는 사탕 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-20-love-your-pet-day-global": {
+    "file": "love-your-pet-day",
+    "alt": "방석 위에서 함께 잠든 고양이와 강아지 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-08-international-cat-day-global": {
+    "file": "cat-day-intl",
+    "alt": "꼬리를 감고 앉은 샴 고양이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-26-dog-day-global": {
+    "file": "dog-day",
+    "alt": "테니스공을 앞에 둔 골든 리트리버 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-01-serpent-day-global": {
+    "file": "serpent-day",
+    "alt": "주황 무늬의 옥수수뱀 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-28-elephant-day-jp": {
+    "file": "elephant-day-jp",
+    "alt": "귀가 큰 아기 코끼리 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
   }
 }
