@@ -6308,5 +6308,155 @@
     "file": "underdog-day",
     "alt": "커다란 밥그릇 앞에 당당히 선 작은 테리어 수채화",
     "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-01-03-fruitcake-toss-day-us": {
+    "file": "fruitcake-toss-day",
+    "alt": "설탕절임 과일이 박힌 프루트케이크 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-01-25-lowest-temperature-day-jp": {
+    "file": "lowest-temperature-day",
+    "alt": "얼어붙은 호수와 상고대 낀 전나무 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-12-tree-planting-day-cn": {
+    "file": "tree-planting-cn",
+    "alt": "삽과 물뿌리개 곁에 심은 어린나무 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-18-biodiesel-day-global": {
+    "file": "biodiesel-day",
+    "alt": "노란 유채꽃과 황금빛 식물성 기름 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-20-spring-begins-global": {
+    "file": "spring-begins",
+    "alt": "벚꽃 가지와 새싹, 제비 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-21-summer-begins-global": {
+    "file": "summer-begins",
+    "alt": "한여름 해바라기 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-22-autumnal-equinox-global": {
+    "file": "autumn-begins",
+    "alt": "단풍잎과 도토리, 작은 호박 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-21-daylight-appreciation-day-us": {
+    "file": "daylight-day",
+    "alt": "창가 화분에 드는 햇살 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-24-pet-parents-day-us": {
+    "file": "pet-parents-day",
+    "alt": "밥그릇 곁에 나란히 앉은 개와 고양이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-26-kids-and-pets-day-us": {
+    "file": "kids-pets-day",
+    "alt": "빨간 장난감 수레에 탄 강아지와 고양이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-04-bike-to-school-day-us": {
+    "file": "bike-to-school-day",
+    "alt": "앞 바구니에 책가방을 실은 어린이 자전거 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-20-bike-to-work-day-us": {
+    "file": "bike-to-work-day",
+    "alt": "짐받이에 서류 가방을 묶은 출근 자전거 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-18-dump-the-pump-day-us": {
+    "file": "public-transit-day",
+    "alt": "정류장에 들어서는 시내버스 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-06-fresh-breath-day-us": {
+    "file": "fresh-breath-day",
+    "alt": "칫솔 컵과 민트 잎 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-25-secondhand-wardrobe-day-us": {
+    "file": "secondhand-wardrobe-day",
+    "alt": "빈티지 옷이 걸린 오래된 나무 옷장 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-19-puppy-mill-awareness-day-global": {
+    "file": "puppy-mill-day",
+    "alt": "뜨개 담요에 웅크린 구조 강아지 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-26-hunting-and-fishing-day-us": {
+    "file": "fishing-day",
+    "alt": "낚싯대와 고리버들 바구니, 플라이 미끼 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-nth-09-4-sat-public-lands-day-us": {
+    "file": "public-lands-day",
+    "alt": "들꽃 핀 산 초원의 오솔길 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-11-01-cook-for-your-pets-day-us": {
+    "file": "cook-for-pets-day",
+    "alt": "닭고기와 채소로 만든 반려동물 집밥 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-11-04-chicken-lady-day-us": {
+    "file": "chicken-lady-day",
+    "alt": "암탉 두 마리와 갓 낳은 달걀 바구니 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-05-bathtub-party-day-global": {
+    "file": "bathtub-party-day",
+    "alt": "욕조 선반 위 컵케이크와 음료, 고무 오리 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-16-chocolate-covered-anything-day-us": {
+    "file": "chocolate-covered-day",
+    "alt": "초콜릿을 입힌 딸기·프레첼·오렌지 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-30-bicarbonate-of-soda-day-global": {
+    "file": "baking-soda-day",
+    "alt": "베이킹소다 유리병과 계량스푼, 레몬 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-24-food-day-us": {
+    "file": "food-day-us",
+    "alt": "신선한 농산물이 쌓인 장터 좌판 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-14-wine-day-kr": {
+    "file": "wine-day-kr",
+    "alt": "화이트·로제 와인과 치즈 보드 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-23-refreshment-day-us": {
+    "file": "refreshment-day",
+    "alt": "오이·레몬·민트를 띄운 시원한 물병 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-13-kitchen-klutzes-day-us": {
+    "file": "kitchen-klutz-day",
+    "alt": "쏟은 밀가루와 깨진 달걀 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-13-kids-take-over-kitchen-day-us": {
+    "file": "kids-kitchen-day",
+    "alt": "작은 앞치마와 쿠키 틀, 쿠키 반죽 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-16-personal-chefs-day-us": {
+    "file": "personal-chefs-day",
+    "alt": "식칼과 허브, 손질한 채소가 놓인 도마 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-25-culinarians-day-us": {
+    "file": "culinarians-day",
+    "alt": "흰 요리사 모자와 구리 냄비 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
   }
 }
