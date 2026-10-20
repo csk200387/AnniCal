@@ -6158,5 +6158,155 @@
     "file": "cranberry-day",
     "alt": "윤기 나는 크랜베리 한 그릇 수채화",
     "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-01-02-personal-trainer-awareness-day-us": {
+    "file": "personal-trainer-day",
+    "alt": "덤벨과 케틀벨, 줄넘기 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-01-04-thank-god-its-monday-day-us": {
+    "file": "monday-day",
+    "alt": "아침 커피와 펼친 플래너 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-01-19-hot-day-kr": {
+    "file": "jjimjilbang-day",
+    "alt": "수건과 맥반석 달걀, 식혜 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-01-28-data-privacy-day-kr": {
+    "file": "data-privacy-day",
+    "alt": "붉은 밀랍으로 봉한 편지봉투와 열쇠 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-nth-01-2-mon-coming-of-age-day-jp": {
+    "file": "coming-of-age-jp",
+    "alt": "기모노 걸이에 걸린 후리소데 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-04-create-a-vacuum-day-us": {
+    "file": "vacuum-day",
+    "alt": "놋쇠 진공 펌프 위 유리 종 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-05-weatherpersons-day-us": {
+    "file": "weatherperson-day",
+    "alt": "놋쇠 기압계와 우량계, 접은 우산 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-08-clean-out-your-computer-day-us": {
+    "file": "clean-computer-day",
+    "alt": "부드러운 솔로 먼지를 터는 키보드 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-04-employee-appreciation-day-global": {
+    "file": "employee-appreciation-day",
+    "alt": "커피잔과 다육 화분, 선물 상자가 놓인 책상 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-31-world-backup-day-global": {
+    "file": "backup-day",
+    "alt": "외장 하드와 USB 메모리 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-06-teflon-day-us": {
+    "file": "teflon-day",
+    "alt": "코팅 프라이팬 위로 미끄러지는 달걀프라이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-06-student-athlete-day-us": {
+    "file": "student-athlete-day",
+    "alt": "운동화와 운동 가방, 교과서 더미 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-13-songkran-th": {
+    "file": "songkran",
+    "alt": "재스민 화환과 꽃잎을 띄운 은 물그릇 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-10-lipid-day-us": {
+    "file": "lipid-day",
+    "alt": "아보카도와 올리브유, 연어 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-11-receptionists-day-us": {
+    "file": "receptionists-day",
+    "alt": "안내 데스크 위 호출 벨과 꽃병 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-12-international-nurses-day-global": {
+    "file": "intl-nurses-day",
+    "alt": "불 밝힌 놋쇠 등불과 붕대, 흰 꽃 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-15-nylon-stocking-day-us": {
+    "file": "nylon-stocking-day",
+    "alt": "상자 속 얇은 나일론 스타킹 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-17-world-telecommunication-information-society-day-global": {
+    "file": "telecom-day",
+    "alt": "송신탑과 빛나는 광섬유 가닥 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-11-naadam-mn": {
+    "file": "naadam",
+    "alt": "초원의 몽골 말과 게르 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-20-get-out-of-the-dog-house-day-us": {
+    "file": "doghouse-day",
+    "alt": "꽃다발이 놓인 나무 개집 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-nth-07-l-fri-system-administrator-appreciation-day-global": {
+    "file": "sysadmin-day",
+    "alt": "불빛이 깜박이는 서버 랙과 커피잔 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-11-mountain-day-jp": {
+    "file": "mountain-day-jp",
+    "alt": "겹겹 산 능선과 등산화 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-nth-06-3-sun-fathers-day-us": {
+    "file": "fathers-day-us",
+    "alt": "넥타이와 손목시계, 작은 선물 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-nth-09-2-sun-grandparents-day-us": {
+    "file": "grandparents-day-us",
+    "alt": "흔들의자와 돋보기, 뜨개 바구니 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-nth-09-3-mon-respect-for-the-aged-day-jp": {
+    "file": "aged-day-jp",
+    "alt": "칠기 쟁반 위 화과자와 국화 화분 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-25-math-storytelling-day-global": {
+    "file": "math-story-day",
+    "alt": "도형 그림책과 나무 주판 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-03-techies-day-us": {
+    "file": "techies-day",
+    "alt": "회로 기판과 인두, 저항 부품 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-14-world-standards-day-global": {
+    "file": "standards-day",
+    "alt": "놋쇠 추와 캘리퍼스, 접자 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-03-roof-over-your-head-day-us": {
+    "file": "roof-day",
+    "alt": "연기 오르는 굴뚝과 아늑한 지붕 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-18-underdog-day-global": {
+    "file": "underdog-day",
+    "alt": "커다란 밥그릇 앞에 당당히 선 작은 테리어 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
   }
 }
