@@ -6008,5 +6008,155 @@
     "file": "world-korean-day",
     "alt": "지구본과 매듭지은 보자기 수채화",
     "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-01-02-buffet-day-us": {
+    "file": "buffet-day",
+    "alt": "보온 그릇과 접시가 늘어선 뷔페 상차림 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-01-16-hot-spicy-food-day-global": {
+    "file": "spicy-food-day",
+    "alt": "붉은 고추와 매운 찌개 한 그릇 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-09-meat-day-jp": {
+    "file": "meat-day-jp",
+    "alt": "마블링 소고기와 로즈메리를 올린 도마 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-15-gumdrop-day-us": {
+    "file": "gumdrop-day",
+    "alt": "유리병에 담긴 알록달록한 검드롭 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-18-drink-wine-day-global": {
+    "file": "drink-wine-day",
+    "alt": "레드와인 한 잔과 포도송이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-06-frozen-food-day-global": {
+    "file": "frozen-food-day",
+    "alt": "성에 낀 냉동 완두콩·옥수수·베리 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-10-pack-your-lunch-day-global": {
+    "file": "pack-lunch-day",
+    "alt": "샌드위치와 과일을 담은 도시락 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-14-pi-day": {
+    "file": "pi-day",
+    "alt": "블루베리 파이와 파이 서버 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-28-something-on-a-stick-day-us": {
+    "file": "on-a-stick-day",
+    "alt": "꼬치에 꽂은 콘도그·과일·꼬치구이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-29-shrimp-scampi-day-us": {
+    "file": "shrimp-scampi-day",
+    "alt": "마늘과 레몬을 곁들인 쉬림프 스캠피 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-04-bird-day-global": {
+    "file": "bird-day-may",
+    "alt": "꽃 핀 가지에 앉은 작은 새들 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-06-beverage-day-us": {
+    "file": "beverage-day",
+    "alt": "레모네이드·아이스티·오렌지주스 잔 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-07-homebrew-day-us": {
+    "file": "homebrew-day",
+    "alt": "발효 중인 맥주 유리병과 홉·보리 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-20-pick-strawberries-day-us": {
+    "file": "pick-strawberries-day",
+    "alt": "갓 딴 딸기가 담긴 바구니 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-20-pizza-party-day-us": {
+    "file": "pizza-party-day",
+    "alt": "치즈가 늘어나는 피자 한 판 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-25-brown-bag-it-day-us": {
+    "file": "brown-bag-day",
+    "alt": "갈색 종이 점심 봉투와 사과 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-01-chewing-gum-day-jp": {
+    "file": "chewing-gum-day-jp",
+    "alt": "은박지에 싸인 껌과 민트 잎 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-17-eat-your-vegetables-day-us": {
+    "file": "eat-vegetables-day",
+    "alt": "채소가 가득 담긴 나무 상자 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-29-waffle-iron-day-us": {
+    "file": "waffle-iron-day",
+    "alt": "무쇠 와플 틀과 갓 구운 와플 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-01-creative-ice-cream-flavors-day-us": {
+    "file": "ice-cream-flavors-day",
+    "alt": "라벤더·말차·흑임자 아이스크림 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-03-eat-your-beans-day-us": {
+    "file": "eat-beans-day",
+    "alt": "무쇠 냄비에 끓인 베이크드 빈스 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-12-eat-your-jello-day-us": {
+    "file": "jello-day",
+    "alt": "접시 위 붉은 젤라틴 디저트 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-21-junk-food-day-us": {
+    "file": "junk-food-day",
+    "alt": "치즈버거와 감자튀김 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-03-grab-some-nuts-day-us": {
+    "file": "nuts-day",
+    "alt": "호두·아몬드·피스타치오 견과류 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-08-sneak-zucchini-day-us": {
+    "file": "sneak-zucchini-day",
+    "alt": "현관 계단에 놓인 애호박 바구니 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-31-vegetable-day-jp": {
+    "file": "vegetable-day-jp",
+    "alt": "무·가지·단호박·대파 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-14-eat-a-hoagie-day-us": {
+    "file": "eat-hoagie-day",
+    "alt": "속을 채운 긴 호기 샌드위치 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-19-international-eat-an-apple-day-global": {
+    "file": "eat-apple-day",
+    "alt": "한 입 베어 문 사과와 사과들 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-15-cake-decorating-day-us": {
+    "file": "cake-decorating-day",
+    "alt": "버터크림 장미로 장식하는 케이크 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-11-23-eat-a-cranberry-day-us": {
+    "file": "cranberry-day",
+    "alt": "윤기 나는 크랜베리 한 그릇 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
   }
 }
