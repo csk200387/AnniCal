@@ -5108,5 +5108,155 @@
     "file": "family-fitness-day",
     "alt": "크기가 다른 자전거 세 대 수채화",
     "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-01-16-nothing-day-global": {
+    "file": "nothing-day",
+    "alt": "나뭇잎 하나가 놓인 빈 해먹 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-01-24-compliment-day-global": {
+    "file": "compliment-day",
+    "alt": "금별 스티커를 붙인 카드와 꽃 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-01-25-opposite-day-global": {
+    "file": "opposite-day",
+    "alt": "거꾸로 펴서 비를 받는 우산 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-01-31-backward-day-us": {
+    "file": "backward-day",
+    "alt": "거꾸로 도는 화살표가 있는 회중시계 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-11-dont-cry-over-spilled-milk-day-us": {
+    "file": "spilled-milk-day",
+    "alt": "엎질러진 우유와 냄새 맡는 고양이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-15-singles-awareness-day-global": {
+    "file": "singles-day",
+    "alt": "작은 탁자 위 차 한 잔과 케이크 한 조각 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-17-random-acts-of-kindness-day-global": {
+    "file": "kindness-acts-day",
+    "alt": "하트 꼬리표를 단 문 앞 꽃 화분 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-28-public-sleeping-day-us": {
+    "file": "public-sleeping-day",
+    "alt": "베개와 신문이 놓인 공원 벤치 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-28-tooth-fairy-day-global": {
+    "file": "tooth-fairy-day-global",
+    "alt": "작은 이 모양 상자와 반짝이는 젖니 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-04-day-of-unplugging-global": {
+    "file": "unplugging-day",
+    "alt": "뽑힌 전원 코드 옆 책과 찻잔 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-07-be-heard-day-global": {
+    "file": "be-heard-day",
+    "alt": "소리 물결이 퍼지는 스탠드 마이크 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-09-get-over-it-day-global": {
+    "file": "get-over-it-day",
+    "alt": "작은 허들을 넘어가는 종이비행기 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-14-childrens-craft-day-global": {
+    "file": "childrens-craft-day",
+    "alt": "가위와 풀, 색종이로 만든 종이 왕관 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-18-awkward-moments-day-global": {
+    "file": "awkward-moments-day",
+    "alt": "어색하게 쏟아진 각설탕과 찻잔 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-21-common-courtesy-day-global": {
+    "file": "courtesy-day",
+    "alt": "살짝 열린 문과 환영 매트 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-03-22-goof-off-day-us": {
+    "file": "goof-off-day",
+    "alt": "선글라스와 연못 위 종이배 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-01-one-cent-day-us": {
+    "file": "one-cent-day",
+    "alt": "얼굴 없는 구리 1센트 동전 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-05-read-a-road-map-day-us": {
+    "file": "road-map-day",
+    "alt": "펼친 옛 도로 지도와 나침반 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-07-no-housework-day-us": {
+    "file": "no-housework-day",
+    "alt": "벽에 기대 둔 빗자루와 안락의자 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-14-reach-as-high-as-you-can-day-us": {
+    "file": "reach-high-day",
+    "alt": "파란 하늘 높이 나는 솔개 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-15-wild-guess-day-us": {
+    "file": "wild-guess-day",
+    "alt": "젤리빈 유리병과 물음표 꼬리표 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-19-hanging-out-day-us": {
+    "file": "hanging-out-day",
+    "alt": "나무 집게로 넌 빨랫줄의 빨래 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-23-take-a-chance-day-us": {
+    "file": "take-a-chance-day",
+    "alt": "굴러가는 주사위 두 개와 포춘쿠키 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-30-honesty-day-us": {
+    "file": "honesty-day",
+    "alt": "부드러운 빛을 비추는 손거울 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-03-lumpy-rug-day-us": {
+    "file": "lumpy-rug-day",
+    "alt": "고양이 꼬리가 삐져나온 울퉁불퉁한 러그 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-03-paranormal-day-us": {
+    "file": "paranormal-day",
+    "alt": "유령 같은 연기가 이는 놋쇠 촛대 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-13-frog-jumping-day-us": {
+    "file": "frog-jumping-day",
+    "alt": "다리를 뻗고 뛰어오른 개구리 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-14-dance-like-a-chicken-day-us": {
+    "file": "dance-chicken-day",
+    "alt": "날개를 퍼덕이며 춤추는 암탉 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-17-pack-rat-day-us": {
+    "file": "pack-rat-day",
+    "alt": "물건이 넘치는 상자와 고개 내민 쥐 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-18-no-dirty-dishes-day-us": {
+    "file": "no-dirty-dishes-day",
+    "alt": "식기 건조대 위 깨끗한 접시 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
   }
 }
