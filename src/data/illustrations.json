@@ -5708,5 +5708,150 @@
     "file": "pathologist-day",
     "alt": "염색 표본 슬라이드와 현미경 수채화",
     "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-01-26-cultural-property-fire-prevention-day-jp": {
+    "file": "cultural-fire-day-jp",
+    "alt": "옛 일본 절 종과 빨간 소방 양동이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-11-make-a-friend-day-global": {
+    "file": "make-a-friend-day",
+    "alt": "한 가지에 나란히 앉은 작은 새 두 마리 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-5": {
+    "file": "commerce-day",
+    "alt": "옛 금전등록기와 저울, 장부 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-01-fair-trade-day-kr": {
+    "file": "fair-trade-day",
+    "alt": "저울에 올린 커피 자루와 카카오 열매 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-10-encourage-young-writer-day-us": {
+    "file": "young-writer-day",
+    "alt": "별 낙서가 있는 어린이 공책과 연필 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-10-siblings-day-global": {
+    "file": "siblings-day",
+    "alt": "나란히 선 큰 장화와 작은 장화 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-18-columnists-day-us": {
+    "file": "columnists-day",
+    "alt": "접은 신문과 커피 잔, 만년필 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-19": {
+    "file": "labor-day-kr",
+    "alt": "나무 벤치 위 낡은 작업 장갑과 안전모 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-07-packaging-design-day-us": {
+    "file": "packaging-day",
+    "alt": "디자인된 빈 상자와 크라프트 종이봉투 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-27": {
+    "file": "coming-of-age-day-kr",
+    "alt": "장미 꽃다발과 향수, 립스틱 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-26": {
+    "file": "couples-day",
+    "alt": "펼친 책 위 하트 그림자를 만든 반지 두 개 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-28-insurance-awareness-day-us": {
+    "file": "insurance-day",
+    "alt": "비를 막는 우산 아래 집·자동차·하트 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-30-social-media-day-global": {
+    "file": "social-media-day",
+    "alt": "하트와 말풍선이 떠오르는 스마트폰 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-95": {
+    "file": "urban-rural-day",
+    "alt": "도시 자전거 옆 시골 채소 바구니 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-37": {
+    "file": "info-security-day",
+    "alt": "노트북 위 놋쇠 열쇠와 자물쇠 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-02-sisters-day-us": {
+    "file": "sisters-day",
+    "alt": "나란한 꽃 머리핀 두 개 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-04-hometown-love-day-kr": {
+    "file": "hometown-day",
+    "alt": "감나무가 선 초가집 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-09-ear-day-kr": {
+    "file": "ear-day-kr",
+    "alt": "소리가 퍼지는 커다란 소라 껍데기 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-14-industrial-complex-day-kr": {
+    "file": "industrial-complex-day",
+    "alt": "굴뚝과 톱니바퀴가 있는 공장 풍경 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-110": {
+    "file": "youth-day",
+    "alt": "운동화와 배낭, 어린나무 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-22-centenarians-day-us": {
+    "file": "centenarians-day",
+    "alt": "큰 초 하나를 꽂은 꽃장식 케이크 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-nth-09-4-tue-voter-registration-day-us": {
+    "file": "voter-registration-day",
+    "alt": "빈 신청서 클립보드와 투표함 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-40": {
+    "file": "armed-forces-day-kr",
+    "alt": "금빛 모표의 군모와 광낸 군화 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-15-get-smart-about-credit-day-us": {
+    "file": "credit-day",
+    "alt": "빈 카드와 계산기, 돼지 저금통 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-49": {
+    "file": "correction-day",
+    "alt": "열쇠고리와 펼친 책, 새싹 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-50": {
+    "file": "local-autonomy-day",
+    "alt": "가운데 나무를 둘러싼 작은 마을 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-11-01-family-literacy-day-us": {
+    "file": "family-literacy-day",
+    "alt": "크기가 다른 책 세 권 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-126": {
+    "file": "civil-petition-day",
+    "alt": "도장과 펜이 놓인 서류함 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-57": {
+    "file": "nuclear-safety-day",
+    "alt": "유리 덮개 속 원자 모형 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
   }
 }
