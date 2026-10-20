@@ -5958,5 +5958,55 @@
     "file": "thrift-shop-day",
     "alt": "중고 옷 행거와 옛 모자, 가방 수채화",
     "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-11-pet-day-global": {
+    "file": "pet-day",
+    "alt": "함께 쉬는 고양이와 토끼, 강아지 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-29-hairball-awareness-day-us": {
+    "file": "hairball-day",
+    "alt": "털을 고르는 장모 고양이와 빗 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-26-take-your-dog-to-work-day-us": {
+    "file": "dog-to-work-day",
+    "alt": "사무실 책상 아래 바구니에서 자는 강아지 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-19-international-coastal-cleanup-day-global": {
+    "file": "coastal-cleanup-day",
+    "alt": "모래 위 주운 쓰레기 자루와 조개껍데기 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-22-car-free-day-global": {
+    "file": "car-free-day",
+    "alt": "텅 빈 도로 위 자전거와 운동화 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-10-costume-swap-day-us": {
+    "file": "costume-swap-day",
+    "alt": "마녀 모자를 올린 핼러윈 의상 행거 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-rel-thanksgiving-1-buy-nothing-day-global": {
+    "file": "buy-nothing-day",
+    "alt": "빈 장바구니와 기운 낡은 스웨터 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-05-shower-with-a-friend-day-us": {
+    "file": "water-saving-shower-day",
+    "alt": "물방울 떨어지는 샤워기와 작은 타이머 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-01-10-cut-your-energy-costs-day-us": {
+    "file": "energy-costs-day",
+    "alt": "LED 전구와 온도 조절기, 담요 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-42": {
+    "file": "world-korean-day",
+    "alt": "지구본과 매듭지은 보자기 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
   }
 }
