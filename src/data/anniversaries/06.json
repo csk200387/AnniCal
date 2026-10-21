@@ -613,7 +613,7 @@
     "id": "anv-fixed-06-04-old-maids-day-us",
     "date": "06-04",
     "dateType": "annual-fixed",
-    "name": "올드 메이즈의 날",
+    "name": "미혼 여성의 날",
     "category": "quirky",
     "tags": [
       "이색 & 유머"
@@ -1683,7 +1683,7 @@
     "id": "anv-fixed-06-14-pop-goes-the-weasel-day-us",
     "date": "06-14",
     "dateType": "annual-fixed",
-    "name": "팝 고즈 더 위즐의 날",
+    "name": "\"팝 고즈 더 위즐\" 동요의 날",
     "category": "culture",
     "tags": [
       "문화 & 예술"
@@ -2602,7 +2602,7 @@
     "id": "anv-fixed-06-25-leon-day-us",
     "date": "06-25",
     "dateType": "annual-fixed",
-    "name": "리온 데이 (National Leon Day)",
+    "name": "레온 데이 (National Leon Day)",
     "category": "quirky",
     "tags": [
       "이색 & 유머"
@@ -3060,7 +3060,7 @@
     "id": "anv-nth-06-1-sat-trails-day-us",
     "date": "06-1-SAT",
     "dateType": "annual-nth-weekday",
-    "name": "내셔널 트레일스 데이 (National Trails Day)",
+    "name": "전국 트레일의 날 (National Trails Day)",
     "category": "animal",
     "tags": [
       "동물 & 자연"

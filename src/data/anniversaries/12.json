@@ -3,7 +3,7 @@
     "id": "anv-fixed-12-01-day-of-giving-us",
     "date": "12-01",
     "dateType": "annual-fixed",
-    "name": "나눔의 날 (National Day of Giving)",
+    "name": "기빙 튜즈데이 (GivingTuesday)",
     "category": "general",
     "tags": [
       "일반"
@@ -752,7 +752,7 @@
     "id": "anv-fixed-12-08-time-traveler-day-global",
     "date": "12-08",
     "dateType": "annual-fixed",
-    "name": "타임트래블러인 척하는 날",
+    "name": "시간 여행자 흉내 내는 날",
     "category": "quirky",
     "tags": [
       "이색 & 유머"

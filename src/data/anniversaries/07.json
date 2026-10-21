@@ -371,7 +371,7 @@
     "id": "anv-fixed-07-05-graham-cracker-day-us",
     "date": "07-05",
     "dateType": "annual-fixed",
-    "name": "그래함 크래커의 날",
+    "name": "그레이엄 크래커의 날",
     "category": "food",
     "tags": [
       "음식 & 디저트"
@@ -563,7 +563,7 @@
     "id": "anv-fixed-07-07-hiyashi-chuka-day-jp",
     "date": "07-07",
     "dateType": "annual-fixed",
-    "name": "냉중화면의 날 (冷やし中華の日)",
+    "name": "히야시추카의 날 (冷やし中華の日)",
     "category": "food",
     "tags": [
       "음식 & 디저트"
@@ -1896,7 +1896,7 @@
     "id": "anv-fixed-07-23-refreshment-day-us",
     "date": "07-4-THU",
     "dateType": "annual-nth-weekday",
-    "name": "리프레시먼트의 날 (National Refreshment Day)",
+    "name": "시원한 음료의 날 (National Refreshment Day)",
     "category": "food",
     "tags": [
       "음식 & 디저트"

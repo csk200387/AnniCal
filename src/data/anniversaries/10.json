@@ -642,7 +642,7 @@
     "id": "anv-fixed-10-08-poetry-day-us",
     "date": "10-1-THU",
     "dateType": "annual-nth-weekday",
-    "name": "시의 날 (National Poetry Day)",
+    "name": "영국 시의 날 (National Poetry Day, UK)",
     "category": "culture",
     "tags": [
       "문화 & 예술"
@@ -1520,7 +1520,7 @@
     "id": "anv-fixed-10-15-grouch-day-us",
     "date": "10-15",
     "dateType": "annual-fixed",
-    "name": "그라우치의 날 (National Grouch Day)",
+    "name": "심술쟁이의 날 (National Grouch Day)",
     "category": "quirky",
     "tags": [
       "이색 & 유머"
@@ -1938,7 +1938,7 @@
     "id": "anv-fixed-10-17-alternative-fuel-day-global",
     "date": "10-17",
     "dateType": "annual-fixed",
-    "name": "대체 연료의 날 (Alternative Fuel Day)",
+    "name": "대체연료차량의 날 (Alternative Fuel Day)",
     "category": "animal",
     "tags": [
       "동물 & 자연"
@@ -3104,7 +3104,7 @@
     "id": "anv-fixed-10-30-frankenstein-day-us",
     "date": "10-L-FRI",
     "dateType": "annual-nth-weekday",
-    "name": "프랑켄슈타인의 날 (National Frankenstein Day)",
+    "name": "프랑켄슈타인 프라이데이 (National Frankenstein Day)",
     "category": "culture",
     "tags": [
       "문화 & 예술"

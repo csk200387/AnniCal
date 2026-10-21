@@ -455,7 +455,7 @@
     "id": "anv-fixed-11-05-men-make-dinner-day-us",
     "date": "11-1-THU",
     "dateType": "annual-nth-weekday",
-    "name": "남편이 저녁 차리는 날 (National Men Make Dinner Day)",
+    "name": "남자가 저녁 차리는 날 (National Men Make Dinner Day)",
     "category": "food",
     "tags": [
       "음식 & 디저트"
@@ -2245,7 +2245,7 @@
     "id": "anv-fixed-11-25-shopping-reminder-day-us",
     "date": "11-25",
     "dateType": "annual-fixed",
-    "name": "쇼핑 리마인더 데이",
+    "name": "쇼핑 체크하는 날",
     "category": "quirky",
     "tags": [
       "이색 & 유머"
