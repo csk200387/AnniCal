@@ -6758,5 +6758,140 @@
     "file": "folk-song-day",
     "alt": "나무 의자에 놓인 밴조와 하모니카 수채화",
     "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-01-17-bootleggers-day-us": {
+    "file": "bootleggers-day",
+    "alt": "코르크를 막은 옛 밀주 항아리와 구리 증류관 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-06-lame-duck-day-us": {
+    "file": "lame-duck-day",
+    "alt": "한쪽 다리에 붕대를 감은 흰 오리 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-02-08-boy-scouts-day-global": {
+    "file": "boy-scouts-day",
+    "alt": "작은 모닥불과 스카프, 놋쇠 나침반 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-60": {
+    "file": "heritage-fire-safety-day",
+    "alt": "전통 기와 대문 곁의 빨간 소화기 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-12-big-wind-day-us": {
+    "file": "big-wind-day",
+    "alt": "거센 바람에 휘는 나무와 날리는 잎 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-29-peace-rose-day-us": {
+    "file": "peace-rose-day",
+    "alt": "가장자리가 분홍빛인 노란 피스 장미 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-09-lost-sock-memorial-day-us": {
+    "file": "lost-sock-day",
+    "alt": "빨랫줄에 홀로 걸린 짝 잃은 양말 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-22-maritime-day-us": {
+    "file": "maritime-day-us",
+    "alt": "컨테이너를 실은 화물선 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-06-hidirellez-tr": {
+    "file": "hidirellez",
+    "alt": "꽃 핀 장미 덤불에 묶은 소원 리본 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-05-30-kaamatan-my": {
+    "file": "kaamatan",
+    "alt": "갓 거둔 벼 다발과 대나무 바구니 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "gov-85": {
+    "file": "records-day",
+    "alt": "나무 선반 위 기록 상자와 오래된 장부 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-06-01-gawai-dayak-my": {
+    "file": "gawai-dayak",
+    "alt": "구슬 장식과 벼 이삭을 두른 쌀술 항아리 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-01-us-postage-stamp-day-us": {
+    "file": "postage-stamp-day",
+    "alt": "꽃과 새가 그려진 톱니 무늬 우표 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-22-rat-catchers-day-us": {
+    "file": "rat-catchers-day",
+    "alt": "나무 피리 곁에 앉은 갈색 쥐 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-07-25-day-of-the-cowboy-us": {
+    "file": "cowboy-day",
+    "alt": "서부 안장에 건 올가미 밧줄과 박차 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-18-mail-order-catalog-day-us": {
+    "file": "mail-order-day",
+    "alt": "노끈으로 묶은 소포와 두꺼운 카탈로그 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-08-20-radio-day-us": {
+    "file": "radio-day-us",
+    "alt": "안테나를 뽑은 옛 트랜지스터 라디오 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-lunar-baekjung-kr": {
+    "file": "baekjung",
+    "alt": "씻어 건 호미와 여름 과일, 떡 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-07-neither-snow-nor-rain-day-us": {
+    "file": "snow-nor-rain-day",
+    "alt": "눈비를 맞는 길가 우편함 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-09-21-international-day-of-peace-global": {
+    "file": "peace-day",
+    "alt": "올리브 가지를 문 흰 비둘기 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-rel-chuseok-minus1-tai-hang-fire-dragon-hk": {
+    "file": "tai-hang-fire-dragon",
+    "alt": "향을 꽂아 연기가 피어오르는 짚 용 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-16-dictionary-day-us": {
+    "file": "dictionary-day",
+    "alt": "나무 독서대에 펼친 두꺼운 사전 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-01-bifocals-monitor-liberation-day-us": {
+    "file": "bifocals-day",
+    "alt": "모니터 앞에 놓인 다초점 안경 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-06-st-nicholas-day-global": {
+    "file": "st-nicholas-day",
+    "alt": "초콜릿 동전과 귤을 채운 나막신 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-13-worldwide-candle-lighting-day-global": {
+    "file": "candle-lighting-day",
+    "alt": "유리 촛대에 밝힌 작은 초들 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-23-roots-day-us": {
+    "file": "roots-day",
+    "alt": "땅속으로 깊게 뻗은 뿌리를 드러낸 고목 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-16-simbang-gabi-ph": {
+    "file": "simbang-gabi",
+    "alt": "대나무와 종이로 만든 별 모양 파롤 등 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
   }
 }
