@@ -69,7 +69,7 @@
     "id": "anv-fixed-02-02-groundhog-day-us",
     "date": "02-02",
     "dateType": "annual-fixed",
-    "name": "성촉절 (Groundhog Day)",
+    "name": "마멋의 날 (Groundhog Day)",
     "category": "animal",
     "tags": [
       "동물 & 자연"
@@ -82,7 +82,7 @@
       {
         "type": "text",
         "url": null,
-        "caption": "오늘이 어제 같고 어제가 오늘 같다면, 당신은 이미 성촉절 안에 있다"
+        "caption": "오늘이 어제 같고 어제가 오늘 같다면, 당신은 이미 마멋의 날 안에 있다"
       }
     ],
     "sourceUrl": null
@@ -2123,7 +2123,7 @@
     "id": "anv-fixed-02-20-hoodie-hoo-day-us",
     "date": "02-20",
     "dateType": "annual-fixed",
-    "name": "후디 후 데이",
+    "name": "후디 후 데이 (Hoodie Hoo Day)",
     "category": "quirky",
     "storytelling": {
       "origin": "2월 20일은 정오에 밖으로 나가 두 손을 머리 위로 흔들며 ‘후디 후!’를 외쳐 겨울을 쫓는 미국의 비공식 이색 기념일 ‘후디 후 데이(Hoodie Hoo Day)’다. 요일과 상관없이 매년 2월 20일에 지키며, 지역 신문은 펜실베이니아 중부의 한 부부가 생각해 낸 ‘완전히 지어낸 기념일’이라고 소개했다. 교육 출판사 피어슨의 달력은 웰캣닷컴(Wellcat.com)이라는 회사가 북반구의 겨울 우울을 털어 내자고 만든 날로 설명한다.",

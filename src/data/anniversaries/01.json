@@ -195,7 +195,7 @@
     "id": "anv-fixed-01-04-thank-god-its-monday-day-us",
     "date": "01-1-MON",
     "dateType": "annual-nth-weekday",
-    "name": "먼데이 감사의 날",
+    "name": "월요일에 감사하는 날",
     "category": "career",
     "tags": [
       "직업 & 감사"
@@ -959,7 +959,7 @@
     "id": "anv-fixed-01-15-strawberry-ice-cream-day-us",
     "date": "01-15",
     "dateType": "annual-fixed",
-    "name": "스트로베리 아이스크림의 날",
+    "name": "딸기 아이스크림의 날",
     "category": "food",
     "tags": [
       "음식 & 디저트"
@@ -1271,7 +1271,7 @@
     "id": "anv-fixed-01-20-cheese-lovers-day-global",
     "date": "01-20",
     "dateType": "annual-fixed",
-    "name": "치즈 러버의 날",
+    "name": "치즈 애호가의 날",
     "category": "food",
     "tags": [
       "음식 & 디저트"
@@ -1803,7 +1803,7 @@
     "id": "anv-fixed-01-28-data-privacy-day-kr",
     "date": "01-28",
     "dateType": "annual-fixed",
-    "name": "데이터 프라이버시데이",
+    "name": "데이터 프라이버시의 날",
     "category": "academic",
     "tags": [
       "학술 & 기술"

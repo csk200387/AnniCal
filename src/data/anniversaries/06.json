@@ -569,7 +569,7 @@
     "id": "anv-fixed-06-03-repeat-day-us",
     "date": "06-03",
     "dateType": "annual-fixed",
-    "name": "리피트 데이 (National Repeat Day)",
+    "name": "반복의 날 (National Repeat Day)",
     "category": "quirky",
     "tags": [
       "이색 & 유머"
@@ -2020,9 +2020,9 @@
     "date": "06-3-THU",
     "dateType": "annual-nth-weekday",
     "name": "대중교통 타는 날 (National Dump the Pump Day)",
-    "category": "animal",
+    "category": "campaign",
     "tags": [
-      "동물 & 자연"
+      "국제 캠페인 & 보건"
     ],
     "storytelling": {
       "origin": "하루만이라도 주유소 대신 대중교통을 이용해 보자는 날이다. 이름의 '펌프'는 주유기를 가리킨다. 미국 대중교통협회가 유가가 치솟던 2006년에 시작했다. 고유가로 대중교통 이용을 늘리려는 실용적 문제의식이 출발점이었으며, 매년 6월 셋째 목요일에 열린다.",
@@ -2508,7 +2508,7 @@
     "id": "anv-fixed-06-23-international-widows-day-global",
     "date": "06-23",
     "dateType": "annual-fixed",
-    "name": "세계 미망인의 날",
+    "name": "국제 과부의 날",
     "category": "campaign",
     "tags": [
       "국제 캠페인 & 보건"
