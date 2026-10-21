@@ -8,7 +8,8 @@
 // public/illustrations/<파일명>-{640,1200}.webp 를 쓰고 src/data/illustrations.json 에 넣는다.
 //
 // 화풍은 아래 STYLE 로 고정한다 — 그림마다 화풍이 다르면 도감이 뒤죽박죽이 된다.
-// 사물·음식·동식물만 그린다. 실존 인물·특정 역사 장면은 그리지 않는다(지어낸 역사 그림이 실린다).
+// 사물·음식·동식물을 그린다. 특정 역사 장면은 그리지 않는다(지어낸 역사 그림이 실린다).
+// 실존 인물은 대표 초상을 참고 이미지로 넣은 흉상만 --from 으로 싣는다(AGENTS.md).
 
 import { execFileSync } from 'node:child_process'
 import { existsSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
