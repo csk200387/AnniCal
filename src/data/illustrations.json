@@ -7928,5 +7928,180 @@
     "file": "navy-birthday-us",
     "alt": "밧줄 더미 위 흰 수병 모자와 닻 수채화",
     "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-14-take-your-parents-to-lunch-day-us": {
+    "file": "parents-lunch-day",
+    "alt": "수프와 빵을 차린 3인 식탁 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-15-get-to-know-your-customers-day-us": {
+    "file": "know-customers-day",
+    "alt": "놋쇠 호출벨과 방명록, 커피를 둔 가게 계산대 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-15-grouch-day-us": {
+    "file": "grouch-day",
+    "alt": "귀를 눕힌 심술 난 회색 고양이 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-16-department-store-day-us": {
+    "file": "department-store-day",
+    "alt": "옛 놋쇠 엘리베이터 층 표시기와 줄무늬 모자 상자 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-16-bosses-day-us": {
+    "file": "bosses-day",
+    "alt": "윤이 나는 책상 위 만년필과 화분, 머그 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-19-clean-virtual-desktop-day-us": {
+    "file": "clean-desktop-day",
+    "alt": "폴더 몇 개만 남은 깔끔한 모니터 화면 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-23-tv-talk-show-host-day-us": {
+    "file": "talk-show-day",
+    "alt": "도시 야경 배경 앞 토크쇼 책상과 마이크 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-26-day-of-the-deployed-us": {
+    "file": "deployed-day",
+    "alt": "편지와 양말, 사탕이 든 위문 상자 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-10-30-speak-up-for-service-day-us": {
+    "file": "speak-up-service",
+    "alt": "마이크를 단 연단과 작은 트로피 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-nth-10-2-mon-native-american-day-us": {
+    "file": "native-american-day",
+    "alt": "엮은 바구니와 구슬 목걸이, 말린 옥수수 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-nth-10-4-sun-mother-in-law-day-us": {
+    "file": "mother-in-law-day",
+    "alt": "찻주전자와 찻잔 두 개, 쿠키 접시 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-11-03-housewifes-day-us": {
+    "file": "housewife-day",
+    "alt": "반죽 그릇과 거품기, 밀가루를 둔 옛 부엌 조리대 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-11-08-parents-as-teachers-day-us": {
+    "file": "parents-teachers-day",
+    "alt": "펼친 그림책과 작은 손 인형 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-11-10-marine-corps-birthday-us": {
+    "file": "marine-corps-birthday",
+    "alt": "흰 생일 케이크 위에 걸친 의장용 칼 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-11-11-veterans-day-us": {
+    "file": "veterans-day-us",
+    "alt": "돌담에 기댄 빨강·하양·파랑 꽃 화환 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-11-15-philanthropy-day-us": {
+    "file": "philanthropy-day",
+    "alt": "동전이 든 모금 유리병에서 돋은 새싹 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-11-18-educational-support-professionals-day-us": {
+    "file": "ed-support-day",
+    "alt": "급식 쟁반과 버스 기사 모자, 빗자루 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-11-19-womens-entrepreneurship-day-global": {
+    "file": "women-entrepreneur-day",
+    "alt": "노트북과 명함꽂이, 화분을 둔 책상 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-nth-11-3-thu-world-philosophy-day-global": {
+    "file": "philosophy-day",
+    "alt": "옛 책 더미 위에 앉은 올빼미 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-11-20-transgender-day-of-remembrance-global": {
+    "file": "trans-remembrance-day",
+    "alt": "촛불과 하늘색·분홍·흰색 리본 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-nth-11-4-thu-day-of-mourning-us": {
+    "file": "day-of-mourning-us",
+    "alt": "바닷가 바위 위의 독수리 깃털 하나 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-rel-thanksgiving-1-native-american-heritage-day-us": {
+    "file": "native-heritage-day",
+    "alt": "알록달록한 옥수수와 콩, 호박 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-rel-thanksgiving-1-youre-welcomegiving-day-us": {
+    "file": "welcomegiving-day",
+    "alt": "담요를 둔 소파와 남은 파이 한 접시 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-11-26-india-constitution-day": {
+    "file": "india-constitution-day",
+    "alt": "분홍 연꽃과 장식된 옛 필사본 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-02-rockefeller-center-tree-lighting-us": {
+    "file": "rockefeller-tree",
+    "alt": "빈 스케이트장 위로 불 밝힌 커다란 크리스마스트리 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-10-human-rights-day-global": {
+    "file": "human-rights-day",
+    "alt": "피부색이 다른 손들이 포개진 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-15-bill-of-rights-day-us": {
+    "file": "bill-of-rights-day",
+    "alt": "리본으로 묶은 양피지와 깃펜, 잉크병 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-22-homeless-persons-remembrance-day-us": {
+    "file": "homeless-remembrance",
+    "alt": "밤 공원 벤치 위의 모포와 촛불 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-25-india-good-governance-day": {
+    "file": "good-governance-in",
+    "alt": "기근을 늘어뜨린 커다란 반얀나무 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-25-taiwan-constitution-day": {
+    "file": "constitution-day-tw",
+    "alt": "덮은 옛 책 위의 분홍 매화 가지 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-28-holy-innocents-day-global": {
+    "file": "holy-innocents",
+    "alt": "성당 창턱의 작은 흰 장미와 촛불 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-29-aviation-safety-day-kr": {
+    "file": "aviation-safety-kr",
+    "alt": "공항 관제탑과 주황색 바람자루 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-31-universal-hour-of-peace-global": {
+    "file": "hour-of-peace",
+    "alt": "눈송이 속 모래시계와 촛불 하나 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-12-19-goa-liberation-day": {
+    "file": "goa-liberation-day",
+    "alt": "야자수 아래 해변의 캐슈 열매와 코코넛 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
+  },
+  "anv-fixed-04-12-yuris-night-global": {
+    "file": "yuris-night",
+    "alt": "푸른 지구 위를 도는 둥근 보스토크 우주선 수채화",
+    "credit": "AI 생성 수채화 · 기념일 도감"
   }
 }
