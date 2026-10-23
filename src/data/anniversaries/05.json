@@ -18,8 +18,8 @@
   },
   {
     "id": "anv-fixed-05-01-infertility-survival-day-us",
-    "date": "05-01",
-    "dateType": "annual-fixed",
+    "date": "anv-nth-05-2-sun-us-mothers-day:-7",
+    "dateType": "annual-relative-to-holiday",
     "name": "난임 극복의 날",
     "category": "campaign",
     "tags": [
@@ -214,8 +214,8 @@
   },
   {
     "id": "anv-fixed-05-03-teacher-appreciation-day-us",
-    "date": "05-03",
-    "dateType": "annual-fixed",
+    "date": "anv-nth-05-2-sun-us-mothers-day:-5",
+    "dateType": "annual-relative-to-holiday",
     "name": "교사 감사의 날 (National Teacher Appreciation Day)",
     "category": "career",
     "tags": [
@@ -544,8 +544,8 @@
   },
   {
     "id": "anv-fixed-05-04-bike-to-school-day-us",
-    "date": "05-04",
-    "dateType": "annual-fixed",
+    "date": "anv-nth-05-2-sun-us-mothers-day:-4",
+    "dateType": "annual-relative-to-holiday",
     "name": "자전거 통학의 날 (National Bike To School Day)",
     "category": "animal",
     "tags": [
@@ -553,7 +553,7 @@
     ],
     "storytelling": {
       "origin": "2012년 5월 9일 미국 안전통학경로센터와 미국자전거연맹의 주도로 시작된 날로, 1997년 시작된 '걸어서 등교하는 날'을 자전거로 확장한 것이다. 자전거로 등교하는 습관이 어릴 때부터 신체 활동량을 늘린다는 문제의식에서 출발했으며, 통학로 안전 개선을 촉구하는 목적도 함께 담겨 있다.",
-      "anecdote": "출범 첫해에만 미국 49개 주 950여 곳에서 행사가 열렸다. 미국에서는 매년 5월 둘째 수요일에 열리며, 학생들의 신체 활동과 통학로 안전 의식을 함께 높이는 것이 목적이다. 한국에서도 등하굣길 자전거 안전교육과 그린 스쿨존 정책이 점차 확대되고 있으며, 지자체별로 통학로 자전거도로 정비 사업도 함께 진행된다."
+      "anecdote": "출범 첫해에만 미국 49개 주 950여 곳에서 행사가 열렸다. 미국에서는 매년 5월 첫 온전한 주의 수요일에 열리며, 학생들의 신체 활동과 통학로 안전 의식을 함께 높이는 것이 목적이다. 한국에서도 등하굣길 자전거 안전교육과 그린 스쿨존 정책이 점차 확대되고 있으며, 지자체별로 통학로 자전거도로 정비 사업도 함께 진행된다."
     },
     "memes": [
       {
@@ -775,8 +775,8 @@
   },
   {
     "id": "anv-fixed-05-06-military-spouse-appreciation-day-us",
-    "date": "05-06",
-    "dateType": "annual-fixed",
+    "date": "anv-nth-05-2-sun-us-mothers-day:-2",
+    "dateType": "annual-relative-to-holiday",
     "name": "군인 배우자 감사의 날",
     "category": "career",
     "tags": [
@@ -797,8 +797,8 @@
   },
   {
     "id": "anv-fixed-05-06-provider-appreciation-day-us",
-    "date": "05-06",
-    "dateType": "annual-fixed",
+    "date": "anv-nth-05-2-sun-us-mothers-day:-2",
+    "dateType": "annual-relative-to-holiday",
     "name": "돌봄 제공자 감사의 날",
     "category": "career",
     "tags": [
@@ -901,8 +901,8 @@
   },
   {
     "id": "anv-fixed-05-07-train-day-us",
-    "date": "05-07",
-    "dateType": "annual-fixed",
+    "date": "anv-nth-05-2-sun-us-mothers-day:-1",
+    "dateType": "annual-relative-to-holiday",
     "name": "기차의 날 (National Train Day)",
     "category": "history",
     "tags": [
@@ -923,8 +923,8 @@
   },
   {
     "id": "anv-fixed-05-07-start-seeing-monarchs-day-us",
-    "date": "05-07",
-    "dateType": "annual-fixed",
+    "date": "05-1-SAT",
+    "dateType": "annual-nth-weekday",
     "name": "모나크 나비 관찰의 날",
     "category": "animal",
     "tags": [
@@ -1055,8 +1055,8 @@
   },
   {
     "id": "anv-fixed-05-07-birth-mothers-day-us",
-    "date": "05-07",
-    "dateType": "annual-fixed",
+    "date": "anv-nth-05-2-sun-us-mothers-day:-1",
+    "dateType": "annual-relative-to-holiday",
     "name": "출산모의 날 (National Birth Mother's Day)",
     "category": "general",
     "tags": [
@@ -3526,8 +3526,8 @@
   },
   {
     "id": "anv-fixed-05-27-dont-fry-day-us",
-    "date": "05-27",
-    "dateType": "annual-fixed",
+    "date": "anv-nth-05-l-mon-memorial-day-us:-3",
+    "dateType": "annual-relative-to-holiday",
     "name": "자외선 차단의 날 (National Don't Fry Day)",
     "category": "campaign",
     "tags": [

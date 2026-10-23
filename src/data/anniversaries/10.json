@@ -1442,8 +1442,8 @@
   },
   {
     "id": "anv-fixed-10-14-fossil-day-us",
-    "date": "10-2-WED",
-    "dateType": "annual-nth-weekday",
+    "date": "anv-fixed-10-11-clergy-appreciation-day-global:3",
+    "dateType": "annual-relative-to-holiday",
     "name": "화석의 날 (National Fossil Day)",
     "category": "academic",
     "tags": [
@@ -2656,8 +2656,8 @@
   },
   {
     "id": "anv-fixed-10-25-international-bandanna-day-global",
-    "date": "10-25",
-    "dateType": "annual-fixed",
+    "date": "10-L-THU",
+    "dateType": "annual-nth-weekday",
     "name": "세계 반다나의 날 (International Bandanna Day)",
     "category": "campaign",
     "tags": [

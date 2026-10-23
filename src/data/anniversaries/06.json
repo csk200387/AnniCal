@@ -2710,8 +2710,8 @@
   },
   {
     "id": "anv-fixed-06-26-take-your-dog-to-work-day-us",
-    "date": "06-26",
-    "dateType": "annual-fixed",
+    "date": "anv-nth-06-3-sun-fathers-day-us:5",
+    "dateType": "annual-relative-to-holiday",
     "name": "반려견과 함께 출근하는 날",
     "category": "animal",
     "tags": [
